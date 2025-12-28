@@ -67,17 +67,21 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2025-12-27 | **成功**: 5 | **失败**: 0
+**最后更新**: 2025-12-28 | **成功**: 9 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | All Algorithms implemented in Python... | Python | 215.5k | 127 | TheAlgorithms/Python项目收集了多种算法的Python实现，主要用于教育目的。代码旨在帮助学习和理解算法原理，但可能未优化至标准库的效率水平。 |
-| 2 | [xerrors/Yuxi-Know](https://github.com/xerrors/Yuxi-Know) | 结合LightRAG 知识库的知识图谱智能体平台。 An agent platform that i... | Python | 3.5k | 47 | 语析是一个基于LightRAG知识库与知识图谱的智能体开发平台，整合RAG技术与图数据库实现知识推理。采用LangChain+Vue+FastAPI架构，提供PDF处理、Neo4j图谱存储及MCP工具集成，支持构建企业级智能问答系统。 |
-| 3 | [agrinman/tunnelto](https://github.com/agrinman/tunnelto) | Expose your local web server to the internet with ... | Rust | 3.7k | 565 | tunnelto 是一个用 Rust 编写的工具，通过异步 IO 和 Tokio 框架实现本地 Web 服务的公网暴露。支持自定义端口、子域名和 HTTPS，提供快速隧道建立功能，适用于开发测试和本地服务共享场景。 |
-| 4 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and ... | Python | 84.5k | 133 | 收集了基于RAG、AI代理和多代理团队的LLM应用，整合OpenAI、Anthropic、Gemini等模型及开源模型，提供AI应用开发实践案例。 |
-| 5 | [rendercv/rendercv](https://github.com/rendercv/rendercv) | CV/resume generator for academics and engineers, Y... | Python | 12.6k | 615 | RenderCV是一款基于YAML的学术与工程师简历生成工具，可将结构化文本自动转换为格式规范的PDF文档。支持版本控制、自动排版、设计定制化，提供JSON Schema实现交互式填写与验证，解决传统简历模板布局问题。 |
+| 1 | [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) | ... | Batchfile | 20.1k | 259 | 该项目使用Batchfile脚本结合WinDivert驱动实现网络流量过滤，旨在绕过特定网络限制。提供DNS配置指南和二进制文件部署方案，需注意杀毒软件误报风险。包含手动执行策略的启动脚本和安全配置说明。 |
+| 2 | [tw93/Mole](https://github.com/tw93/Mole) | 🐹 Deep clean and optimize your Mac.... | Shell | 21.3k | 1.6k | Mole 是一款用于 macOS 的系统清理与优化工具，整合了多款知名工具功能。支持深度清理缓存、日志及浏览器残留，智能卸载应用并清除残留文件，提供磁盘分析、实时系统监控及性能优化功能。可通过脚本或 Homebrew 安装，支持命令行交互与自动化操作。 |
+| 3 | [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | All Algorithms implemented in Python... | Python | 215.8k | 358 | TheAlgorithms/Python 项目汇集了各种算法的 Python 实现，旨在用于教育和学习目的。这些实现可能效率低于标准库，但适合理解算法原理和逻辑。项目包含详细的贡献指南和社区支持，便于开发者参与和学习。 |
+| 4 | [Sergeydigl3/zapret-discord-youtube-linux](https://github.com/Sergeydigl3/zapret-discord-youtube-linux) | (NOW ONLY FOR NFTABLES) Port zapret-discord-youtub... | Shell | 836 | 10 | 该项目是基于nftables的Linux系统YouTube加速配置适配器，提供多策略选择和自动化配置，支持Ubuntu和Arch Linux，简化了Zapret Discord Youtube的部署流程。 |
+| 5 | [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) | Get 10X more out of Claude Code, Codex or any codi... | Rust | 7.3k | 144 | Vibe Kanban是一款AI代码代理协作工具，支持多代理任务编排、状态跟踪、配置管理和远程开发，提升代码生成效率。提供跨代理切换、并行/串行执行及开发服务器集成功能。 |
+| 6 | [RustPython/RustPython](https://github.com/RustPython/RustPython) | A Python Interpreter written in Rust... | Rust | 21.1k | 58 | RustPython是用Rust编写的Python 3解释器，兼容CPython 3.13.0及以上版本。支持WebAssembly运行环境，提供交互式shell和脚本执行功能，注重性能与安全性，可替代CPython用于高性能场景。 |
+| 7 | [QuantConnect/Lean](https://github.com/QuantConnect/Lean) | Lean Algorithmic Trading Engine by QuantConnect (P... | C# | 14.4k | 72 | QuantConnect/Lean 是一个模块化的算法交易引擎，支持C#和Python，提供回测、优化、实时交易功能。内置CLI工具简化策略开发与部署，适用于多市场量化交易场景。 |
+| 8 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and ... | Python | 84.8k | 397 | 收集了基于RAG、AI代理、多代理团队和语音代理的LLM应用示例，整合OpenAI、Anthropic、Gemini等模型及开源模型，提供技术实现与应用场景参考。 |
+| 9 | [sinelaw/fresh](https://github.com/sinelaw/fresh) | Text editor for your terminal: easy, powerful and ... | Rust | 3.8k | 281 | Rust编写的终端文本编辑器，提供类GUI交互体验，支持大文件高效处理、低延迟响应及插件扩展，兼顾性能与易用性。 |
 
-[查看完整数据](api/github/2025-12-27.json)
+[查看完整数据](api/github/2025-12-28.json)
 <!-- END GITHUB TRENDING -->
 
 

@@ -1,0 +1,184 @@
+{
+  "date": "2025-12-28",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Flowseal/zapret-discord-youtube",
+      "description": "",
+      "language": "Batchfile",
+      "stars": 20147,
+      "forks": 1665,
+      "todayStars": 259,
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "aiSummary": {
+        "summary": "该项目使用Batchfile脚本结合WinDivert驱动实现网络流量过滤，旨在绕过特定网络限制。提供DNS配置指南和二进制文件部署方案，需注意杀毒软件误报风险。包含手动执行策略的启动脚本和安全配置说明。",
+        "techStack": [
+          "Batchfile",
+          "WinDivert",
+          "Windows System Programming"
+        ],
+        "useCase": "需要绕过网络审查或进行流量控制的Windows系统用户"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "tw93/Mole",
+      "description": "🐹 Deep clean and optimize your Mac.",
+      "language": "Shell",
+      "stars": 21325,
+      "forks": 577,
+      "todayStars": 1605,
+      "url": "https://github.com/tw93/Mole",
+      "aiSummary": {
+        "summary": "Mole 是一款用于 macOS 的系统清理与优化工具，整合了多款知名工具功能。支持深度清理缓存、日志及浏览器残留，智能卸载应用并清除残留文件，提供磁盘分析、实时系统监控及性能优化功能。可通过脚本或 Homebrew 安装，支持命令行交互与自动化操作。",
+        "techStack": [
+          "Shell",
+          "Homebrew",
+          "Unix System Tools"
+        ],
+        "useCase": "适用于 macOS 用户进行系统垃圾清理、性能优化及应用程序管理"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "TheAlgorithms/Python",
+      "description": "All Algorithms implemented in Python",
+      "language": "Python",
+      "stars": 215821,
+      "forks": 49760,
+      "todayStars": 358,
+      "url": "https://github.com/TheAlgorithms/Python",
+      "aiSummary": {
+        "summary": "TheAlgorithms/Python 项目汇集了各种算法的 Python 实现，旨在用于教育和学习目的。这些实现可能效率低于标准库，但适合理解算法原理和逻辑。项目包含详细的贡献指南和社区支持，便于开发者参与和学习。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "学习和教学用途，帮助理解算法实现原理"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Sergeydigl3/zapret-discord-youtube-linux",
+      "description": "(NOW ONLY FOR NFTABLES) Port zapret-discord-youtube from Flowseal and bol-van for easy to use on linux",
+      "language": "Shell",
+      "stars": 836,
+      "forks": 39,
+      "todayStars": 10,
+      "url": "https://github.com/Sergeydigl3/zapret-discord-youtube-linux",
+      "aiSummary": {
+        "summary": "该项目是基于nftables的Linux系统YouTube加速配置适配器，提供多策略选择和自动化配置，支持Ubuntu和Arch Linux，简化了Zapret Discord Youtube的部署流程。",
+        "techStack": [
+          "Shell脚本",
+          "nftables",
+          "Linux系统命令"
+        ],
+        "useCase": "需要在Linux系统上通过nftables实现YouTube加速的用户场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "BloopAI/vibe-kanban",
+      "description": "Get 10X more out of Claude Code, Codex or any coding agent",
+      "language": "Rust",
+      "stars": 7303,
+      "forks": 731,
+      "todayStars": 144,
+      "url": "https://github.com/BloopAI/vibe-kanban",
+      "aiSummary": {
+        "summary": "Vibe Kanban是一款AI代码代理协作工具，支持多代理任务编排、状态跟踪、配置管理和远程开发，提升代码生成效率。提供跨代理切换、并行/串行执行及开发服务器集成功能。",
+        "techStack": [
+          "Rust",
+          "Node.js",
+          "pnpm",
+          "SQLx"
+        ],
+        "useCase": "提升AI代码代理使用效率，管理多代理任务和开发流程"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "RustPython/RustPython",
+      "description": "A Python Interpreter written in Rust",
+      "language": "Rust",
+      "stars": 21114,
+      "forks": 1376,
+      "todayStars": 58,
+      "url": "https://github.com/RustPython/RustPython",
+      "aiSummary": {
+        "summary": "RustPython是用Rust编写的Python 3解释器，兼容CPython 3.13.0及以上版本。支持WebAssembly运行环境，提供交互式shell和脚本执行功能，注重性能与安全性，可替代CPython用于高性能场景。",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "适用于需要在Rust生态中集成Python脚本或追求高性能Python执行环境的场景。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "QuantConnect/Lean",
+      "description": "Lean Algorithmic Trading Engine by QuantConnect (Python, C#)",
+      "language": "C#",
+      "stars": 14430,
+      "forks": 4065,
+      "todayStars": 72,
+      "url": "https://github.com/QuantConnect/Lean",
+      "aiSummary": {
+        "summary": "QuantConnect/Lean 是一个模块化的算法交易引擎，支持C#和Python，提供回测、优化、实时交易功能。内置CLI工具简化策略开发与部署，适用于多市场量化交易场景。",
+        "techStack": [
+          "C#",
+          "Python",
+          "Docker"
+        ],
+        "useCase": "量化交易策略开发、回测及多市场实时交易部署"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+      "language": "Python",
+      "stars": 84840,
+      "forks": 12061,
+      "todayStars": 397,
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "aiSummary": {
+        "summary": "收集了基于RAG、AI代理、多代理团队和语音代理的LLM应用示例，整合OpenAI、Anthropic、Gemini等模型及开源模型，提供技术实现与应用场景参考。",
+        "techStack": [
+          "Python",
+          "OpenAI",
+          "Anthropic",
+          "Gemini",
+          "RAG"
+        ],
+        "useCase": "研究人员和开发者获取LLM应用范例及多模型技术整合方案"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "sinelaw/fresh",
+      "description": "Text editor for your terminal: easy, powerful and fast",
+      "language": "Rust",
+      "stars": 3768,
+      "forks": 118,
+      "todayStars": 281,
+      "url": "https://github.com/sinelaw/fresh",
+      "aiSummary": {
+        "summary": "Rust编写的终端文本编辑器，提供类GUI交互体验，支持大文件高效处理、低延迟响应及插件扩展，兼顾性能与易用性。",
+        "techStack": [
+          "Rust",
+          "TypeScript",
+          "Deno"
+        ],
+        "useCase": "适用于需要高性能终端编辑器的开发者，尤其适合处理大文件或需图形化界面过渡的场景。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-28T23:25:27.046Z",
+    "duration": "75s",
+    "version": "1.0.0"
+  }
+}
