@@ -1,0 +1,257 @@
+{
+  "date": "2025-12-30",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "BloopAI/vibe-kanban",
+      "description": "Get 10X more out of Claude Code, Codex or any coding agent",
+      "language": "Rust",
+      "stars": 8987,
+      "forks": 836,
+      "todayStars": 580,
+      "url": "https://github.com/BloopAI/vibe-kanban",
+      "aiSummary": {
+        "summary": "Vibe Kanban是一款提升AI代码代理使用效率的开发工具，支持多代理切换、任务编排、状态跟踪及远程项目管理，优化代码协作流程。",
+        "techStack": [
+          "Rust",
+          "Node.js",
+          "pnpm",
+          "SQLx"
+        ],
+        "useCase": "提升开发者与AI代码代理（如Claude、Codex）协作效率，管理多任务流水线。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "language": "",
+      "stars": 104062,
+      "forks": 27623,
+      "todayStars": 658,
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "aiSummary": {
+        "summary": "该项目收集了30+ AI开发工具的系统提示、内部工具及模型配置，涵盖代码辅助、AI代理等场景，提供超过3万行技术洞察，支持开发者研究优化AI应用。包含安全预警与开源资源，适用于AI模型分析与安全防护研究。",
+        "techStack": [
+          "未知"
+        ],
+        "useCase": "AI开发者与研究人员分析和优化AI工具系统提示及模型配置"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "QuantConnect/Lean",
+      "description": "Lean Algorithmic Trading Engine by QuantConnect (Python, C#)",
+      "language": "C#",
+      "stars": 15177,
+      "forks": 4123,
+      "todayStars": 437,
+      "url": "https://github.com/QuantConnect/Lean",
+      "aiSummary": {
+        "summary": "QuantConnect/Lean是开源算法交易引擎，支持C#和Python，提供模块化架构、替代数据接入及实时交易功能。内置CLI工具实现策略回测、优化与部署，适用于多市场量化交易开发。",
+        "techStack": [
+          "C#",
+          "Python",
+          "Docker",
+          "NuGet"
+        ],
+        "useCase": "量化交易策略开发与自动化交易系统构建"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "jrouwe/JoltPhysics",
+      "description": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West.",
+      "language": "C++",
+      "stars": 9012,
+      "forks": 610,
+      "todayStars": 15,
+      "url": "https://github.com/jrouwe/JoltPhysics",
+      "aiSummary": {
+        "summary": "JoltPhysics是基于C++的多线程刚体物理引擎，支持游戏与VR场景。采用无锁设计实现后台加载/卸载物理体，碰撞查询与模拟并行处理，避免意外唤醒物体导致的性能问题，确保模拟确定性。",
+        "techStack": [
+          "C++"
+        ],
+        "useCase": "适用于需要高性能多线程物理模拟的游戏及VR应用开发"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "timescale/pg-aiguide",
+      "description": "MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code.",
+      "language": "Python",
+      "stars": 778,
+      "forks": 43,
+      "todayStars": 382,
+      "url": "https://github.com/timescale/pg-aiguide",
+      "aiSummary": {
+        "summary": "pg-aiguide是面向PostgreSQL的AI编码优化工具，提供版本化手册语义搜索、最佳实践技能库及扩展文档，提升AI生成代码的质量与性能。支持作为MCP服务器或Claude插件使用，解决代码过时、约束缺失等问题。",
+        "techStack": [
+          "Python",
+          "MCP Server",
+          "Claude Code Plugin"
+        ],
+        "useCase": "优化AI编码工具生成的PostgreSQL代码质量，提升数据库架构设计合理性"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "resemble-ai/chatterbox",
+      "description": "SoTA open-source TTS",
+      "language": "Python",
+      "stars": 19618,
+      "forks": 2565,
+      "todayStars": 600,
+      "url": "https://github.com/resemble-ai/chatterbox",
+      "aiSummary": {
+        "summary": "Chatterbox是Resemble AI开发的开源文本转语音（TTS）项目，包含三种模型：Turbo（高效低延迟）、多语言版（支持23+语言）和通用版（支持零样本克隆）。支持情感标签如[laugh]，适用于语音代理、多语言应用及创意工作流。",
+        "techStack": [
+          "Python",
+          "深度学习框架",
+          "Hugging Face Transformers"
+        ],
+        "useCase": "适用于需要低延迟语音生成和多语言支持的智能助手及互动媒体场景。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "RustPython/RustPython",
+      "description": "A Python Interpreter written in Rust",
+      "language": "Rust",
+      "stars": 21496,
+      "forks": 1393,
+      "todayStars": 193,
+      "url": "https://github.com/RustPython/RustPython",
+      "aiSummary": {
+        "summary": "RustPython是用Rust编写的Python解释器，兼容CPython 3.13.0及以上版本，支持WebAssembly运行，提供交互式Shell和脚本执行功能，旨在结合Rust的性能与Python的生态优势。",
+        "techStack": [
+          "Rust",
+          "WebAssembly",
+          "Cargo"
+        ],
+        "useCase": "需要高性能Python解释器或Rust与Python集成的场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "sinelaw/fresh",
+      "description": "Text editor for your terminal: easy, powerful and fast",
+      "language": "Rust",
+      "stars": 4315,
+      "forks": 141,
+      "todayStars": 262,
+      "url": "https://github.com/sinelaw/fresh",
+      "aiSummary": {
+        "summary": "Rust编写的终端文本编辑器，提供类GUI交互体验，支持大文件高效处理、低延迟响应及现代插件扩展。内置菜单、命令面板和鼠标支持，兼顾性能与易用性。",
+        "techStack": [
+          "Rust",
+          "TypeScript",
+          "Deno"
+        ],
+        "useCase": "适合需要高效处理大文件及追求低延迟终端编辑体验的开发者"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "alexta69/metube",
+      "description": "Self-hosted YouTube downloader (web UI for youtube-dl / yt-dlp)",
+      "language": "Python",
+      "stars": 11537,
+      "forks": 781,
+      "todayStars": 67,
+      "url": "https://github.com/alexta69/metube",
+      "aiSummary": {
+        "summary": "MeTube是基于Python的自托管YouTube下载工具，提供Web界面支持多平台视频下载及播放列表管理。通过Docker部署，支持多种下载模式配置，可灵活控制并发数量与下载策略。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "yt-dlp"
+        ],
+        "useCase": "适用于需要离线下载多平台视频内容的自托管场景"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 30158,
+      "forks": 2755,
+      "todayStars": 974,
+      "url": "https://github.com/anthropics/skills",
+      "aiSummary": {
+        "summary": "该项目是Anthropic为Claude代理提供的技能示例仓库，包含动态加载的指令、脚本和资源，用于提升特定任务性能，涵盖创意应用、技术任务及企业工作流，提供可自定义的技能模板和实现参考。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "开发和测试AI代理的技能系统，适用于任务自动化与企业流程优化"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "cjpais/Handy",
+      "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+      "language": "TypeScript",
+      "stars": 9438,
+      "forks": 657,
+      "todayStars": 144,
+      "url": "https://github.com/cjpais/Handy",
+      "aiSummary": {
+        "summary": "Handy是一款完全离线的开源语音转文本工具，采用Tauri框架开发，支持跨平台使用。通过本地化处理保障隐私，集成Whisper和Parakeet模型实现高精度语音识别，支持键盘快捷键控制与文本直接粘贴。",
+        "techStack": [
+          "Tauri",
+          "TypeScript",
+          "Rust"
+        ],
+        "useCase": "适用于需要隐私保护的语音转文字场景，如日常办公、敏感信息录入等"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "sst/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "stars": 44419,
+      "forks": 3818,
+      "todayStars": 558,
+      "url": "https://github.com/sst/opencode",
+      "aiSummary": {
+        "summary": "开源AI编码代理工具，支持代码生成、分析及开发协作。提供CLI和桌面应用，兼容多平台安装，内置build/plan双模式，适用于代码探索与多步骤任务处理。",
+        "techStack": [
+          "TypeScript",
+          "CLI工具",
+          "跨平台桌面应用"
+        ],
+        "useCase": "用于代码生成、分析及开发协作的开源AI代理工具。"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "louislam/uptime-kuma",
+      "description": "A fancy self-hosted monitoring tool",
+      "language": "JavaScript",
+      "stars": 80495,
+      "forks": 7170,
+      "todayStars": 56,
+      "url": "https://github.com/louislam/uptime-kuma",
+      "aiSummary": {
+        "summary": "Uptime Kuma 是一款功能丰富的自托管监控工具，支持HTTP(s)/TCP/DNS等多协议监控，提供实时通知、多语言界面、状态页面管理及20秒高频检测，适用于本地化部署的IT服务监控需求。",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Docker"
+        ],
+        "useCase": "适用于企业或开发者自建服务器、网站及应用的高可用性监控场景。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-30T23:25:03.811Z",
+    "duration": "92s",
+    "version": "1.0.0"
+  }
+}
