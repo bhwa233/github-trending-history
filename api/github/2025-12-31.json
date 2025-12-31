@@ -1,0 +1,203 @@
+{
+  "date": "2025-12-31",
+  "since": "daily",
+  "totalRepos": 10,
+  "successCount": 10,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "afkarxyz/SpotiFLAC",
+      "description": "Get Spotify tracks in true FLAC from Tidal, Qobuz & Amazon Music — no account required.",
+      "language": "TypeScript",
+      "stars": 1537,
+      "forks": 88,
+      "todayStars": 391,
+      "url": "https://github.com/afkarxyz/SpotiFLAC",
+      "aiSummary": {
+        "summary": "SpotiFLAC是一款无需账户即可从Tidal、Qobuz和Amazon Music获取Spotify歌曲的工具，支持将音频转换为高质量FLAC格式。项目为第三方工具，强调仅限教育及私人使用，避免版权侵权风险。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "HTTP API"
+        ],
+        "useCase": "音乐爱好者获取多平台Spotify音频资源并转换为FLAC格式"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "google-gemini/computer-use-preview",
+      "description": "",
+      "language": "Python",
+      "stars": 2315,
+      "forks": 304,
+      "todayStars": 53,
+      "url": "https://github.com/google-gemini/computer-use-preview",
+      "aiSummary": {
+        "summary": "该工具基于Gemini API或Vertex AI构建，提供计算机使用预览功能，支持自动化任务执行与浏览器操作。包含环境配置、API密钥管理及主程序运行模块，适用于AI驱动的自动化场景。",
+        "techStack": [
+          "Python",
+          "Playwright",
+          "Gemini API",
+          "Vertex AI"
+        ],
+        "useCase": "自动化计算机操作与AI辅助任务执行"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "harvard-edge/cs249r_book",
+      "description": "Introduction to Machine Learning Systems",
+      "language": "JavaScript",
+      "stars": 13950,
+      "forks": 1585,
+      "todayStars": 1144,
+      "url": "https://github.com/harvard-edge/cs249r_book",
+      "aiSummary": {
+        "summary": "该项目是机器学习系统工程的开源学习资源，包含教材源码、TinyTorch工具、硬件套件和实验代码，旨在通过理论与实践结合的方式教授AI系统设计、构建和部署，强调工程化能力培养。",
+        "techStack": [
+          "JavaScript",
+          "TinyTorch",
+          "MLPerf"
+        ],
+        "useCase": "适用于机器学习系统工程教育及AI工程化实践开发"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "BloopAI/vibe-kanban",
+      "description": "Get 10X more out of Claude Code, Codex or any coding agent",
+      "language": "Rust",
+      "stars": 10090,
+      "forks": 919,
+      "todayStars": 1573,
+      "url": "https://github.com/BloopAI/vibe-kanban",
+      "aiSummary": {
+        "summary": "Vibe Kanban是一款用于高效管理AI编码代理的工具，支持多代理任务编排、状态追踪、配置集中管理及远程项目访问，提升代码生成与协作效率。",
+        "techStack": [
+          "Rust",
+          "Node.js",
+          "pnpm"
+        ],
+        "useCase": "适用于需要协调多个AI编码代理的开发团队或个人开发者优化代码生成流程。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "timescale/pg-aiguide",
+      "description": "MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code.",
+      "language": "Python",
+      "stars": 1007,
+      "forks": 52,
+      "todayStars": 321,
+      "url": "https://github.com/timescale/pg-aiguide",
+      "aiSummary": {
+        "summary": "pg-aiguide是为AI编码工具优化的PostgreSQL技能增强工具，提供版本化文档语义搜索、最佳实践技能库和扩展生态文档，提升AI生成代码的质量与一致性。",
+        "techStack": [
+          "Python",
+          "MCP服务器",
+          "Claude插件"
+        ],
+        "useCase": "提升AI编码工具生成的PostgreSQL代码质量与性能"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "sansan0/TrendRadar",
+      "description": "🎯 告别信息过载，AI 助你看懂新闻资讯热点，支持 RSS 订阅，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+AI对话分析（用自然语言深度挖掘新闻：趋势追踪、情感分析、相似检索等20种工具）。支持企业微信/个人微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 推送，30秒快速部署，1分钟手机通知，无需编程。支持Docker部署，支持数据远程云存储⭐ 让算法为你服务，用AI理解热点",
+      "language": "Python",
+      "stars": 41761,
+      "forks": 21125,
+      "todayStars": 149,
+      "url": "https://github.com/sansan0/TrendRadar",
+      "aiSummary": {
+        "summary": "TrendRadar是一款基于AI的多平台舆情监控工具，支持35个资讯平台热点聚合，提供趋势追踪、情感分析、相似检索等20种分析功能，可通过企业微信/钉钉/邮件等多渠道推送，采用Docker部署实现30秒快速上线。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "MCP"
+        ],
+        "useCase": "适用于企业或个人进行跨平台舆情监控与新闻热点智能分析"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "openai/openai-cookbook",
+      "description": "Examples and guides for using the OpenAI API",
+      "language": "Jupyter Notebook",
+      "stars": 70178,
+      "forks": 11794,
+      "todayStars": 57,
+      "url": "https://github.com/openai/openai-cookbook",
+      "aiSummary": {
+        "summary": "OpenAI官方提供的API使用示例与指南仓库，包含Jupyter Notebook格式的代码示例、API调用教程及环境配置说明，帮助开发者快速实现文本生成、对话交互等常见AI功能。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "OpenAI API"
+        ],
+        "useCase": "适用于开发者学习和快速实现OpenAI API的自然语言处理、机器学习等应用场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "organicmaps/organicmaps",
+      "description": "🍃 Organic Maps is a free Android & iOS offline maps app for travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!",
+      "language": "C++",
+      "stars": 12575,
+      "forks": 1264,
+      "todayStars": 40,
+      "url": "https://github.com/organicmaps/organicmaps",
+      "aiSummary": {
+        "summary": "Organic Maps是一款注重隐私的开源离线地图应用，提供徒步、骑行等多场景导航服务。基于OpenStreetMap数据，支持离线搜索、路线规划及地形分析，无广告和数据追踪，适用于需要隐私保护的户外活动用户。",
+        "techStack": [
+          "C++",
+          "OpenStreetMap",
+          "跨平台移动开发框架"
+        ],
+        "useCase": "适用于户外运动爱好者及注重隐私的旅行者离线导航需求"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "resemble-ai/chatterbox",
+      "description": "SoTA open-source TTS",
+      "language": "Python",
+      "stars": 19949,
+      "forks": 2607,
+      "todayStars": 443,
+      "url": "https://github.com/resemble-ai/chatterbox",
+      "aiSummary": {
+        "summary": "Chatterbox是Resemble AI开发的开源文本转语音模型家族，包含Turbo（高效低延迟）、多语言模型（支持23+语言）和通用模型（支持零样本克隆与创意控制）。Turbo优化了计算资源，支持paralinguistic标签，适用于语音代理、多语言应用及创意场景。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于低延迟语音代理、多语言应用及创意TTS工作流。"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "nocodb/nocodb",
+      "description": "🔥 🔥 🔥 Open Source Airtable Alternative",
+      "language": "TypeScript",
+      "stars": 59580,
+      "forks": 4420,
+      "todayStars": 62,
+      "url": "https://github.com/nocodb/nocodb",
+      "aiSummary": {
+        "summary": "NocoDB是一款开源的Airtable替代工具，提供在线数据库构建功能。支持Docker部署，兼容SQLite/PostgreSQL等数据库，配备自动化安装脚本和多平台二进制包，适用于快速搭建数据管理应用。",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "PostgreSQL"
+        ],
+        "useCase": "适合需要快速部署云端数据库应用的开发团队或个人开发者"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-12-31T23:26:15.373Z",
+    "duration": "71s",
+    "version": "1.0.0"
+  }
+}
