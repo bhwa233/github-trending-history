@@ -1,0 +1,247 @@
+{
+  "date": "2026-01-01",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "awslabs/amazon-bedrock-agentcore-samples",
+      "description": "Amazon Bedrock Agentcore accelerates AI agents into production with the scale, reliability, and security, critical to real-world deployment.",
+      "language": "Jupyter Notebook",
+      "stars": 1977,
+      "forks": 721,
+      "todayStars": 219,
+      "url": "https://github.com/awslabs/amazon-bedrock-agentcore-samples",
+      "aiSummary": {
+        "summary": "Amazon Bedrock AgentCore Samples提供基于Jupyter Notebook的教程和示例，展示如何利用框架和模型无关的特性快速部署安全可靠的AI代理应用，涵盖Runtime、Gateway、Memory等核心组件实践。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Amazon Bedrock",
+          "LangGraph",
+          "LlamaIndex",
+          "CrewAI"
+        ],
+        "useCase": "适用于快速构建和部署企业级AI代理应用的开发与集成"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "BloopAI/vibe-kanban",
+      "description": "Get 10X more out of Claude Code, Codex or any coding agent",
+      "language": "Rust",
+      "stars": 10721,
+      "forks": 960,
+      "todayStars": 541,
+      "url": "https://github.com/BloopAI/vibe-kanban",
+      "aiSummary": {
+        "summary": "Vibe Kanban是一款用于协调和管理AI代码代理（如Claude Code、Codex）工作流程的工具，支持多代理并行/串行执行、任务状态跟踪、配置集中管理及远程项目SSH访问，旨在提升开发者效率。",
+        "techStack": [
+          "Rust",
+          "Node.js",
+          "pnpm"
+        ],
+        "useCase": "开发者高效协调多个AI代码代理进行协作开发与任务管理"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "usememos/memos",
+      "description": "An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.",
+      "language": "Go",
+      "stars": 48034,
+      "forks": 3456,
+      "todayStars": 81,
+      "url": "https://github.com/usememos/memos",
+      "aiSummary": {
+        "summary": "开源自托管笔记服务，强调隐私保护与数据自主权。支持Markdown格式，采用Go+React架构，提供快速性能与简单部署方案，适用于个人知识管理及团队协作场景。",
+        "techStack": [
+          "Go",
+          "React",
+          "Docker"
+        ],
+        "useCase": "个人笔记管理与团队知识库建设"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "organicmaps/organicmaps",
+      "description": "🍃 Organic Maps is a free Android & iOS offline maps app for travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!",
+      "language": "C++",
+      "stars": 12788,
+      "forks": 1271,
+      "todayStars": 232,
+      "url": "https://github.com/organicmaps/organicmaps",
+      "aiSummary": {
+        "summary": "Organic Maps是一款开源的隐私优先离线地图应用，提供徒步、骑行、驾驶等场景的离线导航服务。基于OpenStreetMap数据，支持多语言、暗黑模式、轨迹导出及详细地形信息，无广告无跟踪，强调用户隐私与电池续航优化。",
+        "techStack": [
+          "C++",
+          "OpenStreetMap",
+          "Android/iOS"
+        ],
+        "useCase": "适用于户外旅行、徒步探险及需要隐私保护的离线导航场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "afkarxyz/SpotiFLAC",
+      "description": "Get Spotify tracks in true FLAC from Tidal, Qobuz & Amazon Music — no account required.",
+      "language": "TypeScript",
+      "stars": 1874,
+      "forks": 105,
+      "todayStars": 437,
+      "url": "https://github.com/afkarxyz/SpotiFLAC",
+      "aiSummary": {
+        "summary": "SpotiFLAC 是一个无需账户即可从 Tidal、Qobuz 和 Amazon Music 获取 Spotify 音乐的工具，支持将音频转换为高质量 FLAC 格式。项目提供命令行接口，通过第三方服务实现跨平台音乐提取，但强调仅限教育和私人使用。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "API Integration"
+        ],
+        "useCase": "适用于需要将流媒体音乐转换为本地 FLAC 格式的个人用户"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "HQarroum/docker-android",
+      "description": "🤖 A minimal and customizable Docker image running the Android emulator as a service.",
+      "language": "Shell",
+      "stars": 1171,
+      "forks": 71,
+      "todayStars": 304,
+      "url": "https://github.com/HQarroum/docker-android",
+      "aiSummary": {
+        "summary": "提供最小化可定制的Android模拟器Docker镜像，支持KVM加速、多版本Android配置和无头模式运行，内置ADB服务与端口转发功能，适用于CI/CD环境及远程Android测试场景。",
+        "techStack": [
+          "Shell",
+          "Docker",
+          "Android Emulator",
+          "QEMU",
+          "ADB"
+        ],
+        "useCase": "持续集成流水线中需要远程控制Android虚拟设备的测试场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "harvard-edge/cs249r_book",
+      "description": "Introduction to Machine Learning Systems",
+      "language": "JavaScript",
+      "stars": 14444,
+      "forks": 1636,
+      "todayStars": 652,
+      "url": "https://github.com/harvard-edge/cs249r_book",
+      "aiSummary": {
+        "summary": "哈佛大学CS249R课程配套资源，聚焦AI系统工程教育，提供教材、TinyTorch框架、硬件套件及实验代码，涵盖机器学习系统设计、开发与部署全流程。",
+        "techStack": [
+          "JavaScript",
+          "TinyTorch",
+          "MLPerf"
+        ],
+        "useCase": "机器学习系统工程教学与实践，适用于AI系统开发与边缘计算部署场景。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "Polymarket/agents",
+      "description": "Trade autonomously on Polymarket using AI Agents",
+      "language": "Python",
+      "stars": 1412,
+      "forks": 361,
+      "todayStars": 66,
+      "url": "https://github.com/Polymarket/agents",
+      "aiSummary": {
+        "summary": "Polymarket Agents 是用于构建AI交易代理的框架，支持与Polymarket API集成，提供预测市场工具、RAG数据源和LLM工程功能，实现自动化交易策略。",
+        "techStack": [
+          "Python",
+          "Polymarket API",
+          "RAG",
+          "LLM"
+        ],
+        "useCase": "自动化预测市场交易与策略执行"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "HandsOnLLM/Hands-On-Large-Language-Models",
+      "description": "Official code repo for the O'Reilly Book - \"Hands-On Large Language Models\"",
+      "language": "Jupyter Notebook",
+      "stars": 19374,
+      "forks": 4597,
+      "todayStars": 101,
+      "url": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models",
+      "aiSummary": {
+        "summary": "该项目是O'Reilly书籍《Hands-On Large Language Models》的官方代码库，包含12章Jupyter Notebook示例，涵盖LLM基础、Transformer结构、文本分类、生成技术等，通过可视化教程帮助读者掌握LLM工具与实践。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "PyTorch"
+        ],
+        "useCase": "适用于研究人员和开发者学习大型语言模型的工具与技术实践。"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "yichuan-w/LEANN",
+      "description": "RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
+      "language": "Python",
+      "stars": 7793,
+      "forks": 707,
+      "todayStars": 638,
+      "url": "https://github.com/yichuan-w/LEANN",
+      "aiSummary": {
+        "summary": "LEANN是一个创新的向量数据库，通过图-based有选择性重新计算和高保真度剪枝技术，在个人设备上实现97%存储节省的RAG应用。支持本地化语义搜索，隐私保护，适用于文档检索、代码分析及个人AI助手场景。",
+        "techStack": [
+          "Python",
+          "向量数据库",
+          "图计算"
+        ],
+        "useCase": "个人设备上的私有化RAG应用，支持文档、代码及多源数据的语义检索与智能搜索"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "livekit/agents",
+      "description": "A powerful framework for building realtime voice AI agents 🤖🎙️📹",
+      "language": "Python",
+      "stars": 8780,
+      "forks": 2312,
+      "todayStars": 5,
+      "url": "https://github.com/livekit/agents",
+      "aiSummary": {
+        "summary": "LiveKit Agents是用于构建实时语音AI代理的Python框架，支持多模态交互与实时通信，提供STT、LLM、TTS等灵活集成，内置任务调度、WebRTC客户端及电话对接功能，适用于智能客服、实时会议等场景。",
+        "techStack": [
+          "Python",
+          "WebRTC",
+          "LiveKit"
+        ],
+        "useCase": "开发实时语音交互AI代理，如智能客服、多模态会议系统。"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "DayuanJiang/next-ai-draw-io",
+      "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+      "language": "TypeScript",
+      "stars": 16152,
+      "forks": 1673,
+      "todayStars": 95,
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "aiSummary": {
+        "summary": "基于Next.js的AI驱动图表工具，支持自然语言生成/编辑draw.io图表，提供多云架构图生成、图像/文档上传及AI可视化增强功能。",
+        "techStack": [
+          "Next.js",
+          "TypeScript",
+          "draw.io"
+        ],
+        "useCase": "适用于需要通过自然语言生成和编辑图表的开发者和设计师"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-01T23:26:41.535Z",
+    "duration": "89s",
+    "version": "1.0.0"
+  }
+}
