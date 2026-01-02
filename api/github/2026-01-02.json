@@ -1,0 +1,189 @@
+{
+  "date": "2026-01-02",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "HQarroum/docker-android",
+      "description": "🤖 A minimal and customizable Docker image running the Android emulator as a service.",
+      "language": "Shell",
+      "stars": 1723,
+      "forks": 98,
+      "todayStars": 474,
+      "url": "https://github.com/HQarroum/docker-android",
+      "aiSummary": {
+        "summary": "提供最小化可定制的Android模拟器Docker镜像，支持KVM加速、端口转发和CI环境部署，内置Java运行时与ADB服务，可灵活配置安卓版本及设备类型。",
+        "techStack": [
+          "Shell",
+          "Docker",
+          "Android Emulator",
+          "QEMU",
+          "libvirt"
+        ],
+        "useCase": "适用于持续集成流水线中需要远程控制和测试Android应用的场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "nocodb/nocodb",
+      "description": "🔥 🔥 🔥 Open Source Airtable Alternative",
+      "language": "TypeScript",
+      "stars": 59905,
+      "forks": 4451,
+      "todayStars": 110,
+      "url": "https://github.com/nocodb/nocodb",
+      "aiSummary": {
+        "summary": "NocoDB是开源的Airtable替代工具，提供在线数据库快速构建功能。支持Docker部署、多数据库兼容（SQLite/PostgreSQL），具备自动化安装、SSL配置及版本升级能力，适用于数据管理与低代码应用开发。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "PostgreSQL",
+          "Redis",
+          "Docker"
+        ],
+        "useCase": "适合需要快速搭建可视化数据库管理系统的团队或个人开发者"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "openai/openai-cookbook",
+      "description": "Examples and guides for using the OpenAI API",
+      "language": "Jupyter Notebook",
+      "stars": 70393,
+      "forks": 11814,
+      "todayStars": 28,
+      "url": "https://github.com/openai/openai-cookbook",
+      "aiSummary": {
+        "summary": "OpenAI官方提供的API使用示例与指南合集，包含多种AI任务实现代码和操作教程，帮助开发者快速上手OpenAI API。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "OpenAI API"
+        ],
+        "useCase": "适用于需要集成或学习OpenAI API应用场景的开发者参考学习"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "ourongxing/newsnow",
+      "description": "Elegant reading of real-time and hottest news",
+      "language": "TypeScript",
+      "stars": 16005,
+      "forks": 4704,
+      "todayStars": 213,
+      "url": "https://github.com/ourongxing/newsnow",
+      "aiSummary": {
+        "summary": "newsnow是一个实时新闻聚合应用，提供简洁UI和实时更新，支持GitHub登录、数据同步及自适应抓取间隔，优化资源使用并防止IP封禁，采用TypeScript开发，支持Cloudflare D1数据库。",
+        "techStack": [
+          "TypeScript",
+          "Cloudflare D1",
+          "GitHub OAuth"
+        ],
+        "useCase": "实时新闻聚合与个性化阅读"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "rossant/awesome-math",
+      "description": "A curated list of awesome mathematics resources",
+      "language": "Python",
+      "stars": 12953,
+      "forks": 1268,
+      "todayStars": 112,
+      "url": "https://github.com/rossant/awesome-math",
+      "aiSummary": {
+        "summary": "该项目是一个全面的数学资源列表，涵盖多个数学领域，包括学习平台、视频教程、工具、书籍和会议等，适合数学学习者和研究者查找优质资源。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为数学学习者和研究者提供全面的资源整理和导航。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "usememos/memos",
+      "description": "An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.",
+      "language": "Go",
+      "stars": 48849,
+      "forks": 3522,
+      "todayStars": 655,
+      "url": "https://github.com/usememos/memos",
+      "aiSummary": {
+        "summary": "Memos是一款开源自托管笔记服务，强调隐私保护与数据自主权。基于Go和React构建，支持Markdown格式、快速性能及多数据库部署，提供REST/gRPC API，适用于个人笔记管理及团队知识库建设。",
+        "techStack": [
+          "Go",
+          "React",
+          "Docker"
+        ],
+        "useCase": "个人知识管理与团队协作型文档存储"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "GitHubDaily/GitHubDaily",
+      "description": "坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.",
+      "language": "",
+      "stars": 43796,
+      "forks": 4417,
+      "todayStars": 48,
+      "url": "https://github.com/GitHubDaily/GitHubDaily",
+      "aiSummary": {
+        "summary": "GitHubDaily/GitHubDaily项目整理并分享高质量的开源技术教程、工具和资讯，涵盖AI漫画生成、春联创作、终端助手、OCR处理、语音转文本等实用工具，助力开发者高效利用开源技术。",
+        "techStack": [
+          "LLM",
+          "OCR",
+          "Hugging Face",
+          "FastAPI",
+          "Streamlit"
+        ],
+        "useCase": "开发者和科技爱好者获取和应用开源AI工具提升工作效率。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "SYSTRAN/faster-whisper",
+      "description": "Faster Whisper transcription with CTranslate2",
+      "language": "Python",
+      "stars": 20036,
+      "forks": 1675,
+      "todayStars": 102,
+      "url": "https://github.com/SYSTRAN/faster-whisper",
+      "aiSummary": {
+        "summary": "faster-whisper是基于CTranslate2的高效语音转录工具，通过优化Transformer模型推理速度，实现比原版Whisper快4倍的处理效率，支持CPU/GPU加速及8-bit量化技术，减少内存占用。",
+        "techStack": [
+          "Python",
+          "CTranslate2",
+          "PyAV"
+        ],
+        "useCase": "需要实时高效语音识别的场景如语音助手、视频字幕生成等"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Koenkk/zigbee2mqtt",
+      "description": "Zigbee 🐝 to MQTT bridge 🌉, get rid of your proprietary Zigbee bridges 🔨",
+      "language": "TypeScript",
+      "stars": 14504,
+      "forks": 1882,
+      "todayStars": 11,
+      "url": "https://github.com/Koenkk/zigbee2mqtt",
+      "aiSummary": {
+        "summary": "Zigbee2MQTT是Zigbee到MQTT协议的桥接工具，允许用户无需厂商网关即可控制Zigbee设备，并通过MQTT集成到智能家居系统中。支持多种家居平台如Home Assistant、Domoticz等。",
+        "techStack": [
+          "TypeScript",
+          "MQTT",
+          "Zigbee"
+        ],
+        "useCase": "智能家居自动化中实现Zigbee设备与MQTT协议的无缝集成"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-02T23:25:22.156Z",
+    "duration": "74s",
+    "version": "1.0.0"
+  }
+}
