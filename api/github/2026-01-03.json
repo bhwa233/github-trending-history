@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-03",
+  "since": "daily",
+  "totalRepos": 8,
+  "successCount": 8,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "usememos/memos",
+      "description": "An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.",
+      "language": "Go",
+      "stars": 50047,
+      "forks": 3607,
+      "todayStars": 841,
+      "url": "https://github.com/usememos/memos",
+      "aiSummary": {
+        "summary": "Memos是开源自托管笔记服务，强调隐私安全与数据所有权，支持Markdown格式，提供快速性能和开发者友好API，无需订阅费用。",
+        "techStack": [
+          "Go",
+          "React",
+          "Docker"
+        ],
+        "useCase": "个人和团队的隐私优先笔记管理与知识库构建"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "ourongxing/newsnow",
+      "description": "Elegant reading of real-time and hottest news",
+      "language": "TypeScript",
+      "stars": 16268,
+      "forks": 4754,
+      "todayStars": 314,
+      "url": "https://github.com/ourongxing/newsnow",
+      "aiSummary": {
+        "summary": "NewsNow是一个实时新闻聚合应用，提供简洁界面与GitHub OAuth登录，支持自适应抓取策略和缓存管理，可扩展MCP服务器架构。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Cloudflare D1"
+        ],
+        "useCase": "需要实时新闻聚合与个性化阅读的场景，支持多语言和自定义部署"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "pathwaycom/pathway",
+      "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+      "language": "Python",
+      "stars": 55924,
+      "forks": 1527,
+      "todayStars": 976,
+      "url": "https://github.com/pathwaycom/pathway",
+      "aiSummary": {
+        "summary": "Pathway是一个Python ETL框架，支持流处理、实时分析、LLM管道和RAG。基于Rust引擎的增量计算，提供统一API处理批处理与流数据，兼容Python机器学习库，可部署于Docker/Kubernetes。",
+        "techStack": [
+          "Python",
+          "Rust",
+          "Differential Dataflow",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "实时数据处理与分析，适用于流式ETL、机器学习管道及检索增强生成场景。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "OpenBB-finance/OpenBB",
+      "description": "Financial data platform for analysts, quants and AI agents.",
+      "language": "Python",
+      "stars": 56413,
+      "forks": 5491,
+      "todayStars": 335,
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "aiSummary": {
+        "summary": "OpenBB-finance/OpenBB 是一个开源金融数据平台，支持数据工程师整合多源数据并分发至AI代理、分析工具和研究仪表板。提供Python接口、REST API及与OpenBB Workspace的集成，实现'连接一次，随处消费'的数据管理方案。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "REST API"
+        ],
+        "useCase": "金融数据分析与AI代理系统集成"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "HQarroum/docker-android",
+      "description": "🤖 A minimal and customizable Docker image running the Android emulator as a service.",
+      "language": "Shell",
+      "stars": 2109,
+      "forks": 130,
+      "todayStars": 525,
+      "url": "https://github.com/HQarroum/docker-android",
+      "aiSummary": {
+        "summary": "提供最小化可定制的Android模拟器Docker镜像，支持KVM加速、端口转发和无头模式，适用于CI/CD环境。内置Java 11和QEMU，可灵活配置Android版本与设备类型，兼容scrcpy远程控制。",
+        "techStack": [
+          "Shell",
+          "Docker",
+          "Alpine Linux",
+          "Android Emulator",
+          "QEMU"
+        ],
+        "useCase": "持续集成环境中实现Android应用自动化测试与兼容性验证"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "beancount/beancount",
+      "description": "Beancount: Double-Entry Accounting from Text Files.",
+      "language": "Python",
+      "stars": 4950,
+      "forks": 385,
+      "todayStars": 111,
+      "url": "https://github.com/beancount/beancount",
+      "aiSummary": {
+        "summary": "Beancount是一个基于文本文件的双-entry会计系统，允许用户通过文本定义财务交易，读取后生成多种报告并提供Web界面。支持Python编程语言，适用于个人及小型企业的财务管理。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于个人及小型企业的文本文件驱动的复式记账管理。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "maplibre/maplibre-gl-js",
+      "description": "MapLibre GL JS - Interactive vector tile maps in the browser",
+      "language": "TypeScript",
+      "stars": 9056,
+      "forks": 956,
+      "todayStars": 88,
+      "url": "https://github.com/maplibre/maplibre-gl-js",
+      "aiSummary": {
+        "summary": "MapLibre GL JS 是一个开源地图库，支持浏览器端高性能矢量瓦片地图渲染，采用GPU加速技术。作为 Mapbox GL JS 的开源分支，提供交互式地图功能，适用于Web和WebView应用开发。",
+        "techStack": [
+          "TypeScript",
+          "WebGL",
+          "HTML5",
+          "CSS3"
+        ],
+        "useCase": "适用于需要嵌入高性能交互地图的Web应用开发场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "nukeop/nuclear",
+      "description": "Streaming music player that finds free music for you",
+      "language": "TypeScript",
+      "stars": 16757,
+      "forks": 1253,
+      "todayStars": 95,
+      "url": "https://github.com/nukeop/nuclear",
+      "aiSummary": {
+        "summary": "Nuclear是一款基于TypeScript的桌面音乐播放器，支持从YouTube、SoundCloud等免费平台流式传输音乐。提供播放列表管理、实时歌词、跨平台播放控制及Scrobbling功能，注重开源与免付费体验。",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "Node.js"
+        ],
+        "useCase": "适用于需要从免费来源流式传输音乐的桌面应用"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-03T23:24:53.552Z",
+    "duration": "57s",
+    "version": "1.0.0"
+  }
+}
