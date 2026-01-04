@@ -1,0 +1,202 @@
+{
+  "date": "2026-01-04",
+  "since": "daily",
+  "totalRepos": 10,
+  "successCount": 10,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "OpenBB-finance/OpenBB",
+      "description": "Financial data platform for analysts, quants and AI agents.",
+      "language": "Python",
+      "stars": 56768,
+      "forks": 5520,
+      "todayStars": 440,
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "aiSummary": {
+        "summary": "OpenBB-finance/OpenBB 是一个金融数据整合平台，支持分析师、量化研究人员和AI代理通过Python、Excel、AI代理和REST API统一访问多源数据。提供数据连接、处理及可视化功能，实现‘连接一次，随处消费’的架构。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "pandas"
+        ],
+        "useCase": "金融数据分析与AI代理集成"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "openai/openai-cookbook",
+      "description": "Examples and guides for using the OpenAI API",
+      "language": "Jupyter Notebook",
+      "stars": 70623,
+      "forks": 11843,
+      "todayStars": 43,
+      "url": "https://github.com/openai/openai-cookbook",
+      "aiSummary": {
+        "summary": "该项目提供OpenAI API的示例代码和使用指南，涵盖常见任务的实现方法。包含多种编程场景的实践案例，帮助开发者快速上手API调用与集成。",
+        "techStack": [
+          "Jupyter Notebook"
+        ],
+        "useCase": "适用于需要快速实现OpenAI API功能的开发场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "nocodb/nocodb",
+      "description": "🔥 🔥 🔥 Open Source Airtable Alternative",
+      "language": "TypeScript",
+      "stars": 60582,
+      "forks": 4504,
+      "todayStars": 375,
+      "url": "https://github.com/nocodb/nocodb",
+      "aiSummary": {
+        "summary": "NocoDB是开源的Airtable替代品，提供在线数据库构建工具。支持Docker部署、多数据库类型配置，包含自动化安装与升级功能，适用于快速搭建团队数据库应用。",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "PostgreSQL"
+        ],
+        "useCase": "适合需要快速搭建可协作数据库管理系统的团队或开发者"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "HQarroum/docker-android",
+      "description": "🤖 A minimal and customizable Docker image running the Android emulator as a service.",
+      "language": "Shell",
+      "stars": 2443,
+      "forks": 144,
+      "todayStars": 410,
+      "url": "https://github.com/HQarroum/docker-android",
+      "aiSummary": {
+        "summary": "提供最小化可定制的Android模拟器Docker镜像，支持KVM加速和无头模式，内置ADB服务与端口转发功能，适用于CI/CD环境及远程Android测试场景。",
+        "techStack": [
+          "Docker",
+          "Android Emulator",
+          "Alpine Linux",
+          "Shell"
+        ],
+        "useCase": "持续集成环境中自动化Android应用测试与远程设备控制"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "usememos/memos",
+      "description": "An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.",
+      "language": "Go",
+      "stars": 51214,
+      "forks": 3695,
+      "todayStars": 1799,
+      "url": "https://github.com/usememos/memos",
+      "aiSummary": {
+        "summary": "Memos是一款开源自托管笔记服务，强调隐私安全与数据控制。支持Markdown格式，提供快速性能和开发者友好API，适用于个人知识管理及团队协作。",
+        "techStack": [
+          "Go",
+          "React",
+          "Docker"
+        ],
+        "useCase": "个人笔记管理与团队知识库构建"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars": 44500,
+      "forks": 7853,
+      "todayStars": 88,
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "aiSummary": {
+        "summary": "该项目是一个AI对冲基金原型，通过多个AI代理模拟不同投资策略（如价值投资、成长投资、量化分析等），整合估值分析、市场情绪判断、风险控制等功能，生成交易信号和决策建议，但明确说明不进行实际交易。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "用于教育和研究目的的AI对冲基金策略模拟与分析"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "ourongxing/newsnow",
+      "description": "Elegant reading of real-time and hottest news",
+      "language": "TypeScript",
+      "stars": 16549,
+      "forks": 4808,
+      "todayStars": 332,
+      "url": "https://github.com/ourongxing/newsnow",
+      "aiSummary": {
+        "summary": "Newsnow 是一个实时新闻聚合应用，提供简洁的阅读体验。支持GitHub OAuth登录、数据同步与自适应抓取机制，可自定义缓存策略和新闻源。基于TypeScript开发，适配Cloudflare D1数据库，支持部署于Vercel/Cloudflare Pages。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Cloudflare D1",
+          "GitHub OAuth"
+        ],
+        "useCase": "实时新闻聚合与个性化阅读场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "stars": 47597,
+      "forks": 4078,
+      "todayStars": 990,
+      "url": "https://github.com/anomalyco/opencode",
+      "aiSummary": {
+        "summary": "OpenCode 是一个开源的AI编码代理工具，提供两种代理模式：build代理用于开发工作，plan代理用于代码分析与规划。支持多平台安装，包含桌面应用和命令行工具，适用于代码编辑、分析及多步骤任务处理。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Electron"
+        ],
+        "useCase": "开发者代码辅助与智能分析"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "5rahim/seanime",
+      "description": "Open-source media server with a web interface and desktop app for anime and manga.",
+      "language": "Go",
+      "stars": 2088,
+      "forks": 134,
+      "todayStars": 406,
+      "url": "https://github.com/5rahim/seanime",
+      "aiSummary": {
+        "summary": "Seanime是基于Go的开源媒体服务器，提供Web界面和桌面应用，支持动漫/漫画本地库管理、AniList集成、Torrent搜索与直接播放、多平台播放器兼容及离线模式，涵盖从内容管理到流媒体的全方位功能。",
+        "techStack": [
+          "Go",
+          "Web技术栈",
+          "跨平台框架"
+        ],
+        "useCase": "个人动漫漫画媒体中心，支持本地存储与在线流媒体播放"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "python/cpython",
+      "description": "The Python programming language",
+      "language": "Python",
+      "stars": 70683,
+      "forks": 33818,
+      "todayStars": 27,
+      "url": "https://github.com/python/cpython",
+      "aiSummary": {
+        "summary": "CPython是Python编程语言的官方实现，提供解释器、编译器和标准库。支持跨平台构建与安装，包含开发文档、贡献指南及多版本兼容性支持，是Python生态的核心项目。",
+        "techStack": [
+          "Python",
+          "C",
+          "Makefile"
+        ],
+        "useCase": "开发跨平台的Python应用程序及扩展模块"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-04T23:26:19.421Z",
+    "duration": "76s",
+    "version": "1.0.0"
+  }
+}
