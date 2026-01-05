@@ -1,0 +1,203 @@
+{
+  "date": "2026-01-05",
+  "since": "daily",
+  "totalRepos": 10,
+  "successCount": 10,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "stars": 49632,
+      "forks": 4213,
+      "todayStars": 1868,
+      "url": "https://github.com/anomalyco/opencode",
+      "aiSummary": {
+        "summary": "开源AI编码代理，提供全功能开发代理和只读分析代理，支持多平台安装及桌面应用，适用于代码分析、规划及多环境开发。",
+        "techStack": [
+          "TypeScript",
+          "AI Coding Agent",
+          "Cross-Platform CLI"
+        ],
+        "useCase": "开发人员的AI辅助编码与代码结构分析"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "usememos/memos",
+      "description": "An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.",
+      "language": "Go",
+      "stars": 51856,
+      "forks": 3728,
+      "todayStars": 653,
+      "url": "https://github.com/usememos/memos",
+      "aiSummary": {
+        "summary": "Memos是开源自托管笔记服务，强调隐私安全与数据控制。支持Markdown格式，提供快速性能和简单部署方式，具备REST/gRPC API及可扩展的架构，适用于个人知识管理与团队协作。",
+        "techStack": [
+          "Go",
+          "React",
+          "Docker"
+        ],
+        "useCase": "个人及团队的隐私保护型笔记管理与知识库构建"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "OpenBB-finance/OpenBB",
+      "description": "Financial data platform for analysts, quants and AI agents.",
+      "language": "Python",
+      "stars": 57146,
+      "forks": 5544,
+      "todayStars": 380,
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "aiSummary": {
+        "summary": "OpenBB-finance/OpenBB 是一个面向分析师、量化研究员和AI代理的开源金融数据平台，提供数据整合、API接口及可视化工具。支持Python调用、Excel集成和AI代理对接，实现'连接一次，随处消费'的数据管理架构。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "REST API"
+        ],
+        "useCase": "金融数据分析与AI驱动的量化研究场景"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "ourongxing/newsnow",
+      "description": "Elegant reading of real-time and hottest news",
+      "language": "TypeScript",
+      "stars": 16773,
+      "forks": 4836,
+      "todayStars": 207,
+      "url": "https://github.com/ourongxing/newsnow",
+      "aiSummary": {
+        "summary": "实时新闻聚合应用，提供简洁界面、GitHub登录、动态缓存及自适应抓取功能，支持中文新闻实时更新与个性化配置。",
+        "techStack": [
+          "TypeScript",
+          "Cloudflare D1",
+          "GitHub OAuth"
+        ],
+        "useCase": "需要实时获取和个性化阅读热点新闻的场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars": 44734,
+      "forks": 7872,
+      "todayStars": 210,
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "aiSummary": {
+        "summary": "该项目是一个AI驱动的对冲基金模拟系统，整合了多位投资大师的策略，通过估值、情绪、基本面和技术分析生成交易信号，结合风险管理和组合管理模块进行决策，仅用于教育研究目的。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "金融策略研究与AI交易算法教育演示"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "python/cpython",
+      "description": "The Python programming language",
+      "language": "Python",
+      "stars": 70859,
+      "forks": 33831,
+      "todayStars": 169,
+      "url": "https://github.com/python/cpython",
+      "aiSummary": {
+        "summary": "CPython是Python语言的官方参考实现，使用C语言编写，提供Python解释器、编译器及标准库。支持多平台构建与安装，包含开发文档、贡献指南和测试框架，是Python生态的核心项目。",
+        "techStack": [
+          "Python",
+          "C",
+          "Makefile"
+        ],
+        "useCase": "开发和运行Python应用程序，以及参与Python语言的核心开发与维护。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars": 19750,
+      "forks": 2189,
+      "todayStars": 184,
+      "url": "https://github.com/microsoft/VibeVoice",
+      "aiSummary": {
+        "summary": "VibeVoice是微软开源的前沿语音AI框架，支持生成长达90分钟的多说话人对话音频，解决传统TTS的可扩展性和自然轮替问题。包含长格式多说话人模型与实时流式TTS模型，提供多语言及风格化语音合成，注重深度伪造风险防控。",
+        "techStack": [
+          "Python",
+          "深度学习框架",
+          "WebSocket"
+        ],
+        "useCase": "适用于播客制作、虚拟助手等需要高质量多说话人语音合成的场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "3b1b/manim",
+      "description": "Animation engine for explanatory math videos",
+      "language": "Python",
+      "stars": 83183,
+      "forks": 7035,
+      "todayStars": 82,
+      "url": "https://github.com/3b1b/manim",
+      "aiSummary": {
+        "summary": "Manim是用于创建解释性数学视频的程序化动画引擎，支持Python脚本生成高质量动画。项目包含核心渲染功能与数学公式支持，适用于教育视频制作。",
+        "techStack": [
+          "Python",
+          "FFmpeg",
+          "OpenGL",
+          "LaTeX"
+        ],
+        "useCase": "数学教育视频的动画制作与可视化"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "maplibre/maplibre-gl-js",
+      "description": "MapLibre GL JS - Interactive vector tile maps in the browser",
+      "language": "TypeScript",
+      "stars": 9366,
+      "forks": 967,
+      "todayStars": 68,
+      "url": "https://github.com/maplibre/maplibre-gl-js",
+      "aiSummary": {
+        "summary": "MapLibre GL JS 是一个开源地图库，提供浏览器端的交互式矢量瓦片地图渲染，基于 GPU 加速实现高性能地图显示。起源于 Mapbox GL JS 的开源分支，支持自定义样式和地图交互，适用于需要轻量级地图解决方案的项目。",
+        "techStack": [
+          "TypeScript",
+          "WebGL",
+          "JavaScript"
+        ],
+        "useCase": "适用于需要集成高性能交互式地图的网页或移动应用开发场景"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Shell",
+      "stars": 51603,
+      "forks": 3715,
+      "todayStars": 455,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code 是一款终端级代理编程工具，支持自然语言指令执行代码任务、解释复杂代码及管理Git工作流，通过插件扩展功能，提升开发效率。",
+        "techStack": [
+          "Shell",
+          "Node.js",
+          "Python"
+        ],
+        "useCase": "开发人员通过自然语言指令在终端或IDE中加速编码和管理Git流程。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-05T23:26:43.101Z",
+    "duration": "76s",
+    "version": "1.0.0"
+  }
+}
