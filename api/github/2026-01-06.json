@@ -1,0 +1,202 @@
+{
+  "date": "2026-01-06",
+  "since": "daily",
+  "totalRepos": 10,
+  "successCount": 10,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "protocolbuffers/protobuf",
+      "description": "Protocol Buffers - Google's data interchange format",
+      "language": "C++",
+      "stars": 70081,
+      "forks": 15982,
+      "todayStars": 14,
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "aiSummary": {
+        "summary": "Protocol Buffers（protobuf）是Google开发的跨语言、跨平台数据序列化框架，支持结构化数据高效编码解码。项目以C++实现，提供编译器生成多语言代码，广泛用于通信协议和数据存储，支持Bazel构建工具。",
+        "techStack": [
+          "C++",
+          "Bazel",
+          "Protocol Buffers"
+        ],
+        "useCase": "适用于需要跨语言、跨平台高效数据交换的分布式系统和网络通信场景。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "Lissy93/web-check",
+      "description": "🕵️‍♂️ All-in-one OSINT tool for analysing any website",
+      "language": "TypeScript",
+      "stars": 27740,
+      "forks": 2235,
+      "todayStars": 173,
+      "url": "https://github.com/Lissy93/web-check",
+      "aiSummary": {
+        "summary": "基于TypeScript开发的全功能OSINT工具，提供网站安全分析、技术架构检测及潜在风险识别。支持IP信息、SSL证书、DNS记录、服务器配置等多维度数据采集与可视化，助力网站优化与安全防护。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于网络安全审计、网站技术调研及漏洞风险排查场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that help you customize Windows and streamline everyday tasks",
+      "language": "C#",
+      "stars": 127261,
+      "forks": 7571,
+      "todayStars": 129,
+      "url": "https://github.com/microsoft/PowerToys",
+      "aiSummary": {
+        "summary": "Microsoft PowerToys是微软提供的Windows实用工具集合，包含25+功能模块，如窗口管理、快捷键定制、文件操作等，帮助用户提升系统自定义能力和日常任务效率。采用C#开发，适合需要优化Windows体验的开发者及高级用户。",
+        "techStack": [
+          "C#"
+        ],
+        "useCase": "适用于需要自定义和优化Windows系统功能的用户"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "anthropics/claude-code-action",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 4743,
+      "forks": 1336,
+      "todayStars": 32,
+      "url": "https://github.com/anthropics/claude-code-action",
+      "aiSummary": {
+        "summary": "该工具为GitHub PR和问题提供智能代码辅助，支持自动检测工作流上下文，实现代码审查、修复、重构及新功能开发，兼容多种AI平台认证方式，提供交互式代码问答和自动化任务执行。",
+        "techStack": [
+          "TypeScript",
+          "GitHub Actions",
+          "Anthropic API",
+          "Amazon Bedrock",
+          "Google Vertex AI"
+        ],
+        "useCase": "自动化处理GitHub代码审查、问题解答及功能开发任务"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "microsoft/BitNet",
+      "description": "Official inference framework for 1-bit LLMs",
+      "language": "Python",
+      "stars": 25361,
+      "forks": 2017,
+      "todayStars": 766,
+      "url": "https://github.com/microsoft/BitNet",
+      "aiSummary": {
+        "summary": "微软开源的1-bit大语言模型推理框架，优化CPU/GPU加速实现高效低能耗推理，支持ARM/x86架构，可运行超大规模100B参数模型，性能较传统方案提升1.37x-6.17x且能耗降低55.4%-82.2%",
+        "techStack": [
+          "Python",
+          "C/C++",
+          "CUDA"
+        ],
+        "useCase": "适用于需要高效、低能耗运行1-bit大语言模型的本地设备和边缘计算场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "marcelscruz/public-apis",
+      "description": "A collaborative list of public APIs for developers",
+      "language": "JavaScript",
+      "stars": 6846,
+      "forks": 657,
+      "todayStars": 170,
+      "url": "https://github.com/marcelscruz/public-apis",
+      "aiSummary": {
+        "summary": "该仓库是一个由开发者协作维护的公共API集合项目，涵盖动物、天气、金融、编程等多个领域的API资源，提供分类索引和详细描述，便于开发者快速查找和调用。项目包含API的认证方式、HTTPS支持等关键信息，支持高效测试与集成。",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "适用于需要快速接入多领域公共API的开发场景，提升接口调试与资源整合效率。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "kirodotdev/Kiro",
+      "description": "Kiro is an agentic IDE that works alongside you from prototype to production.",
+      "language": "",
+      "stars": 2658,
+      "forks": 120,
+      "todayStars": 26,
+      "url": "https://github.com/kirodotdev/Kiro",
+      "aiSummary": {
+        "summary": "Kiro是一个智能IDE，支持从原型到生产的开发流程。提供结构化规范制定、自动化任务钩子、自然语言交互、项目引导配置及外部工具集成，强调隐私安全与代码效率。",
+        "techStack": [
+          "Electron",
+          "Python",
+          "JavaScript"
+        ],
+        "useCase": "适用于需要AI辅助开发、自动化流程及结构化项目管理的软件开发团队。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "LuckyOne7777/ChatGPT-Micro-Cap-Experiment",
+      "description": "This repo powers my experiment where ChatGPT manages a real-money micro-cap stock portfolio.",
+      "language": "Python",
+      "stars": 7076,
+      "forks": 1531,
+      "todayStars": 68,
+      "url": "https://github.com/LuckyOne7777/ChatGPT-Micro-Cap-Experiment",
+      "aiSummary": {
+        "summary": "该项目通过ChatGPT管理真实资金的微盘股投资组合，包含交易引擎、止损机制、每日数据更新和绩效跟踪功能，用于验证大语言模型在实时交易中的决策能力。",
+        "techStack": [
+          "Python",
+          "CSV数据处理",
+          "Matplotlib可视化"
+        ],
+        "useCase": "AI驱动的量化交易实验与微盘股策略验证"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Reasoning-based RAG",
+      "language": "Jupyter Notebook",
+      "stars": 4695,
+      "forks": 365,
+      "todayStars": 102,
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "aiSummary": {
+        "summary": "PageIndex 是一种无需向量数据库或分块处理的推理型RAG系统，通过构建文档树状索引并利用LLM进行上下文感知的检索，模拟人类专家分析长文档的流程，提升专业文档的检索准确性。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "LLM（如Hugging Face）"
+        ],
+        "useCase": "适用于需要高精度处理长文档的专业场景，如法律、学术或技术文档分析。"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "bobbyiliev/introduction-to-bash-scripting",
+      "description": "Free Introduction to Bash Scripting eBook",
+      "language": "HTML",
+      "stars": 5372,
+      "forks": 571,
+      "todayStars": 75,
+      "url": "https://github.com/bobbyiliev/introduction-to-bash-scripting",
+      "aiSummary": {
+        "summary": "免费Bash脚本入门电子书，涵盖基础语法、自动化任务及实战案例，包含变量、条件判断、循环、函数、远程执行、API交互等内容，适合系统管理员和开发者学习脚本编写。",
+        "techStack": [
+          "HTML",
+          "Bash Scripting",
+          "jq",
+          "SSMTP",
+          "Cloudflare API"
+        ],
+        "useCase": "适用于开发者和系统管理员学习Bash脚本以实现自动化运维和任务优化。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-06T23:27:32.117Z",
+    "duration": "84s",
+    "version": "1.0.0"
+  }
+}
