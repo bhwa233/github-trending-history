@@ -1,0 +1,260 @@
+{
+  "date": "2026-01-07",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars": 11879,
+      "forks": 745,
+      "todayStars": 674,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "Claude-Mem是为Claude Code设计的插件，通过自动捕获编码行为、AI压缩和上下文注入，实现跨会话的持久化记忆管理，支持智能搜索与隐私控制，提升代码开发连续性。",
+        "techStack": [
+          "TypeScript",
+          "Claude's agent-sdk",
+          "Web Viewer UI"
+        ],
+        "useCase": "需要跨会话保持上下文的代码开发与项目知识管理场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "google/googletest",
+      "description": "GoogleTest - Google Testing and Mocking Framework",
+      "language": "C++",
+      "stars": 37762,
+      "forks": 10647,
+      "todayStars": 8,
+      "url": "https://github.com/google/googletest",
+      "aiSummary": {
+        "summary": "GoogleTest是Google的C++测试框架，提供xUnit架构、自动测试发现、丰富断言库、自定义断言、死亡测试、参数化测试等功能，支持C++17及以上版本，适用于单元测试与模拟测试场景。",
+        "techStack": [
+          "C++",
+          "Makefile",
+          "CMake"
+        ],
+        "useCase": "适用于需要进行复杂单元测试和行为模拟的C++项目开发。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "Lissy93/web-check",
+      "description": "🕵️‍♂️ All-in-one OSINT tool for analysing any website",
+      "language": "TypeScript",
+      "stars": 28483,
+      "forks": 2293,
+      "todayStars": 800,
+      "url": "https://github.com/Lissy93/web-check",
+      "aiSummary": {
+        "summary": "Web-check 是一个基于TypeScript的开源情报（OSINT）工具，提供网站全面分析功能，包括IP信息、SSL证书、DNS记录、安全配置、技术栈检测等，帮助用户识别攻击向量、优化网站性能及增强安全性。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Express"
+        ],
+        "useCase": "适用于网络安全审计、网站性能优化及网络基础设施分析场景。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that help you customize Windows and streamline everyday tasks",
+      "language": "C#",
+      "stars": 127581,
+      "forks": 7578,
+      "todayStars": 337,
+      "url": "https://github.com/microsoft/PowerToys",
+      "aiSummary": {
+        "summary": "Microsoft PowerToys 是一组 Windows 系统增强工具，提供超过 25 个实用功能，涵盖剪贴板管理、窗口布局、快捷键定制、屏幕截图等，旨在提升用户操作效率与系统自定义能力。",
+        "techStack": [
+          "C#"
+        ],
+        "useCase": "适用于需要自定义 Windows 系统和提升日常工作效率的用户。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "protocolbuffers/protobuf",
+      "description": "Protocol Buffers - Google's data interchange format",
+      "language": "C++",
+      "stars": 70179,
+      "forks": 15990,
+      "todayStars": 135,
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "aiSummary": {
+        "summary": "Protocol Buffers是Google开发的跨语言、跨平台的数据序列化框架，支持结构化数据的高效编码与解码。项目提供编译器和多种语言的运行时库，适用于分布式系统和网络通信场景。",
+        "techStack": [
+          "C++",
+          "Bazel",
+          "Protocol Buffers"
+        ],
+        "useCase": "适用于需要高效数据序列化和跨语言通信的分布式系统开发"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 18985,
+      "forks": 1176,
+      "todayStars": 107,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "ChromeDevTools/mcp项目为AI编码代理提供Chrome浏览器控制与调试能力，支持性能分析、网络请求监控、自动化操作等功能，通过Model-Context-Protocol协议实现与AI助手的交互。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Chrome DevTools",
+          "Puppeteer"
+        ],
+        "useCase": "适用于AI编码助手进行浏览器自动化测试与实时调试场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "memvid/memvid",
+      "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
+      "language": "Rust",
+      "stars": 11372,
+      "forks": 958,
+      "todayStars": 232,
+      "url": "https://github.com/memvid/memvid",
+      "aiSummary": {
+        "summary": "Memvid是用Rust开发的AI代理单文件内存层，通过类似视频编码的智能帧结构实现即时检索与长期记忆。支持版本控制、时间回溯、高效压缩和无服务器部署，替代传统RAG管道和向量数据库。",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "AI代理的便携式持久化内存管理与快速本地化知识召回"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "patchy631/ai-engineering-hub",
+      "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
+      "language": "Jupyter Notebook",
+      "stars": 25247,
+      "forks": 4110,
+      "todayStars": 257,
+      "url": "https://github.com/patchy631/ai-engineering-hub",
+      "aiSummary": {
+        "summary": "AI Engineering Hub 提供93+个生产级AI项目教程，涵盖LLMs、RAG、AI代理等技术，包含OCR、聊天界面等实际应用场景，适合不同技能水平的开发者学习和实践。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Llama 3.2",
+          "Gemma-3",
+          "Qwen 2.5 VL",
+          "Streamlit"
+        ],
+        "useCase": "适用于学习和实践AI工程中的LLMs、RAG及AI代理应用开发"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "DrewThomasson/ebook2audiobook",
+      "description": "Generate audiobooks from e-books, voice cloning & 1158+ languages!",
+      "language": "Python",
+      "stars": 16645,
+      "forks": 1341,
+      "todayStars": 104,
+      "url": "https://github.com/DrewThomasson/ebook2audiobook",
+      "aiSummary": {
+        "summary": "ebook2audiobook是一款将电子书转换为有声书的工具，支持1158种语言和语音克隆功能。基于Python开发，集成XTTSv2、Bark等多款TTS模型，可分割章节并保留元数据，提供GUI界面和本地/远程运行方式。",
+        "techStack": [
+          "Python",
+          "XTTSv2",
+          "Bark",
+          "Vits",
+          "Fairseq"
+        ],
+        "useCase": "将合法获取的电子书转换为多语言有声书，支持个性化语音合成与章节管理。"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "marcelscruz/public-apis",
+      "description": "A collaborative list of public APIs for developers",
+      "language": "JavaScript",
+      "stars": 7261,
+      "forks": 677,
+      "todayStars": 461,
+      "url": "https://github.com/marcelscruz/public-apis",
+      "aiSummary": {
+        "summary": "一个由开发者维护的公共API集合项目，涵盖动物、动漫、区块链、金融等多个领域，提供API名称、描述、认证方式及协议信息，便于开发者快速查找和调用各类API服务。",
+        "techStack": [
+          "JavaScript",
+          "Markdown",
+          "GitHub Pages"
+        ],
+        "useCase": "适用于需要集成多种外部服务的Web/移动端开发场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "prateek-chaubey/YTPro",
+      "description": "Youtube client with older Android version support, background player, Google Gemini ✨ and many more features.",
+      "language": "JavaScript",
+      "stars": 1412,
+      "forks": 120,
+      "todayStars": 219,
+      "url": "https://github.com/prateek-chaubey/YTPro",
+      "aiSummary": {
+        "summary": "YTPro是一个支持旧版Android的YouTube客户端，提供后台播放、Google Gemini集成等特性，致力于提升老旧设备的YouTube使用体验。",
+        "techStack": [
+          "JavaScript",
+          "Android SDK",
+          "Google Gemini"
+        ],
+        "useCase": "适合需要在旧版Android设备上实现增强型YouTube功能的用户。"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "MiroMindAI/MiroThinker",
+      "description": "MiroThinker is a series of open-source search agent designed to advance tool-augmented reasoning and information-seeking capabilities.",
+      "language": "Python",
+      "stars": 2616,
+      "forks": 176,
+      "todayStars": 509,
+      "url": "https://github.com/MiroMindAI/MiroThinker",
+      "aiSummary": {
+        "summary": "MiroThinker是开源搜索代理项目，专注于工具增强型推理与信息获取，支持复杂研究工作流。包含搜索代理模型、研究框架、训练数据集及训练基础设施，多版本在HLE、BrowseComp等基准测试中表现领先。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要高效信息检索与复杂问题解决的研究场景"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "anthropics/prompt-eng-interactive-tutorial",
+      "description": "Anthropic's Interactive Prompt Engineering Tutorial",
+      "language": "Jupyter Notebook",
+      "stars": 28363,
+      "forks": 2730,
+      "todayStars": 174,
+      "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+      "aiSummary": {
+        "summary": "Anthropic的交互式提示工程教程，包含9章实践课程，涵盖基础结构、清晰指令、角色分配、避免幻觉等主题，通过Jupyter Notebook提供示例与练习，帮助用户掌握优化提示技巧。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "Anthropic Claude"
+        ],
+        "useCase": "适用于学习如何优化提示工程以提升与Claude大模型的交互效果。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-07T23:27:21.890Z",
+    "duration": "96s",
+    "version": "1.0.0"
+  }
+}
