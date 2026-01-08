@@ -67,25 +67,27 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-01-07 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-01-08 | **成功**: 15 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 11.9k | 674 | Claude-Mem是为Claude Code设计的插件，通过自动捕获编码行为、AI压缩和上下文注入，实现跨会话的持久化记忆管理，支持智能搜索与隐私控制，提升代码开发连续性。 |
-| 2 | [google/googletest](https://github.com/google/googletest) | GoogleTest - Google Testing and Mocking Framework... | C++ | 37.8k | 8 | GoogleTest是Google的C++测试框架，提供xUnit架构、自动测试发现、丰富断言库、自定义断言、死亡测试、参数化测试等功能，支持C++17及以上版本，适用于单元测试与模拟测试场景。 |
-| 3 | [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any web... | TypeScript | 28.5k | 800 | Web-check 是一个基于TypeScript的开源情报（OSINT）工具，提供网站全面分析功能，包括IP信息、SSL证书、DNS记录、安全配置、技术栈检测等，帮助用户识别攻击向量、优化网站性能及增强安全性。 |
-| 4 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | Microsoft PowerToys is a collection of utilities t... | C# | 127.6k | 337 | Microsoft PowerToys 是一组 Windows 系统增强工具，提供超过 25 个实用功能，涵盖剪贴板管理、窗口布局、快捷键定制、屏幕截图等，旨在提升用户操作效率与系统自定义能力。 |
-| 5 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | Protocol Buffers - Google's data interchange forma... | C++ | 70.2k | 135 | Protocol Buffers是Google开发的跨语言、跨平台的数据序列化框架，支持结构化数据的高效编码与解码。项目提供编译器和多种语言的运行时库，适用于分布式系统和网络通信场景。 |
-| 6 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 19.0k | 107 | ChromeDevTools/mcp项目为AI编码代理提供Chrome浏览器控制与调试能力，支持性能分析、网络请求监控、自动化操作等功能，通过Model-Context-Protocol协议实现与AI助手的交互。 |
-| 7 | [memvid/memvid](https://github.com/memvid/memvid) | Memory layer for AI Agents. Replace complex RAG pi... | Rust | 11.4k | 232 | Memvid是用Rust开发的AI代理单文件内存层，通过类似视频编码的智能帧结构实现即时检索与长期记忆。支持版本控制、时间回溯、高效压缩和无服务器部署，替代传统RAG管道和向量数据库。 |
-| 8 | [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) | In-depth tutorials on LLMs, RAGs and real-world AI... | Jupyter Notebook | 25.2k | 257 | AI Engineering Hub 提供93+个生产级AI项目教程，涵盖LLMs、RAG、AI代理等技术，包含OCR、聊天界面等实际应用场景，适合不同技能水平的开发者学习和实践。 |
-| 9 | [DrewThomasson/ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook) | Generate audiobooks from e-books, voice cloning & ... | Python | 16.6k | 104 | ebook2audiobook是一款将电子书转换为有声书的工具，支持1158种语言和语音克隆功能。基于Python开发，集成XTTSv2、Bark等多款TTS模型，可分割章节并保留元数据，提供GUI界面和本地/远程运行方式。 |
-| 10 | [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis) | A collaborative list of public APIs for developers... | JavaScript | 7.3k | 461 | 一个由开发者维护的公共API集合项目，涵盖动物、动漫、区块链、金融等多个领域，提供API名称、描述、认证方式及协议信息，便于开发者快速查找和调用各类API服务。 |
-| 11 | [prateek-chaubey/YTPro](https://github.com/prateek-chaubey/YTPro) | Youtube client with older Android version support,... | JavaScript | 1.4k | 219 | YTPro是一个支持旧版Android的YouTube客户端，提供后台播放、Google Gemini集成等特性，致力于提升老旧设备的YouTube使用体验。 |
-| 12 | [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | MiroThinker is a series of open-source search agen... | Python | 2.6k | 509 | MiroThinker是开源搜索代理项目，专注于工具增强型推理与信息获取，支持复杂研究工作流。包含搜索代理模型、研究框架、训练数据集及训练基础设施，多版本在HLE、BrowseComp等基准测试中表现领先。 |
-| 13 | [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) | Anthropic's Interactive Prompt Engineering Tutoria... | Jupyter Notebook | 28.4k | 174 | Anthropic的交互式提示工程教程，包含9章实践课程，涵盖基础结构、清晰指令、角色分配、避免幻觉等主题，通过Jupyter Notebook提供示例与练习，帮助用户掌握优化提示技巧。 |
+| 1 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 19.3k | 314 | ChromeDevTools/mcp 是一个基于TypeScript的MCP服务器，允许AI编码助手（如Gemini、Claude）通过Chrome DevTools控制浏览器，实现自动化操作、性能分析和深度调试，集成puppeteer进行可靠浏览器控制。 |
+| 2 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | Shell | 53.4k | 510 | Claude Code是集成在终端的代理编程工具，通过自然语言指令执行代码任务、解释复杂逻辑、管理Git流程，支持多平台安装。提供插件扩展功能，注重数据隐私保护。 |
+| 3 | [nothings/stb](https://github.com/nothings/stb) | stb single-file public domain libraries for C/C++... | C | 31.6k | 179 | stb项目提供一系列单文件C/C++库，涵盖图像处理、音频解码、字体渲染、数据结构等功能。包含图像加载/写入/缩放、字体解析、动态数组、音频合成等工具，适用于需要轻量级库的开发场景。 |
+| 4 | [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | MiroThinker is an open-source search agent suite, ... | Python | 3.4k | 799 | MiroThinker是开源搜索代理套件，支持工具增强的推理与信息检索，提供多组件框架（MiroThinker、MiroFlow等），在HLE、BrowseComp等基准测试中表现优异，适用于复杂研究工作流。 |
+| 5 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | Protocol Buffers - Google's data interchange forma... | C++ | 70.2k | 61 | Protocol Buffers是Google的跨语言、跨平台数据序列化框架，支持结构化数据的高效交换。项目提供C++实现的协议编译器和运行时库，适用于分布式系统和微服务通信。 |
+| 6 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 12.5k | 803 | Claude-Mem是为Claude Code设计的持久化记忆压缩插件，自动捕获编码会话中的工具使用记录，生成语义摘要并跨会话保存，支持上下文连续性维护、隐私控制及多场景检索，提升长期项目开发的上下文连贯性。 |
+| 7 | [xpipe-io/xpipe](https://github.com/xpipe-io/xpipe) | Access your entire server infrastructure from your... | Java | 12.8k | 216 | XPipe是基于Java的连接枢纽，支持通过SSH、Docker、虚拟机、云服务器等多种方式集中管理远程资源，无需远程配置且可扩展性强，适用于开发及运维的多环境管理。 |
+| 8 | [NVlabs/alpasim](https://github.com/NVlabs/alpasim) | ... | Python | 519 | 65 | AlpaSim是NVIDIA开源的自动驾驶研究模拟平台，支持闭环测试与传感器数据模拟，提供高保真视觉渲染、模块化架构及分布式计算能力，适用于算法验证、安全分析与性能测试。 |
+| 9 | [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any web... | TypeScript | 29.0k | 640 | Lissy93/web-check 是一个基于TypeScript的全功能OSINT网站分析工具，提供IP信息、SSL证书、DNS记录、安全配置、技术栈识别等20+维度的网站洞察，支持潜在攻击面分析与安全优化。 |
+| 10 | [google/googletest](https://github.com/google/googletest) | GoogleTest - Google Testing and Mocking Framework... | C++ | 37.9k | 119 | GoogleTest是Google的C++测试框架，提供xUnit架构支持，自动测试发现，丰富的断言功能（如相等性、异常等），支持自定义断言、死亡测试、参数化测试（值和类型参数化），可处理致命与非致命失败，适用于全面的单元测试和模拟测试场景。 |
+| 11 | [apache/superset](https://github.com/apache/superset) | Apache Superset is a Data Visualization and Data E... | TypeScript | 69.8k | 50 | Apache Superset是现代化的企业级商业智能平台，提供数据可视化、无代码图表构建、SQL编辑器、多数据库支持及可扩展的安全架构，适用于大规模数据分析与动态报表场景。 |
+| 12 | [memvid/memvid](https://github.com/memvid/memvid) | Memory layer for AI Agents. Replace complex RAG pi... | Rust | 11.7k | 465 | Memvid是基于Rust的AI代理单文件内存层，通过类似视频编码的帧结构实现即时检索与长期记忆。支持持久化、版本控制、时间回溯及高效压缩，替代传统RAG管道和数据库。 |
+| 13 | [Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo) | LTX-Video Support for ComfyUI... | Python | 2.6k | 44 | ComfyUI-LTXVideo为ComfyUI提供LTX-2视频生成模型的扩展节点和工作流，支持文本/图像到视频生成、视频细节增强等功能，包含多种预训练模型和优化模块。 |
+| 14 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory infrastructure for LLMs and AI agents... | Python | 3.8k | 97 | MemU是面向LLM和AI代理的记忆框架，支持多模态输入处理，通过分层文件系统组织结构化记忆，提供RAG和LLM双模式检索，具备自适应进化能力。 |
+| 15 | [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | [KDD'2026] "VideoRAG: Chat with Your Videos"... | Python | 2.0k | 120 | VideoRAG是一款基于AI的视频智能分析工具，支持超长视频对话交互。通过VideoRAG框架实现视频内容理解与问答，具备多格式支持、跨平台特性及针对研究人员的基准数据集，可处理从短片段到数百小时的视频内容。 |
 
-[查看完整数据](api/github/2026-01-07.json)
+[查看完整数据](api/github/2026-01-08.json)
 <!-- END GITHUB TRENDING -->
 
 
