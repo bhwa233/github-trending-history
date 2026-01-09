@@ -1,0 +1,235 @@
+{
+  "date": "2026-01-09",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 19726,
+      "forks": 1206,
+      "todayStars": 427,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "ChromeDevTools/mcp 是一个基于TypeScript的Chrome DevTools MCP服务器，允许AI编码助手（如Gemini、Claude）通过Chrome DevTools实现浏览器控制、自动化操作、性能分析和深度调试，集成puppeteer实现可靠自动化。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "puppeteer",
+          "Chrome"
+        ],
+        "useCase": "适用于AI编码助手的浏览器自动化测试、性能优化与实时调试场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Shell",
+      "stars": 54109,
+      "forks": 3897,
+      "todayStars": 779,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code是一款终端级智能编码工具，通过自然语言指令执行代码任务、解释代码逻辑并管理Git流程，支持多平台安装和插件扩展，提升开发效率。",
+        "techStack": [
+          "Shell",
+          "Node.js",
+          "Python"
+        ],
+        "useCase": "开发者通过自然语言交互加速代码编写与项目管理"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "obra/superpowers",
+      "description": "Claude Code superpowers: core skills library",
+      "language": "Shell",
+      "stars": 15267,
+      "forks": 1229,
+      "todayStars": 380,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers为Claude Code提供代码代理增强功能，通过可组合技能实现自动化开发流程，支持TDD、YAGNI和DRY原则，实现从需求分析到代码生成的全流程自动化。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "提升代码代理自动化开发能力，优化软件工程流程效率"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "tailwindlabs/tailwindcss",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "language": "TypeScript",
+      "stars": 92457,
+      "forks": 4925,
+      "todayStars": 262,
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "aiSummary": {
+        "summary": "Tailwind CSS是一个基于实用程序的CSS框架，通过预定义的CSS类加速网页UI开发。支持高度可定制化，提供响应式设计、暗黑模式等特性，简化样式编写流程。",
+        "techStack": [
+          "TypeScript",
+          "PostCSS",
+          "CSS"
+        ],
+        "useCase": "适用于需要快速构建一致性且响应式用户界面的Web项目开发"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "stars": 20840,
+      "forks": 1018,
+      "todayStars": 28,
+      "url": "https://github.com/netbirdio/netbird",
+      "aiSummary": {
+        "summary": "NetBird基于WireGuard构建安全的自动对等网络，支持SSO/MFA及细粒度访问控制，提供跨平台部署与自托管方案，简化私有网络配置与管理。",
+        "techStack": [
+          "Go",
+          "WireGuard",
+          "BPF"
+        ],
+        "useCase": "企业及家庭环境下的安全私有网络构建与远程访问管理"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "C4illin/ConvertX",
+      "description": "💾 Self-hosted online file converter. Supports 1000+ formats ⚙️",
+      "language": "TypeScript",
+      "stars": 13906,
+      "forks": 742,
+      "todayStars": 159,
+      "url": "https://github.com/C4illin/ConvertX",
+      "aiSummary": {
+        "summary": "ConvertX是一个自托管的在线文件转换工具，支持1000+种格式转换，提供多文件处理、密码保护和多账户管理功能，采用TypeScript开发兼顾性能与可维护性。",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "Elysia"
+        ],
+        "useCase": "适用于需要本地部署且需处理多种文件格式转换的个人或企业场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Lightricks/ComfyUI-LTXVideo",
+      "description": "LTX-Video Support for ComfyUI",
+      "language": "Python",
+      "stars": 2778,
+      "forks": 272,
+      "todayStars": 159,
+      "url": "https://github.com/Lightricks/ComfyUI-LTXVideo",
+      "aiSummary": {
+        "summary": "为ComfyUI提供LTX-2视频生成模型的扩展节点，支持文本/图像到视频生成及视频细节增强，包含多种预训练模型和工作流示例。",
+        "techStack": [
+          "Python",
+          "ComfyUI",
+          "PyTorch"
+        ],
+        "useCase": "视频生成、图像到视频转换及视频细节修复等AI创意制作场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "MiroMindAI/MiroThinker",
+      "description": "MiroThinker is an open-source search agent model, built for tool-augmented reasoning and real-world information seeking, aiming to match the deep research experience of OpenAI Deep Research and Gemini Deep Research.",
+      "language": "Python",
+      "stars": 3931,
+      "forks": 248,
+      "todayStars": 608,
+      "url": "https://github.com/MiroMindAI/MiroThinker",
+      "aiSummary": {
+        "summary": "MiroThinker是开源搜索代理模型，支持工具增强推理与现实世界信息检索，涵盖多基准测试优化的搜索代理框架、训练数据集及基础设施，适用于复杂研究工作流。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要复杂信息检索与深度推理的科研及数据分析场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "google/googletest",
+      "description": "GoogleTest - Google Testing and Mocking Framework",
+      "language": "C++",
+      "stars": 37932,
+      "forks": 10659,
+      "todayStars": 74,
+      "url": "https://github.com/google/googletest",
+      "aiSummary": {
+        "summary": "GoogleTest是Google的C++测试框架，提供xUnit架构、自动测试发现、丰富断言及自定义断言功能，支持死亡测试、参数化测试等，整合GoogleMock用于模拟，适用于C++项目的单元测试与验证。",
+        "techStack": [
+          "C++"
+        ],
+        "useCase": "适用于C++项目的单元测试和模拟测试，确保代码正确性。"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "stars": 21753,
+      "forks": 2089,
+      "todayStars": 831,
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "aiSummary": {
+        "summary": "UI-TARS-desktop是基于TypeScript的多模态AI代理桌面应用，整合GUI和视觉能力，支持本地及远程计算机与浏览器操作，实现自动化任务处理。核心功能包括多模态交互、工具集成及跨平台操作，适用于需要高效人机协作的场景。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于自动化任务处理及多模态人机交互场景。"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Johnshall/Shadowrocket-ADBlock-Rules-Forever",
+      "description": "提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。",
+      "language": "",
+      "stars": 21501,
+      "forks": 1399,
+      "todayStars": 105,
+      "url": "https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever",
+      "aiSummary": {
+        "summary": "提供Shadowrocket广告过滤规则，支持多类型规则切换与自动更新，整合GFWList、EasyList等源，每日8点生成最新规则文件，优化iOS端广告拦截与网络策略。",
+        "techStack": [
+          "Python",
+          "Shadowrocket规则文件",
+          "自动化脚本"
+        ],
+        "useCase": "需要广告过滤与科学上网配置的iOS用户"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "stars": 57257,
+      "forks": 4892,
+      "todayStars": 1934,
+      "url": "https://github.com/anomalyco/opencode",
+      "aiSummary": {
+        "summary": "OpenCode 是一个开源的AI编码代理工具，提供两种模式：build模式支持全功能开发，plan模式用于只读代码分析与探索。默认阻止文件修改，执行命令前需授权，适合代码库分析及变更规划。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Homebrew"
+        ],
+        "useCase": "适用于AI辅助的代码开发、团队协作及复杂项目的代码分析场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-09T23:27:11.084Z",
+    "duration": "90s",
+    "version": "1.0.0"
+  }
+}

@@ -67,27 +67,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-01-08 | **成功**: 15 | **失败**: 0
+**最后更新**: 2026-01-09 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 19.3k | 314 | ChromeDevTools/mcp 是一个基于TypeScript的MCP服务器，允许AI编码助手（如Gemini、Claude）通过Chrome DevTools控制浏览器，实现自动化操作、性能分析和深度调试，集成puppeteer进行可靠浏览器控制。 |
-| 2 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | Shell | 53.4k | 510 | Claude Code是集成在终端的代理编程工具，通过自然语言指令执行代码任务、解释复杂逻辑、管理Git流程，支持多平台安装。提供插件扩展功能，注重数据隐私保护。 |
-| 3 | [nothings/stb](https://github.com/nothings/stb) | stb single-file public domain libraries for C/C++... | C | 31.6k | 179 | stb项目提供一系列单文件C/C++库，涵盖图像处理、音频解码、字体渲染、数据结构等功能。包含图像加载/写入/缩放、字体解析、动态数组、音频合成等工具，适用于需要轻量级库的开发场景。 |
-| 4 | [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | MiroThinker is an open-source search agent suite, ... | Python | 3.4k | 799 | MiroThinker是开源搜索代理套件，支持工具增强的推理与信息检索，提供多组件框架（MiroThinker、MiroFlow等），在HLE、BrowseComp等基准测试中表现优异，适用于复杂研究工作流。 |
-| 5 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | Protocol Buffers - Google's data interchange forma... | C++ | 70.2k | 61 | Protocol Buffers是Google的跨语言、跨平台数据序列化框架，支持结构化数据的高效交换。项目提供C++实现的协议编译器和运行时库，适用于分布式系统和微服务通信。 |
-| 6 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 12.5k | 803 | Claude-Mem是为Claude Code设计的持久化记忆压缩插件，自动捕获编码会话中的工具使用记录，生成语义摘要并跨会话保存，支持上下文连续性维护、隐私控制及多场景检索，提升长期项目开发的上下文连贯性。 |
-| 7 | [xpipe-io/xpipe](https://github.com/xpipe-io/xpipe) | Access your entire server infrastructure from your... | Java | 12.8k | 216 | XPipe是基于Java的连接枢纽，支持通过SSH、Docker、虚拟机、云服务器等多种方式集中管理远程资源，无需远程配置且可扩展性强，适用于开发及运维的多环境管理。 |
-| 8 | [NVlabs/alpasim](https://github.com/NVlabs/alpasim) | ... | Python | 519 | 65 | AlpaSim是NVIDIA开源的自动驾驶研究模拟平台，支持闭环测试与传感器数据模拟，提供高保真视觉渲染、模块化架构及分布式计算能力，适用于算法验证、安全分析与性能测试。 |
-| 9 | [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any web... | TypeScript | 29.0k | 640 | Lissy93/web-check 是一个基于TypeScript的全功能OSINT网站分析工具，提供IP信息、SSL证书、DNS记录、安全配置、技术栈识别等20+维度的网站洞察，支持潜在攻击面分析与安全优化。 |
-| 10 | [google/googletest](https://github.com/google/googletest) | GoogleTest - Google Testing and Mocking Framework... | C++ | 37.9k | 119 | GoogleTest是Google的C++测试框架，提供xUnit架构支持，自动测试发现，丰富的断言功能（如相等性、异常等），支持自定义断言、死亡测试、参数化测试（值和类型参数化），可处理致命与非致命失败，适用于全面的单元测试和模拟测试场景。 |
-| 11 | [apache/superset](https://github.com/apache/superset) | Apache Superset is a Data Visualization and Data E... | TypeScript | 69.8k | 50 | Apache Superset是现代化的企业级商业智能平台，提供数据可视化、无代码图表构建、SQL编辑器、多数据库支持及可扩展的安全架构，适用于大规模数据分析与动态报表场景。 |
-| 12 | [memvid/memvid](https://github.com/memvid/memvid) | Memory layer for AI Agents. Replace complex RAG pi... | Rust | 11.7k | 465 | Memvid是基于Rust的AI代理单文件内存层，通过类似视频编码的帧结构实现即时检索与长期记忆。支持持久化、版本控制、时间回溯及高效压缩，替代传统RAG管道和数据库。 |
-| 13 | [Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo) | LTX-Video Support for ComfyUI... | Python | 2.6k | 44 | ComfyUI-LTXVideo为ComfyUI提供LTX-2视频生成模型的扩展节点和工作流，支持文本/图像到视频生成、视频细节增强等功能，包含多种预训练模型和优化模块。 |
-| 14 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory infrastructure for LLMs and AI agents... | Python | 3.8k | 97 | MemU是面向LLM和AI代理的记忆框架，支持多模态输入处理，通过分层文件系统组织结构化记忆，提供RAG和LLM双模式检索，具备自适应进化能力。 |
-| 15 | [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | [KDD'2026] "VideoRAG: Chat with Your Videos"... | Python | 2.0k | 120 | VideoRAG是一款基于AI的视频智能分析工具，支持超长视频对话交互。通过VideoRAG框架实现视频内容理解与问答，具备多格式支持、跨平台特性及针对研究人员的基准数据集，可处理从短片段到数百小时的视频内容。 |
+| 1 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 19.7k | 427 | ChromeDevTools/mcp 是一个基于TypeScript的Chrome DevTools MCP服务器，允许AI编码助手（如Gemini、Claude）通过Chrome DevTools实现浏览器控制、自动化操作、性能分析和深度调试，集成puppeteer实现可靠自动化。 |
+| 2 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | Shell | 54.1k | 779 | Claude Code是一款终端级智能编码工具，通过自然语言指令执行代码任务、解释代码逻辑并管理Git流程，支持多平台安装和插件扩展，提升开发效率。 |
+| 3 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code superpowers: core skills library... | Shell | 15.3k | 380 | Superpowers为Claude Code提供代码代理增强功能，通过可组合技能实现自动化开发流程，支持TDD、YAGNI和DRY原则，实现从需求分析到代码生成的全流程自动化。 |
+| 4 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | A utility-first CSS framework for rapid UI develop... | TypeScript | 92.5k | 262 | Tailwind CSS是一个基于实用程序的CSS框架，通过预定义的CSS类加速网页UI开发。支持高度可定制化，提供响应式设计、暗黑模式等特性，简化样式编写流程。 |
+| 5 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | Connect your devices into a secure WireGuard®-base... | Go | 20.8k | 28 | NetBird基于WireGuard构建安全的自动对等网络，支持SSO/MFA及细粒度访问控制，提供跨平台部署与自托管方案，简化私有网络配置与管理。 |
+| 6 | [C4illin/ConvertX](https://github.com/C4illin/ConvertX) | 💾 Self-hosted online file converter. Supports 100... | TypeScript | 13.9k | 159 | ConvertX是一个自托管的在线文件转换工具，支持1000+种格式转换，提供多文件处理、密码保护和多账户管理功能，采用TypeScript开发兼顾性能与可维护性。 |
+| 7 | [Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo) | LTX-Video Support for ComfyUI... | Python | 2.8k | 159 | 为ComfyUI提供LTX-2视频生成模型的扩展节点，支持文本/图像到视频生成及视频细节增强，包含多种预训练模型和工作流示例。 |
+| 8 | [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | MiroThinker is an open-source search agent model, ... | Python | 3.9k | 608 | MiroThinker是开源搜索代理模型，支持工具增强推理与现实世界信息检索，涵盖多基准测试优化的搜索代理框架、训练数据集及基础设施，适用于复杂研究工作流。 |
+| 9 | [google/googletest](https://github.com/google/googletest) | GoogleTest - Google Testing and Mocking Framework... | C++ | 37.9k | 74 | GoogleTest是Google的C++测试框架，提供xUnit架构、自动测试发现、丰富断言及自定义断言功能，支持死亡测试、参数化测试等，整合GoogleMock用于模拟，适用于C++项目的单元测试与验证。 |
+| 10 | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | The Open-Source Multimodal AI Agent Stack: Connect... | TypeScript | 21.8k | 831 | UI-TARS-desktop是基于TypeScript的多模态AI代理桌面应用，整合GUI和视觉能力，支持本地及远程计算机与浏览器操作，实现自动化任务处理。核心功能包括多模态交互、工具集成及跨平台操作，适用于需要高效人机协作的场景。 |
+| 11 | [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) | 提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。... | - | 21.5k | 105 | 提供Shadowrocket广告过滤规则，支持多类型规则切换与自动更新，整合GFWList、EasyList等源，每日8点生成最新规则文件，优化iOS端广告拦截与网络策略。 |
+| 12 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent.... | TypeScript | 57.3k | 1.9k | OpenCode 是一个开源的AI编码代理工具，提供两种模式：build模式支持全功能开发，plan模式用于只读代码分析与探索。默认阻止文件修改，执行命令前需授权，适合代码库分析及变更规划。 |
 
-[查看完整数据](api/github/2026-01-08.json)
+[查看完整数据](api/github/2026-01-09.json)
 <!-- END GITHUB TRENDING -->
 
 
