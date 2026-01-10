@@ -67,24 +67,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-01-09 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-01-10 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 19.7k | 427 | ChromeDevTools/mcp 是一个基于TypeScript的Chrome DevTools MCP服务器，允许AI编码助手（如Gemini、Claude）通过Chrome DevTools实现浏览器控制、自动化操作、性能分析和深度调试，集成puppeteer实现可靠自动化。 |
-| 2 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | Shell | 54.1k | 779 | Claude Code是一款终端级智能编码工具，通过自然语言指令执行代码任务、解释代码逻辑并管理Git流程，支持多平台安装和插件扩展，提升开发效率。 |
-| 3 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code superpowers: core skills library... | Shell | 15.3k | 380 | Superpowers为Claude Code提供代码代理增强功能，通过可组合技能实现自动化开发流程，支持TDD、YAGNI和DRY原则，实现从需求分析到代码生成的全流程自动化。 |
-| 4 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | A utility-first CSS framework for rapid UI develop... | TypeScript | 92.5k | 262 | Tailwind CSS是一个基于实用程序的CSS框架，通过预定义的CSS类加速网页UI开发。支持高度可定制化，提供响应式设计、暗黑模式等特性，简化样式编写流程。 |
-| 5 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | Connect your devices into a secure WireGuard®-base... | Go | 20.8k | 28 | NetBird基于WireGuard构建安全的自动对等网络，支持SSO/MFA及细粒度访问控制，提供跨平台部署与自托管方案，简化私有网络配置与管理。 |
-| 6 | [C4illin/ConvertX](https://github.com/C4illin/ConvertX) | 💾 Self-hosted online file converter. Supports 100... | TypeScript | 13.9k | 159 | ConvertX是一个自托管的在线文件转换工具，支持1000+种格式转换，提供多文件处理、密码保护和多账户管理功能，采用TypeScript开发兼顾性能与可维护性。 |
-| 7 | [Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo) | LTX-Video Support for ComfyUI... | Python | 2.8k | 159 | 为ComfyUI提供LTX-2视频生成模型的扩展节点，支持文本/图像到视频生成及视频细节增强，包含多种预训练模型和工作流示例。 |
-| 8 | [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | MiroThinker is an open-source search agent model, ... | Python | 3.9k | 608 | MiroThinker是开源搜索代理模型，支持工具增强推理与现实世界信息检索，涵盖多基准测试优化的搜索代理框架、训练数据集及基础设施，适用于复杂研究工作流。 |
-| 9 | [google/googletest](https://github.com/google/googletest) | GoogleTest - Google Testing and Mocking Framework... | C++ | 37.9k | 74 | GoogleTest是Google的C++测试框架，提供xUnit架构、自动测试发现、丰富断言及自定义断言功能，支持死亡测试、参数化测试等，整合GoogleMock用于模拟，适用于C++项目的单元测试与验证。 |
-| 10 | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | The Open-Source Multimodal AI Agent Stack: Connect... | TypeScript | 21.8k | 831 | UI-TARS-desktop是基于TypeScript的多模态AI代理桌面应用，整合GUI和视觉能力，支持本地及远程计算机与浏览器操作，实现自动化任务处理。核心功能包括多模态交互、工具集成及跨平台操作，适用于需要高效人机协作的场景。 |
-| 11 | [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) | 提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。... | - | 21.5k | 105 | 提供Shadowrocket广告过滤规则，支持多类型规则切换与自动更新，整合GFWList、EasyList等源，每日8点生成最新规则文件，优化iOS端广告拦截与网络策略。 |
-| 12 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent.... | TypeScript | 57.3k | 1.9k | OpenCode 是一个开源的AI编码代理工具，提供两种模式：build模式支持全功能开发，plan模式用于只读代码分析与探索。默认阻止文件修改，执行命令前需授权，适合代码库分析及变更规划。 |
+| 1 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | Shell | 54.7k | 650 | Claude Code是一款终端级AI编程工具，通过自然语言指令实现代码自动化处理、复杂代码解释及Git流程管理，支持多平台安装并提供插件扩展功能。 |
+| 2 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 20.0k | 290 | ChromeDevTools/mcp 是基于TypeScript的MCP服务器，允许AI编码助手通过Chrome DevTools实现浏览器控制、性能分析和自动化调试，集成Puppeteer实现可靠操作。 |
+| 3 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | Community-contributed instructions, prompts, and c... | JavaScript | 16.9k | 146 | 社区驱动的GitHub Copilot增强工具库，提供定制化指令、提示词和配置方案，涵盖代码生成、文档编写、问题解决等场景，支持通过MCP服务器便捷集成。 |
+| 4 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory infrastructure for LLMs and AI agents... | Python | 4.3k | 80 | MemU是面向LLM和AI代理的内存框架，支持多模态数据输入处理，通过分层文件系统结构化存储记忆，并提供RAG和LLM两种检索方式，具备自适应进化能力。 |
+| 5 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code superpowers: core skills library... | Shell | 16.1k | 921 | Superpowers是基于Claude Code的自动化软件开发工作流工具，通过可组合的技能库和TDD/YAGNI/DRY原则，帮助编码代理自动规划和执行开发任务，提升开发效率。 |
+| 6 | [google/googletest](https://github.com/google/googletest) | GoogleTest - Google Testing and Mocking Framework... | C++ | 38.0k | 88 | GoogleTest是Google的C++测试框架，支持xUnit架构，提供自动测试发现、丰富断言、用户自定义断言、死亡测试、参数化测试等功能，适用于C++项目的单元测试和模拟测试。 |
+| 7 | [xpipe-io/xpipe](https://github.com/xpipe-io/xpipe) | Access your entire server infrastructure from your... | Java | 13.2k | 79 | xpipe-io/xpipe 是一个基于命令行工具的远程连接管理平台，支持SSH、Docker、虚拟机、云服务器等多种连接方式，提供集中化管理、自定义环境配置及文件浏览器功能，适用于多平台服务器基础设施的统一访问与操作。 |
+| 8 | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | The Open-Source Multimodal AI Agent Stack: Connect... | TypeScript | 22.3k | 801 | UI-TARS-desktop是字节跳动开源的多模态AI代理桌面应用，基于TypeScript开发，提供GUI代理功能，支持本地/远程计算机及浏览器操作，整合前沿AI模型与工具链，实现类人任务处理流程。 |
+| 9 | [C4illin/ConvertX](https://github.com/C4illin/ConvertX) | 💾 Self-hosted online file converter. Supports 100... | TypeScript | 14.2k | 404 | ConvertX是一个自托管的在线文件转换工具，支持1000+种格式转换，提供多文件处理、密码保护和多账户管理功能，适用于本地化文件格式转换需求。 |
+| 10 | [opf/openproject](https://github.com/opf/openproject) | OpenProject is the leading open source project man... | Ruby | 13.6k | 15 | OpenProject是基于Web的开源项目管理软件，提供项目计划、任务管理、敏捷开发、时间跟踪、成本报告、缺陷跟踪及协作功能，支持与GitHub集成，适用于团队协作和项目管理。 |
+| 11 | [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | MiroThinker is an open-source search agent model, ... | Python | 4.2k | 310 | MiroThinker是开源搜索代理模型，支持工具增强推理与现实世界信息检索，覆盖多基准测试（如HLE、BrowseComp等），提供研究框架、数据集及训练工具，适用于复杂研究工作流。 |
+| 12 | [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | real time face swap and one-click video deepfake w... | Python | 77.1k | 109 | Deep-Live-Cam 是实时人脸交换与视频深度伪造工具，仅需单张图片即可生成深度伪造内容。项目强调伦理合规，内置敏感内容过滤机制，适用于AI媒体创作与动画设计。 |
+| 13 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, power... | TypeScript | 38.4k | 215 | twentyhq/twenty 是一个由社区驱动的开源CRM项目，旨在提供低成本、可自定义的客户关系管理解决方案。支持多视图布局、权限管理、工作流自动化及多类型数据管理，采用现代前端框架与后端技术栈构建。 |
 
-[查看完整数据](api/github/2026-01-09.json)
+[查看完整数据](api/github/2026-01-10.json)
 <!-- END GITHUB TRENDING -->
 
 
