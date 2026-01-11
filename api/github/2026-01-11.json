@@ -1,0 +1,262 @@
+{
+  "date": "2026-01-11",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "stars": 61602,
+      "forks": 5301,
+      "todayStars": 2088,
+      "url": "https://github.com/anomalyco/opencode",
+      "aiSummary": {
+        "summary": "开源AI编码代理，提供开发模式（build）与分析模式（plan）切换，支持多平台安装及桌面应用，适用于代码生成、分析与规划场景。",
+        "techStack": [
+          "TypeScript",
+          "Shell",
+          "Node.js"
+        ],
+        "useCase": "AI辅助代码开发与复杂代码库分析"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "obra/superpowers",
+      "description": "Claude Code superpowers: core skills library",
+      "language": "Shell",
+      "stars": 16934,
+      "forks": 1336,
+      "todayStars": 702,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers为Claude Code编码代理提供自动化软件开发工作流，通过可组合技能库实现需求分析、设计拆解、TDD驱动开发及子代理协作，支持高效工程化开发流程。",
+        "techStack": [
+          "Shell",
+          "软件开发工具",
+          "自动化流程",
+          "TDD测试驱动开发"
+        ],
+        "useCase": "需要自动化实现符合TDD/YAGNI原则的软件开发流程场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "frankbria/ralph-claude-code",
+      "description": "Autonomous AI development loop for Claude Code with intelligent exit detection",
+      "language": "Shell",
+      "stars": 1522,
+      "forks": 110,
+      "todayStars": 357,
+      "url": "https://github.com/frankbria/ralph-claude-code",
+      "aiSummary": {
+        "summary": "Ralph for Claude Code 实现了自主AI开发循环，支持智能退出检测、速率限制和错误防护，具备会话连续性与tmux集成，适用于自动化代码迭代与持续集成场景。",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "GitHub Actions"
+        ],
+        "useCase": "自动化代码开发与持续集成流程优化"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "stars": 15557,
+      "forks": 1347,
+      "todayStars": 131,
+      "url": "https://github.com/davila7/claude-code-templates",
+      "aiSummary": {
+        "summary": "提供Claude Code的CLI配置工具，支持快速部署AI开发模板，集成MCP外部服务、自定义命令与自动化钩子，提升开发效率。",
+        "techStack": [
+          "Python",
+          "CLI工具",
+          "JSON配置"
+        ],
+        "useCase": "AI代码开发环境快速配置与多工具集成"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "makeplane/plane",
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "stars": 43504,
+      "forks": 3271,
+      "todayStars": 317,
+      "url": "https://github.com/makeplane/plane",
+      "aiSummary": {
+        "summary": "Plane是一款开源项目管理平台，提供任务管理、冲刺周期跟踪、模块划分、自定义视图、AI辅助页面和实时分析功能，支持自托管和云部署，旨在替代Jira等商业工具。",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "适用于需要开源项目管理工具的团队，替代Jira、ClickUp等商业平台，支持自托管和云部署。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "twitter/twemoji",
+      "description": "Emoji for everyone. https://twemoji.twitter.com/",
+      "language": "HTML",
+      "stars": 17430,
+      "forks": 1903,
+      "todayStars": 55,
+      "url": "https://github.com/twitter/twemoji",
+      "aiSummary": {
+        "summary": "Twemoji是Twitter提供的Unicode表情库，支持跨平台标准Emoji显示。提供CDN接入和DOM解析API，遵循Unicode规范，适用于需要统一表情显示的网页场景。",
+        "techStack": [
+          "HTML",
+          "JavaScript",
+          "CDN"
+        ],
+        "useCase": "为网页提供标准Unicode表情支持，确保跨平台一致性"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "stars": 22740,
+      "forks": 2198,
+      "todayStars": 471,
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "aiSummary": {
+        "summary": "UI-TARS-desktop是字节跳动开源的多模态AI代理桌面应用，支持GUI代理与视觉交互，整合终端、浏览器及实际工具，实现类人任务处理。提供本地与远程计算机操作功能，基于TypeScript开发。",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "Multimodal AI"
+        ],
+        "useCase": "适用于需要跨平台多模态AI任务自动化与智能交互的桌面应用场景。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "twentyhq/twenty",
+      "description": "Building a modern alternative to Salesforce, powered by the community.",
+      "language": "TypeScript",
+      "stars": 38626,
+      "forks": 4916,
+      "todayStars": 343,
+      "url": "https://github.com/twentyhq/twenty",
+      "aiSummary": {
+        "summary": "twentyhq/twenty 是一个开源CRM项目，旨在提供成本更低、可自定义的Salesforce替代方案。支持布局自定义、工作流自动化、权限管理及多数据类型管理，强调社区驱动和开放生态，解决传统CRM价格高昂和数据锁定问题。",
+        "techStack": [
+          "TypeScript",
+          "Nx",
+          "NestJS",
+          "PostgreSQL",
+          "React"
+        ],
+        "useCase": "企业级客户关系管理与定制化数据流程管理"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "home-assistant/home-assistant.io",
+      "description": "📘 Home Assistant User documentation",
+      "language": "HTML",
+      "stars": 7918,
+      "forks": 8081,
+      "todayStars": 148,
+      "url": "https://github.com/home-assistant/home-assistant.io",
+      "aiSummary": {
+        "summary": "Home Assistant官方文档站点，提供用户指南、开发文档及多环境访问链接（生产/测试/开发）。包含本地预览搭建、PR预览部署及优化网站生成速度的工具链。",
+        "techStack": [
+          "HTML",
+          "Jekyll",
+          "Netlify"
+        ],
+        "useCase": "为Home Assistant用户提供技术文档支持与开发贡献指南"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Shell",
+      "stars": 55225,
+      "forks": 3996,
+      "todayStars": 602,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code 是一款终端集成的代理编程工具，支持通过自然语言命令执行代码任务、解释复杂代码并管理 Git 流程，提升开发效率。提供插件扩展功能，兼容多平台安装。",
+        "techStack": [
+          "Shell",
+          "Git",
+          "NPM"
+        ],
+        "useCase": "适用于需要通过自然语言加速编码及管理代码仓库的开发者场景。"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "C4illin/ConvertX",
+      "description": "💾 Self-hosted online file converter. Supports 1000+ formats ⚙️",
+      "language": "TypeScript",
+      "stars": 14558,
+      "forks": 775,
+      "todayStars": 312,
+      "url": "https://github.com/C4illin/ConvertX",
+      "aiSummary": {
+        "summary": "ConvertX 是一个自托管的在线文件转换工具，支持1000+种格式转换，提供多文件处理、密码保护和多账户管理功能。基于TypeScript开发，采用Bun和Elysia框架，可部署于本地或HTTPS环境。",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "Elysia"
+        ],
+        "useCase": "需要本地化部署的多格式文件转换与批量处理场景"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "simstudioai/sim",
+      "description": "Open-source platform to build and deploy AI agent workflows.",
+      "language": "TypeScript",
+      "stars": 25409,
+      "forks": 3155,
+      "todayStars": 145,
+      "url": "https://github.com/simstudioai/sim",
+      "aiSummary": {
+        "summary": "开源AI代理工作流构建平台，支持可视化流程设计、向量数据库集成和本地模型部署，提供云托管与自托管方案，可通过自然语言生成节点并优化工作流。",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Ollama"
+        ],
+        "useCase": "适用于需要本地化部署AI代理工作流并集成向量数据库的开发场景"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "gyoridavid/ai_agents_az",
+      "description": "",
+      "language": "Python",
+      "stars": 2421,
+      "forks": 644,
+      "todayStars": 340,
+      "url": "https://github.com/gyoridavid/ai_agents_az",
+      "aiSummary": {
+        "summary": "该项目似乎是一个AI代理相关项目，但项目描述和README内容不完整，缺乏具体功能说明。可能与GitHub工具集成有关，但未明确技术细节。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "可能用于演示或测试GitHub AI工具集成开发流程"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-11T23:26:07.363Z",
+    "duration": "95s",
+    "version": "1.0.0"
+  }
+}

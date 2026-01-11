@@ -67,25 +67,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-01-10 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-01-11 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | Shell | 54.7k | 650 | Claude Code是一款终端级AI编程工具，通过自然语言指令实现代码自动化处理、复杂代码解释及Git流程管理，支持多平台安装并提供插件扩展功能。 |
-| 2 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 20.0k | 290 | ChromeDevTools/mcp 是基于TypeScript的MCP服务器，允许AI编码助手通过Chrome DevTools实现浏览器控制、性能分析和自动化调试，集成Puppeteer实现可靠操作。 |
-| 3 | [github/awesome-copilot](https://github.com/github/awesome-copilot) | Community-contributed instructions, prompts, and c... | JavaScript | 16.9k | 146 | 社区驱动的GitHub Copilot增强工具库，提供定制化指令、提示词和配置方案，涵盖代码生成、文档编写、问题解决等场景，支持通过MCP服务器便捷集成。 |
-| 4 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory infrastructure for LLMs and AI agents... | Python | 4.3k | 80 | MemU是面向LLM和AI代理的内存框架，支持多模态数据输入处理，通过分层文件系统结构化存储记忆，并提供RAG和LLM两种检索方式，具备自适应进化能力。 |
-| 5 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code superpowers: core skills library... | Shell | 16.1k | 921 | Superpowers是基于Claude Code的自动化软件开发工作流工具，通过可组合的技能库和TDD/YAGNI/DRY原则，帮助编码代理自动规划和执行开发任务，提升开发效率。 |
-| 6 | [google/googletest](https://github.com/google/googletest) | GoogleTest - Google Testing and Mocking Framework... | C++ | 38.0k | 88 | GoogleTest是Google的C++测试框架，支持xUnit架构，提供自动测试发现、丰富断言、用户自定义断言、死亡测试、参数化测试等功能，适用于C++项目的单元测试和模拟测试。 |
-| 7 | [xpipe-io/xpipe](https://github.com/xpipe-io/xpipe) | Access your entire server infrastructure from your... | Java | 13.2k | 79 | xpipe-io/xpipe 是一个基于命令行工具的远程连接管理平台，支持SSH、Docker、虚拟机、云服务器等多种连接方式，提供集中化管理、自定义环境配置及文件浏览器功能，适用于多平台服务器基础设施的统一访问与操作。 |
-| 8 | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | The Open-Source Multimodal AI Agent Stack: Connect... | TypeScript | 22.3k | 801 | UI-TARS-desktop是字节跳动开源的多模态AI代理桌面应用，基于TypeScript开发，提供GUI代理功能，支持本地/远程计算机及浏览器操作，整合前沿AI模型与工具链，实现类人任务处理流程。 |
-| 9 | [C4illin/ConvertX](https://github.com/C4illin/ConvertX) | 💾 Self-hosted online file converter. Supports 100... | TypeScript | 14.2k | 404 | ConvertX是一个自托管的在线文件转换工具，支持1000+种格式转换，提供多文件处理、密码保护和多账户管理功能，适用于本地化文件格式转换需求。 |
-| 10 | [opf/openproject](https://github.com/opf/openproject) | OpenProject is the leading open source project man... | Ruby | 13.6k | 15 | OpenProject是基于Web的开源项目管理软件，提供项目计划、任务管理、敏捷开发、时间跟踪、成本报告、缺陷跟踪及协作功能，支持与GitHub集成，适用于团队协作和项目管理。 |
-| 11 | [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | MiroThinker is an open-source search agent model, ... | Python | 4.2k | 310 | MiroThinker是开源搜索代理模型，支持工具增强推理与现实世界信息检索，覆盖多基准测试（如HLE、BrowseComp等），提供研究框架、数据集及训练工具，适用于复杂研究工作流。 |
-| 12 | [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | real time face swap and one-click video deepfake w... | Python | 77.1k | 109 | Deep-Live-Cam 是实时人脸交换与视频深度伪造工具，仅需单张图片即可生成深度伪造内容。项目强调伦理合规，内置敏感内容过滤机制，适用于AI媒体创作与动画设计。 |
-| 13 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, power... | TypeScript | 38.4k | 215 | twentyhq/twenty 是一个由社区驱动的开源CRM项目，旨在提供低成本、可自定义的客户关系管理解决方案。支持多视图布局、权限管理、工作流自动化及多类型数据管理，采用现代前端框架与后端技术栈构建。 |
+| 1 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent.... | TypeScript | 61.6k | 2.1k | 开源AI编码代理，提供开发模式（build）与分析模式（plan）切换，支持多平台安装及桌面应用，适用于代码生成、分析与规划场景。 |
+| 2 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code superpowers: core skills library... | Shell | 16.9k | 702 | Superpowers为Claude Code编码代理提供自动化软件开发工作流，通过可组合技能库实现需求分析、设计拆解、TDD驱动开发及子代理协作，支持高效工程化开发流程。 |
+| 3 | [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | Autonomous AI development loop for Claude Code wit... | Shell | 1.5k | 357 | Ralph for Claude Code 实现了自主AI开发循环，支持智能退出检测、速率限制和错误防护，具备会话连续性与tmux集成，适用于自动化代码迭代与持续集成场景。 |
+| 4 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI tool for configuring and monitoring Claude Cod... | Python | 15.6k | 131 | 提供Claude Code的CLI配置工具，支持快速部署AI开发模板，集成MCP外部服务、自定义命令与自动化钩子，提升开发效率。 |
+| 5 | [makeplane/plane](https://github.com/makeplane/plane) | 🔥🔥🔥 Open-source Jira, Linear, Monday, and Click... | TypeScript | 43.5k | 317 | Plane是一款开源项目管理平台，提供任务管理、冲刺周期跟踪、模块划分、自定义视图、AI辅助页面和实时分析功能，支持自托管和云部署，旨在替代Jira等商业工具。 |
+| 6 | [twitter/twemoji](https://github.com/twitter/twemoji) | Emoji for everyone. https://twemoji.twitter.com/... | HTML | 17.4k | 55 | Twemoji是Twitter提供的Unicode表情库，支持跨平台标准Emoji显示。提供CDN接入和DOM解析API，遵循Unicode规范，适用于需要统一表情显示的网页场景。 |
+| 7 | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | The Open-Source Multimodal AI Agent Stack: Connect... | TypeScript | 22.7k | 471 | UI-TARS-desktop是字节跳动开源的多模态AI代理桌面应用，支持GUI代理与视觉交互，整合终端、浏览器及实际工具，实现类人任务处理。提供本地与远程计算机操作功能，基于TypeScript开发。 |
+| 8 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, power... | TypeScript | 38.6k | 343 | twentyhq/twenty 是一个开源CRM项目，旨在提供成本更低、可自定义的Salesforce替代方案。支持布局自定义、工作流自动化、权限管理及多数据类型管理，强调社区驱动和开放生态，解决传统CRM价格高昂和数据锁定问题。 |
+| 9 | [home-assistant/home-assistant.io](https://github.com/home-assistant/home-assistant.io) | 📘 Home Assistant User documentation... | HTML | 7.9k | 148 | Home Assistant官方文档站点，提供用户指南、开发文档及多环境访问链接（生产/测试/开发）。包含本地预览搭建、PR预览部署及优化网站生成速度的工具链。 |
+| 10 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | Shell | 55.2k | 602 | Claude Code 是一款终端集成的代理编程工具，支持通过自然语言命令执行代码任务、解释复杂代码并管理 Git 流程，提升开发效率。提供插件扩展功能，兼容多平台安装。 |
+| 11 | [C4illin/ConvertX](https://github.com/C4illin/ConvertX) | 💾 Self-hosted online file converter. Supports 100... | TypeScript | 14.6k | 312 | ConvertX 是一个自托管的在线文件转换工具，支持1000+种格式转换，提供多文件处理、密码保护和多账户管理功能。基于TypeScript开发，采用Bun和Elysia框架，可部署于本地或HTTPS环境。 |
+| 12 | [simstudioai/sim](https://github.com/simstudioai/sim) | Open-source platform to build and deploy AI agent ... | TypeScript | 25.4k | 145 | 开源AI代理工作流构建平台，支持可视化流程设计、向量数据库集成和本地模型部署，提供云托管与自托管方案，可通过自然语言生成节点并优化工作流。 |
+| 13 | [gyoridavid/ai_agents_az](https://github.com/gyoridavid/ai_agents_az) | ... | Python | 2.4k | 340 | 该项目似乎是一个AI代理相关项目，但项目描述和README内容不完整，缺乏具体功能说明。可能与GitHub工具集成有关，但未明确技术细节。 |
 
-[查看完整数据](api/github/2026-01-10.json)
+[查看完整数据](api/github/2026-01-11.json)
 <!-- END GITHUB TRENDING -->
 
 
