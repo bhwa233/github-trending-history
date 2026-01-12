@@ -1,0 +1,246 @@
+{
+  "date": "2026-01-12",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "DioxusLabs/dioxus",
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "language": "Rust",
+      "stars": 33572,
+      "forks": 1475,
+      "todayStars": 190,
+      "url": "https://github.com/DioxusLabs/dioxus",
+      "aiSummary": {
+        "summary": "Dioxus是基于Rust的全栈应用框架，支持Web、桌面、移动等多平台开发。提供跨平台代码复用、热重载、信号状态管理及全栈Web功能，集成axum实现服务器端渲染与API开发，具备类型安全和高效热修补特性。",
+        "techStack": [
+          "Rust",
+          "axum",
+          "TailwindCSS"
+        ],
+        "useCase": "开发跨平台全栈应用，支持Web、桌面、移动及服务器端。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "stars": 42132,
+      "forks": 9351,
+      "todayStars": 139,
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "aiSummary": {
+        "summary": "MediaCrawler是一个多平台自媒体数据采集工具，支持小红书、抖音、快手、B站、微博、贴吧、知乎等平台的公开信息抓取。基于Playwright实现浏览器自动化登录与数据采集，具备关键词搜索、指定ID爬取、评论获取、登录态缓存、IP代理池等功能，提供WebUI可视化界面和Pro版扩展能力。",
+        "techStack": [
+          "Python",
+          "Playwright",
+          "Node.js"
+        ],
+        "useCase": "适用于多平台社交媒体数据采集与分析场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "frankbria/ralph-claude-code",
+      "description": "Autonomous AI development loop for Claude Code with intelligent exit detection",
+      "language": "Shell",
+      "stars": 2199,
+      "forks": 147,
+      "todayStars": 667,
+      "url": "https://github.com/frankbria/ralph-claude-code",
+      "aiSummary": {
+        "summary": "Ralph for Claude Code 提供自主AI开发循环，支持智能退出检测、速率限制和错误防护，实现项目持续迭代优化。内置tmux集成、PRD导入和CI/CD管道，适用于需要自动化代码开发的场景。",
+        "techStack": [
+          "Shell脚本",
+          "tmux",
+          "GitHub Actions",
+          "JSON处理",
+          "Claude Code API"
+        ],
+        "useCase": "需要自动化代码开发与持续集成的AI工程化项目"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "stars": 109348,
+      "forks": 5331,
+      "todayStars": 170,
+      "url": "https://github.com/iptv-org/iptv",
+      "aiSummary": {
+        "summary": "iptv-org/iptv 是一个全球IPTV频道资源集合项目，提供可直接使用的M3U播放列表链接，涵盖电子节目指南、数据库支持及API接口，便于开发者和用户快速访问国际直播频道。",
+        "techStack": [
+          "TypeScript",
+          "M3U",
+          "HTML",
+          "JavaScript"
+        ],
+        "useCase": "为开发者和用户提供全球IPTV频道的便捷访问与集成方案"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "hacksider/Deep-Live-Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "language": "Python",
+      "stars": 77485,
+      "forks": 11316,
+      "todayStars": 110,
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "aiSummary": {
+        "summary": "Deep-Live-Cam 是一款基于Python的实时人脸交换与视频深度伪造工具，仅需单张图像即可生成深度伪造内容。项目强调伦理规范，内置内容过滤机制以防止滥用，适用于艺术创作和AI媒体生产场景。",
+        "techStack": [
+          "Python",
+          "深度学习框架",
+          "实时视频处理"
+        ],
+        "useCase": "适用于需要实时人脸交换和深度伪造视频生成的创意内容制作场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "stars": 23170,
+      "forks": 2247,
+      "todayStars": 492,
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "aiSummary": {
+        "summary": "由字节跳动开源的多模态AI代理栈，包含Agent TARS和UI-TARS-desktop。通过CLI、Web UI及桌面GUI实现跨平台AI任务自动化，整合视觉、GUI代理与真实工具，提升任务完成效率。",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "Multimodal LLMs"
+        ],
+        "useCase": "需要跨平台AI自动化任务处理的桌面应用场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "obra/superpowers",
+      "description": "Claude Code superpowers: core skills library",
+      "language": "Shell",
+      "stars": 18589,
+      "forks": 1432,
+      "todayStars": 1547,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers为Claude Code编码代理提供完整的软件开发工作流，通过可组合的技能库和自动化流程，实现需求分析、设计确认、TDD驱动的代码生成及子代理协作开发，提升开发效率与代码质量。",
+        "techStack": [
+          "Shell",
+          "AI Agent Framework",
+          "TDD"
+        ],
+        "useCase": "自动化软件开发流程，辅助AI编码代理高效完成复杂项目构建"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "ruvnet/claude-flow",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code support via MCP protocol. Ranked #1 in agent-based frameworks.",
+      "language": "JavaScript",
+      "stars": 11667,
+      "forks": 1486,
+      "todayStars": 80,
+      "url": "https://github.com/ruvnet/claude-flow",
+      "aiSummary": {
+        "summary": "Claude-Flow是面向Claude的代理协调平台，支持多代理集群部署与自动化工作流，集成AgentDB提升语义搜索性能，提供100+ MCP工具及蜂群智能架构，适用于企业级AI系统开发。",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "MCP Protocol"
+        ],
+        "useCase": "企业级AI代理系统开发与自动化流程协同"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "home-assistant/home-assistant.io",
+      "description": "📘 Home Assistant User documentation",
+      "language": "HTML",
+      "stars": 8132,
+      "forks": 8097,
+      "todayStars": 268,
+      "url": "https://github.com/home-assistant/home-assistant.io",
+      "aiSummary": {
+        "summary": "Home Assistant用户文档网站，提供多环境部署（生产/测试/开发）和本地预览功能，支持通过Bundler工具加速文档生成与调试。",
+        "techStack": [
+          "HTML",
+          "Ruby",
+          "Jekyll",
+          "Netlify"
+        ],
+        "useCase": "Home Assistant用户文档的维护、多环境发布及本地开发测试"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "mpv-player/mpv",
+      "description": "🎥 Command line media player",
+      "language": "C",
+      "stars": 33480,
+      "forks": 3192,
+      "todayStars": 11,
+      "url": "https://github.com/mpv-player/mpv",
+      "aiSummary": {
+        "summary": "mpv 是一款自由的命令行媒体播放器，支持多种媒体格式、音视频编解码器及字幕类型。提供高效硬件解码支持，可定制播放配置，适用于需要高性能媒体处理的场景。",
+        "techStack": [
+          "C",
+          "FFmpeg",
+          "OpenGL"
+        ],
+        "useCase": "适用于开发者和高级用户进行高效媒体解码与定制化播放需求"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "OpenBMB/ChatDev",
+      "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+      "language": "Python",
+      "stars": 28347,
+      "forks": 3586,
+      "todayStars": 57,
+      "url": "https://github.com/OpenBMB/ChatDev",
+      "aiSummary": {
+        "summary": "ChatDev 2.0 是基于大语言模型的零代码多智能体协作平台，用户可通过配置快速构建复杂多智能体系统，支持数据可视化、3D生成、深度研究等场景。其核心为LLM驱动的智能体编排技术，结合强化学习优化协作流程。",
+        "techStack": [
+          "Python",
+          "多智能体系统",
+          "大语言模型",
+          "强化学习"
+        ],
+        "useCase": "适用于需要零代码构建复杂多智能体协作系统的场景，如自动化软件开发、数据科学研究及3D内容生成"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "opf/openproject",
+      "description": "OpenProject is the leading open source project management software.",
+      "language": "Ruby",
+      "stars": 13938,
+      "forks": 3037,
+      "todayStars": 110,
+      "url": "https://github.com/opf/openproject",
+      "aiSummary": {
+        "summary": "OpenProject是开源项目管理软件，提供项目计划、任务管理、敏捷开发、时间跟踪、缺陷跟踪、维基和论坛等功能，支持团队协作与项目规划。",
+        "techStack": [
+          "Ruby",
+          "Ruby on Rails"
+        ],
+        "useCase": "适用于团队项目管理及协作，尤其适合软件开发和敏捷开发项目。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-12T23:22:58.017Z",
+    "duration": "106s",
+    "version": "1.0.0"
+  }
+}
