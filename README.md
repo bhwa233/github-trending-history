@@ -67,21 +67,19 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-01-13 | **成功**: 9 | **失败**: 0
+**最后更新**: 2026-01-14 | **成功**: 7 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code superpowers: core skills library... | Shell | 20.3k | 1.6k | Superpowers 是基于 Shell 语言的代码开发工作流工具，通过可组合的技能库和自动化流程提升编码效率。核心功能包括需求分析、分块设计展示、遵循 TDD/YAGNI 原则的实现计划生成，以及子代理驱动的自动化开发流程，适用于需要高效代码生成的场景。 |
-| 2 | [icloud-photos-downloader/icloud_photos_downloader](https://github.com/icloud-photos-downloader/icloud_photos_downloader) | A command-line tool to download photos from iCloud... | Python | 11.0k | 364 | Python开发的跨平台iCloud照片下载工具，支持命令行操作。提供三种工作模式：复制、同步、移动，支持Live Photos、RAW格式、自动去重及元数据更新。可定时监控iCloud变化，适用于照片备份与增量同步场景。 |
-| 3 | [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) | NVR with realtime local object detection for IP ca... | TypeScript | 28.9k | 38 | Frigate NVR是一款基于IP摄像头的实时本地对象检测NVR系统，集成Home Assistant支持。采用OpenCV与TensorFlow实现低资源消耗的AI检测，通过运动检测触发对象识别，支持MQTT通信、RTSP重流媒体及多摄像头管理，适用于家庭安防场景。 |
-| 4 | [twitter/the-algorithm](https://github.com/twitter/the-algorithm) | Source code for the X Recommendation Algorithm... | Scala | 69.5k | 43 | X平台内容推荐算法核心代码，包含数据处理、模型服务和软件框架，支持动态消息、搜索、探索等场景的个性化内容推送。 |
-| 5 | [home-assistant/home-assistant.io](https://github.com/home-assistant/home-assistant.io) | 📘 Home Assistant User documentation... | HTML | 8.3k | 184 | Home Assistant用户文档网站，提供不同分支的在线访问链接及本地开发预览环境配置，包含文档贡献流程和站点生成优化工具。 |
-| 6 | [chidiwilliams/buzz](https://github.com/chidiwilliams/buzz) | Buzz transcribes and translates audio offline on y... | Python | 16.7k | 263 | Buzz是一款基于OpenAI Whisper的离线音频转录与翻译工具，支持音频/视频文件及YouTube链接处理，提供实时麦克风转录、语音分离、说话人识别功能，并兼容多平台GPU加速。可导出多种字幕格式，适用于会议记录、视频字幕生成等场景。 |
-| 7 | [adam-maj/tiny-gpu](https://github.com/adam-maj/tiny-gpu) | A minimal GPU design in Verilog to learn how GPUs ... | SystemVerilog | 9.8k | 140 | 该项目用SystemVerilog实现了一个极简GPU架构，通过矩阵运算内核和完整文档展示GPU硬件设计原理，专注于教学用途以理解并行计算和硬件加速器核心机制。 |
-| 8 | [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | M3U Playlist for free TV channels... | Python | 10.6k | 319 | 提供全球免费电视频道的M3U播放列表，涵盖本地免费和网络免费渠道，强调高质量、高清画质和无广告特性，支持Plex、Pluto TV等主流平台。 |
-| 9 | [onlook-dev/onlook](https://github.com/onlook-dev/onlook) | The Cursor for Designers • An Open-Source AI-First... | TypeScript | 24.1k | 42 | 基于Next.js和TailwindCSS的开源AI可视化设计工具，支持实时视觉编辑React应用，提供AI辅助开发、组件管理、跨平台协作及一键部署功能，面向设计师与开发者的协同工作流优化。 |
+| 1 | [obra/superpowers](https://github.com/obra/superpowers) | Claude Code superpowers: core skills library... | Shell | 22.1k | 1.9k | Superpowers 是基于 Claude Code 的代码代理增强框架，通过可组合技能实现自动化软件开发流程。支持需求分析、分块设计、TDD 实现和子代理协作开发，强调 YAGNI/DRY 原则，需通过插件系统集成使用。 |
+| 2 | [twitter/the-algorithm](https://github.com/twitter/the-algorithm) | Source code for the X Recommendation Algorithm... | Scala | 69.9k | 365 | 该项目是X平台的内容推荐算法系统，包含用户行为数据处理、多模型协同的推荐服务及高效框架。核心组件涵盖数据处理（如tweetypie）、用户信号收集（user-signal-service）、社区检测（SimClusters）、知识图谱嵌入（TwHIN）、安全模型（trust-and-safety-models）等，结合navi、product-mixer等框架，支持实时与批量处理，优化用户内容流推 |
+| 3 | [dev-sec/ansible-collection-hardening](https://github.com/dev-sec/ansible-collection-hardening) | This Ansible collection provides battle tested har... | Jinja | 5.0k | 23 | Ansible集合提供Linux、SSH、Nginx、MySQL的加固配置，遵循DevSec基准测试，支持多系统发行版，简化安全合规部署。 |
+| 4 | [mudler/LocalAI](https://github.com/mudler/LocalAI) | 🤖 The free, Open Source alternative to OpenAI, Cl... | Go | 41.5k | 64 | LocalAI是一个开源的本地AI推理平台，兼容OpenAI API，支持文本、音频、图像生成等多种模型。无需GPU，可在消费级硬件上运行，提供自托管解决方案，适用于隐私敏感或离线环境下的AI任务。 |
+| 5 | [grab/cursor-talk-to-figma-mcp](https://github.com/grab/cursor-talk-to-figma-mcp) | TalkToFigma: MCP integration between Cursor and Fi... | JavaScript | 6.0k | 14 | 该项目实现Cursor AI与Figma的MCP协议集成，通过WebSocket通信实现设计数据读取与程序化修改，包含TypeScript MCP服务器、Figma插件及通信模块，支持设计自动化操作。 |
+| 6 | [zoicware/RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI) | Force Remove Copilot, Recall and More in Windows 1... | PowerShell | 8.4k | 337 | 该项目是一个PowerShell脚本，旨在彻底移除Windows 11中的AI功能组件，包括Copilot、Recall等，通过禁用注册表项、移除Appx包、清理系统文件等方式提升隐私与安全性。 |
+| 7 | [rancher/rancher](https://github.com/rancher/rancher) | Complete container management platform... | Go | 25.1k | 6 | Rancher是开源容器管理平台，支持跨环境Kubernetes部署，提供企业级容器编排、多集群管理及DevOps工具链，简化生产环境容器运维。 |
 
-[查看完整数据](api/github/2026-01-13.json)
+[查看完整数据](api/github/2026-01-14.json)
 <!-- END GITHUB TRENDING -->
 
 
