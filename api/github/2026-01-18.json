@@ -1,0 +1,183 @@
+{
+  "date": "2026-01-18",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "iOfficeAI/AionUi",
+      "description": "Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it!",
+      "language": "TypeScript",
+      "stars": 5549,
+      "forks": 432,
+      "todayStars": 660,
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "aiSummary": {
+        "summary": "AionUi是基于TypeScript开发的本地开源AI协作工具，提供统一图形界面支持多AI模型（如Gemini、Claude、Qwen等），具备智能文件管理、多会话本地存储、AI图像生成及多任务并行处理功能，强调数据安全与可视化操作。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Electron"
+        ],
+        "useCase": "适合需要本地化AI代码协作与多模型管理的开发者及团队"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "stars": 142449,
+      "forks": 11505,
+      "todayStars": 170,
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "aiSummary": {
+        "summary": "yt-dlp是功能丰富的命令行音视频下载工具，支持数千个网站，提供多种下载选项和格式控制，兼容youtube-dl但持续更新维护。",
+        "techStack": [
+          "Python",
+          "命令行工具",
+          "网络请求库"
+        ],
+        "useCase": "适用于需要从多平台下载音视频并进行精细化管理的用户"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "nautechsystems/nautilus_trader",
+      "description": "A high-performance algorithmic trading platform and event-driven backtester",
+      "language": "Rust",
+      "stars": 17558,
+      "forks": 2093,
+      "todayStars": 30,
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "aiSummary": {
+        "summary": "NautilusTrader是高性能算法交易平台，支持事件驱动回测与实时交易，采用Rust和Python开发，提供跨平台、高可靠性的策略开发与部署环境。",
+        "techStack": [
+          "Rust",
+          "Python",
+          "Tokio"
+        ],
+        "useCase": "算法交易策略的回测验证与生产环境实时部署"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "google/langextract",
+      "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+      "language": "Python",
+      "stars": 22026,
+      "forks": 1526,
+      "todayStars": 393,
+      "url": "https://github.com/google/langextract",
+      "aiSummary": {
+        "summary": "LangExtract是基于Python的LLM信息提取库，支持精确来源定位、交互式可视化，适配云模型与本地LLM，适用于医疗文档等长文本结构化处理。",
+        "techStack": [
+          "Python",
+          "LLM（Google Gemini, OpenAI）",
+          "Ollama"
+        ],
+        "useCase": "医疗文本信息抽取与结构化分析"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "OpenBMB/VoxCPM",
+      "description": "VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning",
+      "language": "Python",
+      "stars": 4202,
+      "forks": 506,
+      "todayStars": 249,
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "aiSummary": {
+        "summary": "VoxCPM是一款无需分词器的文本转语音系统，支持上下文感知的自然语音生成和零样本真实语音克隆。基于MiniCPM-4架构，通过连续空间建模和层次化语言建模，实现高表达力与稳定性的语音合成，适用于个性化语音生成场景。",
+        "techStack": [
+          "Python",
+          "扩散自回归架构",
+          "MiniCPM-4"
+        ],
+        "useCase": "需要高真实感语音合成与个性化语音克隆的智能助手、有声内容生成等应用"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "yichuan-w/LEANN",
+      "description": "RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
+      "language": "Python",
+      "stars": 8953,
+      "forks": 782,
+      "todayStars": 144,
+      "url": "https://github.com/yichuan-w/LEANN",
+      "aiSummary": {
+        "summary": "LEANN是一个基于Python的轻量级向量数据库，通过图-based有选择性重新计算和高保真剪枝技术，实现97%存储节省。支持本地运行的RAG应用，可处理文档检索、语义搜索及多源数据整合，保障隐私且无需云服务。",
+        "techStack": [
+          "Python",
+          "向量数据库",
+          "图计算"
+        ],
+        "useCase": "个人设备上的私有化语义搜索与AI数据管理"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Flowseal/zapret-discord-youtube",
+      "description": "",
+      "language": "Batchfile",
+      "stars": 21232,
+      "forks": 1773,
+      "todayStars": 56,
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "aiSummary": {
+        "summary": "该项目提供基于WinDivert的网络流量过滤工具，支持绕过网络审查的DNS配置与流量控制，包含批处理脚本实现网络策略自动化。需注意部分安全软件可能误报风险。",
+        "techStack": [
+          "Batchfile",
+          "WinDivert",
+          "DNS over HTTPS"
+        ],
+        "useCase": "适用于需要突破网络限制或进行网络流量管理的场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "tobi/try",
+      "description": "fresh directories for every vibe",
+      "language": "Shell",
+      "stars": 2684,
+      "forks": 98,
+      "todayStars": 29,
+      "url": "https://github.com/tobi/try",
+      "aiSummary": {
+        "summary": "try 是一个用于快速创建和管理实验性目录的工具，通过自动命名、模糊搜索和智能排序帮助用户整理分散的实验项目，避免目录混乱和丢失。",
+        "techStack": [
+          "Ruby",
+          "Shell",
+          "Fuzzy Search"
+        ],
+        "useCase": "适用于需要频繁创建和管理临时实验目录的开发者，尤其适合快速测试和原型开发场景。"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Mebus/cupp",
+      "description": "Common User Passwords Profiler (CUPP)",
+      "language": "Python",
+      "stars": 5543,
+      "forks": 1757,
+      "todayStars": 30,
+      "url": "https://github.com/Mebus/cupp",
+      "aiSummary": {
+        "summary": "CUPP是一个用于分析用户密码强度的工具，通过常见密码模式、字典文件和用户信息生成可能的密码组合，支持交互式问卷、字典分析和大型字典下载，适用于渗透测试和法医调查。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "用于渗透测试和法医调查中的密码强度分析与破解"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-18T23:26:00.125Z",
+    "duration": "79s",
+    "version": "1.0.0"
+  }
+}

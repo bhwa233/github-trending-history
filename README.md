@@ -67,17 +67,21 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-01-17 | **成功**: 5 | **失败**: 0
+**最后更新**: 2026-01-18 | **成功**: 9 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [eigent-ai/eigent](https://github.com/eigent-ai/eigent) | Eigent: The Open Source Cowork Desktop to Unlock Y... | TypeScript | 8.6k | 703 | Eigent是一款开源AI协作桌面应用，通过多智能体工作队列实现复杂流程自动化，支持本地部署与隐私保护，提供零配置设置、企业级SSO/权限控制及自定义模型集成，提升开发与运维效率。 |
-| 2 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 27.3k | 1.4k | Superpowers 是一个基于代理技能框架的软件开发方法论，通过可组合的技能和自动化工作流提升编码效率。它引导代理在编码前明确需求，生成可执行的开发计划，并通过子代理协作实现代码生成与审查，强调TDD、YAGNI和DRY原则。 |
-| 3 | [puckeditor/puck](https://github.com/puckeditor/puck) | The visual editor for React with AI superpowers... | TypeScript | 11.4k | 333 | Puck 是一个基于 React 的模块化可视化编辑器，支持自定义组件和拖拽式页面构建，适用于需要无代码编辑能力的场景。项目采用 TypeScript 开发，提供灵活的配置和渲染能力，兼容 Next.js 等主流框架。 |
-| 4 | [google/langextract](https://github.com/google/langextract) | A Python library for extracting structured informa... | Python | 21.6k | 445 | LangExtract是一个基于LLM的Python库，可从非结构化文本中提取结构化信息，支持精确来源定位、交互式可视化和多模型兼容，适用于医疗、法律等领域的文本结构化处理。 |
-| 5 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source Cowork for Gemini CLI, Cl... | TypeScript | 4.9k | 592 | AionUi是面向AI命令行工具的本地协作平台，支持多模型统一管理、图形化界面操作、本地数据存储及智能文件处理。提供代码生成、文件预览、图像编辑与多任务并行功能，提升AI开发效率。 |
+| 1 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source Cowork for Gemini CLI, Cl... | TypeScript | 5.5k | 660 | AionUi是基于TypeScript开发的本地开源AI协作工具，提供统一图形界面支持多AI模型（如Gemini、Claude、Qwen等），具备智能文件管理、多会话本地存储、AI图像生成及多任务并行处理功能，强调数据安全与可视化操作。 |
+| 2 | [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | A feature-rich command-line audio/video downloader... | Python | 142.4k | 170 | yt-dlp是功能丰富的命令行音视频下载工具，支持数千个网站，提供多种下载选项和格式控制，兼容youtube-dl但持续更新维护。 |
+| 3 | [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | A high-performance algorithmic trading platform an... | Rust | 17.6k | 30 | NautilusTrader是高性能算法交易平台，支持事件驱动回测与实时交易，采用Rust和Python开发，提供跨平台、高可靠性的策略开发与部署环境。 |
+| 4 | [google/langextract](https://github.com/google/langextract) | A Python library for extracting structured informa... | Python | 22.0k | 393 | LangExtract是基于Python的LLM信息提取库，支持精确来源定位、交互式可视化，适配云模型与本地LLM，适用于医疗文档等长文本结构化处理。 |
+| 5 | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | VoxCPM: Tokenizer-Free TTS for Context-Aware Speec... | Python | 4.2k | 249 | VoxCPM是一款无需分词器的文本转语音系统，支持上下文感知的自然语音生成和零样本真实语音克隆。基于MiniCPM-4架构，通过连续空间建模和层次化语言建模，实现高表达力与稳定性的语音合成，适用于个性化语音生成场景。 |
+| 6 | [yichuan-w/LEANN](https://github.com/yichuan-w/LEANN) | RAG on Everything with LEANN. Enjoy 97% storage sa... | Python | 9.0k | 144 | LEANN是一个基于Python的轻量级向量数据库，通过图-based有选择性重新计算和高保真剪枝技术，实现97%存储节省。支持本地运行的RAG应用，可处理文档检索、语义搜索及多源数据整合，保障隐私且无需云服务。 |
+| 7 | [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) | ... | Batchfile | 21.2k | 56 | 该项目提供基于WinDivert的网络流量过滤工具，支持绕过网络审查的DNS配置与流量控制，包含批处理脚本实现网络策略自动化。需注意部分安全软件可能误报风险。 |
+| 8 | [tobi/try](https://github.com/tobi/try) | fresh directories for every vibe... | Shell | 2.7k | 29 | try 是一个用于快速创建和管理实验性目录的工具，通过自动命名、模糊搜索和智能排序帮助用户整理分散的实验项目，避免目录混乱和丢失。 |
+| 9 | [Mebus/cupp](https://github.com/Mebus/cupp) | Common User Passwords Profiler (CUPP)... | Python | 5.5k | 30 | CUPP是一个用于分析用户密码强度的工具，通过常见密码模式、字典文件和用户信息生成可能的密码组合，支持交互式问卷、字典分析和大型字典下载，适用于渗透测试和法医调查。 |
 
-[查看完整数据](api/github/2026-01-17.json)
+[查看完整数据](api/github/2026-01-18.json)
 <!-- END GITHUB TRENDING -->
 
 
