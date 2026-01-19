@@ -67,21 +67,20 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-01-18 | **成功**: 9 | **失败**: 0
+**最后更新**: 2026-01-19 | **成功**: 8 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source Cowork for Gemini CLI, Cl... | TypeScript | 5.5k | 660 | AionUi是基于TypeScript开发的本地开源AI协作工具，提供统一图形界面支持多AI模型（如Gemini、Claude、Qwen等），具备智能文件管理、多会话本地存储、AI图像生成及多任务并行处理功能，强调数据安全与可视化操作。 |
-| 2 | [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | A feature-rich command-line audio/video downloader... | Python | 142.4k | 170 | yt-dlp是功能丰富的命令行音视频下载工具，支持数千个网站，提供多种下载选项和格式控制，兼容youtube-dl但持续更新维护。 |
-| 3 | [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | A high-performance algorithmic trading platform an... | Rust | 17.6k | 30 | NautilusTrader是高性能算法交易平台，支持事件驱动回测与实时交易，采用Rust和Python开发，提供跨平台、高可靠性的策略开发与部署环境。 |
-| 4 | [google/langextract](https://github.com/google/langextract) | A Python library for extracting structured informa... | Python | 22.0k | 393 | LangExtract是基于Python的LLM信息提取库，支持精确来源定位、交互式可视化，适配云模型与本地LLM，适用于医疗文档等长文本结构化处理。 |
-| 5 | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | VoxCPM: Tokenizer-Free TTS for Context-Aware Speec... | Python | 4.2k | 249 | VoxCPM是一款无需分词器的文本转语音系统，支持上下文感知的自然语音生成和零样本真实语音克隆。基于MiniCPM-4架构，通过连续空间建模和层次化语言建模，实现高表达力与稳定性的语音合成，适用于个性化语音生成场景。 |
-| 6 | [yichuan-w/LEANN](https://github.com/yichuan-w/LEANN) | RAG on Everything with LEANN. Enjoy 97% storage sa... | Python | 9.0k | 144 | LEANN是一个基于Python的轻量级向量数据库，通过图-based有选择性重新计算和高保真剪枝技术，实现97%存储节省。支持本地运行的RAG应用，可处理文档检索、语义搜索及多源数据整合，保障隐私且无需云服务。 |
-| 7 | [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) | ... | Batchfile | 21.2k | 56 | 该项目提供基于WinDivert的网络流量过滤工具，支持绕过网络审查的DNS配置与流量控制，包含批处理脚本实现网络策略自动化。需注意部分安全软件可能误报风险。 |
-| 8 | [tobi/try](https://github.com/tobi/try) | fresh directories for every vibe... | Shell | 2.7k | 29 | try 是一个用于快速创建和管理实验性目录的工具，通过自动命名、模糊搜索和智能排序帮助用户整理分散的实验项目，避免目录混乱和丢失。 |
-| 9 | [Mebus/cupp](https://github.com/Mebus/cupp) | Common User Passwords Profiler (CUPP)... | Python | 5.5k | 30 | CUPP是一个用于分析用户密码强度的工具，通过常见密码模式、字典文件和用户信息生成可能的密码组合，支持交互式问卷、字典分析和大型字典下载，适用于渗透测试和法医调查。 |
+| 1 | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | VoxCPM: Tokenizer-Free TTS for Context-Aware Speec... | Python | 4.9k | 650 | VoxCPM是无需分词器的端到端文本转语音系统，采用连续空间建模技术实现上下文感知语音生成和零样本真实语音克隆。基于MiniCPM-4架构结合扩散自回归模型与分层语言建模，支持高效语音合成与个性化声线迁移，适用于高质量语音合成及多场景语音生成需求。 |
+| 2 | [google/langextract](https://github.com/google/langextract) | A Python library for extracting structured informa... | Python | 22.7k | 621 | LangExtract是一个Python库，利用大语言模型从非结构化文本中提取结构化信息，支持精确来源定位、交互式可视化及多模型兼容，适用于医疗文档等长文本的高效信息提取与验证。 |
+| 3 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source Cowork for Gemini CLI, Cl... | TypeScript | 6.8k | 1.2k | AionUi是一款支持多AI工具的本地图形化协作平台，提供统一界面管理Gemini CLI、Claude Code等命令行工具，具备智能文件管理、多会话本地存储、9种格式预览及AI图像生成功能，强化本地数据安全与操作便捷性。 |
+| 4 | [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | A MCP for Claude Desktop / Claude Code / Windsurf ... | TypeScript | 12.2k | 132 | n8n-MCP是一个连接AI助手与n8n工作流平台的模型上下文协议服务器，提供1084个n8n节点的结构化文档、属性、操作及模板数据，支持AI高效调用自动化工具。 |
+| 5 | [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | A high-performance algorithmic trading platform an... | Rust | 18.0k | 525 | NautilusTrader是高性能算法交易平台，支持事件驱动回测与实时交易，覆盖多资产类型。采用Rust开发确保安全性与性能，结合Python实现策略编写，解决研发与生产环境一致性问题。 |
+| 6 | [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) | ... | Python | 15.9k | 174 | BlenderMCP通过Model Context Protocol（MCP）将Blender与Claude AI连接，实现AI对Blender的3D建模、场景操作和代码执行的直接控制。支持对象操作、材质管理、场景检查及远程服务器部署，提供双向通信和多种3D资产集成功能。 |
+| 7 | [yichuan-w/LEANN](https://github.com/yichuan-w/LEANN) | RAG on Everything with LEANN. Enjoy 97% storage sa... | Python | 9.3k | 372 | LEANN是一个基于Python的轻量级向量数据库，通过图-based有选择性重新计算和高保真度剪枝技术，实现97%存储节省的本地RAG应用。支持在个人设备上高效处理文档索引与搜索，保障数据隐私且无需云端计算。 |
+| 8 | [DavidXanatos/TaskExplorer](https://github.com/DavidXanatos/TaskExplorer) | Power full Task Manager... | C | 2.4k | 238 | TaskExplorer是一款基于C语言的系统级任务管理工具，提供进程实时监控与深度分析功能。通过多面板可视化界面，支持线程堆栈追踪、内存编辑、句柄查看、网络连接监控及DLL管理，适用于系统性能调优与故障诊断。 |
 
-[查看完整数据](api/github/2026-01-18.json)
+[查看完整数据](api/github/2026-01-19.json)
 <!-- END GITHUB TRENDING -->
 
 
