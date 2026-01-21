@@ -67,19 +67,20 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-01-20 | **成功**: 7 | **失败**: 0
+**最后更新**: 2026-01-21 | **成功**: 8 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning) | The absolute trainer to light up AI agents.... | Python | 10.7k | 43 | Agent Lightning 是一个用于高效训练AI代理的工具，支持零代码优化、多框架集成（如LangChain、OpenAI、AutoGen等），并结合强化学习等算法提升代理性能，适用于多代理系统的精准优化场景。 |
-| 2 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source Cowork for Gemini CLI, Cl... | TypeScript | 7.7k | 961 | AionUi是支持多AI命令行工具的本地协作平台，提供图形化界面、本地数据存储、多会话管理及智能文件处理功能，兼容Gemini CLI、Qwen Code等主流模型，实现代码生成、文件预览与AI图像编辑一体化操作。 |
-| 3 | [google/langextract](https://github.com/google/langextract) | A Python library for extracting structured informa... | Python | 23.2k | 566 | LangExtract是一个基于Python的LLM库，可从非结构化文本中提取结构化信息，支持精确来源定位、长文档优化处理及交互式可视化，适用于医疗文档等场景的实体提取与上下文关联分析。 |
-| 4 | [AlexxIT/go2rtc](https://github.com/AlexxIT/go2rtc) | Ultimate camera streaming application with support... | Go | 11.5k | 160 | Go语言开发的跨平台流媒体应用，支持RTSP/RTMP/WebRTC/HLS等协议，提供零配置低延迟传输，兼容多种摄像头和流媒体服务，通过FFmpeg实现格式转码与协议适配。 |
-| 5 | [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) | A curated list of awesome remote jobs and resource... | - | 42.5k | 244 | 该项目是一个集中整理的远程工作资源清单，涵盖求职指南、工具推荐、社区交流及远程办公最佳实践，旨在为开发者和远程工作者提供一站式资源导航。 |
-| 6 | [tobi/try](https://github.com/tobi/try) | fresh directories for every vibe... | Shell | 2.9k | 78 | try 是一个用于快速创建和管理实验性项目目录的工具，通过自动命名、模糊搜索和智能排序帮助用户高效组织临时项目，避免目录散乱问题。 |
-| 7 | [DavidXanatos/TaskExplorer](https://github.com/DavidXanatos/TaskExplorer) | Power full Task Manager... | C | 2.7k | 326 | TaskExplorer是一款基于C语言的系统级任务管理工具，提供进程实时监控与深度分析功能。通过多面板可视化界面，支持线程追踪、内存编辑、句柄分析、网络连接监控及DLL管理，适用于系统性能调优与故障排查。 |
+| 1 | [tambo-ai/tambo](https://github.com/tambo-ai/tambo) | Generative UI SDK for React... | TypeScript | 3.3k | 260 | Tambo是一个基于React的生成式UI开发工具包，通过自然语言处理技术实现动态界面生成。开发者可注册组件，AI根据用户指令自动选择并渲染对应组件，支持生成式和可交互组件两种模式，适用于需要个性化界面交互的场景。 |
+| 2 | [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | Official Claude Code compound engineering plugin... | Python | 5.6k | 206 | Claude Code工程插件市场，提供工具提升工程工作效率。支持插件安装与管理，包含工作流规划、执行和审查功能，简化开发流程。 |
+| 3 | [twitter/the-algorithm](https://github.com/twitter/the-algorithm) | Source code for the X Recommendation Algorithm... | Scala | 71.3k | 414 | X平台推荐算法核心代码，包含用户行为数据处理、机器学习模型和内容推荐框架，支持多产品场景的内容流生成与个性化推荐。 |
+| 4 | [xai-org/grok-1](https://github.com/xai-org/grok-1) | Grok open release... | Python | 50.9k | 135 | 该项目提供Grok-1模型的JAX实现，支持314B参数的大规模语言模型运行，采用Mixture of Experts架构，具备RoPE、激活分片和8-bit量化等特性，需大内存GPU部署。 |
+| 5 | [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning) | The absolute trainer to light up AI agents.... | Python | 11.2k | 514 | Agent Lightning 是一个用于训练和优化AI代理的工具，支持零代码更改优化代理性能，兼容多种代理框架（如LangChain、OpenAI、AutoGen等），并集成强化学习、自动提示优化等算法，提升代理效率。 |
+| 6 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 PageIndex: Document Index for Vectorless, Reaso... | Python | 6.1k | 110 | PageIndex是一款无需向量数据库和分块的RAG系统，通过构建文档层次树索引并利用LLM进行推理检索，模拟人类专家处理长文档的逻辑，实现更精准的上下文相关检索。 |
+| 7 | [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners) | 10 Weeks, 20 Lessons, Data Science for All!... | Jupyter Notebook | 32.2k | 114 | 微软推出的10周数据科学入门课程，包含20个模块化课程，提供测验、指导文档、解决方案及作业，采用项目驱动教学法，支持多语言自动翻译，适合初学者系统学习数据科学。 |
+| 8 | [tobi/try](https://github.com/tobi/try) | fresh directories for every vibe... | Shell | 3.1k | 193 | try 是一个用于快速创建和管理实验目录的工具，通过智能模糊搜索、自动命名及排序功能，帮助开发者高效组织临时项目。支持零配置运行，所有实验目录统一管理，避免文件散乱。 |
 
-[查看完整数据](api/github/2026-01-20.json)
+[查看完整数据](api/github/2026-01-21.json)
 <!-- END GITHUB TRENDING -->
 
 
