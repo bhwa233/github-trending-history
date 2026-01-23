@@ -1,0 +1,257 @@
+{
+  "date": "2026-01-23",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
+      "language": "TypeScript",
+      "stars": 28378,
+      "forks": 1681,
+      "todayStars": 1618,
+      "url": "https://github.com/remotion-dev/remotion",
+      "aiSummary": {
+        "summary": "Remotion是基于React的程序化视频生成工具，允许开发者通过组件化方式构建动态视频内容。支持TypeScript，提供动画渲染、视频合成等功能，适用于自动化视频生成场景。",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "Node.js"
+        ],
+        "useCase": "适用于需要动态生成视频内容的场景，如数据可视化动画、自动化视频合成等。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars": 21234,
+      "forks": 2338,
+      "todayStars": 257,
+      "url": "https://github.com/microsoft/VibeVoice",
+      "aiSummary": {
+        "summary": "VibeVoice是微软开源的语音AI项目，包含TTS和ASR模型。核心创新为7.5Hz超低帧率语音分词器与扩散框架，支持60分钟长音频结构化转录及实时多语言语音合成，采用LLM增强上下文理解。",
+        "techStack": [
+          "Python",
+          "扩散模型",
+          "LLM"
+        ],
+        "useCase": "长时音频智能转录与高保真实时语音合成场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "block/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "stars": 27582,
+      "forks": 2489,
+      "todayStars": 492,
+      "url": "https://github.com/block/goose",
+      "aiSummary": {
+        "summary": "block/goose是一个用Rust开发的开源AI代理，能够自动化代码开发、测试和工程流程。它支持多种LLM，可执行项目构建、代码编写、调试及API交互，适用于快速原型设计和复杂工程管理。",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "自动化代码开发与工程流程管理"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "ai-dynamo/dynamo",
+      "description": "A Datacenter Scale Distributed Inference Serving Framework",
+      "language": "Rust",
+      "stars": 5903,
+      "forks": 805,
+      "todayStars": 29,
+      "url": "https://github.com/ai-dynamo/dynamo",
+      "aiSummary": {
+        "summary": "NVIDIA Dynamo是一款面向生成式AI和推理模型的分布式推理框架，支持多节点大规模部署。通过拆分预填充与解码、动态GPU调度、KV缓存优化等技术，提升GPU利用率并降低延迟，兼容TRT-LLM、vLLM等主流框架。",
+        "techStack": [
+          "Rust",
+          "Python",
+          "Kubernetes"
+        ],
+        "useCase": "适用于大规模分布式环境下的高效生成式AI和推理模型服务"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "browser-use/browser-use",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "language": "Python",
+      "stars": 76358,
+      "forks": 9102,
+      "todayStars": 210,
+      "url": "https://github.com/browser-use/browser-use",
+      "aiSummary": {
+        "summary": "提供AI代理浏览器自动化框架，支持网页任务自动化与数据提取，集成云服务和LLM快速启动，简化浏览器控制与代理部署。",
+        "techStack": [
+          "Python",
+          "uv",
+          "Chromium",
+          "asyncio"
+        ],
+        "useCase": "自动化网页操作、数据抓取与AI代理任务执行"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "github/copilot-cli",
+      "description": "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal.",
+      "language": "Shell",
+      "stars": 7211,
+      "forks": 953,
+      "todayStars": 114,
+      "url": "https://github.com/github/copilot-cli",
+      "aiSummary": {
+        "summary": "GitHub Copilot CLI 是一款在终端中集成 AI 编码辅助的工具，支持本地开发、GitHub 无缝集成和代理功能，提供代码构建、调试、重构等智能协助，用户可自定义扩展并完全控制操作流程。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "开发者在终端场景下通过自然语言交互实现高效编码与代码管理"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Asabeneh/30-Days-Of-Python",
+      "description": "The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw",
+      "language": "Python",
+      "stars": 56323,
+      "forks": 10786,
+      "todayStars": 87,
+      "url": "https://github.com/Asabeneh/30-Days-Of-Python",
+      "aiSummary": {
+        "summary": "30 Days Of Python 是一个为期30天的Python编程学习项目，提供每日教程、代码示例和练习题，涵盖基础语法、数据类型及编程概念。项目包含中文和葡萄牙语资源，支持自主学习节奏，并附有赞助信息和学习社群链接。",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "Git"
+        ],
+        "useCase": "适用于系统学习Python编程的初学者或希望通过每日练习巩固技能的学习者。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Shell",
+      "stars": 59938,
+      "forks": 4458,
+      "todayStars": 498,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code是一个终端内的代理编码工具，通过自然语言命令执行代码任务、解释代码逻辑、管理Git工作流，支持多平台安装。项目包含插件系统扩展功能，注重用户数据隐私保护。",
+        "techStack": [
+          "Shell",
+          "Git",
+          "Natural Language Processing"
+        ],
+        "useCase": "需要通过自然语言交互提升编码效率的开发者"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "deepseek-ai/FlashMLA",
+      "description": "FlashMLA: Efficient Multi-head Latent Attention Kernels",
+      "language": "C++",
+      "stars": 12309,
+      "forks": 959,
+      "todayStars": 184,
+      "url": "https://github.com/deepseek-ai/FlashMLA",
+      "aiSummary": {
+        "summary": "FlashMLA是DeepSeek优化的多头潜在注意力内核库，支持稀疏与密集注意力机制，提升模型预填充和解码阶段性能。采用FP8 KV缓存和bfloat16矩阵乘法，实现高达660 TFLOPS的计算效率，适配NVIDIA H800 GPU。",
+        "techStack": [
+          "C++",
+          "CUDA",
+          "FP8",
+          "bfloat16"
+        ],
+        "useCase": "高性能Transformer模型推理与训练加速"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "microsoft/Data-Science-For-Beginners",
+      "description": "10 Weeks, 20 Lessons, Data Science for All!",
+      "language": "Jupyter Notebook",
+      "stars": 33346,
+      "forks": 6874,
+      "todayStars": 556,
+      "url": "https://github.com/microsoft/Data-Science-For-Beginners",
+      "aiSummary": {
+        "summary": "微软推出的10周20课数据科学入门课程，采用项目驱动教学法，每课包含测验、操作指南、解决方案和作业，帮助初学者通过实践掌握数据科学技能。支持多语言翻译，适合零基础学习者系统学习数据科学。",
+        "techStack": [
+          "Jupyter Notebook"
+        ],
+        "useCase": "数据科学初学者的系统化教学与实践课程。"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "OpenBMB/UltraRAG",
+      "description": "UltraRAG v3: A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
+      "language": "Python",
+      "stars": 2909,
+      "forks": 236,
+      "todayStars": 116,
+      "url": "https://github.com/OpenBMB/UltraRAG",
+      "aiSummary": {
+        "summary": "UltraRAG v3是基于MCP架构的低代码RAG开发框架，通过标准化Retriever、Generation等组件为MCP服务器，结合YAML配置实现复杂流水线的快速构建，降低研发门槛并提升部署效率。",
+        "techStack": [
+          "Python",
+          "MCP（Model Context Protocol）",
+          "YAML"
+        ],
+        "useCase": "适用于需要快速迭代和优化知识增强生成（RAG）流程的研究与工业级应用开发"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "stars": 8621,
+      "forks": 785,
+      "todayStars": 453,
+      "url": "https://github.com/lyogavin/airllm",
+      "aiSummary": {
+        "summary": "AirLLM优化大语言模型推理内存占用，支持70B参数模型在单4GB GPU运行，无需量化/剪枝。可运行405B Llama3.1于8GB显存，并兼容CPU推理与多种模型架构。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "Hugging Face Transformers"
+        ],
+        "useCase": "在资源受限的GPU或CPU环境中高效部署大模型推理任务"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "KellerJordan/modded-nanogpt",
+      "description": "NanoGPT (124M) in 2 minutes",
+      "language": "Python",
+      "stars": 4373,
+      "forks": 582,
+      "todayStars": 52,
+      "url": "https://github.com/KellerJordan/modded-nanogpt",
+      "aiSummary": {
+        "summary": "该项目通过优化算法和架构，在8张NVIDIA H100 GPU上实现NanoGPT模型的快速训练，将训练时间从45分钟缩短至100秒以内，达到3.28验证损失目标。采用旋转位置编码、Muon优化器、FP8精度计算等技术提升效率。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "CUDA"
+        ],
+        "useCase": "高效大规模语言模型训练与分布式优化"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-23T23:28:38.887Z",
+    "duration": "102s",
+    "version": "1.0.0"
+  }
+}
