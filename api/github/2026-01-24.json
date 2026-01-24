@@ -1,0 +1,205 @@
+{
+  "date": "2026-01-24",
+  "since": "daily",
+  "totalRepos": 10,
+  "successCount": 10,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
+      "language": "TypeScript",
+      "stars": 29479,
+      "forks": 1768,
+      "todayStars": 1168,
+      "url": "https://github.com/remotion-dev/remotion",
+      "aiSummary": {
+        "summary": "Remotion 是一个基于 React 的程序化视频生成工具，允许开发者通过代码创建动态视频内容。支持 TypeScript，提供视频渲染、动画处理和导出功能，适用于需要自动化生成视频的场景。",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "Vite",
+          "FFmpeg"
+        ],
+        "useCase": "适用于动态视频生成、社交媒体内容自动化及数据可视化视频制作场景。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "stars": 8323,
+      "forks": 617,
+      "todayStars": 1350,
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "aiSummary": {
+        "summary": "PageIndex是一款无需向量数据库和分块处理的推理型RAG系统，通过构建文档结构树索引并利用LLM进行上下文感知的树搜索实现精准检索，模拟人类专家分析长文档的逻辑流程。",
+        "techStack": [
+          "Python",
+          "LLM（如GPT）",
+          "PyPDF2"
+        ],
+        "useCase": "适用于需要高精度处理长文本文档的法律、学术研究等专业场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "OpenBMB/UltraRAG",
+      "description": "UltraRAG v3: A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
+      "language": "Python",
+      "stars": 3438,
+      "forks": 259,
+      "todayStars": 591,
+      "url": "https://github.com/OpenBMB/UltraRAG",
+      "aiSummary": {
+        "summary": "UltraRAG v3是基于MCP架构的低代码RAG开发框架，通过标准化Retriever、Generation等组件为MCP服务器，结合YAML配置实现复杂RAG流水线的快速构建，降低开发门槛并提升部署效率。",
+        "techStack": [
+          "Python",
+          "MCP",
+          "YAML"
+        ],
+        "useCase": "适用于需要高效构建和迭代检索增强生成（RAG）系统的科研与工业场景"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "browser-use/browser-use",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "language": "Python",
+      "stars": 76759,
+      "forks": 9127,
+      "todayStars": 410,
+      "url": "https://github.com/browser-use/browser-use",
+      "aiSummary": {
+        "summary": "提供Python库实现AI代理自动化网页操作，支持云服务和隐身浏览器，简化在线任务流程。包含快速启动模板、LLM集成及沙盒部署方案。",
+        "techStack": [
+          "Python",
+          "asyncio",
+          "Browser Automation"
+        ],
+        "useCase": "适用于网页数据抓取、自动化测试及AI驱动的在线任务执行"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "block/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "stars": 28312,
+      "forks": 2543,
+      "todayStars": 411,
+      "url": "https://github.com/block/goose",
+      "aiSummary": {
+        "summary": "block/goose 是一个用 Rust 编写的开源 AI 代理，可自动化开发任务，支持代码生成、调试、项目构建及 API 交互，兼容任意 LLM 并提供桌面与 CLI 工具。",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "自动化代码开发与工程流程，提升编码效率与项目管理能力。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Blaizzy/mlx-audio",
+      "description": "A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.",
+      "language": "Python",
+      "stars": 3499,
+      "forks": 289,
+      "todayStars": 63,
+      "url": "https://github.com/Blaizzy/mlx-audio",
+      "aiSummary": {
+        "summary": "基于Apple MLX框架的音频处理库，支持文本转语音(TTS)、语音转文本(STT)和语音转语音(STS)。优化Apple Silicon芯片性能，提供多语言支持、语音克隆、速度控制及量化模型，兼容Python API与Web界面。",
+        "techStack": [
+          "Python",
+          "Apple MLX",
+          "mx.array"
+        ],
+        "useCase": "适用于需要在Apple Silicon设备上进行高效语音转换和分析的应用场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "simstudioai/sim",
+      "description": "Open-source platform to build and deploy AI agent workflows.",
+      "language": "TypeScript",
+      "stars": 26145,
+      "forks": 3261,
+      "todayStars": 78,
+      "url": "https://github.com/simstudioai/sim",
+      "aiSummary": {
+        "summary": "开源AI代理工作流构建平台，支持可视化流程设计、自然语言生成节点、向量数据库集成，提供云端和自托管部署方案。",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "NPM",
+          "Ollama",
+          "vLLM"
+        ],
+        "useCase": "适用于需要快速构建和部署AI代理工作流的开发人员和团队"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars": 21633,
+      "forks": 2360,
+      "todayStars": 453,
+      "url": "https://github.com/microsoft/VibeVoice",
+      "aiSummary": {
+        "summary": "VibeVoice是微软开源的前沿语音AI框架，包含ASR和TTS模型。支持60分钟长音频单次处理，生成带说话人、时间戳和内容的结构化转录，覆盖100+语言。采用7.5Hz超低帧率连续语音分词器，提升计算效率。提供实时语音合成与多语言风格语音生成能力。",
+        "techStack": [
+          "Python",
+          "Deep Learning",
+          "Speech Recognition"
+        ],
+        "useCase": "适用于智能客服、语音助手及多语言长音频处理场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "putyy/res-downloader",
+      "description": "视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!",
+      "language": "Go",
+      "stars": 14353,
+      "forks": 1785,
+      "todayStars": 232,
+      "url": "https://github.com/putyy/res-downloader",
+      "aiSummary": {
+        "summary": "基于Go和Wails的跨平台资源下载工具，支持视频号、抖音、快手、小红书等平台的视频/音频/直播流等资源抓包与下载，提供代理设置、m3u8处理及多平台兼容性，界面简洁易用。",
+        "techStack": [
+          "Go",
+          "Wails",
+          "m3u8-down"
+        ],
+        "useCase": "适用于需要跨平台下载多种网络媒体资源的场景，如视频号、抖音等平台的内容采集与离线保存。"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "AI4Finance-Foundation/FinRobot",
+      "description": "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀",
+      "language": "Jupyter Notebook",
+      "stars": 5204,
+      "forks": 928,
+      "todayStars": 174,
+      "url": "https://github.com/AI4Finance-Foundation/FinRobot",
+      "aiSummary": {
+        "summary": "FinRobot是一个基于大语言模型的金融分析开源平台，提供自动化报告生成、财务分析、估值评估及风险评估功能，支持市场预测和交易策略分析，适用于金融领域的智能化决策需求。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Large Language Models (LLMs)",
+          "Python"
+        ],
+        "useCase": "金融领域自动化分析与智能决策支持"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-24T23:25:57.556Z",
+    "duration": "81s",
+    "version": "1.0.0"
+  }
+}
