@@ -67,22 +67,21 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-01-24 | **成功**: 10 | **失败**: 0
+**最后更新**: 2026-01-25 | **成功**: 9 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | 🎥 Make videos programmatically with React... | TypeScript | 29.5k | 1.2k | Remotion 是一个基于 React 的程序化视频生成工具，允许开发者通过代码创建动态视频内容。支持 TypeScript，提供视频渲染、动画处理和导出功能，适用于需要自动化生成视频的场景。 |
-| 2 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 PageIndex: Document Index for Vectorless, Reaso... | Python | 8.3k | 1.4k | PageIndex是一款无需向量数据库和分块处理的推理型RAG系统，通过构建文档结构树索引并利用LLM进行上下文感知的树搜索实现精准检索，模拟人类专家分析长文档的逻辑流程。 |
-| 3 | [OpenBMB/UltraRAG](https://github.com/OpenBMB/UltraRAG) | UltraRAG v3: A Low-Code MCP Framework for Building... | Python | 3.4k | 591 | UltraRAG v3是基于MCP架构的低代码RAG开发框架，通过标准化Retriever、Generation等组件为MCP服务器，结合YAML配置实现复杂RAG流水线的快速构建，降低开发门槛并提升部署效率。 |
-| 4 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automat... | Python | 76.8k | 410 | 提供Python库实现AI代理自动化网页操作，支持云服务和隐身浏览器，简化在线任务流程。包含快速启动模板、LLM集成及沙盒部署方案。 |
-| 5 | [block/goose](https://github.com/block/goose) | an open source, extensible AI agent that goes beyo... | Rust | 28.3k | 411 | block/goose 是一个用 Rust 编写的开源 AI 代理，可自动化开发任务，支持代码生成、调试、项目构建及 API 交互，兼容任意 LLM 并提供桌面与 CLI 工具。 |
-| 6 | [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio) | A text-to-speech (TTS), speech-to-text (STT) and s... | Python | 3.5k | 63 | 基于Apple MLX框架的音频处理库，支持文本转语音(TTS)、语音转文本(STT)和语音转语音(STS)。优化Apple Silicon芯片性能，提供多语言支持、语音克隆、速度控制及量化模型，兼容Python API与Web界面。 |
-| 7 | [simstudioai/sim](https://github.com/simstudioai/sim) | Open-source platform to build and deploy AI agent ... | TypeScript | 26.1k | 78 | 开源AI代理工作流构建平台，支持可视化流程设计、自然语言生成节点、向量数据库集成，提供云端和自托管部署方案。 |
-| 8 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI... | Python | 21.6k | 453 | VibeVoice是微软开源的前沿语音AI框架，包含ASR和TTS模型。支持60分钟长音频单次处理，生成带说话人、时间戳和内容的结构化转录，覆盖100+语言。采用7.5Hz超低帧率连续语音分词器，提升计算效率。提供实时语音合成与多语言风格语音生成能力。 |
-| 9 | [putyy/res-downloader](https://github.com/putyy/res-downloader) | 视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!... | Go | 14.4k | 232 | 基于Go和Wails的跨平台资源下载工具，支持视频号、抖音、快手、小红书等平台的视频/音频/直播流等资源抓包与下载，提供代理设置、m3u8处理及多平台兼容性，界面简洁易用。 |
-| 10 | [AI4Finance-Foundation/FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) | FinRobot: An Open-Source AI Agent Platform for Fin... | Jupyter Notebook | 5.2k | 174 | FinRobot是一个基于大语言模型的金融分析开源平台，提供自动化报告生成、财务分析、估值评估及风险评估功能，支持市场预测和交易策略分析，适用于金融领域的智能化决策需求。 |
+| 1 | [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio) | A text-to-speech (TTS), speech-to-text (STT) and s... | Python | 4.2k | 263 | 基于Apple MLX框架的音频处理库，支持TTS/STT/STS功能，优化Apple Silicon性能，提供多语言、语音克隆、量化模型及Web交互功能。 |
+| 2 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 PageIndex: Document Index for Vectorless, Reaso... | Python | 9.0k | 1.0k | PageIndex 是一种无需向量数据库或分块处理的推理型RAG系统，通过构建文档结构树索引并利用LLM进行上下文感知的树搜索检索，提升长文档检索的准确性与专业性。 |
+| 3 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | 🎥 Make videos programmatically with React... | TypeScript | 30.6k | 1.1k | Remotion是一个基于React的程序化视频生成工具，允许开发者通过编程方式创建动态视频内容。支持组件化视频设计、动画合成及自动化渲染，适用于需要批量生成个性化视频的场景。 |
+| 4 | [qarmin/czkawka](https://github.com/qarmin/czkawka) | Multi functional app to find duplicates, empty fol... | Rust | 28.5k | 60 | Czkawka是用Rust开发的多功能文件管理工具，支持查找重复文件、空文件夹、相似图片/视频、大文件等。具备多平台支持、隐私保护、缓存加速和CLI/GUI双模式，核心库可复用于其他应用。 |
+| 5 | [OpenBMB/UltraRAG](https://github.com/OpenBMB/UltraRAG) | UltraRAG v3: A Low-Code MCP Framework for Building... | Python | 4.0k | 437 | UltraRAG v3是基于MCP架构的低代码RAG开发框架，通过YAML配置实现复杂流水线编排，标准化Retriever/Generation等组件为MCP服务器，支持条件分支、循环等控制结构，降低RAG开发门槛。 |
+| 6 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI... | Python | 22.0k | 362 | VibeVoice是微软开源的语音AI框架，包含ASR和TTS模型。支持60分钟长音频实时转录与合成，具备多语言识别、说话人分离、时间戳标记等功能，采用低帧率语音分词器提升效率。 |
+| 7 | [openai/codex](https://github.com/openai/codex) | Lightweight coding agent that runs in your termina... | Rust | 57.4k | 208 | OpenAI推出的轻量级本地编码代理，支持终端运行，提供代码生成与编辑功能。可通过ChatGPT账户或API密钥使用，兼容多平台二进制文件安装，强调本地化与高效开发体验。 |
+| 8 | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scal... | TypeScript | 14.7k | 159 | Supermemory是一款面向AI时代的高性能内存管理引擎，支持多源内容录入（URL/PDF/文本）、自然语言交互、AI工具集成及多平台扩展。提供网页应用、浏览器插件和Raycast扩展，适用于企业级数据整合与个性化记忆管理。 |
+| 9 | [Psiphon-Inc/conduit](https://github.com/Psiphon-Inc/conduit) | Conduit React Native app... | TypeScript | 81 | 17 | Conduit是基于React Native开发的跨平台网络代理应用，集成psiphon-tunnel-core实现网络穿透功能，支持Android、iOS及Mac系统，采用TypeScript开发并使用Git LFS管理大型库文件。 |
 
-[查看完整数据](api/github/2026-01-24.json)
+[查看完整数据](api/github/2026-01-25.json)
 <!-- END GITHUB TRENDING -->
 
 
