@@ -67,21 +67,20 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-01-25 | **成功**: 9 | **失败**: 0
+**最后更新**: 2026-01-26 | **成功**: 8 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio) | A text-to-speech (TTS), speech-to-text (STT) and s... | Python | 4.2k | 263 | 基于Apple MLX框架的音频处理库，支持TTS/STT/STS功能，优化Apple Silicon性能，提供多语言、语音克隆、量化模型及Web交互功能。 |
-| 2 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 PageIndex: Document Index for Vectorless, Reaso... | Python | 9.0k | 1.0k | PageIndex 是一种无需向量数据库或分块处理的推理型RAG系统，通过构建文档结构树索引并利用LLM进行上下文感知的树搜索检索，提升长文档检索的准确性与专业性。 |
-| 3 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | 🎥 Make videos programmatically with React... | TypeScript | 30.6k | 1.1k | Remotion是一个基于React的程序化视频生成工具，允许开发者通过编程方式创建动态视频内容。支持组件化视频设计、动画合成及自动化渲染，适用于需要批量生成个性化视频的场景。 |
-| 4 | [qarmin/czkawka](https://github.com/qarmin/czkawka) | Multi functional app to find duplicates, empty fol... | Rust | 28.5k | 60 | Czkawka是用Rust开发的多功能文件管理工具，支持查找重复文件、空文件夹、相似图片/视频、大文件等。具备多平台支持、隐私保护、缓存加速和CLI/GUI双模式，核心库可复用于其他应用。 |
-| 5 | [OpenBMB/UltraRAG](https://github.com/OpenBMB/UltraRAG) | UltraRAG v3: A Low-Code MCP Framework for Building... | Python | 4.0k | 437 | UltraRAG v3是基于MCP架构的低代码RAG开发框架，通过YAML配置实现复杂流水线编排，标准化Retriever/Generation等组件为MCP服务器，支持条件分支、循环等控制结构，降低RAG开发门槛。 |
-| 6 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI... | Python | 22.0k | 362 | VibeVoice是微软开源的语音AI框架，包含ASR和TTS模型。支持60分钟长音频实时转录与合成，具备多语言识别、说话人分离、时间戳标记等功能，采用低帧率语音分词器提升效率。 |
-| 7 | [openai/codex](https://github.com/openai/codex) | Lightweight coding agent that runs in your termina... | Rust | 57.4k | 208 | OpenAI推出的轻量级本地编码代理，支持终端运行，提供代码生成与编辑功能。可通过ChatGPT账户或API密钥使用，兼容多平台二进制文件安装，强调本地化与高效开发体验。 |
-| 8 | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scal... | TypeScript | 14.7k | 159 | Supermemory是一款面向AI时代的高性能内存管理引擎，支持多源内容录入（URL/PDF/文本）、自然语言交互、AI工具集成及多平台扩展。提供网页应用、浏览器插件和Raycast扩展，适用于企业级数据整合与个性化记忆管理。 |
-| 9 | [Psiphon-Inc/conduit](https://github.com/Psiphon-Inc/conduit) | Conduit React Native app... | TypeScript | 81 | 17 | Conduit是基于React Native开发的跨平台网络代理应用，集成psiphon-tunnel-core实现网络穿透功能，支持Android、iOS及Mac系统，采用TypeScript开发并使用Git LFS管理大型库文件。 |
+| 1 | [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio) | A text-to-speech (TTS), speech-to-text (STT) and s... | Python | 5.1k | 1.2k | 基于Apple MLX框架的音频处理库，支持TTS、STT、STS功能，优化Apple Silicon性能，提供多语言、语音克隆、量化模型及Web交互功能。 |
+| 2 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 PageIndex: Document Index for Vectorless, Reaso... | Python | 9.7k | 731 | PageIndex 是一种无需向量数据库或分块的推理型RAG系统，通过构建文档分层树索引，利用大语言模型进行上下文感知的精准检索，模拟人类专家分析长文档的逻辑流程。 |
+| 3 | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scal... | TypeScript | 15.1k | 418 | Supermemory是面向AI时代的高性能内存引擎，支持多格式内容添加、自然语言聊天查询，集成Claude等主流AI工具，提供浏览器与Raycast扩展实现快速信息管理。 |
+| 4 | [block/goose](https://github.com/block/goose) | an open source, extensible AI agent that goes beyo... | Rust | 29.1k | 295 | block/goose是用Rust开发的开源AI代理，支持代码自动化开发、测试及工程流程管理，可集成任意LLM并执行构建、调试、API交互等复杂任务，适用于快速原型设计与工程管道优化。 |
+| 5 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | 🎥 Make videos programmatically with React... | TypeScript | 31.9k | 1.4k | Remotion 是一个基于 React 的程序化视频生成工具，允许开发者通过代码创建动态视频内容。支持 TypeScript，提供组件化开发方式，适用于自动化视频合成和动态视觉创作。 |
+| 6 | [AI4Finance-Foundation/FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) | FinRobot: An Open-Source AI Agent Platform for Fin... | Jupyter Notebook | 5.6k | 173 | FinRobot是面向金融分析的开源AI代理平台，整合大语言模型与AI技术，提供自动化股权研究、财务分析、风险评估及报告生成，支持市场预测与交易策略优化。 |
+| 7 | [k4yt3x/video2x](https://github.com/k4yt3x/video2x) | A machine learning-based video super resolution an... | C++ | 18.0k | 473 | 基于机器学习的视频超分辨率与帧插值框架，支持C++重写后的跨平台处理，提供Anime4K、Real-ESRGAN等模型，具备GUI界面和高效处理能力。 |
+| 8 | [business-science/ai-data-science-team](https://github.com/business-science/ai-data-science-team) | An AI-powered data science team of agents to help ... | Python | 4.1k | 164 | AI Data Science Team 是一个Python库，提供AI驱动的数据科学代理工具，支持数据加载、清洗、可视化、建模等流程。配套的AI Pipeline Studio提供可视化工作流管理，结合Streamlit、H2O和MLflow实现高效数据科学项目开发。 |
 
-[查看完整数据](api/github/2026-01-25.json)
+[查看完整数据](api/github/2026-01-26.json)
 <!-- END GITHUB TRENDING -->
 
 

@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-26",
+  "since": "daily",
+  "totalRepos": 8,
+  "successCount": 8,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Blaizzy/mlx-audio",
+      "description": "A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.",
+      "language": "Python",
+      "stars": 5074,
+      "forks": 378,
+      "todayStars": 1234,
+      "url": "https://github.com/Blaizzy/mlx-audio",
+      "aiSummary": {
+        "summary": "基于Apple MLX框架的音频处理库，支持TTS、STT、STS功能，优化Apple Silicon性能，提供多语言、语音克隆、量化模型及Web交互功能。",
+        "techStack": [
+          "Python",
+          "Apple MLX",
+          "Swift"
+        ],
+        "useCase": "开发高效语音处理应用，适用于Apple设备的文本转语音、语音识别及语音转换场景。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "stars": 9737,
+      "forks": 713,
+      "todayStars": 731,
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "aiSummary": {
+        "summary": "PageIndex 是一种无需向量数据库或分块的推理型RAG系统，通过构建文档分层树索引，利用大语言模型进行上下文感知的精准检索，模拟人类专家分析长文档的逻辑流程。",
+        "techStack": [
+          "Python",
+          "LLM",
+          "API"
+        ],
+        "useCase": "适用于法律文书、科研论文等复杂长文本的高精度信息检索与分析场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "supermemoryai/supermemory",
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "language": "TypeScript",
+      "stars": 15069,
+      "forks": 1566,
+      "todayStars": 418,
+      "url": "https://github.com/supermemoryai/supermemory",
+      "aiSummary": {
+        "summary": "Supermemory是面向AI时代的高性能内存引擎，支持多格式内容添加、自然语言聊天查询，集成Claude等主流AI工具，提供浏览器与Raycast扩展实现快速信息管理。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于AI场景下的高效信息存储、检索与智能交互"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "block/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "stars": 29132,
+      "forks": 2621,
+      "todayStars": 295,
+      "url": "https://github.com/block/goose",
+      "aiSummary": {
+        "summary": "block/goose是用Rust开发的开源AI代理，支持代码自动化开发、测试及工程流程管理，可集成任意LLM并执行构建、调试、API交互等复杂任务，适用于快速原型设计与工程管道优化。",
+        "techStack": [
+          "Rust",
+          "LLM集成",
+          "API交互"
+        ],
+        "useCase": "自动化代码开发与工程流程管理"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
+      "language": "TypeScript",
+      "stars": 31901,
+      "forks": 1921,
+      "todayStars": 1372,
+      "url": "https://github.com/remotion-dev/remotion",
+      "aiSummary": {
+        "summary": "Remotion 是一个基于 React 的程序化视频生成工具，允许开发者通过代码创建动态视频内容。支持 TypeScript，提供组件化开发方式，适用于自动化视频合成和动态视觉创作。",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "Web APIs"
+        ],
+        "useCase": "需要动态生成个性化视频内容的Web应用开发"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "AI4Finance-Foundation/FinRobot",
+      "description": "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀",
+      "language": "Jupyter Notebook",
+      "stars": 5647,
+      "forks": 973,
+      "todayStars": 173,
+      "url": "https://github.com/AI4Finance-Foundation/FinRobot",
+      "aiSummary": {
+        "summary": "FinRobot是面向金融分析的开源AI代理平台，整合大语言模型与AI技术，提供自动化股权研究、财务分析、风险评估及报告生成，支持市场预测与交易策略优化。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Large Language Models",
+          "AI Agents",
+          "Financial Data Analysis"
+        ],
+        "useCase": "金融领域自动化分析与智能决策支持"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "k4yt3x/video2x",
+      "description": "A machine learning-based video super resolution and frame interpolation framework. Est. Hack the Valley II, 2018.",
+      "language": "C++",
+      "stars": 18008,
+      "forks": 1604,
+      "todayStars": 473,
+      "url": "https://github.com/k4yt3x/video2x",
+      "aiSummary": {
+        "summary": "基于机器学习的视频超分辨率与帧插值框架，支持C++重写后的跨平台处理，提供Anime4K、Real-ESRGAN等模型，具备GUI界面和高效处理能力。",
+        "techStack": [
+          "C++",
+          "Vulkan",
+          "ncnn",
+          "GLSL"
+        ],
+        "useCase": "适用于视频超分辨率提升和帧率插值处理，适用于视频编辑及影视制作领域。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "business-science/ai-data-science-team",
+      "description": "An AI-powered data science team of agents to help you perform common data science tasks 10X faster.",
+      "language": "Python",
+      "stars": 4136,
+      "forks": 768,
+      "todayStars": 164,
+      "url": "https://github.com/business-science/ai-data-science-team",
+      "aiSummary": {
+        "summary": "AI Data Science Team 是一个Python库，提供AI驱动的数据科学代理工具，支持数据加载、清洗、可视化、建模等流程。配套的AI Pipeline Studio提供可视化工作流管理，结合Streamlit、H2O和MLflow实现高效数据科学项目开发。",
+        "techStack": [
+          "Python",
+          "Streamlit",
+          "H2O",
+          "MLflow",
+          "OpenAI"
+        ],
+        "useCase": "需要快速构建自动化数据科学工作流并实现可视化管理的团队"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-26T23:29:22.529Z",
+    "duration": "65s",
+    "version": "1.0.0"
+  }
+}
