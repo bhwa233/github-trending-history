@@ -1,9 +1,16 @@
-import dayjs from 'dayjs';
-import { redirect } from 'next/navigation';
+'use client';
 
-export const dynamic = 'force-dynamic';
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+import dayjs from 'dayjs';
 
 export default function Page() {
-  const today = dayjs().format('YYYY-MM-DD');
-  redirect(`/history/${today}`);
+  const router = useRouter();
+
+  useEffect(() => {
+    const today = dayjs().format('YYYY-MM-DD');
+    router.replace(`/history/${today}`);
+  }, [router]);
+
+  return null;
 }
