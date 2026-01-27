@@ -1,0 +1,259 @@
+{
+  "date": "2026-01-10",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Shell",
+      "stars": 54705,
+      "forks": 3955,
+      "todayStars": 650,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code是一款终端级AI编程工具，通过自然语言指令实现代码自动化处理、复杂代码解释及Git流程管理，支持多平台安装并提供插件扩展功能。",
+        "techStack": [
+          "Shell",
+          "Node.js",
+          "Git"
+        ],
+        "useCase": "开发者通过自然语言指令提升代码编写、调试及版本控制效率"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 20036,
+      "forks": 1222,
+      "todayStars": 290,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "ChromeDevTools/mcp 是基于TypeScript的MCP服务器，允许AI编码助手通过Chrome DevTools实现浏览器控制、性能分析和自动化调试，集成Puppeteer实现可靠操作。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Puppeteer"
+        ],
+        "useCase": "AI编程助手的浏览器调试与自动化开发场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "github/awesome-copilot",
+      "description": "Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot.",
+      "language": "JavaScript",
+      "stars": 16921,
+      "forks": 1955,
+      "todayStars": 146,
+      "url": "https://github.com/github/awesome-copilot",
+      "aiSummary": {
+        "summary": "社区驱动的GitHub Copilot增强工具库，提供定制化指令、提示词和配置方案，涵盖代码生成、文档编写、问题解决等场景，支持通过MCP服务器便捷集成。",
+        "techStack": [
+          "JavaScript",
+          "Docker",
+          "MCP Server"
+        ],
+        "useCase": "提升GitHub Copilot代码生成效率与开发体验"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "NevaMind-AI/memU",
+      "description": "Memory infrastructure for LLMs and AI agents",
+      "language": "Python",
+      "stars": 4254,
+      "forks": 281,
+      "todayStars": 80,
+      "url": "https://github.com/NevaMind-AI/memU",
+      "aiSummary": {
+        "summary": "MemU是面向LLM和AI代理的内存框架，支持多模态数据输入处理，通过分层文件系统结构化存储记忆，并提供RAG和LLM两种检索方式，具备自适应进化能力。",
+        "techStack": [
+          "Python",
+          "RAG",
+          "LLM"
+        ],
+        "useCase": "为大语言模型和AI代理提供结构化记忆管理与多模态数据处理基础设施"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "obra/superpowers",
+      "description": "Claude Code superpowers: core skills library",
+      "language": "Shell",
+      "stars": 16128,
+      "forks": 1275,
+      "todayStars": 921,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers是基于Claude Code的自动化软件开发工作流工具，通过可组合的技能库和TDD/YAGNI/DRY原则，帮助编码代理自动规划和执行开发任务，提升开发效率。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要自动化软件开发流程、提升编码效率的开发者，尤其适合使用Claude Code的用户。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "google/googletest",
+      "description": "GoogleTest - Google Testing and Mocking Framework",
+      "language": "C++",
+      "stars": 38016,
+      "forks": 10663,
+      "todayStars": 88,
+      "url": "https://github.com/google/googletest",
+      "aiSummary": {
+        "summary": "GoogleTest是Google的C++测试框架，支持xUnit架构，提供自动测试发现、丰富断言、用户自定义断言、死亡测试、参数化测试等功能，适用于C++项目的单元测试和模拟测试。",
+        "techStack": [
+          "C++"
+        ],
+        "useCase": "用于C++项目的单元测试和模拟测试，支持多种测试场景和参数化测试。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "xpipe-io/xpipe",
+      "description": "Access your entire server infrastructure from your local desktop",
+      "language": "Java",
+      "stars": 13244,
+      "forks": 511,
+      "todayStars": 79,
+      "url": "https://github.com/xpipe-io/xpipe",
+      "aiSummary": {
+        "summary": "xpipe-io/xpipe 是一个基于命令行工具的远程连接管理平台，支持SSH、Docker、虚拟机、云服务器等多种连接方式，提供集中化管理、自定义环境配置及文件浏览器功能，适用于多平台服务器基础设施的统一访问与操作。",
+        "techStack": [
+          "Java",
+          "SSH",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "开发人员和系统管理员集中管理跨平台服务器、容器及云资源的远程连接与操作"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "stars": 22286,
+      "forks": 2148,
+      "todayStars": 801,
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "aiSummary": {
+        "summary": "UI-TARS-desktop是字节跳动开源的多模态AI代理桌面应用，基于TypeScript开发，提供GUI代理功能，支持本地/远程计算机及浏览器操作，整合前沿AI模型与工具链，实现类人任务处理流程。",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "Multimodal AI Framework"
+        ],
+        "useCase": "适用于需要集成多模态AI能力的桌面应用开发与自动化操作场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "C4illin/ConvertX",
+      "description": "💾 Self-hosted online file converter. Supports 1000+ formats ⚙️",
+      "language": "TypeScript",
+      "stars": 14231,
+      "forks": 760,
+      "todayStars": 404,
+      "url": "https://github.com/C4illin/ConvertX",
+      "aiSummary": {
+        "summary": "ConvertX是一个自托管的在线文件转换工具，支持1000+种格式转换，提供多文件处理、密码保护和多账户管理功能，适用于本地化文件格式转换需求。",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "Elysia",
+          "Docker"
+        ],
+        "useCase": "适合需要本地部署且需处理多种文件格式转换的企业或个人用户"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "opf/openproject",
+      "description": "OpenProject is the leading open source project management software.",
+      "language": "Ruby",
+      "stars": 13639,
+      "forks": 3001,
+      "todayStars": 15,
+      "url": "https://github.com/opf/openproject",
+      "aiSummary": {
+        "summary": "OpenProject是基于Web的开源项目管理软件，提供项目计划、任务管理、敏捷开发、时间跟踪、成本报告、缺陷跟踪及协作功能，支持与GitHub集成，适用于团队协作和项目管理。",
+        "techStack": [
+          "Ruby"
+        ],
+        "useCase": "适用于需要团队协作和全流程项目管理的场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "MiroMindAI/MiroThinker",
+      "description": "MiroThinker is an open-source search agent model, built for tool-augmented reasoning and real-world information seeking, aiming to match the deep research experience of OpenAI Deep Research and Gemini Deep Research.",
+      "language": "Python",
+      "stars": 4200,
+      "forks": 265,
+      "todayStars": 310,
+      "url": "https://github.com/MiroMindAI/MiroThinker",
+      "aiSummary": {
+        "summary": "MiroThinker是开源搜索代理模型，支持工具增强推理与现实世界信息检索，覆盖多基准测试（如HLE、BrowseComp等），提供研究框架、数据集及训练工具，适用于复杂研究工作流。",
+        "techStack": [
+          "Python",
+          "深度学习框架",
+          "分布式训练"
+        ],
+        "useCase": "适用于需要复杂推理和实时信息检索的科研任务自动化处理。"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "hacksider/Deep-Live-Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "language": "Python",
+      "stars": 77143,
+      "forks": 11279,
+      "todayStars": 109,
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "aiSummary": {
+        "summary": "Deep-Live-Cam 是实时人脸交换与视频深度伪造工具，仅需单张图片即可生成深度伪造内容。项目强调伦理合规，内置敏感内容过滤机制，适用于AI媒体创作与动画设计。",
+        "techStack": [
+          "Python",
+          "深度学习框架",
+          "GPU加速"
+        ],
+        "useCase": "适用于实时视频深度伪造与AI驱动的动画角色创作"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "twentyhq/twenty",
+      "description": "Building a modern alternative to Salesforce, powered by the community.",
+      "language": "TypeScript",
+      "stars": 38353,
+      "forks": 4889,
+      "todayStars": 215,
+      "url": "https://github.com/twentyhq/twenty",
+      "aiSummary": {
+        "summary": "twentyhq/twenty 是一个由社区驱动的开源CRM项目，旨在提供低成本、可自定义的客户关系管理解决方案。支持多视图布局、权限管理、工作流自动化及多类型数据管理，采用现代前端框架与后端技术栈构建。",
+        "techStack": [
+          "TypeScript",
+          "Nx",
+          "NestJS",
+          "PostgreSQL",
+          "React"
+        ],
+        "useCase": "适用于需要自定义、开源客户关系管理解决方案的企业或团队，尤其适合注重成本和社区协作的场景。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-10T23:26:06.712Z",
+    "duration": "99s",
+    "version": "1.0.0"
+  }
+}

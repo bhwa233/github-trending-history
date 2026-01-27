@@ -67,27 +67,20 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-01-08 | **成功**: 15 | **失败**: 0
+**最后更新**: 2026-01-26 | **成功**: 8 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 19.3k | 314 | ChromeDevTools/mcp 是一个基于TypeScript的MCP服务器，允许AI编码助手（如Gemini、Claude）通过Chrome DevTools控制浏览器，实现自动化操作、性能分析和深度调试，集成puppeteer进行可靠浏览器控制。 |
-| 2 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | Shell | 53.4k | 510 | Claude Code是集成在终端的代理编程工具，通过自然语言指令执行代码任务、解释复杂逻辑、管理Git流程，支持多平台安装。提供插件扩展功能，注重数据隐私保护。 |
-| 3 | [nothings/stb](https://github.com/nothings/stb) | stb single-file public domain libraries for C/C++... | C | 31.6k | 179 | stb项目提供一系列单文件C/C++库，涵盖图像处理、音频解码、字体渲染、数据结构等功能。包含图像加载/写入/缩放、字体解析、动态数组、音频合成等工具，适用于需要轻量级库的开发场景。 |
-| 4 | [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker) | MiroThinker is an open-source search agent suite, ... | Python | 3.4k | 799 | MiroThinker是开源搜索代理套件，支持工具增强的推理与信息检索，提供多组件框架（MiroThinker、MiroFlow等），在HLE、BrowseComp等基准测试中表现优异，适用于复杂研究工作流。 |
-| 5 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | Protocol Buffers - Google's data interchange forma... | C++ | 70.2k | 61 | Protocol Buffers是Google的跨语言、跨平台数据序列化框架，支持结构化数据的高效交换。项目提供C++实现的协议编译器和运行时库，适用于分布式系统和微服务通信。 |
-| 6 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 12.5k | 803 | Claude-Mem是为Claude Code设计的持久化记忆压缩插件，自动捕获编码会话中的工具使用记录，生成语义摘要并跨会话保存，支持上下文连续性维护、隐私控制及多场景检索，提升长期项目开发的上下文连贯性。 |
-| 7 | [xpipe-io/xpipe](https://github.com/xpipe-io/xpipe) | Access your entire server infrastructure from your... | Java | 12.8k | 216 | XPipe是基于Java的连接枢纽，支持通过SSH、Docker、虚拟机、云服务器等多种方式集中管理远程资源，无需远程配置且可扩展性强，适用于开发及运维的多环境管理。 |
-| 8 | [NVlabs/alpasim](https://github.com/NVlabs/alpasim) | ... | Python | 519 | 65 | AlpaSim是NVIDIA开源的自动驾驶研究模拟平台，支持闭环测试与传感器数据模拟，提供高保真视觉渲染、模块化架构及分布式计算能力，适用于算法验证、安全分析与性能测试。 |
-| 9 | [Lissy93/web-check](https://github.com/Lissy93/web-check) | 🕵️‍♂️ All-in-one OSINT tool for analysing any web... | TypeScript | 29.0k | 640 | Lissy93/web-check 是一个基于TypeScript的全功能OSINT网站分析工具，提供IP信息、SSL证书、DNS记录、安全配置、技术栈识别等20+维度的网站洞察，支持潜在攻击面分析与安全优化。 |
-| 10 | [google/googletest](https://github.com/google/googletest) | GoogleTest - Google Testing and Mocking Framework... | C++ | 37.9k | 119 | GoogleTest是Google的C++测试框架，提供xUnit架构支持，自动测试发现，丰富的断言功能（如相等性、异常等），支持自定义断言、死亡测试、参数化测试（值和类型参数化），可处理致命与非致命失败，适用于全面的单元测试和模拟测试场景。 |
-| 11 | [apache/superset](https://github.com/apache/superset) | Apache Superset is a Data Visualization and Data E... | TypeScript | 69.8k | 50 | Apache Superset是现代化的企业级商业智能平台，提供数据可视化、无代码图表构建、SQL编辑器、多数据库支持及可扩展的安全架构，适用于大规模数据分析与动态报表场景。 |
-| 12 | [memvid/memvid](https://github.com/memvid/memvid) | Memory layer for AI Agents. Replace complex RAG pi... | Rust | 11.7k | 465 | Memvid是基于Rust的AI代理单文件内存层，通过类似视频编码的帧结构实现即时检索与长期记忆。支持持久化、版本控制、时间回溯及高效压缩，替代传统RAG管道和数据库。 |
-| 13 | [Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo) | LTX-Video Support for ComfyUI... | Python | 2.6k | 44 | ComfyUI-LTXVideo为ComfyUI提供LTX-2视频生成模型的扩展节点和工作流，支持文本/图像到视频生成、视频细节增强等功能，包含多种预训练模型和优化模块。 |
-| 14 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory infrastructure for LLMs and AI agents... | Python | 3.8k | 97 | MemU是面向LLM和AI代理的记忆框架，支持多模态输入处理，通过分层文件系统组织结构化记忆，提供RAG和LLM双模式检索，具备自适应进化能力。 |
-| 15 | [HKUDS/VideoRAG](https://github.com/HKUDS/VideoRAG) | [KDD'2026] "VideoRAG: Chat with Your Videos"... | Python | 2.0k | 120 | VideoRAG是一款基于AI的视频智能分析工具，支持超长视频对话交互。通过VideoRAG框架实现视频内容理解与问答，具备多格式支持、跨平台特性及针对研究人员的基准数据集，可处理从短片段到数百小时的视频内容。 |
+| 1 | [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio) | A text-to-speech (TTS), speech-to-text (STT) and s... | Python | 5.1k | 1.2k | 基于Apple MLX框架的音频处理库，支持TTS、STT、STS功能，优化Apple Silicon性能，提供多语言、语音克隆、量化模型及Web交互功能。 |
+| 2 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 PageIndex: Document Index for Vectorless, Reaso... | Python | 9.7k | 731 | PageIndex 是一种无需向量数据库或分块的推理型RAG系统，通过构建文档分层树索引，利用大语言模型进行上下文感知的精准检索，模拟人类专家分析长文档的逻辑流程。 |
+| 3 | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scal... | TypeScript | 15.1k | 418 | Supermemory是面向AI时代的高性能内存引擎，支持多格式内容添加、自然语言聊天查询，集成Claude等主流AI工具，提供浏览器与Raycast扩展实现快速信息管理。 |
+| 4 | [block/goose](https://github.com/block/goose) | an open source, extensible AI agent that goes beyo... | Rust | 29.1k | 295 | block/goose是用Rust开发的开源AI代理，支持代码自动化开发、测试及工程流程管理，可集成任意LLM并执行构建、调试、API交互等复杂任务，适用于快速原型设计与工程管道优化。 |
+| 5 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | 🎥 Make videos programmatically with React... | TypeScript | 31.9k | 1.4k | Remotion 是一个基于 React 的程序化视频生成工具，允许开发者通过代码创建动态视频内容。支持 TypeScript，提供组件化开发方式，适用于自动化视频合成和动态视觉创作。 |
+| 6 | [AI4Finance-Foundation/FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) | FinRobot: An Open-Source AI Agent Platform for Fin... | Jupyter Notebook | 5.6k | 173 | FinRobot是面向金融分析的开源AI代理平台，整合大语言模型与AI技术，提供自动化股权研究、财务分析、风险评估及报告生成，支持市场预测与交易策略优化。 |
+| 7 | [k4yt3x/video2x](https://github.com/k4yt3x/video2x) | A machine learning-based video super resolution an... | C++ | 18.0k | 473 | 基于机器学习的视频超分辨率与帧插值框架，支持C++重写后的跨平台处理，提供Anime4K、Real-ESRGAN等模型，具备GUI界面和高效处理能力。 |
+| 8 | [business-science/ai-data-science-team](https://github.com/business-science/ai-data-science-team) | An AI-powered data science team of agents to help ... | Python | 4.1k | 164 | AI Data Science Team 是一个Python库，提供AI驱动的数据科学代理工具，支持数据加载、清洗、可视化、建模等流程。配套的AI Pipeline Studio提供可视化工作流管理，结合Streamlit、H2O和MLflow实现高效数据科学项目开发。 |
 
-[查看完整数据](api/github/2026-01-08.json)
+[查看完整数据](api/github/2026-01-26.json)
 <!-- END GITHUB TRENDING -->
 
 

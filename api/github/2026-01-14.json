@@ -1,0 +1,147 @@
+{
+  "date": "2026-01-14",
+  "since": "daily",
+  "totalRepos": 7,
+  "successCount": 7,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "obra/superpowers",
+      "description": "Claude Code superpowers: core skills library",
+      "language": "Shell",
+      "stars": 22148,
+      "forks": 1671,
+      "todayStars": 1871,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是基于 Claude Code 的代码代理增强框架，通过可组合技能实现自动化软件开发流程。支持需求分析、分块设计、TDD 实现和子代理协作开发，强调 YAGNI/DRY 原则，需通过插件系统集成使用。",
+        "techStack": [
+          "Shell",
+          "Claude Code Plugin",
+          "TDD"
+        ],
+        "useCase": "提升代码代理的自动化开发效率，适用于需要测试驱动和敏捷开发的 AI 编程场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "twitter/the-algorithm",
+      "description": "Source code for the X Recommendation Algorithm",
+      "language": "Scala",
+      "stars": 69855,
+      "forks": 12895,
+      "todayStars": 365,
+      "url": "https://github.com/twitter/the-algorithm",
+      "aiSummary": {
+        "summary": "该项目是X平台的内容推荐算法系统，包含用户行为数据处理、多模型协同的推荐服务及高效框架。核心组件涵盖数据处理（如tweetypie）、用户信号收集（user-signal-service）、社区检测（SimClusters）、知识图谱嵌入（TwHIN）、安全模型（trust-and-safety-models）等，结合navi、product-mixer等框架，支持实时与批量处理，优化用户内容流推",
+        "techStack": [
+          "Scala"
+        ],
+        "useCase": "适用于大规模社交平台的内容个性化推荐系统构建与管理。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "dev-sec/ansible-collection-hardening",
+      "description": "This Ansible collection provides battle tested hardening for Linux, SSH, nginx, MySQL",
+      "language": "Jinja",
+      "stars": 4994,
+      "forks": 798,
+      "todayStars": 23,
+      "url": "https://github.com/dev-sec/ansible-collection-hardening",
+      "aiSummary": {
+        "summary": "Ansible集合提供Linux、SSH、Nginx、MySQL的加固配置，遵循DevSec基准测试，支持多系统发行版，简化安全合规部署。",
+        "techStack": [
+          "Jinja",
+          "Ansible",
+          "YAML"
+        ],
+        "useCase": "企业或开发者用于自动化符合DevSec标准的安全配置加固"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "mudler/LocalAI",
+      "description": "🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, MCP, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference",
+      "language": "Go",
+      "stars": 41536,
+      "forks": 3404,
+      "todayStars": 64,
+      "url": "https://github.com/mudler/LocalAI",
+      "aiSummary": {
+        "summary": "LocalAI是一个开源的本地AI推理平台，兼容OpenAI API，支持文本、音频、图像生成等多种模型。无需GPU，可在消费级硬件上运行，提供自托管解决方案，适用于隐私敏感或离线环境下的AI任务。",
+        "techStack": [
+          "Go",
+          "Docker",
+          "gguf/transformers"
+        ],
+        "useCase": "需要本地化部署和隐私保护的AI模型推理场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "grab/cursor-talk-to-figma-mcp",
+      "description": "TalkToFigma: MCP integration between Cursor and Figma, allowing Cursor Agentic AI to communicate with Figma for reading designs and modifying them programmatically.",
+      "language": "JavaScript",
+      "stars": 5974,
+      "forks": 635,
+      "todayStars": 14,
+      "url": "https://github.com/grab/cursor-talk-to-figma-mcp",
+      "aiSummary": {
+        "summary": "该项目实现Cursor AI与Figma的MCP协议集成，通过WebSocket通信实现设计数据读取与程序化修改，包含TypeScript MCP服务器、Figma插件及通信模块，支持设计自动化操作。",
+        "techStack": [
+          "JavaScript",
+          "TypeScript",
+          "WebSocket"
+        ],
+        "useCase": "设计师可通过Cursor AI自动化处理Figma设计稿，实现批量文本替换与组件实例同步等协作场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "zoicware/RemoveWindowsAI",
+      "description": "Force Remove Copilot, Recall and More in Windows 11",
+      "language": "PowerShell",
+      "stars": 8404,
+      "forks": 259,
+      "todayStars": 337,
+      "url": "https://github.com/zoicware/RemoveWindowsAI",
+      "aiSummary": {
+        "summary": "该项目是一个PowerShell脚本，旨在彻底移除Windows 11中的AI功能组件，包括Copilot、Recall等，通过禁用注册表项、移除Appx包、清理系统文件等方式提升隐私与安全性。",
+        "techStack": [
+          "PowerShell",
+          "Windows注册表",
+          "CBS存储管理"
+        ],
+        "useCase": "需要彻底移除Windows系统AI功能的高级用户或企业环境"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "rancher/rancher",
+      "description": "Complete container management platform",
+      "language": "Go",
+      "stars": 25124,
+      "forks": 3142,
+      "todayStars": 6,
+      "url": "https://github.com/rancher/rancher",
+      "aiSummary": {
+        "summary": "Rancher是开源容器管理平台，支持跨环境Kubernetes部署，提供企业级容器编排、多集群管理及DevOps工具链，简化生产环境容器运维。",
+        "techStack": [
+          "Go",
+          "Kubernetes",
+          "Docker",
+          "Helm",
+          "ETCD"
+        ],
+        "useCase": "适用于需要多云/混合云容器集群管理及Kubernetes统一运维的企业级场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-14T23:23:31.603Z",
+    "duration": "56s",
+    "version": "1.0.0"
+  }
+}

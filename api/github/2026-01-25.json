@@ -1,0 +1,185 @@
+{
+  "date": "2026-01-25",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Blaizzy/mlx-audio",
+      "description": "A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.",
+      "language": "Python",
+      "stars": 4176,
+      "forks": 335,
+      "todayStars": 263,
+      "url": "https://github.com/Blaizzy/mlx-audio",
+      "aiSummary": {
+        "summary": "基于Apple MLX框架的音频处理库，支持TTS/STT/STS功能，优化Apple Silicon性能，提供多语言、语音克隆、量化模型及Web交互功能。",
+        "techStack": [
+          "Python",
+          "Apple MLX",
+          "Swift"
+        ],
+        "useCase": "适用于需要在Apple设备上高效实现语音转换与交互的场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "stars": 9023,
+      "forks": 662,
+      "todayStars": 1007,
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "aiSummary": {
+        "summary": "PageIndex 是一种无需向量数据库或分块处理的推理型RAG系统，通过构建文档结构树索引并利用LLM进行上下文感知的树搜索检索，提升长文档检索的准确性与专业性。",
+        "techStack": [
+          "Python",
+          "LLM（大语言模型）",
+          "文档结构分析"
+        ],
+        "useCase": "适用于需要高精度长文档分析的场景，如法律、学术研究及专业报告处理。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
+      "language": "TypeScript",
+      "stars": 30559,
+      "forks": 1849,
+      "todayStars": 1118,
+      "url": "https://github.com/remotion-dev/remotion",
+      "aiSummary": {
+        "summary": "Remotion是一个基于React的程序化视频生成工具，允许开发者通过编程方式创建动态视频内容。支持组件化视频设计、动画合成及自动化渲染，适用于需要批量生成个性化视频的场景。",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "WebGL"
+        ],
+        "useCase": "适用于数据可视化视频生成、个性化营销素材批量制作等场景"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "qarmin/czkawka",
+      "description": "Multi functional app to find duplicates, empty folders, similar images etc.",
+      "language": "Rust",
+      "stars": 28528,
+      "forks": 932,
+      "todayStars": 60,
+      "url": "https://github.com/qarmin/czkawka",
+      "aiSummary": {
+        "summary": "Czkawka是用Rust开发的多功能文件管理工具，支持查找重复文件、空文件夹、相似图片/视频、大文件等。具备多平台支持、隐私保护、缓存加速和CLI/GUI双模式，核心库可复用于其他应用。",
+        "techStack": [
+          "Rust",
+          "Slint",
+          "GTK4"
+        ],
+        "useCase": "适用于系统维护时清理冗余文件和优化存储空间"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "OpenBMB/UltraRAG",
+      "description": "UltraRAG v3: A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
+      "language": "Python",
+      "stars": 3995,
+      "forks": 283,
+      "todayStars": 437,
+      "url": "https://github.com/OpenBMB/UltraRAG",
+      "aiSummary": {
+        "summary": "UltraRAG v3是基于MCP架构的低代码RAG开发框架，通过YAML配置实现复杂流水线编排，标准化Retriever/Generation等组件为MCP服务器，支持条件分支、循环等控制结构，降低RAG开发门槛。",
+        "techStack": [
+          "Python",
+          "MCP",
+          "YAML"
+        ],
+        "useCase": "适用于需要快速构建和部署知识增强生成流水线的研究与工业场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars": 22002,
+      "forks": 2393,
+      "todayStars": 362,
+      "url": "https://github.com/microsoft/VibeVoice",
+      "aiSummary": {
+        "summary": "VibeVoice是微软开源的语音AI框架，包含ASR和TTS模型。支持60分钟长音频实时转录与合成，具备多语言识别、说话人分离、时间戳标记等功能，采用低帧率语音分词器提升效率。",
+        "techStack": [
+          "Python",
+          "vLLM",
+          "Transformer"
+        ],
+        "useCase": "适用于智能会议记录、多语言语音助手及实时长音频处理场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars": 57419,
+      "forks": 7443,
+      "todayStars": 208,
+      "url": "https://github.com/openai/codex",
+      "aiSummary": {
+        "summary": "OpenAI推出的轻量级本地编码代理，支持终端运行，提供代码生成与编辑功能。可通过ChatGPT账户或API密钥使用，兼容多平台二进制文件安装，强调本地化与高效开发体验。",
+        "techStack": [
+          "Rust",
+          "CLI工具",
+          "HTTP客户端"
+        ],
+        "useCase": "开发者在本地终端通过ChatGPT能力实现高效代码编写与调试。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "supermemoryai/supermemory",
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "language": "TypeScript",
+      "stars": 14653,
+      "forks": 1544,
+      "todayStars": 159,
+      "url": "https://github.com/supermemoryai/supermemory",
+      "aiSummary": {
+        "summary": "Supermemory是一款面向AI时代的高性能内存管理引擎，支持多源内容录入（URL/PDF/文本）、自然语言交互、AI工具集成及多平台扩展。提供网页应用、浏览器插件和Raycast扩展，适用于企业级数据整合与个性化记忆管理。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Node.js"
+        ],
+        "useCase": "适用于需要高效处理非结构化数据并集成AI工具的企业级知识管理场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Psiphon-Inc/conduit",
+      "description": "Conduit React Native app",
+      "language": "TypeScript",
+      "stars": 81,
+      "forks": 39,
+      "todayStars": 17,
+      "url": "https://github.com/Psiphon-Inc/conduit",
+      "aiSummary": {
+        "summary": "Conduit是基于React Native开发的跨平台网络代理应用，集成psiphon-tunnel-core实现网络穿透功能，支持Android、iOS及Mac系统，采用TypeScript开发并使用Git LFS管理大型库文件。",
+        "techStack": [
+          "React Native",
+          "TypeScript",
+          "Git LFS"
+        ],
+        "useCase": "需要跨平台网络代理服务的场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-25T23:27:08.336Z",
+    "duration": "72s",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "date": "2026-01-13",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "obra/superpowers",
+      "description": "Claude Code superpowers: core skills library",
+      "language": "Shell",
+      "stars": 20301,
+      "forks": 1536,
+      "todayStars": 1566,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是基于 Shell 语言的代码开发工作流工具，通过可组合的技能库和自动化流程提升编码效率。核心功能包括需求分析、分块设计展示、遵循 TDD/YAGNI 原则的实现计划生成，以及子代理驱动的自动化开发流程，适用于需要高效代码生成的场景。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "自动化软件开发流程，提升编码代理的开发效率和代码质量"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "icloud-photos-downloader/icloud_photos_downloader",
+      "description": "A command-line tool to download photos from iCloud",
+      "language": "Python",
+      "stars": 10966,
+      "forks": 729,
+      "todayStars": 364,
+      "url": "https://github.com/icloud-photos-downloader/icloud_photos_downloader",
+      "aiSummary": {
+        "summary": "Python开发的跨平台iCloud照片下载工具，支持命令行操作。提供三种工作模式：复制、同步、移动，支持Live Photos、RAW格式、自动去重及元数据更新。可定时监控iCloud变化，适用于照片备份与增量同步场景。",
+        "techStack": [
+          "Python",
+          "iCloud API",
+          "Command Line"
+        ],
+        "useCase": "将iCloud照片安全备份到本地设备并保持同步"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "blakeblackshear/frigate",
+      "description": "NVR with realtime local object detection for IP cameras",
+      "language": "TypeScript",
+      "stars": 28938,
+      "forks": 2706,
+      "todayStars": 38,
+      "url": "https://github.com/blakeblackshear/frigate",
+      "aiSummary": {
+        "summary": "Frigate NVR是一款基于IP摄像头的实时本地对象检测NVR系统，集成Home Assistant支持。采用OpenCV与TensorFlow实现低资源消耗的AI检测，通过运动检测触发对象识别，支持MQTT通信、RTSP重流媒体及多摄像头管理，适用于家庭安防场景。",
+        "techStack": [
+          "TypeScript",
+          "OpenCV",
+          "TensorFlow",
+          "MQTT",
+          "RTSP"
+        ],
+        "useCase": "家庭安防监控系统中的实时视频分析与对象检测"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "twitter/the-algorithm",
+      "description": "Source code for the X Recommendation Algorithm",
+      "language": "Scala",
+      "stars": 69510,
+      "forks": 12854,
+      "todayStars": 43,
+      "url": "https://github.com/twitter/the-algorithm",
+      "aiSummary": {
+        "summary": "X平台内容推荐算法核心代码，包含数据处理、模型服务和软件框架，支持动态消息、搜索、探索等场景的个性化内容推送。",
+        "techStack": [
+          "Scala",
+          "Rust",
+          "Apache Spark",
+          "Kafka",
+          "gRPC"
+        ],
+        "useCase": "社交媒体平台个性化内容推荐系统开发"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "home-assistant/home-assistant.io",
+      "description": "📘 Home Assistant User documentation",
+      "language": "HTML",
+      "stars": 8308,
+      "forks": 8114,
+      "todayStars": 184,
+      "url": "https://github.com/home-assistant/home-assistant.io",
+      "aiSummary": {
+        "summary": "Home Assistant用户文档网站，提供不同分支的在线访问链接及本地开发预览环境配置，包含文档贡献流程和站点生成优化工具。",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "Home Assistant用户文档的维护与协作开发"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "chidiwilliams/buzz",
+      "description": "Buzz transcribes and translates audio offline on your personal computer. Powered by OpenAI's Whisper.",
+      "language": "Python",
+      "stars": 16734,
+      "forks": 1245,
+      "todayStars": 263,
+      "url": "https://github.com/chidiwilliams/buzz",
+      "aiSummary": {
+        "summary": "Buzz是一款基于OpenAI Whisper的离线音频转录与翻译工具，支持音频/视频文件及YouTube链接处理，提供实时麦克风转录、语音分离、说话人识别功能，并兼容多平台GPU加速。可导出多种字幕格式，适用于会议记录、视频字幕生成等场景。",
+        "techStack": [
+          "Python",
+          "OpenAI Whisper",
+          "PyTorch"
+        ],
+        "useCase": "适用于需要离线处理音频转录和翻译的个人或企业用户，支持多种格式和实时处理。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "adam-maj/tiny-gpu",
+      "description": "A minimal GPU design in Verilog to learn how GPUs work from the ground up",
+      "language": "SystemVerilog",
+      "stars": 9791,
+      "forks": 772,
+      "todayStars": 140,
+      "url": "https://github.com/adam-maj/tiny-gpu",
+      "aiSummary": {
+        "summary": "该项目用SystemVerilog实现了一个极简GPU架构，通过矩阵运算内核和完整文档展示GPU硬件设计原理，专注于教学用途以理解并行计算和硬件加速器核心机制。",
+        "techStack": [
+          "SystemVerilog"
+        ],
+        "useCase": "适用于GPU硬件架构教学与并行计算原理研究"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "Free-TV/IPTV",
+      "description": "M3U Playlist for free TV channels",
+      "language": "Python",
+      "stars": 10570,
+      "forks": 1727,
+      "todayStars": 319,
+      "url": "https://github.com/Free-TV/IPTV",
+      "aiSummary": {
+        "summary": "提供全球免费电视频道的M3U播放列表，涵盖本地免费和网络免费渠道，强调高质量、高清画质和无广告特性，支持Plex、Pluto TV等主流平台。",
+        "techStack": [
+          "Python",
+          "M3U8",
+          "Markdown"
+        ],
+        "useCase": "用户通过IPTV播放器访问免费高清电视节目"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "onlook-dev/onlook",
+      "description": "The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI",
+      "language": "TypeScript",
+      "stars": 24075,
+      "forks": 1779,
+      "todayStars": 42,
+      "url": "https://github.com/onlook-dev/onlook",
+      "aiSummary": {
+        "summary": "基于Next.js和TailwindCSS的开源AI可视化设计工具，支持实时视觉编辑React应用，提供AI辅助开发、组件管理、跨平台协作及一键部署功能，面向设计师与开发者的协同工作流优化。",
+        "techStack": [
+          "TypeScript",
+          "Next.js",
+          "TailwindCSS"
+        ],
+        "useCase": "适用于需要可视化编辑和AI辅助的React应用开发与设计协作场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-13T23:25:26.254Z",
+    "duration": "68s",
+    "version": "1.0.0"
+  }
+}

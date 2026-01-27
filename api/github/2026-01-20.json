@@ -1,0 +1,145 @@
+{
+  "date": "2026-01-20",
+  "since": "daily",
+  "totalRepos": 7,
+  "successCount": 7,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "microsoft/agent-lightning",
+      "description": "The absolute trainer to light up AI agents.",
+      "language": "Python",
+      "stars": 10712,
+      "forks": 877,
+      "todayStars": 43,
+      "url": "https://github.com/microsoft/agent-lightning",
+      "aiSummary": {
+        "summary": "Agent Lightning 是一个用于高效训练AI代理的工具，支持零代码优化、多框架集成（如LangChain、OpenAI、AutoGen等），并结合强化学习等算法提升代理性能，适用于多代理系统的精准优化场景。",
+        "techStack": [
+          "Python",
+          "LangChain",
+          "OpenAI Agent SDK",
+          "AutoGen",
+          "Reinforcement Learning"
+        ],
+        "useCase": "适用于需要快速优化AI代理性能且兼容多种框架的机器学习应用场景。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "iOfficeAI/AionUi",
+      "description": "Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it!",
+      "language": "TypeScript",
+      "stars": 7738,
+      "forks": 588,
+      "todayStars": 961,
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "aiSummary": {
+        "summary": "AionUi是支持多AI命令行工具的本地协作平台，提供图形化界面、本地数据存储、多会话管理及智能文件处理功能，兼容Gemini CLI、Qwen Code等主流模型，实现代码生成、文件预览与AI图像编辑一体化操作。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要本地运行、多AI工具协作及可视化操作的开发环境。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "google/langextract",
+      "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+      "language": "Python",
+      "stars": 23155,
+      "forks": 1590,
+      "todayStars": 566,
+      "url": "https://github.com/google/langextract",
+      "aiSummary": {
+        "summary": "LangExtract是一个基于Python的LLM库，可从非结构化文本中提取结构化信息，支持精确来源定位、长文档优化处理及交互式可视化，适用于医疗文档等场景的实体提取与上下文关联分析。",
+        "techStack": [
+          "Python",
+          "LLM（Gemini/Ollama）",
+          "HTML可视化"
+        ],
+        "useCase": "医疗文本、报告等长文档的结构化信息提取与交互式验证"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "AlexxIT/go2rtc",
+      "description": "Ultimate camera streaming application with support RTSP, RTMP, HTTP-FLV, WebRTC, MSE, HLS, MP4, MJPEG, HomeKit, FFmpeg, etc.",
+      "language": "Go",
+      "stars": 11493,
+      "forks": 874,
+      "todayStars": 160,
+      "url": "https://github.com/AlexxIT/go2rtc",
+      "aiSummary": {
+        "summary": "Go语言开发的跨平台流媒体应用，支持RTSP/RTMP/WebRTC/HLS等协议，提供零配置低延迟传输，兼容多种摄像头和流媒体服务，通过FFmpeg实现格式转码与协议适配。",
+        "techStack": [
+          "Go",
+          "RTSP",
+          "WebRTC",
+          "HLS",
+          "FFmpeg"
+        ],
+        "useCase": "适用于智能家居摄像头流媒体传输与多协议实时视频分发场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "lukasz-madon/awesome-remote-job",
+      "description": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
+      "language": "",
+      "stars": 42521,
+      "forks": 4418,
+      "todayStars": 244,
+      "url": "https://github.com/lukasz-madon/awesome-remote-job",
+      "aiSummary": {
+        "summary": "该项目是一个集中整理的远程工作资源清单，涵盖求职指南、工具推荐、社区交流及远程办公最佳实践，旨在为开发者和远程工作者提供一站式资源导航。",
+        "techStack": [],
+        "useCase": "帮助开发者和远程工作者寻找远程工作机会及提升远程协作效率"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "tobi/try",
+      "description": "fresh directories for every vibe",
+      "language": "Shell",
+      "stars": 2926,
+      "forks": 108,
+      "todayStars": 78,
+      "url": "https://github.com/tobi/try",
+      "aiSummary": {
+        "summary": "try 是一个用于快速创建和管理实验性项目目录的工具，通过自动命名、模糊搜索和智能排序帮助用户高效组织临时项目，避免目录散乱问题。",
+        "techStack": [
+          "Ruby",
+          "Shell",
+          "Fuzzy Search"
+        ],
+        "useCase": "适用于需要快速创建和管理实验性项目目录的开发者"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "DavidXanatos/TaskExplorer",
+      "description": "Power full Task Manager",
+      "language": "C",
+      "stars": 2731,
+      "forks": 225,
+      "todayStars": 326,
+      "url": "https://github.com/DavidXanatos/TaskExplorer",
+      "aiSummary": {
+        "summary": "TaskExplorer是一款基于C语言的系统级任务管理工具，提供进程实时监控与深度分析功能。通过多面板可视化界面，支持线程追踪、内存编辑、句柄分析、网络连接监控及DLL管理，适用于系统性能调优与故障排查。",
+        "techStack": [
+          "C",
+          "Windows API",
+          "ETW"
+        ],
+        "useCase": "系统开发与运维中用于进程行为分析及性能瓶颈定位"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-20T23:29:18.853Z",
+    "duration": "56s",
+    "version": "1.0.0"
+  }
+}

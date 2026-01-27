@@ -1,0 +1,166 @@
+{
+  "date": "2026-01-21",
+  "since": "daily",
+  "totalRepos": 8,
+  "successCount": 8,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "tambo-ai/tambo",
+      "description": "Generative UI SDK for React",
+      "language": "TypeScript",
+      "stars": 3251,
+      "forks": 199,
+      "todayStars": 260,
+      "url": "https://github.com/tambo-ai/tambo",
+      "aiSummary": {
+        "summary": "Tambo是一个基于React的生成式UI开发工具包，通过自然语言处理技术实现动态界面生成。开发者可注册组件，AI根据用户指令自动选择并渲染对应组件，支持生成式和可交互组件两种模式，适用于需要个性化界面交互的场景。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "AI自然语言处理"
+        ],
+        "useCase": "需要根据用户指令动态生成个性化界面的交互式应用开发"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "EveryInc/compound-engineering-plugin",
+      "description": "Official Claude Code compound engineering plugin",
+      "language": "Python",
+      "stars": 5647,
+      "forks": 457,
+      "todayStars": 206,
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "aiSummary": {
+        "summary": "Claude Code工程插件市场，提供工具提升工程工作效率。支持插件安装与管理，包含工作流规划、执行和审查功能，简化开发流程。",
+        "techStack": [
+          "Python",
+          "GitHub Actions",
+          "CLI工具"
+        ],
+        "useCase": "适用于需要高效工程工作流的开发团队，通过插件扩展Claude Code功能。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "twitter/the-algorithm",
+      "description": "Source code for the X Recommendation Algorithm",
+      "language": "Scala",
+      "stars": 71336,
+      "forks": 13087,
+      "todayStars": 414,
+      "url": "https://github.com/twitter/the-algorithm",
+      "aiSummary": {
+        "summary": "X平台推荐算法核心代码，包含用户行为数据处理、机器学习模型和内容推荐框架，支持多产品场景的内容流生成与个性化推荐。",
+        "techStack": [
+          "Scala",
+          "Rust",
+          "Machine Learning"
+        ],
+        "useCase": "社交媒体平台个性化内容推荐系统构建与优化"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "xai-org/grok-1",
+      "description": "Grok open release",
+      "language": "Python",
+      "stars": 50930,
+      "forks": 8425,
+      "todayStars": 135,
+      "url": "https://github.com/xai-org/grok-1",
+      "aiSummary": {
+        "summary": "该项目提供Grok-1模型的JAX实现，支持314B参数的大规模语言模型运行，采用Mixture of Experts架构，具备RoPE、激活分片和8-bit量化等特性，需大内存GPU部署。",
+        "techStack": [
+          "Python",
+          "JAX",
+          "SentencePiece"
+        ],
+        "useCase": "适用于大规模语言模型的研究和应用，支持高效推理和定制化训练。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "microsoft/agent-lightning",
+      "description": "The absolute trainer to light up AI agents.",
+      "language": "Python",
+      "stars": 11171,
+      "forks": 916,
+      "todayStars": 514,
+      "url": "https://github.com/microsoft/agent-lightning",
+      "aiSummary": {
+        "summary": "Agent Lightning 是一个用于训练和优化AI代理的工具，支持零代码更改优化代理性能，兼容多种代理框架（如LangChain、OpenAI、AutoGen等），并集成强化学习、自动提示优化等算法，提升代理效率。",
+        "techStack": [
+          "Python",
+          "LangChain",
+          "OpenAI",
+          "AutoGen",
+          "Reinforcement Learning"
+        ],
+        "useCase": "适用于需要高效训练和优化多代理系统的强化学习场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "stars": 6061,
+      "forks": 485,
+      "todayStars": 110,
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "aiSummary": {
+        "summary": "PageIndex是一款无需向量数据库和分块的RAG系统，通过构建文档层次树索引并利用LLM进行推理检索，模拟人类专家处理长文档的逻辑，实现更精准的上下文相关检索。",
+        "techStack": [
+          "Python",
+          "LLM框架",
+          "PDF处理库"
+        ],
+        "useCase": "适用于需要领域知识和多步推理的长文档精准检索场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "microsoft/Data-Science-For-Beginners",
+      "description": "10 Weeks, 20 Lessons, Data Science for All!",
+      "language": "Jupyter Notebook",
+      "stars": 32210,
+      "forks": 6795,
+      "todayStars": 114,
+      "url": "https://github.com/microsoft/Data-Science-For-Beginners",
+      "aiSummary": {
+        "summary": "微软推出的10周数据科学入门课程，包含20个模块化课程，提供测验、指导文档、解决方案及作业，采用项目驱动教学法，支持多语言自动翻译，适合初学者系统学习数据科学。",
+        "techStack": [
+          "Jupyter Notebook"
+        ],
+        "useCase": "数据科学初学者的结构化在线课程与实践项目"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "tobi/try",
+      "description": "fresh directories for every vibe",
+      "language": "Shell",
+      "stars": 3118,
+      "forks": 116,
+      "todayStars": 193,
+      "url": "https://github.com/tobi/try",
+      "aiSummary": {
+        "summary": "try 是一个用于快速创建和管理实验目录的工具，通过智能模糊搜索、自动命名及排序功能，帮助开发者高效组织临时项目。支持零配置运行，所有实验目录统一管理，避免文件散乱。",
+        "techStack": [
+          "Ruby",
+          "Shell",
+          "Fuzzy Search"
+        ],
+        "useCase": "适用于需要频繁创建和管理临时实验目录的开发者"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-21T23:32:01.046Z",
+    "duration": "68s",
+    "version": "1.0.0"
+  }
+}

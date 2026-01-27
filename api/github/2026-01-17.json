@@ -1,0 +1,107 @@
+{
+  "date": "2026-01-17",
+  "since": "daily",
+  "totalRepos": 5,
+  "successCount": 5,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "eigent-ai/eigent",
+      "description": "Eigent: The Open Source Cowork Desktop to Unlock Your Exceptional Productivity.",
+      "language": "TypeScript",
+      "stars": 8571,
+      "forks": 906,
+      "todayStars": 703,
+      "url": "https://github.com/eigent-ai/eigent",
+      "aiSummary": {
+        "summary": "Eigent是一款开源AI协作桌面应用，通过多智能体工作队列实现复杂流程自动化，支持本地部署与隐私保护，提供零配置设置、企业级SSO/权限控制及自定义模型集成，提升开发与运维效率。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "vLLM",
+          "Ollama",
+          "Electron"
+        ],
+        "useCase": "企业级AI工作流自动化与本地化部署场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 27330,
+      "forks": 2025,
+      "todayStars": 1406,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于代理技能框架的软件开发方法论，通过可组合的技能和自动化工作流提升编码效率。它引导代理在编码前明确需求，生成可执行的开发计划，并通过子代理协作实现代码生成与审查，强调TDD、YAGNI和DRY原则。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要自动化软件开发流程并提升编码效率的场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "puckeditor/puck",
+      "description": "The visual editor for React with AI superpowers",
+      "language": "TypeScript",
+      "stars": 11368,
+      "forks": 782,
+      "todayStars": 333,
+      "url": "https://github.com/puckeditor/puck",
+      "aiSummary": {
+        "summary": "Puck 是一个基于 React 的模块化可视化编辑器，支持自定义组件和拖拽式页面构建，适用于需要无代码编辑能力的场景。项目采用 TypeScript 开发，提供灵活的配置和渲染能力，兼容 Next.js 等主流框架。",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "npm"
+        ],
+        "useCase": "需要快速构建可视化编辑器的 React 应用场景，如内容管理系统或定制化前端工具"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "google/langextract",
+      "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+      "language": "Python",
+      "stars": 21570,
+      "forks": 1498,
+      "todayStars": 445,
+      "url": "https://github.com/google/langextract",
+      "aiSummary": {
+        "summary": "LangExtract是一个基于LLM的Python库，可从非结构化文本中提取结构化信息，支持精确来源定位、交互式可视化和多模型兼容，适用于医疗、法律等领域的文本结构化处理。",
+        "techStack": [
+          "Python",
+          "LLM（Gemini/Ollama）",
+          "HTML"
+        ],
+        "useCase": "医疗文本分析与结构化数据提取"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "iOfficeAI/AionUi",
+      "description": "Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it!",
+      "language": "TypeScript",
+      "stars": 4872,
+      "forks": 387,
+      "todayStars": 592,
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "aiSummary": {
+        "summary": "AionUi是面向AI命令行工具的本地协作平台，支持多模型统一管理、图形化界面操作、本地数据存储及智能文件处理。提供代码生成、文件预览、图像编辑与多任务并行功能，提升AI开发效率。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要本地化AI协作和多模型管理的开发环境"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-17T23:24:55.222Z",
+    "duration": "40s",
+    "version": "1.0.0"
+  }
+}

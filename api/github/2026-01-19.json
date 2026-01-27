@@ -1,0 +1,164 @@
+{
+  "date": "2026-01-19",
+  "since": "daily",
+  "totalRepos": 8,
+  "successCount": 8,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "OpenBMB/VoxCPM",
+      "description": "VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning",
+      "language": "Python",
+      "stars": 4856,
+      "forks": 568,
+      "todayStars": 650,
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "aiSummary": {
+        "summary": "VoxCPM是无需分词器的端到端文本转语音系统，采用连续空间建模技术实现上下文感知语音生成和零样本真实语音克隆。基于MiniCPM-4架构结合扩散自回归模型与分层语言建模，支持高效语音合成与个性化声线迁移，适用于高质量语音合成及多场景语音生成需求。",
+        "techStack": [
+          "Python",
+          "扩散模型",
+          "自回归架构",
+          "MiniCPM-4",
+          "FSQ约束"
+        ],
+        "useCase": "需要高保真语音合成与个性化语音克隆的智能客服、有声内容生成等应用场景。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "google/langextract",
+      "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+      "language": "Python",
+      "stars": 22660,
+      "forks": 1562,
+      "todayStars": 621,
+      "url": "https://github.com/google/langextract",
+      "aiSummary": {
+        "summary": "LangExtract是一个Python库，利用大语言模型从非结构化文本中提取结构化信息，支持精确来源定位、交互式可视化及多模型兼容，适用于医疗文档等长文本的高效信息提取与验证。",
+        "techStack": [
+          "Python",
+          "LLMs（Gemini/OpenAI）",
+          "Ollama"
+        ],
+        "useCase": "医疗文本分析与长文档结构化信息提取"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "iOfficeAI/AionUi",
+      "description": "Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it!",
+      "language": "TypeScript",
+      "stars": 6781,
+      "forks": 522,
+      "todayStars": 1179,
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "aiSummary": {
+        "summary": "AionUi是一款支持多AI工具的本地图形化协作平台，提供统一界面管理Gemini CLI、Claude Code等命令行工具，具备智能文件管理、多会话本地存储、9种格式预览及AI图像生成功能，强化本地数据安全与操作便捷性。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合需要本地化AI工具集成与高效协作的开发团队及个人开发者"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "czlonkowski/n8n-mcp",
+      "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+      "language": "TypeScript",
+      "stars": 12151,
+      "forks": 2217,
+      "todayStars": 132,
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "aiSummary": {
+        "summary": "n8n-MCP是一个连接AI助手与n8n工作流平台的模型上下文协议服务器，提供1084个n8n节点的结构化文档、属性、操作及模板数据，支持AI高效调用自动化工具。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "提升Claude等AI工具对n8n工作流节点的智能调用效率"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "nautechsystems/nautilus_trader",
+      "description": "A high-performance algorithmic trading platform and event-driven backtester",
+      "language": "Rust",
+      "stars": 18026,
+      "forks": 2120,
+      "todayStars": 525,
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "aiSummary": {
+        "summary": "NautilusTrader是高性能算法交易平台，支持事件驱动回测与实时交易，覆盖多资产类型。采用Rust开发确保安全性与性能，结合Python实现策略编写，解决研发与生产环境一致性问题。",
+        "techStack": [
+          "Rust",
+          "Python",
+          "Tokio"
+        ],
+        "useCase": "适用于高频交易策略的开发、回测及跨市场实时部署"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "ahujasid/blender-mcp",
+      "description": "",
+      "language": "Python",
+      "stars": 15895,
+      "forks": 1515,
+      "todayStars": 174,
+      "url": "https://github.com/ahujasid/blender-mcp",
+      "aiSummary": {
+        "summary": "BlenderMCP通过Model Context Protocol（MCP）将Blender与Claude AI连接，实现AI对Blender的3D建模、场景操作和代码执行的直接控制。支持对象操作、材质管理、场景检查及远程服务器部署，提供双向通信和多种3D资产集成功能。",
+        "techStack": [
+          "Python",
+          "Blender API",
+          "Socket通信"
+        ],
+        "useCase": "需要AI辅助进行3D建模与场景设计的创作者及开发者"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "yichuan-w/LEANN",
+      "description": "RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
+      "language": "Python",
+      "stars": 9296,
+      "forks": 804,
+      "todayStars": 372,
+      "url": "https://github.com/yichuan-w/LEANN",
+      "aiSummary": {
+        "summary": "LEANN是一个基于Python的轻量级向量数据库，通过图-based有选择性重新计算和高保真度剪枝技术，实现97%存储节省的本地RAG应用。支持在个人设备上高效处理文档索引与搜索，保障数据隐私且无需云端计算。",
+        "techStack": [
+          "Python",
+          "向量数据库",
+          "图计算"
+        ],
+        "useCase": "个人设备上的私有化文档语义检索与AI辅助系统构建"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "DavidXanatos/TaskExplorer",
+      "description": "Power full Task Manager",
+      "language": "C",
+      "stars": 2435,
+      "forks": 212,
+      "todayStars": 238,
+      "url": "https://github.com/DavidXanatos/TaskExplorer",
+      "aiSummary": {
+        "summary": "TaskExplorer是一款基于C语言的系统级任务管理工具，提供进程实时监控与深度分析功能。通过多面板可视化界面，支持线程堆栈追踪、内存编辑、句柄查看、网络连接监控及DLL管理，适用于系统性能调优与故障诊断。",
+        "techStack": [
+          "C",
+          "Windows API",
+          "ETW"
+        ],
+        "useCase": "系统开发者与IT运维人员进行进程分析与性能优化"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-19T23:27:26.448Z",
+    "duration": "68s",
+    "version": "1.0.0"
+  }
+}

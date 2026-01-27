@@ -1,0 +1,227 @@
+{
+  "date": "2026-01-22",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "remotion-dev/remotion",
+      "description": "🎥 Make videos programmatically with React",
+      "language": "TypeScript",
+      "stars": 26886,
+      "forks": 1581,
+      "todayStars": 518,
+      "url": "https://github.com/remotion-dev/remotion",
+      "aiSummary": {
+        "summary": "Remotion是一个基于React的视频生成工具，允许开发者通过编程方式创建动态视频内容。它结合TypeScript和React组件，实现自动化视频合成，适用于动态可视化、动画制作等场景。",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "Web Animation API"
+        ],
+        "useCase": "适用于需要通过编程动态生成视频内容的场景，如数据可视化动画和自动化视频制作。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "block/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "stars": 27114,
+      "forks": 2467,
+      "todayStars": 334,
+      "url": "https://github.com/block/goose",
+      "aiSummary": {
+        "summary": "block/goose是一个基于Rust的开源AI代理工具，可自动化代码生成、调试、项目构建及工作流编排。支持与任意大语言模型集成，提供CLI和桌面应用形式，适用于高效开发与工程任务自动化。",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "加速开发流程，自动化代码编写与项目管理任务"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "twitter/the-algorithm",
+      "description": "Source code for the X Recommendation Algorithm",
+      "language": "Scala",
+      "stars": 71746,
+      "forks": 13140,
+      "todayStars": 468,
+      "url": "https://github.com/twitter/the-algorithm",
+      "aiSummary": {
+        "summary": "X平台内容推荐算法核心代码，包含数据处理、机器学习模型和推荐框架，支持动态消息流、搜索、探索等场景，通过用户行为分析和图计算实现个性化推荐。",
+        "techStack": [
+          "Scala",
+          "Rust",
+          "Machine Learning"
+        ],
+        "useCase": "社交媒体平台个性化内容推荐系统开发"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "xai-org/grok-1",
+      "description": "Grok open release",
+      "language": "Python",
+      "stars": 51217,
+      "forks": 8455,
+      "todayStars": 344,
+      "url": "https://github.com/xai-org/grok-1",
+      "aiSummary": {
+        "summary": "Grok-1是基于JAX框架的314B参数大模型开源项目，采用Mixture of Experts架构，支持8位量化和激活分片。提供预训练权重加载与推理示例，适用于研究和开发场景。模型使用SentencePiece分词器，支持最大8192 tokens上下文。",
+        "techStack": [
+          "Python",
+          "JAX",
+          "SentencePiece",
+          "HuggingFace"
+        ],
+        "useCase": "适用于大规模语言模型的研究、优化及定制化部署场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "deepseek-ai/FlashMLA",
+      "description": "FlashMLA: Efficient Multi-head Latent Attention Kernels",
+      "language": "C++",
+      "stars": 12134,
+      "forks": 948,
+      "todayStars": 25,
+      "url": "https://github.com/deepseek-ai/FlashMLA",
+      "aiSummary": {
+        "summary": "FlashMLA是DeepSeek优化的多头潜在注意力内核库，支持稀疏与密集注意力机制，提升模型训练与推理效率。包含针对不同场景的优化 kernels，如FP8 KV缓存和SM100架构支持，性能可达660 TFlops以上。",
+        "techStack": [
+          "C++",
+          "CUDA",
+          "FP8",
+          "bfloat16",
+          "NVIDIA SM100"
+        ],
+        "useCase": "适用于需要高效注意力计算的深度学习模型，如大规模语言模型的预训练与推理场景。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "microsoft/agent-lightning",
+      "description": "The absolute trainer to light up AI agents.",
+      "language": "Python",
+      "stars": 11453,
+      "forks": 931,
+      "todayStars": 333,
+      "url": "https://github.com/microsoft/agent-lightning",
+      "aiSummary": {
+        "summary": "Agent Lightning 是一个用于训练和优化AI代理的工具，支持多种代理框架（如LangChain、OpenAI、AutoGen等），无需或仅需少量代码修改即可应用强化学习、自动提示优化等算法，提升代理性能。",
+        "techStack": [
+          "Python",
+          "LangChain",
+          "OpenAI",
+          "AutoGen",
+          "CrewAI"
+        ],
+        "useCase": "适用于需要训练和优化AI代理的场景，支持多种代理框架和强化学习技术。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "iOfficeAI/AionUi",
+      "description": "Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it!",
+      "language": "TypeScript",
+      "stars": 9184,
+      "forks": 712,
+      "todayStars": 562,
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "aiSummary": {
+        "summary": "AionUi是支持多AI命令行工具的本地开源协作平台，提供统一图形界面、本地数据安全、智能文件管理及AI生成结果预览功能，兼容Gemini CLI、Qwen Code等主流工具，支持多会话与文件自动化处理。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "开发人员本地协作多种AI工具，提升代码生成与文档处理效率"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "mastra-ai/mastra",
+      "description": "From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack.",
+      "language": "TypeScript",
+      "stars": 20139,
+      "forks": 1447,
+      "todayStars": 213,
+      "url": "https://github.com/mastra-ai/mastra",
+      "aiSummary": {
+        "summary": "Mastra是基于TypeScript的AI应用开发框架，提供模型路由、代理构建、工作流编排、人机交互和上下文管理功能，支持快速从原型到生产部署。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Node.js"
+        ],
+        "useCase": "开发需要复杂AI流程管理的智能应用及代理系统"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "microsoft/Data-Science-For-Beginners",
+      "description": "10 Weeks, 20 Lessons, Data Science for All!",
+      "language": "Jupyter Notebook",
+      "stars": 32821,
+      "forks": 6844,
+      "todayStars": 660,
+      "url": "https://github.com/microsoft/Data-Science-For-Beginners",
+      "aiSummary": {
+        "summary": "微软推出的10周数据科学入门课程，包含20课时项目式教学，每课含测验、指导、解决方案与作业。支持50+语言翻译，通过GitHub Action自动化更新，适合零基础学习者系统掌握数据科学技能。",
+        "techStack": [
+          "Jupyter Notebook",
+          "GitHub Action",
+          "Python"
+        ],
+        "useCase": "数据科学初学者的结构化学习与实践项目"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "nexmoe/VidBee",
+      "description": "Download videos from almost any website worldwide",
+      "language": "TypeScript",
+      "stars": 4572,
+      "forks": 328,
+      "todayStars": 262,
+      "url": "https://github.com/nexmoe/VidBee",
+      "aiSummary": {
+        "summary": "VidBee是一款基于Electron和yt-dlp的开源视频下载工具，支持全球1000+平台视频音频下载。提供可视化界面、RSS自动订阅下载、进度追踪及队列管理功能，适用于多平台视频批量获取与自动化管理。",
+        "techStack": [
+          "Electron",
+          "TypeScript",
+          "yt-dlp"
+        ],
+        "useCase": "需要跨平台视频下载及自动化订阅管理的用户场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "stars": 8360,
+      "forks": 1039,
+      "todayStars": 272,
+      "url": "https://github.com/virattt/dexter",
+      "aiSummary": {
+        "summary": "Dexter是用于深度金融研究的自主代理，具备任务规划、实时数据分析和自我验证能力，可分解复杂金融问题并生成数据驱动的解决方案。",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "OpenAI",
+          "Financial Datasets API",
+          "Tavily API"
+        ],
+        "useCase": "金融领域复杂数据分析与自动化研究"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-22T23:28:30.668Z",
+    "duration": "91s",
+    "version": "1.0.0"
+  }
+}
