@@ -67,20 +67,18 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-01-26 | **成功**: 8 | **失败**: 0
+**最后更新**: 2026-01-27 | **成功**: 6 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio) | A text-to-speech (TTS), speech-to-text (STT) and s... | Python | 5.1k | 1.2k | 基于Apple MLX框架的音频处理库，支持TTS、STT、STS功能，优化Apple Silicon性能，提供多语言、语音克隆、量化模型及Web交互功能。 |
-| 2 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 PageIndex: Document Index for Vectorless, Reaso... | Python | 9.7k | 731 | PageIndex 是一种无需向量数据库或分块的推理型RAG系统，通过构建文档分层树索引，利用大语言模型进行上下文感知的精准检索，模拟人类专家分析长文档的逻辑流程。 |
-| 3 | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scal... | TypeScript | 15.1k | 418 | Supermemory是面向AI时代的高性能内存引擎，支持多格式内容添加、自然语言聊天查询，集成Claude等主流AI工具，提供浏览器与Raycast扩展实现快速信息管理。 |
-| 4 | [block/goose](https://github.com/block/goose) | an open source, extensible AI agent that goes beyo... | Rust | 29.1k | 295 | block/goose是用Rust开发的开源AI代理，支持代码自动化开发、测试及工程流程管理，可集成任意LLM并执行构建、调试、API交互等复杂任务，适用于快速原型设计与工程管道优化。 |
-| 5 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | 🎥 Make videos programmatically with React... | TypeScript | 31.9k | 1.4k | Remotion 是一个基于 React 的程序化视频生成工具，允许开发者通过代码创建动态视频内容。支持 TypeScript，提供组件化开发方式，适用于自动化视频合成和动态视觉创作。 |
-| 6 | [AI4Finance-Foundation/FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) | FinRobot: An Open-Source AI Agent Platform for Fin... | Jupyter Notebook | 5.6k | 173 | FinRobot是面向金融分析的开源AI代理平台，整合大语言模型与AI技术，提供自动化股权研究、财务分析、风险评估及报告生成，支持市场预测与交易策略优化。 |
-| 7 | [k4yt3x/video2x](https://github.com/k4yt3x/video2x) | A machine learning-based video super resolution an... | C++ | 18.0k | 473 | 基于机器学习的视频超分辨率与帧插值框架，支持C++重写后的跨平台处理，提供Anime4K、Real-ESRGAN等模型，具备GUI界面和高效处理能力。 |
-| 8 | [business-science/ai-data-science-team](https://github.com/business-science/ai-data-science-team) | An AI-powered data science team of agents to help ... | Python | 4.1k | 164 | AI Data Science Team 是一个Python库，提供AI驱动的数据科学代理工具，支持数据加载、清洗、可视化、建模等流程。配套的AI Pipeline Studio提供可视化工作流管理，结合Streamlit、H2O和MLflow实现高效数据科学项目开发。 |
+| 1 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | AI agent toolkit: coding agent CLI, unified LLM AP... | TypeScript | 2.7k | 194 | pi-mono 是一个AI代理开发工具包，提供CLI工具、统一LLM API、TUI/Web UI库、Slack机器人及vLLM部署模块，支持多场景AI代理构建与模型管理。 |
+| 2 | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scal... | TypeScript | 15.5k | 433 | Supermemory是一款高速可扩展的记忆引擎与应用，支持通过自然语言交互检索存储内容。提供多格式记忆添加、AI工具集成、浏览器及Raycast扩展，适用于AI场景下的高效数据管理。 |
+| 3 | [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio) | A text-to-speech (TTS), speech-to-text (STT) and s... | Python | 5.4k | 457 | Blaizzy/mlx-audio 是基于Apple MLX框架的多模态语音处理库，支持文本转语音(TTS)、语音转文本(STT)和语音转语音(STS)。针对Apple Silicon优化，提供多语言支持、语音克隆、量化压缩和3D音频可视化，兼容Python和Swift生态。 |
+| 4 | [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | M3U Playlist for free TV channels... | Python | 12.5k | 295 | 提供全球免费电视频道的M3U播放列表，强调高质量、免费及主流内容，支持IPTV播放器直接调用。项目通过Python脚本生成播放列表，严格筛选无广告、无区域限制的高清频道。 |
+| 5 | [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a ser... | Go | 34.1k | 13 | Vault是Hashicorp开发的密钥管理工具，提供安全存储、动态秘钥生成和数据加密功能，支持多平台秘密访问控制与审计日志。 |
+| 6 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and ... | Python | 90.1k | 386 | 该项目是一个包含多种LLM应用的集合，涵盖AI代理、RAG、多代理团队等技术，整合OpenAI、Anthropic、Gemini及开源模型，提供从基础到高级的AI应用案例。 |
 
-[查看完整数据](api/github/2026-01-26.json)
+[查看完整数据](api/github/2026-01-27.json)
 <!-- END GITHUB TRENDING -->
 
 

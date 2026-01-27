@@ -1,0 +1,126 @@
+{
+  "date": "2026-01-27",
+  "since": "daily",
+  "totalRepos": 6,
+  "successCount": 6,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "badlogic/pi-mono",
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "language": "TypeScript",
+      "stars": 2691,
+      "forks": 336,
+      "todayStars": 194,
+      "url": "https://github.com/badlogic/pi-mono",
+      "aiSummary": {
+        "summary": "pi-mono 是一个AI代理开发工具包，提供CLI工具、统一LLM API、TUI/Web UI库、Slack机器人及vLLM部署模块，支持多场景AI代理构建与模型管理。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要集成多种AI功能的代理系统开发与大语言模型部署管理"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "supermemoryai/supermemory",
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "language": "TypeScript",
+      "stars": 15534,
+      "forks": 1588,
+      "todayStars": 433,
+      "url": "https://github.com/supermemoryai/supermemory",
+      "aiSummary": {
+        "summary": "Supermemory是一款高速可扩展的记忆引擎与应用，支持通过自然语言交互检索存储内容。提供多格式记忆添加、AI工具集成、浏览器及Raycast扩展，适用于AI场景下的高效数据管理。",
+        "techStack": [
+          "TypeScript",
+          "Web API",
+          "Browser Extension"
+        ],
+        "useCase": "适用于需要高效处理和智能检索多源数据的AI应用场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "Blaizzy/mlx-audio",
+      "description": "A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.",
+      "language": "Python",
+      "stars": 5417,
+      "forks": 391,
+      "todayStars": 457,
+      "url": "https://github.com/Blaizzy/mlx-audio",
+      "aiSummary": {
+        "summary": "Blaizzy/mlx-audio 是基于Apple MLX框架的多模态语音处理库，支持文本转语音(TTS)、语音转文本(STT)和语音转语音(STS)。针对Apple Silicon优化，提供多语言支持、语音克隆、量化压缩和3D音频可视化，兼容Python和Swift生态。",
+        "techStack": [
+          "Python",
+          "Apple MLX",
+          "Swift"
+        ],
+        "useCase": "适用于需要在Apple设备上实现高效语音处理与交互的场景开发"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Free-TV/IPTV",
+      "description": "M3U Playlist for free TV channels",
+      "language": "Python",
+      "stars": 12518,
+      "forks": 1879,
+      "todayStars": 295,
+      "url": "https://github.com/Free-TV/IPTV",
+      "aiSummary": {
+        "summary": "提供全球免费电视频道的M3U播放列表，强调高质量、免费及主流内容，支持IPTV播放器直接调用。项目通过Python脚本生成播放列表，严格筛选无广告、无区域限制的高清频道。",
+        "techStack": [
+          "Python",
+          "M3U",
+          "GitHub"
+        ],
+        "useCase": "为IPTV设备提供可直接使用的全球免费电视频道资源"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "stars": 34078,
+      "forks": 4522,
+      "todayStars": 13,
+      "url": "https://github.com/hashicorp/vault",
+      "aiSummary": {
+        "summary": "Vault是Hashicorp开发的密钥管理工具，提供安全存储、动态秘钥生成和数据加密功能，支持多平台秘密访问控制与审计日志。",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "企业级秘密管理、加密服务及特权访问控制场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+      "language": "Python",
+      "stars": 90127,
+      "forks": 13016,
+      "todayStars": 386,
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "aiSummary": {
+        "summary": "该项目是一个包含多种LLM应用的集合，涵盖AI代理、RAG、多代理团队等技术，整合OpenAI、Anthropic、Gemini及开源模型，提供从基础到高级的AI应用案例。",
+        "techStack": [
+          "Python",
+          "OpenAI",
+          "Anthropic",
+          "Gemini",
+          "RAG"
+        ],
+        "useCase": "AI应用开发与研究，适用于多代理系统、自然语言处理及生成式AI场景。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-27T23:28:50.215Z",
+    "duration": "48s",
+    "version": "1.0.0"
+  }
+}
