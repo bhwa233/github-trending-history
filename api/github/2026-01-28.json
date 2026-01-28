@@ -1,0 +1,221 @@
+{
+  "date": "2026-01-28",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "badlogic/pi-mono",
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "language": "TypeScript",
+      "stars": 3105,
+      "forks": 383,
+      "todayStars": 469,
+      "url": "https://github.com/badlogic/pi-mono",
+      "aiSummary": {
+        "summary": "AI代理工具包，提供代码代理CLI、统一LLM API、TUI/Web UI库、Slack机器人及vLLM部署模块，支持全栈开发与多端交互。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "vLLM"
+        ],
+        "useCase": "构建集成多模态交互的AI代理系统及LLM管理解决方案"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "stars": 34369,
+      "forks": 4539,
+      "todayStars": 356,
+      "url": "https://github.com/hashicorp/vault",
+      "aiSummary": {
+        "summary": "Vault是Hashicorp开发的秘钥管理工具，提供安全存储、动态秘钥生成和加密服务。支持API密钥、数据库凭证等敏感数据的统一管理，具备访问控制和审计日志功能，适用于云环境和微服务架构中的敏感信息保护。",
+        "techStack": [
+          "Go",
+          "Consul",
+          "AWS"
+        ],
+        "useCase": "企业级云原生环境中的敏感数据安全管理和自动化运维"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
+      "language": "JavaScript",
+      "stars": 26526,
+      "forks": 4221,
+      "todayStars": 405,
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "aiSummary": {
+        "summary": "收集ChatGPT、Claude、Gemini等主流AI聊天机器人的系统提示文本，为开发者提供标准化的AI交互配置参考。",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "用于AI模型开发中的系统提示优化与多平台兼容性测试"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "NevaMind-AI/memU",
+      "description": "Memory for 24/7 proactive agents like moltbot (clawdbot).",
+      "language": "Python",
+      "stars": 5494,
+      "forks": 388,
+      "todayStars": 231,
+      "url": "https://github.com/NevaMind-AI/memU",
+      "aiSummary": {
+        "summary": "memU是面向24/7持续运行AI代理的记忆框架，通过缓存减少LLM调用成本，支持用户意图自动捕捉与跨会话记忆，实现主动式智能服务。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "需要持续在线且低成本运行的智能代理系统（如客服机器人、个人助手）"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "MoonshotAI/kimi-cli",
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "language": "Python",
+      "stars": 4520,
+      "forks": 443,
+      "todayStars": 293,
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "aiSummary": {
+        "summary": "Kimi Code CLI 是一款终端AI代理工具，支持代码编辑、shell命令执行、IDE集成及Zsh扩展，通过ACP协议实现开发环境无缝协作，提升软件开发与终端操作效率。",
+        "techStack": [
+          "Python",
+          "Zsh",
+          "ACP"
+        ],
+        "useCase": "适用于需要AI辅助的终端操作和代码开发的开发者"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "kubernetes/ingress-nginx",
+      "description": "Ingress NGINX Controller for Kubernetes",
+      "language": "Go",
+      "stars": 19346,
+      "forks": 8512,
+      "todayStars": 28,
+      "url": "https://github.com/kubernetes/ingress-nginx",
+      "aiSummary": {
+        "summary": "Kubernetes Ingress NGINX 是基于 NGINX 的 Ingress 控制器，用于管理 Kubernetes 集群的外部访问流量，提供负载均衡、SSL 终端和基于路径/主机的路由配置功能。",
+        "techStack": [
+          "Go",
+          "Kubernetes",
+          "NGINX"
+        ],
+        "useCase": "在 Kubernetes 集群中实现灵活的 HTTP 服务路由和外部访问控制"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "protocolbuffers/protobuf",
+      "description": "Protocol Buffers - Google's data interchange format",
+      "language": "C++",
+      "stars": 70443,
+      "forks": 16018,
+      "todayStars": 34,
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "aiSummary": {
+        "summary": "Protocol Buffers是Google开发的跨语言、跨平台数据序列化框架，支持高效结构化数据交换。项目核心为C++实现，提供编译器生成数据访问类，适用于分布式系统和RPC通信。",
+        "techStack": [
+          "C++",
+          "Bazel",
+          "Protocol Compiler",
+          "Python",
+          "Java"
+        ],
+        "useCase": "适用于需要高性能数据序列化与跨语言通信的分布式系统开发"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "lobehub/lobehub",
+      "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
+      "language": "TypeScript",
+      "stars": 70882,
+      "forks": 14494,
+      "todayStars": 132,
+      "url": "https://github.com/lobehub/lobehub",
+      "aiSummary": {
+        "summary": "LobeHub 是一个面向AI代理的协作开发平台，支持多代理协作、模块化工作流设计及多种AI能力集成，涵盖智能搜索、语音交互、图像生成、插件系统等功能，旨在构建人机协同的开放生态。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "AI代理团队开发与智能应用构建平台"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "ran-j/PS2Recomp",
+      "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
+      "language": "C++",
+      "stars": 1445,
+      "forks": 28,
+      "todayStars": 467,
+      "url": "https://github.com/ran-j/PS2Recomp",
+      "aiSummary": {
+        "summary": "PS2Recomp是将PlayStation 2 ELF文件静态编译为C++代码的工具，支持MIPS指令转换、128位MMI指令及VU0处理，可通过配置文件定制输出，实现PS2游戏跨平台原生运行。",
+        "techStack": [
+          "C++",
+          "CMake",
+          "TOML"
+        ],
+        "useCase": "用于开发PlayStation 2游戏的原生PC端口及跨平台移植"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "bambulab/BambuStudio",
+      "description": "PC Software for BambuLab and other 3D printers",
+      "language": "C++",
+      "stars": 3815,
+      "forks": 584,
+      "todayStars": 27,
+      "url": "https://github.com/bambulab/BambuStudio",
+      "aiSummary": {
+        "summary": "BambuStudio是基于PrusaSlicer的3D打印切片软件，支持多平台操作。提供自动排版、多材料打印、远程控制、高级冷却逻辑等核心功能，优化打印体验。",
+        "techStack": [
+          "C++",
+          "PrusaSlicer",
+          "Qt"
+        ],
+        "useCase": "适用于3D打印切片与工艺优化，支持多材料及远程打印管理"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "GetStream/Vision-Agents",
+      "description": "Open Vision Agents by Stream. Build Vision Agents quickly with any model or video provider. Uses Stream's edge network for ultra-low latency.",
+      "language": "Python",
+      "stars": 4157,
+      "forks": 363,
+      "todayStars": 89,
+      "url": "https://github.com/GetStream/Vision-Agents",
+      "aiSummary": {
+        "summary": "提供实时视频AI代理构建工具，支持多模型融合与低延迟处理，通过Stream边缘网络实现500ms快速连接和30ms内音视频延迟，兼容YOLO、Gemini等模型及多平台SDK。",
+        "techStack": [
+          "Python",
+          "Stream Edge Network",
+          "YOLO",
+          "Gemini",
+          "OpenAI"
+        ],
+        "useCase": "实时视频分析与智能监控场景下的AI代理开发"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-28T23:33:03.550Z",
+    "duration": "95s",
+    "version": "1.0.0"
+  }
+}
