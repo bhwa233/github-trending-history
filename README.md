@@ -67,23 +67,26 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-01-28 | **成功**: 11 | **失败**: 0
+**最后更新**: 2026-01-29 | **成功**: 14 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | AI agent toolkit: coding agent CLI, unified LLM AP... | TypeScript | 3.1k | 469 | AI代理工具包，提供代码代理CLI、统一LLM API、TUI/Web UI库、Slack机器人及vLLM部署模块，支持全栈开发与多端交互。 |
-| 2 | [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a ser... | Go | 34.4k | 356 | Vault是Hashicorp开发的秘钥管理工具，提供安全存储、动态秘钥生成和加密服务。支持API密钥、数据库凭证等敏感数据的统一管理，具备访问控制和审计日志功能，适用于云环境和微服务架构中的敏感信息保护。 |
-| 3 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Collection of extracted System Prompts from popula... | JavaScript | 26.5k | 405 | 收集ChatGPT、Claude、Gemini等主流AI聊天机器人的系统提示文本，为开发者提供标准化的AI交互配置参考。 |
-| 4 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory for 24/7 proactive agents like moltbot (cla... | Python | 5.5k | 231 | memU是面向24/7持续运行AI代理的记忆框架，通过缓存减少LLM调用成本，支持用户意图自动捕捉与跨会话记忆，实现主动式智能服务。 |
-| 5 | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) | Kimi Code CLI is your next CLI agent.... | Python | 4.5k | 293 | Kimi Code CLI 是一款终端AI代理工具，支持代码编辑、shell命令执行、IDE集成及Zsh扩展，通过ACP协议实现开发环境无缝协作，提升软件开发与终端操作效率。 |
-| 6 | [kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx) | Ingress NGINX Controller for Kubernetes... | Go | 19.3k | 28 | Kubernetes Ingress NGINX 是基于 NGINX 的 Ingress 控制器，用于管理 Kubernetes 集群的外部访问流量，提供负载均衡、SSL 终端和基于路径/主机的路由配置功能。 |
-| 7 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | Protocol Buffers - Google's data interchange forma... | C++ | 70.4k | 34 | Protocol Buffers是Google开发的跨语言、跨平台数据序列化框架，支持高效结构化数据交换。项目核心为C++实现，提供编译器生成数据访问类，适用于分布式系统和RPC通信。 |
-| 8 | [lobehub/lobehub](https://github.com/lobehub/lobehub) | The ultimate space for work and life — to find, bu... | TypeScript | 70.9k | 132 | LobeHub 是一个面向AI代理的协作开发平台，支持多代理协作、模块化工作流设计及多种AI能力集成，涵盖智能搜索、语音交互、图像生成、插件系统等功能，旨在构建人机协同的开放生态。 |
-| 9 | [ran-j/PS2Recomp](https://github.com/ran-j/PS2Recomp) | Playstation 2 Static Recompiler & Runtime Tool to ... | C++ | 1.4k | 467 | PS2Recomp是将PlayStation 2 ELF文件静态编译为C++代码的工具，支持MIPS指令转换、128位MMI指令及VU0处理，可通过配置文件定制输出，实现PS2游戏跨平台原生运行。 |
-| 10 | [bambulab/BambuStudio](https://github.com/bambulab/BambuStudio) | PC Software for BambuLab and other 3D printers... | C++ | 3.8k | 27 | BambuStudio是基于PrusaSlicer的3D打印切片软件，支持多平台操作。提供自动排版、多材料打印、远程控制、高级冷却逻辑等核心功能，优化打印体验。 |
-| 11 | [GetStream/Vision-Agents](https://github.com/GetStream/Vision-Agents) | Open Vision Agents by Stream. Build Vision Agents ... | Python | 4.2k | 89 | 提供实时视频AI代理构建工具，支持多模型融合与低延迟处理，通过Stream边缘网络实现500ms快速连接和30ms内音视频延迟，兼容YOLO、Gemini等模型及多平台SDK。 |
+| 1 | [moltbot/moltbot](https://github.com/moltbot/moltbot) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 103.1k | 17.8k | Moltbot是跨平台个人AI助手，支持多消息渠道（如WhatsApp、Telegram、Discord等）及实时Canvas交互。可在多操作系统上运行，提供本地化、快速响应的单用户服务，适用于需要多平台消息整合与智能交互的场景。 |
+| 2 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Collection of extracted System Prompts from popula... | JavaScript | 27.6k | 1.4k | 该项目收集了ChatGPT、Claude和Gemini等主流聊天机器人的系统提示文本，为AI模型研究和提示工程提供数据支持。 |
+| 3 | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) | Kimi Code CLI is your next CLI agent.... | Python | 4.9k | 494 | Kimi Code CLI 是一个运行在终端的AI代理工具，支持代码编辑、shell命令执行、网页搜索及自主任务规划。提供Shell模式、IDE集成（ACP协议）、Zsh插件扩展等功能，提升开发效率。 |
+| 4 | [modelcontextprotocol/ext-apps](https://github.com/modelcontextprotocol/ext-apps) | Official repo for spec & SDK of MCP Apps protocol ... | TypeScript | 827 | 73 | MCP Apps协议官方SDK与规范库，支持在AI聊天机器人中嵌入交互式UI组件，如图表、表单等。提供开发者工具链与主机集成方案，基于TypeScript构建。 |
+| 5 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory for 24/7 proactive agents like moltbot (cla... | Python | 6.0k | 608 | memU是面向24/7主动代理的记忆框架，通过长期记忆用户意图降低LLM token成本，支持持续在线的智能代理系统。核心功能包括用户意图捕捉、成本优化和主动任务执行，适用于需要持续交互的AI应用场景。 |
+| 6 | [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a ser... | Go | 34.6k | 254 | Vault 是 HashiCorp 的秘密管理工具，提供安全存储、动态凭证生成和加密服务。支持多类型秘密存储，自动审计日志与访问控制，适用于云环境和微服务架构中的敏感数据管理。 |
+| 7 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | AI agent toolkit: coding agent CLI, unified LLM AP... | TypeScript | 3.5k | 396 | AI代理工具包，提供CLI、统一LLM API、TUI/Web UI库、Slack机器人及vLLM部署支持，便于构建和管理AI代理应用。 |
+| 8 | [anomalyco/opencode-anthropic-auth](https://github.com/anomalyco/opencode-anthropic-auth) | ... | JavaScript | 243 | 11 | 该项目是一个基于JavaScript的Anthropic API认证中间件，提供MIT开源许可。包含基础身份验证功能和API接口封装，适用于需要集成Anthropic服务的Web应用。 |
+| 9 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | Protocol Buffers - Google's data interchange forma... | C++ | 70.5k | 89 | Protocol Buffers是Google的跨语言、跨平台数据序列化框架，支持高效结构化数据交换。提供语言中立的接口定义语言和多种语言的运行时库，适用于分布式系统和微服务通信。 |
+| 10 | [pedroslopez/whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) | A WhatsApp client library for NodeJS that connects... | JavaScript | 20.7k | 16 | 基于Node.js的WhatsApp客户端库，通过Puppeteer控制网页版WhatsApp实现消息收发、媒体传输及群组管理等功能，支持多设备且提供会话管理策略，但存在被封禁风险。 |
+| 11 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | A libre lightweight streaming front-end for Androi... | Java | 36.7k | 65 | NewPipe是一款自由的轻量级Android流媒体前端，支持YouTube、SoundCloud等多个平台。项目正在重构以提升稳定性，当前主要接收bug修复。提供多语言支持，适用于需要跨平台流媒体访问的用户。 |
+| 12 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and ... | Python | 90.9k | 212 | 该项目是一个整合LLM应用的开源仓库，涵盖RAG、AI代理、多代理协作等技术，支持OpenAI、Anthropic、Gemini及开源模型如Llama。包含从医疗影像分析到音乐生成等多样化应用场景，提供可本地运行的AI工具示例。 |
+| 13 | [microsoft/playwright-cli](https://github.com/microsoft/playwright-cli) | CLI for common Playwright actions. Record and gene... | - | 1.7k | 64 | Playwright CLI 是一个高效浏览器自动化工具，支持通过命令行执行Playwright操作。提供代码录制、选择器检测、截图等功能，优化token使用效率，适合与编码代理结合使用。 |
+| 14 | [lobehub/lobehub](https://github.com/lobehub/lobehub) | The ultimate space for work and life — to find, bu... | TypeScript | 71.2k | 362 | LobeHub 是一个AI代理协作平台，支持多代理协作、团队设计及代理作为工作单元。提供插件系统、本地/远程数据库、多用户管理、智能搜索、文件上传、多模型支持等功能，适用于自定义AI工作流与团队协作场景。 |
 
-[查看完整数据](api/github/2026-01-28.json)
+[查看完整数据](api/github/2026-01-29.json)
 <!-- END GITHUB TRENDING -->
 
 
