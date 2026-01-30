@@ -1,0 +1,277 @@
+{
+  "date": "2026-01-30",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "stars": 118943,
+      "forks": 16794,
+      "todayStars": 14210,
+      "url": "https://github.com/openclaw/openclaw",
+      "aiSummary": {
+        "summary": "OpenClaw是跨平台个人AI助手，支持多消息通道（如WhatsApp、Telegram）及多操作系统，强调本地化、快速响应和始终在线。基于TypeScript开发，集成OAuth与API接口，适用于多渠道通信管理。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "OAuth",
+          "API"
+        ],
+        "useCase": "个人用户跨平台管理消息与自动化任务的AI助手"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
+      "language": "JavaScript",
+      "stars": 28528,
+      "forks": 4606,
+      "todayStars": 1081,
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "aiSummary": {
+        "summary": "收集并整理主流聊天机器人（如ChatGPT、Claude、Gemini）的系统提示文本，便于研究和开发参考。",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "AI模型交互逻辑研究与开发调试"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "MoonshotAI/kimi-cli",
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "language": "Python",
+      "stars": 5281,
+      "forks": 494,
+      "todayStars": 377,
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "aiSummary": {
+        "summary": "Kimi Code CLI是集成于终端的AI代理工具，支持代码编辑、shell命令执行、网页搜索及自主任务规划。提供Shell模式、VS Code扩展、ACP协议集成和Zsh插件，提升开发效率与终端交互体验。",
+        "techStack": [
+          "Python",
+          "CLI工具",
+          "ACP协议"
+        ],
+        "useCase": "提升终端操作与软件开发效率的AI辅助工具"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "modelcontextprotocol/ext-apps",
+      "description": "Official repo for spec & SDK of MCP Apps protocol - standard for UIs embedded AI chatbots, served by MCP servers",
+      "language": "TypeScript",
+      "stars": 1005,
+      "forks": 125,
+      "todayStars": 195,
+      "url": "https://github.com/modelcontextprotocol/ext-apps",
+      "aiSummary": {
+        "summary": "MCP Apps协议官方仓库，提供标准SDK与规范，允许MCP服务器通过UI资源嵌入交互式元素（如图表、表单）至聊天客户端，支持双向通信与沙箱化渲染。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Node.js"
+        ],
+        "useCase": "在MCP聊天客户端中实现交互式UI组件的标准化嵌入与通信"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "NevaMind-AI/memU",
+      "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
+      "language": "Python",
+      "stars": 6447,
+      "forks": 442,
+      "todayStars": 463,
+      "url": "https://github.com/NevaMind-AI/memU",
+      "aiSummary": {
+        "summary": "memU是面向24/7主动代理的内存框架，通过持续捕捉用户意图并缓存LLM推理结果，降低token成本，实现无需指令的主动服务。支持长期记忆存储与上下文理解，适用于需要持续在线的智能代理系统。",
+        "techStack": [
+          "Python",
+          "LLM框架",
+          "内存数据库"
+        ],
+        "useCase": "适用于需要持续在线且主动响应用户需求的AI代理系统（如智能客服、持续监控工具）"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "hashicorp/vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management",
+      "language": "Go",
+      "stars": 34810,
+      "forks": 4571,
+      "todayStars": 228,
+      "url": "https://github.com/hashicorp/vault",
+      "aiSummary": {
+        "summary": "Vault 是 Hashicorp 开发的密钥管理工具，提供安全存储、动态凭证生成和数据加密功能。支持多类型秘密管理，如 API 密钥、数据库凭证等，具备细粒度访问控制和审计日志，适用于云原生环境中的敏感数据保护。",
+        "techStack": [
+          "Go",
+          "Consul",
+          "HTTP"
+        ],
+        "useCase": "适用于云环境中的动态秘密管理与加密数据存储"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "badlogic/pi-mono",
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "language": "TypeScript",
+      "stars": 3736,
+      "forks": 436,
+      "todayStars": 285,
+      "url": "https://github.com/badlogic/pi-mono",
+      "aiSummary": {
+        "summary": "pi-mono是一个AI代理开发工具包，提供CLI、统一LLM API、TUI/Web UI库、Slack机器人及vLLM部署方案，支持多模态交互与模型管理。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "vLLM"
+        ],
+        "useCase": "开发需要多终端交互和大语言模型集成的AI代理应用"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "anomalyco/opencode-anthropic-auth",
+      "description": "",
+      "language": "JavaScript",
+      "stars": 344,
+      "forks": 54,
+      "todayStars": 99,
+      "url": "https://github.com/anomalyco/opencode-anthropic-auth",
+      "aiSummary": {
+        "summary": "该项目是一个基于JavaScript的Anthropic API认证工具，提供简洁的认证流程和权限管理功能，遵循MIT协议开源。包含基础的API调用示例和安全验证机制，便于开发者快速集成认证功能。",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Axios"
+        ],
+        "useCase": "适用于需要集成Anthropic API服务的Web应用身份验证场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "protocolbuffers/protobuf",
+      "description": "Protocol Buffers - Google's data interchange format",
+      "language": "C++",
+      "stars": 70574,
+      "forks": 16026,
+      "todayStars": 66,
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "aiSummary": {
+        "summary": "Protocol Buffers是Google开发的跨语言、跨平台的结构化数据序列化框架，提供高效的数据交换机制。包含编译器和多种语言的运行时库，支持数据定义、序列化与反序列化，广泛用于分布式系统通信和数据存储。",
+        "techStack": [
+          "C++",
+          "Bazel",
+          "Protocol Buffers"
+        ],
+        "useCase": "适用于需要高效跨语言数据序列化和反序列化的分布式系统场景"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "pedroslopez/whatsapp-web.js",
+      "description": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app",
+      "language": "JavaScript",
+      "stars": 20840,
+      "forks": 4818,
+      "todayStars": 148,
+      "url": "https://github.com/pedroslopez/whatsapp-web.js",
+      "aiSummary": {
+        "summary": "基于Node.js的WhatsApp客户端库，通过Puppeteer操控WhatsApp Web浏览器应用，支持消息收发、媒体传输、群组管理等功能，提供会话管理降低封禁风险。",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Puppeteer"
+        ],
+        "useCase": "开发需要集成WhatsApp通信功能的自动化应用或消息平台"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "TeamNewPipe/NewPipe",
+      "description": "A libre lightweight streaming front-end for Android.",
+      "language": "Java",
+      "stars": 36863,
+      "forks": 3423,
+      "todayStars": 144,
+      "url": "https://github.com/TeamNewPipe/NewPipe",
+      "aiSummary": {
+        "summary": "TeamNewPipe/NewPipe 是开源轻量级安卓流媒体前端，支持YouTube、PeerTube、SoundCloud等多平台，提供视频/音频流服务。项目正在重构以提升稳定性，当前仅接收Bug修复，鼓励开发者通过refactor分支贡献新功能。",
+        "techStack": [
+          "Java"
+        ],
+        "useCase": "为Android用户提供多平台流媒体服务的轻量级访问解决方案。"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+      "language": "Python",
+      "stars": 91203,
+      "forks": 13161,
+      "todayStars": 391,
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "aiSummary": {
+        "summary": "该项目是一个LLM应用集合仓库，涵盖AI代理、RAG技术及多模型应用，支持OpenAI、Anthropic、Gemini等商业模型和开源模型如Llama/Qwen，提供代码生成、数据分析、医疗影像等多样化场景实践。",
+        "techStack": [
+          "Python",
+          "RAG",
+          "AI Agents",
+          "OpenAI API",
+          "Anthropic API"
+        ],
+        "useCase": "为开发者提供LLM技术落地应用的参考案例与实践模板"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "microsoft/playwright-cli",
+      "description": "CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.",
+      "language": "",
+      "stars": 1915,
+      "forks": 73,
+      "todayStars": 251,
+      "url": "https://github.com/microsoft/playwright-cli",
+      "aiSummary": {
+        "summary": "Playwright CLI提供高效的命令行工具，支持自动化浏览器操作、截图和代码生成，优化token使用适合高吞吐量场景，兼容GitHub Copilot等编码代理。",
+        "techStack": [
+          "Node.js",
+          "Playwright",
+          "JavaScript"
+        ],
+        "useCase": "适用于需要高效浏览器自动化与测试的开发场景"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "lobehub/lobehub",
+      "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
+      "language": "TypeScript",
+      "stars": 71546,
+      "forks": 14564,
+      "todayStars": 375,
+      "url": "https://github.com/lobehub/lobehub",
+      "aiSummary": {
+        "summary": "LobeHub 是一个AI代理协作平台，支持多代理协作、智能交互与插件扩展。核心功能包括代理作为工作单元、跨平台协作网络、人类与代理共同进化、本地/远程数据库支持、多模型服务及自定义主题，适用于工作流自动化与智能协作场景。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要多AI代理协作与智能自动化的工作流管理"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-30T23:33:12.553Z",
+    "duration": "120s",
+    "version": "1.0.0"
+  }
+}

@@ -67,26 +67,26 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-01-29 | **成功**: 14 | **失败**: 0
+**最后更新**: 2026-01-30 | **成功**: 14 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [moltbot/moltbot](https://github.com/moltbot/moltbot) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 103.1k | 17.8k | Moltbot是跨平台个人AI助手，支持多消息渠道（如WhatsApp、Telegram、Discord等）及实时Canvas交互。可在多操作系统上运行，提供本地化、快速响应的单用户服务，适用于需要多平台消息整合与智能交互的场景。 |
-| 2 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Collection of extracted System Prompts from popula... | JavaScript | 27.6k | 1.4k | 该项目收集了ChatGPT、Claude和Gemini等主流聊天机器人的系统提示文本，为AI模型研究和提示工程提供数据支持。 |
-| 3 | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) | Kimi Code CLI is your next CLI agent.... | Python | 4.9k | 494 | Kimi Code CLI 是一个运行在终端的AI代理工具，支持代码编辑、shell命令执行、网页搜索及自主任务规划。提供Shell模式、IDE集成（ACP协议）、Zsh插件扩展等功能，提升开发效率。 |
-| 4 | [modelcontextprotocol/ext-apps](https://github.com/modelcontextprotocol/ext-apps) | Official repo for spec & SDK of MCP Apps protocol ... | TypeScript | 827 | 73 | MCP Apps协议官方SDK与规范库，支持在AI聊天机器人中嵌入交互式UI组件，如图表、表单等。提供开发者工具链与主机集成方案，基于TypeScript构建。 |
-| 5 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory for 24/7 proactive agents like moltbot (cla... | Python | 6.0k | 608 | memU是面向24/7主动代理的记忆框架，通过长期记忆用户意图降低LLM token成本，支持持续在线的智能代理系统。核心功能包括用户意图捕捉、成本优化和主动任务执行，适用于需要持续交互的AI应用场景。 |
-| 6 | [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a ser... | Go | 34.6k | 254 | Vault 是 HashiCorp 的秘密管理工具，提供安全存储、动态凭证生成和加密服务。支持多类型秘密存储，自动审计日志与访问控制，适用于云环境和微服务架构中的敏感数据管理。 |
-| 7 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | AI agent toolkit: coding agent CLI, unified LLM AP... | TypeScript | 3.5k | 396 | AI代理工具包，提供CLI、统一LLM API、TUI/Web UI库、Slack机器人及vLLM部署支持，便于构建和管理AI代理应用。 |
-| 8 | [anomalyco/opencode-anthropic-auth](https://github.com/anomalyco/opencode-anthropic-auth) | ... | JavaScript | 243 | 11 | 该项目是一个基于JavaScript的Anthropic API认证中间件，提供MIT开源许可。包含基础身份验证功能和API接口封装，适用于需要集成Anthropic服务的Web应用。 |
-| 9 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | Protocol Buffers - Google's data interchange forma... | C++ | 70.5k | 89 | Protocol Buffers是Google的跨语言、跨平台数据序列化框架，支持高效结构化数据交换。提供语言中立的接口定义语言和多种语言的运行时库，适用于分布式系统和微服务通信。 |
-| 10 | [pedroslopez/whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) | A WhatsApp client library for NodeJS that connects... | JavaScript | 20.7k | 16 | 基于Node.js的WhatsApp客户端库，通过Puppeteer控制网页版WhatsApp实现消息收发、媒体传输及群组管理等功能，支持多设备且提供会话管理策略，但存在被封禁风险。 |
-| 11 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | A libre lightweight streaming front-end for Androi... | Java | 36.7k | 65 | NewPipe是一款自由的轻量级Android流媒体前端，支持YouTube、SoundCloud等多个平台。项目正在重构以提升稳定性，当前主要接收bug修复。提供多语言支持，适用于需要跨平台流媒体访问的用户。 |
-| 12 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and ... | Python | 90.9k | 212 | 该项目是一个整合LLM应用的开源仓库，涵盖RAG、AI代理、多代理协作等技术，支持OpenAI、Anthropic、Gemini及开源模型如Llama。包含从医疗影像分析到音乐生成等多样化应用场景，提供可本地运行的AI工具示例。 |
-| 13 | [microsoft/playwright-cli](https://github.com/microsoft/playwright-cli) | CLI for common Playwright actions. Record and gene... | - | 1.7k | 64 | Playwright CLI 是一个高效浏览器自动化工具，支持通过命令行执行Playwright操作。提供代码录制、选择器检测、截图等功能，优化token使用效率，适合与编码代理结合使用。 |
-| 14 | [lobehub/lobehub](https://github.com/lobehub/lobehub) | The ultimate space for work and life — to find, bu... | TypeScript | 71.2k | 362 | LobeHub 是一个AI代理协作平台，支持多代理协作、团队设计及代理作为工作单元。提供插件系统、本地/远程数据库、多用户管理、智能搜索、文件上传、多模型支持等功能，适用于自定义AI工作流与团队协作场景。 |
+| 1 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 118.9k | 14.2k | OpenClaw是跨平台个人AI助手，支持多消息通道（如WhatsApp、Telegram）及多操作系统，强调本地化、快速响应和始终在线。基于TypeScript开发，集成OAuth与API接口，适用于多渠道通信管理。 |
+| 2 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Collection of extracted System Prompts from popula... | JavaScript | 28.5k | 1.1k | 收集并整理主流聊天机器人（如ChatGPT、Claude、Gemini）的系统提示文本，便于研究和开发参考。 |
+| 3 | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) | Kimi Code CLI is your next CLI agent.... | Python | 5.3k | 377 | Kimi Code CLI是集成于终端的AI代理工具，支持代码编辑、shell命令执行、网页搜索及自主任务规划。提供Shell模式、VS Code扩展、ACP协议集成和Zsh插件，提升开发效率与终端交互体验。 |
+| 4 | [modelcontextprotocol/ext-apps](https://github.com/modelcontextprotocol/ext-apps) | Official repo for spec & SDK of MCP Apps protocol ... | TypeScript | 1.0k | 195 | MCP Apps协议官方仓库，提供标准SDK与规范，允许MCP服务器通过UI资源嵌入交互式元素（如图表、表单）至聊天客户端，支持双向通信与沙箱化渲染。 |
+| 5 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory for 24/7 proactive agents like openclaw (mo... | Python | 6.4k | 463 | memU是面向24/7主动代理的内存框架，通过持续捕捉用户意图并缓存LLM推理结果，降低token成本，实现无需指令的主动服务。支持长期记忆存储与上下文理解，适用于需要持续在线的智能代理系统。 |
+| 6 | [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a ser... | Go | 34.8k | 228 | Vault 是 Hashicorp 开发的密钥管理工具，提供安全存储、动态凭证生成和数据加密功能。支持多类型秘密管理，如 API 密钥、数据库凭证等，具备细粒度访问控制和审计日志，适用于云原生环境中的敏感数据保护。 |
+| 7 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | AI agent toolkit: coding agent CLI, unified LLM AP... | TypeScript | 3.7k | 285 | pi-mono是一个AI代理开发工具包，提供CLI、统一LLM API、TUI/Web UI库、Slack机器人及vLLM部署方案，支持多模态交互与模型管理。 |
+| 8 | [anomalyco/opencode-anthropic-auth](https://github.com/anomalyco/opencode-anthropic-auth) | ... | JavaScript | 344 | 99 | 该项目是一个基于JavaScript的Anthropic API认证工具，提供简洁的认证流程和权限管理功能，遵循MIT协议开源。包含基础的API调用示例和安全验证机制，便于开发者快速集成认证功能。 |
+| 9 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | Protocol Buffers - Google's data interchange forma... | C++ | 70.6k | 66 | Protocol Buffers是Google开发的跨语言、跨平台的结构化数据序列化框架，提供高效的数据交换机制。包含编译器和多种语言的运行时库，支持数据定义、序列化与反序列化，广泛用于分布式系统通信和数据存储。 |
+| 10 | [pedroslopez/whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) | A WhatsApp client library for NodeJS that connects... | JavaScript | 20.8k | 148 | 基于Node.js的WhatsApp客户端库，通过Puppeteer操控WhatsApp Web浏览器应用，支持消息收发、媒体传输、群组管理等功能，提供会话管理降低封禁风险。 |
+| 11 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | A libre lightweight streaming front-end for Androi... | Java | 36.9k | 144 | TeamNewPipe/NewPipe 是开源轻量级安卓流媒体前端，支持YouTube、PeerTube、SoundCloud等多平台，提供视频/音频流服务。项目正在重构以提升稳定性，当前仅接收Bug修复，鼓励开发者通过refactor分支贡献新功能。 |
+| 12 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and ... | Python | 91.2k | 391 | 该项目是一个LLM应用集合仓库，涵盖AI代理、RAG技术及多模型应用，支持OpenAI、Anthropic、Gemini等商业模型和开源模型如Llama/Qwen，提供代码生成、数据分析、医疗影像等多样化场景实践。 |
+| 13 | [microsoft/playwright-cli](https://github.com/microsoft/playwright-cli) | CLI for common Playwright actions. Record and gene... | - | 1.9k | 251 | Playwright CLI提供高效的命令行工具，支持自动化浏览器操作、截图和代码生成，优化token使用适合高吞吐量场景，兼容GitHub Copilot等编码代理。 |
+| 14 | [lobehub/lobehub](https://github.com/lobehub/lobehub) | The ultimate space for work and life — to find, bu... | TypeScript | 71.5k | 375 | LobeHub 是一个AI代理协作平台，支持多代理协作、智能交互与插件扩展。核心功能包括代理作为工作单元、跨平台协作网络、人类与代理共同进化、本地/远程数据库支持、多模型服务及自定义主题，适用于工作流自动化与智能协作场景。 |
 
-[查看完整数据](api/github/2026-01-29.json)
+[查看完整数据](api/github/2026-01-30.json)
 <!-- END GITHUB TRENDING -->
 
 
