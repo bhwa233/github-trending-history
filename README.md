@@ -67,26 +67,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-01-30 | **成功**: 14 | **失败**: 0
+**最后更新**: 2026-01-31 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 118.9k | 14.2k | OpenClaw是跨平台个人AI助手，支持多消息通道（如WhatsApp、Telegram）及多操作系统，强调本地化、快速响应和始终在线。基于TypeScript开发，集成OAuth与API接口，适用于多渠道通信管理。 |
-| 2 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Collection of extracted System Prompts from popula... | JavaScript | 28.5k | 1.1k | 收集并整理主流聊天机器人（如ChatGPT、Claude、Gemini）的系统提示文本，便于研究和开发参考。 |
-| 3 | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) | Kimi Code CLI is your next CLI agent.... | Python | 5.3k | 377 | Kimi Code CLI是集成于终端的AI代理工具，支持代码编辑、shell命令执行、网页搜索及自主任务规划。提供Shell模式、VS Code扩展、ACP协议集成和Zsh插件，提升开发效率与终端交互体验。 |
-| 4 | [modelcontextprotocol/ext-apps](https://github.com/modelcontextprotocol/ext-apps) | Official repo for spec & SDK of MCP Apps protocol ... | TypeScript | 1.0k | 195 | MCP Apps协议官方仓库，提供标准SDK与规范，允许MCP服务器通过UI资源嵌入交互式元素（如图表、表单）至聊天客户端，支持双向通信与沙箱化渲染。 |
-| 5 | [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) | Memory for 24/7 proactive agents like openclaw (mo... | Python | 6.4k | 463 | memU是面向24/7主动代理的内存框架，通过持续捕捉用户意图并缓存LLM推理结果，降低token成本，实现无需指令的主动服务。支持长期记忆存储与上下文理解，适用于需要持续在线的智能代理系统。 |
-| 6 | [hashicorp/vault](https://github.com/hashicorp/vault) | A tool for secrets management, encryption as a ser... | Go | 34.8k | 228 | Vault 是 Hashicorp 开发的密钥管理工具，提供安全存储、动态凭证生成和数据加密功能。支持多类型秘密管理，如 API 密钥、数据库凭证等，具备细粒度访问控制和审计日志，适用于云原生环境中的敏感数据保护。 |
-| 7 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | AI agent toolkit: coding agent CLI, unified LLM AP... | TypeScript | 3.7k | 285 | pi-mono是一个AI代理开发工具包，提供CLI、统一LLM API、TUI/Web UI库、Slack机器人及vLLM部署方案，支持多模态交互与模型管理。 |
-| 8 | [anomalyco/opencode-anthropic-auth](https://github.com/anomalyco/opencode-anthropic-auth) | ... | JavaScript | 344 | 99 | 该项目是一个基于JavaScript的Anthropic API认证工具，提供简洁的认证流程和权限管理功能，遵循MIT协议开源。包含基础的API调用示例和安全验证机制，便于开发者快速集成认证功能。 |
-| 9 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | Protocol Buffers - Google's data interchange forma... | C++ | 70.6k | 66 | Protocol Buffers是Google开发的跨语言、跨平台的结构化数据序列化框架，提供高效的数据交换机制。包含编译器和多种语言的运行时库，支持数据定义、序列化与反序列化，广泛用于分布式系统通信和数据存储。 |
-| 10 | [pedroslopez/whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) | A WhatsApp client library for NodeJS that connects... | JavaScript | 20.8k | 148 | 基于Node.js的WhatsApp客户端库，通过Puppeteer操控WhatsApp Web浏览器应用，支持消息收发、媒体传输、群组管理等功能，提供会话管理降低封禁风险。 |
-| 11 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | A libre lightweight streaming front-end for Androi... | Java | 36.9k | 144 | TeamNewPipe/NewPipe 是开源轻量级安卓流媒体前端，支持YouTube、PeerTube、SoundCloud等多平台，提供视频/音频流服务。项目正在重构以提升稳定性，当前仅接收Bug修复，鼓励开发者通过refactor分支贡献新功能。 |
-| 12 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and ... | Python | 91.2k | 391 | 该项目是一个LLM应用集合仓库，涵盖AI代理、RAG技术及多模型应用，支持OpenAI、Anthropic、Gemini等商业模型和开源模型如Llama/Qwen，提供代码生成、数据分析、医疗影像等多样化场景实践。 |
-| 13 | [microsoft/playwright-cli](https://github.com/microsoft/playwright-cli) | CLI for common Playwright actions. Record and gene... | - | 1.9k | 251 | Playwright CLI提供高效的命令行工具，支持自动化浏览器操作、截图和代码生成，优化token使用适合高吞吐量场景，兼容GitHub Copilot等编码代理。 |
-| 14 | [lobehub/lobehub](https://github.com/lobehub/lobehub) | The ultimate space for work and life — to find, bu... | TypeScript | 71.5k | 375 | LobeHub 是一个AI代理协作平台，支持多代理协作、智能交互与插件扩展。核心功能包括代理作为工作单元、跨平台协作网络、人类与代理共同进化、本地/远程数据库支持、多模型服务及自定义主题，适用于工作流自动化与智能协作场景。 |
+| 1 | [ThePrimeagen/99](https://github.com/ThePrimeagen/99) | Neovim AI agent done right... | Lua | 2.2k | 532 | ThePrimeagen/99 是一个实验性的 Neovim AI 代理项目，旨在为用户提供受控的 AI 辅助代码生成工作流。通过限制 AI 请求范围并简化交互方式，项目尝试优化编程体验。目前处于早期阶段，存在临时性提示和潜在问题，需配合 OpenCode 使用。 |
+| 2 | [microsoft/BitNet](https://github.com/microsoft/BitNet) | Official inference framework for 1-bit LLMs... | Python | 27.2k | 136 | 微软推出的1-bit大语言模型推理框架，支持CPU/GPU加速，提供优化内核实现高速无损推理。ARM/x86架构下性能提升1.37x-6.17x，能耗降低55.4%-82.2%，可运行100B参数模型，适用于边缘设备本地化部署。 |
+| 3 | [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning) | The absolute trainer to light up AI agents.... | Python | 12.6k | 515 | Agent Lightning 是一款用于训练AI代理的工具，支持零代码优化多框架AI代理（如LangChain、OpenAI、AutoGen等），集成强化学习、自动提示优化等算法，提升代理性能。 |
+| 4 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Turn any PDF or image document into structured dat... | Python | 69.6k | 177 | PaddleOCR是百度开源的OCR工具，支持100+语言文档解析，将图像/PDF转为JSON/Markdown结构化数据。内置0.9B多模态模型，精准识别文本、表格、公式等复杂元素，提供MCP服务器集成AI应用。 |
+| 5 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official, Anthropic-managed directory of high qual... | Shell | 5.8k | 270 | Anthropic官方维护的Claude代码插件目录，包含内部开发和第三方高质量插件。提供插件安装、管理及开发规范，强调安全验证与质量标准，支持通过Claude Code系统直接调用。 |
+| 6 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | Microsoft PowerToys is a collection of utilities t... | C# | 128.7k | 61 | Microsoft PowerToys 是一组25+实用工具，帮助用户自定义Windows系统并提升工作效率，涵盖剪贴板管理、窗口布局、快捷键定制等功能。 |
+| 7 | [termux/termux-app](https://github.com/termux/termux-app) | Termux - a terminal emulator application for Andro... | Java | 49.5k | 41 | Termux-App 是 Android 终端模拟器应用，提供可扩展的 Linux 环境，支持通过包管理安装开发工具和命令行应用。核心功能包含终端模拟、插件支持及跨版本兼容性优化，适用于需要在安卓设备上运行完整 Linux 环境的场景。 |
+| 8 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 132.2k | 14.8k | OpenClaw是跨平台个人AI助手，支持多渠道消息交互（如WhatsApp、Telegram、Discord等），可在本地设备运行并实现语音交互与实时Canvas渲染。采用TypeScript开发，集成Anthropic和OpenAI模型，强调本地化、快速响应与始终在线体验。 |
+| 9 | [pedroslopez/whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) | A WhatsApp client library for NodeJS that connects... | JavaScript | 21.0k | 138 | 基于Node.js的WhatsApp客户端库，通过Puppeteer控制浏览器实现与WhatsApp Web的交互，支持消息收发、群组管理、媒体传输等功能，但存在账号被封风险。 |
+| 10 | [AlexanderGrooff/mermaid-ascii](https://github.com/AlexanderGrooff/mermaid-ascii) | Render Mermaid graphs inside your terminal... | Go | 830 | 74 | 在终端中渲染Mermaid图表的工具，支持命令行直接输出ASCII艺术图，可调整布局参数。提供二进制安装、源码构建和Nix三种部署方式，适用于开发者在终端环境直接查看Mermaid流程图结构。 |
+| 11 | [reconurge/flowsint](https://github.com/reconurge/flowsint) | A modern platform for visual, flexible, and extens... | TypeScript | 2.1k | 120 | Flowsint是一个基于图的开源OSINT调查工具，支持域名、IP、ASN等多类实体的可视化关联分析，提供自动化增强功能，强调隐私保护和本地数据存储，适用于网络安全分析与取证场景。 |
+| 12 | [cline/cline](https://github.com/cline/cline) | Autonomous coding agent right in your IDE, capable... | TypeScript | 57.4k | 47 | Cline是IDE中的自主编码代理，支持文件创建/编辑、终端命令执行及浏览器操作，所有步骤需用户授权。通过AI处理复杂开发任务，具备代码分析、错误修复、网页调试等功能，强调安全可控的开发体验。 |
 
-[查看完整数据](api/github/2026-01-30.json)
+[查看完整数据](api/github/2026-01-31.json)
 <!-- END GITHUB TRENDING -->
 
 

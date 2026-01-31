@@ -1,0 +1,245 @@
+{
+  "date": "2026-01-31",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "ThePrimeagen/99",
+      "description": "Neovim AI agent done right",
+      "language": "Lua",
+      "stars": 2229,
+      "forks": 102,
+      "todayStars": 532,
+      "url": "https://github.com/ThePrimeagen/99",
+      "aiSummary": {
+        "summary": "ThePrimeagen/99 是一个实验性的 Neovim AI 代理项目，旨在为用户提供受控的 AI 辅助代码生成工作流。通过限制 AI 请求范围并简化交互方式，项目尝试优化编程体验。目前处于早期阶段，存在临时性提示和潜在问题，需配合 OpenCode 使用。",
+        "techStack": [
+          "Lua",
+          "Neovim API",
+          "OpenCode"
+        ],
+        "useCase": "开发者在 Neovim 中进行受控的 AI 辅助代码生成与修复"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "microsoft/BitNet",
+      "description": "Official inference framework for 1-bit LLMs",
+      "language": "Python",
+      "stars": 27234,
+      "forks": 2207,
+      "todayStars": 136,
+      "url": "https://github.com/microsoft/BitNet",
+      "aiSummary": {
+        "summary": "微软推出的1-bit大语言模型推理框架，支持CPU/GPU加速，提供优化内核实现高速无损推理。ARM/x86架构下性能提升1.37x-6.17x，能耗降低55.4%-82.2%，可运行100B参数模型，适用于边缘设备本地化部署。",
+        "techStack": [
+          "Python",
+          "C++",
+          "CUDA"
+        ],
+        "useCase": "适用于在移动端和边缘设备上高效部署低比特量化大语言模型"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "microsoft/agent-lightning",
+      "description": "The absolute trainer to light up AI agents.",
+      "language": "Python",
+      "stars": 12604,
+      "forks": 1038,
+      "todayStars": 515,
+      "url": "https://github.com/microsoft/agent-lightning",
+      "aiSummary": {
+        "summary": "Agent Lightning 是一款用于训练AI代理的工具，支持零代码优化多框架AI代理（如LangChain、OpenAI、AutoGen等），集成强化学习、自动提示优化等算法，提升代理性能。",
+        "techStack": [
+          "Python",
+          "LangChain",
+          "OpenAI",
+          "AutoGen",
+          "Reinforcement Learning"
+        ],
+        "useCase": "适用于需要优化和训练AI代理的场景，支持多框架及强化学习算法提升性能。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "PaddlePaddle/PaddleOCR",
+      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "language": "Python",
+      "stars": 69584,
+      "forks": 9753,
+      "todayStars": 177,
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "aiSummary": {
+        "summary": "PaddleOCR是百度开源的OCR工具，支持100+语言文档解析，将图像/PDF转为JSON/Markdown结构化数据。内置0.9B多模态模型，精准识别文本、表格、公式等复杂元素，提供MCP服务器集成AI应用。",
+        "techStack": [
+          "Python",
+          "PaddlePaddle",
+          "OCR技术"
+        ],
+        "useCase": "适用于文档数字化、智能表单识别及多模态AI系统集成"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Shell",
+      "stars": 5846,
+      "forks": 577,
+      "todayStars": 270,
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "aiSummary": {
+        "summary": "Anthropic官方维护的Claude代码插件目录，包含内部开发和第三方高质量插件。提供插件安装、管理及开发规范，强调安全验证与质量标准，支持通过Claude Code系统直接调用。",
+        "techStack": [
+          "Shell",
+          "JSON",
+          "MCP Server"
+        ],
+        "useCase": "为Claude Code提供插件分发与管理解决方案"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that help you customize Windows and streamline everyday tasks",
+      "language": "C#",
+      "stars": 128726,
+      "forks": 7656,
+      "todayStars": 61,
+      "url": "https://github.com/microsoft/PowerToys",
+      "aiSummary": {
+        "summary": "Microsoft PowerToys 是一组25+实用工具，帮助用户自定义Windows系统并提升工作效率，涵盖剪贴板管理、窗口布局、快捷键定制等功能。",
+        "techStack": [
+          "C#",
+          "Windows API",
+          ".NET Framework"
+        ],
+        "useCase": "适用于需要自定义Windows系统和提高工作效率的开发者及高级用户。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "termux/termux-app",
+      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "language": "Java",
+      "stars": 49507,
+      "forks": 5915,
+      "todayStars": 41,
+      "url": "https://github.com/termux/termux-app",
+      "aiSummary": {
+        "summary": "Termux-App 是 Android 终端模拟器应用，提供可扩展的 Linux 环境，支持通过包管理安装开发工具和命令行应用。核心功能包含终端模拟、插件支持及跨版本兼容性优化，适用于需要在安卓设备上运行完整 Linux 环境的场景。",
+        "techStack": [
+          "Java",
+          "Android SDK",
+          "Termux Package System"
+        ],
+        "useCase": "为 Android 用户提供可扩展的 Linux 终端环境，支持安装开发工具和命令行应用。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "stars": 132175,
+      "forks": 19116,
+      "todayStars": 14767,
+      "url": "https://github.com/openclaw/openclaw",
+      "aiSummary": {
+        "summary": "OpenClaw是跨平台个人AI助手，支持多渠道消息交互（如WhatsApp、Telegram、Discord等），可在本地设备运行并实现语音交互与实时Canvas渲染。采用TypeScript开发，集成Anthropic和OpenAI模型，强调本地化、快速响应与始终在线体验。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "WebSocket"
+        ],
+        "useCase": "需要跨平台多渠道集成的本地化AI助手场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "pedroslopez/whatsapp-web.js",
+      "description": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app",
+      "language": "JavaScript",
+      "stars": 20990,
+      "forks": 4829,
+      "todayStars": 138,
+      "url": "https://github.com/pedroslopez/whatsapp-web.js",
+      "aiSummary": {
+        "summary": "基于Node.js的WhatsApp客户端库，通过Puppeteer控制浏览器实现与WhatsApp Web的交互，支持消息收发、群组管理、媒体传输等功能，但存在账号被封风险。",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Puppeteer"
+        ],
+        "useCase": "适用于需要在Node.js应用中实现WhatsApp自动化操作的场景，如客服系统或消息推送。"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "AlexanderGrooff/mermaid-ascii",
+      "description": "Render Mermaid graphs inside your terminal",
+      "language": "Go",
+      "stars": 830,
+      "forks": 37,
+      "todayStars": 74,
+      "url": "https://github.com/AlexanderGrooff/mermaid-ascii",
+      "aiSummary": {
+        "summary": "在终端中渲染Mermaid图表的工具，支持命令行直接输出ASCII艺术图，可调整布局参数。提供二进制安装、源码构建和Nix三种部署方式，适用于开发者在终端环境直接查看Mermaid流程图结构。",
+        "techStack": [
+          "Go",
+          "Mermaid",
+          "Terminal Rendering"
+        ],
+        "useCase": "开发者在终端环境直接渲染和调试Mermaid流程图"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "reconurge/flowsint",
+      "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
+      "language": "TypeScript",
+      "stars": 2105,
+      "forks": 260,
+      "todayStars": 120,
+      "url": "https://github.com/reconurge/flowsint",
+      "aiSummary": {
+        "summary": "Flowsint是一个基于图的开源OSINT调查工具，支持域名、IP、ASN等多类实体的可视化关联分析，提供自动化增强功能，强调隐私保护和本地数据存储，适用于网络安全分析与取证场景。",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Vite"
+        ],
+        "useCase": "网络安全分析人员进行多源数据关联分析与可视化取证"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "cline/cline",
+      "description": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
+      "language": "TypeScript",
+      "stars": 57361,
+      "forks": 5689,
+      "todayStars": 47,
+      "url": "https://github.com/cline/cline",
+      "aiSummary": {
+        "summary": "Cline是IDE中的自主编码代理，支持文件创建/编辑、终端命令执行及浏览器操作，所有步骤需用户授权。通过AI处理复杂开发任务，具备代码分析、错误修复、网页调试等功能，强调安全可控的开发体验。",
+        "techStack": [
+          "TypeScript",
+          "AI代理",
+          "CLI工具",
+          "浏览器自动化"
+        ],
+        "useCase": "适用于需要安全执行代码编辑、终端命令和网页调试的软件开发场景。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-01-31T23:29:45.827Z",
+    "duration": "93s",
+    "version": "1.0.0"
+  }
+}
