@@ -1,0 +1,224 @@
+{
+  "date": "2026-02-01",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "stars": 141345,
+      "forks": 21000,
+      "todayStars": 11134,
+      "url": "https://github.com/openclaw/openclaw",
+      "aiSummary": {
+        "summary": "OpenClaw 是一个可本地部署的个人AI助手，支持多平台消息通道（如WhatsApp、Telegram、Slack等），提供跨操作系统（macOS/iOS/Android）的实时交互能力，强调本地化、快速响应和持续运行。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "npm/pnpm"
+        ],
+        "useCase": "个人用户在多平台进行本地AI助手管理与消息交互"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "ThePrimeagen/99",
+      "description": "Neovim AI agent done right",
+      "language": "Lua",
+      "stars": 2727,
+      "forks": 122,
+      "todayStars": 791,
+      "url": "https://github.com/ThePrimeagen/99",
+      "aiSummary": {
+        "summary": "ThePrimeagen/99 是一个基于 Lua 的 Neovim AI 代理项目，旨在为普通用户提供简化的人工智能工作流，通过限制 AI 请求范围和优化提示机制提升编辑效率。项目处于早期阶段，支持 Lua 和 TS 语言，需依赖 OpenCode 进行配置。",
+        "techStack": [
+          "Lua",
+          "Neovim",
+          "OpenCode"
+        ],
+        "useCase": "适用于需要简化 AI 交互的 Neovim 用户，特别是希望限制 AI 操作范围的开发者"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "pedramamini/Maestro",
+      "description": "Agent Orchestration Command Center",
+      "language": "TypeScript",
+      "stars": 941,
+      "forks": 118,
+      "todayStars": 69,
+      "url": "https://github.com/pedramamini/Maestro",
+      "aiSummary": {
+        "summary": "Maestro是AI代理编排控制中心，支持多代理并行协作、自动化任务执行及跨平台管理。提供Git工作树隔离、剧本自动化、群组聊天协调和移动端远程控制，适用于高效处理复杂开发流程。",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "Node.js"
+        ],
+        "useCase": "适合需要并行管理多个AI代理和自动化开发流程的开发者及团队"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "kovidgoyal/calibre",
+      "description": "The official source code repository for the calibre ebook manager",
+      "language": "Python",
+      "stars": 23614,
+      "forks": 2534,
+      "todayStars": 21,
+      "url": "https://github.com/kovidgoyal/calibre",
+      "aiSummary": {
+        "summary": "calibre是跨平台电子书管理工具，支持格式转换、元数据编辑、设备同步及网络内容抓取，适用于Windows、Linux和macOS系统。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "电子书管理与格式转换工具，适用于多平台用户"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "badlogic/pi-mono",
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "language": "TypeScript",
+      "stars": 4876,
+      "forks": 529,
+      "todayStars": 565,
+      "url": "https://github.com/badlogic/pi-mono",
+      "aiSummary": {
+        "summary": "pi-mono是AI代理开发工具包，包含CLI工具、统一LLM API、TUI/Web UI库、Slack机器人及vLLM部署模块，支持全栈式AI代理应用开发与管理。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "npm"
+        ],
+        "useCase": "开发支持多终端交互与LLM集成的AI代理系统"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars": 16257,
+      "forks": 1135,
+      "todayStars": 171,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "Claude Code插件，通过AI压缩并持久化存储编码会话上下文，支持跨会话自动注入历史信息，提升开发连续性。包含隐私控制、多级记忆检索和可视化界面。",
+        "techStack": [
+          "TypeScript",
+          "Claude agent-sdk",
+          "Web Viewer UI"
+        ],
+        "useCase": "需要持续上下文记忆的AI辅助编程开发环境"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "microsoft/agent-lightning",
+      "description": "The absolute trainer to light up AI agents.",
+      "language": "Python",
+      "stars": 12939,
+      "forks": 1067,
+      "todayStars": 399,
+      "url": "https://github.com/microsoft/agent-lightning",
+      "aiSummary": {
+        "summary": "Agent Lightning是微软推出的AI代理训练工具，支持多框架集成与零代码优化，提供强化学习、自动提示优化等算法，可提升多代理系统性能。",
+        "techStack": [
+          "Python",
+          "强化学习",
+          "机器学习"
+        ],
+        "useCase": "适用于需要快速优化AI代理性能的场景，支持多种框架和算法。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "amantus-ai/vibetunnel",
+      "description": "Turn any browser into your terminal & command your agents on the go.",
+      "language": "TypeScript",
+      "stars": 3506,
+      "forks": 227,
+      "todayStars": 30,
+      "url": "https://github.com/amantus-ai/vibetunnel",
+      "aiSummary": {
+        "summary": "VibeTunnel将浏览器转化为终端工具，支持跨平台远程控制与AI代理管理。通过Web界面实现终端会话共享和远程访问，提供macOS原生应用及npm安装方案，适用于移动办公与协作场景。",
+        "techStack": [
+          "TypeScript",
+          "Web Technologies",
+          "Node.js"
+        ],
+        "useCase": "开发者远程管理服务器终端及AI任务协作"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "steipete/CodexBar",
+      "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+      "language": "Swift",
+      "stars": 3878,
+      "forks": 257,
+      "todayStars": 143,
+      "url": "https://github.com/steipete/CodexBar",
+      "aiSummary": {
+        "summary": "CodexBar是一款macOS菜单栏工具，实时监控OpenAI Codex、Claude等多平台AI服务的使用统计（如会话/周配额），支持OAuth、cookies等方式免登录获取数据，动态显示配额重置时间",
+        "techStack": [
+          "Swift",
+          "macOS Menu Bar API",
+          "OAuth2",
+          "CLI"
+        ],
+        "useCase": "开发者实时监控多AI平台配额使用情况避免超限"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "j178/prek",
+      "description": "⚡ Better `pre-commit`, re-engineered in Rust",
+      "language": "Rust",
+      "stars": 4231,
+      "forks": 126,
+      "todayStars": 42,
+      "url": "https://github.com/j178/prek",
+      "aiSummary": {
+        "summary": "prek是用Rust重写的新版pre-commit，提供更快的性能和无依赖的单二进制文件，兼容原配置，支持monorepos、Python等多语言工具链管理，并内置常见钩子实现。",
+        "techStack": [
+          "Rust",
+          "Python",
+          "Node.js",
+          "Go",
+          "Ruby"
+        ],
+        "useCase": "适用于需要快速、无依赖的代码检查和钩子管理的场景，支持多语言工具链和monorepos。"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "vita-epfl/Stable-Video-Infinity",
+      "description": "[ICLR 26] Stable Video Infinity: Infinite-Length Video Generation with Error Recycling",
+      "language": "Python",
+      "stars": 1697,
+      "forks": 134,
+      "todayStars": 25,
+      "url": "https://github.com/vita-epfl/Stable-Video-Infinity",
+      "aiSummary": {
+        "summary": "Stable-Video-Infinity 是一项基于深度学习的无限长度视频生成技术，通过错误回收机制提升视频生成稳定性。支持多种模型版本，提供社区工作流与优化方案，适用于动态视频创作与扩展。",
+        "techStack": [
+          "Python",
+          "深度学习框架",
+          "ComfyUI"
+        ],
+        "useCase": "适用于影视制作、动态内容生成及视频扩展等需要长时序视频创作的场景。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-01T23:32:42.291Z",
+    "duration": "110s",
+    "version": "1.0.0"
+  }
+}
