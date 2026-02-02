@@ -1,0 +1,246 @@
+{
+  "date": "2026-02-02",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars": 18039,
+      "forks": 1247,
+      "todayStars": 1469,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "Claude-Mem是用于Claude Code的插件，通过AI压缩自动捕获编码会话内容，实现跨会话的上下文持久化存储与智能检索，支持隐私控制、多语言界面及可视化界面，提升代码开发连续性。",
+        "techStack": [
+          "TypeScript",
+          "Claude's agent-sdk",
+          "Web Viewer (localhost)"
+        ],
+        "useCase": "需要保持代码开发会话连续性和上下文记忆的场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "ThePrimeagen/99",
+      "description": "Neovim AI agent done right",
+      "language": "Lua",
+      "stars": 3029,
+      "forks": 130,
+      "todayStars": 298,
+      "url": "https://github.com/ThePrimeagen/99",
+      "aiSummary": {
+        "summary": "ThePrimeagen/99 是一个基于Neovim的AI代理项目，旨在为用户提供简洁的AI工作流体验。通过限制AI请求范围并优化交互方式，该项目简化了常规编程任务的处理流程，同时依赖OpenCode进行功能扩展。",
+        "techStack": [
+          "Lua",
+          "Neovim",
+          "OpenCode"
+        ],
+        "useCase": "需要简化AI交互的Neovim用户场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "termux/termux-app",
+      "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+      "language": "Java",
+      "stars": 49906,
+      "forks": 5943,
+      "todayStars": 97,
+      "url": "https://github.com/termux/termux-app",
+      "aiSummary": {
+        "summary": "Termux 是 Android 终端模拟器及 Linux 环境应用，支持通过包扩展功能。提供命令行工具和开发环境，适用于 Android 7+ 设备，部分功能依赖 Linux 工具链。",
+        "techStack": [
+          "Java",
+          "Android SDK",
+          "Linux Package Management"
+        ],
+        "useCase": "在 Android 设备上运行 Linux 命令行工具和开发环境"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "pedramamini/Maestro",
+      "description": "Agent Orchestration Command Center",
+      "language": "TypeScript",
+      "stars": 1264,
+      "forks": 141,
+      "todayStars": 334,
+      "url": "https://github.com/pedramamini/Maestro",
+      "aiSummary": {
+        "summary": "Maestro是一款AI代理编排控制中心，支持多AI工具并行协作、自动化任务执行、Git分支隔离开发及移动端远程控制，提供代码生成、文档编写和跨项目协同功能。",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "Node.js"
+        ],
+        "useCase": "适用于需要高效管理多个AI开发任务和自动化流程的开发者及团队"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "netbirdio/netbird",
+      "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "language": "Go",
+      "stars": 21960,
+      "forks": 1071,
+      "todayStars": 368,
+      "url": "https://github.com/netbirdio/netbird",
+      "aiSummary": {
+        "summary": "NetBird基于WireGuard构建安全的点对点私有网络，集成SSO/MFA和细粒度访问控制，支持跨平台自动连接与集中化管理，简化远程访问与网络配置。",
+        "techStack": [
+          "Go",
+          "WireGuard",
+          "Web UI",
+          "SSO/MFA",
+          "REST API"
+        ],
+        "useCase": "企业及家庭环境下的安全远程访问与网络管理解决方案"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "OpenBMB/ChatDev",
+      "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+      "language": "Python",
+      "stars": 29367,
+      "forks": 3663,
+      "todayStars": 75,
+      "url": "https://github.com/OpenBMB/ChatDev",
+      "aiSummary": {
+        "summary": "ChatDev 2.0 是一个零代码多智能体协作平台，支持通过配置快速构建复杂场景应用。基于LLM实现智能体协同，涵盖数据可视化、3D生成、深度研究等场景，提供可扩展的多智能体工作流编排能力。",
+        "techStack": [
+          "Python",
+          "多智能体系统",
+          "大语言模型",
+          "强化学习"
+        ],
+        "useCase": "零代码构建多智能体系统，适用于数据可视化、3D生成等复杂场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "autobrr/qui",
+      "description": "A fast, single-binary qBittorrent web UI: manage multiple instances, automate torrent workflows, and cross-seed across trackers.",
+      "language": "Go",
+      "stars": 2813,
+      "forks": 77,
+      "todayStars": 41,
+      "url": "https://github.com/autobrr/qui",
+      "aiSummary": {
+        "summary": "qui是一个用Go编写的快速单二进制qBittorrent网页界面，支持多实例管理、跨跟踪器种子、自动化流程及反向代理，提升torrent管理效率。",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "适用于需要高效管理多个qBittorrent实例及自动化torrent流程的用户。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "badlogic/pi-mono",
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "language": "TypeScript",
+      "stars": 5552,
+      "forks": 580,
+      "todayStars": 881,
+      "url": "https://github.com/badlogic/pi-mono",
+      "aiSummary": {
+        "summary": "AI代理工具包，提供CLI、统一LLM API、TUI/Web UI库、Slack机器人及vLLM部署模块，支持代码生成与多端交互管理。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Python",
+          "Node.js"
+        ],
+        "useCase": "开发AI代理应用及大型语言模型的多平台部署管理"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "stars": 12469,
+      "forks": 889,
+      "todayStars": 818,
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "aiSummary": {
+        "summary": "PageIndex是一款无需向量数据库的推理型RAG系统，通过构建文档分层树索引并利用LLM进行推理检索，解决传统向量检索的准确性问题。支持长文档的结构化分析与人类专家级的上下文感知检索。",
+        "techStack": [
+          "Python",
+          "LLM框架",
+          "文档解析库"
+        ],
+        "useCase": "适用于法律文书、科研论文等专业长文档的高精度信息检索场景"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "karpathy/nanochat",
+      "description": "The best ChatGPT that $100 can buy.",
+      "language": "Python",
+      "stars": 41602,
+      "forks": 5386,
+      "todayStars": 261,
+      "url": "https://github.com/karpathy/nanochat",
+      "aiSummary": {
+        "summary": "nanochat是一个轻量级LLM训练框架，支持单GPU节点训练，涵盖从预训练到聊天UI的全流程。通过优化算法和架构，可在3小时内以约$73成本训练出GPT-2级别的模型，适合研究和低成本部署对话系统。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Hugging Face Transformers"
+        ],
+        "useCase": "用于低成本高效训练和部署类似ChatGPT的对话模型"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "kovidgoyal/calibre",
+      "description": "The official source code repository for the calibre ebook manager",
+      "language": "Python",
+      "stars": 23786,
+      "forks": 2542,
+      "todayStars": 183,
+      "url": "https://github.com/kovidgoyal/calibre",
+      "aiSummary": {
+        "summary": "calibre是跨平台电子书管理工具，支持多种格式的电子书查看、转换、编辑及元数据管理，可连接电子阅读设备并自动获取书籍信息，适用于电子书整理与格式转换场景。",
+        "techStack": [
+          "Python",
+          "Qt",
+          "C++"
+        ],
+        "useCase": "电子书格式转换与跨平台管理"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "langchain-ai/rag-from-scratch",
+      "description": "",
+      "language": "Jupyter Notebook",
+      "stars": 6949,
+      "forks": 1787,
+      "todayStars": 94,
+      "url": "https://github.com/langchain-ai/rag-from-scratch",
+      "aiSummary": {
+        "summary": "该项目通过Jupyter Notebook教程讲解从零构建RAG系统，涵盖索引、检索和生成三大核心模块，帮助开发者掌握利用外部数据增强大语言模型能力的方法。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "LangChain",
+          "FAISS",
+          "GPT"
+        ],
+        "useCase": "适用于需要结合外部数据增强大语言模型生成能力的场景，如问答系统和信息检索。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-02T23:36:08.613Z",
+    "duration": "116s",
+    "version": "1.0.0"
+  }
+}

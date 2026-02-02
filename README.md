@@ -67,23 +67,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-02-01 | **成功**: 11 | **失败**: 0
+**最后更新**: 2026-02-02 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 141.3k | 11.1k | OpenClaw 是一个可本地部署的个人AI助手，支持多平台消息通道（如WhatsApp、Telegram、Slack等），提供跨操作系统（macOS/iOS/Android）的实时交互能力，强调本地化、快速响应和持续运行。 |
-| 2 | [ThePrimeagen/99](https://github.com/ThePrimeagen/99) | Neovim AI agent done right... | Lua | 2.7k | 791 | ThePrimeagen/99 是一个基于 Lua 的 Neovim AI 代理项目，旨在为普通用户提供简化的人工智能工作流，通过限制 AI 请求范围和优化提示机制提升编辑效率。项目处于早期阶段，支持 Lua 和 TS 语言，需依赖 OpenCode 进行配置。 |
-| 3 | [pedramamini/Maestro](https://github.com/pedramamini/Maestro) | Agent Orchestration Command Center... | TypeScript | 941 | 69 | Maestro是AI代理编排控制中心，支持多代理并行协作、自动化任务执行及跨平台管理。提供Git工作树隔离、剧本自动化、群组聊天协调和移动端远程控制，适用于高效处理复杂开发流程。 |
-| 4 | [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) | The official source code repository for the calibr... | Python | 23.6k | 21 | calibre是跨平台电子书管理工具，支持格式转换、元数据编辑、设备同步及网络内容抓取，适用于Windows、Linux和macOS系统。 |
-| 5 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | AI agent toolkit: coding agent CLI, unified LLM AP... | TypeScript | 4.9k | 565 | pi-mono是AI代理开发工具包，包含CLI工具、统一LLM API、TUI/Web UI库、Slack机器人及vLLM部署模块，支持全栈式AI代理应用开发与管理。 |
-| 6 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 16.3k | 171 | Claude Code插件，通过AI压缩并持久化存储编码会话上下文，支持跨会话自动注入历史信息，提升开发连续性。包含隐私控制、多级记忆检索和可视化界面。 |
-| 7 | [microsoft/agent-lightning](https://github.com/microsoft/agent-lightning) | The absolute trainer to light up AI agents.... | Python | 12.9k | 399 | Agent Lightning是微软推出的AI代理训练工具，支持多框架集成与零代码优化，提供强化学习、自动提示优化等算法，可提升多代理系统性能。 |
-| 8 | [amantus-ai/vibetunnel](https://github.com/amantus-ai/vibetunnel) | Turn any browser into your terminal & command your... | TypeScript | 3.5k | 30 | VibeTunnel将浏览器转化为终端工具，支持跨平台远程控制与AI代理管理。通过Web界面实现终端会话共享和远程访问，提供macOS原生应用及npm安装方案，适用于移动办公与协作场景。 |
-| 9 | [steipete/CodexBar](https://github.com/steipete/CodexBar) | Show usage stats for OpenAI Codex and Claude Code,... | Swift | 3.9k | 143 | CodexBar是一款macOS菜单栏工具，实时监控OpenAI Codex、Claude等多平台AI服务的使用统计（如会话/周配额），支持OAuth、cookies等方式免登录获取数据，动态显示配额重置时间 |
-| 10 | [j178/prek](https://github.com/j178/prek) | ⚡ Better `pre-commit`, re-engineered in Rust... | Rust | 4.2k | 42 | prek是用Rust重写的新版pre-commit，提供更快的性能和无依赖的单二进制文件，兼容原配置，支持monorepos、Python等多语言工具链管理，并内置常见钩子实现。 |
-| 11 | [vita-epfl/Stable-Video-Infinity](https://github.com/vita-epfl/Stable-Video-Infinity) | [ICLR 26] Stable Video Infinity: Infinite-Length V... | Python | 1.7k | 25 | Stable-Video-Infinity 是一项基于深度学习的无限长度视频生成技术，通过错误回收机制提升视频生成稳定性。支持多种模型版本，提供社区工作流与优化方案，适用于动态视频创作与扩展。 |
+| 1 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 18.0k | 1.5k | Claude-Mem是用于Claude Code的插件，通过AI压缩自动捕获编码会话内容，实现跨会话的上下文持久化存储与智能检索，支持隐私控制、多语言界面及可视化界面，提升代码开发连续性。 |
+| 2 | [ThePrimeagen/99](https://github.com/ThePrimeagen/99) | Neovim AI agent done right... | Lua | 3.0k | 298 | ThePrimeagen/99 是一个基于Neovim的AI代理项目，旨在为用户提供简洁的AI工作流体验。通过限制AI请求范围并优化交互方式，该项目简化了常规编程任务的处理流程，同时依赖OpenCode进行功能扩展。 |
+| 3 | [termux/termux-app](https://github.com/termux/termux-app) | Termux - a terminal emulator application for Andro... | Java | 49.9k | 97 | Termux 是 Android 终端模拟器及 Linux 环境应用，支持通过包扩展功能。提供命令行工具和开发环境，适用于 Android 7+ 设备，部分功能依赖 Linux 工具链。 |
+| 4 | [pedramamini/Maestro](https://github.com/pedramamini/Maestro) | Agent Orchestration Command Center... | TypeScript | 1.3k | 334 | Maestro是一款AI代理编排控制中心，支持多AI工具并行协作、自动化任务执行、Git分支隔离开发及移动端远程控制，提供代码生成、文档编写和跨项目协同功能。 |
+| 5 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | Connect your devices into a secure WireGuard®-base... | Go | 22.0k | 368 | NetBird基于WireGuard构建安全的点对点私有网络，集成SSO/MFA和细粒度访问控制，支持跨平台自动连接与集中化管理，简化远程访问与网络配置。 |
+| 6 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | ChatDev 2.0: Dev All through LLM-powered Multi-Age... | Python | 29.4k | 75 | ChatDev 2.0 是一个零代码多智能体协作平台，支持通过配置快速构建复杂场景应用。基于LLM实现智能体协同，涵盖数据可视化、3D生成、深度研究等场景，提供可扩展的多智能体工作流编排能力。 |
+| 7 | [autobrr/qui](https://github.com/autobrr/qui) | A fast, single-binary qBittorrent web UI: manage m... | Go | 2.8k | 41 | qui是一个用Go编写的快速单二进制qBittorrent网页界面，支持多实例管理、跨跟踪器种子、自动化流程及反向代理，提升torrent管理效率。 |
+| 8 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | AI agent toolkit: coding agent CLI, unified LLM AP... | TypeScript | 5.6k | 881 | AI代理工具包，提供CLI、统一LLM API、TUI/Web UI库、Slack机器人及vLLM部署模块，支持代码生成与多端交互管理。 |
+| 9 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 PageIndex: Document Index for Vectorless, Reaso... | Python | 12.5k | 818 | PageIndex是一款无需向量数据库的推理型RAG系统，通过构建文档分层树索引并利用LLM进行推理检索，解决传统向量检索的准确性问题。支持长文档的结构化分析与人类专家级的上下文感知检索。 |
+| 10 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best ChatGPT that $100 can buy.... | Python | 41.6k | 261 | nanochat是一个轻量级LLM训练框架，支持单GPU节点训练，涵盖从预训练到聊天UI的全流程。通过优化算法和架构，可在3小时内以约$73成本训练出GPT-2级别的模型，适合研究和低成本部署对话系统。 |
+| 11 | [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) | The official source code repository for the calibr... | Python | 23.8k | 183 | calibre是跨平台电子书管理工具，支持多种格式的电子书查看、转换、编辑及元数据管理，可连接电子阅读设备并自动获取书籍信息，适用于电子书整理与格式转换场景。 |
+| 12 | [langchain-ai/rag-from-scratch](https://github.com/langchain-ai/rag-from-scratch) | ... | Jupyter Notebook | 6.9k | 94 | 该项目通过Jupyter Notebook教程讲解从零构建RAG系统，涵盖索引、检索和生成三大核心模块，帮助开发者掌握利用外部数据增强大语言模型能力的方法。 |
 
-[查看完整数据](api/github/2026-02-01.json)
+[查看完整数据](api/github/2026-02-02.json)
 <!-- END GITHUB TRENDING -->
 
 
