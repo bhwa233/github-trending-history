@@ -67,24 +67,23 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-02-02 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-02-03 | **成功**: 11 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 18.0k | 1.5k | Claude-Mem是用于Claude Code的插件，通过AI压缩自动捕获编码会话内容，实现跨会话的上下文持久化存储与智能检索，支持隐私控制、多语言界面及可视化界面，提升代码开发连续性。 |
-| 2 | [ThePrimeagen/99](https://github.com/ThePrimeagen/99) | Neovim AI agent done right... | Lua | 3.0k | 298 | ThePrimeagen/99 是一个基于Neovim的AI代理项目，旨在为用户提供简洁的AI工作流体验。通过限制AI请求范围并优化交互方式，该项目简化了常规编程任务的处理流程，同时依赖OpenCode进行功能扩展。 |
-| 3 | [termux/termux-app](https://github.com/termux/termux-app) | Termux - a terminal emulator application for Andro... | Java | 49.9k | 97 | Termux 是 Android 终端模拟器及 Linux 环境应用，支持通过包扩展功能。提供命令行工具和开发环境，适用于 Android 7+ 设备，部分功能依赖 Linux 工具链。 |
-| 4 | [pedramamini/Maestro](https://github.com/pedramamini/Maestro) | Agent Orchestration Command Center... | TypeScript | 1.3k | 334 | Maestro是一款AI代理编排控制中心，支持多AI工具并行协作、自动化任务执行、Git分支隔离开发及移动端远程控制，提供代码生成、文档编写和跨项目协同功能。 |
-| 5 | [netbirdio/netbird](https://github.com/netbirdio/netbird) | Connect your devices into a secure WireGuard®-base... | Go | 22.0k | 368 | NetBird基于WireGuard构建安全的点对点私有网络，集成SSO/MFA和细粒度访问控制，支持跨平台自动连接与集中化管理，简化远程访问与网络配置。 |
-| 6 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | ChatDev 2.0: Dev All through LLM-powered Multi-Age... | Python | 29.4k | 75 | ChatDev 2.0 是一个零代码多智能体协作平台，支持通过配置快速构建复杂场景应用。基于LLM实现智能体协同，涵盖数据可视化、3D生成、深度研究等场景，提供可扩展的多智能体工作流编排能力。 |
-| 7 | [autobrr/qui](https://github.com/autobrr/qui) | A fast, single-binary qBittorrent web UI: manage m... | Go | 2.8k | 41 | qui是一个用Go编写的快速单二进制qBittorrent网页界面，支持多实例管理、跨跟踪器种子、自动化流程及反向代理，提升torrent管理效率。 |
-| 8 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | AI agent toolkit: coding agent CLI, unified LLM AP... | TypeScript | 5.6k | 881 | AI代理工具包，提供CLI、统一LLM API、TUI/Web UI库、Slack机器人及vLLM部署模块，支持代码生成与多端交互管理。 |
-| 9 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 PageIndex: Document Index for Vectorless, Reaso... | Python | 12.5k | 818 | PageIndex是一款无需向量数据库的推理型RAG系统，通过构建文档分层树索引并利用LLM进行推理检索，解决传统向量检索的准确性问题。支持长文档的结构化分析与人类专家级的上下文感知检索。 |
-| 10 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best ChatGPT that $100 can buy.... | Python | 41.6k | 261 | nanochat是一个轻量级LLM训练框架，支持单GPU节点训练，涵盖从预训练到聊天UI的全流程。通过优化算法和架构，可在3小时内以约$73成本训练出GPT-2级别的模型，适合研究和低成本部署对话系统。 |
-| 11 | [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) | The official source code repository for the calibr... | Python | 23.8k | 183 | calibre是跨平台电子书管理工具，支持多种格式的电子书查看、转换、编辑及元数据管理，可连接电子阅读设备并自动获取书籍信息，适用于电子书整理与格式转换场景。 |
-| 12 | [langchain-ai/rag-from-scratch](https://github.com/langchain-ai/rag-from-scratch) | ... | Jupyter Notebook | 6.9k | 94 | 该项目通过Jupyter Notebook教程讲解从零构建RAG系统，涵盖索引、检索和生成三大核心模块，帮助开发者掌握利用外部数据增强大语言模型能力的方法。 |
+| 1 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 20.1k | 1.7k | Claude Code插件，通过AI压缩并持久化存储编码会话上下文，支持跨会话知识延续与智能检索，提供隐私控制和可视化界面。 |
+| 2 | [masoncl/review-prompts](https://github.com/masoncl/review-prompts) | AI review prompts... | Python | 316 | 42 | 提供针对Linux内核和systemd的AI辅助代码审查提示，支持自动上下文加载和快捷命令操作，提升代码审查效率。 |
+| 3 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 3.0k | 307 | 该项目是Codex的技能目录，提供可重复使用的AI代理技能包。通过标准化的指令、脚本和资源，支持开发者创建、安装和管理任务执行技能，包含自动安装机制和自定义技能开发功能。 |
+| 4 | [automazeio/ccpm](https://github.com/automazeio/ccpm) | Project management system for Claude Code using Gi... | Shell | 6.7k | 248 | 基于GitHub Issues与Git工作树的并行化项目管理系统，通过规范驱动开发实现需求到代码的全流程追踪，支持多AI代理并行执行与任务分解。 |
+| 5 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 43.5k | 866 | Superpowers 是一个基于代理的软件开发框架，通过可组合的技能和自动化工作流提升开发效率。它强调TDD、YAGNI和DRY原则，支持代码代理自动生成设计文档、实施计划并驱动子代理协作开发，减少人工干预。 |
+| 6 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 10.1k | 219 | Dexter是用于深度金融研究的自主代理，具备任务规划、实时数据分析和自我验证能力，可分解复杂金融问题并生成数据驱动的解决方案。 |
+| 7 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best ChatGPT that $100 can buy.... | Python | 42.0k | 443 | nanochat是一个简化的大语言模型训练框架，可在单GPU节点运行，涵盖分词、预训练、微调、评估、推理及聊天UI。通过优化，训练GPT-2级模型成本降至约73美元，适合研究和低成本部署。 |
+| 8 | [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) | The official source code repository for the calibr... | Python | 23.9k | 140 | calibre是一款跨平台电子书管理工具，支持格式转换、元数据编辑、设备同步及报纸下载等功能，采用Python开发，提供图形化界面和丰富的管理功能。 |
+| 9 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | ChatDev 2.0: Dev All through LLM-powered Multi-Age... | Python | 29.8k | 475 | ChatDev 2.0 是基于大语言模型的零代码多智能体协作平台，支持用户通过配置构建定制化多智能体系统，无需编程即可实现数据可视化、3D生成和深度研究等复杂场景。ChatDev 1.0 作为遗留版本，专注于软件开发全生命周期自动化。 |
+| 10 | [pedramamini/Maestro](https://github.com/pedramamini/Maestro) | Agent Orchestration Command Center... | TypeScript | 1.5k | 265 | Maestro是一款AI代理编排控制中心，支持跨平台桌面操作，提供多AI工具并行执行、Git工作树隔离、自动化任务流水线及移动远程控制功能，提升高效开发与项目管理效率。 |
+| 11 | [vm0-ai/vm0](https://github.com/vm0-ai/vm0) | the easiest way to run natural language-described ... | TypeScript | 683 | 56 | vm0-ai/vm0 是一个基于TypeScript的自然语言工作流自动化工具，允许用户通过自然语言描述直接生成和执行工作流程，集成AI能力实现代码自动创建与执行。 |
 
-[查看完整数据](api/github/2026-02-02.json)
+[查看完整数据](api/github/2026-02-03.json)
 <!-- END GITHUB TRENDING -->
 
 

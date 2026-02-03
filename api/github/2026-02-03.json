@@ -1,0 +1,220 @@
+{
+  "date": "2026-02-03",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars": 20147,
+      "forks": 1359,
+      "todayStars": 1739,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "Claude Code插件，通过AI压缩并持久化存储编码会话上下文，支持跨会话知识延续与智能检索，提供隐私控制和可视化界面。",
+        "techStack": [
+          "TypeScript",
+          "Claude agent-sdk",
+          "Web Viewer UI"
+        ],
+        "useCase": "需要保持代码开发上下文连续性的场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "masoncl/review-prompts",
+      "description": "AI review prompts",
+      "language": "Python",
+      "stars": 316,
+      "forks": 32,
+      "todayStars": 42,
+      "url": "https://github.com/masoncl/review-prompts",
+      "aiSummary": {
+        "summary": "提供针对Linux内核和systemd的AI辅助代码审查提示，支持自动上下文加载和快捷命令操作，提升代码审查效率。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "Linux内核与systemd开发中的AI辅助代码审查场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "stars": 2978,
+      "forks": 178,
+      "todayStars": 307,
+      "url": "https://github.com/openai/skills",
+      "aiSummary": {
+        "summary": "该项目是Codex的技能目录，提供可重复使用的AI代理技能包。通过标准化的指令、脚本和资源，支持开发者创建、安装和管理任务执行技能，包含自动安装机制和自定义技能开发功能。",
+        "techStack": [
+          "Python",
+          "GitHub CLI",
+          "Markdown"
+        ],
+        "useCase": "AI代理任务自动化与技能模块化管理"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "automazeio/ccpm",
+      "description": "Project management system for Claude Code using GitHub Issues and Git worktrees for parallel agent execution.",
+      "language": "Shell",
+      "stars": 6685,
+      "forks": 698,
+      "todayStars": 248,
+      "url": "https://github.com/automazeio/ccpm",
+      "aiSummary": {
+        "summary": "基于GitHub Issues与Git工作树的并行化项目管理系统，通过规范驱动开发实现需求到代码的全流程追踪，支持多AI代理并行执行与任务分解。",
+        "techStack": [
+          "Shell",
+          "GitHub Issues",
+          "Git Worktrees"
+        ],
+        "useCase": "需要高可追溯性与并行开发协作的软件项目管理场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 43469,
+      "forks": 3296,
+      "todayStars": 866,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于代理的软件开发框架，通过可组合的技能和自动化工作流提升开发效率。它强调TDD、YAGNI和DRY原则，支持代码代理自动生成设计文档、实施计划并驱动子代理协作开发，减少人工干预。",
+        "techStack": [
+          "Shell",
+          "AI代理框架",
+          "TDD工具"
+        ],
+        "useCase": "适用于需要自动化软件开发流程并遵循敏捷开发原则的团队"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "stars": 10053,
+      "forks": 1222,
+      "todayStars": 219,
+      "url": "https://github.com/virattt/dexter",
+      "aiSummary": {
+        "summary": "Dexter是用于深度金融研究的自主代理，具备任务规划、实时数据分析和自我验证能力，可分解复杂金融问题并生成数据驱动的解决方案。",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "OpenAI API",
+          "Exa API"
+        ],
+        "useCase": "自动化金融数据分析与决策支持"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "karpathy/nanochat",
+      "description": "The best ChatGPT that $100 can buy.",
+      "language": "Python",
+      "stars": 42001,
+      "forks": 5426,
+      "todayStars": 443,
+      "url": "https://github.com/karpathy/nanochat",
+      "aiSummary": {
+        "summary": "nanochat是一个简化的大语言模型训练框架，可在单GPU节点运行，涵盖分词、预训练、微调、评估、推理及聊天UI。通过优化，训练GPT-2级模型成本降至约73美元，适合研究和低成本部署。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Hugging Face"
+        ],
+        "useCase": "适用于在单GPU上低成本训练和部署小型语言模型，支持聊天交互。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "kovidgoyal/calibre",
+      "description": "The official source code repository for the calibre ebook manager",
+      "language": "Python",
+      "stars": 23919,
+      "forks": 2547,
+      "todayStars": 140,
+      "url": "https://github.com/kovidgoyal/calibre",
+      "aiSummary": {
+        "summary": "calibre是一款跨平台电子书管理工具，支持格式转换、元数据编辑、设备同步及报纸下载等功能，采用Python开发，提供图形化界面和丰富的管理功能。",
+        "techStack": [
+          "Python",
+          "Qt",
+          "ebooklib"
+        ],
+        "useCase": "电子书格式转换与跨平台管理"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "OpenBMB/ChatDev",
+      "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+      "language": "Python",
+      "stars": 29764,
+      "forks": 3686,
+      "todayStars": 475,
+      "url": "https://github.com/OpenBMB/ChatDev",
+      "aiSummary": {
+        "summary": "ChatDev 2.0 是基于大语言模型的零代码多智能体协作平台，支持用户通过配置构建定制化多智能体系统，无需编程即可实现数据可视化、3D生成和深度研究等复杂场景。ChatDev 1.0 作为遗留版本，专注于软件开发全生命周期自动化。",
+        "techStack": [
+          "Python",
+          "大语言模型(LLM)",
+          "多智能体协作框架"
+        ],
+        "useCase": "适用于无需编程的多智能体系统快速构建与复杂场景自动化协作"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "pedramamini/Maestro",
+      "description": "Agent Orchestration Command Center",
+      "language": "TypeScript",
+      "stars": 1483,
+      "forks": 157,
+      "todayStars": 265,
+      "url": "https://github.com/pedramamini/Maestro",
+      "aiSummary": {
+        "summary": "Maestro是一款AI代理编排控制中心，支持跨平台桌面操作，提供多AI工具并行执行、Git工作树隔离、自动化任务流水线及移动远程控制功能，提升高效开发与项目管理效率。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要并行协调多个AI代理进行高效开发与复杂项目管理的场景。"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "vm0-ai/vm0",
+      "description": "the easiest way to run natural language-described workflows automatically",
+      "language": "TypeScript",
+      "stars": 683,
+      "forks": 22,
+      "todayStars": 56,
+      "url": "https://github.com/vm0-ai/vm0",
+      "aiSummary": {
+        "summary": "vm0-ai/vm0 是一个基于TypeScript的自然语言工作流自动化工具，允许用户通过自然语言描述直接生成和执行工作流程，集成AI能力实现代码自动创建与执行。",
+        "techStack": [
+          "TypeScript",
+          "Natural Language Processing",
+          "AI Code Generation"
+        ],
+        "useCase": "适用于需要将自然语言需求快速转换为自动化流程的开发场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-03T23:34:51.960Z",
+    "duration": "85s",
+    "version": "1.0.0"
+  }
+}
