@@ -1,0 +1,240 @@
+{
+  "date": "2026-02-04",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars": 22438,
+      "forks": 1487,
+      "todayStars": 2618,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "Claude-Mem是为Claude Code设计的持久化记忆压缩系统，通过自动捕获编码行为、生成语义摘要并跨会话注入上下文，实现开发知识的连续性维护。支持隐私控制、多语言界面和实时内存可视化，提升长期项目开发效率。",
+        "techStack": [
+          "TypeScript",
+          "Claude agent-sdk",
+          "Web Viewer"
+        ],
+        "useCase": "适用于需要跨会话保持代码上下文的开发环境，如长期项目协作或复杂逻辑维护"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "stars": 3636,
+      "forks": 209,
+      "todayStars": 730,
+      "url": "https://github.com/openai/skills",
+      "aiSummary": {
+        "summary": "OpenAI Skills 项目为 Codex 提供可重复使用的技能模块，包含指令、脚本和资源，支持通过命令行工具安装和管理。涵盖基础技能、实验性技能及第三方集成，促进 AI 代理任务自动化。",
+        "techStack": [
+          "Python",
+          "Command Line Interface",
+          "GitHub Integration"
+        ],
+        "useCase": "AI 代理任务自动化与技能模块化管理"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "disler/claude-code-hooks-mastery",
+      "description": "Master Claude Code Hooks",
+      "language": "Python",
+      "stars": 2342,
+      "forks": 503,
+      "todayStars": 47,
+      "url": "https://github.com/disler/claude-code-hooks-mastery",
+      "aiSummary": {
+        "summary": "该项目旨在帮助开发者掌握Claude Code钩子技术，实现对AI行为的确定性或非确定性控制，包含子代理、元代理及团队验证等高级功能演示。",
+        "techStack": [
+          "Python",
+          "Astral UV",
+          "Claude Code",
+          "ElevenLabs",
+          "Firecrawl"
+        ],
+        "useCase": "需要定制化控制AI代理行为的开发场景"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "OpenBMB/ChatDev",
+      "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
+      "language": "Python",
+      "stars": 29958,
+      "forks": 3702,
+      "todayStars": 226,
+      "url": "https://github.com/OpenBMB/ChatDev",
+      "aiSummary": {
+        "summary": "ChatDev 2.0 是基于LLM的零代码多智能体协作平台，支持用户通过配置构建定制化多智能体系统。无需编程即可实现数据可视化、3D生成、深度研究等复杂场景，提供自动化工作流编排和智能体协作能力。",
+        "techStack": [
+          "Python",
+          "LLM",
+          "Reinforcement Learning"
+        ],
+        "useCase": "适用于无需编程即可构建多智能体系统的开发场景，如数据处理、内容生成和复杂任务自动化。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "ankitects/anki",
+      "description": "Anki is a smart spaced repetition flashcard program",
+      "language": "Rust",
+      "stars": 26147,
+      "forks": 2785,
+      "todayStars": 28,
+      "url": "https://github.com/ankitects/anki",
+      "aiSummary": {
+        "summary": "Anki是基于间隔重复算法的闪卡程序，通过智能复习计划提升记忆效率。使用Rust开发，提供跨平台桌面应用，支持自定义卡片和多语言学习。",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "适用于语言学习、考试复习及知识体系构建等场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "open-telemetry/opentelemetry-collector-contrib",
+      "description": "Contrib repository for the OpenTelemetry Collector",
+      "language": "Go",
+      "stars": 4344,
+      "forks": 3298,
+      "todayStars": 3,
+      "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+      "aiSummary": {
+        "summary": "OpenTelemetry Collector Contrib 是 OpenTelemetry Collector 的扩展组件仓库，提供核心仓库外的可扩展组件，支持多种可观测性数据（如追踪、指标、日志）的收集与处理，允许用户通过自定义分发版灵活集成所需功能。",
+        "techStack": [
+          "Go",
+          "OpenTelemetry",
+          "分布式追踪"
+        ],
+        "useCase": "需要扩展和自定义 OpenTelemetry Collector 功能的可观测性数据采集场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Canner/WrenAI",
+      "description": "⚡️ GenBI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered business intelligence in seconds.",
+      "language": "TypeScript",
+      "stars": 13895,
+      "forks": 1506,
+      "todayStars": 84,
+      "url": "https://github.com/Canner/WrenAI",
+      "aiSummary": {
+        "summary": "WrenAI 是一个开源的生成式商业智能（GenBI）工具，支持通过自然语言查询数据库，生成精准SQL、图表及AI驱动的业务分析报告，集成多种数据库和大语言模型，提升数据交互效率。",
+        "techStack": [
+          "TypeScript",
+          "AI/ML Frameworks",
+          "Database APIs"
+        ],
+        "useCase": "适用于需要自然语言处理和自动化数据报告生成的业务分析场景。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "pedramamini/Maestro",
+      "description": "Agent Orchestration Command Center",
+      "language": "TypeScript",
+      "stars": 1648,
+      "forks": 165,
+      "todayStars": 186,
+      "url": "https://github.com/pedramamini/Maestro",
+      "aiSummary": {
+        "summary": "Maestro是一款跨平台AI代理协调工具，支持多AI框架并行任务处理。提供Git工作树隔离、自动运行剧本、群组聊天协作等功能，适用于需要高效管理多个AI代理和并行开发项目的场景。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "需要同时管理多个AI代理和并行开发项目的开发者或团队"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "nvm-sh/nvm",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+      "language": "Shell",
+      "stars": 91242,
+      "forks": 9819,
+      "todayStars": 34,
+      "url": "https://github.com/nvm-sh/nvm",
+      "aiSummary": {
+        "summary": "nvm-sh/nvm 是一个POSIX兼容的Node.js版本管理工具，通过Shell脚本实现多版本Node.js的安装与切换，支持命令行快速管理不同项目所需的Node.js环境。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要在不同项目中切换Node.js版本的开发人员及持续集成环境"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "microsoft/qlib",
+      "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
+      "language": "Python",
+      "stars": 36518,
+      "forks": 5686,
+      "todayStars": 82,
+      "url": "https://github.com/microsoft/qlib",
+      "aiSummary": {
+        "summary": "Qlib是微软开源的AI量化投资平台，支持监督学习、市场建模与强化学习，集成RD-Agent实现因子挖掘、模型优化与自动化研发，覆盖从研究到生产的量化投资全流程。",
+        "techStack": [
+          "Python",
+          "机器学习框架",
+          "自动化研发工具"
+        ],
+        "useCase": "量化金融领域的自动化策略研究与模型优化"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "LadybirdBrowser/ladybird",
+      "description": "Truly independent web browser",
+      "language": "C++",
+      "stars": 58263,
+      "forks": 2644,
+      "todayStars": 74,
+      "url": "https://github.com/LadybirdBrowser/ladybird",
+      "aiSummary": {
+        "summary": "Ladybird是一款基于Web标准的独立浏览器项目，采用多进程架构提升安全性，核心组件继承自SerenityOS，包含渲染引擎、JS引擎、WebAssembly支持等，目前处于预Alpha阶段，面向开发者提供现代Web浏览功能。",
+        "techStack": [
+          "C++",
+          "多进程架构",
+          "LibWeb",
+          "LibJS",
+          "WebAssembly"
+        ],
+        "useCase": "适用于开发者测试和研究现代Web浏览器架构"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "likec4/likec4",
+      "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+      "language": "TypeScript",
+      "stars": 1417,
+      "forks": 118,
+      "todayStars": 29,
+      "url": "https://github.com/likec4/likec4",
+      "aiSummary": {
+        "summary": "LikeC4是基于TypeScript的架构建模工具，支持从代码生成实时更新的架构图。用户可自定义符号、元素类型和层级结构，通过CLI工具预览协作，适用于动态维护软件架构文档的场景。",
+        "techStack": [
+          "TypeScript",
+          "CLI",
+          "Web"
+        ],
+        "useCase": "需要动态生成和协作维护软件架构图的开发团队"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-04T23:35:20.306Z",
+    "duration": "99s",
+    "version": "1.0.0"
+  }
+}

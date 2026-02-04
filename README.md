@@ -67,23 +67,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-02-03 | **成功**: 11 | **失败**: 0
+**最后更新**: 2026-02-04 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 20.1k | 1.7k | Claude Code插件，通过AI压缩并持久化存储编码会话上下文，支持跨会话知识延续与智能检索，提供隐私控制和可视化界面。 |
-| 2 | [masoncl/review-prompts](https://github.com/masoncl/review-prompts) | AI review prompts... | Python | 316 | 42 | 提供针对Linux内核和systemd的AI辅助代码审查提示，支持自动上下文加载和快捷命令操作，提升代码审查效率。 |
-| 3 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 3.0k | 307 | 该项目是Codex的技能目录，提供可重复使用的AI代理技能包。通过标准化的指令、脚本和资源，支持开发者创建、安装和管理任务执行技能，包含自动安装机制和自定义技能开发功能。 |
-| 4 | [automazeio/ccpm](https://github.com/automazeio/ccpm) | Project management system for Claude Code using Gi... | Shell | 6.7k | 248 | 基于GitHub Issues与Git工作树的并行化项目管理系统，通过规范驱动开发实现需求到代码的全流程追踪，支持多AI代理并行执行与任务分解。 |
-| 5 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 43.5k | 866 | Superpowers 是一个基于代理的软件开发框架，通过可组合的技能和自动化工作流提升开发效率。它强调TDD、YAGNI和DRY原则，支持代码代理自动生成设计文档、实施计划并驱动子代理协作开发，减少人工干预。 |
-| 6 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 10.1k | 219 | Dexter是用于深度金融研究的自主代理，具备任务规划、实时数据分析和自我验证能力，可分解复杂金融问题并生成数据驱动的解决方案。 |
-| 7 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best ChatGPT that $100 can buy.... | Python | 42.0k | 443 | nanochat是一个简化的大语言模型训练框架，可在单GPU节点运行，涵盖分词、预训练、微调、评估、推理及聊天UI。通过优化，训练GPT-2级模型成本降至约73美元，适合研究和低成本部署。 |
-| 8 | [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) | The official source code repository for the calibr... | Python | 23.9k | 140 | calibre是一款跨平台电子书管理工具，支持格式转换、元数据编辑、设备同步及报纸下载等功能，采用Python开发，提供图形化界面和丰富的管理功能。 |
-| 9 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | ChatDev 2.0: Dev All through LLM-powered Multi-Age... | Python | 29.8k | 475 | ChatDev 2.0 是基于大语言模型的零代码多智能体协作平台，支持用户通过配置构建定制化多智能体系统，无需编程即可实现数据可视化、3D生成和深度研究等复杂场景。ChatDev 1.0 作为遗留版本，专注于软件开发全生命周期自动化。 |
-| 10 | [pedramamini/Maestro](https://github.com/pedramamini/Maestro) | Agent Orchestration Command Center... | TypeScript | 1.5k | 265 | Maestro是一款AI代理编排控制中心，支持跨平台桌面操作，提供多AI工具并行执行、Git工作树隔离、自动化任务流水线及移动远程控制功能，提升高效开发与项目管理效率。 |
-| 11 | [vm0-ai/vm0](https://github.com/vm0-ai/vm0) | the easiest way to run natural language-described ... | TypeScript | 683 | 56 | vm0-ai/vm0 是一个基于TypeScript的自然语言工作流自动化工具，允许用户通过自然语言描述直接生成和执行工作流程，集成AI能力实现代码自动创建与执行。 |
+| 1 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 22.4k | 2.6k | Claude-Mem是为Claude Code设计的持久化记忆压缩系统，通过自动捕获编码行为、生成语义摘要并跨会话注入上下文，实现开发知识的连续性维护。支持隐私控制、多语言界面和实时内存可视化，提升长期项目开发效率。 |
+| 2 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 3.6k | 730 | OpenAI Skills 项目为 Codex 提供可重复使用的技能模块，包含指令、脚本和资源，支持通过命令行工具安装和管理。涵盖基础技能、实验性技能及第三方集成，促进 AI 代理任务自动化。 |
+| 3 | [disler/claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery) | Master Claude Code Hooks... | Python | 2.3k | 47 | 该项目旨在帮助开发者掌握Claude Code钩子技术，实现对AI行为的确定性或非确定性控制，包含子代理、元代理及团队验证等高级功能演示。 |
+| 4 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | ChatDev 2.0: Dev All through LLM-powered Multi-Age... | Python | 30.0k | 226 | ChatDev 2.0 是基于LLM的零代码多智能体协作平台，支持用户通过配置构建定制化多智能体系统。无需编程即可实现数据可视化、3D生成、深度研究等复杂场景，提供自动化工作流编排和智能体协作能力。 |
+| 5 | [ankitects/anki](https://github.com/ankitects/anki) | Anki is a smart spaced repetition flashcard progra... | Rust | 26.1k | 28 | Anki是基于间隔重复算法的闪卡程序，通过智能复习计划提升记忆效率。使用Rust开发，提供跨平台桌面应用，支持自定义卡片和多语言学习。 |
+| 6 | [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) | Contrib repository for the OpenTelemetry Collector... | Go | 4.3k | 3 | OpenTelemetry Collector Contrib 是 OpenTelemetry Collector 的扩展组件仓库，提供核心仓库外的可扩展组件，支持多种可观测性数据（如追踪、指标、日志）的收集与处理，允许用户通过自定义分发版灵活集成所需功能。 |
+| 7 | [Canner/WrenAI](https://github.com/Canner/WrenAI) | ⚡️ GenBI (Generative BI) queries any database in n... | TypeScript | 13.9k | 84 | WrenAI 是一个开源的生成式商业智能（GenBI）工具，支持通过自然语言查询数据库，生成精准SQL、图表及AI驱动的业务分析报告，集成多种数据库和大语言模型，提升数据交互效率。 |
+| 8 | [pedramamini/Maestro](https://github.com/pedramamini/Maestro) | Agent Orchestration Command Center... | TypeScript | 1.6k | 186 | Maestro是一款跨平台AI代理协调工具，支持多AI框架并行任务处理。提供Git工作树隔离、自动运行剧本、群组聊天协作等功能，适用于需要高效管理多个AI代理和并行开发项目的场景。 |
+| 9 | [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | Node Version Manager - POSIX-compliant bash script... | Shell | 91.2k | 34 | nvm-sh/nvm 是一个POSIX兼容的Node.js版本管理工具，通过Shell脚本实现多版本Node.js的安装与切换，支持命令行快速管理不同项目所需的Node.js环境。 |
+| 10 | [microsoft/qlib](https://github.com/microsoft/qlib) | Qlib is an AI-oriented Quant investment platform t... | Python | 36.5k | 82 | Qlib是微软开源的AI量化投资平台，支持监督学习、市场建模与强化学习，集成RD-Agent实现因子挖掘、模型优化与自动化研发，覆盖从研究到生产的量化投资全流程。 |
+| 11 | [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser... | C++ | 58.3k | 74 | Ladybird是一款基于Web标准的独立浏览器项目，采用多进程架构提升安全性，核心组件继承自SerenityOS，包含渲染引擎、JS引擎、WebAssembly支持等，目前处于预Alpha阶段，面向开发者提供现代Web浏览功能。 |
+| 12 | [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software ar... | TypeScript | 1.4k | 29 | LikeC4是基于TypeScript的架构建模工具，支持从代码生成实时更新的架构图。用户可自定义符号、元素类型和层级结构，通过CLI工具预览协作，适用于动态维护软件架构文档的场景。 |
 
-[查看完整数据](api/github/2026-02-03.json)
+[查看完整数据](api/github/2026-02-04.json)
 <!-- END GITHUB TRENDING -->
 
 
