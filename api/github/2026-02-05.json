@@ -1,0 +1,221 @@
+{
+  "date": "2026-02-05",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "stars": 26678,
+      "forks": 2611,
+      "todayStars": 560,
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "aiSummary": {
+        "summary": "字节跳动开源的多模态AI代理栈，包含Agent TARS和UI-TARS-desktop。Agent TARS通过CLI/Web UI整合GUI代理与视觉能力，支持跨平台任务自动化；UI-TARS-desktop为桌面应用，提供本地/远程计算机及浏览器的GUI代理功能。",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "Multimodal LLMs"
+        ],
+        "useCase": "适用于需要跨平台自动化任务处理与多模态交互的桌面应用场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "stars": 4248,
+      "forks": 243,
+      "todayStars": 621,
+      "url": "https://github.com/openai/skills",
+      "aiSummary": {
+        "summary": "该项目是Codex的技能目录，提供可重复使用的AI代理技能模块，包含指令、脚本和资源，支持技能安装、管理及分发，提升任务自动化效率。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "AI代理任务自动化与技能模块化管理"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars": 23671,
+      "forks": 1569,
+      "todayStars": 1899,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "为Claude Code设计的持久化记忆压缩插件，自动捕获编码会话内容并AI压缩，实现跨会话上下文连续性，支持项目知识延续与智能检索。",
+        "techStack": [
+          "TypeScript",
+          "Claude's agent-sdk",
+          "Web Viewer UI"
+        ],
+        "useCase": "适用于需要跨会话保持代码上下文连续性的开发环境"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "j178/prek",
+      "description": "⚡ Better `pre-commit`, re-engineered in Rust",
+      "language": "Rust",
+      "stars": 5495,
+      "forks": 145,
+      "todayStars": 267,
+      "url": "https://github.com/j178/prek",
+      "aiSummary": {
+        "summary": "prek 是用 Rust 重写的新一代 pre-commit 工具，提供无依赖的单二进制文件、兼容原有配置、支持 monorepo 和多语言工具链管理，性能更优且占用更少磁盘空间。",
+        "techStack": [
+          "Rust",
+          "Cargo",
+          "uv"
+        ],
+        "useCase": "需要快速、无依赖的代码检查和预提交钩子的项目，兼容 pre-commit 配置迁移场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "topoteretes/cognee",
+      "description": "Memory for AI Agents in 6 lines of code",
+      "language": "Python",
+      "stars": 11825,
+      "forks": 1157,
+      "todayStars": 69,
+      "url": "https://github.com/topoteretes/cognee",
+      "aiSummary": {
+        "summary": "Cognee是基于Python的AI代理记忆工具，通过向量搜索与图数据库结合，实现文档的语义搜索和关系连接，提供高效的数据处理和知识图谱生成能力。",
+        "techStack": [
+          "Python",
+          "向量搜索",
+          "图数据库"
+        ],
+        "useCase": "适用于需要多源数据整合与智能检索的AI代理系统开发"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 45307,
+      "forks": 3431,
+      "todayStars": 893,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers是一个基于可组合技能的软件开发框架，通过代理协作实现自动化开发流程。它强调TDD、YAGNI和DRY原则，支持编码代理自动生成设计文档、实施计划并执行任务，减少人工干预。",
+        "techStack": [
+          "Shell",
+          "AI代理框架",
+          "TDD工具"
+        ],
+        "useCase": "自动化软件开发流程，提升代理协作效率"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 31357,
+      "forks": 2910,
+      "todayStars": 45,
+      "url": "https://github.com/aquasecurity/trivy",
+      "aiSummary": {
+        "summary": "Trivy是用Go语言编写的全面安全扫描工具，支持容器镜像、文件系统、Git仓库、Kubernetes等目标，可检测漏洞、配置错误、敏感信息和SBOM。提供多平台集成和实时扫描功能，适用于云原生环境的安全检测。",
+        "techStack": [
+          "Go",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "云原生环境安全漏洞与配置错误的实时检测"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "fish-shell/fish-shell",
+      "description": "The user-friendly command line shell.",
+      "language": "Rust",
+      "stars": 32369,
+      "forks": 2213,
+      "todayStars": 75,
+      "url": "https://github.com/fish-shell/fish-shell",
+      "aiSummary": {
+        "summary": "fish-shell 是一个用户友好的命令行shell，提供语法高亮、实时自动补全和智能Tab补全功能，支持跨平台使用。其设计注重易用性，无需复杂配置即可提升命令行操作效率，适用于开发者和系统管理员增强终端交互体验。",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "提升命令行操作效率，适用于需要智能命令补全和友好交互的开发者及系统管理场景。"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "nvm-sh/nvm",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+      "language": "Shell",
+      "stars": 91367,
+      "forks": 9828,
+      "todayStars": 135,
+      "url": "https://github.com/nvm-sh/nvm",
+      "aiSummary": {
+        "summary": "nvm-sh/nvm 是一个用Shell编写的POSIX兼容Node.js版本管理工具，支持多版本Node.js切换和管理，提供安装、更新、环境配置等功能，适用于开发环境和CI/CD场景。",
+        "techStack": [
+          "Shell",
+          "POSIX兼容shell",
+          "Node.js"
+        ],
+        "useCase": "开发人员在不同项目中切换Node.js版本或在CI/CD中使用"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "linshenkx/prompt-optimizer",
+      "description": "一款提示词优化器，助力于编写高质量的提示词",
+      "language": "TypeScript",
+      "stars": 19326,
+      "forks": 2395,
+      "todayStars": 45,
+      "url": "https://github.com/linshenkx/prompt-optimizer",
+      "aiSummary": {
+        "summary": "Prompt Optimizer是一款AI提示词优化工具，支持多模式优化、多模型集成及图像生成。提供Web、桌面、Chrome插件和Docker部署，具备对比测试、安全架构和高级调试功能，适用于角色扮演、知识图谱提取及创意写作场景。",
+        "techStack": [
+          "TypeScript",
+          "Web Technologies",
+          "Electron",
+          "Docker"
+        ],
+        "useCase": "开发人员和创意工作者优化AI提示词以提升输出质量及稳定性。"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "ZeroTworu/anet",
+      "description": "Simple Rust VPN Client / Server",
+      "language": "Rust",
+      "stars": 350,
+      "forks": 25,
+      "todayStars": 79,
+      "url": "https://github.com/ZeroTworu/anet",
+      "aiSummary": {
+        "summary": "基于Rust开发的隐私保护VPN工具，采用自研ASTP协议实现端到端加密与网络伪装，支持多平台客户端及图形化界面，适用于高延迟或不稳定网络环境下的安全通信。",
+        "techStack": [
+          "Rust",
+          "ChaCha20Poly1305",
+          "X25519",
+          "UDP隧道"
+        ],
+        "useCase": "需要突破网络审查或保障敏感通信隐私的场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-05T23:30:24.702Z",
+    "duration": "86s",
+    "version": "1.0.0"
+  }
+}

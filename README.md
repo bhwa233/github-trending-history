@@ -67,24 +67,23 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-02-04 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-02-05 | **成功**: 11 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 22.4k | 2.6k | Claude-Mem是为Claude Code设计的持久化记忆压缩系统，通过自动捕获编码行为、生成语义摘要并跨会话注入上下文，实现开发知识的连续性维护。支持隐私控制、多语言界面和实时内存可视化，提升长期项目开发效率。 |
-| 2 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 3.6k | 730 | OpenAI Skills 项目为 Codex 提供可重复使用的技能模块，包含指令、脚本和资源，支持通过命令行工具安装和管理。涵盖基础技能、实验性技能及第三方集成，促进 AI 代理任务自动化。 |
-| 3 | [disler/claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery) | Master Claude Code Hooks... | Python | 2.3k | 47 | 该项目旨在帮助开发者掌握Claude Code钩子技术，实现对AI行为的确定性或非确定性控制，包含子代理、元代理及团队验证等高级功能演示。 |
-| 4 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | ChatDev 2.0: Dev All through LLM-powered Multi-Age... | Python | 30.0k | 226 | ChatDev 2.0 是基于LLM的零代码多智能体协作平台，支持用户通过配置构建定制化多智能体系统。无需编程即可实现数据可视化、3D生成、深度研究等复杂场景，提供自动化工作流编排和智能体协作能力。 |
-| 5 | [ankitects/anki](https://github.com/ankitects/anki) | Anki is a smart spaced repetition flashcard progra... | Rust | 26.1k | 28 | Anki是基于间隔重复算法的闪卡程序，通过智能复习计划提升记忆效率。使用Rust开发，提供跨平台桌面应用，支持自定义卡片和多语言学习。 |
-| 6 | [open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) | Contrib repository for the OpenTelemetry Collector... | Go | 4.3k | 3 | OpenTelemetry Collector Contrib 是 OpenTelemetry Collector 的扩展组件仓库，提供核心仓库外的可扩展组件，支持多种可观测性数据（如追踪、指标、日志）的收集与处理，允许用户通过自定义分发版灵活集成所需功能。 |
-| 7 | [Canner/WrenAI](https://github.com/Canner/WrenAI) | ⚡️ GenBI (Generative BI) queries any database in n... | TypeScript | 13.9k | 84 | WrenAI 是一个开源的生成式商业智能（GenBI）工具，支持通过自然语言查询数据库，生成精准SQL、图表及AI驱动的业务分析报告，集成多种数据库和大语言模型，提升数据交互效率。 |
-| 8 | [pedramamini/Maestro](https://github.com/pedramamini/Maestro) | Agent Orchestration Command Center... | TypeScript | 1.6k | 186 | Maestro是一款跨平台AI代理协调工具，支持多AI框架并行任务处理。提供Git工作树隔离、自动运行剧本、群组聊天协作等功能，适用于需要高效管理多个AI代理和并行开发项目的场景。 |
-| 9 | [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | Node Version Manager - POSIX-compliant bash script... | Shell | 91.2k | 34 | nvm-sh/nvm 是一个POSIX兼容的Node.js版本管理工具，通过Shell脚本实现多版本Node.js的安装与切换，支持命令行快速管理不同项目所需的Node.js环境。 |
-| 10 | [microsoft/qlib](https://github.com/microsoft/qlib) | Qlib is an AI-oriented Quant investment platform t... | Python | 36.5k | 82 | Qlib是微软开源的AI量化投资平台，支持监督学习、市场建模与强化学习，集成RD-Agent实现因子挖掘、模型优化与自动化研发，覆盖从研究到生产的量化投资全流程。 |
-| 11 | [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser... | C++ | 58.3k | 74 | Ladybird是一款基于Web标准的独立浏览器项目，采用多进程架构提升安全性，核心组件继承自SerenityOS，包含渲染引擎、JS引擎、WebAssembly支持等，目前处于预Alpha阶段，面向开发者提供现代Web浏览功能。 |
-| 12 | [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software ar... | TypeScript | 1.4k | 29 | LikeC4是基于TypeScript的架构建模工具，支持从代码生成实时更新的架构图。用户可自定义符号、元素类型和层级结构，通过CLI工具预览协作，适用于动态维护软件架构文档的场景。 |
+| 1 | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | The Open-Source Multimodal AI Agent Stack: Connect... | TypeScript | 26.7k | 560 | 字节跳动开源的多模态AI代理栈，包含Agent TARS和UI-TARS-desktop。Agent TARS通过CLI/Web UI整合GUI代理与视觉能力，支持跨平台任务自动化；UI-TARS-desktop为桌面应用，提供本地/远程计算机及浏览器的GUI代理功能。 |
+| 2 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 4.2k | 621 | 该项目是Codex的技能目录，提供可重复使用的AI代理技能模块，包含指令、脚本和资源，支持技能安装、管理及分发，提升任务自动化效率。 |
+| 3 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 23.7k | 1.9k | 为Claude Code设计的持久化记忆压缩插件，自动捕获编码会话内容并AI压缩，实现跨会话上下文连续性，支持项目知识延续与智能检索。 |
+| 4 | [j178/prek](https://github.com/j178/prek) | ⚡ Better `pre-commit`, re-engineered in Rust... | Rust | 5.5k | 267 | prek 是用 Rust 重写的新一代 pre-commit 工具，提供无依赖的单二进制文件、兼容原有配置、支持 monorepo 和多语言工具链管理，性能更优且占用更少磁盘空间。 |
+| 5 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | Memory for AI Agents in 6 lines of code... | Python | 11.8k | 69 | Cognee是基于Python的AI代理记忆工具，通过向量搜索与图数据库结合，实现文档的语义搜索和关系连接，提供高效的数据处理和知识图谱生成能力。 |
+| 6 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 45.3k | 893 | Superpowers是一个基于可组合技能的软件开发框架，通过代理协作实现自动化开发流程。它强调TDD、YAGNI和DRY原则，支持编码代理自动生成设计文档、实施计划并执行任务，减少人工干预。 |
+| 7 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | Find vulnerabilities, misconfigurations, secrets, ... | Go | 31.4k | 45 | Trivy是用Go语言编写的全面安全扫描工具，支持容器镜像、文件系统、Git仓库、Kubernetes等目标，可检测漏洞、配置错误、敏感信息和SBOM。提供多平台集成和实时扫描功能，适用于云原生环境的安全检测。 |
+| 8 | [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) | The user-friendly command line shell.... | Rust | 32.4k | 75 | fish-shell 是一个用户友好的命令行shell，提供语法高亮、实时自动补全和智能Tab补全功能，支持跨平台使用。其设计注重易用性，无需复杂配置即可提升命令行操作效率，适用于开发者和系统管理员增强终端交互体验。 |
+| 9 | [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | Node Version Manager - POSIX-compliant bash script... | Shell | 91.4k | 135 | nvm-sh/nvm 是一个用Shell编写的POSIX兼容Node.js版本管理工具，支持多版本Node.js切换和管理，提供安装、更新、环境配置等功能，适用于开发环境和CI/CD场景。 |
+| 10 | [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) | 一款提示词优化器，助力于编写高质量的提示词... | TypeScript | 19.3k | 45 | Prompt Optimizer是一款AI提示词优化工具，支持多模式优化、多模型集成及图像生成。提供Web、桌面、Chrome插件和Docker部署，具备对比测试、安全架构和高级调试功能，适用于角色扮演、知识图谱提取及创意写作场景。 |
+| 11 | [ZeroTworu/anet](https://github.com/ZeroTworu/anet) | Simple Rust VPN Client / Server... | Rust | 350 | 79 | 基于Rust开发的隐私保护VPN工具，采用自研ASTP协议实现端到端加密与网络伪装，支持多平台客户端及图形化界面，适用于高延迟或不稳定网络环境下的安全通信。 |
 
-[查看完整数据](api/github/2026-02-04.json)
+[查看完整数据](api/github/2026-02-05.json)
 <!-- END GITHUB TRENDING -->
 
 
