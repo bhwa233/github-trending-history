@@ -1,0 +1,164 @@
+{
+  "date": "2026-02-06",
+  "since": "daily",
+  "totalRepos": 8,
+  "successCount": 8,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "stars": 4834,
+      "forks": 275,
+      "todayStars": 583,
+      "url": "https://github.com/openai/skills",
+      "aiSummary": {
+        "summary": "OpenAI Skills 是 Codex 的技能目录项目，提供可重复使用的AI代理技能模块，支持通过命令行安装和管理技能，涵盖任务执行、脚本资源管理及协作开发功能。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "AI代理的模块化技能管理与任务自动化执行"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "stars": 27098,
+      "forks": 2642,
+      "todayStars": 541,
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "aiSummary": {
+        "summary": "UI-TARS-desktop是字节跳动开源的多模态AI代理桌面应用，基于TypeScript开发，支持本地与远程计算机及浏览器操作。通过整合GUI代理和视觉能力，实现接近人类的自动化任务处理流程，提供CLI和Web UI交互方式。",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "Web UI"
+        ],
+        "useCase": "适用于需要多模态AI代理能力的桌面自动化任务场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "nvm-sh/nvm",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+      "language": "Shell",
+      "stars": 91497,
+      "forks": 9833,
+      "todayStars": 132,
+      "url": "https://github.com/nvm-sh/nvm",
+      "aiSummary": {
+        "summary": "nvm-sh/nvm 是一个基于Shell的Node.js版本管理工具，支持POSIX兼容的shell环境。可快速安装和切换不同Node.js版本，简化多版本开发与兼容性测试。",
+        "techStack": [
+          "Shell",
+          "POSIX",
+          "Bash"
+        ],
+        "useCase": "开发人员管理多版本Node.js以确保项目兼容性"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "likec4/likec4",
+      "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+      "language": "TypeScript",
+      "stars": 1798,
+      "forks": 135,
+      "todayStars": 42,
+      "url": "https://github.com/likec4/likec4",
+      "aiSummary": {
+        "summary": "LikeC4 是基于 TypeScript 的软件架构建模工具，支持从代码生成实时更新的架构图。提供灵活的建模语言，允许自定义符号、元素类型和层级结构，便于团队协作与架构演化。",
+        "techStack": [
+          "TypeScript",
+          "CLI",
+          "Web Technologies"
+        ],
+        "useCase": "适用于需要动态生成和协作维护软件架构图的开发团队"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 31533,
+      "forks": 2920,
+      "todayStars": 165,
+      "url": "https://github.com/aquasecurity/trivy",
+      "aiSummary": {
+        "summary": "Trivy是Go语言编写的全面安全扫描工具，支持容器、文件系统、Git仓库、Kubernetes等目标，可检测漏洞、配置错误、敏感信息及SBOM。覆盖多平台与编程语言，提供实时安全防护。",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "适用于容器镜像与云原生环境的安全合规性检查及漏洞扫描"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "ZeroTworu/anet",
+      "description": "Simple Rust VPN Client / Server",
+      "language": "Rust",
+      "stars": 523,
+      "forks": 46,
+      "todayStars": 189,
+      "url": "https://github.com/ZeroTworu/anet",
+      "aiSummary": {
+        "summary": "基于Rust开发的私密VPN客户端/服务器，采用自研ASTP协议实现端到端加密与网络伪装，支持跨平台部署，适用于高隐私需求的稳定网络连接场景。",
+        "techStack": [
+          "Rust",
+          "Networking",
+          "Cryptography"
+        ],
+        "useCase": "适用于需要隐私保护和跨平台VPN连接的场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Flowseal/zapret-discord-youtube",
+      "description": "",
+      "language": "Batchfile",
+      "stars": 21967,
+      "forks": 1830,
+      "todayStars": 69,
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "aiSummary": {
+        "summary": "该项目基于WinDivert工具实现网络流量拦截与过滤，提供DNS安全配置功能，可能用于网络访问控制或隐私保护。包含批处理脚本及Windows系统级网络工具集成。",
+        "techStack": [
+          "Batchfile",
+          "WinDivert",
+          "DNS Configuration"
+        ],
+        "useCase": "实现Windows系统网络流量管理及安全DNS配置场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "DataExpert-io/data-engineer-handbook",
+      "description": "This is a repo with links to everything you'd ever want to learn about data engineering",
+      "language": "Jupyter Notebook",
+      "stars": 39853,
+      "forks": 7616,
+      "todayStars": 72,
+      "url": "https://github.com/DataExpert-io/data-engineer-handbook",
+      "aiSummary": {
+        "summary": "数据工程学习资源合集，包含书籍、社区、工具链及实战项目，覆盖数据架构、ETL、数据湖/仓库等核心领域，适合系统学习和职业发展。",
+        "techStack": [
+          "Airflow",
+          "Databricks",
+          "Snowflake",
+          "dbt",
+          "Jupyter Notebook"
+        ],
+        "useCase": "数据工程学习路径规划与技术选型参考"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-06T23:32:38.534Z",
+    "duration": "66s",
+    "version": "1.0.0"
+  }
+}
