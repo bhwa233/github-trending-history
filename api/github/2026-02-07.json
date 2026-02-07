@@ -1,0 +1,238 @@
+{
+  "date": "2026-02-07",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "KeygraphHQ/shannon",
+      "description": "Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
+      "language": "TypeScript",
+      "stars": 9808,
+      "forks": 1246,
+      "todayStars": 3133,
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "aiSummary": {
+        "summary": "Shannon是基于AI的全自主渗透测试工具，可自动检测Web应用漏洞并执行真实攻击（如注入、权限绕过），提供漏洞可利用性证明。解决持续集成中的安全检测滞后问题，提升代码安全性。",
+        "techStack": [
+          "TypeScript",
+          "AI/ML",
+          "浏览器自动化"
+        ],
+        "useCase": "适用于Web应用安全测试与持续集成环境中的实时漏洞检测"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "stars": 5938,
+      "forks": 323,
+      "todayStars": 576,
+      "url": "https://github.com/openai/skills",
+      "aiSummary": {
+        "summary": "OpenAI Skills 项目为 Codex 提供可复用的 AI 代理技能目录，通过结构化指令、脚本和资源包，实现任务自动化与能力分发。支持通过命令行工具安装和管理技能，包含官方及实验性技能模块。",
+        "techStack": [
+          "Python",
+          "GitHub",
+          "CLI"
+        ],
+        "useCase": "实现 AI 代理任务能力的模块化管理与复用"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "microsoft/litebox",
+      "description": "A security-focused library OS supporting kernel- and user-mode execution",
+      "language": "Rust",
+      "stars": 1117,
+      "forks": 47,
+      "todayStars": 659,
+      "url": "https://github.com/microsoft/litebox",
+      "aiSummary": {
+        "summary": "LiteBox是一个安全聚焦的库操作系统，通过精简主机接口降低攻击面，支持内核与用户模式执行。提供Rust接口实现跨平台沙箱化，兼容Linux、Windows及安全扩展环境，强调南北向接口的灵活互操作性。",
+        "techStack": [
+          "Rust",
+          "系统编程",
+          "安全沙箱",
+          "跨平台兼容"
+        ],
+        "useCase": "适用于跨平台应用的安全沙箱运行及多种操作系统环境下的隔离执行"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "stars": 4712,
+      "forks": 452,
+      "todayStars": 61,
+      "url": "https://github.com/p-e-w/heretic",
+      "aiSummary": {
+        "summary": "Heretic是一款全自动语言模型审查移除工具，通过方向性消融与Optuna优化算法，在无需人工干预的情况下降低模型拒绝率并最小化对原始模型性能的损害，实现高效去审查化。",
+        "techStack": [
+          "Python",
+          "Optuna",
+          "Transformers",
+          "PyTorch"
+        ],
+        "useCase": "适用于需要自动去除语言模型安全限制并保留原始能力的场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 46920,
+      "forks": 3563,
+      "todayStars": 689,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于代理的软件开发框架，通过可组合技能和自动化工作流提升编码效率。支持TDD、YAGNI和DRY原则，实现从需求分析到代码生成的全流程自动化，适合需要高效开发的团队。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要自动化软件开发流程和提高编码效率的团队或个人。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "OpenBMB/MiniCPM-o",
+      "description": "A Gemini 2.5 Flash Level MLLM for Vision, Speech, and Full-Duplex Multimodal Live Streaming on Your Phone",
+      "language": "Python",
+      "stars": 23147,
+      "forks": 1762,
+      "todayStars": 42,
+      "url": "https://github.com/OpenBMB/MiniCPM-o",
+      "aiSummary": {
+        "summary": "MiniCPM-o 是面向手机的多模态大语言模型系列，支持视觉、语音与全双工实时流媒体交互。具备9B参数的MiniCPM-o 4.5实现端到端多模态处理，支持同步输入输出、双语语音对话、语音克隆及强OCR能力，适配本地化部署。",
+        "techStack": [
+          "Python",
+          "WebRTC",
+          "llama.cpp"
+        ],
+        "useCase": "移动设备端的实时多模态交互与智能助手场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 31677,
+      "forks": 2928,
+      "todayStars": 170,
+      "url": "https://github.com/aquasecurity/trivy",
+      "aiSummary": {
+        "summary": "Trivy是用于容器、Kubernetes、代码仓库等环境的安全扫描工具，可检测漏洞、配置错误、敏感信息及SBOM，支持多平台和编程语言。",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "适用于容器镜像、Kubernetes集群及代码仓库的安全风险检测与合规性检查。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "wavetermdev/waveterm",
+      "description": "An open-source, cross-platform terminal for seamless workflows",
+      "language": "Go",
+      "stars": 17132,
+      "forks": 762,
+      "todayStars": 25,
+      "url": "https://github.com/wavetermdev/waveterm",
+      "aiSummary": {
+        "summary": "Wave Terminal是一款跨平台终端工具，整合传统终端功能与图形化能力，支持文件预览、网页浏览、AI辅助等功能。提供拖放界面管理终端块、远程文件编辑、AI聊天模块、命令监控及安全密钥存储，提升开发工作效率。",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "适用于需要集成图形化工具和AI辅助的跨平台开发环境"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "viarotel-org/escrcpy",
+      "description": "📱 Display and control your Android device graphically with scrcpy.",
+      "language": "JavaScript",
+      "stars": 7822,
+      "forks": 569,
+      "todayStars": 27,
+      "url": "https://github.com/viarotel-org/escrcpy",
+      "aiSummary": {
+        "summary": "基于scrcpy的安卓设备图形化控制工具，支持远程显示和操作Android设备。提供跨平台桌面应用，集成JavaScript技术实现设备投屏与交互控制。",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Electron"
+        ],
+        "useCase": "适用于开发者和用户进行安卓设备的远程调试与操作"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": "Python",
+      "stars": 31949,
+      "forks": 3059,
+      "todayStars": 514,
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "aiSummary": {
+        "summary": "该项目为Claude AI提供扩展技能清单，支持自动化工作流与1000+应用集成，涵盖文档处理、开发工具、数据处理等场景，通过Composio平台实现邮件、Slack等跨平台操作。",
+        "techStack": [
+          "Python",
+          "Composio API",
+          "CLI工具"
+        ],
+        "useCase": "需要自动化办公流程与多应用联动的开发场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "likec4/likec4",
+      "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+      "language": "TypeScript",
+      "stars": 2056,
+      "forks": 145,
+      "todayStars": 306,
+      "url": "https://github.com/likec4/likec4",
+      "aiSummary": {
+        "summary": "LikeC4 是基于 TypeScript 的软件架构建模工具，支持从代码生成实时更新的架构图。提供自定义符号、元素类型和多级嵌套模型功能，适用于团队协作与架构演化。通过 CLI 工具实现可视化预览，兼容 C4 模型理念并增强灵活性。",
+        "techStack": [
+          "TypeScript",
+          "CLI 工具",
+          "Web 技术"
+        ],
+        "useCase": "适用于需要实时生成和协作设计软件架构图的场景"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "gitbutlerapp/gitbutler",
+      "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
+      "language": "Rust",
+      "stars": 17958,
+      "forks": 774,
+      "todayStars": 148,
+      "url": "https://github.com/gitbutlerapp/gitbutler",
+      "aiSummary": {
+        "summary": "GitButler是一款基于Git的版本控制客户端，通过虚拟分支技术实现多分支并行开发。用户可将未提交更改分组到虚拟分支，独立推送或创建PR，无需切换工作目录，提升多任务开发效率。",
+        "techStack": [
+          "Rust",
+          "Tauri",
+          "Svelte"
+        ],
+        "useCase": "适用于需要高效管理多个Git分支和并行开发的开发者"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-07T23:37:20.204Z",
+    "duration": "87s",
+    "version": "1.0.0"
+  }
+}
