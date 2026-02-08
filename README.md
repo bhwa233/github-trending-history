@@ -67,24 +67,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-02-07 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-02-08 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Fully autonomous AI hacker to find actual exploits... | TypeScript | 9.8k | 3.1k | Shannon是基于AI的全自主渗透测试工具，可自动检测Web应用漏洞并执行真实攻击（如注入、权限绕过），提供漏洞可利用性证明。解决持续集成中的安全检测滞后问题，提升代码安全性。 |
-| 2 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 5.9k | 576 | OpenAI Skills 项目为 Codex 提供可复用的 AI 代理技能目录，通过结构化指令、脚本和资源包，实现任务自动化与能力分发。支持通过命令行工具安装和管理技能，包含官方及实验性技能模块。 |
-| 3 | [microsoft/litebox](https://github.com/microsoft/litebox) | A security-focused library OS supporting kernel- a... | Rust | 1.1k | 659 | LiteBox是一个安全聚焦的库操作系统，通过精简主机接口降低攻击面，支持内核与用户模式执行。提供Rust接口实现跨平台沙箱化，兼容Linux、Windows及安全扩展环境，强调南北向接口的灵活互操作性。 |
-| 4 | [p-e-w/heretic](https://github.com/p-e-w/heretic) | Fully automatic censorship removal for language mo... | Python | 4.7k | 61 | Heretic是一款全自动语言模型审查移除工具，通过方向性消融与Optuna优化算法，在无需人工干预的情况下降低模型拒绝率并最小化对原始模型性能的损害，实现高效去审查化。 |
-| 5 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 46.9k | 689 | Superpowers 是一个基于代理的软件开发框架，通过可组合技能和自动化工作流提升编码效率。支持TDD、YAGNI和DRY原则，实现从需求分析到代码生成的全流程自动化，适合需要高效开发的团队。 |
-| 6 | [OpenBMB/MiniCPM-o](https://github.com/OpenBMB/MiniCPM-o) | A Gemini 2.5 Flash Level MLLM for Vision, Speech, ... | Python | 23.1k | 42 | MiniCPM-o 是面向手机的多模态大语言模型系列，支持视觉、语音与全双工实时流媒体交互。具备9B参数的MiniCPM-o 4.5实现端到端多模态处理，支持同步输入输出、双语语音对话、语音克隆及强OCR能力，适配本地化部署。 |
-| 7 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | Find vulnerabilities, misconfigurations, secrets, ... | Go | 31.7k | 170 | Trivy是用于容器、Kubernetes、代码仓库等环境的安全扫描工具，可检测漏洞、配置错误、敏感信息及SBOM，支持多平台和编程语言。 |
-| 8 | [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm) | An open-source, cross-platform terminal for seamle... | Go | 17.1k | 25 | Wave Terminal是一款跨平台终端工具，整合传统终端功能与图形化能力，支持文件预览、网页浏览、AI辅助等功能。提供拖放界面管理终端块、远程文件编辑、AI聊天模块、命令监控及安全密钥存储，提升开发工作效率。 |
-| 9 | [viarotel-org/escrcpy](https://github.com/viarotel-org/escrcpy) | 📱 Display and control your Android device graphic... | JavaScript | 7.8k | 27 | 基于scrcpy的安卓设备图形化控制工具，支持远程显示和操作Android设备。提供跨平台桌面应用，集成JavaScript技术实现设备投屏与交互控制。 |
-| 10 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | A curated list of awesome Claude Skills, resources... | Python | 31.9k | 514 | 该项目为Claude AI提供扩展技能清单，支持自动化工作流与1000+应用集成，涵盖文档处理、开发工具、数据处理等场景，通过Composio平台实现邮件、Slack等跨平台操作。 |
-| 11 | [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software ar... | TypeScript | 2.1k | 306 | LikeC4 是基于 TypeScript 的软件架构建模工具，支持从代码生成实时更新的架构图。提供自定义符号、元素类型和多级嵌套模型功能，适用于团队协作与架构演化。通过 CLI 工具实现可视化预览，兼容 C4 模型理念并增强灵活性。 |
-| 12 | [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | The GitButler version control client, backed by Gi... | Rust | 18.0k | 148 | GitButler是一款基于Git的版本控制客户端，通过虚拟分支技术实现多分支并行开发。用户可将未提交更改分组到虚拟分支，独立推送或创建PR，无需切换工作目录，提升多任务开发效率。 |
+| 1 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Fully autonomous AI hacker to find actual exploits... | TypeScript | 13.0k | 3.5k | Shannon是全自主AI渗透测试工具，通过模拟攻击自动发现并验证Web应用漏洞，提供实际 exploit 证明。解决持续集成中安全测试滞后问题，支持实时漏洞检测与合规验证。 |
+| 2 | [pydantic/monty](https://github.com/pydantic/monty) | A minimal, secure Python interpreter written in Ru... | Rust | 2.7k | 442 | Monty是用Rust开发的轻量级安全Python解释器，专为AI代理设计。支持子集Python代码执行、环境隔离、类型检查、快速启动（<1μs）和资源监控，适用于需要安全运行AI生成代码的场景。 |
+| 3 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 6.9k | 1.4k | OpenAI的Skills项目是Codex的技能目录，提供可重复使用的任务处理模块。通过标准化技能包，支持AI代理发现和调用特定功能，包含安装指南和许可证管理。 |
+| 4 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 12.6k | 1.0k | Dexter是一个基于TypeScript的自主金融研究代理，具备任务规划、实时市场数据分析和自我验证能力。可自动分解复杂金融问题为研究步骤，调用API获取财务数据，并通过迭代优化确保结果准确性。 |
+| 5 | [microsoft/litebox](https://github.com/microsoft/litebox) | A security-focused library OS supporting kernel- a... | Rust | 1.4k | 358 | LiteBox是微软开发的专注安全的库操作系统，通过精简主机接口降低攻击面，支持内核与用户模式执行。提供Rust接口抽象层，实现跨平台沙箱环境，兼容多种运行场景如Linux程序跨系统运行、SEV SNP安全扩展等。 |
+| 6 | [google/langextract](https://github.com/google/langextract) | A Python library for extracting structured informa... | Python | 24.7k | 430 | LangExtract是基于Python的LLM信息提取库，支持精确来源定位与交互式可视化。通过文本分块和多轮处理优化长文档提取，适用于临床报告、法律文档等结构化数据抽取场景。 |
+| 7 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 47.7k | 811 | Superpowers 是一个基于代理的软件开发框架，通过可组合技能和自动化工作流提升编码效率。支持TDD、YAGNI和DRY原则，通过分步设计确认、子代理协作开发实现自动化编程，减少人工干预。 |
+| 8 | [OpenBMB/MiniCPM-o](https://github.com/OpenBMB/MiniCPM-o) | A Gemini 2.5 Flash Level MLLM for Vision, Speech, ... | Python | 23.4k | 212 | OpenBMB/MiniCPM-o 是一款端侧多模态大语言模型，支持视觉、语音与全双工实时流媒体交互。具备9B参数的MiniCPM-o 4.5实现同步感知、输出与交互，支持OCR、多语言及语音克隆，优化部署效率。 |
+| 9 | [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software ar... | TypeScript | 2.3k | 271 | LikeC4 是一个基于代码生成实时更新架构图的工具，支持自定义建模语言和灵活的架构可视化。通过 CLI 工具和模板仓库，团队可协作维护动态软件架构图，适用于需要精准表达复杂系统结构的场景。 |
+| 10 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source 24/7 Cowork and OpenClaw ... | TypeScript | 13.1k | 336 | AionUi是支持多AI命令行工具的本地协作平台，提供统一图形界面与本地数据安全。自动检测已安装CLI工具，支持多会话管理、本地存储及跨设备WebUI访问，兼容Gemini CLI、Qwen Code等主流模型，满足开发者便捷调用AI工具的需求。 |
+| 11 | [home-assistant/addons](https://github.com/home-assistant/addons) | ➕ Docker add-ons for Home Assistant... | Shell | 2.0k | 7 | Home Assistant官方Docker插件仓库，提供多种扩展功能模块，支持MQTT、数据库、文件共享、SSL代理等场景，通过Shell脚本管理容器化应用，增强家居自动化系统功能。 |
+| 12 | [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | The GitButler version control client, backed by Gi... | Rust | 18.3k | 415 | GitButler是一款基于Git的现代版本控制客户端，提供GUI和CLI工具。核心功能包括堆叠分支、并行分支管理、可视化提交操作、撤销时间线、冲突处理及AI辅助工作流，旨在提升开发效率与协作体验。 |
 
-[查看完整数据](api/github/2026-02-07.json)
+[查看完整数据](api/github/2026-02-08.json)
 <!-- END GITHUB TRENDING -->
 
 

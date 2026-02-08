@@ -1,0 +1,240 @@
+{
+  "date": "2026-02-08",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "KeygraphHQ/shannon",
+      "description": "Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
+      "language": "TypeScript",
+      "stars": 13022,
+      "forks": 1531,
+      "todayStars": 3470,
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "aiSummary": {
+        "summary": "Shannon是全自主AI渗透测试工具，通过模拟攻击自动发现并验证Web应用漏洞，提供实际 exploit 证明。解决持续集成中安全测试滞后问题，支持实时漏洞检测与合规验证。",
+        "techStack": [
+          "TypeScript",
+          "AI/ML模型",
+          "自动化渗透框架"
+        ],
+        "useCase": "适用于持续集成环境中的实时Web应用安全测试与漏洞验证"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "pydantic/monty",
+      "description": "A minimal, secure Python interpreter written in Rust for use by AI",
+      "language": "Rust",
+      "stars": 2687,
+      "forks": 68,
+      "todayStars": 442,
+      "url": "https://github.com/pydantic/monty",
+      "aiSummary": {
+        "summary": "Monty是用Rust开发的轻量级安全Python解释器，专为AI代理设计。支持子集Python代码执行、环境隔离、类型检查、快速启动（<1μs）和资源监控，适用于需要安全运行AI生成代码的场景。",
+        "techStack": [
+          "Rust",
+          "Python",
+          "async/await"
+        ],
+        "useCase": "AI代理安全执行用户或模型生成的Python代码，防止系统资源滥用"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "stars": 6940,
+      "forks": 388,
+      "todayStars": 1420,
+      "url": "https://github.com/openai/skills",
+      "aiSummary": {
+        "summary": "OpenAI的Skills项目是Codex的技能目录，提供可重复使用的任务处理模块。通过标准化技能包，支持AI代理发现和调用特定功能，包含安装指南和许可证管理。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "AI代理任务自动化与技能扩展"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "stars": 12597,
+      "forks": 1522,
+      "todayStars": 1026,
+      "url": "https://github.com/virattt/dexter",
+      "aiSummary": {
+        "summary": "Dexter是一个基于TypeScript的自主金融研究代理，具备任务规划、实时市场数据分析和自我验证能力。可自动分解复杂金融问题为研究步骤，调用API获取财务数据，并通过迭代优化确保结果准确性。",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "OpenAI API",
+          "Exa API"
+        ],
+        "useCase": "自动化金融数据分析与智能研究决策"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "microsoft/litebox",
+      "description": "A security-focused library OS supporting kernel- and user-mode execution",
+      "language": "Rust",
+      "stars": 1391,
+      "forks": 59,
+      "todayStars": 358,
+      "url": "https://github.com/microsoft/litebox",
+      "aiSummary": {
+        "summary": "LiteBox是微软开发的专注安全的库操作系统，通过精简主机接口降低攻击面，支持内核与用户模式执行。提供Rust接口抽象层，实现跨平台沙箱环境，兼容多种运行场景如Linux程序跨系统运行、SEV SNP安全扩展等。",
+        "techStack": [
+          "Rust",
+          "沙箱技术",
+          "接口抽象"
+        ],
+        "useCase": "适用于需要高安全性与跨平台兼容的沙箱化应用执行环境"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "google/langextract",
+      "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+      "language": "Python",
+      "stars": 24731,
+      "forks": 1710,
+      "todayStars": 430,
+      "url": "https://github.com/google/langextract",
+      "aiSummary": {
+        "summary": "LangExtract是基于Python的LLM信息提取库，支持精确来源定位与交互式可视化。通过文本分块和多轮处理优化长文档提取，适用于临床报告、法律文档等结构化数据抽取场景。",
+        "techStack": [
+          "Python",
+          "LLM（Google Gemini/Ollama）",
+          "HTML可视化"
+        ],
+        "useCase": "适用于医疗、法律等领域长文档的结构化信息提取与可视化分析"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 47672,
+      "forks": 3621,
+      "todayStars": 811,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于代理的软件开发框架，通过可组合技能和自动化工作流提升编码效率。支持TDD、YAGNI和DRY原则，通过分步设计确认、子代理协作开发实现自动化编程，减少人工干预。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要自动化软件开发流程和提高编码效率的团队或个人"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "OpenBMB/MiniCPM-o",
+      "description": "A Gemini 2.5 Flash Level MLLM for Vision, Speech, and Full-Duplex Multimodal Live Streaming on Your Phone",
+      "language": "Python",
+      "stars": 23383,
+      "forks": 1785,
+      "todayStars": 212,
+      "url": "https://github.com/OpenBMB/MiniCPM-o",
+      "aiSummary": {
+        "summary": "OpenBMB/MiniCPM-o 是一款端侧多模态大语言模型，支持视觉、语音与全双工实时流媒体交互。具备9B参数的MiniCPM-o 4.5实现同步感知、输出与交互，支持OCR、多语言及语音克隆，优化部署效率。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "WebRTC"
+        ],
+        "useCase": "移动设备端实时多模态交互与语音处理场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "likec4/likec4",
+      "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+      "language": "TypeScript",
+      "stars": 2334,
+      "forks": 158,
+      "todayStars": 271,
+      "url": "https://github.com/likec4/likec4",
+      "aiSummary": {
+        "summary": "LikeC4 是一个基于代码生成实时更新架构图的工具，支持自定义建模语言和灵活的架构可视化。通过 CLI 工具和模板仓库，团队可协作维护动态软件架构图，适用于需要精准表达复杂系统结构的场景。",
+        "techStack": [
+          "TypeScript",
+          "CLI",
+          "Web Components"
+        ],
+        "useCase": "适用于需要动态生成和协作维护软件架构图的开发团队"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "iOfficeAI/AionUi",
+      "description": "Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
+      "language": "TypeScript",
+      "stars": 13137,
+      "forks": 1010,
+      "todayStars": 336,
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "aiSummary": {
+        "summary": "AionUi是支持多AI命令行工具的本地协作平台，提供统一图形界面与本地数据安全。自动检测已安装CLI工具，支持多会话管理、本地存储及跨设备WebUI访问，兼容Gemini CLI、Qwen Code等主流模型，满足开发者便捷调用AI工具的需求。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合需要本地运行且跨平台访问AI命令行工具的开发者和团队"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "home-assistant/addons",
+      "description": "➕ Docker add-ons for Home Assistant",
+      "language": "Shell",
+      "stars": 1977,
+      "forks": 1760,
+      "todayStars": 7,
+      "url": "https://github.com/home-assistant/addons",
+      "aiSummary": {
+        "summary": "Home Assistant官方Docker插件仓库，提供多种扩展功能模块，支持MQTT、数据库、文件共享、SSL代理等场景，通过Shell脚本管理容器化应用，增强家居自动化系统功能。",
+        "techStack": [
+          "Shell",
+          "Docker",
+          "MQTT",
+          "NGINX",
+          "Samba"
+        ],
+        "useCase": "家庭自动化系统功能扩展与服务集成"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "gitbutlerapp/gitbutler",
+      "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
+      "language": "Rust",
+      "stars": 18317,
+      "forks": 792,
+      "todayStars": 415,
+      "url": "https://github.com/gitbutlerapp/gitbutler",
+      "aiSummary": {
+        "summary": "GitButler是一款基于Git的现代版本控制客户端，提供GUI和CLI工具。核心功能包括堆叠分支、并行分支管理、可视化提交操作、撤销时间线、冲突处理及AI辅助工作流，旨在提升开发效率与协作体验。",
+        "techStack": [
+          "Rust",
+          "Tauri",
+          "Svelte",
+          "Git"
+        ],
+        "useCase": "适用于需要高效版本控制与AI辅助的开发者及团队"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-08T23:38:12.663Z",
+    "duration": "93s",
+    "version": "1.0.0"
+  }
+}
