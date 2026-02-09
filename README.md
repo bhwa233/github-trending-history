@@ -67,24 +67,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-02-08 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-02-09 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Fully autonomous AI hacker to find actual exploits... | TypeScript | 13.0k | 3.5k | Shannon是全自主AI渗透测试工具，通过模拟攻击自动发现并验证Web应用漏洞，提供实际 exploit 证明。解决持续集成中安全测试滞后问题，支持实时漏洞检测与合规验证。 |
-| 2 | [pydantic/monty](https://github.com/pydantic/monty) | A minimal, secure Python interpreter written in Ru... | Rust | 2.7k | 442 | Monty是用Rust开发的轻量级安全Python解释器，专为AI代理设计。支持子集Python代码执行、环境隔离、类型检查、快速启动（<1μs）和资源监控，适用于需要安全运行AI生成代码的场景。 |
-| 3 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 6.9k | 1.4k | OpenAI的Skills项目是Codex的技能目录，提供可重复使用的任务处理模块。通过标准化技能包，支持AI代理发现和调用特定功能，包含安装指南和许可证管理。 |
-| 4 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 12.6k | 1.0k | Dexter是一个基于TypeScript的自主金融研究代理，具备任务规划、实时市场数据分析和自我验证能力。可自动分解复杂金融问题为研究步骤，调用API获取财务数据，并通过迭代优化确保结果准确性。 |
-| 5 | [microsoft/litebox](https://github.com/microsoft/litebox) | A security-focused library OS supporting kernel- a... | Rust | 1.4k | 358 | LiteBox是微软开发的专注安全的库操作系统，通过精简主机接口降低攻击面，支持内核与用户模式执行。提供Rust接口抽象层，实现跨平台沙箱环境，兼容多种运行场景如Linux程序跨系统运行、SEV SNP安全扩展等。 |
-| 6 | [google/langextract](https://github.com/google/langextract) | A Python library for extracting structured informa... | Python | 24.7k | 430 | LangExtract是基于Python的LLM信息提取库，支持精确来源定位与交互式可视化。通过文本分块和多轮处理优化长文档提取，适用于临床报告、法律文档等结构化数据抽取场景。 |
-| 7 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 47.7k | 811 | Superpowers 是一个基于代理的软件开发框架，通过可组合技能和自动化工作流提升编码效率。支持TDD、YAGNI和DRY原则，通过分步设计确认、子代理协作开发实现自动化编程，减少人工干预。 |
-| 8 | [OpenBMB/MiniCPM-o](https://github.com/OpenBMB/MiniCPM-o) | A Gemini 2.5 Flash Level MLLM for Vision, Speech, ... | Python | 23.4k | 212 | OpenBMB/MiniCPM-o 是一款端侧多模态大语言模型，支持视觉、语音与全双工实时流媒体交互。具备9B参数的MiniCPM-o 4.5实现同步感知、输出与交互，支持OCR、多语言及语音克隆，优化部署效率。 |
-| 9 | [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software ar... | TypeScript | 2.3k | 271 | LikeC4 是一个基于代码生成实时更新架构图的工具，支持自定义建模语言和灵活的架构可视化。通过 CLI 工具和模板仓库，团队可协作维护动态软件架构图，适用于需要精准表达复杂系统结构的场景。 |
-| 10 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source 24/7 Cowork and OpenClaw ... | TypeScript | 13.1k | 336 | AionUi是支持多AI命令行工具的本地协作平台，提供统一图形界面与本地数据安全。自动检测已安装CLI工具，支持多会话管理、本地存储及跨设备WebUI访问，兼容Gemini CLI、Qwen Code等主流模型，满足开发者便捷调用AI工具的需求。 |
-| 11 | [home-assistant/addons](https://github.com/home-assistant/addons) | ➕ Docker add-ons for Home Assistant... | Shell | 2.0k | 7 | Home Assistant官方Docker插件仓库，提供多种扩展功能模块，支持MQTT、数据库、文件共享、SSL代理等场景，通过Shell脚本管理容器化应用，增强家居自动化系统功能。 |
-| 12 | [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | The GitButler version control client, backed by Gi... | Rust | 18.3k | 415 | GitButler是一款基于Git的现代版本控制客户端，提供GUI和CLI工具。核心功能包括堆叠分支、并行分支管理、可视化提交操作、撤销时间线、冲突处理及AI辅助工作流，旨在提升开发效率与协作体验。 |
+| 1 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Fully autonomous AI hacker to find actual exploits... | TypeScript | 17.1k | 4.1k | Shannon是基于AI的全自动渗透测试工具，可自主发现Web应用漏洞并执行真实攻击验证，如注入和身份验证绕过。解决快速迭代开发中的安全漏洞问题，提供实际漏洞证明以确保代码安全。 |
+| 2 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 13.5k | 1.1k | Dexter是面向金融研究的自主代理，支持任务规划、实时数据处理与自我验证，可分解复杂问题并生成数据驱动的分析结果。 |
+| 3 | [pydantic/monty](https://github.com/pydantic/monty) | A minimal, secure Python interpreter written in Ru... | Rust | 3.9k | 1.3k | Monty是用Rust开发的轻量级安全Python解释器，专为AI设计。支持部分Python功能，隔离主机环境，可控制外部函数调用，具备快速启动（<1μs）和资源监控能力，适用于安全执行AI生成代码的场景。 |
+| 4 | [hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN) | 基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版... | Python | 16.2k | 160 | 基于多智能体LLM的中文金融分析框架，支持A股/港股/美股研究，提供Docker部署、多模型配置及可视化分析功能，适用于策略实验与AI金融学习。 |
+| 5 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source 24/7 Cowork and OpenClaw ... | TypeScript | 13.8k | 680 | AionUi是支持多AI模型的本地图形化协作工具，提供统一界面管理Gemini CLI、Claude Code等命令行工具，具备本地数据存储、多会话管理及跨平台远程访问功能，强调安全性和便捷性。 |
+| 6 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs... | Python | 397.2k | 450 | 该仓库是一个由社区维护的免费API集合项目，涵盖多个领域如天气、金融、交通等，提供简洁的API列表和分类目录，方便开发者快速查找和集成所需接口。 |
+| 7 | [github/gh-aw](https://github.com/github/gh-aw) | GitHub Agentic Workflows... | Go | 882 | 304 | GitHub Agentic Workflows项目允许用户通过自然语言Markdown编写代理工作流，并在GitHub Actions中运行。提供多重安全防护，如沙盒执行、输入消毒和只读权限，默认限制写操作，确保AI代理在安全边界内运行。 |
+| 8 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and ... | Python | 93.1k | 230 | 收集了基于LLM的AI代理应用和RAG技术的实践案例，涵盖代码、邮件、医疗、金融等多个领域，支持OpenAI、Anthropic、Gemini等主流模型及开源模型如Qwen、Llama，提供可本地运行的AI解决方案。 |
+| 9 | [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | The GitButler version control client, backed by Gi... | Rust | 18.6k | 388 | GitButler是基于Git的现代版本控制客户端，提供GUI和CLI工具。核心功能包括堆叠分支、并行分支管理、可视化提交操作、AI辅助工作流、冲突处理及Forge集成，简化Git操作并提升开发效率。 |
+| 10 | [microsoft/litebox](https://github.com/microsoft/litebox) | A security-focused library OS supporting kernel- a... | Rust | 1.7k | 356 | LiteBox是微软开发的安全聚焦库操作系统，通过精简主机接口降低攻击面，支持内核与用户模式执行。采用North-South接口设计实现跨平台互操作，适配多种运行环境与沙箱场景。 |
+| 11 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 7.5k | 771 | 该项目是Codex的技能目录，提供可复用的AI代理技能模块，支持通过命令行安装和管理技能，包含实验性和精选技能，便于任务执行和分发。 |
+| 12 | [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | Official Claude Code compound engineering plugin... | TypeScript | 7.8k | 161 | 该项目是Claude Code的工程插件工具集，支持将插件转换为OpenCode/Codex格式，提供本地开发、配置同步及工程工作流管理功能，包含计划、执行、评审等自动化流程。 |
+| 13 | [DrewThomasson/ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook) | Generate audiobooks from e-books, voice cloning & ... | Python | 17.8k | 140 | 该工具可将电子书转换为带章节和元数据的有声书，支持1158种语言及语音克隆，集成XTTSv2、Piper-TTS等多款TTS模型，兼容多种电子书格式并提供OCR功能。 |
 
-[查看完整数据](api/github/2026-02-08.json)
+[查看完整数据](api/github/2026-02-09.json)
 <!-- END GITHUB TRENDING -->
 
 
