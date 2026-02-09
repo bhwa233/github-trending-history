@@ -8,6 +8,7 @@ const withSerwist = withSerwistInit({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  outputFileTracingRoot: process.cwd(),
 };
 
 export default withSerwist(nextConfig);

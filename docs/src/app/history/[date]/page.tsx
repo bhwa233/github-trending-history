@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import dayjs from 'dayjs';
+import { notFound } from 'next/navigation';
 import { Badge } from '@/components/ui/badge';
 import { Menubar, MenubarMenu, MenubarTrigger } from '@/components/ui/menubar';
 import {
@@ -11,10 +12,26 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { DatePicker } from '@/components/DayPicker';
+import { getAvailableDates, getBaseUrl } from '@/lib/trending-data';
 
 interface HotsProps {
   params: Promise<{ date: string }>;
   searchParams: Promise<{}>;
+}
+
+const datePattern = /^\d{4}-\d{2}-\d{2}$/;
+
+function parseDateParam(date: string) {
+  if (!datePattern.test(date)) {
+    return null;
+  }
+
+  const parsed = dayjs(date);
+  if (!parsed.isValid() || parsed.format('YYYY-MM-DD') !== date) {
+    return null;
+  }
+
+  return parsed;
 }
 
 interface GitHubRepo {
@@ -66,9 +83,45 @@ async function getData(date: string): Promise<GitHubTrendingData | null> {
 export async function generateMetadata(props: HotsProps): Promise<Metadata> {
   const params = await props.params;
   const date = params.date;
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ;
+  const parsedDate = parseDateParam(date);
+
+  if (!parsedDate) {
+    return {
+      title: '页面未找到',
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
+  }
+
+  const availableDates = await getAvailableDates();
+  if (!availableDates.includes(date)) {
+    return {
+      title: '页面未找到',
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
+  }
+
+  const baseUrl = getBaseUrl();
+
   const pageUrl = `${baseUrl}/history/${date}`;
-  const formattedDate = dayjs(date).format('YYYY年MM月DD日');
+  const formattedDate = parsedDate.format('YYYY年MM月DD日');
+  const normalizedDate = parsedDate.format('YYYY-MM-DD');
+  const data = await getData(normalizedDate);
+
+  if (!data || data.repos.length === 0) {
+    return {
+      title: `${formattedDate} GitHub Trending 榜单`,
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
+  }
 
   return {
     title: `${formattedDate} GitHub Trending 榜单`,
@@ -79,13 +132,13 @@ export async function generateMetadata(props: HotsProps): Promise<Metadata> {
       description: `查看${formattedDate}的 GitHub Trending 榜单，发现当日最热门的开源项目。`,
       url: pageUrl,
       type: 'article',
-      publishedTime: dayjs(date).toISOString(),
+      publishedTime: parsedDate.toISOString(),
       modifiedTime: new Date().toISOString(),
       section: 'GitHub Trending',
       authors: ['GitHub Trending 归档'],
       images: [
         {
-          url: `${baseUrl}/og-image-${date}.png`,
+          url: `${baseUrl}/logo.svg`,
           width: 1200,
           height: 630,
           alt: `${formattedDate} GitHub Trending 榜单`,
@@ -96,7 +149,7 @@ export async function generateMetadata(props: HotsProps): Promise<Metadata> {
       card: 'summary_large_image',
       title: `${formattedDate} GitHub Trending 榜单`,
       description: `发现${formattedDate}最热门的开源项目`,
-      images: [`${baseUrl}/og-image-${date}.png`],
+      images: [`${baseUrl}/logo.svg`],
     },
     alternates: {
       canonical: pageUrl,
@@ -115,10 +168,35 @@ export default async function Hots(props: HotsProps) {
     date
   } = params;
 
-  const data = await getData(date || dayjs().format('YYYY-MM-DD'));
-  const repos = data?.repos || [];
-  const formattedDate = dayjs(date).format('YYYY年MM月DD日');
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ;
+  const availableDates = await getAvailableDates();
+  if (availableDates.length === 0) {
+    notFound();
+  }
+
+  const parsedDate = parseDateParam(date);
+  if (!parsedDate) {
+    notFound();
+  }
+
+  const normalizedDate = parsedDate.format('YYYY-MM-DD');
+  const currentDateIndex = availableDates.indexOf(normalizedDate);
+  if (currentDateIndex < 0) {
+    notFound();
+  }
+
+  const data = await getData(normalizedDate);
+
+  if (!data || data.repos.length === 0) {
+    notFound();
+  }
+
+  const repos = data.repos;
+  const formattedDate = parsedDate.format('YYYY年MM月DD日');
+  const baseUrl = getBaseUrl();
+  const prevDate = currentDateIndex > 0 ? dayjs(availableDates[currentDateIndex - 1]) : null;
+  const nextDate = currentDateIndex < availableDates.length - 1 ? dayjs(availableDates[currentDateIndex + 1]) : null;
+  const firstAvailableDate = availableDates[0];
+  const latestAvailableDate = availableDates[availableDates.length - 1];
 
   // 生成结构化数据
   const structuredData = {
@@ -126,8 +204,8 @@ export default async function Hots(props: HotsProps) {
     "@type": "ItemList",
     "name": `${formattedDate} GitHub Trending 榜单`,
     "description": `${formattedDate}的 GitHub Trending 排行榜，包含当日最热门的开源项目`,
-    "url": `${baseUrl}/history/${date}`,
-    "datePublished": dayjs(date).toISOString(),
+    "url": `${baseUrl}/history/${normalizedDate}`,
+    "datePublished": parsedDate.toISOString(),
     "dateModified": new Date().toISOString(),
     "itemListElement": repos.slice(0, 10).map((item, index) => ({
       "@type": "ListItem",
@@ -137,7 +215,7 @@ export default async function Hots(props: HotsProps) {
         "name": item.fullName,
         "description": item.aiSummary?.summary || item.description,
         "url": item.url,
-        "datePublished": dayjs(date).toISOString(),
+        "datePublished": parsedDate.toISOString(),
         "programmingLanguage": item.language || "Unknown",
         "author": {
           "@type": "Organization",
@@ -161,29 +239,32 @@ export default async function Hots(props: HotsProps) {
       />
       <main className="p-5 lg:p-0 lg:pt-5">
         <div className="mx-auto max-w-[980px]">
-          <h1 className="sr-only">{formattedDate} GitHub Trending 榜单</h1>
+          <h1 className="mb-3 text-2xl font-semibold tracking-tight">{formattedDate} GitHub Trending 榜单</h1>
           <Menubar className="flex justify-between">
             <MenubarMenu>
-              <Link
-                href={`/history/${dayjs(date).subtract(1, 'day').format('YYYY-MM-DD')}`}
-              >
-                <MenubarTrigger className="cursor-pointer">前一天</MenubarTrigger>
-              </Link>
+              {prevDate ? (
+                <Link href={`/history/${prevDate.format('YYYY-MM-DD')}`}>
+                  <MenubarTrigger className="cursor-pointer">前一天</MenubarTrigger>
+                </Link>
+              ) : (
+                <MenubarTrigger className="opacity-50 cursor-not-allowed" aria-disabled>
+                  前一天
+                </MenubarTrigger>
+              )}
             </MenubarMenu>
             <MenubarMenu>
-              <DatePicker value={date} sort="" />
+              <DatePicker value={normalizedDate} minDate={firstAvailableDate} maxDate={latestAvailableDate} />
             </MenubarMenu>
             <MenubarMenu>
-              <Link
-                href={`/history/${dayjs(date).add(1, 'day').format('YYYY-MM-DD')}`}
-              >
-                <MenubarTrigger
-                  className="cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
-                  aria-disabled={dayjs(date).isAfter(dayjs().subtract(1, 'day'))}
-                >
+              {nextDate ? (
+                <Link href={`/history/${nextDate.format('YYYY-MM-DD')}`}>
+                  <MenubarTrigger className="cursor-pointer">后一天</MenubarTrigger>
+                </Link>
+              ) : (
+                <MenubarTrigger className="opacity-50 cursor-not-allowed" aria-disabled>
                   后一天
                 </MenubarTrigger>
-              </Link>
+              )}
             </MenubarMenu>
           </Menubar>
         </div>
@@ -268,15 +349,9 @@ export default async function Hots(props: HotsProps) {
             );
           })}
 
-          {repos.length === 0 && (
-            <Card>
-              <CardContent className="py-12 text-center">
-                <p className="text-muted-foreground">暂无数据</p>
-              </CardContent>
-            </Card>
-          )}
         </div>
       </main>
     </>
   );
 }
+

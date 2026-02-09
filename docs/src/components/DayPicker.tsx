@@ -16,10 +16,14 @@ import { useRouter } from "next/navigation"
 
 interface DatePickerProps {
     value: string
-    sort?: string
+    minDate?: string
+    maxDate?: string
 }
 export function DatePicker(props: DatePickerProps) {
-    const date = new Date(props.value)
+    const selectedDate = new Date(props.value)
+    const date = Number.isNaN(selectedDate.getTime()) ? undefined : selectedDate
+    const minDate = props.minDate ? new Date(props.minDate) : undefined
+    const maxDate = props.maxDate ? new Date(props.maxDate) : new Date()
     const router = useRouter()
     return (
         <Popover>
@@ -47,7 +51,9 @@ export function DatePicker(props: DatePickerProps) {
                     }}
                     initialFocus
                     disabled={(date) => {
-                        return date > new Date()
+                        const isBeforeMin = minDate ? date < minDate : false
+                        const isAfterMax = maxDate ? date > maxDate : false
+                        return isBeforeMin || isAfterMax
                     }}
                 />
             </PopoverContent>

@@ -1,19 +1,12 @@
 import { MetadataRoute } from 'next'
 import dayjs from 'dayjs'
+import { getAvailableDates, getBaseUrl, getLanguageSlug, getLatestAvailableData, getTopLanguages } from '@/lib/trending-data'
+import { getTopicStats } from '@/lib/topic-taxonomy'
 
-export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://github-trending-history.vercel.app'
-
-    // 生成从2024-05-20到今天的所有日期
-    const startDate = dayjs('2024-05-20')
-    const endDate = dayjs()
-    const dates: string[] = []
-
-    let currentDate = startDate
-    while (currentDate.isBefore(endDate) || currentDate.isSame(endDate, 'day')) {
-        dates.push(currentDate.format('YYYY-MM-DD'))
-        currentDate = currentDate.add(1, 'day')
-    }
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+    const baseUrl = getBaseUrl()
+    const dates = await getAvailableDates()
+    const latestDate = dates.length > 0 ? dates[dates.length - 1] : null
 
     const routes: MetadataRoute.Sitemap = [
         {
@@ -22,13 +15,39 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'daily',
             priority: 1,
         },
+        {
+            url: `${baseUrl}/languages`,
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 0.8,
+        },
+        {
+            url: `${baseUrl}/topics`,
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 0.8,
+        },
         ...dates.map(date => ({
             url: `${baseUrl}/history/${date}`,
-            lastModified: dayjs(date).isSame(dayjs(), 'day') ? new Date() : dayjs(date).toDate(),
+            lastModified: latestDate && date === latestDate ? new Date() : dayjs(date).toDate(),
             changeFrequency: 'daily' as const,
-            priority: dayjs(date).isSame(dayjs(), 'day') ? 0.9 : 0.7,
+            priority: latestDate && date === latestDate ? 0.9 : 0.7,
         }))
     ]
 
-    return routes
-} 
+    const latest = await getLatestAvailableData()
+    const languageRoutes: MetadataRoute.Sitemap = getTopLanguages(latest?.data.repos || [], 30).map((item) => ({
+        url: `${baseUrl}/languages/${getLanguageSlug(item.language)}`,
+        lastModified: new Date(),
+        changeFrequency: 'daily' as const,
+        priority: 0.6,
+    }))
+    const topicRoutes: MetadataRoute.Sitemap = getTopicStats(latest?.data.repos || []).map((item) => ({
+        url: `${baseUrl}/topics/${item.topic.slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'daily' as const,
+        priority: 0.6,
+    }))
+
+    return [...routes, ...languageRoutes, ...topicRoutes]
+}
