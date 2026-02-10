@@ -67,25 +67,26 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-02-09 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-02-10 | **成功**: 14 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Fully autonomous AI hacker to find actual exploits... | TypeScript | 17.1k | 4.1k | Shannon是基于AI的全自动渗透测试工具，可自主发现Web应用漏洞并执行真实攻击验证，如注入和身份验证绕过。解决快速迭代开发中的安全漏洞问题，提供实际漏洞证明以确保代码安全。 |
-| 2 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 13.5k | 1.1k | Dexter是面向金融研究的自主代理，支持任务规划、实时数据处理与自我验证，可分解复杂问题并生成数据驱动的分析结果。 |
-| 3 | [pydantic/monty](https://github.com/pydantic/monty) | A minimal, secure Python interpreter written in Ru... | Rust | 3.9k | 1.3k | Monty是用Rust开发的轻量级安全Python解释器，专为AI设计。支持部分Python功能，隔离主机环境，可控制外部函数调用，具备快速启动（<1μs）和资源监控能力，适用于安全执行AI生成代码的场景。 |
-| 4 | [hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN) | 基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版... | Python | 16.2k | 160 | 基于多智能体LLM的中文金融分析框架，支持A股/港股/美股研究，提供Docker部署、多模型配置及可视化分析功能，适用于策略实验与AI金融学习。 |
-| 5 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source 24/7 Cowork and OpenClaw ... | TypeScript | 13.8k | 680 | AionUi是支持多AI模型的本地图形化协作工具，提供统一界面管理Gemini CLI、Claude Code等命令行工具，具备本地数据存储、多会话管理及跨平台远程访问功能，强调安全性和便捷性。 |
-| 6 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs... | Python | 397.2k | 450 | 该仓库是一个由社区维护的免费API集合项目，涵盖多个领域如天气、金融、交通等，提供简洁的API列表和分类目录，方便开发者快速查找和集成所需接口。 |
-| 7 | [github/gh-aw](https://github.com/github/gh-aw) | GitHub Agentic Workflows... | Go | 882 | 304 | GitHub Agentic Workflows项目允许用户通过自然语言Markdown编写代理工作流，并在GitHub Actions中运行。提供多重安全防护，如沙盒执行、输入消毒和只读权限，默认限制写操作，确保AI代理在安全边界内运行。 |
-| 8 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and ... | Python | 93.1k | 230 | 收集了基于LLM的AI代理应用和RAG技术的实践案例，涵盖代码、邮件、医疗、金融等多个领域，支持OpenAI、Anthropic、Gemini等主流模型及开源模型如Qwen、Llama，提供可本地运行的AI解决方案。 |
-| 9 | [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | The GitButler version control client, backed by Gi... | Rust | 18.6k | 388 | GitButler是基于Git的现代版本控制客户端，提供GUI和CLI工具。核心功能包括堆叠分支、并行分支管理、可视化提交操作、AI辅助工作流、冲突处理及Forge集成，简化Git操作并提升开发效率。 |
-| 10 | [microsoft/litebox](https://github.com/microsoft/litebox) | A security-focused library OS supporting kernel- a... | Rust | 1.7k | 356 | LiteBox是微软开发的安全聚焦库操作系统，通过精简主机接口降低攻击面，支持内核与用户模式执行。采用North-South接口设计实现跨平台互操作，适配多种运行环境与沙箱场景。 |
-| 11 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 7.5k | 771 | 该项目是Codex的技能目录，提供可复用的AI代理技能模块，支持通过命令行安装和管理技能，包含实验性和精选技能，便于任务执行和分发。 |
-| 12 | [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | Official Claude Code compound engineering plugin... | TypeScript | 7.8k | 161 | 该项目是Claude Code的工程插件工具集，支持将插件转换为OpenCode/Codex格式，提供本地开发、配置同步及工程工作流管理功能，包含计划、执行、评审等自动化流程。 |
-| 13 | [DrewThomasson/ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook) | Generate audiobooks from e-books, voice cloning & ... | Python | 17.8k | 140 | 该工具可将电子书转换为带章节和元数据的有声书，支持1158种语言及语音克隆，集成XTTSv2、Piper-TTS等多款TTS模型，兼容多种电子书格式并提供OCR功能。 |
+| 1 | [google/langextract](https://github.com/google/langextract) | A Python library for extracting structured informa... | Python | 28.3k | 2.1k | LangExtract是一个Python库，利用大语言模型从非结构化文本中提取结构化信息，支持精确来源定位、交互式可视化和多模型接入，适用于医疗文档等长文本的高效信息提取。 |
+| 2 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source 24/7 Cowork and OpenClaw ... | TypeScript | 14.4k | 629 | AionUi为多种AI命令行工具提供统一图形界面，支持本地部署与24/7访问，具备多模型兼容、本地数据存储、跨平台会话管理及WebUI/聊天平台集成，提升AI工具使用便捷性与安全性。 |
+| 3 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Fully autonomous AI hacker to find actual exploits... | TypeScript | 19.7k | 3.6k | Shannon是基于AI的全自动渗透测试工具，可自主检测Web应用漏洞并执行真实攻击验证风险，解决持续集成中的安全测试滞后问题，支持源码级漏洞挖掘与合规验证。 |
+| 4 | [github/gh-aw](https://github.com/github/gh-aw) | GitHub Agentic Workflows... | Go | 1.3k | 499 | GitHub Agentic Workflows允许用户通过自然语言Markdown编写代理工作流，并在GitHub Actions中安全运行。项目强调安全机制，如默认只读权限、沙箱执行、输入消毒和网络隔离，确保AI代理在受控环境中操作，适用于自动化代码审查、持续集成等场景。 |
+| 5 | [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | Official Claude Code compound engineering plugin... | TypeScript | 8.2k | 406 | 提供Claude Code工程插件市场及工具转换方案，支持将插件转为OpenCode/Codex格式，实现工程工作流自动化与配置同步。 |
+| 6 | [hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN) | 基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版... | Python | 16.7k | 499 | 基于多智能体LLM的中文金融交易框架，支持A股/港股/美股分析，提供技术指标计算、基本面分析、模拟交易及多模型配置管理，适用于AI金融教学与策略研究。 |
+| 7 | [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | The GitButler version control client, backed by Gi... | Rust | 19.0k | 260 | GitButler是一款基于Git的现代版本控制客户端，提供GUI和CLI工具。核心功能包括堆叠分支、并行分支管理、可视化提交操作、撤销时间线及AI辅助工作流，提升Git操作效率与易用性。 |
+| 8 | [carlvellotti/claude-code-pm-course](https://github.com/carlvellotti/claude-code-pm-course) | Interactive course teaching Product Managers how t... | MDX | 793 | 46 | 交互式课程，帮助产品经理掌握Claude Code工具链，涵盖基础操作、高级场景及AI协作流程，包含模块化教学与实战练习 |
+| 9 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and ... | Python | 93.6k | 450 | 该项目收集了基于LLM的多种AI应用，涵盖RAG、AI代理、多代理团队等技术，整合OpenAI、Anthropic、Gemini及开源模型，适用于数据分析、医疗影像、金融、内容生成等领域。 |
+| 10 | [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | Free, simple, and intuitive online database diagra... | JavaScript | 36.3k | 166 | drawDB 是一个免费的在线数据库设计工具，提供直观的图形化界面用于创建数据库模式图并自动生成SQL代码，支持实时协作与跨平台访问。 |
+| 11 | [pydantic/monty](https://github.com/pydantic/monty) | A minimal, secure Python interpreter written in Ru... | Rust | 4.5k | 848 | Monty是用Rust开发的小型安全Python解释器，专为AI设计，支持快速执行LLM生成代码。具备环境隔离、资源控制、类型检查及异步执行功能，适用于需要高效安全运行Python代码的场景。 |
+| 12 | [cheahjs/free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources) | A list of free LLM inference resources accessible ... | Python | 8.7k | 108 | 该项目整理了多个提供免费LLM推理API的服务资源，涵盖模型调用限额、试用额度及合规使用说明，便于开发者获取低成本或免费的AI模型调用渠道。 |
+| 13 | [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills) | 65 Specialized Skills for Full-Stack Developers. T... | Python | 740 | 33 | 提供66个全栈开发技能与9个工作流，支持Claude代码助手实现上下文感知的自动技能激活和多技能协作，覆盖开发、测试、安全、DevOps等场景，通过工作流管理项目生命周期并集成Atlassian工具。 |
+| 14 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 14.1k | 735 | Dexter是一个基于TypeScript的自主财务研究代理，通过任务规划、自我反思和实时市场数据进行深度金融分析。支持智能任务分解、自动数据获取、结果验证及多API集成，适用于复杂金融问题的自动化研究与决策支持。 |
 
-[查看完整数据](api/github/2026-02-09.json)
+[查看完整数据](api/github/2026-02-10.json)
 <!-- END GITHUB TRENDING -->
 
 
