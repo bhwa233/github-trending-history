@@ -67,22 +67,23 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-02-13 | **成功**: 10 | **失败**: 0
+**最后更新**: 2026-02-14 | **成功**: 11 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [SynkraAI/aios-core](https://github.com/SynkraAI/aios-core) | Synkra AIOS: AI-Orchestrated System for Full Stack... | JavaScript | 404 | 105 | Synkra AIOS 是一个以CLI为核心的全栈开发AI编排框架，通过AI代理协作实现自动化开发流程。遵循CLI优先架构，提供可观测性监控和轻量级UI，支持软件开发、内容创作等多领域场景，强调通过AI代理生成完整技术文档与开发任务。 |
-| 2 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 24.7k | 357 | ChromeDevTools/mcp 是一个基于TypeScript的Model-Context-Protocol服务器，允许AI编码助手（如Gemini、Copilot）通过Chrome DevTools实现浏览器自动化、性能分析和深度调试，支持网络请求分析、截图、console日志监控及puppeteer驱动的可靠自动化操作。 |
-| 3 | [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) | Agentic AI Infrastructure for magnifying HUMAN cap... | TypeScript | 8.0k | 588 | Personal AI Infrastructure (PAI) 旨在通过AI增强人类自我发现能力，解决创造力激活难题。核心功能包括双阶段能力选择、思维工具优化和默认并行执行，注重用户个性化激活与开放获取，覆盖从基础聊天机器人到智能代理的多层级交互。 |
-| 4 | [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub) | In-depth tutorials on LLMs, RAGs and real-world AI... | Jupyter Notebook | 29.3k | 386 | 提供93+个AI工程实践项目，涵盖LLMs、RAG、AI代理等技术的教程与实战案例，包含从OCR识别到智能对话系统的多种应用场景，适合不同技能层级的开发者学习和项目开发。 |
-| 5 | [TelegramMessenger/MTProxy](https://github.com/TelegramMessenger/MTProxy) | ... | C | 5.9k | 72 | MTProxy是Telegram的轻量级MT-Proto协议代理服务器，支持加密通信和流量中转。通过生成密钥和配置文件实现安全连接，可部署为Telegram客户端的中转节点，适用于需要稳定代理服务的场景。 |
-| 6 | [google-deepmind/superhuman](https://github.com/google-deepmind/superhuman) | ... | TeX | 361 | 108 | Google DeepMind的Superhuman Reasoning团队开源项目，包含数学推理AI模型AlphaGeometry、IMO竞赛基准测试集和数学研究代理Aletheia，旨在推动AI在数学证明、问题求解和自动评估领域的发展。 |
-| 7 | [cheahjs/free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources) | A list of free LLM inference resources accessible ... | Python | 10.6k | 442 | 整理了多个提供免费LLM API资源的服务商，包含模型列表、使用限制及试用额度信息，帮助开发者低成本访问大语言模型推理服务。 |
-| 8 | [HandsOnLLM/Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) | Official code repo for the O'Reilly Book - "Hands-... | Jupyter Notebook | 21.1k | 318 | 该项目是O'Reilly书籍《Hands-On Large Language Models》的配套代码库，包含12章实践案例，涵盖语言模型基础、Transformer结构、文本生成、多模态模型等主题，通过Jupyter Notebook形式提供可运行代码与可视化示例。 |
-| 9 | [THUDM/slime](https://github.com/THUDM/slime) | slime is an LLM post-training framework for RL Sca... | Python | 4.1k | 85 | slime是面向LLM强化学习训练的后处理框架，提供高性能多模式训练和灵活数据生成能力，支持Megatron与SGLang高效集成，适配多种大模型训练需求。 |
-| 10 | [DebugSwift/DebugSwift](https://github.com/DebugSwift/DebugSwift) | A toolkit to make debugging iOS applications easie... | Swift | 1.4k | 50 | DebugSwift是面向iOS开发的调试工具包，提供网络监控、性能分析、崩溃追踪及可视化调试工具，支持HTTP/WebSocket抓包、实时性能指标、内存泄漏检测和SwiftUI渲染追踪，提升调试效率。 |
+| 1 | [tambo-ai/tambo](https://github.com/tambo-ai/tambo) | Generative UI SDK for React... | TypeScript | 9.6k | 137 | Tambo 是一个基于 React 的生成式 UI 开发工具包，通过 Zod 模式注册组件，实现自然语言指令与 UI 的动态交互。支持流式传输组件属性、状态管理及多模型协议（如 OpenAI、Anthropic 等），提供云端和自托管后端方案。 |
+| 2 | [SynkraAI/aios-core](https://github.com/SynkraAI/aios-core) | Synkra AIOS: AI-Orchestrated System for Full Stack... | JavaScript | 596 | 223 | Synkra AIOS 是一个以CLI为核心的AI编排框架，通过代理协作实现全栈开发自动化。支持AI驱动的规划与上下文感知开发，强调CLI优先架构，提供可观测性监控和轻量级UI辅助，适用于需要AI增强的软件开发流程。 |
+| 3 | [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | Open-source AI coworker, with memory... | TypeScript | 6.0k | 226 | Rowboat是一款开源AI协作工具，通过构建知识图谱实现工作流程自动化。它可连接邮箱和会议记录，长期存储工作上下文，支持生成文档、会议准备、知识图谱可视化等功能，所有数据本地存储且兼容Markdown格式。 |
+| 4 | [minio/minio](https://github.com/minio/minio) | MinIO is a high-performance, S3 compatible object ... | Go | 60.3k | 37 | MinIO是一个高性能的S3兼容对象存储服务，采用Go语言开发，支持AI/ML、大数据分析等场景。提供高扩展性和低延迟特性，遵循AGPLv3开源协议，适用于需要分布式存储和大规模数据处理的场景。 |
+| 5 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 25.1k | 326 | ChromeDevTools MCP项目为AI编码代理提供Chrome浏览器的控制与调试能力，支持性能分析、网络请求监控、自动化操作等功能，基于TypeScript开发，整合Chrome DevTools和Puppeteer实现可靠浏览器交互。 |
+| 6 | [alibaba/zvec](https://github.com/alibaba/zvec) | A lightweight, lightning-fast, in-process vector d... | C++ | 1.2k | 186 | Zvec是阿里开源的轻量级嵌入式向量数据库，支持高速相似性搜索，可直接集成到应用中。特性包括密集/稀疏向量处理、混合搜索、低延迟和跨平台运行，适用于需要快速向量检索的场景。 |
+| 7 | [ruvnet/wifi-densepose](https://github.com/ruvnet/wifi-densepose) | Production-ready implementation of InvisPose - a r... | Python | 6.1k | 83 | 基于WiFi的隐私保护实时人体姿态估计系统，通过CSI数据和ML实现非接触式全身追踪，支持多人检测与低延迟处理，适用于医疗、智能家居等场景。 |
+| 8 | [Zipstack/unstract](https://github.com/Zipstack/unstract) | No-code LLM Platform to launch APIs and ETL Pipeli... | Python | 6.3k | 24 | 无代码LLM平台，支持通过Prompt Studio定义数据结构化方案，一键生成API和ETL管道，集成MCP/REST/ETL/n8n等多场景，提升文档处理效率 |
+| 9 | [letta-ai/letta-code](https://github.com/letta-ai/letta-code) | The memory-first coding agent... | TypeScript | 1.2k | 30 | Letta Code 是基于 Letta API 的内存优先代码框架，通过持久化代理实现跨会话学习与模型切换。支持多模型（Claude、GPT、Gemini 等）无缝衔接，提供记忆初始化、技能模块扩展等功能，提升代码协作与长期任务处理能力。 |
+| 10 | [ruby/ruby](https://github.com/ruby/ruby) | The Ruby Programming Language... | Ruby | 23.4k | 52 | Ruby 是一种动态、面向对象的脚本语言，具有简单语法和强大功能，支持跨平台开发。提供异常处理、垃圾回收、迭代器等特性，适用于Web开发、系统管理及文本处理。项目包含源代码库和构建文档，支持多种操作系统。 |
+| 11 | [cinnyapp/cinny](https://github.com/cinnyapp/cinny) | Yet another matrix client... | TypeScript | 3.0k | 46 | Cinny是一款基于Matrix协议的即时通讯客户端，注重简洁优雅的界面设计和安全性。支持自托管部署，提供网页版和桌面应用，采用TypeScript开发，具备现代Web技术特征。 |
 
-[查看完整数据](api/github/2026-02-13.json)
+[查看完整数据](api/github/2026-02-14.json)
 <!-- END GITHUB TRENDING -->
 
 
