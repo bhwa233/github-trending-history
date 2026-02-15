@@ -67,23 +67,23 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-02-14 | **成功**: 11 | **失败**: 0
+**最后更新**: 2026-02-15 | **成功**: 11 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [tambo-ai/tambo](https://github.com/tambo-ai/tambo) | Generative UI SDK for React... | TypeScript | 9.6k | 137 | Tambo 是一个基于 React 的生成式 UI 开发工具包，通过 Zod 模式注册组件，实现自然语言指令与 UI 的动态交互。支持流式传输组件属性、状态管理及多模型协议（如 OpenAI、Anthropic 等），提供云端和自托管后端方案。 |
-| 2 | [SynkraAI/aios-core](https://github.com/SynkraAI/aios-core) | Synkra AIOS: AI-Orchestrated System for Full Stack... | JavaScript | 596 | 223 | Synkra AIOS 是一个以CLI为核心的AI编排框架，通过代理协作实现全栈开发自动化。支持AI驱动的规划与上下文感知开发，强调CLI优先架构，提供可观测性监控和轻量级UI辅助，适用于需要AI增强的软件开发流程。 |
-| 3 | [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | Open-source AI coworker, with memory... | TypeScript | 6.0k | 226 | Rowboat是一款开源AI协作工具，通过构建知识图谱实现工作流程自动化。它可连接邮箱和会议记录，长期存储工作上下文，支持生成文档、会议准备、知识图谱可视化等功能，所有数据本地存储且兼容Markdown格式。 |
-| 4 | [minio/minio](https://github.com/minio/minio) | MinIO is a high-performance, S3 compatible object ... | Go | 60.3k | 37 | MinIO是一个高性能的S3兼容对象存储服务，采用Go语言开发，支持AI/ML、大数据分析等场景。提供高扩展性和低延迟特性，遵循AGPLv3开源协议，适用于需要分布式存储和大规模数据处理的场景。 |
-| 5 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 25.1k | 326 | ChromeDevTools MCP项目为AI编码代理提供Chrome浏览器的控制与调试能力，支持性能分析、网络请求监控、自动化操作等功能，基于TypeScript开发，整合Chrome DevTools和Puppeteer实现可靠浏览器交互。 |
-| 6 | [alibaba/zvec](https://github.com/alibaba/zvec) | A lightweight, lightning-fast, in-process vector d... | C++ | 1.2k | 186 | Zvec是阿里开源的轻量级嵌入式向量数据库，支持高速相似性搜索，可直接集成到应用中。特性包括密集/稀疏向量处理、混合搜索、低延迟和跨平台运行，适用于需要快速向量检索的场景。 |
-| 7 | [ruvnet/wifi-densepose](https://github.com/ruvnet/wifi-densepose) | Production-ready implementation of InvisPose - a r... | Python | 6.1k | 83 | 基于WiFi的隐私保护实时人体姿态估计系统，通过CSI数据和ML实现非接触式全身追踪，支持多人检测与低延迟处理，适用于医疗、智能家居等场景。 |
-| 8 | [Zipstack/unstract](https://github.com/Zipstack/unstract) | No-code LLM Platform to launch APIs and ETL Pipeli... | Python | 6.3k | 24 | 无代码LLM平台，支持通过Prompt Studio定义数据结构化方案，一键生成API和ETL管道，集成MCP/REST/ETL/n8n等多场景，提升文档处理效率 |
-| 9 | [letta-ai/letta-code](https://github.com/letta-ai/letta-code) | The memory-first coding agent... | TypeScript | 1.2k | 30 | Letta Code 是基于 Letta API 的内存优先代码框架，通过持久化代理实现跨会话学习与模型切换。支持多模型（Claude、GPT、Gemini 等）无缝衔接，提供记忆初始化、技能模块扩展等功能，提升代码协作与长期任务处理能力。 |
-| 10 | [ruby/ruby](https://github.com/ruby/ruby) | The Ruby Programming Language... | Ruby | 23.4k | 52 | Ruby 是一种动态、面向对象的脚本语言，具有简单语法和强大功能，支持跨平台开发。提供异常处理、垃圾回收、迭代器等特性，适用于Web开发、系统管理及文本处理。项目包含源代码库和构建文档，支持多种操作系统。 |
-| 11 | [cinnyapp/cinny](https://github.com/cinnyapp/cinny) | Yet another matrix client... | TypeScript | 3.0k | 46 | Cinny是一款基于Matrix协议的即时通讯客户端，注重简洁优雅的界面设计和安全性。支持自托管部署，提供网页版和桌面应用，采用TypeScript开发，具备现代Web技术特征。 |
+| 1 | [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | A high-performance algorithmic trading platform an... | Rust | 19.3k | 221 | NautilusTrader 是一个用 Rust 开发的高性能算法交易平台，支持事件驱动的策略回测与实时交易部署。提供多资产类别（外汇、加密货币、股票等）交易支持，强调 Python 原生环境一致性，具备高吞吐低延迟特性，适用于高频交易场景。 |
+| 2 | [steipete/gogcli](https://github.com/steipete/gogcli) | Google Suite CLI: Gmail, GCal, GDrive, GContacts.... | Go | 2.9k | 639 | gogcli 是一个功能丰富的Google Workspace命令行工具，支持Gmail、日历、Drive、联系人等核心服务。提供JSON输出、多账户管理、最小权限认证及邮件跟踪功能，适用于自动化脚本和云端服务管理。 |
+| 3 | [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | Open-source AI coworker, with memory... | TypeScript | 6.8k | 819 | Rowboat是一款本地优先的开源AI协作工具，通过连接邮件和会议记录构建长期知识图谱，支持生成文档、会议准备、知识图谱可视化编辑等功能，所有操作均在本地完成确保隐私。 |
+| 4 | [github/gh-aw](https://github.com/github/gh-aw) | GitHub Agentic Workflows... | Go | 2.7k | 213 | GitHub Agentic Workflows允许用户通过自然语言Markdown编写代理工作流，并在GitHub Actions中安全运行。提供沙箱执行、输入消毒、只读权限等安全机制，适用于自动化仓库任务及敏感操作管控。 |
+| 5 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 25.4k | 353 | ChromeDevTools-MCP 是面向AI编码助手的浏览器控制工具，通过Chrome DevTools实现实时浏览器调试、性能分析与自动化操作，支持网络请求分析、截图、控制台监控及基于Puppeteer的可靠自动化流程。 |
+| 6 | [alibaba/zvec](https://github.com/alibaba/zvec) | A lightweight, lightning-fast, in-process vector d... | C++ | 2.3k | 729 | Zvec是阿里巴巴开源的嵌入式向量数据库，支持高速向量搜索和混合查询。具备低延迟、易部署特性，可直接嵌入应用中，兼容稠密/稀疏向量及多类型查询，适用于需要实时相似性搜索的场景。 |
+| 7 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 197.0k | 2.5k | OpenClaw是自托管的个人AI助手，支持多平台消息渠道（如WhatsApp、Telegram、Discord等）和跨设备语音交互，提供本地化、实时的AI服务。通过CLI工具快速部署，兼容多种模型和认证方式。 |
+| 8 | [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine) | Fast and accurate automatic speech recognition (AS... | C | 3.8k | 160 | Moonshine-ai/moonshine 是一个面向边缘设备的高精度自动语音识别（ASR）工具包，支持本地化实时语音处理，具备低延迟、隐私保护和多平台集成能力。提供从26MB轻量模型到高精度大模型的多版本选择，覆盖多种语言及语音任务如语音转录、说话人识别和指令识别。 |
+| 9 | [brave/brave-browser](https://github.com/brave/brave-browser) | Brave browser for Android, iOS, Linux, macOS, Wind... | - | 21.5k | 23 | Brave浏览器多平台源代码仓库，基于Chromium开发，包含广告拦截引擎和跨平台构建工具，支持Windows、macOS、Linux、Android及iOS系统。 |
+| 10 | [SynkraAI/aios-core](https://github.com/SynkraAI/aios-core) | Synkra AIOS: AI-Orchestrated System for Full Stack... | JavaScript | 780 | 168 | Synkra AIOS 是一个基于AI的全栈开发框架，采用CLI优先架构，通过代理协作实现自动化开发流程。核心功能包括智能规划、上下文感知的开发转换及实时可观测性监控，支持软件开发全流程的AI协同与自动化。 |
+| 11 | [ruvnet/wifi-densepose](https://github.com/ruvnet/wifi-densepose) | Production-ready implementation of InvisPose - a r... | Python | 6.5k | 351 | 基于WiFi的隐私保护人体姿态估计系统，通过CSI数据实现非接触式实时全身追踪，支持多人检测与跨场景应用，提供高精度低延迟的无摄像头人体状态感知解决方案。 |
 
-[查看完整数据](api/github/2026-02-14.json)
+[查看完整数据](api/github/2026-02-15.json)
 <!-- END GITHUB TRENDING -->
 
 
