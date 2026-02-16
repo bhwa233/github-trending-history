@@ -67,23 +67,22 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-02-15 | **成功**: 11 | **失败**: 0
+**最后更新**: 2026-02-16 | **成功**: 10 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | A high-performance algorithmic trading platform an... | Rust | 19.3k | 221 | NautilusTrader 是一个用 Rust 开发的高性能算法交易平台，支持事件驱动的策略回测与实时交易部署。提供多资产类别（外汇、加密货币、股票等）交易支持，强调 Python 原生环境一致性，具备高吞吐低延迟特性，适用于高频交易场景。 |
-| 2 | [steipete/gogcli](https://github.com/steipete/gogcli) | Google Suite CLI: Gmail, GCal, GDrive, GContacts.... | Go | 2.9k | 639 | gogcli 是一个功能丰富的Google Workspace命令行工具，支持Gmail、日历、Drive、联系人等核心服务。提供JSON输出、多账户管理、最小权限认证及邮件跟踪功能，适用于自动化脚本和云端服务管理。 |
-| 3 | [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | Open-source AI coworker, with memory... | TypeScript | 6.8k | 819 | Rowboat是一款本地优先的开源AI协作工具，通过连接邮件和会议记录构建长期知识图谱，支持生成文档、会议准备、知识图谱可视化编辑等功能，所有操作均在本地完成确保隐私。 |
-| 4 | [github/gh-aw](https://github.com/github/gh-aw) | GitHub Agentic Workflows... | Go | 2.7k | 213 | GitHub Agentic Workflows允许用户通过自然语言Markdown编写代理工作流，并在GitHub Actions中安全运行。提供沙箱执行、输入消毒、只读权限等安全机制，适用于自动化仓库任务及敏感操作管控。 |
-| 5 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 25.4k | 353 | ChromeDevTools-MCP 是面向AI编码助手的浏览器控制工具，通过Chrome DevTools实现实时浏览器调试、性能分析与自动化操作，支持网络请求分析、截图、控制台监控及基于Puppeteer的可靠自动化流程。 |
-| 6 | [alibaba/zvec](https://github.com/alibaba/zvec) | A lightweight, lightning-fast, in-process vector d... | C++ | 2.3k | 729 | Zvec是阿里巴巴开源的嵌入式向量数据库，支持高速向量搜索和混合查询。具备低延迟、易部署特性，可直接嵌入应用中，兼容稠密/稀疏向量及多类型查询，适用于需要实时相似性搜索的场景。 |
-| 7 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 197.0k | 2.5k | OpenClaw是自托管的个人AI助手，支持多平台消息渠道（如WhatsApp、Telegram、Discord等）和跨设备语音交互，提供本地化、实时的AI服务。通过CLI工具快速部署，兼容多种模型和认证方式。 |
-| 8 | [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine) | Fast and accurate automatic speech recognition (AS... | C | 3.8k | 160 | Moonshine-ai/moonshine 是一个面向边缘设备的高精度自动语音识别（ASR）工具包，支持本地化实时语音处理，具备低延迟、隐私保护和多平台集成能力。提供从26MB轻量模型到高精度大模型的多版本选择，覆盖多种语言及语音任务如语音转录、说话人识别和指令识别。 |
-| 9 | [brave/brave-browser](https://github.com/brave/brave-browser) | Brave browser for Android, iOS, Linux, macOS, Wind... | - | 21.5k | 23 | Brave浏览器多平台源代码仓库，基于Chromium开发，包含广告拦截引擎和跨平台构建工具，支持Windows、macOS、Linux、Android及iOS系统。 |
-| 10 | [SynkraAI/aios-core](https://github.com/SynkraAI/aios-core) | Synkra AIOS: AI-Orchestrated System for Full Stack... | JavaScript | 780 | 168 | Synkra AIOS 是一个基于AI的全栈开发框架，采用CLI优先架构，通过代理协作实现自动化开发流程。核心功能包括智能规划、上下文感知的开发转换及实时可观测性监控，支持软件开发全流程的AI协同与自动化。 |
-| 11 | [ruvnet/wifi-densepose](https://github.com/ruvnet/wifi-densepose) | Production-ready implementation of InvisPose - a r... | Python | 6.5k | 351 | 基于WiFi的隐私保护人体姿态估计系统，通过CSI数据实现非接触式实时全身追踪，支持多人检测与跨场景应用，提供高精度低延迟的无摄像头人体状态感知解决方案。 |
+| 1 | [alibaba/zvec](https://github.com/alibaba/zvec) | A lightweight, lightning-fast, in-process vector d... | C++ | 3.5k | 1.1k | Zvec是阿里巴巴开源的嵌入式向量数据库，基于Proxima引擎打造，支持稠密/稀疏向量混合搜索，提供毫秒级百亿级向量检索能力，无需服务器配置即可快速集成到应用中。 |
+| 2 | [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | A high-performance algorithmic trading platform an... | Rust | 19.8k | 545 | NautilusTrader 是一个用 Rust 开发的高性能算法交易平台，支持事件驱动的策略回测与实时交易部署。提供跨平台兼容性、多种资产类别支持及模块化接口，解决研究与生产环境一致性问题，适用于高频交易场景。 |
+| 3 | [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | Open-source AI coworker, with memory... | TypeScript | 7.3k | 701 | Rowboat是一款本地优先的开源AI协作工具，通过整合邮件、会议记录等数据构建知识图谱，支持生成文档、会议准备、知识图谱可视化编辑等功能，强调隐私和上下文记忆。 |
+| 4 | [steipete/gogcli](https://github.com/steipete/gogcli) | Google Suite CLI: Gmail, GCal, GDrive, GContacts.... | Go | 3.5k | 636 | gogcli 是一个功能丰富的 Google Workspace 命令行工具，支持 Gmail、日历、Drive、联系人等核心服务的管理与自动化操作，提供 JSON 输出、多账户支持及最小权限认证，适用于脚本化处理 Google 服务场景。 |
+| 5 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 201.5k | 3.9k | OpenClaw是跨平台个人AI助手，支持多消息渠道集成与本地运行。可通过多种操作系统和应用（如WhatsApp、Slack、Discord等）交互，具备实时Canvas控制功能，强调快速、本地化和始终在线体验。 |
+| 6 | [SynkraAI/aios-core](https://github.com/SynkraAI/aios-core) | Synkra AIOS: AI-Orchestrated System for Full Stack... | JavaScript | 978 | 205 | Synkra AIOS 是一个基于AI的全栈开发框架，支持自修改开发流程，整合多IDE/CLI工具，提供自动化上下文管理、守则审计及跨平台开发能力，适用于需要AI驱动的敏捷开发场景。 |
+| 7 | [letta-ai/letta-code](https://github.com/letta-ai/letta-code) | The memory-first coding agent... | TypeScript | 1.4k | 51 | Letta Code 是基于 Letta API 的内存优先代码框架，支持跨模型持久化代理，实现长期记忆与学习能力，提升代码开发效率。 |
+| 8 | [ruvnet/wifi-densepose](https://github.com/ruvnet/wifi-densepose) | Production-ready implementation of InvisPose - a r... | Python | 6.8k | 344 | 基于WiFi的实时人体姿态估计系统，通过CSI数据实现无摄像头隐私保护追踪，支持多人体检测与低延迟处理，适用于医疗、智能家居等场景。 |
+| 9 | [seerr-team/seerr](https://github.com/seerr-team/seerr) | Open-source media request and discovery manager fo... | TypeScript | 9.1k | 200 | seerr 是一个开源媒体请求管理工具，支持 Jellyfin、Plex、Emby 平台，提供请求审批、库扫描、权限管理、通知推送等功能，兼容 Sonarr/Radarr 服务，适配多种数据库。 |
+| 10 | [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot) | Open source software that helps you create and dep... | Python | 16.5k | 315 | Hummingbot是一个开源框架，用于设计和部署加密货币高频交易机器人，支持多交易所自动化交易策略，具备社区驱动的代码贡献和知识共享机制，已实现超340亿美元交易量。 |
 
-[查看完整数据](api/github/2026-02-15.json)
+[查看完整数据](api/github/2026-02-16.json)
 <!-- END GITHUB TRENDING -->
 
 
