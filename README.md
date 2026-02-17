@@ -67,22 +67,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-02-16 | **成功**: 10 | **失败**: 0
+**最后更新**: 2026-02-17 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [alibaba/zvec](https://github.com/alibaba/zvec) | A lightweight, lightning-fast, in-process vector d... | C++ | 3.5k | 1.1k | Zvec是阿里巴巴开源的嵌入式向量数据库，基于Proxima引擎打造，支持稠密/稀疏向量混合搜索，提供毫秒级百亿级向量检索能力，无需服务器配置即可快速集成到应用中。 |
-| 2 | [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | A high-performance algorithmic trading platform an... | Rust | 19.8k | 545 | NautilusTrader 是一个用 Rust 开发的高性能算法交易平台，支持事件驱动的策略回测与实时交易部署。提供跨平台兼容性、多种资产类别支持及模块化接口，解决研究与生产环境一致性问题，适用于高频交易场景。 |
-| 3 | [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | Open-source AI coworker, with memory... | TypeScript | 7.3k | 701 | Rowboat是一款本地优先的开源AI协作工具，通过整合邮件、会议记录等数据构建知识图谱，支持生成文档、会议准备、知识图谱可视化编辑等功能，强调隐私和上下文记忆。 |
-| 4 | [steipete/gogcli](https://github.com/steipete/gogcli) | Google Suite CLI: Gmail, GCal, GDrive, GContacts.... | Go | 3.5k | 636 | gogcli 是一个功能丰富的 Google Workspace 命令行工具，支持 Gmail、日历、Drive、联系人等核心服务的管理与自动化操作，提供 JSON 输出、多账户支持及最小权限认证，适用于脚本化处理 Google 服务场景。 |
-| 5 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 201.5k | 3.9k | OpenClaw是跨平台个人AI助手，支持多消息渠道集成与本地运行。可通过多种操作系统和应用（如WhatsApp、Slack、Discord等）交互，具备实时Canvas控制功能，强调快速、本地化和始终在线体验。 |
-| 6 | [SynkraAI/aios-core](https://github.com/SynkraAI/aios-core) | Synkra AIOS: AI-Orchestrated System for Full Stack... | JavaScript | 978 | 205 | Synkra AIOS 是一个基于AI的全栈开发框架，支持自修改开发流程，整合多IDE/CLI工具，提供自动化上下文管理、守则审计及跨平台开发能力，适用于需要AI驱动的敏捷开发场景。 |
-| 7 | [letta-ai/letta-code](https://github.com/letta-ai/letta-code) | The memory-first coding agent... | TypeScript | 1.4k | 51 | Letta Code 是基于 Letta API 的内存优先代码框架，支持跨模型持久化代理，实现长期记忆与学习能力，提升代码开发效率。 |
-| 8 | [ruvnet/wifi-densepose](https://github.com/ruvnet/wifi-densepose) | Production-ready implementation of InvisPose - a r... | Python | 6.8k | 344 | 基于WiFi的实时人体姿态估计系统，通过CSI数据实现无摄像头隐私保护追踪，支持多人体检测与低延迟处理，适用于医疗、智能家居等场景。 |
-| 9 | [seerr-team/seerr](https://github.com/seerr-team/seerr) | Open-source media request and discovery manager fo... | TypeScript | 9.1k | 200 | seerr 是一个开源媒体请求管理工具，支持 Jellyfin、Plex、Emby 平台，提供请求审批、库扫描、权限管理、通知推送等功能，兼容 Sonarr/Radarr 服务，适配多种数据库。 |
-| 10 | [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot) | Open source software that helps you create and dep... | Python | 16.5k | 315 | Hummingbot是一个开源框架，用于设计和部署加密货币高频交易机器人，支持多交易所自动化交易策略，具备社区驱动的代码贡献和知识共享机制，已实现超340亿美元交易量。 |
+| 1 | [p-e-w/heretic](https://github.com/p-e-w/heretic) | Fully automatic censorship removal for language mo... | Python | 7.2k | 666 | Heretic是一款自动化语言模型审查移除工具，通过方向性消融与Optuna优化算法，在无需人工干预的情况下降低模型拒绝率并最小化对原始模型能力的损害，实现高效去审查化。 |
+| 2 | [seerr-team/seerr](https://github.com/seerr-team/seerr) | Open-source media request and discovery manager fo... | TypeScript | 9.3k | 283 | seerr-team/seerr是开源媒体请求管理工具，支持Jellyfin、Plex、Emby，提供请求管理、库扫描、权限控制、通知推送及移动适配功能，集成Sonarr/Radarr并支持多数据库。 |
+| 3 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 53.6k | 716 | Superpowers 是一个基于可组合技能的软件开发框架，通过智能代理实现自动化开发流程。强调TDD、YAGNI和DRY原则，支持需求确认、分块设计、自动规划与子代理协作开发，提升编码效率与质量。 |
+| 4 | [steipete/gogcli](https://github.com/steipete/gogcli) | Google Suite CLI: Gmail, GCal, GDrive, GContacts.... | Go | 3.9k | 469 | gogcli 是一个用 Go 编写的多功能 Google 套件命令行工具，支持 Gmail、日历、驱动、联系人等核心功能。提供 JSON 输出、多账户管理及最小权限认证，适用于自动化脚本和云端服务管理。 |
+| 5 | [alibaba/zvec](https://github.com/alibaba/zvec) | A lightweight, lightning-fast, in-process vector d... | C++ | 4.5k | 1.5k | Zvec是阿里巴巴开源的嵌入式向量数据库，以低延迟和高效率著称，支持稠密/稀疏向量混合搜索，无需服务器配置即可快速集成到应用中，适用于实时相似性检索场景。 |
+| 6 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 205.2k | 4.2k | OpenClaw是基于TypeScript的个人AI助手，支持多平台消息通道和设备交互，强调本地化部署与实时交互能力。提供跨平台消息推送、语音交互及Canvas渲染功能，适用于需要私有化部署的AI助手场景。 |
+| 7 | [SynkraAI/aios-core](https://github.com/SynkraAI/aios-core) | Synkra AIOS: AI-Orchestrated System for Full Stack... | JavaScript | 1.2k | 194 | Synkra AIOS 是一个基于AI的全栈开发框架，通过代理实现自我修改和自动化。支持多种IDE/CLI集成，提供敏捷开发流程和跨领域应用能力，强调AI驱动的代码生成与系统编排。 |
+| 8 | [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) | Learn System Design concepts and prepare for inter... | Java | 32.8k | 457 | 提供系统设计学习资源和面试准备材料的Java项目，包含设计文档、架构图和实现示例，帮助开发者掌握分布式系统设计核心概念。 |
+| 9 | [steipete/summarize](https://github.com/steipete/summarize) | Point at any URL/YouTube/Podcast or file. Get the ... | TypeScript | 3.4k | 117 | 提供URL、媒体文件及播客的快速摘要工具，支持CLI命令行和Chrome/Firefox浏览器扩展，具备媒体内容识别、OCR文字提取、流式输出和多模型支持。 |
+| 10 | [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot) | Open source software that helps you create and dep... | Python | 17.0k | 565 | Hummingbot是基于Python的开源高频加密货币交易框架，支持多交易所自动化交易策略开发与部署，提供策略回测、实时交易和社区共享功能，已实现超340亿美元交易量。 |
+| 11 | [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) | A collection of projects designed to help develope... | Python | 14.5k | 102 | 该项目提供多个基于Claude API的快速启动示例，涵盖客户支持、金融分析、计算机控制、浏览器自动化及自主编码场景，帮助开发者快速构建可部署应用。 |
+| 12 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI tool for configuring and monitoring Claude Cod... | Python | 20.7k | 110 | 提供Claude Code的CLI配置工具，包含100+AI代理、命令、MCPs等模板，支持快速安装开发栈和交互式配置，提升开发效率。 |
+| 13 | [OpenCTI-Platform/opencti](https://github.com/OpenCTI-Platform/opencti) | Open Cyber Threat Intelligence Platform... | TypeScript | 8.4k | 13 | OpenCTI是一个基于STIX2标准的开源网络威胁情报管理平台，支持结构化存储技术及非技术威胁信息，提供GraphQL API和前端界面，可集成MISP、TheHive、MITRE ATT&CK等工具，实现数据导入导出与关联分析。 |
 
-[查看完整数据](api/github/2026-02-16.json)
+[查看完整数据](api/github/2026-02-17.json)
 <!-- END GITHUB TRENDING -->
 
 

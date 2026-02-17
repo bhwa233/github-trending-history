@@ -1,0 +1,261 @@
+{
+  "date": "2026-02-17",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "stars": 7160,
+      "forks": 718,
+      "todayStars": 666,
+      "url": "https://github.com/p-e-w/heretic",
+      "aiSummary": {
+        "summary": "Heretic是一款自动化语言模型审查移除工具，通过方向性消融与Optuna优化算法，在无需人工干预的情况下降低模型拒绝率并最小化对原始模型能力的损害，实现高效去审查化。",
+        "techStack": [
+          "Python",
+          "Optuna",
+          "PyTorch",
+          "Transformers"
+        ],
+        "useCase": "自动化去除语言模型的安全对齐限制，提升模型输出自由度与原始性能保留度"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "seerr-team/seerr",
+      "description": "Open-source media request and discovery manager for Jellyfin, Plex, and Emby.",
+      "language": "TypeScript",
+      "stars": 9313,
+      "forks": 610,
+      "todayStars": 283,
+      "url": "https://github.com/seerr-team/seerr",
+      "aiSummary": {
+        "summary": "seerr-team/seerr是开源媒体请求管理工具，支持Jellyfin、Plex、Emby，提供请求管理、库扫描、权限控制、通知推送及移动适配功能，集成Sonarr/Radarr并支持多数据库。",
+        "techStack": [
+          "TypeScript",
+          "PostgreSQL",
+          "SQLite"
+        ],
+        "useCase": "适用于家庭影院或媒体中心的媒体内容请求与库管理场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 53565,
+      "forks": 4063,
+      "todayStars": 716,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发框架，通过智能代理实现自动化开发流程。强调TDD、YAGNI和DRY原则，支持需求确认、分块设计、自动规划与子代理协作开发，提升编码效率与质量。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "自动化软件开发流程，提升编码效率与质量"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "steipete/gogcli",
+      "description": "Google Suite CLI: Gmail, GCal, GDrive, GContacts.",
+      "language": "Go",
+      "stars": 3851,
+      "forks": 319,
+      "todayStars": 469,
+      "url": "https://github.com/steipete/gogcli",
+      "aiSummary": {
+        "summary": "gogcli 是一个用 Go 编写的多功能 Google 套件命令行工具，支持 Gmail、日历、驱动、联系人等核心功能。提供 JSON 输出、多账户管理及最小权限认证，适用于自动化脚本和云端服务管理。",
+        "techStack": [
+          "Go",
+          "Google Workspace API",
+          "JSON"
+        ],
+        "useCase": "开发人员及系统管理员通过命令行高效管理 Google 云端服务与自动化工作流"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "alibaba/zvec",
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "language": "C++",
+      "stars": 4464,
+      "forks": 238,
+      "todayStars": 1473,
+      "url": "https://github.com/alibaba/zvec",
+      "aiSummary": {
+        "summary": "Zvec是阿里巴巴开源的嵌入式向量数据库，以低延迟和高效率著称，支持稠密/稀疏向量混合搜索，无需服务器配置即可快速集成到应用中，适用于实时相似性检索场景。",
+        "techStack": [
+          "C++",
+          "Proxima引擎",
+          "多语言绑定"
+        ],
+        "useCase": "需要低延迟向量搜索的嵌入式应用场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "stars": 205199,
+      "forks": 37381,
+      "todayStars": 4201,
+      "url": "https://github.com/openclaw/openclaw",
+      "aiSummary": {
+        "summary": "OpenClaw是基于TypeScript的个人AI助手，支持多平台消息通道和设备交互，强调本地化部署与实时交互能力。提供跨平台消息推送、语音交互及Canvas渲染功能，适用于需要私有化部署的AI助手场景。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "OAuth"
+        ],
+        "useCase": "需要本地化部署的多平台AI助手场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "SynkraAI/aios-core",
+      "description": "Synkra AIOS: AI-Orchestrated System for Full Stack Development - Core Framework v4.0",
+      "language": "JavaScript",
+      "stars": 1186,
+      "forks": 403,
+      "todayStars": 194,
+      "url": "https://github.com/SynkraAI/aios-core",
+      "aiSummary": {
+        "summary": "Synkra AIOS 是一个基于AI的全栈开发框架，通过代理实现自我修改和自动化。支持多种IDE/CLI集成，提供敏捷开发流程和跨领域应用能力，强调AI驱动的代码生成与系统编排。",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "AI驱动的全栈开发与跨平台自动化开发"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "ashishps1/awesome-system-design-resources",
+      "description": "Learn System Design concepts and prepare for interviews using free resources.",
+      "language": "Java",
+      "stars": 32785,
+      "forks": 7300,
+      "todayStars": 457,
+      "url": "https://github.com/ashishps1/awesome-system-design-resources",
+      "aiSummary": {
+        "summary": "提供系统设计学习资源和面试准备材料的Java项目，包含设计文档、架构图和实现示例，帮助开发者掌握分布式系统设计核心概念。",
+        "techStack": [
+          "Java",
+          "Markdown",
+          "GitHub Pages"
+        ],
+        "useCase": "系统设计面试准备与分布式系统架构学习"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "steipete/summarize",
+      "description": "Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension.",
+      "language": "TypeScript",
+      "stars": 3419,
+      "forks": 216,
+      "todayStars": 117,
+      "url": "https://github.com/steipete/summarize",
+      "aiSummary": {
+        "summary": "提供URL、媒体文件及播客的快速摘要工具，支持CLI命令行和Chrome/Firefox浏览器扩展，具备媒体内容识别、OCR文字提取、流式输出和多模型支持。",
+        "techStack": [
+          "TypeScript",
+          "Chrome Extension",
+          "CLI"
+        ],
+        "useCase": "适用于需要从网页、视频音频文件中高效提取关键信息的场景"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "hummingbot/hummingbot",
+      "description": "Open source software that helps you create and deploy high-frequency crypto trading bots",
+      "language": "Python",
+      "stars": 17014,
+      "forks": 4416,
+      "todayStars": 565,
+      "url": "https://github.com/hummingbot/hummingbot",
+      "aiSummary": {
+        "summary": "Hummingbot是基于Python的开源高频加密货币交易框架，支持多交易所自动化交易策略开发与部署，提供策略回测、实时交易和社区共享功能，已实现超340亿美元交易量。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Blockchain"
+        ],
+        "useCase": "适用于加密货币高频交易策略开发与自动化投资场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "language": "Python",
+      "stars": 14457,
+      "forks": 2426,
+      "todayStars": 102,
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "aiSummary": {
+        "summary": "该项目提供多个基于Claude API的快速启动示例，涵盖客户支持、金融分析、计算机控制、浏览器自动化及自主编码场景，帮助开发者快速构建可部署应用。",
+        "techStack": [
+          "Python",
+          "Claude API",
+          "Playwright",
+          "Git",
+          "Claude Agent SDK"
+        ],
+        "useCase": "加速开发者使用Claude API构建智能应用的开发流程"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "stars": 20706,
+      "forks": 1935,
+      "todayStars": 110,
+      "url": "https://github.com/davila7/claude-code-templates",
+      "aiSummary": {
+        "summary": "提供Claude Code的CLI配置工具，包含100+AI代理、命令、MCPs等模板，支持快速安装开发栈和交互式配置，提升开发效率。",
+        "techStack": [
+          "Python",
+          "CLI工具",
+          "Node.js"
+        ],
+        "useCase": "快速构建和管理AI驱动的开发环境配置"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "OpenCTI-Platform/opencti",
+      "description": "Open Cyber Threat Intelligence Platform",
+      "language": "TypeScript",
+      "stars": 8392,
+      "forks": 1227,
+      "todayStars": 13,
+      "url": "https://github.com/OpenCTI-Platform/opencti",
+      "aiSummary": {
+        "summary": "OpenCTI是一个基于STIX2标准的开源网络威胁情报管理平台，支持结构化存储技术及非技术威胁信息，提供GraphQL API和前端界面，可集成MISP、TheHive、MITRE ATT&CK等工具，实现数据导入导出与关联分析。",
+        "techStack": [
+          "TypeScript",
+          "GraphQL",
+          "STIX2",
+          "MITRE ATT&CK"
+        ],
+        "useCase": "企业及组织用于整合、分析和共享网络威胁情报，提升安全分析效率。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-17T23:36:57.724Z",
+    "duration": "127s",
+    "version": "1.0.0"
+  }
+}
