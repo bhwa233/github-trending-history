@@ -1,0 +1,226 @@
+{
+  "date": "2026-02-18",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "alibaba/zvec",
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "language": "C++",
+      "stars": 4889,
+      "forks": 267,
+      "todayStars": 501,
+      "url": "https://github.com/alibaba/zvec",
+      "aiSummary": {
+        "summary": "Zvec是阿里开源的轻量级嵌入式向量数据库，基于Proxima引擎实现低延迟、高并发的向量相似性搜索。支持密集/稀疏向量与混合搜索，无需服务器配置，可直接嵌入应用中。提供Python/Node.js接口，适用于需要高速向量检索的场景。",
+        "techStack": [
+          "C++",
+          "向量数据库",
+          "相似性搜索"
+        ],
+        "useCase": "适用于需要高效向量相似性搜索的嵌入式应用场景，如推荐系统或搜索优化。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "stars": 7994,
+      "forks": 805,
+      "todayStars": 947,
+      "url": "https://github.com/p-e-w/heretic",
+      "aiSummary": {
+        "summary": "Heretic 是一个自动化工具，通过方向性消融和Optuna优化，移除语言模型中的审查机制，同时最小化拒绝率和KL散度，保留模型性能。无需人工干预，支持一键去安全对齐。",
+        "techStack": [
+          "Python",
+          "Optuna",
+          "PyTorch"
+        ],
+        "useCase": "自动化移除语言模型审查机制，提升模型安全性与性能平衡。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "OpenCTI-Platform/opencti",
+      "description": "Open Cyber Threat Intelligence Platform",
+      "language": "TypeScript",
+      "stars": 8678,
+      "forks": 1239,
+      "todayStars": 282,
+      "url": "https://github.com/OpenCTI-Platform/opencti",
+      "aiSummary": {
+        "summary": "OpenCTI是一个基于STIX2标准的开源网络威胁情报管理平台，提供GraphQL API和前端界面，支持与MISP、TheHive等工具集成。可结构化存储技术及非技术威胁信息，支持数据导入导出、关系推理和MITRE ATT&CK框架对接，适用于企业级威胁情报分析与知识管理。",
+        "techStack": [
+          "TypeScript",
+          "GraphQL",
+          "React"
+        ],
+        "useCase": "企业级网络威胁情报管理与分析"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "QwenLM/qwen-code",
+      "description": "An open-source AI agent that lives in your terminal.",
+      "language": "TypeScript",
+      "stars": 18813,
+      "forks": 1636,
+      "todayStars": 82,
+      "url": "https://github.com/QwenLM/qwen-code",
+      "aiSummary": {
+        "summary": "Qwen Code是终端导向的开源AI代理，支持多协议API调用，提供代码理解、自动化任务及IDE集成，优化Qwen3-Coder模型实现高效开发。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "OpenAI API"
+        ],
+        "useCase": "适用于需要终端内代码辅助开发的开发者"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "NirDiamant/RAG_Techniques",
+      "description": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. RAG systems combine information retrieval with generative models to provide accurate and contextually rich responses.",
+      "language": "Jupyter Notebook",
+      "stars": 25220,
+      "forks": 2965,
+      "todayStars": 280,
+      "url": "https://github.com/NirDiamant/RAG_Techniques",
+      "aiSummary": {
+        "summary": "该项目聚焦于检索增强生成（RAG）技术，提供多种高级方法教程，旨在提升生成模型的准确性与上下文相关性，适用于研究和开发场景。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "NLP"
+        ],
+        "useCase": "研究和开发更高效、准确的RAG系统以增强生成模型性能。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "harvard-edge/cs249r_book",
+      "description": "Introduction to Machine Learning Systems",
+      "language": "JavaScript",
+      "stars": 19635,
+      "forks": 2296,
+      "todayStars": 737,
+      "url": "https://github.com/harvard-edge/cs249r_book",
+      "aiSummary": {
+        "summary": "该项目是AI系统工程的开源学习资源库，包含教材、TinyTorch框架、硬件套件和实验案例，旨在教授如何构建高效、可靠的智能系统。通过理论学习、代码实践和硬件部署三个路径，帮助开发者将AI模型转化为实际应用。",
+        "techStack": [
+          "JavaScript",
+          "TinyTorch",
+          "Arduino",
+          "Raspberry Pi"
+        ],
+        "useCase": "适用于AI系统工程教育及机器学习系统开发实践"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 54429,
+      "forks": 4132,
+      "todayStars": 868,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发框架，通过代理自动化流程提升编码效率。它强调测试驱动开发（TDD）、YAGNI 和 DRY 原则，支持代理自主完成需求分析、设计确认、任务分解及代码实现，减少人工干预。",
+        "techStack": [
+          "Shell",
+          "AI代理框架",
+          "TDD工具"
+        ],
+        "useCase": "适用于需要自动化软件开发流程并强调测试驱动和简洁设计的项目"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "HailToDodongo/pyrite64",
+      "description": "N64 Game-Engine and Editor using libdragon & tiny3d",
+      "language": "C++",
+      "stars": 1247,
+      "forks": 40,
+      "todayStars": 407,
+      "url": "https://github.com/HailToDodongo/pyrite64",
+      "aiSummary": {
+        "summary": "Pyrite64是基于C++的N64游戏引擎与编辑器，采用libdragon和tiny3d开发，支持3D模型导入、HDR+Bloom/大纹理渲染、节点图脚本等功能。专注于真实硬件开发，需配合Ares等模拟器测试，适用于独立游戏开发与复古游戏制作。",
+        "techStack": [
+          "C++",
+          "libdragon",
+          "tiny3d",
+          "GLTF",
+          "节点图编辑器"
+        ],
+        "useCase": "开发运行于N64硬件或模拟器的3D游戏项目"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "ComposioHQ/composio",
+      "description": "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.",
+      "language": "TypeScript",
+      "stars": 26746,
+      "forks": 4418,
+      "todayStars": 14,
+      "url": "https://github.com/ComposioHQ/composio",
+      "aiSummary": {
+        "summary": "Composio提供AI代理工具链，支持1000+工具集成、上下文管理、认证及沙箱环境，兼容Python/TypeScript。通过SDK简化工具调用与代理构建，适用于自动化任务处理与智能应用开发。",
+        "techStack": [
+          "TypeScript",
+          "Python",
+          "OpenAI Agents",
+          "npm",
+          "pip"
+        ],
+        "useCase": "开发需集成多工具的AI代理应用，如自动化数据处理与智能客服系统。"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "p2r3/convert",
+      "description": "Truly universal online file converter",
+      "language": "TypeScript",
+      "stars": 1402,
+      "forks": 128,
+      "todayStars": 397,
+      "url": "https://github.com/p2r3/convert",
+      "aiSummary": {
+        "summary": "p2r3/convert 是一个基于浏览器的在线文件转换工具，支持跨类型文件格式转换（如视频转PDF）。通过本地处理避免隐私泄露，提供通用性解决方案，用户可直接拖拽文件进行转换。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要安全转换多种文件格式的在线场景，尤其适合非主流格式转换需求"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "stars": 208684,
+      "forks": 38415,
+      "todayStars": 3796,
+      "url": "https://github.com/openclaw/openclaw",
+      "aiSummary": {
+        "summary": "OpenClaw是跨平台个人AI助手，支持多渠道通讯（如WhatsApp、Telegram）和本地化部署，提供实时交互与多模型集成，强调隐私和始终在线体验。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Docker"
+        ],
+        "useCase": "需要多平台隐私保护AI助手的个人用户场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-18T23:37:22.338Z",
+    "duration": "115s",
+    "version": "1.0.0"
+  }
+}

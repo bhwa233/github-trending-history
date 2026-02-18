@@ -67,25 +67,23 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-02-17 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-02-18 | **成功**: 11 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [p-e-w/heretic](https://github.com/p-e-w/heretic) | Fully automatic censorship removal for language mo... | Python | 7.2k | 666 | Heretic是一款自动化语言模型审查移除工具，通过方向性消融与Optuna优化算法，在无需人工干预的情况下降低模型拒绝率并最小化对原始模型能力的损害，实现高效去审查化。 |
-| 2 | [seerr-team/seerr](https://github.com/seerr-team/seerr) | Open-source media request and discovery manager fo... | TypeScript | 9.3k | 283 | seerr-team/seerr是开源媒体请求管理工具，支持Jellyfin、Plex、Emby，提供请求管理、库扫描、权限控制、通知推送及移动适配功能，集成Sonarr/Radarr并支持多数据库。 |
-| 3 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 53.6k | 716 | Superpowers 是一个基于可组合技能的软件开发框架，通过智能代理实现自动化开发流程。强调TDD、YAGNI和DRY原则，支持需求确认、分块设计、自动规划与子代理协作开发，提升编码效率与质量。 |
-| 4 | [steipete/gogcli](https://github.com/steipete/gogcli) | Google Suite CLI: Gmail, GCal, GDrive, GContacts.... | Go | 3.9k | 469 | gogcli 是一个用 Go 编写的多功能 Google 套件命令行工具，支持 Gmail、日历、驱动、联系人等核心功能。提供 JSON 输出、多账户管理及最小权限认证，适用于自动化脚本和云端服务管理。 |
-| 5 | [alibaba/zvec](https://github.com/alibaba/zvec) | A lightweight, lightning-fast, in-process vector d... | C++ | 4.5k | 1.5k | Zvec是阿里巴巴开源的嵌入式向量数据库，以低延迟和高效率著称，支持稠密/稀疏向量混合搜索，无需服务器配置即可快速集成到应用中，适用于实时相似性检索场景。 |
-| 6 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 205.2k | 4.2k | OpenClaw是基于TypeScript的个人AI助手，支持多平台消息通道和设备交互，强调本地化部署与实时交互能力。提供跨平台消息推送、语音交互及Canvas渲染功能，适用于需要私有化部署的AI助手场景。 |
-| 7 | [SynkraAI/aios-core](https://github.com/SynkraAI/aios-core) | Synkra AIOS: AI-Orchestrated System for Full Stack... | JavaScript | 1.2k | 194 | Synkra AIOS 是一个基于AI的全栈开发框架，通过代理实现自我修改和自动化。支持多种IDE/CLI集成，提供敏捷开发流程和跨领域应用能力，强调AI驱动的代码生成与系统编排。 |
-| 8 | [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources) | Learn System Design concepts and prepare for inter... | Java | 32.8k | 457 | 提供系统设计学习资源和面试准备材料的Java项目，包含设计文档、架构图和实现示例，帮助开发者掌握分布式系统设计核心概念。 |
-| 9 | [steipete/summarize](https://github.com/steipete/summarize) | Point at any URL/YouTube/Podcast or file. Get the ... | TypeScript | 3.4k | 117 | 提供URL、媒体文件及播客的快速摘要工具，支持CLI命令行和Chrome/Firefox浏览器扩展，具备媒体内容识别、OCR文字提取、流式输出和多模型支持。 |
-| 10 | [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot) | Open source software that helps you create and dep... | Python | 17.0k | 565 | Hummingbot是基于Python的开源高频加密货币交易框架，支持多交易所自动化交易策略开发与部署，提供策略回测、实时交易和社区共享功能，已实现超340亿美元交易量。 |
-| 11 | [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) | A collection of projects designed to help develope... | Python | 14.5k | 102 | 该项目提供多个基于Claude API的快速启动示例，涵盖客户支持、金融分析、计算机控制、浏览器自动化及自主编码场景，帮助开发者快速构建可部署应用。 |
-| 12 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI tool for configuring and monitoring Claude Cod... | Python | 20.7k | 110 | 提供Claude Code的CLI配置工具，包含100+AI代理、命令、MCPs等模板，支持快速安装开发栈和交互式配置，提升开发效率。 |
-| 13 | [OpenCTI-Platform/opencti](https://github.com/OpenCTI-Platform/opencti) | Open Cyber Threat Intelligence Platform... | TypeScript | 8.4k | 13 | OpenCTI是一个基于STIX2标准的开源网络威胁情报管理平台，支持结构化存储技术及非技术威胁信息，提供GraphQL API和前端界面，可集成MISP、TheHive、MITRE ATT&CK等工具，实现数据导入导出与关联分析。 |
+| 1 | [alibaba/zvec](https://github.com/alibaba/zvec) | A lightweight, lightning-fast, in-process vector d... | C++ | 4.9k | 501 | Zvec是阿里开源的轻量级嵌入式向量数据库，基于Proxima引擎实现低延迟、高并发的向量相似性搜索。支持密集/稀疏向量与混合搜索，无需服务器配置，可直接嵌入应用中。提供Python/Node.js接口，适用于需要高速向量检索的场景。 |
+| 2 | [p-e-w/heretic](https://github.com/p-e-w/heretic) | Fully automatic censorship removal for language mo... | Python | 8.0k | 947 | Heretic 是一个自动化工具，通过方向性消融和Optuna优化，移除语言模型中的审查机制，同时最小化拒绝率和KL散度，保留模型性能。无需人工干预，支持一键去安全对齐。 |
+| 3 | [OpenCTI-Platform/opencti](https://github.com/OpenCTI-Platform/opencti) | Open Cyber Threat Intelligence Platform... | TypeScript | 8.7k | 282 | OpenCTI是一个基于STIX2标准的开源网络威胁情报管理平台，提供GraphQL API和前端界面，支持与MISP、TheHive等工具集成。可结构化存储技术及非技术威胁信息，支持数据导入导出、关系推理和MITRE ATT&CK框架对接，适用于企业级威胁情报分析与知识管理。 |
+| 4 | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | An open-source AI agent that lives in your termina... | TypeScript | 18.8k | 82 | Qwen Code是终端导向的开源AI代理，支持多协议API调用，提供代码理解、自动化任务及IDE集成，优化Qwen3-Coder模型实现高效开发。 |
+| 5 | [NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | This repository showcases various advanced techniq... | Jupyter Notebook | 25.2k | 280 | 该项目聚焦于检索增强生成（RAG）技术，提供多种高级方法教程，旨在提升生成模型的准确性与上下文相关性，适用于研究和开发场景。 |
+| 6 | [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book) | Introduction to Machine Learning Systems... | JavaScript | 19.6k | 737 | 该项目是AI系统工程的开源学习资源库，包含教材、TinyTorch框架、硬件套件和实验案例，旨在教授如何构建高效、可靠的智能系统。通过理论学习、代码实践和硬件部署三个路径，帮助开发者将AI模型转化为实际应用。 |
+| 7 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 54.4k | 868 | Superpowers 是一个基于可组合技能的软件开发框架，通过代理自动化流程提升编码效率。它强调测试驱动开发（TDD）、YAGNI 和 DRY 原则，支持代理自主完成需求分析、设计确认、任务分解及代码实现，减少人工干预。 |
+| 8 | [HailToDodongo/pyrite64](https://github.com/HailToDodongo/pyrite64) | N64 Game-Engine and Editor using libdragon & tiny3... | C++ | 1.2k | 407 | Pyrite64是基于C++的N64游戏引擎与编辑器，采用libdragon和tiny3d开发，支持3D模型导入、HDR+Bloom/大纹理渲染、节点图脚本等功能。专注于真实硬件开发，需配合Ares等模拟器测试，适用于独立游戏开发与复古游戏制作。 |
+| 9 | [ComposioHQ/composio](https://github.com/ComposioHQ/composio) | Composio powers 1000+ toolkits, tool search, conte... | TypeScript | 26.7k | 14 | Composio提供AI代理工具链，支持1000+工具集成、上下文管理、认证及沙箱环境，兼容Python/TypeScript。通过SDK简化工具调用与代理构建，适用于自动化任务处理与智能应用开发。 |
+| 10 | [p2r3/convert](https://github.com/p2r3/convert) | Truly universal online file converter... | TypeScript | 1.4k | 397 | p2r3/convert 是一个基于浏览器的在线文件转换工具，支持跨类型文件格式转换（如视频转PDF）。通过本地处理避免隐私泄露，提供通用性解决方案，用户可直接拖拽文件进行转换。 |
+| 11 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 208.7k | 3.8k | OpenClaw是跨平台个人AI助手，支持多渠道通讯（如WhatsApp、Telegram）和本地化部署，提供实时交互与多模型集成，强调隐私和始终在线体验。 |
 
-[查看完整数据](api/github/2026-02-17.json)
+[查看完整数据](api/github/2026-02-18.json)
 <!-- END GITHUB TRENDING -->
 
 
