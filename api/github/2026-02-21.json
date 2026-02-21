@@ -1,0 +1,270 @@
+{
+  "date": "2026-02-21",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "vxcontrol/pentagi",
+      "description": "✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "stars": 5491,
+      "forks": 712,
+      "todayStars": 2107,
+      "url": "https://github.com/vxcontrol/pentagi",
+      "aiSummary": {
+        "summary": "PentAGI是基于AI的自动化渗透测试系统，支持20+专业安全工具集成，具备自主执行渗透测试、知识图谱分析、多搜索API联动和实时监控能力，采用Docker沙盒确保安全性。",
+        "techStack": [
+          "Go",
+          "Docker",
+          "Neo4j",
+          "Grafana",
+          "Prometheus"
+        ],
+        "useCase": "自动化渗透测试与企业级安全评估"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars": 1025,
+      "forks": 92,
+      "todayStars": 133,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "aiSummary": {
+        "summary": "GitNexus 是一个浏览器端代码知识图谱工具，通过本地索引GitHub仓库或ZIP文件生成交互式知识图谱，并集成Graph RAG代理实现深度代码分析。支持CLI和Web UI两种使用方式，提供依赖关系追踪、调用链分析等功能，增强AI代码编辑器的上下文感知能力。",
+        "techStack": [
+          "TypeScript",
+          "Tree-sitter",
+          "KuzuDB",
+          "WebAssembly"
+        ],
+        "useCase": "适用于需要AI代理深度理解代码结构的开发环境与代码探索场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 56968,
+      "forks": 4318,
+      "todayStars": 769,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发框架，通过代理驱动开发实现自动化流程。强调测试驱动开发（TDD）、YAGNI 和 DRY 原则，支持编码代理自主执行任务，减少人工干预，提升开发效率。",
+        "techStack": [
+          "Shell",
+          "TDD",
+          "YAGNI",
+          "DRY",
+          "Agent-driven Development"
+        ],
+        "useCase": "适用于需要自动化软件开发流程并提升代码质量的团队或个人"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "huggingface/skills",
+      "description": "",
+      "language": "Python",
+      "stars": 1666,
+      "forks": 148,
+      "todayStars": 246,
+      "url": "https://github.com/huggingface/skills",
+      "aiSummary": {
+        "summary": "Hugging Face Skills 提供标准化的AI/ML任务技能定义，支持多平台编码代理工具。通过自包含文件夹封装任务指令、脚本和资源，兼容Claude Code、Codex、Gemini等工具，简化AI代理的技能调用与扩展。",
+        "techStack": [
+          "Python",
+          "YAML",
+          "CLI"
+        ],
+        "useCase": "跨平台AI/ML任务技能标准化定义与集成"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "PowerShell/PowerShell",
+      "description": "PowerShell for every system!",
+      "language": "C#",
+      "stars": 51534,
+      "forks": 8182,
+      "todayStars": 60,
+      "url": "https://github.com/PowerShell/PowerShell",
+      "aiSummary": {
+        "summary": "PowerShell 是跨平台自动化与配置工具，支持 Windows、Linux 和 macOS。基于 C# 开发，提供命令行外壳、脚本语言及 Cmdlet 框架，擅长处理结构化数据、REST API 和对象模型，适用于系统管理与自动化任务。",
+        "techStack": [
+          "C#",
+          "PowerShell",
+          ".NET",
+          "REST API",
+          "JSON"
+        ],
+        "useCase": "跨平台系统自动化管理及配置部署"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Shell",
+      "stars": 68387,
+      "forks": 5363,
+      "todayStars": 219,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code是集成在终端的代理编程工具，通过自然语言指令执行代码任务、解释代码逻辑及管理Git流程，支持多平台安装并提供插件扩展功能，旨在提升开发效率。",
+        "techStack": [
+          "Shell",
+          "Git",
+          "Node.js"
+        ],
+        "useCase": "开发者通过自然语言指令加速代码编写与版本控制操作"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "stan-smith/FossFLOW",
+      "description": "Make beautiful isometric infrastructure diagrams",
+      "language": "TypeScript",
+      "stars": 17760,
+      "forks": 1161,
+      "todayStars": 101,
+      "url": "https://github.com/stan-smith/FossFLOW",
+      "aiSummary": {
+        "summary": "FossFLOW 是基于 React 和 TypeScript 的开源等轴测图工具，支持离线使用和 Docker 部署。提供可视化界面创建网络基础设施 diagram，集成 Isoflow 库，具备 PWA 特性与本地存储功能。",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "Docker"
+        ],
+        "useCase": "适用于网络架构与系统基础设施的等轴测可视化设计"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "ggml-org/ggml",
+      "description": "Tensor library for machine learning",
+      "language": "C++",
+      "stars": 14058,
+      "forks": 1475,
+      "todayStars": 43,
+      "url": "https://github.com/ggml-org/ggml",
+      "aiSummary": {
+        "summary": "ggml是一个高性能的机器学习张量库，提供跨平台的低级实现，支持整数量化、自动微分和多种优化器，无第三方依赖且运行时零内存分配，适用于高效模型部署。",
+        "techStack": [
+          "C++",
+          "CUDA",
+          "HIPBLAS",
+          "SYCL",
+          "Android NDK"
+        ],
+        "useCase": "需要跨平台部署和优化的机器学习推理场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Stremio/stremio-web",
+      "description": "Stremio - Freedom to Stream",
+      "language": "JavaScript",
+      "stars": 9441,
+      "forks": 1052,
+      "todayStars": 292,
+      "url": "https://github.com/Stremio/stremio-web",
+      "aiSummary": {
+        "summary": "Stremio-web 是一个开源媒体中心应用，允许用户通过插件集成多平台视频资源，实现视频内容的发现、播放与管理。基于JavaScript构建，支持模块化扩展，提供统一的观影体验。",
+        "techStack": [
+          "JavaScript",
+          "Webpack",
+          "ESLint"
+        ],
+        "useCase": "个人视频资源管理与多源内容聚合播放"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "HandsOnLLM/Hands-On-Large-Language-Models",
+      "description": "Official code repo for the O'Reilly Book - \"Hands-On Large Language Models\"",
+      "language": "Jupyter Notebook",
+      "stars": 22539,
+      "forks": 5243,
+      "todayStars": 341,
+      "url": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models",
+      "aiSummary": {
+        "summary": "该项目是O'Reilly书籍《Hands-On Large Language Models》的配套代码库，包含12章内容，涵盖语言模型基础、Transformer结构、文本生成、微调技术、多模态模型等，通过Jupyter Notebook提供可运行的代码示例。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "PyTorch"
+        ],
+        "useCase": "用于学习和实践大型语言模型的核心概念与技术应用"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "RichardAtCT/claude-code-telegram",
+      "description": "A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence.",
+      "language": "Python",
+      "stars": 1377,
+      "forks": 170,
+      "todayStars": 109,
+      "url": "https://github.com/RichardAtCT/claude-code-telegram",
+      "aiSummary": {
+        "summary": "该项目是一个Telegram机器人，允许用户通过自然语言与Claude Code进行交互，实现远程代码分析、编辑和测试，支持会话持久化和多设备访问，提升开发效率。",
+        "techStack": [
+          "Python",
+          "Telegram Bot API",
+          "Claude Code CLI"
+        ],
+        "useCase": "适合需要通过Telegram远程获取AI代码协助和持续开发的开发者群体。"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "cloudflare/agents",
+      "description": "Build and deploy AI Agents on Cloudflare",
+      "language": "TypeScript",
+      "stars": 3422,
+      "forks": 387,
+      "todayStars": 56,
+      "url": "https://github.com/cloudflare/agents",
+      "aiSummary": {
+        "summary": "Cloudflare Agents 提供基于 Durable Objects 的持久化 AI 代理框架，支持状态管理、实时通信与分布式部署，适用于需要高并发会话管理的场景。",
+        "techStack": [
+          "TypeScript",
+          "Cloudflare Durable Objects",
+          "React"
+        ],
+        "useCase": "实时协作应用与分布式AI代理部署"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "hiddify/hiddify-app",
+      "description": "Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.",
+      "language": "Dart",
+      "stars": 26384,
+      "forks": 2279,
+      "todayStars": 121,
+      "url": "https://github.com/hiddify/hiddify-app",
+      "aiSummary": {
+        "summary": "Hiddify App是一款多平台开源代理客户端，支持自动节点选择、TUN模式和多种协议（如Sing-box、Vless、Hysteria等），提供安全隐私保护及无广告体验，适配Windows、macOS、Linux、Android和iOS系统。",
+        "techStack": [
+          "Dart",
+          "Flutter",
+          "Sing-box"
+        ],
+        "useCase": "适用于需要跨平台代理服务及网络隐私保护的用户场景。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-21T23:31:48.227Z",
+    "duration": "109s",
+    "version": "1.0.0"
+  }
+}
