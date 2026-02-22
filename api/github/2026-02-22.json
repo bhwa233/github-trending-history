@@ -1,0 +1,190 @@
+{
+  "date": "2026-02-22",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "huggingface/skills",
+      "description": "",
+      "language": "Python",
+      "stars": 2534,
+      "forks": 184,
+      "todayStars": 323,
+      "url": "https://github.com/huggingface/skills",
+      "aiSummary": {
+        "summary": "Hugging Face Skills 提供标准化的AI/ML任务技能定义，支持多平台编码代理工具。通过自包含文件夹封装指令、脚本和资源，兼容Claude Code、Codex、Gemini等工具，提升跨平台任务协作效率。",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "JSON"
+        ],
+        "useCase": "多AI编码代理工具间的机器学习任务标准化部署与管理"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "vxcontrol/pentagi",
+      "description": "✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "stars": 6916,
+      "forks": 807,
+      "todayStars": 1599,
+      "url": "https://github.com/vxcontrol/pentagi",
+      "aiSummary": {
+        "summary": "PentAGI是基于AI的自动化渗透测试系统，通过Docker沙盒环境实现安全隔离，集成20+专业工具如nmap、metasploit，并结合知识图谱与智能记忆系统，支持自主执行复杂测试任务，提供实时监控与详细报告。",
+        "techStack": [
+          "Go",
+          "Docker",
+          "Neo4j",
+          "Grafana",
+          "Prometheus"
+        ],
+        "useCase": "适用于企业级网络安全测试与自动化渗透测试场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Shell",
+      "stars": 68931,
+      "forks": 5410,
+      "todayStars": 500,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code是集成在终端的代理编程工具，支持自然语言指令执行代码任务、解释代码逻辑及管理Git流程，提升开发效率。",
+        "techStack": [
+          "Shell",
+          "Git",
+          "Node.js"
+        ],
+        "useCase": "开发者通过自然语言命令在终端加速代码编写与版本控制管理"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "language": "",
+      "stars": 117664,
+      "forks": 30526,
+      "todayStars": 914,
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "aiSummary": {
+        "summary": "该项目是一个整合了多种AI工具系统提示、内部工具及模型配置的开源仓库，包含超过3万行代码，旨在为开发者提供AI系统结构与功能的深度洞察和参考。",
+        "techStack": [
+          "未知",
+          "Markdown",
+          "Python"
+        ],
+        "useCase": "AI开发人员和研究人员用于分析和借鉴主流AI工具的系统设计与模型配置。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "Stremio/stremio-web",
+      "description": "Stremio - Freedom to Stream",
+      "language": "JavaScript",
+      "stars": 9690,
+      "forks": 1067,
+      "todayStars": 251,
+      "url": "https://github.com/Stremio/stremio-web",
+      "aiSummary": {
+        "summary": "Stremio-web 是一个基于JavaScript的现代媒体中心应用，提供视频内容的发现、播放和管理功能。通过插件系统支持多种视频源，用户可便捷整合和组织媒体资源，实现一站式视频娱乐体验。",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "pnpm",
+          "Webpack",
+          "ESLint"
+        ],
+        "useCase": "适用于个人视频库管理及多平台流媒体内容整合"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "OpenBB-finance/OpenBB",
+      "description": "Financial data platform for analysts, quants and AI agents.",
+      "language": "Python",
+      "stars": 60967,
+      "forks": 5946,
+      "todayStars": 148,
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "aiSummary": {
+        "summary": "OpenBB-finance/OpenBB 是一个金融数据平台，提供数据集成与分析工具。支持Python环境，可整合多种数据源并暴露为REST API，适用于AI代理、研究仪表板及企业级数据分析。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "pandas"
+        ],
+        "useCase": "金融数据分析与AI代理集成"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "cloudflare/agents",
+      "description": "Build and deploy AI Agents on Cloudflare",
+      "language": "TypeScript",
+      "stars": 3711,
+      "forks": 403,
+      "todayStars": 263,
+      "url": "https://github.com/cloudflare/agents",
+      "aiSummary": {
+        "summary": "Cloudflare Agents 是基于 Durable Objects 的持久化 AI 代理框架，支持状态管理、实时通信和 AI 模型调用，按需唤醒降低运行成本，适用于高并发状态管理场景。",
+        "techStack": [
+          "TypeScript",
+          "Cloudflare Durable Objects",
+          "React"
+        ],
+        "useCase": "实时协作应用、用户会话管理及高并发状态化AI代理部署"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars": 1471,
+      "forks": 115,
+      "todayStars": 419,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "aiSummary": {
+        "summary": "GitNexus 是一个浏览器端代码知识图谱工具，通过本地索引GitHub仓库或ZIP文件生成交互式知识图谱，并集成Graph RAG代理实现代码分析。支持CLI和Web UI两种模式，提供依赖关系追踪、调用链分析等能力，增强AI代码编辑器的上下文感知能力。",
+        "techStack": [
+          "TypeScript",
+          "Tree-sitter",
+          "KuzuDB"
+        ],
+        "useCase": "开发环境中的代码结构分析与AI代码编辑器上下文增强"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "stan-smith/FossFLOW",
+      "description": "Make beautiful isometric infrastructure diagrams",
+      "language": "TypeScript",
+      "stars": 18138,
+      "forks": 1177,
+      "todayStars": 342,
+      "url": "https://github.com/stan-smith/FossFLOW",
+      "aiSummary": {
+        "summary": "FossFLOW 是一个基于 React 和 Isoflow 库的开源等轴测图绘制工具，支持浏览器离线使用。提供可视化网络基础设施设计功能，采用 TypeScript 开发，具备 Docker 部署方案，适用于系统架构可视化场景。",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "Isoflow",
+          "Docker"
+        ],
+        "useCase": "适用于网络基础设施和系统架构的等轴测可视化设计与展示"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-22T23:33:24.743Z",
+    "duration": "104s",
+    "version": "1.0.0"
+  }
+}
