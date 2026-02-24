@@ -1,0 +1,239 @@
+{
+  "date": "2026-02-24",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "huggingface/skills",
+      "description": "",
+      "language": "Python",
+      "stars": 5214,
+      "forks": 335,
+      "todayStars": 1269,
+      "url": "https://github.com/huggingface/skills",
+      "aiSummary": {
+        "summary": "Hugging Face Skills提供标准化的AI/ML任务定义，支持数据集创建、模型训练与评估，兼容Claude Code、Codex、Gemini CLI等工具。每个技能包含自包含的指令、脚本和资源，通过SKILL.md管理，确保跨平台互操作性。",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "JSON"
+        ],
+        "useCase": "用于跨平台AI/ML任务自动化与多编码代理工具集成"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
+      "language": "Python",
+      "stars": 9835,
+      "forks": 780,
+      "todayStars": 771,
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "aiSummary": {
+        "summary": "该项目提供AI代理系统的上下文工程技能集合，聚焦于优化模型上下文窗口管理，包含基础技能如上下文压缩、退化模式识别及动态演化方法，提升代理系统在复杂场景下的有效性。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于构建需要高效上下文管理的生产级AI代理系统与多代理架构"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "OpenBB-finance/OpenBB",
+      "description": "Financial data platform for analysts, quants and AI agents.",
+      "language": "Python",
+      "stars": 61848,
+      "forks": 6027,
+      "todayStars": 517,
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "aiSummary": {
+        "summary": "OpenBB-finance/OpenBB 是面向分析师、量化交易员和AI代理的金融数据平台，提供数据整合与多端消费能力。支持Python库调用、企业级可视化界面及AI代理集成，实现'连接一次，随处使用'的数据贯通架构。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "REST APIs"
+        ],
+        "useCase": "金融数据分析与AI代理开发"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "LadybirdBrowser/ladybird",
+      "description": "Truly independent web browser",
+      "language": "C++",
+      "stars": 59080,
+      "forks": 2698,
+      "todayStars": 231,
+      "url": "https://github.com/LadybirdBrowser/ladybird",
+      "aiSummary": {
+        "summary": "Ladybird是一个基于Web标准的独立浏览器项目，采用多进程架构提升安全性，核心组件继承自SerenityOS，包含渲染引擎、JavaScript引擎及网络协议栈，目前处于预Alpha阶段，面向开发者提供浏览器技术研究与测试。",
+        "techStack": [
+          "C++",
+          "LibWeb",
+          "LibJS",
+          "WebAssembly",
+          "HTTP/1.1"
+        ],
+        "useCase": "开发者测试和浏览器技术研究"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "language": "",
+      "stars": 123000,
+      "forks": 31713,
+      "todayStars": 3612,
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "aiSummary": {
+        "summary": "该项目收集了30余种AI开发工具的系统提示、内部工具及模型配置，涵盖代码生成、AI助手等领域，提供结构化分析与功能洞察，助力开发者研究与优化AI工具链。",
+        "techStack": [
+          "Python",
+          "JavaScript",
+          "Markdown"
+        ],
+        "useCase": "AI开发者研究工具原理与优化模型配置"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 60405,
+      "forks": 4609,
+      "todayStars": 1149,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发框架和方法论，通过自动化工作流提升编码效率。它强调TDD、YAGNI和DRY原则，支持子代理协同开发，无需人工干预即可完成需求分析、设计确认和代码实现。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "需要自动化软件开发流程并遵循敏捷开发原则的团队或个人开发者"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "ruvnet/ruvector",
+      "description": "RuVector is a high performance vector and graph database built in Rust for AI, agentic systems, and real time analytics. It combines HNSW search, dynamic minimum cut coherence, graph intelligence, and self learning memory into one unified engine for scalable, low latency reasoning and structured retrieval.",
+      "language": "Rust",
+      "stars": 702,
+      "forks": 123,
+      "todayStars": 118,
+      "url": "https://github.com/ruvnet/ruvector",
+      "aiSummary": {
+        "summary": "RuVector是用Rust开发的高性能向量与图数据库，结合HNSW搜索、动态最小割连通性、图智能和自学习记忆技术。支持实时分析、低延迟推理、分布式扩展，具备自学习能力随使用优化搜索结果，单文件部署且开源免费。",
+        "techStack": [
+          "Rust",
+          "HNSW",
+          "图数据库",
+          "分布式架构"
+        ],
+        "useCase": "适用于AI应用、实时分析及需要高效向量与图查询的场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "stars": 12515,
+      "forks": 845,
+      "todayStars": 1970,
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "aiSummary": {
+        "summary": "Scrapling是自适应网络爬虫框架，支持单请求到大规模爬取。内置反反爬机制，自动处理网页结构变化，提供并发爬取、代理旋转和实时统计功能，简化数据采集流程。",
+        "techStack": [
+          "Python",
+          "AsyncIO",
+          "CSS Selectors"
+        ],
+        "useCase": "适用于需要大规模自动化数据采集且需应对动态网页结构的场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "GVCLab/PersonaLive",
+      "description": "[CVPR 2026] PersonaLive! : Expressive Portrait Image Animation for Live Streaming",
+      "language": "Python",
+      "stars": 1944,
+      "forks": 287,
+      "todayStars": 75,
+      "url": "https://github.com/GVCLab/PersonaLive",
+      "aiSummary": {
+        "summary": "PersonaLive是一个实时可流式传输的扩散框架，用于生成无限长度的肖像动画。支持直播场景下的动态图像生成，集成ComfyUI并优化显存占用，可生成长视频序列。项目包含预训练模型和推理代码，适用于个性化虚拟形象动画创作。",
+        "techStack": [
+          "Python",
+          "扩散模型",
+          "ComfyUI"
+        ],
+        "useCase": "实时肖像动画生成与直播互动应用"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "HunxByts/GhostTrack",
+      "description": "Useful tool to track location or mobile number",
+      "language": "Python",
+      "stars": 7426,
+      "forks": 983,
+      "todayStars": 142,
+      "url": "https://github.com/HunxByts/GhostTrack",
+      "aiSummary": {
+        "summary": "GhostTrack是一款用于追踪目标位置、手机号和社交媒体用户名的OSINT工具，支持IP地址追踪与手机号信息查询，集成Seeker工具获取目标IP，适用于信息收集与安全研究场景。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于网络安全研究和目标信息收集"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "stars": 17218,
+      "forks": 1223,
+      "todayStars": 678,
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "aiSummary": {
+        "summary": "PageIndex 是一种无需向量数据库或分块的推理型RAG系统，通过构建文档结构树索引并利用LLM进行上下文感知的推理检索，提升长文档的精准度与专业性。支持PDF图像直接处理，适用于需要多步骤推理的复杂文档分析场景。",
+        "techStack": [
+          "Python",
+          "LLM框架",
+          "文档解析库"
+        ],
+        "useCase": "适用于法律、学术研究等需要高精度长文档分析的专业场景"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "openemr/openemr",
+      "description": "The most popular open source electronic health records and medical practice management solution.",
+      "language": "PHP",
+      "stars": 4821,
+      "forks": 2753,
+      "todayStars": 96,
+      "url": "https://github.com/openemr/openemr",
+      "aiSummary": {
+        "summary": "OpenEMR是开源的电子健康记录与医疗管理应用，支持电子病历、排程、计费、国际化等功能，适用于多平台的医疗信息化需求。",
+        "techStack": [
+          "PHP",
+          "JavaScript",
+          "Node.js"
+        ],
+        "useCase": "医疗机构或开发者用于构建医疗信息化解决方案"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-24T23:39:52.690Z",
+    "duration": "126s",
+    "version": "1.0.0"
+  }
+}
