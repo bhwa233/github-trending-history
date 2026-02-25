@@ -1,0 +1,309 @@
+{
+  "date": "2026-02-25",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "stars": 14893,
+      "forks": 983,
+      "todayStars": 1828,
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "aiSummary": {
+        "summary": "Scrapling是自适应网络爬虫框架，支持单请求到大规模爬取。自动处理网页结构变化，内置反反爬功能（如Cloudflare），提供异步爬虫、代理旋转、实时统计和CLI工具，简化数据采集流程。",
+        "techStack": [
+          "Python",
+          "AsyncIO",
+          "CSS Selectors",
+          "Proxy Rotation"
+        ],
+        "useCase": "适用于需要自动化处理动态网页结构和高效数据采集的爬虫场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "huggingface/skills",
+      "description": "",
+      "language": "Python",
+      "stars": 6340,
+      "forks": 375,
+      "todayStars": 1538,
+      "url": "https://github.com/huggingface/skills",
+      "aiSummary": {
+        "summary": "Hugging Face Skills 提供标准化的AI/ML任务定义，支持多种编码代理工具。每个技能为自包含文件夹，包含指令、脚本和资源，通过SKILL.md文件定义流程，兼容Claude Code、Codex、Gemini等工具。",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "YAML"
+        ],
+        "useCase": "多AI工具协同开发环境中的标准化任务流程管理"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars": 3652,
+      "forks": 303,
+      "todayStars": 936,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "aiSummary": {
+        "summary": "GitNexus 是一款浏览器端代码知识图谱生成工具，支持通过GitHub仓库或ZIP文件构建交互式代码关系图谱，并集成Graph RAG代理实现深度代码分析。提供CLI和Web UI两种使用方式，适用于AI代理的代码理解与智能查询场景。",
+        "techStack": [
+          "TypeScript",
+          "Tree-sitter",
+          "KuzuDB"
+        ],
+        "useCase": "提升AI代码分析能力，支持依赖关系追踪与架构可视化"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 61750,
+      "forks": 4716,
+      "todayStars": 1247,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发框架，通过代理驱动的工作流实现自动化编码。强调TDD、YAGNI和DRY原则，支持编码代理在获得设计确认后自主执行开发任务，减少人工干预。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "需要自动化软件开发流程的AI代理系统开发场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
+      "language": "Python",
+      "stars": 10643,
+      "forks": 831,
+      "todayStars": 1043,
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "aiSummary": {
+        "summary": "该项目提供一套代理技能工具集，专注于上下文工程以优化AI代理系统。通过管理上下文窗口、解决注意力机制问题，提升代理在复杂任务中的表现，涵盖基础技能、故障识别与压缩方法。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要优化多代理系统上下文管理及提升模型推理效率的场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "datawhalechina/hello-agents",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "language": "Python",
+      "stars": 21911,
+      "forks": 2524,
+      "todayStars": 283,
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "aiSummary": {
+        "summary": "《从零开始构建智能体》教程，涵盖智能体原理、框架开发、高级技术（记忆系统、上下文工程）及实战案例，结合理论与实践指导AI原生智能体开发。",
+        "techStack": [
+          "Python",
+          "OpenAI API",
+          "AutoGen",
+          "AgentScope",
+          "LangGraph"
+        ],
+        "useCase": "适用于AI原生智能体开发教学、技术实践及多智能体系统构建项目。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "bytedance/deer-flow",
+      "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.",
+      "language": "TypeScript",
+      "stars": 20425,
+      "forks": 2556,
+      "todayStars": 55,
+      "url": "https://github.com/bytedance/deer-flow",
+      "aiSummary": {
+        "summary": "DeerFlow 是一个开源的超级代理框架，通过子代理、沙箱、记忆和技能协同处理复杂任务。支持多步骤任务自动化，具备上下文工程和长期记忆功能，适用于研究、数据处理等需要智能协作的场景。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "LangChain"
+        ],
+        "useCase": "适用于需要自动化复杂任务处理和多步骤协作的场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "stars": 17683,
+      "forks": 1258,
+      "todayStars": 378,
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "aiSummary": {
+        "summary": "PageIndex是一个无需向量数据库和分块的推理型RAG系统，通过构建文档结构树索引并利用LLM进行树状推理检索，提升长文档精准检索效果。支持PDF图像直接处理，适用于需要领域知识和多步推理的文档分析场景。",
+        "techStack": [
+          "Python",
+          "LLM框架",
+          "PDF处理库"
+        ],
+        "useCase": "专业长文档的精准信息检索与知识提取"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "NevaMind-AI/memU",
+      "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
+      "language": "Python",
+      "stars": 10767,
+      "forks": 790,
+      "todayStars": 222,
+      "url": "https://github.com/NevaMind-AI/memU",
+      "aiSummary": {
+        "summary": "memU是面向24/7主动代理的内存框架，通过文件系统结构化管理长期记忆，降低LLM token成本。支持用户意图主动识别、跨记忆链接和知识图谱构建，适用于持续在线的智能代理系统。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要低资源消耗的持续运行智能代理系统开发"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "ruvnet/ruvector",
+      "description": "RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.",
+      "language": "Rust",
+      "stars": 1153,
+      "forks": 150,
+      "todayStars": 437,
+      "url": "https://github.com/ruvnet/ruvector",
+      "aiSummary": {
+        "summary": "RuVector是用Rust开发的高性能向量图神经网络与数据库，支持实时自学习、本地LLM运行、图查询和水平扩展。通过单文件部署，具备认知容器特性，可自动优化搜索结果并实现分布式集群，适用于需要动态数据关系分析的AI场景。",
+        "techStack": [
+          "Rust",
+          "向量数据库",
+          "图神经网络"
+        ],
+        "useCase": "适用于需要实时自学习向量搜索与复杂图关系分析的AI应用场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "NVIDIA/Megatron-LM",
+      "description": "Ongoing research training transformer models at scale",
+      "language": "Python",
+      "stars": 15342,
+      "forks": 3627,
+      "todayStars": 62,
+      "url": "https://github.com/NVIDIA/Megatron-LM",
+      "aiSummary": {
+        "summary": "NVIDIA/Megatron-LM 是用于大规模Transformer模型研究的分布式训练框架，包含预配置训练脚本（Megatron-LM）和可组合的GPU优化库（Megatron Core），支持多种并行策略、混合精度及模型转换工具，适用于研究团队和框架开发者。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "CUDA"
+        ],
+        "useCase": "适用于需要高效分布式训练和自定义模型架构的大规模Transformer模型研发场景。"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "shareAI-lab/learn-claude-code",
+      "description": "Bash is all you need - A nano Claude Code–like agent, built from 0 to 1",
+      "language": "TypeScript",
+      "stars": 17945,
+      "forks": 3766,
+      "todayStars": 174,
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "aiSummary": {
+        "summary": "基于TypeScript的AI编码代理构建教程，通过12个阶段教学展示从基础循环到进程隔离、状态管理等核心机制，模拟Claude Code功能实现自动化任务处理。",
+        "techStack": [
+          "TypeScript",
+          "AI代理框架",
+          "LLM API"
+        ],
+        "useCase": "教育场景下开发AI驱动的自动化代码生成与任务执行系统"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "language": "",
+      "stars": 124070,
+      "forks": 31938,
+      "todayStars": 1242,
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "aiSummary": {
+        "summary": "该项目收集了30,000+行AI工具系统提示、内部工具和模型配置，涵盖Claude Code、Comet、VSCode Agent等主流AI开发工具，提供AI系统结构分析与安全研究价值。",
+        "techStack": [
+          "未知"
+        ],
+        "useCase": "AI开发工具研究与系统安全审计"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "katanemo/plano",
+      "description": "Delivery infrastructure for agentic apps - Plano is an AI-native proxy and data plane that offloads plumbing work, so you stay focused on your agent's core logic (via any AI framework).",
+      "language": "Rust",
+      "stars": 5542,
+      "forks": 328,
+      "todayStars": 199,
+      "url": "https://github.com/katanemo/plano",
+      "aiSummary": {
+        "summary": "Plano是Rust编写的AI原生代理与数据平面，专注于智能体应用的基础设施管理。通过集中处理路由协调、信号追踪、安全过滤和模型调度，降低开发复杂度，提升生产部署效率。",
+        "techStack": [
+          "Rust",
+          "Envoy",
+          "LLM"
+        ],
+        "useCase": "适用于需要高效管理智能体路由、安全策略及模型调度的AI应用快速部署场景"
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "liyupi/ai-guide",
+      "description": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享大模型选择指南（DeepSeek / GPT / Gemini / Claude）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（RAG / MCP / A2A）、AI 编程教程、AI 工具用法（Cursor / Claude Code / OpenClaw / TRAE / Lovable / Agent Skills）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档版本，已升级为鱼皮 AI 导航网站",
+      "language": "JavaScript",
+      "stars": 7659,
+      "forks": 826,
+      "todayStars": 203,
+      "url": "https://github.com/liyupi/ai-guide",
+      "aiSummary": {
+        "summary": "AI资源导航与零基础教程，整合大模型选择、编程工具、实战项目及变现指南，提供免费学习路径和工具测评。",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "AI技术学习与开发，适合零基础用户快速掌握AI编程及产品落地。"
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "siteboon/claudecodeui",
+      "description": "Use Claude Code, Cursor CLI or Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely",
+      "language": "TypeScript",
+      "stars": 6989,
+      "forks": 881,
+      "todayStars": 101,
+      "url": "https://github.com/siteboon/claudecodeui",
+      "aiSummary": {
+        "summary": "提供Claude Code、Cursor CLI和Codex的跨平台图形界面，支持移动端与桌面端操作，具备响应式设计、实时聊天、终端集成、文件管理、Git操作及会话管理功能，简化代码工具的远程交互与项目管理。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "开发者需要通过统一界面跨设备管理AI代码工具及项目协作。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-25T23:36:42.136Z",
+    "duration": "174s",
+    "version": "1.0.0"
+  }
+}
