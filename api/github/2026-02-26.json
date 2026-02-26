@@ -1,0 +1,182 @@
+{
+  "date": "2026-02-26",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "clockworklabs/SpacetimeDB",
+      "description": "Development at the speed of light",
+      "language": "Rust",
+      "stars": 20833,
+      "forks": 748,
+      "todayStars": 469,
+      "url": "https://github.com/clockworklabs/SpacetimeDB",
+      "aiSummary": {
+        "summary": "SpacetimeDB是一个将数据库与服务器整合的Rust项目，通过模块化存储过程实现客户端直接访问数据库执行应用逻辑，消除传统服务器架构，提升开发与运行效率。",
+        "techStack": [
+          "Rust",
+          "数据库",
+          "分布式架构"
+        ],
+        "useCase": "适用于需要超低延迟和高实时性的应用场景，如在线游戏后端开发。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 63292,
+      "forks": 4833,
+      "todayStars": 1528,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的智能代理软件开发框架，通过分阶段需求确认、测试驱动开发（TDD）和YAGNI原则，实现自动化编码流程。代理可自主规划开发任务并执行，支持多平台插件安装，适用于需提升开发效率的场景。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "需要自动化软件开发流程的团队，尤其适合强调测试驱动和简洁设计的项目"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
+      "language": "Python",
+      "stars": 11683,
+      "forks": 906,
+      "todayStars": 923,
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "aiSummary": {
+        "summary": "该项目提供AI代理系统的上下文工程技能集合，聚焦于优化模型上下文窗口管理。包含基础技能、退化模式识别、上下文压缩等核心内容，解决代理系统中的注意力机制瓶颈问题，适用于生产级智能体架构设计与调试。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "需要优化AI代理系统上下文管理的开发场景"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "bytedance/deer-flow",
+      "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.",
+      "language": "TypeScript",
+      "stars": 21074,
+      "forks": 2599,
+      "todayStars": 622,
+      "url": "https://github.com/bytedance/deer-flow",
+      "aiSummary": {
+        "summary": "DeerFlow 是一个开源的 SuperAgent 工具链，通过沙盒、记忆、工具和子代理协同处理复杂任务。支持技能扩展与多模型集成，适用于需要自动化流程的 AI 代理场景。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "LangChain"
+        ],
+        "useCase": "适用于需要自动化处理复杂任务的 AI 代理系统"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "huggingface/skills",
+      "description": "",
+      "language": "Python",
+      "stars": 6953,
+      "forks": 406,
+      "todayStars": 711,
+      "url": "https://github.com/huggingface/skills",
+      "aiSummary": {
+        "summary": "Hugging Face Skills 提供标准化的AI/ML任务定义，支持多平台编码代理工具。通过自包含的技能包（含指令、脚本和资源）实现跨工具互操作，兼容Claude、Codex、Gemini等平台，简化任务部署与管理。",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "JSON",
+          "CLI"
+        ],
+        "useCase": "多AI编码代理工具间的机器学习任务标准化部署与管理"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.",
+      "language": "Rust",
+      "stars": 20626,
+      "forks": 1281,
+      "todayStars": 456,
+      "url": "https://github.com/farion1231/cc-switch",
+      "aiSummary": {
+        "summary": "跨平台桌面工具，整合Claude Code、Codex、Gemini CLI等AI代码服务，提供统一界面和高效操作，支持多模型切换与管理。",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "开发者需要跨平台统一管理多个AI代码模型的场景。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "ruvnet/claude-flow",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "stars": 14942,
+      "forks": 1739,
+      "todayStars": 210,
+      "url": "https://github.com/ruvnet/claude-flow",
+      "aiSummary": {
+        "summary": "ruvnet/claude-flow 是基于 Claude 的多智能体协作平台，支持60+专业化AI代理，提供自我学习、容错共识和企业级安全。集成RAG、分布式群智计算，实现自动化工作流与对话式AI系统构建。",
+        "techStack": [
+          "TypeScript",
+          "Claude Code",
+          "RAG",
+          "分布式系统"
+        ],
+        "useCase": "企业级AI系统开发中的多智能体协作与自动化流程优化"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "ruvnet/ruvector",
+      "description": "RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.",
+      "language": "Rust",
+      "stars": 1575,
+      "forks": 173,
+      "todayStars": 438,
+      "url": "https://github.com/ruvnet/ruvector",
+      "aiSummary": {
+        "summary": "RuVector是用Rust开发的高性能实时向量图神经网络数据库，具备自学习能力，可本地运行LLM、实时图更新、分布式扩展及单文件部署，支持多种AI模型和复杂查询场景。",
+        "techStack": [
+          "Rust",
+          "向量数据库",
+          "图神经网络",
+          "分布式系统"
+        ],
+        "useCase": "适用于需要实时智能搜索、本地化AI处理及大规模图数据管理的场景。"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "moonshine-ai/moonshine",
+      "description": "Fast and accurate automatic speech recognition (ASR) for edge devices",
+      "language": "C",
+      "stars": 5225,
+      "forks": 247,
+      "todayStars": 273,
+      "url": "https://github.com/moonshine-ai/moonshine",
+      "aiSummary": {
+        "summary": "Moonshine 是一个用 C 语言开发的高效语音识别工具包，专为边缘设备优化，提供低延迟、高精度的实时语音处理，支持多语言和跨平台部署，适用于本地化语音应用开发。",
+        "techStack": [
+          "C",
+          "Speech Recognition",
+          "Edge Computing"
+        ],
+        "useCase": "实时语音识别与处理，适用于边缘设备上的智能语音应用开发。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-26T23:37:06.642Z",
+    "duration": "97s",
+    "version": "1.0.0"
+  }
+}
