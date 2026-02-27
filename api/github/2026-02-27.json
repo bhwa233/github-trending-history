@@ -1,0 +1,319 @@
+{
+  "date": "2026-02-27",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "ruvnet/wifi-densepose",
+      "description": "Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers",
+      "language": "Python",
+      "stars": 9058,
+      "forks": 846,
+      "todayStars": 362,
+      "url": "https://github.com/ruvnet/wifi-densepose",
+      "aiSummary": {
+        "summary": "基于WiFi信号的实时人体姿态估计系统，通过CSI数据和机器学习实现非接触式全身追踪，支持多人员检测与隐私保护，适用于医疗、智能家居等领域。",
+        "techStack": [
+          "Python",
+          "Rust",
+          "Machine Learning"
+        ],
+        "useCase": "医疗健康监测、智能家居交互及安全场景的非接触式人体姿态追踪。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "bytedance/deer-flow",
+      "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.",
+      "language": "TypeScript",
+      "stars": 21808,
+      "forks": 2665,
+      "todayStars": 692,
+      "url": "https://github.com/bytedance/deer-flow",
+      "aiSummary": {
+        "summary": "DeerFlow 是一个开源的超级代理框架，通过子代理、记忆、沙箱和可扩展技能协同处理复杂任务，支持自动化研究、编码与创作，适用于需要深度分析和长期任务管理的场景。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "LangChain"
+        ],
+        "useCase": "适用于自动化复杂任务处理与深度研究的场景，如数据挖掘、智能决策支持系统开发。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "moonshine-ai/moonshine",
+      "description": "Fast and accurate automatic speech recognition (ASR) for edge devices",
+      "language": "C",
+      "stars": 5803,
+      "forks": 273,
+      "todayStars": 587,
+      "url": "https://github.com/moonshine-ai/moonshine",
+      "aiSummary": {
+        "summary": "Moonshine-ai/moonshine 是一个用C语言开发的边缘设备语音识别工具包，提供低延迟、高精度的实时语音处理能力。支持多语言识别与跨平台部署，包含语音转录、说话人辨识等完整解决方案，无需云端服务即可本地化运行。",
+        "techStack": [
+          "C",
+          "Python",
+          "机器学习框架"
+        ],
+        "useCase": "实时语音交互应用开发，如智能助手与语音控制终端"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
+      "language": "Python",
+      "stars": 12352,
+      "forks": 959,
+      "todayStars": 836,
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "aiSummary": {
+        "summary": "该项目提供AI代理系统的上下文工程技能集合，解决模型上下文窗口管理难题。包含基础技能、退化模式识别、上下文压缩等技术，优化代理系统在注意力机制下的表现，提升任务执行效果。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "开发需要高效上下文管理的生产级AI代理系统"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 64668,
+      "forks": 4927,
+      "todayStars": 1549,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发代理框架，通过自动化流程管理实现TDD、YAGNI和DRY原则。代理通过交互式需求分析生成分块设计，再由子代理执行开发任务，提升代码质量与开发效率。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "需要自动化软件开发流程与代理协作的敏捷开发场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "stars": 15575,
+      "forks": 1800,
+      "todayStars": 545,
+      "url": "https://github.com/ruvnet/ruflo",
+      "aiSummary": {
+        "summary": "Ruflo是基于Claude的多智能体编排平台，支持60+专业代理协作，具备自学习、容错共识和企业级安全，采用Rust/WASM构建分布式群智系统，集成RAG与代码生成能力。",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "WASM"
+        ],
+        "useCase": "复杂软件工程任务的多代理协作开发与自动化流程编排"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "datawhalechina/hello-agents",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "language": "Python",
+      "stars": 22990,
+      "forks": 2621,
+      "todayStars": 312,
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "aiSummary": {
+        "summary": "《从零开始构建智能体》教程，涵盖智能体基础理论、经典范式、框架开发及高级技术，如记忆系统、上下文工程、Agentic-RL，并通过实战项目如智能旅行助手、赛博小镇等提升实际开发能力。",
+        "techStack": [
+          "Python",
+          "OpenAI API",
+          "Transformer",
+          "AutoGen",
+          "AgentScope"
+        ],
+        "useCase": "适用于AI开发者和研究者，系统学习智能体构建与实践。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars": 6167,
+      "forks": 553,
+      "todayStars": 1327,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "aiSummary": {
+        "summary": "GitNexus是基于浏览器的代码知识图谱工具，可本地化索引代码库生成依赖关系图谱，并通过CLI/MCP接口为AI代理提供深度代码分析能力，支持隐私保护的代码探索与智能交互。",
+        "techStack": [
+          "TypeScript",
+          "Tree-sitter",
+          "KuzuDB",
+          "WebAssembly"
+        ],
+        "useCase": "适用于开发环境中的AI代码分析及浏览器端的代码结构可视化探索"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars": 18177,
+      "forks": 1748,
+      "todayStars": 229,
+      "url": "https://github.com/moeru-ai/airi",
+      "aiSummary": {
+        "summary": "Airi是一个自托管的AI虚拟角色项目，旨在复刻Neuro-sama功能，支持实时语音聊天、Minecraft/Factorio游戏，提供跨平台数字伴侣体验。采用TypeScript开发，集成RAG、内存系统和嵌入式数据库。",
+        "techStack": [
+          "TypeScript",
+          "RAG",
+          "嵌入式数据库",
+          "Live2D"
+        ],
+        "useCase": "本地部署的AI虚拟伴侣，支持多平台实时互动与游戏功能"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Shell",
+      "stars": 71139,
+      "forks": 5631,
+      "todayStars": 515,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code 是一个终端内使用的代理编码工具，通过自然语言命令执行代码任务、解释复杂代码并管理 Git 流程，支持插件扩展以提升开发效率。",
+        "techStack": [
+          "Shell",
+          "Node.js",
+          "Python"
+        ],
+        "useCase": "开发者通过自然语言指令在终端中加速代码编写与版本控制操作。"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "ruvnet/ruvector",
+      "description": "RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.",
+      "language": "Rust",
+      "stars": 1900,
+      "forks": 197,
+      "todayStars": 411,
+      "url": "https://github.com/ruvnet/ruvector",
+      "aiSummary": {
+        "summary": "RuVector是一个用Rust开发的高性能实时自学习向量图神经网络数据库，支持本地AI推理和PostgreSQL集成。通过SONA引擎实现搜索结果自优化、工作负载自动调优，具备图查询、超边关系处理及跨领域迁移学习能力，适用于低功耗实时AI代理场景。",
+        "techStack": [
+          "Rust",
+          "PostgreSQL",
+          "Graph Database"
+        ],
+        "useCase": "需要实时自适应优化的向量数据库与图神经网络应用场景"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "Wei-Shaw/claude-relay-service",
+      "description": "CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "JavaScript",
+      "stars": 8521,
+      "forks": 1370,
+      "todayStars": 74,
+      "url": "https://github.com/Wei-Shaw/claude-relay-service",
+      "aiSummary": {
+        "summary": "自建Claude Code中转服务，支持多账户管理、拼车分摊成本、隐私保护及性能优化，提供监控面板和智能切换功能。",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Redis"
+        ],
+        "useCase": "适合需要自建Claude中转服务、成本分摊及隐私保护的用户。"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "tukaani-project/xz",
+      "description": "XZ Utils",
+      "language": "C",
+      "stars": 1131,
+      "forks": 206,
+      "todayStars": 84,
+      "url": "https://github.com/tukaani-project/xz",
+      "aiSummary": {
+        "summary": "XZ Utils是C语言编写的高效数据压缩库及工具，支持.xz和.lzma格式。采用LZMA2算法实现比gzip高30%的压缩率，提供类似zlib的API和gzip风格命令行，兼顾高压缩比与快速解压性能，适用于软件分发等场景。",
+        "techStack": [
+          "C",
+          "LZMA2",
+          "zlib API"
+        ],
+        "useCase": "需要高压缩率与高效解压性能的软件分发场景"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "stars": 17995,
+      "forks": 1196,
+      "todayStars": 1127,
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "aiSummary": {
+        "summary": "Scrapling是Python自适应爬虫框架，支持自动处理网页结构变化、反反爬技术（如Cloudflare）、分布式爬取和代理旋转。提供异步获取器、CLI工具和可扩展爬虫架构，适用于复杂网页数据提取场景。",
+        "techStack": [
+          "Python",
+          "AsyncIO",
+          "Requests",
+          "Proxy Rotation"
+        ],
+        "useCase": "需要应对动态网页结构和反爬机制的大规模数据采集场景"
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "steipete/CodexBar",
+      "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+      "language": "Swift",
+      "stars": 7029,
+      "forks": 492,
+      "todayStars": 221,
+      "url": "https://github.com/steipete/CodexBar",
+      "aiSummary": {
+        "summary": "CodexBar是一款macOS菜单栏应用，实时显示OpenAI Codex、Claude等AI平台的使用统计（如会话/周度配额、重置时间），支持多平台无需登录，提供简洁的系统托盘可视化监控。",
+        "techStack": [
+          "Swift",
+          "macOS Menu Bar API",
+          "OAuth/API Integration"
+        ],
+        "useCase": "开发者实时监控多平台AI服务使用情况"
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "alibaba/OpenSandbox",
+      "description": "OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.",
+      "language": "Python",
+      "stars": 1452,
+      "forks": 109,
+      "todayStars": 107,
+      "url": "https://github.com/alibaba/OpenSandbox",
+      "aiSummary": {
+        "summary": "OpenSandbox是阿里巴巴开源的AI应用沙盒平台，支持多语言SDK和统一API，集成Docker/Kubernetes运行时，提供代码解释器、文件系统及浏览器自动化等功能，适用于AI代码执行、强化学习训练等场景。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "AI模型安全测试与多场景代码执行环境构建"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-27T23:32:36.236Z",
+    "duration": "179s",
+    "version": "1.0.0"
+  }
+}
