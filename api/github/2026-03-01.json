@@ -1,0 +1,268 @@
+{
+  "date": "2026-03-01",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars": 20163,
+      "forks": 1907,
+      "todayStars": 738,
+      "url": "https://github.com/moeru-ai/airi",
+      "aiSummary": {
+        "summary": "Airi 是一个自托管的AI虚拟伴侣项目，旨在复刻Neuro-sama功能，支持实时语音聊天、Minecraft/Factorio游戏互动，跨平台（Web/macOS/Windows）运行。基于TypeScript开发，整合RAG、内存系统等技术，提供可私有化部署的数字生命体解决方案。",
+        "techStack": [
+          "TypeScript",
+          "Web技术",
+          "游戏引擎集成"
+        ],
+        "useCase": "个人用户创建自有的AI虚拟角色进行多场景互动与娱乐"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "ruvnet/wifi-densepose",
+      "description": "WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 17131,
+      "forks": 1915,
+      "todayStars": 5531,
+      "url": "https://github.com/ruvnet/wifi-densepose",
+      "aiSummary": {
+        "summary": "WiFi DensePose利用WiFi信号实现无接触人体姿态估计、生命体征监测与存在检测，通过分析CSI数据实时重构人体位置、呼吸及心跳，支持穿墙检测，适用于安防与健康监护场景。",
+        "techStack": [
+          "Rust",
+          "机器学习",
+          "信号处理"
+        ],
+        "useCase": "无接触式人体状态监测与智能安防领域"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "stars": 17268,
+      "forks": 1941,
+      "todayStars": 766,
+      "url": "https://github.com/ruvnet/ruflo",
+      "aiSummary": {
+        "summary": "ruvnet/ruflo是一个基于TypeScript的智能代理编排平台，支持部署多智能体群和协调自主工作流，集成RAG和Claude Code/Codex，适用于企业级对话式AI系统开发。",
+        "techStack": [
+          "TypeScript",
+          "Distributed Systems",
+          "RAG (Retrieval-Augmented Generation)"
+        ],
+        "useCase": "企业级智能代理系统与对话式AI应用开发"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars": 88954,
+      "forks": 5217,
+      "todayStars": 798,
+      "url": "https://github.com/microsoft/markitdown",
+      "aiSummary": {
+        "summary": "MarkItDown是微软开发的Python工具，支持将PDF、PPT、Word、Excel等20+格式文档转换为Markdown，适用于LLM文本分析场景。提供流式处理和MCP服务器接口，注重保留文档结构而非人眼可读性。",
+        "techStack": [
+          "Python",
+          "文件格式解析库",
+          "Markdown生成器"
+        ],
+        "useCase": "将多格式文档批量转换为结构化Markdown文本供AI模型处理"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "bytedance/deer-flow",
+      "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.",
+      "language": "Python",
+      "stars": 22931,
+      "forks": 2741,
+      "todayStars": 352,
+      "url": "https://github.com/bytedance/deer-flow",
+      "aiSummary": {
+        "summary": "DeerFlow 是一个开源的超级代理框架，通过子代理、记忆、沙盒和技能协作处理复杂任务。支持上下文工程、长期记忆存储和多模型配置，适用于自动化研究、任务编排及复杂问题解决。",
+        "techStack": [
+          "Python",
+          "LangChain",
+          "Docker"
+        ],
+        "useCase": "适用于需要自动化任务处理、研究分析及复杂系统协作的场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "alibaba/OpenSandbox",
+      "description": "OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.",
+      "language": "Python",
+      "stars": 3296,
+      "forks": 237,
+      "todayStars": 1186,
+      "url": "https://github.com/alibaba/OpenSandbox",
+      "aiSummary": {
+        "summary": "OpenSandbox是阿里巴巴开源的AI应用沙盒平台，支持多语言SDK和统一API，集成Docker/Kubernetes运行时，提供代码解释器、浏览器自动化及桌面环境模拟，适用于AI代码执行、代理评估与强化学习场景。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Kubernetes",
+          "JavaScript",
+          "Java"
+        ],
+        "useCase": "AI开发与测试的多功能沙盒环境，支持代码执行、代理评估及分布式训练"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+      "language": "Python",
+      "stars": 98669,
+      "forks": 14356,
+      "todayStars": 475,
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "aiSummary": {
+        "summary": "该项目是一个聚焦LLM应用的集合库，涵盖AI代理、RAG、多代理协作等技术，整合OpenAI、Anthropic、Gemini及开源模型如Llama/Qwen，提供从基础到高级的AI应用案例，助力开发者探索LLM在医疗、金融、创作等领域的实践。",
+        "techStack": [
+          "Python",
+          "OpenAI",
+          "Anthropic",
+          "Gemini",
+          "Llama"
+        ],
+        "useCase": "开发者与研究者探索大语言模型在多场景下的应用方案与技术实现"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "K-Dense-AI/claude-scientific-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "stars": 10248,
+      "forks": 1202,
+      "todayStars": 184,
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "aiSummary": {
+        "summary": "提供148+跨学科的AI代理技能，支持科研、医疗、金融等领域，涵盖生物信息学、化学信息学、临床研究、医疗影像等，提升AI代理执行复杂工作流的能力。",
+        "techStack": [
+          "Python",
+          "科学计算库",
+          "机器学习框架",
+          "生物信息学工具"
+        ],
+        "useCase": "适用于科研、医疗、金融等领域的AI代理，支持复杂多步骤科学工作流"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "basecamp/omarchy",
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "language": "Shell",
+      "stars": 20725,
+      "forks": 2053,
+      "todayStars": 94,
+      "url": "https://github.com/basecamp/omarchy",
+      "aiSummary": {
+        "summary": "omarchy 是一个基于 Shell 脚本的 Linux 系统配置与管理工具，旨在提供现代化、简化的系统操作体验。项目可能包含自动化脚本，用于系统优化、环境配置或工作流管理，适合开发者或系统管理员提升 Linux 使用效率。",
+        "techStack": [
+          "Shell",
+          "Linux系统工具",
+          "自动化脚本"
+        ],
+        "useCase": "适用于 Linux 系统的自动化配置与高效管理场景。"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "X-PLUG/MobileAgent",
+      "description": "Mobile-Agent: The Powerful GUI Agent Family",
+      "language": "Python",
+      "stars": 7684,
+      "forks": 779,
+      "todayStars": 192,
+      "url": "https://github.com/X-PLUG/MobileAgent",
+      "aiSummary": {
+        "summary": "MobileAgent是多平台GUI自动化代理系统，融合强化学习与多智能体协作技术，支持复杂任务自主执行与错误诊断，包含半在线学习、预操作检测等方法。",
+        "techStack": [
+          "Python",
+          "强化学习",
+          "多智能体协作"
+        ],
+        "useCase": "适用于跨平台GUI自动化测试与智能任务执行场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "datawhalechina/hello-agents",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "language": "Python",
+      "stars": 23796,
+      "forks": 2683,
+      "todayStars": 206,
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "aiSummary": {
+        "summary": "《从零开始构建智能体》系统性教程，涵盖智能体原理、框架开发、高级技术（记忆、上下文工程、Agentic-RL）及实战案例，理论与实践结合。",
+        "techStack": [
+          "Python",
+          "AutoGen",
+          "AgentScope",
+          "LangGraph",
+          "Coze"
+        ],
+        "useCase": "适用于智能体系统的学习、实践与开发，涵盖从理论到实际应用的全流程。"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "superset-sh/superset",
+      "description": "IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine",
+      "language": "TypeScript",
+      "stars": 2846,
+      "forks": 203,
+      "todayStars": 391,
+      "url": "https://github.com/superset-sh/superset",
+      "aiSummary": {
+        "summary": "Superset 是面向AI代理时代的集成开发环境，支持同时运行多个CLI代码代理（如Claude Code、Codex等），提供任务隔离、状态监控、差异查看及快速上下文切换功能，提升开发效率。",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "Git",
+          "GitHub CLI",
+          "Caddy"
+        ],
+        "useCase": "适用于需要并行管理多个AI代码代理以加速开发流程的场景"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "NevaMind-AI/memU",
+      "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
+      "language": "Python",
+      "stars": 12004,
+      "forks": 881,
+      "todayStars": 338,
+      "url": "https://github.com/NevaMind-AI/memU",
+      "aiSummary": {
+        "summary": "memU是面向24/7主动代理的内存框架，通过结构化文件系统管理长期记忆，降低LLM令牌成本，支持主动感知用户意图并执行任务。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "企业级AI代理系统需长期运行并主动提供服务的场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-01T23:31:48.706Z",
+    "duration": "139s",
+    "version": "1.0.0"
+  }
+}
