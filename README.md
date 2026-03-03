@@ -67,21 +67,22 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-02 | **成功**: 9 | **失败**: 0
+**最后更新**: 2026-03-03 | **成功**: 10 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [ruvnet/wifi-densepose](https://github.com/ruvnet/wifi-densepose) | WiFi DensePose turns commodity WiFi signals into r... | Rust | 21.7k | 5.1k | WiFi DensePose通过分析WiFi信道状态信息（CSI），实现无视频的人体姿态估计、呼吸心跳监测及穿墙存在检测，采用物理模型与机器学习结合的实时信号处理方案。 |
-| 2 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you-owned Grok Companion, a cont... | TypeScript | 21.4k | 1.4k | A self-hosted AI virtual companion inspired by Neuro-sama, enabling users to create and interact with customizable digital entities for real-time voice chat, gaming (Minecraft/Factorio), and cross-pla |
-| 3 | [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) | Anthropic's Interactive Prompt Engineering Tutoria... | Jupyter Notebook | 31.5k | 683 | Anthropic提供的交互式提示工程教程，通过9个章节系统讲解如何构建高效提示词。包含实践练习、示例 Playground 和答案解析，覆盖基础结构、清晰指令、角色分配、输出格式化等主题，帮助用户提升与Claude模型的交互效果。 |
-| 4 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The leading agent orchestration platform for Cl... | TypeScript | 18.0k | 821 | ruFLO 是面向 Claude 的智能代理协调平台，支持多代理系统部署、自主工作流编排及对话式 AI 构建，提供企业级架构、分布式群智、RAG 与 Claude 代码集成能力。 |
-| 5 | [alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox) | OpenSandbox is a general-purpose sandbox platform ... | Python | 4.3k | 982 | OpenSandbox是阿里巴巴开源的AI应用通用沙盒平台，支持多语言SDK和统一API，集成Docker/Kubernetes运行时，提供代码解释器、浏览器自动化及桌面环境等场景支持，适用于AI代码执行、代理评估与强化学习训练。 |
-| 6 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office docume... | Python | 89.6k | 646 | MarkItDown是微软开发的Python工具，可将PDF、Office文档、图片、音频等多种格式转换为Markdown，支持LLM集成和文本分析。具结构化内容保留能力，适用于文档预处理和自动化转换场景。 |
-| 7 | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | A set of ready to use Agent Skills for research, s... | Python | 11.0k | 848 | 提供148+科学研发技能集，支持生物信息学、化学信息学、临床研究等多领域AI代理，集成金融/市场数据接口，提升科研工作流自动化能力 |
-| 8 | [superset-sh/superset](https://github.com/superset-sh/superset) | IDE for the AI Agents Era - Run an army of Claude ... | TypeScript | 3.5k | 592 | Superset是面向AI代理时代的IDE，支持并行运行多个CLI编码代理（如Claude Code、Codex等）。通过工作树隔离实现任务独立，提供实时监控、内置差异查看器和快速上下文切换功能，提升开发效率。 |
-| 9 | [servo/servo](https://github.com/servo/servo) | Servo aims to empower developers with a lightweigh... | Rust | 35.7k | 63 | Servo是一个用Rust编写的轻量级高性能浏览器引擎，旨在为应用程序提供高效的Web技术嵌入方案。项目聚焦于现代Web标准支持与跨平台兼容性，采用模块化架构设计。 |
+| 1 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 25.2k | 4.6k | RuView通过分析WiFi信道状态信息(CSI)实现无接触人体姿态估计、呼吸心跳监测及穿墙存在检测，采用Rust开发高性能边缘计算模块，支持ESP32硬件实时处理，无需互联网与视频数据。 |
+| 2 | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | A set of ready to use Agent Skills for research, s... | Python | 11.9k | 790 | 提供170+跨学科科学技能库，支持生物信息学、化学信息学、临床研究等领域的AI代理执行复杂科研工作流，提升多步骤科学任务处理能力。 |
+| 3 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you-owned Grok Companion, a cont... | TypeScript | 22.1k | 842 | 项目是一个自托管的AI伴侣，支持实时语音聊天、Minecraft和Factorio游戏，跨平台（Web/macOS/Windows），旨在提供类似Neuro-sama的数字人类体验，具备记忆系统和嵌入式数据库。 |
+| 4 | [CodebuffAI/codebuff](https://github.com/CodebuffAI/codebuff) | Generate code from the terminal!... | TypeScript | 3.3k | 118 | Codebuff是基于自然语言指令的AI代码助手，采用多代理协作架构实现代码库精准修改。通过文件扫描、规划、编辑、审查等专用代理协同工作，支持终端命令式代码生成与重构，优于单模型工具的代码理解与修改准确率。 |
+| 5 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | Build and run agents you can see, understand and t... | Python | 17.0k | 83 | AgentScope是一个面向生产环境的Python代理框架，提供ReAct代理、记忆管理、实时语音支持及模型微调功能，强调易用性与可扩展性，适用于复杂智能代理系统开发。 |
+| 6 | [agentscope-ai/ReMe](https://github.com/agentscope-ai/ReMe) | ReMe: Memory Management Kit for Agents - Remember ... | Python | 1.3k | 27 | ReMe是AI代理内存管理工具，提供文件和向量两种内存系统。解决上下文窗口限制和无状态会话问题，支持自动压缩历史、持久化重要信息、语义搜索等功能，实现跨会话的记忆继承与管理。 |
+| 7 | [LMCache/LMCache](https://github.com/LMCache/LMCache) | Supercharge Your LLM with the Fastest KV Cache Lay... | Python | 7.4k | 140 | LMCache通过分布式KV缓存技术优化LLM服务，支持GPU/CPU/磁盘等多介质存储，结合vLLM实现3-10倍延迟降低，适用于多轮对话和长文本场景。 |
+| 8 | [superset-sh/superset](https://github.com/superset-sh/superset) | IDE for the AI Agents Era - Run an army of Claude ... | TypeScript | 4.1k | 637 | Superset 是面向AI代理时代的集成开发环境，支持同时运行多个CLI代码代理（如Claude Code、Codex等），通过工作树隔离、实时监控、内置差异查看器等功能提升开发效率，减少上下文切换开销。 |
+| 9 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | Find vulnerabilities, misconfigurations, secrets, ... | Go | 518 | 145 | Trivy是用Go编写的开源安全扫描工具，支持容器、文件系统、Kubernetes等多目标扫描，可检测漏洞、配置错误、敏感信息及生成SBOM，适用于DevOps和云原生环境的安全检测。 |
+| 10 | [alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox) | OpenSandbox is a general-purpose sandbox platform ... | Python | 5.3k | 1.1k | OpenSandbox是阿里开源的AI通用沙盒平台，支持多语言SDK和统一API，集成Docker/Kubernetes运行时，提供代码执行、代理开发、强化学习等场景的隔离环境与资源管理。 |
 
-[查看完整数据](api/github/2026-03-02.json)
+[查看完整数据](api/github/2026-03-03.json)
 <!-- END GITHUB TRENDING -->
 
 
