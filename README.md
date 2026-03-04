@@ -67,22 +67,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-03 | **成功**: 10 | **失败**: 0
+**最后更新**: 2026-03-04 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 25.2k | 4.6k | RuView通过分析WiFi信道状态信息(CSI)实现无接触人体姿态估计、呼吸心跳监测及穿墙存在检测，采用Rust开发高性能边缘计算模块，支持ESP32硬件实时处理，无需互联网与视频数据。 |
-| 2 | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | A set of ready to use Agent Skills for research, s... | Python | 11.9k | 790 | 提供170+跨学科科学技能库，支持生物信息学、化学信息学、临床研究等领域的AI代理执行复杂科研工作流，提升多步骤科学任务处理能力。 |
-| 3 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you-owned Grok Companion, a cont... | TypeScript | 22.1k | 842 | 项目是一个自托管的AI伴侣，支持实时语音聊天、Minecraft和Factorio游戏，跨平台（Web/macOS/Windows），旨在提供类似Neuro-sama的数字人类体验，具备记忆系统和嵌入式数据库。 |
-| 4 | [CodebuffAI/codebuff](https://github.com/CodebuffAI/codebuff) | Generate code from the terminal!... | TypeScript | 3.3k | 118 | Codebuff是基于自然语言指令的AI代码助手，采用多代理协作架构实现代码库精准修改。通过文件扫描、规划、编辑、审查等专用代理协同工作，支持终端命令式代码生成与重构，优于单模型工具的代码理解与修改准确率。 |
-| 5 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | Build and run agents you can see, understand and t... | Python | 17.0k | 83 | AgentScope是一个面向生产环境的Python代理框架，提供ReAct代理、记忆管理、实时语音支持及模型微调功能，强调易用性与可扩展性，适用于复杂智能代理系统开发。 |
-| 6 | [agentscope-ai/ReMe](https://github.com/agentscope-ai/ReMe) | ReMe: Memory Management Kit for Agents - Remember ... | Python | 1.3k | 27 | ReMe是AI代理内存管理工具，提供文件和向量两种内存系统。解决上下文窗口限制和无状态会话问题，支持自动压缩历史、持久化重要信息、语义搜索等功能，实现跨会话的记忆继承与管理。 |
-| 7 | [LMCache/LMCache](https://github.com/LMCache/LMCache) | Supercharge Your LLM with the Fastest KV Cache Lay... | Python | 7.4k | 140 | LMCache通过分布式KV缓存技术优化LLM服务，支持GPU/CPU/磁盘等多介质存储，结合vLLM实现3-10倍延迟降低，适用于多轮对话和长文本场景。 |
-| 8 | [superset-sh/superset](https://github.com/superset-sh/superset) | IDE for the AI Agents Era - Run an army of Claude ... | TypeScript | 4.1k | 637 | Superset 是面向AI代理时代的集成开发环境，支持同时运行多个CLI代码代理（如Claude Code、Codex等），通过工作树隔离、实时监控、内置差异查看器等功能提升开发效率，减少上下文切换开销。 |
-| 9 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | Find vulnerabilities, misconfigurations, secrets, ... | Go | 518 | 145 | Trivy是用Go编写的开源安全扫描工具，支持容器、文件系统、Kubernetes等多目标扫描，可检测漏洞、配置错误、敏感信息及生成SBOM，适用于DevOps和云原生环境的安全检测。 |
-| 10 | [alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox) | OpenSandbox is a general-purpose sandbox platform ... | Python | 5.3k | 1.1k | OpenSandbox是阿里开源的AI通用沙盒平台，支持多语言SDK和统一API，集成Docker/Kubernetes运行时，提供代码执行、代理开发、强化学习等场景的隔离环境与资源管理。 |
+| 1 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Fully autonomous AI hacker to find actual exploits... | TypeScript | 30.2k | 1.8k | Shannon是Keygraph开发的AI驱动白盒渗透测试工具，通过源代码分析和实时漏洞利用自动检测Web应用及API的安全缺陷，支持注入攻击、XSS等20+类漏洞识别，提供按需自动化安全测试解决方案。 |
+| 2 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | - | 5.4k | 2.2k | 提供多种AI代理模板的集合项目，涵盖前端开发、后端架构、移动应用开发及AI工程等领域，每个代理具备专业化技能和个性化流程，可直接使用或参考优化工作流。 |
+| 3 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | Find vulnerabilities, misconfigurations, secrets, ... | Go | 843 | 368 | Trivy是用Go编写的全面安全扫描工具，支持容器、Kubernetes、代码仓库等目标，可检测漏洞、配置错误、敏感信息及SBOM。具备多平台覆盖和多样化扫描器，适用于DevSecOps场景。 |
+| 4 | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | A set of ready to use Agent Skills for research, s... | Python | 12.7k | 926 | 提供170+科学技能集合，支持AI代理执行生物信息学、化学信息学、临床研究等多领域复杂科研工作流，提升AI在基因组学、药物发现、医学影像等场景的可靠性与效率。 |
+| 5 | [CodebuffAI/codebuff](https://github.com/CodebuffAI/codebuff) | Generate code from the terminal!... | TypeScript | 3.6k | 337 | Codebuff是基于TypeScript的开源AI编码助手，通过多代理协作实现自然语言指令下的代码库编辑。利用File Picker、Planner、Editor等代理，提升代码修改准确性与效率，支持终端环境下的自动化代码生成与维护。 |
+| 6 | [agentscope-ai/ReMe](https://github.com/agentscope-ai/ReMe) | ReMe: Memory Management Kit for Agents - Remember ... | Python | 1.6k | 346 | ReMe是面向AI代理的记忆管理系统，提供文件和向量两种记忆存储方案。解决长对话上下文丢失和会话无状态问题，支持自动压缩历史记录、关键信息持久化及跨会话记忆继承，包含ReMeLight模块实现文件存储与嵌入缓存管理。 |
+| 7 | [alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox) | OpenSandbox is a general-purpose sandbox platform ... | Python | 6.0k | 745 | OpenSandbox是阿里巴巴开源的AI应用通用沙盒平台，支持多语言SDK和统一API，集成Docker/Kubernetes运行时，适用于代码执行、代理评估、强化学习等场景。 |
+| 8 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | Automate the process of making money online.... | Python | 14.2k | 217 | MoneyPrinter V2 是自动化在线赚钱工具，包含Twitter/YouTube自动化、联盟营销及企业冷拓功能。采用模块化设计，支持定时任务，需Python 3.12运行。 |
+| 9 | [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica) | Perplexica is an AI-powered answering engine.... | TypeScript | 30.8k | 1.1k | Perplexica是隐私优先的AI问答引擎，支持本地硬件部署。整合Ollama本地模型与OpenAI等云端服务，提供多模式搜索（速速/平衡/质量），支持网页、学术论文等多源检索，具备文件上传、历史记录及智能建议功能。 |
+| 10 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | Build and run agents you can see, understand and t... | Python | 17.4k | 419 | AgentScope是面向生产环境的AI代理框架，支持快速构建可信赖的智能代理。提供ReAct代理、实时语音、多代理协作、记忆模块、工具集成及模型微调等功能，强调易用性与可扩展性。 |
+| 11 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you-owned Grok Companion, a cont... | TypeScript | 24.6k | 1.8k | Airi 是一个自托管的AI虚拟伴侣项目，旨在复现Neuro-sama的多模态交互能力，支持实时语音聊天、Minecraft/Factorio游戏互动，跨平台（Web/macOS/Windows）部署，强调用户数据主权与开源协作。 |
+| 12 | [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | A high-performance algorithmic trading platform an... | Rust | 20.7k | 75 | NautilusTrader是高性能算法交易平台，支持策略回测与实时交易，采用Rust开发确保高并发安全性，兼容Python生态，覆盖多资产类别及高频交易场景。 |
+| 13 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | Build AI Agents, Visually... | TypeScript | 50.0k | 130 | Flowise 是一个可视化AI代理构建工具，支持通过拖拽节点快速设计AI工作流，集成第三方服务并提供API文档。项目包含前端、后端及节点模块，便于开发者扩展和部署。 |
 
-[查看完整数据](api/github/2026-03-03.json)
+[查看完整数据](api/github/2026-03-04.json)
 <!-- END GITHUB TRENDING -->
 
 

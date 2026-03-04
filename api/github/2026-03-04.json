@@ -1,0 +1,267 @@
+{
+  "date": "2026-03-04",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "KeygraphHQ/shannon",
+      "description": "Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
+      "language": "TypeScript",
+      "stars": 30228,
+      "forks": 3061,
+      "todayStars": 1847,
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "aiSummary": {
+        "summary": "Shannon是Keygraph开发的AI驱动白盒渗透测试工具，通过源代码分析和实时漏洞利用自动检测Web应用及API的安全缺陷，支持注入攻击、XSS等20+类漏洞识别，提供按需自动化安全测试解决方案。",
+        "techStack": [
+          "TypeScript",
+          "浏览器自动化",
+          "命令行工具"
+        ],
+        "useCase": "持续集成环境下的Web应用安全漏洞自动化检测与验证"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "",
+      "stars": 5385,
+      "forks": 904,
+      "todayStars": 2151,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "提供多种AI代理模板的集合项目，涵盖前端开发、后端架构、移动应用开发及AI工程等领域，每个代理具备专业化技能和个性化流程，可直接使用或参考优化工作流。",
+        "techStack": [
+          "React",
+          "Vue.js",
+          "Angular",
+          "Node.js",
+          "Python"
+        ],
+        "useCase": "需要AI专家团队协助开发和优化各类应用及系统"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 843,
+      "forks": 52,
+      "todayStars": 368,
+      "url": "https://github.com/aquasecurity/trivy",
+      "aiSummary": {
+        "summary": "Trivy是用Go编写的全面安全扫描工具，支持容器、Kubernetes、代码仓库等目标，可检测漏洞、配置错误、敏感信息及SBOM。具备多平台覆盖和多样化扫描器，适用于DevSecOps场景。",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "用于检测容器、Kubernetes集群、代码仓库等的漏洞、配置错误和敏感信息。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "K-Dense-AI/claude-scientific-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "stars": 12691,
+      "forks": 1373,
+      "todayStars": 926,
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "aiSummary": {
+        "summary": "提供170+科学技能集合，支持AI代理执行生物信息学、化学信息学、临床研究等多领域复杂科研工作流，提升AI在基因组学、药物发现、医学影像等场景的可靠性与效率。",
+        "techStack": [
+          "Python",
+          "Bioinformatics Libraries",
+          "Machine Learning Frameworks"
+        ],
+        "useCase": "科研人员通过预置技能增强AI代理在生命科学与医学领域的分析能力"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "CodebuffAI/codebuff",
+      "description": "Generate code from the terminal!",
+      "language": "TypeScript",
+      "stars": 3558,
+      "forks": 438,
+      "todayStars": 337,
+      "url": "https://github.com/CodebuffAI/codebuff",
+      "aiSummary": {
+        "summary": "Codebuff是基于TypeScript的开源AI编码助手，通过多代理协作实现自然语言指令下的代码库编辑。利用File Picker、Planner、Editor等代理，提升代码修改准确性与效率，支持终端环境下的自动化代码生成与维护。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于通过自然语言指令在终端快速生成和修改代码的开发人员"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "agentscope-ai/ReMe",
+      "description": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.",
+      "language": "Python",
+      "stars": 1607,
+      "forks": 135,
+      "todayStars": 346,
+      "url": "https://github.com/agentscope-ai/ReMe",
+      "aiSummary": {
+        "summary": "ReMe是面向AI代理的记忆管理系统，提供文件和向量两种记忆存储方案。解决长对话上下文丢失和会话无状态问题，支持自动压缩历史记录、关键信息持久化及跨会话记忆继承，包含ReMeLight模块实现文件存储与嵌入缓存管理。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "需要长期记忆和上下文管理的AI代理系统开发"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "alibaba/OpenSandbox",
+      "description": "OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.",
+      "language": "Python",
+      "stars": 5950,
+      "forks": 428,
+      "todayStars": 745,
+      "url": "https://github.com/alibaba/OpenSandbox",
+      "aiSummary": {
+        "summary": "OpenSandbox是阿里巴巴开源的AI应用通用沙盒平台，支持多语言SDK和统一API，集成Docker/Kubernetes运行时，适用于代码执行、代理评估、强化学习等场景。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Kubernetes",
+          "JavaScript",
+          "Java"
+        ],
+        "useCase": "适用于AI代码执行、智能代理开发与评估、强化学习训练等场景。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "FujiwaraChoki/MoneyPrinterV2",
+      "description": "Automate the process of making money online.",
+      "language": "Python",
+      "stars": 14174,
+      "forks": 1432,
+      "todayStars": 217,
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "aiSummary": {
+        "summary": "MoneyPrinter V2 是自动化在线赚钱工具，包含Twitter/YouTube自动化、联盟营销及企业冷拓功能。采用模块化设计，支持定时任务，需Python 3.12运行。",
+        "techStack": [
+          "Python",
+          "CRON Jobs",
+          "Go"
+        ],
+        "useCase": "自动化社交媒体运营与网络营销以实现收益"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "ItzCrazyKns/Perplexica",
+      "description": "Perplexica is an AI-powered answering engine.",
+      "language": "TypeScript",
+      "stars": 30817,
+      "forks": 3255,
+      "todayStars": 1096,
+      "url": "https://github.com/ItzCrazyKns/Perplexica",
+      "aiSummary": {
+        "summary": "Perplexica是隐私优先的AI问答引擎，支持本地硬件部署。整合Ollama本地模型与OpenAI等云端服务，提供多模式搜索（速速/平衡/质量），支持网页、学术论文等多源检索，具备文件上传、历史记录及智能建议功能。",
+        "techStack": [
+          "TypeScript",
+          "Ollama",
+          "SearxNG",
+          "OpenAI",
+          "Anthropic Claude"
+        ],
+        "useCase": "需要隐私保护的AI驱动信息检索与学术研究场景"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "agentscope-ai/agentscope",
+      "description": "Build and run agents you can see, understand and trust.",
+      "language": "Python",
+      "stars": 17366,
+      "forks": 1549,
+      "todayStars": 419,
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "aiSummary": {
+        "summary": "AgentScope是面向生产环境的AI代理框架，支持快速构建可信赖的智能代理。提供ReAct代理、实时语音、多代理协作、记忆模块、工具集成及模型微调等功能，强调易用性与可扩展性。",
+        "techStack": [
+          "Python",
+          "LLM框架",
+          "实时语音处理"
+        ],
+        "useCase": "适用于需要构建高可信度AI代理的场景，如智能客服、多智能体协作及复杂任务自动化。"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars": 24602,
+      "forks": 2299,
+      "todayStars": 1794,
+      "url": "https://github.com/moeru-ai/airi",
+      "aiSummary": {
+        "summary": "Airi 是一个自托管的AI虚拟伴侣项目，旨在复现Neuro-sama的多模态交互能力，支持实时语音聊天、Minecraft/Factorio游戏互动，跨平台（Web/macOS/Windows）部署，强调用户数据主权与开源协作。",
+        "techStack": [
+          "TypeScript",
+          "Web API",
+          "Electron",
+          "WebRTC",
+          "SQLite"
+        ],
+        "useCase": "虚拟角色互动与游戏辅助的开源解决方案"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "nautechsystems/nautilus_trader",
+      "description": "A high-performance algorithmic trading platform and event-driven backtester",
+      "language": "Rust",
+      "stars": 20713,
+      "forks": 2449,
+      "todayStars": 75,
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "aiSummary": {
+        "summary": "NautilusTrader是高性能算法交易平台，支持策略回测与实时交易，采用Rust开发确保高并发安全性，兼容Python生态，覆盖多资产类别及高频交易场景。",
+        "techStack": [
+          "Rust",
+          "Python",
+          "tokio",
+          "Redis",
+          "Docker"
+        ],
+        "useCase": "适用于需要高可靠性的跨市场算法交易系统开发与策略实时部署场景"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "FlowiseAI/Flowise",
+      "description": "Build AI Agents, Visually",
+      "language": "TypeScript",
+      "stars": 50047,
+      "forks": 23845,
+      "todayStars": 130,
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "aiSummary": {
+        "summary": "Flowise 是一个可视化AI代理构建工具，支持通过拖拽节点快速设计AI工作流，集成第三方服务并提供API文档。项目包含前端、后端及节点模块，便于开发者扩展和部署。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Node.js",
+          "Docker",
+          "Express"
+        ],
+        "useCase": "适用于需要可视化流程设计和快速部署AI代理的开发场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-04T23:37:41.910Z",
+    "duration": "135s",
+    "version": "1.0.0"
+  }
+}
