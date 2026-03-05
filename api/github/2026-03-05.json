@@ -1,0 +1,228 @@
+{
+  "date": "2026-03-05",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "",
+      "stars": 7273,
+      "forks": 1151,
+      "todayStars": 1469,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "提供多种AI代理角色，涵盖前端开发、后端架构、移动应用和AI工程等领域，每个代理具备专业技能和个性化流程，可直接调用或参考实现高效开发。",
+        "techStack": [
+          "React",
+          "Vue.js",
+          "Angular",
+          "React Native",
+          "Flutter"
+        ],
+        "useCase": "适用于需要多领域AI专家协作的软件开发项目，提升开发效率和专业性。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "TheCraigHewitt/seomachine",
+      "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.",
+      "language": "Python",
+      "stars": 1599,
+      "forks": 315,
+      "todayStars": 371,
+      "url": "https://github.com/TheCraigHewitt/seomachine",
+      "aiSummary": {
+        "summary": "SEO Machine 是基于 Claude Code 的专业 SEO 内容生成工具，提供从关键词研究、内容创作到数据分析的全流程自动化。内置 26 项营销技能和 advanced SEO 分析功能，支持 Google Analytics、DataForSEO 等数据集成，可生成符合品牌调性的优化内容。",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "DataForSEO API",
+          "Google Analytics",
+          "nltk"
+        ],
+        "useCase": "帮助企业自动化生成高排名的SEO优化博客内容"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "KeygraphHQ/shannon",
+      "description": "Shannon Lite is a fully autonomous AI pentester for web apps and APIs. 96.15% (100/104 exploits) on a hint-free, source-aware variant of the XBOW benchmark.",
+      "language": "TypeScript",
+      "stars": 31787,
+      "forks": 3163,
+      "todayStars": 2926,
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "aiSummary": {
+        "summary": "Shannon是Keygraph开发的AI驱动型白盒渗透测试工具，通过源代码分析和实时漏洞利用自动检测Web应用及API的安全缺陷，支持注入攻击、XSS等漏洞的自动化验证，提供按需安全测试以填补传统渗透测试周期长的空白。",
+        "techStack": [
+          "TypeScript",
+          "浏览器自动化",
+          "命令行工具"
+        ],
+        "useCase": "适用于持续集成环境中的自动化应用安全测试与漏洞验证"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 32878,
+      "forks": 67,
+      "todayStars": 297,
+      "url": "https://github.com/aquasecurity/trivy",
+      "aiSummary": {
+        "summary": "Trivy是多功能安全扫描工具，支持容器、文件系统、Kubernetes等多目标，可检测漏洞、配置错误、敏感信息及SBOM。基于Go语言开发，提供CLI和集成方案，适用于云原生环境安全检测。",
+        "techStack": [
+          "Go",
+          "CLI",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "云原生应用及基础设施的安全风险检测与合规审查"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars": 27315,
+      "forks": 2579,
+      "todayStars": 3003,
+      "url": "https://github.com/moeru-ai/airi",
+      "aiSummary": {
+        "summary": "Airi 是一个自托管的AI虚拟角色项目，旨在复刻Neuro-sama功能，支持实时语音聊天、游戏互动（如Minecraft和Factorio），并提供跨平台客户端。项目强调用户数据所有权和可定制性。",
+        "techStack": [
+          "TypeScript",
+          "WebAssembly",
+          "Node.js"
+        ],
+        "useCase": "为用户提供可私有化部署的AI虚拟伴侣，支持多场景交互与游戏协作。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "inclusionAI/AReaL",
+      "description": "Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible.",
+      "language": "Python",
+      "stars": 4068,
+      "forks": 340,
+      "todayStars": 161,
+      "url": "https://github.com/inclusionAI/AReaL",
+      "aiSummary": {
+        "summary": "AReaL是一个高性能的异步强化学习系统，专为大型语言模型推理和智能体训练设计。支持灵活定制代理RL和在线RL，具备行业领先的训练速度与稳定性，适用于数学、编码、搜索等复杂任务，提供完整开源工具链加速AI代理开发。",
+        "techStack": [
+          "Python",
+          "强化学习框架",
+          "分布式训练"
+        ],
+        "useCase": "需要高效训练大规模语言模型智能体的强化学习场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "microsoft/mcp-for-beginners",
+      "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.",
+      "language": "Jupyter Notebook",
+      "stars": 14884,
+      "forks": 4861,
+      "todayStars": 122,
+      "url": "https://github.com/microsoft/mcp-for-beginners",
+      "aiSummary": {
+        "summary": "微软开源的MCP入门课程，通过Jupyter Notebook提供跨语言AI工作流示例，涵盖C#、Java、JavaScript、Rust、Python等语言，强调模块化、可扩展的AI系统开发。",
+        "techStack": [
+          "Jupyter Notebook",
+          "C#",
+          "Java",
+          "JavaScript",
+          "Rust"
+        ],
+        "useCase": "适用于跨语言AI开发教学与实践"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "CodebuffAI/codebuff",
+      "description": "Generate code from the terminal!",
+      "language": "TypeScript",
+      "stars": 3850,
+      "forks": 455,
+      "todayStars": 275,
+      "url": "https://github.com/CodebuffAI/codebuff",
+      "aiSummary": {
+        "summary": "Codebuff 是一个基于自然语言指令的AI代码编辑工具，采用多代理协作架构实现精准代码修改。通过文件选择器、规划器、编辑器等专用代理协同工作，支持终端直接生成代码、修复漏洞、重构等功能，提升开发效率并减少错误。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于通过自然语言指令实现代码自动化修改与优化的开发场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "FujiwaraChoki/MoneyPrinterV2",
+      "description": "Automate the process of making money online.",
+      "language": "Python",
+      "stars": 14676,
+      "forks": 1471,
+      "todayStars": 511,
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "aiSummary": {
+        "summary": "MoneyPrinterV2 是一个自动化在线赚钱工具，支持Twitter机器人、YouTube Shorts自动化、联盟营销（Amazon+Twitter）及本地企业冷触达功能。采用模块化设计，集成CRON任务调度，提供多语言支持和可扩展的社区版本生态。",
+        "techStack": [
+          "Python",
+          "Go",
+          "CRON"
+        ],
+        "useCase": "适用于自动化社交媒体运营、电商推广及数字营销任务"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "agentscope-ai/ReMe",
+      "description": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.",
+      "language": "Python",
+      "stars": 1800,
+      "forks": 142,
+      "todayStars": 195,
+      "url": "https://github.com/agentscope-ai/ReMe",
+      "aiSummary": {
+        "summary": "ReMe是面向AI代理的内存管理工具包，解决上下文窗口限制和无状态会话问题。提供文件型与向量型内存系统，支持记忆持久化、自动压缩历史、跨会话记忆继承，适用于需要长期上下文管理的智能代理场景。",
+        "techStack": [
+          "Python",
+          "文件存储（Markdown）",
+          "向量嵌入"
+        ],
+        "useCase": "适用于需要持久化记忆和上下文管理的AI代理系统，如智能客服、个性化推荐等场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "microsoft/hve-core",
+      "description": "A refined collection of Hypervelocity Engineering components (instructions, prompts, agents) to start your project off right, or upgrade your existing projects to get the most out of all Copilots",
+      "language": "PowerShell",
+      "stars": 290,
+      "forks": 73,
+      "todayStars": 6,
+      "url": "https://github.com/microsoft/hve-core",
+      "aiSummary": {
+        "summary": "HVE Core是微软推出的GitHub Copilot专用提示工程框架，通过约束式AI工作流、结构化RPI方法论和JSON验证机制，实现从研究到实施的全流程自动化。提供可复用的指令集、代理模板和验证工具，提升团队协作与代码可靠性。",
+        "techStack": [
+          "PowerShell",
+          "GitHub Copilot",
+          "VS Code Extension"
+        ],
+        "useCase": "企业级AI辅助开发流程优化与团队协作效率提升"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-05T23:56:27.194Z",
+    "duration": "110s",
+    "version": "1.0.0"
+  }
+}

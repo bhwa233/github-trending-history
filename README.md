@@ -67,25 +67,23 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-04 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-03-05 | **成功**: 11 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Fully autonomous AI hacker to find actual exploits... | TypeScript | 30.2k | 1.8k | Shannon是Keygraph开发的AI驱动白盒渗透测试工具，通过源代码分析和实时漏洞利用自动检测Web应用及API的安全缺陷，支持注入攻击、XSS等20+类漏洞识别，提供按需自动化安全测试解决方案。 |
-| 2 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | - | 5.4k | 2.2k | 提供多种AI代理模板的集合项目，涵盖前端开发、后端架构、移动应用开发及AI工程等领域，每个代理具备专业化技能和个性化流程，可直接使用或参考优化工作流。 |
-| 3 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | Find vulnerabilities, misconfigurations, secrets, ... | Go | 843 | 368 | Trivy是用Go编写的全面安全扫描工具，支持容器、Kubernetes、代码仓库等目标，可检测漏洞、配置错误、敏感信息及SBOM。具备多平台覆盖和多样化扫描器，适用于DevSecOps场景。 |
-| 4 | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | A set of ready to use Agent Skills for research, s... | Python | 12.7k | 926 | 提供170+科学技能集合，支持AI代理执行生物信息学、化学信息学、临床研究等多领域复杂科研工作流，提升AI在基因组学、药物发现、医学影像等场景的可靠性与效率。 |
-| 5 | [CodebuffAI/codebuff](https://github.com/CodebuffAI/codebuff) | Generate code from the terminal!... | TypeScript | 3.6k | 337 | Codebuff是基于TypeScript的开源AI编码助手，通过多代理协作实现自然语言指令下的代码库编辑。利用File Picker、Planner、Editor等代理，提升代码修改准确性与效率，支持终端环境下的自动化代码生成与维护。 |
-| 6 | [agentscope-ai/ReMe](https://github.com/agentscope-ai/ReMe) | ReMe: Memory Management Kit for Agents - Remember ... | Python | 1.6k | 346 | ReMe是面向AI代理的记忆管理系统，提供文件和向量两种记忆存储方案。解决长对话上下文丢失和会话无状态问题，支持自动压缩历史记录、关键信息持久化及跨会话记忆继承，包含ReMeLight模块实现文件存储与嵌入缓存管理。 |
-| 7 | [alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox) | OpenSandbox is a general-purpose sandbox platform ... | Python | 6.0k | 745 | OpenSandbox是阿里巴巴开源的AI应用通用沙盒平台，支持多语言SDK和统一API，集成Docker/Kubernetes运行时，适用于代码执行、代理评估、强化学习等场景。 |
-| 8 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | Automate the process of making money online.... | Python | 14.2k | 217 | MoneyPrinter V2 是自动化在线赚钱工具，包含Twitter/YouTube自动化、联盟营销及企业冷拓功能。采用模块化设计，支持定时任务，需Python 3.12运行。 |
-| 9 | [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica) | Perplexica is an AI-powered answering engine.... | TypeScript | 30.8k | 1.1k | Perplexica是隐私优先的AI问答引擎，支持本地硬件部署。整合Ollama本地模型与OpenAI等云端服务，提供多模式搜索（速速/平衡/质量），支持网页、学术论文等多源检索，具备文件上传、历史记录及智能建议功能。 |
-| 10 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | Build and run agents you can see, understand and t... | Python | 17.4k | 419 | AgentScope是面向生产环境的AI代理框架，支持快速构建可信赖的智能代理。提供ReAct代理、实时语音、多代理协作、记忆模块、工具集成及模型微调等功能，强调易用性与可扩展性。 |
-| 11 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you-owned Grok Companion, a cont... | TypeScript | 24.6k | 1.8k | Airi 是一个自托管的AI虚拟伴侣项目，旨在复现Neuro-sama的多模态交互能力，支持实时语音聊天、Minecraft/Factorio游戏互动，跨平台（Web/macOS/Windows）部署，强调用户数据主权与开源协作。 |
-| 12 | [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | A high-performance algorithmic trading platform an... | Rust | 20.7k | 75 | NautilusTrader是高性能算法交易平台，支持策略回测与实时交易，采用Rust开发确保高并发安全性，兼容Python生态，覆盖多资产类别及高频交易场景。 |
-| 13 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | Build AI Agents, Visually... | TypeScript | 50.0k | 130 | Flowise 是一个可视化AI代理构建工具，支持通过拖拽节点快速设计AI工作流，集成第三方服务并提供API文档。项目包含前端、后端及节点模块，便于开发者扩展和部署。 |
+| 1 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | - | 7.3k | 1.5k | 提供多种AI代理角色，涵盖前端开发、后端架构、移动应用和AI工程等领域，每个代理具备专业技能和个性化流程，可直接调用或参考实现高效开发。 |
+| 2 | [TheCraigHewitt/seomachine](https://github.com/TheCraigHewitt/seomachine) | A specialized Claude Code workspace for creating l... | Python | 1.6k | 371 | SEO Machine 是基于 Claude Code 的专业 SEO 内容生成工具，提供从关键词研究、内容创作到数据分析的全流程自动化。内置 26 项营销技能和 advanced SEO 分析功能，支持 Google Analytics、DataForSEO 等数据集成，可生成符合品牌调性的优化内容。 |
+| 3 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Shannon Lite is a fully autonomous AI pentester fo... | TypeScript | 31.8k | 2.9k | Shannon是Keygraph开发的AI驱动型白盒渗透测试工具，通过源代码分析和实时漏洞利用自动检测Web应用及API的安全缺陷，支持注入攻击、XSS等漏洞的自动化验证，提供按需安全测试以填补传统渗透测试周期长的空白。 |
+| 4 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | Find vulnerabilities, misconfigurations, secrets, ... | Go | 32.9k | 297 | Trivy是多功能安全扫描工具，支持容器、文件系统、Kubernetes等多目标，可检测漏洞、配置错误、敏感信息及SBOM。基于Go语言开发，提供CLI和集成方案，适用于云原生环境安全检测。 |
+| 5 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you-owned Grok Companion, a cont... | TypeScript | 27.3k | 3.0k | Airi 是一个自托管的AI虚拟角色项目，旨在复刻Neuro-sama功能，支持实时语音聊天、游戏互动（如Minecraft和Factorio），并提供跨平台客户端。项目强调用户数据所有权和可定制性。 |
+| 6 | [inclusionAI/AReaL](https://github.com/inclusionAI/AReaL) | Lightning-Fast RL for LLM Reasoning and Agents. Ma... | Python | 4.1k | 161 | AReaL是一个高性能的异步强化学习系统，专为大型语言模型推理和智能体训练设计。支持灵活定制代理RL和在线RL，具备行业领先的训练速度与稳定性，适用于数学、编码、搜索等复杂任务，提供完整开源工具链加速AI代理开发。 |
+| 7 | [microsoft/mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners) | This open-source curriculum introduces the fundame... | Jupyter Notebook | 14.9k | 122 | 微软开源的MCP入门课程，通过Jupyter Notebook提供跨语言AI工作流示例，涵盖C#、Java、JavaScript、Rust、Python等语言，强调模块化、可扩展的AI系统开发。 |
+| 8 | [CodebuffAI/codebuff](https://github.com/CodebuffAI/codebuff) | Generate code from the terminal!... | TypeScript | 3.9k | 275 | Codebuff 是一个基于自然语言指令的AI代码编辑工具，采用多代理协作架构实现精准代码修改。通过文件选择器、规划器、编辑器等专用代理协同工作，支持终端直接生成代码、修复漏洞、重构等功能，提升开发效率并减少错误。 |
+| 9 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | Automate the process of making money online.... | Python | 14.7k | 511 | MoneyPrinterV2 是一个自动化在线赚钱工具，支持Twitter机器人、YouTube Shorts自动化、联盟营销（Amazon+Twitter）及本地企业冷触达功能。采用模块化设计，集成CRON任务调度，提供多语言支持和可扩展的社区版本生态。 |
+| 10 | [agentscope-ai/ReMe](https://github.com/agentscope-ai/ReMe) | ReMe: Memory Management Kit for Agents - Remember ... | Python | 1.8k | 195 | ReMe是面向AI代理的内存管理工具包，解决上下文窗口限制和无状态会话问题。提供文件型与向量型内存系统，支持记忆持久化、自动压缩历史、跨会话记忆继承，适用于需要长期上下文管理的智能代理场景。 |
+| 11 | [microsoft/hve-core](https://github.com/microsoft/hve-core) | A refined collection of Hypervelocity Engineering ... | PowerShell | 290 | 6 | HVE Core是微软推出的GitHub Copilot专用提示工程框架，通过约束式AI工作流、结构化RPI方法论和JSON验证机制，实现从研究到实施的全流程自动化。提供可复用的指令集、代理模板和验证工具，提升团队协作与代码可靠性。 |
 
-[查看完整数据](api/github/2026-03-04.json)
+[查看完整数据](api/github/2026-03-05.json)
 <!-- END GITHUB TRENDING -->
 
 
