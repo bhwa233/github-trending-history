@@ -67,23 +67,23 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-05 | **成功**: 11 | **失败**: 0
+**最后更新**: 2026-03-06 | **成功**: 11 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | - | 7.3k | 1.5k | 提供多种AI代理角色，涵盖前端开发、后端架构、移动应用和AI工程等领域，每个代理具备专业技能和个性化流程，可直接调用或参考实现高效开发。 |
-| 2 | [TheCraigHewitt/seomachine](https://github.com/TheCraigHewitt/seomachine) | A specialized Claude Code workspace for creating l... | Python | 1.6k | 371 | SEO Machine 是基于 Claude Code 的专业 SEO 内容生成工具，提供从关键词研究、内容创作到数据分析的全流程自动化。内置 26 项营销技能和 advanced SEO 分析功能，支持 Google Analytics、DataForSEO 等数据集成，可生成符合品牌调性的优化内容。 |
-| 3 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Shannon Lite is a fully autonomous AI pentester fo... | TypeScript | 31.8k | 2.9k | Shannon是Keygraph开发的AI驱动型白盒渗透测试工具，通过源代码分析和实时漏洞利用自动检测Web应用及API的安全缺陷，支持注入攻击、XSS等漏洞的自动化验证，提供按需安全测试以填补传统渗透测试周期长的空白。 |
-| 4 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | Find vulnerabilities, misconfigurations, secrets, ... | Go | 32.9k | 297 | Trivy是多功能安全扫描工具，支持容器、文件系统、Kubernetes等多目标，可检测漏洞、配置错误、敏感信息及SBOM。基于Go语言开发，提供CLI和集成方案，适用于云原生环境安全检测。 |
-| 5 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you-owned Grok Companion, a cont... | TypeScript | 27.3k | 3.0k | Airi 是一个自托管的AI虚拟角色项目，旨在复刻Neuro-sama功能，支持实时语音聊天、游戏互动（如Minecraft和Factorio），并提供跨平台客户端。项目强调用户数据所有权和可定制性。 |
-| 6 | [inclusionAI/AReaL](https://github.com/inclusionAI/AReaL) | Lightning-Fast RL for LLM Reasoning and Agents. Ma... | Python | 4.1k | 161 | AReaL是一个高性能的异步强化学习系统，专为大型语言模型推理和智能体训练设计。支持灵活定制代理RL和在线RL，具备行业领先的训练速度与稳定性，适用于数学、编码、搜索等复杂任务，提供完整开源工具链加速AI代理开发。 |
-| 7 | [microsoft/mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners) | This open-source curriculum introduces the fundame... | Jupyter Notebook | 14.9k | 122 | 微软开源的MCP入门课程，通过Jupyter Notebook提供跨语言AI工作流示例，涵盖C#、Java、JavaScript、Rust、Python等语言，强调模块化、可扩展的AI系统开发。 |
-| 8 | [CodebuffAI/codebuff](https://github.com/CodebuffAI/codebuff) | Generate code from the terminal!... | TypeScript | 3.9k | 275 | Codebuff 是一个基于自然语言指令的AI代码编辑工具，采用多代理协作架构实现精准代码修改。通过文件选择器、规划器、编辑器等专用代理协同工作，支持终端直接生成代码、修复漏洞、重构等功能，提升开发效率并减少错误。 |
-| 9 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | Automate the process of making money online.... | Python | 14.7k | 511 | MoneyPrinterV2 是一个自动化在线赚钱工具，支持Twitter机器人、YouTube Shorts自动化、联盟营销（Amazon+Twitter）及本地企业冷触达功能。采用模块化设计，集成CRON任务调度，提供多语言支持和可扩展的社区版本生态。 |
-| 10 | [agentscope-ai/ReMe](https://github.com/agentscope-ai/ReMe) | ReMe: Memory Management Kit for Agents - Remember ... | Python | 1.8k | 195 | ReMe是面向AI代理的内存管理工具包，解决上下文窗口限制和无状态会话问题。提供文件型与向量型内存系统，支持记忆持久化、自动压缩历史、跨会话记忆继承，适用于需要长期上下文管理的智能代理场景。 |
-| 11 | [microsoft/hve-core](https://github.com/microsoft/hve-core) | A refined collection of Hypervelocity Engineering ... | PowerShell | 290 | 6 | HVE Core是微软推出的GitHub Copilot专用提示工程框架，通过约束式AI工作流、结构化RPI方法论和JSON验证机制，实现从研究到实施的全流程自动化。提供可复用的指令集、代理模板和验证工具，提升团队协作与代码可靠性。 |
+| 1 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you-owned Grok Companion, a cont... | TypeScript | 29.5k | 2.5k | Airi 是一个自托管的AI虚拟伴侣项目，旨在复刻Neuro-sama功能，支持实时语音聊天、Minecraft/Factorio游戏互动，提供跨平台（Web/macOS/Windows）体验。基于大型语言模型构建，强调用户数据所有权和本地化部署。 |
+| 2 | [QwenLM/Qwen-Agent](https://github.com/QwenLM/Qwen-Agent) | Agent framework and applications built upon Qwen>=... | Python | 14.6k | 684 | Qwen-Agent是基于Qwen大模型的代理框架，支持函数调用、MCP规划、代码解释器、RAG检索增强生成等功能，提供浏览器助手、代码解析等应用示例，适用于需要多工具协同的LLM应用开发。 |
+| 3 | [microsoft/hve-core](https://github.com/microsoft/hve-core) | A refined collection of Hypervelocity Engineering ... | PowerShell | 541 | 275 | HVE Core是针对GitHub Copilot的提示工程框架，提供约束型AI工作流、验证工件及RPI方法论，将工程任务分解为研究、计划、实施阶段，通过JSON Schema验证确保AI输出的可靠性，适用于团队协作的结构化AI开发场景。 |
+| 4 | [Ed1s0nZ/CyberStrikeAI](https://github.com/Ed1s0nZ/CyberStrikeAI) | CyberStrikeAI is an AI-native security testing pla... | Go | 1.6k | 138 | CyberStrikeAI是用Go开发的AI原生安全测试平台，集成100+安全工具与智能编排引擎，支持角色化测试、技能系统及全生命周期管理。通过MCP协议与AI代理实现从命令到漏洞发现的端到端自动化，提供攻击链分析、风险评分、可视化结果及审计追踪功能。 |
+| 5 | [inclusionAI/AReaL](https://github.com/inclusionAI/AReaL) | Lightning-Fast RL for LLM Reasoning and Agents. Ma... | Python | 4.4k | 348 | AReaL是一个面向大模型推理和智能体的开源异步强化学习系统，支持灵活定制和高速可扩展训练，具备数学、编码、搜索等场景的前沿性能，提供完整训练数据和基础设施以降低AI代理开发门槛。 |
+| 6 | [lingfengQAQ/webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer) | 基于 Claude Code 的长篇网文辅助创作系统，解决 AI 写作中的「遗忘」和「幻觉」问题，支... | Python | 762 | 84 | 基于Claude Code的长篇网文创作系统，通过RAG技术解决AI写作的遗忘与幻觉问题，支持200万字级连载。提供可视化面板、追读力系统及智能上下文管理，适用于需要长期内容创作的网络小说场景。 |
+| 7 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 11.9k | 582 | OpenAI的Skills项目为Codex提供可重复使用的技能目录，支持AI代理通过标准化指令、脚本和资源完成特定任务。包含技能安装、管理及分发机制，促进团队与个人能力封装与共享。 |
+| 8 | [TheCraigHewitt/seomachine](https://github.com/TheCraigHewitt/seomachine) | A specialized Claude Code workspace for creating l... | Python | 2.1k | 675 | SEO Machine 是基于 Claude Code 的专业 SEO 内容创作工具，提供从关键词研究到内容优化的全流程解决方案。集成 NLP 分析、SEO 检测、数据可视化等功能，支持自动化撰写、优化及性能分析，提升博客内容搜索排名与用户匹配度。 |
+| 9 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 46.3k | 82 | 该项目是一个AI驱动的对冲基金模拟系统，整合了15种经典投资策略，通过多代理协同实现基本面分析、技术分析、情绪判断和风险管理，所有决策均为模拟场景下的教育性研究。 |
+| 10 | [aidenybai/react-grab](https://github.com/aidenybai/react-grab) | Select context for coding agents directly from you... | TypeScript | 6.0k | 442 | react-grab 是一个用于快速提取网页代码上下文的工具，通过快捷键复制React组件、文件名及HTML源码，提升代码代理工具的效率。支持Next.js、Vite等框架，提供浏览器端实时上下文捕获功能。 |
+| 11 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | - | 9.8k | 2.9k | 提供多种AI代理模板，涵盖前端开发、后端架构、移动应用开发等场景，每个代理具备专业技能和个性化沟通方式，可直接调用或参考实现。 |
 
-[查看完整数据](api/github/2026-03-05.json)
+[查看完整数据](api/github/2026-03-06.json)
 <!-- END GITHUB TRENDING -->
 
 
