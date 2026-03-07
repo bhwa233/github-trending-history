@@ -67,23 +67,23 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-06 | **成功**: 11 | **失败**: 0
+**最后更新**: 2026-03-07 | **成功**: 11 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you-owned Grok Companion, a cont... | TypeScript | 29.5k | 2.5k | Airi 是一个自托管的AI虚拟伴侣项目，旨在复刻Neuro-sama功能，支持实时语音聊天、Minecraft/Factorio游戏互动，提供跨平台（Web/macOS/Windows）体验。基于大型语言模型构建，强调用户数据所有权和本地化部署。 |
-| 2 | [QwenLM/Qwen-Agent](https://github.com/QwenLM/Qwen-Agent) | Agent framework and applications built upon Qwen>=... | Python | 14.6k | 684 | Qwen-Agent是基于Qwen大模型的代理框架，支持函数调用、MCP规划、代码解释器、RAG检索增强生成等功能，提供浏览器助手、代码解析等应用示例，适用于需要多工具协同的LLM应用开发。 |
-| 3 | [microsoft/hve-core](https://github.com/microsoft/hve-core) | A refined collection of Hypervelocity Engineering ... | PowerShell | 541 | 275 | HVE Core是针对GitHub Copilot的提示工程框架，提供约束型AI工作流、验证工件及RPI方法论，将工程任务分解为研究、计划、实施阶段，通过JSON Schema验证确保AI输出的可靠性，适用于团队协作的结构化AI开发场景。 |
-| 4 | [Ed1s0nZ/CyberStrikeAI](https://github.com/Ed1s0nZ/CyberStrikeAI) | CyberStrikeAI is an AI-native security testing pla... | Go | 1.6k | 138 | CyberStrikeAI是用Go开发的AI原生安全测试平台，集成100+安全工具与智能编排引擎，支持角色化测试、技能系统及全生命周期管理。通过MCP协议与AI代理实现从命令到漏洞发现的端到端自动化，提供攻击链分析、风险评分、可视化结果及审计追踪功能。 |
-| 5 | [inclusionAI/AReaL](https://github.com/inclusionAI/AReaL) | Lightning-Fast RL for LLM Reasoning and Agents. Ma... | Python | 4.4k | 348 | AReaL是一个面向大模型推理和智能体的开源异步强化学习系统，支持灵活定制和高速可扩展训练，具备数学、编码、搜索等场景的前沿性能，提供完整训练数据和基础设施以降低AI代理开发门槛。 |
-| 6 | [lingfengQAQ/webnovel-writer](https://github.com/lingfengQAQ/webnovel-writer) | 基于 Claude Code 的长篇网文辅助创作系统，解决 AI 写作中的「遗忘」和「幻觉」问题，支... | Python | 762 | 84 | 基于Claude Code的长篇网文创作系统，通过RAG技术解决AI写作的遗忘与幻觉问题，支持200万字级连载。提供可视化面板、追读力系统及智能上下文管理，适用于需要长期内容创作的网络小说场景。 |
-| 7 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 11.9k | 582 | OpenAI的Skills项目为Codex提供可重复使用的技能目录，支持AI代理通过标准化指令、脚本和资源完成特定任务。包含技能安装、管理及分发机制，促进团队与个人能力封装与共享。 |
-| 8 | [TheCraigHewitt/seomachine](https://github.com/TheCraigHewitt/seomachine) | A specialized Claude Code workspace for creating l... | Python | 2.1k | 675 | SEO Machine 是基于 Claude Code 的专业 SEO 内容创作工具，提供从关键词研究到内容优化的全流程解决方案。集成 NLP 分析、SEO 检测、数据可视化等功能，支持自动化撰写、优化及性能分析，提升博客内容搜索排名与用户匹配度。 |
-| 9 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 46.3k | 82 | 该项目是一个AI驱动的对冲基金模拟系统，整合了15种经典投资策略，通过多代理协同实现基本面分析、技术分析、情绪判断和风险管理，所有决策均为模拟场景下的教育性研究。 |
-| 10 | [aidenybai/react-grab](https://github.com/aidenybai/react-grab) | Select context for coding agents directly from you... | TypeScript | 6.0k | 442 | react-grab 是一个用于快速提取网页代码上下文的工具，通过快捷键复制React组件、文件名及HTML源码，提升代码代理工具的效率。支持Next.js、Vite等框架，提供浏览器端实时上下文捕获功能。 |
-| 11 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | - | 9.8k | 2.9k | 提供多种AI代理模板，涵盖前端开发、后端架构、移动应用开发等场景，每个代理具备专业技能和个性化沟通方式，可直接调用或参考实现。 |
+| 1 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, ... | Python | 5.6k | 345 | MiroFish 是基于多智能体技术的群体智能预测引擎，通过构建数字世界模拟现实场景，支持政策、舆情、文学结局等多领域预测。用户上传种子信息后，系统生成可交互的数字世界并推演未来可能性，提供深度预测报告。 |
+| 2 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 12.7k | 947 | OpenAI的Skills项目为Codex提供技能目录管理，通过结构化指令、脚本和资源实现AI代理任务自动化。支持技能安装、版本管理和跨平台复用，包含Curated和Experimental两类技能库，提供标准化技能分发方案。 |
+| 3 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 10.7k | 1.5k | 该项目提供了一系列预定义的AI代理，涵盖前端开发、后端架构、移动应用开发等角色，每个代理具备特定技能和个性化的任务处理流程，适用于需要多领域AI协作的开发场景。 |
+| 4 | [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) | Sample code and notebooks for Generative AI on Goo... | Jupyter Notebook | 13.5k | 348 | 该项目提供Google Cloud Vertex AI生成式AI的示例代码和Jupyter笔记本，涵盖Gemini大模型、AI搜索、RAG技术、图像/音频生成等场景，包含环境配置和开发指南。 |
+| 5 | [agentjido/jido](https://github.com/agentjido/jido) | 🤖 Autonomous agent framework for Elixir. Built fo... | Elixir | 1.4k | 138 | Jido是Elixir的自主代理框架，基于OTP构建分布式、自动化工作流。通过纯函数代理和指令系统实现状态管理与副作用分离，支持可组合的AI工具集成与动态任务编排。 |
+| 6 | [QwenLM/Qwen-Agent](https://github.com/QwenLM/Qwen-Agent) | Agent framework and applications built upon Qwen>=... | Python | 15.0k | 586 | Qwen-Agent是基于Qwen大模型的智能代理框架，支持函数调用、MCP、RAG、代码解释器等功能，提供浏览器助手、代码执行等应用场景，兼容多版本模型并集成工具调用能力。 |
+| 7 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 46.6k | 248 | 该项目是一个AI对冲基金的原型，通过多个模拟不同投资策略的AI代理（如价值投资、成长投资、技术分析等）协同工作，分析市场数据、基本面、技术面及情绪，生成交易信号并进行风险管理，但明确声明仅用于教育和研究，不进行实际交易。 |
+| 8 | [microsoft/hve-core](https://github.com/microsoft/hve-core) | A refined collection of Hypervelocity Engineering ... | PowerShell | 743 | 217 | HVE Core是面向GitHub Copilot的提示工程框架，提供约束型AI工作流、验证工件及RPI方法论，通过结构化组件提升开发效率。支持PowerShell脚本集成，适用于企业级AI工程化场景。 |
+| 9 | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFFiNE(pro... | TypeScript | 64.7k | 264 | AFFiNE是一个隐私优先的开源知识库平台，整合文档、画布和数据库，支持实时协作与本地存储。内置多模态AI助手，提供创意写作、思维导图、任务规划等功能，适用于需要高度定制和数据自主的知识管理场景。 |
+| 10 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible componen... | TypeScript | 108.2k | 102 | shadcn-ui/ui 是一个基于 TypeScript 的开源 UI 组件库，提供美观且可访问的组件，支持多框架使用，便于快速构建用户界面。 |
+| 11 | [alibaba/page-agent](https://github.com/alibaba/page-agent) | JavaScript in-page GUI agent. Control web interfac... | TypeScript | 1.3k | 104 | Page-Agent是基于JavaScript的网页GUI代理工具，通过自然语言控制网页界面，无需扩展或后端支持。支持直接DOM操作与自定义LLM集成，提供人机交互UI，适用于SaaS AI助手、表单自动化及无障碍场景。 |
 
-[查看完整数据](api/github/2026-03-06.json)
+[查看完整数据](api/github/2026-03-07.json)
 <!-- END GITHUB TRENDING -->
 
 
