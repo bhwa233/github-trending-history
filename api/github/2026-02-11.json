@@ -1,0 +1,146 @@
+{
+  "date": "2026-02-11",
+  "since": "daily",
+  "totalRepos": 7,
+  "successCount": 7,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "google/langextract",
+      "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+      "language": "Python",
+      "stars": 30419,
+      "forks": 2032,
+      "todayStars": 3177,
+      "url": "https://github.com/google/langextract",
+      "aiSummary": {
+        "summary": "Google开源的Python库，利用LLM从非结构化文本中提取结构化信息，支持精确来源定位、交互式可视化及多模型适配，适用于医疗报告等长文档的高效信息抽取。",
+        "techStack": [
+          "Python",
+          "LLM框架",
+          "Ollama",
+          "Gemini API"
+        ],
+        "useCase": "医疗文本信息提取与结构化处理"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "stars": 1690,
+      "forks": 122,
+      "todayStars": 389,
+      "url": "https://github.com/github/gh-aw",
+      "aiSummary": {
+        "summary": "GitHub Agentic Workflows 项目允许开发者通过自然语言 Markdown 编写智能工作流，并在 GitHub Actions 中安全执行。项目强调安全机制，包括默认只读权限、沙盒执行、输入消毒和网络隔离，支持自动化仓库任务同时降低风险。",
+        "techStack": [
+          "Go",
+          "GitHub Actions",
+          "Markdown"
+        ],
+        "useCase": "适用于需要通过自然语言描述实现 GitHub 仓库自动化操作的场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "language": "C#",
+      "stars": 129379,
+      "forks": 7694,
+      "todayStars": 48,
+      "url": "https://github.com/microsoft/PowerToys",
+      "aiSummary": {
+        "summary": "Microsoft PowerToys 是一组Windows系统增强工具，包含25+实用功能，如快捷键管理、屏幕截图、文件管理等，旨在提升用户生产力与系统定制化体验。",
+        "techStack": [
+          "C#"
+        ],
+        "useCase": "适用于需要深度定制和效率优化的Windows用户群体"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 23951,
+      "forks": 1419,
+      "todayStars": 102,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "ChromeDevTools MCP项目为AI编码助手提供Chrome浏览器控制能力，支持性能分析、调试和自动化。通过Model-Context-Protocol协议接入Chrome DevTools，实现网络请求分析、截图、控制台监控及Puppeteer自动化操作，同时包含性能数据采集和使用统计功能。",
+        "techStack": [
+          "TypeScript",
+          "Chrome DevTools Protocol",
+          "Puppeteer"
+        ],
+        "useCase": "AI编码助手实现浏览器自动化操作、深度调试及性能优化分析"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "EveryInc/compound-engineering-plugin",
+      "description": "Official Claude Code compound engineering plugin",
+      "language": "TypeScript",
+      "stars": 8440,
+      "forks": 660,
+      "todayStars": 270,
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "aiSummary": {
+        "summary": "Claude Code工程插件市场工具，支持将插件转换为OpenCode/Codex/Droid格式，提供本地开发与配置同步功能，简化工程工作流。",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "CLI"
+        ],
+        "useCase": "开发人员将Claude Code插件适配至OpenCode、Codex等其他AI开发平台"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "patchy631/ai-engineering-hub",
+      "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
+      "language": "Jupyter Notebook",
+      "stars": 28589,
+      "forks": 4674,
+      "todayStars": 140,
+      "url": "https://github.com/patchy631/ai-engineering-hub",
+      "aiSummary": {
+        "summary": "AI Engineering Hub 是一个提供LLMs、RAG、AI代理等技术的实战项目合集，包含93+不同难度的生产级项目，涵盖OCR、聊天界面、模型微调等应用场景，适合各层次开发者通过教程和示例提升AI工程能力。",
+        "techStack": [
+          "Jupyter Notebook",
+          "LLMs",
+          "RAG",
+          "AI Agents",
+          "Streamlit"
+        ],
+        "useCase": "适用于AI工程学习、技术验证及企业级AI系统开发"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "cheahjs/free-llm-api-resources",
+      "description": "A list of free LLM inference resources accessible via API.",
+      "language": "Python",
+      "stars": 9443,
+      "forks": 918,
+      "todayStars": 463,
+      "url": "https://github.com/cheahjs/free-llm-api-resources",
+      "aiSummary": {
+        "summary": "该项目整理了多个提供免费LLM推理API服务的资源列表，包含不同服务商的调用限制和可用模型，方便开发者快速接入大语言模型服务进行测试和应用开发。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为开发者提供免费或试用的LLM API资源，便于快速接入和测试大语言模型服务。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-11T23:39:26.968Z",
+    "duration": "66s",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "date": "2026-02-09",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "KeygraphHQ/shannon",
+      "description": "Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
+      "language": "TypeScript",
+      "stars": 17140,
+      "forks": 1811,
+      "todayStars": 4094,
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "aiSummary": {
+        "summary": "Shannon是基于AI的全自动渗透测试工具，可自主发现Web应用漏洞并执行真实攻击验证，如注入和身份验证绕过。解决快速迭代开发中的安全漏洞问题，提供实际漏洞证明以确保代码安全。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于CI/CD流程中的自动化安全测试与漏洞验证"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "stars": 13512,
+      "forks": 1618,
+      "todayStars": 1105,
+      "url": "https://github.com/virattt/dexter",
+      "aiSummary": {
+        "summary": "Dexter是面向金融研究的自主代理，支持任务规划、实时数据处理与自我验证，可分解复杂问题并生成数据驱动的分析结果。",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "OpenAI API"
+        ],
+        "useCase": "自动化金融数据分析与决策支持"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "pydantic/monty",
+      "description": "A minimal, secure Python interpreter written in Rust for use by AI",
+      "language": "Rust",
+      "stars": 3904,
+      "forks": 138,
+      "todayStars": 1301,
+      "url": "https://github.com/pydantic/monty",
+      "aiSummary": {
+        "summary": "Monty是用Rust开发的轻量级安全Python解释器，专为AI设计。支持部分Python功能，隔离主机环境，可控制外部函数调用，具备快速启动（<1μs）和资源监控能力，适用于安全执行AI生成代码的场景。",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "适用于需要安全执行AI生成代码的场景，提供快速启动和环境隔离。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "hsliuping/TradingAgents-CN",
+      "description": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
+      "language": "Python",
+      "stars": 16174,
+      "forks": 3568,
+      "todayStars": 160,
+      "url": "https://github.com/hsliuping/TradingAgents-CN",
+      "aiSummary": {
+        "summary": "基于多智能体LLM的中文金融分析框架，支持A股/港股/美股研究，提供Docker部署、多模型配置及可视化分析功能，适用于策略实验与AI金融学习。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "Vue3",
+          "MongoDB",
+          "Redis"
+        ],
+        "useCase": "金融分析与AI交易策略的合规性研究与教学实践"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "iOfficeAI/AionUi",
+      "description": "Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
+      "language": "TypeScript",
+      "stars": 13775,
+      "forks": 1058,
+      "todayStars": 680,
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "aiSummary": {
+        "summary": "AionUi是支持多AI模型的本地图形化协作工具，提供统一界面管理Gemini CLI、Claude Code等命令行工具，具备本地数据存储、多会话管理及跨平台远程访问功能，强调安全性和便捷性。",
+        "techStack": [
+          "TypeScript",
+          "WebUI",
+          "CLI Integration"
+        ],
+        "useCase": "适合需要本地化部署且多AI工具协同开发的场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars": 397152,
+      "forks": 42492,
+      "todayStars": 450,
+      "url": "https://github.com/public-apis/public-apis",
+      "aiSummary": {
+        "summary": "该仓库是一个由社区维护的免费API集合项目，涵盖多个领域如天气、金融、交通等，提供简洁的API列表和分类目录，方便开发者快速查找和集成所需接口。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为开发者提供多样化免费API接口以加速应用开发"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "stars": 882,
+      "forks": 79,
+      "todayStars": 304,
+      "url": "https://github.com/github/gh-aw",
+      "aiSummary": {
+        "summary": "GitHub Agentic Workflows项目允许用户通过自然语言Markdown编写代理工作流，并在GitHub Actions中运行。提供多重安全防护，如沙盒执行、输入消毒和只读权限，默认限制写操作，确保AI代理在安全边界内运行。",
+        "techStack": [
+          "Go",
+          "GitHub Actions",
+          "Markdown"
+        ],
+        "useCase": "自动化GitHub仓库任务，如代码分析、测试和部署"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+      "language": "Python",
+      "stars": 93124,
+      "forks": 13509,
+      "todayStars": 230,
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "aiSummary": {
+        "summary": "收集了基于LLM的AI代理应用和RAG技术的实践案例，涵盖代码、邮件、医疗、金融等多个领域，支持OpenAI、Anthropic、Gemini等主流模型及开源模型如Qwen、Llama，提供可本地运行的AI解决方案。",
+        "techStack": [
+          "Python",
+          "RAG",
+          "AI Agents",
+          "OpenAI",
+          "Anthropic"
+        ],
+        "useCase": "适用于AI代理系统开发与大语言模型应用场景的探索与实践"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "gitbutlerapp/gitbutler",
+      "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
+      "language": "Rust",
+      "stars": 18642,
+      "forks": 806,
+      "todayStars": 388,
+      "url": "https://github.com/gitbutlerapp/gitbutler",
+      "aiSummary": {
+        "summary": "GitButler是基于Git的现代版本控制客户端，提供GUI和CLI工具。核心功能包括堆叠分支、并行分支管理、可视化提交操作、AI辅助工作流、冲突处理及Forge集成，简化Git操作并提升开发效率。",
+        "techStack": [
+          "Rust",
+          "Tauri",
+          "Svelte"
+        ],
+        "useCase": "适用于需要高效版本控制和AI辅助开发的团队及个人开发者。"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "microsoft/litebox",
+      "description": "A security-focused library OS supporting kernel- and user-mode execution",
+      "language": "Rust",
+      "stars": 1708,
+      "forks": 73,
+      "todayStars": 356,
+      "url": "https://github.com/microsoft/litebox",
+      "aiSummary": {
+        "summary": "LiteBox是微软开发的安全聚焦库操作系统，通过精简主机接口降低攻击面，支持内核与用户模式执行。采用North-South接口设计实现跨平台互操作，适配多种运行环境与沙箱场景。",
+        "techStack": [
+          "Rust",
+          "nix/rustix",
+          "安全沙箱"
+        ],
+        "useCase": "跨平台应用的安全隔离执行与可信计算环境构建"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "stars": 7503,
+      "forks": 425,
+      "todayStars": 771,
+      "url": "https://github.com/openai/skills",
+      "aiSummary": {
+        "summary": "该项目是Codex的技能目录，提供可复用的AI代理技能模块，支持通过命令行安装和管理技能，包含实验性和精选技能，便于任务执行和分发。",
+        "techStack": [
+          "Python",
+          "GitHub CLI",
+          "包管理"
+        ],
+        "useCase": "为AI代理提供可复用的技能模块，便于任务执行和分发。"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "EveryInc/compound-engineering-plugin",
+      "description": "Official Claude Code compound engineering plugin",
+      "language": "TypeScript",
+      "stars": 7847,
+      "forks": 627,
+      "todayStars": 161,
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "aiSummary": {
+        "summary": "该项目是Claude Code的工程插件工具集，支持将插件转换为OpenCode/Codex格式，提供本地开发、配置同步及工程工作流管理功能，包含计划、执行、评审等自动化流程。",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "CLI"
+        ],
+        "useCase": "AI工程插件开发与跨平台格式转换工具"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "DrewThomasson/ebook2audiobook",
+      "description": "Generate audiobooks from e-books, voice cloning & 1158+ languages!",
+      "language": "Python",
+      "stars": 17813,
+      "forks": 1438,
+      "todayStars": 140,
+      "url": "https://github.com/DrewThomasson/ebook2audiobook",
+      "aiSummary": {
+        "summary": "该工具可将电子书转换为带章节和元数据的有声书，支持1158种语言及语音克隆，集成XTTSv2、Piper-TTS等多款TTS模型，兼容多种电子书格式并提供OCR功能。",
+        "techStack": [
+          "Python",
+          "XTTSv2",
+          "Piper-TTS",
+          "Vits",
+          "Fairseq"
+        ],
+        "useCase": "适用于将合法获取的电子书批量转换为多语言有声书资源。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-09T23:43:53.256Z",
+    "duration": "107s",
+    "version": "1.0.0"
+  }
+}

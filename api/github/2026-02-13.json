@@ -1,0 +1,203 @@
+{
+  "date": "2026-02-13",
+  "since": "daily",
+  "totalRepos": 10,
+  "successCount": 10,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "SynkraAI/aios-core",
+      "description": "Synkra AIOS: AI-Orchestrated System for Full Stack Development - Core Framework v4.0",
+      "language": "JavaScript",
+      "stars": 404,
+      "forks": 206,
+      "todayStars": 105,
+      "url": "https://github.com/SynkraAI/aios-core",
+      "aiSummary": {
+        "summary": "Synkra AIOS 是一个以CLI为核心的全栈开发AI编排框架，通过AI代理协作实现自动化开发流程。遵循CLI优先架构，提供可观测性监控和轻量级UI，支持软件开发、内容创作等多领域场景，强调通过AI代理生成完整技术文档与开发任务。",
+        "techStack": [
+          "JavaScript",
+          "CLI工具链",
+          "实时监控技术"
+        ],
+        "useCase": "需要AI驱动的自动化全栈开发与跨领域流程优化的场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 24703,
+      "forks": 1461,
+      "todayStars": 357,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "ChromeDevTools/mcp 是一个基于TypeScript的Model-Context-Protocol服务器，允许AI编码助手（如Gemini、Copilot）通过Chrome DevTools实现浏览器自动化、性能分析和深度调试，支持网络请求分析、截图、console日志监控及puppeteer驱动的可靠自动化操作。",
+        "techStack": [
+          "TypeScript",
+          "Chrome DevTools",
+          "puppeteer"
+        ],
+        "useCase": "适用于AI编码助手进行浏览器自动化、调试及性能分析场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "danielmiessler/Personal_AI_Infrastructure",
+      "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+      "language": "TypeScript",
+      "stars": 8012,
+      "forks": 1131,
+      "todayStars": 588,
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "aiSummary": {
+        "summary": "Personal AI Infrastructure (PAI) 旨在通过AI增强人类自我发现能力，解决创造力激活难题。核心功能包括双阶段能力选择、思维工具优化和默认并行执行，注重用户个性化激活与开放获取，覆盖从基础聊天机器人到智能代理的多层级交互。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "个人用户通过AI工具实现自我认知优化与创造力激活"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "patchy631/ai-engineering-hub",
+      "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
+      "language": "Jupyter Notebook",
+      "stars": 29278,
+      "forks": 4749,
+      "todayStars": 386,
+      "url": "https://github.com/patchy631/ai-engineering-hub",
+      "aiSummary": {
+        "summary": "提供93+个AI工程实践项目，涵盖LLMs、RAG、AI代理等技术的教程与实战案例，包含从OCR识别到智能对话系统的多种应用场景，适合不同技能层级的开发者学习和项目开发。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Llama 3.2",
+          "Gemma-3",
+          "Qwen 2.5 VL",
+          "Streamlit"
+        ],
+        "useCase": "AI工程开发者学习和实践大模型应用开发的综合资源库"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "TelegramMessenger/MTProxy",
+      "description": "",
+      "language": "C",
+      "stars": 5873,
+      "forks": 996,
+      "todayStars": 72,
+      "url": "https://github.com/TelegramMessenger/MTProxy",
+      "aiSummary": {
+        "summary": "MTProxy是Telegram的轻量级MT-Proto协议代理服务器，支持加密通信和流量中转。通过生成密钥和配置文件实现安全连接，可部署为Telegram客户端的中转节点，适用于需要稳定代理服务的场景。",
+        "techStack": [
+          "C",
+          "OpenSSL",
+          "zlib"
+        ],
+        "useCase": "为Telegram提供安全的加密代理服务，支持流量中转与隐私保护"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "google-deepmind/superhuman",
+      "description": "",
+      "language": "TeX",
+      "stars": 361,
+      "forks": 26,
+      "todayStars": 108,
+      "url": "https://github.com/google-deepmind/superhuman",
+      "aiSummary": {
+        "summary": "Google DeepMind的Superhuman Reasoning团队开源项目，包含数学推理AI模型AlphaGeometry、IMO竞赛基准测试集和数学研究代理Aletheia，旨在推动AI在数学证明、问题求解和自动评估领域的发展。",
+        "techStack": [
+          "TeX",
+          "Python",
+          "Gemini Deep Think"
+        ],
+        "useCase": "AI数学推理能力研究与竞赛级问题解决"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "cheahjs/free-llm-api-resources",
+      "description": "A list of free LLM inference resources accessible via API.",
+      "language": "Python",
+      "stars": 10607,
+      "forks": 1033,
+      "todayStars": 442,
+      "url": "https://github.com/cheahjs/free-llm-api-resources",
+      "aiSummary": {
+        "summary": "整理了多个提供免费LLM API资源的服务商，包含模型列表、使用限制及试用额度信息，帮助开发者低成本访问大语言模型推理服务。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "开发者寻找免费LLM API资源进行应用开发或研究测试"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "HandsOnLLM/Hands-On-Large-Language-Models",
+      "description": "Official code repo for the O'Reilly Book - \"Hands-On Large Language Models\"",
+      "language": "Jupyter Notebook",
+      "stars": 21145,
+      "forks": 4994,
+      "todayStars": 318,
+      "url": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models",
+      "aiSummary": {
+        "summary": "该项目是O'Reilly书籍《Hands-On Large Language Models》的配套代码库，包含12章实践案例，涵盖语言模型基础、Transformer结构、文本生成、多模态模型等主题，通过Jupyter Notebook形式提供可运行代码与可视化示例。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "PyTorch",
+          "Hugging Face"
+        ],
+        "useCase": "适用于机器学习教育、大语言模型技术实践与研究开发场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "THUDM/slime",
+      "description": "slime is an LLM post-training framework for RL Scaling.",
+      "language": "Python",
+      "stars": 4069,
+      "forks": 528,
+      "todayStars": 85,
+      "url": "https://github.com/THUDM/slime",
+      "aiSummary": {
+        "summary": "slime是面向LLM强化学习训练的后处理框架，提供高性能多模式训练和灵活数据生成能力，支持Megatron与SGLang高效集成，适配多种大模型训练需求。",
+        "techStack": [
+          "Python",
+          "Megatron",
+          "SGLang"
+        ],
+        "useCase": "适用于大型语言模型的强化学习后训练与性能优化场景"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "DebugSwift/DebugSwift",
+      "description": "A toolkit to make debugging iOS applications easier 🚀",
+      "language": "Swift",
+      "stars": 1415,
+      "forks": 125,
+      "todayStars": 50,
+      "url": "https://github.com/DebugSwift/DebugSwift",
+      "aiSummary": {
+        "summary": "DebugSwift是面向iOS开发的调试工具包，提供网络监控、性能分析、崩溃追踪及可视化调试工具，支持HTTP/WebSocket抓包、实时性能指标、内存泄漏检测和SwiftUI渲染追踪，提升调试效率。",
+        "techStack": [
+          "Swift",
+          "iOS SDK",
+          "Xcode"
+        ],
+        "useCase": "适用于iOS应用开发中的全流程调试与性能优化场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-13T23:38:09.387Z",
+    "duration": "107s",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "date": "2026-02-20",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "vxcontrol/pentagi",
+      "description": "✨ Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "stars": 3794,
+      "forks": 545,
+      "todayStars": 1310,
+      "url": "https://github.com/vxcontrol/pentagi",
+      "aiSummary": {
+        "summary": "PentAGI是一个基于AI的全自动渗透测试系统，采用Go语言开发。通过沙盒化Docker环境实现安全测试，集成20+专业工具与知识图谱，支持自主决策、信息搜集、漏洞分析及报告生成，适用于复杂网络安全评估场景。",
+        "techStack": [
+          "Go",
+          "Docker",
+          "Neo4j"
+        ],
+        "useCase": "自动化渗透测试与企业级网络安全评估"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "blackboardsh/electrobun",
+      "description": "Build ultra fast, tiny, and cross-platform desktop apps with Typescript.",
+      "language": "C++",
+      "stars": 6003,
+      "forks": 101,
+      "todayStars": 435,
+      "url": "https://github.com/blackboardsh/electrobun",
+      "aiSummary": {
+        "summary": "Electrobun 是一个用 C++ 和 Zig 构建的跨平台桌面应用开发工具，支持通过 TypeScript 编写主进程和网页视图。它提供进程隔离、高效的 RPC 通信，生成体积小巧的自解压应用包（约 12MB），并支持超小增量更新（14KB）。集成 Bun 运行时和 WebKit 渲染引擎，适合快速开发轻量级桌面应用。",
+        "techStack": [
+          "C++",
+          "Zig",
+          "TypeScript",
+          "Bun",
+          "WebKit"
+        ],
+        "useCase": "需要跨平台、超小型化且更新高效的桌面应用程序开发"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "HailToDodongo/pyrite64",
+      "description": "N64 Game-Engine and Editor using libdragon & tiny3d",
+      "language": "C++",
+      "stars": 2114,
+      "forks": 77,
+      "todayStars": 440,
+      "url": "https://github.com/HailToDodongo/pyrite64",
+      "aiSummary": {
+        "summary": "Pyrite64是基于C++的N64游戏引擎与编辑器，采用libdragon和tiny3d开发，支持3D模型导入、HDR+Bloom渲染、大纹理处理及节点图脚本。专注于真实硬件兼容，需通过Ares等模拟器测试，适用于独立开发者创建N64 3D游戏。",
+        "techStack": [
+          "C++",
+          "libdragon",
+          "tiny3d"
+        ],
+        "useCase": "开发可在N64真实硬件或模拟器上运行的3D游戏，支持高级图形特性和可视化脚本编辑。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 56208,
+      "forks": 4256,
+      "todayStars": 980,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的代码代理框架，通过自动化工作流管理提升开发效率。核心流程包括需求拆解、设计确认、TDD实现和子代理协作，强调YAGNI、DRY原则，支持编码代理自主执行复杂任务。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "自动化软件开发流程优化与智能代码代理协作"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 32091,
+      "forks": 2955,
+      "todayStars": 37,
+      "url": "https://github.com/aquasecurity/trivy",
+      "aiSummary": {
+        "summary": "Trivy是用Go编写的全面安全扫描工具，支持容器、文件系统、Git仓库、Kubernetes等目标，可检测漏洞、配置错误、敏感信息及SBOM。具备多平台集成能力，提供快速安全检测方案。",
+        "techStack": [
+          "Go",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "适用于容器镜像、云原生应用及代码仓库的安全漏洞与配置问题检测"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "PostHog/posthog",
+      "description": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+      "language": "Python",
+      "stars": 31535,
+      "forks": 2306,
+      "todayStars": 61,
+      "url": "https://github.com/PostHog/posthog",
+      "aiSummary": {
+        "summary": "PostHog是一个全栈开源产品分析平台，提供数据分析、会话回放、错误跟踪、特征管理、实验测试等功能，支持自托管和云服务，帮助团队优化产品性能和用户体验。",
+        "techStack": [
+          "Python",
+          "JavaScript",
+          "PostgreSQL",
+          "Redis",
+          "Docker"
+        ],
+        "useCase": "适用于需要整合数据分析、用户行为追踪和产品迭代优化的开发团队"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "eslint/eslint",
+      "description": "Find and fix problems in your JavaScript code.",
+      "language": "JavaScript",
+      "stars": 27057,
+      "forks": 4920,
+      "todayStars": 30,
+      "url": "https://github.com/eslint/eslint",
+      "aiSummary": {
+        "summary": "ESLint是用于JavaScript/ECMAScript代码的静态分析工具，可识别并报告代码中的问题。基于AST解析，支持可插拔规则系统，提供代码规范校验、错误检测及自动修复功能，兼容ES6+语法。",
+        "techStack": [
+          "JavaScript",
+          "Espree",
+          "ES Modules"
+        ],
+        "useCase": "适用于JavaScript项目代码质量管控与规范遵循"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 7856,
+      "forks": 772,
+      "todayStars": 64,
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "aiSummary": {
+        "summary": "Anthropics官方维护的Claude代码插件目录，提供内部及第三方高质量插件。支持通过CLI和界面安装，包含标准化插件结构与安全规范，强调插件信任与质量验证。",
+        "techStack": [
+          "Python",
+          "MCP服务器配置",
+          "CLI工具"
+        ],
+        "useCase": "开发与管理Claude Code扩展功能插件"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Effect-TS/effect-smol",
+      "description": "Core libraries and experimental work for Effect v4",
+      "language": "TypeScript",
+      "stars": 372,
+      "forks": 42,
+      "todayStars": 11,
+      "url": "https://github.com/Effect-TS/effect-smol",
+      "aiSummary": {
+        "summary": "Effect-TS/effect-smol 是 Effect v4 的核心库和实验性工作，提供类型安全的并发编程能力，基于 TypeScript 构建，专注于函数式编程范式与轻量级运行时设计。",
+        "techStack": [
+          "TypeScript",
+          "Effect Framework",
+          "Concurrency Libraries"
+        ],
+        "useCase": "开发需要高并发处理和函数式编程特性的 TypeScript 应用程序"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "stars": 8835,
+      "forks": 731,
+      "todayStars": 438,
+      "url": "https://github.com/google-research/timesfm",
+      "aiSummary": {
+        "summary": "TimesFM是Google Research开发的预训练时间序列基础模型，采用Transformer架构，支持高精度时序预测。版本2.5优化参数量至2亿，扩展上下文长度至16k，新增连续分位数预测功能，适用于复杂时序建模与多场景预测需求。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Flax"
+        ],
+        "useCase": "适用于金融时间序列预测、气象预测等需要高精度时序分析的场景。"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "roboflow/trackers",
+      "description": "Trackers gives you clean, modular re-implementations of leading multi-object tracking algorithms released under the permissive Apache 2.0 license. You combine them with any detection model you already use.",
+      "language": "Python",
+      "stars": 2715,
+      "forks": 263,
+      "todayStars": 127,
+      "url": "https://github.com/roboflow/trackers",
+      "aiSummary": {
+        "summary": "roboflow/trackers 是一个模块化多目标跟踪库，提供主流跟踪算法的清洁实现，支持与任意检测模型无缝集成。通过CLI或Python API实现视频/实时流跟踪，内置轨迹可视化与MOT指标评估功能，适用于需要高效目标追踪的视觉系统。",
+        "techStack": [
+          "Python",
+          "OpenCV",
+          "Supervision",
+          "Inference"
+        ],
+        "useCase": "适用于需要多目标跟踪的计算机视觉应用，支持灵活集成到现有检测系统中。"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "huggingface/skills",
+      "description": "",
+      "language": "Python",
+      "stars": 1411,
+      "forks": 130,
+      "todayStars": 22,
+      "url": "https://github.com/huggingface/skills",
+      "aiSummary": {
+        "summary": "Hugging Face Skills 提供标准化的AI/ML任务技能定义，支持多平台编码代理工具。通过自包含文件夹封装任务指令、脚本和资源，兼容Claude Code、Codex、Gemini等工具，提升跨平台开发效率。",
+        "techStack": [
+          "Python",
+          "YAML",
+          "JSON",
+          "CLI"
+        ],
+        "useCase": "加速多AI代理工具下的机器学习任务开发与部署"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "databricks-solutions/ai-dev-kit",
+      "description": "Databricks Toolkit for Coding Agents provided by Field Engineering",
+      "language": "Python",
+      "stars": 535,
+      "forks": 94,
+      "todayStars": 35,
+      "url": "https://github.com/databricks-solutions/ai-dev-kit",
+      "aiSummary": {
+        "summary": "Databricks AI开发工具包，提升AI编码助手在Databricks平台的开发效率。支持构建Spark流水线、ML模型服务、数据仪表板等，提供多种集成方式和最佳实践指导。",
+        "techStack": [
+          "Python",
+          "Databricks API",
+          "MLflow",
+          "Spark"
+        ],
+        "useCase": "增强AI编码助手在Databricks上的开发能力，加速数据工程与机器学习应用构建"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "freemocap/freemocap",
+      "description": "Free Motion Capture for Everyone 💀✨",
+      "language": "Python",
+      "stars": 5552,
+      "forks": 441,
+      "todayStars": 503,
+      "url": "https://github.com/freemocap/freemocap",
+      "aiSummary": {
+        "summary": "FreeMoCap是一个免费开源的动作捕捉系统，支持跨平台和硬件无关，提供低成本的研究级运动捕捉解决方案，适用于学术研究、教育和培训场景。",
+        "techStack": [
+          "Python",
+          "PyQt",
+          "OpenCV"
+        ],
+        "useCase": "适用于需要低成本、高精度动作捕捉的科研、教学及训练场景。"
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "ComposioHQ/composio",
+      "description": "Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.",
+      "language": "TypeScript",
+      "stars": 27008,
+      "forks": 4436,
+      "todayStars": 74,
+      "url": "https://github.com/ComposioHQ/composio",
+      "aiSummary": {
+        "summary": "Composio提供AI代理开发工具链，支持1000+工具包集成、上下文管理、认证及沙盒环境，简化AI代理构建流程。提供TypeScript和Python SDK，可无缝对接OpenAI等框架，适用于需要复杂工具调用的智能应用开发。",
+        "techStack": [
+          "TypeScript",
+          "Python",
+          "OpenAI Agents",
+          "Agents.js"
+        ],
+        "useCase": "需要集成多工具且依赖上下文管理的AI代理开发场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-20T23:36:35.989Z",
+    "duration": "150s",
+    "version": "1.0.0"
+  }
+}

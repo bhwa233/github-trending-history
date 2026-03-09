@@ -67,24 +67,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-02-08 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-03-08 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Fully autonomous AI hacker to find actual exploits... | TypeScript | 13.0k | 3.5k | Shannon是全自主AI渗透测试工具，通过模拟攻击自动发现并验证Web应用漏洞，提供实际 exploit 证明。解决持续集成中安全测试滞后问题，支持实时漏洞检测与合规验证。 |
-| 2 | [pydantic/monty](https://github.com/pydantic/monty) | A minimal, secure Python interpreter written in Ru... | Rust | 2.7k | 442 | Monty是用Rust开发的轻量级安全Python解释器，专为AI代理设计。支持子集Python代码执行、环境隔离、类型检查、快速启动（<1μs）和资源监控，适用于需要安全运行AI生成代码的场景。 |
-| 3 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 6.9k | 1.4k | OpenAI的Skills项目是Codex的技能目录，提供可重复使用的任务处理模块。通过标准化技能包，支持AI代理发现和调用特定功能，包含安装指南和许可证管理。 |
-| 4 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 12.6k | 1.0k | Dexter是一个基于TypeScript的自主金融研究代理，具备任务规划、实时市场数据分析和自我验证能力。可自动分解复杂金融问题为研究步骤，调用API获取财务数据，并通过迭代优化确保结果准确性。 |
-| 5 | [microsoft/litebox](https://github.com/microsoft/litebox) | A security-focused library OS supporting kernel- a... | Rust | 1.4k | 358 | LiteBox是微软开发的专注安全的库操作系统，通过精简主机接口降低攻击面，支持内核与用户模式执行。提供Rust接口抽象层，实现跨平台沙箱环境，兼容多种运行场景如Linux程序跨系统运行、SEV SNP安全扩展等。 |
-| 6 | [google/langextract](https://github.com/google/langextract) | A Python library for extracting structured informa... | Python | 24.7k | 430 | LangExtract是基于Python的LLM信息提取库，支持精确来源定位与交互式可视化。通过文本分块和多轮处理优化长文档提取，适用于临床报告、法律文档等结构化数据抽取场景。 |
-| 7 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 47.7k | 811 | Superpowers 是一个基于代理的软件开发框架，通过可组合技能和自动化工作流提升编码效率。支持TDD、YAGNI和DRY原则，通过分步设计确认、子代理协作开发实现自动化编程，减少人工干预。 |
-| 8 | [OpenBMB/MiniCPM-o](https://github.com/OpenBMB/MiniCPM-o) | A Gemini 2.5 Flash Level MLLM for Vision, Speech, ... | Python | 23.4k | 212 | OpenBMB/MiniCPM-o 是一款端侧多模态大语言模型，支持视觉、语音与全双工实时流媒体交互。具备9B参数的MiniCPM-o 4.5实现同步感知、输出与交互，支持OCR、多语言及语音克隆，优化部署效率。 |
-| 9 | [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software ar... | TypeScript | 2.3k | 271 | LikeC4 是一个基于代码生成实时更新架构图的工具，支持自定义建模语言和灵活的架构可视化。通过 CLI 工具和模板仓库，团队可协作维护动态软件架构图，适用于需要精准表达复杂系统结构的场景。 |
-| 10 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source 24/7 Cowork and OpenClaw ... | TypeScript | 13.1k | 336 | AionUi是支持多AI命令行工具的本地协作平台，提供统一图形界面与本地数据安全。自动检测已安装CLI工具，支持多会话管理、本地存储及跨设备WebUI访问，兼容Gemini CLI、Qwen Code等主流模型，满足开发者便捷调用AI工具的需求。 |
-| 11 | [home-assistant/addons](https://github.com/home-assistant/addons) | ➕ Docker add-ons for Home Assistant... | Shell | 2.0k | 7 | Home Assistant官方Docker插件仓库，提供多种扩展功能模块，支持MQTT、数据库、文件共享、SSL代理等场景，通过Shell脚本管理容器化应用，增强家居自动化系统功能。 |
-| 12 | [gitbutlerapp/gitbutler](https://github.com/gitbutlerapp/gitbutler) | The GitButler version control client, backed by Gi... | Rust | 18.3k | 415 | GitButler是一款基于Git的现代版本控制客户端，提供GUI和CLI工具。核心功能包括堆叠分支、并行分支管理、可视化提交操作、撤销时间线、冲突处理及AI辅助工作流，旨在提升开发效率与协作体验。 |
+| 1 | [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) | Sample code and notebooks for Generative AI on Goo... | Jupyter Notebook | 14.3k | 563 | 该仓库提供Google Cloud Vertex AI生成式AI的示例代码和Notebook，涵盖Gemini模型使用、RAG技术、视觉/音频生成、搜索功能及环境搭建，帮助开发者快速实践生成式AI应用。 |
+| 2 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, ... | Python | 6.9k | 1.2k | MiroFish 是基于多智能体技术的AI预测引擎，通过构建数字世界模拟群体行为，支持舆情、金融、文学等场景的未来推演。用户上传材料后，系统生成预测报告并与数字世界交互，适用于决策模拟与创意推演。 |
+| 3 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible componen... | TypeScript | 108.6k | 498 | shadcn-ui/ui 是一个开源的UI组件库，提供美观且可访问的组件，支持主流前端框架。通过模块化设计和可定制化配置，帮助开发者快速构建高质量用户界面，采用TypeScript增强类型安全。 |
+| 4 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 280.3k | 4.8k | OpenClaw是一个可跨平台运行的个人AI助手，支持多消息渠道集成与设备交互，提供本地化、实时的智能服务。通过CLI工具快速部署，适配多种操作系统和应用场景。 |
+| 5 | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFFiNE(pro... | TypeScript | 65.2k | 529 | AFFiNE是一个隐私优先的开源知识库平台，整合文档、白板和数据库功能，支持多模态AI协作、本地化部署及实时团队协作，提供可定制的全能型工作空间。 |
+| 6 | [Ed1s0nZ/CyberStrikeAI](https://github.com/Ed1s0nZ/CyberStrikeAI) | CyberStrikeAI is an AI-native security testing pla... | Go | 2.2k | 242 | CyberStrikeAI是用Go语言开发的AI原生安全测试平台，集成100+安全工具与智能编排引擎，支持角色化渗透测试、技能系统驱动的专项测试，提供攻击链分析、漏洞全生命周期管理及可视化报告，通过AI agents实现端到端自动化安全测试。 |
+| 7 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | Bash is all you need - A nano Claude Code–like age... | TypeScript | 23.8k | 635 | 该项目通过12个渐进式课程，教学构建类似Claude Code的AI编码代理，涵盖基础循环、工具调用、任务分解、上下文压缩、多代理协作等机制，强调模块化设计与自主执行能力。 |
+| 8 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 13.2k | 613 | 该项目是Codex的技能目录，提供可重复使用的AI代理技能模块，包含指令、脚本和资源。支持通过命令行安装和管理技能，实现任务自动化与能力扩展。 |
+| 9 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 46.8k | 275 | 该项目是一个AI驱动的对冲基金模拟系统，整合15+投资策略代理（如巴菲特、彼得·林奇等），通过多智能体协作实现市场分析、风险控制和交易决策，所有操作均为教育用途的模拟验证。 |
+| 10 | [is-a-dev/register](https://github.com/is-a-dev/register) | Grab your own sweet-looking '.is-a.dev' subdomain.... | JavaScript | 9.8k | 8 | 提供开发者个性化子域名注册服务，通过GitHub仓库提交申请并审核后，自动配置DNS记录实现快速部署。 |
+| 11 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Unofficial Python API for Google NotebookLM... | Python | 3.7k | 217 | 非官方Python API，提供对Google NotebookLM的全面程序化访问，支持笔记管理、多源文件导入、内容生成及自动化研究流程，适用于AI代理集成与科研工具开发。 |
+| 12 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | JavaScript | 1.7k | 640 | Impeccable是面向AI的前端设计系统，包含17个指令命令和7个领域参考文件，通过反模式库优化设计质量，覆盖排版、色彩、交互等全流程，提升AI生成设计的一致性与专业性。 |
 
-[查看完整数据](api/github/2026-02-08.json)
+[查看完整数据](api/github/2026-03-08.json)
 <!-- END GITHUB TRENDING -->
 
 

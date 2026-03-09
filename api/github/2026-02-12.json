@@ -1,0 +1,263 @@
+{
+  "date": "2026-02-12",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "tambo-ai/tambo",
+      "description": "Generative UI SDK for React",
+      "language": "TypeScript",
+      "stars": 8993,
+      "forks": 430,
+      "todayStars": 279,
+      "url": "https://github.com/tambo-ai/tambo",
+      "aiSummary": {
+        "summary": "Tambo是用于React的生成式UI开发工具包，通过Zod Schema注册组件并实现自然语言交互。支持LLM代理自动渲染UI组件，提供流式传输、状态管理和跨平台部署能力，简化生成式用户界面开发流程。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Zod"
+        ],
+        "useCase": "需要自然语言交互与动态UI渲染的现代Web应用开发"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "danielmiessler/Personal_AI_Infrastructure",
+      "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+      "language": "TypeScript",
+      "stars": 7475,
+      "forks": 1083,
+      "todayStars": 394,
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "aiSummary": {
+        "summary": "Personal AI Infrastructure (PAI) 旨在通过AI增强人类创造力与自我认知，提供个性化能力激活方案。核心功能包括双通道能力选择、思维工具优化及默认并行执行机制，帮助用户发现人生目标并提升自主性。",
+        "techStack": [
+          "TypeScript",
+          "AI Agent Framework",
+          "Cloud Services"
+        ],
+        "useCase": "个人AI助手，用于自我发现、创造力增强及个性化目标实现"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "google/langextract",
+      "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+      "language": "Python",
+      "stars": 31341,
+      "forks": 2086,
+      "todayStars": 1201,
+      "url": "https://github.com/google/langextract",
+      "aiSummary": {
+        "summary": "LangExtract是一个Python库，利用大语言模型从非结构化文本中提取结构化信息，支持精确来源定位、交互式可视化和多种LLM模型，适用于长文档高效处理与验证。",
+        "techStack": [
+          "Python",
+          "LLMs",
+          "Ollama"
+        ],
+        "useCase": "适用于医疗文本分析、法律文档处理等需要高精度结构化数据提取的场景。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 24369,
+      "forks": 1449,
+      "todayStars": 436,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "ChromeDevTools MCP项目为AI编码助手提供Chrome浏览器的控制与调试能力，支持性能分析、网络请求监控、截图及自动化操作。基于TypeScript开发，集成Puppeteer实现可靠自动化，提供实时性能洞察与调试功能。",
+        "techStack": [
+          "TypeScript",
+          "Puppeteer",
+          "Chrome DevTools"
+        ],
+        "useCase": "适用于AI编码助手通过Chrome DevTools进行浏览器自动化、调试和性能分析。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "language": "C#",
+      "stars": 129633,
+      "forks": 7708,
+      "todayStars": 315,
+      "url": "https://github.com/microsoft/PowerToys",
+      "aiSummary": {
+        "summary": "Microsoft PowerToys 是一组 Windows 系统实用工具集合，提供超过 25 个功能模块，涵盖窗口管理、快捷键定制、文件处理、系统优化等场景，旨在提升用户操作效率与系统定制化能力。",
+        "techStack": [
+          "C#",
+          "Windows API",
+          ".NET Framework"
+        ],
+        "useCase": "适用于需要提升 Windows 系统操作效率与个性化设置的开发者及高级用户"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "iOfficeAI/AionUi",
+      "description": "Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
+      "language": "TypeScript",
+      "stars": 15328,
+      "forks": 1163,
+      "todayStars": 257,
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "aiSummary": {
+        "summary": "AionUi是一款开源的AI工具协作平台，支持Gemini CLI、Claude Code等多款AI命令行工具，提供统一图形界面与本地数据安全。具备自动检测集成、多会话管理、24/7远程访问及跨平台聊天工具联动功能，简化AI开发协作流程。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要本地化部署且跨团队协作的AI开发场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+      "language": "Python",
+      "stars": 94335,
+      "forks": 13681,
+      "todayStars": 274,
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "aiSummary": {
+        "summary": "收集了基于RAG、AI代理和多模型的LLM应用，涵盖代码、邮件、医疗、金融等多个领域，支持OpenAI、Anthropic、Gemini及开源模型如Llama。",
+        "techStack": [
+          "Python",
+          "RAG",
+          "AI Agents",
+          "OpenAI",
+          "Anthropic"
+        ],
+        "useCase": "为开发者提供LLM应用场景示例与开源项目参考"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "rowboatlabs/rowboat",
+      "description": "Open-source AI coworker, with memory",
+      "language": "TypeScript",
+      "stars": 5131,
+      "forks": 409,
+      "todayStars": 199,
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "aiSummary": {
+        "summary": "Rowboat是一款本地优先的开源AI协作工具，通过构建知识图谱整合邮件、会议记录等工作数据，提供上下文感知的自动化任务处理，如生成文档、会议准备和知识可视化。支持语音备忘录与Markdown编辑，强调隐私和长期记忆积累。",
+        "techStack": [
+          "TypeScript",
+          "Markdown",
+          "Obsidian兼容架构"
+        ],
+        "useCase": "需要整合多源工作数据并实现智能化文档生成的团队协作场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "stars": 2003,
+      "forks": 141,
+      "todayStars": 419,
+      "url": "https://github.com/github/gh-aw",
+      "aiSummary": {
+        "summary": "GitHub Agentic Workflows 项目允许用户通过自然语言 Markdown 编写代理工作流，并在 GitHub Actions 中安全执行。项目强调安全机制，包括默认只读权限、沙箱执行、输入验证和网络隔离，支持自动化仓库任务同时降低风险。",
+        "techStack": [
+          "Go",
+          "GitHub Actions",
+          "Markdown"
+        ],
+        "useCase": "安全自动化 GitHub 仓库任务及工作流编排"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "unslothai/unsloth",
+      "description": "Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train OpenAI gpt-oss, DeepSeek, Qwen, Llama, Gemma, TTS 2x faster with 70% less VRAM.",
+      "language": "Python",
+      "stars": 52025,
+      "forks": 4306,
+      "todayStars": 100,
+      "url": "https://github.com/unslothai/unsloth",
+      "aiSummary": {
+        "summary": "Unsloth 是一个用于大语言模型微调与强化学习的工具库，支持多种主流模型加速训练，提升2倍速度并减少70%显存占用。提供Notebook教程、分布式训练及FP8优化方案，适用于研究与工业级LLM定制场景。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Triton"
+        ],
+        "useCase": "需要高效训练和优化大语言模型的科研及工业应用场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "cinnyapp/cinny",
+      "description": "Yet another matrix client",
+      "language": "TypeScript",
+      "stars": 2863,
+      "forks": 389,
+      "todayStars": 28,
+      "url": "https://github.com/cinnyapp/cinny",
+      "aiSummary": {
+        "summary": "Cinny是基于Matrix协议的即时通讯客户端，强调简洁优雅的界面设计和安全性，提供现代触感的通讯体验。支持Web和桌面端，可自托管并配置路由。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Node.js"
+        ],
+        "useCase": "适用于需要隐私保护和简洁界面的Matrix即时通讯场景。"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "Jeffallan/claude-skills",
+      "description": "66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
+      "language": "Python",
+      "stars": 1625,
+      "forks": 117,
+      "todayStars": 248,
+      "url": "https://github.com/Jeffallan/claude-skills",
+      "aiSummary": {
+        "summary": "提供66个全栈开发专业技能，覆盖12个技术领域，通过上下文感知激活和多技能工作流，实现代码生成、问题诊断与系统设计的自动化辅助。支持Jira/Confluence集成，优化开发流程。",
+        "techStack": [
+          "Python",
+          "NestJS",
+          "React",
+          "DevOps",
+          "Security"
+        ],
+        "useCase": "全栈开发中的智能代码生成与复杂系统设计辅助"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "HandsOnLLM/Hands-On-Large-Language-Models",
+      "description": "Official code repo for the O'Reilly Book - \"Hands-On Large Language Models\"",
+      "language": "Jupyter Notebook",
+      "stars": 20888,
+      "forks": 4971,
+      "todayStars": 337,
+      "url": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models",
+      "aiSummary": {
+        "summary": "该项目是O'Reilly书籍《Hands-On Large Language Models》的配套代码库，包含12章实战案例，涵盖语言模型基础、Transformer结构、文本生成、多模态模型等主题，通过Jupyter Notebook提供可运行代码与可视化示例。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "PyTorch"
+        ],
+        "useCase": "适用于自然语言处理开发者学习大语言模型原理与实际应用开发"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-12T23:37:19.698Z",
+    "duration": "128s",
+    "version": "1.0.0"
+  }
+}

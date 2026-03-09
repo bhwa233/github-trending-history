@@ -1,0 +1,187 @@
+{
+  "date": "2026-03-02",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "ruvnet/wifi-densepose",
+      "description": "WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 21736,
+      "forks": 2555,
+      "todayStars": 5080,
+      "url": "https://github.com/ruvnet/wifi-densepose",
+      "aiSummary": {
+        "summary": "WiFi DensePose通过分析WiFi信道状态信息（CSI），实现无视频的人体姿态估计、呼吸心跳监测及穿墙存在检测，采用物理模型与机器学习结合的实时信号处理方案。",
+        "techStack": [
+          "Rust",
+          "CSI处理",
+          "物理信号建模"
+        ],
+        "useCase": "适用于智能家居、健康监护及无接触式人体状态感知的物联网场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars": 21359,
+      "forks": 2002,
+      "todayStars": 1425,
+      "url": "https://github.com/moeru-ai/airi",
+      "aiSummary": {
+        "summary": "A self-hosted AI virtual companion inspired by Neuro-sama, enabling users to create and interact with customizable digital entities for real-time voice chat, gaming (Minecraft/Factorio), and cross-pla",
+        "techStack": [
+          "TypeScript",
+          "RAG (Retrieval-Augmented Generation)",
+          "Embedded Database",
+          "Web Technologies",
+          "AI Language Models"
+        ],
+        "useCase": "个人数字伴侣与虚拟角色交互系统，支持多场景实时互动和游戏娱乐"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "anthropics/prompt-eng-interactive-tutorial",
+      "description": "Anthropic's Interactive Prompt Engineering Tutorial",
+      "language": "Jupyter Notebook",
+      "stars": 31545,
+      "forks": 3208,
+      "todayStars": 683,
+      "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+      "aiSummary": {
+        "summary": "Anthropic提供的交互式提示工程教程，通过9个章节系统讲解如何构建高效提示词。包含实践练习、示例 Playground 和答案解析，覆盖基础结构、清晰指令、角色分配、输出格式化等主题，帮助用户提升与Claude模型的交互效果。",
+        "techStack": [
+          "Jupyter Notebook"
+        ],
+        "useCase": "用于学习和实践优化大模型提示词的技术方法"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "stars": 18026,
+      "forks": 2002,
+      "todayStars": 821,
+      "url": "https://github.com/ruvnet/ruflo",
+      "aiSummary": {
+        "summary": "ruFLO 是面向 Claude 的智能代理协调平台，支持多代理系统部署、自主工作流编排及对话式 AI 构建，提供企业级架构、分布式群智、RAG 与 Claude 代码集成能力。",
+        "techStack": [
+          "TypeScript",
+          "Claude API",
+          "RAG（检索增强生成）"
+        ],
+        "useCase": "适用于需要构建复杂AI协作系统与自动化流程的企业级应用场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "alibaba/OpenSandbox",
+      "description": "OpenSandbox is a general-purpose sandbox platform for AI applications, offering multi-language SDKs, unified sandbox APIs, and Docker/Kubernetes runtimes for scenarios like Coding Agents, GUI Agents, Agent Evaluation, AI Code Execution, and RL Training.",
+      "language": "Python",
+      "stars": 4250,
+      "forks": 297,
+      "todayStars": 982,
+      "url": "https://github.com/alibaba/OpenSandbox",
+      "aiSummary": {
+        "summary": "OpenSandbox是阿里巴巴开源的AI应用通用沙盒平台，支持多语言SDK和统一API，集成Docker/Kubernetes运行时，提供代码解释器、浏览器自动化及桌面环境等场景支持，适用于AI代码执行、代理评估与强化学习训练。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Kubernetes",
+          "JavaScript",
+          "TypeScript"
+        ],
+        "useCase": "AI应用开发测试与强化学习训练的多功能沙盒平台"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars": 89573,
+      "forks": 5248,
+      "todayStars": 646,
+      "url": "https://github.com/microsoft/markitdown",
+      "aiSummary": {
+        "summary": "MarkItDown是微软开发的Python工具，可将PDF、Office文档、图片、音频等多种格式转换为Markdown，支持LLM集成和文本分析。具结构化内容保留能力，适用于文档预处理和自动化转换场景。",
+        "techStack": [
+          "Python",
+          "PDF处理",
+          "OCR",
+          "音频处理"
+        ],
+        "useCase": "适用于将多格式文档转换为Markdown以供语言模型和文本分析使用"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "K-Dense-AI/claude-scientific-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "stars": 11032,
+      "forks": 1255,
+      "todayStars": 848,
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "aiSummary": {
+        "summary": "提供148+科学研发技能集，支持生物信息学、化学信息学、临床研究等多领域AI代理，集成金融/市场数据接口，提升科研工作流自动化能力",
+        "techStack": [
+          "Python",
+          "生物信息学库",
+          "化学信息学工具",
+          "机器学习框架"
+        ],
+        "useCase": "增强AI代理的科研与数据分析能力，适用于多领域科学工作流自动化"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "superset-sh/superset",
+      "description": "IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine",
+      "language": "TypeScript",
+      "stars": 3475,
+      "forks": 235,
+      "todayStars": 592,
+      "url": "https://github.com/superset-sh/superset",
+      "aiSummary": {
+        "summary": "Superset是面向AI代理时代的IDE，支持并行运行多个CLI编码代理（如Claude Code、Codex等）。通过工作树隔离实现任务独立，提供实时监控、内置差异查看器和快速上下文切换功能，提升开发效率。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要同时管理多个AI编码代理并提升开发效率的场景。"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "servo/servo",
+      "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+      "language": "Rust",
+      "stars": 35742,
+      "forks": 3497,
+      "todayStars": 63,
+      "url": "https://github.com/servo/servo",
+      "aiSummary": {
+        "summary": "Servo是一个用Rust编写的轻量级高性能浏览器引擎，旨在为应用程序提供高效的Web技术嵌入方案。项目聚焦于现代Web标准支持与跨平台兼容性，采用模块化架构设计。",
+        "techStack": [
+          "Rust",
+          "WebAssembly",
+          "HTML/CSS"
+        ],
+        "useCase": "适用于需要高性能Web技术集成的场景，如浏览器开发或嵌入式应用"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-02T23:34:04.085Z",
+    "duration": "107s",
+    "version": "1.0.0"
+  }
+}

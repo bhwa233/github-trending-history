@@ -1,0 +1,166 @@
+{
+  "date": "2026-02-19",
+  "since": "daily",
+  "totalRepos": 8,
+  "successCount": 8,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 55340,
+      "forks": 4187,
+      "todayStars": 886,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers是一个基于可组合技能的软件开发框架，通过代理自动化流程提升编码效率。它强调TDD、YAGNI和DRY原则，支持从需求分析到代码实现的全流程自动化，减少人工干预。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "需要自动化软件开发流程并遵循最佳实践的团队或个人开发者"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "RichardAtCT/claude-code-telegram",
+      "description": "A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence.",
+      "language": "Python",
+      "stars": 923,
+      "forks": 126,
+      "todayStars": 174,
+      "url": "https://github.com/RichardAtCT/claude-code-telegram",
+      "aiSummary": {
+        "summary": "该项目是一个Telegram机器人，将Claude Code集成到Telegram中，支持开发者通过自然语言交互实现代码分析、编辑和项目管理，具备会话持久化、安全认证及跨平台远程访问功能。",
+        "techStack": [
+          "Python",
+          "Telegram Bot API",
+          "Claude Code CLI"
+        ],
+        "useCase": "开发者通过Telegram实现对Claude Code的远程代码协作与智能管理"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "open-mercato/open-mercato",
+      "description": "AI‑supportive CRM / ERP foundation framework — built to power R&D, new processes, operations, and growth. It’s modular, extensible, and designed for teams that want strong defaults with room to customize everything. Better than Django, Retool and other alternatives - and Enterprise Grade!",
+      "language": "TypeScript",
+      "stars": 692,
+      "forks": 113,
+      "todayStars": 56,
+      "url": "https://github.com/open-mercato/open-mercato",
+      "aiSummary": {
+        "summary": "Open Mercato 是基于 TypeScript 的企业级 CRM/ERP 开发框架，提供模块化架构和可扩展性，支持 AI 驱动的客户管理、订单处理、生产协调等核心功能。内置多租户、动态表单和权限控制，适用于需要高度定制化的 SaaS 应用和业务系统开发。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "GraphQL"
+        ],
+        "useCase": "企业级 CRM、ERP 及电商后端系统快速开发与定制化部署"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "harvard-edge/cs249r_book",
+      "description": "Introduction to Machine Learning Systems",
+      "language": "JavaScript",
+      "stars": 20173,
+      "forks": 2329,
+      "todayStars": 660,
+      "url": "https://github.com/harvard-edge/cs249r_book",
+      "aiSummary": {
+        "summary": "该项目是AI系统工程的开源学习资源，包含教材、TinyTorch框架、硬件套件和实验模块，旨在教授如何构建高效、可靠的智能系统。通过理论结合实践，覆盖从模型开发到边缘设备部署的全流程。",
+        "techStack": [
+          "JavaScript",
+          "TinyTorch",
+          "Arduino",
+          "Raspberry Pi",
+          "MLPerf"
+        ],
+        "useCase": "适用于AI系统工程教育与实践，帮助开发者将机器学习理论转化为实际应用系统。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "HailToDodongo/pyrite64",
+      "description": "N64 Game-Engine and Editor using libdragon & tiny3d",
+      "language": "C++",
+      "stars": 1724,
+      "forks": 60,
+      "todayStars": 605,
+      "url": "https://github.com/HailToDodongo/pyrite64",
+      "aiSummary": {
+        "summary": "基于Libdragon和tiny3d的N64游戏引擎与编辑器，支持3D模型导入、HDR+Bloom/大纹理渲染、节点图脚本等功能，专注于真实硬件兼容性。",
+        "techStack": [
+          "C++",
+          "Libdragon",
+          "tiny3d"
+        ],
+        "useCase": "开发可在N64硬件或精确模拟器上运行的3D游戏"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "stars": 211781,
+      "forks": 39267,
+      "todayStars": 3384,
+      "url": "https://github.com/openclaw/openclaw",
+      "aiSummary": {
+        "summary": "OpenClaw是可在本地设备运行的个人AI助手，支持多平台消息通道（如WhatsApp、Slack、Discord等）及跨系统控制。提供自定义工作流、模型集成与实时Canvas渲染，强调本地化、快速响应和持续运行。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "需要多平台集成与本地化AI助手的个人用户场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "freemocap/freemocap",
+      "description": "Free Motion Capture for Everyone 💀✨",
+      "language": "Python",
+      "stars": 5186,
+      "forks": 417,
+      "todayStars": 141,
+      "url": "https://github.com/freemocap/freemocap",
+      "aiSummary": {
+        "summary": "FreeMoCap是一个开源、低成本的动作捕捉系统，支持科研、教育和培训场景。通过Python实现，提供GUI界面和详细文档，可灵活部署于不同硬件平台。",
+        "techStack": [
+          "Python",
+          "PyQt/Tkinter",
+          "OpenCV"
+        ],
+        "useCase": "适用于科研机构和教育场景的低成本动作捕捉与分析"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "stars": 8475,
+      "forks": 847,
+      "todayStars": 657,
+      "url": "https://github.com/p-e-w/heretic",
+      "aiSummary": {
+        "summary": "Heretic是一个自动去除语言模型审查机制的工具，通过方向性消融和TPE参数优化，在无需人工干预的情况下降低模型的拒绝率并最小化对原始模型性能的影响。",
+        "techStack": [
+          "Python",
+          "Optuna",
+          "PyTorch"
+        ],
+        "useCase": "自动优化语言模型的安全对齐策略以提升模型灵活性"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-19T23:36:39.288Z",
+    "duration": "78s",
+    "version": "1.0.0"
+  }
+}

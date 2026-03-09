@@ -1,0 +1,227 @@
+{
+  "date": "2026-02-15",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "nautechsystems/nautilus_trader",
+      "description": "A high-performance algorithmic trading platform and event-driven backtester",
+      "language": "Rust",
+      "stars": 19278,
+      "forks": 2293,
+      "todayStars": 221,
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "aiSummary": {
+        "summary": "NautilusTrader 是一个用 Rust 开发的高性能算法交易平台，支持事件驱动的策略回测与实时交易部署。提供多资产类别（外汇、加密货币、股票等）交易支持，强调 Python 原生环境一致性，具备高吞吐低延迟特性，适用于高频交易场景。",
+        "techStack": [
+          "Rust",
+          "Python",
+          "Docker",
+          "Tokio",
+          "Redis"
+        ],
+        "useCase": "适用于高频交易策略的回测与实时部署，支持多资产多市场操作。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "steipete/gogcli",
+      "description": "Google Suite CLI: Gmail, GCal, GDrive, GContacts.",
+      "language": "Go",
+      "stars": 2943,
+      "forks": 256,
+      "todayStars": 639,
+      "url": "https://github.com/steipete/gogcli",
+      "aiSummary": {
+        "summary": "gogcli 是一个功能丰富的Google Workspace命令行工具，支持Gmail、日历、Drive、联系人等核心服务。提供JSON输出、多账户管理、最小权限认证及邮件跟踪功能，适用于自动化脚本和云端服务管理。",
+        "techStack": [
+          "Go",
+          "Google Workspace API",
+          "Cloudflare Worker"
+        ],
+        "useCase": "适用于需要通过命令行管理Google Workspace服务的开发者和系统管理员。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "rowboatlabs/rowboat",
+      "description": "Open-source AI coworker, with memory",
+      "language": "TypeScript",
+      "stars": 6773,
+      "forks": 573,
+      "todayStars": 819,
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "aiSummary": {
+        "summary": "Rowboat是一款本地优先的开源AI协作工具，通过连接邮件和会议记录构建长期知识图谱，支持生成文档、会议准备、知识图谱可视化编辑等功能，所有操作均在本地完成确保隐私。",
+        "techStack": [
+          "TypeScript",
+          "Markdown",
+          "Google API"
+        ],
+        "useCase": "适用于需要将日常办公场景转化为结构化知识图谱以提升协作效率的团队或个人"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "stars": 2683,
+      "forks": 198,
+      "todayStars": 213,
+      "url": "https://github.com/github/gh-aw",
+      "aiSummary": {
+        "summary": "GitHub Agentic Workflows允许用户通过自然语言Markdown编写代理工作流，并在GitHub Actions中安全运行。提供沙箱执行、输入消毒、只读权限等安全机制，适用于自动化仓库任务及敏感操作管控。",
+        "techStack": [
+          "Go",
+          "YAML",
+          "GitHub Actions"
+        ],
+        "useCase": "安全自动化GitHub仓库任务及敏感操作管控"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 25400,
+      "forks": 1498,
+      "todayStars": 353,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "ChromeDevTools-MCP 是面向AI编码助手的浏览器控制工具，通过Chrome DevTools实现实时浏览器调试、性能分析与自动化操作，支持网络请求分析、截图、控制台监控及基于Puppeteer的可靠自动化流程。",
+        "techStack": [
+          "TypeScript",
+          "Chrome DevTools",
+          "Puppeteer"
+        ],
+        "useCase": "AI编程助手的浏览器自动化测试与深度调试场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "alibaba/zvec",
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "language": "C++",
+      "stars": 2263,
+      "forks": 114,
+      "todayStars": 729,
+      "url": "https://github.com/alibaba/zvec",
+      "aiSummary": {
+        "summary": "Zvec是阿里巴巴开源的嵌入式向量数据库，支持高速向量搜索和混合查询。具备低延迟、易部署特性，可直接嵌入应用中，兼容稠密/稀疏向量及多类型查询，适用于需要实时相似性搜索的场景。",
+        "techStack": [
+          "C++",
+          "Proxima",
+          "向量搜索算法"
+        ],
+        "useCase": "适用于需要低延迟向量相似性搜索的推荐系统、搜索引擎等场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "stars": 197009,
+      "forks": 34249,
+      "todayStars": 2481,
+      "url": "https://github.com/openclaw/openclaw",
+      "aiSummary": {
+        "summary": "OpenClaw是自托管的个人AI助手，支持多平台消息渠道（如WhatsApp、Telegram、Discord等）和跨设备语音交互，提供本地化、实时的AI服务。通过CLI工具快速部署，兼容多种模型和认证方式。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "需要跨平台消息管理与本地化AI服务的个人用户"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "moonshine-ai/moonshine",
+      "description": "Fast and accurate automatic speech recognition (ASR) for edge devices",
+      "language": "C",
+      "stars": 3787,
+      "forks": 179,
+      "todayStars": 160,
+      "url": "https://github.com/moonshine-ai/moonshine",
+      "aiSummary": {
+        "summary": "Moonshine-ai/moonshine 是一个面向边缘设备的高精度自动语音识别（ASR）工具包，支持本地化实时语音处理，具备低延迟、隐私保护和多平台集成能力。提供从26MB轻量模型到高精度大模型的多版本选择，覆盖多种语言及语音任务如语音转录、说话人识别和指令识别。",
+        "techStack": [
+          "C",
+          "Python",
+          "机器学习框架"
+        ],
+        "useCase": "实时语音识别与处理场景，如智能语音助手、实时字幕生成及边缘设备语音交互应用"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "brave/brave-browser",
+      "description": "Brave browser for Android, iOS, Linux, macOS, Windows.",
+      "language": "",
+      "stars": 21530,
+      "forks": 2972,
+      "todayStars": 23,
+      "url": "https://github.com/brave/brave-browser",
+      "aiSummary": {
+        "summary": "Brave浏览器多平台源代码仓库，基于Chromium开发，包含广告拦截引擎和跨平台构建工具，支持Windows、macOS、Linux、Android及iOS系统。",
+        "techStack": [
+          "C++",
+          "Rust",
+          "Node.js",
+          "Depot Tools"
+        ],
+        "useCase": "开发定制化隐私保护浏览器或进行跨平台浏览器源码研究"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "SynkraAI/aios-core",
+      "description": "Synkra AIOS: AI-Orchestrated System for Full Stack Development - Core Framework v4.0",
+      "language": "JavaScript",
+      "stars": 780,
+      "forks": 285,
+      "todayStars": 168,
+      "url": "https://github.com/SynkraAI/aios-core",
+      "aiSummary": {
+        "summary": "Synkra AIOS 是一个基于AI的全栈开发框架，采用CLI优先架构，通过代理协作实现自动化开发流程。核心功能包括智能规划、上下文感知的开发转换及实时可观测性监控，支持软件开发全流程的AI协同与自动化。",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "SSE"
+        ],
+        "useCase": "适用于需要AI驱动的全栈开发与自动化流程管理的场景，支持敏捷开发和实时监控。"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "ruvnet/wifi-densepose",
+      "description": "Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers",
+      "language": "Python",
+      "stars": 6471,
+      "forks": 572,
+      "todayStars": 351,
+      "url": "https://github.com/ruvnet/wifi-densepose",
+      "aiSummary": {
+        "summary": "基于WiFi的隐私保护人体姿态估计系统，通过CSI数据实现非接触式实时全身追踪，支持多人检测与跨场景应用，提供高精度低延迟的无摄像头人体状态感知解决方案。",
+        "techStack": [
+          "Python",
+          "Rust",
+          "Machine Learning",
+          "WebSocket"
+        ],
+        "useCase": "适用于医疗健康监测、智能家居交互、健身训练分析及安防领域的非接触式人体姿态实时追踪场景。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-15T23:34:56.295Z",
+    "duration": "127s",
+    "version": "1.0.0"
+  }
+}

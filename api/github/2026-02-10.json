@@ -1,0 +1,287 @@
+{
+  "date": "2026-02-10",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "google/langextract",
+      "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+      "language": "Python",
+      "stars": 28291,
+      "forks": 1910,
+      "todayStars": 2093,
+      "url": "https://github.com/google/langextract",
+      "aiSummary": {
+        "summary": "LangExtract是一个Python库，利用大语言模型从非结构化文本中提取结构化信息，支持精确来源定位、交互式可视化和多模型接入，适用于医疗文档等长文本的高效信息提取。",
+        "techStack": [
+          "Python",
+          "LLMs(Gemini/Ollama)",
+          "HTML可视化"
+        ],
+        "useCase": "医疗临床笔记、放射报告等长文本的结构化信息提取与验证"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "iOfficeAI/AionUi",
+      "description": "Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
+      "language": "TypeScript",
+      "stars": 14409,
+      "forks": 1100,
+      "todayStars": 629,
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "aiSummary": {
+        "summary": "AionUi为多种AI命令行工具提供统一图形界面，支持本地部署与24/7访问，具备多模型兼容、本地数据存储、跨平台会话管理及WebUI/聊天平台集成，提升AI工具使用便捷性与安全性。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要本地部署且跨平台访问AI命令行工具的开发人员和团队"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "KeygraphHQ/shannon",
+      "description": "Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
+      "language": "TypeScript",
+      "stars": 19688,
+      "forks": 2010,
+      "todayStars": 3553,
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "aiSummary": {
+        "summary": "Shannon是基于AI的全自动渗透测试工具，可自主检测Web应用漏洞并执行真实攻击验证风险，解决持续集成中的安全测试滞后问题，支持源码级漏洞挖掘与合规验证。",
+        "techStack": [
+          "TypeScript",
+          "AI模型",
+          "浏览器自动化"
+        ],
+        "useCase": "适用于DevOps流水线中的自动化安全测试与漏洞验证场景"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "github/gh-aw",
+      "description": "GitHub Agentic Workflows",
+      "language": "Go",
+      "stars": 1318,
+      "forks": 105,
+      "todayStars": 499,
+      "url": "https://github.com/github/gh-aw",
+      "aiSummary": {
+        "summary": "GitHub Agentic Workflows允许用户通过自然语言Markdown编写代理工作流，并在GitHub Actions中安全运行。项目强调安全机制，如默认只读权限、沙箱执行、输入消毒和网络隔离，确保AI代理在受控环境中操作，适用于自动化代码审查、持续集成等场景。",
+        "techStack": [
+          "Go",
+          "GitHub Actions",
+          "AI/ML"
+        ],
+        "useCase": "安全的自动化代码仓库任务管理"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "EveryInc/compound-engineering-plugin",
+      "description": "Official Claude Code compound engineering plugin",
+      "language": "TypeScript",
+      "stars": 8159,
+      "forks": 640,
+      "todayStars": 406,
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "aiSummary": {
+        "summary": "提供Claude Code工程插件市场及工具转换方案，支持将插件转为OpenCode/Codex格式，实现工程工作流自动化与配置同步。",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "OpenCode",
+          "Codex"
+        ],
+        "useCase": "提升AI工程开发效率，实现多平台插件格式转换与配置管理"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "hsliuping/TradingAgents-CN",
+      "description": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
+      "language": "Python",
+      "stars": 16656,
+      "forks": 3615,
+      "todayStars": 499,
+      "url": "https://github.com/hsliuping/TradingAgents-CN",
+      "aiSummary": {
+        "summary": "基于多智能体LLM的中文金融交易框架，支持A股/港股/美股分析，提供技术指标计算、基本面分析、模拟交易及多模型配置管理，适用于AI金融教学与策略研究。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "Vue3",
+          "MongoDB",
+          "Redis"
+        ],
+        "useCase": "面向中文用户的AI金融分析学习平台，支持股票策略研究与多智能体框架实验"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "gitbutlerapp/gitbutler",
+      "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
+      "language": "Rust",
+      "stars": 19014,
+      "forks": 819,
+      "todayStars": 260,
+      "url": "https://github.com/gitbutlerapp/gitbutler",
+      "aiSummary": {
+        "summary": "GitButler是一款基于Git的现代版本控制客户端，提供GUI和CLI工具。核心功能包括堆叠分支、并行分支管理、可视化提交操作、撤销时间线及AI辅助工作流，提升Git操作效率与易用性。",
+        "techStack": [
+          "Rust",
+          "Tauri",
+          "Svelte",
+          "Git"
+        ],
+        "useCase": "适用于需要增强Git功能和AI集成的开发者和团队"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "carlvellotti/claude-code-pm-course",
+      "description": "Interactive course teaching Product Managers how to use Claude Code effectively",
+      "language": "MDX",
+      "stars": 793,
+      "forks": 144,
+      "todayStars": 46,
+      "url": "https://github.com/carlvellotti/claude-code-pm-course",
+      "aiSummary": {
+        "summary": "交互式课程，帮助产品经理掌握Claude Code工具链，涵盖基础操作、高级场景及AI协作流程，包含模块化教学与实战练习",
+        "techStack": [
+          "MDX",
+          "Claude Code",
+          "VS Code",
+          "Obsidian",
+          "Nimbalyst"
+        ],
+        "useCase": "产品经理高效使用AI工具进行产品需求分析与策略制定的培训课程"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+      "language": "Python",
+      "stars": 93602,
+      "forks": 13579,
+      "todayStars": 450,
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "aiSummary": {
+        "summary": "该项目收集了基于LLM的多种AI应用，涵盖RAG、AI代理、多代理团队等技术，整合OpenAI、Anthropic、Gemini及开源模型，适用于数据分析、医疗影像、金融、内容生成等领域。",
+        "techStack": [
+          "Python",
+          "RAG",
+          "AI Agents"
+        ],
+        "useCase": "提供多领域LLM应用案例，支持开发者探索AI代理在不同场景的实践与创新。"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "drawdb-io/drawdb",
+      "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+      "language": "JavaScript",
+      "stars": 36289,
+      "forks": 2837,
+      "todayStars": 166,
+      "url": "https://github.com/drawdb-io/drawdb",
+      "aiSummary": {
+        "summary": "drawDB 是一个免费的在线数据库设计工具，提供直观的图形化界面用于创建数据库模式图并自动生成SQL代码，支持实时协作与跨平台访问。",
+        "techStack": [
+          "JavaScript",
+          "Vite",
+          "Tailwind CSS"
+        ],
+        "useCase": "适用于数据库架构设计及团队协作开发中的SQL生成场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "pydantic/monty",
+      "description": "A minimal, secure Python interpreter written in Rust for use by AI",
+      "language": "Rust",
+      "stars": 4524,
+      "forks": 161,
+      "todayStars": 848,
+      "url": "https://github.com/pydantic/monty",
+      "aiSummary": {
+        "summary": "Monty是用Rust开发的小型安全Python解释器，专为AI设计，支持快速执行LLM生成代码。具备环境隔离、资源控制、类型检查及异步执行功能，适用于需要高效安全运行Python代码的场景。",
+        "techStack": [
+          "Rust",
+          "Python",
+          "Async"
+        ],
+        "useCase": "安全执行AI生成的Python代码，防止环境访问和资源滥用"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "cheahjs/free-llm-api-resources",
+      "description": "A list of free LLM inference resources accessible via API.",
+      "language": "Python",
+      "stars": 8675,
+      "forks": 851,
+      "todayStars": 108,
+      "url": "https://github.com/cheahjs/free-llm-api-resources",
+      "aiSummary": {
+        "summary": "该项目整理了多个提供免费LLM推理API的服务资源，涵盖模型调用限额、试用额度及合规使用说明，便于开发者获取低成本或免费的AI模型调用渠道。",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "API列表管理"
+        ],
+        "useCase": "适合需要测试或低成本部署大语言模型的开发者及研究者获取API资源"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "Jeffallan/claude-skills",
+      "description": "65 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
+      "language": "Python",
+      "stars": 740,
+      "forks": 68,
+      "todayStars": 33,
+      "url": "https://github.com/Jeffallan/claude-skills",
+      "aiSummary": {
+        "summary": "提供66个全栈开发技能与9个工作流，支持Claude代码助手实现上下文感知的自动技能激活和多技能协作，覆盖开发、测试、安全、DevOps等场景，通过工作流管理项目生命周期并集成Atlassian工具。",
+        "techStack": [
+          "Python",
+          "NestJS",
+          "React",
+          "DevOps"
+        ],
+        "useCase": "提升代码开发效率的智能辅助工具，适用于全栈项目全流程管理"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "stars": 14122,
+      "forks": 1694,
+      "todayStars": 735,
+      "url": "https://github.com/virattt/dexter",
+      "aiSummary": {
+        "summary": "Dexter是一个基于TypeScript的自主财务研究代理，通过任务规划、自我反思和实时市场数据进行深度金融分析。支持智能任务分解、自动数据获取、结果验证及多API集成，适用于复杂金融问题的自动化研究与决策支持。",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "OpenAI API",
+          "Exa API",
+          "Financial Datasets API"
+        ],
+        "useCase": "金融数据分析与自动化研究决策"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-10T23:44:23.409Z",
+    "duration": "108s",
+    "version": "1.0.0"
+  }
+}

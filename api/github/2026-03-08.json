@@ -1,0 +1,241 @@
+{
+  "date": "2026-03-08",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "GoogleCloudPlatform/generative-ai",
+      "description": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI",
+      "language": "Jupyter Notebook",
+      "stars": 14318,
+      "forks": 3893,
+      "todayStars": 563,
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai",
+      "aiSummary": {
+        "summary": "该仓库提供Google Cloud Vertex AI生成式AI的示例代码和Notebook，涵盖Gemini模型使用、RAG技术、视觉/音频生成、搜索功能及环境搭建，帮助开发者快速实践生成式AI应用。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Vertex AI",
+          "Google Cloud",
+          "Python"
+        ],
+        "useCase": "加速生成式AI应用开发与Vertex AI技术验证"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "stars": 6894,
+      "forks": 759,
+      "todayStars": 1168,
+      "url": "https://github.com/666ghj/MiroFish",
+      "aiSummary": {
+        "summary": "MiroFish 是基于多智能体技术的AI预测引擎，通过构建数字世界模拟群体行为，支持舆情、金融、文学等场景的未来推演。用户上传材料后，系统生成预测报告并与数字世界交互，适用于决策模拟与创意推演。",
+        "techStack": [
+          "Python",
+          "Node.js",
+          "Docker",
+          "GraphRAG",
+          "Zep Cloud"
+        ],
+        "useCase": "适用于政策模拟、市场预测及创意推演等需要群体智能分析的场景。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "shadcn-ui/ui",
+      "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+      "language": "TypeScript",
+      "stars": 108649,
+      "forks": 8073,
+      "todayStars": 498,
+      "url": "https://github.com/shadcn-ui/ui",
+      "aiSummary": {
+        "summary": "shadcn-ui/ui 是一个开源的UI组件库，提供美观且可访问的组件，支持主流前端框架。通过模块化设计和可定制化配置，帮助开发者快速构建高质量用户界面，采用TypeScript增强类型安全。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Tailwind CSS"
+        ],
+        "useCase": "适用于需要快速构建美观且响应式用户界面的Web应用开发"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "stars": 280271,
+      "forks": 53501,
+      "todayStars": 4842,
+      "url": "https://github.com/openclaw/openclaw",
+      "aiSummary": {
+        "summary": "OpenClaw是一个可跨平台运行的个人AI助手，支持多消息渠道集成与设备交互，提供本地化、实时的智能服务。通过CLI工具快速部署，适配多种操作系统和应用场景。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "个人智能助手与多平台消息自动化管理"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "toeverything/AFFiNE",
+      "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+      "language": "TypeScript",
+      "stars": 65200,
+      "forks": 4551,
+      "todayStars": 529,
+      "url": "https://github.com/toeverything/AFFiNE",
+      "aiSummary": {
+        "summary": "AFFiNE是一个隐私优先的开源知识库平台，整合文档、白板和数据库功能，支持多模态AI协作、本地化部署及实时团队协作，提供可定制的全能型工作空间。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合注重数据隐私且需要高度定制化的知识管理与协同创作场景。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Ed1s0nZ/CyberStrikeAI",
+      "description": "CyberStrikeAI is an AI-native security testing platform built in Go. It integrates 100+ security tools, an intelligent orchestration engine, role-based testing with predefined security roles, a skills system with specialized testing skills, and comprehensive lifecycle management capabilities.",
+      "language": "Go",
+      "stars": 2236,
+      "forks": 388,
+      "todayStars": 242,
+      "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+      "aiSummary": {
+        "summary": "CyberStrikeAI是用Go语言开发的AI原生安全测试平台，集成100+安全工具与智能编排引擎，支持角色化渗透测试、技能系统驱动的专项测试，提供攻击链分析、漏洞全生命周期管理及可视化报告，通过AI agents实现端到端自动化安全测试。",
+        "techStack": [
+          "Go",
+          "MCP协议",
+          "YAML扩展",
+          "SQLite",
+          "HTTP/stdio/SSE"
+        ],
+        "useCase": "适用于安全团队进行智能化渗透测试与企业级漏洞管理"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "shareAI-lab/learn-claude-code",
+      "description": "Bash is all you need - A nano Claude Code–like agent, built from 0 to 1",
+      "language": "TypeScript",
+      "stars": 23827,
+      "forks": 4406,
+      "todayStars": 635,
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "aiSummary": {
+        "summary": "该项目通过12个渐进式课程，教学构建类似Claude Code的AI编码代理，涵盖基础循环、工具调用、任务分解、上下文压缩、多代理协作等机制，强调模块化设计与自主执行能力。",
+        "techStack": [
+          "TypeScript",
+          "Bash",
+          "HTTP客户端"
+        ],
+        "useCase": "AI编程助手开发教学与自动化任务处理"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "stars": 13195,
+      "forks": 739,
+      "todayStars": 613,
+      "url": "https://github.com/openai/skills",
+      "aiSummary": {
+        "summary": "该项目是Codex的技能目录，提供可重复使用的AI代理技能模块，包含指令、脚本和资源。支持通过命令行安装和管理技能，实现任务自动化与能力扩展。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "AI代理任务自动化与技能管理"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars": 46815,
+      "forks": 8145,
+      "todayStars": 275,
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "aiSummary": {
+        "summary": "该项目是一个AI驱动的对冲基金模拟系统，整合15+投资策略代理（如巴菲特、彼得·林奇等），通过多智能体协作实现市场分析、风险控制和交易决策，所有操作均为教育用途的模拟验证。",
+        "techStack": [
+          "Python",
+          "机器学习",
+          "量化分析"
+        ],
+        "useCase": "用于研究AI在量化交易中的多策略协同应用"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "is-a-dev/register",
+      "description": "Grab your own sweet-looking '.is-a.dev' subdomain.",
+      "language": "JavaScript",
+      "stars": 9774,
+      "forks": 18766,
+      "todayStars": 8,
+      "url": "https://github.com/is-a-dev/register",
+      "aiSummary": {
+        "summary": "提供开发者个性化子域名注册服务，通过GitHub仓库提交申请并审核后，自动配置DNS记录实现快速部署。",
+        "techStack": [
+          "JavaScript",
+          "React",
+          "Cloudflare"
+        ],
+        "useCase": "开发者快速获取并管理个人网站的优雅子域名"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "teng-lin/notebooklm-py",
+      "description": "Unofficial Python API for Google NotebookLM",
+      "language": "Python",
+      "stars": 3705,
+      "forks": 471,
+      "todayStars": 217,
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "aiSummary": {
+        "summary": "非官方Python API，提供对Google NotebookLM的全面程序化访问，支持笔记管理、多源文件导入、内容生成及自动化研究流程，适用于AI代理集成与科研工具开发。",
+        "techStack": [
+          "Python",
+          "Async API",
+          "Google NotebookLM"
+        ],
+        "useCase": "研究自动化与AI代理工具开发"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "stars": 1706,
+      "forks": 73,
+      "todayStars": 640,
+      "url": "https://github.com/pbakaus/impeccable",
+      "aiSummary": {
+        "summary": "Impeccable是面向AI的前端设计系统，包含17个指令命令和7个领域参考文件，通过反模式库优化设计质量，覆盖排版、色彩、交互等全流程，提升AI生成设计的一致性与专业性。",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "提升AI生成前端设计的质量与一致性，适用于自动化设计审查和优化场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-08T23:31:56.334Z",
+    "duration": "133s",
+    "version": "1.0.0"
+  }
+}

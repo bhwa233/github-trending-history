@@ -1,0 +1,203 @@
+{
+  "date": "2026-02-16",
+  "since": "daily",
+  "totalRepos": 10,
+  "successCount": 10,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "alibaba/zvec",
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "language": "C++",
+      "stars": 3548,
+      "forks": 184,
+      "todayStars": 1094,
+      "url": "https://github.com/alibaba/zvec",
+      "aiSummary": {
+        "summary": "Zvec是阿里巴巴开源的嵌入式向量数据库，基于Proxima引擎打造，支持稠密/稀疏向量混合搜索，提供毫秒级百亿级向量检索能力，无需服务器配置即可快速集成到应用中。",
+        "techStack": [
+          "C++",
+          "Python",
+          "Node.js"
+        ],
+        "useCase": "适用于需要低延迟向量相似性搜索的推荐系统、语义检索等场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "nautechsystems/nautilus_trader",
+      "description": "A high-performance algorithmic trading platform and event-driven backtester",
+      "language": "Rust",
+      "stars": 19753,
+      "forks": 2319,
+      "todayStars": 545,
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "aiSummary": {
+        "summary": "NautilusTrader 是一个用 Rust 开发的高性能算法交易平台，支持事件驱动的策略回测与实时交易部署。提供跨平台兼容性、多种资产类别支持及模块化接口，解决研究与生产环境一致性问题，适用于高频交易场景。",
+        "techStack": [
+          "Rust",
+          "Python",
+          "Tokio"
+        ],
+        "useCase": "算法交易策略的开发、回测及跨市场实时部署"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "rowboatlabs/rowboat",
+      "description": "Open-source AI coworker, with memory",
+      "language": "TypeScript",
+      "stars": 7303,
+      "forks": 619,
+      "todayStars": 701,
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "aiSummary": {
+        "summary": "Rowboat是一款本地优先的开源AI协作工具，通过整合邮件、会议记录等数据构建知识图谱，支持生成文档、会议准备、知识图谱可视化编辑等功能，强调隐私和上下文记忆。",
+        "techStack": [
+          "TypeScript",
+          "Markdown",
+          "Obsidian兼容架构"
+        ],
+        "useCase": "适用于需要知识管理与AI辅助的团队协作和高效办公场景"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "steipete/gogcli",
+      "description": "Google Suite CLI: Gmail, GCal, GDrive, GContacts.",
+      "language": "Go",
+      "stars": 3471,
+      "forks": 296,
+      "todayStars": 636,
+      "url": "https://github.com/steipete/gogcli",
+      "aiSummary": {
+        "summary": "gogcli 是一个功能丰富的 Google Workspace 命令行工具，支持 Gmail、日历、Drive、联系人等核心服务的管理与自动化操作，提供 JSON 输出、多账户支持及最小权限认证，适用于脚本化处理 Google 服务场景。",
+        "techStack": [
+          "Go",
+          "Google API",
+          "JSON"
+        ],
+        "useCase": "适用于需要管理 Google Workspace 服务或自动化相关任务的开发者和系统管理员。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "stars": 201491,
+      "forks": 36072,
+      "todayStars": 3873,
+      "url": "https://github.com/openclaw/openclaw",
+      "aiSummary": {
+        "summary": "OpenClaw是跨平台个人AI助手，支持多消息渠道集成与本地运行。可通过多种操作系统和应用（如WhatsApp、Slack、Discord等）交互，具备实时Canvas控制功能，强调快速、本地化和始终在线体验。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "适用于需要跨平台多渠道集成的个人AI助手场景，强调本地化部署与实时交互需求。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "SynkraAI/aios-core",
+      "description": "Synkra AIOS: AI-Orchestrated System for Full Stack Development - Core Framework v4.0",
+      "language": "JavaScript",
+      "stars": 978,
+      "forks": 344,
+      "todayStars": 205,
+      "url": "https://github.com/SynkraAI/aios-core",
+      "aiSummary": {
+        "summary": "Synkra AIOS 是一个基于AI的全栈开发框架，支持自修改开发流程，整合多IDE/CLI工具，提供自动化上下文管理、守则审计及跨平台开发能力，适用于需要AI驱动的敏捷开发场景。",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "CLI工具链"
+        ],
+        "useCase": "AI驱动的全栈开发与多环境自动化集成"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "letta-ai/letta-code",
+      "description": "The memory-first coding agent",
+      "language": "TypeScript",
+      "stars": 1438,
+      "forks": 154,
+      "todayStars": 51,
+      "url": "https://github.com/letta-ai/letta-code",
+      "aiSummary": {
+        "summary": "Letta Code 是基于 Letta API 的内存优先代码框架，支持跨模型持久化代理，实现长期记忆与学习能力，提升代码开发效率。",
+        "techStack": [
+          "TypeScript",
+          "Letta API"
+        ],
+        "useCase": "适用于需要长期记忆和持续学习的代码开发任务。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "ruvnet/wifi-densepose",
+      "description": "Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers",
+      "language": "Python",
+      "stars": 6786,
+      "forks": 584,
+      "todayStars": 344,
+      "url": "https://github.com/ruvnet/wifi-densepose",
+      "aiSummary": {
+        "summary": "基于WiFi的实时人体姿态估计系统，通过CSI数据实现无摄像头隐私保护追踪，支持多人体检测与低延迟处理，适用于医疗、智能家居等场景。",
+        "techStack": [
+          "Python",
+          "Rust",
+          "Machine Learning"
+        ],
+        "useCase": "医疗健康、智能家居及安全领域的非接触式人体姿态实时监测"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "seerr-team/seerr",
+      "description": "Open-source media request and discovery manager for Jellyfin, Plex, and Emby.",
+      "language": "TypeScript",
+      "stars": 9050,
+      "forks": 601,
+      "todayStars": 200,
+      "url": "https://github.com/seerr-team/seerr",
+      "aiSummary": {
+        "summary": "seerr 是一个开源媒体请求管理工具，支持 Jellyfin、Plex、Emby 平台，提供请求审批、库扫描、权限管理、通知推送等功能，兼容 Sonarr/Radarr 服务，适配多种数据库。",
+        "techStack": [
+          "TypeScript",
+          "PostgreSQL",
+          "SQLite"
+        ],
+        "useCase": "家庭媒体库管理与媒体资源请求审批场景"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "hummingbot/hummingbot",
+      "description": "Open source software that helps you create and deploy high-frequency crypto trading bots",
+      "language": "Python",
+      "stars": 16522,
+      "forks": 4382,
+      "todayStars": 315,
+      "url": "https://github.com/hummingbot/hummingbot",
+      "aiSummary": {
+        "summary": "Hummingbot是一个开源框架，用于设计和部署加密货币高频交易机器人，支持多交易所自动化交易策略，具备社区驱动的代码贡献和知识共享机制，已实现超340亿美元交易量。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Apache 2.0"
+        ],
+        "useCase": "适用于加密货币高频交易策略开发与跨交易所自动化交易场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-02-16T23:36:37.795Z",
+    "duration": "109s",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "date": "2026-03-06",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars": 29473,
+      "forks": 2810,
+      "todayStars": 2544,
+      "url": "https://github.com/moeru-ai/airi",
+      "aiSummary": {
+        "summary": "Airi 是一个自托管的AI虚拟伴侣项目，旨在复刻Neuro-sama功能，支持实时语音聊天、Minecraft/Factorio游戏互动，提供跨平台（Web/macOS/Windows）体验。基于大型语言模型构建，强调用户数据所有权和本地化部署。",
+        "techStack": [
+          "TypeScript",
+          "RAG",
+          "嵌入式数据库",
+          "Live2D"
+        ],
+        "useCase": "为用户提供可本地部署的AI虚拟角色交互解决方案，支持游戏陪玩与多模态互动"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "QwenLM/Qwen-Agent",
+      "description": "Agent framework and applications built upon Qwen>=3.0, featuring Function Calling, MCP, Code Interpreter, RAG, Chrome extension, etc.",
+      "language": "Python",
+      "stars": 14605,
+      "forks": 1390,
+      "todayStars": 684,
+      "url": "https://github.com/QwenLM/Qwen-Agent",
+      "aiSummary": {
+        "summary": "Qwen-Agent是基于Qwen大模型的代理框架，支持函数调用、MCP规划、代码解释器、RAG检索增强生成等功能，提供浏览器助手、代码解析等应用示例，适用于需要多工具协同的LLM应用开发。",
+        "techStack": [
+          "Python",
+          "Gradio",
+          "vLLM"
+        ],
+        "useCase": "需要集成多工具协同与复杂推理的智能代理系统开发"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "microsoft/hve-core",
+      "description": "A refined collection of Hypervelocity Engineering components (instructions, prompts, agents) to start your project off right, or upgrade your existing projects to get the most out of all Copilots",
+      "language": "PowerShell",
+      "stars": 541,
+      "forks": 92,
+      "todayStars": 275,
+      "url": "https://github.com/microsoft/hve-core",
+      "aiSummary": {
+        "summary": "HVE Core是针对GitHub Copilot的提示工程框架，提供约束型AI工作流、验证工件及RPI方法论，将工程任务分解为研究、计划、实施阶段，通过JSON Schema验证确保AI输出的可靠性，适用于团队协作的结构化AI开发场景。",
+        "techStack": [
+          "PowerShell",
+          "GitHub Copilot",
+          "JSON Schema"
+        ],
+        "useCase": "需要结构化AI工作流和约束的团队协作项目开发"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Ed1s0nZ/CyberStrikeAI",
+      "description": "CyberStrikeAI is an AI-native security testing platform built in Go. It integrates 100+ security tools, an intelligent orchestration engine, role-based testing with predefined security roles, a skills system with specialized testing skills, and comprehensive lifecycle management capabilities.",
+      "language": "Go",
+      "stars": 1592,
+      "forks": 309,
+      "todayStars": 138,
+      "url": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+      "aiSummary": {
+        "summary": "CyberStrikeAI是用Go开发的AI原生安全测试平台，集成100+安全工具与智能编排引擎，支持角色化测试、技能系统及全生命周期管理。通过MCP协议与AI代理实现从命令到漏洞发现的端到端自动化，提供攻击链分析、风险评分、可视化结果及审计追踪功能。",
+        "techStack": [
+          "Go",
+          "AI决策引擎",
+          "MCP协议",
+          "OpenAI兼容模型",
+          "SQLite"
+        ],
+        "useCase": "适用于安全团队进行自动化渗透测试与漏洞管理"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "inclusionAI/AReaL",
+      "description": "Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible.",
+      "language": "Python",
+      "stars": 4386,
+      "forks": 363,
+      "todayStars": 348,
+      "url": "https://github.com/inclusionAI/AReaL",
+      "aiSummary": {
+        "summary": "AReaL是一个面向大模型推理和智能体的开源异步强化学习系统，支持灵活定制和高速可扩展训练，具备数学、编码、搜索等场景的前沿性能，提供完整训练数据和基础设施以降低AI代理开发门槛。",
+        "techStack": [
+          "Python",
+          "强化学习",
+          "分布式训练"
+        ],
+        "useCase": "大规模语言模型的强化学习训练与智能代理系统开发"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "lingfengQAQ/webnovel-writer",
+      "description": "基于 Claude Code 的长篇网文辅助创作系统，解决 AI 写作中的「遗忘」和「幻觉」问题，支持 200 万字量级 连载创作。",
+      "language": "Python",
+      "stars": 762,
+      "forks": 188,
+      "todayStars": 84,
+      "url": "https://github.com/lingfengQAQ/webnovel-writer",
+      "aiSummary": {
+        "summary": "基于Claude Code的长篇网文创作系统，通过RAG技术解决AI写作的遗忘与幻觉问题，支持200万字级连载。提供可视化面板、追读力系统及智能上下文管理，适用于需要长期内容创作的网络小说场景。",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "RAG",
+          "Qwen",
+          "Jina"
+        ],
+        "useCase": "长篇网络小说的AI辅助创作与内容一致性管理"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "stars": 11931,
+      "forks": 672,
+      "todayStars": 582,
+      "url": "https://github.com/openai/skills",
+      "aiSummary": {
+        "summary": "OpenAI的Skills项目为Codex提供可重复使用的技能目录，支持AI代理通过标准化指令、脚本和资源完成特定任务。包含技能安装、管理及分发机制，促进团队与个人能力封装与共享。",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "GitHub"
+        ],
+        "useCase": "Codex AI代理的技能管理与任务自动化能力扩展"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "TheCraigHewitt/seomachine",
+      "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.",
+      "language": "Python",
+      "stars": 2124,
+      "forks": 362,
+      "todayStars": 675,
+      "url": "https://github.com/TheCraigHewitt/seomachine",
+      "aiSummary": {
+        "summary": "SEO Machine 是基于 Claude Code 的专业 SEO 内容创作工具，提供从关键词研究到内容优化的全流程解决方案。集成 NLP 分析、SEO 检测、数据可视化等功能，支持自动化撰写、优化及性能分析，提升博客内容搜索排名与用户匹配度。",
+        "techStack": [
+          "Python",
+          "nltk",
+          "scikit-learn",
+          "beautifulsoup4",
+          "Google Analytics"
+        ],
+        "useCase": "企业级SEO内容优化与自动化博客生产"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars": 46320,
+      "forks": 8091,
+      "todayStars": 82,
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "aiSummary": {
+        "summary": "该项目是一个AI驱动的对冲基金模拟系统，整合了15种经典投资策略，通过多代理协同实现基本面分析、技术分析、情绪判断和风险管理，所有决策均为模拟场景下的教育性研究。",
+        "techStack": [
+          "Python",
+          "机器学习算法",
+          "数据分析库",
+          "风险管理模型"
+        ],
+        "useCase": "金融策略研究与AI交易算法教学实验"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "aidenybai/react-grab",
+      "description": "Select context for coding agents directly from your website",
+      "language": "TypeScript",
+      "stars": 5985,
+      "forks": 272,
+      "todayStars": 442,
+      "url": "https://github.com/aidenybai/react-grab",
+      "aiSummary": {
+        "summary": "react-grab 是一个用于快速提取网页代码上下文的工具，通过快捷键复制React组件、文件名及HTML源码，提升代码代理工具的效率。支持Next.js、Vite等框架，提供浏览器端实时上下文捕获功能。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Vite"
+        ],
+        "useCase": "加速开发过程中代码代理工具的上下文获取与调试效率"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "",
+      "stars": 9774,
+      "forks": 1460,
+      "todayStars": 2857,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "提供多种AI代理模板，涵盖前端开发、后端架构、移动应用开发等场景，每个代理具备专业技能和个性化沟通方式，可直接调用或参考实现。",
+        "techStack": [
+          "React",
+          "Vue.js",
+          "Angular",
+          "React Native",
+          "Flutter"
+        ],
+        "useCase": "适用于需要快速构建和部署AI驱动的软件开发流程及多样化应用场景。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-06T23:34:19.311Z",
+    "duration": "105s",
+    "version": "1.0.0"
+  }
+}
