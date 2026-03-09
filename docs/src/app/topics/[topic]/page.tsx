@@ -4,8 +4,19 @@ import { notFound } from 'next/navigation';
 import { getBaseUrl, getLatestAvailableData, getRecentAvailableData } from '@/lib/trending-data';
 import { getReposByTopic, getTopicBySlug, getTopicStats } from '@/lib/topic-taxonomy';
 
+export const revalidate = 3600;
+
 interface TopicPageProps {
   params: Promise<{ topic: string }>;
+}
+
+export async function generateStaticParams() {
+  const latest = await getLatestAvailableData();
+  if (!latest) {
+    return [];
+  }
+
+  return getTopicStats(latest.data.repos).map((item) => ({ topic: item.topic.slug }));
 }
 
 export async function generateMetadata(props: TopicPageProps): Promise<Metadata> {
@@ -48,7 +59,18 @@ export async function generateMetadata(props: TopicPageProps): Promise<Metadata>
       title: `${topic.name} GitHub Trending 热门项目`,
       description: `查看 ${latest.date} 最新 ${topic.name} 热门开源项目。`,
       url: `${baseUrl}${canonicalPath}`,
+      type: 'website',
       images: [`${baseUrl}/logo.svg`],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${topic.name} GitHub Trending 热门项目`,
+      description: `查看 ${latest.date} 最新 ${topic.name} 热门开源项目。`,
+      images: [`${baseUrl}/logo.svg`],
+    },
+    robots: {
+      index: true,
+      follow: true,
     },
   };
 }

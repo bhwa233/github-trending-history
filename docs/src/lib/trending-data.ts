@@ -1,9 +1,14 @@
 import dayjs from 'dayjs';
 
 export const DEFAULT_BASE_URL = 'https://github-trending-history.vercel.app';
-export const FIRST_AVAILABLE_DATE = dayjs('2024-05-20');
 const DATE_FILE_PATTERN = /^(\d{4}-\d{2}-\d{2})\.json$/;
 const GITHUB_CONTENTS_API = 'https://api.github.com/repos/lxw15337674/github-trending-history/contents/api/github?ref=master';
+const RAW_DATA_BASE_URL = 'https://raw.githubusercontent.com/lxw15337674/github-trending-history/refs/heads/master/api/github';
+const CACHE_REVALIDATE_SECONDS = 3600;
+const FALLBACK_PROBE_LOOKBACK_DAYS = 180;
+const FALLBACK_STOP_MISS_STREAK = 21;
+
+let probedDatesCache: { expiresAt: number; dates: string[] } | null = null;
 
 export interface GitHubRepo {
   fullName: string;
@@ -25,28 +30,75 @@ export function getBaseUrl() {
   return (process.env.NEXT_PUBLIC_BASE_URL || DEFAULT_BASE_URL).replace(/\/+$/, '');
 }
 
-function getFallbackDateRange() {
-  const endDate = dayjs().subtract(1, 'day');
-  const dates: string[] = [];
+function getRawDataUrl(date: string) {
+  return `${RAW_DATA_BASE_URL}/${date}.json`;
+}
 
-  let currentDate = FIRST_AVAILABLE_DATE;
-  while (currentDate.isBefore(endDate) || currentDate.isSame(endDate, 'day')) {
-    dates.push(currentDate.format('YYYY-MM-DD'));
-    currentDate = currentDate.add(1, 'day');
+async function doesDateFileExist(date: string) {
+  try {
+    const headRes = await fetch(getRawDataUrl(date), {
+      method: 'HEAD',
+      next: { revalidate: CACHE_REVALIDATE_SECONDS },
+    });
+    if (headRes.ok) {
+      return true;
+    }
+    if (headRes.status !== 405) {
+      return false;
+    }
+
+    const getRes = await fetch(getRawDataUrl(date), {
+      next: { revalidate: CACHE_REVALIDATE_SECONDS },
+    });
+    return getRes.ok;
+  } catch {
+    return false;
+  }
+}
+
+async function getFallbackDatesByProbe() {
+  const now = Date.now();
+  if (probedDatesCache && probedDatesCache.expiresAt > now) {
+    return probedDatesCache.dates;
   }
 
-  return dates;
+  const dates: string[] = [];
+  let missStreak = 0;
+
+  for (let offset = 0; offset < FALLBACK_PROBE_LOOKBACK_DAYS; offset += 1) {
+    const date = dayjs().subtract(offset, 'day').format('YYYY-MM-DD');
+    const exists = await doesDateFileExist(date);
+    if (exists) {
+      dates.push(date);
+      missStreak = 0;
+      continue;
+    }
+
+    if (dates.length > 0) {
+      missStreak += 1;
+      if (missStreak >= FALLBACK_STOP_MISS_STREAK) {
+        break;
+      }
+    }
+  }
+
+  const normalizedDates = dates.sort((a, b) => a.localeCompare(b));
+  probedDatesCache = {
+    dates: normalizedDates,
+    expiresAt: now + CACHE_REVALIDATE_SECONDS * 1000,
+  };
+  return normalizedDates;
 }
 
 export async function getAvailableDates() {
   try {
     const res = await fetch(GITHUB_CONTENTS_API, {
-      next: { revalidate: 3600 },
+      next: { revalidate: CACHE_REVALIDATE_SECONDS },
       headers: { Accept: 'application/vnd.github+json' },
     });
 
     if (!res.ok) {
-      return getFallbackDateRange();
+      return getFallbackDatesByProbe();
     }
 
     const files = (await res.json()) as Array<{ name?: string; type?: string }>;
@@ -59,18 +111,15 @@ export async function getAvailableDates() {
       .filter((date): date is string => Boolean(date))
       .sort((a, b) => a.localeCompare(b));
 
-    return dates.length > 0 ? dates : getFallbackDateRange();
+    return dates.length > 0 ? dates : getFallbackDatesByProbe();
   } catch {
-    return getFallbackDateRange();
+    return getFallbackDatesByProbe();
   }
 }
 
 export async function fetchTrendingByDate(date: string): Promise<GitHubTrendingData | null> {
   try {
-    const res = await fetch(
-      `https://raw.githubusercontent.com/lxw15337674/github-trending-history/refs/heads/master/api/github/${date}.json`,
-      { next: { revalidate: 3600 } }
-    );
+    const res = await fetch(getRawDataUrl(date), { next: { revalidate: CACHE_REVALIDATE_SECONDS } });
 
     if (!res.ok) {
       return null;

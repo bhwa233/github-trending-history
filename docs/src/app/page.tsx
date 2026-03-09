@@ -1,8 +1,7 @@
 ﻿import type { Metadata } from 'next';
 import Link from 'next/link';
-import dayjs from 'dayjs';
 import {
-  FIRST_AVAILABLE_DATE,
+  getAvailableDates,
   getBaseUrl,
   getLanguageSlug,
   getLatestAvailableData,
@@ -10,13 +9,21 @@ import {
 } from '@/lib/trending-data';
 import { getTopicStats } from '@/lib/topic-taxonomy';
 
+export const revalidate = 3600;
+
 
 export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = getBaseUrl();
+  const latest = await getLatestAvailableData();
+  const latestDate = latest?.date;
+  const latestCount = latest?.data.repos.length || 0;
+  const description = latestDate
+    ? `每日 GitHub Trending 开源项目归档。当前最新日期为 ${latestDate}，收录 ${latestCount} 个热门项目，支持按日期、语言、主题追踪技术趋势。`
+    : '每日 GitHub Trending 开源项目归档，支持按日期追踪热门开源项目与技术趋势。';
 
   return {
     title: 'GitHub Trending 归档',
-    description: '每日 GitHub Trending 开源项目归档，支持按日期追踪热门开源项目与技术趋势。',
+    description,
     keywords: [
       'GitHub Trending 历史',
       'GitHub Trending 今日',
@@ -29,30 +36,26 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     openGraph: {
       title: 'GitHub Trending 归档',
-      description: '按日期浏览 GitHub Trending 历史榜单，快速了解每日热门项目。',
+      description,
       url: baseUrl,
       images: [`${baseUrl}/logo.svg`],
     },
     twitter: {
       card: 'summary_large_image',
       title: 'GitHub Trending 归档',
-      description: '按日期浏览 GitHub Trending 历史榜单。',
+      description,
       images: [`${baseUrl}/logo.svg`],
     },
   };
 }
 
 export default async function Page() {
-  const latest = await getLatestAvailableData();
-  const latestDateText = latest?.date || dayjs().subtract(1, 'day').format('YYYY-MM-DD');
+  const [latest, availableDates] = await Promise.all([getLatestAvailableData(), getAvailableDates()]);
+  const latestDateText = latest?.date || (availableDates.length > 0 ? availableDates[availableDates.length - 1] : null);
   const latestRepos = latest?.data.repos.slice(0, 8) || [];
   const topLanguages = getTopLanguages(latest?.data.repos || []);
   const topTopics = getTopicStats(latest?.data.repos || []).slice(0, 8);
-  const recentDates = Array.from({ length: 30 }, (_, index) =>
-    dayjs(latestDateText).subtract(index, 'day')
-  )
-    .filter((date) => !date.isBefore(FIRST_AVAILABLE_DATE, 'day'))
-    .map((date) => date.format('YYYY-MM-DD'));
+  const recentDates = availableDates.slice(-30).reverse();
 
   const homeStructuredData = {
     '@context': 'https://schema.org',
@@ -90,18 +93,24 @@ export default async function Page() {
           <p className="mt-3 text-muted-foreground">
             每日收录 GitHub Trending 热门项目，覆盖 Star 增长、语言分布和 AI 摘要，适合追踪开源技术趋势。
           </p>
-          <div className="mt-5 flex flex-wrap items-center gap-3">
-            <Link
-              className="rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground"
-              href={`/history/${latestDateText}`}
-            >
-              查看最新榜单 ({latestDateText})
-            </Link>
-          </div>
+          {latestDateText ? (
+            <div className="mt-5 flex flex-wrap items-center gap-3">
+              <Link
+                className="rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground"
+                href={`/history/${latestDateText}`}
+              >
+                查看最新榜单 ({latestDateText})
+              </Link>
+            </div>
+          ) : (
+            <p className="mt-4 text-sm text-muted-foreground">暂无可用日期数据，榜单入口稍后恢复。</p>
+          )}
         </section>
 
         <section className="rounded-lg border bg-card p-6">
-          <h2 className="text-lg font-semibold">GitHub Trending 今日热门开源项目 ({latestDateText})</h2>
+          <h2 className="text-lg font-semibold">
+            GitHub Trending 今日热门开源项目{latestDateText ? ` (${latestDateText})` : ''}
+          </h2>
           {latestRepos.length > 0 ? (
             <div className="mt-4 grid gap-3 md:grid-cols-2">
               {latestRepos.map((repo) => (
@@ -170,18 +179,22 @@ export default async function Page() {
         </section>
 
         <section className="rounded-lg border bg-card p-6">
-          <h2 className="text-lg font-semibold">GitHub Trending 历史数据归档（最近 30 天）</h2>
-          <div className="mt-4 flex flex-wrap gap-2">
-            {recentDates.map((date) => (
-              <Link
-                key={date}
-                href={`/history/${date}`}
-                className="rounded-md border px-3 py-1.5 text-sm hover:bg-muted"
-              >
-                {date}
-              </Link>
-            ))}
-          </div>
+          <h2 className="text-lg font-semibold">GitHub Trending 历史数据归档（最近 {recentDates.length} 个有效日期）</h2>
+          {recentDates.length > 0 ? (
+            <div className="mt-4 flex flex-wrap gap-2">
+              {recentDates.map((date) => (
+                <Link
+                  key={date}
+                  href={`/history/${date}`}
+                  className="rounded-md border px-3 py-1.5 text-sm hover:bg-muted"
+                >
+                  {date}
+                </Link>
+              ))}
+            </div>
+          ) : (
+            <p className="mt-3 text-sm text-muted-foreground">暂无历史日期数据。</p>
+          )}
         </section>
 
         <section className="rounded-lg border bg-card p-6">

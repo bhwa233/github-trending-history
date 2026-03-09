@@ -3,19 +3,38 @@ import Link from 'next/link';
 import { getBaseUrl, getLatestAvailableData } from '@/lib/trending-data';
 import { getTopicStats } from '@/lib/topic-taxonomy';
 
+export const revalidate = 3600;
+
 export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = getBaseUrl();
+  const latest = await getLatestAvailableData();
+  const latestDate = latest?.date;
+  const topicStats = getTopicStats(latest?.data.repos || []);
+  const description = latestDate
+    ? `按主题浏览 ${latestDate} 的 GitHub Trending 热门项目，当前覆盖 ${topicStats.length} 个热门技术方向。`
+    : '按主题浏览最新 GitHub Trending 热门项目，快速定位 AI、CLI、前端、后端等方向。';
 
   return {
     title: 'GitHub Trending 主题榜单',
-    description: '按主题浏览最新 GitHub Trending 热门项目，快速定位 AI、CLI、前端、后端等方向。',
+    description,
+    keywords: ['GitHub Trending 主题榜单', 'GitHub 热门主题', '开源项目趋势', 'AI 开源项目'],
     alternates: {
       canonical: `${baseUrl}/topics`,
     },
+    robots: {
+      index: true,
+      follow: true,
+    },
     openGraph: {
       title: 'GitHub Trending 主题榜单',
-      description: '按主题查看最新热门开源项目。',
+      description,
       url: `${baseUrl}/topics`,
+      images: [`${baseUrl}/logo.svg`],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'GitHub Trending 主题榜单',
+      description,
       images: [`${baseUrl}/logo.svg`],
     },
   };

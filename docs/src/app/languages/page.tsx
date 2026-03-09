@@ -7,19 +7,38 @@ import {
   getTopLanguages,
 } from '@/lib/trending-data';
 
+export const revalidate = 3600;
+
 export async function generateMetadata(): Promise<Metadata> {
   const baseUrl = getBaseUrl();
+  const latest = await getLatestAvailableData();
+  const latestDate = latest?.date;
+  const topLanguages = getTopLanguages(latest?.data.repos || [], 30);
+  const description = latestDate
+    ? `按编程语言浏览 ${latestDate} 的 GitHub Trending 热门项目，共覆盖 ${topLanguages.length} 个语言分类。`
+    : '按编程语言浏览最新 GitHub Trending 热门项目，快速查看各技术栈的当日趋势。';
 
   return {
     title: 'GitHub Trending 语言榜单',
-    description: '按编程语言浏览最新 GitHub Trending 热门项目，快速查看各技术栈的当日趋势。',
+    description,
+    keywords: ['GitHub Trending 语言榜单', 'GitHub 热门语言', '开源项目语言趋势', '编程语言热度'],
     alternates: {
       canonical: `${baseUrl}/languages`,
     },
+    robots: {
+      index: true,
+      follow: true,
+    },
     openGraph: {
       title: 'GitHub Trending 语言榜单',
-      description: '按语言查看最新热门开源项目。',
+      description,
       url: `${baseUrl}/languages`,
+      images: [`${baseUrl}/logo.svg`],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'GitHub Trending 语言榜单',
+      description,
       images: [`${baseUrl}/logo.svg`],
     },
   };

@@ -1,15 +1,12 @@
-import { MetadataRoute } from 'next'
+import { MetadataRoute } from 'next';
+import { getBaseUrl } from '@/lib/trending-data';
 
 export default function robots(): MetadataRoute.Robots {
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://github-trending-history.vercel.app'
+  const baseUrl = getBaseUrl();
 
-    return {
-        rules: {
-            userAgent: '*',
-            allow: '/',
-            disallow: ['/private/', '/admin/'],
-        },
-        sitemap: `${baseUrl}/sitemap.xml`,
-        host: baseUrl,
-    }
-} 
+  return {
+    rules: [{ userAgent: '*', allow: '/' }],
+    sitemap: `${baseUrl}/sitemap.xml`,
+    host: baseUrl,
+  };
+}

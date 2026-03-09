@@ -3,27 +3,30 @@ import dayjs from 'dayjs'
 import { getAvailableDates, getBaseUrl, getLanguageSlug, getLatestAvailableData, getTopLanguages } from '@/lib/trending-data'
 import { getTopicStats } from '@/lib/topic-taxonomy'
 
+export const revalidate = 3600
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const baseUrl = getBaseUrl()
     const dates = await getAvailableDates()
     const latestDate = dates.length > 0 ? dates[dates.length - 1] : null
+    const latestDateAsDate = latestDate ? dayjs(latestDate).toDate() : new Date()
 
     const routes: MetadataRoute.Sitemap = [
         {
             url: baseUrl,
-            lastModified: new Date(),
+            lastModified: latestDateAsDate,
             changeFrequency: 'daily',
             priority: 1,
         },
         {
             url: `${baseUrl}/languages`,
-            lastModified: new Date(),
+            lastModified: latestDateAsDate,
             changeFrequency: 'daily',
             priority: 0.8,
         },
         {
             url: `${baseUrl}/topics`,
-            lastModified: new Date(),
+            lastModified: latestDateAsDate,
             changeFrequency: 'daily',
             priority: 0.8,
         },
@@ -38,13 +41,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const latest = await getLatestAvailableData()
     const languageRoutes: MetadataRoute.Sitemap = getTopLanguages(latest?.data.repos || [], 30).map((item) => ({
         url: `${baseUrl}/languages/${getLanguageSlug(item.language)}`,
-        lastModified: new Date(),
+        lastModified: latestDateAsDate,
         changeFrequency: 'daily' as const,
         priority: 0.6,
     }))
     const topicRoutes: MetadataRoute.Sitemap = getTopicStats(latest?.data.repos || []).map((item) => ({
         url: `${baseUrl}/topics/${item.topic.slug}`,
-        lastModified: new Date(),
+        lastModified: latestDateAsDate,
         changeFrequency: 'daily' as const,
         priority: 0.6,
     }))

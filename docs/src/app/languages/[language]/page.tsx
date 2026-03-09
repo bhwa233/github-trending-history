@@ -11,6 +11,8 @@ import {
   normalizeLanguage,
 } from '@/lib/trending-data';
 
+export const revalidate = 3600;
+
 interface LanguagePageProps {
   params: Promise<{ language: string }>;
 }
@@ -21,6 +23,17 @@ function getLanguageFromParam(languageParam: string) {
   } catch {
     return languageParam;
   }
+}
+
+export async function generateStaticParams() {
+  const latest = await getLatestAvailableData();
+  if (!latest) {
+    return [];
+  }
+
+  return getTopLanguages(latest.data.repos, 30).map((item) => ({
+    language: getLanguageSlug(item.language),
+  }));
 }
 
 export async function generateMetadata(props: LanguagePageProps): Promise<Metadata> {
@@ -55,7 +68,18 @@ export async function generateMetadata(props: LanguagePageProps): Promise<Metada
       title: `${displayLanguage} GitHub Trending 热门项目`,
       description: `查看 ${latest.date} 最新 ${displayLanguage} 热门开源项目。`,
       url: `${baseUrl}${canonicalPath}`,
+      type: 'website',
       images: [`${baseUrl}/logo.svg`],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${displayLanguage} GitHub Trending 热门项目`,
+      description: `查看 ${latest.date} 最新 ${displayLanguage} 热门开源项目。`,
+      images: [`${baseUrl}/logo.svg`],
+    },
+    robots: {
+      index: true,
+      follow: true,
     },
   };
 }

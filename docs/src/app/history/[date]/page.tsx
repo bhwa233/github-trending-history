@@ -14,6 +14,8 @@ import {
 import { DatePicker } from '@/components/DayPicker';
 import { getAvailableDates, getBaseUrl } from '@/lib/trending-data';
 
+export const revalidate = 3600;
+
 interface HotsProps {
   params: Promise<{ date: string }>;
   searchParams: Promise<{}>;
@@ -78,6 +80,11 @@ async function getData(date: string): Promise<GitHubTrendingData | null> {
   } catch {
     return null;
   }
+}
+
+export async function generateStaticParams() {
+  const dates = await getAvailableDates();
+  return dates.map((date) => ({ date }));
 }
 
 export async function generateMetadata(props: HotsProps): Promise<Metadata> {
@@ -228,6 +235,24 @@ export default async function Hots(props: HotsProps) {
       "name": "GitHub Trending 归档"
     }
   };
+  const breadcrumbStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "首页",
+        "item": baseUrl
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "历史榜单",
+        "item": `${baseUrl}/history/${normalizedDate}`
+      }
+    ]
+  };
 
   return (
     <>
@@ -235,6 +260,12 @@ export default async function Hots(props: HotsProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(structuredData)
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbStructuredData)
         }}
       />
       <main className="p-5 lg:p-0 lg:pt-5">
