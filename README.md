@@ -67,24 +67,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-08 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-03-09 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) | Sample code and notebooks for Generative AI on Goo... | Jupyter Notebook | 14.3k | 563 | 该仓库提供Google Cloud Vertex AI生成式AI的示例代码和Notebook，涵盖Gemini模型使用、RAG技术、视觉/音频生成、搜索功能及环境搭建，帮助开发者快速实践生成式AI应用。 |
-| 2 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, ... | Python | 6.9k | 1.2k | MiroFish 是基于多智能体技术的AI预测引擎，通过构建数字世界模拟群体行为，支持舆情、金融、文学等场景的未来推演。用户上传材料后，系统生成预测报告并与数字世界交互，适用于决策模拟与创意推演。 |
-| 3 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | A set of beautifully-designed, accessible componen... | TypeScript | 108.6k | 498 | shadcn-ui/ui 是一个开源的UI组件库，提供美观且可访问的组件，支持主流前端框架。通过模块化设计和可定制化配置，帮助开发者快速构建高质量用户界面，采用TypeScript增强类型安全。 |
-| 4 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 280.3k | 4.8k | OpenClaw是一个可跨平台运行的个人AI助手，支持多消息渠道集成与设备交互，提供本地化、实时的智能服务。通过CLI工具快速部署，适配多种操作系统和应用场景。 |
-| 5 | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | There can be more than Notion and Miro. AFFiNE(pro... | TypeScript | 65.2k | 529 | AFFiNE是一个隐私优先的开源知识库平台，整合文档、白板和数据库功能，支持多模态AI协作、本地化部署及实时团队协作，提供可定制的全能型工作空间。 |
-| 6 | [Ed1s0nZ/CyberStrikeAI](https://github.com/Ed1s0nZ/CyberStrikeAI) | CyberStrikeAI is an AI-native security testing pla... | Go | 2.2k | 242 | CyberStrikeAI是用Go语言开发的AI原生安全测试平台，集成100+安全工具与智能编排引擎，支持角色化渗透测试、技能系统驱动的专项测试，提供攻击链分析、漏洞全生命周期管理及可视化报告，通过AI agents实现端到端自动化安全测试。 |
-| 7 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | Bash is all you need - A nano Claude Code–like age... | TypeScript | 23.8k | 635 | 该项目通过12个渐进式课程，教学构建类似Claude Code的AI编码代理，涵盖基础循环、工具调用、任务分解、上下文压缩、多代理协作等机制，强调模块化设计与自主执行能力。 |
-| 8 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 13.2k | 613 | 该项目是Codex的技能目录，提供可重复使用的AI代理技能模块，包含指令、脚本和资源。支持通过命令行安装和管理技能，实现任务自动化与能力扩展。 |
-| 9 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 46.8k | 275 | 该项目是一个AI驱动的对冲基金模拟系统，整合15+投资策略代理（如巴菲特、彼得·林奇等），通过多智能体协作实现市场分析、风险控制和交易决策，所有操作均为教育用途的模拟验证。 |
-| 10 | [is-a-dev/register](https://github.com/is-a-dev/register) | Grab your own sweet-looking '.is-a.dev' subdomain.... | JavaScript | 9.8k | 8 | 提供开发者个性化子域名注册服务，通过GitHub仓库提交申请并审核后，自动配置DNS记录实现快速部署。 |
-| 11 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Unofficial Python API for Google NotebookLM... | Python | 3.7k | 217 | 非官方Python API，提供对Google NotebookLM的全面程序化访问，支持笔记管理、多源文件导入、内容生成及自动化研究流程，适用于AI代理集成与科研工具开发。 |
-| 12 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | JavaScript | 1.7k | 640 | Impeccable是面向AI的前端设计系统，包含17个指令命令和7个领域参考文件，通过反模式库优化设计质量，覆盖排版、色彩、交互等全流程，提升AI生成设计的一致性与专业性。 |
+| 1 | [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) | Sample code and notebooks for Generative AI on Goo... | Jupyter Notebook | 15.3k | 1.3k | 该项目提供Google Cloud Vertex AI生成式AI的示例代码和Notebook，涵盖Gemini模型、Vertex AI Search、RAG技术、视觉生成（Imagen）和音频处理（Chirp）等多功能场景，包含环境配置和开发指南。 |
+| 2 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 289.7k | 9.1k | OpenClaw是基于TypeScript开发的本地AI助手，支持多平台和多渠道交互（如Telegram、Slack、Discord等），提供语音识别、实时Canvas控制及跨设备同步功能。通过CLI工具快速部署，强调隐私安全与本地化运行。 |
+| 3 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, ... | Python | 10.7k | 2.2k | MiroFish是基于多智能体的群体智能预测引擎，通过构建数字世界模拟现实事件演化，支持政策、舆情、金融等场景的预测推演，提供可交互的高保真数字沙盘和深度分析报告。 |
+| 4 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best ChatGPT that $100 can buy.... | Python | 45.5k | 332 | nanochat是一个低成本训练和部署大语言模型的实验框架，可在单GPU上运行。它覆盖了从预训练到推理的完整流程，支持通过调整深度参数快速构建不同规模的模型，并提供类似ChatGPT的交互界面。项目重点优化训练效率，使GPT-2级别模型训练成本降至百美元以内。 |
+| 5 | [666ghj/BettaFish](https://github.com/666ghj/BettaFish) | 微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实... | Python | 37.3k | 509 | 微舆是多智能体舆情分析系统，支持跨平台数据采集、多模态分析与AI预测，通过Agent协作机制实现舆情监测、深度分析及决策支持，覆盖社交媒体与结构化数据源。 |
+| 6 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you... | Python | 2.9k | 358 | Hermes-Agent是由Nous Research开发的自我改进型AI代理，具备内置学习循环，能通过经验创建并优化技能，支持跨平台对话和任务自动化。用户可通过Telegram、Discord等多渠道交互，灵活部署于VPS、云服务器或无服务器架构，兼容多种大模型接口，实现持续学习与高效任务处理。 |
+| 7 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | JavaScript | 2.9k | 1.3k | impeccable 是一个前端设计语言工具，通过17个指令和反模式库提升AI生成设计质量，涵盖字体、色彩、动效等七大设计领域，提供从审计到优化的全流程设计指导。 |
+| 8 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 18.9k | 4.3k | 该项目提供一组AI代理工具，涵盖前端开发、社区运营、内容生成等角色，每个代理具备专属技能和个性化的任务处理流程，支持多平台集成实现自动化工作流。 |
+| 9 | [alibaba/page-agent](https://github.com/alibaba/page-agent) | JavaScript in-page GUI agent. Control web interfac... | TypeScript | 2.5k | 532 | Page-Agent 是一个基于JavaScript的网页GUI代理工具，通过自然语言控制网页界面。无需浏览器扩展或后端支持，直接在页面内执行DOM操作，支持自定义大语言模型集成，适用于SaaS AI助手、表单自动化及无障碍访问等场景。 |
+| 10 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 169 production-ready skills & plugins for Claude C... | Python | 3.3k | 228 | 提供169个生产级AI代码代理技能插件，涵盖工程、产品、营销等多领域，通过模块化指令包和Python工具提升AI编程专业能力。 |
+| 11 | [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight PowerShell script that allow... | PowerShell | 41.2k | 104 | Win11Debloat是一款轻量级PowerShell脚本，用于移除Windows预装应用、禁用遥测功能并优化系统设置。支持批量操作与命令行参数，可简化系统个性化配置，适用于Windows 10/11环境。 |
+| 12 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Unofficial Python API and agentic skill for Google... | Python | 4.2k | 457 | 提供Google NotebookLM的非官方Python API和智能工具，支持通过Python、CLI及AI代理（如Claude Code）程序化调用NotebookLM功能，涵盖笔记管理、研究自动化、内容生成与多格式导出。 |
 
-[查看完整数据](api/github/2026-03-08.json)
+[查看完整数据](api/github/2026-03-09.json)
 <!-- END GITHUB TRENDING -->
 
 
