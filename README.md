@@ -67,24 +67,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-09 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-03-10 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) | Sample code and notebooks for Generative AI on Goo... | Jupyter Notebook | 15.3k | 1.3k | 该项目提供Google Cloud Vertex AI生成式AI的示例代码和Notebook，涵盖Gemini模型、Vertex AI Search、RAG技术、视觉生成（Imagen）和音频处理（Chirp）等多功能场景，包含环境配置和开发指南。 |
-| 2 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 289.7k | 9.1k | OpenClaw是基于TypeScript开发的本地AI助手，支持多平台和多渠道交互（如Telegram、Slack、Discord等），提供语音识别、实时Canvas控制及跨设备同步功能。通过CLI工具快速部署，强调隐私安全与本地化运行。 |
-| 3 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, ... | Python | 10.7k | 2.2k | MiroFish是基于多智能体的群体智能预测引擎，通过构建数字世界模拟现实事件演化，支持政策、舆情、金融等场景的预测推演，提供可交互的高保真数字沙盘和深度分析报告。 |
-| 4 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best ChatGPT that $100 can buy.... | Python | 45.5k | 332 | nanochat是一个低成本训练和部署大语言模型的实验框架，可在单GPU上运行。它覆盖了从预训练到推理的完整流程，支持通过调整深度参数快速构建不同规模的模型，并提供类似ChatGPT的交互界面。项目重点优化训练效率，使GPT-2级别模型训练成本降至百美元以内。 |
-| 5 | [666ghj/BettaFish](https://github.com/666ghj/BettaFish) | 微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实... | Python | 37.3k | 509 | 微舆是多智能体舆情分析系统，支持跨平台数据采集、多模态分析与AI预测，通过Agent协作机制实现舆情监测、深度分析及决策支持，覆盖社交媒体与结构化数据源。 |
-| 6 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you... | Python | 2.9k | 358 | Hermes-Agent是由Nous Research开发的自我改进型AI代理，具备内置学习循环，能通过经验创建并优化技能，支持跨平台对话和任务自动化。用户可通过Telegram、Discord等多渠道交互，灵活部署于VPS、云服务器或无服务器架构，兼容多种大模型接口，实现持续学习与高效任务处理。 |
-| 7 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | JavaScript | 2.9k | 1.3k | impeccable 是一个前端设计语言工具，通过17个指令和反模式库提升AI生成设计质量，涵盖字体、色彩、动效等七大设计领域，提供从审计到优化的全流程设计指导。 |
-| 8 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 18.9k | 4.3k | 该项目提供一组AI代理工具，涵盖前端开发、社区运营、内容生成等角色，每个代理具备专属技能和个性化的任务处理流程，支持多平台集成实现自动化工作流。 |
-| 9 | [alibaba/page-agent](https://github.com/alibaba/page-agent) | JavaScript in-page GUI agent. Control web interfac... | TypeScript | 2.5k | 532 | Page-Agent 是一个基于JavaScript的网页GUI代理工具，通过自然语言控制网页界面。无需浏览器扩展或后端支持，直接在页面内执行DOM操作，支持自定义大语言模型集成，适用于SaaS AI助手、表单自动化及无障碍访问等场景。 |
-| 10 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 169 production-ready skills & plugins for Claude C... | Python | 3.3k | 228 | 提供169个生产级AI代码代理技能插件，涵盖工程、产品、营销等多领域，通过模块化指令包和Python工具提升AI编程专业能力。 |
-| 11 | [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight PowerShell script that allow... | PowerShell | 41.2k | 104 | Win11Debloat是一款轻量级PowerShell脚本，用于移除Windows预装应用、禁用遥测功能并优化系统设置。支持批量操作与命令行参数，可简化系统个性化配置，适用于Windows 10/11环境。 |
-| 12 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | Unofficial Python API and agentic skill for Google... | Python | 4.2k | 457 | 提供Google NotebookLM的非官方Python API和智能工具，支持通过Python、CLI及AI代理（如Claude Code）程序化调用NotebookLM功能，涵盖笔记管理、研究自动化、内容生成与多格式导出。 |
+| 1 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 25.1k | 6.2k | 提供可定制的AI代理工具集，包含前端开发、内容创作等专业角色，支持多平台集成。每个代理具备领域专长、个性化交互和可交付成果，适用于自动化任务和开发流程优化。 |
+| 2 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, ... | Python | 14.0k | 4.5k | MiroFish 是基于多智能体技术的群体智能预测引擎，通过构建数字世界模拟现实场景，支持金融、时政等领域的预测与决策推演。用户上传种子信息后，系统生成高保真数字世界并进行动态交互模拟，输出预测报告与可交互环境。 |
+| 3 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you... | Python | 3.7k | 776 | Hermes-Agent 是一个由 Nous Research 开发的自我改进型 AI 代理，具备内置学习循环，可自主创建和优化技能、跨会话记忆存储、多平台交互（Telegram/CLI 等）、定时任务自动化及并行子代理处理能力，支持多种大模型接入且部署灵活。 |
+| 4 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | Test your prompts, agents, and RAGs. AI Red teamin... | TypeScript | 11.9k | 632 | Promptfoo 是用于评估和红队测试LLM应用的工具，支持提示词测试、模型性能比较、漏洞扫描及安全评估，强调本地化运行与数据安全，适用于CI/CD集成和多模型对比。 |
+| 5 | [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) | Sample code and notebooks for Generative AI on Goo... | Jupyter Notebook | 15.7k | 534 | 该项目提供Google Cloud Vertex AI生成式AI的示例代码和Notebook，涵盖Gemini模型、Vertex AI Search、RAG技术、视觉生成（Imagen）及语音处理（Chirp）等场景，包含环境配置与实战案例。 |
+| 6 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 47.5k | 293 | 该项目是一个AI驱动的对冲基金原型，通过多个模拟投资专家代理协同决策，整合估值、基本面、技术面及市场情绪分析，生成交易信号并管理风险，旨在教育研究AI在量化投资中的应用。 |
+| 7 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best ChatGPT that $100 can buy.... | Python | 46.2k | 709 | nanochat是一个低成本的LLM训练框架，可在单GPU上运行，支持从预训练到聊天界面的全流程。通过调整深度参数可快速训练出类似GPT-2的小型模型，显著降低计算成本。 |
+| 8 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 76.5k | 1.4k | Superpowers 是一个基于可组合技能的代码代理开发框架，通过自动化工作流提升开发效率。核心功能包括需求拆解、设计确认、TDD实施及子代理协作开发，强调YAGNI和DRY原则，支持低人工干预的代码生成与测试。 |
+| 9 | [alibaba/page-agent](https://github.com/alibaba/page-agent) | JavaScript in-page GUI agent. Control web interfac... | TypeScript | 3.6k | 895 | Page-Agent 是一个基于JavaScript的网页GUI代理工具，通过自然语言控制网页界面。支持无需扩展的轻量级集成，利用文本操作DOM实现交互，可对接自定义大模型，适用于SaaS产品中的AI助手场景。 |
+| 10 | [sepinf-inc/IPED](https://github.com/sepinf-inc/IPED) | IPED Digital Forensic Tool. It is an open source s... | Java | 2.2k | 292 | IPED是基于Java的开源数字取证工具，支持多平台处理与分析犯罪现场或企业调查中的数字证据。提供命令行批量处理、高并发性能及多种磁盘镜像格式支持，可处理超大案例数据。 |
+| 11 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 298.1k | 9.1k | OpenClaw是跨平台个人AI助手，支持多消息渠道和操作系统，提供本地运行、快速响应和始终在线体验，通过CLI和图形界面控制。 |
+| 12 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | JavaScript | 3.6k | 932 | Impeccable是面向AI的前端设计语言，提供17个指令命令和7个领域参考模板，解决AI设计中的常见问题。通过抗性模式和系统化技能库，提升UI设计的一致性、可访问性和专业性，支持从审计到优化的全流程设计管理。 |
+| 13 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | An open-source SuperAgent harness that researches,... | Python | 28.5k | 1.4k | DeerFlow 是一个基于Python的开源超级代理框架，通过整合子代理、记忆模块、沙盒环境及工具链，实现复杂任务的自动化处理。支持多模型配置、智能搜索集成与长期记忆存储，适用于需要高效任务分解与执行的科研及开发场景。 |
 
-[查看完整数据](api/github/2026-03-09.json)
+[查看完整数据](api/github/2026-03-10.json)
 <!-- END GITHUB TRENDING -->
 
 
