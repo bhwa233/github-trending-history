@@ -67,25 +67,21 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-10 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-03-11 | **成功**: 9 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 25.1k | 6.2k | 提供可定制的AI代理工具集，包含前端开发、内容创作等专业角色，支持多平台集成。每个代理具备领域专长、个性化交互和可交付成果，适用于自动化任务和开发流程优化。 |
-| 2 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, ... | Python | 14.0k | 4.5k | MiroFish 是基于多智能体技术的群体智能预测引擎，通过构建数字世界模拟现实场景，支持金融、时政等领域的预测与决策推演。用户上传种子信息后，系统生成高保真数字世界并进行动态交互模拟，输出预测报告与可交互环境。 |
-| 3 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you... | Python | 3.7k | 776 | Hermes-Agent 是一个由 Nous Research 开发的自我改进型 AI 代理，具备内置学习循环，可自主创建和优化技能、跨会话记忆存储、多平台交互（Telegram/CLI 等）、定时任务自动化及并行子代理处理能力，支持多种大模型接入且部署灵活。 |
-| 4 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | Test your prompts, agents, and RAGs. AI Red teamin... | TypeScript | 11.9k | 632 | Promptfoo 是用于评估和红队测试LLM应用的工具，支持提示词测试、模型性能比较、漏洞扫描及安全评估，强调本地化运行与数据安全，适用于CI/CD集成和多模型对比。 |
-| 5 | [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai) | Sample code and notebooks for Generative AI on Goo... | Jupyter Notebook | 15.7k | 534 | 该项目提供Google Cloud Vertex AI生成式AI的示例代码和Notebook，涵盖Gemini模型、Vertex AI Search、RAG技术、视觉生成（Imagen）及语音处理（Chirp）等场景，包含环境配置与实战案例。 |
-| 6 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 47.5k | 293 | 该项目是一个AI驱动的对冲基金原型，通过多个模拟投资专家代理协同决策，整合估值、基本面、技术面及市场情绪分析，生成交易信号并管理风险，旨在教育研究AI在量化投资中的应用。 |
-| 7 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | The best ChatGPT that $100 can buy.... | Python | 46.2k | 709 | nanochat是一个低成本的LLM训练框架，可在单GPU上运行，支持从预训练到聊天界面的全流程。通过调整深度参数可快速训练出类似GPT-2的小型模型，显著降低计算成本。 |
-| 8 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 76.5k | 1.4k | Superpowers 是一个基于可组合技能的代码代理开发框架，通过自动化工作流提升开发效率。核心功能包括需求拆解、设计确认、TDD实施及子代理协作开发，强调YAGNI和DRY原则，支持低人工干预的代码生成与测试。 |
-| 9 | [alibaba/page-agent](https://github.com/alibaba/page-agent) | JavaScript in-page GUI agent. Control web interfac... | TypeScript | 3.6k | 895 | Page-Agent 是一个基于JavaScript的网页GUI代理工具，通过自然语言控制网页界面。支持无需扩展的轻量级集成，利用文本操作DOM实现交互，可对接自定义大模型，适用于SaaS产品中的AI助手场景。 |
-| 10 | [sepinf-inc/IPED](https://github.com/sepinf-inc/IPED) | IPED Digital Forensic Tool. It is an open source s... | Java | 2.2k | 292 | IPED是基于Java的开源数字取证工具，支持多平台处理与分析犯罪现场或企业调查中的数字证据。提供命令行批量处理、高并发性能及多种磁盘镜像格式支持，可处理超大案例数据。 |
-| 11 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 298.1k | 9.1k | OpenClaw是跨平台个人AI助手，支持多消息渠道和操作系统，提供本地运行、快速响应和始终在线体验，通过CLI和图形界面控制。 |
-| 12 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | JavaScript | 3.6k | 932 | Impeccable是面向AI的前端设计语言，提供17个指令命令和7个领域参考模板，解决AI设计中的常见问题。通过抗性模式和系统化技能库，提升UI设计的一致性、可访问性和专业性，支持从审计到优化的全流程设计管理。 |
-| 13 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | An open-source SuperAgent harness that researches,... | Python | 28.5k | 1.4k | DeerFlow 是一个基于Python的开源超级代理框架，通过整合子代理、记忆模块、沙盒环境及工具链，实现复杂任务的自动化处理。支持多模型配置、智能搜索集成与长期记忆存储，适用于需要高效任务分解与执行的科研及开发场景。 |
+| 1 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 29.9k | 6.2k | 提供多个AI代理程序，每个代理具备特定技能和个性化处理流程，可应用于自动化任务、开发工作流及内容生成，支持多工具集成。 |
+| 2 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, ... | Python | 16.7k | 2.9k | MiroFish 是基于多智能体技术的AI预测引擎，通过构建数字世界模拟现实事件发展。支持上传文本材料生成预测报告，提供可交互的虚拟场景，适用于政策模拟与创意推演。 |
+| 3 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | Test your prompts, agents, and RAGs. Red teaming/p... | TypeScript | 12.5k | 728 | Promptfoo 是一个用于测试和红队攻击LLM应用的命令行工具和库，支持提示词、代理和RAG的评估，提供漏洞扫描、多模型性能对比（GPT、Claude、Gemini等）及CI/CD集成，强调本地运行和隐私安全。 |
+| 4 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 78.0k | 1.5k | Superpowers 是一个基于 Shell 的代理技能框架，提供软件开发工作流自动化。通过可组合技能和 TDD/YAGNI/DRY 原则，实现需求分解、代码生成与测试的全流程管理，支持编码代理自主执行任务。 |
+| 5 | [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) | SOTA Open Source TTS... | Python | 25.7k | 277 | Fish Speech 是由 Fish Audio 开发的开源文本到语音系统，采用强化学习对齐和双自回归架构，支持50种语言、多说话人及情感控制。通过自然语言标签实现细腻的语调与情绪调节，模型在多项基准测试中表现优异，适用于高质量语音合成场景。 |
+| 6 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 48.1k | 633 | AI驱动的量化交易模拟系统，集成多个投资策略代理（如价值投资、成长投资、技术分析等），通过AI模型生成交易信号并模拟组合管理，项目仅用于教育研究目的。 |
+| 7 | [alibaba/page-agent](https://github.com/alibaba/page-agent) | JavaScript in-page GUI agent. Control web interfac... | TypeScript | 4.7k | 1.2k | 阿里巴巴开源的JavaScript页面代理工具，通过自然语言控制网页交互。支持无需扩展的轻量级集成，基于文本操作DOM，可接入自定义大模型，提供人机协作界面及跨页扩展功能。 |
+| 8 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you... | Python | 5.2k | 1.2k | Hermes-Agent 是一个自我进化的AI代理，具备学习循环、跨平台交互、多模型支持和终端界面。可自动创建技能并持续优化，支持Telegram/Discord等多平台通信，提供定时任务、并行处理及低成本部署方案。 |
+| 9 | [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | Agentic IM Chatbot infrastructure that integrates ... | Python | 21.0k | 391 | AstrBot是开源的代理聊天机器人平台，集成多IM平台、LLMs和插件，支持QQ/微信/Telegram等多平台，提供AI对话、多模态、代理功能、1000+插件扩展及安全沙盒环境，适用于构建智能客服、个人助手等场景。 |
 
-[查看完整数据](api/github/2026-03-10.json)
+[查看完整数据](api/github/2026-03-11.json)
 <!-- END GITHUB TRENDING -->
 
 

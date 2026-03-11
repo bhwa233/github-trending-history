@@ -1,0 +1,188 @@
+{
+  "date": "2026-03-11",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 29904,
+      "forks": 4700,
+      "todayStars": 6205,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "提供多个AI代理程序，每个代理具备特定技能和个性化处理流程，可应用于自动化任务、开发工作流及内容生成，支持多工具集成。",
+        "techStack": [
+          "Shell",
+          "AI代理框架",
+          "自动化脚本"
+        ],
+        "useCase": "适用于需要AI驱动的自动化任务处理与专业领域协作的开发场景。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "stars": 16696,
+      "forks": 1781,
+      "todayStars": 2909,
+      "url": "https://github.com/666ghj/MiroFish",
+      "aiSummary": {
+        "summary": "MiroFish 是基于多智能体技术的AI预测引擎，通过构建数字世界模拟现实事件发展。支持上传文本材料生成预测报告，提供可交互的虚拟场景，适用于政策模拟与创意推演。",
+        "techStack": [
+          "Python",
+          "Node.js",
+          "React",
+          "GraphRAG",
+          "Zep Cloud"
+        ],
+        "useCase": "政策模拟与创意推演场景下的预测分析"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "promptfoo/promptfoo",
+      "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.",
+      "language": "TypeScript",
+      "stars": 12531,
+      "forks": 1155,
+      "todayStars": 728,
+      "url": "https://github.com/promptfoo/promptfoo",
+      "aiSummary": {
+        "summary": "Promptfoo 是一个用于测试和红队攻击LLM应用的命令行工具和库，支持提示词、代理和RAG的评估，提供漏洞扫描、多模型性能对比（GPT、Claude、Gemini等）及CI/CD集成，强调本地运行和隐私安全。",
+        "techStack": [
+          "TypeScript",
+          "CLI",
+          "Node.js"
+        ],
+        "useCase": "适用于LLM应用的安全测试、性能评估及持续集成中的自动化检查。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 77998,
+      "forks": 6032,
+      "todayStars": 1477,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于 Shell 的代理技能框架，提供软件开发工作流自动化。通过可组合技能和 TDD/YAGNI/DRY 原则，实现需求分解、代码生成与测试的全流程管理，支持编码代理自主执行任务。",
+        "techStack": [
+          "Shell",
+          "TDD",
+          "YAGNI",
+          "DRY"
+        ],
+        "useCase": "适用于需要自动化软件开发流程的团队，提升编码代理的自主开发与测试效率。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "fishaudio/fish-speech",
+      "description": "SOTA Open Source TTS",
+      "language": "Python",
+      "stars": 25749,
+      "forks": 2173,
+      "todayStars": 277,
+      "url": "https://github.com/fishaudio/fish-speech",
+      "aiSummary": {
+        "summary": "Fish Speech 是由 Fish Audio 开发的开源文本到语音系统，采用强化学习对齐和双自回归架构，支持50种语言、多说话人及情感控制。通过自然语言标签实现细腻的语调与情绪调节，模型在多项基准测试中表现优异，适用于高质量语音合成场景。",
+        "techStack": [
+          "Python",
+          "深度学习框架",
+          "HuggingFace"
+        ],
+        "useCase": "需要高自然度语音合成的虚拟助手、有声书生成及多语言语音应用"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars": 48124,
+      "forks": 8381,
+      "todayStars": 633,
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "aiSummary": {
+        "summary": "AI驱动的量化交易模拟系统，集成多个投资策略代理（如价值投资、成长投资、技术分析等），通过AI模型生成交易信号并模拟组合管理，项目仅用于教育研究目的。",
+        "techStack": [
+          "Python",
+          "机器学习库",
+          "数据分析库"
+        ],
+        "useCase": "金融领域AI交易策略研究与教育演示"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "alibaba/page-agent",
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "language": "TypeScript",
+      "stars": 4683,
+      "forks": 368,
+      "todayStars": 1206,
+      "url": "https://github.com/alibaba/page-agent",
+      "aiSummary": {
+        "summary": "阿里巴巴开源的JavaScript页面代理工具，通过自然语言控制网页交互。支持无需扩展的轻量级集成，基于文本操作DOM，可接入自定义大模型，提供人机协作界面及跨页扩展功能。",
+        "techStack": [
+          "TypeScript",
+          "JavaScript",
+          "LLM"
+        ],
+        "useCase": "需要自然语言操控网页界面的SaaS产品AI助手场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 5176,
+      "forks": 603,
+      "todayStars": 1204,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "Hermes-Agent 是一个自我进化的AI代理，具备学习循环、跨平台交互、多模型支持和终端界面。可自动创建技能并持续优化，支持Telegram/Discord等多平台通信，提供定时任务、并行处理及低成本部署方案。",
+        "techStack": [
+          "Python",
+          "TUI框架",
+          "机器学习库"
+        ],
+        "useCase": "适用于需要跨平台自动化任务与智能交互的场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "AstrBotDevs/AstrBot",
+      "description": "Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "language": "Python",
+      "stars": 21022,
+      "forks": 1515,
+      "todayStars": 391,
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "aiSummary": {
+        "summary": "AstrBot是开源的代理聊天机器人平台，集成多IM平台、LLMs和插件，支持QQ/微信/Telegram等多平台，提供AI对话、多模态、代理功能、1000+插件扩展及安全沙盒环境，适用于构建智能客服、个人助手等场景。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "uv"
+        ],
+        "useCase": "适用于需要多平台IM集成与AI能力的智能客服、自动化助手及企业知识库系统开发"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-11T23:33:16.832Z",
+    "duration": "96s",
+    "version": "1.0.0"
+  }
+}
