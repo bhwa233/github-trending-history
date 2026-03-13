@@ -1,0 +1,317 @@
+{
+  "date": "2026-03-13",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "microsoft/BitNet",
+      "description": "Official inference framework for 1-bit LLMs",
+      "language": "Python",
+      "stars": 33912,
+      "forks": 2864,
+      "todayStars": 2223,
+      "url": "https://github.com/microsoft/BitNet",
+      "aiSummary": {
+        "summary": "Microsoft的BitNet是1-bit大语言模型（LLM）的官方推理框架，支持CPU和GPU加速。通过优化内核实现1.37x-6.17x性能提升及55.4%-82.2%能耗降低，可在本地设备高效运行100B参数模型，适用于边缘计算和低功耗场景。",
+        "techStack": [
+          "Python",
+          "C++",
+          "CPU/GPU优化"
+        ],
+        "useCase": "在边缘设备或本地环境中高效部署和运行超大规模1-bit量化语言模型"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "langflow-ai/openrag",
+      "description": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch.",
+      "language": "Python",
+      "stars": 2225,
+      "forks": 207,
+      "todayStars": 905,
+      "url": "https://github.com/langflow-ai/openrag",
+      "aiSummary": {
+        "summary": "OpenRAG是一个基于Langflow、Docling和OpenSearch的检索增强生成平台，提供文档智能搜索与AI对话功能。支持文档上传处理、语义检索、多Agent协作工作流，具备可视化流程设计器和企业级扩展能力。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "Next.js",
+          "OpenSearch",
+          "Langflow"
+        ],
+        "useCase": "适用于企业知识库构建与智能问答系统开发"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "lightpanda-io/browser",
+      "description": "Lightpanda: the headless browser designed for AI and automation",
+      "language": "Zig",
+      "stars": 15341,
+      "forks": 538,
+      "todayStars": 1175,
+      "url": "https://github.com/lightpanda-io/browser",
+      "aiSummary": {
+        "summary": "Lightpanda是用Zig语言开发的无头浏览器，支持JavaScript执行和部分Web API，兼容Puppeteer/Playwright等工具。具备超低内存占用（仅为Chrome的1/9）和11倍速度优势，适用于AI代理、网页爬虫及自动化测试场景。",
+        "techStack": [
+          "Zig",
+          "Chrome Dev Protocol",
+          "Web APIs"
+        ],
+        "useCase": "适用于需要超低资源消耗和高速执行的网页自动化任务，如AI训练数据采集与测试场景。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 81857,
+      "forks": 6355,
+      "todayStars": 2096,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发框架，通过代理驱动的方式优化开发流程。它强调测试驱动开发（TDD）、YAGNI 和 DRY 原则，支持编码代理自主规划与执行任务，提升开发效率。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要自动化代码生成与高效团队协作的软件开发场景。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars": 409399,
+      "forks": 44235,
+      "todayStars": 895,
+      "url": "https://github.com/public-apis/public-apis",
+      "aiSummary": {
+        "summary": "一个由社区维护的免费API集合项目，涵盖多个领域如天气、金融、交通等，提供简洁的API接口文档和使用示例，方便开发者快速集成外部服务。",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "REST API"
+        ],
+        "useCase": "为开发者提供多样化免费API接口以加速应用开发与测试"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "promptfoo/promptfoo",
+      "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.",
+      "language": "TypeScript",
+      "stars": 15226,
+      "forks": 1352,
+      "todayStars": 1850,
+      "url": "https://github.com/promptfoo/promptfoo",
+      "aiSummary": {
+        "summary": "Promptfoo 是一个用于评估和红队测试大型语言模型（LLM）应用的命令行工具和库，支持提示词测试、漏洞扫描、多模型（如GPT、Claude、Llama）性能对比及CI/CD集成，强调本地化运行与安全性。",
+        "techStack": [
+          "TypeScript",
+          "CLI",
+          "LLM API集成"
+        ],
+        "useCase": "提升AI应用安全性与可靠性，适用于LLM模型评估与渗透测试场景。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 39877,
+      "forks": 5995,
+      "todayStars": 5758,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "提供多领域AI代理工具集，每个代理具备专属技能、个性化交互和可交付成果，支持快速集成到不同开发环境，适用于自动化任务处理与AI协作开发场景。",
+        "techStack": [
+          "Shell",
+          "AI Agent",
+          "CLI工具"
+        ],
+        "useCase": "开发环境中的自动化任务处理与专业化AI协作"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "dolthub/dolt",
+      "description": "Dolt – Git for Data",
+      "language": "Go",
+      "stars": 21054,
+      "forks": 670,
+      "todayStars": 58,
+      "url": "https://github.com/dolthub/dolt",
+      "aiSummary": {
+        "summary": "Dolt是一个基于Go语言的SQL数据库，集成了Git式的版本控制功能，支持数据库的分支、合并、提交等操作，并兼容MySQL协议，便于数据协作与管理。",
+        "techStack": [
+          "Go",
+          "SQL",
+          "CLI"
+        ],
+        "useCase": "适用于需要数据库版本控制和协作开发的场景。"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "google/A2UI",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 13032,
+      "forks": 979,
+      "todayStars": 629,
+      "url": "https://github.com/google/A2UI",
+      "aiSummary": {
+        "summary": "A2UI是Google开源的代理生成UI框架，通过声明式JSON格式安全渲染跨平台UI。支持增量更新与多框架兼容，解决AI代理生成交互界面的兼容性问题。",
+        "techStack": [
+          "TypeScript",
+          "JSON",
+          "Flutter",
+          "Angular",
+          "Lit"
+        ],
+        "useCase": "需要安全生成跨平台动态UI的AI代理系统场景"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "fishaudio/fish-speech",
+      "description": "SOTA Open Source TTS",
+      "language": "Python",
+      "stars": 26848,
+      "forks": 2248,
+      "todayStars": 556,
+      "url": "https://github.com/fishaudio/fish-speech",
+      "aiSummary": {
+        "summary": "Fish Audio S2是高性能开源文本到语音系统，采用强化学习与双自回归架构，支持50+语言、多说话人及情感控制，通过自然语言标签实现精细语音生成，具备SOTA语音质量与稳定性。",
+        "techStack": [
+          "Python",
+          "HuggingFace",
+          "深度学习框架"
+        ],
+        "useCase": "适用于需要多语言、情感化、高自然度语音合成的智能助手、有声内容生成等场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "alibaba/page-agent",
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "language": "TypeScript",
+      "stars": 7448,
+      "forks": 570,
+      "todayStars": 1467,
+      "url": "https://github.com/alibaba/page-agent",
+      "aiSummary": {
+        "summary": "阿里巴巴开源的JavaScript页面代理工具，通过自然语言控制网页界面。支持无需扩展的轻量级集成，提供文本化DOM操作和自定义LLM接入，适用于SaaS智能助手、表单自动化及无障碍访问等场景。",
+        "techStack": [
+          "TypeScript",
+          "JavaScript",
+          "LLM"
+        ],
+        "useCase": "SaaS产品中快速集成AI驱动的自动化操作与无障碍交互功能"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 10762,
+      "forks": 1073,
+      "todayStars": 651,
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "aiSummary": {
+        "summary": "Anthropic官方管理的Claude代码插件目录，提供内部及第三方高质量插件。支持通过Claude Code系统直接安装，包含标准化插件结构与安全规范，强调插件信任与质量验证。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "开发、分发和管理Claude Code代码插件生态系统"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "AstrBotDevs/AstrBot",
+      "description": "Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "language": "Python",
+      "stars": 23785,
+      "forks": 1619,
+      "todayStars": 952,
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "aiSummary": {
+        "summary": "AstrBot是一款开源的智能聊天机器人平台，支持多即时通讯平台集成与AI功能，提供LLM对话、多模态处理、插件扩展及安全沙盒环境，适用于个人助手、客服系统及企业知识库构建。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "WebUI"
+        ],
+        "useCase": "适用于构建个人AI助手、智能客服、自动化助理及企业知识库等场景。"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "stars": 3602,
+      "forks": 255,
+      "todayStars": 597,
+      "url": "https://github.com/vectorize-io/hindsight",
+      "aiSummary": {
+        "summary": "Hindsight是一个专注于提升AI代理长期学习能力的记忆系统，通过优化记忆存储与检索机制，在长时记忆任务中实现SOTA性能。相比传统方法，其更注重模型持续学习而非单纯历史回忆，支持通过简单API或LLM包装器快速集成。",
+        "techStack": [
+          "Python",
+          "LLM Wrapper",
+          "REST API"
+        ],
+        "useCase": "适用于需要持续学习和长期记忆的AI代理系统开发"
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "InsForge/InsForge",
+      "description": "Give agents everything they need to ship fullstack apps. The backend built for agentic development.",
+      "language": "TypeScript",
+      "stars": 3624,
+      "forks": 342,
+      "todayStars": 763,
+      "url": "https://github.com/InsForge/InsForge",
+      "aiSummary": {
+        "summary": "InsForge是面向AI编码代理的后端开发平台，通过语义层抽象数据库、认证、存储等后端原语，支持代理获取上下文、配置服务及检查状态，降低全栈开发复杂度。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要整合AI代理进行高效全栈应用开发的场景"
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "google-ai-edge/LiteRT",
+      "description": "LiteRT, successor to TensorFlow Lite. is Google's On-device framework for high-performance ML & GenAI deployment on edge platforms, via efficient conversion, runtime, and optimization",
+      "language": "C++",
+      "stars": 1854,
+      "forks": 228,
+      "todayStars": 208,
+      "url": "https://github.com/google-ai-edge/LiteRT",
+      "aiSummary": {
+        "summary": "LiteRT是谷歌推出的边缘设备AI推理框架，支持跨平台部署。提供GPU/NPU加速、自动化硬件选择、异步执行及高效I/O处理，优化生成式AI和传统ML模型的本地化部署性能。",
+        "techStack": [
+          "C++",
+          "GPU加速",
+          "NPU优化",
+          "跨平台框架"
+        ],
+        "useCase": "适用于需要高性能本地化AI推理的边缘计算场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-13T23:36:55.847Z",
+    "duration": "173s",
+    "version": "1.0.0"
+  }
+}
