@@ -1,0 +1,197 @@
+{
+  "date": "2026-03-14",
+  "since": "daily",
+  "totalRepos": 10,
+  "successCount": 9,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "volcengine/OpenViking",
+      "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
+      "language": "Python",
+      "stars": 10480,
+      "forks": 716,
+      "todayStars": 1557,
+      "url": "https://github.com/volcengine/OpenViking",
+      "aiSummary": {
+        "summary": "OpenViking是面向AI代理的开源上下文数据库，通过文件系统范式统一管理记忆、资源与技能，解决上下文碎片化、检索效率低和不可观测性问题，支持分层加载与可视化检索轨迹。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "AI代理的上下文管理与高效记忆存储优化"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 11264,
+      "forks": 1106,
+      "todayStars": 411,
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "errorMessage": "Request failed with status code 502"
+    },
+    {
+      "index": 2,
+      "fullName": "dimensionalOS/dimos",
+      "description": "The Dimensional Framework",
+      "language": "Python",
+      "stars": 842,
+      "forks": 154,
+      "todayStars": 64,
+      "url": "https://github.com/dimensionalOS/dimos",
+      "aiSummary": {
+        "summary": "DimensionalOS/dimos 是面向物理空间的代理操作系统，支持人形、四足、无人机等机器人，无需ROS即可用Python开发。集成导航、SLAM、动态避障、空间记忆及多代理控制，实现感知、决策与控制一体化。",
+        "techStack": [
+          "Python",
+          "ROS",
+          "SLAM",
+          "深度学习框架"
+        ],
+        "useCase": "适用于多机器人自主导航、环境感知与智能控制的开发与部署"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "stars": 13699,
+      "forks": 1390,
+      "todayStars": 661,
+      "url": "https://github.com/p-e-w/heretic",
+      "aiSummary": {
+        "summary": "Heretic是全自动语言模型去审查工具，结合方向性消融与Optuna优化，降低拒绝率并最小化模型性能损失，适用于自动化去除AI审查机制的场景。",
+        "techStack": [
+          "Python",
+          "Optuna",
+          "PyTorch"
+        ],
+        "useCase": "自动化去除语言模型中的审查机制，无需人工干预。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "langflow-ai/openrag",
+      "description": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch.",
+      "language": "Python",
+      "stars": 2694,
+      "forks": 249,
+      "todayStars": 568,
+      "url": "https://github.com/langflow-ai/openrag",
+      "aiSummary": {
+        "summary": "OpenRAG是一个基于Langflow、Docling和Opensearch的RAG平台，提供文档智能搜索与AI对话功能。支持文档上传处理、语义检索、可视化工作流构建，集成大语言模型实现智能问答，适用于企业级知识管理与个性化服务场景。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "Next.js",
+          "OpenSearch",
+          "Langflow"
+        ],
+        "useCase": "企业级文档智能搜索与AI对话系统开发"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "lightpanda-io/browser",
+      "description": "Lightpanda: the headless browser designed for AI and automation",
+      "language": "Zig",
+      "stars": 17041,
+      "forks": 631,
+      "todayStars": 2100,
+      "url": "https://github.com/lightpanda-io/browser",
+      "aiSummary": {
+        "summary": "Lightpanda是用Zig语言开发的无头浏览器，支持JavaScript执行和部分Web API，兼容Puppeteer等工具。具有低内存占用、高速执行和快速启动特性，适用于AI自动化、网页抓取及测试场景。",
+        "techStack": [
+          "Zig",
+          "CDP",
+          "Web APIs"
+        ],
+        "useCase": "AI代理、网页爬虫与自动化测试"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 43606,
+      "forks": 6523,
+      "todayStars": 4329,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "提供多种AI代理角色的Shell脚本项目，每个代理具备专业技能、个性化沟通和可交付成果，支持多工具集成实现自动化任务处理与协作。",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "Cursor",
+          "Aider",
+          "Windsurf"
+        ],
+        "useCase": "适用于需要AI驱动的自动化任务处理与跨工具协作的场景。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "fishaudio/fish-speech",
+      "description": "SOTA Open Source TTS",
+      "language": "Python",
+      "stars": 27204,
+      "forks": 2273,
+      "todayStars": 377,
+      "url": "https://github.com/fishaudio/fish-speech",
+      "aiSummary": {
+        "summary": "Fish Audio S2 是开源文本到语音系统，支持50+语言，采用强化学习与双自回归架构生成自然语音。支持情感标签控制、多说话人及多轮对话生成，模型在多项基准测试中表现优异。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Hugging Face"
+        ],
+        "useCase": "适用于需要高自然度多语言TTS的场景，如虚拟助手、有声内容生成等。"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "InsForge/InsForge",
+      "description": "Give agents everything they need to ship fullstack apps. The backend built for agentic development.",
+      "language": "TypeScript",
+      "stars": 4139,
+      "forks": 428,
+      "todayStars": 477,
+      "url": "https://github.com/InsForge/InsForge",
+      "aiSummary": {
+        "summary": "InsForge为AI编码代理和编辑器提供后端开发平台，通过语义层抽象数据库、认证、存储等后端原语，支持代理理解和操作全栈功能，实现上下文工程和系统状态可视化。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "AI驱动的全栈应用开发与后端服务智能交互场景"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 83370,
+      "forks": 6502,
+      "todayStars": 1451,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发框架，通过代理自动化任务分解、设计确认和代码实现。支持TDD、YAGNI和DRY原则，通过子代理协作完成工程任务，提升开发效率。",
+        "techStack": [
+          "Shell",
+          "AI代理框架",
+          "TDD工具"
+        ],
+        "useCase": "适用于需要自动化软件开发流程并遵循敏捷最佳实践的团队"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-14T23:35:37.359Z",
+    "duration": "125s",
+    "version": "1.0.0"
+  }
+}
