@@ -1,0 +1,266 @@
+{
+  "date": "2026-03-15",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "lightpanda-io/browser",
+      "description": "Lightpanda: the headless browser designed for AI and automation",
+      "language": "Zig",
+      "stars": 18445,
+      "forks": 689,
+      "todayStars": 1323,
+      "url": "https://github.com/lightpanda-io/browser",
+      "aiSummary": {
+        "summary": "Lightpanda是用Zig语言开发的无头浏览器，专为AI和自动化设计。支持JavaScript执行和部分Web API，兼容Puppeteer等工具，具备9倍于Chrome的内存优化和11倍速度优势，适用于快速网页抓取、测试及低资源环境。",
+        "techStack": [
+          "Zig",
+          "Chrome DevTools Protocol",
+          "Web APIs"
+        ],
+        "useCase": "适用于AI代理、自动化测试、网页抓取及低资源环境下的高效浏览器操作。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "stars": 1057,
+      "forks": 114,
+      "todayStars": 241,
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "aiSummary": {
+        "summary": "Project N.O.M.A.D 是一个离线知识服务器，集成AI聊天、教育平台、离线地图、数据工具等多功能模块，通过Docker容器化管理，支持终端安装和浏览器访问，适用于无网络环境下的信息获取与数据处理。",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Node.js"
+        ],
+        "useCase": "适用于无网络环境下的教育学习、知识存储及离线数据处理需求。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "volcengine/OpenViking",
+      "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
+      "language": "Python",
+      "stars": 12273,
+      "forks": 839,
+      "todayStars": 1877,
+      "url": "https://github.com/volcengine/OpenViking",
+      "aiSummary": {
+        "summary": "OpenViking是面向AI代理的开源上下文数据库，通过文件系统范式统一管理记忆、资源与技能，支持分层加载、递归检索与可视化追踪，解决上下文碎片化、高成本及不可观测问题。",
+        "techStack": [
+          "Python",
+          "文件系统架构",
+          "语义搜索"
+        ],
+        "useCase": "适用于需要高效管理复杂上下文的AI代理系统开发与长期任务处理场景。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "shareAI-lab/learn-claude-code",
+      "description": "Bash is all you need - A nano Claude Code–like agent, built from 0 to 1",
+      "language": "TypeScript",
+      "stars": 27842,
+      "forks": 4872,
+      "todayStars": 865,
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "aiSummary": {
+        "summary": "该项目通过12个渐进式会话，从零构建类似Claude Code的AI代码代理系统，重点演示代理的核心循环机制与逐步扩展方案，涵盖工具调用、任务分解、上下文压缩等关键技术点。",
+        "techStack": [
+          "TypeScript",
+          "Bash",
+          "JSON"
+        ],
+        "useCase": "适用于AI代码代理系统的教学实践与原型开发"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "shanraisshan/claude-code-best-practice",
+      "description": "practice made claude perfect",
+      "language": "HTML",
+      "stars": 16914,
+      "forks": 1500,
+      "todayStars": 852,
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "aiSummary": {
+        "summary": "该项目聚焦Claude代码最佳实践，提供命令、子代理、技能、工作流等模块化开发方案，支持上下文工程与智能体协作，包含MCP服务器集成与自动检查点功能，推动AI工程化开发流程。",
+        "techStack": [
+          "HTML",
+          "Markdown",
+          "JSON"
+        ],
+        "useCase": "AI开发中的智能体工程化与上下文管理最佳实践"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 85698,
+      "forks": 6729,
+      "todayStars": 1893,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的代码代理框架，通过TDD/YAGNI/DRY原则实现自动化软件开发流程，支持编码代理自主完成需求分析、设计确认、任务分解和代码生成。",
+        "techStack": [
+          "Shell",
+          "Agentic Framework",
+          "TDD"
+        ],
+        "useCase": "提升代码代理开发效率与代码质量的自动化软件开发工具"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "stars": 14652,
+      "forks": 1490,
+      "todayStars": 1066,
+      "url": "https://github.com/p-e-w/heretic",
+      "aiSummary": {
+        "summary": "Heretic是一款全自动语言模型审查移除工具，通过结合方向性消融技术与Optuna参数优化，无需人工干预即可降低模型拒绝率并最小化对原始模型性能的损害，实现高效去审查化。",
+        "techStack": [
+          "Python",
+          "Optuna",
+          "Transformer"
+        ],
+        "useCase": "自动化移除语言模型审查机制以提升模型自由度与性能"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "stars": 27037,
+      "forks": 3240,
+      "todayStars": 2985,
+      "url": "https://github.com/666ghj/MiroFish",
+      "aiSummary": {
+        "summary": "MiroFish是一个基于多智能体的群体智能预测引擎，通过构建数字平行世界模拟现实事件发展。支持政策、金融、舆情等场景的预测推演，提供可交互的数字沙盘与深度分析报告。",
+        "techStack": [
+          "Python",
+          "Node.js",
+          "Docker",
+          "GraphRAG",
+          "LLM API"
+        ],
+        "useCase": "政策模拟与金融舆情预测分析"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars": 14191,
+      "forks": 1648,
+      "todayStars": 450,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "aiSummary": {
+        "summary": "GitNexus 是一个浏览器端代码知识图谱工具，通过本地解析GitHub仓库或ZIP文件生成交互式代码关系图谱，支持CLI和Web界面，提供依赖关系、调用链等深度代码分析能力，强调隐私和本地处理。",
+        "techStack": [
+          "TypeScript",
+          "Tree-sitter",
+          "LadybugDB"
+        ],
+        "useCase": "开发人员本地化代码分析与智能代理协作场景"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "topoteretes/cognee",
+      "description": "Knowledge Engine for AI Agent Memory in 6 lines of code",
+      "language": "Python",
+      "stars": 13875,
+      "forks": 1386,
+      "todayStars": 310,
+      "url": "https://github.com/topoteretes/cognee",
+      "aiSummary": {
+        "summary": "Cognee是一个开源知识引擎，支持多格式数据 ingestion，结合向量搜索与图数据库技术，为AI代理提供持续学习的上下文管理。通过语义搜索与关系连接，实现文档的智能检索与知识演化。",
+        "techStack": [
+          "Python",
+          "向量搜索",
+          "图数据库"
+        ],
+        "useCase": "适用于需要知识管理与AI代理上下文理解的场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "InsForge/InsForge",
+      "description": "Give agents everything they need to ship fullstack apps. The backend built for agentic development.",
+      "language": "TypeScript",
+      "stars": 4563,
+      "forks": 470,
+      "todayStars": 509,
+      "url": "https://github.com/InsForge/InsForge",
+      "aiSummary": {
+        "summary": "InsForge是面向AI代码代理的后端开发平台，通过语义层抽象数据库、认证、存储等后端服务，支持全栈应用快速开发与部署。",
+        "techStack": [
+          "TypeScript",
+          "Postgres",
+          "S3",
+          "Edge Functions"
+        ],
+        "useCase": "适用于AI驱动的全栈应用开发，简化后端服务的集成与管理。"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "voidzero-dev/vite-plus",
+      "description": "Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.",
+      "language": "Rust",
+      "stars": 1663,
+      "forks": 53,
+      "todayStars": 301,
+      "url": "https://github.com/voidzero-dev/vite-plus",
+      "aiSummary": {
+        "summary": "Vite+ 是统一的Web开发工具链，整合Vite、Vitest等工具，提供零配置的开发环境管理、包管理、代码校验、测试、构建和任务调度功能，覆盖前端开发全流程。",
+        "techStack": [
+          "Rust",
+          "Vite",
+          "Vitest",
+          "Oxlint",
+          "Rolldown"
+        ],
+        "useCase": "现代Web应用的高效开发与构建管理"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 11887,
+      "forks": 1150,
+      "todayStars": 608,
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "aiSummary": {
+        "summary": "Anthropic官方维护的Claude代码插件目录，提供内部及第三方高质量插件管理。包含标准化插件结构、安装指南和贡献规范，强调安全验证与质量控制。",
+        "techStack": [
+          "Python",
+          "JSON",
+          "Claude Code Plugin System"
+        ],
+        "useCase": "为Claude Code用户提供可信赖的插件市场及开发框架"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-15T23:36:27.565Z",
+    "duration": "126s",
+    "version": "1.0.0"
+  }
+}

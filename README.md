@@ -67,22 +67,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-14 | **成功**: 9 | **失败**: 1
+**最后更新**: 2026-03-15 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | OpenViking is an open-source context database desi... | Python | 10.5k | 1.6k | OpenViking是面向AI代理的开源上下文数据库，通过文件系统范式统一管理记忆、资源与技能，解决上下文碎片化、检索效率低和不可观测性问题，支持分层加载与可视化检索轨迹。 |
-| 2 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official, Anthropic-managed directory of high qual... | Python | 11.3k | 411 | 处理失败 |
-| 3 | [dimensionalOS/dimos](https://github.com/dimensionalOS/dimos) | The Dimensional Framework... | Python | 842 | 64 | DimensionalOS/dimos 是面向物理空间的代理操作系统，支持人形、四足、无人机等机器人，无需ROS即可用Python开发。集成导航、SLAM、动态避障、空间记忆及多代理控制，实现感知、决策与控制一体化。 |
-| 4 | [p-e-w/heretic](https://github.com/p-e-w/heretic) | Fully automatic censorship removal for language mo... | Python | 13.7k | 661 | Heretic是全自动语言模型去审查工具，结合方向性消融与Optuna优化，降低拒绝率并最小化模型性能损失，适用于自动化去除AI审查机制的场景。 |
-| 5 | [langflow-ai/openrag](https://github.com/langflow-ai/openrag) | OpenRAG is a comprehensive, single package Retriev... | Python | 2.7k | 568 | OpenRAG是一个基于Langflow、Docling和Opensearch的RAG平台，提供文档智能搜索与AI对话功能。支持文档上传处理、语义检索、可视化工作流构建，集成大语言模型实现智能问答，适用于企业级知识管理与个性化服务场景。 |
-| 6 | [lightpanda-io/browser](https://github.com/lightpanda-io/browser) | Lightpanda: the headless browser designed for AI a... | Zig | 17.0k | 2.1k | Lightpanda是用Zig语言开发的无头浏览器，支持JavaScript执行和部分Web API，兼容Puppeteer等工具。具有低内存占用、高速执行和快速启动特性，适用于AI自动化、网页抓取及测试场景。 |
-| 7 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 43.6k | 4.3k | 提供多种AI代理角色的Shell脚本项目，每个代理具备专业技能、个性化沟通和可交付成果，支持多工具集成实现自动化任务处理与协作。 |
-| 8 | [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) | SOTA Open Source TTS... | Python | 27.2k | 377 | Fish Audio S2 是开源文本到语音系统，支持50+语言，采用强化学习与双自回归架构生成自然语音。支持情感标签控制、多说话人及多轮对话生成，模型在多项基准测试中表现优异。 |
-| 9 | [InsForge/InsForge](https://github.com/InsForge/InsForge) | Give agents everything they need to ship fullstack... | TypeScript | 4.1k | 477 | InsForge为AI编码代理和编辑器提供后端开发平台，通过语义层抽象数据库、认证、存储等后端原语，支持代理理解和操作全栈功能，实现上下文工程和系统状态可视化。 |
-| 10 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 83.4k | 1.5k | Superpowers 是一个基于可组合技能的软件开发框架，通过代理自动化任务分解、设计确认和代码实现。支持TDD、YAGNI和DRY原则，通过子代理协作完成工程任务，提升开发效率。 |
+| 1 | [lightpanda-io/browser](https://github.com/lightpanda-io/browser) | Lightpanda: the headless browser designed for AI a... | Zig | 18.4k | 1.3k | Lightpanda是用Zig语言开发的无头浏览器，专为AI和自动化设计。支持JavaScript执行和部分Web API，兼容Puppeteer等工具，具备9倍于Chrome的内存优化和11倍速度优势，适用于快速网页抓取、测试及低资源环境。 |
+| 2 | [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Project N.O.M.A.D, is a self-contained, offline su... | TypeScript | 1.1k | 241 | Project N.O.M.A.D 是一个离线知识服务器，集成AI聊天、教育平台、离线地图、数据工具等多功能模块，通过Docker容器化管理，支持终端安装和浏览器访问，适用于无网络环境下的信息获取与数据处理。 |
+| 3 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | OpenViking is an open-source context database desi... | Python | 12.3k | 1.9k | OpenViking是面向AI代理的开源上下文数据库，通过文件系统范式统一管理记忆、资源与技能，支持分层加载、递归检索与可视化追踪，解决上下文碎片化、高成本及不可观测问题。 |
+| 4 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | Bash is all you need - A nano Claude Code–like age... | TypeScript | 27.8k | 865 | 该项目通过12个渐进式会话，从零构建类似Claude Code的AI代码代理系统，重点演示代理的核心循环机制与逐步扩展方案，涵盖工具调用、任务分解、上下文压缩等关键技术点。 |
+| 5 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | practice made claude perfect... | HTML | 16.9k | 852 | 该项目聚焦Claude代码最佳实践，提供命令、子代理、技能、工作流等模块化开发方案，支持上下文工程与智能体协作，包含MCP服务器集成与自动检查点功能，推动AI工程化开发流程。 |
+| 6 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 85.7k | 1.9k | Superpowers 是一个基于可组合技能的代码代理框架，通过TDD/YAGNI/DRY原则实现自动化软件开发流程，支持编码代理自主完成需求分析、设计确认、任务分解和代码生成。 |
+| 7 | [p-e-w/heretic](https://github.com/p-e-w/heretic) | Fully automatic censorship removal for language mo... | Python | 14.7k | 1.1k | Heretic是一款全自动语言模型审查移除工具，通过结合方向性消融技术与Optuna参数优化，无需人工干预即可降低模型拒绝率并最小化对原始模型性能的损害，实现高效去审查化。 |
+| 8 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, ... | Python | 27.0k | 3.0k | MiroFish是一个基于多智能体的群体智能预测引擎，通过构建数字平行世界模拟现实事件发展。支持政策、金融、舆情等场景的预测推演，提供可交互的数字沙盘与深度分析报告。 |
+| 9 | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | GitNexus: The Zero-Server Code Intelligence Engine... | TypeScript | 14.2k | 450 | GitNexus 是一个浏览器端代码知识图谱工具，通过本地解析GitHub仓库或ZIP文件生成交互式代码关系图谱，支持CLI和Web界面，提供依赖关系、调用链等深度代码分析能力，强调隐私和本地处理。 |
+| 10 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | Knowledge Engine for AI Agent Memory in 6 lines of... | Python | 13.9k | 310 | Cognee是一个开源知识引擎，支持多格式数据 ingestion，结合向量搜索与图数据库技术，为AI代理提供持续学习的上下文管理。通过语义搜索与关系连接，实现文档的智能检索与知识演化。 |
+| 11 | [InsForge/InsForge](https://github.com/InsForge/InsForge) | Give agents everything they need to ship fullstack... | TypeScript | 4.6k | 509 | InsForge是面向AI代码代理的后端开发平台，通过语义层抽象数据库、认证、存储等后端服务，支持全栈应用快速开发与部署。 |
+| 12 | [voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus) | Vite+ is the unified toolchain and entry point for... | Rust | 1.7k | 301 | Vite+ 是统一的Web开发工具链，整合Vite、Vitest等工具，提供零配置的开发环境管理、包管理、代码校验、测试、构建和任务调度功能，覆盖前端开发全流程。 |
+| 13 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official, Anthropic-managed directory of high qual... | Python | 11.9k | 608 | Anthropic官方维护的Claude代码插件目录，提供内部及第三方高质量插件管理。包含标准化插件结构、安装指南和贡献规范，强调安全验证与质量控制。 |
 
-[查看完整数据](api/github/2026-03-14.json)
+[查看完整数据](api/github/2026-03-15.json)
 <!-- END GITHUB TRENDING -->
 
 
