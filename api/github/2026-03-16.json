@@ -1,0 +1,247 @@
+{
+  "date": "2026-03-16",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "stars": 29881,
+      "forks": 3645,
+      "todayStars": 3257,
+      "url": "https://github.com/666ghj/MiroFish",
+      "aiSummary": {
+        "summary": "MiroFish是一个基于多智能体的群体智能预测引擎，通过构建数字世界模拟现实事件演化。支持舆情分析、文学推演等场景，用户上传数据后自动生成预测报告与交互式数字环境，采用GraphRAG和LLM技术实现动态模拟。",
+        "techStack": [
+          "Python",
+          "Node.js",
+          "React",
+          "Docker",
+          "LLM"
+        ],
+        "useCase": "复杂系统预测与决策模拟，如舆情分析、文学结局推演及金融趋势预测"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars": 36732,
+      "forks": 2639,
+      "todayStars": 1017,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "Claude-Mem 是一个为 Claude Code 设计的插件，通过自动捕获编码会话中的操作记录，利用 AI 生成语义摘要并压缩存储，实现跨会话的上下文持久化，确保项目知识连续性。",
+        "techStack": [
+          "TypeScript",
+          "Claude's agent-sdk",
+          "Plugin System"
+        ],
+        "useCase": "适用于需要跨会话保持代码上下文的开发项目"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "stars": 1784,
+      "forks": 163,
+      "todayStars": 773,
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "aiSummary": {
+        "summary": "Project N.O.M.A.D 是一个离线知识服务器，集成AI聊天、离线百科、教育平台、地图工具和数据加密等功能，通过Docker容器化管理，支持终端安装和浏览器访问，适用于无网络环境下的信息获取与工具使用。",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Ollama",
+          "Kiwix",
+          "Kolibri"
+        ],
+        "useCase": "网络受限或紧急情况下，提供离线知识管理与多功能工具支持。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 88480,
+      "forks": 6987,
+      "todayStars": 3142,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发代理框架，通过分步设计、TDD测试驱动开发和YAGNI原则，实现编码代理的自动化流程管理。项目提供从需求分析到代码实现的全流程支持，强调技能自动化触发与子代理协作开发。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要自动化软件开发流程的场景，提升编码代理的协作与开发效率。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars": 15562,
+      "forks": 1790,
+      "todayStars": 1867,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "aiSummary": {
+        "summary": "GitNexus是一款浏览器端代码知识图谱工具，通过本地索引GitHub仓库或ZIP文件生成交互式代码关系图谱，并集成Graph RAG代理实现深度代码分析。支持CLI与WebUI双模式，强调隐私安全与离线运行。",
+        "techStack": [
+          "TypeScript",
+          "Tree-sitter",
+          "LadybugDB",
+          "WebAssembly"
+        ],
+        "useCase": "适用于代码库的本地知识图谱构建与AI代理的上下文分析"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "lightpanda-io/browser",
+      "description": "Lightpanda: the headless browser designed for AI and automation",
+      "language": "Zig",
+      "stars": 20176,
+      "forks": 771,
+      "todayStars": 2089,
+      "url": "https://github.com/lightpanda-io/browser",
+      "aiSummary": {
+        "summary": "Lightpanda是用Zig语言开发的高性能无头浏览器，支持JavaScript执行和部分Web API，兼容Puppeteer等工具。具有低内存占用（仅为Chrome的1/9）和快速执行速度（11倍于Chrome），适用于AI代理、自动化测试及网络爬虫场景。",
+        "techStack": [
+          "Zig",
+          "CDP",
+          "Web API"
+        ],
+        "useCase": "AI自动化、网页爬虫与高效浏览器测试"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "volcengine/OpenViking",
+      "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
+      "language": "Python",
+      "stars": 14082,
+      "forks": 963,
+      "todayStars": 2014,
+      "url": "https://github.com/volcengine/OpenViking",
+      "aiSummary": {
+        "summary": "OpenViking是面向AI代理的开源上下文数据库，通过文件系统范式统一管理记忆、资源与技能，解决上下文碎片化、高成本及不可观测问题。支持分层加载、目录递归检索与可视化路径追踪，提升上下文管理效率与可调试性。",
+        "techStack": [
+          "Python",
+          "文件系统抽象",
+          "上下文管理"
+        ],
+        "useCase": "适用于需要高效管理AI代理长期运行任务与复杂推理场景的系统开发。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "shareAI-lab/learn-claude-code",
+      "description": "Bash is all you need - A nano Claude Code–like agent, built from 0 to 1",
+      "language": "TypeScript",
+      "stars": 29260,
+      "forks": 4998,
+      "todayStars": 1542,
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "aiSummary": {
+        "summary": "该项目是一个基于TypeScript的AI代码代理开发教程，通过12个渐进式会话逐步构建 Claude Code 类似工具。从基础循环到多任务分解、上下文压缩、后台任务处理等机制，演示如何实现自动化代码生成与执行。",
+        "techStack": [
+          "TypeScript",
+          "Bash",
+          "Node.js"
+        ],
+        "useCase": "AI编程助手开发教学与原型验证"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "stars": 15262,
+      "forks": 1540,
+      "todayStars": 787,
+      "url": "https://github.com/p-e-w/heretic",
+      "aiSummary": {
+        "summary": "Heretic是一款全自动语言模型去审查工具，通过结合方向性消融与Optuna优化算法，自动调整模型参数以降低审查机制，同时最小化对原始模型性能的损害。支持无需人工干预的批量处理，实现高精度的去审查效果。",
+        "techStack": [
+          "Python",
+          "Optuna",
+          "Transformers"
+        ],
+        "useCase": "自动化去除语言模型中的安全对齐限制，生成性能损失最小的去审查模型"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "langchain-ai/deepagents",
+      "description": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks.",
+      "language": "Python",
+      "stars": 12846,
+      "forks": 2002,
+      "todayStars": 1238,
+      "url": "https://github.com/langchain-ai/deepagents",
+      "aiSummary": {
+        "summary": "DeepAgents是基于LangChain和LangGraph的代理框架，提供任务分解、文件系统操作、子代理协作和上下文管理功能，支持快速构建复杂AI代理应用。",
+        "techStack": [
+          "Python",
+          "LangChain",
+          "LangGraph"
+        ],
+        "useCase": "适用于需要复杂代理任务的AI代理开发与自动化场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "YishenTu/claudian",
+      "description": "An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault",
+      "language": "TypeScript",
+      "stars": 4137,
+      "forks": 237,
+      "todayStars": 109,
+      "url": "https://github.com/YishenTu/claudian",
+      "aiSummary": {
+        "summary": "Claudian是Obsidian插件，集成Claude Code实现智能文档协作。提供文件操作、搜索、bash命令执行、多步骤工作流等代理能力，支持上下文感知、图像分析、内联编辑及自定义指令，提升知识管理自动化水平。",
+        "techStack": [
+          "TypeScript",
+          "Obsidian Plugin API",
+          "Claude Code API"
+        ],
+        "useCase": "适用于需要AI辅助进行文档智能编辑、自动化流程处理的知识管理系统用户。"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "voidzero-dev/vite-plus",
+      "description": "Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.",
+      "language": "Rust",
+      "stars": 2221,
+      "forks": 77,
+      "todayStars": 622,
+      "url": "https://github.com/voidzero-dev/vite-plus",
+      "aiSummary": {
+        "summary": "Vite+ 是统一的前端开发工具链，整合 Vite、Vitest、Oxlint 等工具，提供从环境管理、开发调试到构建打包的全流程解决方案，支持零配置多框架开发。",
+        "techStack": [
+          "Rust",
+          "Vite",
+          "Vitest",
+          "Oxlint",
+          "Oxfmt"
+        ],
+        "useCase": "适用于需要统一前端开发工具链的项目，涵盖开发、测试、构建和包管理"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-16T23:38:10.781Z",
+    "duration": "116s",
+    "version": "1.0.0"
+  }
+}

@@ -67,25 +67,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-15 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-03-16 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [lightpanda-io/browser](https://github.com/lightpanda-io/browser) | Lightpanda: the headless browser designed for AI a... | Zig | 18.4k | 1.3k | Lightpanda是用Zig语言开发的无头浏览器，专为AI和自动化设计。支持JavaScript执行和部分Web API，兼容Puppeteer等工具，具备9倍于Chrome的内存优化和11倍速度优势，适用于快速网页抓取、测试及低资源环境。 |
-| 2 | [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Project N.O.M.A.D, is a self-contained, offline su... | TypeScript | 1.1k | 241 | Project N.O.M.A.D 是一个离线知识服务器，集成AI聊天、教育平台、离线地图、数据工具等多功能模块，通过Docker容器化管理，支持终端安装和浏览器访问，适用于无网络环境下的信息获取与数据处理。 |
-| 3 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | OpenViking is an open-source context database desi... | Python | 12.3k | 1.9k | OpenViking是面向AI代理的开源上下文数据库，通过文件系统范式统一管理记忆、资源与技能，支持分层加载、递归检索与可视化追踪，解决上下文碎片化、高成本及不可观测问题。 |
-| 4 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | Bash is all you need - A nano Claude Code–like age... | TypeScript | 27.8k | 865 | 该项目通过12个渐进式会话，从零构建类似Claude Code的AI代码代理系统，重点演示代理的核心循环机制与逐步扩展方案，涵盖工具调用、任务分解、上下文压缩等关键技术点。 |
-| 5 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | practice made claude perfect... | HTML | 16.9k | 852 | 该项目聚焦Claude代码最佳实践，提供命令、子代理、技能、工作流等模块化开发方案，支持上下文工程与智能体协作，包含MCP服务器集成与自动检查点功能，推动AI工程化开发流程。 |
-| 6 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 85.7k | 1.9k | Superpowers 是一个基于可组合技能的代码代理框架，通过TDD/YAGNI/DRY原则实现自动化软件开发流程，支持编码代理自主完成需求分析、设计确认、任务分解和代码生成。 |
-| 7 | [p-e-w/heretic](https://github.com/p-e-w/heretic) | Fully automatic censorship removal for language mo... | Python | 14.7k | 1.1k | Heretic是一款全自动语言模型审查移除工具，通过结合方向性消融技术与Optuna参数优化，无需人工干预即可降低模型拒绝率并最小化对原始模型性能的损害，实现高效去审查化。 |
-| 8 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, ... | Python | 27.0k | 3.0k | MiroFish是一个基于多智能体的群体智能预测引擎，通过构建数字平行世界模拟现实事件发展。支持政策、金融、舆情等场景的预测推演，提供可交互的数字沙盘与深度分析报告。 |
-| 9 | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | GitNexus: The Zero-Server Code Intelligence Engine... | TypeScript | 14.2k | 450 | GitNexus 是一个浏览器端代码知识图谱工具，通过本地解析GitHub仓库或ZIP文件生成交互式代码关系图谱，支持CLI和Web界面，提供依赖关系、调用链等深度代码分析能力，强调隐私和本地处理。 |
-| 10 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | Knowledge Engine for AI Agent Memory in 6 lines of... | Python | 13.9k | 310 | Cognee是一个开源知识引擎，支持多格式数据 ingestion，结合向量搜索与图数据库技术，为AI代理提供持续学习的上下文管理。通过语义搜索与关系连接，实现文档的智能检索与知识演化。 |
-| 11 | [InsForge/InsForge](https://github.com/InsForge/InsForge) | Give agents everything they need to ship fullstack... | TypeScript | 4.6k | 509 | InsForge是面向AI代码代理的后端开发平台，通过语义层抽象数据库、认证、存储等后端服务，支持全栈应用快速开发与部署。 |
-| 12 | [voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus) | Vite+ is the unified toolchain and entry point for... | Rust | 1.7k | 301 | Vite+ 是统一的Web开发工具链，整合Vite、Vitest等工具，提供零配置的开发环境管理、包管理、代码校验、测试、构建和任务调度功能，覆盖前端开发全流程。 |
-| 13 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official, Anthropic-managed directory of high qual... | Python | 11.9k | 608 | Anthropic官方维护的Claude代码插件目录，提供内部及第三方高质量插件管理。包含标准化插件结构、安装指南和贡献规范，强调安全验证与质量控制。 |
+| 1 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, ... | Python | 29.9k | 3.3k | MiroFish是一个基于多智能体的群体智能预测引擎，通过构建数字世界模拟现实事件演化。支持舆情分析、文学推演等场景，用户上传数据后自动生成预测报告与交互式数字环境，采用GraphRAG和LLM技术实现动态模拟。 |
+| 2 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 36.7k | 1.0k | Claude-Mem 是一个为 Claude Code 设计的插件，通过自动捕获编码会话中的操作记录，利用 AI 生成语义摘要并压缩存储，实现跨会话的上下文持久化，确保项目知识连续性。 |
+| 3 | [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Project N.O.M.A.D, is a self-contained, offline su... | TypeScript | 1.8k | 773 | Project N.O.M.A.D 是一个离线知识服务器，集成AI聊天、离线百科、教育平台、地图工具和数据加密等功能，通过Docker容器化管理，支持终端安装和浏览器访问，适用于无网络环境下的信息获取与工具使用。 |
+| 4 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 88.5k | 3.1k | Superpowers 是一个基于可组合技能的软件开发代理框架，通过分步设计、TDD测试驱动开发和YAGNI原则，实现编码代理的自动化流程管理。项目提供从需求分析到代码实现的全流程支持，强调技能自动化触发与子代理协作开发。 |
+| 5 | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | GitNexus: The Zero-Server Code Intelligence Engine... | TypeScript | 15.6k | 1.9k | GitNexus是一款浏览器端代码知识图谱工具，通过本地索引GitHub仓库或ZIP文件生成交互式代码关系图谱，并集成Graph RAG代理实现深度代码分析。支持CLI与WebUI双模式，强调隐私安全与离线运行。 |
+| 6 | [lightpanda-io/browser](https://github.com/lightpanda-io/browser) | Lightpanda: the headless browser designed for AI a... | Zig | 20.2k | 2.1k | Lightpanda是用Zig语言开发的高性能无头浏览器，支持JavaScript执行和部分Web API，兼容Puppeteer等工具。具有低内存占用（仅为Chrome的1/9）和快速执行速度（11倍于Chrome），适用于AI代理、自动化测试及网络爬虫场景。 |
+| 7 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | OpenViking is an open-source context database desi... | Python | 14.1k | 2.0k | OpenViking是面向AI代理的开源上下文数据库，通过文件系统范式统一管理记忆、资源与技能，解决上下文碎片化、高成本及不可观测问题。支持分层加载、目录递归检索与可视化路径追踪，提升上下文管理效率与可调试性。 |
+| 8 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | Bash is all you need - A nano Claude Code–like age... | TypeScript | 29.3k | 1.5k | 该项目是一个基于TypeScript的AI代码代理开发教程，通过12个渐进式会话逐步构建 Claude Code 类似工具。从基础循环到多任务分解、上下文压缩、后台任务处理等机制，演示如何实现自动化代码生成与执行。 |
+| 9 | [p-e-w/heretic](https://github.com/p-e-w/heretic) | Fully automatic censorship removal for language mo... | Python | 15.3k | 787 | Heretic是一款全自动语言模型去审查工具，通过结合方向性消融与Optuna优化算法，自动调整模型参数以降低审查机制，同时最小化对原始模型性能的损害。支持无需人工干预的批量处理，实现高精度的去审查效果。 |
+| 10 | [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | Agent harness built with LangChain and LangGraph. ... | Python | 12.8k | 1.2k | DeepAgents是基于LangChain和LangGraph的代理框架，提供任务分解、文件系统操作、子代理协作和上下文管理功能，支持快速构建复杂AI代理应用。 |
+| 11 | [YishenTu/claudian](https://github.com/YishenTu/claudian) | An Obsidian plugin that embeds Claude Code as an A... | TypeScript | 4.1k | 109 | Claudian是Obsidian插件，集成Claude Code实现智能文档协作。提供文件操作、搜索、bash命令执行、多步骤工作流等代理能力，支持上下文感知、图像分析、内联编辑及自定义指令，提升知识管理自动化水平。 |
+| 12 | [voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus) | Vite+ is the unified toolchain and entry point for... | Rust | 2.2k | 622 | Vite+ 是统一的前端开发工具链，整合 Vite、Vitest、Oxlint 等工具，提供从环境管理、开发调试到构建打包的全流程解决方案，支持零配置多框架开发。 |
 
-[查看完整数据](api/github/2026-03-15.json)
+[查看完整数据](api/github/2026-03-16.json)
 <!-- END GITHUB TRENDING -->
 
 
