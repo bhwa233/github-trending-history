@@ -1,0 +1,128 @@
+{
+  "date": "2026-03-17",
+  "since": "daily",
+  "totalRepos": 6,
+  "successCount": 6,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 92168,
+      "forks": 7297,
+      "todayStars": 3050,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发框架，通过代理驱动的工作流优化编码过程。它强调TDD、YAGNI和DRY原则，自动触发技能并分阶段完成需求分析、设计验证和代码实现，支持子代理协作开发。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要自动化软件开发流程和提高编码效率的项目"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars": 479710,
+      "forks": 45135,
+      "todayStars": 2011,
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "aiSummary": {
+        "summary": "通过分步教程重构热门技术，涵盖3D渲染、AI模型、区块链等20+领域，以实践方式深化编程理解。",
+        "techStack": [
+          "C++",
+          "Java",
+          "Python",
+          "JavaScript",
+          "C#"
+        ],
+        "useCase": "开发者教育与技术原理深度学习"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars": 16665,
+      "forks": 1892,
+      "todayStars": 1117,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "aiSummary": {
+        "summary": "GitNexus 是一个浏览器端代码知识图谱工具，通过本地解析GitHub仓库或ZIP文件生成交互式代码关系图谱，并集成Graph RAG代理实现深度代码分析。支持CLI与Web UI双模式，提供依赖关系、调用链等结构化数据，增强AI代码代理的准确性与可靠性。",
+        "techStack": [
+          "TypeScript",
+          "Tree-sitter",
+          "WebAssembly"
+        ],
+        "useCase": "适用于代码库的交互式分析与AI代理集成，提升代码理解与开发效率。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "langchain-ai/deepagents",
+      "description": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks.",
+      "language": "Python",
+      "stars": 14061,
+      "forks": 2119,
+      "todayStars": 1418,
+      "url": "https://github.com/langchain-ai/deepagents",
+      "aiSummary": {
+        "summary": "基于LangChain和LangGraph的AI代理框架，提供任务规划、文件系统操作、子代理生成和上下文管理功能，支持快速构建复杂代理任务系统。",
+        "techStack": [
+          "Python",
+          "LangChain",
+          "LangGraph"
+        ],
+        "useCase": "适用于需要自动化任务处理与智能决策的AI代理开发场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "jarrodwatts/claude-hud",
+      "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+      "language": "JavaScript",
+      "stars": 5552,
+      "forks": 244,
+      "todayStars": 454,
+      "url": "https://github.com/jarrodwatts/claude-hud",
+      "aiSummary": {
+        "summary": "Claude HUD是用于Claude Code的实时状态监控插件，展示上下文使用、工具活动、代理状态及待办进度，提升开发过程可见性。支持项目路径、上下文健康度、文件操作追踪等功能，通过终端直接显示无需额外窗口。",
+        "techStack": [
+          "JavaScript",
+          "Claude Code API",
+          "Terminal UI"
+        ],
+        "useCase": "开发者需要实时监控Claude Code会话状态和任务进度时使用"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "cloudflare/workerd",
+      "description": "The JavaScript / Wasm runtime that powers Cloudflare Workers",
+      "language": "C++",
+      "stars": 7814,
+      "forks": 573,
+      "todayStars": 21,
+      "url": "https://github.com/cloudflare/workerd",
+      "aiSummary": {
+        "summary": "workerd是Cloudflare Workers的JavaScript/Wasm运行时，支持自托管应用、本地开发和HTTP代理。基于Web标准，采用纳米服务架构实现高效解耦部署，具备向后兼容性，但需注意安全性配置。",
+        "techStack": [
+          "C++",
+          "JavaScript",
+          "WebAssembly"
+        ],
+        "useCase": "自托管Cloudflare Workers应用及本地开发测试"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-17T23:38:41.998Z",
+    "duration": "57s",
+    "version": "1.0.0"
+  }
+}

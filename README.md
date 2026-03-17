@@ -67,24 +67,18 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-16 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-03-17 | **成功**: 6 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | A Simple and Universal Swarm Intelligence Engine, ... | Python | 29.9k | 3.3k | MiroFish是一个基于多智能体的群体智能预测引擎，通过构建数字世界模拟现实事件演化。支持舆情分析、文学推演等场景，用户上传数据后自动生成预测报告与交互式数字环境，采用GraphRAG和LLM技术实现动态模拟。 |
-| 2 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 36.7k | 1.0k | Claude-Mem 是一个为 Claude Code 设计的插件，通过自动捕获编码会话中的操作记录，利用 AI 生成语义摘要并压缩存储，实现跨会话的上下文持久化，确保项目知识连续性。 |
-| 3 | [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Project N.O.M.A.D, is a self-contained, offline su... | TypeScript | 1.8k | 773 | Project N.O.M.A.D 是一个离线知识服务器，集成AI聊天、离线百科、教育平台、地图工具和数据加密等功能，通过Docker容器化管理，支持终端安装和浏览器访问，适用于无网络环境下的信息获取与工具使用。 |
-| 4 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 88.5k | 3.1k | Superpowers 是一个基于可组合技能的软件开发代理框架，通过分步设计、TDD测试驱动开发和YAGNI原则，实现编码代理的自动化流程管理。项目提供从需求分析到代码实现的全流程支持，强调技能自动化触发与子代理协作开发。 |
-| 5 | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | GitNexus: The Zero-Server Code Intelligence Engine... | TypeScript | 15.6k | 1.9k | GitNexus是一款浏览器端代码知识图谱工具，通过本地索引GitHub仓库或ZIP文件生成交互式代码关系图谱，并集成Graph RAG代理实现深度代码分析。支持CLI与WebUI双模式，强调隐私安全与离线运行。 |
-| 6 | [lightpanda-io/browser](https://github.com/lightpanda-io/browser) | Lightpanda: the headless browser designed for AI a... | Zig | 20.2k | 2.1k | Lightpanda是用Zig语言开发的高性能无头浏览器，支持JavaScript执行和部分Web API，兼容Puppeteer等工具。具有低内存占用（仅为Chrome的1/9）和快速执行速度（11倍于Chrome），适用于AI代理、自动化测试及网络爬虫场景。 |
-| 7 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | OpenViking is an open-source context database desi... | Python | 14.1k | 2.0k | OpenViking是面向AI代理的开源上下文数据库，通过文件系统范式统一管理记忆、资源与技能，解决上下文碎片化、高成本及不可观测问题。支持分层加载、目录递归检索与可视化路径追踪，提升上下文管理效率与可调试性。 |
-| 8 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | Bash is all you need - A nano Claude Code–like age... | TypeScript | 29.3k | 1.5k | 该项目是一个基于TypeScript的AI代码代理开发教程，通过12个渐进式会话逐步构建 Claude Code 类似工具。从基础循环到多任务分解、上下文压缩、后台任务处理等机制，演示如何实现自动化代码生成与执行。 |
-| 9 | [p-e-w/heretic](https://github.com/p-e-w/heretic) | Fully automatic censorship removal for language mo... | Python | 15.3k | 787 | Heretic是一款全自动语言模型去审查工具，通过结合方向性消融与Optuna优化算法，自动调整模型参数以降低审查机制，同时最小化对原始模型性能的损害。支持无需人工干预的批量处理，实现高精度的去审查效果。 |
-| 10 | [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | Agent harness built with LangChain and LangGraph. ... | Python | 12.8k | 1.2k | DeepAgents是基于LangChain和LangGraph的代理框架，提供任务分解、文件系统操作、子代理协作和上下文管理功能，支持快速构建复杂AI代理应用。 |
-| 11 | [YishenTu/claudian](https://github.com/YishenTu/claudian) | An Obsidian plugin that embeds Claude Code as an A... | TypeScript | 4.1k | 109 | Claudian是Obsidian插件，集成Claude Code实现智能文档协作。提供文件操作、搜索、bash命令执行、多步骤工作流等代理能力，支持上下文感知、图像分析、内联编辑及自定义指令，提升知识管理自动化水平。 |
-| 12 | [voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus) | Vite+ is the unified toolchain and entry point for... | Rust | 2.2k | 622 | Vite+ 是统一的前端开发工具链，整合 Vite、Vitest、Oxlint 等工具，提供从环境管理、开发调试到构建打包的全流程解决方案，支持零配置多框架开发。 |
+| 1 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 92.2k | 3.0k | Superpowers 是一个基于可组合技能的软件开发框架，通过代理驱动的工作流优化编码过程。它强调TDD、YAGNI和DRY原则，自动触发技能并分阶段完成需求分析、设计验证和代码实现，支持子代理协作开发。 |
+| 2 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Master programming by recreating your favorite tec... | Markdown | 479.7k | 2.0k | 通过分步教程重构热门技术，涵盖3D渲染、AI模型、区块链等20+领域，以实践方式深化编程理解。 |
+| 3 | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | GitNexus: The Zero-Server Code Intelligence Engine... | TypeScript | 16.7k | 1.1k | GitNexus 是一个浏览器端代码知识图谱工具，通过本地解析GitHub仓库或ZIP文件生成交互式代码关系图谱，并集成Graph RAG代理实现深度代码分析。支持CLI与Web UI双模式，提供依赖关系、调用链等结构化数据，增强AI代码代理的准确性与可靠性。 |
+| 4 | [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | Agent harness built with LangChain and LangGraph. ... | Python | 14.1k | 1.4k | 基于LangChain和LangGraph的AI代理框架，提供任务规划、文件系统操作、子代理生成和上下文管理功能，支持快速构建复杂代理任务系统。 |
+| 5 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | A Claude Code plugin that shows what's happening -... | JavaScript | 5.6k | 454 | Claude HUD是用于Claude Code的实时状态监控插件，展示上下文使用、工具活动、代理状态及待办进度，提升开发过程可见性。支持项目路径、上下文健康度、文件操作追踪等功能，通过终端直接显示无需额外窗口。 |
+| 6 | [cloudflare/workerd](https://github.com/cloudflare/workerd) | The JavaScript / Wasm runtime that powers Cloudfla... | C++ | 7.8k | 21 | workerd是Cloudflare Workers的JavaScript/Wasm运行时，支持自托管应用、本地开发和HTTP代理。基于Web标准，采用纳米服务架构实现高效解耦部署，具备向后兼容性，但需注意安全性配置。 |
 
-[查看完整数据](api/github/2026-03-16.json)
+[查看完整数据](api/github/2026-03-17.json)
 <!-- END GITHUB TRENDING -->
 
 
