@@ -67,18 +67,18 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-17 | **成功**: 6 | **失败**: 0
+**最后更新**: 2026-03-18 | **成功**: 6 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 92.2k | 3.0k | Superpowers 是一个基于可组合技能的软件开发框架，通过代理驱动的工作流优化编码过程。它强调TDD、YAGNI和DRY原则，自动触发技能并分阶段完成需求分析、设计验证和代码实现，支持子代理协作开发。 |
-| 2 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Master programming by recreating your favorite tec... | Markdown | 479.7k | 2.0k | 通过分步教程重构热门技术，涵盖3D渲染、AI模型、区块链等20+领域，以实践方式深化编程理解。 |
-| 3 | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | GitNexus: The Zero-Server Code Intelligence Engine... | TypeScript | 16.7k | 1.1k | GitNexus 是一个浏览器端代码知识图谱工具，通过本地解析GitHub仓库或ZIP文件生成交互式代码关系图谱，并集成Graph RAG代理实现深度代码分析。支持CLI与Web UI双模式，提供依赖关系、调用链等结构化数据，增强AI代码代理的准确性与可靠性。 |
-| 4 | [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | Agent harness built with LangChain and LangGraph. ... | Python | 14.1k | 1.4k | 基于LangChain和LangGraph的AI代理框架，提供任务规划、文件系统操作、子代理生成和上下文管理功能，支持快速构建复杂代理任务系统。 |
-| 5 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | A Claude Code plugin that shows what's happening -... | JavaScript | 5.6k | 454 | Claude HUD是用于Claude Code的实时状态监控插件，展示上下文使用、工具活动、代理状态及待办进度，提升开发过程可见性。支持项目路径、上下文健康度、文件操作追踪等功能，通过终端直接显示无需额外窗口。 |
-| 6 | [cloudflare/workerd](https://github.com/cloudflare/workerd) | The JavaScript / Wasm runtime that powers Cloudfla... | C++ | 7.8k | 21 | workerd是Cloudflare Workers的JavaScript/Wasm运行时，支持自托管应用、本地开发和HTTP代理。基于Web标准，采用纳米服务架构实现高效解耦部署，具备向后兼容性，但需注意安全性配置。 |
+| 1 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | A Claude Code plugin that shows what's happening -... | JavaScript | 6.9k | 1.0k | Claude HUD是用于Claude Code的实时状态监控插件，展示上下文使用、工具活动、代理状态和待办进度。通过终端可视化面板提供项目路径、内存健康、操作日志等信息，提升代码交互透明度。 |
+| 2 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 96.0k | 4.1k | Superpowers是一个基于可组合技能的软件开发框架，通过代理驱动的工作流优化开发流程。它强调TDD、YAGNI和DRY原则，分阶段与用户协作，先明确需求，再制定实施计划，最后由子代理执行任务，提升开发效率和代码质量。 |
+| 3 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | Unified web UI for training and running open model... | Python | 55.8k | 975 | 提供统一本地界面训练和运行多类型AI模型，支持GGUF/LoRA/safetensors等格式转换，实现500+模型高效训练（2x加速/70%显存优化），集成代码执行、工具调用、多GPU训练及可视化监控功能。 |
+| 4 | [newton-physics/newton](https://github.com/newton-physics/newton) | An open-source, GPU-accelerated physics simulation... | Python | 2.9k | 20 | 基于NVIDIA Warp的开源GPU物理模拟引擎，支持机器人学与仿真研究。提供GPU加速计算、OpenUSD集成、可微分特性及用户扩展能力，适用于高精度实时物理仿真场景。 |
+| 5 | [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) | PlayStation 4 emulator for Windows, Linux and macO... | C++ | 29.8k | 292 | shadPS4是用C++编写的PlayStation 4模拟器，支持Windows、Linux和macOS。项目处于早期开发阶段，可运行部分游戏如《血源诅咒》和《黑暗之魂重制版》，需配合QtLauncher使用。提供跨平台游戏兼容性验证和开发讨论渠道。 |
+| 6 | [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) | An Open-Source Asynchronous Coding Agent... | Python | 6.3k | 454 | Open SWE 是一个开源异步编码代理框架，提供云沙箱环境、子代理编排及自动PR创建功能，支持Slack/Linear集成，可定制化构建企业内部代码协作工具。 |
 
-[查看完整数据](api/github/2026-03-17.json)
+[查看完整数据](api/github/2026-03-18.json)
 <!-- END GITHUB TRENDING -->
 
 

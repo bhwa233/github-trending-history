@@ -1,0 +1,127 @@
+{
+  "date": "2026-03-18",
+  "since": "daily",
+  "totalRepos": 6,
+  "successCount": 6,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "jarrodwatts/claude-hud",
+      "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+      "language": "JavaScript",
+      "stars": 6869,
+      "forks": 292,
+      "todayStars": 1040,
+      "url": "https://github.com/jarrodwatts/claude-hud",
+      "aiSummary": {
+        "summary": "Claude HUD是用于Claude Code的实时状态监控插件，展示上下文使用、工具活动、代理状态和待办进度。通过终端可视化面板提供项目路径、内存健康、操作日志等信息，提升代码交互透明度。",
+        "techStack": [
+          "JavaScript",
+          "Claude Code API",
+          "Terminal UI"
+        ],
+        "useCase": "实时监控代码交互状态并优化开发流程效率"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 96049,
+      "forks": 7618,
+      "todayStars": 4091,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers是一个基于可组合技能的软件开发框架，通过代理驱动的工作流优化开发流程。它强调TDD、YAGNI和DRY原则，分阶段与用户协作，先明确需求，再制定实施计划，最后由子代理执行任务，提升开发效率和代码质量。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要自动化软件开发流程和提高编码效率的场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "unslothai/unsloth",
+      "description": "Unified web UI for training and running open models like Qwen, DeepSeek, gpt-oss and Gemma locally.",
+      "language": "Python",
+      "stars": 55762,
+      "forks": 4682,
+      "todayStars": 975,
+      "url": "https://github.com/unslothai/unsloth",
+      "aiSummary": {
+        "summary": "提供统一本地界面训练和运行多类型AI模型，支持GGUF/LoRA/safetensors等格式转换，实现500+模型高效训练（2x加速/70%显存优化），集成代码执行、工具调用、多GPU训练及可视化监控功能。",
+        "techStack": [
+          "Python",
+          "Web UI框架",
+          "模型转换工具",
+          "分布式训练库"
+        ],
+        "useCase": "开发者本地高效训练部署文本/语音/视觉等多模态AI模型"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "newton-physics/newton",
+      "description": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers.",
+      "language": "Python",
+      "stars": 2902,
+      "forks": 317,
+      "todayStars": 20,
+      "url": "https://github.com/newton-physics/newton",
+      "aiSummary": {
+        "summary": "基于NVIDIA Warp的开源GPU物理模拟引擎，支持机器人学与仿真研究。提供GPU加速计算、OpenUSD集成、可微分特性及用户扩展能力，适用于高精度实时物理仿真场景。",
+        "techStack": [
+          "Python",
+          "NVIDIA Warp",
+          "MuJoCo"
+        ],
+        "useCase": "需要高精度实时物理仿真的机器人开发与科研场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "shadps4-emu/shadPS4",
+      "description": "PlayStation 4 emulator for Windows, Linux and macOS written in C++",
+      "language": "C++",
+      "stars": 29839,
+      "forks": 2027,
+      "todayStars": 292,
+      "url": "https://github.com/shadps4-emu/shadPS4",
+      "aiSummary": {
+        "summary": "shadPS4是用C++编写的PlayStation 4模拟器，支持Windows、Linux和macOS。项目处于早期开发阶段，可运行部分游戏如《血源诅咒》和《黑暗之魂重制版》，需配合QtLauncher使用。提供跨平台游戏兼容性验证和开发讨论渠道。",
+        "techStack": [
+          "C++",
+          "跨平台开发",
+          "Docker"
+        ],
+        "useCase": "用于在PC上运行PS4游戏或进行游戏兼容性测试"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "langchain-ai/open-swe",
+      "description": "An Open-Source Asynchronous Coding Agent",
+      "language": "Python",
+      "stars": 6291,
+      "forks": 809,
+      "todayStars": 454,
+      "url": "https://github.com/langchain-ai/open-swe",
+      "aiSummary": {
+        "summary": "Open SWE 是一个开源异步编码代理框架，提供云沙箱环境、子代理编排及自动PR创建功能，支持Slack/Linear集成，可定制化构建企业内部代码协作工具。",
+        "techStack": [
+          "Python",
+          "LangGraph",
+          "Deep Agents"
+        ],
+        "useCase": "企业内部自动化代码生成、审查与系统集成协作"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-18T23:35:56.753Z",
+    "duration": "69s",
+    "version": "1.0.0"
+  }
+}
