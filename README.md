@@ -67,18 +67,23 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-18 | **成功**: 6 | **失败**: 0
+**最后更新**: 2026-03-19 | **成功**: 11 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | A Claude Code plugin that shows what's happening -... | JavaScript | 6.9k | 1.0k | Claude HUD是用于Claude Code的实时状态监控插件，展示上下文使用、工具活动、代理状态和待办进度。通过终端可视化面板提供项目路径、内存健康、操作日志等信息，提升代码交互透明度。 |
-| 2 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 96.0k | 4.1k | Superpowers是一个基于可组合技能的软件开发框架，通过代理驱动的工作流优化开发流程。它强调TDD、YAGNI和DRY原则，分阶段与用户协作，先明确需求，再制定实施计划，最后由子代理执行任务，提升开发效率和代码质量。 |
-| 3 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | Unified web UI for training and running open model... | Python | 55.8k | 975 | 提供统一本地界面训练和运行多类型AI模型，支持GGUF/LoRA/safetensors等格式转换，实现500+模型高效训练（2x加速/70%显存优化），集成代码执行、工具调用、多GPU训练及可视化监控功能。 |
-| 4 | [newton-physics/newton](https://github.com/newton-physics/newton) | An open-source, GPU-accelerated physics simulation... | Python | 2.9k | 20 | 基于NVIDIA Warp的开源GPU物理模拟引擎，支持机器人学与仿真研究。提供GPU加速计算、OpenUSD集成、可微分特性及用户扩展能力，适用于高精度实时物理仿真场景。 |
-| 5 | [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) | PlayStation 4 emulator for Windows, Linux and macO... | C++ | 29.8k | 292 | shadPS4是用C++编写的PlayStation 4模拟器，支持Windows、Linux和macOS。项目处于早期开发阶段，可运行部分游戏如《血源诅咒》和《黑暗之魂重制版》，需配合QtLauncher使用。提供跨平台游戏兼容性验证和开发讨论渠道。 |
-| 6 | [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) | An Open-Source Asynchronous Coding Agent... | Python | 6.3k | 454 | Open SWE 是一个开源异步编码代理框架，提供云沙箱环境、子代理编排及自动PR创建功能，支持Slack/Linear集成，可定制化构建企业内部代码协作工具。 |
+| 1 | [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | PDF Parser for AI-ready data. Automate PDF accessi... | Java | 5.5k | 1.4k | OpenDataLoader-PDF 是一个开源PDF解析工具，支持AI数据提取与可访问性自动化。可提取Markdown、JSON（带边界框）和HTML，提供确定性本地模式与AI混合模式，兼容OCR识别、复杂表格/公式处理，输出结构化数据用于RAG应用，并支持生成Tagged PDF以满足可访问性规范。 |
+| 2 | [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) | An Open-Source Asynchronous Coding Agent... | Python | 7.0k | 955 | 开源异步编码代理框架，基于LangGraph和Deep Agents构建，提供云沙盒、工具调用及自动PR创建功能，支持Slack/Linear集成与子代理编排，适用于企业内部开发流程自动化。 |
+| 3 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 99.1k | 3.5k | Superpowers 是一个基于可组合技能的软件开发框架，通过代理自动化管理开发流程。它通过分解需求、制定TDD驱动的实现计划，并自动执行任务，提升编码效率与规范性。 |
+| 4 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | A Claude Code plugin that shows what's happening -... | JavaScript | 8.5k | 1.9k | Claude HUD是用于Claude Code的实时状态监控插件，展示上下文使用率、工具活动、代理状态和待办进度。通过终端状态栏提供可视化反馈，帮助开发者实时掌握代码编辑过程中的关键指标，提升开发效率。 |
+| 5 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | Unified web UI for training and running open model... | Python | 56.7k | 1.3k | Unsloth 提供统一本地界面，支持 Qwen 等多模型训练与推理，具备加速训练、显存优化、多格式模型支持、数据处理及可视化监控功能，覆盖文本、音频、视觉等场景。 |
+| 6 | [mobile-dev-inc/Maestro](https://github.com/mobile-dev-inc/Maestro) | Painless E2E Automation for Mobile and Web... | Kotlin | 12.4k | 468 | Maestro是跨平台端到端测试框架，支持Android、iOS和Web应用测试。通过YAML流程定义测试用例，无需编译即可快速迭代，具备智能等待和抗抖动能力，简化多平台UI自动化测试流程。 |
+| 7 | [newton-physics/newton](https://github.com/newton-physics/newton) | An open-source, GPU-accelerated physics simulation... | Python | 3.2k | 345 | 基于NVIDIA Warp的GPU加速物理模拟引擎，支持机器人学与仿真研究。提供OpenUSD兼容、可微分计算及用户扩展能力，整合MuJoCo Warp作为后端，适用于高效率的机器人仿真场景。 |
+| 8 | [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minec... | Rust | 10.7k | 918 | Arnis是一款基于Rust开发的开源工具，可将真实世界地理数据（如OpenStreetMap和高程数据）转换为高精度的Minecraft Java版和基岩版世界。支持城市、自然景观等场景生成，提供自定义参数如比例尺和建筑细节，适用于游戏内真实地理还原。 |
+| 9 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | Automate the process of making money online.... | Python | 16.0k | 257 | MoneyPrinterV2 是一个自动化在线赚钱工具，支持Twitter机器人、YouTube Shorts自动播放、联盟营销等功能，采用模块化架构并需Python 3.12运行。提供配置文件和脚本简化操作，适用于数字营销和被动收入场景。 |
+| 10 | [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) | A light-weight and powerful meta-prompting, contex... | JavaScript | 36.0k | 1.4k | GSD 是一个面向 Claude Code 等 AI 编程工具的轻量级规范驱动开发系统，通过上下文工程和元提示技术解决代码质量退化问题，简化开发流程并提升代码生成一致性。 |
+| 11 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | Bash is all you need - A nano claude code–like 「ag... | TypeScript | 33.6k | 1.5k | 该项目是一个基于TypeScript的AI代理框架，旨在通过模型自身能力实现自主决策和行动。项目强调『模型即代理』的核心理念，通过训练神经网络学习环境感知、目标推理和行动执行，适用于强化学习与自主系统开发。 |
 
-[查看完整数据](api/github/2026-03-18.json)
+[查看完整数据](api/github/2026-03-19.json)
 <!-- END GITHUB TRENDING -->
 
 

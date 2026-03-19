@@ -1,0 +1,221 @@
+{
+  "date": "2026-03-19",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "opendataloader-project/opendataloader-pdf",
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "language": "Java",
+      "stars": 5518,
+      "forks": 399,
+      "todayStars": 1394,
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "aiSummary": {
+        "summary": "OpenDataLoader-PDF 是一个开源PDF解析工具，支持AI数据提取与可访问性自动化。可提取Markdown、JSON（带边界框）和HTML，提供确定性本地模式与AI混合模式，兼容OCR识别、复杂表格/公式处理，输出结构化数据用于RAG应用，并支持生成Tagged PDF以满足可访问性规范。",
+        "techStack": [
+          "Java",
+          "Python",
+          "OCR"
+        ],
+        "useCase": "适用于需要将PDF转换为结构化数据或自动化处理可访问性的企业级文档分析场景。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "langchain-ai/open-swe",
+      "description": "An Open-Source Asynchronous Coding Agent",
+      "language": "Python",
+      "stars": 6999,
+      "forks": 871,
+      "todayStars": 955,
+      "url": "https://github.com/langchain-ai/open-swe",
+      "aiSummary": {
+        "summary": "开源异步编码代理框架，基于LangGraph和Deep Agents构建，提供云沙盒、工具调用及自动PR创建功能，支持Slack/Linear集成与子代理编排，适用于企业内部开发流程自动化。",
+        "techStack": [
+          "Python",
+          "LangGraph",
+          "Deep Agents"
+        ],
+        "useCase": "企业级开发流程自动化与内部工具构建"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 99089,
+      "forks": 7892,
+      "todayStars": 3476,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发框架，通过代理自动化管理开发流程。它通过分解需求、制定TDD驱动的实现计划，并自动执行任务，提升编码效率与规范性。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要自动化软件开发流程和提高编码效率的项目"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "jarrodwatts/claude-hud",
+      "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+      "language": "JavaScript",
+      "stars": 8468,
+      "forks": 353,
+      "todayStars": 1851,
+      "url": "https://github.com/jarrodwatts/claude-hud",
+      "aiSummary": {
+        "summary": "Claude HUD是用于Claude Code的实时状态监控插件，展示上下文使用率、工具活动、代理状态和待办进度。通过终端状态栏提供可视化反馈，帮助开发者实时掌握代码编辑过程中的关键指标，提升开发效率。",
+        "techStack": [
+          "JavaScript",
+          "Claude Code API",
+          "Terminal Rendering"
+        ],
+        "useCase": "开发者在使用Claude Code进行代码编辑时，实时监控上下文状态和任务进度"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "unslothai/unsloth",
+      "description": "Unified web UI for training and running open models like Qwen, DeepSeek, gpt-oss and Gemma locally.",
+      "language": "Python",
+      "stars": 56671,
+      "forks": 4756,
+      "todayStars": 1259,
+      "url": "https://github.com/unslothai/unsloth",
+      "aiSummary": {
+        "summary": "Unsloth 提供统一本地界面，支持 Qwen 等多模型训练与推理，具备加速训练、显存优化、多格式模型支持、数据处理及可视化监控功能，覆盖文本、音频、视觉等场景。",
+        "techStack": [
+          "Python",
+          "Web UI Framework",
+          "Deep Learning Library"
+        ],
+        "useCase": "本地化AI模型训练与推理的统一管理平台"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "mobile-dev-inc/Maestro",
+      "description": "Painless E2E Automation for Mobile and Web",
+      "language": "Kotlin",
+      "stars": 12412,
+      "forks": 703,
+      "todayStars": 468,
+      "url": "https://github.com/mobile-dev-inc/Maestro",
+      "aiSummary": {
+        "summary": "Maestro是跨平台端到端测试框架，支持Android、iOS和Web应用测试。通过YAML流程定义测试用例，无需编译即可快速迭代，具备智能等待和抗抖动能力，简化多平台UI自动化测试流程。",
+        "techStack": [
+          "Kotlin",
+          "YAML",
+          "Java 17"
+        ],
+        "useCase": "适用于跨平台移动和网页应用的端到端测试场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "newton-physics/newton",
+      "description": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers.",
+      "language": "Python",
+      "stars": 3212,
+      "forks": 342,
+      "todayStars": 345,
+      "url": "https://github.com/newton-physics/newton",
+      "aiSummary": {
+        "summary": "基于NVIDIA Warp的GPU加速物理模拟引擎，支持机器人学与仿真研究。提供OpenUSD兼容、可微分计算及用户扩展能力，整合MuJoCo Warp作为后端，适用于高效率的机器人仿真场景。",
+        "techStack": [
+          "Python",
+          "NVIDIA Warp",
+          "MuJoCo"
+        ],
+        "useCase": "机器人学与大规模物理仿真研究"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "louis-e/arnis",
+      "description": "Generate any location from the real world in Minecraft with a high level of detail.",
+      "language": "Rust",
+      "stars": 10713,
+      "forks": 959,
+      "todayStars": 918,
+      "url": "https://github.com/louis-e/arnis",
+      "aiSummary": {
+        "summary": "Arnis是一款基于Rust开发的开源工具，可将真实世界地理数据（如OpenStreetMap和高程数据）转换为高精度的Minecraft Java版和基岩版世界。支持城市、自然景观等场景生成，提供自定义参数如比例尺和建筑细节，适用于游戏内真实地理还原。",
+        "techStack": [
+          "Rust",
+          "OpenStreetMap",
+          "Geospatial Data Processing"
+        ],
+        "useCase": "将真实城市或自然地形转化为Minecraft游戏内的高精度可探索世界"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "FujiwaraChoki/MoneyPrinterV2",
+      "description": "Automate the process of making money online.",
+      "language": "Python",
+      "stars": 16032,
+      "forks": 1677,
+      "todayStars": 257,
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "aiSummary": {
+        "summary": "MoneyPrinterV2 是一个自动化在线赚钱工具，支持Twitter机器人、YouTube Shorts自动播放、联盟营销等功能，采用模块化架构并需Python 3.12运行。提供配置文件和脚本简化操作，适用于数字营销和被动收入场景。",
+        "techStack": [
+          "Python",
+          "CRON Jobs",
+          "Automation Scripts"
+        ],
+        "useCase": "自动化在线收入生成与数字营销操作"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "gsd-build/get-shit-done",
+      "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
+      "language": "JavaScript",
+      "stars": 36036,
+      "forks": 2955,
+      "todayStars": 1414,
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "aiSummary": {
+        "summary": "GSD 是一个面向 Claude Code 等 AI 编程工具的轻量级规范驱动开发系统，通过上下文工程和元提示技术解决代码质量退化问题，简化开发流程并提升代码生成一致性。",
+        "techStack": [
+          "JavaScript",
+          "CLI 工具",
+          "XML 提示格式"
+        ],
+        "useCase": "适用于开发者通过 AI 快速构建高质量、可维护的代码项目"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "shareAI-lab/learn-claude-code",
+      "description": "Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1",
+      "language": "TypeScript",
+      "stars": 33565,
+      "forks": 5467,
+      "todayStars": 1458,
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "aiSummary": {
+        "summary": "该项目是一个基于TypeScript的AI代理框架，旨在通过模型自身能力实现自主决策和行动。项目强调『模型即代理』的核心理念，通过训练神经网络学习环境感知、目标推理和行动执行，适用于强化学习与自主系统开发。",
+        "techStack": [
+          "TypeScript",
+          "Neural Networks",
+          "Reinforcement Learning"
+        ],
+        "useCase": "用于开发自主决策AI代理和强化学习实验场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-19T23:37:05.263Z",
+    "duration": "120s",
+    "version": "1.0.0"
+  }
+}
