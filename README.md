@@ -67,23 +67,21 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-19 | **成功**: 11 | **失败**: 0
+**最后更新**: 2026-03-20 | **成功**: 9 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | PDF Parser for AI-ready data. Automate PDF accessi... | Java | 5.5k | 1.4k | OpenDataLoader-PDF 是一个开源PDF解析工具，支持AI数据提取与可访问性自动化。可提取Markdown、JSON（带边界框）和HTML，提供确定性本地模式与AI混合模式，兼容OCR识别、复杂表格/公式处理，输出结构化数据用于RAG应用，并支持生成Tagged PDF以满足可访问性规范。 |
-| 2 | [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) | An Open-Source Asynchronous Coding Agent... | Python | 7.0k | 955 | 开源异步编码代理框架，基于LangGraph和Deep Agents构建，提供云沙盒、工具调用及自动PR创建功能，支持Slack/Linear集成与子代理编排，适用于企业内部开发流程自动化。 |
-| 3 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 99.1k | 3.5k | Superpowers 是一个基于可组合技能的软件开发框架，通过代理自动化管理开发流程。它通过分解需求、制定TDD驱动的实现计划，并自动执行任务，提升编码效率与规范性。 |
-| 4 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | A Claude Code plugin that shows what's happening -... | JavaScript | 8.5k | 1.9k | Claude HUD是用于Claude Code的实时状态监控插件，展示上下文使用率、工具活动、代理状态和待办进度。通过终端状态栏提供可视化反馈，帮助开发者实时掌握代码编辑过程中的关键指标，提升开发效率。 |
-| 5 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | Unified web UI for training and running open model... | Python | 56.7k | 1.3k | Unsloth 提供统一本地界面，支持 Qwen 等多模型训练与推理，具备加速训练、显存优化、多格式模型支持、数据处理及可视化监控功能，覆盖文本、音频、视觉等场景。 |
-| 6 | [mobile-dev-inc/Maestro](https://github.com/mobile-dev-inc/Maestro) | Painless E2E Automation for Mobile and Web... | Kotlin | 12.4k | 468 | Maestro是跨平台端到端测试框架，支持Android、iOS和Web应用测试。通过YAML流程定义测试用例，无需编译即可快速迭代，具备智能等待和抗抖动能力，简化多平台UI自动化测试流程。 |
-| 7 | [newton-physics/newton](https://github.com/newton-physics/newton) | An open-source, GPU-accelerated physics simulation... | Python | 3.2k | 345 | 基于NVIDIA Warp的GPU加速物理模拟引擎，支持机器人学与仿真研究。提供OpenUSD兼容、可微分计算及用户扩展能力，整合MuJoCo Warp作为后端，适用于高效率的机器人仿真场景。 |
-| 8 | [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minec... | Rust | 10.7k | 918 | Arnis是一款基于Rust开发的开源工具，可将真实世界地理数据（如OpenStreetMap和高程数据）转换为高精度的Minecraft Java版和基岩版世界。支持城市、自然景观等场景生成，提供自定义参数如比例尺和建筑细节，适用于游戏内真实地理还原。 |
-| 9 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | Automate the process of making money online.... | Python | 16.0k | 257 | MoneyPrinterV2 是一个自动化在线赚钱工具，支持Twitter机器人、YouTube Shorts自动播放、联盟营销等功能，采用模块化架构并需Python 3.12运行。提供配置文件和脚本简化操作，适用于数字营销和被动收入场景。 |
-| 10 | [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) | A light-weight and powerful meta-prompting, contex... | JavaScript | 36.0k | 1.4k | GSD 是一个面向 Claude Code 等 AI 编程工具的轻量级规范驱动开发系统，通过上下文工程和元提示技术解决代码质量退化问题，简化开发流程并提升代码生成一致性。 |
-| 11 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | Bash is all you need - A nano claude code–like 「ag... | TypeScript | 33.6k | 1.5k | 该项目是一个基于TypeScript的AI代理框架，旨在通过模型自身能力实现自主决策和行动。项目强调『模型即代理』的核心理念，通过训练神经网络学习环境感知、目标推理和行动执行，适用于强化学习与自主系统开发。 |
+| 1 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | A Claude Code plugin that shows what's happening -... | JavaScript | 9.5k | 1.1k | Claude HUD是用于Claude Code的实时状态监控插件，展示上下文使用、工具活动、代理状态及待办进度，提升开发可视化管理效率。 |
+| 2 | [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) | An Open-Source Asynchronous Coding Agent... | Python | 7.6k | 640 | 开源异步编码代理框架，提供云沙盒、工具调用及自动PR创建功能，支持Slack/Linear集成与子代理编排，适用于企业内部自动化代码管理与系统集成。 |
+| 3 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 101.5k | 2.9k | Superpowers 是一个基于可组合技能的代码代理框架，通过 TDD、YAGNI 和 DRY 原则实现自动化软件开发流程。它通过分步确认需求、生成实施计划并驱动子代理协作，使编码代理能自主完成任务而无需人工干预。 |
+| 4 | [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | PDF Parser for AI-ready data. Automate PDF accessi... | Java | 7.0k | 1.8k | PDF解析器，支持AI数据提取与可访问性自动化，提供Markdown/JSON/HTML结构化输出，内置OCR及复杂表格公式识别，符合无障碍标准。 |
+| 5 | [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minec... | Rust | 11.6k | 1.1k | Arnis项目通过处理OpenStreetMap和高程数据，在Minecraft中生成高精度的现实世界地理环境，支持城市、自然景观及建筑的定制化生成，具备模块化设计和跨平台特性。 |
+| 6 | [newton-physics/newton](https://github.com/newton-physics/newton) | An open-source, GPU-accelerated physics simulation... | Python | 3.5k | 267 | Newton是基于NVIDIA Warp的开源GPU加速物理引擎，支持机器人学与模拟研究，提供OpenUSD集成、可微分计算及用户扩展功能，适用于高效可扩展的机器人仿真。 |
+| 7 | [vas3k/TaxHacker](https://github.com/vas3k/TaxHacker) | Self-hosted AI accounting app. LLM analyzer for re... | TypeScript | 1.9k | 136 | TaxHacker 是一款自托管AI会计应用，通过LLM自动解析收据、发票和交易数据，支持自定义提示与分类。可提取产品名称、金额、日期等结构化信息并存储至数据库，提供货币转换、多项目管理及报表生成功能，简化税务处理流程。 |
+| 8 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 34.0k | 579 | TradingAgents 是一个基于多智能体的金融交易框架，整合LLM模型进行市场分析与决策。通过分解交易任务为角色协作，支持多模型覆盖与动态策略优化，适用于金融研究与策略模拟。 |
+| 9 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | Model-rocketry aerodynamics and trajectory simulat... | Java | 2.2k | 132 | OpenRocket是一款基于Java的模型火箭空气动力学与轨迹模拟软件，提供火箭设计、3D可视化、六自由度飞行仿真及数据优化功能。支持实时飞行参数显示、多阶段模拟、文件导出（OBJ/SVG/ RockSim）及跨平台运行，适用于火箭设计验证与教学分析。 |
 
-[查看完整数据](api/github/2026-03-19.json)
+[查看完整数据](api/github/2026-03-20.json)
 <!-- END GITHUB TRENDING -->
 
 

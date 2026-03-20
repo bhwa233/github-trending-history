@@ -1,0 +1,181 @@
+{
+  "date": "2026-03-20",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "jarrodwatts/claude-hud",
+      "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+      "language": "JavaScript",
+      "stars": 9499,
+      "forks": 403,
+      "todayStars": 1074,
+      "url": "https://github.com/jarrodwatts/claude-hud",
+      "aiSummary": {
+        "summary": "Claude HUD是用于Claude Code的实时状态监控插件，展示上下文使用、工具活动、代理状态及待办进度，提升开发可视化管理效率。",
+        "techStack": [
+          "JavaScript",
+          "Claude Code API",
+          "Terminal Statusbar"
+        ],
+        "useCase": "开发人员实时监控Claude Code会话中的上下文、工具和任务进度"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "langchain-ai/open-swe",
+      "description": "An Open-Source Asynchronous Coding Agent",
+      "language": "Python",
+      "stars": 7615,
+      "forks": 916,
+      "todayStars": 640,
+      "url": "https://github.com/langchain-ai/open-swe",
+      "aiSummary": {
+        "summary": "开源异步编码代理框架，提供云沙盒、工具调用及自动PR创建功能，支持Slack/Linear集成与子代理编排，适用于企业内部自动化代码管理与系统集成。",
+        "techStack": [
+          "Python",
+          "LangGraph",
+          "Deep Agents"
+        ],
+        "useCase": "企业级内部代码代理系统开发与自动化流程构建"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 101465,
+      "forks": 8109,
+      "todayStars": 2886,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的代码代理框架，通过 TDD、YAGNI 和 DRY 原则实现自动化软件开发流程。它通过分步确认需求、生成实施计划并驱动子代理协作，使编码代理能自主完成任务而无需人工干预。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "提升代码代理开发效率，实现自动化软件工程流程"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "opendataloader-project/opendataloader-pdf",
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "language": "Java",
+      "stars": 7002,
+      "forks": 496,
+      "todayStars": 1848,
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "aiSummary": {
+        "summary": "PDF解析器，支持AI数据提取与可访问性自动化，提供Markdown/JSON/HTML结构化输出，内置OCR及复杂表格公式识别，符合无障碍标准。",
+        "techStack": [
+          "Java",
+          "Python",
+          "OCR"
+        ],
+        "useCase": "适用于PDF数据提取、AI训练及无障碍格式转换场景。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "louis-e/arnis",
+      "description": "Generate any location from the real world in Minecraft with a high level of detail.",
+      "language": "Rust",
+      "stars": 11554,
+      "forks": 990,
+      "todayStars": 1073,
+      "url": "https://github.com/louis-e/arnis",
+      "aiSummary": {
+        "summary": "Arnis项目通过处理OpenStreetMap和高程数据，在Minecraft中生成高精度的现实世界地理环境，支持城市、自然景观及建筑的定制化生成，具备模块化设计和跨平台特性。",
+        "techStack": [
+          "Rust",
+          "Geospatial Data Processing",
+          "Minecraft World Generation"
+        ],
+        "useCase": "为Minecraft玩家提供现实世界地理环境的高精度虚拟复现解决方案"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "newton-physics/newton",
+      "description": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers.",
+      "language": "Python",
+      "stars": 3456,
+      "forks": 357,
+      "todayStars": 267,
+      "url": "https://github.com/newton-physics/newton",
+      "aiSummary": {
+        "summary": "Newton是基于NVIDIA Warp的开源GPU加速物理引擎，支持机器人学与模拟研究，提供OpenUSD集成、可微分计算及用户扩展功能，适用于高效可扩展的机器人仿真。",
+        "techStack": [
+          "Python",
+          "NVIDIA Warp",
+          "MuJoCo"
+        ],
+        "useCase": "适用于机器人学和模拟研究的GPU加速物理仿真"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "vas3k/TaxHacker",
+      "description": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories",
+      "language": "TypeScript",
+      "stars": 1901,
+      "forks": 260,
+      "todayStars": 136,
+      "url": "https://github.com/vas3k/TaxHacker",
+      "aiSummary": {
+        "summary": "TaxHacker 是一款自托管AI会计应用，通过LLM自动解析收据、发票和交易数据，支持自定义提示与分类。可提取产品名称、金额、日期等结构化信息并存储至数据库，提供货币转换、多项目管理及报表生成功能，简化税务处理流程。",
+        "techStack": [
+          "TypeScript",
+          "LLM (OpenAI/Gemini/Mistral)",
+          "PDF/Excel处理"
+        ],
+        "useCase": "适用于自由职业者、初创公司和小企业自动化财务记录与税务管理"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 34046,
+      "forks": 6516,
+      "todayStars": 579,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents 是一个基于多智能体的金融交易框架，整合LLM模型进行市场分析与决策。通过分解交易任务为角色协作，支持多模型覆盖与动态策略优化，适用于金融研究与策略模拟。",
+        "techStack": [
+          "Python",
+          "LLM框架",
+          "机器学习"
+        ],
+        "useCase": "金融交易策略研究与多智能体协同分析"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "openrocket/openrocket",
+      "description": "Model-rocketry aerodynamics and trajectory simulation software",
+      "language": "Java",
+      "stars": 2194,
+      "forks": 577,
+      "todayStars": 132,
+      "url": "https://github.com/openrocket/openrocket",
+      "aiSummary": {
+        "summary": "OpenRocket是一款基于Java的模型火箭空气动力学与轨迹模拟软件，提供火箭设计、3D可视化、六自由度飞行仿真及数据优化功能。支持实时飞行参数显示、多阶段模拟、文件导出（OBJ/SVG/ RockSim）及跨平台运行，适用于火箭设计验证与教学分析。",
+        "techStack": [
+          "Java"
+        ],
+        "useCase": "模型火箭设计验证与飞行性能分析"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-20T23:36:06.235Z",
+    "duration": "95s",
+    "version": "1.0.0"
+  }
+}
