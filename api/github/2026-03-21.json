@@ -1,0 +1,181 @@
+{
+  "date": "2026-03-21",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "FujiwaraChoki/MoneyPrinterV2",
+      "description": "Automate the process of making money online.",
+      "language": "Python",
+      "stars": 17691,
+      "forks": 1882,
+      "todayStars": 379,
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "aiSummary": {
+        "summary": "MoneyPrinterV2 是一个自动化在线赚钱工具，包含Twitter机器人、YouTube Shorts自动化、联盟营销及本地企业冷拓功能，采用模块化设计提升扩展性。",
+        "techStack": [
+          "Python",
+          "CRON Jobs",
+          "Web Automation"
+        ],
+        "useCase": "多平台自动化营销与收益优化"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "systemd/systemd",
+      "description": "The systemd System and Service Manager",
+      "language": "C",
+      "stars": 15715,
+      "forks": 4353,
+      "todayStars": 112,
+      "url": "https://github.com/systemd/systemd",
+      "aiSummary": {
+        "summary": "systemd是Linux系统的系统和服务管理器，负责初始化进程管理和服务控制。核心功能包括进程管理、服务依赖处理、系统状态监控及日志管理，支持并行启动服务以提升效率，并提供状态监控与自动重启机制。",
+        "techStack": [
+          "C"
+        ],
+        "useCase": "用于Linux系统的系统和服务管理，提供进程控制、服务监控和启动管理功能。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 33363,
+      "forks": 123,
+      "todayStars": 127,
+      "url": "https://github.com/aquasecurity/trivy",
+      "aiSummary": {
+        "summary": "Trivy是用Go编写的全面安全扫描工具，支持容器、Kubernetes、代码仓库等多平台扫描，可检测漏洞、配置错误、密钥和SBOM。覆盖OS包、依赖项、IaC问题及敏感信息，适用于云原生环境安全检测。",
+        "techStack": [
+          "Go",
+          "SBOM",
+          "Vulnerability Scanning"
+        ],
+        "useCase": "云原生应用和基础设施的安全风险检测与合规性检查"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "stars": 6497,
+      "forks": 603,
+      "todayStars": 2054,
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "aiSummary": {
+        "summary": "Project N.O.M.A.D 是一个离线知识服务器，提供AI聊天、文档检索和离线工具集，基于Docker容器化部署，支持终端安装和浏览器访问，适用于无网络环境下的知识管理与应急信息获取。",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Ollama",
+          "Qdrant"
+        ],
+        "useCase": "需要离线访问关键知识库和AI工具的应急场景或网络受限环境"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "opendataloader-project/opendataloader-pdf",
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "language": "Java",
+      "stars": 7852,
+      "forks": 534,
+      "todayStars": 954,
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "aiSummary": {
+        "summary": "Java开源PDF解析器，支持AI数据提取与无障碍自动化。可精准提取Markdown/JSON/HTML，处理表格、公式、图像，集成OCR及混合模式分析，符合PDF/UA标准。",
+        "techStack": [
+          "Java",
+          "Python",
+          "Node.js"
+        ],
+        "useCase": "适用于AI数据处理与PDF无障碍改造场景，满足法规合规性需求。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "jarrodwatts/claude-hud",
+      "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+      "language": "JavaScript",
+      "stars": 10399,
+      "forks": 446,
+      "todayStars": 957,
+      "url": "https://github.com/jarrodwatts/claude-hud",
+      "aiSummary": {
+        "summary": "Claude HUD是用于Claude Code的插件，实时显示上下文使用情况、工具活动、代理状态和待办进度，帮助用户监控会话状态。通过终端状态栏提供项目路径、上下文健康度、工具操作、代理任务及任务完成情况，提升开发效率。",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "开发者实时监控Claude Code会话的上下文和任务进度。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "protocolbuffers/protobuf",
+      "description": "Protocol Buffers - Google's data interchange format",
+      "language": "C++",
+      "stars": 70943,
+      "forks": 16083,
+      "todayStars": 7,
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "aiSummary": {
+        "summary": "Protocol Buffers是Google的跨语言、平台中立的数据交换格式，用于高效序列化结构化数据。项目提供C++编译器和运行时库，支持多语言使用，适用于数据序列化与反序列化场景。",
+        "techStack": [
+          "C++",
+          "Bazel"
+        ],
+        "useCase": "适用于跨语言数据序列化和高效数据交换"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "vllm-project/vllm-omni",
+      "description": "A framework for efficient model inference with omni-modality models",
+      "language": "Python",
+      "stars": 3497,
+      "forks": 586,
+      "todayStars": 82,
+      "url": "https://github.com/vllm-project/vllm-omni",
+      "aiSummary": {
+        "summary": "vLLM-Omni是基于vLLM的多模态模型推理框架，支持文本、图像、视频、音频等多模态数据处理，优化分布式执行与跨平台性能，适用于高效、低成本的AI模型服务部署。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "CUDA"
+        ],
+        "useCase": "多模态AI模型的高效推理与生产级服务部署"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "louis-e/arnis",
+      "description": "Generate any location from the real world in Minecraft with a high level of detail.",
+      "language": "Rust",
+      "stars": 12192,
+      "forks": 1012,
+      "todayStars": 680,
+      "url": "https://github.com/louis-e/arnis",
+      "aiSummary": {
+        "summary": "Arnis是一款基于Rust开发的开源工具，可将真实地理数据（如OpenStreetMap和高程数据）转换为高细节度的Minecraft世界，支持Java版和基岩版。提供可视化界面选择区域并生成城市、自然景观等场景，注重模块化设计与跨平台性能优化。",
+        "techStack": [
+          "Rust",
+          "OpenStreetMap",
+          "地理信息系统"
+        ],
+        "useCase": "生成高精度现实世界地理场景的Minecraft游戏地图"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-21T23:32:38.766Z",
+    "duration": "110s",
+    "version": "1.0.0"
+  }
+}

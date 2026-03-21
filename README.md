@@ -67,21 +67,21 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-20 | **成功**: 9 | **失败**: 0
+**最后更新**: 2026-03-21 | **成功**: 9 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | A Claude Code plugin that shows what's happening -... | JavaScript | 9.5k | 1.1k | Claude HUD是用于Claude Code的实时状态监控插件，展示上下文使用、工具活动、代理状态及待办进度，提升开发可视化管理效率。 |
-| 2 | [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) | An Open-Source Asynchronous Coding Agent... | Python | 7.6k | 640 | 开源异步编码代理框架，提供云沙盒、工具调用及自动PR创建功能，支持Slack/Linear集成与子代理编排，适用于企业内部自动化代码管理与系统集成。 |
-| 3 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 101.5k | 2.9k | Superpowers 是一个基于可组合技能的代码代理框架，通过 TDD、YAGNI 和 DRY 原则实现自动化软件开发流程。它通过分步确认需求、生成实施计划并驱动子代理协作，使编码代理能自主完成任务而无需人工干预。 |
-| 4 | [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | PDF Parser for AI-ready data. Automate PDF accessi... | Java | 7.0k | 1.8k | PDF解析器，支持AI数据提取与可访问性自动化，提供Markdown/JSON/HTML结构化输出，内置OCR及复杂表格公式识别，符合无障碍标准。 |
-| 5 | [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minec... | Rust | 11.6k | 1.1k | Arnis项目通过处理OpenStreetMap和高程数据，在Minecraft中生成高精度的现实世界地理环境，支持城市、自然景观及建筑的定制化生成，具备模块化设计和跨平台特性。 |
-| 6 | [newton-physics/newton](https://github.com/newton-physics/newton) | An open-source, GPU-accelerated physics simulation... | Python | 3.5k | 267 | Newton是基于NVIDIA Warp的开源GPU加速物理引擎，支持机器人学与模拟研究，提供OpenUSD集成、可微分计算及用户扩展功能，适用于高效可扩展的机器人仿真。 |
-| 7 | [vas3k/TaxHacker](https://github.com/vas3k/TaxHacker) | Self-hosted AI accounting app. LLM analyzer for re... | TypeScript | 1.9k | 136 | TaxHacker 是一款自托管AI会计应用，通过LLM自动解析收据、发票和交易数据，支持自定义提示与分类。可提取产品名称、金额、日期等结构化信息并存储至数据库，提供货币转换、多项目管理及报表生成功能，简化税务处理流程。 |
-| 8 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 34.0k | 579 | TradingAgents 是一个基于多智能体的金融交易框架，整合LLM模型进行市场分析与决策。通过分解交易任务为角色协作，支持多模型覆盖与动态策略优化，适用于金融研究与策略模拟。 |
-| 9 | [openrocket/openrocket](https://github.com/openrocket/openrocket) | Model-rocketry aerodynamics and trajectory simulat... | Java | 2.2k | 132 | OpenRocket是一款基于Java的模型火箭空气动力学与轨迹模拟软件，提供火箭设计、3D可视化、六自由度飞行仿真及数据优化功能。支持实时飞行参数显示、多阶段模拟、文件导出（OBJ/SVG/ RockSim）及跨平台运行，适用于火箭设计验证与教学分析。 |
+| 1 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | Automate the process of making money online.... | Python | 17.7k | 379 | MoneyPrinterV2 是一个自动化在线赚钱工具，包含Twitter机器人、YouTube Shorts自动化、联盟营销及本地企业冷拓功能，采用模块化设计提升扩展性。 |
+| 2 | [systemd/systemd](https://github.com/systemd/systemd) | The systemd System and Service Manager... | C | 15.7k | 112 | systemd是Linux系统的系统和服务管理器，负责初始化进程管理和服务控制。核心功能包括进程管理、服务依赖处理、系统状态监控及日志管理，支持并行启动服务以提升效率，并提供状态监控与自动重启机制。 |
+| 3 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | Find vulnerabilities, misconfigurations, secrets, ... | Go | 33.4k | 127 | Trivy是用Go编写的全面安全扫描工具，支持容器、Kubernetes、代码仓库等多平台扫描，可检测漏洞、配置错误、密钥和SBOM。覆盖OS包、依赖项、IaC问题及敏感信息，适用于云原生环境安全检测。 |
+| 4 | [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Project N.O.M.A.D, is a self-contained, offline su... | TypeScript | 6.5k | 2.1k | Project N.O.M.A.D 是一个离线知识服务器，提供AI聊天、文档检索和离线工具集，基于Docker容器化部署，支持终端安装和浏览器访问，适用于无网络环境下的知识管理与应急信息获取。 |
+| 5 | [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | PDF Parser for AI-ready data. Automate PDF accessi... | Java | 7.9k | 954 | Java开源PDF解析器，支持AI数据提取与无障碍自动化。可精准提取Markdown/JSON/HTML，处理表格、公式、图像，集成OCR及混合模式分析，符合PDF/UA标准。 |
+| 6 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | A Claude Code plugin that shows what's happening -... | JavaScript | 10.4k | 957 | Claude HUD是用于Claude Code的插件，实时显示上下文使用情况、工具活动、代理状态和待办进度，帮助用户监控会话状态。通过终端状态栏提供项目路径、上下文健康度、工具操作、代理任务及任务完成情况，提升开发效率。 |
+| 7 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | Protocol Buffers - Google's data interchange forma... | C++ | 70.9k | 7 | Protocol Buffers是Google的跨语言、平台中立的数据交换格式，用于高效序列化结构化数据。项目提供C++编译器和运行时库，支持多语言使用，适用于数据序列化与反序列化场景。 |
+| 8 | [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni) | A framework for efficient model inference with omn... | Python | 3.5k | 82 | vLLM-Omni是基于vLLM的多模态模型推理框架，支持文本、图像、视频、音频等多模态数据处理，优化分布式执行与跨平台性能，适用于高效、低成本的AI模型服务部署。 |
+| 9 | [louis-e/arnis](https://github.com/louis-e/arnis) | Generate any location from the real world in Minec... | Rust | 12.2k | 680 | Arnis是一款基于Rust开发的开源工具，可将真实地理数据（如OpenStreetMap和高程数据）转换为高细节度的Minecraft世界，支持Java版和基岩版。提供可视化界面选择区域并生成城市、自然景观等场景，注重模块化设计与跨平台性能优化。 |
 
-[查看完整数据](api/github/2026-03-20.json)
+[查看完整数据](api/github/2026-03-21.json)
 <!-- END GITHUB TRENDING -->
 
 
