@@ -1,0 +1,306 @@
+{
+  "date": "2026-03-22",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "FujiwaraChoki/MoneyPrinterV2",
+      "description": "Automate the process of making money online.",
+      "language": "Python",
+      "stars": 19620,
+      "forks": 2060,
+      "todayStars": 1772,
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "aiSummary": {
+        "summary": "MoneyPrinterV2 是一个自动化在线赚钱工具，支持Twitter机器人、YouTube Shorts自动化、联盟营销及本地企业冷拓客功能，采用模块化设计并需Python 3.12运行。",
+        "techStack": [
+          "Python",
+          "CRON",
+          "Twitter API",
+          "YouTube API"
+        ],
+        "useCase": "自动化社交媒体营销与在线收入生成"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 37047,
+      "forks": 7031,
+      "todayStars": 1108,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents是一个多智能体金融交易框架，采用LLM技术模拟真实交易公司运作。通过基本面分析、情绪分析、技术分析等专业角色协同决策，支持多模型接入与动态策略优化，适用于金融交易策略研究与模拟。",
+        "techStack": [
+          "Python",
+          "LLM框架",
+          "机器学习库"
+        ],
+        "useCase": "金融交易策略研究与多智能体协作模拟"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "stars": 11937,
+      "forks": 1508,
+      "todayStars": 1015,
+      "url": "https://github.com/vxcontrol/pentagi",
+      "aiSummary": {
+        "summary": "PentAGI是一个基于AI的自动化渗透测试系统，采用Go语言开发。通过Docker隔离环境实现安全测试，集成20+专业工具与知识图谱，支持智能任务规划、网络信息收集及多搜索API整合，提升安全测试效率与深度。",
+        "techStack": [
+          "Go",
+          "Docker",
+          "Neo4j"
+        ],
+        "useCase": "企业级网络安全渗透测试与漏洞评估"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "jamwithai/production-agentic-rag-course",
+      "description": "",
+      "language": "Python",
+      "stars": 4722,
+      "forks": 1183,
+      "todayStars": 235,
+      "url": "https://github.com/jamwithai/production-agentic-rag-course",
+      "aiSummary": {
+        "summary": "该项目是面向生产级RAG系统的实战课程，通过构建arXiv论文智能检索系统，系统性教学从基础搜索到混合检索的完整技术栈，涵盖数据管道、BM25搜索、语义向量化、Agentic RAG架构等核心模块。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "FastAPI",
+          "PostgreSQL",
+          "OpenSearch"
+        ],
+        "useCase": "学术研究场景下的智能论文检索与问答系统开发"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "affaan-m/everything-claude-code",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 97847,
+      "forks": 12777,
+      "todayStars": 3735,
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "aiSummary": {
+        "summary": "面向AI代理的性能优化系统，支持技能管理、记忆持久化、持续学习与多模型协同。包含令牌优化、并行化处理及子代理编排功能，适用于跨平台AI开发与生产级代理构建。",
+        "techStack": [
+          "JavaScript",
+          "SQLite",
+          "CLI工具"
+        ],
+        "useCase": "优化AI代理性能并提升多语言开发效率的系统级解决方案"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "jarrodwatts/claude-hud",
+      "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+      "language": "JavaScript",
+      "stars": 11140,
+      "forks": 471,
+      "todayStars": 832,
+      "url": "https://github.com/jarrodwatts/claude-hud",
+      "aiSummary": {
+        "summary": "Claude HUD是用于Claude Code的实时状态监控插件，展示上下文使用、工具活动、代理状态及待办进度，提升开发可视化管理效率。",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "适用于需要实时监控AI代理任务流程与上下文状态的代码开发场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "stars": 9794,
+      "forks": 918,
+      "todayStars": 2294,
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "aiSummary": {
+        "summary": "Project N.O.M.A.D 是一个离线知识服务器，集成AI聊天、文档检索和信息库管理，通过Docker容器化部署，支持终端安装和浏览器访问，适用于无网络环境下的知识存取与教育场景。",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Ollama",
+          "Qdrant"
+        ],
+        "useCase": "需要离线知识管理与AI辅助决策的场景，如偏远地区或网络受限环境。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "systemd/systemd",
+      "description": "The systemd System and Service Manager",
+      "language": "C",
+      "stars": 15984,
+      "forks": 4372,
+      "todayStars": 313,
+      "url": "https://github.com/systemd/systemd",
+      "aiSummary": {
+        "summary": "systemd是Linux系统的系统和服务管理器，负责进程管理、服务启动、系统配置及资源控制，提供高效的系统初始化和自动化管理功能。",
+        "techStack": [
+          "C",
+          "Make",
+          "Systemd"
+        ],
+        "useCase": "用于Linux系统的系统初始化、服务管理及进程控制，实现高效资源分配与自动化运维。"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "browser-use/browser-use",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "language": "Python",
+      "stars": 82509,
+      "forks": 9671,
+      "todayStars": 405,
+      "url": "https://github.com/browser-use/browser-use",
+      "aiSummary": {
+        "summary": "提供Python库实现AI代理自动化网页操作，支持云服务和多种大模型，可执行表单填写、购物、信息检索等任务。",
+        "techStack": [
+          "Python",
+          "asyncio",
+          "Browser Automation"
+        ],
+        "useCase": "自动化在线任务处理与网页交互"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "HKUDS/LightRAG",
+      "description": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\"",
+      "language": "Python",
+      "stars": 30021,
+      "forks": 4308,
+      "todayStars": 203,
+      "url": "https://github.com/HKUDS/LightRAG",
+      "aiSummary": {
+        "summary": "LightRAG是一个高效检索增强生成框架，支持多模态数据处理（文本/图像/表格/视频），集成OpenSearch/MongoDB存储，提供文档删除、知识图谱再生、引用追踪等功能，适用于大规模知识库构建与精准问答场景。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "OpenSearch",
+          "MongoDB",
+          "RAGAS"
+        ],
+        "useCase": "适用于需要高效处理多模态数据的检索增强生成场景，如智能文档分析与知识库问答系统。"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "hsliuping/TradingAgents-CN",
+      "description": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
+      "language": "Python",
+      "stars": 19733,
+      "forks": 4202,
+      "todayStars": 215,
+      "url": "https://github.com/hsliuping/TradingAgents-CN",
+      "aiSummary": {
+        "summary": "基于多智能体LLM的中文金融交易学习框架，支持A股/港股/美股分析，提供Docker部署、多LLM厂商集成及可视化报告导出，专注教学研究用途。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "Vue3",
+          "MongoDB",
+          "Redis"
+        ],
+        "useCase": "金融领域AI交易策略教学研究与合规性分析实验"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "louis-e/arnis",
+      "description": "Generate any location from the real world in Minecraft with a high level of detail.",
+      "language": "Rust",
+      "stars": 12699,
+      "forks": 1040,
+      "todayStars": 583,
+      "url": "https://github.com/louis-e/arnis",
+      "aiSummary": {
+        "summary": "Arnis是一款基于Rust开发的开源工具，可将真实世界地理数据（如OpenStreetMap和高程数据）转化为高精度的Minecraft世界，支持Java版和Bedrock版。用户可通过可视化界面选择区域并自定义生成参数，生成城市、地形等场景。",
+        "techStack": [
+          "Rust",
+          "OpenStreetMap",
+          "Elevation Data"
+        ],
+        "useCase": "将现实世界的地理信息转化为Minecraft中的高精度虚拟场景"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 33643,
+      "forks": 155,
+      "todayStars": 249,
+      "url": "https://github.com/aquasecurity/trivy",
+      "aiSummary": {
+        "summary": "Trivy是用Go编写的多功能安全扫描工具，支持容器镜像、文件系统、Git仓库、虚拟机和Kubernetes的漏洞检测、配置错误识别、密钥发现及SBOM生成。提供多语言和平台支持，适用于云原生环境的安全防护。",
+        "techStack": [
+          "Go",
+          "Docker",
+          "Kubernetes",
+          "Cloud Platforms"
+        ],
+        "useCase": "适用于容器、Kubernetes集群及云原生环境的安全漏洞和配置扫描。"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "bytedance/deer-flow",
+      "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skills and subagents, it handles different levels of tasks that could take minutes to hours.",
+      "language": "Python",
+      "stars": 35177,
+      "forks": 4229,
+      "todayStars": 1508,
+      "url": "https://github.com/bytedance/deer-flow",
+      "aiSummary": {
+        "summary": "DeerFlow 是字节跳动开源的超级代理框架，通过协调子代理、记忆、沙盒等模块，实现复杂任务的自动化处理。支持多模型集成与工具扩展，适用于研究、编码及高复杂度任务流程管理。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "AI模型集成"
+        ],
+        "useCase": "适用于需要自动化处理复杂任务的研究或开发场景，如智能编程与数据分析。"
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "stars": 50900,
+      "forks": 7242,
+      "todayStars": 169,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "aiSummary": {
+        "summary": "MoneyPrinterTurbo 是一个基于AI大模型的短视频生成工具，支持通过关键词自动生成视频文案、素材、字幕及背景音乐，并合成高清视频。提供Web和API界面，支持多语言、多种视频尺寸及批量生成，集成OpenAI、通义千问等多模型接口，适用于营销、教育等快速生成短视频的场景。",
+        "techStack": [
+          "Python",
+          "AI大模型（如OpenAI、通义千问）",
+          "视频处理库（如FFmpeg）"
+        ],
+        "useCase": "需要快速生成高质量短视频的营销或内容创作场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-22T23:36:32.865Z",
+    "duration": "181s",
+    "version": "1.0.0"
+  }
+}
