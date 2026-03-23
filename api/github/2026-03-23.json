@@ -1,0 +1,302 @@
+{
+  "date": "2026-03-23",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "FujiwaraChoki/MoneyPrinterV2",
+      "description": "Automate the process of making money online.",
+      "language": "Python",
+      "stars": 22814,
+      "forks": 2343,
+      "todayStars": 2902,
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "aiSummary": {
+        "summary": "MoneyPrinterV2 是一款自动化在线赚钱工具，支持Twitter机器人、YouTube Shorts自动化、联盟营销及本地企业冷触达等功能。采用模块化设计，集成CRON任务调度，提供多语言版本支持，旨在通过自动化脚本提升网络营销效率。",
+        "techStack": [
+          "Python",
+          "CRON Jobs",
+          "JSON"
+        ],
+        "useCase": "自动化网络营销与被动收入生成"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "bytedance/deer-flow",
+      "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "language": "Python",
+      "stars": 39159,
+      "forks": 4605,
+      "todayStars": 3569,
+      "url": "https://github.com/bytedance/deer-flow",
+      "aiSummary": {
+        "summary": "DeerFlow 是字节跳动开源的超级代理框架，通过子代理、沙盒、记忆和工具协同处理复杂任务。支持多模型集成与智能搜索，适用于自动化研究、高效任务流水线构建。",
+        "techStack": [
+          "Python",
+          "AI代理框架",
+          "沙盒技术"
+        ],
+        "useCase": "自动化复杂研究分析与多步骤任务处理"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "stars": 13311,
+      "forks": 1249,
+      "todayStars": 4148,
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "aiSummary": {
+        "summary": "Project N.O.M.A.D. 是一个离线优先的知识管理服务器，提供本地AI聊天、文档检索和信息库功能。基于Docker容器化部署，支持终端安装和浏览器访问，适用于无网络环境下的知识存取与AI工具使用。",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Ollama",
+          "Qdrant"
+        ],
+        "useCase": "需要离线知识管理与本地AI交互的场景，如网络受限环境或自主服务器部署"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "stars": 12965,
+      "forks": 1611,
+      "todayStars": 1307,
+      "url": "https://github.com/vxcontrol/pentagi",
+      "aiSummary": {
+        "summary": "PentAGI是基于AI的自动化渗透测试系统，支持20+专业安全工具集成，采用Docker沙盒隔离环境，具备智能任务规划、知识图谱分析和多搜索引擎联动功能，可自主完成复杂安全测试任务。",
+        "techStack": [
+          "Go",
+          "Docker",
+          "Neo4j"
+        ],
+        "useCase": "企业级网络安全渗透测试与漏洞评估"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "browser-use/browser-use",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "language": "Python",
+      "stars": 83586,
+      "forks": 9724,
+      "todayStars": 1160,
+      "url": "https://github.com/browser-use/browser-use",
+      "aiSummary": {
+        "summary": "项目提供浏览器自动化工具，使AI代理能便捷执行在线任务。支持云服务与开源版本，集成LLM进行网站交互，具备隐身模式、代理轮换和验证码解决能力，适用于复杂自动化场景。",
+        "techStack": [
+          "Python",
+          "asyncio",
+          "浏览器自动化"
+        ],
+        "useCase": "自动化网页操作与在线任务处理的AI代理工具"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 39222,
+      "forks": 7303,
+      "todayStars": 2521,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents 是一个基于大语言模型的多智能体金融交易框架，模拟真实交易公司运作。通过分工协作的LLM智能体（如基本面分析、情绪分析、技术分析等）共同评估市场并制定交易策略，支持多模型接入与动态策略优化，适用于金融研究与策略验证。",
+        "techStack": [
+          "Python",
+          "LLM框架",
+          "API集成"
+        ],
+        "useCase": "金融交易策略研究与多智能体协作模拟"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "tinygrad/tinygrad",
+      "description": "You like pytorch? You like micrograd? You love tinygrad! ❤️",
+      "language": "Python",
+      "stars": 31875,
+      "forks": 3978,
+      "todayStars": 58,
+      "url": "https://github.com/tinygrad/tinygrad",
+      "aiSummary": {
+        "summary": "tinygrad是一个轻量级深度学习框架，整合张量库、自动求导、IR编译器和JIT执行，支持神经网络训练与优化。其设计融合PyTorch的易用性、JAX的IR自动微分和TVM的编译优化，强调可读性与可定制性，适合需要底层控制的深度学习开发场景。",
+        "techStack": [
+          "Python",
+          "Autograd",
+          "IR编译器",
+          "JIT编译"
+        ],
+        "useCase": "适用于需要轻量级、可定制深度学习框架的开发及编译优化研究场景。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "affaan-m/everything-claude-code",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 101821,
+      "forks": 13259,
+      "todayStars": 4453,
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "aiSummary": {
+        "summary": "面向AI代理的性能优化系统，支持技能管理、记忆持久化、持续学习、安全扫描及多平台集成，提升代码生成与自动化效率。",
+        "techStack": [
+          "JavaScript",
+          "AI代理框架",
+          "SQLite"
+        ],
+        "useCase": "优化AI代码生成器性能，实现自动化任务处理与智能决策"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 11506,
+      "forks": 1399,
+      "todayStars": 874,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "Hermes-Agent 是一个自我改进的AI代理，具备学习循环机制，可跨会话持续优化技能并构建用户模型。支持多平台交互、定时任务、并行处理及多种大模型接入，适用于需要智能自动化与持续优化的场景。",
+        "techStack": [
+          "Python",
+          "机器学习框架",
+          "TUI终端库",
+          "LLM集成"
+        ],
+        "useCase": "智能自动化任务处理与跨平台AI助手开发"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "jingyaogong/minimind",
+      "description": "🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h!",
+      "language": "Python",
+      "stars": 42539,
+      "forks": 5116,
+      "todayStars": 478,
+      "url": "https://github.com/jingyaogong/minimind",
+      "aiSummary": {
+        "summary": "开源项目MiniMind旨在低成本（3元/2小时）训练26M参数GPT模型，提供从零开始的完整训练流程，包含MoE、LoRA、DPO等技术，支持多模态扩展及主流框架兼容。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Transformers"
+        ],
+        "useCase": "适用于教育、研究及轻量级语言模型训练与实验。"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "hsliuping/TradingAgents-CN",
+      "description": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
+      "language": "Python",
+      "stars": 20291,
+      "forks": 4277,
+      "todayStars": 672,
+      "url": "https://github.com/hsliuping/TradingAgents-CN",
+      "aiSummary": {
+        "summary": "基于多智能体LLM的中文金融交易框架，支持A股/港股/美股分析与教学，提供智能模型选择、实时数据处理、报告导出及容器化部署，适用于合规的策略研究与学习场景。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "Vue3",
+          "MongoDB",
+          "Redis"
+        ],
+        "useCase": "金融领域策略研究与AI技术教学"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "kepano/obsidian-skills",
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "language": "",
+      "stars": 16310,
+      "forks": 932,
+      "todayStars": 453,
+      "url": "https://github.com/kepano/obsidian-skills",
+      "aiSummary": {
+        "summary": "提供Obsidian代理技能集，支持Markdown、Bases、JSON Canvas编辑及Obsidian CLI操作，包含Defuddle网页内容清理工具，提升知识管理自动化能力。",
+        "techStack": [
+          "JavaScript",
+          "TypeScript",
+          "JSON"
+        ],
+        "useCase": "增强Obsidian vault的自动化处理与结构化数据管理能力"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "czlonkowski/n8n-mcp",
+      "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+      "language": "TypeScript",
+      "stars": 16028,
+      "forks": 2763,
+      "todayStars": 136,
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "aiSummary": {
+        "summary": "n8n-MCP是一个为Claude等AI模型提供n8n工作流节点深度访问的协议服务器，支持1239个核心及社区节点的文档、属性、操作查询，包含265个AI工具变体和2709个工作流模板，可通过托管服务或自托管快速部署。",
+        "techStack": [
+          "TypeScript",
+          "n8n",
+          "Node.js"
+        ],
+        "useCase": "提升AI助手构建和管理n8n自动化工作流的效率与准确性"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "stars": 113560,
+      "forks": 5776,
+      "todayStars": 125,
+      "url": "https://github.com/iptv-org/iptv",
+      "aiSummary": {
+        "summary": "iptv-org/iptv 是一个全球IPTV频道资源集合项目，提供多国直播频道的M3U播放列表，用户可通过支持流媒体的播放器直接访问。项目包含频道数据库、EPG电子节目指南及API接口，涵盖资源整理、法律声明和贡献指南。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "为开发者和用户提供全球IPTV频道资源及标准化访问接口"
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "hesreallyhim/awesome-claude-code",
+      "description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
+      "language": "Python",
+      "stars": 30898,
+      "forks": 2152,
+      "todayStars": 413,
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "aiSummary": {
+        "summary": "该项目是一个针对Anthropic Claude Code的增强工具集合，包含代理技能、安全扫描、命令自动批准、会话管理及IDE集成等工具，旨在提升开发效率与安全性。",
+        "techStack": [
+          "Python",
+          "Go",
+          "Tmux"
+        ],
+        "useCase": "优化Claude Code开发工作流，增强代码安全性和自动化能力"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-23T23:40:46.603Z",
+    "duration": "159s",
+    "version": "1.0.0"
+  }
+}
