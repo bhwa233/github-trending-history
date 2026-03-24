@@ -1,0 +1,287 @@
+{
+  "date": "2026-03-24",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "pascalorg/editor",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 5124,
+      "forks": 713,
+      "todayStars": 1513,
+      "url": "https://github.com/pascalorg/editor",
+      "aiSummary": {
+        "summary": "基于React Three Fiber和WebGPU的3D建筑编辑器，采用Turborepo架构分离渲染、状态管理和编辑功能，支持场景节点操作与交互式编辑。",
+        "techStack": [
+          "TypeScript",
+          "React Three Fiber",
+          "WebGPU",
+          "Zustand",
+          "Turborepo"
+        ],
+        "useCase": "3D建筑模型可视化与交互式编辑开发"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "bytedance/deer-flow",
+      "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "language": "Python",
+      "stars": 43094,
+      "forks": 5049,
+      "todayStars": 4319,
+      "url": "https://github.com/bytedance/deer-flow",
+      "aiSummary": {
+        "summary": "DeerFlow 是字节跳动开源的 SuperAgent 框架，通过子代理、记忆模块、沙盒环境和技能工具协同处理复杂任务。支持长期记忆、上下文工程与多模型集成，适用于需要自动化研究和高效任务处理的场景。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "消息网关"
+        ],
+        "useCase": "适用于需要长期运行、多步骤协作的AI研究与自动化任务处理场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "supermemoryai/supermemory",
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "language": "TypeScript",
+      "stars": 18508,
+      "forks": 1781,
+      "todayStars": 407,
+      "url": "https://github.com/supermemoryai/supermemory",
+      "aiSummary": {
+        "summary": "Supermemory 是面向AI的高性能记忆引擎与应用，支持自动对话学习、事实提取、用户画像构建、知识更新管理及多模态数据处理，整合RAG与实时连接器实现上下文持久化。",
+        "techStack": [
+          "TypeScript",
+          "AI/ML",
+          "RAG"
+        ],
+        "useCase": "适用于需要持久化记忆与上下文感知的AI助手及个性化服务场景。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "FujiwaraChoki/MoneyPrinterV2",
+      "description": "Automate the process of making money online.",
+      "language": "Python",
+      "stars": 24760,
+      "forks": 2568,
+      "todayStars": 2937,
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "aiSummary": {
+        "summary": "MoneyPrinter V2 是一个自动化在线赚钱工具，支持Twitter机器人、YouTube Shorts自动运营、联盟营销及本地企业冷营销等功能，采用模块化设计并基于Python 3.12开发。",
+        "techStack": [
+          "Python",
+          "CRON Jobs",
+          "Go"
+        ],
+        "useCase": "适用于需要自动化执行社交媒体营销和在线收入生成的个人或企业用户。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "stars": 52576,
+      "forks": 7439,
+      "todayStars": 695,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "aiSummary": {
+        "summary": "基于AI大模型的一键短视频生成工具，支持文案、素材、字幕、音乐自动生成与合成，提供Web/API界面，兼容多语言、多种视频尺寸及主流AI模型接入，适用于快速制作高质量短视频。",
+        "techStack": [
+          "Python",
+          "MVC架构",
+          "AI模型接口（如OpenAI、通义千问）",
+          "视频处理库"
+        ],
+        "useCase": "需要高效生成定制化短视频的营销、教育或内容创作场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "stars": 15254,
+      "forks": 1451,
+      "todayStars": 2450,
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "aiSummary": {
+        "summary": "Project N.O.M.A.D 是一个离线知识管理服务器，集成AI聊天、文档检索和容器化工具，通过Docker部署，支持终端安装和浏览器访问，适用于无网络环境下的信息获取与处理。",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Ollama",
+          "Qdrant"
+        ],
+        "useCase": "需要离线知识管理与AI辅助决策的场景，如偏远地区或网络受限环境。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 40795,
+      "forks": 7512,
+      "todayStars": 1746,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents 是一个基于多智能体的金融交易框架，利用LLM驱动的分工协作机制，整合基本面分析、情感分析和技术分析，动态讨论并优化交易策略，适用于金融研究与算法交易开发。",
+        "techStack": [
+          "Python",
+          "LLM框架",
+          "多智能体系统"
+        ],
+        "useCase": "金融领域多智能体协作策略研究与模拟交易开发"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 5500,
+      "forks": 586,
+      "todayStars": 208,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "aiSummary": {
+        "summary": "AI代理技能，整合Reddit、X、YouTube等平台近30天数据，生成带引用的实时摘要。支持多平台爬取、比较分析模式及自动保存功能，适用于热点追踪与深度研究。",
+        "techStack": [
+          "Python",
+          "Web爬虫",
+          "API集成"
+        ],
+        "useCase": "实时跨平台信息整合与数据分析"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "stars": 25051,
+      "forks": 2728,
+      "todayStars": 1397,
+      "url": "https://github.com/ruvnet/ruflo",
+      "aiSummary": {
+        "summary": "ruvnet/ruflo 是一个面向 Claude 的智能代理编排平台，支持多智能体群部署、自主工作流协调及对话式 AI 系统构建，具备企业级架构、分布式群智、RAG 集成和 Claude 代码/CodeX 集成等特性。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "企业级多智能体协作与自动化 AI 系统开发"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 12497,
+      "forks": 1513,
+      "todayStars": 1251,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "Hermes-Agent 是一个自我进化的AI代理，具备内置学习循环，可跨会话持续优化技能、检索历史对话并构建用户模型。支持多平台交互与多种大模型接入，提供终端界面、自动化任务、并行子代理等功能，适用于灵活部署于云服务器或本地环境。",
+        "techStack": [
+          "Python",
+          "Terminal Interface",
+          "RPC",
+          "Serverless"
+        ],
+        "useCase": "需要跨平台自动化与持续学习能力的AI代理应用场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "hesreallyhim/awesome-claude-code",
+      "description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
+      "language": "Python",
+      "stars": 31800,
+      "forks": 2210,
+      "todayStars": 993,
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "aiSummary": {
+        "summary": "该仓库是Anthropic Claude Code的扩展工具集合，包含代理技能、安全扫描、命令自动批准、会话管理及调试工具，旨在提升代码开发效率与安全性。涵盖科学计算、权限管理、终端集成等多种功能。",
+        "techStack": [
+          "Python",
+          "Go",
+          "Bash",
+          "TUI"
+        ],
+        "useCase": "适用于需要增强Claude Code功能、优化开发流程及提升代码安全性的开发者群体"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "hsliuping/TradingAgents-CN",
+      "description": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
+      "language": "Python",
+      "stars": 20873,
+      "forks": 4356,
+      "todayStars": 559,
+      "url": "https://github.com/hsliuping/TradingAgents-CN",
+      "aiSummary": {
+        "summary": "基于多智能体LLM的中文金融分析框架，支持A股/港股/美股研究，提供多模型配置、实时数据同步、模拟交易及专业报告导出，适用于AI金融学习与策略实验。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "Vue3",
+          "MongoDB",
+          "Redis"
+        ],
+        "useCase": "面向中文用户的AI金融分析学习与策略研究平台"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 33980,
+      "forks": 193,
+      "todayStars": 103,
+      "url": "https://github.com/aquasecurity/trivy",
+      "aiSummary": {
+        "summary": "Trivy是用于扫描容器、Kubernetes、代码仓库等的全面安全工具，支持检测漏洞、配置错误、敏感信息及SBOM。基于Go语言开发，提供多平台集成与实时扫描能力。",
+        "techStack": [
+          "Go",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "适用于容器化应用与云原生环境的安全风险检测与合规性检查。"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 41245,
+      "forks": 5658,
+      "todayStars": 1020,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView是一款基于Rust的边缘AI系统，通过分析WiFi信号中的信道状态信息（CSI）实现无接触的人体姿态估计、生命体征监测及存在检测，具备实时性与本地化自学习能力。",
+        "techStack": [
+          "Rust",
+          "机器学习",
+          "信号处理",
+          "边缘计算"
+        ],
+        "useCase": "适用于智能建筑、健康监护及隐私敏感场景的无接触环境感知"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-24T23:39:51.630Z",
+    "duration": "132s",
+    "version": "1.0.0"
+  }
+}

@@ -67,27 +67,26 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-23 | **成功**: 15 | **失败**: 0
+**最后更新**: 2026-03-24 | **成功**: 14 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | Automate the process of making money online.... | Python | 22.8k | 2.9k | MoneyPrinterV2 是一款自动化在线赚钱工具，支持Twitter机器人、YouTube Shorts自动化、联盟营销及本地企业冷触达等功能。采用模块化设计，集成CRON任务调度，提供多语言版本支持，旨在通过自动化脚本提升网络营销效率。 |
-| 2 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | An open-source SuperAgent harness that researches,... | Python | 39.2k | 3.6k | DeerFlow 是字节跳动开源的超级代理框架，通过子代理、沙盒、记忆和工具协同处理复杂任务。支持多模型集成与智能搜索，适用于自动化研究、高效任务流水线构建。 |
-| 3 | [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Project N.O.M.A.D, is a self-contained, offline su... | TypeScript | 13.3k | 4.1k | Project N.O.M.A.D. 是一个离线优先的知识管理服务器，提供本地AI聊天、文档检索和信息库功能。基于Docker容器化部署，支持终端安装和浏览器访问，适用于无网络环境下的知识存取与AI工具使用。 |
-| 4 | [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | Fully autonomous AI Agents system capable of perfo... | Go | 13.0k | 1.3k | PentAGI是基于AI的自动化渗透测试系统，支持20+专业安全工具集成，采用Docker沙盒隔离环境，具备智能任务规划、知识图谱分析和多搜索引擎联动功能，可自主完成复杂安全测试任务。 |
-| 5 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🌐 Make websites accessible for AI agents. Automat... | Python | 83.6k | 1.2k | 项目提供浏览器自动化工具，使AI代理能便捷执行在线任务。支持云服务与开源版本，集成LLM进行网站交互，具备隐身模式、代理轮换和验证码解决能力，适用于复杂自动化场景。 |
-| 6 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 39.2k | 2.5k | TradingAgents 是一个基于大语言模型的多智能体金融交易框架，模拟真实交易公司运作。通过分工协作的LLM智能体（如基本面分析、情绪分析、技术分析等）共同评估市场并制定交易策略，支持多模型接入与动态策略优化，适用于金融研究与策略验证。 |
-| 7 | [tinygrad/tinygrad](https://github.com/tinygrad/tinygrad) | You like pytorch? You like micrograd? You love tin... | Python | 31.9k | 58 | tinygrad是一个轻量级深度学习框架，整合张量库、自动求导、IR编译器和JIT执行，支持神经网络训练与优化。其设计融合PyTorch的易用性、JAX的IR自动微分和TVM的编译优化，强调可读性与可定制性，适合需要底层控制的深度学习开发场景。 |
-| 8 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | The agent harness performance optimization system.... | JavaScript | 101.8k | 4.5k | 面向AI代理的性能优化系统，支持技能管理、记忆持久化、持续学习、安全扫描及多平台集成，提升代码生成与自动化效率。 |
-| 9 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you... | Python | 11.5k | 874 | Hermes-Agent 是一个自我改进的AI代理，具备学习循环机制，可跨会话持续优化技能并构建用户模型。支持多平台交互、定时任务、并行处理及多种大模型接入，适用于需要智能自动化与持续优化的场景。 |
-| 10 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-param... | Python | 42.5k | 478 | 开源项目MiniMind旨在低成本（3元/2小时）训练26M参数GPT模型，提供从零开始的完整训练流程，包含MoE、LoRA、DPO等技术，支持多模态扩展及主流框架兼容。 |
-| 11 | [hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN) | 基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版... | Python | 20.3k | 672 | 基于多智能体LLM的中文金融交易框架，支持A股/港股/美股分析与教学，提供智能模型选择、实时数据处理、报告导出及容器化部署，适用于合规的策略研究与学习场景。 |
-| 12 | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Agent skills for Obsidian. Teach your agent to use... | - | 16.3k | 453 | 提供Obsidian代理技能集，支持Markdown、Bases、JSON Canvas编辑及Obsidian CLI操作，包含Defuddle网页内容清理工具，提升知识管理自动化能力。 |
-| 13 | [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | A MCP for Claude Desktop / Claude Code / Windsurf ... | TypeScript | 16.0k | 136 | n8n-MCP是一个为Claude等AI模型提供n8n工作流节点深度访问的协议服务器，支持1239个核心及社区节点的文档、属性、操作查询，包含265个AI工具变体和2709个工作流模板，可通过托管服务或自托管快速部署。 |
-| 14 | [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels fro... | TypeScript | 113.6k | 125 | iptv-org/iptv 是一个全球IPTV频道资源集合项目，提供多国直播频道的M3U播放列表，用户可通过支持流媒体的播放器直接访问。项目包含频道数据库、EPG电子节目指南及API接口，涵盖资源整理、法律声明和贡献指南。 |
-| 15 | [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | A curated list of awesome skills, hooks, slash-com... | Python | 30.9k | 413 | 该项目是一个针对Anthropic Claude Code的增强工具集合，包含代理技能、安全扫描、命令自动批准、会话管理及IDE集成等工具，旨在提升开发效率与安全性。 |
+| 1 | [pascalorg/editor](https://github.com/pascalorg/editor) | ... | TypeScript | 5.1k | 1.5k | 基于React Three Fiber和WebGPU的3D建筑编辑器，采用Turborepo架构分离渲染、状态管理和编辑功能，支持场景节点操作与交互式编辑。 |
+| 2 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | An open-source SuperAgent harness that researches,... | Python | 43.1k | 4.3k | DeerFlow 是字节跳动开源的 SuperAgent 框架，通过子代理、记忆模块、沙盒环境和技能工具协同处理复杂任务。支持长期记忆、上下文工程与多模型集成，适用于需要自动化研究和高效任务处理的场景。 |
+| 3 | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scal... | TypeScript | 18.5k | 407 | Supermemory 是面向AI的高性能记忆引擎与应用，支持自动对话学习、事实提取、用户画像构建、知识更新管理及多模态数据处理，整合RAG与实时连接器实现上下文持久化。 |
+| 4 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | Automate the process of making money online.... | Python | 24.8k | 2.9k | MoneyPrinter V2 是一个自动化在线赚钱工具，支持Twitter机器人、YouTube Shorts自动运营、联盟营销及本地企业冷营销等功能，采用模块化设计并基于Python 3.12开发。 |
+| 5 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 利用AI大模型，一键生成高清短视频 Generate short videos with one c... | Python | 52.6k | 695 | 基于AI大模型的一键短视频生成工具，支持文案、素材、字幕、音乐自动生成与合成，提供Web/API界面，兼容多语言、多种视频尺寸及主流AI模型接入，适用于快速制作高质量短视频。 |
+| 6 | [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Project N.O.M.A.D, is a self-contained, offline su... | TypeScript | 15.3k | 2.5k | Project N.O.M.A.D 是一个离线知识管理服务器，集成AI聊天、文档检索和容器化工具，通过Docker部署，支持终端安装和浏览器访问，适用于无网络环境下的信息获取与处理。 |
+| 7 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 40.8k | 1.7k | TradingAgents 是一个基于多智能体的金融交易框架，利用LLM驱动的分工协作机制，整合基本面分析、情感分析和技术分析，动态讨论并优化交易策略，适用于金融研究与算法交易开发。 |
+| 8 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | AI agent skill that researches any topic across Re... | Python | 5.5k | 208 | AI代理技能，整合Reddit、X、YouTube等平台近30天数据，生成带引用的实时摘要。支持多平台爬取、比较分析模式及自动保存功能，适用于热点追踪与深度研究。 |
+| 9 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The leading agent orchestration platform for Cl... | TypeScript | 25.1k | 1.4k | ruvnet/ruflo 是一个面向 Claude 的智能代理编排平台，支持多智能体群部署、自主工作流协调及对话式 AI 系统构建，具备企业级架构、分布式群智、RAG 集成和 Claude 代码/CodeX 集成等特性。 |
+| 10 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you... | Python | 12.5k | 1.3k | Hermes-Agent 是一个自我进化的AI代理，具备内置学习循环，可跨会话持续优化技能、检索历史对话并构建用户模型。支持多平台交互与多种大模型接入，提供终端界面、自动化任务、并行子代理等功能，适用于灵活部署于云服务器或本地环境。 |
+| 11 | [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | A curated list of awesome skills, hooks, slash-com... | Python | 31.8k | 993 | 该仓库是Anthropic Claude Code的扩展工具集合，包含代理技能、安全扫描、命令自动批准、会话管理及调试工具，旨在提升代码开发效率与安全性。涵盖科学计算、权限管理、终端集成等多种功能。 |
+| 12 | [hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN) | 基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版... | Python | 20.9k | 559 | 基于多智能体LLM的中文金融分析框架，支持A股/港股/美股研究，提供多模型配置、实时数据同步、模拟交易及专业报告导出，适用于AI金融学习与策略实验。 |
+| 13 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | Find vulnerabilities, misconfigurations, secrets, ... | Go | 34.0k | 103 | Trivy是用于扫描容器、Kubernetes、代码仓库等的全面安全工具，支持检测漏洞、配置错误、敏感信息及SBOM。基于Go语言开发，提供多平台集成与实时扫描能力。 |
+| 14 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 41.2k | 1.0k | RuView是一款基于Rust的边缘AI系统，通过分析WiFi信号中的信道状态信息（CSI）实现无接触的人体姿态估计、生命体征监测及存在检测，具备实时性与本地化自学习能力。 |
 
-[查看完整数据](api/github/2026-03-23.json)
+[查看完整数据](api/github/2026-03-24.json)
 <!-- END GITHUB TRENDING -->
 
 
