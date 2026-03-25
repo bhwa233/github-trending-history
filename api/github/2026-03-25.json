@@ -1,0 +1,241 @@
+{
+  "date": "2026-03-25",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 7551,
+      "forks": 708,
+      "todayStars": 1342,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "aiSummary": {
+        "summary": "该项目是Python编写的AI工具，可跨Reddit、X、YouTube等平台抓取最近30天的社区讨论数据，生成结构化摘要并支持多平台对比分析，适用于实时追踪网络热点与技术趋势。",
+        "techStack": [
+          "Python",
+          "API集成",
+          "数据爬虫"
+        ],
+        "useCase": "适用于研究人员、市场分析师或开发者快速获取特定主题的实时网络舆论与技术动态"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "bytedance/deer-flow",
+      "description": "An open-source SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "language": "Python",
+      "stars": 46102,
+      "forks": 5454,
+      "todayStars": 3787,
+      "url": "https://github.com/bytedance/deer-flow",
+      "aiSummary": {
+        "summary": "DeerFlow是字节跳动开源的超级代理框架，通过子代理、记忆、沙盒等技术协同处理复杂任务，支持扩展技能和工具，适用于自动化研究、开发及多步骤任务处理。",
+        "techStack": [
+          "Python",
+          "沙盒技术",
+          "分布式架构"
+        ],
+        "useCase": "自动化研究开发与复杂任务流程管理"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "BerriAI/litellm",
+      "description": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
+      "language": "Python",
+      "stars": 40630,
+      "forks": 6712,
+      "todayStars": 289,
+      "url": "https://github.com/BerriAI/litellm",
+      "aiSummary": {
+        "summary": "BerriAI/litellm 是一个支持100+大语言模型的Python SDK与AI网关代理，提供统一OpenAI格式接口，具备成本追踪、防护机制、负载均衡及日志功能，简化多模型API集成与管理。",
+        "techStack": [
+          "Python",
+          "OpenAI API",
+          "代理服务器"
+        ],
+        "useCase": "适用于需要统一接入和管理多种大语言模型API的场景，提升开发效率与成本控制能力。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "stars": 6808,
+      "forks": 893,
+      "todayStars": 2353,
+      "url": "https://github.com/pascalorg/editor",
+      "aiSummary": {
+        "summary": "基于React Three Fiber和WebGPU的3D建筑编辑器，支持场景状态管理、实时渲染和交互式设计，采用Zustand进行跨模块状态共享。",
+        "techStack": [
+          "TypeScript",
+          "React Three Fiber",
+          "WebGPU",
+          "Zustand",
+          "Turborepo"
+        ],
+        "useCase": "建筑行业3D设计与协作开发场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "letta-ai/claude-subconscious",
+      "description": "Give Claude Code a subconscious",
+      "language": "TypeScript",
+      "stars": 1430,
+      "forks": 110,
+      "todayStars": 71,
+      "url": "https://github.com/letta-ai/claude-subconscious",
+      "aiSummary": {
+        "summary": "该项目为Claude Code开发了一个后台代理，通过Letta的内存系统和工具访问能力，实现跨会话记忆、文件分析和上下文引导，增强代码开发的持续性与智能性。",
+        "techStack": [
+          "TypeScript",
+          "Letta SDK",
+          "Claude API"
+        ],
+        "useCase": "需要持续上下文记忆与跨会话智能辅助的代码开发场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "stars": 26164,
+      "forks": 2835,
+      "todayStars": 1173,
+      "url": "https://github.com/ruvnet/ruflo",
+      "aiSummary": {
+        "summary": "ruvnet/ruflo 是一个基于TypeScript的Claude代理编排平台，支持多智能体协作与自主工作流管理，提供RAG集成和Claude Code/Codex原生支持，适用于企业级对话式AI系统开发。",
+        "techStack": [
+          "TypeScript",
+          "RAG",
+          "Claude Code"
+        ],
+        "useCase": "企业级智能代理系统与自动化流程编排"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "stars": 16582,
+      "forks": 1578,
+      "todayStars": 1717,
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "aiSummary": {
+        "summary": "Project N.O.M.A.D. 是一个自包含的离线知识服务器，集成工具、AI和知识库，通过浏览器访问。基于Docker容器化管理，支持终端安装和浏览器交互，适用于无网络环境下的信息获取与操作。",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Shell"
+        ],
+        "useCase": "在无网络或紧急情况下，提供离线知识存储与智能交互服务"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 42245,
+      "forks": 5752,
+      "todayStars": 1083,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView利用WiFi信号实现无摄像头的实时人体姿态估计、生命体征监测和存在检测，通过分析CSI扰动结合边缘计算与机器学习，无需云端支持即可在低成本硬件上运行。",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "智能环境感知与无接触健康监测场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "supermemoryai/supermemory",
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "language": "TypeScript",
+      "stars": 19189,
+      "forks": 1808,
+      "todayStars": 809,
+      "url": "https://github.com/supermemoryai/supermemory",
+      "aiSummary": {
+        "summary": "Supermemory是面向AI的高性能内存与上下文引擎，支持自动对话记忆提取、用户画像构建、知识更新处理及多模态文件解析，集成RAG和实时连接器实现持久化记忆管理。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要持久化记忆和上下文理解的AI助手、企业级智能应用开发"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "FujiwaraChoki/MoneyPrinterV2",
+      "description": "Automate the process of making money online.",
+      "language": "Python",
+      "stars": 25566,
+      "forks": 2648,
+      "todayStars": 1065,
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "aiSummary": {
+        "summary": "MoneyPrinterV2 是一个自动化在线赚钱工具，支持Twitter/YouTube自动化、联盟营销及本地企业冷拓客功能。采用模块化设计，集成CRON任务调度，提供多语言版本支持，适用于互联网营销场景。",
+        "techStack": [
+          "Python",
+          "CRON Jobs",
+          "Twitter API",
+          "YouTube API"
+        ],
+        "useCase": "个人或企业用户自动化实施网络盈利策略"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "usestrix/strix",
+      "description": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "stars": 21715,
+      "forks": 2302,
+      "todayStars": 215,
+      "url": "https://github.com/usestrix/strix",
+      "aiSummary": {
+        "summary": "Strix是一个开源AI安全工具，通过动态分析和PoC验证自动检测应用漏洞并提供修复方案，支持CI/CD集成与多LLM平台对接，提升安全测试效率。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "自动化应用安全测试与漏洞修复"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "hsliuping/TradingAgents-CN",
+      "description": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
+      "language": "Python",
+      "stars": 21291,
+      "forks": 4427,
+      "todayStars": 449,
+      "url": "https://github.com/hsliuping/TradingAgents-CN",
+      "aiSummary": {
+        "summary": "基于多智能体LLM的中文金融分析框架，支持A股/港股/美股研究，提供技术指标计算、智能模型选择、实时数据推送及多格式报告导出，适用于合规的股票策略实验与教学。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "Vue3",
+          "MongoDB",
+          "Redis"
+        ],
+        "useCase": "面向中文用户的金融分析与策略研究平台"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-25T23:42:12.081Z",
+    "duration": "129s",
+    "version": "1.0.0"
+  }
+}
