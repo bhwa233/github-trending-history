@@ -67,24 +67,21 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-25 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-03-26 | **成功**: 9 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | AI agent skill that researches any topic across Re... | Python | 7.6k | 1.3k | 该项目是Python编写的AI工具，可跨Reddit、X、YouTube等平台抓取最近30天的社区讨论数据，生成结构化摘要并支持多平台对比分析，适用于实时追踪网络热点与技术趋势。 |
-| 2 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | An open-source SuperAgent harness that researches,... | Python | 46.1k | 3.8k | DeerFlow是字节跳动开源的超级代理框架，通过子代理、记忆、沙盒等技术协同处理复杂任务，支持扩展技能和工具，适用于自动化研究、开发及多步骤任务处理。 |
-| 3 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | Python SDK, Proxy Server (AI Gateway) to call 100+... | Python | 40.6k | 289 | BerriAI/litellm 是一个支持100+大语言模型的Python SDK与AI网关代理，提供统一OpenAI格式接口，具备成本追踪、防护机制、负载均衡及日志功能，简化多模型API集成与管理。 |
-| 4 | [pascalorg/editor](https://github.com/pascalorg/editor) | Create and share 3D architectural projects.... | TypeScript | 6.8k | 2.4k | 基于React Three Fiber和WebGPU的3D建筑编辑器，支持场景状态管理、实时渲染和交互式设计，采用Zustand进行跨模块状态共享。 |
-| 5 | [letta-ai/claude-subconscious](https://github.com/letta-ai/claude-subconscious) | Give Claude Code a subconscious... | TypeScript | 1.4k | 71 | 该项目为Claude Code开发了一个后台代理，通过Letta的内存系统和工具访问能力，实现跨会话记忆、文件分析和上下文引导，增强代码开发的持续性与智能性。 |
-| 6 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The leading agent orchestration platform for Cl... | TypeScript | 26.2k | 1.2k | ruvnet/ruflo 是一个基于TypeScript的Claude代理编排平台，支持多智能体协作与自主工作流管理，提供RAG集成和Claude Code/Codex原生支持，适用于企业级对话式AI系统开发。 |
-| 7 | [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Project N.O.M.A.D, is a self-contained, offline su... | TypeScript | 16.6k | 1.7k | Project N.O.M.A.D. 是一个自包含的离线知识服务器，集成工具、AI和知识库，通过浏览器访问。基于Docker容器化管理，支持终端安装和浏览器交互，适用于无网络环境下的信息获取与操作。 |
-| 8 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 42.2k | 1.1k | RuView利用WiFi信号实现无摄像头的实时人体姿态估计、生命体征监测和存在检测，通过分析CSI扰动结合边缘计算与机器学习，无需云端支持即可在低成本硬件上运行。 |
-| 9 | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scal... | TypeScript | 19.2k | 809 | Supermemory是面向AI的高性能内存与上下文引擎，支持自动对话记忆提取、用户画像构建、知识更新处理及多模态文件解析，集成RAG和实时连接器实现持久化记忆管理。 |
-| 10 | [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | Automate the process of making money online.... | Python | 25.6k | 1.1k | MoneyPrinterV2 是一个自动化在线赚钱工具，支持Twitter/YouTube自动化、联盟营销及本地企业冷拓客功能。采用模块化设计，集成CRON任务调度，提供多语言版本支持，适用于互联网营销场景。 |
-| 11 | [usestrix/strix](https://github.com/usestrix/strix) | Open-source AI hackers to find and fix your app’s ... | Python | 21.7k | 215 | Strix是一个开源AI安全工具，通过动态分析和PoC验证自动检测应用漏洞并提供修复方案，支持CI/CD集成与多LLM平台对接，提升安全测试效率。 |
-| 12 | [hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN) | 基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版... | Python | 21.3k | 449 | 基于多智能体LLM的中文金融分析框架，支持A股/港股/美股研究，提供技术指标计算、智能模型选择、实时数据推送及多格式报告导出，适用于合规的股票策略实验与教学。 |
+| 1 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | AI agent skill that researches any topic across Re... | Python | 10.2k | 2.7k | AI代理技能，跨Reddit、X、YouTube等平台抓取近30天热点内容，通过社区投票、分享数据生成带引用的综合摘要。支持比较模式分析对比话题，自动保存研究结果并优化配置管理。 |
+| 2 | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Teams-first Multi-agent orchestration for Claude C... | TypeScript | 12.6k | 576 | oh-my-claudecode 是面向 Claude Code 的多代理协作工具，提供团队模式与自动化流程，支持 CLI 快速构建 REST API、错误修复等任务，通过深度访谈明确需求并实现零学习曲线开发。 |
+| 3 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 19.0k | 269 | Dexter是面向金融研究的自主代理系统，支持任务规划、自我反思与实时数据分析。能分解复杂金融问题为研究步骤，调用数据接口验证结果，并具备安全机制防止异常执行。 |
+| 4 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 43.1k | 1.0k | RuView是一款基于Rust的边缘AI系统，通过分析WiFi信号CSI扰动实现人体姿态、呼吸/心率监测及存在检测，无需摄像头或云服务。采用自学习嵌入模型，部署在ESP32等低成本硬件上，实时感知环境并持续优化模型。 |
+| 5 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | An open-source long-horizon SuperAgent harness tha... | Python | 48.2k | 2.4k | DeerFlow 是字节跳动开源的超代理框架，通过子代理、记忆、沙盒等技术实现长周期任务处理，支持多模型协作与复杂流程自动化，适用于研究、开发及长期任务管理。 |
+| 6 | [Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper) | ... | Jupyter Notebook | 11.2k | 1.4k | 基于Whisper的高性能音频转录工具，通过Flash Attention 2、批量处理等优化技术，实现超快速度（150分钟音频仅需1分18秒）。提供CLI接口，支持多种模型优化方案。 |
+| 7 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | Build and run agents you can see, understand and t... | Python | 20.4k | 439 | AgentScope是一款面向智能代理的生产级开发框架，支持快速构建可信任的AI代理系统。提供ReAct代理、多模态交互、实时语音、记忆压缩、多代理协作等核心功能，强调灵活性与可扩展性，适用于复杂AI代理场景。 |
+| 8 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, power... | TypeScript | 41.2k | 198 | twenty 是一个开源客户关系管理系统（CRM），旨在替代 Salesforce。提供自定义数据模型、工作流自动化、多视图布局、权限管理等功能，支持本地部署。基于社区开发，强调开源协作与可扩展性，适用于需要灵活定制的企业级客户管理场景。 |
+| 9 | [datalab-to/chandra](https://github.com/datalab-to/chandra) | OCR model that handles complex tables, forms, hand... | Python | 6.1k | 546 | Chandra OCR 2是一款先进的OCR模型，支持90+语言，可将PDF和图像转为结构化HTML/Markdown/JSON，精准处理表格、手写、表单及复杂布局，提供本地和远程推理模式。 |
 
-[查看完整数据](api/github/2026-03-25.json)
+[查看完整数据](api/github/2026-03-26.json)
 <!-- END GITHUB TRENDING -->
 
 

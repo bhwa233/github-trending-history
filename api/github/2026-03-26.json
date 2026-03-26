@@ -1,0 +1,191 @@
+{
+  "date": "2026-03-26",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 10159,
+      "forks": 878,
+      "todayStars": 2684,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "aiSummary": {
+        "summary": "AI代理技能，跨Reddit、X、YouTube等平台抓取近30天热点内容，通过社区投票、分享数据生成带引用的综合摘要。支持比较模式分析对比话题，自动保存研究结果并优化配置管理。",
+        "techStack": [
+          "Python",
+          "Web爬虫",
+          "API集成"
+        ],
+        "useCase": "研究人员或从业者快速获取多平台热点话题的综合分析报告"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "Yeachan-Heo/oh-my-claudecode",
+      "description": "Teams-first Multi-agent orchestration for Claude Code",
+      "language": "TypeScript",
+      "stars": 12555,
+      "forks": 835,
+      "todayStars": 576,
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "aiSummary": {
+        "summary": "oh-my-claudecode 是面向 Claude Code 的多代理协作工具，提供团队模式与自动化流程，支持 CLI 快速构建 REST API、错误修复等任务，通过深度访谈明确需求并实现零学习曲线开发。",
+        "techStack": [
+          "TypeScript",
+          "Claude Code",
+          "CLI"
+        ],
+        "useCase": "团队协作下的自动化代码开发与任务管理"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "stars": 18952,
+      "forks": 2329,
+      "todayStars": 269,
+      "url": "https://github.com/virattt/dexter",
+      "aiSummary": {
+        "summary": "Dexter是面向金融研究的自主代理系统，支持任务规划、自我反思与实时数据分析。能分解复杂金融问题为研究步骤，调用数据接口验证结果，并具备安全机制防止异常执行。",
+        "techStack": [
+          "TypeScript",
+          "Bun runtime",
+          "OpenAI API",
+          "Exa API"
+        ],
+        "useCase": "自动化金融数据分析与决策支持"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 43119,
+      "forks": 5844,
+      "todayStars": 1001,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView是一款基于Rust的边缘AI系统，通过分析WiFi信号CSI扰动实现人体姿态、呼吸/心率监测及存在检测，无需摄像头或云服务。采用自学习嵌入模型，部署在ESP32等低成本硬件上，实时感知环境并持续优化模型。",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "机器学习",
+          "信号处理",
+          "边缘计算"
+        ],
+        "useCase": "智能建筑环境下的非接触式人员状态监测与健康追踪"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "bytedance/deer-flow",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "language": "Python",
+      "stars": 48228,
+      "forks": 5746,
+      "todayStars": 2388,
+      "url": "https://github.com/bytedance/deer-flow",
+      "aiSummary": {
+        "summary": "DeerFlow 是字节跳动开源的超代理框架，通过子代理、记忆、沙盒等技术实现长周期任务处理，支持多模型协作与复杂流程自动化，适用于研究、开发及长期任务管理。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "AI Frameworks"
+        ],
+        "useCase": "适用于复杂任务自动化、长期研究项目和多步骤流程处理。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Vaibhavs10/insanely-fast-whisper",
+      "description": "",
+      "language": "Jupyter Notebook",
+      "stars": 11150,
+      "forks": 815,
+      "todayStars": 1381,
+      "url": "https://github.com/Vaibhavs10/insanely-fast-whisper",
+      "aiSummary": {
+        "summary": "基于Whisper的高性能音频转录工具，通过Flash Attention 2、批量处理等优化技术，实现超快速度（150分钟音频仅需1分18秒）。提供CLI接口，支持多种模型优化方案。",
+        "techStack": [
+          "Transformers",
+          "Flash Attention 2",
+          "Optimum"
+        ],
+        "useCase": "需要高速本地化音频转录的场景，如语音数据分析、内容标注等"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "agentscope-ai/agentscope",
+      "description": "Build and run agents you can see, understand and trust.",
+      "language": "Python",
+      "stars": 20361,
+      "forks": 1984,
+      "todayStars": 439,
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "aiSummary": {
+        "summary": "AgentScope是一款面向智能代理的生产级开发框架，支持快速构建可信任的AI代理系统。提供ReAct代理、多模态交互、实时语音、记忆压缩、多代理协作等核心功能，强调灵活性与可扩展性，适用于复杂AI代理场景。",
+        "techStack": [
+          "Python",
+          "LLM框架",
+          "实时语音处理"
+        ],
+        "useCase": "开发需要多模态交互与复杂决策逻辑的AI代理系统"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "twentyhq/twenty",
+      "description": "Building a modern alternative to Salesforce, powered by the community.",
+      "language": "TypeScript",
+      "stars": 41243,
+      "forks": 5500,
+      "todayStars": 198,
+      "url": "https://github.com/twentyhq/twenty",
+      "aiSummary": {
+        "summary": "twenty 是一个开源客户关系管理系统（CRM），旨在替代 Salesforce。提供自定义数据模型、工作流自动化、多视图布局、权限管理等功能，支持本地部署。基于社区开发，强调开源协作与可扩展性，适用于需要灵活定制的企业级客户管理场景。",
+        "techStack": [
+          "TypeScript",
+          "NestJS",
+          "React",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "useCase": "企业级客户关系管理及自定义数据管理"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "datalab-to/chandra",
+      "description": "OCR model that handles complex tables, forms, handwriting with full layout.",
+      "language": "Python",
+      "stars": 6116,
+      "forks": 671,
+      "todayStars": 546,
+      "url": "https://github.com/datalab-to/chandra",
+      "aiSummary": {
+        "summary": "Chandra OCR 2是一款先进的OCR模型，支持90+语言，可将PDF和图像转为结构化HTML/Markdown/JSON，精准处理表格、手写、表单及复杂布局，提供本地和远程推理模式。",
+        "techStack": [
+          "Python",
+          "HuggingFace",
+          "vLLM",
+          "Streamlit"
+        ],
+        "useCase": "适用于需要高精度文档结构化处理的学术、金融及表单识别场景。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-26T23:39:04.208Z",
+    "duration": "97s",
+    "version": "1.0.0"
+  }
+}
