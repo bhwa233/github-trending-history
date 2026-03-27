@@ -1,0 +1,244 @@
+{
+  "date": "2026-03-27",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 12551,
+      "forks": 1012,
+      "todayStars": 2824,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "aiSummary": {
+        "summary": "AI信息聚合工具，跨平台抓取Reddit、X、YouTube等30天热门内容，生成带引用的结构化摘要。支持对比分析、智能社区发现和本地化存储，适用于快速掌握热点话题和社区共识。",
+        "techStack": [
+          "Python",
+          "ScrapeCreators",
+          "API集成"
+        ],
+        "useCase": "研究人员或从业者快速获取多平台热点话题的全面分析报告"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "hacksider/Deep-Live-Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "language": "Python",
+      "stars": 82985,
+      "forks": 12120,
+      "todayStars": 1546,
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "aiSummary": {
+        "summary": "该项目是一款基于Python的实时人脸交换与视频深度伪造工具，仅需单张图片即可生成深度伪造内容。强调伦理与法律合规，内置内容审查机制，禁止处理不当素材，用户需获取人脸授权并标注深度伪造内容。",
+        "techStack": [
+          "Python",
+          "深度学习",
+          "实时视频处理"
+        ],
+        "useCase": "适用于AI艺术创作、视频内容生成及服装设计等合法合规的深度伪造应用场景。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "SakanaAI/AI-Scientist-v2",
+      "description": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "language": "Python",
+      "stars": 2836,
+      "forks": 476,
+      "todayStars": 125,
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "aiSummary": {
+        "summary": "AI-Scientist-v2是自主科学发现系统，通过代理树搜索实现自动化假设生成、实验执行、数据分析和论文撰写。相比v1，其无需人工模板，跨ML领域通用，适合开放性科学探索，但依赖LLM代码执行存在风险。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Agentic Tree Search"
+        ],
+        "useCase": "适用于需要自动化科学发现的开放领域研究场景"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars": 24667,
+      "forks": 2702,
+      "todayStars": 320,
+      "url": "https://github.com/microsoft/VibeVoice",
+      "aiSummary": {
+        "summary": "VibeVoice是微软开源的语音AI框架，包含ASR和TTS模型。ASR支持60分钟长音频单次处理，生成带说话人、时间戳的结构化转录，覆盖50+语言。TTS可合成90分钟多说话人语音，支持实时流式输入。项目整合Hugging Face Transformers，提供vLLM加速推理。",
+        "techStack": [
+          "Python",
+          "Hugging Face Transformers",
+          "vLLM"
+        ],
+        "useCase": "适用于需要多语言语音识别与合成的实时语音处理场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "twentyhq/twenty",
+      "description": "Building a modern alternative to Salesforce, powered by the community.",
+      "language": "TypeScript",
+      "stars": 41990,
+      "forks": 5571,
+      "todayStars": 661,
+      "url": "https://github.com/twentyhq/twenty",
+      "aiSummary": {
+        "summary": "twentyhq/twenty 是一个开源客户关系管理系统（CRM），旨在替代Salesforce。提供自定义数据视图、工作流自动化、权限管理、多对象字段配置等功能，支持kanban、表格等多种布局方式。基于社区开发，强调开源协作与低成本替代方案。",
+        "techStack": [
+          "TypeScript",
+          "NestJS",
+          "React"
+        ],
+        "useCase": "企业级客户关系管理与业务流程自动化"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "datalab-to/chandra",
+      "description": "OCR model that handles complex tables, forms, handwriting with full layout.",
+      "language": "Python",
+      "stars": 6988,
+      "forks": 732,
+      "todayStars": 913,
+      "url": "https://github.com/datalab-to/chandra",
+      "aiSummary": {
+        "summary": "Chandra OCR 2 是先进的OCR模型，支持复杂表格、表单、手写体识别，可将图片/PDF转为带布局信息的Markdown/HTML/JSON。具备90+语言支持、数学公式处理、图像提取及两种推理模式（HuggingFace/vLLM）。",
+        "techStack": [
+          "Python",
+          "Hugging Face",
+          "vLLM",
+          "Streamlit"
+        ],
+        "useCase": "适用于学术文档、财务报表、多语言表单等复杂结构化数据提取场景。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 118440,
+      "forks": 9554,
+      "todayStars": 2797,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于代理技能框架的软件开发方法论，通过需求分析、设计确认、TDD 实现和子代理协作流程，提升编码自动化效率。强调 YAGNI、DRY 原则，支持 Claude 等编码代理自主执行开发任务。",
+        "techStack": [
+          "Shell",
+          "AI 代理框架",
+          "TDD 工具链"
+        ],
+        "useCase": "适用于需要自动化软件开发流程的团队或个人，特别是使用编码代理的开发者。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "stars": 19654,
+      "forks": 2385,
+      "todayStars": 673,
+      "url": "https://github.com/virattt/dexter",
+      "aiSummary": {
+        "summary": "Dexter是面向金融研究的自主代理系统，支持任务规划、实时数据处理与自我验证，通过分解复杂问题生成结构化研究方案并迭代优化结果。",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "OpenAI API",
+          "Exa API"
+        ],
+        "useCase": "金融数据分析与自动化研究"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Yeachan-Heo/oh-my-claudecode",
+      "description": "Teams-first Multi-agent orchestration for Claude Code",
+      "language": "TypeScript",
+      "stars": 13913,
+      "forks": 901,
+      "todayStars": 1402,
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "aiSummary": {
+        "summary": "oh-my-claudecode 是基于 Claude Code 的多智能体编排工具，通过团队协作模式简化开发流程。提供自动化构建、需求深度访谈、tmux CLI 工人管理等功能，降低使用门槛并提升团队开发效率。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要团队协作的代码开发项目，通过多智能体编排提升 Claude Code 的使用效率。"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "FreeCAD/FreeCAD",
+      "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
+      "language": "C++",
+      "stars": 29636,
+      "forks": 5320,
+      "todayStars": 173,
+      "url": "https://github.com/FreeCAD/FreeCAD",
+      "aiSummary": {
+        "summary": "FreeCAD是一款开源的跨平台3D参数化建模器，支持从2D草图到3D模型的转换，提供Python API和多种工程设计功能，适用于产品设计、机械工程及建筑领域。",
+        "techStack": [
+          "C++",
+          "OpenCASCADE",
+          "Python",
+          "Qt"
+        ],
+        "useCase": "适用于产品设计、机械工程和建筑等领域的3D参数化建模与设计"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Vaibhavs10/insanely-fast-whisper",
+      "description": "",
+      "language": "Jupyter Notebook",
+      "stars": 11851,
+      "forks": 845,
+      "todayStars": 1075,
+      "url": "https://github.com/Vaibhavs10/insanely-fast-whisper",
+      "aiSummary": {
+        "summary": "基于Whisper的高性能音频转录工具，通过Flash Attention 2、批量处理和BetterTransformers优化，实现150分钟音频98秒内完成转录。提供轻量级CLI接口，支持多种模型和精度配置。",
+        "techStack": [
+          "HuggingFace Transformers",
+          "Optimum",
+          "Flash Attention 2"
+        ],
+        "useCase": "需要快速实现高精度音频转录的场景，如学术研究、内容制作和语音数据分析"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "onyx-dot-app/onyx",
+      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+      "language": "Python",
+      "stars": 19104,
+      "forks": 2589,
+      "todayStars": 512,
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "aiSummary": {
+        "summary": "开源AI平台，提供自托管聊天界面支持所有LLM，集成Agents、RAG、Web搜索、40+知识源连接器及代码解释等高级功能，适配本地化部署与多云环境。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Kubernetes",
+          "Terraform"
+        ],
+        "useCase": "需要自托管AI聊天应用的企业或开发者团队"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-27T23:40:29.947Z",
+    "duration": "120s",
+    "version": "1.0.0"
+  }
+}

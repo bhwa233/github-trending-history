@@ -67,21 +67,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-26 | **成功**: 9 | **失败**: 0
+**最后更新**: 2026-03-27 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | AI agent skill that researches any topic across Re... | Python | 10.2k | 2.7k | AI代理技能，跨Reddit、X、YouTube等平台抓取近30天热点内容，通过社区投票、分享数据生成带引用的综合摘要。支持比较模式分析对比话题，自动保存研究结果并优化配置管理。 |
-| 2 | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Teams-first Multi-agent orchestration for Claude C... | TypeScript | 12.6k | 576 | oh-my-claudecode 是面向 Claude Code 的多代理协作工具，提供团队模式与自动化流程，支持 CLI 快速构建 REST API、错误修复等任务，通过深度访谈明确需求并实现零学习曲线开发。 |
-| 3 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 19.0k | 269 | Dexter是面向金融研究的自主代理系统，支持任务规划、自我反思与实时数据分析。能分解复杂金融问题为研究步骤，调用数据接口验证结果，并具备安全机制防止异常执行。 |
-| 4 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 43.1k | 1.0k | RuView是一款基于Rust的边缘AI系统，通过分析WiFi信号CSI扰动实现人体姿态、呼吸/心率监测及存在检测，无需摄像头或云服务。采用自学习嵌入模型，部署在ESP32等低成本硬件上，实时感知环境并持续优化模型。 |
-| 5 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | An open-source long-horizon SuperAgent harness tha... | Python | 48.2k | 2.4k | DeerFlow 是字节跳动开源的超代理框架，通过子代理、记忆、沙盒等技术实现长周期任务处理，支持多模型协作与复杂流程自动化，适用于研究、开发及长期任务管理。 |
-| 6 | [Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper) | ... | Jupyter Notebook | 11.2k | 1.4k | 基于Whisper的高性能音频转录工具，通过Flash Attention 2、批量处理等优化技术，实现超快速度（150分钟音频仅需1分18秒）。提供CLI接口，支持多种模型优化方案。 |
-| 7 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | Build and run agents you can see, understand and t... | Python | 20.4k | 439 | AgentScope是一款面向智能代理的生产级开发框架，支持快速构建可信任的AI代理系统。提供ReAct代理、多模态交互、实时语音、记忆压缩、多代理协作等核心功能，强调灵活性与可扩展性，适用于复杂AI代理场景。 |
-| 8 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, power... | TypeScript | 41.2k | 198 | twenty 是一个开源客户关系管理系统（CRM），旨在替代 Salesforce。提供自定义数据模型、工作流自动化、多视图布局、权限管理等功能，支持本地部署。基于社区开发，强调开源协作与可扩展性，适用于需要灵活定制的企业级客户管理场景。 |
-| 9 | [datalab-to/chandra](https://github.com/datalab-to/chandra) | OCR model that handles complex tables, forms, hand... | Python | 6.1k | 546 | Chandra OCR 2是一款先进的OCR模型，支持90+语言，可将PDF和图像转为结构化HTML/Markdown/JSON，精准处理表格、手写、表单及复杂布局，提供本地和远程推理模式。 |
+| 1 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | AI agent skill that researches any topic across Re... | Python | 12.6k | 2.8k | AI信息聚合工具，跨平台抓取Reddit、X、YouTube等30天热门内容，生成带引用的结构化摘要。支持对比分析、智能社区发现和本地化存储，适用于快速掌握热点话题和社区共识。 |
+| 2 | [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | real time face swap and one-click video deepfake w... | Python | 83.0k | 1.5k | 该项目是一款基于Python的实时人脸交换与视频深度伪造工具，仅需单张图片即可生成深度伪造内容。强调伦理与法律合规，内置内容审查机制，禁止处理不当素材，用户需获取人脸授权并标注深度伪造内容。 |
+| 3 | [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | The AI Scientist-v2: Workshop-Level Automated Scie... | Python | 2.8k | 125 | AI-Scientist-v2是自主科学发现系统，通过代理树搜索实现自动化假设生成、实验执行、数据分析和论文撰写。相比v1，其无需人工模板，跨ML领域通用，适合开放性科学探索，但依赖LLM代码执行存在风险。 |
+| 4 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI... | Python | 24.7k | 320 | VibeVoice是微软开源的语音AI框架，包含ASR和TTS模型。ASR支持60分钟长音频单次处理，生成带说话人、时间戳的结构化转录，覆盖50+语言。TTS可合成90分钟多说话人语音，支持实时流式输入。项目整合Hugging Face Transformers，提供vLLM加速推理。 |
+| 5 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, power... | TypeScript | 42.0k | 661 | twentyhq/twenty 是一个开源客户关系管理系统（CRM），旨在替代Salesforce。提供自定义数据视图、工作流自动化、权限管理、多对象字段配置等功能，支持kanban、表格等多种布局方式。基于社区开发，强调开源协作与低成本替代方案。 |
+| 6 | [datalab-to/chandra](https://github.com/datalab-to/chandra) | OCR model that handles complex tables, forms, hand... | Python | 7.0k | 913 | Chandra OCR 2 是先进的OCR模型，支持复杂表格、表单、手写体识别，可将图片/PDF转为带布局信息的Markdown/HTML/JSON。具备90+语言支持、数学公式处理、图像提取及两种推理模式（HuggingFace/vLLM）。 |
+| 7 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 118.4k | 2.8k | Superpowers 是一个基于代理技能框架的软件开发方法论，通过需求分析、设计确认、TDD 实现和子代理协作流程，提升编码自动化效率。强调 YAGNI、DRY 原则，支持 Claude 等编码代理自主执行开发任务。 |
+| 8 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 19.7k | 673 | Dexter是面向金融研究的自主代理系统，支持任务规划、实时数据处理与自我验证，通过分解复杂问题生成结构化研究方案并迭代优化结果。 |
+| 9 | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Teams-first Multi-agent orchestration for Claude C... | TypeScript | 13.9k | 1.4k | oh-my-claudecode 是基于 Claude Code 的多智能体编排工具，通过团队协作模式简化开发流程。提供自动化构建、需求深度访谈、tmux CLI 工人管理等功能，降低使用门槛并提升团队开发效率。 |
+| 10 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | Official source code of FreeCAD, a free and openso... | C++ | 29.6k | 173 | FreeCAD是一款开源的跨平台3D参数化建模器，支持从2D草图到3D模型的转换，提供Python API和多种工程设计功能，适用于产品设计、机械工程及建筑领域。 |
+| 11 | [Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper) | ... | Jupyter Notebook | 11.9k | 1.1k | 基于Whisper的高性能音频转录工具，通过Flash Attention 2、批量处理和BetterTransformers优化，实现150分钟音频98秒内完成转录。提供轻量级CLI接口，支持多种模型和精度配置。 |
+| 12 | [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | Open Source AI Platform - AI Chat with advanced fe... | Python | 19.1k | 512 | 开源AI平台，提供自托管聊天界面支持所有LLM，集成Agents、RAG、Web搜索、40+知识源连接器及代码解释等高级功能，适配本地化部署与多云环境。 |
 
-[查看完整数据](api/github/2026-03-26.json)
+[查看完整数据](api/github/2026-03-27.json)
 <!-- END GITHUB TRENDING -->
 
 
