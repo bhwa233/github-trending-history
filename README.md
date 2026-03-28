@@ -67,24 +67,21 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-27 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-03-28 | **成功**: 9 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | AI agent skill that researches any topic across Re... | Python | 12.6k | 2.8k | AI信息聚合工具，跨平台抓取Reddit、X、YouTube等30天热门内容，生成带引用的结构化摘要。支持对比分析、智能社区发现和本地化存储，适用于快速掌握热点话题和社区共识。 |
-| 2 | [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | real time face swap and one-click video deepfake w... | Python | 83.0k | 1.5k | 该项目是一款基于Python的实时人脸交换与视频深度伪造工具，仅需单张图片即可生成深度伪造内容。强调伦理与法律合规，内置内容审查机制，禁止处理不当素材，用户需获取人脸授权并标注深度伪造内容。 |
-| 3 | [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | The AI Scientist-v2: Workshop-Level Automated Scie... | Python | 2.8k | 125 | AI-Scientist-v2是自主科学发现系统，通过代理树搜索实现自动化假设生成、实验执行、数据分析和论文撰写。相比v1，其无需人工模板，跨ML领域通用，适合开放性科学探索，但依赖LLM代码执行存在风险。 |
-| 4 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI... | Python | 24.7k | 320 | VibeVoice是微软开源的语音AI框架，包含ASR和TTS模型。ASR支持60分钟长音频单次处理，生成带说话人、时间戳的结构化转录，覆盖50+语言。TTS可合成90分钟多说话人语音，支持实时流式输入。项目整合Hugging Face Transformers，提供vLLM加速推理。 |
-| 5 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, power... | TypeScript | 42.0k | 661 | twentyhq/twenty 是一个开源客户关系管理系统（CRM），旨在替代Salesforce。提供自定义数据视图、工作流自动化、权限管理、多对象字段配置等功能，支持kanban、表格等多种布局方式。基于社区开发，强调开源协作与低成本替代方案。 |
-| 6 | [datalab-to/chandra](https://github.com/datalab-to/chandra) | OCR model that handles complex tables, forms, hand... | Python | 7.0k | 913 | Chandra OCR 2 是先进的OCR模型，支持复杂表格、表单、手写体识别，可将图片/PDF转为带布局信息的Markdown/HTML/JSON。具备90+语言支持、数学公式处理、图像提取及两种推理模式（HuggingFace/vLLM）。 |
-| 7 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 118.4k | 2.8k | Superpowers 是一个基于代理技能框架的软件开发方法论，通过需求分析、设计确认、TDD 实现和子代理协作流程，提升编码自动化效率。强调 YAGNI、DRY 原则，支持 Claude 等编码代理自主执行开发任务。 |
-| 8 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 19.7k | 673 | Dexter是面向金融研究的自主代理系统，支持任务规划、实时数据处理与自我验证，通过分解复杂问题生成结构化研究方案并迭代优化结果。 |
-| 9 | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Teams-first Multi-agent orchestration for Claude C... | TypeScript | 13.9k | 1.4k | oh-my-claudecode 是基于 Claude Code 的多智能体编排工具，通过团队协作模式简化开发流程。提供自动化构建、需求深度访谈、tmux CLI 工人管理等功能，降低使用门槛并提升团队开发效率。 |
-| 10 | [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) | Official source code of FreeCAD, a free and openso... | C++ | 29.6k | 173 | FreeCAD是一款开源的跨平台3D参数化建模器，支持从2D草图到3D模型的转换，提供Python API和多种工程设计功能，适用于产品设计、机械工程及建筑领域。 |
-| 11 | [Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper) | ... | Jupyter Notebook | 11.9k | 1.1k | 基于Whisper的高性能音频转录工具，通过Flash Attention 2、批量处理和BetterTransformers优化，实现150分钟音频98秒内完成转录。提供轻量级CLI接口，支持多种模型和精度配置。 |
-| 12 | [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | Open Source AI Platform - AI Chat with advanced fe... | Python | 19.1k | 512 | 开源AI平台，提供自托管聊天界面支持所有LLM，集成Agents、RAG、Web搜索、40+知识源连接器及代码解释等高级功能，适配本地化部署与多云环境。 |
+| 1 | [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | real time face swap and one-click video deepfake w... | Python | 84.3k | 1.8k | 基于Python的实时人脸交换与视频深度伪造工具，仅需单张图像即可生成深度伪造内容。内置内容审核机制，防止生成不当素材，适用于艺术创作与AI内容生成场景。 |
+| 2 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 120.7k | 2.3k | Superpowers 是一个基于可组合技能的软件开发框架，通过代理自动化流程提升开发效率。核心流程包括需求澄清、分块设计、TDD实施及子代理协作，强调YAGNI、DRY原则，支持编码代理自主执行任务。 |
+| 3 | [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | The AI Scientist-v2: Workshop-Level Automated Scie... | Python | 3.4k | 507 | AI-Scientist-v2 是一个基于代理树搜索的自动化科学发现系统，可自主生成假设、运行实验、分析数据并撰写论文。相比v1，其无需人类模板，跨ML领域通用，采用渐进式搜索策略，适用于开放性科学探索场景。 |
+| 4 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 20.2k | 583 | Dexter是一个用于深度金融研究的自主代理系统，具备任务规划、实时数据分析和自我验证能力，可分解复杂金融问题并生成数据驱动的分析结果。 |
+| 5 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, power... | TypeScript | 42.4k | 562 | Twenty 是一个开源客户关系管理（CRM）平台，旨在替代 Salesforce。它提供自定义布局、对象字段、权限管理、工作流自动化、邮件日历集成等功能，支持社区驱动开发，强调低成本和开放生态。 |
+| 6 | [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | Open Source AI Platform - AI Chat with advanced fe... | Python | 19.7k | 870 | Onyx是一个自托管的AI聊天平台，支持所有LLM和自托管LLM，提供代理、RAG、网络搜索、代码解释器、图像生成等高级功能，适用于需要定制化AI对话系统的场景。 |
+| 7 | [datalab-to/chandra](https://github.com/datalab-to/chandra) | OCR model that handles complex tables, forms, hand... | Python | 7.6k | 679 | Chandra OCR 2 是先进的OCR模型，支持90+语言，可将图片/PDF转为结构化HTML/Markdown/JSON，精准处理表格、手写体、表单及复杂布局，提供本地和云端部署模式。 |
+| 8 | [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) | Build and run agents you can see, understand and t... | Python | 21.6k | 379 | AgentScope是一个面向生产环境的智能代理框架，提供可视化、可解释的代理构建工具，支持实时语音、多代理协作、模型微调及复杂工作流编排，强调灵活性与可扩展性。 |
+| 9 | [apache/superset](https://github.com/apache/superset) | Apache Superset is a Data Visualization and Data E... | TypeScript | 71.4k | 67 | Apache Superset是企业级数据可视化与探索平台，提供无代码图表构建、SQL编辑器、多数据库支持及丰富可视化选项，支持大规模数据实时分析与定制化扩展。 |
 
-[查看完整数据](api/github/2026-03-27.json)
+[查看完整数据](api/github/2026-03-28.json)
 <!-- END GITHUB TRENDING -->
 
 

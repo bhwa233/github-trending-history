@@ -1,0 +1,188 @@
+{
+  "date": "2026-03-28",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "hacksider/Deep-Live-Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "language": "Python",
+      "stars": 84282,
+      "forks": 12312,
+      "todayStars": 1789,
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "aiSummary": {
+        "summary": "基于Python的实时人脸交换与视频深度伪造工具，仅需单张图像即可生成深度伪造内容。内置内容审核机制，防止生成不当素材，适用于艺术创作与AI内容生成场景。",
+        "techStack": [
+          "Python",
+          "深度学习框架",
+          "实时视频处理"
+        ],
+        "useCase": "适用于AI艺术创作、虚拟角色动画及深度伪造内容生成场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 120676,
+      "forks": 9796,
+      "todayStars": 2293,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发框架，通过代理自动化流程提升开发效率。核心流程包括需求澄清、分块设计、TDD实施及子代理协作，强调YAGNI、DRY原则，支持编码代理自主执行任务。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "提升AI编码代理的自动化开发能力，优化团队协作与代码质量"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "SakanaAI/AI-Scientist-v2",
+      "description": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "language": "Python",
+      "stars": 3423,
+      "forks": 520,
+      "todayStars": 507,
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "aiSummary": {
+        "summary": "AI-Scientist-v2 是一个基于代理树搜索的自动化科学发现系统，可自主生成假设、运行实验、分析数据并撰写论文。相比v1，其无需人类模板，跨ML领域通用，采用渐进式搜索策略，适用于开放性科学探索场景。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "CUDA"
+        ],
+        "useCase": "自动化科学发现与开放领域探索"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "stars": 20170,
+      "forks": 2424,
+      "todayStars": 583,
+      "url": "https://github.com/virattt/dexter",
+      "aiSummary": {
+        "summary": "Dexter是一个用于深度金融研究的自主代理系统，具备任务规划、实时数据分析和自我验证能力，可分解复杂金融问题并生成数据驱动的分析结果。",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "OpenAI API",
+          "Financial Datasets API",
+          "Exa API"
+        ],
+        "useCase": "金融数据分析与自动化研究"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "twentyhq/twenty",
+      "description": "Building a modern alternative to Salesforce, powered by the community.",
+      "language": "TypeScript",
+      "stars": 42410,
+      "forks": 5629,
+      "todayStars": 562,
+      "url": "https://github.com/twentyhq/twenty",
+      "aiSummary": {
+        "summary": "Twenty 是一个开源客户关系管理（CRM）平台，旨在替代 Salesforce。它提供自定义布局、对象字段、权限管理、工作流自动化、邮件日历集成等功能，支持社区驱动开发，强调低成本和开放生态。",
+        "techStack": [
+          "TypeScript",
+          "NestJS",
+          "React",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "useCase": "适用于需要自定义且成本敏感的企业级客户关系管理场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "onyx-dot-app/onyx",
+      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+      "language": "Python",
+      "stars": 19731,
+      "forks": 2654,
+      "todayStars": 870,
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "aiSummary": {
+        "summary": "Onyx是一个自托管的AI聊天平台，支持所有LLM和自托管LLM，提供代理、RAG、网络搜索、代码解释器、图像生成等高级功能，适用于需要定制化AI对话系统的场景。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "企业级AI聊天应用开发与部署"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "datalab-to/chandra",
+      "description": "OCR model that handles complex tables, forms, handwriting with full layout.",
+      "language": "Python",
+      "stars": 7569,
+      "forks": 760,
+      "todayStars": 679,
+      "url": "https://github.com/datalab-to/chandra",
+      "aiSummary": {
+        "summary": "Chandra OCR 2 是先进的OCR模型，支持90+语言，可将图片/PDF转为结构化HTML/Markdown/JSON，精准处理表格、手写体、表单及复杂布局，提供本地和云端部署模式。",
+        "techStack": [
+          "Python",
+          "HuggingFace",
+          "vLLM"
+        ],
+        "useCase": "需要高精度文档结构化处理的学术、金融及表单场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "agentscope-ai/agentscope",
+      "description": "Build and run agents you can see, understand and trust.",
+      "language": "Python",
+      "stars": 21594,
+      "forks": 2133,
+      "todayStars": 379,
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "aiSummary": {
+        "summary": "AgentScope是一个面向生产环境的智能代理框架，提供可视化、可解释的代理构建工具，支持实时语音、多代理协作、模型微调及复杂工作流编排，强调灵活性与可扩展性。",
+        "techStack": [
+          "Python",
+          "机器学习框架",
+          "云原生部署"
+        ],
+        "useCase": "适用于需要高复杂度智能代理系统的企业级应用场景开发"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "apache/superset",
+      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+      "language": "TypeScript",
+      "stars": 71447,
+      "forks": 16891,
+      "todayStars": 67,
+      "url": "https://github.com/apache/superset",
+      "aiSummary": {
+        "summary": "Apache Superset是企业级数据可视化与探索平台，提供无代码图表构建、SQL编辑器、多数据库支持及丰富可视化选项，支持大规模数据实时分析与定制化扩展。",
+        "techStack": [
+          "TypeScript",
+          "Python",
+          "React",
+          "SQLAlchemy"
+        ],
+        "useCase": "适用于需要多源数据集成与可视化分析的企业级BI场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-28T23:37:57.763Z",
+    "duration": "99s",
+    "version": "1.0.0"
+  }
+}
