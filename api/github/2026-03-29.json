@@ -1,0 +1,239 @@
+{
+  "date": "2026-03-29",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "stars": 6481,
+      "forks": 719,
+      "todayStars": 1121,
+      "url": "https://github.com/luongnv89/claude-howto",
+      "aiSummary": {
+        "summary": "提供Claude Code的结构化学习路径，包含视觉教程、Mermaid图表和可直接使用的代码模板，帮助用户从基础到高级掌握代理、钩子、技能等核心功能，解决官方文档示例不足的问题。",
+        "techStack": [
+          "Python",
+          "Mermaid",
+          "Claude Code"
+        ],
+        "useCase": "快速上手Claude Code并构建复杂AI工作流与代理系统"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars": 27113,
+      "forks": 2997,
+      "todayStars": 1190,
+      "url": "https://github.com/microsoft/VibeVoice",
+      "aiSummary": {
+        "summary": "VibeVoice 是微软开源的前沿语音AI项目，核心为VibeVoice-ASR语音识别模型，支持60分钟长音频单次处理，生成包含说话人、时间戳和内容的结构化转录，覆盖50+语言。集成Hugging Face Transformers，支持多语言及用户自定义上下文，适用于实时语音转写与长音频处理场景。",
+        "techStack": [
+          "Python",
+          "Hugging Face Transformers",
+          "vLLM"
+        ],
+        "useCase": "适用于需要多语言支持的长音频实时语音转写及结构化内容生成的场景。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 16649,
+      "forks": 2034,
+      "todayStars": 997,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "Hermes-Agent 是一个自我改进的AI代理，支持跨平台对话、闭环学习与技能优化，可部署于多种基础设施。具备多模型兼容、终端交互、定时任务及并行处理能力，适用于需要持续进化和跨场景协作的智能应用。",
+        "techStack": [
+          "Python",
+          "AI框架",
+          "终端交互工具"
+        ],
+        "useCase": "适用于需要跨平台智能交互与持续自我优化的自动化服务场景"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "OpenBB-finance/OpenBB",
+      "description": "Financial data platform for analysts, quants and AI agents.",
+      "language": "Python",
+      "stars": 63994,
+      "forks": 6305,
+      "todayStars": 113,
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "aiSummary": {
+        "summary": "OpenBB-finance/OpenBB 是一个金融数据平台，提供开源工具集整合多源数据至AI代理、分析仪表板等场景，支持历史数据获取与可视化，实现‘连接一次，随处消费’的数据架构。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "REST APIs"
+        ],
+        "useCase": "金融数据分析与AI代理集成"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 122802,
+      "forks": 10010,
+      "todayStars": 2229,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发代理框架，通过自动化工作流提升编码效率。它通过需求确认、分块设计、TDD实施及子代理协作，实现无需人工干预的全流程开发，支持YAGNI和DRY原则。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "自动化软件开发流程，提升编码效率与质量"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars": 42545,
+      "forks": 3173,
+      "todayStars": 464,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "Claude-Mem 是一个为 Claude Code 设计的持久化记忆压缩插件，通过自动捕获编码会话中的工具使用记录，生成语义摘要并注入后续会话，实现跨会话的知识连续性保持。",
+        "techStack": [
+          "TypeScript",
+          "Claude's agent-sdk",
+          "Plugin System"
+        ],
+        "useCase": "适用于需要保持代码开发上下文连续性的长期项目协作场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "hacksider/Deep-Live-Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "language": "Python",
+      "stars": 85225,
+      "forks": 12416,
+      "todayStars": 1131,
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "aiSummary": {
+        "summary": "该项目提供实时人脸交换和一键视频深度伪造功能，仅需单张图像即可生成深度伪造内容。采用Python开发，内置内容过滤机制以确保伦理合规，适用于艺术创作、动画设计及服装展示等场景。",
+        "techStack": [
+          "Python",
+          "OpenCV",
+          "Deep Learning Framework"
+        ],
+        "useCase": "适用于实时视频深度伪造和人脸交换，用于内容创作及动画设计。"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 15263,
+      "forks": 1214,
+      "todayStars": 1186,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "aiSummary": {
+        "summary": "该Python项目是一个AI代理技能，可跨Reddit、X、YouTube等平台抓取过去30天的最新内容，通过社区投票、分享和讨论生成结构化摘要，支持对比分析、配置管理及多平台数据整合。",
+        "techStack": [
+          "Python",
+          "Reddit API",
+          "X API",
+          "YouTube API"
+        ],
+        "useCase": "适用于需要快速获取特定主题最新网络舆论和社区动态的场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "shareAI-lab/learn-claude-code",
+      "description": "Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1",
+      "language": "TypeScript",
+      "stars": 42631,
+      "forks": 6568,
+      "todayStars": 908,
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "aiSummary": {
+        "summary": "该项目是一个用TypeScript构建的纳米级Claude代码代理框架，旨在从零开始实现AI代理系统。通过神经网络训练，使模型具备环境感知、目标推理和行动执行能力，参考了DeepMind、OpenAI等公司的代理技术理念。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "AI代理系统开发与机器学习模型训练"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "fastfetch-cli/fastfetch",
+      "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool.",
+      "language": "C",
+      "stars": 21131,
+      "forks": 715,
+      "todayStars": 28,
+      "url": "https://github.com/fastfetch-cli/fastfetch",
+      "aiSummary": {
+        "summary": "FastFetch 是用 C 语言开发的高性能系统信息工具，功能类似 Neofetch，支持多平台（Linux/macOS/Windows/Android 等），可展示系统详细信息并提供高度可定制化配置，专注于性能优化和跨平台兼容性。",
+        "techStack": [
+          "C"
+        ],
+        "useCase": "快速获取系统硬件和软件信息，适用于系统调试、环境展示或自动化脚本集成。"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars": 36326,
+      "forks": 3606,
+      "todayStars": 213,
+      "url": "https://github.com/moeru-ai/airi",
+      "aiSummary": {
+        "summary": "A self-hosted AI virtual companion inspired by Neuro-sama, supporting real-time voice chat, Minecraft/Factorio gameplay, and cross-platform deployment. Features RAG, memory systems, and multi-language",
+        "techStack": [
+          "TypeScript",
+          "Web Technologies",
+          "AI/LLM"
+        ],
+        "useCase": "作为虚拟伴侣提供互动娱乐与游戏协作服务"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "twentyhq/twenty",
+      "description": "Building a modern alternative to Salesforce, powered by the community.",
+      "language": "TypeScript",
+      "stars": 42909,
+      "forks": 5669,
+      "todayStars": 451,
+      "url": "https://github.com/twentyhq/twenty",
+      "aiSummary": {
+        "summary": "Twenty 是一个开源客户关系管理（CRM）平台，旨在替代 Salesforce。它提供自定义数据模型、工作流自动化、权限管理、多视图布局以及邮件、日历等集成功能，强调开源社区协作与低成本替代方案。",
+        "techStack": [
+          "TypeScript",
+          "NestJS",
+          "React",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "useCase": "企业级客户关系管理（CRM）系统的开源替代方案，适用于需要自定义和成本效益的团队。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-29T23:40:28.118Z",
+    "duration": "127s",
+    "version": "1.0.0"
+  }
+}
