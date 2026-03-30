@@ -67,24 +67,22 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-03-29 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-03-30 | **成功**: 10 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | A visual, example-driven guide to Claude Code — fr... | Python | 6.5k | 1.1k | 提供Claude Code的结构化学习路径，包含视觉教程、Mermaid图表和可直接使用的代码模板，帮助用户从基础到高级掌握代理、钩子、技能等核心功能，解决官方文档示例不足的问题。 |
-| 2 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI... | Python | 27.1k | 1.2k | VibeVoice 是微软开源的前沿语音AI项目，核心为VibeVoice-ASR语音识别模型，支持60分钟长音频单次处理，生成包含说话人、时间戳和内容的结构化转录，覆盖50+语言。集成Hugging Face Transformers，支持多语言及用户自定义上下文，适用于实时语音转写与长音频处理场景。 |
-| 3 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you... | Python | 16.6k | 997 | Hermes-Agent 是一个自我改进的AI代理，支持跨平台对话、闭环学习与技能优化，可部署于多种基础设施。具备多模型兼容、终端交互、定时任务及并行处理能力，适用于需要持续进化和跨场景协作的智能应用。 |
-| 4 | [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and A... | Python | 64.0k | 113 | OpenBB-finance/OpenBB 是一个金融数据平台，提供开源工具集整合多源数据至AI代理、分析仪表板等场景，支持历史数据获取与可视化，实现‘连接一次，随处消费’的数据架构。 |
-| 5 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 122.8k | 2.2k | Superpowers 是一个基于可组合技能的软件开发代理框架，通过自动化工作流提升编码效率。它通过需求确认、分块设计、TDD实施及子代理协作，实现无需人工干预的全流程开发，支持YAGNI和DRY原则。 |
-| 6 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 42.5k | 464 | Claude-Mem 是一个为 Claude Code 设计的持久化记忆压缩插件，通过自动捕获编码会话中的工具使用记录，生成语义摘要并注入后续会话，实现跨会话的知识连续性保持。 |
-| 7 | [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | real time face swap and one-click video deepfake w... | Python | 85.2k | 1.1k | 该项目提供实时人脸交换和一键视频深度伪造功能，仅需单张图像即可生成深度伪造内容。采用Python开发，内置内容过滤机制以确保伦理合规，适用于艺术创作、动画设计及服装展示等场景。 |
-| 8 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | AI agent skill that researches any topic across Re... | Python | 15.3k | 1.2k | 该Python项目是一个AI代理技能，可跨Reddit、X、YouTube等平台抓取过去30天的最新内容，通过社区投票、分享和讨论生成结构化摘要，支持对比分析、配置管理及多平台数据整合。 |
-| 9 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | Bash is all you need - A nano claude code–like 「ag... | TypeScript | 42.6k | 908 | 该项目是一个用TypeScript构建的纳米级Claude代码代理框架，旨在从零开始实现AI代理系统。通过神经网络训练，使模型具备环境感知、目标推理和行动执行能力，参考了DeepMind、OpenAI等公司的代理技术理念。 |
-| 10 | [fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch) | A maintained, feature-rich and performance oriente... | C | 21.1k | 28 | FastFetch 是用 C 语言开发的高性能系统信息工具，功能类似 Neofetch，支持多平台（Linux/macOS/Windows/Android 等），可展示系统详细信息并提供高度可定制化配置，专注于性能优化和跨平台兼容性。 |
-| 11 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you-owned Grok Companion, a cont... | TypeScript | 36.3k | 213 | A self-hosted AI virtual companion inspired by Neuro-sama, supporting real-time voice chat, Minecraft/Factorio gameplay, and cross-platform deployment. Features RAG, memory systems, and multi-language |
-| 12 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, power... | TypeScript | 42.9k | 451 | Twenty 是一个开源客户关系管理（CRM）平台，旨在替代 Salesforce。它提供自定义数据模型、工作流自动化、权限管理、多视图布局以及邮件、日历等集成功能，强调开源社区协作与低成本替代方案。 |
+| 1 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI... | Python | 30.1k | 2.5k | VibeVoice是微软开源的前沿语音AI项目，包含语音识别（ASR）和语音合成（TTS）模块。ASR支持60分钟长音频单次处理，生成带说话人、时间戳的结构化转录，覆盖50+语言；TTS可生成多语言长音频，但代码因使用问题已移除。集成Hugging Face Transformers和vLLM推理优化。 |
+| 2 | [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | A visual, example-driven guide to Claude Code — fr... | Python | 9.8k | 4.2k | 提供Claude Code的视觉化教程与生产级模板，覆盖从基础命令到高级代理架构的完整学习路径，包含交互式测验和分步示例。 |
+| 3 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | practice made claude perfect... | HTML | 26.0k | 1.3k | 该项目聚焦Claude代码最佳实践，通过代理、命令、技能等模块化设计，提供工作流自动化、上下文管理及插件扩展方案，强调实践优化模型应用效果。 |
+| 4 | [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | real time face swap and one-click video deepfake w... | Python | 86.3k | 1.1k | 该项目是一款基于Python的实时人脸交换与视频深度伪造工具，仅需单张图片即可生成深度伪造内容。提供一键式操作，内置内容审查机制以防止不当媒体处理，强调伦理与法律合规性。 |
+| 5 | [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and A... | Python | 64.5k | 499 | OpenBB-finance/OpenBB 是面向金融分析师、量化交易员和AI代理的开源数据平台，提供多源数据整合与统一访问接口，支持Python、Excel、AI代理等多场景数据调用，具备REST API和本地服务部署功能。 |
+| 6 | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | freeCodeCamp.org's open-source codebase and curric... | TypeScript | 439.7k | 376 | freeCodeCamp/freeCodeCamp 是一个开源编程教育平台，提供免费的全栈开发和机器学习课程。用户可通过互动挑战、项目实践和考试获取开发者认证，涵盖响应式设计、JavaScript、Python等领域，同时支持语言能力认证。 |
+| 7 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across... | Python | 74.7k | 68 | Sherlock 是一个基于Python的命令行工具，可跨400多个社交平台通过用户名进行账户检索。支持多用户批量查询、结果文件存储、自定义输出格式及代理配置，适用于社交媒体账户追踪与安全审计场景。 |
+| 8 | [apache/superset](https://github.com/apache/superset) | Apache Superset is a Data Visualization and Data E... | TypeScript | 71.9k | 63 | Apache Superset是现代化的企业级商业智能Web应用，提供数据可视化、探索和分析功能。支持无代码图表构建、SQL编辑器、多数据库连接及丰富可视化组件，适用于大规模数据监控与决策支持。 |
+| 9 | [fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch) | A maintained, feature-rich and performance oriente... | C | 21.4k | 271 | FastFetch是一款用C语言开发的高性能系统信息工具，类似Neofetch，支持多平台（Linux、macOS、Windows等），提供视觉化系统信息展示，注重可定制性和快速响应，适用于系统调试和个性化显示。 |
+| 10 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you... | Python | 18.5k | 1.9k | Hermes-Agent 是一个自我改进的AI代理系统，支持跨平台交互与多模型集成。具备学习循环机制，可自主创建和优化技能，实现任务自动化、对话记忆持久化及多终端无缝衔接，适用于需要持续优化的智能自动化场景。 |
 
-[查看完整数据](api/github/2026-03-29.json)
+[查看完整数据](api/github/2026-03-30.json)
 <!-- END GITHUB TRENDING -->
 
 

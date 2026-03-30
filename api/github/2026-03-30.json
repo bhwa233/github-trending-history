@@ -1,0 +1,205 @@
+{
+  "date": "2026-03-30",
+  "since": "daily",
+  "totalRepos": 10,
+  "successCount": 10,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars": 30056,
+      "forks": 3298,
+      "todayStars": 2509,
+      "url": "https://github.com/microsoft/VibeVoice",
+      "aiSummary": {
+        "summary": "VibeVoice是微软开源的前沿语音AI项目，包含语音识别（ASR）和语音合成（TTS）模块。ASR支持60分钟长音频单次处理，生成带说话人、时间戳的结构化转录，覆盖50+语言；TTS可生成多语言长音频，但代码因使用问题已移除。集成Hugging Face Transformers和vLLM推理优化。",
+        "techStack": [
+          "Python",
+          "Hugging Face Transformers",
+          "vLLM"
+        ],
+        "useCase": "适用于长音频语音识别、多语言会议记录及实时语音合成场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "stars": 9778,
+      "forks": 978,
+      "todayStars": 4150,
+      "url": "https://github.com/luongnv89/claude-howto",
+      "aiSummary": {
+        "summary": "提供Claude Code的视觉化教程与生产级模板，覆盖从基础命令到高级代理架构的完整学习路径，包含交互式测验和分步示例。",
+        "techStack": [
+          "Python",
+          "Mermaid",
+          "Claude Code"
+        ],
+        "useCase": "快速构建自动化代码工作流与智能代理系统"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "shanraisshan/claude-code-best-practice",
+      "description": "practice made claude perfect",
+      "language": "HTML",
+      "stars": 26020,
+      "forks": 2187,
+      "todayStars": 1342,
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "aiSummary": {
+        "summary": "该项目聚焦Claude代码最佳实践，通过代理、命令、技能等模块化设计，提供工作流自动化、上下文管理及插件扩展方案，强调实践优化模型应用效果。",
+        "techStack": [
+          "HTML",
+          "Markdown",
+          "JSON"
+        ],
+        "useCase": "优化Claude模型代码实践与自动化任务流程管理"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "hacksider/Deep-Live-Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "language": "Python",
+      "stars": 86307,
+      "forks": 12537,
+      "todayStars": 1138,
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "aiSummary": {
+        "summary": "该项目是一款基于Python的实时人脸交换与视频深度伪造工具，仅需单张图片即可生成深度伪造内容。提供一键式操作，内置内容审查机制以防止不当媒体处理，强调伦理与法律合规性。",
+        "techStack": [
+          "Python",
+          "深度学习框架",
+          "实时视频处理"
+        ],
+        "useCase": "适用于AI艺术创作与深度伪造内容生成，需遵守伦理规范与法律法规。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "OpenBB-finance/OpenBB",
+      "description": "Financial data platform for analysts, quants and AI agents.",
+      "language": "Python",
+      "stars": 64516,
+      "forks": 6348,
+      "todayStars": 499,
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "aiSummary": {
+        "summary": "OpenBB-finance/OpenBB 是面向金融分析师、量化交易员和AI代理的开源数据平台，提供多源数据整合与统一访问接口，支持Python、Excel、AI代理等多场景数据调用，具备REST API和本地服务部署功能。",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "REST API"
+        ],
+        "useCase": "金融数据分析与AI代理数据集成"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "stars": 439691,
+      "forks": 43890,
+      "todayStars": 376,
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "aiSummary": {
+        "summary": "freeCodeCamp/freeCodeCamp 是一个开源编程教育平台，提供免费的全栈开发和机器学习课程。用户可通过互动挑战、项目实践和考试获取开发者认证，涵盖响应式设计、JavaScript、Python等领域，同时支持语言能力认证。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于免费学习编程技能、获取行业认证及提升技术求职竞争力。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "stars": 74680,
+      "forks": 8837,
+      "todayStars": 68,
+      "url": "https://github.com/sherlock-project/sherlock",
+      "aiSummary": {
+        "summary": "Sherlock 是一个基于Python的命令行工具，可跨400多个社交平台通过用户名进行账户检索。支持多用户批量查询、结果文件存储、自定义输出格式及代理配置，适用于社交媒体账户追踪与安全审计场景。",
+        "techStack": [
+          "Python",
+          "Requests",
+          "BeautifulSoup",
+          "Argparse"
+        ],
+        "useCase": "适用于安全研究人员或数字营销人员进行跨平台用户账户关联分析"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "apache/superset",
+      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
+      "language": "TypeScript",
+      "stars": 71892,
+      "forks": 16938,
+      "todayStars": 63,
+      "url": "https://github.com/apache/superset",
+      "aiSummary": {
+        "summary": "Apache Superset是现代化的企业级商业智能Web应用，提供数据可视化、探索和分析功能。支持无代码图表构建、SQL编辑器、多数据库连接及丰富可视化组件，适用于大规模数据监控与决策支持。",
+        "techStack": [
+          "TypeScript",
+          "Python",
+          "React"
+        ],
+        "useCase": "适用于企业级数据可视化、分析及实时报表生成"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "fastfetch-cli/fastfetch",
+      "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool.",
+      "language": "C",
+      "stars": 21404,
+      "forks": 726,
+      "todayStars": 271,
+      "url": "https://github.com/fastfetch-cli/fastfetch",
+      "aiSummary": {
+        "summary": "FastFetch是一款用C语言开发的高性能系统信息工具，类似Neofetch，支持多平台（Linux、macOS、Windows等），提供视觉化系统信息展示，注重可定制性和快速响应，适用于系统调试和个性化显示。",
+        "techStack": [
+          "C",
+          "跨平台开发",
+          "终端可视化"
+        ],
+        "useCase": "用于快速获取和展示系统信息，适合开发者和系统管理员进行系统调试和个性化配置。"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 18523,
+      "forks": 2245,
+      "todayStars": 1859,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "Hermes-Agent 是一个自我改进的AI代理系统，支持跨平台交互与多模型集成。具备学习循环机制，可自主创建和优化技能，实现任务自动化、对话记忆持久化及多终端无缝衔接，适用于需要持续优化的智能自动化场景。",
+        "techStack": [
+          "Python",
+          "TUI框架",
+          "Docker",
+          "SSH",
+          "机器学习框架"
+        ],
+        "useCase": "智能自动化任务处理与跨平台用户交互系统"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-03-30T23:43:02.945Z",
+    "duration": "120s",
+    "version": "1.0.0"
+  }
+}
