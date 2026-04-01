@@ -1,0 +1,149 @@
+{
+  "date": "2026-04-01",
+  "since": "daily",
+  "totalRepos": 7,
+  "successCount": 7,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Shell",
+      "stars": 100477,
+      "forks": 15431,
+      "todayStars": 10087,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code是一款终端级代码辅助工具，通过自然语言指令执行代码任务、解释代码逻辑及管理Git流程，支持多平台安装并提供插件扩展功能。",
+        "techStack": [
+          "Shell",
+          "Python",
+          "Git"
+        ],
+        "useCase": "适用于需要通过自然语言交互提升编码效率的开发者"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars": 34381,
+      "forks": 3914,
+      "todayStars": 1704,
+      "url": "https://github.com/microsoft/VibeVoice",
+      "aiSummary": {
+        "summary": "VibeVoice是微软开源的前沿语音AI框架，包含ASR和TTS模块。支持60分钟长音频单次处理，生成带说话人、时间戳的结构化转录，覆盖50+语言。提供实时语音合成、多语言语音库及vLLM加速推理，适用于智能助手、会议记录等场景。",
+        "techStack": [
+          "Python",
+          "Hugging Face Transformers",
+          "vLLM"
+        ],
+        "useCase": "智能语音识别与多语言实时语音合成场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "stars": 12042,
+      "forks": 995,
+      "todayStars": 358,
+      "url": "https://github.com/google-research/timesfm",
+      "aiSummary": {
+        "summary": "TimesFM是Google Research开发的预训练时间序列基础模型，用于高精度时间序列预测。支持长序列建模和量化预测，采用解码器架构，可处理16k上下文长度，适用于金融、气象等领域的预测场景。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Jax"
+        ],
+        "useCase": "需要高精度时间序列预测的场景，如金融市场分析和气象预测"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "stars": 15506,
+      "forks": 1787,
+      "todayStars": 3336,
+      "url": "https://github.com/luongnv89/claude-howto",
+      "aiSummary": {
+        "summary": "提供视觉化教程和可复用模板，帮助开发者从基础到高级掌握Claude Code功能，解决官方文档缺乏实际应用的问题，涵盖代理编排、钩子、技能和MCP服务器等核心概念。",
+        "techStack": [
+          "Python",
+          "Mermaid",
+          "Claude Code"
+        ],
+        "useCase": "加速开发者掌握Claude Code并构建复杂AI代理工作流"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "axios/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "language": "JavaScript",
+      "stars": 108856,
+      "forks": 11585,
+      "todayStars": 148,
+      "url": "https://github.com/axios/axios",
+      "aiSummary": {
+        "summary": "axios 是基于 Promise 的 HTTP 客户端，支持浏览器和 Node.js 环境。提供请求拦截、响应处理、超时控制、取消请求等功能，简化异步 HTTP 通信。支持 JSON 数据解析、表单提交及多种数据格式自动序列化，广泛应用于前后端数据交互。",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Promise",
+          "ES6+",
+          "TypeScript"
+        ],
+        "useCase": "用于浏览器和 Node.js 环境下的 API 请求与数据交互"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars": 71655,
+      "forks": 10021,
+      "todayStars": 2345,
+      "url": "https://github.com/openai/codex",
+      "aiSummary": {
+        "summary": "OpenAI开发的轻量级代码代理工具，支持本地终端运行，提供代码生成与编程辅助功能。可通过CLI、IDE插件或桌面应用使用，需ChatGPT账户激活功能。",
+        "techStack": [
+          "Rust",
+          "npm",
+          "Homebrew"
+        ],
+        "useCase": "开发者在本地终端或集成开发环境中的代码编写辅助与自动化任务处理"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "f/prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "language": "HTML",
+      "stars": 155974,
+      "forks": 20482,
+      "todayStars": 442,
+      "url": "https://github.com/f/prompts.chat",
+      "aiSummary": {
+        "summary": "prompts.chat 是一个开源的AI提示词库项目，支持ChatGPT、Claude等多模型，提供提示词分享、发现与收集功能。具备自托管能力，可私有化部署并保障数据隐私，同时包含互动教程和游戏化学习模块，适合企业及个人高效管理AI提示场景。",
+        "techStack": [
+          "HTML",
+          "JavaScript",
+          "Node.js"
+        ],
+        "useCase": "企业级AI提示词管理与自托管解决方案"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-01T23:42:04.214Z",
+    "duration": "82s",
+    "version": "1.0.0"
+  }
+}
