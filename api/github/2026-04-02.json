@@ -1,0 +1,86 @@
+{
+  "date": "2026-04-02",
+  "since": "daily",
+  "totalRepos": 4,
+  "successCount": 4,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "siddharthvaddem/openscreen",
+      "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
+      "language": "TypeScript",
+      "stars": 15743,
+      "forks": 1070,
+      "todayStars": 2496,
+      "url": "https://github.com/siddharthvaddem/openscreen",
+      "aiSummary": {
+        "summary": "OpenScreen是一款开源屏幕录制工具，支持全屏/窗口录制、自动/手动缩放、音频捕获、视频裁剪、背景自定义、注释添加及多格式导出，提供类似Screen Studio的基础功能但完全免费且无订阅限制。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要免费制作产品演示、操作教程的开发者或企业用户"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "Yeachan-Heo/oh-my-codex",
+      "description": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.",
+      "language": "TypeScript",
+      "stars": 11569,
+      "forks": 1073,
+      "todayStars": 2852,
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "aiSummary": {
+        "summary": "Oh My Codex（OMX）是OpenAI Codex CLI的扩展工具，提供增强的工作流管理功能。通过预设更强的Codex会话、标准化流程和专属命令（如$deep-interview、$ralplan、$team），支持代码任务的规划、审批、并行执行与状态持久化，提升开发效率。",
+        "techStack": [
+          "TypeScript",
+          "OpenAI Codex CLI",
+          "Node.js"
+        ],
+        "useCase": "适用于需要增强OpenAI Codex功能，提升代码开发工作流效率的开发者。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "description": "Extracted system prompts from ChatGPT (GPT-5.4, GPT-5.3, Codex), Claude (Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1 Pro, 3 Flash, CLI), Grok (4.2, 4), Perplexity, and more. Updated regularly.",
+      "language": "",
+      "stars": 36288,
+      "forks": 6002,
+      "todayStars": 323,
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "aiSummary": {
+        "summary": "该项目收集并整理了多个AI模型（如ChatGPT、Claude、Gemini等）的系统提示、系统消息及开发指令，涵盖不同版本和变体，便于研究模型行为和安全分析。",
+        "techStack": [
+          "未知"
+        ],
+        "useCase": "研究AI模型系统提示或进行安全分析"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "stars": 77215,
+      "forks": 9063,
+      "todayStars": 807,
+      "url": "https://github.com/sherlock-project/sherlock",
+      "aiSummary": {
+        "summary": "Sherlock 是一个基于 Python 的工具，可通过对用户名在 400+ 社交平台进行自动化搜索，支持多用户批量查询、结果输出格式定制（文本/CSV/XLSX）及代理配置，适用于快速定位跨平台账号关联。",
+        "techStack": [
+          "Python",
+          "Requests",
+          "Argparse"
+        ],
+        "useCase": "安全研究人员或开发者通过用户名高效追踪跨社交平台的账户关联性"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-02T23:40:43.423Z",
+    "duration": "38s",
+    "version": "1.0.0"
+  }
+}

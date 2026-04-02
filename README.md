@@ -67,19 +67,16 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-01 | **成功**: 7 | **失败**: 0
+**最后更新**: 2026-04-02 | **成功**: 4 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | Shell | 100.5k | 10.1k | Claude Code是一款终端级代码辅助工具，通过自然语言指令执行代码任务、解释代码逻辑及管理Git流程，支持多平台安装并提供插件扩展功能。 |
-| 2 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI... | Python | 34.4k | 1.7k | VibeVoice是微软开源的前沿语音AI框架，包含ASR和TTS模块。支持60分钟长音频单次处理，生成带说话人、时间戳的结构化转录，覆盖50+语言。提供实时语音合成、多语言语音库及vLLM加速推理，适用于智能助手、会议记录等场景。 |
-| 3 | [google-research/timesfm](https://github.com/google-research/timesfm) | TimesFM (Time Series Foundation Model) is a pretra... | Python | 12.0k | 358 | TimesFM是Google Research开发的预训练时间序列基础模型，用于高精度时间序列预测。支持长序列建模和量化预测，采用解码器架构，可处理16k上下文长度，适用于金融、气象等领域的预测场景。 |
-| 4 | [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | A visual, example-driven guide to Claude Code — fr... | Python | 15.5k | 3.3k | 提供视觉化教程和可复用模板，帮助开发者从基础到高级掌握Claude Code功能，解决官方文档缺乏实际应用的问题，涵盖代理编排、钩子、技能和MCP服务器等核心概念。 |
-| 5 | [axios/axios](https://github.com/axios/axios) | Promise based HTTP client for the browser and node... | JavaScript | 108.9k | 148 | axios 是基于 Promise 的 HTTP 客户端，支持浏览器和 Node.js 环境。提供请求拦截、响应处理、超时控制、取消请求等功能，简化异步 HTTP 通信。支持 JSON 数据解析、表单提交及多种数据格式自动序列化，广泛应用于前后端数据交互。 |
-| 6 | [openai/codex](https://github.com/openai/codex) | Lightweight coding agent that runs in your termina... | Rust | 71.7k | 2.3k | OpenAI开发的轻量级代码代理工具，支持本地终端运行，提供代码生成与编程辅助功能。可通过CLI、IDE插件或桌面应用使用，需ChatGPT账户激活功能。 |
-| 7 | [f/prompts.chat](https://github.com/f/prompts.chat) | f.k.a. Awesome ChatGPT Prompts. Share, discover, a... | HTML | 156.0k | 442 | prompts.chat 是一个开源的AI提示词库项目，支持ChatGPT、Claude等多模型，提供提示词分享、发现与收集功能。具备自托管能力，可私有化部署并保障数据隐私，同时包含互动教程和游戏化学习模块，适合企业及个人高效管理AI提示场景。 |
+| 1 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning demos for free. Open-source, no su... | TypeScript | 15.7k | 2.5k | OpenScreen是一款开源屏幕录制工具，支持全屏/窗口录制、自动/手动缩放、音频捕获、视频裁剪、背景自定义、注释添加及多格式导出，提供类似Screen Studio的基础功能但完全免费且无订阅限制。 |
+| 2 | [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | OmX - Oh My codeX: Your codex is not alone. Add ho... | TypeScript | 11.6k | 2.9k | Oh My Codex（OMX）是OpenAI Codex CLI的扩展工具，提供增强的工作流管理功能。通过预设更强的Codex会话、标准化流程和专属命令（如$deep-interview、$ralplan、$team），支持代码任务的规划、审批、并行执行与状态持久化，提升开发效率。 |
+| 3 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Extracted system prompts from ChatGPT (GPT-5.4, GP... | - | 36.3k | 323 | 该项目收集并整理了多个AI模型（如ChatGPT、Claude、Gemini等）的系统提示、系统消息及开发指令，涵盖不同版本和变体，便于研究模型行为和安全分析。 |
+| 4 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across... | Python | 77.2k | 807 | Sherlock 是一个基于 Python 的工具，可通过对用户名在 400+ 社交平台进行自动化搜索，支持多用户批量查询、结果输出格式定制（文本/CSV/XLSX）及代理配置，适用于快速定位跨平台账号关联。 |
 
-[查看完整数据](api/github/2026-04-01.json)
+[查看完整数据](api/github/2026-04-02.json)
 <!-- END GITHUB TRENDING -->
 
 
