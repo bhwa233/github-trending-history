@@ -1,0 +1,149 @@
+{
+  "date": "2026-04-03",
+  "since": "daily",
+  "totalRepos": 7,
+  "successCount": 7,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Yeachan-Heo/oh-my-codex",
+      "description": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.",
+      "language": "TypeScript",
+      "stars": 14056,
+      "forks": 1294,
+      "todayStars": 2984,
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "aiSummary": {
+        "summary": "Oh My Codex（OMX）是OpenAI Codex CLI的工作流增强工具，通过预设命令（如$deep-interview、$ralplan）提供结构化开发流程。支持代理协作、技能集成与项目状态持久化，优化从需求澄清到代码执行的全链路体验。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "OpenAI Codex CLI"
+        ],
+        "useCase": "需要结构化代码开发流程与团队协作的Codex用户"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "onyx-dot-app/onyx",
+      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+      "language": "Python",
+      "stars": 23218,
+      "forks": 3120,
+      "todayStars": 1872,
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "aiSummary": {
+        "summary": "Onyx是一个开源AI平台，提供支持多LLM的高级聊天功能，包含RAG、网络搜索、代码执行、深度研究等特性，可自托管且兼容多种LLM服务商。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Kubernetes",
+          "Helm",
+          "Terraform"
+        ],
+        "useCase": "适用于需要集成多种大语言模型的AI聊天应用开发与部署场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "stars": 14099,
+      "forks": 1219,
+      "todayStars": 912,
+      "url": "https://github.com/google-research/timesfm",
+      "aiSummary": {
+        "summary": "TimesFM是Google Research开发的预训练时间序列基础模型，专注于时间序列预测。支持长上下文建模、连续分位数预测和多种框架（PyTorch/Flax），提供多版本模型及扩展功能，适用于复杂预测场景。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Flax",
+          "JAX",
+          "XReg"
+        ],
+        "useCase": "适用于金融、气象等领域的高精度时间序列预测任务"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "siddharthvaddem/openscreen",
+      "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
+      "language": "TypeScript",
+      "stars": 18121,
+      "forks": 1233,
+      "todayStars": 2855,
+      "url": "https://github.com/siddharthvaddem/openscreen",
+      "aiSummary": {
+        "summary": "OpenScreen是一款开源屏幕录制工具，提供基础但实用的演示制作功能。支持全屏/窗口录制、自动/手动缩放、音频录制、自定义背景、注释添加、视频剪辑和多格式导出，适用于需要免费替代商业软件的场景。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合需要免费且无限制的屏幕录制与视频编辑工具的个人开发者或小型团队"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "dmtrKovalenko/fff.nvim",
+      "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
+      "language": "Rust",
+      "stars": 3238,
+      "forks": 128,
+      "todayStars": 767,
+      "url": "https://github.com/dmtrKovalenko/fff.nvim",
+      "aiSummary": {
+        "summary": "fff.nvim是基于Rust开发的超快速模糊文件查找工具，专为Neovim和AI代理设计。提供高效文件搜索、模糊匹配、多grep功能，支持内存缓存和智能结果排序，显著提升代码检索效率。",
+        "techStack": [
+          "Rust",
+          "Neovim",
+          "Lua"
+        ],
+        "useCase": "提升AI代理和开发者在大型代码库中的文件搜索效率"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "f/prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "language": "HTML",
+      "stars": 157162,
+      "forks": 20603,
+      "todayStars": 369,
+      "url": "https://github.com/f/prompts.chat",
+      "aiSummary": {
+        "summary": "f/prompts.chat 是一个开源的AI提示库，支持多种AI模型如ChatGPT、Claude等，提供提示浏览、自托管部署及交互式学习资源，适用于企业私有化部署与AI提示工程教育。",
+        "techStack": [
+          "HTML",
+          "JavaScript",
+          "Node.js"
+        ],
+        "useCase": "企业级AI提示管理与AI教育场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "stars": 78474,
+      "forks": 9167,
+      "todayStars": 1230,
+      "url": "https://github.com/sherlock-project/sherlock",
+      "aiSummary": {
+        "summary": "Sherlock 是一个基于Python的工具，可通过用户名在400+社交平台中查找关联账户，支持多用户批量搜索、结果输出格式定制及代理配置，适用于跨平台账号追踪场景。",
+        "techStack": [
+          "Python",
+          "Requests",
+          "Argparse"
+        ],
+        "useCase": "适用于安全研究领域中的多平台账号关联分析与用户身份追踪"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-03T23:40:58.397Z",
+    "duration": "74s",
+    "version": "1.0.0"
+  }
+}

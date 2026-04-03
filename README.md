@@ -67,16 +67,19 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-02 | **成功**: 4 | **失败**: 0
+**最后更新**: 2026-04-03 | **成功**: 7 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning demos for free. Open-source, no su... | TypeScript | 15.7k | 2.5k | OpenScreen是一款开源屏幕录制工具，支持全屏/窗口录制、自动/手动缩放、音频捕获、视频裁剪、背景自定义、注释添加及多格式导出，提供类似Screen Studio的基础功能但完全免费且无订阅限制。 |
-| 2 | [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | OmX - Oh My codeX: Your codex is not alone. Add ho... | TypeScript | 11.6k | 2.9k | Oh My Codex（OMX）是OpenAI Codex CLI的扩展工具，提供增强的工作流管理功能。通过预设更强的Codex会话、标准化流程和专属命令（如$deep-interview、$ralplan、$team），支持代码任务的规划、审批、并行执行与状态持久化，提升开发效率。 |
-| 3 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Extracted system prompts from ChatGPT (GPT-5.4, GP... | - | 36.3k | 323 | 该项目收集并整理了多个AI模型（如ChatGPT、Claude、Gemini等）的系统提示、系统消息及开发指令，涵盖不同版本和变体，便于研究模型行为和安全分析。 |
-| 4 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across... | Python | 77.2k | 807 | Sherlock 是一个基于 Python 的工具，可通过对用户名在 400+ 社交平台进行自动化搜索，支持多用户批量查询、结果输出格式定制（文本/CSV/XLSX）及代理配置，适用于快速定位跨平台账号关联。 |
+| 1 | [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | OmX - Oh My codeX: Your codex is not alone. Add ho... | TypeScript | 14.1k | 3.0k | Oh My Codex（OMX）是OpenAI Codex CLI的工作流增强工具，通过预设命令（如$deep-interview、$ralplan）提供结构化开发流程。支持代理协作、技能集成与项目状态持久化，优化从需求澄清到代码执行的全链路体验。 |
+| 2 | [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | Open Source AI Platform - AI Chat with advanced fe... | Python | 23.2k | 1.9k | Onyx是一个开源AI平台，提供支持多LLM的高级聊天功能，包含RAG、网络搜索、代码执行、深度研究等特性，可自托管且兼容多种LLM服务商。 |
+| 3 | [google-research/timesfm](https://github.com/google-research/timesfm) | TimesFM (Time Series Foundation Model) is a pretra... | Python | 14.1k | 912 | TimesFM是Google Research开发的预训练时间序列基础模型，专注于时间序列预测。支持长上下文建模、连续分位数预测和多种框架（PyTorch/Flax），提供多版本模型及扩展功能，适用于复杂预测场景。 |
+| 4 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning demos for free. Open-source, no su... | TypeScript | 18.1k | 2.9k | OpenScreen是一款开源屏幕录制工具，提供基础但实用的演示制作功能。支持全屏/窗口录制、自动/手动缩放、音频录制、自定义背景、注释添加、视频剪辑和多格式导出，适用于需要免费替代商业软件的场景。 |
+| 5 | [dmtrKovalenko/fff.nvim](https://github.com/dmtrKovalenko/fff.nvim) | The fastest and the most accurate file search tool... | Rust | 3.2k | 767 | fff.nvim是基于Rust开发的超快速模糊文件查找工具，专为Neovim和AI代理设计。提供高效文件搜索、模糊匹配、多grep功能，支持内存缓存和智能结果排序，显著提升代码检索效率。 |
+| 6 | [f/prompts.chat](https://github.com/f/prompts.chat) | f.k.a. Awesome ChatGPT Prompts. Share, discover, a... | HTML | 157.2k | 369 | f/prompts.chat 是一个开源的AI提示库，支持多种AI模型如ChatGPT、Claude等，提供提示浏览、自托管部署及交互式学习资源，适用于企业私有化部署与AI提示工程教育。 |
+| 7 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across... | Python | 78.5k | 1.2k | Sherlock 是一个基于Python的工具，可通过用户名在400+社交平台中查找关联账户，支持多用户批量搜索、结果输出格式定制及代理配置，适用于跨平台账号追踪场景。 |
 
-[查看完整数据](api/github/2026-04-02.json)
+[查看完整数据](api/github/2026-04-03.json)
 <!-- END GITHUB TRENDING -->
 
 
