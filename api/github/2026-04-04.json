@@ -1,0 +1,166 @@
+{
+  "date": "2026-04-04",
+  "since": "daily",
+  "totalRepos": 8,
+  "successCount": 8,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Blaizzy/mlx-vlm",
+      "description": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.",
+      "language": "Python",
+      "stars": 3588,
+      "forks": 395,
+      "todayStars": 316,
+      "url": "https://github.com/Blaizzy/mlx-vlm",
+      "aiSummary": {
+        "summary": "MLX-VLM是基于MLX框架的视觉语言模型推理与微调工具，支持图像、音频、视频多模态输入。提供CLI和Gradio界面，兼容多种模型如Qwen2-VL、Phi-4等，具备量化优化、视觉缓存及多图像交互功能，适用于Mac端本地化部署与模型调优。",
+        "techStack": [
+          "Python",
+          "MLX",
+          "Gradio"
+        ],
+        "useCase": "本地化部署与调试多模态AI模型，适用于Mac开发环境下的视觉语言任务开发。"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "onyx-dot-app/onyx",
+      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+      "language": "Python",
+      "stars": 24203,
+      "forks": 3246,
+      "todayStars": 1212,
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "aiSummary": {
+        "summary": "Onyx是一个开源AI平台，提供基于LLM的高级功能如RAG、网络搜索、代码执行和深度研究，支持自托管及多种LLM提供商，具备灵活部署模式和丰富的交互能力。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "企业级AI应用开发与部署"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "Yeachan-Heo/oh-my-codex",
+      "description": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.",
+      "language": "TypeScript",
+      "stars": 15588,
+      "forks": 1464,
+      "todayStars": 1803,
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "aiSummary": {
+        "summary": "Oh My Codex (OMX) 是 OpenAI Codex 的工作流增强工具，通过预设命令（如 $deep-interview、$ralplan）和项目状态管理（.omx/ 目录）优化代码开发流程，支持代理协作与持久化工作流，提升 Codex 的运行效率与结构化管理。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "OpenAI Codex CLI"
+        ],
+        "useCase": "适用于需要结构化代码开发流程与 Codex 集成的开发者群体。"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "siddharthvaddem/openscreen",
+      "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
+      "language": "TypeScript",
+      "stars": 19649,
+      "forks": 1344,
+      "todayStars": 1600,
+      "url": "https://github.com/siddharthvaddem/openscreen",
+      "aiSummary": {
+        "summary": "OpenScreen是一款免费开源的屏幕录制工具，提供全屏/窗口录制、智能缩放、音频捕获、背景自定义、注释添加、视频剪辑和多格式导出功能，旨在替代付费工具Screen Studio，适合需要制作产品演示和教程的用户。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Electron"
+        ],
+        "useCase": "替代Screen Studio制作免费商业用途的产品演示和操作教程"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "telegramdesktop/tdesktop",
+      "description": "Telegram Desktop messaging app",
+      "language": "C++",
+      "stars": 30826,
+      "forks": 6515,
+      "todayStars": 282,
+      "url": "https://github.com/telegramdesktop/tdesktop",
+      "aiSummary": {
+        "summary": "Telegram Desktop是基于MTProto协议的开源即时通讯客户端，支持多平台部署。采用C++开发，集成Qt框架实现跨平台界面，包含消息加密、文件传输等核心功能，提供多种构建方式满足不同系统需求。",
+        "techStack": [
+          "C++",
+          "Qt",
+          "MTProto"
+        ],
+        "useCase": "需要安全跨平台通信的即时通讯场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "block/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "stars": 35660,
+      "forks": 3343,
+      "todayStars": 947,
+      "url": "https://github.com/block/goose",
+      "aiSummary": {
+        "summary": "block/goose 是一个用 Rust 编写的开源 AI 代理，可自动化开发流程。它支持代码生成、调试、工作流编排及外部 API 交互，兼容任意 LLM 并提供 CLI 和桌面应用，提升工程效率。",
+        "techStack": [
+          "Rust",
+          "LLM",
+          "MCP"
+        ],
+        "useCase": "自动化代码开发、调试及工程流程管理"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "microsoft/agent-framework",
+      "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
+      "language": "Python",
+      "stars": 8691,
+      "forks": 1431,
+      "todayStars": 66,
+      "url": "https://github.com/microsoft/agent-framework",
+      "aiSummary": {
+        "summary": "微软开源的AI代理框架，支持Python和.NET，提供多代理工作流编排、图数据流处理、可观测性集成及跨语言API一致性，适用于复杂AI应用开发与部署。",
+        "techStack": [
+          "Python",
+          ".NET",
+          "OpenTelemetry"
+        ],
+        "useCase": "开发需要多代理协作与复杂流程编排的AI应用场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "stars": 79331,
+      "forks": 9246,
+      "todayStars": 993,
+      "url": "https://github.com/sherlock-project/sherlock",
+      "aiSummary": {
+        "summary": "Sherlock-project/sherlock 是一个基于Python的社交账号搜索工具，可通过用户名在400+社交平台中定位对应账户。支持多用户批量查询、结果文件存储、参数配置及多种输出格式，适用于快速跨平台账号溯源。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Command-Line"
+        ],
+        "useCase": "安全研究人员或开发者快速验证用户名在社交平台的注册情况"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-04T23:38:04.285Z",
+    "duration": "76s",
+    "version": "1.0.0"
+  }
+}

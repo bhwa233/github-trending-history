@@ -67,19 +67,20 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-03 | **成功**: 7 | **失败**: 0
+**最后更新**: 2026-04-04 | **成功**: 8 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | OmX - Oh My codeX: Your codex is not alone. Add ho... | TypeScript | 14.1k | 3.0k | Oh My Codex（OMX）是OpenAI Codex CLI的工作流增强工具，通过预设命令（如$deep-interview、$ralplan）提供结构化开发流程。支持代理协作、技能集成与项目状态持久化，优化从需求澄清到代码执行的全链路体验。 |
-| 2 | [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | Open Source AI Platform - AI Chat with advanced fe... | Python | 23.2k | 1.9k | Onyx是一个开源AI平台，提供支持多LLM的高级聊天功能，包含RAG、网络搜索、代码执行、深度研究等特性，可自托管且兼容多种LLM服务商。 |
-| 3 | [google-research/timesfm](https://github.com/google-research/timesfm) | TimesFM (Time Series Foundation Model) is a pretra... | Python | 14.1k | 912 | TimesFM是Google Research开发的预训练时间序列基础模型，专注于时间序列预测。支持长上下文建模、连续分位数预测和多种框架（PyTorch/Flax），提供多版本模型及扩展功能，适用于复杂预测场景。 |
-| 4 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning demos for free. Open-source, no su... | TypeScript | 18.1k | 2.9k | OpenScreen是一款开源屏幕录制工具，提供基础但实用的演示制作功能。支持全屏/窗口录制、自动/手动缩放、音频录制、自定义背景、注释添加、视频剪辑和多格式导出，适用于需要免费替代商业软件的场景。 |
-| 5 | [dmtrKovalenko/fff.nvim](https://github.com/dmtrKovalenko/fff.nvim) | The fastest and the most accurate file search tool... | Rust | 3.2k | 767 | fff.nvim是基于Rust开发的超快速模糊文件查找工具，专为Neovim和AI代理设计。提供高效文件搜索、模糊匹配、多grep功能，支持内存缓存和智能结果排序，显著提升代码检索效率。 |
-| 6 | [f/prompts.chat](https://github.com/f/prompts.chat) | f.k.a. Awesome ChatGPT Prompts. Share, discover, a... | HTML | 157.2k | 369 | f/prompts.chat 是一个开源的AI提示库，支持多种AI模型如ChatGPT、Claude等，提供提示浏览、自托管部署及交互式学习资源，适用于企业私有化部署与AI提示工程教育。 |
-| 7 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across... | Python | 78.5k | 1.2k | Sherlock 是一个基于Python的工具，可通过用户名在400+社交平台中查找关联账户，支持多用户批量搜索、结果输出格式定制及代理配置，适用于跨平台账号追踪场景。 |
+| 1 | [Blaizzy/mlx-vlm](https://github.com/Blaizzy/mlx-vlm) | MLX-VLM is a package for inference and fine-tuning... | Python | 3.6k | 316 | MLX-VLM是基于MLX框架的视觉语言模型推理与微调工具，支持图像、音频、视频多模态输入。提供CLI和Gradio界面，兼容多种模型如Qwen2-VL、Phi-4等，具备量化优化、视觉缓存及多图像交互功能，适用于Mac端本地化部署与模型调优。 |
+| 2 | [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | Open Source AI Platform - AI Chat with advanced fe... | Python | 24.2k | 1.2k | Onyx是一个开源AI平台，提供基于LLM的高级功能如RAG、网络搜索、代码执行和深度研究，支持自托管及多种LLM提供商，具备灵活部署模式和丰富的交互能力。 |
+| 3 | [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | OmX - Oh My codeX: Your codex is not alone. Add ho... | TypeScript | 15.6k | 1.8k | Oh My Codex (OMX) 是 OpenAI Codex 的工作流增强工具，通过预设命令（如 $deep-interview、$ralplan）和项目状态管理（.omx/ 目录）优化代码开发流程，支持代理协作与持久化工作流，提升 Codex 的运行效率与结构化管理。 |
+| 4 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning demos for free. Open-source, no su... | TypeScript | 19.6k | 1.6k | OpenScreen是一款免费开源的屏幕录制工具，提供全屏/窗口录制、智能缩放、音频捕获、背景自定义、注释添加、视频剪辑和多格式导出功能，旨在替代付费工具Screen Studio，适合需要制作产品演示和教程的用户。 |
+| 5 | [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) | Telegram Desktop messaging app... | C++ | 30.8k | 282 | Telegram Desktop是基于MTProto协议的开源即时通讯客户端，支持多平台部署。采用C++开发，集成Qt框架实现跨平台界面，包含消息加密、文件传输等核心功能，提供多种构建方式满足不同系统需求。 |
+| 6 | [block/goose](https://github.com/block/goose) | an open source, extensible AI agent that goes beyo... | Rust | 35.7k | 947 | block/goose 是一个用 Rust 编写的开源 AI 代理，可自动化开发流程。它支持代码生成、调试、工作流编排及外部 API 交互，兼容任意 LLM 并提供 CLI 和桌面应用，提升工程效率。 |
+| 7 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | A framework for building, orchestrating and deploy... | Python | 8.7k | 66 | 微软开源的AI代理框架，支持Python和.NET，提供多代理工作流编排、图数据流处理、可观测性集成及跨语言API一致性，适用于复杂AI应用开发与部署。 |
+| 8 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across... | Python | 79.3k | 993 | Sherlock-project/sherlock 是一个基于Python的社交账号搜索工具，可通过用户名在400+社交平台中定位对应账户。支持多用户批量查询、结果文件存储、参数配置及多种输出格式，适用于快速跨平台账号溯源。 |
 
-[查看完整数据](api/github/2026-04-03.json)
+[查看完整数据](api/github/2026-04-04.json)
 <!-- END GITHUB TRENDING -->
 
 
