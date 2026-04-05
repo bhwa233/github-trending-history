@@ -1,0 +1,204 @@
+{
+  "date": "2026-04-05",
+  "since": "daily",
+  "totalRepos": 10,
+  "successCount": 10,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "google-ai-edge/gallery",
+      "description": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.",
+      "language": "Kotlin",
+      "stars": 16886,
+      "forks": 1550,
+      "todayStars": 495,
+      "url": "https://github.com/google-ai-edge/gallery",
+      "aiSummary": {
+        "summary": "Google AI Edge Gallery是一款展示本地设备生成式AI应用的安卓应用，支持离线运行大型语言模型。核心功能包括Agent Skills工具扩展、AI思考模式对话、图像识别、语音转录及提示词调试，聚焦隐私保护与高性能计算。",
+        "techStack": [
+          "Kotlin",
+          "Android SDK",
+          "TensorFlow Lite"
+        ],
+        "useCase": "适用于需要本地化部署的移动设备生成式AI应用场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "Blaizzy/mlx-vlm",
+      "description": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.",
+      "language": "Python",
+      "stars": 3907,
+      "forks": 419,
+      "todayStars": 408,
+      "url": "https://github.com/Blaizzy/mlx-vlm",
+      "aiSummary": {
+        "summary": "MLX-VLM是基于MLX框架的视觉语言模型推理与微调工具包，支持Mac端多模态任务。提供CLI和Python接口，兼容图像、音频、视频等多模态输入，覆盖OCR、视觉推理等场景，内置模型优化与量化功能。",
+        "techStack": [
+          "Python",
+          "MLX",
+          "Gradio"
+        ],
+        "useCase": "适用于在Mac上进行视觉语言模型的推理和微调，支持多模态数据处理。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "siddharthvaddem/openscreen",
+      "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
+      "language": "TypeScript",
+      "stars": 22467,
+      "forks": 1501,
+      "todayStars": 2692,
+      "url": "https://github.com/siddharthvaddem/openscreen",
+      "aiSummary": {
+        "summary": "开源免费屏幕录制工具，替代Screen Studio。支持窗口/全屏录制、自动/手动缩放、音频录制、背景自定义、注释添加、视频裁剪与变速，适用于商业及个人用途。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "需要免费屏幕录制和演示制作工具的个人或企业用户"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "block/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "stars": 36958,
+      "forks": 3538,
+      "todayStars": 866,
+      "url": "https://github.com/block/goose",
+      "aiSummary": {
+        "summary": "block/goose 是一个用 Rust 编写的开源 AI 代理，可自动化代码编写、调试、流程编排及 API 交互，支持多模型配置与跨平台部署。",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "提升开发效率，自动化复杂工程任务与代码管理"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "onyx-dot-app/onyx",
+      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+      "language": "Python",
+      "stars": 24992,
+      "forks": 3341,
+      "todayStars": 960,
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "aiSummary": {
+        "summary": "Onyx是一个开源AI平台，提供支持多种LLM的聊天界面和高级功能，如RAG、网络搜索、代码执行、深度研究及图像生成。可自托管，适用于企业级AI应用开发与集成。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Kubernetes",
+          "LLM框架"
+        ],
+        "useCase": "适用于需要自托管且需集成多种大语言模型的AI聊天机器人及智能应用开发场景。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "badlogic/pi-mono",
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "language": "TypeScript",
+      "stars": 31901,
+      "forks": 3472,
+      "todayStars": 340,
+      "url": "https://github.com/badlogic/pi-mono",
+      "aiSummary": {
+        "summary": "Pi-Mono 是一个AI代理开发工具包，提供统一LLM API、多终端UI库、Slack机器人及vLLM管理工具，支持CLI、TUI和Web界面，适用于AI代理应用开发与大语言模型部署管理。",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "npm",
+          "Web Components"
+        ],
+        "useCase": "开发集成多模态交互的AI代理系统及LLM管理解决方案"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "dmtrKovalenko/fff.nvim",
+      "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
+      "language": "Rust",
+      "stars": 3680,
+      "forks": 149,
+      "todayStars": 111,
+      "url": "https://github.com/dmtrKovalenko/fff.nvim",
+      "aiSummary": {
+        "summary": "fff.nvim 是一个为 AI 代理和 Neovim 设计的高性能文件搜索工具，采用 Rust 开发，提供模糊匹配、全局搜索和多关键字搜索功能。通过内置内存优化搜索结果，提升人类用户和 AI 的文件检索效率，减少 token 消耗。",
+        "techStack": [
+          "Rust",
+          "Neovim",
+          "C"
+        ],
+        "useCase": "适用于 AI 代理和 Neovim 用户的快速文件搜索与代码导航"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "google-ai-edge/LiteRT-LM",
+      "description": "",
+      "language": "C++",
+      "stars": 1538,
+      "forks": 183,
+      "todayStars": 193,
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "aiSummary": {
+        "summary": "LiteRT-LM是Google开源的边缘设备大语言模型推理框架，支持跨平台部署与硬件加速，具备多模态输入、函数调用及广泛模型兼容性，应用于Chrome、Pixel Watch等设备的本地生成式AI场景。",
+        "techStack": [
+          "C++"
+        ],
+        "useCase": "需要高性能边缘计算的LLM部署与推理场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "telegramdesktop/tdesktop",
+      "description": "Telegram Desktop messaging app",
+      "language": "C++",
+      "stars": 31060,
+      "forks": 6537,
+      "todayStars": 265,
+      "url": "https://github.com/telegramdesktop/tdesktop",
+      "aiSummary": {
+        "summary": "Telegram Desktop是基于MTProto协议的开源即时通讯客户端，支持跨平台消息传输与加密通信，提供多系统兼容性及丰富的消息功能。",
+        "techStack": [
+          "C++",
+          "Qt",
+          "OpenSSL",
+          "WebRTC",
+          "FFmpeg"
+        ],
+        "useCase": "适用于需要安全跨平台即时通讯解决方案的企业及个人用户"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "stars": 441482,
+      "forks": 44102,
+      "todayStars": 292,
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "aiSummary": {
+        "summary": "freeCodeCamp.org开源代码库与课程平台，提供免费全栈开发、机器学习课程及编程认证，包含互动挑战、项目实践和多语言学习模块。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ],
+        "useCase": "适合零基础用户系统学习编程及获取开发者认证的免费教育平台"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-05T23:41:04.620Z",
+    "duration": "92s",
+    "version": "1.0.0"
+  }
+}

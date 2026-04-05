@@ -67,20 +67,22 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-04 | **成功**: 8 | **失败**: 0
+**最后更新**: 2026-04-05 | **成功**: 10 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [Blaizzy/mlx-vlm](https://github.com/Blaizzy/mlx-vlm) | MLX-VLM is a package for inference and fine-tuning... | Python | 3.6k | 316 | MLX-VLM是基于MLX框架的视觉语言模型推理与微调工具，支持图像、音频、视频多模态输入。提供CLI和Gradio界面，兼容多种模型如Qwen2-VL、Phi-4等，具备量化优化、视觉缓存及多图像交互功能，适用于Mac端本地化部署与模型调优。 |
-| 2 | [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | Open Source AI Platform - AI Chat with advanced fe... | Python | 24.2k | 1.2k | Onyx是一个开源AI平台，提供基于LLM的高级功能如RAG、网络搜索、代码执行和深度研究，支持自托管及多种LLM提供商，具备灵活部署模式和丰富的交互能力。 |
-| 3 | [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex) | OmX - Oh My codeX: Your codex is not alone. Add ho... | TypeScript | 15.6k | 1.8k | Oh My Codex (OMX) 是 OpenAI Codex 的工作流增强工具，通过预设命令（如 $deep-interview、$ralplan）和项目状态管理（.omx/ 目录）优化代码开发流程，支持代理协作与持久化工作流，提升 Codex 的运行效率与结构化管理。 |
-| 4 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning demos for free. Open-source, no su... | TypeScript | 19.6k | 1.6k | OpenScreen是一款免费开源的屏幕录制工具，提供全屏/窗口录制、智能缩放、音频捕获、背景自定义、注释添加、视频剪辑和多格式导出功能，旨在替代付费工具Screen Studio，适合需要制作产品演示和教程的用户。 |
-| 5 | [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) | Telegram Desktop messaging app... | C++ | 30.8k | 282 | Telegram Desktop是基于MTProto协议的开源即时通讯客户端，支持多平台部署。采用C++开发，集成Qt框架实现跨平台界面，包含消息加密、文件传输等核心功能，提供多种构建方式满足不同系统需求。 |
-| 6 | [block/goose](https://github.com/block/goose) | an open source, extensible AI agent that goes beyo... | Rust | 35.7k | 947 | block/goose 是一个用 Rust 编写的开源 AI 代理，可自动化开发流程。它支持代码生成、调试、工作流编排及外部 API 交互，兼容任意 LLM 并提供 CLI 和桌面应用，提升工程效率。 |
-| 7 | [microsoft/agent-framework](https://github.com/microsoft/agent-framework) | A framework for building, orchestrating and deploy... | Python | 8.7k | 66 | 微软开源的AI代理框架，支持Python和.NET，提供多代理工作流编排、图数据流处理、可观测性集成及跨语言API一致性，适用于复杂AI应用开发与部署。 |
-| 8 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across... | Python | 79.3k | 993 | Sherlock-project/sherlock 是一个基于Python的社交账号搜索工具，可通过用户名在400+社交平台中定位对应账户。支持多用户批量查询、结果文件存储、参数配置及多种输出格式，适用于快速跨平台账号溯源。 |
+| 1 | [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) | A gallery that showcases on-device ML/GenAI use ca... | Kotlin | 16.9k | 495 | Google AI Edge Gallery是一款展示本地设备生成式AI应用的安卓应用，支持离线运行大型语言模型。核心功能包括Agent Skills工具扩展、AI思考模式对话、图像识别、语音转录及提示词调试，聚焦隐私保护与高性能计算。 |
+| 2 | [Blaizzy/mlx-vlm](https://github.com/Blaizzy/mlx-vlm) | MLX-VLM is a package for inference and fine-tuning... | Python | 3.9k | 408 | MLX-VLM是基于MLX框架的视觉语言模型推理与微调工具包，支持Mac端多模态任务。提供CLI和Python接口，兼容图像、音频、视频等多模态输入，覆盖OCR、视觉推理等场景，内置模型优化与量化功能。 |
+| 3 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning demos for free. Open-source, no su... | TypeScript | 22.5k | 2.7k | 开源免费屏幕录制工具，替代Screen Studio。支持窗口/全屏录制、自动/手动缩放、音频录制、背景自定义、注释添加、视频裁剪与变速，适用于商业及个人用途。 |
+| 4 | [block/goose](https://github.com/block/goose) | an open source, extensible AI agent that goes beyo... | Rust | 37.0k | 866 | block/goose 是一个用 Rust 编写的开源 AI 代理，可自动化代码编写、调试、流程编排及 API 交互，支持多模型配置与跨平台部署。 |
+| 5 | [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | Open Source AI Platform - AI Chat with advanced fe... | Python | 25.0k | 960 | Onyx是一个开源AI平台，提供支持多种LLM的聊天界面和高级功能，如RAG、网络搜索、代码执行、深度研究及图像生成。可自托管，适用于企业级AI应用开发与集成。 |
+| 6 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | AI agent toolkit: coding agent CLI, unified LLM AP... | TypeScript | 31.9k | 340 | Pi-Mono 是一个AI代理开发工具包，提供统一LLM API、多终端UI库、Slack机器人及vLLM管理工具，支持CLI、TUI和Web界面，适用于AI代理应用开发与大语言模型部署管理。 |
+| 7 | [dmtrKovalenko/fff.nvim](https://github.com/dmtrKovalenko/fff.nvim) | The fastest and the most accurate file search tool... | Rust | 3.7k | 111 | fff.nvim 是一个为 AI 代理和 Neovim 设计的高性能文件搜索工具，采用 Rust 开发，提供模糊匹配、全局搜索和多关键字搜索功能。通过内置内存优化搜索结果，提升人类用户和 AI 的文件检索效率，减少 token 消耗。 |
+| 8 | [google-ai-edge/LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM) | ... | C++ | 1.5k | 193 | LiteRT-LM是Google开源的边缘设备大语言模型推理框架，支持跨平台部署与硬件加速，具备多模态输入、函数调用及广泛模型兼容性，应用于Chrome、Pixel Watch等设备的本地生成式AI场景。 |
+| 9 | [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) | Telegram Desktop messaging app... | C++ | 31.1k | 265 | Telegram Desktop是基于MTProto协议的开源即时通讯客户端，支持跨平台消息传输与加密通信，提供多系统兼容性及丰富的消息功能。 |
+| 10 | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | freeCodeCamp.org's open-source codebase and curric... | TypeScript | 441.5k | 292 | freeCodeCamp.org开源代码库与课程平台，提供免费全栈开发、机器学习课程及编程认证，包含互动挑战、项目实践和多语言学习模块。 |
 
-[查看完整数据](api/github/2026-04-04.json)
+[查看完整数据](api/github/2026-04-05.json)
 <!-- END GITHUB TRENDING -->
 
 
