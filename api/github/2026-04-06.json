@@ -1,0 +1,282 @@
+{
+  "date": "2026-04-06",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars": 23396,
+      "forks": 2641,
+      "todayStars": 837,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "aiSummary": {
+        "summary": "GitNexus是基于浏览器的代码知识图谱工具，支持本地代码库分析与AI代理交互。通过CLI和Web UI双模式，实现代码依赖追踪、调用链分析及架构可视化，提升代码理解与AI开发效率。",
+        "techStack": [
+          "TypeScript",
+          "Tree-sitter",
+          "LadybugDB"
+        ],
+        "useCase": "代码分析与AI开发工具集成，提升代码理解与架构洞察"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "google-ai-edge/gallery",
+      "description": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.",
+      "language": "Kotlin",
+      "stars": 17839,
+      "forks": 1654,
+      "todayStars": 1109,
+      "url": "https://github.com/google-ai-edge/gallery",
+      "aiSummary": {
+        "summary": "Google AI Edge Gallery展示本地设备上的生成式AI用例，支持离线运行Gemma 4模型。核心功能包括多模态交互、思维模式对话、图像识别、语音转录及提示测试，提升隐私与响应速度。",
+        "techStack": [
+          "Kotlin",
+          "Android SDK",
+          "机器学习框架"
+        ],
+        "useCase": "移动设备端的生成式AI功能体验与模型性能测试"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "block/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "stars": 38084,
+      "forks": 3681,
+      "todayStars": 1514,
+      "url": "https://github.com/block/goose",
+      "aiSummary": {
+        "summary": "block/goose 是一个用 Rust 编写的开源 AI 代理工具，可自动化代码构建、执行、调试及工程流程。支持多模型配置、LLM 交互和 MCP 服务器集成，提供 CLI 与桌面应用，提升开发效率。",
+        "techStack": [
+          "Rust",
+          "LLM 框架",
+          "MCP 服务器"
+        ],
+        "useCase": "开发者自动化代码开发、测试及复杂工程任务管理"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "google-ai-edge/LiteRT-LM",
+      "description": "",
+      "language": "C++",
+      "stars": 1992,
+      "forks": 209,
+      "todayStars": 487,
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "aiSummary": {
+        "summary": "LiteRT-LM是Google开源的边缘设备大语言模型推理框架，支持跨平台部署与硬件加速，提供多模态输入、函数调用及高性能推理能力，适用于移动设备、物联网及嵌入式场景。",
+        "techStack": [
+          "C++",
+          "GPU/NPU加速",
+          "多模态处理"
+        ],
+        "useCase": "在边缘设备上高效部署和运行大型语言模型，支持多种硬件和跨平台应用。"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "stars": 96823,
+      "forks": 5285,
+      "todayStars": 220,
+      "url": "https://github.com/immich-app/immich",
+      "aiSummary": {
+        "summary": "ImmiCh 是一款高性能自托管相册管理工具，支持多平台照片/视频管理，具备自动备份、去重、多用户权限、人脸识别、元数据搜索、离线访问及多语言界面等功能，适用于个人或企业级媒体资产管理系统。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Node.js"
+        ],
+        "useCase": "需要本地化部署且要求高并发处理能力的多媒体资源管理场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "KeygraphHQ/shannon",
+      "description": "Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+      "language": "TypeScript",
+      "stars": 36468,
+      "forks": 3821,
+      "todayStars": 703,
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "aiSummary": {
+        "summary": "Shannon是Keygraph开发的AI驱动白盒渗透测试工具，通过源代码分析与实时漏洞利用结合，自动检测Web应用及API的注入、XSS、SSRF等漏洞，并生成可复现的POC报告。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于Web应用和API的自动化安全测试，提前发现生产环境中的漏洞"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 28011,
+      "forks": 3691,
+      "todayStars": 1721,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "Hermes-Agent 是一个自我优化的AI代理系统，支持跨平台对话、多模型切换和自动化任务。具备学习循环机制，可持续改进技能并跨会话记忆用户信息，提供全功能终端界面及分布式运行能力。",
+        "techStack": [
+          "Python",
+          "Terminal UI",
+          "Docker",
+          "SSH",
+          "Serverless"
+        ],
+        "useCase": "适用于需要跨平台自动化、智能对话及持续学习的AI代理应用场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "tobi/qmd",
+      "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+      "language": "TypeScript",
+      "stars": 18703,
+      "forks": 1140,
+      "todayStars": 526,
+      "url": "https://github.com/tobi/qmd",
+      "aiSummary": {
+        "summary": "QMD是一款本地运行的命令行搜索引擎，支持Markdown文档的关键词、语义搜索及LLM重排序，结合BM25、向量检索与本地模型实现高效知识管理。",
+        "techStack": [
+          "TypeScript",
+          "node-llama-cpp",
+          "GGUF"
+        ],
+        "useCase": "适用于需要隐私保护的个人知识库或团队文档的离线搜索场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "TelegramMessenger/Telegram-iOS",
+      "description": "Telegram-iOS",
+      "language": "Swift",
+      "stars": 8309,
+      "forks": 2527,
+      "todayStars": 54,
+      "url": "https://github.com/TelegramMessenger/Telegram-iOS",
+      "aiSummary": {
+        "summary": "Telegram的iOS客户端源代码，支持即时通讯、加密消息传输及跨平台功能，提供开发指南和构建配置。",
+        "techStack": [
+          "Swift",
+          "Xcode",
+          "Bazel"
+        ],
+        "useCase": "开发和编译Telegram的iOS客户端应用"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "kepano/obsidian-skills",
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "language": "",
+      "stars": 20478,
+      "forks": 1269,
+      "todayStars": 534,
+      "url": "https://github.com/kepano/obsidian-skills",
+      "aiSummary": {
+        "summary": "提供Obsidian代理技能，支持Markdown/Bases/JSON Canvas编辑及CLI操作，包含网页内容清理工具。适配Claude Code、Codex CLI等代理框架，通过技能模块扩展Obsidian功能。",
+        "techStack": [
+          "Markdown",
+          "JSON",
+          "Shell",
+          "JavaScript"
+        ],
+        "useCase": "提升Obsidian知识管理系统的自动化处理能力"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "ollama/ollama",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "stars": 167668,
+      "forks": 15388,
+      "todayStars": 263,
+      "url": "https://github.com/ollama/ollama",
+      "aiSummary": {
+        "summary": "Ollama是一个支持多模型部署与管理的开源工具，提供CLI和REST API接口，可快速集成Kimi-K2.5、GLM-5、Qwen等大模型。支持跨平台安装、Docker容器化及多种编程语言SDK，适用于AI应用开发与模型实验。",
+        "techStack": [
+          "Go",
+          "llama.cpp",
+          "Docker"
+        ],
+        "useCase": "开发者快速构建和部署大型语言模型应用"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "stars": 102010,
+      "forks": 16462,
+      "todayStars": 318,
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "aiSummary": {
+        "summary": "llama.cpp是C/C++实现的LLM推理框架，支持多平台硬件加速（Apple Silicon/ARM/AVX/AMX），兼容Hugging Face模型，提供本地部署、Docker及预编译方案，注重低资源消耗与高性能。",
+        "techStack": [
+          "C/C++",
+          "ARM NEON",
+          "AVX2",
+          "AVX512",
+          "AMX"
+        ],
+        "useCase": "适用于本地及云端大语言模型高效推理部署"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "siddharthvaddem/openscreen",
+      "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
+      "language": "TypeScript",
+      "stars": 23931,
+      "forks": 1601,
+      "todayStars": 1823,
+      "url": "https://github.com/siddharthvaddem/openscreen",
+      "aiSummary": {
+        "summary": "OpenScreen 是免费开源的屏幕录制与视频编辑工具，提供窗口/全屏录制、自动/手动缩放、音频录制、视频裁剪、背景自定义、运动模糊、注释添加及多格式导出等功能，旨在替代Screen Studio的基础功能，无订阅费用且支持商业用途。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合需要免费且无限制的屏幕录制与产品演示视频制作的个人开发者或小型团队。"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "NVIDIA/personaplex",
+      "description": "PersonaPlex code.",
+      "language": "Python",
+      "stars": 7323,
+      "forks": 1086,
+      "todayStars": 295,
+      "url": "https://github.com/NVIDIA/personaplex",
+      "aiSummary": {
+        "summary": "PersonaPlex是基于Moshi架构的实时全双工语音对话模型，支持文本角色提示和音频语音条件控制，可生成自然低延迟的对话交互，适用于虚拟角色扮演和智能语音助手场景。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Huggingface",
+          "Opus"
+        ],
+        "useCase": "实时语音助手与虚拟角色交互场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-06T23:43:45.352Z",
+    "duration": "165s",
+    "version": "1.0.0"
+  }
+}

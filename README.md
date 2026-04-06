@@ -67,22 +67,26 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-05 | **成功**: 10 | **失败**: 0
+**最后更新**: 2026-04-06 | **成功**: 14 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) | A gallery that showcases on-device ML/GenAI use ca... | Kotlin | 16.9k | 495 | Google AI Edge Gallery是一款展示本地设备生成式AI应用的安卓应用，支持离线运行大型语言模型。核心功能包括Agent Skills工具扩展、AI思考模式对话、图像识别、语音转录及提示词调试，聚焦隐私保护与高性能计算。 |
-| 2 | [Blaizzy/mlx-vlm](https://github.com/Blaizzy/mlx-vlm) | MLX-VLM is a package for inference and fine-tuning... | Python | 3.9k | 408 | MLX-VLM是基于MLX框架的视觉语言模型推理与微调工具包，支持Mac端多模态任务。提供CLI和Python接口，兼容图像、音频、视频等多模态输入，覆盖OCR、视觉推理等场景，内置模型优化与量化功能。 |
-| 3 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning demos for free. Open-source, no su... | TypeScript | 22.5k | 2.7k | 开源免费屏幕录制工具，替代Screen Studio。支持窗口/全屏录制、自动/手动缩放、音频录制、背景自定义、注释添加、视频裁剪与变速，适用于商业及个人用途。 |
-| 4 | [block/goose](https://github.com/block/goose) | an open source, extensible AI agent that goes beyo... | Rust | 37.0k | 866 | block/goose 是一个用 Rust 编写的开源 AI 代理，可自动化代码编写、调试、流程编排及 API 交互，支持多模型配置与跨平台部署。 |
-| 5 | [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx) | Open Source AI Platform - AI Chat with advanced fe... | Python | 25.0k | 960 | Onyx是一个开源AI平台，提供支持多种LLM的聊天界面和高级功能，如RAG、网络搜索、代码执行、深度研究及图像生成。可自托管，适用于企业级AI应用开发与集成。 |
-| 6 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | AI agent toolkit: coding agent CLI, unified LLM AP... | TypeScript | 31.9k | 340 | Pi-Mono 是一个AI代理开发工具包，提供统一LLM API、多终端UI库、Slack机器人及vLLM管理工具，支持CLI、TUI和Web界面，适用于AI代理应用开发与大语言模型部署管理。 |
-| 7 | [dmtrKovalenko/fff.nvim](https://github.com/dmtrKovalenko/fff.nvim) | The fastest and the most accurate file search tool... | Rust | 3.7k | 111 | fff.nvim 是一个为 AI 代理和 Neovim 设计的高性能文件搜索工具，采用 Rust 开发，提供模糊匹配、全局搜索和多关键字搜索功能。通过内置内存优化搜索结果，提升人类用户和 AI 的文件检索效率，减少 token 消耗。 |
-| 8 | [google-ai-edge/LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM) | ... | C++ | 1.5k | 193 | LiteRT-LM是Google开源的边缘设备大语言模型推理框架，支持跨平台部署与硬件加速，具备多模态输入、函数调用及广泛模型兼容性，应用于Chrome、Pixel Watch等设备的本地生成式AI场景。 |
-| 9 | [telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop) | Telegram Desktop messaging app... | C++ | 31.1k | 265 | Telegram Desktop是基于MTProto协议的开源即时通讯客户端，支持跨平台消息传输与加密通信，提供多系统兼容性及丰富的消息功能。 |
-| 10 | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | freeCodeCamp.org's open-source codebase and curric... | TypeScript | 441.5k | 292 | freeCodeCamp.org开源代码库与课程平台，提供免费全栈开发、机器学习课程及编程认证，包含互动挑战、项目实践和多语言学习模块。 |
+| 1 | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | GitNexus: The Zero-Server Code Intelligence Engine... | TypeScript | 23.4k | 837 | GitNexus是基于浏览器的代码知识图谱工具，支持本地代码库分析与AI代理交互。通过CLI和Web UI双模式，实现代码依赖追踪、调用链分析及架构可视化，提升代码理解与AI开发效率。 |
+| 2 | [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) | A gallery that showcases on-device ML/GenAI use ca... | Kotlin | 17.8k | 1.1k | Google AI Edge Gallery展示本地设备上的生成式AI用例，支持离线运行Gemma 4模型。核心功能包括多模态交互、思维模式对话、图像识别、语音转录及提示测试，提升隐私与响应速度。 |
+| 3 | [block/goose](https://github.com/block/goose) | an open source, extensible AI agent that goes beyo... | Rust | 38.1k | 1.5k | block/goose 是一个用 Rust 编写的开源 AI 代理工具，可自动化代码构建、执行、调试及工程流程。支持多模型配置、LLM 交互和 MCP 服务器集成，提供 CLI 与桌面应用，提升开发效率。 |
+| 4 | [google-ai-edge/LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM) | ... | C++ | 2.0k | 487 | LiteRT-LM是Google开源的边缘设备大语言模型推理框架，支持跨平台部署与硬件加速，提供多模态输入、函数调用及高性能推理能力，适用于移动设备、物联网及嵌入式场景。 |
+| 5 | [immich-app/immich](https://github.com/immich-app/immich) | High performance self-hosted photo and video manag... | TypeScript | 96.8k | 220 | ImmiCh 是一款高性能自托管相册管理工具，支持多平台照片/视频管理，具备自动备份、去重、多用户权限、人脸识别、元数据搜索、离线访问及多语言界面等功能，适用于个人或企业级媒体资产管理系统。 |
+| 6 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Shannon Lite is an autonomous, white-box AI pentes... | TypeScript | 36.5k | 703 | Shannon是Keygraph开发的AI驱动白盒渗透测试工具，通过源代码分析与实时漏洞利用结合，自动检测Web应用及API的注入、XSS、SSRF等漏洞，并生成可复现的POC报告。 |
+| 7 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you... | Python | 28.0k | 1.7k | Hermes-Agent 是一个自我优化的AI代理系统，支持跨平台对话、多模型切换和自动化任务。具备学习循环机制，可持续改进技能并跨会话记忆用户信息，提供全功能终端界面及分布式运行能力。 |
+| 8 | [tobi/qmd](https://github.com/tobi/qmd) | mini cli search engine for your docs, knowledge ba... | TypeScript | 18.7k | 526 | QMD是一款本地运行的命令行搜索引擎，支持Markdown文档的关键词、语义搜索及LLM重排序，结合BM25、向量检索与本地模型实现高效知识管理。 |
+| 9 | [TelegramMessenger/Telegram-iOS](https://github.com/TelegramMessenger/Telegram-iOS) | Telegram-iOS... | Swift | 8.3k | 54 | Telegram的iOS客户端源代码，支持即时通讯、加密消息传输及跨平台功能，提供开发指南和构建配置。 |
+| 10 | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | Agent skills for Obsidian. Teach your agent to use... | - | 20.5k | 534 | 提供Obsidian代理技能，支持Markdown/Bases/JSON Canvas编辑及CLI操作，包含网页内容清理工具。适配Claude Code、Codex CLI等代理框架，通过技能模块扩展Obsidian功能。 |
+| 11 | [ollama/ollama](https://github.com/ollama/ollama) | Get up and running with Kimi-K2.5, GLM-5, MiniMax,... | Go | 167.7k | 263 | Ollama是一个支持多模型部署与管理的开源工具，提供CLI和REST API接口，可快速集成Kimi-K2.5、GLM-5、Qwen等大模型。支持跨平台安装、Docker容器化及多种编程语言SDK，适用于AI应用开发与模型实验。 |
+| 12 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++... | C++ | 102.0k | 318 | llama.cpp是C/C++实现的LLM推理框架，支持多平台硬件加速（Apple Silicon/ARM/AVX/AMX），兼容Hugging Face模型，提供本地部署、Docker及预编译方案，注重低资源消耗与高性能。 |
+| 13 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning demos for free. Open-source, no su... | TypeScript | 23.9k | 1.8k | OpenScreen 是免费开源的屏幕录制与视频编辑工具，提供窗口/全屏录制、自动/手动缩放、音频录制、视频裁剪、背景自定义、运动模糊、注释添加及多格式导出等功能，旨在替代Screen Studio的基础功能，无订阅费用且支持商业用途。 |
+| 14 | [NVIDIA/personaplex](https://github.com/NVIDIA/personaplex) | PersonaPlex code.... | Python | 7.3k | 295 | PersonaPlex是基于Moshi架构的实时全双工语音对话模型，支持文本角色提示和音频语音条件控制，可生成自然低延迟的对话交互，适用于虚拟角色扮演和智能语音助手场景。 |
 
-[查看完整数据](api/github/2026-04-05.json)
+[查看完整数据](api/github/2026-04-06.json)
 <!-- END GITHUB TRENDING -->
 
 
