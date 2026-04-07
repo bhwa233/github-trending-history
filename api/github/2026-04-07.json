@@ -1,0 +1,189 @@
+{
+  "date": "2026-04-07",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "google-ai-edge/gallery",
+      "description": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.",
+      "language": "Kotlin",
+      "stars": 18725,
+      "forks": 1746,
+      "todayStars": 899,
+      "url": "https://github.com/google-ai-edge/gallery",
+      "aiSummary": {
+        "summary": "Google AI Edge Gallery是展示本地设备生成式AI能力的Android应用，支持离线运行大型语言模型。核心功能包括多模态交互（图像识别、语音转录）、AI对话推理、提示测试及模块化技能扩展，适用于隐私敏感场景下的AI模型体验与开发测试。",
+        "techStack": [
+          "Kotlin",
+          "Android SDK",
+          "TensorFlow Lite"
+        ],
+        "useCase": "适用于本地化生成式AI模型的测试、体验及多模态交互应用开发"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "google-ai-edge/LiteRT-LM",
+      "description": "",
+      "language": "C++",
+      "stars": 2515,
+      "forks": 251,
+      "todayStars": 522,
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "aiSummary": {
+        "summary": "LiteRT-LM是Google开源的边缘设备大语言模型推理框架，支持跨平台部署与硬件加速，提供多模态输入、函数调用功能，兼容Gemma/Llama等主流模型，适用于移动设备、IoT及嵌入式场景。",
+        "techStack": [
+          "C++",
+          "GPU加速",
+          "NPU加速"
+        ],
+        "useCase": "在边缘设备上高效运行大型语言模型，支持多模态交互与硬件级性能优化。"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "NVIDIA/personaplex",
+      "description": "PersonaPlex code.",
+      "language": "Python",
+      "stars": 7921,
+      "forks": 1155,
+      "todayStars": 663,
+      "url": "https://github.com/NVIDIA/personaplex",
+      "aiSummary": {
+        "summary": "PersonaPlex是基于Moshi架构的实时全双工语音对话模型，支持文本角色提示与音频语音条件控制，可生成自然低延迟的口语交互，适用于需要个性化语音交互的场景。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Huggingface",
+          "Opus"
+        ],
+        "useCase": "实时语音助手、虚拟客服等需要角色化语音交互的场景"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars": 24453,
+      "forks": 2727,
+      "todayStars": 1174,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "aiSummary": {
+        "summary": "GitNexus 是一个浏览器端代码知识图谱工具，可本地化索引代码库生成交互式图谱，并通过CLI与AI代理集成。支持GitHub仓库或ZIP文件导入，提供依赖关系、调用链等结构化分析，增强代码理解与AI开发效率。",
+        "techStack": [
+          "TypeScript",
+          "WebAssembly",
+          "Tree-sitter",
+          "LadybugDB"
+        ],
+        "useCase": "适用于代码结构化分析与AI开发工具的本地化知识增强场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "tobi/qmd",
+      "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+      "language": "TypeScript",
+      "stars": 19515,
+      "forks": 1174,
+      "todayStars": 859,
+      "url": "https://github.com/tobi/qmd",
+      "aiSummary": {
+        "summary": "QMD是本地运行的Markdown文档搜索引擎，结合BM25、向量语义搜索和LLM重排序技术，支持多场景知识管理与高效检索。",
+        "techStack": [
+          "TypeScript",
+          "node-llama-cpp",
+          "GGUF"
+        ],
+        "useCase": "本地文档搜索与知识管理"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "forrestchang/andrej-karpathy-skills",
+      "description": "",
+      "language": "",
+      "stars": 8017,
+      "forks": 566,
+      "todayStars": 42,
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "该项目提供一套Claude代码编写指南，通过四个核心原则（思考优先、简洁优先、精准修改、目标驱动）优化大语言模型代码生成质量，解决错误假设、过度复杂化、随意修改代码等问题。",
+        "techStack": [
+          "Markdown"
+        ],
+        "useCase": "需要提升Claude代码生成准确性和简洁性的开发者场景"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "elebumm/RedditVideoMakerBot",
+      "description": "Create Reddit Videos with just✨ one command ✨",
+      "language": "Python",
+      "stars": 10010,
+      "forks": 2520,
+      "todayStars": 656,
+      "url": "https://github.com/elebumm/RedditVideoMakerBot",
+      "aiSummary": {
+        "summary": "自动化生成Reddit视频的Python工具，通过编程实现视频制作流程，无需手动编辑。支持从Reddit抓取内容并生成视频，需手动上传结果文件。",
+        "techStack": [
+          "Python",
+          "Playwright",
+          "Reddit API"
+        ],
+        "useCase": "社交媒体内容创作者快速生成Reddit视频素材"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "HKUDS/DeepTutor",
+      "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
+      "language": "Python",
+      "stars": 12116,
+      "forks": 1662,
+      "todayStars": 339,
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "aiSummary": {
+        "summary": "DeepTutor 是一个基于智能代理的个性化学习助手，支持多模式交互（聊天、深度解答、测验生成等），提供统一上下文环境和可扩展的插件架构，适用于教育技术领域的个性化辅导场景。",
+        "techStack": [
+          "Python",
+          "Docker",
+          "React",
+          "Next.js",
+          "WebSocket"
+        ],
+        "useCase": "教育领域个性化学习辅导与智能教学辅助"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "TheCraigHewitt/seomachine",
+      "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.",
+      "language": "Python",
+      "stars": 3851,
+      "forks": 658,
+      "todayStars": 213,
+      "url": "https://github.com/TheCraigHewitt/seomachine",
+      "aiSummary": {
+        "summary": "SEO Machine 是基于 Claude Code 的专业化 SEO 内容生成工具，提供从关键词研究、内容创作到性能分析的全流程解决方案，集成多维度 SEO 分析与营销技能，支持自动化优化和数据驱动决策。",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "Google Analytics",
+          "DataForSEO",
+          "nltk"
+        ],
+        "useCase": "适用于需要高效生成高排名SEO内容的企业级博客运营场景"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-07T23:43:36.482Z",
+    "duration": "88s",
+    "version": "1.0.0"
+  }
+}
