@@ -1,0 +1,222 @@
+{
+  "date": "2026-04-08",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "forrestchang/andrej-karpathy-skills",
+      "description": "",
+      "language": "",
+      "stars": 8939,
+      "forks": 617,
+      "todayStars": 686,
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "该项目基于Andrej Karpathy对LLM编码问题的观察，提出四个原则优化Claude代码生成质量。包含Think Before Coding、Simplicity First、Surgical Changes和Goal-Driven Execution四条指南，解决模型错误假设、过度复杂化和冗余抽象等问题，通过明确推理、保持代码简洁、精准修改和目标驱动执行提升代码可靠性。",
+        "techStack": [
+          "Markdown",
+          "Python",
+          "Shell"
+        ],
+        "useCase": "优化AI代码生成质量，提升代码简洁性与可靠性"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "TheCraigHewitt/seomachine",
+      "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.",
+      "language": "Python",
+      "stars": 4554,
+      "forks": 705,
+      "todayStars": 645,
+      "url": "https://github.com/TheCraigHewitt/seomachine",
+      "aiSummary": {
+        "summary": "SEO Machine是基于Claude Code的Python工具，提供SEO优化博客内容全流程解决方案，包含关键词分析、内容优化、数据集成等功能，支持自动化研究、写作及性能评估。",
+        "techStack": [
+          "Python",
+          "Google Analytics API",
+          "DataForSEO API",
+          "nltk",
+          "scikit-learn"
+        ],
+        "useCase": "适用于企业或内容创作者进行高效SEO博客内容生产与优化"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "google-ai-edge/gallery",
+      "description": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.",
+      "language": "Kotlin",
+      "stars": 19482,
+      "forks": 1820,
+      "todayStars": 853,
+      "url": "https://github.com/google-ai-edge/gallery",
+      "aiSummary": {
+        "summary": "Google AI Edge Gallery 是一款展示本地设备生成式AI能力的应用，支持离线运行大语言模型（如Gemma 4），提供多模态交互功能。核心功能包括AI对话推理、图像识别、语音转录、提示调试及模块化技能扩展，强调隐私安全与高性能计算。",
+        "techStack": [
+          "Kotlin"
+        ],
+        "useCase": "移动设备端侧生成式AI模型测试与交互体验"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "NVIDIA/personaplex",
+      "description": "PersonaPlex code.",
+      "language": "Python",
+      "stars": 8393,
+      "forks": 1204,
+      "todayStars": 589,
+      "url": "https://github.com/NVIDIA/personaplex",
+      "aiSummary": {
+        "summary": "PersonaPlex是基于Moshi架构的实时全双工语音对话模型，支持文本角色提示和音频语音条件控制，可生成自然低延迟的对话响应，适用于需要个性化语音交互的场景。",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Huggingface Transformers",
+          "Moshi"
+        ],
+        "useCase": "虚拟助手、智能客服等需要语音角色控制的实时对话系统"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "google-ai-edge/LiteRT-LM",
+      "description": "",
+      "language": "C++",
+      "stars": 2970,
+      "forks": 278,
+      "todayStars": 500,
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "aiSummary": {
+        "summary": "LiteRT-LM是Google开源的边缘设备大语言模型推理框架，支持跨平台部署与硬件加速，具备多模态输入和函数调用能力，适配Gemma、Llama等主流模型，已应用于Chrome、Pixel Watch等产品。",
+        "techStack": [
+          "C++",
+          "GPU/NPU加速",
+          "多模态处理"
+        ],
+        "useCase": "在边缘设备上高效运行大型语言模型，支持物联网、移动设备及桌面端的低延迟AI推理场景。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "elebumm/RedditVideoMakerBot",
+      "description": "Create Reddit Videos with just✨ one command ✨",
+      "language": "Python",
+      "stars": 10463,
+      "forks": 2575,
+      "todayStars": 572,
+      "url": "https://github.com/elebumm/RedditVideoMakerBot",
+      "aiSummary": {
+        "summary": "Reddit视频生成工具，通过Python自动化抓取Reddit内容并生成视频，无需手动编辑。支持命令行一键操作，生成的视频需手动上传以规避合规风险。",
+        "techStack": [
+          "Python",
+          "Playwright",
+          "TOML"
+        ],
+        "useCase": "社交媒体内容创作者快速生成Reddit风格视频素材"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 141447,
+      "forks": 12068,
+      "todayStars": 2170,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发代理框架，通过自动化工作流提升编码效率。它通过需求分解、TDD驱动开发和子代理协作，实现从设计到落地的全流程自动化，降低人工干预需求。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "需要自动化软件开发流程的AI代理协作场景"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "newton-physics/newton",
+      "description": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers.",
+      "language": "Python",
+      "stars": 4077,
+      "forks": 422,
+      "todayStars": 67,
+      "url": "https://github.com/newton-physics/newton",
+      "aiSummary": {
+        "summary": "Newton是基于NVIDIA Warp的GPU加速物理模拟引擎，支持机器人学与模拟研究。提供OpenUSD集成、可微分计算及用户扩展功能，兼容MuJoCo Warp后端，提升仿真效率与可扩展性。",
+        "techStack": [
+          "Python",
+          "NVIDIA Warp",
+          "CUDA",
+          "OpenUSD"
+        ],
+        "useCase": "适用于机器人学和模拟研究的GPU加速物理模拟"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars": 25270,
+      "forks": 2812,
+      "todayStars": 981,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "aiSummary": {
+        "summary": "GitNexus 是一个浏览器端代码知识图谱工具，通过本地化处理GitHub仓库或ZIP文件，构建包含依赖关系、调用链等信息的交互式知识图谱，并集成Graph RAG代理实现代码分析。支持CLI和Web UI两种使用方式，强调隐私和本地化处理。",
+        "techStack": [
+          "TypeScript",
+          "Tree-sitter",
+          "WebAssembly",
+          "LadybugDB"
+        ],
+        "useCase": "适用于代码探索与分析，帮助开发者理解复杂代码结构和依赖关系。"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars": 50660,
+      "forks": 8787,
+      "todayStars": 123,
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "aiSummary": {
+        "summary": "该项目是AI驱动的对冲基金原型，整合多策略投资代理（如价值投资、成长投资、风险分析等），通过估值、情绪、基本面及技术分析生成交易信号，但明确标注仅用于教育场景，不进行实际交易。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "教育场景下研究AI在量化交易中的策略模拟与验证"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "goharbor/harbor",
+      "description": "An open source trusted cloud native registry project that stores, signs, and scans content.",
+      "language": "Go",
+      "stars": 28102,
+      "forks": 5173,
+      "todayStars": 23,
+      "url": "https://github.com/goharbor/harbor",
+      "aiSummary": {
+        "summary": "Harbor是云原生容器注册表，提供镜像存储、签名验证、漏洞扫描及基于策略的跨集群复制，支持RBAC和多项目管理，增强容器镜像安全性与管理效率。",
+        "techStack": [
+          "Go",
+          "Docker",
+          "CNCF"
+        ],
+        "useCase": "企业级容器镜像安全存储与多云环境下的高效分发管理"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-08T23:44:40.986Z",
+    "duration": "105s",
+    "version": "1.0.0"
+  }
+}
