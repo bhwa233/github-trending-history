@@ -1,0 +1,208 @@
+{
+  "date": "2026-04-09",
+  "since": "daily",
+  "totalRepos": 10,
+  "successCount": 10,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 44107,
+      "forks": 5660,
+      "todayStars": 6788,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "Hermes-Agent 是一个自我进化的AI代理，具备内置学习循环，可跨会话持续优化技能、记忆用户模型，并支持多平台交互。提供终端界面、定时任务、并行子代理等功能，可部署于多种基础设施。",
+        "techStack": [
+          "Python",
+          "TUI框架",
+          "RPC通信",
+          "Docker",
+          "SSH"
+        ],
+        "useCase": "需要跨平台部署和持续自我优化的AI代理应用场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 10387,
+      "forks": 696,
+      "todayStars": 1371,
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "该项目通过四个原则优化Claude代码生成行为，针对LLM常见的错误假设、过度复杂化、无关代码修改等问题，提供简洁、精准的代码生成指导。",
+        "techStack": [
+          "Markdown",
+          "LLM Optimization",
+          "Code Guidelines"
+        ],
+        "useCase": "适用于需要提升AI代码生成质量与准确性的开发场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "HKUDS/DeepTutor",
+      "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
+      "language": "Python",
+      "stars": 14789,
+      "forks": 1983,
+      "todayStars": 1300,
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "aiSummary": {
+        "summary": "DeepTutor是一个基于代理的个性化学习助手，采用Agent-Native架构，支持多模式切换和智能辅导。核心功能包括TutorBot、引导式学习、知识库检索增强生成(RAG)及多语言支持，适用于教育科技领域的自适应学习场景。",
+        "techStack": [
+          "Python",
+          "RAG",
+          "OpenAI/Anthropic SDK",
+          "WebSocket"
+        ],
+        "useCase": "教育科技领域的个性化智能辅导系统开发"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "stars": 7610,
+      "forks": 907,
+      "todayStars": 460,
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "aiSummary": {
+        "summary": "OpenBMB/VoxCPM是一款无需分词器的文本转语音系统，支持30种语言的高自然度语音生成。具备语音设计、可控语音克隆、48kHz高质量音频输出及多语言自适应合成能力，采用扩散自回归架构与MiniCPM-4模型实现端到端语音表示生成。",
+        "techStack": [
+          "Python",
+          "扩散模型",
+          "自回归架构",
+          "MiniCPM-4"
+        ],
+        "useCase": "适用于多语言智能客服、个性化语音助手及高质量语音内容生成等场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "opendataloader-project/opendataloader-pdf",
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "language": "Java",
+      "stars": 13726,
+      "forks": 1149,
+      "todayStars": 1118,
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "aiSummary": {
+        "summary": "Java驱动的PDF解析器，支持AI数据提取与OCR，可生成结构化数据及可访问性Tagged PDF，适用于复杂表格、公式和多语言文档处理。",
+        "techStack": [
+          "Java",
+          "Python",
+          "Node.js"
+        ],
+        "useCase": "适用于需要高精度PDF数据提取及无障碍改造的企业级文档处理场景。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 143674,
+      "forks": 12276,
+      "todayStars": 2318,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发框架，通过代理自动化流程提升开发效率。强调TDD、YAGNI和DRY原则，支持编码代理自主规划与执行任务，减少人工干预。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要自动化软件开发流程的场景，提升编码代理的自主开发能力。"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "TheCraigHewitt/seomachine",
+      "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.",
+      "language": "Python",
+      "stars": 5177,
+      "forks": 755,
+      "todayStars": 725,
+      "url": "https://github.com/TheCraigHewitt/seomachine",
+      "aiSummary": {
+        "summary": "SEO Machine 是基于 Claude Code 的专业 SEO 内容生成工具，提供从关键词研究到内容优化的全流程解决方案，包含 26 项营销技能和数据分析功能，支持自动化博客创作与 SEO 优化。",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "Google Analytics",
+          "DataForSEO",
+          "nltk"
+        ],
+        "useCase": "适用于企业或个人高效生成符合搜索引擎排名规则的长尾SEO博客内容"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "coleam00/Archon",
+      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "language": "TypeScript",
+      "stars": 14384,
+      "forks": 2460,
+      "todayStars": 138,
+      "url": "https://github.com/coleam00/Archon",
+      "aiSummary": {
+        "summary": "Archon是一个AI编码工作流引擎，通过YAML定义开发流程（计划、实现、验证等），确保AI编码过程的确定性和可重复性。支持隔离运行、组合式节点及跨平台执行。",
+        "techStack": [
+          "TypeScript",
+          "YAML",
+          "Git"
+        ],
+        "useCase": "提升AI辅助软件开发的流程可控性与结果一致性"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 12155,
+      "forks": 2505,
+      "todayStars": 223,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos是首个开源金融K线基础模型，通过两阶段框架处理高噪声金融数据，支持多粒度时间序列预测与量化任务，提供不同参数量级的预训练模型。",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Hugging Face"
+        ],
+        "useCase": "金融时间序列预测与量化分析"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "YishenTu/claudian",
+      "description": "An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault",
+      "language": "TypeScript",
+      "stars": 6788,
+      "forks": 400,
+      "todayStars": 174,
+      "url": "https://github.com/YishenTu/claudian",
+      "aiSummary": {
+        "summary": "Claudian是Obsidian插件，将Claude Code等AI编码代理嵌入知识库，支持文件读写、搜索、多步骤工作流及内联代码编辑，提供指令模式、MCP服务器连接和多标签聊天功能。",
+        "techStack": [
+          "TypeScript",
+          "Obsidian Plugin API",
+          "Model Context Protocol (MCP)"
+        ],
+        "useCase": "需要AI代码协作与知识库集成的开发者及研究者"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-09T23:42:27.425Z",
+    "duration": "95s",
+    "version": "1.0.0"
+  }
+}

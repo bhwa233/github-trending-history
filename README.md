@@ -67,23 +67,22 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-08 | **成功**: 11 | **失败**: 0
+**最后更新**: 2026-04-09 | **成功**: 10 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | ... | - | 8.9k | 686 | 该项目基于Andrej Karpathy对LLM编码问题的观察，提出四个原则优化Claude代码生成质量。包含Think Before Coding、Simplicity First、Surgical Changes和Goal-Driven Execution四条指南，解决模型错误假设、过度复杂化和冗余抽象等问题，通过明确推理、保持代码简洁、精准修改和目标驱动执行提升代码可靠性。 |
-| 2 | [TheCraigHewitt/seomachine](https://github.com/TheCraigHewitt/seomachine) | A specialized Claude Code workspace for creating l... | Python | 4.6k | 645 | SEO Machine是基于Claude Code的Python工具，提供SEO优化博客内容全流程解决方案，包含关键词分析、内容优化、数据集成等功能，支持自动化研究、写作及性能评估。 |
-| 3 | [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) | A gallery that showcases on-device ML/GenAI use ca... | Kotlin | 19.5k | 853 | Google AI Edge Gallery 是一款展示本地设备生成式AI能力的应用，支持离线运行大语言模型（如Gemma 4），提供多模态交互功能。核心功能包括AI对话推理、图像识别、语音转录、提示调试及模块化技能扩展，强调隐私安全与高性能计算。 |
-| 4 | [NVIDIA/personaplex](https://github.com/NVIDIA/personaplex) | PersonaPlex code.... | Python | 8.4k | 589 | PersonaPlex是基于Moshi架构的实时全双工语音对话模型，支持文本角色提示和音频语音条件控制，可生成自然低延迟的对话响应，适用于需要个性化语音交互的场景。 |
-| 5 | [google-ai-edge/LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM) | ... | C++ | 3.0k | 500 | LiteRT-LM是Google开源的边缘设备大语言模型推理框架，支持跨平台部署与硬件加速，具备多模态输入和函数调用能力，适配Gemma、Llama等主流模型，已应用于Chrome、Pixel Watch等产品。 |
-| 6 | [elebumm/RedditVideoMakerBot](https://github.com/elebumm/RedditVideoMakerBot) | Create Reddit Videos with just✨ one command ✨... | Python | 10.5k | 572 | Reddit视频生成工具，通过Python自动化抓取Reddit内容并生成视频，无需手动编辑。支持命令行一键操作，生成的视频需手动上传以规避合规风险。 |
-| 7 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 141.4k | 2.2k | Superpowers 是一个基于可组合技能的软件开发代理框架，通过自动化工作流提升编码效率。它通过需求分解、TDD驱动开发和子代理协作，实现从设计到落地的全流程自动化，降低人工干预需求。 |
-| 8 | [newton-physics/newton](https://github.com/newton-physics/newton) | An open-source, GPU-accelerated physics simulation... | Python | 4.1k | 67 | Newton是基于NVIDIA Warp的GPU加速物理模拟引擎，支持机器人学与模拟研究。提供OpenUSD集成、可微分计算及用户扩展功能，兼容MuJoCo Warp后端，提升仿真效率与可扩展性。 |
-| 9 | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | GitNexus: The Zero-Server Code Intelligence Engine... | TypeScript | 25.3k | 981 | GitNexus 是一个浏览器端代码知识图谱工具，通过本地化处理GitHub仓库或ZIP文件，构建包含依赖关系、调用链等信息的交互式知识图谱，并集成Graph RAG代理实现代码分析。支持CLI和Web UI两种使用方式，强调隐私和本地化处理。 |
-| 10 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 50.7k | 123 | 该项目是AI驱动的对冲基金原型，整合多策略投资代理（如价值投资、成长投资、风险分析等），通过估值、情绪、基本面及技术分析生成交易信号，但明确标注仅用于教育场景，不进行实际交易。 |
-| 11 | [goharbor/harbor](https://github.com/goharbor/harbor) | An open source trusted cloud native registry proje... | Go | 28.1k | 23 | Harbor是云原生容器注册表，提供镜像存储、签名验证、漏洞扫描及基于策略的跨集群复制，支持RBAC和多项目管理，增强容器镜像安全性与管理效率。 |
+| 1 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you... | Python | 44.1k | 6.8k | Hermes-Agent 是一个自我进化的AI代理，具备内置学习循环，可跨会话持续优化技能、记忆用户模型，并支持多平台交互。提供终端界面、定时任务、并行子代理等功能，可部署于多种基础设施。 |
+| 2 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code beh... | - | 10.4k | 1.4k | 该项目通过四个原则优化Claude代码生成行为，针对LLM常见的错误假设、过度复杂化、无关代码修改等问题，提供简洁、精准的代码生成指导。 |
+| 3 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | "DeepTutor: Agent-Native Personalized Learning Ass... | Python | 14.8k | 1.3k | DeepTutor是一个基于代理的个性化学习助手，采用Agent-Native架构，支持多模式切换和智能辅导。核心功能包括TutorBot、引导式学习、知识库检索增强生成(RAG)及多语言支持，适用于教育科技领域的自适应学习场景。 |
+| 4 | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | VoxCPM2: Tokenizer-Free TTS for Multilingual Speec... | Python | 7.6k | 460 | OpenBMB/VoxCPM是一款无需分词器的文本转语音系统，支持30种语言的高自然度语音生成。具备语音设计、可控语音克隆、48kHz高质量音频输出及多语言自适应合成能力，采用扩散自回归架构与MiniCPM-4模型实现端到端语音表示生成。 |
+| 5 | [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | PDF Parser for AI-ready data. Automate PDF accessi... | Java | 13.7k | 1.1k | Java驱动的PDF解析器，支持AI数据提取与OCR，可生成结构化数据及可访问性Tagged PDF，适用于复杂表格、公式和多语言文档处理。 |
+| 6 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 143.7k | 2.3k | Superpowers 是一个基于可组合技能的软件开发框架，通过代理自动化流程提升开发效率。强调TDD、YAGNI和DRY原则，支持编码代理自主规划与执行任务，减少人工干预。 |
+| 7 | [TheCraigHewitt/seomachine](https://github.com/TheCraigHewitt/seomachine) | A specialized Claude Code workspace for creating l... | Python | 5.2k | 725 | SEO Machine 是基于 Claude Code 的专业 SEO 内容生成工具，提供从关键词研究到内容优化的全流程解决方案，包含 26 项营销技能和数据分析功能，支持自动化博客创作与 SEO 优化。 |
+| 8 | [coleam00/Archon](https://github.com/coleam00/Archon) | The first open-source harness builder for AI codin... | TypeScript | 14.4k | 138 | Archon是一个AI编码工作流引擎，通过YAML定义开发流程（计划、实现、验证等），确保AI编码过程的确定性和可重复性。支持隔离运行、组合式节点及跨平台执行。 |
+| 9 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Fin... | Python | 12.2k | 223 | Kronos是首个开源金融K线基础模型，通过两阶段框架处理高噪声金融数据，支持多粒度时间序列预测与量化任务，提供不同参数量级的预训练模型。 |
+| 10 | [YishenTu/claudian](https://github.com/YishenTu/claudian) | An Obsidian plugin that embeds Claude Code as an A... | TypeScript | 6.8k | 174 | Claudian是Obsidian插件，将Claude Code等AI编码代理嵌入知识库，支持文件读写、搜索、多步骤工作流及内联代码编辑，提供指令模式、MCP服务器连接和多标签聊天功能。 |
 
-[查看完整数据](api/github/2026-04-08.json)
+[查看完整数据](api/github/2026-04-09.json)
 <!-- END GITHUB TRENDING -->
 
 
