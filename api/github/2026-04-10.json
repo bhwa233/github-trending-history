@@ -1,0 +1,240 @@
+{
+  "date": "2026-04-10",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars": 99589,
+      "forks": 6099,
+      "todayStars": 2353,
+      "url": "https://github.com/microsoft/markitdown",
+      "aiSummary": {
+        "summary": "MarkItDown是一款Python工具，支持将PDF、PPT、Word、Excel、图片、音频、HTML等格式转换为Markdown，适用于LLM和文本分析流程。提供MCP服务器集成，优化了文件流处理和依赖管理。",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "PDF",
+          "Office Formats",
+          "OCR"
+        ],
+        "useCase": "将多类型文档转换为结构化Markdown格式，供大语言模型及文本分析工具高效处理"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "coleam00/Archon",
+      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "language": "TypeScript",
+      "stars": 15565,
+      "forks": 2543,
+      "todayStars": 756,
+      "url": "https://github.com/coleam00/Archon",
+      "aiSummary": {
+        "summary": "Archon是首个开源AI编码工作流引擎，通过YAML定义开发流程（计划、实现、验证等），确保AI编码过程的确定性、可重复性和可组合性，支持多环境部署和自动化流程管理。",
+        "techStack": [
+          "TypeScript",
+          "YAML",
+          "Git"
+        ],
+        "useCase": "适用于需要标准化AI辅助软件开发流程的团队"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 51761,
+      "forks": 6716,
+      "todayStars": 7674,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "Hermes-Agent 是一个自我改进的AI代理系统，支持跨平台交互与持续学习。具备技能自动生成、历史对话记忆、多模型兼容及无服务器部署能力，适用于自动化任务和智能助手场景。",
+        "techStack": [
+          "Python",
+          "机器学习框架",
+          "分布式计算"
+        ],
+        "useCase": "需要跨平台自动化操作和持续学习的AI代理应用场景"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "rowboatlabs/rowboat",
+      "description": "Open-source AI coworker, with memory",
+      "language": "TypeScript",
+      "stars": 11710,
+      "forks": 1092,
+      "todayStars": 498,
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "aiSummary": {
+        "summary": "Rowboat是一款本地优先的开源AI协作工具，通过整合邮件和会议记录构建长期知识图谱，支持自动化文档生成、会议准备、知识可视化编辑及语音交互，提升工作效率。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要知识管理与AI辅助的个人及团队协作场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "stars": 6020,
+      "forks": 735,
+      "todayStars": 1544,
+      "url": "https://github.com/multica-ai/multica",
+      "aiSummary": {
+        "summary": "Multica是开源AI代理管理平台，将编码代理转化为团队成员，支持任务分配、自主执行、技能复用及多工作区管理，提升开发协作效率。",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "WebSocket"
+        ],
+        "useCase": "适用于需要自动化任务分配与AI代理协作的开发团队管理场景。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 11689,
+      "forks": 770,
+      "todayStars": 1454,
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "该项目通过四个核心原则优化Claude代码生成，解决LLM常见问题。包含Think Before Coding（明确假设）、Simplicity First（代码简洁）、Surgical Changes（精准修改）、Goal-Driven Execution（目标导向）四条指南，提升代码质量与可维护性。",
+        "techStack": [
+          "Markdown",
+          "LLM Prompt Engineering"
+        ],
+        "useCase": "优化AI代码生成质量，避免LLM常见编码陷阱"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 12699,
+      "forks": 2549,
+      "todayStars": 602,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos是首个针对金融K线数据的开源基础模型，通过两阶段框架处理金融时间序列。先将OHLCV数据转化为离散token，再基于Transformer进行预训练，支持多维度量化任务，适用于高频交易预测与市场分析。",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Hugging Face"
+        ],
+        "useCase": "金融时间序列预测与量化分析"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "HKUDS/DeepTutor",
+      "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
+      "language": "Python",
+      "stars": 15941,
+      "forks": 2097,
+      "todayStars": 1426,
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "aiSummary": {
+        "summary": "DeepTutor 是一个基于AI的个性化学习助手，采用代理原生架构支持多模式交互，提供TutorBot、Guided Learning等功能，具备跨平台兼容性、可视化能力及多语言支持，适用于教育领域的智能辅导场景。",
+        "techStack": [
+          "Python",
+          "Chart.js",
+          "OpenAI/Anthropic SDK",
+          "i18n"
+        ],
+        "useCase": "教育领域个性化智能学习辅导"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "opendataloader-project/opendataloader-pdf",
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "language": "Java",
+      "stars": 14764,
+      "forks": 1247,
+      "todayStars": 1309,
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "aiSummary": {
+        "summary": "基于Java的PDF解析项目，支持AI数据提取与可访问性自动化。可提取Markdown/JSON/HTML，兼容OCR识别与复杂排版处理，提供本地与AI混合解析模式，符合PDF/UA标准。",
+        "techStack": [
+          "Java",
+          "AI模型",
+          "OCR技术"
+        ],
+        "useCase": "适用于需要高精度PDF数据抽取及无障碍格式转换的企业级PDF处理场景"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 145693,
+      "forks": 12492,
+      "todayStars": 2150,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers是一个基于可组合技能的软件开发框架，通过自动化流程和测试驱动开发（TDD）提升编码代理效率，强调YAGNI和DRY原则，适用于需要自动化开发流程的场景。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要自动化软件开发流程和测试驱动开发的场景。"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "jqlang/jq",
+      "description": "Command-line JSON processor",
+      "language": "C",
+      "stars": 34278,
+      "forks": 1760,
+      "todayStars": 141,
+      "url": "https://github.com/jqlang/jq",
+      "aiSummary": {
+        "summary": "jq 是一个用 C 语言编写的轻量级命令行 JSON 处理器，支持数据切片、过滤、映射和转换，无运行时依赖，适用于结构化数据的高效处理。",
+        "techStack": [
+          "C",
+          "oniguruma",
+          "autotools"
+        ],
+        "useCase": "适用于命令行下快速解析和转换 JSON 数据，常用于自动化脚本和数据提取场景。"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "shanraisshan/claude-code-best-practice",
+      "description": "practice made claude perfect",
+      "language": "HTML",
+      "stars": 35701,
+      "forks": 3369,
+      "todayStars": 1248,
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "aiSummary": {
+        "summary": "该项目专注于通过实践优化Claude代码工程，提供代理系统、命令模板、技能配置和工作流管理，支持AI驱动的自动化开发流程。",
+        "techStack": [
+          "HTML",
+          "Markdown",
+          "JSON"
+        ],
+        "useCase": "AI代理工程与自动化代码实践开发"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-10T23:43:08.436Z",
+    "duration": "127s",
+    "version": "1.0.0"
+  }
+}
