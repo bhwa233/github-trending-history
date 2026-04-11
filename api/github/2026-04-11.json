@@ -1,0 +1,261 @@
+{
+  "date": "2026-04-11",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 58680,
+      "forks": 7775,
+      "todayStars": 6437,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "Hermes-Agent 是一个自我优化的AI代理，具备学习循环机制，可跨平台运行并支持多模型接口。提供终端界面、会话记忆、技能自提升及自动化任务功能，适用于需要持续学习和跨设备协作的场景。",
+        "techStack": [
+          "Python",
+          "TUI终端",
+          "API集成",
+          "无服务器架构"
+        ],
+        "useCase": "适用于需要跨平台自动化、持续学习和多模型协作的AI代理任务"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars": 102086,
+      "forks": 6305,
+      "todayStars": 3069,
+      "url": "https://github.com/microsoft/markitdown",
+      "aiSummary": {
+        "summary": "MarkItDown是微软开发的Python工具，可将PDF、PPT、Word、Excel等20+格式文档转换为结构化Markdown，支持LLM集成和文本分析 pipelines，强调文档结构保留而非高保真呈现。",
+        "techStack": [
+          "Python",
+          "PDF处理",
+          "Office文档解析",
+          "OCR"
+        ],
+        "useCase": "需要将多格式文档批量转换为可被大模型处理的Markdown文本场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "coleam00/Archon",
+      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "language": "TypeScript",
+      "stars": 16446,
+      "forks": 2637,
+      "todayStars": 1339,
+      "url": "https://github.com/coleam00/Archon",
+      "aiSummary": {
+        "summary": "Archon是首个开源AI编码工作流引擎，通过YAML定义开发流程（规划、实现、验证、代码审查等），确保AI编码过程的确定性与可重复性。支持隔离运行、组合传统脚本与AI节点，并提供CLI、WebUI等多平台集成。",
+        "techStack": [
+          "TypeScript",
+          "YAML",
+          "Node.js"
+        ],
+        "useCase": "适用于需要自动化和标准化AI编码流程的开发团队"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 13508,
+      "forks": 919,
+      "todayStars": 1070,
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "该项目通过四个核心原则优化Claude代码行为，解决LLM常见编码问题。包含Think Before Coding（显式推理）、Simplicity First（代码精简）、Surgical Changes（精准修改）、Goal-Driven Execution（目标驱动）四条准则，提升代码质量与可维护性。",
+        "techStack": [
+          "Markdown",
+          "代码规范",
+          "静态分析"
+        ],
+        "useCase": "优化Claude代码生成质量，提升开发效率与代码简洁性"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "stars": 7848,
+      "forks": 1002,
+      "todayStars": 1950,
+      "url": "https://github.com/multica-ai/multica",
+      "aiSummary": {
+        "summary": "Multica是一个开源的AI代理管理平台，支持将编码代理转化为团队成员，实现任务分配、进度跟踪和技能复用。提供代理生命周期管理、自主执行、多工作区隔离及统一运行时监控，适用于人机协作的开发场景。",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Node.js"
+        ],
+        "useCase": "适用于需要自动化任务管理及AI代理协作的开发团队。"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "shanraisshan/claude-code-best-practice",
+      "description": "practice made claude perfect",
+      "language": "HTML",
+      "stars": 37023,
+      "forks": 3469,
+      "todayStars": 1476,
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "aiSummary": {
+        "summary": "该项目是关于Claude代码实践的最佳实践指南，聚焦于智能代理系统、上下文工程和工作流编排，提供子代理、命令模板、技能配置等模块化解决方案，支持AI工程化开发与自动化流程设计。",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "AI开发人员进行智能代理系统构建与上下文驱动的自动化工程实践"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "TapXWorld/ChinaTextbook",
+      "description": "所有小初高、大学PDF教材。",
+      "language": "Roff",
+      "stars": 67769,
+      "forks": 15137,
+      "todayStars": 472,
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "aiSummary": {
+        "summary": "该项目是一个开源的中国中小学及大学数学教材资源库，旨在通过集中整理PDF教材解决教育资源获取不公问题，支持海外华人教育，并提供分卷PDF合并工具以应对GitHub文件上传限制。",
+        "techStack": [
+          "Roff",
+          "PDF",
+          "Windows可执行程序"
+        ],
+        "useCase": "为教育公平和海外华人提供免费数学教材资源"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "stars": 9857,
+      "forks": 1150,
+      "todayStars": 1136,
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "aiSummary": {
+        "summary": "OpenBMB/VoxCPM是一款无需分词器的文本转语音系统，支持30种语言的高自然度语音合成。具备语音设计、可控语音克隆、48kHz高清音频输出及多语言无缝合成能力，采用扩散自回归架构实现情感与风格控制。",
+        "techStack": [
+          "Python",
+          "扩散模型",
+          "自回归架构"
+        ],
+        "useCase": "适用于多语言智能客服、有声内容创作及个性化语音助手等需要高质量语音合成的场景"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 14183,
+      "forks": 2801,
+      "todayStars": 607,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos是首个开源金融K线基础模型，基于Transformer架构处理金融时间序列数据，支持多粒度K线量化分析与预测，提供不同规模预训练模型适配多种计算需求。",
+        "techStack": [
+          "Python",
+          "Hugging Face",
+          "Transformer"
+        ],
+        "useCase": "金融时间序列预测与量化交易策略开发"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "opendataloader-project/opendataloader-pdf",
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "language": "Java",
+      "stars": 15592,
+      "forks": 1323,
+      "todayStars": 777,
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "aiSummary": {
+        "summary": "OpenDataLoader-PDF 是一个开源的PDF解析工具，支持提取Markdown、JSON及HTML格式数据，提供本地模式与AI混合模式，适用于复杂页面处理。内置OCR功能支持80+语言，可处理扫描件及科学论文等复杂文档，同时具备PDF可访问性自动化生成Tagged PDF能力。",
+        "techStack": [
+          "Java",
+          "OCR技术",
+          "PDF解析库"
+        ],
+        "useCase": "适用于需要从复杂PDF中提取结构化数据并实现自动化可访问性的AI数据处理场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "HKUDS/DeepTutor",
+      "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
+      "language": "Python",
+      "stars": 16726,
+      "forks": 2199,
+      "todayStars": 836,
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "aiSummary": {
+        "summary": "DeepTutor是基于代理的个性化学习助手，支持智能辅导、自适应学习路径和多模式交互。内置TutorBot、Guided Learning和Co-Writer功能，整合RAG技术与可视化工具，提供动态知识检索、 quiz防重复生成及多语言支持。",
+        "techStack": [
+          "Python",
+          "Chart.js",
+          "SearXNG",
+          "OpenAI/Anthropic SDK",
+          "i18n"
+        ],
+        "useCase": "适用于智能教育平台与个性化在线学习系统"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 147117,
+      "forks": 12629,
+      "todayStars": 1589,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发框架，通过分阶段交互式流程提升编码效率。它强调TDD、YAGNI和DRY原则，支持代理自动执行开发任务，适用于需要自动化开发流程的场景。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要自动化软件开发流程和提高编码效率的团队或个人。"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "alexpate/awesome-design-systems",
+      "description": "💅🏻 ⚒ A collection of awesome design systems",
+      "language": "",
+      "stars": 22287,
+      "forks": 1378,
+      "todayStars": 1978,
+      "url": "https://github.com/alexpate/awesome-design-systems",
+      "aiSummary": {
+        "summary": "该项目是一个汇集优秀设计系统的资源库，涵盖组件、语音与语气指南、设计师工具包及源代码，帮助团队构建统一的数字产品规范。包含多个知名设计系统的分类整理与简介。",
+        "techStack": [
+          "Markdown",
+          "GitHub Pages",
+          "Static Site"
+        ],
+        "useCase": "为开发者和设计师提供设计系统参考与最佳实践资源"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-11T23:42:25.957Z",
+    "duration": "133s",
+    "version": "1.0.0"
+  }
+}
