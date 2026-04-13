@@ -1,0 +1,317 @@
+{
+  "date": "2026-04-13",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 24815,
+      "forks": 2013,
+      "todayStars": 5828,
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "该项目通过四个核心原则优化Claude代码行为，解决LLM常见编码问题。针对错误假设、过度复杂化、无关代码修改等缺陷，提供标准化的代码生成指南，包含思考前置、简洁优先、精准修改和目标驱动等策略。",
+        "techStack": [
+          "Markdown",
+          "LLM",
+          "Claude"
+        ],
+        "useCase": "优化代码生成模型的行为规范，提升代码质量与逻辑准确性"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 76780,
+      "forks": 10264,
+      "todayStars": 11297,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "Hermes-Agent 是一个自我进化的AI代理系统，支持跨平台对话、多模型集成与闭环学习。具备终端界面、任务自动化、技能自优化及分布式部署能力，适用于需要持续学习和跨设备协同的智能应用。",
+        "techStack": [
+          "Python",
+          "机器学习框架",
+          "分布式计算"
+        ],
+        "useCase": "适用于需要跨平台智能协作与自主学习的AI代理系统开发"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 16976,
+      "forks": 3198,
+      "todayStars": 1552,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos是首个开源金融K线基础模型，采用两阶段框架处理金融时间序列数据，通过分词器将OHLCV转化为离散标记，再利用Transformer进行预训练，适用于量化交易和预测任务。项目提供多种规模模型，支持快速微调。",
+        "techStack": [
+          "Python",
+          "Hugging Face Transformers",
+          "Custom Tokenizer"
+        ],
+        "useCase": "金融时间序列预测与量化交易分析"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars": 53180,
+      "forks": 4236,
+      "todayStars": 3185,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "Claude-Mem是为Claude Code设计的持久化记忆压缩插件，通过自动捕获编码会话中的工具使用数据，生成语义摘要并注入后续会话，实现跨会话的知识连续性维护。",
+        "techStack": [
+          "TypeScript",
+          "Claude's agent-sdk",
+          "插件系统"
+        ],
+        "useCase": "需要跨会话保持上下文连续性的代码开发场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars": 106874,
+      "forks": 6726,
+      "todayStars": 2811,
+      "url": "https://github.com/microsoft/markitdown",
+      "aiSummary": {
+        "summary": "MarkItDown是微软开发的Python工具，支持将PDF、PPT、Word、Excel等文件转换为Markdown，适用于LLM和文本分析流程。强调文档结构保留，输出主要用于机器处理。",
+        "techStack": [
+          "Python",
+          "PDF处理库",
+          "Office文档处理库",
+          "Markdown生成库"
+        ],
+        "useCase": "将多格式文档转换为Markdown以供LLM和文本分析使用"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "stars": 11067,
+      "forks": 1380,
+      "todayStars": 1724,
+      "url": "https://github.com/multica-ai/multica",
+      "aiSummary": {
+        "summary": "Multica是开源AI代理管理平台，支持任务分配、自主执行与技能复用，实现人机协作开发。提供实时进度追踪、多工作区管理及统一运行时环境，提升团队开发效率。",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "开发团队管理AI编码代理以提升自动化开发流程效率"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "coleam00/Archon",
+      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "language": "TypeScript",
+      "stars": 17597,
+      "forks": 2773,
+      "todayStars": 679,
+      "url": "https://github.com/coleam00/Archon",
+      "aiSummary": {
+        "summary": "Archon是AI编码工作流引擎，通过YAML定义开发流程，确保编码过程的确定性和可重复性。支持计划、实现、验证、代码审查等阶段，提供隔离环境和可组合的AI与脚本节点，适用于自动化CI/CD和AI辅助开发。",
+        "techStack": [
+          "TypeScript",
+          "YAML",
+          "Git"
+        ],
+        "useCase": "适用于需要自动化AI编码流程并确保可重复性的软件开发团队"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "snarktank/ralph",
+      "description": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.",
+      "language": "TypeScript",
+      "stars": 16498,
+      "forks": 1632,
+      "todayStars": 683,
+      "url": "https://github.com/snarktank/ralph",
+      "aiSummary": {
+        "summary": "Ralph是基于AI的自主任务循环系统，通过迭代调用Amp/Claude Code等工具完成PRD需求。利用git历史和文本文件持久化记忆，支持自动化PRD生成与格式转换，提升开发流程效率。",
+        "techStack": [
+          "TypeScript",
+          "Git",
+          "jq"
+        ],
+        "useCase": "自动化产品需求文档生成与迭代管理"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars": 52899,
+      "forks": 9189,
+      "todayStars": 782,
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "aiSummary": {
+        "summary": "AI对冲基金项目，通过多个AI代理模拟不同投资策略（如价值投资、成长投资、风险管理等），整合估值分析、市场情绪、基本面和技术面数据生成交易信号，用于教育和研究目的。",
+        "techStack": [
+          "Python",
+          "机器学习",
+          "数据分析"
+        ],
+        "useCase": "教育和研究目的，模拟AI在金融交易中的策略验证与风险分析"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "stars": 39470,
+      "forks": 4390,
+      "todayStars": 1127,
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "aiSummary": {
+        "summary": "该项目为Anthropic Claude模型提供配套的Jupyter Notebook示例，涵盖文本分类、检索增强生成、摘要、工具集成及多模态应用等场景，包含可直接复用的代码片段和开发指南。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "Claude API"
+        ],
+        "useCase": "帮助开发者通过实践案例快速掌握Claude模型的集成与高级应用场景"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "shanraisshan/claude-code-best-practice",
+      "description": "practice made claude perfect",
+      "language": "HTML",
+      "stars": 41617,
+      "forks": 3951,
+      "todayStars": 2477,
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "aiSummary": {
+        "summary": "该项目是Claude AI的智能体工程实践指南，聚焦于构建自主代理、工作流编排和上下文管理。包含子代理、指令模板、技能模块、工作流引擎及MCP协议集成，提供配置系统和记忆持久化功能，适用于AI开发最佳实践与框架搭建。",
+        "techStack": [
+          "HTML",
+          "JSON",
+          "CLI"
+        ],
+        "useCase": "AI智能体开发与上下文工程实践"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "jamiepine/voicebox",
+      "description": "The open-source voice synthesis studio",
+      "language": "TypeScript",
+      "stars": 16269,
+      "forks": 1938,
+      "todayStars": 652,
+      "url": "https://github.com/jamiepine/voicebox",
+      "aiSummary": {
+        "summary": "Voicebox是一个本地运行的开源语音合成工作室，支持多语言语音生成、声音克隆、后期效果处理及多轨道编辑，采用Tauri框架实现高性能跨平台应用。",
+        "techStack": [
+          "TypeScript",
+          "Tauri",
+          "Rust"
+        ],
+        "useCase": "适用于需要本地化语音合成和克隆的开发项目，支持多语言和多种TTS引擎，适合隐私敏感的应用场景。"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "ahujasid/blender-mcp",
+      "description": "",
+      "language": "Python",
+      "stars": 19474,
+      "forks": 1883,
+      "todayStars": 335,
+      "url": "https://github.com/ahujasid/blender-mcp",
+      "aiSummary": {
+        "summary": "BlenderMCP通过Model Context Protocol（MCP）实现Blender与Claude AI的双向交互，支持3D对象操作、材质控制、场景检查及代码执行，提供远程运行和数据分析功能。",
+        "techStack": [
+          "Python",
+          "Blender Addon",
+          "Socket Programming"
+        ],
+        "useCase": "需要AI辅助的3D建模、场景自动化设计及实时交互的数字内容创作场景。"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "hacksider/Deep-Live-Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "language": "Python",
+      "stars": 90216,
+      "forks": 13124,
+      "todayStars": 235,
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "aiSummary": {
+        "summary": "Deep-Live-Cam 是一个实时人脸交换与视频深度伪造工具，仅需单张图片即可生成深度伪造内容。项目强调伦理规范，内置内容过滤机制，适用于艺术创作与媒体生产场景。",
+        "techStack": [
+          "Python",
+          "深度学习框架",
+          "OpenCV"
+        ],
+        "useCase": "适用于影视特效制作与AI艺术创作中的实时人脸替换需求"
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "gsd-build/get-shit-done",
+      "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
+      "language": "JavaScript",
+      "stars": 52076,
+      "forks": 4362,
+      "todayStars": 630,
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "aiSummary": {
+        "summary": "GSD 是一个轻量级的规范驱动开发系统，通过元提示和上下文工程优化 AI 代码生成，解决上下文过时问题。支持多平台和多种 AI 编程工具，聚焦快速构建与简洁流程，适用于独立开发者高效实现代码需求。",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "独立开发者或团队快速通过规范驱动方式利用 AI 工具生成高质量代码"
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "TapXWorld/ChinaTextbook",
+      "description": "所有小初高、大学PDF教材。",
+      "language": "Roff",
+      "stars": 68878,
+      "forks": 15365,
+      "todayStars": 701,
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "aiSummary": {
+        "summary": "该项目收集并开源中国小初高及大学数学PDF教材，解决大文件上传问题，提供合并工具促进教育资源共享，助力义务教育普及与海外华人教育。",
+        "techStack": [
+          "Roff",
+          "PDF处理",
+          "文件合并工具"
+        ],
+        "useCase": "为教育机构、学生及研究人员提供免费数学教材资源及大文件处理方案。"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-13T23:53:41.611Z",
+    "duration": "175s",
+    "version": "1.0.0"
+  }
+}
