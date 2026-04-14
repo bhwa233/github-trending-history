@@ -1,0 +1,260 @@
+{
+  "date": "2026-04-14",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 33415,
+      "forks": 2741,
+      "todayStars": 9230,
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "该项目通过四个核心原则优化Claude代码行为，解决LLM常见编码问题。包含Think Before Coding（显式推理）、Simplicity First（代码精简）、Surgical Changes（精准修改）和Goal-Driven Execution（目标导向）策略，提升代码质量与可维护性。",
+        "techStack": [
+          "Markdown",
+          "文本处理",
+          "代码规范"
+        ],
+        "useCase": "适用于需要提升AI代码生成质量及规范化的软件开发场景"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars": 55687,
+      "forks": 4471,
+      "todayStars": 2979,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "Claude-Mem 是一个用于 Claude Code 的插件，通过自动捕获编码会话内容、AI 语义压缩和上下文注入，实现跨会话的持久化记忆保存，提升代码开发连续性。",
+        "techStack": [
+          "TypeScript",
+          "Claude Agent-SDK",
+          "插件系统"
+        ],
+        "useCase": "适用于需要跨会话保持项目上下文连续性的代码开发场景"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "jamiepine/voicebox",
+      "description": "The open-source voice synthesis studio",
+      "language": "TypeScript",
+      "stars": 17296,
+      "forks": 2023,
+      "todayStars": 1165,
+      "url": "https://github.com/jamiepine/voicebox",
+      "aiSummary": {
+        "summary": "Voicebox是一个本地化的开源语音合成工作室，支持多语言语音生成、声音克隆、后期效果处理及多轨道编辑，采用Tauri框架实现高性能本地运行。",
+        "techStack": [
+          "TypeScript",
+          "Tauri (Rust)",
+          "WebAssembly"
+        ],
+        "useCase": "适用于需要隐私保护和本地化部署的语音合成开发项目"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "stars": 11587,
+      "forks": 1471,
+      "todayStars": 769,
+      "url": "https://github.com/pascalorg/editor",
+      "aiSummary": {
+        "summary": "基于React Three Fiber和WebGPU的3D建筑编辑器，支持实时协作与复杂场景管理，采用Monorepo架构分离渲染、状态与UI逻辑。",
+        "techStack": [
+          "TypeScript",
+          "React Three Fiber",
+          "WebGPU",
+          "Zustand",
+          "Turborepo"
+        ],
+        "useCase": "建筑可视化设计与多人协同编辑场景"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars": 108395,
+      "forks": 6863,
+      "todayStars": 1672,
+      "url": "https://github.com/microsoft/markitdown",
+      "aiSummary": {
+        "summary": "MarkItDown是微软开发的Python工具，支持PDF、PPT、Word等多格式文档转Markdown，保留结构化内容如标题、表格，适用于LLM文本分析流程，不追求高保真人类阅读。",
+        "techStack": [
+          "Python",
+          "OCR技术",
+          "文档解析库"
+        ],
+        "useCase": "适用于办公文档自动化转换为结构化Markdown文本的场景"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 152214,
+      "forks": 13200,
+      "todayStars": 1928,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个基于可组合技能的软件开发框架，通过分阶段需求确认、TDD测试驱动开发和自动化子代理协作，提升代码代理的开发效率与质量。支持多平台插件安装，强调YAGNI和DRY原则。",
+        "techStack": [
+          "Shell",
+          "AI代理",
+          "TDD"
+        ],
+        "useCase": "适用于需要自动化代码生成与测试的软件开发项目"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "chrislgarry/Apollo-11",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "language": "Assembly",
+      "stars": 66341,
+      "forks": 7579,
+      "todayStars": 559,
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "aiSummary": {
+        "summary": "该项目保存了阿波罗11号登月舱和指令舱的原始AGC导航计算机源代码，包含Comanche055和Luminary099两个版本。代码由MIT博物馆数字化，支持历史航天软件研究与代码还原。",
+        "techStack": [
+          "Assembly",
+          "yaYUL"
+        ],
+        "useCase": "航天历史研究与早期计算机程序代码还原"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars": 54099,
+      "forks": 9378,
+      "todayStars": 1007,
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "aiSummary": {
+        "summary": "该项目是一个AI驱动的对冲基金概念验证，整合多个投资策略代理（如价值投资、成长投资、风险分析等），通过AI模拟交易决策流程，旨在教育用途而非实际交易。",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "用于教育场景下的AI量化交易策略研究与模拟"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 17775,
+      "forks": 3305,
+      "todayStars": 965,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos是首个开源金融K线基础模型，针对金融市场数据设计，采用双阶段框架，先量化K线数据为离散标记，再用Transformer进行预训练，支持多种量化任务，如预测和分析。",
+        "techStack": [
+          "Python",
+          "Hugging Face Transformers",
+          "PyTorch"
+        ],
+        "useCase": "金融时间序列预测与量化分析"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 84126,
+      "forks": 11344,
+      "todayStars": 8282,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "Hermes-Agent 是一个自我改进的AI代理，具备学习循环机制，可跨会话持续优化技能、记忆用户模型，并支持多平台通信与无服务器部署。提供全功能TUI界面，兼容多种大模型接口，适用于自动化任务和个性化服务场景。",
+        "techStack": [
+          "Python",
+          "TUI终端框架",
+          "Docker/SSH",
+          "REST API"
+        ],
+        "useCase": "适用于需要跨平台智能自动化代理的场景，如个人助理或企业级自动化流程"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "stars": 40221,
+      "forks": 4445,
+      "todayStars": 922,
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "aiSummary": {
+        "summary": "该项目是Anthropic官方提供的Claude大模型实践教程合集，包含20+个Jupyter Notebook示例，涵盖文本分类、检索增强生成、多模态处理等核心功能，提供可直接使用的代码模板和集成方案。",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "Claude API"
+        ],
+        "useCase": "帮助开发者快速掌握Claude模型在文本处理、工具集成和多模态场景中的应用开发"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "tw93/Mole",
+      "description": "🐹 Deep clean and optimize your Mac.",
+      "language": "Shell",
+      "stars": 47094,
+      "forks": 1428,
+      "todayStars": 269,
+      "url": "https://github.com/tw93/Mole",
+      "aiSummary": {
+        "summary": "Mole是Mac系统优化工具，整合CleanMyMac等工具功能，提供深度清理、智能卸载、磁盘分析、实时监控等特性，支持通过命令行管理垃圾文件、系统缓存和应用残留物，提升系统性能。",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "Mac用户进行系统垃圾清理、存储优化及性能监控的命令行工具"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "shanraisshan/claude-code-best-practice",
+      "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+      "language": "HTML",
+      "stars": 43697,
+      "forks": 4179,
+      "todayStars": 2569,
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "aiSummary": {
+        "summary": "该项目是Claude代码开发的最佳实践指南，聚焦于代理工程（Agentic Engineering）和上下文管理。通过Subagents、Commands、Skills等模块化设计，实现自动化代码生成、工作流编排及上下文感知的AI开发流程，支持插件扩展与多模态交互。",
+        "techStack": [
+          "HTML",
+          "Markdown",
+          "JSON",
+          "JavaScript"
+        ],
+        "useCase": "AI辅助的自动化代码开发与上下文驱动的工程实践"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-14T23:51:42.508Z",
+    "duration": "149s",
+    "version": "1.0.0"
+  }
+}
