@@ -18,6 +18,8 @@ interface DatePickerProps {
     value: string
     minDate?: string
     maxDate?: string
+    locale?: string
+    placeholder?: string
 }
 export function DatePicker(props: DatePickerProps) {
     const selectedDate = new Date(props.value)
@@ -36,7 +38,7 @@ export function DatePicker(props: DatePickerProps) {
                     )}
                 >
                     <CalendarIcon className="mr-2 h-4 w-4" />
-                    {date ? format(date, "yyyy-MM-dd") : "选择日期"}
+                    {date ? format(date, "yyyy-MM-dd") : (props.placeholder || '选择日期')}
                 </Button>
             </PopoverTrigger>
             <PopoverContent className="w-auto p-0" align="center">
@@ -45,8 +47,8 @@ export function DatePicker(props: DatePickerProps) {
                     selected={date}
                     onSelect={(date) => {
                         if (date) {
-                            // 跳转到新的 URL
-                            router.push(`/history/${format(date, 'yyyy-MM-dd')}`)
+                            const localePrefix = props.locale || 'zh-CN'
+                            router.push(`/${localePrefix}/history/${format(date, 'yyyy-MM-dd')}`)
                         }
                     }}
                     initialFocus

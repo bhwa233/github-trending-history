@@ -4,7 +4,7 @@ import * as cheerio from 'cheerio';
 import { Readability } from '@mozilla/readability';
 import { JSDOM } from 'jsdom';
 import dayjs from 'dayjs';
-import { callCloudflareAI } from './ai-service';
+import { callAI } from './ai-service';
 import { GitHubRepo, GitHubTrendingData } from './github-types';
 import { ensureDir, writeFile } from './utils';
 
@@ -124,7 +124,7 @@ async function processRepo(repo: GitHubRepo): Promise<void> {
 
     // 2. AI 总结
     console.log(`  正在生成 AI 总结...`);
-    const aiSummary = await callCloudflareAI({
+    const aiSummary = await callAI({
       fullName: repo.fullName,
       description: repo.description,
       language: repo.language,

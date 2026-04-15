@@ -15,10 +15,15 @@ export interface GitHubRepo {
   description: string;
   language: string;
   stars: number;
+  forks?: number;
   todayStars: number;
   url: string;
   aiSummary?: {
     summary: string;
+    summary_en?: string;
+    techStack?: string[];
+    useCase?: string;
+    useCase_en?: string;
   };
 }
 
@@ -163,16 +168,16 @@ export async function getRecentAvailableData(days = 7, maxLookbackDays = 30) {
   return results;
 }
 
-export function normalizeLanguage(language: string | null | undefined) {
+export function normalizeLanguage(language: string | null | undefined, fallback = 'Unknown') {
   const value = (language || '').trim();
-  return value || 'Unknown';
+  return value || fallback;
 }
 
-export function getTopLanguages(repos: GitHubRepo[], limit = 8) {
+export function getTopLanguages(repos: GitHubRepo[], limit = 8, fallback = 'Unknown') {
   const counts = new Map<string, number>();
 
   for (const repo of repos) {
-    const language = normalizeLanguage(repo.language);
+    const language = normalizeLanguage(repo.language, fallback);
     counts.set(language, (counts.get(language) || 0) + 1);
   }
 
@@ -186,6 +191,6 @@ export function getLanguageSlug(language: string) {
   return encodeURIComponent(normalizeLanguage(language).toLowerCase());
 }
 
-export function languageEquals(value: string | null | undefined, target: string) {
-  return normalizeLanguage(value).toLowerCase() === normalizeLanguage(target).toLowerCase();
+export function languageEquals(value: string | null | undefined, target: string, fallback = 'Unknown') {
+  return normalizeLanguage(value, fallback).toLowerCase() === normalizeLanguage(target, fallback).toLowerCase();
 }

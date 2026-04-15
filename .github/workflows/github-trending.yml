@@ -36,8 +36,10 @@ jobs:
       - name: Run GitHub Trending Scraper
         run: pnpm exec vite-node ./github-trending.ts
         env:
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CLOUDFLARE_API_KEY: ${{ secrets.CLOUDFLARE_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: openrouter/free
+          OPENROUTER_SITE_URL: https://github.com/lxw15337674/github-trending-history
+          OPENROUTER_SITE_NAME: github-trending-history
 
       - name: Commit and Push
         run: |

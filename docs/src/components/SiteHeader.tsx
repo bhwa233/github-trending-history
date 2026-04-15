@@ -4,24 +4,32 @@ import { ModeToggle } from "./ModeToggle";
 import { Suspense } from "react";
 import { Github } from "lucide-react";
 import { Button } from "./ui/button";
+import type { SiteLocale } from "@/i18n/config";
+import { getMessages } from "@/i18n/messages";
 
-export function SiteHeaderContent() {
+interface SiteHeaderContentProps {
+    locale: SiteLocale;
+}
+
+export function SiteHeaderContent({ locale }: SiteHeaderContentProps) {
+    const messages = getMessages(locale);
+
     return (
         <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
             <div className="container flex h-14 max-w-screen-2xl items-center ">
-                <Link href="/" className="font-semibold text-lg hover:underline underline-offset-4">
-                    GitHub Trending 归档
+                <Link href={`/${locale}`} className="font-semibold text-lg hover:underline underline-offset-4">
+                    {messages.siteName}
                 </Link>
                 <div className="flex flex-1 items-center  space-x-2 justify-end">
-                    <nav aria-label="主导航" className="flex items-center space-x-4">
-                        <Link href="/" className="text-sm text-muted-foreground hover:text-foreground">
-                            首页
+                    <nav aria-label={messages.nav.mainAriaLabel} className="flex items-center space-x-4">
+                        <Link href={`/${locale}`} className="text-sm text-muted-foreground hover:text-foreground">
+                            {messages.nav.home}
                         </Link>
-                        <Link href="/languages" className="text-sm text-muted-foreground hover:text-foreground">
-                            语言
+                        <Link href={`/${locale}/languages`} className="text-sm text-muted-foreground hover:text-foreground">
+                            {messages.nav.languages}
                         </Link>
-                        <Link href="/topics" className="text-sm text-muted-foreground hover:text-foreground">
-                            主题
+                        <Link href={`/${locale}/topics`} className="text-sm text-muted-foreground hover:text-foreground">
+                            {messages.nav.topics}
                         </Link>
                         <ModeToggle />
                         <Button variant="outline" size="icon" onClick={()=>{
@@ -35,10 +43,17 @@ export function SiteHeaderContent() {
         </header>
     )
 }
-export function SiteHeader() {
+
+interface SiteHeaderProps {
+    locale?: SiteLocale;
+}
+
+export function SiteHeader({ locale = 'zh-CN' }: SiteHeaderProps) {
+    const messages = getMessages(locale);
+
     return (
-        <Suspense fallback={<div>加载中...</div>}>
-            <SiteHeaderContent />
+        <Suspense fallback={<div>{messages.nav.loading}</div>}>
+            <SiteHeaderContent locale={locale} />
         </Suspense>
     );
 }

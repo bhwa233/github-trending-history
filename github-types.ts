@@ -15,8 +15,10 @@ export interface GitHubRepo {
 
 export interface AISummary {
   summary: string;
+  summary_en?: string;
   techStack: string[];
   useCase: string;
+  useCase_en?: string;
 }
 
 export interface GitHubTrendingData {
