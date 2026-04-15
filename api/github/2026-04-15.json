@@ -1,0 +1,157 @@
+{
+  "date": "2026-04-15",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 0,
+  "failedCount": 13,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 42744,
+      "forks": 3468,
+      "todayStars": 9622,
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 1,
+      "fullName": "pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "stars": 12609,
+      "forks": 1548,
+      "todayStars": 1422,
+      "url": "https://github.com/pascalorg/editor",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 2,
+      "fullName": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars": 57759,
+      "forks": 4669,
+      "todayStars": 2330,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 3,
+      "fullName": "Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "language": "Jupyter Notebook",
+      "stars": 29368,
+      "forks": 3563,
+      "todayStars": 1026,
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 4,
+      "fullName": "virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars": 55028,
+      "forks": 9549,
+      "todayStars": 1062,
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 5,
+      "fullName": "chrislgarry/Apollo-11",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "language": "Assembly",
+      "stars": 66787,
+      "forks": 7608,
+      "todayStars": 625,
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 6,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 154211,
+      "forks": 13388,
+      "todayStars": 2079,
+      "url": "https://github.com/obra/superpowers",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 7,
+      "fullName": "jamiepine/voicebox",
+      "description": "The open-source voice synthesis studio",
+      "language": "TypeScript",
+      "stars": 18234,
+      "forks": 2126,
+      "todayStars": 1079,
+      "url": "https://github.com/jamiepine/voicebox",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 8,
+      "fullName": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars": 423277,
+      "forks": 46085,
+      "todayStars": 839,
+      "url": "https://github.com/public-apis/public-apis",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 9,
+      "fullName": "vercel-labs/open-agents",
+      "description": "An open source template for building cloud agents.",
+      "language": "TypeScript",
+      "stars": 2606,
+      "forks": 290,
+      "todayStars": 1020,
+      "url": "https://github.com/vercel-labs/open-agents",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 10,
+      "fullName": "lsdefine/GenericAgent",
+      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "language": "Python",
+      "stars": 1903,
+      "forks": 244,
+      "todayStars": 413,
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 11,
+      "fullName": "google/magika",
+      "description": "Fast and accurate AI powered file content types detection",
+      "language": "Python",
+      "stars": 13748,
+      "forks": 722,
+      "todayStars": 833,
+      "url": "https://github.com/google/magika",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 12,
+      "fullName": "Donchitos/Claude-Code-Game-Studios",
+      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "language": "Shell",
+      "stars": 10379,
+      "forks": 1580,
+      "todayStars": 737,
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-15T23:50:47.986Z",
+    "duration": "38s",
+    "version": "1.0.0"
+  }
+}
