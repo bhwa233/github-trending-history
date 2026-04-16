@@ -70,25 +70,26 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-15 | **成功**: 0 | **失败**: 13
+**最后更新**: 2026-04-16 | **成功**: 0 | **失败**: 14
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code beh... | - | 42.7k | 9.6k | 处理失败 |
-| 2 | [pascalorg/editor](https://github.com/pascalorg/editor) | Create and share 3D architectural projects.... | TypeScript | 12.6k | 1.4k | 处理失败 |
-| 3 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 57.8k | 2.3k | 处理失败 |
-| 4 | [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) | 《动手学大模型Dive into LLMs》系列编程实践教程... | Jupyter Notebook | 29.4k | 1.0k | 处理失败 |
-| 5 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 55.0k | 1.1k | 处理失败 |
-| 6 | [chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11) | Original Apollo 11 Guidance Computer (AGC) source ... | Assembly | 66.8k | 625 | 处理失败 |
-| 7 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 154.2k | 2.1k | 处理失败 |
-| 8 | [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio... | TypeScript | 18.2k | 1.1k | 处理失败 |
-| 9 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs... | Python | 423.3k | 839 | 处理失败 |
-| 10 | [vercel-labs/open-agents](https://github.com/vercel-labs/open-agents) | An open source template for building cloud agents.... | TypeScript | 2.6k | 1.0k | 处理失败 |
-| 11 | [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | Self-evolving agent: grows skill tree from 3.3K-li... | Python | 1.9k | 413 | 处理失败 |
-| 12 | [google/magika](https://github.com/google/magika) | Fast and accurate AI powered file content types de... | Python | 13.7k | 833 | 处理失败 |
-| 13 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Turn Claude Code into a full game dev studio — 49 ... | Shell | 10.4k | 737 | 处理失败 |
+| 1 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code beh... | - | 49.7k | 7.9k | 处理失败 |
+| 2 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures e... | TypeScript | 59.6k | 1.9k | 处理失败 |
+| 3 | [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | Self-evolving agent: grows skill tree from 3.3K-li... | Python | 2.7k | 883 | 处理失败 |
+| 4 | [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio... | TypeScript | 19.0k | 887 | 处理失败 |
+| 5 | [vercel-labs/open-agents](https://github.com/vercel-labs/open-agents) | An open source template for building cloud agents.... | TypeScript | 3.2k | 735 | 处理失败 |
+| 6 | [google/magika](https://github.com/google/magika) | Fast and accurate AI powered file content types de... | Python | 14.7k | 871 | 处理失败 |
+| 7 | [steipete/wacli](https://github.com/steipete/wacli) | WhatsApp CLI... | Go | 1.7k | 354 | 处理失败 |
+| 8 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | Knowledge Engine for AI Agent Memory in 6 lines of... | Python | 15.8k | 156 | 处理失败 |
+| 9 | [z-lab/dflash](https://github.com/z-lab/dflash) | DFlash: Block Diffusion for Flash Speculative Deco... | Python | 1.6k | 183 | 处理失败 |
+| 10 | [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) | 《动手学大模型Dive into LLMs》系列编程实践教程... | Jupyter Notebook | 30.6k | 1.4k | 处理失败 |
+| 11 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | A lightweight, powerful framework for multi-agent ... | Python | 21.2k | 110 | 处理失败 |
+| 12 | [EvoMap/evolver](https://github.com/EvoMap/evolver) | The GEP-Powered Self-Evolution Engine for AI Agent... | JavaScript | 3.1k | 866 | 处理失败 |
+| 13 | [SimoneAvogadro/android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) | Claude Code skill to support Android app's reverse... | Shell | 2.2k | 375 | 处理失败 |
+| 14 | [BasedHardware/omi](https://github.com/BasedHardware/omi) | AI that sees your screen, listens to your conversa... | Dart | 9.1k | 488 | 处理失败 |
 
-[查看完整数据](api/github/2026-04-15.json)
+[查看完整数据](api/github/2026-04-16.json)
 <!-- END GITHUB TRENDING -->
 
 

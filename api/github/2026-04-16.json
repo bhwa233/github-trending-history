@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-16",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 0,
+  "failedCount": 14,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 49653,
+      "forks": 4093,
+      "todayStars": 7939,
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 1,
+      "fullName": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars": 59645,
+      "forks": 4898,
+      "todayStars": 1907,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 2,
+      "fullName": "lsdefine/GenericAgent",
+      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "language": "Python",
+      "stars": 2739,
+      "forks": 316,
+      "todayStars": 883,
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 3,
+      "fullName": "jamiepine/voicebox",
+      "description": "The open-source voice synthesis studio",
+      "language": "TypeScript",
+      "stars": 19044,
+      "forks": 2194,
+      "todayStars": 887,
+      "url": "https://github.com/jamiepine/voicebox",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 4,
+      "fullName": "vercel-labs/open-agents",
+      "description": "An open source template for building cloud agents.",
+      "language": "TypeScript",
+      "stars": 3177,
+      "forks": 350,
+      "todayStars": 735,
+      "url": "https://github.com/vercel-labs/open-agents",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 5,
+      "fullName": "google/magika",
+      "description": "Fast and accurate AI powered file content types detection",
+      "language": "Python",
+      "stars": 14716,
+      "forks": 791,
+      "todayStars": 871,
+      "url": "https://github.com/google/magika",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 6,
+      "fullName": "steipete/wacli",
+      "description": "WhatsApp CLI",
+      "language": "Go",
+      "stars": 1672,
+      "forks": 197,
+      "todayStars": 354,
+      "url": "https://github.com/steipete/wacli",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 7,
+      "fullName": "topoteretes/cognee",
+      "description": "Knowledge Engine for AI Agent Memory in 6 lines of code",
+      "language": "Python",
+      "stars": 15781,
+      "forks": 1625,
+      "todayStars": 156,
+      "url": "https://github.com/topoteretes/cognee",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 8,
+      "fullName": "z-lab/dflash",
+      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "language": "Python",
+      "stars": 1588,
+      "forks": 109,
+      "todayStars": 183,
+      "url": "https://github.com/z-lab/dflash",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 9,
+      "fullName": "Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "language": "Jupyter Notebook",
+      "stars": 30637,
+      "forks": 3710,
+      "todayStars": 1394,
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 10,
+      "fullName": "openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "language": "Python",
+      "stars": 21209,
+      "forks": 3452,
+      "todayStars": 110,
+      "url": "https://github.com/openai/openai-agents-python",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 11,
+      "fullName": "EvoMap/evolver",
+      "description": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai",
+      "language": "JavaScript",
+      "stars": 3136,
+      "forks": 337,
+      "todayStars": 866,
+      "url": "https://github.com/EvoMap/evolver",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 12,
+      "fullName": "SimoneAvogadro/android-reverse-engineering-skill",
+      "description": "Claude Code skill to support Android app's reverse engineering",
+      "language": "Shell",
+      "stars": 2205,
+      "forks": 248,
+      "todayStars": 375,
+      "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    },
+    {
+      "index": 13,
+      "fullName": "BasedHardware/omi",
+      "description": "AI that sees your screen, listens to your conversations and tells you what to do",
+      "language": "Dart",
+      "stars": 9070,
+      "forks": 1614,
+      "todayStars": 488,
+      "url": "https://github.com/BasedHardware/omi",
+      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-16T23:49:38.886Z",
+    "duration": "40s",
+    "version": "1.0.0"
+  }
+}
