@@ -1,11 +1,20 @@
 import axios from 'axios';
 import { AIInput, AISummary } from './github-types';
 
-const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
-const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
-const OPENROUTER_MODEL = process.env.OPENROUTER_MODEL || 'openrouter/free';
-const OPENROUTER_REFERER = process.env.OPENROUTER_SITE_URL || 'https://github.com/lxw15337674/github-trending-history';
+const AI_API_KEY =
+  process.env.AI_API_KEY ||
+  process.env.CLOUDFLARE_AI_GATEWAY_TOKEN ||
+  process.env.OPENROUTER_API_KEY;
+const AI_API_URL =
+  process.env.AI_API_URL ||
+  'https://gateway.ai.cloudflare.com/v1/5697c41d4efbabcbac78eafe2cdf036b/default/custom-right/codex/v1/chat/completions';
+const AI_MODEL = process.env.AI_MODEL || process.env.OPENROUTER_MODEL || 'gpt-5.4';
+const AI_AUTH_HEADER = process.env.AI_AUTH_HEADER || 'cf-aig-authorization';
+const AI_AUTH_PREFIX = process.env.AI_AUTH_PREFIX || 'Bearer';
+const OPENROUTER_REFERER =
+  process.env.OPENROUTER_SITE_URL || 'https://github.com/lxw15337674/github-trending-history';
 const OPENROUTER_TITLE = process.env.OPENROUTER_SITE_NAME || 'github-trending-history';
+const IS_OPENROUTER = AI_API_URL.includes('openrouter.ai');
 
 function buildPrompt(input: AIInput, locale: 'zh-CN' | 'en') {
   const truncatedReadme = input.readmeContent.slice(0, 2000);
@@ -17,9 +26,11 @@ function buildPrompt(input: AIInput, locale: 'zh-CN' | 'en') {
   return `你是 GitHub 项目分析助手。请分析以下项目并以 JSON 格式输出，总结控制在200字以内。\n\n项目名称: ${input.fullName}\n编程语言: ${input.language || '未知'}\n项目描述: ${input.description}\n\nREADME 内容:\n${truncatedReadme}\n\n请严格按照以下 JSON 格式输出（不要包含其他文字）：\n{\n  "summary": "项目核心功能总结，50-200字中文",\n  "techStack": ["技术栈1", "技术栈2", "技术栈3"],\n  "useCase": "适用场景，一句话"\n}`;
 }
 
-async function callOpenRouter(input: AIInput, locale: 'zh-CN' | 'en'): Promise<AISummary> {
-  if (!OPENROUTER_API_KEY) {
-    throw new Error('缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY');
+async function callAIProvider(input: AIInput, locale: 'zh-CN' | 'en'): Promise<AISummary> {
+  if (!AI_API_KEY) {
+    throw new Error(
+      '缺少 AI API 配置。请设置环境变量 AI_API_KEY、CLOUDFLARE_AI_GATEWAY_TOKEN 或 OPENROUTER_API_KEY'
+    );
   }
 
   const prompt = buildPrompt(input, locale);
@@ -37,30 +48,35 @@ async function callOpenRouter(input: AIInput, locale: 'zh-CN' | 'en'): Promise<A
     },
   ];
 
+  const headers: Record<string, string> = {
+    'Content-Type': 'application/json',
+    [AI_AUTH_HEADER]: `${AI_AUTH_PREFIX} ${AI_API_KEY}`,
+  };
+
+  if (IS_OPENROUTER) {
+    headers['HTTP-Referer'] = OPENROUTER_REFERER;
+    headers['X-OpenRouter-Title'] = OPENROUTER_TITLE;
+  }
+
   let lastError: Error | null = null;
   for (let attempt = 1; attempt <= 2; attempt += 1) {
     try {
       const response = await axios.post(
-        OPENROUTER_API_URL,
+        AI_API_URL,
         {
-          model: OPENROUTER_MODEL,
+          model: AI_MODEL,
           messages,
           temperature: 0.2,
         },
         {
           timeout: 45000,
-          headers: {
-            Authorization: `Bearer ${OPENROUTER_API_KEY}`,
-            'Content-Type': 'application/json',
-            'HTTP-Referer': OPENROUTER_REFERER,
-            'X-OpenRouter-Title': OPENROUTER_TITLE,
-          },
+          headers,
         }
       );
 
       const content = response.data?.choices?.[0]?.message?.content?.trim();
       if (!content) {
-        throw new Error('OpenRouter 返回格式错误：缺少 choices[0].message.content');
+        throw new Error('AI 返回格式错误：缺少 choices[0].message.content');
       }
 
       const jsonMatch = content.match(/\{[\s\S]*\}/);
@@ -84,7 +100,7 @@ async function callOpenRouter(input: AIInput, locale: 'zh-CN' | 'en'): Promise<A
       if (axios.isAxiosError(error)) {
         const status = error.response?.status || 'unknown';
         const message = JSON.stringify(error.response?.data || error.message);
-        lastError = new Error(`OpenRouter 请求失败 (${status}): ${message}`);
+        lastError = new Error(`AI 请求失败 (${status}): ${message}`);
       } else {
         lastError = error instanceof Error ? error : new Error(String(error));
       }
@@ -96,13 +112,13 @@ async function callOpenRouter(input: AIInput, locale: 'zh-CN' | 'en'): Promise<A
     }
   }
 
-  throw lastError || new Error('OpenRouter 请求失败');
+  throw lastError || new Error('AI 请求失败');
 }
 
 export async function callAI(input: AIInput): Promise<AISummary> {
   const [zhSummary, enSummary] = await Promise.all([
-    callOpenRouter(input, 'zh-CN'),
-    callOpenRouter(input, 'en'),
+    callAIProvider(input, 'zh-CN'),
+    callAIProvider(input, 'en'),
   ]);
 
   return {

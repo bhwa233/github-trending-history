@@ -9,7 +9,7 @@
 
 1. **自动抓取**: 每天 UTC 23:00 自动抓取 GitHub Trending 数据
 2. **README 提取**: 使用 @mozilla/readability 提取每个项目的 README 内容
-3. **AI 总结**: 使用 OpenRouter 免费模型生成中英文项目总结、技术栈和适用场景
+3. **AI 总结**: 默认通过 Cloudflare AI Gateway 调用 `gpt-5.4` 生成中英文项目总结、技术栈和适用场景
 4. **数据归档**: 将数据按日期归档到 `api/github/` 目录
 5. **数据可视化**: [在线查看](https://github-trending-history.vercel.app/)每日 GitHub Trending 数据
 
@@ -34,7 +34,7 @@
 
 - **抓取**: axios + cheerio
 - **README 提取**: @mozilla/readability + jsdom
-- **AI 服务**: OpenRouter Chat Completions API（可配置免费模型）
+- **AI 服务**: Cloudflare AI Gateway（OpenAI 兼容接口），保留 OpenRouter 兼容配置
 - **前端**: Next.js 14 + React 18 + Tailwind CSS
 - **自动化**: GitHub Actions
 
@@ -44,10 +44,16 @@
 # 安装依赖
 pnpm install
 
-# 配置环境变量
-export OPENROUTER_API_KEY=your_openrouter_api_key
-# 可选：使用万能免费路由（自动分配当前可用免费模型）
-export OPENROUTER_MODEL=openrouter/free
+# 默认：Cloudflare AI Gateway
+export AI_API_KEY=your_cloudflare_ai_gateway_token
+export AI_API_URL=https://gateway.ai.cloudflare.com/v1/5697c41d4efbabcbac78eafe2cdf036b/default/custom-right/codex/v1/chat/completions
+export AI_MODEL=gpt-5.4
+export AI_AUTH_HEADER=cf-aig-authorization
+export AI_AUTH_PREFIX=Bearer
+
+# 兼容：OpenRouter
+# export OPENROUTER_API_KEY=your_openrouter_api_key
+# export OPENROUTER_MODEL=openrouter/free
 
 # 运行抓取
 pnpm start
@@ -91,7 +97,6 @@ MIT
 
 [查看完整数据](api/github/2026-04-16.json)
 <!-- END GITHUB TRENDING -->
-
 
 
 
