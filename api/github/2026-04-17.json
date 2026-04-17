@@ -1,0 +1,310 @@
+{
+  "date": "2026-04-17",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 51693,
+      "forks": 4308,
+      "todayStars": 7959,
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "该项目提供单一的 CLAUDE.md 指南文件，用于优化 Claude Code 在编码中的行为。其内容基于 Andrej Karpathy 对大模型编码常见问题的观察，围绕“先思考后编码、简洁优先、外科式修改、目标驱动执行”四项原则，帮助模型减少误判、避免过度设计、控制无关改动，并以测试和可验证目标提升代码交付质量。",
+        "summary_en": "A lightweight CLAUDE.md guideline set that improves Claude Code by reducing assumptions, overengineering, and unnecessary code changes.",
+        "techStack": [
+          "CLAUDE.md",
+          "Markdown",
+          "Claude Code"
+        ],
+        "useCase": "适用于希望通过规范提示词/代理规则来提升 AI 编码助手稳定性、简洁性与可控性的开发团队。",
+        "useCase_en": "Use this project as a drop-in guidance file to steer Claude Code toward simpler, safer, and more goal-driven coding beha"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars": 60458,
+      "forks": 4988,
+      "todayStars": 1897,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "claude-mem 是一个面向 Claude Code 的持久化记忆插件，可自动捕获编码会话中的工具使用与操作上下文，借助 AI 生成压缩语义摘要，并在后续会话中注入相关背景信息，帮助跨会话延续项目认知。支持 Claude Code、Gemini CLI、OpenCode 及 OpenClaw 网关，强调便捷安装与自动化上下文恢复。",
+        "summary_en": "TypeScript plugin for Claude Code that captures session activity, compresses it into semantic memory, and restores relevant context in future sessions.",
+        "techStack": [
+          "TypeScript",
+          "Claude agent-sdk",
+          "npm/npx 插件安装体系"
+        ],
+        "useCase": "适用于需要让 AI 编程助手在多次开发会话之间持续保留项目上下文、减少重复说明的场景。",
+        "useCase_en": "Use it to persist and reuse important coding-session context across Claude Code, Gemini CLI, or OpenCode sessions."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "lsdefine/GenericAgent",
+      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "language": "Python",
+      "stars": 3042,
+      "forks": 334,
+      "todayStars": 872,
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "aiSummary": {
+        "summary": "GenericAgent 是一个极简的 Python 自进化智能体框架，约 3K 行核心代码配合 9 个原子工具和简短 Agent Loop，即可控制浏览器、终端、文件系统、键鼠、屏幕与 ADB 设备。其特点是把完成过的任务自动沉淀为可复用技能，持续生长个人技能树，并以较低上下文与更少 Token 成本实现跨模型、本地系统级自动化。",
+        "summary_en": "A minimal Python autonomous agent framework that self-evolves by turning solved tasks into reusable skills for system-level computer control.",
+        "techStack": [
+          "Python",
+          "LLM Agent Framework",
+          "Browser/Terminal/ADB System Automation"
+        ],
+        "useCase": "适用于需要在本地电脑上进行跨应用自动化执行、任务学习复用与低成本智能体实验的场景。",
+        "useCase_en": "Use it to build a self-improving local AI agent that controls your computer, learns from completed tasks, and reuses tho"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "jamiepine/voicebox",
+      "description": "The open-source voice synthesis studio",
+      "language": "TypeScript",
+      "stars": 19308,
+      "forks": 2222,
+      "todayStars": 880,
+      "url": "https://github.com/jamiepine/voicebox",
+      "aiSummary": {
+        "summary": "Voicebox 是一个开源、本地优先的语音合成与声音克隆工作室，可在本机完成声音克隆、23种语言语音生成、后期音效处理及多角色时间线编辑。项目支持 5 种 TTS 引擎，提供 REST API，基于 Tauri 构建，强调隐私保护、跨平台运行与原生性能，适合替代在线语音合成服务。",
+        "summary_en": "Local-first open-source voice synthesis studio for cloning voices, generating multilingual speech, and building voice apps privately on-device.",
+        "techStack": [
+          "TypeScript",
+          "Tauri",
+          "REST API"
+        ],
+        "useCase": "适用于本地化语音克隆、播客/故事配音制作及集成到语音驱动应用的开发场景。",
+        "useCase_en": "Use it to clone voices locally, generate multilingual speech with multiple TTS engines, apply audio effects, and integra"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "vercel-labs/open-agents",
+      "description": "An open source template for building cloud agents.",
+      "language": "TypeScript",
+      "stars": 3357,
+      "forks": 362,
+      "todayStars": 738,
+      "url": "https://github.com/vercel-labs/open-agents",
+      "aiSummary": {
+        "summary": "Open Agents 是一个用于在 Vercel 上构建云端后台编程代理的开源参考模板，包含 Web UI、持久化代理工作流、Sandbox VM 编排和 GitHub 集成。其核心设计是将代理运行与沙箱执行环境解耦，支持聊天驱动编码、文件/搜索/Shell 工具调用、多步可恢复执行、仓库克隆分支开发、自动提交与 PR 创建，适合二次开发定制。",
+        "summary_en": "Open-source TypeScript template for building cloud coding agents with a web UI, durable workflows, sandbox VMs, and GitHub-based code changes.",
+        "techStack": [
+          "TypeScript",
+          "Vercel Workflow SDK",
+          "GitHub Integration"
+        ],
+        "useCase": "适用于构建可持久运行、支持代码修改与自动提交流程的云端 AI 编程代理平台。",
+        "useCase_en": "Use this project to build and customize cloud-based coding agents that can chat, modify repositories, run tasks in isola"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "google/magika",
+      "description": "Fast and accurate AI powered file content types detection",
+      "language": "Python",
+      "stars": 14998,
+      "forks": 806,
+      "todayStars": 854,
+      "url": "https://github.com/google/magika",
+      "aiSummary": {
+        "summary": "Magika 是 Google 开源的 AI 文件类型识别工具，基于轻量深度学习模型，可在单 CPU 上以毫秒级速度检测 200+ 二进制与文本内容类型，平均精度与召回约 99%。项目提供 Python API、命令行工具及多语言绑定，适合大规模文件扫描与安全内容分流。",
+        "summary_en": "AI-powered file type detection tool for fast, accurate content identification across 200+ formats using a lightweight model.",
+        "techStack": [
+          "Python",
+          "深度学习",
+          "Rust"
+        ],
+        "useCase": "适用于安全扫描、恶意文件分析、邮件与网盘内容分流、批量文件类型识别等场景。",
+        "useCase_en": "Use Magika to quickly classify file content types at scale for security scanning, content routing, and malware analysis."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "steipete/wacli",
+      "description": "WhatsApp CLI",
+      "language": "Go",
+      "stars": 1759,
+      "forks": 205,
+      "todayStars": 321,
+      "url": "https://github.com/steipete/wacli",
+      "aiSummary": {
+        "summary": "wacli 是基于 Go 与 whatsmeow 的第三方 WhatsApp 命令行工具，支持扫码认证、本地消息同步与持续抓取、离线搜索、发送文本/文件、联系人与群组管理、历史回填及媒体下载。项目核心功能已具备，适合通过 CLI 高效管理和检索 WhatsApp 数据。",
+        "summary_en": "Go-based WhatsApp CLI for local message sync, offline search, sending messages, media handling, and contact/group management.",
+        "techStack": [
+          "Go",
+          "whatsmeow",
+          "SQLite FTS5"
+        ],
+        "useCase": "适用于开发者或高级用户在本地通过命令行同步、搜索和管理 WhatsApp 消息与群组。",
+        "useCase_en": "Use this tool to authenticate a WhatsApp account, continuously sync chats locally, search messages offline, and send or "
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "topoteretes/cognee",
+      "description": "Knowledge Engine for AI Agent Memory in 6 lines of code",
+      "language": "Python",
+      "stars": 15968,
+      "forks": 1645,
+      "todayStars": 170,
+      "url": "https://github.com/topoteretes/cognee",
+      "aiSummary": {
+        "summary": "Cognee 是面向 AI Agent 的开源知识引擎，基于 Python，支持以少量代码完成数据摄取、记忆、召回、遗忘与持续优化。项目融合向量检索、图数据库与认知科学方法，提供统一知识基础设施、持久化记忆、反馈学习、跨代理知识共享，以及可追踪、隔离和审计的可信能力，适合构建具备长期记忆的智能体系统。",
+        "summary_en": "Python knowledge engine for AI agent memory, combining vector search, graph databases, and continuous learning for contextual recall.",
+        "techStack": [
+          "Python",
+          "向量检索",
+          "图数据库"
+        ],
+        "useCase": "适用于为 AI Agent 构建可持续学习、可检索且具备关系推理能力的长期记忆系统。",
+        "useCase_en": "Use Cognee to ingest evolving multimodal data and provide persistent, searchable, relationship-aware memory for AI agent"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "z-lab/dflash",
+      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "language": "Python",
+      "stars": 1682,
+      "forks": 115,
+      "todayStars": 195,
+      "url": "https://github.com/z-lab/dflash",
+      "aiSummary": {
+        "summary": "DFlash 是一个面向大语言模型推理加速的轻量级块扩散推测解码项目，核心目标是在保证生成质量的同时实现高效并行 draft。项目基于 Python，支持 Transformers、SGLang、vLLM 与 MLX，已适配多种 Qwen、Llama、gpt-oss、Kimi 模型，并提供快速部署方式，适合用于高吞吐低时延的 LLM 服务优化。",
+        "summary_en": "Python project for block diffusion speculative decoding that accelerates LLM inference with lightweight draft models across vLLM, SGLang, Transformers, and MLX.",
+        "techStack": [
+          "Python",
+          "vLLM/SGLang/Transformers",
+          "MLX"
+        ],
+        "useCase": "适用于需要为大语言模型在线推理、API 服务或高并发部署场景进行推测解码加速的工程应用。",
+        "useCase_en": "Use this project to speed up large language model text generation by pairing supported base models with DFlash draft mod"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "language": "Jupyter Notebook",
+      "stars": 31024,
+      "forks": 3753,
+      "todayStars": 1385,
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "aiSummary": {
+        "summary": "这是一个面向大模型入门与实践的公益教程项目，基于课程讲义扩展，提供课件、教程与脚本。内容覆盖微调部署、提示学习、知识编辑、数学推理、水印、越狱攻击、隐写、多模态、GUI智能体、智能体安全与RLHF对齐，并新增基于昇腾社区的国产化全流程开发教程。",
+        "summary_en": "A Chinese hands-on tutorial series for learning LLM development, covering fine-tuning, prompting, safety, agents, multimodal models, and deployment.",
+        "techStack": [
+          "Jupyter Notebook",
+          "大语言模型实践",
+          "昇腾国产化开发生态"
+        ],
+        "useCase": "适用于高校教学、科研入门以及开发者系统学习和实践大模型开发全流程。",
+        "useCase_en": "Use this project as a practical educational resource to learn and experiment with end-to-end large language model develo"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "language": "Python",
+      "stars": 21418,
+      "forks": 3460,
+      "todayStars": 172,
+      "url": "https://github.com/openai/openai-agents-python",
+      "aiSummary": {
+        "summary": "openai-agents-python 是一个面向多智能体工作流的 Python 轻量级框架，支持 OpenAI Responses/Chat Completions 及 100+ 模型提供商。核心能力包括 Agents、Sandbox Agents、工具调用、任务移交、护栏校验、人工介入、会话管理、运行追踪与实时语音代理，适合快速构建可观测、可扩展的智能体应用。",
+        "summary_en": "Python SDK for building provider-agnostic multi-agent workflows with tools, guardrails, sessions, tracing, and sandbox/voice agents.",
+        "techStack": [
+          "Python 3.10+",
+          "OpenAI Agents SDK",
+          "OpenAI Responses/Chat Completions API"
+        ],
+        "useCase": "适用于构建多智能体协作、语音交互、自动化执行与长流程任务编排的 AI 应用。",
+        "useCase_en": "Use it to create orchestrated AI agent systems that delegate tasks, use tools, manage sessions, and optionally operate i"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "EvoMap/evolver",
+      "description": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai",
+      "language": "JavaScript",
+      "stars": 3378,
+      "forks": 354,
+      "todayStars": 812,
+      "url": "https://github.com/EvoMap/evolver",
+      "aiSummary": {
+        "summary": "Evolver 是基于 GEP（Genome Evolution Protocol）的 AI 代理自进化引擎，核心作用是扫描运行日志与错误信号，从预置 Gene/Capsule 资产中选择合适策略，生成受协议约束的演化提示词，并结合 Git 提供回滚、影响范围计算与审计追踪。它不直接改代码，更适合将零散 prompt 调优沉淀为可复用、可治理的进化资产。",
+        "summary_en": "JavaScript self-evolution engine for AI agents that scans logs, selects GEP genes, and outputs auditable protocol-bound evolution prompts.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Git"
+        ],
+        "useCase": "适用于需要对 AI Agent 提示词迭代进行规范化、可审计管理与持续演化的场景。",
+        "useCase_en": "Use it to generate structured, auditable evolution prompts for AI agents based on runtime logs and reusable GEP assets."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "SimoneAvogadro/android-reverse-engineering-skill",
+      "description": "Claude Code skill to support Android app's reverse engineering",
+      "language": "Shell",
+      "stars": 2407,
+      "forks": 263,
+      "todayStars": 375,
+      "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+      "aiSummary": {
+        "summary": "该项目是面向 Claude Code 的 Android 逆向分析技能插件，支持对 APK/XAPK/JAR/AAR 进行反编译，结合 jadx、Vineflower/Fernflower 提取 Retrofit、OkHttp、硬编码 URL、鉴权头等 HTTP API 信息，并追踪从界面层到网络请求的调用链，适合在无源码情况下分析应用结构与接口实现。",
+        "summary_en": "Claude Code skill for decompiling Android binaries and extracting app structure, HTTP APIs, and call flows for reverse engineering.",
+        "techStack": [
+          "Shell",
+          "Java JDK 17+",
+          "jadx",
+          "Vineflower/Fernflower",
+          "dex2jar"
+        ],
+        "useCase": "适用于安全研究、接口还原、安卓应用逆向分析及无源码场景下的 API 文档整理。",
+        "useCase_en": "Use this project to reverse engineer Android apps and libraries, decompile binaries, and document their API endpoints an"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "BasedHardware/omi",
+      "description": "AI that sees your screen, listens to your conversations and tells you what to do",
+      "language": "Dart",
+      "stars": 9330,
+      "forks": 1636,
+      "todayStars": 378,
+      "url": "https://github.com/BasedHardware/omi",
+      "aiSummary": {
+        "summary": "Omi 是一个开源“第二大脑”项目，可在桌面、手机与可穿戴设备上采集屏幕内容和对话音频，进行实时转录、总结与行动项生成，并提供具备长期记忆的 AI 聊天能力。项目支持快速体验与完整本地开发，整体架构涵盖 Flutter 移动端、Swift/Rust 桌面端，以及 Python 后端服务。",
+        "summary_en": "Open-source AI assistant that captures screens and conversations, transcribes them, and provides memory, summaries, and action guidance across devices.",
+        "techStack": [
+          "Dart/Flutter",
+          "Swift + Rust",
+          "Python 后端"
+        ],
+        "useCase": "适用于需要持续记录会议、工作上下文与个人知识，并借助 AI 进行总结提醒和决策辅助的场景。",
+        "useCase_en": "Use it as a cross-device personal AI memory and productivity assistant that listens, sees, summarizes, and helps you act"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-17T06:54:22.096Z",
+    "duration": "247s",
+    "version": "1.0.0"
+  }
+}
