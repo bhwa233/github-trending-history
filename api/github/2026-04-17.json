@@ -1,277 +1,64 @@
 {
   "date": "2026-04-17",
   "since": "daily",
-  "totalRepos": 14,
-  "successCount": 14,
+  "totalRepos": 15,
+  "successCount": 15,
   "failedCount": 0,
   "repos": [
     {
       "index": 0,
-      "fullName": "forrestchang/andrej-karpathy-skills",
-      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "language": "",
-      "stars": 51926,
-      "forks": 4333,
-      "todayStars": 7959,
-      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
-      "aiSummary": {
-        "summary": "这是一个基于 Andrej Karpathy 关于 LLM 编码陷阱观察而创建的单一 CLAUDE.md 文件，旨在改善 Claude Code 的行为。它包含四个核心原则：编码前思考、简单优先、外科手术式修改和目标驱动执行，旨在解决模型假设错误、过度复杂化代码及意外修改等问题。",
-        "summary_en": "A single CLAUDE.md file applying Andrej Karpathy's coding principles to improve LLM behavior.",
-        "techStack": [
-          "Markdown"
-        ],
-        "useCase": "适用于希望 Claude Code 遵循 Karpathy 编码最佳实践的开发者。",
-        "useCase_en": "A single CLAUDE.md file to improve Claude Code behavior by applying Andrej Karpathy's coding principles."
-      }
-    },
-    {
-      "index": 1,
-      "fullName": "thedotmack/claude-mem",
-      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
-      "language": "TypeScript",
-      "stars": 60536,
-      "forks": 4997,
-      "todayStars": 1897,
-      "url": "https://github.com/thedotmack/claude-mem",
-      "aiSummary": {
-        "summary": "这是一个为 Claude Code 构建的持久化内存压缩插件。它利用 TypeScript 自动捕获 Claude 的工具使用记录，通过 AI 进行语义压缩，并将上下文注入未来会话。这解决了会话断开导致的上下文丢失问题，确保 Claude 能持续保持对项目的连贯认知。",
-        "summary_en": "A Claude Code plugin that captures coding sessions, compresses them with AI, and injects context back into future sessions.",
-        "techStack": [
-          "TypeScript",
-          "Claude Agent SDK",
-          "OpenClaw Gateway"
-        ],
-        "useCase": "需要在多会话中保持项目上下文连续性的开发者",
-        "useCase_en": "To enable Claude to maintain continuity of knowledge about projects across sessions."
-      }
-    },
-    {
-      "index": 2,
-      "fullName": "lsdefine/GenericAgent",
-      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
-      "language": "Python",
-      "stars": 3076,
-      "forks": 336,
-      "todayStars": 872,
-      "url": "https://github.com/lsdefine/GenericAgent",
-      "aiSummary": {
-        "summary": "GenericAgent 是一个极简的 Python 自我进化自主智能体框架。仅用约 3K 行核心代码，通过 9 个原子工具赋予 LLM 系统级控制能力。其核心机制是“自我进化”，能将新任务自动转化为技能并存储，形成个人技能树，支持多种大模型，且 Token 消耗极低。",
-        "summary_en": "Minimal Python framework for self-evolving autonomous agents that gain system-level control by crystallizing execution paths into reusable skills.",
-        "techStack": [
-          "Python",
-          "LLM (Claude/Gemini/Kimi)",
-          "系统控制工具 (Browser/Terminal/ADB)"
-        ],
-        "useCase": "适合需要自动化复杂本地系统任务、构建个人 AI 技能库或进行高效低成本的 LLM 自动化操作的场景。",
-        "useCase_en": "Automate complex local computer tasks by learning from previous executions to optimize future runs."
-      }
-    },
-    {
-      "index": 3,
-      "fullName": "jamiepine/voicebox",
-      "description": "The open-source voice synthesis studio",
-      "language": "TypeScript",
-      "stars": 19336,
-      "forks": 2225,
-      "todayStars": 880,
-      "url": "https://github.com/jamiepine/voicebox",
-      "aiSummary": {
-        "summary": "Voicebox 是一个本地优先的开源语音合成工作室，提供免费且注重隐私的语音克隆功能。支持从少量音频克隆声音，生成23种语言的语音，内置5种TTS引擎，支持后期处理效果和多轨编辑。基于Tauri构建，性能优异，适合开发者和创作者在本地构建语音应用。",
-        "summary_en": "An open-source voice synthesis studio for cloning voices and generating speech locally.",
-        "techStack": [
-          "TypeScript",
-          "Rust (Tauri)",
-          "MLX/Metal",
-          "CUDA"
-        ],
-        "useCase": "适合需要在本地进行语音克隆、生成多语言语音或开发语音驱动应用的开发者与内容创作者。",
-        "useCase_en": "To clone voices and generate expressive speech locally for privacy-focused applications."
-      }
-    },
-    {
-      "index": 4,
-      "fullName": "vercel-labs/open-agents",
-      "description": "An open source template for building cloud agents.",
-      "language": "TypeScript",
-      "stars": 3375,
-      "forks": 364,
-      "todayStars": 738,
-      "url": "https://github.com/vercel-labs/open-agents",
-      "aiSummary": {
-        "summary": "这是一个基于 Vercel 的开源模板，用于构建后台编码代理。采用三层架构（Web、代理工作流、沙箱 VM），将代理逻辑与执行环境分离。支持通过聊天驱动编码、文件操作、Git 集成及自动提交 PR，旨在让 AI 从提示词到代码变更无需人工干预。",
-        "summary_en": "An open-source template for building cloud coding agents on Vercel with a three-layer architecture.",
-        "techStack": [
-          "TypeScript",
-          "Vercel",
-          "Workflow SDK",
-          "Sandbox VM"
-        ],
-        "useCase": "构建自动化编码代理，实现从提示词到代码变更的无人值守开发流程。",
-        "useCase_en": "Build autonomous coding agents that run in the cloud to modify code repositories and create pull requests."
-      }
-    },
-    {
-      "index": 5,
-      "fullName": "google/magika",
-      "description": "Fast and accurate AI powered file content types detection",
-      "language": "Python",
-      "stars": 15018,
-      "forks": 807,
-      "todayStars": 854,
-      "url": "https://github.com/google/magika",
-      "aiSummary": {
-        "summary": "Magika 是 Google 开发的基于深度学习的文件类型检测工具。它使用轻量级模型，能在单 CPU 上实现毫秒级检测，准确率高达 99%。支持命令行、Python API 及多语言绑定，已集成至 Gmail、Drive 等服务，用于大规模安全扫描。",
-        "summary_en": "Fast, accurate AI-powered file type detection tool using deep learning.",
-        "techStack": [
-          "Python",
-          "Rust",
-          "JavaScript/TypeScript",
-          "GoLang",
-          "Deep Learning"
-        ],
-        "useCase": "大规模文件安全扫描、恶意软件检测及内容策略路由",
-        "useCase_en": "To accurately identify file types at scale for security and content policy scanning."
-      }
-    },
-    {
-      "index": 6,
-      "fullName": "steipete/wacli",
-      "description": "WhatsApp CLI",
-      "language": "Go",
-      "stars": 1767,
-      "forks": 206,
-      "todayStars": 321,
-      "url": "https://github.com/steipete/wacli",
-      "aiSummary": {
-        "summary": "这是一个基于 Go 语言开发的 WhatsApp 命令行工具。它利用 whatsmeow 库，专注于本地消息历史同步、快速离线搜索以及发送消息和群组管理。支持通过 Homebrew 安装或本地编译，提供认证、同步、搜索、媒体下载及文件发送等功能，是 WhatsApp Web 协议的第三方实现。",
-        "summary_en": "A Go-based command-line interface for WhatsApp enabling local sync, offline search, and messaging.",
-        "techStack": [
-          "Go",
-          "whatsmeow",
-          "SQLite"
-        ],
-        "useCase": "适合需要通过命令行自动化 WhatsApp 操作或进行消息管理的开发者。",
-        "useCase_en": "To manage WhatsApp contacts, send messages, and search message history locally via CLI."
-      }
-    },
-    {
-      "index": 7,
-      "fullName": "topoteretes/cognee",
-      "description": "Knowledge Engine for AI Agent Memory in 6 lines of code",
-      "language": "Python",
-      "stars": 15986,
-      "forks": 1645,
-      "todayStars": 170,
-      "url": "https://github.com/topoteretes/cognee",
-      "aiSummary": {
-        "summary": "Cognee 是一个开源知识引擎，旨在将数据转化为 AI Agent 的记忆。它结合向量搜索、图数据库和认知科学方法，支持多模态数据摄取。核心功能包括 remember（存储）、recall（检索）、forget（遗忘）和 improve（优化），帮助构建持久化、可学习和可信的 AI Agent。",
-        "summary_en": "Open-source knowledge engine for AI agents that ingests data and provides context via vector and graph search.",
-        "techStack": [
-          "Python",
-          "Vector Search",
-          "Graph Database",
-          "LLM"
-        ],
-        "useCase": "构建具备持久记忆、上下文管理和知识共享能力的 AI Agent。",
-        "useCase_en": "Ingest data into a knowledge graph to provide context for AI agents."
-      }
-    },
-    {
-      "index": 8,
-      "fullName": "z-lab/dflash",
-      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
-      "language": "Python",
-      "stars": 1691,
-      "forks": 115,
-      "todayStars": 195,
-      "url": "https://github.com/z-lab/dflash",
-      "aiSummary": {
-        "summary": "DFlash 是一个专为快速推测解码设计的轻量级块扩散模型。它通过并行草稿生成显著提升推理效率，支持 Qwen、Kimi、Llama 等多种主流大模型，并兼容 Transformers、SGLang 和 vLLM 等多种推理框架。",
-        "summary_en": "DFlash is a lightweight block diffusion model designed for efficient and high-quality parallel drafting in speculative decoding.",
-        "techStack": [
-          "Python",
-          "Block Diffusion",
-          "Speculative Decoding",
-          "Transformers",
-          "SGLang"
-        ],
-        "useCase": "加速大语言模型推理，提升生成速度。",
-        "useCase_en": "Accelerate LLM inference by using a lightweight draft model to predict tokens in speculative decoding."
-      }
-    },
-    {
-      "index": 9,
-      "fullName": "Lordog/dive-into-llms",
-      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
-      "language": "Jupyter Notebook",
-      "stars": 31066,
-      "forks": 3758,
-      "todayStars": 1385,
-      "url": "https://github.com/Lordog/dive-into-llms",
-      "aiSummary": {
-        "summary": "这是一个由上海交通大学开发的公益大模型编程实践教程，基于 Jupyter Notebook。内容涵盖微调、提示学习、知识编辑、数学推理、越狱攻击、隐写术、多模态、GUI Agent、智能体安全及RLHF对齐等前沿主题。项目还联合华为昇腾推出了国产化大模型开发全流程课程，旨在帮助初学者快速入门大模型开发与学术研究。",
-        "summary_en": "A free, practical Jupyter Notebook tutorial series for Large Language Models covering fine-tuning, agents, and security.",
-        "techStack": [
-          "Jupyter Notebook"
-        ],
-        "useCase": "适用于大模型初学者、研究人员及开发者进行课程学习、学术研究及模型开发实践。",
-        "useCase_en": "A practical guide for students and researchers to learn LLM development, fine-tuning, and agent creation."
-      }
-    },
-    {
-      "index": 10,
-      "fullName": "openai/openai-agents-python",
-      "description": "A lightweight, powerful framework for multi-agent workflows",
-      "language": "Python",
-      "stars": 21439,
-      "forks": 3462,
-      "todayStars": 172,
-      "url": "https://github.com/openai/openai-agents-python",
-      "aiSummary": {
-        "summary": "这是一个轻量级且强大的 Python 框架，专为构建多智能体工作流设计。它支持 OpenAI 及 100+ 其他 LLM，提供智能体配置、工具集成、护栏机制、人工介入、会话管理和运行追踪等功能。特别支持沙盒智能体进行长时间任务处理，以及基于 gpt-realtime-1.5 的实时语音智能体，帮助开发者高效构建复杂的 AI 应用。",
-        "summary_en": "Lightweight Python framework for building multi-agent workflows and AI agents.",
-        "techStack": [
-          "Python",
-          "OpenAI API",
-          "LLMs"
-        ],
-        "useCase": "适用于构建复杂的多智能体 AI 工作流、自动化任务处理及语音交互系统。",
-        "useCase_en": "Create complex AI workflows using multi-agent systems with tools, guardrails, and voice capabilities."
-      }
-    },
-    {
-      "index": 11,
       "fullName": "EvoMap/evolver",
       "description": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai",
       "language": "JavaScript",
-      "stars": 3405,
-      "forks": 356,
-      "todayStars": 812,
+      "stars": 4216,
+      "forks": 417,
+      "todayStars": 750,
       "url": "https://github.com/EvoMap/evolver",
       "aiSummary": {
-        "summary": "这是一个基于 GEP（基因表达编程）的 AI Agent 自进化引擎。它通过扫描运行日志和错误模式，自动选择最佳基因或胶囊，生成受协议约束的 GEP 提示来指导 Agent 进化。它将临时的提示调整转化为可审计、可重用的进化资产，支持离线运行和与 EvoMap 网络协作。",
-        "summary_en": "A Node.js engine using GEP to evolve AI agent prompts based on runtime logs.",
+        "summary": "这是一个基于 GEP（基因表达程序）的 AI Agent 自我进化引擎。它扫描运行日志，从资产库中选择最佳基因或胶囊，生成受协议约束的 GEP 提示以指导 Agent 进化。项目将临时的提示调整转化为可审计、可复用的进化资产，支持离线运行及网络协作。",
+        "summary_en": "A Node.js engine that evolves AI agents using genetic algorithms and audit trails.",
         "techStack": [
           "JavaScript",
           "Node.js",
           "Git"
         ],
-        "useCase": "AI Agent 的自我进化与提示治理",
-        "useCase_en": "Automates the evolution of AI agent prompts by analyzing logs and applying genome protocols."
+        "useCase": "AI Agent 的自动化提示优化与进化管理",
+        "useCase_en": "Automates the evolution of AI agents by analyzing logs and applying genetic prompts."
       }
     },
     {
-      "index": 12,
+      "index": 1,
+      "fullName": "lsdefine/GenericAgent",
+      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "language": "Python",
+      "stars": 3594,
+      "forks": 386,
+      "todayStars": 848,
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "aiSummary": {
+        "summary": "GenericAgent 是一个极简的自我进化自主智能体框架，核心代码仅约3K行。它通过9个原子工具实现系统级控制，核心机制是将任务执行路径自动转化为可复用的技能，随使用积累形成个人技能树。该框架支持多主流大模型，且Token消耗极低，具备高兼容性和强执行能力。",
+        "summary_en": "Minimal Python framework for self-evolving autonomous agents that gain system control via skill crystallization.",
+        "techStack": [
+          "Python",
+          "LLM",
+          "浏览器自动化"
+        ],
+        "useCase": "适用于需要自主执行复杂任务并积累特定领域技能的场景，如本地系统自动化、多模型任务处理及个人技能树构建。",
+        "useCase_en": "Automate complex local computer tasks by allowing an LLM to autonomously learn and reuse execution paths."
+      }
+    },
+    {
+      "index": 2,
       "fullName": "SimoneAvogadro/android-reverse-engineering-skill",
       "description": "Claude Code skill to support Android app's reverse engineering",
       "language": "Shell",
-      "stars": 2428,
-      "forks": 266,
-      "todayStars": 375,
+      "stars": 2730,
+      "forks": 283,
+      "todayStars": 558,
       "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
       "aiSummary": {
-        "summary": "这是一个用于 Android 应用逆向工程的 Claude Code 技能。它利用 jadx 和 Fernflower 等工具反编译 APK、JAR 等文件，提取 HTTP API（如 Retrofit 端点、OkHttp 调用）及认证模式，并分析应用结构与调用流程，支持处理混淆代码。",
-        "summary_en": "A Claude Code skill for decompiling Android APKs and extracting HTTP APIs.",
+        "summary": "这是一个专为 Claude Code 设计的 Android 逆向工程技能。它利用 jadx 和 Fernflower 等工具反编译 APK、XAPK、JAR 和 AAR 文件，提取 HTTP API（如 Retrofit 端点、OkHttp 调用、认证信息），追踪调用流程并分析应用结构，支持处理混淆代码，无需源码即可文档化和复现 API。",
+        "summary_en": "A Claude Code skill for decompiling Android apps and extracting HTTP APIs.",
         "techStack": [
           "Shell",
           "Java",
@@ -279,37 +66,276 @@
           "Fernflower",
           "Vineflower"
         ],
-        "useCase": "当需要在没有原始源代码的情况下分析 Android 应用的 API 接口、认证逻辑或调用流程时。",
-        "useCase_en": "Reverse engineer Android apps to extract and document HTTP APIs like Retrofit endpoints and authentication patterns."
+        "useCase": "用于在没有源代码的情况下分析 Android 应用，提取 HTTP API、认证模式及调用流程。",
+        "useCase_en": "To reverse engineer Android applications and extract Retrofit/OkHttp endpoints."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "BasedHardware/omi",
+      "description": "AI that sees your screen, listens to your conversations and tells you what to do",
+      "language": "Dart",
+      "stars": 9808,
+      "forks": 1672,
+      "todayStars": 821,
+      "url": "https://github.com/BasedHardware/omi",
+      "aiSummary": {
+        "summary": "Omi 是一款跨平台的 AI “第二大脑”，支持桌面、手机及可穿戴设备。它能实时捕捉屏幕与对话，自动转录、生成摘要及行动项，并提供具备记忆功能的 AI 聊天。项目完全开源，旨在帮助专业人士高效管理信息。",
+        "summary_en": "An open-source AI 'second brain' that captures screen and audio to generate summaries and actionable insights.",
+        "techStack": [
+          "Dart",
+          "Swift",
+          "Rust",
+          "Python",
+          "Node.js"
+        ],
+        "useCase": "适用于需要自动记录会议、生成摘要及辅助决策的专业人士。",
+        "useCase_en": "Professionals use this to automate note-taking and task management by recording their digital workspace and conversation"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "language": "Jupyter Notebook",
+      "stars": 31506,
+      "forks": 3838,
+      "todayStars": 949,
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "aiSummary": {
+        "summary": "这是一个由上海交通大学开发的公益大模型编程实践教程，基于 Jupyter Notebook。内容涵盖微调、提示学习、知识编辑、数学推理、越狱攻击、隐写术、多模态、GUI Agent、智能体安全及RLHF对齐等前沿主题。此外，还联合华为昇腾推出了国产化全流程开发教程。适合初学者快速入门大模型，辅助课程设计或学术研究。",
+        "summary_en": "A comprehensive programming practice tutorial series for Large Language Models covering fine-tuning, agents, and security, developed by Shanghai Jiao Tong University.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python"
+        ],
+        "useCase": "适合大模型初学者及研究者进行编程实践，辅助课程设计或学术研究。",
+        "useCase_en": "Students and developers can use this to learn LLM development, fine-tuning, and agent creation through practical coding "
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Donchitos/Claude-Code-Game-Studios",
+      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "language": "Shell",
+      "stars": 11762,
+      "forks": 1715,
+      "todayStars": 405,
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "aiSummary": {
+        "summary": "该项目将 Claude Code 会话转化为模拟真实游戏开发工作室的 AI 团队。包含 49 个专业代理、72 个技能和 12 个自动化钩子，覆盖设计、编程、艺术、QA 等全流程。通过层级管理（导演、主管、专家）和严格的规则/模板，确保项目结构化、代码规范，防止随意编码，实现从头脑风暴到发布的全流程协作。",
+        "summary_en": "Turn a single Claude session into a coordinated game dev studio with 49 AI agents and 72 skills.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "Slash Commands"
+        ],
+        "useCase": "利用 AI 代理模拟游戏开发工作室，为个人开发者提供结构化的全流程游戏开发协作环境。",
+        "useCase_en": "Manage complex game development projects by coordinating a team of 49 specialized AI agents and enforcing studio workflo"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "jamiepine/voicebox",
+      "description": "The open-source voice synthesis studio",
+      "language": "TypeScript",
+      "stars": 19830,
+      "forks": 2278,
+      "todayStars": 802,
+      "url": "https://github.com/jamiepine/voicebox",
+      "aiSummary": {
+        "summary": "Voicebox 是一个本地优先的开源语音合成工作室，支持从几秒钟的音频克隆声音。它集成了5种TTS引擎，支持23种语言，提供多轨时间轴编辑器和丰富的后期处理效果，完全在本地运行，保护用户隐私。",
+        "summary_en": "Open-source local-first voice cloning studio for generating speech and cloning voices.",
+        "techStack": [
+          "Tauri",
+          "Rust",
+          "TypeScript",
+          "MLX",
+          "CUDA"
+        ],
+        "useCase": "适用于开发语音驱动的应用程序或进行本地化的语音内容创作。",
+        "useCase_en": "Clone voices and generate speech locally for building voice-powered applications."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "lukilabs/craft-agents-oss",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 4289,
+      "forks": 634,
+      "todayStars": 107,
+      "url": "https://github.com/lukilabs/craft-agents-oss",
+      "aiSummary": {
+        "summary": "这是一个由 craft.do 团队开发的 AI 代理协作工具，基于 TypeScript 构建。它旨在提供直观的多任务处理和以文档为中心的工作流。支持通过自然语言自动连接各种 API 和 MCP 服务（如 Linear、Slack），无需手动配置。内置 Claude 和 Pi SDK，遵循 Agent Native 原则，高度可定制，开源免费。",
+        "summary_en": "An open-source UI for managing AI agents using Claude and Pi SDKs, enabling natural language API connections and multitasking.",
+        "techStack": [
+          "TypeScript",
+          "Claude Agent SDK",
+          "Pi SDK",
+          "MCP"
+        ],
+        "useCase": "适合需要通过自然语言与多种外部服务（API/MCP）交互的 AI 代理工作流。",
+        "useCase_en": "A document-centric interface for connecting to and managing AI agents via natural language prompts and APIs."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Tracer-Cloud/opensre",
+      "description": "Build your own AI SRE agents. The open source toolkit for the AI era ✨",
+      "language": "Python",
+      "stars": 1434,
+      "forks": 170,
+      "todayStars": 257,
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "aiSummary": {
+        "summary": "这是一个用于构建 AI SRE 代理的开源框架，旨在解决生产环境故障排查缺乏标准化训练数据的问题。项目提供强化学习环境，支持连接多种监控工具，通过合成事件和端到端测试（覆盖 Kubernetes、AWS 等）来训练和评估代理在真实云环境中的故障响应能力。",
+        "summary_en": "Open-source framework for training AI SRE agents to investigate and resolve production incidents.",
+        "techStack": [
+          "Python",
+          "Kubernetes",
+          "AWS (EC2, Lambda, CloudWatch)",
+          "强化学习",
+          "日志/指标/追踪集成"
+        ],
+        "useCase": "适用于构建自动化 AI SRE 代理，用于生产环境基础设施故障排查与事件响应。",
+        "useCase_en": "To create a training environment for AI agents to investigate and resolve production incidents."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 157734,
+      "forks": 13717,
+      "todayStars": 1645,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码代理设计的软件开发方法论框架。它通过引导用户定义需求、分解规格说明、制定实现计划（强调 TDD、YAGNI、DRY）以及启动自主子代理开发流程，显著提升 AI 编码效率。该框架通过插件形式集成到 Claude Code 中，使 AI 能够长时间自主工作。",
+        "summary_en": "A framework providing a structured software development methodology for coding agents.",
+        "techStack": [
+          "Claude Code",
+          "Shell",
+          "AI Agents"
+        ],
+        "useCase": "为 AI 编码代理提供结构化的软件开发流程，实现自动化代码生成与审查。",
+        "useCase_en": "To provide coding agents with a structured methodology for autonomous software development."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "z-lab/dflash",
+      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "language": "Python",
+      "stars": 1801,
+      "forks": 119,
+      "todayStars": 285,
+      "url": "https://github.com/z-lab/dflash",
+      "aiSummary": {
+        "summary": "DFlash 是一个专为 Flash Speculative Decoding 设计的轻量级块扩散模型。它通过并行起草机制，实现了高效且高质量的推理加速。项目支持多种主流大模型（如 Qwen、Kimi、Llama 等），并提供了 Transformers、SGLang、vLLM 等多种后端支持，旨在通过开源训练配方帮助用户加速任意 LLM 的生成速度。",
+        "summary_en": "DFlash is a lightweight block diffusion model designed for efficient speculative decoding and parallel drafting.",
+        "techStack": [
+          "Python",
+          "Block Diffusion",
+          "Transformers",
+          "SGLang",
+          "vLLM"
+        ],
+        "useCase": "大语言模型推理加速，利用推测解码技术提升生成速度。",
+        "useCase_en": "Accelerate LLM inference by enabling high-quality parallel drafting for speculative decoding."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "language": "Python",
+      "stars": 21798,
+      "forks": 3488,
+      "todayStars": 624,
+      "url": "https://github.com/openai/openai-agents-python",
+      "aiSummary": {
+        "summary": "这是一个轻量级且强大的 Python 框架，专为构建多智能体工作流设计。它支持多种 LLM 提供商，具备智能体、沙箱、工具、护栏及人机协同等核心功能，支持实时语音交互，适合开发复杂的自动化 AI 应用。",
+        "summary_en": "A lightweight Python framework for building multi-agent workflows with tools, guardrails, and sandboxing.",
+        "techStack": [
+          "Python",
+          "OpenAI API",
+          "LLMs",
+          "Redis",
+          "Voice"
+        ],
+        "useCase": "适用于构建复杂的自动化 AI 工作流和多智能体系统。",
+        "useCase_en": "Create complex AI workflows involving multiple agents, tools, and human oversight."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "google/magika",
+      "description": "Fast and accurate AI powered file content types detection",
+      "language": "Python",
+      "stars": 15442,
+      "forks": 848,
+      "todayStars": 949,
+      "url": "https://github.com/google/magika",
+      "aiSummary": {
+        "summary": "Magika 是 Google 开发的基于深度学习的文件类型检测工具。它使用轻量级模型实现毫秒级检测，准确率高达 99%。支持多语言接口，已在 Google 内部大规模部署用于安全扫描，也可用于 VirusTotal 等平台。",
+        "summary_en": "Fast and accurate AI-powered file type detection tool using deep learning.",
+        "techStack": [
+          "Python",
+          "Rust",
+          "JavaScript/TypeScript",
+          "GoLang",
+          "Deep Learning"
+        ],
+        "useCase": "用于大规模文件安全扫描、恶意软件检测及内容类型识别。",
+        "useCase_en": "Detects file types accurately to route files for security scanning and content policy enforcement."
       }
     },
     {
       "index": 13,
-      "fullName": "BasedHardware/omi",
-      "description": "AI that sees your screen, listens to your conversations and tells you what to do",
-      "language": "Dart",
-      "stars": 9354,
-      "forks": 1636,
-      "todayStars": 378,
-      "url": "https://github.com/BasedHardware/omi",
+      "fullName": "pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 9432,
+      "forks": 1775,
+      "todayStars": 229,
+      "url": "https://github.com/pingdotgg/t3code",
       "aiSummary": {
-        "summary": "Omi 是一个跨平台的 AI “第二大脑”助手。它通过屏幕捕获、实时语音转录和对话分析，帮助用户生成摘要和行动项。支持桌面、手机和可穿戴设备，完全开源，旨在成为比用户自身更值得信赖的记忆系统。",
-        "summary_en": "An open-source AI 'second brain' that captures screen and audio to generate summaries and action items.",
+        "summary": "T3 Code 是一个极简的 Web 图形界面，旨在为 Codex 和 Claude 等编码代理提供统一的管理工具。它支持桌面应用和命令行运行，帮助用户通过可视化的方式与 AI 编程助手交互，目前项目处于早期开发阶段。",
+        "summary_en": "A minimal web GUI for coding agents like Codex and Claude.",
         "techStack": [
-          "Dart",
-          "Python",
-          "Rust",
-          "Swift",
-          "Flutter"
+          "TypeScript"
         ],
-        "useCase": "个人生产力管理，跨设备 AI 助手",
-        "useCase_en": "A personal productivity assistant that captures screen and audio to generate summaries and action items."
+        "useCase": "为 AI 编码代理提供可视化的 Web 管理界面",
+        "useCase_en": "A minimal web interface for interacting with AI coding agents like Codex and Claude."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 35837,
+      "forks": 2192,
+      "todayStars": 279,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理设计的 MCP 服务器，允许代理控制并检查实时 Chrome 浏览器。它利用 Puppeteer 实现可靠自动化，提供性能分析、高级调试（网络、截图、控制台）和用户体验数据集成等功能，帮助 AI 进行可靠的自动化和调试。",
+        "summary_en": "An MCP server enabling coding agents to control and debug live Chrome browsers.",
+        "techStack": [
+          "TypeScript",
+          "Puppeteer",
+          "MCP (Model-Context-Protocol)"
+        ],
+        "useCase": "适用于需要浏览器自动化、深度调试和性能分析的 AI 编码助手。",
+        "useCase_en": "To enable AI coding assistants to automate browser actions and debug web applications reliably."
       }
     }
   ],
   "metadata": {
-    "createdAt": "2026-04-17T07:31:39.261Z",
-    "duration": "223s",
+    "createdAt": "2026-04-17T23:47:40.401Z",
+    "duration": "170s",
     "version": "1.0.0"
   }
 }
