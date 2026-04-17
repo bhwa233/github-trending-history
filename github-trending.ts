@@ -11,16 +11,10 @@ import { ensureDir, writeFile } from './utils';
 const VERSION = '1.0.0';
 
 function validateRequiredEnv() {
-  const hasApiKey = Boolean(
-    process.env.AI_API_KEY?.trim() ||
-      process.env.CLOUDFLARE_AI_GATEWAY_TOKEN?.trim() ||
-      process.env.OPENROUTER_API_KEY?.trim()
-  );
+  const hasApiKey = Boolean(process.env.AI_API_KEY?.trim() || process.env.CLOUDFLARE_AI_GATEWAY_TOKEN?.trim());
 
   if (!hasApiKey) {
-    throw new Error(
-      '缺少必需环境变量。请设置 AI_API_KEY、CLOUDFLARE_AI_GATEWAY_TOKEN 或 OPENROUTER_API_KEY'
-    );
+    throw new Error('缺少必需环境变量。请设置 AI_API_KEY 或 CLOUDFLARE_AI_GATEWAY_TOKEN');
   }
 }
 

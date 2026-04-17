@@ -34,7 +34,7 @@
 
 - **抓取**: axios + cheerio
 - **README 提取**: @mozilla/readability + jsdom
-- **AI 服务**: Cloudflare AI Gateway（OpenAI 兼容接口），保留 OpenRouter 兼容配置
+- **AI 服务**: Cloudflare AI Gateway（OpenAI 兼容接口）
 - **前端**: Next.js 14 + React 18 + Tailwind CSS
 - **自动化**: GitHub Actions
 
@@ -50,10 +50,6 @@ export AI_API_URL=https://gateway.ai.cloudflare.com/v1/5697c41d4efbabcbac78eafe2
 export AI_MODEL=gpt-5.4
 export AI_AUTH_HEADER=cf-aig-authorization
 export AI_AUTH_PREFIX=Bearer
-
-# 兼容：OpenRouter
-# export OPENROUTER_API_KEY=your_openrouter_api_key
-# export OPENROUTER_MODEL=openrouter/free
 
 # 运行抓取
 pnpm start
@@ -97,7 +93,6 @@ MIT
 
 [查看完整数据](api/github/2026-04-17.json)
 <!-- END GITHUB TRENDING -->
-
 
 
 

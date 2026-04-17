@@ -1,20 +1,13 @@
 import axios from 'axios';
 import { AIInput, AISummary } from './github-types';
 
-const AI_API_KEY =
-  process.env.AI_API_KEY ||
-  process.env.CLOUDFLARE_AI_GATEWAY_TOKEN ||
-  process.env.OPENROUTER_API_KEY;
+const AI_API_KEY = process.env.AI_API_KEY || process.env.CLOUDFLARE_AI_GATEWAY_TOKEN;
 const AI_API_URL =
   process.env.AI_API_URL ||
   'https://gateway.ai.cloudflare.com/v1/5697c41d4efbabcbac78eafe2cdf036b/default/custom-right/codex/v1/chat/completions';
-const AI_MODEL = process.env.AI_MODEL || process.env.OPENROUTER_MODEL || 'gpt-5.4';
+const AI_MODEL = process.env.AI_MODEL || 'gpt-5.4';
 const AI_AUTH_HEADER = process.env.AI_AUTH_HEADER || 'cf-aig-authorization';
 const AI_AUTH_PREFIX = process.env.AI_AUTH_PREFIX || 'Bearer';
-const OPENROUTER_REFERER =
-  process.env.OPENROUTER_SITE_URL || 'https://github.com/lxw15337674/github-trending-history';
-const OPENROUTER_TITLE = process.env.OPENROUTER_SITE_NAME || 'github-trending-history';
-const IS_OPENROUTER = AI_API_URL.includes('openrouter.ai');
 
 function buildPrompt(input: AIInput, locale: 'zh-CN' | 'en') {
   const truncatedReadme = input.readmeContent.slice(0, 2000);
@@ -28,9 +21,7 @@ function buildPrompt(input: AIInput, locale: 'zh-CN' | 'en') {
 
 async function callAIProvider(input: AIInput, locale: 'zh-CN' | 'en'): Promise<AISummary> {
   if (!AI_API_KEY) {
-    throw new Error(
-      '缺少 AI API 配置。请设置环境变量 AI_API_KEY、CLOUDFLARE_AI_GATEWAY_TOKEN 或 OPENROUTER_API_KEY'
-    );
+    throw new Error('缺少 AI API 配置。请设置环境变量 AI_API_KEY 或 CLOUDFLARE_AI_GATEWAY_TOKEN');
   }
 
   const prompt = buildPrompt(input, locale);
@@ -52,11 +43,6 @@ async function callAIProvider(input: AIInput, locale: 'zh-CN' | 'en'): Promise<A
     'Content-Type': 'application/json',
     [AI_AUTH_HEADER]: `${AI_AUTH_PREFIX} ${AI_API_KEY}`,
   };
-
-  if (IS_OPENROUTER) {
-    headers['HTTP-Referer'] = OPENROUTER_REFERER;
-    headers['X-OpenRouter-Title'] = OPENROUTER_TITLE;
-  }
 
   let lastError: Error | null = null;
   for (let attempt = 1; attempt <= 2; attempt += 1) {
