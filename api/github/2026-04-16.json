@@ -2,167 +2,270 @@
   "date": "2026-04-16",
   "since": "daily",
   "totalRepos": 14,
-  "successCount": 0,
-  "failedCount": 14,
+  "successCount": 10,
+  "failedCount": 4,
   "repos": [
     {
       "index": 0,
       "fullName": "forrestchang/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": "",
-      "stars": 49653,
-      "forks": 4093,
-      "todayStars": 7939,
+      "stars": 50188,
+      "forks": 4144,
+      "todayStars": 7959,
       "url": "https://github.com/forrestchang/andrej-karpathy-skills",
-      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+      "aiSummary": {
+        "summary": "该项目提供一份基于Andrej Karpathy观察的Claude Code行为改进指南，聚焦四大原则：思考先行、简洁优先、精准修改、目标驱动执行，旨在帮助LLM在编写代码时避免误判、过度抽象、无意义改动，并提升代码质量与可维护性。",
+        "summary_en": "A project offering CLAUDE.md for code improvement",
+        "techStack": [
+          "Markdown",
+          "Claude AI"
+        ],
+        "useCase": "适用于需要提升LLM代码生成质量的开发者与研究者",
+        "useCase_en": "A project providing guidelines."
+      }
     },
     {
       "index": 1,
       "fullName": "thedotmack/claude-mem",
       "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
       "language": "TypeScript",
-      "stars": 59645,
-      "forks": 4898,
-      "todayStars": 1907,
+      "stars": 59898,
+      "forks": 4921,
+      "todayStars": 1897,
       "url": "https://github.com/thedotmack/claude-mem",
-      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+      "aiSummary": {
+        "summary": "Claude-Mem 是一个为 Claude Code 设计的持久化记忆压缩系统，能够自动捕获编码会话中的工具使用情况，通过 AI 压缩生成语义摘要，并在后续会话中注入相关上下文。该插件支持多语言界面，提供一键安装功能，可与 Claude Code、Gemini CLI 和 OpenCode 等多种开发工具集成，帮助开发者在不同会话间保持项目知识的连续性。",
+        "summary_en": "A Claude Code plugin that automatically captures coding session activities, compresses them with AI, and injects relevant context into future sessions for continuity.",
+        "techStack": [
+          "TypeScript",
+          "Claude Agent SDK",
+          "Node.js",
+          "npm"
+        ],
+        "useCase": "适用于需要跨会话保持上下文的 AI 辅助编程场景",
+        "useCase_en": "Maintains context continuity across coding sessions by automatically capturing and compressing session data for future r"
+      }
     },
     {
       "index": 2,
       "fullName": "lsdefine/GenericAgent",
       "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
       "language": "Python",
-      "stars": 2739,
-      "forks": 316,
-      "todayStars": 883,
+      "stars": 2830,
+      "forks": 319,
+      "todayStars": 872,
       "url": "https://github.com/lsdefine/GenericAgent",
-      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+      "aiSummary": {
+        "summary": "GenericAgent 是一种自适应代理，自适应技能树，高效轻量，适合自动化任务。",
+        "summary_en": "Self-evolving agent with minimal codebase that grows skills autonomously through task crystallization.",
+        "techStack": [
+          "Python",
+          "Agent Loop",
+          "Self-Evolving"
+        ],
+        "useCase": "自动化任务",
+        "useCase_en": "Enables LLMs to autonomously control local systems (browser, terminal, etc.) with self-evolving skills."
+      }
     },
     {
       "index": 3,
       "fullName": "jamiepine/voicebox",
       "description": "The open-source voice synthesis studio",
       "language": "TypeScript",
-      "stars": 19044,
-      "forks": 2194,
-      "todayStars": 887,
+      "stars": 19096,
+      "forks": 2203,
+      "todayStars": 880,
       "url": "https://github.com/jamiepine/voicebox",
-      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+      "aiSummary": {
+        "summary": "Voicebox 是本地化开源语音合成工作室，支持几秒音频克隆声纹，提供 5 引擎、23 语言的 TTS，支持音高、混响、延迟等后处理效果，提供多轨道时间线编辑，完整隐私保护，并提供 REST API 供集成使用。",
+        "summary_en": "Open-source voice synthesis studio for local voice cloning, speech generation, and multi-voice projects with 5 TTS engines and 23 languages.",
+        "techStack": [
+          "TypeScript",
+          "Tauri (Rust)",
+          "REST API"
+        ],
+        "useCase": "适用于需要本地私密语音合成、多语言配音、多轨道音频制作的开发者和内容创作者。",
+        "useCase_en": "Local voice cloning and speech generation for privacy-focused applications and creative projects"
+      }
     },
     {
       "index": 4,
       "fullName": "vercel-labs/open-agents",
       "description": "An open source template for building cloud agents.",
       "language": "TypeScript",
-      "stars": 3177,
+      "stars": 3229,
       "forks": 350,
-      "todayStars": 735,
+      "todayStars": 738,
       "url": "https://github.com/vercel-labs/open-agents",
-      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+      "aiSummary": {
+        "summary": "Open Agents 是一个基于 Vercel 的开源参考应用，提供 Web UI、持久化工作流、沙盒 VM 三层架构，支持聊天驱动的编码代理。代理与沙盒分离，代理通过工具与沙盒交互，沙盒可独立休眠/恢复。功能包括文件、搜索、shell、任务、技能、网页工具，支持多步持久化执行、流式输出、取消、自动提交 PR，支持语音输入。",
+        "summary_en": "Open-source reference app for building and running background coding agents on Vercel with web UI, agent runtime, and sandbox orchestration.",
+        "techStack": [
+          "TypeScript",
+          "Vercel Durable Functions",
+          "Workflow SDK",
+          "Sandbox VM"
+        ],
+        "useCase": "适用于需要在云端自动化代码生成、修改并直接推送到 GitHub 的场景",
+        "useCase_en": "Build cloud agents that perform coding tasks through a chat interface with file manipulation, shell commands, and reposi"
+      }
     },
     {
       "index": 5,
       "fullName": "google/magika",
       "description": "Fast and accurate AI powered file content types detection",
       "language": "Python",
-      "stars": 14716,
-      "forks": 791,
-      "todayStars": 871,
+      "stars": 14816,
+      "forks": 796,
+      "todayStars": 854,
       "url": "https://github.com/google/magika",
-      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+      "aiSummary": {
+        "summary": "Magika是Google开源的AI驱动文件类型检测工具，基于深度学习模型实现毫秒级高精度文件识别。该模型仅几MB大小，在200+文件类型上达到约99%准确率，已在Gmail、Drive等Google产品中大规模部署，每周处理数千亿样本。",
+        "summary_en": "Magika is an AI-powered file type detection tool that uses a tiny deep‑learning model to identify over 200 content types with ~99% accuracy in milliseconds.",
+        "techStack": [
+          "Python",
+          "Rust",
+          "JavaScript/TypeScript",
+          "Go",
+          "深度学习"
+        ],
+        "useCase": "文件类型识别、安全扫描、内容分类",
+        "useCase_en": "Accurately classify file content for security, compliance, and content‑policy scanning at scale."
+      }
     },
     {
       "index": 6,
       "fullName": "steipete/wacli",
       "description": "WhatsApp CLI",
       "language": "Go",
-      "stars": 1672,
-      "forks": 197,
-      "todayStars": 354,
+      "stars": 1698,
+      "forks": 199,
+      "todayStars": 321,
       "url": "https://github.com/steipete/wacli",
-      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+      "aiSummary": {
+        "summary": "WhatsApp CLI提供消息管理功能，支持同步、搜索和发送。",
+        "summary_en": "wacli is a Go‑based CLI for WhatsApp that syncs chats, offers offline search, and lets users send messages and media via the WhatsApp Web protocol.",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "用于WhatsApp消息管理，支持同步、搜索和发送功能。",
+        "useCase_en": "Command‑line tool for users to authenticate, sync, search, and send WhatsApp messages without a GUI."
+      }
     },
     {
       "index": 7,
       "fullName": "topoteretes/cognee",
       "description": "Knowledge Engine for AI Agent Memory in 6 lines of code",
       "language": "Python",
-      "stars": 15781,
-      "forks": 1625,
-      "todayStars": 156,
+      "stars": 15829,
+      "forks": 1632,
+      "todayStars": 170,
       "url": "https://github.com/topoteretes/cognee",
-      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+      "aiSummary": {
+        "summary": "Cognee 是一个基于向量检索、图数据库和认知科学的开源知识引擎，提供持久化记忆、学习代理、跨代理知识共享及可插拔的 LLM 接口，支持快速上下文管理。",
+        "summary_en": "Cognee enhances AI agent memory through integrated search and learning.",
+        "techStack": [
+          "向量检索",
+          "图数据库",
+          "认知科学插件"
+        ],
+        "useCase": "适用于需要长期记忆、上下文感知的 AI 代理系统。",
+        "useCase_en": "Cognee enhances AI agent memory by integrating search and learning."
+      }
     },
     {
       "index": 8,
       "fullName": "z-lab/dflash",
       "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
       "language": "Python",
-      "stars": 1588,
-      "forks": 109,
-      "todayStars": 183,
+      "stars": 1622,
+      "forks": 111,
+      "todayStars": 195,
       "url": "https://github.com/z-lab/dflash",
-      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+      "aiSummary": {
+        "summary": "DFlash 是一个专为投机采样（Speculative Decoding）设计的轻量级块扩散模型（Block Diffusion Model）。它通过高效的并行草稿生成技术，显著提升了大语言模型（LLM）的推理速度。该项目支持多种主流模型（如 Qwen、Llama、Kimi 等）的加速，并提供了针对 Transformers、SGLang、vLLM 及 Apple Silicon (MLX) 的集成支持，旨在实现高质量且低延迟的并行文",
+        "summary_en": "DFlash is a lightweight block diffusion model for speculative decoding, enabling efficient, high‑quality parallel drafting across various LLMs.",
+        "techStack": [
+          "Python",
+          "Diffusion Models",
+          "Transformers",
+          "vLLM",
+          "SGLang"
+        ],
+        "useCase": "用于加速大语言模型（LLM）推理性能，通过投机采样技术实现更快的文本生成速度。",
+        "useCase_en": "Accelerate inference of large language models by adding speculative decoding with block diffusion."
+      }
     },
     {
       "index": 9,
       "fullName": "Lordog/dive-into-llms",
       "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
       "language": "Jupyter Notebook",
-      "stars": 30637,
-      "forks": 3710,
-      "todayStars": 1394,
+      "stars": 30756,
+      "forks": 3724,
+      "todayStars": 1385,
       "url": "https://github.com/Lordog/dive-into-llms",
-      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+      "aiSummary": {
+        "summary": "项目聚焦大模型开发全流程，结合教程与公益教材，助力AI教育与研究。",
+        "summary_en": "Free, Jupyter‑based tutorial series teaching LLM fine‑tuning, deployment, prompting, safety, and multimodal skills, updated with new topics and a Huawei Ascend version.",
+        "techStack": [
+          "Python",
+          "Jupyter Notebook",
+          "GitHub"
+        ],
+        "useCase": "快速入门大模型，支持教学与科研",
+        "useCase_en": "Educate students and developers on practical LLM engineering through hands‑on notebooks and scripts."
+      }
     },
     {
       "index": 10,
       "fullName": "openai/openai-agents-python",
       "description": "A lightweight, powerful framework for multi-agent workflows",
       "language": "Python",
-      "stars": 21209,
-      "forks": 3452,
-      "todayStars": 110,
+      "stars": 21278,
+      "forks": 3454,
+      "todayStars": 172,
       "url": "https://github.com/openai/openai-agents-python",
-      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+      "errorMessage": "OpenRouter 请求失败 (504): {\"error\":{\"message\":\"The operation was aborted\",\"code\":504,\"metadata\":{\"provider_name\":\"Venice\"}},\"user_id\":\"user_2zkn50ZpS2F8rCxCe0Voox4veHI\"}"
     },
     {
       "index": 11,
       "fullName": "EvoMap/evolver",
       "description": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai",
       "language": "JavaScript",
-      "stars": 3136,
-      "forks": 337,
-      "todayStars": 866,
+      "stars": 3197,
+      "forks": 342,
+      "todayStars": 812,
       "url": "https://github.com/EvoMap/evolver",
-      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+      "errorMessage": "OpenRouter 请求失败 (429): {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\",\"provider_name\":\"Venice\",\"is_byok\":false}},\"user_id\":\"user_2zkn50ZpS2F8rCxCe0Voox4veHI\"}"
     },
     {
       "index": 12,
       "fullName": "SimoneAvogadro/android-reverse-engineering-skill",
       "description": "Claude Code skill to support Android app's reverse engineering",
       "language": "Shell",
-      "stars": 2205,
-      "forks": 248,
+      "stars": 2264,
+      "forks": 253,
       "todayStars": 375,
       "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
-      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+      "errorMessage": "OpenRouter 请求失败 (429): {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1776470400000\"},\"provider_name\":null}},\"user_id\":\"user_2zkn50ZpS2F8rCxCe0Voox4veHI\"}"
     },
     {
       "index": 13,
       "fullName": "BasedHardware/omi",
       "description": "AI that sees your screen, listens to your conversations and tells you what to do",
       "language": "Dart",
-      "stars": 9070,
-      "forks": 1614,
-      "todayStars": 488,
+      "stars": 9144,
+      "forks": 1623,
+      "todayStars": 378,
       "url": "https://github.com/BasedHardware/omi",
-      "errorMessage": "缺少 OpenRouter API 配置。请设置环境变量 OPENROUTER_API_KEY"
+      "errorMessage": "OpenRouter 请求失败 (429): {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1776470400000\"},\"provider_name\":null}},\"user_id\":\"user_2zkn50ZpS2F8rCxCe0Voox4veHI\"}"
     }
   ],
   "metadata": {
-    "createdAt": "2026-04-16T23:49:38.886Z",
-    "duration": "40s",
+    "createdAt": "2026-04-17T02:11:18.641Z",
+    "duration": "659s",
     "version": "1.0.0"
   }
 }
