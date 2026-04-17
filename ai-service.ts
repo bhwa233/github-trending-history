@@ -4,9 +4,9 @@ import { AIInput, AISummary } from './github-types';
 const AI_API_KEY = process.env.AI_API_KEY || process.env.CLOUDFLARE_AI_GATEWAY_TOKEN;
 const AI_API_URL =
   process.env.AI_API_URL ||
-  'https://gateway.ai.cloudflare.com/v1/5697c41d4efbabcbac78eafe2cdf036b/default/custom-right/codex/v1/chat/completions';
-const AI_MODEL = process.env.AI_MODEL || 'gpt-5.4';
-const AI_AUTH_HEADER = process.env.AI_AUTH_HEADER || 'cf-aig-authorization';
+  'https://gateway.ai.cloudflare.com/v1/5697c41d4efbabcbac78eafe2cdf036b/default/compat/chat/completions';
+const AI_MODEL = process.env.AI_MODEL || 'workers-ai/@cf/zai-org/glm-4.7-flash';
+const AI_AUTH_HEADER = process.env.AI_AUTH_HEADER || 'Authorization';
 const AI_AUTH_PREFIX = process.env.AI_AUTH_PREFIX || 'Bearer';
 
 function buildPrompt(input: AIInput, locale: 'zh-CN' | 'en') {
@@ -52,6 +52,9 @@ async function callAIProvider(input: AIInput, locale: 'zh-CN' | 'en'): Promise<A
         {
           model: AI_MODEL,
           messages,
+          response_format: {
+            type: 'json_object',
+          },
           temperature: 0.2,
         },
         {
@@ -65,21 +68,32 @@ async function callAIProvider(input: AIInput, locale: 'zh-CN' | 'en'): Promise<A
         throw new Error('AI 返回格式错误：缺少 choices[0].message.content');
       }
 
-      const jsonMatch = content.match(/\{[\s\S]*\}/);
-      if (!jsonMatch) {
-        throw new Error('AI 响应中未找到 JSON 格式');
+      let parsed: Record<string, unknown>;
+      try {
+        parsed = JSON.parse(content);
+      } catch {
+        const jsonMatch = content.match(/\{[\s\S]*\}/);
+        if (!jsonMatch) {
+          throw new Error('AI 响应中未找到 JSON 格式');
+        }
+        parsed = JSON.parse(jsonMatch[0]);
       }
 
-      const parsed = JSON.parse(jsonMatch[0]);
       if (!parsed.summary || !parsed.techStack || !parsed.useCase) {
         throw new Error('AI 返回的 JSON 缺少必需字段');
       }
 
+      const techStack = Array.isArray(parsed.techStack)
+        ? parsed.techStack.map((item: unknown) => String(item)).slice(0, 5)
+        : String(parsed.techStack)
+            .split(/[,，、]/)
+            .map((item) => item.trim())
+            .filter(Boolean)
+            .slice(0, 5);
+
       return {
         summary: String(parsed.summary).slice(0, 220),
-        techStack: Array.isArray(parsed.techStack)
-          ? parsed.techStack.map((item: unknown) => String(item)).slice(0, 5)
-          : [],
+        techStack,
         useCase: String(parsed.useCase).slice(0, 120),
       };
     } catch (error) {

@@ -44,10 +44,8 @@ jobs:
         run: pnpm exec vite-node ./github-trending.ts
         env:
           AI_API_KEY: ${{ secrets.CLOUDFLARE_AI_GATEWAY_TOKEN }}
-          AI_API_URL: https://gateway.ai.cloudflare.com/v1/5697c41d4efbabcbac78eafe2cdf036b/default/custom-right/codex/v1/chat/completions
-          AI_MODEL: gpt-5.4
-          AI_AUTH_HEADER: cf-aig-authorization
-          AI_AUTH_PREFIX: Bearer
+          AI_API_URL: https://gateway.ai.cloudflare.com/v1/5697c41d4efbabcbac78eafe2cdf036b/default/compat/chat/completions
+          AI_MODEL: workers-ai/@cf/zai-org/glm-4.7-flash
 
       - name: Commit and Push
         run: |

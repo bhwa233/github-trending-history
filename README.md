@@ -9,7 +9,7 @@
 
 1. **自动抓取**: 每天 UTC 23:00 自动抓取 GitHub Trending 数据
 2. **README 提取**: 使用 @mozilla/readability 提取每个项目的 README 内容
-3. **AI 总结**: 默认通过 Cloudflare AI Gateway 调用 `gpt-5.4` 生成中英文项目总结、技术栈和适用场景
+3. **AI 总结**: 默认通过 Cloudflare AI Gateway 调用 `workers-ai/@cf/zai-org/glm-4.7-flash` 生成中英文项目总结、技术栈和适用场景
 4. **数据归档**: 将数据按日期归档到 `api/github/` 目录
 5. **数据可视化**: [在线查看](https://github-trending-history.vercel.app/)每日 GitHub Trending 数据
 
@@ -46,10 +46,8 @@ pnpm install
 
 # 默认：Cloudflare AI Gateway
 export AI_API_KEY=your_cloudflare_ai_gateway_token
-export AI_API_URL=https://gateway.ai.cloudflare.com/v1/5697c41d4efbabcbac78eafe2cdf036b/default/custom-right/codex/v1/chat/completions
-export AI_MODEL=gpt-5.4
-export AI_AUTH_HEADER=cf-aig-authorization
-export AI_AUTH_PREFIX=Bearer
+export AI_API_URL=https://gateway.ai.cloudflare.com/v1/5697c41d4efbabcbac78eafe2cdf036b/default/compat/chat/completions
+export AI_MODEL=workers-ai/@cf/zai-org/glm-4.7-flash
 
 # 运行抓取
 pnpm start
@@ -93,7 +91,6 @@ MIT
 
 [查看完整数据](api/github/2026-04-17.json)
 <!-- END GITHUB TRENDING -->
-
 
 
 
