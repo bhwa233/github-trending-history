@@ -70,27 +70,22 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-17 | **成功**: 15 | **失败**: 0
+**最后更新**: 2026-04-18 | **成功**: 10 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [EvoMap/evolver](https://github.com/EvoMap/evolver) | The GEP-Powered Self-Evolution Engine for AI Agent... | JavaScript | 4.2k | 750 | 这是一个基于 GEP（基因表达程序）的 AI Agent 自我进化引擎。它扫描运行日志，从资产库中选择最佳基因或胶囊，生成受协议约束的 GEP 提示以指导 Agent 进化。项目将临时的提示调整转化为可审计、可复用的进化资产，支持离线运行及网络协作。 |
-| 2 | [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) | Self-evolving agent: grows skill tree from 3.3K-li... | Python | 3.6k | 848 | GenericAgent 是一个极简的自我进化自主智能体框架，核心代码仅约3K行。它通过9个原子工具实现系统级控制，核心机制是将任务执行路径自动转化为可复用的技能，随使用积累形成个人技能树。该框架支持多主流大模型，且Token消耗极低，具备高兼容性和强执行能力。 |
-| 3 | [SimoneAvogadro/android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) | Claude Code skill to support Android app's reverse... | Shell | 2.7k | 558 | 这是一个专为 Claude Code 设计的 Android 逆向工程技能。它利用 jadx 和 Fernflower 等工具反编译 APK、XAPK、JAR 和 AAR 文件，提取 HTTP API（如 Retrofit 端点、OkHttp 调用、认证信息），追踪调用流程并分析应用结构，支持处理混淆代码，无需源码即可文档化和复现 API。 |
-| 4 | [BasedHardware/omi](https://github.com/BasedHardware/omi) | AI that sees your screen, listens to your conversa... | Dart | 9.8k | 821 | Omi 是一款跨平台的 AI “第二大脑”，支持桌面、手机及可穿戴设备。它能实时捕捉屏幕与对话，自动转录、生成摘要及行动项，并提供具备记忆功能的 AI 聊天。项目完全开源，旨在帮助专业人士高效管理信息。 |
-| 5 | [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) | 《动手学大模型Dive into LLMs》系列编程实践教程... | Jupyter Notebook | 31.5k | 949 | 这是一个由上海交通大学开发的公益大模型编程实践教程，基于 Jupyter Notebook。内容涵盖微调、提示学习、知识编辑、数学推理、越狱攻击、隐写术、多模态、GUI Agent、智能体安全及RLHF对齐等前沿主题。此外，还联合华为昇腾推出了国产化全流程开发教程。适合初学者快速入门大模型，辅助课程设计或学术研究。 |
-| 6 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Turn Claude Code into a full game dev studio — 49 ... | Shell | 11.8k | 405 | 该项目将 Claude Code 会话转化为模拟真实游戏开发工作室的 AI 团队。包含 49 个专业代理、72 个技能和 12 个自动化钩子，覆盖设计、编程、艺术、QA 等全流程。通过层级管理（导演、主管、专家）和严格的规则/模板，确保项目结构化、代码规范，防止随意编码，实现从头脑风暴到发布的全流程协作。 |
-| 7 | [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio... | TypeScript | 19.8k | 802 | Voicebox 是一个本地优先的开源语音合成工作室，支持从几秒钟的音频克隆声音。它集成了5种TTS引擎，支持23种语言，提供多轨时间轴编辑器和丰富的后期处理效果，完全在本地运行，保护用户隐私。 |
-| 8 | [lukilabs/craft-agents-oss](https://github.com/lukilabs/craft-agents-oss) | ... | TypeScript | 4.3k | 107 | 这是一个由 craft.do 团队开发的 AI 代理协作工具，基于 TypeScript 构建。它旨在提供直观的多任务处理和以文档为中心的工作流。支持通过自然语言自动连接各种 API 和 MCP 服务（如 Linear、Slack），无需手动配置。内置 Claude 和 Pi SDK，遵循 Agent Native 原则，高度可定制，开源免费。 |
-| 9 | [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) | Build your own AI SRE agents. The open source tool... | Python | 1.4k | 257 | 这是一个用于构建 AI SRE 代理的开源框架，旨在解决生产环境故障排查缺乏标准化训练数据的问题。项目提供强化学习环境，支持连接多种监控工具，通过合成事件和端到端测试（覆盖 Kubernetes、AWS 等）来训练和评估代理在真实云环境中的故障响应能力。 |
-| 10 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 157.7k | 1.6k | Superpowers 是一个为编码代理设计的软件开发方法论框架。它通过引导用户定义需求、分解规格说明、制定实现计划（强调 TDD、YAGNI、DRY）以及启动自主子代理开发流程，显著提升 AI 编码效率。该框架通过插件形式集成到 Claude Code 中，使 AI 能够长时间自主工作。 |
-| 11 | [z-lab/dflash](https://github.com/z-lab/dflash) | DFlash: Block Diffusion for Flash Speculative Deco... | Python | 1.8k | 285 | DFlash 是一个专为 Flash Speculative Decoding 设计的轻量级块扩散模型。它通过并行起草机制，实现了高效且高质量的推理加速。项目支持多种主流大模型（如 Qwen、Kimi、Llama 等），并提供了 Transformers、SGLang、vLLM 等多种后端支持，旨在通过开源训练配方帮助用户加速任意 LLM 的生成速度。 |
-| 12 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | A lightweight, powerful framework for multi-agent ... | Python | 21.8k | 624 | 这是一个轻量级且强大的 Python 框架，专为构建多智能体工作流设计。它支持多种 LLM 提供商，具备智能体、沙箱、工具、护栏及人机协同等核心功能，支持实时语音交互，适合开发复杂的自动化 AI 应用。 |
-| 13 | [google/magika](https://github.com/google/magika) | Fast and accurate AI powered file content types de... | Python | 15.4k | 949 | Magika 是 Google 开发的基于深度学习的文件类型检测工具。它使用轻量级模型实现毫秒级检测，准确率高达 99%。支持多语言接口，已在 Google 内部大规模部署用于安全扫描，也可用于 VirusTotal 等平台。 |
-| 14 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | ... | TypeScript | 9.4k | 229 | T3 Code 是一个极简的 Web 图形界面，旨在为 Codex 和 Claude 等编码代理提供统一的管理工具。它支持桌面应用和命令行运行，帮助用户通过可视化的方式与 AI 编程助手交互，目前项目处于早期开发阶段。 |
-| 15 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 35.8k | 279 | 这是一个为 AI 编码代理设计的 MCP 服务器，允许代理控制并检查实时 Chrome 浏览器。它利用 Puppeteer 实现可靠自动化，提供性能分析、高级调试（网络、截图、控制台）和用户体验数据集成等功能，帮助 AI 进行可靠的自动化和调试。 |
+| 1 | [thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt) | AI You Control: Choose your models. Own your data.... | TypeScript | 1.5k | 458 | Thunderbolt 是一个开源、跨平台的 AI 客户端，旨在让用户控制模型、拥有数据并消除供应商锁定。它支持自托管部署，兼容前沿、本地及企业级模型。目前处于活跃开发和安全审计阶段，主要面向需要私有化部署的企业客户，支持 Web、移动端及桌面端。 |
+| 2 | [BasedHardware/omi](https://github.com/BasedHardware/omi) | AI that sees your screen, listens to your conversa... | Dart | 10.4k | 617 | Omi 是一个开源的 AI 个人助手，旨在成为比第一个大脑更值得信赖的第二大脑。它支持桌面、手机和可穿戴设备，能够实时捕获屏幕画面和对话内容，进行转录、生成摘要和行动项，并提供拥有长期记忆的 AI 聊天功能。 |
+| 3 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | A lightweight, powerful framework for multi-agent ... | Python | 22.3k | 473 | 这是一个轻量级且强大的 Python 框架，专为构建多智能体工作流设计。它支持多种 LLM 提供商，具备智能体配置、工具调用、护栏机制、会话管理和追踪等功能。支持沙盒环境、实时语音交互及智能体间移交，适合开发复杂的 AI 应用和自动化工作流。 |
+| 4 | [EvoMap/evolver](https://github.com/EvoMap/evolver) | The GEP-Powered Self-Evolution Engine for AI Agent... | JavaScript | 5.0k | 1.1k | EvoMap/evolver 是一个基于 GEP（基因表达编程）的 AI 代理自我进化引擎。它将临时的提示调整转化为可审计、可重用的进化资产，支持协议约束进化和提示治理。作为 EvoMap 网络的核心引擎，它允许 AI 代理通过协作进化，提供基因和胶囊机制，旨在解决 AI 代理适应性问题。 |
+| 5 | [deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) | DeepGEMM: clean and efficient FP8 GEMM kernels wit... | Cuda | 6.5k | 31 | DeepGEMM 是一个统一的高性能 CUDA 张量核心内核库，专为现代大语言模型设计。它支持 FP8、FP4、BF16 GEMM，融合了 Mega MoE、MQA 评分和 HyperConnection 等关键计算原语。通过轻量级 JIT 编译，无需安装时编译，性能媲美专家调优库，支持 SM90/SM100 架构。 |
+| 6 | [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) | 《动手学大模型Dive into LLMs》系列编程实践教程... | Jupyter Notebook | 32.0k | 562 | 这是一个由上海交通大学开发的公益编程实践教程，使用 Jupyter Notebook。内容涵盖微调、提示学习、安全对齐、隐写术及 GUI Agent 等大模型核心主题。项目近期新增了与华为昇腾合作的国产化大模型开发全流程教程，旨在帮助开发者快速入门大模型技术。 |
+| 7 | [aaddrick/claude-desktop-debian](https://github.com/aaddrick/claude-desktop-debian) | Claude Desktop for Debian-based Linux distribution... | Shell | 3.5k | 39 | 该项目为 Debian/Ubuntu 等基于 Debian 的 Linux 发行版提供 Claude Desktop 的原生运行环境。它将 Windows 应用程序重新打包为多种格式（如 .deb、AppImage），支持 MCP 协议、全局热键及系统托盘集成。项目包含实验性的协作模式，支持使用 bubblewrap 进行沙箱隔离。 |
+| 8 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | An open-source remote desktop application designed... | Rust | 112.1k | 351 | RustDesk 是一个用 Rust 编写的开源远程桌面应用，旨在替代 TeamViewer。它支持自托管，用户拥有完全的数据控制权，无需配置即可开箱即用。项目支持自定义中继服务器，并提供 Flutter 和 Sciter 两种 GUI 框架，欢迎社区贡献。 |
+| 9 | [SimoneAvogadro/android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) | Claude Code skill to support Android app's reverse... | Shell | 3.1k | 408 | 这是一个用于 Android 应用逆向工程的 Claude Code 技能。它利用 jadx 和 Fernflower 等工具反编译 APK、XAPK、JAR 和 AAR 文件，提取 HTTP API（如 Retrofit 端点、OkHttp 调用）并追踪调用流程。该技能还能分析应用结构、处理混淆代码，帮助用户在没有源代码的情况下文档化和重现 API。 |
+| 10 | [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit) | Enterprise Architecture Governance & Vendor Procur... | HTML | 724 | 143 | ArcKit 是一个企业架构治理与供应商采购工具包，旨在将分散的文档转化为系统化的 AI 辅助工作流。它支持架构原则建立、利益相关者分析、风险与商业案例管理、数据建模、技术调研（含 Azure）、Wardley Mapping、架构图生成及供应商 RFP 管理等功能，集成了 Claude Code 插件和多个 MCP 服务器，提供从战略规划到设计审查的全流程支持。 |
 
-[查看完整数据](api/github/2026-04-17.json)
+[查看完整数据](api/github/2026-04-18.json)
 <!-- END GITHUB TRENDING -->
 
 

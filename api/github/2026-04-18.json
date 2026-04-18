@@ -1,0 +1,232 @@
+{
+  "date": "2026-04-18",
+  "since": "daily",
+  "totalRepos": 10,
+  "successCount": 10,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "thunderbird/thunderbolt",
+      "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
+      "language": "TypeScript",
+      "stars": 1538,
+      "forks": 79,
+      "todayStars": 458,
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "aiSummary": {
+        "summary": "Thunderbolt 是一个开源、跨平台的 AI 客户端，旨在让用户控制模型、拥有数据并消除供应商锁定。它支持自托管部署，兼容前沿、本地及企业级模型。目前处于活跃开发和安全审计阶段，主要面向需要私有化部署的企业客户，支持 Web、移动端及桌面端。",
+        "summary_en": "Open-source AI client for on-prem deployment and local model control.",
+        "techStack": [
+          "TypeScript",
+          "Docker"
+        ],
+        "useCase": "适用于需要私有化部署、数据自主可控的企业或个人用户。",
+        "useCase_en": "An enterprise-grade AI client for self-hosting and managing local or on-prem models."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "BasedHardware/omi",
+      "description": "AI that sees your screen, listens to your conversations and tells you what to do",
+      "language": "Dart",
+      "stars": 10417,
+      "forks": 1714,
+      "todayStars": 617,
+      "url": "https://github.com/BasedHardware/omi",
+      "aiSummary": {
+        "summary": "Omi 是一个开源的 AI 个人助手，旨在成为比第一个大脑更值得信赖的第二大脑。它支持桌面、手机和可穿戴设备，能够实时捕获屏幕画面和对话内容，进行转录、生成摘要和行动项，并提供拥有长期记忆的 AI 聊天功能。",
+        "summary_en": "An AI 'second brain' that captures screen and audio to generate summaries and actionable insights.",
+        "techStack": [
+          "Dart",
+          "Swift",
+          "Rust",
+          "Python",
+          "Flutter"
+        ],
+        "useCase": "个人 AI 助手与生产力工具，用于会议记录、知识管理及自动化任务处理。",
+        "useCase_en": "A personal productivity tool acting as a second brain that monitors screen and audio to provide summaries and AI chat."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "language": "Python",
+      "stars": 22297,
+      "forks": 3545,
+      "todayStars": 473,
+      "url": "https://github.com/openai/openai-agents-python",
+      "aiSummary": {
+        "summary": "这是一个轻量级且强大的 Python 框架，专为构建多智能体工作流设计。它支持多种 LLM 提供商，具备智能体配置、工具调用、护栏机制、会话管理和追踪等功能。支持沙盒环境、实时语音交互及智能体间移交，适合开发复杂的 AI 应用和自动化工作流。",
+        "summary_en": "A Python framework for building multi-agent workflows with OpenAI and 100+ LLMs.",
+        "techStack": [
+          "Python",
+          "OpenAI API",
+          "Redis"
+        ],
+        "useCase": "构建复杂的多智能体 AI 应用、自动化工作流及语音交互系统",
+        "useCase_en": "Build complex AI workflows involving multiple agents, tools, and human oversight."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "EvoMap/evolver",
+      "description": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai",
+      "language": "JavaScript",
+      "stars": 4986,
+      "forks": 489,
+      "todayStars": 1150,
+      "url": "https://github.com/EvoMap/evolver",
+      "aiSummary": {
+        "summary": "EvoMap/evolver 是一个基于 GEP（基因表达编程）的 AI 代理自我进化引擎。它将临时的提示调整转化为可审计、可重用的进化资产，支持协议约束进化和提示治理。作为 EvoMap 网络的核心引擎，它允许 AI 代理通过协作进化，提供基因和胶囊机制，旨在解决 AI 代理适应性问题。",
+        "summary_en": "GEP-powered engine for evolving AI agents with genome protocols and git-based evolution assets.",
+        "techStack": [
+          "JavaScript",
+          "Node.js"
+        ],
+        "useCase": "用于构建具有自我进化能力的 AI 代理，将临时提示调整转化为可审计、可重用的进化资产。",
+        "useCase_en": "Transforming ad hoc prompt tweaks into auditable, reusable evolution assets for AI agents."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "deepseek-ai/DeepGEMM",
+      "description": "DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling",
+      "language": "Cuda",
+      "stars": 6527,
+      "forks": 876,
+      "todayStars": 31,
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "aiSummary": {
+        "summary": "DeepGEMM 是一个统一的高性能 CUDA 张量核心内核库，专为现代大语言模型设计。它支持 FP8、FP4、BF16 GEMM，融合了 Mega MoE、MQA 评分和 HyperConnection 等关键计算原语。通过轻量级 JIT 编译，无需安装时编译，性能媲美专家调优库，支持 SM90/SM100 架构。",
+        "summary_en": "A unified CUDA kernel library for LLMs optimizing FP8, FP4, and MoE matrix operations.",
+        "techStack": [
+          "CUDA",
+          "C++",
+          "FP8",
+          "FP4",
+          "BF16"
+        ],
+        "useCase": "适用于现代大语言模型的高性能矩阵运算加速，特别是 FP8/FP4 训练与推理。",
+        "useCase_en": "Accelerates matrix multiplication and MoE operations for large language models."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "language": "Jupyter Notebook",
+      "stars": 32002,
+      "forks": 3891,
+      "todayStars": 562,
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "aiSummary": {
+        "summary": "这是一个由上海交通大学开发的公益编程实践教程，使用 Jupyter Notebook。内容涵盖微调、提示学习、安全对齐、隐写术及 GUI Agent 等大模型核心主题。项目近期新增了与华为昇腾合作的国产化大模型开发全流程教程，旨在帮助开发者快速入门大模型技术。",
+        "summary_en": "A comprehensive Jupyter Notebook tutorial series for Large Language Models, covering fine-tuning, agents, and security.",
+        "techStack": [
+          "Jupyter Notebook",
+          "大模型",
+          "Python",
+          "微调",
+          "RLHF"
+        ],
+        "useCase": "适合计算机专业学生、研究人员及开发者学习大模型开发全流程，进行课程设计或学术研究。",
+        "useCase_en": "A practical guide for students and developers to learn LLM fine-tuning, agents, and security."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "aaddrick/claude-desktop-debian",
+      "description": "Claude Desktop for Debian-based Linux distributions",
+      "language": "Shell",
+      "stars": 3460,
+      "forks": 380,
+      "todayStars": 39,
+      "url": "https://github.com/aaddrick/claude-desktop-debian",
+      "aiSummary": {
+        "summary": "该项目为 Debian/Ubuntu 等基于 Debian 的 Linux 发行版提供 Claude Desktop 的原生运行环境。它将 Windows 应用程序重新打包为多种格式（如 .deb、AppImage），支持 MCP 协议、全局热键及系统托盘集成。项目包含实验性的协作模式，支持使用 bubblewrap 进行沙箱隔离。",
+        "summary_en": "Unofficial build scripts to run Claude Desktop natively on Debian-based Linux distributions.",
+        "techStack": [
+          "Shell",
+          "Debian",
+          "MCP (Model Context Protocol)",
+          "Bubblewrap"
+        ],
+        "useCase": "在 Linux 系统上原生运行 Claude Desktop，无需虚拟化或 Wine。",
+        "useCase_en": "Allows Linux users to run Claude Desktop natively without virtualization."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "stars": 112069,
+      "forks": 16760,
+      "todayStars": 351,
+      "url": "https://github.com/rustdesk/rustdesk",
+      "aiSummary": {
+        "summary": "RustDesk 是一个用 Rust 编写的开源远程桌面应用，旨在替代 TeamViewer。它支持自托管，用户拥有完全的数据控制权，无需配置即可开箱即用。项目支持自定义中继服务器，并提供 Flutter 和 Sciter 两种 GUI 框架，欢迎社区贡献。",
+        "summary_en": "Open-source remote desktop solution written in Rust, enabling self-hosting and full data control.",
+        "techStack": [
+          "Rust",
+          "Flutter",
+          "Sciter",
+          "C++"
+        ],
+        "useCase": "适用于需要安全、可控且可自托管的远程桌面访问场景，可作为 TeamViewer 的替代方案。",
+        "useCase_en": "Self-hosting remote desktop software as a secure alternative to TeamViewer."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "SimoneAvogadro/android-reverse-engineering-skill",
+      "description": "Claude Code skill to support Android app's reverse engineering",
+      "language": "Shell",
+      "stars": 3110,
+      "forks": 317,
+      "todayStars": 408,
+      "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+      "aiSummary": {
+        "summary": "这是一个用于 Android 应用逆向工程的 Claude Code 技能。它利用 jadx 和 Fernflower 等工具反编译 APK、XAPK、JAR 和 AAR 文件，提取 HTTP API（如 Retrofit 端点、OkHttp 调用）并追踪调用流程。该技能还能分析应用结构、处理混淆代码，帮助用户在没有源代码的情况下文档化和重现 API。",
+        "summary_en": "A Claude Code skill for decompiling Android APKs and extracting HTTP APIs.",
+        "techStack": [
+          "Shell",
+          "jadx",
+          "Fernflower",
+          "Vineflower",
+          "Java (JDK 17+)"
+        ],
+        "useCase": "需要分析 Android 应用 API、理解其架构或进行安全审计时使用。",
+        "useCase_en": "To reverse engineer Android applications and document their HTTP API endpoints."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "tractorjuice/arc-kit",
+      "description": "Enterprise Architecture Governance & Vendor Procurement Toolkit",
+      "language": "HTML",
+      "stars": 724,
+      "forks": 101,
+      "todayStars": 143,
+      "url": "https://github.com/tractorjuice/arc-kit",
+      "aiSummary": {
+        "summary": "ArcKit 是一个企业架构治理与供应商采购工具包，旨在将分散的文档转化为系统化的 AI 辅助工作流。它支持架构原则建立、利益相关者分析、风险与商业案例管理、数据建模、技术调研（含 Azure）、Wardley Mapping、架构图生成及供应商 RFP 管理等功能，集成了 Claude Code 插件和多个 MCP 服务器，提供从战略规划到设计审查的全流程支持。",
+        "summary_en": "Enterprise architecture governance toolkit that transforms scattered documents into systematic workflows for governance, vendor procurement, and design reviews.",
+        "techStack": [
+          "HTML",
+          "Claude Code",
+          "MCP"
+        ],
+        "useCase": "企业架构师用于架构治理、供应商采购及设计审查的 AI 辅助工具",
+        "useCase_en": "A toolkit for enterprise architects to streamline governance, vendor procurement, and design review workflows."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-18T23:44:18.245Z",
+    "duration": "209s",
+    "version": "1.0.0"
+  }
+}
