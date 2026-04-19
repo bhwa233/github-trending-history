@@ -1,0 +1,228 @@
+{
+  "date": "2026-04-19",
+  "since": "daily",
+  "totalRepos": 10,
+  "successCount": 10,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "language": "Python",
+      "stars": 6450,
+      "forks": 1002,
+      "todayStars": 1169,
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "aiSummary": {
+        "summary": "Fincept Terminal 是一款基于 C++20 和 Qt6 的高性能桌面金融终端，内置 Python 引擎支持 CFA 级分析、量化建模及 37 个 AI 交易代理。它集成了 100+ 数据源、实时交易引擎及全球情报功能，旨在为专业投资者提供媲美 Bloomberg 的数据驱动决策与自动化交易环境。",
+        "summary_en": "A C++20 desktop application offering advanced financial analytics, AI agents, and real-time trading.",
+        "techStack": [
+          "C++20",
+          "Qt6",
+          "Python",
+          "QuantLib",
+          "LLM"
+        ],
+        "useCase": "专业投资研究、量化交易与金融数据分析",
+        "useCase_en": "Used by traders and investors for advanced market analytics, AI-driven research, and automated trading."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "thunderbird/thunderbolt",
+      "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
+      "language": "TypeScript",
+      "stars": 2192,
+      "forks": 130,
+      "todayStars": 696,
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "aiSummary": {
+        "summary": "Thunderbolt 是一个开源的跨平台 AI 客户端，旨在让用户掌控模型选择和数据所有权，消除供应商锁定。它支持本地、前沿和私有模型，目前处于早期开发阶段，主要面向企业客户进行自托管部署。",
+        "summary_en": "An open-source, cross-platform AI client for on-prem deployment and local model control.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "企业级自托管 AI 助手，用于数据隐私保护与本地模型部署。",
+        "useCase_en": "A self-hostable AI client for enterprises to manage local models and eliminate vendor lock-in."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "tractorjuice/arc-kit",
+      "description": "Enterprise Architecture Governance & Vendor Procurement Toolkit",
+      "language": "HTML",
+      "stars": 982,
+      "forks": 133,
+      "todayStars": 263,
+      "url": "https://github.com/tractorjuice/arc-kit",
+      "aiSummary": {
+        "summary": "ArcKit 是一个企业架构治理与供应商采购工具包，旨在通过结构化工作流提升架构治理水平。它集成了AI辅助研究、Wardley 战略地图、数据建模、需求管理及供应商RFP流程，支持HM Treasury标准，帮助架构师建立原则、管理风险并生成可视化图表。",
+        "summary_en": "Enterprise architecture governance toolkit for structured workflows, vendor procurement, and design reviews.",
+        "techStack": [
+          "HTML",
+          "Claude Code",
+          "Mermaid",
+          "ServiceNow"
+        ],
+        "useCase": "适用于企业架构师进行架构治理、供应商选型及技术决策分析。",
+        "useCase_en": "A toolkit for enterprise architects to manage governance, vendor procurement, and design reviews systematically."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "language": "Python",
+      "stars": 23138,
+      "forks": 3634,
+      "todayStars": 751,
+      "url": "https://github.com/openai/openai-agents-python",
+      "aiSummary": {
+        "summary": "这是一个用于构建多代理工作流的轻量级 Python 框架。它支持 OpenAI 和 100+ 其他 LLM，提供代理、沙盒、工具、护栏、人工介入和会话管理等核心功能，旨在简化复杂 AI 应用的开发。",
+        "summary_en": "A lightweight Python framework for building multi-agent workflows.",
+        "techStack": [
+          "Python",
+          "OpenAI API",
+          "Redis",
+          "容器化"
+        ],
+        "useCase": "适合构建复杂的多智能体协作系统及自动化工作流。",
+        "useCase_en": "Create complex AI workflows using multiple autonomous agents with tools and guardrails."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 9864,
+      "forks": 1842,
+      "todayStars": 96,
+      "url": "https://github.com/pingdotgg/t3code",
+      "aiSummary": {
+        "summary": "T3 Code 是一个极简的 Web GUI，专为 Codex 和 Claude 等编码代理设计。它提供了桌面应用和 Web 运行方式，旨在简化与 AI 编码助手的交互体验。目前项目处于早期阶段。",
+        "summary_en": "Minimal web GUI for coding agents, currently supporting Codex and Claude.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "为 Codex 和 Claude 等编码代理提供可视化的操作界面。",
+        "useCase_en": "Provides a web-based interface to interact with AI coding agents."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "paperless-ngx/paperless-ngx",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "language": "Python",
+      "stars": 38846,
+      "forks": 2494,
+      "todayStars": 382,
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "aiSummary": {
+        "summary": "Paperless-ngx 是一个基于 Python 的社区支持文档管理系统，旨在将物理文档转化为可搜索的在线档案。它支持扫描、索引和归档所有文档，帮助用户减少纸张使用。项目提供 Docker Compose 部署方式，支持从旧版本迁移，拥有活跃的社区支持和多语言翻译。",
+        "summary_en": "A community-supported document management system for scanning, indexing, and archiving physical documents.",
+        "techStack": [
+          "Python",
+          "Docker"
+        ],
+        "useCase": "适合需要数字化归档、扫描文档并建立可搜索索引的个人或企业用户。",
+        "useCase_en": "To digitize and organize physical documents into a searchable online archive."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 47480,
+      "forks": 6390,
+      "todayStars": 118,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 密集感知平台，利用 ESP32 传感器捕获信道状态信息（CSI），实现无摄像头的人体姿态估计、生命体征监测（呼吸/心率）及存在检测。它运行在边缘端，支持活动识别和环境映射，无需云端或摄像头即可穿透墙壁探测人体活动。",
+        "summary_en": "Rust-based WiFi sensing platform for non-intrusive human pose estimation and vital sign monitoring.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "WiFi CSI",
+          "Spiking Neural Networks",
+          "Mesh Network"
+        ],
+        "useCase": "适用于智能家居安防、无摄像头生命体征监测及人体活动追踪场景。",
+        "useCase_en": "Detect human presence, vital signs, and activity through walls using commodity WiFi signals without cameras or wearables"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "EvoMap/evolver",
+      "description": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai",
+      "language": "JavaScript",
+      "stars": 5494,
+      "forks": 535,
+      "todayStars": 525,
+      "url": "https://github.com/EvoMap/evolver",
+      "aiSummary": {
+        "summary": "这是一个基于 GEP（基因表达程序）的 AI 代理自我进化引擎。它将临时的提示调整转化为可审计、可复用的进化资产，支持通过 Git 进行版本控制。作为 EvoMap 网络的核心引擎，它实现了协议约束的进化与基因管理，旨在解决 AI 代理的适应性问题。",
+        "summary_en": "A GEP-powered engine for evolving AI agents with auditable evolution assets.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Git"
+        ],
+        "useCase": "将临时提示调整转化为可审计、可复用的进化资产，驱动 AI 代理自我进化。",
+        "useCase_en": "Turns ad hoc prompt tweaks into auditable, reusable evolution assets for AI agents."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "BasedHardware/omi",
+      "description": "AI that sees your screen, listens to your conversations and tells you what to do",
+      "language": "Dart",
+      "stars": 11126,
+      "forks": 1780,
+      "todayStars": 687,
+      "url": "https://github.com/BasedHardware/omi",
+      "aiSummary": {
+        "summary": "Omi 是一个基于 AI 的个人“第二大脑”助手。它通过屏幕捕捉和语音转录技术，实时分析用户的屏幕内容和对话，生成摘要和行动项。支持桌面、手机和可穿戴设备，具备记忆功能，适合需要高效记录和整理信息的专业人士。",
+        "summary_en": "An open-source AI '2nd brain' capturing screen and audio to provide real-time summaries and actionable insights.",
+        "techStack": [
+          "Dart",
+          "Swift",
+          "Rust",
+          "Python",
+          "Flutter"
+        ],
+        "useCase": "个人知识管理与生产力辅助",
+        "useCase_en": "To act as a personal productivity tool that captures screen and audio to generate summaries and action items."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Donchitos/Claude-Code-Game-Studios",
+      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "language": "Shell",
+      "stars": 13384,
+      "forks": 1923,
+      "todayStars": 698,
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "aiSummary": {
+        "summary": "该项目将 Claude Code 会话转化为完整游戏开发工作室，包含49个专业化AI代理、72个技能及模拟真实工作室层级的协调系统。通过自动化钩子和规则，确保代码质量与设计一致性，帮助开发者从构思到发布进行高效管理。",
+        "summary_en": "A shell-based orchestration system that transforms a single Claude Code session into a structured game development studio with 49 specialized AI agents and 72 workflow skills.",
+        "techStack": [
+          "Shell",
+          "Claude Code"
+        ],
+        "useCase": "适合希望利用AI团队协作进行结构化、高质量游戏开发的个人或小型团队。",
+        "useCase_en": "Organize and execute game development workflows using a hierarchical team of 49 specialized AI agents within a single Cl"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-19T23:44:13.848Z",
+    "duration": "111s",
+    "version": "1.0.0"
+  }
+}

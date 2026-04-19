@@ -70,22 +70,22 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-18 | **成功**: 10 | **失败**: 0
+**最后更新**: 2026-04-19 | **成功**: 10 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt) | AI You Control: Choose your models. Own your data.... | TypeScript | 1.5k | 458 | Thunderbolt 是一个开源、跨平台的 AI 客户端，旨在让用户控制模型、拥有数据并消除供应商锁定。它支持自托管部署，兼容前沿、本地及企业级模型。目前处于活跃开发和安全审计阶段，主要面向需要私有化部署的企业客户，支持 Web、移动端及桌面端。 |
-| 2 | [BasedHardware/omi](https://github.com/BasedHardware/omi) | AI that sees your screen, listens to your conversa... | Dart | 10.4k | 617 | Omi 是一个开源的 AI 个人助手，旨在成为比第一个大脑更值得信赖的第二大脑。它支持桌面、手机和可穿戴设备，能够实时捕获屏幕画面和对话内容，进行转录、生成摘要和行动项，并提供拥有长期记忆的 AI 聊天功能。 |
-| 3 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | A lightweight, powerful framework for multi-agent ... | Python | 22.3k | 473 | 这是一个轻量级且强大的 Python 框架，专为构建多智能体工作流设计。它支持多种 LLM 提供商，具备智能体配置、工具调用、护栏机制、会话管理和追踪等功能。支持沙盒环境、实时语音交互及智能体间移交，适合开发复杂的 AI 应用和自动化工作流。 |
-| 4 | [EvoMap/evolver](https://github.com/EvoMap/evolver) | The GEP-Powered Self-Evolution Engine for AI Agent... | JavaScript | 5.0k | 1.1k | EvoMap/evolver 是一个基于 GEP（基因表达编程）的 AI 代理自我进化引擎。它将临时的提示调整转化为可审计、可重用的进化资产，支持协议约束进化和提示治理。作为 EvoMap 网络的核心引擎，它允许 AI 代理通过协作进化，提供基因和胶囊机制，旨在解决 AI 代理适应性问题。 |
-| 5 | [deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) | DeepGEMM: clean and efficient FP8 GEMM kernels wit... | Cuda | 6.5k | 31 | DeepGEMM 是一个统一的高性能 CUDA 张量核心内核库，专为现代大语言模型设计。它支持 FP8、FP4、BF16 GEMM，融合了 Mega MoE、MQA 评分和 HyperConnection 等关键计算原语。通过轻量级 JIT 编译，无需安装时编译，性能媲美专家调优库，支持 SM90/SM100 架构。 |
-| 6 | [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) | 《动手学大模型Dive into LLMs》系列编程实践教程... | Jupyter Notebook | 32.0k | 562 | 这是一个由上海交通大学开发的公益编程实践教程，使用 Jupyter Notebook。内容涵盖微调、提示学习、安全对齐、隐写术及 GUI Agent 等大模型核心主题。项目近期新增了与华为昇腾合作的国产化大模型开发全流程教程，旨在帮助开发者快速入门大模型技术。 |
-| 7 | [aaddrick/claude-desktop-debian](https://github.com/aaddrick/claude-desktop-debian) | Claude Desktop for Debian-based Linux distribution... | Shell | 3.5k | 39 | 该项目为 Debian/Ubuntu 等基于 Debian 的 Linux 发行版提供 Claude Desktop 的原生运行环境。它将 Windows 应用程序重新打包为多种格式（如 .deb、AppImage），支持 MCP 协议、全局热键及系统托盘集成。项目包含实验性的协作模式，支持使用 bubblewrap 进行沙箱隔离。 |
-| 8 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | An open-source remote desktop application designed... | Rust | 112.1k | 351 | RustDesk 是一个用 Rust 编写的开源远程桌面应用，旨在替代 TeamViewer。它支持自托管，用户拥有完全的数据控制权，无需配置即可开箱即用。项目支持自定义中继服务器，并提供 Flutter 和 Sciter 两种 GUI 框架，欢迎社区贡献。 |
-| 9 | [SimoneAvogadro/android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) | Claude Code skill to support Android app's reverse... | Shell | 3.1k | 408 | 这是一个用于 Android 应用逆向工程的 Claude Code 技能。它利用 jadx 和 Fernflower 等工具反编译 APK、XAPK、JAR 和 AAR 文件，提取 HTTP API（如 Retrofit 端点、OkHttp 调用）并追踪调用流程。该技能还能分析应用结构、处理混淆代码，帮助用户在没有源代码的情况下文档化和重现 API。 |
-| 10 | [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit) | Enterprise Architecture Governance & Vendor Procur... | HTML | 724 | 143 | ArcKit 是一个企业架构治理与供应商采购工具包，旨在将分散的文档转化为系统化的 AI 辅助工作流。它支持架构原则建立、利益相关者分析、风险与商业案例管理、数据建模、技术调研（含 Azure）、Wardley Mapping、架构图生成及供应商 RFP 管理等功能，集成了 Claude Code 插件和多个 MCP 服务器，提供从战略规划到设计审查的全流程支持。 |
+| 1 | [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | FinceptTerminal is a modern finance application of... | Python | 6.5k | 1.2k | Fincept Terminal 是一款基于 C++20 和 Qt6 的高性能桌面金融终端，内置 Python 引擎支持 CFA 级分析、量化建模及 37 个 AI 交易代理。它集成了 100+ 数据源、实时交易引擎及全球情报功能，旨在为专业投资者提供媲美 Bloomberg 的数据驱动决策与自动化交易环境。 |
+| 2 | [thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt) | AI You Control: Choose your models. Own your data.... | TypeScript | 2.2k | 696 | Thunderbolt 是一个开源的跨平台 AI 客户端，旨在让用户掌控模型选择和数据所有权，消除供应商锁定。它支持本地、前沿和私有模型，目前处于早期开发阶段，主要面向企业客户进行自托管部署。 |
+| 3 | [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit) | Enterprise Architecture Governance & Vendor Procur... | HTML | 982 | 263 | ArcKit 是一个企业架构治理与供应商采购工具包，旨在通过结构化工作流提升架构治理水平。它集成了AI辅助研究、Wardley 战略地图、数据建模、需求管理及供应商RFP流程，支持HM Treasury标准，帮助架构师建立原则、管理风险并生成可视化图表。 |
+| 4 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | A lightweight, powerful framework for multi-agent ... | Python | 23.1k | 751 | 这是一个用于构建多代理工作流的轻量级 Python 框架。它支持 OpenAI 和 100+ 其他 LLM，提供代理、沙盒、工具、护栏、人工介入和会话管理等核心功能，旨在简化复杂 AI 应用的开发。 |
+| 5 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | ... | TypeScript | 9.9k | 96 | T3 Code 是一个极简的 Web GUI，专为 Codex 和 Claude 等编码代理设计。它提供了桌面应用和 Web 运行方式，旨在简化与 AI 编码助手的交互体验。目前项目处于早期阶段。 |
+| 6 | [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | A community-supported supercharged document manage... | Python | 38.8k | 382 | Paperless-ngx 是一个基于 Python 的社区支持文档管理系统，旨在将物理文档转化为可搜索的在线档案。它支持扫描、索引和归档所有文档，帮助用户减少纸张使用。项目提供 Docker Compose 部署方式，支持从旧版本迁移，拥有活跃的社区支持和多语言翻译。 |
+| 7 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 47.5k | 118 | RuView 是一个基于 Rust 的 WiFi 密集感知平台，利用 ESP32 传感器捕获信道状态信息（CSI），实现无摄像头的人体姿态估计、生命体征监测（呼吸/心率）及存在检测。它运行在边缘端，支持活动识别和环境映射，无需云端或摄像头即可穿透墙壁探测人体活动。 |
+| 8 | [EvoMap/evolver](https://github.com/EvoMap/evolver) | The GEP-Powered Self-Evolution Engine for AI Agent... | JavaScript | 5.5k | 525 | 这是一个基于 GEP（基因表达程序）的 AI 代理自我进化引擎。它将临时的提示调整转化为可审计、可复用的进化资产，支持通过 Git 进行版本控制。作为 EvoMap 网络的核心引擎，它实现了协议约束的进化与基因管理，旨在解决 AI 代理的适应性问题。 |
+| 9 | [BasedHardware/omi](https://github.com/BasedHardware/omi) | AI that sees your screen, listens to your conversa... | Dart | 11.1k | 687 | Omi 是一个基于 AI 的个人“第二大脑”助手。它通过屏幕捕捉和语音转录技术，实时分析用户的屏幕内容和对话，生成摘要和行动项。支持桌面、手机和可穿戴设备，具备记忆功能，适合需要高效记录和整理信息的专业人士。 |
+| 10 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Turn Claude Code into a full game dev studio — 49 ... | Shell | 13.4k | 698 | 该项目将 Claude Code 会话转化为完整游戏开发工作室，包含49个专业化AI代理、72个技能及模拟真实工作室层级的协调系统。通过自动化钩子和规则，确保代码质量与设计一致性，帮助开发者从构思到发布进行高效管理。 |
 
-[查看完整数据](api/github/2026-04-18.json)
+[查看完整数据](api/github/2026-04-19.json)
 <!-- END GITHUB TRENDING -->
 
 
