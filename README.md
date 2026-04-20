@@ -70,22 +70,22 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-19 | **成功**: 10 | **失败**: 0
+**最后更新**: 2026-04-20 | **成功**: 10 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | FinceptTerminal is a modern finance application of... | Python | 6.5k | 1.2k | Fincept Terminal 是一款基于 C++20 和 Qt6 的高性能桌面金融终端，内置 Python 引擎支持 CFA 级分析、量化建模及 37 个 AI 交易代理。它集成了 100+ 数据源、实时交易引擎及全球情报功能，旨在为专业投资者提供媲美 Bloomberg 的数据驱动决策与自动化交易环境。 |
-| 2 | [thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt) | AI You Control: Choose your models. Own your data.... | TypeScript | 2.2k | 696 | Thunderbolt 是一个开源的跨平台 AI 客户端，旨在让用户掌控模型选择和数据所有权，消除供应商锁定。它支持本地、前沿和私有模型，目前处于早期开发阶段，主要面向企业客户进行自托管部署。 |
-| 3 | [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit) | Enterprise Architecture Governance & Vendor Procur... | HTML | 982 | 263 | ArcKit 是一个企业架构治理与供应商采购工具包，旨在通过结构化工作流提升架构治理水平。它集成了AI辅助研究、Wardley 战略地图、数据建模、需求管理及供应商RFP流程，支持HM Treasury标准，帮助架构师建立原则、管理风险并生成可视化图表。 |
-| 4 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | A lightweight, powerful framework for multi-agent ... | Python | 23.1k | 751 | 这是一个用于构建多代理工作流的轻量级 Python 框架。它支持 OpenAI 和 100+ 其他 LLM，提供代理、沙盒、工具、护栏、人工介入和会话管理等核心功能，旨在简化复杂 AI 应用的开发。 |
-| 5 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | ... | TypeScript | 9.9k | 96 | T3 Code 是一个极简的 Web GUI，专为 Codex 和 Claude 等编码代理设计。它提供了桌面应用和 Web 运行方式，旨在简化与 AI 编码助手的交互体验。目前项目处于早期阶段。 |
-| 6 | [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | A community-supported supercharged document manage... | Python | 38.8k | 382 | Paperless-ngx 是一个基于 Python 的社区支持文档管理系统，旨在将物理文档转化为可搜索的在线档案。它支持扫描、索引和归档所有文档，帮助用户减少纸张使用。项目提供 Docker Compose 部署方式，支持从旧版本迁移，拥有活跃的社区支持和多语言翻译。 |
-| 7 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 47.5k | 118 | RuView 是一个基于 Rust 的 WiFi 密集感知平台，利用 ESP32 传感器捕获信道状态信息（CSI），实现无摄像头的人体姿态估计、生命体征监测（呼吸/心率）及存在检测。它运行在边缘端，支持活动识别和环境映射，无需云端或摄像头即可穿透墙壁探测人体活动。 |
-| 8 | [EvoMap/evolver](https://github.com/EvoMap/evolver) | The GEP-Powered Self-Evolution Engine for AI Agent... | JavaScript | 5.5k | 525 | 这是一个基于 GEP（基因表达程序）的 AI 代理自我进化引擎。它将临时的提示调整转化为可审计、可复用的进化资产，支持通过 Git 进行版本控制。作为 EvoMap 网络的核心引擎，它实现了协议约束的进化与基因管理，旨在解决 AI 代理的适应性问题。 |
-| 9 | [BasedHardware/omi](https://github.com/BasedHardware/omi) | AI that sees your screen, listens to your conversa... | Dart | 11.1k | 687 | Omi 是一个基于 AI 的个人“第二大脑”助手。它通过屏幕捕捉和语音转录技术，实时分析用户的屏幕内容和对话，生成摘要和行动项。支持桌面、手机和可穿戴设备，具备记忆功能，适合需要高效记录和整理信息的专业人士。 |
-| 10 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Turn Claude Code into a full game dev studio — 49 ... | Shell | 13.4k | 698 | 该项目将 Claude Code 会话转化为完整游戏开发工作室，包含49个专业化AI代理、72个技能及模拟真实工作室层级的协调系统。通过自动化钩子和规则，确保代码质量与设计一致性，帮助开发者从构思到发布进行高效管理。 |
+| 1 | [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | FinceptTerminal is a modern finance application of... | Python | 9.5k | 3.1k | FinceptTerminal 是一款基于 C++20 和 Qt6 的桌面金融终端，集成 Python 实现类彭博终端性能。它提供 CFA 级分析、37 个 AI 交易代理、100+ 数据源接入、实时交易及量化实验室功能，支持多经纪商集成与自动化工作流，适合专业投资者进行数据驱动决策。 |
+| 2 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 48.2k | 716 | RuView 是一个基于 Rust 的 WiFi 感知平台，利用 ESP32 采集信道状态信息（CSI），通过边缘计算实现无摄像头的人体姿态估计、生命体征监测及存在检测。它支持穿墙感知、呼吸心率监测、活动识别及睡眠质量分析，无需云端或摄像头，适合智能家居和安防场景。 |
+| 3 | [thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt) | AI You Control: Choose your models. Own your data.... | TypeScript | 2.8k | 667 | Thunderbolt 是一个开源的跨平台 AI 客户端，旨在消除供应商锁定。它支持自托管部署，兼容前沿、本地及私有模型，目前正进行安全审计以支持企业生产环境。 |
+| 4 | [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | A community-supported supercharged document manage... | Python | 39.4k | 611 | Paperless-ngx 是一个社区支持的文档管理系统，旨在将纸质文档转化为可搜索的在线档案。它支持扫描、索引和归档，帮助用户减少纸张使用。项目提供 Docker 快速部署方式，并支持从旧版本迁移，致力于通过社区协作持续发展。 |
+| 5 | [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit) | Enterprise Architecture Governance & Vendor Procur... | HTML | 1.3k | 334 | ArcKit 是一个企业架构治理与供应商采购工具包，旨在通过结构化工作流提升架构治理水平。它支持建立架构原则、利益相关者分析、风险管理、商业案例论证、数据建模、技术调研（含Azure）以及Wardley Mapping。该工具集成了Claude Code插件，提供68个命令、10个自主研究代理及自动化钩子，涵盖需求文档、设计审查、ServiceNow设计及需求可追溯性，帮助架构师实现系统化、AI辅助的架构管理。 |
+| 6 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powere... | TypeScript | 50.0k | 477 | 这是一个实时全球情报仪表板，利用AI聚合500+新闻源，结合3D/2D地图引擎展示地缘政治与基础设施数据。支持跨流信号相关性分析、国家风险评分及金融雷达，内置本地AI模型，无需API密钥，提供多站点变体及跨平台桌面应用。 |
+| 7 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | A lightweight, powerful framework for multi-agent ... | Python | 23.9k | 909 | 这是一个轻量级且强大的 Python 框架，专为构建多智能体工作流设计。它支持 OpenAI 及 100+ 其他 LLM，提供智能体配置、沙箱环境、工具调用、护栏机制、人工介入、会话管理及追踪等功能，支持语音交互。 |
+| 8 | [deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) | DeepGEMM: clean and efficient FP8 GEMM kernels wit... | Cuda | 6.8k | 155 | DeepGEMM 是一个统一的高性能 CUDA 张量核心内核库，专为现代大语言模型设计。它集成了 GEMM（FP8/FP4/BF16）、融合 MoE（Mega MoE）、MQA 评分及 HyperConnection 等核心原语。采用轻量级 JIT 编译，无需安装时编译，设计简洁且性能卓越，支持 SM90/SM100 及反向传播，在 H800 上可达 1550 TFLOPS。 |
+| 9 | [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements... | Shell | 57.2k | 154 | Pi-hole 是一个基于 Linux 的 DNS sinkhole，用于网络级广告拦截。它保护所有连接设备（浏览器、应用、智能电视）免受跟踪和广告，无需客户端安装。它轻量级、响应迅速，并提供一个用于可视化的 Web 界面。 |
+| 10 | [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | Xray, Penetrates Everything. Also the best v2ray-c... | Go | 37.4k | 124 | Xray-core 是一个基于 Go 语言开发的网络工具平台，源自 XTLS 协议。它提供了包括 VLESS、REALITY 和 XTLS Vision 在内的多种协议，旨在实现网络穿透和隐私保护。项目开源，支持多种安装方式（如 Docker、脚本），并拥有丰富的社区面板和客户端支持，是 v2ray 的强力替代品。 |
 
-[查看完整数据](api/github/2026-04-19.json)
+[查看完整数据](api/github/2026-04-20.json)
 <!-- END GITHUB TRENDING -->
 
 

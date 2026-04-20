@@ -1,0 +1,233 @@
+{
+  "date": "2026-04-20",
+  "since": "daily",
+  "totalRepos": 10,
+  "successCount": 10,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "language": "Python",
+      "stars": 9465,
+      "forks": 1296,
+      "todayStars": 3129,
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "aiSummary": {
+        "summary": "FinceptTerminal 是一款基于 C++20 和 Qt6 的桌面金融终端，集成 Python 实现类彭博终端性能。它提供 CFA 级分析、37 个 AI 交易代理、100+ 数据源接入、实时交易及量化实验室功能，支持多经纪商集成与自动化工作流，适合专业投资者进行数据驱动决策。",
+        "summary_en": "C++20 desktop application offering advanced financial analytics, AI agents, and real-time trading.",
+        "techStack": [
+          "C++20",
+          "Qt6",
+          "Python",
+          "QuantLib",
+          "WebSocket"
+        ],
+        "useCase": "专为专业投资者和量化交易员设计，用于实时市场分析、投资组合优化及自动化交易决策。",
+        "useCase_en": "Financial professionals use this terminal for advanced market analytics, AI-driven research, and real-time trading."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 48170,
+      "forks": 6445,
+      "todayStars": 716,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 感知平台，利用 ESP32 采集信道状态信息（CSI），通过边缘计算实现无摄像头的人体姿态估计、生命体征监测及存在检测。它支持穿墙感知、呼吸心率监测、活动识别及睡眠质量分析，无需云端或摄像头，适合智能家居和安防场景。",
+        "summary_en": "Rust-based WiFi sensing platform using CSI to detect human pose and vital signs through walls without cameras.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "WiFi CSI",
+          "Cognitum Seed",
+          "Spiking Neural Networks (SNN)"
+        ],
+        "useCase": "智能家居安防与无感健康监测",
+        "useCase_en": "Turning commodity WiFi signals into real-time human pose estimation and vital sign monitoring."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "thunderbird/thunderbolt",
+      "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
+      "language": "TypeScript",
+      "stars": 2797,
+      "forks": 165,
+      "todayStars": 667,
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "aiSummary": {
+        "summary": "Thunderbolt 是一个开源的跨平台 AI 客户端，旨在消除供应商锁定。它支持自托管部署，兼容前沿、本地及私有模型，目前正进行安全审计以支持企业生产环境。",
+        "summary_en": "Open-source AI client for on-prem deployment and local model control.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Ollama",
+          "llama.cpp"
+        ],
+        "useCase": "适合需要自主可控数据、部署私有 AI 模型或企业级自托管 AI 解决方案的用户。",
+        "useCase_en": "Self-host an open-source AI client to control local models and own your data."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "paperless-ngx/paperless-ngx",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "language": "Python",
+      "stars": 39406,
+      "forks": 2533,
+      "todayStars": 611,
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "aiSummary": {
+        "summary": "Paperless-ngx 是一个社区支持的文档管理系统，旨在将纸质文档转化为可搜索的在线档案。它支持扫描、索引和归档，帮助用户减少纸张使用。项目提供 Docker 快速部署方式，并支持从旧版本迁移，致力于通过社区协作持续发展。",
+        "summary_en": "A community-supported document management system that transforms physical documents into a searchable online archive.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Docker Compose"
+        ],
+        "useCase": "个人或企业文档归档与数字化管理",
+        "useCase_en": "To scan, index, and archive physical documents into a searchable digital archive."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "tractorjuice/arc-kit",
+      "description": "Enterprise Architecture Governance & Vendor Procurement Toolkit",
+      "language": "HTML",
+      "stars": 1326,
+      "forks": 165,
+      "todayStars": 334,
+      "url": "https://github.com/tractorjuice/arc-kit",
+      "aiSummary": {
+        "summary": "ArcKit 是一个企业架构治理与供应商采购工具包，旨在通过结构化工作流提升架构治理水平。它支持建立架构原则、利益相关者分析、风险管理、商业案例论证、数据建模、技术调研（含Azure）以及Wardley Mapping。该工具集成了Claude Code插件，提供68个命令、10个自主研究代理及自动化钩子，涵盖需求文档、设计审查、ServiceNow设计及需求可追溯性，帮助架构师实现系统化、AI辅助的架构管理。",
+        "summary_en": "An AI-assisted toolkit for enterprise architecture governance, vendor procurement, and design review workflows.",
+        "techStack": [
+          "HTML",
+          "Claude Code",
+          "Mermaid"
+        ],
+        "useCase": "企业架构师进行架构治理、供应商采购及设计审查的辅助工具",
+        "useCase_en": "To streamline enterprise architecture governance, vendor procurement, and design review processes through structured wor"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "stars": 50033,
+      "forks": 8144,
+      "todayStars": 477,
+      "url": "https://github.com/koala73/worldmonitor",
+      "aiSummary": {
+        "summary": "这是一个实时全球情报仪表板，利用AI聚合500+新闻源，结合3D/2D地图引擎展示地缘政治与基础设施数据。支持跨流信号相关性分析、国家风险评分及金融雷达，内置本地AI模型，无需API密钥，提供多站点变体及跨平台桌面应用。",
+        "summary_en": "AI-powered global intelligence dashboard aggregating news, tracking infrastructure, and analyzing geopolitical risks.",
+        "techStack": [
+          "TypeScript",
+          "Vite",
+          "globe.gl",
+          "deck.gl",
+          "Tauri 2"
+        ],
+        "useCase": "适用于需要实时全球情报监控、态势感知及本地化AI数据分析的专业场景。",
+        "useCase_en": "Provides a unified situational awareness interface for real-time global intelligence and risk analysis."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "language": "Python",
+      "stars": 23915,
+      "forks": 3691,
+      "todayStars": 909,
+      "url": "https://github.com/openai/openai-agents-python",
+      "aiSummary": {
+        "summary": "这是一个轻量级且强大的 Python 框架，专为构建多智能体工作流设计。它支持 OpenAI 及 100+ 其他 LLM，提供智能体配置、沙箱环境、工具调用、护栏机制、人工介入、会话管理及追踪等功能，支持语音交互。",
+        "summary_en": "A lightweight Python framework for building multi-agent workflows with tools, guardrails, and handoffs.",
+        "techStack": [
+          "Python",
+          "OpenAI API",
+          "LLM"
+        ],
+        "useCase": "构建复杂的多智能体自动化工作流及 AI 应用",
+        "useCase_en": "Create complex AI workflows where multiple agents collaborate and delegate tasks using various tools."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "deepseek-ai/DeepGEMM",
+      "description": "DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling",
+      "language": "Cuda",
+      "stars": 6822,
+      "forks": 902,
+      "todayStars": 155,
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "aiSummary": {
+        "summary": "DeepGEMM 是一个统一的高性能 CUDA 张量核心内核库，专为现代大语言模型设计。它集成了 GEMM（FP8/FP4/BF16）、融合 MoE（Mega MoE）、MQA 评分及 HyperConnection 等核心原语。采用轻量级 JIT 编译，无需安装时编译，设计简洁且性能卓越，支持 SM90/SM100 及反向传播，在 H800 上可达 1550 TFLOPS。",
+        "summary_en": "High-performance CUDA library for FP8, FP4, and BF16 GEMM operations, featuring fused MoE and MQA scoring.",
+        "techStack": [
+          "Cuda",
+          "CUDA C++",
+          "Tensor Cores",
+          "FP8/FP4",
+          "JIT"
+        ],
+        "useCase": "适用于现代大语言模型的高性能矩阵运算加速及 GPU 内核优化研究。",
+        "useCase_en": "Optimizes matrix multiplication and MoE layers for large language models on NVIDIA GPUs."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "pi-hole/pi-hole",
+      "description": "A black hole for Internet advertisements",
+      "language": "Shell",
+      "stars": 57154,
+      "forks": 3041,
+      "todayStars": 154,
+      "url": "https://github.com/pi-hole/pi-hole",
+      "aiSummary": {
+        "summary": "Pi-hole 是一个基于 Linux 的 DNS sinkhole，用于网络级广告拦截。它保护所有连接设备（浏览器、应用、智能电视）免受跟踪和广告，无需客户端安装。它轻量级、响应迅速，并提供一个用于可视化的 Web 界面。",
+        "summary_en": "A DNS sinkhole that blocks advertisements across your entire network on Linux hardware.",
+        "techStack": [
+          "Shell",
+          "Docker",
+          "Web Interface"
+        ],
+        "useCase": "在家庭或企业网络中屏蔽广告，提升上网体验并保护隐私。",
+        "useCase_en": "To protect all devices on a network from unwanted advertisements and content."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "stars": 37429,
+      "forks": 5209,
+      "todayStars": 124,
+      "url": "https://github.com/XTLS/Xray-core",
+      "aiSummary": {
+        "summary": "Xray-core 是一个基于 Go 语言开发的网络工具平台，源自 XTLS 协议。它提供了包括 VLESS、REALITY 和 XTLS Vision 在内的多种协议，旨在实现网络穿透和隐私保护。项目开源，支持多种安装方式（如 Docker、脚本），并拥有丰富的社区面板和客户端支持，是 v2ray 的强力替代品。",
+        "summary_en": "Xray-core is a high-performance network proxy platform written in Go, providing tools like REALITY and VLESS for secure internet access.",
+        "techStack": [
+          "Go",
+          "XTLS",
+          "REALITY"
+        ],
+        "useCase": "网络穿透与隐私保护",
+        "useCase_en": "It serves as an open platform for building secure network tools and bypassing internet censorship."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-20T23:52:25.403Z",
+    "duration": "117s",
+    "version": "1.0.0"
+  }
+}
