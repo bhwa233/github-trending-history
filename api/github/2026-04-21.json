@@ -1,0 +1,186 @@
+{
+  "date": "2026-04-21",
+  "since": "daily",
+  "totalRepos": 8,
+  "successCount": 8,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "language": "Python",
+      "stars": 11539,
+      "forks": 1515,
+      "todayStars": 2595,
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "aiSummary": {
+        "summary": "FinceptTerminal 是一款基于 C++20 和 Qt6 的原生桌面金融终端，集成了 Python 进行高级分析。它提供 CFA 级财务建模、AI 交易代理、100+ 数据源连接、实时交易及量化分析工具，旨在为专业投资者提供高性能、数据驱动的决策支持。",
+        "summary_en": "A Bloomberg-terminal-class desktop application combining C++20, Qt6, and embedded Python for advanced financial analytics and AI trading.",
+        "techStack": [
+          "C++20",
+          "Qt6",
+          "Python",
+          "QuantLib",
+          "WebSocket"
+        ],
+        "useCase": "专业投资者与量化交易员的高性能金融分析与自动化交易终端。",
+        "useCase_en": "A professional tool for advanced market analytics, investment research, and AI-driven trading."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "thunderbird/thunderbolt",
+      "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
+      "language": "TypeScript",
+      "stars": 3442,
+      "forks": 202,
+      "todayStars": 591,
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "aiSummary": {
+        "summary": "Thunderbolt 是一个开源的跨平台 AI 客户端，旨在让用户掌控模型和数据，消除供应商锁定。它支持部署在本地或企业环境，兼容前沿、本地及自托管模型。目前处于活跃开发和安全审计阶段，主要面向企业客户，支持 Docker 部署，可连接 Ollama 或 OpenAI 兼容接口。",
+        "summary_en": "Open-source, cross-platform AI client for on-prem deployment and local model control.",
+        "techStack": [
+          "TypeScript",
+          "Docker"
+        ],
+        "useCase": "企业或个人在本地/私有云环境部署和管理 AI 模型",
+        "useCase_en": "Deploy an on-prem AI client to control models and own your data."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "zilliztech/claude-context",
+      "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+      "language": "TypeScript",
+      "stars": 6567,
+      "forks": 567,
+      "todayStars": 259,
+      "url": "https://github.com/zilliztech/claude-context",
+      "aiSummary": {
+        "summary": "Claude Context 是一个 MCP 插件，旨在为 AI 编码助手提供语义代码搜索能力。它将整个代码库转化为向量数据库中的上下文，帮助 Claude Code 等代理快速定位相关代码，降低大型项目成本，提升开发效率。",
+        "summary_en": "MCP plugin that provides semantic code search for Claude Code using vector databases to manage context efficiently.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "MCP",
+          "Zilliz Cloud",
+          "OpenAI"
+        ],
+        "useCase": "为 Claude Code 等编码助手提供大型代码库的语义上下文支持。",
+        "useCase_en": "To provide AI coding agents with deep context from their entire codebase via semantic search."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 48863,
+      "forks": 6512,
+      "todayStars": 828,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 感知平台，利用 ESP32 传感器捕获信道状态信息（CSI），无需摄像头即可实现人体姿态估计、生命体征监测及存在检测。它支持通过墙壁检测人员活动、环境映射和睡眠质量分析，运行在边缘设备上。",
+        "summary_en": "Rust-based WiFi sensing platform for detecting human pose, vital signs, and presence through walls without cameras.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "WiFi CSI",
+          "Spiking Neural Networks",
+          "Mesh Networking"
+        ],
+        "useCase": "隐私保护的人体行为监测、非接触式生命体征检测及智能家居安防",
+        "useCase_en": "Detect human presence, vital signs, and activity through walls using commodity WiFi signals and ESP32 sensors."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "microsoft/ai-agents-for-beginners",
+      "description": "12 Lessons to Get Started Building AI Agents",
+      "language": "Jupyter Notebook",
+      "stars": 57612,
+      "forks": 19864,
+      "todayStars": 131,
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "aiSummary": {
+        "summary": "这是一个由微软提供的面向初学者的 AI Agents 课程，包含 12 个教学单元。项目使用 Jupyter Notebook 编写，涵盖构建 AI Agents 的基础知识。支持 50 多种语言的翻译，旨在帮助用户快速上手生成式 AI 模型。",
+        "summary_en": "A beginner-friendly course with 12 lessons to learn building AI agents using Jupyter Notebooks.",
+        "techStack": [
+          "Jupyter Notebook"
+        ],
+        "useCase": "适合零基础开发者学习构建 AI Agents 的入门课程。",
+        "useCase_en": "To learn the fundamentals of building AI agents through interactive Jupyter Notebook lessons."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "dayanch96/YTLite",
+      "description": "A flexible enhancer for YouTube on iOS",
+      "language": "Logos",
+      "stars": 4816,
+      "forks": 20136,
+      "todayStars": 135,
+      "url": "https://github.com/dayanch96/YTLite",
+      "aiSummary": {
+        "summary": "YTLite 是一款针对 iOS 的 YouTube 增强插件，提供超过百种自定义选项。支持下载视频音频、界面定制（如 OLED 模式、Shorts 模式）、播放器手势设置及内置 SponsorBlock。自 5.2 版本起需订阅。",
+        "summary_en": "A flexible iOS jailbreak tweak for enhancing YouTube with customization and downloading features.",
+        "techStack": [
+          "Logos",
+          "iOS"
+        ],
+        "useCase": "适用于 iOS 越狱用户，用于深度定制 YouTube 体验、下载媒体内容及移除广告。",
+        "useCase_en": "To customize the YouTube interface and download media on jailbroken iOS devices."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "HKUDS/RAG-Anything",
+      "description": "\"RAG-Anything: All-in-One RAG Framework\"",
+      "language": "Python",
+      "stars": 16833,
+      "forks": 1999,
+      "todayStars": 256,
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "aiSummary": {
+        "summary": "RAG-Anything 是一个基于 Python 的全功能多模态文档处理 RAG 框架。它基于 LightRAG 构建，旨在解决传统 RAG 无法处理非文本元素的问题。系统支持文本、图像、表格、公式等多模态内容的无缝处理与查询，集成了 VLM 增强查询和上下文配置模块。该统一方案适用于学术研究、技术文档及企业知识管理等场景，提供深度多模态检索能力。",
+        "summary_en": "An all-in-one multimodal RAG framework built on LightRAG for processing text, images, tables, and equations.",
+        "techStack": [
+          "Python",
+          "LightRAG",
+          "VLM"
+        ],
+        "useCase": "适用于学术研究、技术文档、金融报告及企业知识管理等需要处理复杂多模态内容的场景。",
+        "useCase_en": "A unified solution for processing complex documents containing mixed text, images, tables, and equations in academic res"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "sansan0/TrendRadar",
+      "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
+      "language": "Python",
+      "stars": 53612,
+      "forks": 23532,
+      "todayStars": 584,
+      "url": "https://github.com/sansan0/TrendRadar",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 AI 驱动舆情监控工具，支持多平台热点聚合与 RSS 订阅。通过关键词筛选，利用 AI 进行智能分析、翻译及生成简报，并支持 MCP 架构进行自然语言对话分析。项目支持 Docker 部署，数据自持，可集成微信、钉钉等多种渠道推送，旨在解决信息过载问题。",
+        "summary_en": "AI-driven public opinion and trend monitoring tool aggregating multi-platform data, RSS, and smart alerts.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "MCP (Model Context Protocol)",
+          "RSS",
+          "NewsNow API"
+        ],
+        "useCase": "适合需要多平台热点监控、舆情分析及智能信息推送的个人或团队。",
+        "useCase_en": "Monitor public opinion and trends across multiple platforms using AI analysis and receive real-time alerts via various c"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-21T23:42:00.028Z",
+    "duration": "134s",
+    "version": "1.0.0"
+  }
+}

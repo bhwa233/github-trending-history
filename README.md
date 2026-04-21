@@ -70,22 +70,20 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-20 | **成功**: 10 | **失败**: 0
+**最后更新**: 2026-04-21 | **成功**: 8 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | FinceptTerminal is a modern finance application of... | Python | 9.5k | 3.1k | FinceptTerminal 是一款基于 C++20 和 Qt6 的桌面金融终端，集成 Python 实现类彭博终端性能。它提供 CFA 级分析、37 个 AI 交易代理、100+ 数据源接入、实时交易及量化实验室功能，支持多经纪商集成与自动化工作流，适合专业投资者进行数据驱动决策。 |
-| 2 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 48.2k | 716 | RuView 是一个基于 Rust 的 WiFi 感知平台，利用 ESP32 采集信道状态信息（CSI），通过边缘计算实现无摄像头的人体姿态估计、生命体征监测及存在检测。它支持穿墙感知、呼吸心率监测、活动识别及睡眠质量分析，无需云端或摄像头，适合智能家居和安防场景。 |
-| 3 | [thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt) | AI You Control: Choose your models. Own your data.... | TypeScript | 2.8k | 667 | Thunderbolt 是一个开源的跨平台 AI 客户端，旨在消除供应商锁定。它支持自托管部署，兼容前沿、本地及私有模型，目前正进行安全审计以支持企业生产环境。 |
-| 4 | [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | A community-supported supercharged document manage... | Python | 39.4k | 611 | Paperless-ngx 是一个社区支持的文档管理系统，旨在将纸质文档转化为可搜索的在线档案。它支持扫描、索引和归档，帮助用户减少纸张使用。项目提供 Docker 快速部署方式，并支持从旧版本迁移，致力于通过社区协作持续发展。 |
-| 5 | [tractorjuice/arc-kit](https://github.com/tractorjuice/arc-kit) | Enterprise Architecture Governance & Vendor Procur... | HTML | 1.3k | 334 | ArcKit 是一个企业架构治理与供应商采购工具包，旨在通过结构化工作流提升架构治理水平。它支持建立架构原则、利益相关者分析、风险管理、商业案例论证、数据建模、技术调研（含Azure）以及Wardley Mapping。该工具集成了Claude Code插件，提供68个命令、10个自主研究代理及自动化钩子，涵盖需求文档、设计审查、ServiceNow设计及需求可追溯性，帮助架构师实现系统化、AI辅助的架构管理。 |
-| 6 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powere... | TypeScript | 50.0k | 477 | 这是一个实时全球情报仪表板，利用AI聚合500+新闻源，结合3D/2D地图引擎展示地缘政治与基础设施数据。支持跨流信号相关性分析、国家风险评分及金融雷达，内置本地AI模型，无需API密钥，提供多站点变体及跨平台桌面应用。 |
-| 7 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | A lightweight, powerful framework for multi-agent ... | Python | 23.9k | 909 | 这是一个轻量级且强大的 Python 框架，专为构建多智能体工作流设计。它支持 OpenAI 及 100+ 其他 LLM，提供智能体配置、沙箱环境、工具调用、护栏机制、人工介入、会话管理及追踪等功能，支持语音交互。 |
-| 8 | [deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) | DeepGEMM: clean and efficient FP8 GEMM kernels wit... | Cuda | 6.8k | 155 | DeepGEMM 是一个统一的高性能 CUDA 张量核心内核库，专为现代大语言模型设计。它集成了 GEMM（FP8/FP4/BF16）、融合 MoE（Mega MoE）、MQA 评分及 HyperConnection 等核心原语。采用轻量级 JIT 编译，无需安装时编译，设计简洁且性能卓越，支持 SM90/SM100 及反向传播，在 H800 上可达 1550 TFLOPS。 |
-| 9 | [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | A black hole for Internet advertisements... | Shell | 57.2k | 154 | Pi-hole 是一个基于 Linux 的 DNS sinkhole，用于网络级广告拦截。它保护所有连接设备（浏览器、应用、智能电视）免受跟踪和广告，无需客户端安装。它轻量级、响应迅速，并提供一个用于可视化的 Web 界面。 |
-| 10 | [XTLS/Xray-core](https://github.com/XTLS/Xray-core) | Xray, Penetrates Everything. Also the best v2ray-c... | Go | 37.4k | 124 | Xray-core 是一个基于 Go 语言开发的网络工具平台，源自 XTLS 协议。它提供了包括 VLESS、REALITY 和 XTLS Vision 在内的多种协议，旨在实现网络穿透和隐私保护。项目开源，支持多种安装方式（如 Docker、脚本），并拥有丰富的社区面板和客户端支持，是 v2ray 的强力替代品。 |
+| 1 | [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | FinceptTerminal is a modern finance application of... | Python | 11.5k | 2.6k | FinceptTerminal 是一款基于 C++20 和 Qt6 的原生桌面金融终端，集成了 Python 进行高级分析。它提供 CFA 级财务建模、AI 交易代理、100+ 数据源连接、实时交易及量化分析工具，旨在为专业投资者提供高性能、数据驱动的决策支持。 |
+| 2 | [thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt) | AI You Control: Choose your models. Own your data.... | TypeScript | 3.4k | 591 | Thunderbolt 是一个开源的跨平台 AI 客户端，旨在让用户掌控模型和数据，消除供应商锁定。它支持部署在本地或企业环境，兼容前沿、本地及自托管模型。目前处于活跃开发和安全审计阶段，主要面向企业客户，支持 Docker 部署，可连接 Ollama 或 OpenAI 兼容接口。 |
+| 3 | [zilliztech/claude-context](https://github.com/zilliztech/claude-context) | Code search MCP for Claude Code. Make entire codeb... | TypeScript | 6.6k | 259 | Claude Context 是一个 MCP 插件，旨在为 AI 编码助手提供语义代码搜索能力。它将整个代码库转化为向量数据库中的上下文，帮助 Claude Code 等代理快速定位相关代码，降低大型项目成本，提升开发效率。 |
+| 4 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 48.9k | 828 | RuView 是一个基于 Rust 的 WiFi 感知平台，利用 ESP32 传感器捕获信道状态信息（CSI），无需摄像头即可实现人体姿态估计、生命体征监测及存在检测。它支持通过墙壁检测人员活动、环境映射和睡眠质量分析，运行在边缘设备上。 |
+| 5 | [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 12 Lessons to Get Started Building AI Agents... | Jupyter Notebook | 57.6k | 131 | 这是一个由微软提供的面向初学者的 AI Agents 课程，包含 12 个教学单元。项目使用 Jupyter Notebook 编写，涵盖构建 AI Agents 的基础知识。支持 50 多种语言的翻译，旨在帮助用户快速上手生成式 AI 模型。 |
+| 6 | [dayanch96/YTLite](https://github.com/dayanch96/YTLite) | A flexible enhancer for YouTube on iOS... | Logos | 4.8k | 135 | YTLite 是一款针对 iOS 的 YouTube 增强插件，提供超过百种自定义选项。支持下载视频音频、界面定制（如 OLED 模式、Shorts 模式）、播放器手势设置及内置 SponsorBlock。自 5.2 版本起需订阅。 |
+| 7 | [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework"... | Python | 16.8k | 256 | RAG-Anything 是一个基于 Python 的全功能多模态文档处理 RAG 框架。它基于 LightRAG 构建，旨在解决传统 RAG 无法处理非文本元素的问题。系统支持文本、图像、表格、公式等多模态内容的无缝处理与查询，集成了 VLM 增强查询和上下文配置模块。该统一方案适用于学术研究、技术文档及企业知识管理等场景，提供深度多模态检索能力。 |
+| 8 | [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) | ⭐AI-driven public opinion & trend monitor with mul... | Python | 53.6k | 584 | 这是一个基于 Python 的 AI 驱动舆情监控工具，支持多平台热点聚合与 RSS 订阅。通过关键词筛选，利用 AI 进行智能分析、翻译及生成简报，并支持 MCP 架构进行自然语言对话分析。项目支持 Docker 部署，数据自持，可集成微信、钉钉等多种渠道推送，旨在解决信息过载问题。 |
 
-[查看完整数据](api/github/2026-04-20.json)
+[查看完整数据](api/github/2026-04-21.json)
 <!-- END GITHUB TRENDING -->
 
 
