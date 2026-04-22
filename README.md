@@ -70,20 +70,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-21 | **成功**: 8 | **失败**: 0
+**最后更新**: 2026-04-22 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | FinceptTerminal is a modern finance application of... | Python | 11.5k | 2.6k | FinceptTerminal 是一款基于 C++20 和 Qt6 的原生桌面金融终端，集成了 Python 进行高级分析。它提供 CFA 级财务建模、AI 交易代理、100+ 数据源连接、实时交易及量化分析工具，旨在为专业投资者提供高性能、数据驱动的决策支持。 |
-| 2 | [thunderbird/thunderbolt](https://github.com/thunderbird/thunderbolt) | AI You Control: Choose your models. Own your data.... | TypeScript | 3.4k | 591 | Thunderbolt 是一个开源的跨平台 AI 客户端，旨在让用户掌控模型和数据，消除供应商锁定。它支持部署在本地或企业环境，兼容前沿、本地及自托管模型。目前处于活跃开发和安全审计阶段，主要面向企业客户，支持 Docker 部署，可连接 Ollama 或 OpenAI 兼容接口。 |
-| 3 | [zilliztech/claude-context](https://github.com/zilliztech/claude-context) | Code search MCP for Claude Code. Make entire codeb... | TypeScript | 6.6k | 259 | Claude Context 是一个 MCP 插件，旨在为 AI 编码助手提供语义代码搜索能力。它将整个代码库转化为向量数据库中的上下文，帮助 Claude Code 等代理快速定位相关代码，降低大型项目成本，提升开发效率。 |
-| 4 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 48.9k | 828 | RuView 是一个基于 Rust 的 WiFi 感知平台，利用 ESP32 传感器捕获信道状态信息（CSI），无需摄像头即可实现人体姿态估计、生命体征监测及存在检测。它支持通过墙壁检测人员活动、环境映射和睡眠质量分析，运行在边缘设备上。 |
-| 5 | [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 12 Lessons to Get Started Building AI Agents... | Jupyter Notebook | 57.6k | 131 | 这是一个由微软提供的面向初学者的 AI Agents 课程，包含 12 个教学单元。项目使用 Jupyter Notebook 编写，涵盖构建 AI Agents 的基础知识。支持 50 多种语言的翻译，旨在帮助用户快速上手生成式 AI 模型。 |
-| 6 | [dayanch96/YTLite](https://github.com/dayanch96/YTLite) | A flexible enhancer for YouTube on iOS... | Logos | 4.8k | 135 | YTLite 是一款针对 iOS 的 YouTube 增强插件，提供超过百种自定义选项。支持下载视频音频、界面定制（如 OLED 模式、Shorts 模式）、播放器手势设置及内置 SponsorBlock。自 5.2 版本起需订阅。 |
-| 7 | [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework"... | Python | 16.8k | 256 | RAG-Anything 是一个基于 Python 的全功能多模态文档处理 RAG 框架。它基于 LightRAG 构建，旨在解决传统 RAG 无法处理非文本元素的问题。系统支持文本、图像、表格、公式等多模态内容的无缝处理与查询，集成了 VLM 增强查询和上下文配置模块。该统一方案适用于学术研究、技术文档及企业知识管理等场景，提供深度多模态检索能力。 |
-| 8 | [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) | ⭐AI-driven public opinion & trend monitor with mul... | Python | 53.6k | 584 | 这是一个基于 Python 的 AI 驱动舆情监控工具，支持多平台热点聚合与 RSS 订阅。通过关键词筛选，利用 AI 进行智能分析、翻译及生成简报，并支持 MCP 架构进行自然语言对话分析。项目支持 Docker 部署，数据自持，可集成微信、钉钉等多种渠道推送，旨在解决信息过载问题。 |
+| 1 | [zilliztech/claude-context](https://github.com/zilliztech/claude-context) | Code search MCP for Claude Code. Make entire codeb... | TypeScript | 7.5k | 873 | Claude Context 是一个 MCP 插件，通过语义搜索将整个代码库转化为 AI 编码代理的上下文。它利用向量数据库高效检索相关代码，避免了加载整个目录的高昂成本，专为 Claude Code 等工具设计。 |
+| 2 | [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | FinceptTerminal is a modern finance application of... | Python | 13.0k | 1.7k | FinceptTerminal 是一款基于 C++20 和 Qt6 的原生桌面金融终端，集成 Python 进行高级分析。它提供 CFA 级财务建模、37 个 AI 交易代理、100+ 数据源接入、实时交易（16 个经纪商）以及 QuantLib 量化套件。支持本地 LLM，具备节点编辑器和全球情报功能，适合专业量化交易与投资研究。 |
+| 3 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powere... | TypeScript | 51.5k | 449 | 这是一个基于 TypeScript 的实时全球情报仪表板。利用 AI 聚合 500+ 新闻源，提供 3D/2D 地图可视化、地缘政治监控和金融雷达。支持多站点变体和本地 AI 运行，并可通过 Tauri 2 打包为原生桌面应用。 |
+| 4 | [langfuse/langfuse](https://github.com/langfuse/langfuse) | 🪢 Open source LLM engineering platform: LLM Obser... | TypeScript | 25.6k | 160 | Langfuse 是一个开源的 LLM 工程平台，支持自托管。它提供 LLM 可观测性、提示词管理、评估、数据集和游乐场等功能，帮助团队协作开发、监控和调试 AI 应用。 |
+| 5 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Shannon Lite is an autonomous, white-box AI pentes... | TypeScript | 39.6k | 346 | Shannon 是 Keygraph 开发的自主 AI 白盒渗透测试工具。它通过分析源代码识别攻击向量，并利用浏览器自动化和命令行工具执行真实漏洞利用（如注入、XSS、认证绕过）。它生成包含可重现 PoC 的报告，旨在填补代码发布前的安全测试空白，实现持续自动化安全检测。 |
+| 6 | [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | OpenMetadata is a unified metadata platform for da... | TypeScript | 12.1k | 609 | OpenMetadata 是一个统一的数据元数据平台，专注于数据发现、可观测性和治理。它通过中心化存储库、深度列级血缘和团队协作功能，帮助用户管理数据资产。项目支持 84+ 种数据源连接器，提供元数据架构、存储库、API 和摄取框架，旨在解锁数据价值。 |
+| 7 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 49.4k | 551 | π RuView 是一个基于 Rust 的 WiFi 传感平台，利用 ESP32 采集信道状态信息（CSI），无需摄像头即可实现通过墙壁的人体姿态估计、生命体征监测及活动识别。它运行在边缘硬件上，支持本地脉冲神经网络学习，适用于智能家居安防、生命体征监测及环境感知。 |
+| 8 | [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework"... | Python | 17.5k | 770 | RAG-Anything 是一个基于 LightRAG 的全栈多模态 RAG 框架。它支持文本、图像、表格及公式的无缝处理，集成了 VLM 增强查询与上下文配置模块。该系统旨在解决传统 RAG 处理非文本元素的局限性，提供统一的文档检索与分析能力。 |
+| 9 | [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) | ⭐AI-driven public opinion & trend monitor with mul... | Python | 54.4k | 932 | TrendRadar 是一款基于 Python 的 AI 舆情监控助手。它聚合多平台热点与 RSS，利用 AI 智能筛选、翻译并生成分析简报。支持 MCP 架构接入，可进行自然语言对话分析。支持 Docker 部署，数据自持，并集成多种消息推送渠道，有效解决信息过载问题。 |
+| 10 | [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video) | 🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video En... | Python | 5.5k | 237 | Pixelle-Video 是一个基于 Python 的 AI 全自动短视频生成引擎。它集成了大语言模型（LLM）用于文案创作、TTS 引擎用于语音合成以及 ComfyUI 用于图像生成。用户通过 Web 界面配置 API 密钥，即可一键生成包含解说、背景音乐和配图的短视频，支持本地和云端部署。 |
+| 11 | [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers... | Python | 59.6k | 720 | 这是一个全功能的黑客工具箱，包含185+个工具，涵盖信息收集、Web攻击、后渗透等20个类别。支持Python 3.10+，具备交互式菜单、搜索过滤、批量安装及智能更新功能，旨在为黑客提供一站式操作体验。 |
+| 12 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | The open agent skills tool - npx skills... | TypeScript | 15.5k | 317 | 这是一个用于安装和管理 AI 代理技能的命令行工具。它支持多种 AI 代理（如 Claude Code、Cursor 等），允许用户通过 GitHub、GitLab 或本地路径安装技能。工具提供了灵活的安装选项，包括全局安装、指定代理、非交互模式等，旨在简化 AI 助手的配置流程，提升开发效率。 |
 
-[查看完整数据](api/github/2026-04-21.json)
+[查看完整数据](api/github/2026-04-22.json)
 <!-- END GITHUB TRENDING -->
 
 

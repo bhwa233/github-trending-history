@@ -1,0 +1,276 @@
+{
+  "date": "2026-04-22",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "zilliztech/claude-context",
+      "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+      "language": "TypeScript",
+      "stars": 7473,
+      "forks": 622,
+      "todayStars": 873,
+      "url": "https://github.com/zilliztech/claude-context",
+      "aiSummary": {
+        "summary": "Claude Context 是一个 MCP 插件，通过语义搜索将整个代码库转化为 AI 编码代理的上下文。它利用向量数据库高效检索相关代码，避免了加载整个目录的高昂成本，专为 Claude Code 等工具设计。",
+        "summary_en": "Adds semantic code search to Claude Code via MCP, using vector databases for efficient context retrieval.",
+        "techStack": [
+          "TypeScript",
+          "MCP",
+          "Zilliz Cloud",
+          "OpenAI"
+        ],
+        "useCase": "为 Claude Code 等编码助手提供基于语义搜索的代码库上下文管理。",
+        "useCase_en": "Enables AI coding agents to perform semantic code search across large repositories efficiently."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "language": "Python",
+      "stars": 13049,
+      "forks": 1713,
+      "todayStars": 1737,
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "aiSummary": {
+        "summary": "FinceptTerminal 是一款基于 C++20 和 Qt6 的原生桌面金融终端，集成 Python 进行高级分析。它提供 CFA 级财务建模、37 个 AI 交易代理、100+ 数据源接入、实时交易（16 个经纪商）以及 QuantLib 量化套件。支持本地 LLM，具备节点编辑器和全球情报功能，适合专业量化交易与投资研究。",
+        "summary_en": "A C++20 desktop application offering Bloomberg-class performance with AI agents, real-time trading, and advanced financial analytics.",
+        "techStack": [
+          "C++20",
+          "Qt6",
+          "Python",
+          "QuantLib",
+          "WebSocket"
+        ],
+        "useCase": "专业量化交易员、投资机构及金融分析师进行数据驱动决策和自动化交易。",
+        "useCase_en": "Professional traders and investors use this terminal for real-time market data, AI-driven research, and algorithmic trad"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "stars": 51540,
+      "forks": 8298,
+      "todayStars": 449,
+      "url": "https://github.com/koala73/worldmonitor",
+      "aiSummary": {
+        "summary": "这是一个基于 TypeScript 的实时全球情报仪表板。利用 AI 聚合 500+ 新闻源，提供 3D/2D 地图可视化、地缘政治监控和金融雷达。支持多站点变体和本地 AI 运行，并可通过 Tauri 2 打包为原生桌面应用。",
+        "summary_en": "Real-time global intelligence dashboard aggregating news and tracking geopolitics with AI and dual map engines.",
+        "techStack": [
+          "TypeScript",
+          "Vite",
+          "globe.gl",
+          "deck.gl",
+          "Tauri 2"
+        ],
+        "useCase": "适合需要实时全球情报、地缘政治监控及金融数据可视化的专业用户。",
+        "useCase_en": "Provides a unified situational awareness interface for real-time news aggregation, geopolitical monitoring, and infrastr"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "langfuse/langfuse",
+      "description": "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23",
+      "language": "TypeScript",
+      "stars": 25585,
+      "forks": 2594,
+      "todayStars": 160,
+      "url": "https://github.com/langfuse/langfuse",
+      "aiSummary": {
+        "summary": "Langfuse 是一个开源的 LLM 工程平台，支持自托管。它提供 LLM 可观测性、提示词管理、评估、数据集和游乐场等功能，帮助团队协作开发、监控和调试 AI 应用。",
+        "summary_en": "Open-source LLM engineering platform for observability, prompt management, and evaluation.",
+        "techStack": [
+          "TypeScript",
+          "ClickHouse",
+          "OpenTelemetry",
+          "LangChain",
+          "OpenAI SDK"
+        ],
+        "useCase": "适用于需要自托管、监控和评估 LLM 应用开发流程的团队。",
+        "useCase_en": "Helps teams collaboratively develop, monitor, evaluate, and debug AI applications."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "KeygraphHQ/shannon",
+      "description": "Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+      "language": "TypeScript",
+      "stars": 39553,
+      "forks": 4362,
+      "todayStars": 346,
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "aiSummary": {
+        "summary": "Shannon 是 Keygraph 开发的自主 AI 白盒渗透测试工具。它通过分析源代码识别攻击向量，并利用浏览器自动化和命令行工具执行真实漏洞利用（如注入、XSS、认证绕过）。它生成包含可重现 PoC 的报告，旨在填补代码发布前的安全测试空白，实现持续自动化安全检测。",
+        "summary_en": "Autonomous AI pentester that analyzes source code and executes real exploits to find vulnerabilities in web apps.",
+        "techStack": [
+          "TypeScript",
+          "浏览器自动化",
+          "命令行工具"
+        ],
+        "useCase": "用于 Web 应用和 API 的白盒安全测试，确保代码在部署到生产环境前发现并修复漏洞。",
+        "useCase_en": "Perform on-demand automated penetration testing on web applications to identify and exploit vulnerabilities before deplo"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "open-metadata/OpenMetadata",
+      "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+      "language": "TypeScript",
+      "stars": 12149,
+      "forks": 1991,
+      "todayStars": 609,
+      "url": "https://github.com/open-metadata/OpenMetadata",
+      "aiSummary": {
+        "summary": "OpenMetadata 是一个统一的数据元数据平台，专注于数据发现、可观测性和治理。它通过中心化存储库、深度列级血缘和团队协作功能，帮助用户管理数据资产。项目支持 84+ 种数据源连接器，提供元数据架构、存储库、API 和摄取框架，旨在解锁数据价值。",
+        "summary_en": "OpenMetadata is a unified metadata platform for data discovery, observability, and governance.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "企业级数据发现、可观测性与治理平台",
+        "useCase_en": "Centralize metadata discovery, observability, and governance for diverse data assets."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 49367,
+      "forks": 6553,
+      "todayStars": 551,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "π RuView 是一个基于 Rust 的 WiFi 传感平台，利用 ESP32 采集信道状态信息（CSI），无需摄像头即可实现通过墙壁的人体姿态估计、生命体征监测及活动识别。它运行在边缘硬件上，支持本地脉冲神经网络学习，适用于智能家居安防、生命体征监测及环境感知。",
+        "summary_en": "Rust-based WiFi sensing platform for pose estimation, vital signs, and presence detection using ESP32 and CSI.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "CSI (Channel State Information)",
+          "RuVector/Cognitum Seed",
+          "Spiking Neural Networks"
+        ],
+        "useCase": "适用于无摄像头环境下的智能家居安防、生命体征监测及环境感知。",
+        "useCase_en": "Detect human presence, vital signs, and activity through walls using commodity WiFi signals without cameras."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "HKUDS/RAG-Anything",
+      "description": "\"RAG-Anything: All-in-One RAG Framework\"",
+      "language": "Python",
+      "stars": 17514,
+      "forks": 2057,
+      "todayStars": 770,
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "aiSummary": {
+        "summary": "RAG-Anything 是一个基于 LightRAG 的全栈多模态 RAG 框架。它支持文本、图像、表格及公式的无缝处理，集成了 VLM 增强查询与上下文配置模块。该系统旨在解决传统 RAG 处理非文本元素的局限性，提供统一的文档检索与分析能力。",
+        "summary_en": "A comprehensive multimodal RAG framework built on LightRAG for processing text, images, tables, and equations seamlessly.",
+        "techStack": [
+          "Python",
+          "LightRAG",
+          "VLM"
+        ],
+        "useCase": "学术研究、技术文档、金融报告及企业知识管理",
+        "useCase_en": "Enables enhanced RAG for processing mixed-content documents in academic research, technical documentation, and enterpris"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "sansan0/TrendRadar",
+      "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
+      "language": "Python",
+      "stars": 54408,
+      "forks": 23647,
+      "todayStars": 932,
+      "url": "https://github.com/sansan0/TrendRadar",
+      "aiSummary": {
+        "summary": "TrendRadar 是一款基于 Python 的 AI 舆情监控助手。它聚合多平台热点与 RSS，利用 AI 智能筛选、翻译并生成分析简报。支持 MCP 架构接入，可进行自然语言对话分析。支持 Docker 部署，数据自持，并集成多种消息推送渠道，有效解决信息过载问题。",
+        "summary_en": "AI-powered trend monitoring tool aggregating multi-platform news and RSS feeds with smart alerts and analysis.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "MCP",
+          "AI/LLM",
+          "RSS"
+        ],
+        "useCase": "适合需要实时监控全网热点、进行舆情分析及自动化信息筛选的个人或团队。",
+        "useCase_en": "Monitor public opinion and trends across multiple platforms, filter news with AI, and receive analysis via various messa"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "AIDC-AI/Pixelle-Video",
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "language": "Python",
+      "stars": 5515,
+      "forks": 885,
+      "todayStars": 237,
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "aiSummary": {
+        "summary": "Pixelle-Video 是一个基于 Python 的 AI 全自动短视频生成引擎。它集成了大语言模型（LLM）用于文案创作、TTS 引擎用于语音合成以及 ComfyUI 用于图像生成。用户通过 Web 界面配置 API 密钥，即可一键生成包含解说、背景音乐和配图的短视频，支持本地和云端部署。",
+        "summary_en": "An AI-powered automated short video engine that generates scripts, voiceovers, and visuals using LLMs and ComfyUI.",
+        "techStack": [
+          "Python",
+          "Streamlit",
+          "LLM",
+          "TTS",
+          "ComfyUI"
+        ],
+        "useCase": "适合需要快速批量生成短视频内容的创作者，或希望利用 AI 自动化制作解说视频的用户。",
+        "useCase_en": "Automate the creation of short-form videos by generating scripts, voiceovers, and visuals using AI models."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "stars": 59612,
+      "forks": 6709,
+      "todayStars": 720,
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "aiSummary": {
+        "summary": "这是一个全功能的黑客工具箱，包含185+个工具，涵盖信息收集、Web攻击、后渗透等20个类别。支持Python 3.10+，具备交互式菜单、搜索过滤、批量安装及智能更新功能，旨在为黑客提供一站式操作体验。",
+        "summary_en": "A comprehensive, all-in-one hacking toolkit featuring 185+ tools for penetration testing and security research.",
+        "techStack": [
+          "Python",
+          "Shell",
+          "Docker"
+        ],
+        "useCase": "适用于渗透测试人员和安全研究员进行自动化工具管理和快速部署。",
+        "useCase_en": "Used by security professionals to manage, install, and update a wide range of hacking utilities."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "language": "TypeScript",
+      "stars": 15452,
+      "forks": 1273,
+      "todayStars": 317,
+      "url": "https://github.com/vercel-labs/skills",
+      "aiSummary": {
+        "summary": "这是一个用于安装和管理 AI 代理技能的命令行工具。它支持多种 AI 代理（如 Claude Code、Cursor 等），允许用户通过 GitHub、GitLab 或本地路径安装技能。工具提供了灵活的安装选项，包括全局安装、指定代理、非交互模式等，旨在简化 AI 助手的配置流程，提升开发效率。",
+        "summary_en": "A TypeScript CLI for managing and installing skills for AI coding agents.",
+        "techStack": [
+          "TypeScript",
+          "Node.js"
+        ],
+        "useCase": "为 Claude Code、Cursor 等 AI 编程助手安装和管理技能，提升开发效率。",
+        "useCase_en": "Install coding best practices and skills directly into AI coding agents via a command-line interface."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-22T23:54:13.693Z",
+    "duration": "199s",
+    "version": "1.0.0"
+  }
+}
