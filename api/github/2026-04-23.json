@@ -1,0 +1,355 @@
+{
+  "date": "2026-04-23",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "huggingface/ml-intern",
+      "description": "🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
+      "language": "Python",
+      "stars": 3203,
+      "forks": 279,
+      "todayStars": 530,
+      "url": "https://github.com/huggingface/ml-intern",
+      "aiSummary": {
+        "summary": "这是一个基于 Hugging Face 生态系统的开源 AI 助手，模拟 ML 工程师。它能自主研究论文、编写代码、训练模型并部署，支持交互式和 Headless 模式，深度集成文档、数据集及云计算资源。",
+        "summary_en": "An autonomous AI agent that researches, trains, and ships ML models using the Hugging Face ecosystem.",
+        "techStack": [
+          "Python",
+          "Hugging Face Ecosystem",
+          "Anthropic API",
+          "GitHub API",
+          "uv"
+        ],
+        "useCase": "适用于需要自动化机器学习工作流的场景，帮助开发者快速完成从研究到部署的全流程。",
+        "useCase_en": "Automate the research, training, and shipping of ML models using an autonomous AI agent."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "zilliztech/claude-context",
+      "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+      "language": "TypeScript",
+      "stars": 8396,
+      "forks": 661,
+      "todayStars": 1023,
+      "url": "https://github.com/zilliztech/claude-context",
+      "aiSummary": {
+        "summary": "Claude Context 是一个 MCP 插件，利用语义搜索技术将整个代码库存储在向量数据库中，为 Claude Code 等代理提供高效的代码上下文。相比全量加载，这种方式能显著降低成本，快速定位相关代码。",
+        "summary_en": "An MCP plugin enabling semantic code search for Claude Code using vector databases to efficiently manage large codebases.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Zilliz Cloud",
+          "OpenAI API",
+          "MCP"
+        ],
+        "useCase": "为大型代码库提供语义搜索和上下文，降低 AI 编码成本。",
+        "useCase_en": "To provide AI coding agents with deep context from their entire codebase using semantic search."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "HKUDS/RAG-Anything",
+      "description": "\"RAG-Anything: All-in-One RAG Framework\"",
+      "language": "Python",
+      "stars": 18128,
+      "forks": 2098,
+      "todayStars": 574,
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "aiSummary": {
+        "summary": "RAG-Anything 是一个基于 LightRAG 的全功能多模态 RAG 框架，支持文本、图像、表格及公式的统一处理。它集成了 VLM 增强查询和上下文配置模块，解决了传统 RAG 处理非文本元素的难题，提供跨模态检索能力，适用于学术研究和技术文档分析。",
+        "summary_en": "A comprehensive All-in-One Multimodal Document Processing RAG system built on LightRAG for handling text, images, and tables.",
+        "techStack": [
+          "Python",
+          "LightRAG"
+        ],
+        "useCase": "适用于学术研究、技术文档、金融报告及企业知识管理等需要处理包含丰富多模态内容（如图表、公式）的文档场景。",
+        "useCase_en": "Enables users to query complex documents containing interleaved text, visual diagrams, and structured tables seamlessly."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "stars": 60990,
+      "forks": 6831,
+      "todayStars": 1366,
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "aiSummary": {
+        "summary": "这是一个功能全面的黑客工具箱，包含185+个工具，涵盖Web、无线、云安全等20个类别。支持Python 3.10+，具备搜索、标签过滤、智能更新及一键安装功能，旨在为黑客提供便捷的渗透测试环境搭建。",
+        "summary_en": "A comprehensive Python-based all-in-one hacking toolkit featuring 185+ tools, automated installation, and smart management features.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "渗透测试人员快速部署自动化黑客工具箱",
+        "useCase_en": "Provides a centralized interface for hackers to manage, install, and execute a vast array of offensive security tools."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 49813,
+      "forks": 6586,
+      "todayStars": 427,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 密集感知平台，利用 ESP32 传感器采集信道状态信息（CSI），无需摄像头即可实现实时人体姿态估计、生命体征监测和存在检测。它支持墙体透视、活动识别和环境映射，运行在边缘端，具备低功耗和隐私保护特性。",
+        "summary_en": "Rust-based WiFi sensing platform using ESP32 sensors to detect human pose, vital signs, and presence through walls using CSI.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "WiFi CSI",
+          "Spiking Neural Networks (SNN)",
+          "RuVector"
+        ],
+        "useCase": "适用于隐私敏感环境下的室内人体行为分析、生命体征监测及安防监控。",
+        "useCase_en": "Turn ordinary WiFi into a sensing system to detect people, measure vital signs, and monitor rooms through walls without "
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Anil-matcha/Open-Generative-AI",
+      "description": "Uncensored, open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free, unrestricted AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "language": "JavaScript",
+      "stars": 6906,
+      "forks": 1331,
+      "todayStars": 384,
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "aiSummary": {
+        "summary": "这是一个开源、无限制的 AI 图像与视频生成工作室，提供 200+ 种先进模型（如 Flux、Midjourney、Sora），无内容过滤。支持在线网页版、桌面应用及自托管，并包含自动化媒体管道技能。",
+        "summary_en": "An open-source, uncensored AI image and video generation studio offering 200+ models and a self-hosted desktop app.",
+        "techStack": [
+          "JavaScript",
+          "Electron",
+          "Node.js"
+        ],
+        "useCase": "适合需要无限制 AI 内容创作、自托管部署或自动化媒体生成流程的开发者和创作者。",
+        "useCase_en": "Generate uncensored AI images and videos using 200+ models via a self-hosted desktop application."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "language": "Python",
+      "stars": 5503,
+      "forks": 941,
+      "todayStars": 2388,
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "aiSummary": {
+        "summary": "这是一个轻量级代理工具，旨在让 Claude Code 免费使用。它通过路由 Anthropic API 调用到 NVIDIA NIM、OpenRouter、DeepSeek、LM Studio 或 llama.cpp 等多个提供商，无需 Anthropic API Key。支持终端、VSCode 扩展及 Discord 机器人，具备零成本、智能限流、思考 Token 解析等功能，是 Claude Code 的完美替代方案。",
+        "summary_en": "A Python proxy enabling free usage of Claude Code by routing API calls to alternative providers like NVIDIA NIM and OpenRouter.",
+        "techStack": [
+          "Python",
+          "Claude Code CLI",
+          "VSCode Extension",
+          "Discord Bot"
+        ],
+        "useCase": "需要免费使用 Claude Code 进行编程，或希望在不同模型提供商间灵活切换的开发者。",
+        "useCase_en": "To use Claude Code for free by routing API requests to alternative providers like NVIDIA NIM or local models."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "open-metadata/OpenMetadata",
+      "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+      "language": "TypeScript",
+      "stars": 12923,
+      "forks": 2014,
+      "todayStars": 771,
+      "url": "https://github.com/open-metadata/OpenMetadata",
+      "aiSummary": {
+        "summary": "OpenMetadata 是一个开源的统一元数据平台，专注于数据发现、可观测性和治理。它提供中心化存储、深度列级血缘追踪及 84+ 种数据源连接器，支持数据资产搜索与团队协作，帮助企业实现端到端的元数据管理。",
+        "summary_en": "OpenMetadata is a unified metadata platform for data discovery, observability, and governance.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要统一管理数据资产、追踪血缘及建立数据治理体系的企业。",
+        "useCase_en": "It provides a unified platform for data discovery, observability, and governance."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "microsoft/ai-agents-for-beginners",
+      "description": "12 Lessons to Get Started Building AI Agents",
+      "language": "Jupyter Notebook",
+      "stars": 58767,
+      "forks": 20030,
+      "todayStars": 177,
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "aiSummary": {
+        "summary": "Microsoft 提供的 AI Agent 入门课程，包含 12 个 Jupyter Notebook 教程。课程涵盖构建 AI Agent 的基础知识，支持 50+ 种语言，内容自动更新。适合零基础开发者学习如何使用生成式 AI 模型构建智能体。",
+        "summary_en": "A 12-lesson course teaching fundamentals of building AI agents.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "AI Agents"
+        ],
+        "useCase": "适合零基础开发者学习 AI Agent 的构建与开发",
+        "useCase_en": "To teach beginners the fundamentals of building AI agents."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "PowerShell/PowerShell",
+      "description": "PowerShell for every system!",
+      "language": "C#",
+      "stars": 52770,
+      "forks": 8275,
+      "todayStars": 76,
+      "url": "https://github.com/PowerShell/PowerShell",
+      "aiSummary": {
+        "summary": "PowerShell 是一个跨平台的自动化和配置工具，包含命令行 shell、脚本语言和 cmdlet 框架。它专为处理结构化数据（如 JSON、XML）和 REST API 设计，支持 Windows、Linux 和 macOS。",
+        "summary_en": "Cross-platform automation and configuration tool optimized for structured data, REST APIs, and object models.",
+        "techStack": [
+          "C#",
+          ".NET"
+        ],
+        "useCase": "跨平台系统自动化、配置管理与数据处理",
+        "useCase_en": "Automate system administration tasks and manage structured data across multiple operating systems."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "cline/cline",
+      "description": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
+      "language": "TypeScript",
+      "stars": 60802,
+      "forks": 6254,
+      "todayStars": 103,
+      "url": "https://github.com/cline/cline",
+      "aiSummary": {
+        "summary": "Cline 是一款运行在 IDE 中的自主 AI 编码代理，基于 Claude Sonnet 构建。它具备创建/编辑文件、执行终端命令及使用浏览器进行 Web 开发的能力。通过 MCP 协议扩展工具，并采用“人类在回路”模式，确保每一步操作都需要用户授权，安全地协助处理复杂软件任务。",
+        "summary_en": "Autonomous AI coding agent integrated into IDEs that creates, edits files, and executes commands with human approval.",
+        "techStack": [
+          "TypeScript",
+          "Claude Sonnet",
+          "Model Context Protocol (MCP)"
+        ],
+        "useCase": "复杂软件开发、代码重构、Web 应用开发及自动化测试",
+        "useCase_en": "To assist developers in complex software development tasks by autonomously creating, editing, and testing code within th"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "microsoft/onnxruntime",
+      "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+      "language": "C++",
+      "stars": 20163,
+      "forks": 3855,
+      "todayStars": 80,
+      "url": "https://github.com/microsoft/onnxruntime",
+      "aiSummary": {
+        "summary": "ONNX Runtime 是微软开源的跨平台高性能机器学习推理和训练加速器。它支持 PyTorch、TensorFlow 等多种深度学习框架及传统机器学习库的模型。通过利用硬件加速器和图优化技术，它能显著提升推理速度和降低成本，同时支持多节点 GPU 训练，是构建高效 AI 应用的理想选择。",
+        "summary_en": "Cross-platform ML accelerator for high-performance inference and training.",
+        "techStack": [
+          "C++",
+          "PyTorch",
+          "TensorFlow",
+          "scikit-learn",
+          "LightGBM"
+        ],
+        "useCase": "用于加速机器学习模型的推理和训练，特别是在需要跨平台高性能部署的场景中。",
+        "useCase_en": "Enable faster customer experiences and lower costs by accelerating ML model inference and training."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 12 platforms",
+      "language": "TypeScript",
+      "stars": 9412,
+      "forks": 655,
+      "todayStars": 302,
+      "url": "https://github.com/mksglu/context-mode",
+      "aiSummary": {
+        "summary": "这是一个针对 AI 编码代理的上下文窗口优化 MCP 服务器。它通过沙箱工具输出（98% 减少）、SQLite 会话跟踪（FTS5+BM25 索引）以及“以代码思考”模式（LLM 编写脚本代替读取文件），有效解决了上下文溢出和会话丢失问题，支持 12 个平台。",
+        "summary_en": "An MCP server optimizing AI coding agent context windows by sandboxing tool output and indexing session data.",
+        "techStack": [
+          "TypeScript",
+          "SQLite",
+          "FTS5",
+          "BM25",
+          "MCP"
+        ],
+        "useCase": "AI 编码代理的上下文窗口优化与会话连续性管理",
+        "useCase_en": "Prevents context window overflow in AI coding agents by sandboxing tool outputs and maintaining session continuity."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "stars": 23773,
+      "forks": 3796,
+      "todayStars": 491,
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "aiSummary": {
+        "summary": "这是一个专为 Claude Code 和 AI 代理设计的营销技能集合，涵盖 CRO、文案写作、SEO、分析和增长工程。通过 Markdown 文件定义专业工作流，帮助技术型营销人员和创始人利用 AI 代理提升营销效率，支持 Cursor、Windsurf 等多种主流 AI 编辑器。",
+        "summary_en": "A collection of AI agent skills for marketing tasks including CRO, copywriting, and SEO.",
+        "techStack": [
+          "JavaScript",
+          "Markdown",
+          "Agent Skills"
+        ],
+        "useCase": "适用于需要 AI 代理辅助进行转化率优化、内容创作及增长工程的技术型营销人员。",
+        "useCase_en": "Enable AI agents to perform marketing tasks like CRO, copywriting, and SEO."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "chiphuyen/aie-book",
+      "description": "[WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025)",
+      "language": "Jupyter Notebook",
+      "stars": 15167,
+      "forks": 2183,
+      "todayStars": 214,
+      "url": "https://github.com/chiphuyen/aie-book",
+      "aiSummary": {
+        "summary": "该项目是 Chip Huyen 所著《AI Engineering》的配套仓库，包含 Jupyter Notebook 格式的学习笔记、案例研究及实用工具。内容涵盖基础模型适配、RAG、提示词工程、代理构建及微调等 AI 工程核心主题，旨在为 AI 工程师提供从理论到实践的完整资源。",
+        "summary_en": "Supporting materials and resources for the AI Engineering book by Chip Huyen.",
+        "techStack": [
+          "Jupyter Notebook"
+        ],
+        "useCase": "AI 工程师学习基础模型适配与 AI 应用构建的最佳实践",
+        "useCase_en": "To provide resources and supporting materials for the AI Engineering book."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "VoltAgent/awesome-agent-skills",
+      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "language": "",
+      "stars": 18045,
+      "forks": 1925,
+      "todayStars": 176,
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "aiSummary": {
+        "summary": "这是一个精选的 Agent Skills 集合，包含 1000+ 个由 Anthropic、Google、Vercel 等官方团队及社区创建的真实技能。项目专注于人工挑选而非 AI 生成，兼容 Claude Code、Cursor、GitHub Copilot 等多种主流 AI 编码工具，旨在提升开发效率。",
+        "summary_en": "A curated collection of 1000+ official and community agent skills for AI coding tools.",
+        "techStack": [
+          "Claude Code",
+          "Cursor",
+          "GitHub Copilot",
+          "Gemini CLI",
+          "Agent Skills"
+        ],
+        "useCase": "为 AI 编码助手（如 Claude、Cursor）配置和扩展特定功能（如文档处理、API 集成）的开发者。",
+        "useCase_en": "Developers use this repository to find high-quality agent skills for AI coding assistants like Claude and Cursor."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-23T23:56:02.560Z",
+    "duration": "188s",
+    "version": "1.0.0"
+  }
+}

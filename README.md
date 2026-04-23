@@ -70,24 +70,28 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-22 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-04-23 | **成功**: 16 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [zilliztech/claude-context](https://github.com/zilliztech/claude-context) | Code search MCP for Claude Code. Make entire codeb... | TypeScript | 7.5k | 873 | Claude Context 是一个 MCP 插件，通过语义搜索将整个代码库转化为 AI 编码代理的上下文。它利用向量数据库高效检索相关代码，避免了加载整个目录的高昂成本，专为 Claude Code 等工具设计。 |
-| 2 | [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | FinceptTerminal is a modern finance application of... | Python | 13.0k | 1.7k | FinceptTerminal 是一款基于 C++20 和 Qt6 的原生桌面金融终端，集成 Python 进行高级分析。它提供 CFA 级财务建模、37 个 AI 交易代理、100+ 数据源接入、实时交易（16 个经纪商）以及 QuantLib 量化套件。支持本地 LLM，具备节点编辑器和全球情报功能，适合专业量化交易与投资研究。 |
-| 3 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powere... | TypeScript | 51.5k | 449 | 这是一个基于 TypeScript 的实时全球情报仪表板。利用 AI 聚合 500+ 新闻源，提供 3D/2D 地图可视化、地缘政治监控和金融雷达。支持多站点变体和本地 AI 运行，并可通过 Tauri 2 打包为原生桌面应用。 |
-| 4 | [langfuse/langfuse](https://github.com/langfuse/langfuse) | 🪢 Open source LLM engineering platform: LLM Obser... | TypeScript | 25.6k | 160 | Langfuse 是一个开源的 LLM 工程平台，支持自托管。它提供 LLM 可观测性、提示词管理、评估、数据集和游乐场等功能，帮助团队协作开发、监控和调试 AI 应用。 |
-| 5 | [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | Shannon Lite is an autonomous, white-box AI pentes... | TypeScript | 39.6k | 346 | Shannon 是 Keygraph 开发的自主 AI 白盒渗透测试工具。它通过分析源代码识别攻击向量，并利用浏览器自动化和命令行工具执行真实漏洞利用（如注入、XSS、认证绕过）。它生成包含可重现 PoC 的报告，旨在填补代码发布前的安全测试空白，实现持续自动化安全检测。 |
-| 6 | [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | OpenMetadata is a unified metadata platform for da... | TypeScript | 12.1k | 609 | OpenMetadata 是一个统一的数据元数据平台，专注于数据发现、可观测性和治理。它通过中心化存储库、深度列级血缘和团队协作功能，帮助用户管理数据资产。项目支持 84+ 种数据源连接器，提供元数据架构、存储库、API 和摄取框架，旨在解锁数据价值。 |
-| 7 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 49.4k | 551 | π RuView 是一个基于 Rust 的 WiFi 传感平台，利用 ESP32 采集信道状态信息（CSI），无需摄像头即可实现通过墙壁的人体姿态估计、生命体征监测及活动识别。它运行在边缘硬件上，支持本地脉冲神经网络学习，适用于智能家居安防、生命体征监测及环境感知。 |
-| 8 | [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework"... | Python | 17.5k | 770 | RAG-Anything 是一个基于 LightRAG 的全栈多模态 RAG 框架。它支持文本、图像、表格及公式的无缝处理，集成了 VLM 增强查询与上下文配置模块。该系统旨在解决传统 RAG 处理非文本元素的局限性，提供统一的文档检索与分析能力。 |
-| 9 | [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) | ⭐AI-driven public opinion & trend monitor with mul... | Python | 54.4k | 932 | TrendRadar 是一款基于 Python 的 AI 舆情监控助手。它聚合多平台热点与 RSS，利用 AI 智能筛选、翻译并生成分析简报。支持 MCP 架构接入，可进行自然语言对话分析。支持 Docker 部署，数据自持，并集成多种消息推送渠道，有效解决信息过载问题。 |
-| 10 | [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video) | 🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video En... | Python | 5.5k | 237 | Pixelle-Video 是一个基于 Python 的 AI 全自动短视频生成引擎。它集成了大语言模型（LLM）用于文案创作、TTS 引擎用于语音合成以及 ComfyUI 用于图像生成。用户通过 Web 界面配置 API 密钥，即可一键生成包含解说、背景音乐和配图的短视频，支持本地和云端部署。 |
-| 11 | [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers... | Python | 59.6k | 720 | 这是一个全功能的黑客工具箱，包含185+个工具，涵盖信息收集、Web攻击、后渗透等20个类别。支持Python 3.10+，具备交互式菜单、搜索过滤、批量安装及智能更新功能，旨在为黑客提供一站式操作体验。 |
-| 12 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | The open agent skills tool - npx skills... | TypeScript | 15.5k | 317 | 这是一个用于安装和管理 AI 代理技能的命令行工具。它支持多种 AI 代理（如 Claude Code、Cursor 等），允许用户通过 GitHub、GitLab 或本地路径安装技能。工具提供了灵活的安装选项，包括全局安装、指定代理、非交互模式等，旨在简化 AI 助手的配置流程，提升开发效率。 |
+| 1 | [huggingface/ml-intern](https://github.com/huggingface/ml-intern) | 🤗 ml-intern: an open-source ML engineer that read... | Python | 3.2k | 530 | 这是一个基于 Hugging Face 生态系统的开源 AI 助手，模拟 ML 工程师。它能自主研究论文、编写代码、训练模型并部署，支持交互式和 Headless 模式，深度集成文档、数据集及云计算资源。 |
+| 2 | [zilliztech/claude-context](https://github.com/zilliztech/claude-context) | Code search MCP for Claude Code. Make entire codeb... | TypeScript | 8.4k | 1.0k | Claude Context 是一个 MCP 插件，利用语义搜索技术将整个代码库存储在向量数据库中，为 Claude Code 等代理提供高效的代码上下文。相比全量加载，这种方式能显著降低成本，快速定位相关代码。 |
+| 3 | [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework"... | Python | 18.1k | 574 | RAG-Anything 是一个基于 LightRAG 的全功能多模态 RAG 框架，支持文本、图像、表格及公式的统一处理。它集成了 VLM 增强查询和上下文配置模块，解决了传统 RAG 处理非文本元素的难题，提供跨模态检索能力，适用于学术研究和技术文档分析。 |
+| 4 | [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers... | Python | 61.0k | 1.4k | 这是一个功能全面的黑客工具箱，包含185+个工具，涵盖Web、无线、云安全等20个类别。支持Python 3.10+，具备搜索、标签过滤、智能更新及一键安装功能，旨在为黑客提供便捷的渗透测试环境搭建。 |
+| 5 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 49.8k | 427 | RuView 是一个基于 Rust 的 WiFi 密集感知平台，利用 ESP32 传感器采集信道状态信息（CSI），无需摄像头即可实现实时人体姿态估计、生命体征监测和存在检测。它支持墙体透视、活动识别和环境映射，运行在边缘端，具备低功耗和隐私保护特性。 |
+| 6 | [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | Uncensored, open-source alternative to Higgsfield ... | JavaScript | 6.9k | 384 | 这是一个开源、无限制的 AI 图像与视频生成工作室，提供 200+ 种先进模型（如 Flux、Midjourney、Sora），无内容过滤。支持在线网页版、桌面应用及自托管，并包含自动化媒体管道技能。 |
+| 7 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Use claude-code for free in the terminal, VSCode e... | Python | 5.5k | 2.4k | 这是一个轻量级代理工具，旨在让 Claude Code 免费使用。它通过路由 Anthropic API 调用到 NVIDIA NIM、OpenRouter、DeepSeek、LM Studio 或 llama.cpp 等多个提供商，无需 Anthropic API Key。支持终端、VSCode 扩展及 Discord 机器人，具备零成本、智能限流、思考 Token 解析等功能，是 Claude Code 的完美替代方案。 |
+| 8 | [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | OpenMetadata is a unified metadata platform for da... | TypeScript | 12.9k | 771 | OpenMetadata 是一个开源的统一元数据平台，专注于数据发现、可观测性和治理。它提供中心化存储、深度列级血缘追踪及 84+ 种数据源连接器，支持数据资产搜索与团队协作，帮助企业实现端到端的元数据管理。 |
+| 9 | [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 12 Lessons to Get Started Building AI Agents... | Jupyter Notebook | 58.8k | 177 | Microsoft 提供的 AI Agent 入门课程，包含 12 个 Jupyter Notebook 教程。课程涵盖构建 AI Agent 的基础知识，支持 50+ 种语言，内容自动更新。适合零基础开发者学习如何使用生成式 AI 模型构建智能体。 |
+| 10 | [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) | PowerShell for every system!... | C# | 52.8k | 76 | PowerShell 是一个跨平台的自动化和配置工具，包含命令行 shell、脚本语言和 cmdlet 框架。它专为处理结构化数据（如 JSON、XML）和 REST API 设计，支持 Windows、Linux 和 macOS。 |
+| 11 | [cline/cline](https://github.com/cline/cline) | Autonomous coding agent right in your IDE, capable... | TypeScript | 60.8k | 103 | Cline 是一款运行在 IDE 中的自主 AI 编码代理，基于 Claude Sonnet 构建。它具备创建/编辑文件、执行终端命令及使用浏览器进行 Web 开发的能力。通过 MCP 协议扩展工具，并采用“人类在回路”模式，确保每一步操作都需要用户授权，安全地协助处理复杂软件任务。 |
+| 12 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | ONNX Runtime: cross-platform, high performance ML ... | C++ | 20.2k | 80 | ONNX Runtime 是微软开源的跨平台高性能机器学习推理和训练加速器。它支持 PyTorch、TensorFlow 等多种深度学习框架及传统机器学习库的模型。通过利用硬件加速器和图优化技术，它能显著提升推理速度和降低成本，同时支持多节点 GPU 训练，是构建高效 AI 应用的理想选择。 |
+| 13 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents. ... | TypeScript | 9.4k | 302 | 这是一个针对 AI 编码代理的上下文窗口优化 MCP 服务器。它通过沙箱工具输出（98% 减少）、SQLite 会话跟踪（FTS5+BM25 索引）以及“以代码思考”模式（LLM 编写脚本代替读取文件），有效解决了上下文溢出和会话丢失问题，支持 12 个平台。 |
+| 14 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Marketing skills for Claude Code and AI agents. CR... | JavaScript | 23.8k | 491 | 这是一个专为 Claude Code 和 AI 代理设计的营销技能集合，涵盖 CRO、文案写作、SEO、分析和增长工程。通过 Markdown 文件定义专业工作流，帮助技术型营销人员和创始人利用 AI 代理提升营销效率，支持 Cursor、Windsurf 等多种主流 AI 编辑器。 |
+| 15 | [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) | [WIP] Resources for AI engineers. Also contains su... | Jupyter Notebook | 15.2k | 214 | 该项目是 Chip Huyen 所著《AI Engineering》的配套仓库，包含 Jupyter Notebook 格式的学习笔记、案例研究及实用工具。内容涵盖基础模型适配、RAG、提示词工程、代理构建及微调等 AI 工程核心主题，旨在为 AI 工程师提供从理论到实践的完整资源。 |
+| 16 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | A curated collection of 1000+ agent skills from of... | - | 18.0k | 176 | 这是一个精选的 Agent Skills 集合，包含 1000+ 个由 Anthropic、Google、Vercel 等官方团队及社区创建的真实技能。项目专注于人工挑选而非 AI 生成，兼容 Claude Code、Cursor、GitHub Copilot 等多种主流 AI 编码工具，旨在提升开发效率。 |
 
-[查看完整数据](api/github/2026-04-22.json)
+[查看完整数据](api/github/2026-04-23.json)
 <!-- END GITHUB TRENDING -->
 
 
