@@ -1,0 +1,266 @@
+{
+  "date": "2026-04-24",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "language": "Python",
+      "stars": 8795,
+      "forks": 1304,
+      "todayStars": 2640,
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "aiSummary": {
+        "summary": "这是一个轻量级代理，允许免费使用 Claude Code CLI 和 VSCode 扩展。它将 Anthropic API 调用路由到 NVIDIA NIM、OpenRouter、DeepSeek、LM Studio 或 llama.cpp 等多种免费或本地提供商，无需 Anthropic API 密钥，支持多种模型映射和工具解析。",
+        "summary_en": "A Python proxy enabling free Claude Code usage by routing API calls to NVIDIA NIM, OpenRouter, and local models.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "VSCode",
+          "NVIDIA NIM",
+          "OpenRouter"
+        ],
+        "useCase": "适用于希望在终端或 VSCode 中免费使用 Claude Code 进行编程开发，或利用本地模型进行开发的用户。",
+        "useCase_en": "Allows developers to use Claude Code for free by proxying API calls to alternative providers."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "huggingface/ml-intern",
+      "description": "🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
+      "language": "Python",
+      "stars": 5290,
+      "forks": 453,
+      "todayStars": 2981,
+      "url": "https://github.com/huggingface/ml-intern",
+      "aiSummary": {
+        "summary": "这是一个基于 Hugging Face 生态系统的开源 AI 助手，旨在充当一名自主的 ML 工程师。它能利用 Anthropic、Hugging Face 和 GitHub 的 API，自主研究论文、训练模型并部署代码。支持交互式和 Headless 模式，适合自动化机器学习开发流程。",
+        "summary_en": "An autonomous AI agent that automates ML engineering workflows, including research, coding, and model deployment.",
+        "techStack": [
+          "Python",
+          "Hugging Face Ecosystem",
+          "Anthropic API",
+          "CLI"
+        ],
+        "useCase": "自动化机器学习全流程开发，从论文研读到模型部署。",
+        "useCase_en": "Automate the research, coding, and shipping of high-quality ML models using AI agents."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "google/osv-scanner",
+      "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+      "language": "Go",
+      "stars": 9488,
+      "forks": 618,
+      "todayStars": 147,
+      "url": "https://github.com/google/osv-scanner",
+      "aiSummary": {
+        "summary": "OSV-Scanner 是一个用 Go 编写的官方漏洞扫描工具，利用 OSV 数据库检测项目依赖中的安全漏洞。它支持多种语言、包管理器、操作系统及容器镜像扫描，并提供基于修复策略的升级建议。底层数据库全面且权威，能精准匹配受影响版本，帮助开发者快速解决安全问题。",
+        "summary_en": "A Go-based vulnerability scanner that leverages the OSV database to detect security issues in dependencies.",
+        "techStack": [
+          "Go",
+          "OSV-Scalibr",
+          "OSV.dev"
+        ],
+        "useCase": "用于检测和修复软件依赖中的安全漏洞，适用于软件开发与安全审计场景。",
+        "useCase_en": "Find existing vulnerabilities affecting your project's dependencies."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "stars": 62315,
+      "forks": 6984,
+      "todayStars": 1377,
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "aiSummary": {
+        "summary": "这是一个面向黑客的 All-in-One 渗透测试工具集，基于 Python 3.10+ 开发。项目包含 185+ 种安全工具，涵盖信息收集、Web 攻击、无线攻击、云安全等 20 个分类。支持交互式菜单搜索、标签过滤、批量安装及智能更新，旨在为安全研究人员提供便捷的一站式渗透测试环境搭建方案。",
+        "summary_en": "A comprehensive Python-based collection of 185+ hacking tools managed via a CLI interface.",
+        "techStack": [
+          "Python",
+          "Linux",
+          "Docker"
+        ],
+        "useCase": "渗透测试、网络安全研究与工具集成",
+        "useCase_en": "Provides a centralized command-line interface for hackers to manage, install, and update security tools."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "zilliztech/claude-context",
+      "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+      "language": "TypeScript",
+      "stars": 8990,
+      "forks": 690,
+      "todayStars": 706,
+      "url": "https://github.com/zilliztech/claude-context",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 提供语义代码搜索的 MCP 插件，旨在将整个代码库作为 AI Agent 的上下文。它利用向量数据库高效存储代码，仅检索相关片段，从而大幅降低大代码库的上下文加载成本，提升编码效率。",
+        "summary_en": "An MCP plugin that enables semantic code search for Claude Code, making entire codebases available as context.",
+        "techStack": [
+          "TypeScript",
+          "MCP",
+          "Zilliz Cloud",
+          "OpenAI"
+        ],
+        "useCase": "为 AI 编码助手提供基于语义搜索的大规模代码库上下文，优化检索成本。",
+        "useCase_en": "To give AI coding agents deep context from large codebases using semantic search."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "open-metadata/OpenMetadata",
+      "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+      "language": "TypeScript",
+      "stars": 13344,
+      "forks": 2037,
+      "todayStars": 530,
+      "url": "https://github.com/open-metadata/OpenMetadata",
+      "aiSummary": {
+        "summary": "OpenMetadata 是一个统一的元数据平台，专注于数据发现、可观测性和治理。它通过中心化存储库提供深度列级血缘追踪，支持 84+ 数据源连接器，并允许通过 API 和 Schema 进行无缝集成与协作，帮助企业解锁数据资产价值。",
+        "summary_en": "OpenMetadata is a unified metadata platform for data discovery, observability, and governance with a central repository and 84+ connectors.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要统一管理数据资产、追踪血缘关系及进行数据治理的企业。",
+        "useCase_en": "Centralize metadata management for data discovery, observability, and governance across various data sources and tools."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "PostHog/posthog",
+      "description": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+      "language": "Python",
+      "stars": 33089,
+      "forks": 2581,
+      "todayStars": 90,
+      "url": "https://github.com/PostHog/posthog",
+      "aiSummary": {
+        "summary": "PostHog 是一个开源的全栈开发者平台，集成了产品分析、Web 分析、会话回放、错误追踪、功能标志、A/B 实验以及数据仓库等功能。它支持自托管，提供免费层级，并包含 LLM 分析和工作流自动化等现代功能，帮助开发者调试代码、快速发布功能并集中管理数据。",
+        "summary_en": "PostHog is an open-source, all-in-one product analytics and developer platform.",
+        "techStack": [
+          "Python",
+          "JavaScript",
+          "React"
+        ],
+        "useCase": "适用于需要全栈数据分析、用户行为追踪和功能实验的团队。",
+        "useCase_en": "Developers use it to build successful products with analytics, session replay, and feature flags."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "language": "Rust",
+      "stars": 59163,
+      "forks": 2727,
+      "todayStars": 252,
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的 Bitwarden 兼容服务器，专为自托管设计。它提供了几乎完整的 Bitwarden 客户端 API 实现，包括个人保险库、多因素认证、组织管理和紧急访问等功能。相比官方服务，它更轻量且资源占用更低，支持 Docker 部署，是自建密码管理服务的理想选择。",
+        "summary_en": "A lightweight, self-hosted Bitwarden-compatible server implementation written in Rust.",
+        "techStack": [
+          "Rust",
+          "Rocket",
+          "Docker"
+        ],
+        "useCase": "适合需要自托管密码管理服务的用户，作为官方 Bitwarden 的轻量级替代方案。",
+        "useCase_en": "For self-hosting a lightweight, Bitwarden-compatible password management solution."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Anil-matcha/Open-Generative-AI",
+      "description": "Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "language": "JavaScript",
+      "stars": 7659,
+      "forks": 1416,
+      "todayStars": 847,
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "aiSummary": {
+        "summary": "这是一个开源的、无审查的 AI 图像和视频生成工作室，替代 Higgsfield AI 等商业产品。它支持 200+ 模型，包括 Flux、Midjourney 和 Happy Horse 1.0。提供在线托管、桌面应用以及自动化媒体管道工具，完全免费且无订阅费用，支持自托管。",
+        "summary_en": "Open-source, unrestricted AI image and video generation studio featuring 200+ models and no content filters.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "适合需要无限制、免费 AI 图像视频生成能力的开发者或创作者，用于构建自动化媒体管道或直接生成内容。",
+        "useCase_en": "To generate uncensored AI images and videos using 200+ models without content filters."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars": 494697,
+      "forks": 46855,
+      "todayStars": 1099,
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "aiSummary": {
+        "summary": "这是一个通过从头开始重建各种技术来学习编程的项目。它包含了从3D渲染器、AI模型、区块链到操作系统、Web服务器等众多领域的教程。项目旨在帮助开发者通过实践深入理解底层原理，适合想要提升编程深度和系统设计能力的开发者。",
+        "summary_en": "A repository of tutorials for recreating complex technologies like operating systems and web browsers from scratch.",
+        "techStack": [
+          "Markdown"
+        ],
+        "useCase": "适合希望深入理解底层原理、通过实践提升编程能力的开发者。",
+        "useCase_en": "Developers use this to deepen their understanding of computer science concepts by implementing core technologies."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "deepseek-ai/DeepEP",
+      "description": "DeepEP: an efficient expert-parallel communication library",
+      "language": "Cuda",
+      "stars": 9325,
+      "forks": 1181,
+      "todayStars": 29,
+      "url": "https://github.com/deepseek-ai/DeepEP",
+      "aiSummary": {
+        "summary": "DeepEP 是一个专为 MoE 模型和专家并行设计的通信库。它提供高性能的 all-to-all GPU 内核，支持 FP8 和低精度操作。针对 DeepSeek-V3 的组限制门控算法进行了优化，支持 NVLink 到 RDMA 的非对称带宽转发。包含低延迟内核用于推理解码，并支持通信计算重叠。性能测试显示在 H800 上吞吐量极高，近期优化后性能提升 30%。",
+        "summary_en": "DeepEP is a high-performance CUDA library for Mixture-of-Experts parallelism, offering optimized all-to-all kernels for training and inference.",
+        "techStack": [
+          "Cuda",
+          "RDMA",
+          "NVLink",
+          "FP8"
+        ],
+        "useCase": "适用于 DeepSeek-V3/R1 等大模型训练与推理，特别是 MoE 架构的专家并行场景。",
+        "useCase_en": "Used for high-throughput training and low-latency inference of Mixture-of-Experts models via optimized all-to-all commun"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "microsoft/typescript-go",
+      "description": "Staging repo for development of native port of TypeScript",
+      "language": "Go",
+      "stars": 25012,
+      "forks": 907,
+      "todayStars": 22,
+      "url": "https://github.com/microsoft/typescript-go",
+      "aiSummary": {
+        "summary": "这是一个 TypeScript 的 Go 语言原生移植版本的开发阶段仓库。它实现了类型检查、解析、命令行工具等功能，目前处于早期开发阶段，部分功能（如 JS 推断、声明发出）仍在进行中，尚未达到完全功能对齐。",
+        "summary_en": "Native Go port of TypeScript currently in development with preview builds available.",
+        "techStack": [
+          "Go",
+          "TypeScript",
+          "npm",
+          "VS Code"
+        ],
+        "useCase": "为 Go 环境提供 TypeScript 编译器功能，作为 TypeScript 的原生 Go 实现。",
+        "useCase_en": "To provide a native Go implementation of TypeScript for development and tooling."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-24T23:49:06.769Z",
+    "duration": "232s",
+    "version": "1.0.0"
+  }
+}

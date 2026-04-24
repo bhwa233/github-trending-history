@@ -70,28 +70,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-23 | **成功**: 16 | **失败**: 0
+**最后更新**: 2026-04-24 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [huggingface/ml-intern](https://github.com/huggingface/ml-intern) | 🤗 ml-intern: an open-source ML engineer that read... | Python | 3.2k | 530 | 这是一个基于 Hugging Face 生态系统的开源 AI 助手，模拟 ML 工程师。它能自主研究论文、编写代码、训练模型并部署，支持交互式和 Headless 模式，深度集成文档、数据集及云计算资源。 |
-| 2 | [zilliztech/claude-context](https://github.com/zilliztech/claude-context) | Code search MCP for Claude Code. Make entire codeb... | TypeScript | 8.4k | 1.0k | Claude Context 是一个 MCP 插件，利用语义搜索技术将整个代码库存储在向量数据库中，为 Claude Code 等代理提供高效的代码上下文。相比全量加载，这种方式能显著降低成本，快速定位相关代码。 |
-| 3 | [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework"... | Python | 18.1k | 574 | RAG-Anything 是一个基于 LightRAG 的全功能多模态 RAG 框架，支持文本、图像、表格及公式的统一处理。它集成了 VLM 增强查询和上下文配置模块，解决了传统 RAG 处理非文本元素的难题，提供跨模态检索能力，适用于学术研究和技术文档分析。 |
-| 4 | [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers... | Python | 61.0k | 1.4k | 这是一个功能全面的黑客工具箱，包含185+个工具，涵盖Web、无线、云安全等20个类别。支持Python 3.10+，具备搜索、标签过滤、智能更新及一键安装功能，旨在为黑客提供便捷的渗透测试环境搭建。 |
-| 5 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView: WiFi DensePose turns commodity WiFi sign... | Rust | 49.8k | 427 | RuView 是一个基于 Rust 的 WiFi 密集感知平台，利用 ESP32 传感器采集信道状态信息（CSI），无需摄像头即可实现实时人体姿态估计、生命体征监测和存在检测。它支持墙体透视、活动识别和环境映射，运行在边缘端，具备低功耗和隐私保护特性。 |
-| 6 | [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | Uncensored, open-source alternative to Higgsfield ... | JavaScript | 6.9k | 384 | 这是一个开源、无限制的 AI 图像与视频生成工作室，提供 200+ 种先进模型（如 Flux、Midjourney、Sora），无内容过滤。支持在线网页版、桌面应用及自托管，并包含自动化媒体管道技能。 |
-| 7 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Use claude-code for free in the terminal, VSCode e... | Python | 5.5k | 2.4k | 这是一个轻量级代理工具，旨在让 Claude Code 免费使用。它通过路由 Anthropic API 调用到 NVIDIA NIM、OpenRouter、DeepSeek、LM Studio 或 llama.cpp 等多个提供商，无需 Anthropic API Key。支持终端、VSCode 扩展及 Discord 机器人，具备零成本、智能限流、思考 Token 解析等功能，是 Claude Code 的完美替代方案。 |
-| 8 | [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | OpenMetadata is a unified metadata platform for da... | TypeScript | 12.9k | 771 | OpenMetadata 是一个开源的统一元数据平台，专注于数据发现、可观测性和治理。它提供中心化存储、深度列级血缘追踪及 84+ 种数据源连接器，支持数据资产搜索与团队协作，帮助企业实现端到端的元数据管理。 |
-| 9 | [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 12 Lessons to Get Started Building AI Agents... | Jupyter Notebook | 58.8k | 177 | Microsoft 提供的 AI Agent 入门课程，包含 12 个 Jupyter Notebook 教程。课程涵盖构建 AI Agent 的基础知识，支持 50+ 种语言，内容自动更新。适合零基础开发者学习如何使用生成式 AI 模型构建智能体。 |
-| 10 | [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) | PowerShell for every system!... | C# | 52.8k | 76 | PowerShell 是一个跨平台的自动化和配置工具，包含命令行 shell、脚本语言和 cmdlet 框架。它专为处理结构化数据（如 JSON、XML）和 REST API 设计，支持 Windows、Linux 和 macOS。 |
-| 11 | [cline/cline](https://github.com/cline/cline) | Autonomous coding agent right in your IDE, capable... | TypeScript | 60.8k | 103 | Cline 是一款运行在 IDE 中的自主 AI 编码代理，基于 Claude Sonnet 构建。它具备创建/编辑文件、执行终端命令及使用浏览器进行 Web 开发的能力。通过 MCP 协议扩展工具，并采用“人类在回路”模式，确保每一步操作都需要用户授权，安全地协助处理复杂软件任务。 |
-| 12 | [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | ONNX Runtime: cross-platform, high performance ML ... | C++ | 20.2k | 80 | ONNX Runtime 是微软开源的跨平台高性能机器学习推理和训练加速器。它支持 PyTorch、TensorFlow 等多种深度学习框架及传统机器学习库的模型。通过利用硬件加速器和图优化技术，它能显著提升推理速度和降低成本，同时支持多节点 GPU 训练，是构建高效 AI 应用的理想选择。 |
-| 13 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents. ... | TypeScript | 9.4k | 302 | 这是一个针对 AI 编码代理的上下文窗口优化 MCP 服务器。它通过沙箱工具输出（98% 减少）、SQLite 会话跟踪（FTS5+BM25 索引）以及“以代码思考”模式（LLM 编写脚本代替读取文件），有效解决了上下文溢出和会话丢失问题，支持 12 个平台。 |
-| 14 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Marketing skills for Claude Code and AI agents. CR... | JavaScript | 23.8k | 491 | 这是一个专为 Claude Code 和 AI 代理设计的营销技能集合，涵盖 CRO、文案写作、SEO、分析和增长工程。通过 Markdown 文件定义专业工作流，帮助技术型营销人员和创始人利用 AI 代理提升营销效率，支持 Cursor、Windsurf 等多种主流 AI 编辑器。 |
-| 15 | [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) | [WIP] Resources for AI engineers. Also contains su... | Jupyter Notebook | 15.2k | 214 | 该项目是 Chip Huyen 所著《AI Engineering》的配套仓库，包含 Jupyter Notebook 格式的学习笔记、案例研究及实用工具。内容涵盖基础模型适配、RAG、提示词工程、代理构建及微调等 AI 工程核心主题，旨在为 AI 工程师提供从理论到实践的完整资源。 |
-| 16 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | A curated collection of 1000+ agent skills from of... | - | 18.0k | 176 | 这是一个精选的 Agent Skills 集合，包含 1000+ 个由 Anthropic、Google、Vercel 等官方团队及社区创建的真实技能。项目专注于人工挑选而非 AI 生成，兼容 Claude Code、Cursor、GitHub Copilot 等多种主流 AI 编码工具，旨在提升开发效率。 |
+| 1 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Use claude-code for free in the terminal, VSCode e... | Python | 8.8k | 2.6k | 这是一个轻量级代理，允许免费使用 Claude Code CLI 和 VSCode 扩展。它将 Anthropic API 调用路由到 NVIDIA NIM、OpenRouter、DeepSeek、LM Studio 或 llama.cpp 等多种免费或本地提供商，无需 Anthropic API 密钥，支持多种模型映射和工具解析。 |
+| 2 | [huggingface/ml-intern](https://github.com/huggingface/ml-intern) | 🤗 ml-intern: an open-source ML engineer that read... | Python | 5.3k | 3.0k | 这是一个基于 Hugging Face 生态系统的开源 AI 助手，旨在充当一名自主的 ML 工程师。它能利用 Anthropic、Hugging Face 和 GitHub 的 API，自主研究论文、训练模型并部署代码。支持交互式和 Headless 模式，适合自动化机器学习开发流程。 |
+| 3 | [google/osv-scanner](https://github.com/google/osv-scanner) | Vulnerability scanner written in Go which uses the... | Go | 9.5k | 147 | OSV-Scanner 是一个用 Go 编写的官方漏洞扫描工具，利用 OSV 数据库检测项目依赖中的安全漏洞。它支持多种语言、包管理器、操作系统及容器镜像扫描，并提供基于修复策略的升级建议。底层数据库全面且权威，能精准匹配受影响版本，帮助开发者快速解决安全问题。 |
+| 4 | [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers... | Python | 62.3k | 1.4k | 这是一个面向黑客的 All-in-One 渗透测试工具集，基于 Python 3.10+ 开发。项目包含 185+ 种安全工具，涵盖信息收集、Web 攻击、无线攻击、云安全等 20 个分类。支持交互式菜单搜索、标签过滤、批量安装及智能更新，旨在为安全研究人员提供便捷的一站式渗透测试环境搭建方案。 |
+| 5 | [zilliztech/claude-context](https://github.com/zilliztech/claude-context) | Code search MCP for Claude Code. Make entire codeb... | TypeScript | 9.0k | 706 | 这是一个为 Claude Code 提供语义代码搜索的 MCP 插件，旨在将整个代码库作为 AI Agent 的上下文。它利用向量数据库高效存储代码，仅检索相关片段，从而大幅降低大代码库的上下文加载成本，提升编码效率。 |
+| 6 | [open-metadata/OpenMetadata](https://github.com/open-metadata/OpenMetadata) | OpenMetadata is a unified metadata platform for da... | TypeScript | 13.3k | 530 | OpenMetadata 是一个统一的元数据平台，专注于数据发现、可观测性和治理。它通过中心化存储库提供深度列级血缘追踪，支持 84+ 数据源连接器，并允许通过 API 和 Schema 进行无缝集成与协作，帮助企业解锁数据资产价值。 |
+| 7 | [PostHog/posthog](https://github.com/PostHog/posthog) | 🦔 PostHog is an all-in-one developer platform for... | Python | 33.1k | 90 | PostHog 是一个开源的全栈开发者平台，集成了产品分析、Web 分析、会话回放、错误追踪、功能标志、A/B 实验以及数据仓库等功能。它支持自托管，提供免费层级，并包含 LLM 分析和工作流自动化等现代功能，帮助开发者调试代码、快速发布功能并集中管理数据。 |
+| 8 | [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden compatible server written in ... | Rust | 59.2k | 252 | 这是一个用 Rust 编写的 Bitwarden 兼容服务器，专为自托管设计。它提供了几乎完整的 Bitwarden 客户端 API 实现，包括个人保险库、多因素认证、组织管理和紧急访问等功能。相比官方服务，它更轻量且资源占用更低，支持 Docker 部署，是自建密码管理服务的理想选择。 |
+| 9 | [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | Uncensored, open-source alternative to Higgsfield ... | JavaScript | 7.7k | 847 | 这是一个开源的、无审查的 AI 图像和视频生成工作室，替代 Higgsfield AI 等商业产品。它支持 200+ 模型，包括 Flux、Midjourney 和 Happy Horse 1.0。提供在线托管、桌面应用以及自动化媒体管道工具，完全免费且无订阅费用，支持自托管。 |
+| 10 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Master programming by recreating your favorite tec... | Markdown | 494.7k | 1.1k | 这是一个通过从头开始重建各种技术来学习编程的项目。它包含了从3D渲染器、AI模型、区块链到操作系统、Web服务器等众多领域的教程。项目旨在帮助开发者通过实践深入理解底层原理，适合想要提升编程深度和系统设计能力的开发者。 |
+| 11 | [deepseek-ai/DeepEP](https://github.com/deepseek-ai/DeepEP) | DeepEP: an efficient expert-parallel communication... | Cuda | 9.3k | 29 | DeepEP 是一个专为 MoE 模型和专家并行设计的通信库。它提供高性能的 all-to-all GPU 内核，支持 FP8 和低精度操作。针对 DeepSeek-V3 的组限制门控算法进行了优化，支持 NVLink 到 RDMA 的非对称带宽转发。包含低延迟内核用于推理解码，并支持通信计算重叠。性能测试显示在 H800 上吞吐量极高，近期优化后性能提升 30%。 |
+| 12 | [microsoft/typescript-go](https://github.com/microsoft/typescript-go) | Staging repo for development of native port of Typ... | Go | 25.0k | 22 | 这是一个 TypeScript 的 Go 语言原生移植版本的开发阶段仓库。它实现了类型检查、解析、命令行工具等功能，目前处于早期开发阶段，部分功能（如 JS 推断、声明发出）仍在进行中，尚未达到完全功能对齐。 |
 
-[查看完整数据](api/github/2026-04-23.json)
+[查看完整数据](api/github/2026-04-24.json)
 <!-- END GITHUB TRENDING -->
 
 
