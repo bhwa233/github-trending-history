@@ -1,0 +1,279 @@
+{
+  "date": "2026-04-25",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 12,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "language": "Python",
+      "stars": 11438,
+      "forks": 1703,
+      "todayStars": 3975,
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "aiSummary": {
+        "summary": "这是一个轻量级代理项目，旨在免费使用 Claude Code。它通过路由 API 调用到 NVIDIA NIM、OpenRouter、DeepSeek、LM Studio 或 llama.cpp，实现零成本调用。支持 VSCode 扩展和 CLI，具备思考标记解析、工具调用优化及 Discord 机器人等高级功能，无需 Anthropic API Key。",
+        "summary_en": "A Python proxy enabling free usage of Claude Code by routing API calls to alternative providers like NVIDIA NIM and OpenRouter.",
+        "techStack": [
+          "Python",
+          "Claude Code CLI",
+          "VSCode",
+          "NVIDIA NIM",
+          "OpenRouter"
+        ],
+        "useCase": "需要免费使用 Claude Code 进行编程或本地 AI 模型部署的用户。",
+        "useCase_en": "Enables free usage of Claude Code in the terminal, VSCode, and Discord by routing API calls to alternative providers."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "mattpocock/skills",
+      "description": "My personal directory of skills, straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 19937,
+      "forks": 1660,
+      "todayStars": 857,
+      "url": "https://github.com/mattpocock/skills",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 2,
+      "fullName": "Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "stars": 63808,
+      "forks": 7151,
+      "todayStars": 1200,
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的全能黑客工具箱，包含 185+ 种安全工具。支持搜索、标签过滤、批量安装和智能更新。涵盖信息收集、Web 攻击、无线攻击等 20 个类别，提供一键安装和 Docker 支持，旨在简化渗透测试流程。",
+        "summary_en": "A comprehensive Python-based hacking toolkit featuring 185+ tools and modern management features.",
+        "techStack": [
+          "Python",
+          "Bash",
+          "Docker"
+        ],
+        "useCase": "渗透测试人员快速部署和管理黑客工具",
+        "useCase_en": "To manage and install a wide variety of hacking and security tools for penetration testing and cybersecurity operations."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "PostHog/posthog",
+      "description": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+      "language": "Python",
+      "stars": 33477,
+      "forks": 2601,
+      "todayStars": 469,
+      "url": "https://github.com/PostHog/posthog",
+      "aiSummary": {
+        "summary": "PostHog 是一个开源的全栈开发者平台，集成了产品分析、Web 分析、会话回放、错误追踪、功能标志、A/B 测试、调查、数据仓库及 AI 助手等功能。它帮助开发者在一个统一的技术栈中监控用户行为、调试代码并加速功能发布，提供免费层级。",
+        "summary_en": "Open-source all-in-one product analytics platform for building successful products with features like session replay and feature flags.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要全面产品分析、用户行为监控及功能实验的团队，用于构建和优化产品。",
+        "useCase_en": "Developers use PostHog to track user behavior, analyze data, and ship features faster."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "stars": 25333,
+      "forks": 2526,
+      "todayStars": 78,
+      "url": "https://github.com/davila7/claude-code-templates",
+      "aiSummary": {
+        "summary": "这是一个用于 Anthropic Claude Code 的 CLI 工具，旨在配置和监控 AI 开发工作流。它提供了一百多个预配置的组件，包括 AI Agents、自定义 Slash Commands、外部服务集成（MCPs）、Claude 设置、自动化 Hooks 以及可重用 Skills。用户可通过 Web 仪表板浏览并安装这些组件，快速提升开发效率。",
+        "summary_en": "CLI tool for configuring and monitoring Claude Code with ready-to-use templates and components.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "Node.js"
+        ],
+        "useCase": "帮助开发者快速部署 Claude Code 的 AI Agents、自定义命令及外部集成，优化开发流程。",
+        "useCase_en": "A collection of ready-to-use configurations for Anthropic's Claude Code to enhance development workflows with AI agents "
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "deepseek-ai/DeepEP",
+      "description": "DeepEP: an efficient expert-parallel communication library",
+      "language": "Cuda",
+      "stars": 9488,
+      "forks": 1195,
+      "todayStars": 189,
+      "url": "https://github.com/deepseek-ai/DeepEP",
+      "aiSummary": {
+        "summary": "DeepEP 是一个专为 MoE 和专家并行设计的高效通信库。它提供高吞吐量、低延迟的 all-to-all GPU 内核，支持 FP8 精度。针对 DeepSeek-V3 的受限组门控算法，优化了 NVLink 到 RDMA 的非对称带宽转发。此外，还包含纯 RDMA 低延迟内核用于推理解码，以及基于钩子的通信计算重叠技术。性能测试显示在 NVLink 下带宽可达 153GB/s，RDMA 下可达 58GB/s。",
+        "summary_en": "DeepEP is a high-performance communication library for Mixture-of-Experts (MoE) models, offering optimized all-to-all kernels for training and inference.",
+        "techStack": [
+          "Cuda",
+          "RDMA",
+          "NVLink",
+          "FP8"
+        ],
+        "useCase": "适用于 MoE 模型（如 DeepSeek-V3/R1）的训练与推理任务，特别是需要高吞吐量通信和低延迟解码的场景。",
+        "useCase_en": "Optimizes communication for training and inference of Mixture-of-Experts models."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "PowerShell/PowerShell",
+      "description": "PowerShell for every system!",
+      "language": "C#",
+      "stars": 53054,
+      "forks": 8295,
+      "todayStars": 68,
+      "url": "https://github.com/PowerShell/PowerShell",
+      "aiSummary": {
+        "summary": "PowerShell 是一个跨平台的自动化和配置工具框架，支持 Windows、Linux 和 macOS。它包含命令行 shell、脚本语言和 cmdlet 框架，专为处理结构化数据（如 JSON、XML）和 REST API 而设计。它是 Windows PowerShell 5.1 的开源演进版本，专注于现代开发体验。",
+        "summary_en": "Cross-platform automation and configuration framework optimized for structured data and REST APIs.",
+        "techStack": [
+          "C#"
+        ],
+        "useCase": "系统自动化、配置管理及数据处理",
+        "useCase_en": "Automate and configure systems across Windows, Linux, and macOS using a scripting language optimized for structured data"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "RooCodeInc/Roo-Code",
+      "description": "Roo Code gives you a whole dev team of AI agents in your code editor.",
+      "language": "TypeScript",
+      "stars": 23501,
+      "forks": 3121,
+      "todayStars": 55,
+      "url": "https://github.com/RooCodeInc/Roo-Code",
+      "aiSummary": {
+        "summary": "Roo Code 是一个在代码编辑器中提供 AI 代理团队的插件。它支持从自然语言生成代码、重构调试、编写文档等多种功能。提供 Code、Architect、Ask、Debug 和 Custom 等多种模式，适应不同开发场景。目前由社区团队维护，支持 GPT-5.5 和 Claude Opus 4.7 等模型，并集成了 MCP 服务器。",
+        "summary_en": "Roo Code is an AI-powered development plugin that provides a team of AI agents for coding, debugging, and documentation within your code editor.",
+        "techStack": [
+          "TypeScript",
+          "OpenAI",
+          "MCP"
+        ],
+        "useCase": "为开发者提供集成的 AI 代理团队，用于代码生成、重构、调试及自动化任务。",
+        "useCase_en": "Automate coding tasks, debug code, and generate documentation using AI agents directly in your code editor."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "huggingface/ml-intern",
+      "description": "🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
+      "language": "Python",
+      "stars": 6205,
+      "forks": 558,
+      "todayStars": 1236,
+      "url": "https://github.com/huggingface/ml-intern",
+      "aiSummary": {
+        "summary": "这是一个基于 Hugging Face 生态系统的开源 AI 助手，旨在充当自主的 ML 工程师。它利用大语言模型（如 Claude 和 GPT）阅读论文、编写代码、训练模型并部署应用。支持交互式和 Headless 模式，能够自动处理从研究到交付的全流程。",
+        "summary_en": "Autonomous ML engineer agent leveraging the Hugging Face ecosystem to research, write, and ship code.",
+        "techStack": [
+          "Python",
+          "Hugging Face Ecosystem",
+          "Anthropic API",
+          "OpenAI API",
+          "GitHub API"
+        ],
+        "useCase": "自动化机器学习研究、代码编写与模型部署，提升开发效率。",
+        "useCase_en": "Automate the research, coding, and deployment of machine learning models."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars": 495940,
+      "forks": 46998,
+      "todayStars": 1431,
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "aiSummary": {
+        "summary": "通过从头构建著名技术来掌握编程的教程合集。涵盖操作系统、数据库、区块链、3D 渲染器、AI 模型等众多领域。旨在帮助开发者深入理解底层原理与系统设计。",
+        "summary_en": "A collection of step-by-step guides for recreating famous technologies from scratch.",
+        "techStack": [
+          "Markdown",
+          "C++",
+          "Java",
+          "Python",
+          "C#"
+        ],
+        "useCase": "学习计算机底层原理与系统设计，深入理解技术实现细节。",
+        "useCase_en": "A resource for developers to master programming by recreating complex technologies from scratch."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "CJackHwang/ds2api",
+      "description": "Deepseek to API: A lightweight, high-performance full-stack middleware converting client protocols to universal APIs. Supports multi-account rotation, compiled binaries, Vercel Serverless, and Docker. Compatible with Google, Claude, and OpenAI API formats.",
+      "language": "Go",
+      "stars": 1402,
+      "forks": 447,
+      "todayStars": 37,
+      "url": "https://github.com/CJackHwang/ds2api",
+      "aiSummary": {
+        "summary": "这是一个将 DeepSeek Web 对话能力转换为 OpenAI、Claude 和 Gemini 兼容 API 的轻量级高性能中间件。后端基于 Go 全量实现，支持多账号轮询、Docker 和 Vercel 部署，提供统一接口和 WebUI 管理台。",
+        "summary_en": "Lightweight Go middleware converting DeepSeek chat to OpenAI/Claude/Gemini APIs with multi-account rotation and Docker support.",
+        "techStack": [
+          "Go",
+          "React",
+          "Docker",
+          "Vercel Serverless"
+        ],
+        "useCase": "需要使用 DeepSeek 能力，但希望兼容 OpenAI、Claude 或 Gemini API 格式的开发者或个人实验者。",
+        "useCase_en": "Enable existing OpenAI/Claude/Gemini clients to connect to DeepSeek via a unified API gateway."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "Universal-Commerce-Protocol/ucp",
+      "description": "Specification and documentation for the Universal Commerce Protocol (UCP)",
+      "language": "Python",
+      "stars": 2783,
+      "forks": 347,
+      "todayStars": 16,
+      "url": "https://github.com/Universal-Commerce-Protocol/ucp",
+      "aiSummary": {
+        "summary": "UCP 是一个开放标准，旨在解决碎片化商业环境，促进平台、企业和支付服务商间的互操作性。它提供标准化的通用语言和组合式架构，支持动态发现与安全交互。专为支持 AI 代理的“代理商业”设计，通过模块化能力定义实现无缝、安全的电子商务集成。",
+        "summary_en": "An open standard for interoperable commerce enabling seamless integration between platforms, PSPs, and AI agents.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于构建支持 AI 代理的互操作性电子商务平台及支付集成。",
+        "useCase_en": "Facilitating seamless commerce integrations between platforms, PSPs, and AI agents through a standardized protocol."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "ComposioHQ/awesome-codex-skills",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "language": "Python",
+      "stars": 1458,
+      "forks": 130,
+      "todayStars": 174,
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "aiSummary": {
+        "summary": "该项目是一个精选的 Codex 技能库，旨在通过模块化指令包自动化工作流。支持跨 1000+ 应用操作，涵盖开发、生产力及沟通等领域。提供了 Python 安装脚本，方便用户快速集成技能，实现代码审查、自动化任务等高级功能。",
+        "summary_en": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+        "techStack": [
+          "Python",
+          "Codex CLI",
+          "Markdown"
+        ],
+        "useCase": "适用于需要自动化代码审查、跨应用操作和多智能体编排的开发者。",
+        "useCase_en": "Extend Codex's capabilities beyond text generation to automate workflows across various applications and tools."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-25T23:50:18.956Z",
+    "duration": "365s",
+    "version": "1.0.0"
+  }
+}
