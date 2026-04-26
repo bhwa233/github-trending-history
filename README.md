@@ -70,25 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-25 | **成功**: 12 | **失败**: 1
+**最后更新**: 2026-04-26 | **成功**: 12 | **失败**: 1
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Use claude-code for free in the terminal, VSCode e... | Python | 11.4k | 4.0k | 这是一个轻量级代理项目，旨在免费使用 Claude Code。它通过路由 API 调用到 NVIDIA NIM、OpenRouter、DeepSeek、LM Studio 或 llama.cpp，实现零成本调用。支持 VSCode 扩展和 CLI，具备思考标记解析、工具调用优化及 Discord 机器人等高级功能，无需 Anthropic API Key。 |
-| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | My personal directory of skills, straight from my ... | Shell | 19.9k | 857 | 处理失败 |
-| 3 | [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers... | Python | 63.8k | 1.2k | 这是一个基于 Python 的全能黑客工具箱，包含 185+ 种安全工具。支持搜索、标签过滤、批量安装和智能更新。涵盖信息收集、Web 攻击、无线攻击等 20 个类别，提供一键安装和 Docker 支持，旨在简化渗透测试流程。 |
-| 4 | [PostHog/posthog](https://github.com/PostHog/posthog) | 🦔 PostHog is an all-in-one developer platform for... | Python | 33.5k | 469 | PostHog 是一个开源的全栈开发者平台，集成了产品分析、Web 分析、会话回放、错误追踪、功能标志、A/B 测试、调查、数据仓库及 AI 助手等功能。它帮助开发者在一个统一的技术栈中监控用户行为、调试代码并加速功能发布，提供免费层级。 |
-| 5 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI tool for configuring and monitoring Claude Cod... | Python | 25.3k | 78 | 这是一个用于 Anthropic Claude Code 的 CLI 工具，旨在配置和监控 AI 开发工作流。它提供了一百多个预配置的组件，包括 AI Agents、自定义 Slash Commands、外部服务集成（MCPs）、Claude 设置、自动化 Hooks 以及可重用 Skills。用户可通过 Web 仪表板浏览并安装这些组件，快速提升开发效率。 |
-| 6 | [deepseek-ai/DeepEP](https://github.com/deepseek-ai/DeepEP) | DeepEP: an efficient expert-parallel communication... | Cuda | 9.5k | 189 | DeepEP 是一个专为 MoE 和专家并行设计的高效通信库。它提供高吞吐量、低延迟的 all-to-all GPU 内核，支持 FP8 精度。针对 DeepSeek-V3 的受限组门控算法，优化了 NVLink 到 RDMA 的非对称带宽转发。此外，还包含纯 RDMA 低延迟内核用于推理解码，以及基于钩子的通信计算重叠技术。性能测试显示在 NVLink 下带宽可达 153GB/s，RDMA 下可达 58GB/s。 |
-| 7 | [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) | PowerShell for every system!... | C# | 53.1k | 68 | PowerShell 是一个跨平台的自动化和配置工具框架，支持 Windows、Linux 和 macOS。它包含命令行 shell、脚本语言和 cmdlet 框架，专为处理结构化数据（如 JSON、XML）和 REST API 而设计。它是 Windows PowerShell 5.1 的开源演进版本，专注于现代开发体验。 |
-| 8 | [RooCodeInc/Roo-Code](https://github.com/RooCodeInc/Roo-Code) | Roo Code gives you a whole dev team of AI agents i... | TypeScript | 23.5k | 55 | Roo Code 是一个在代码编辑器中提供 AI 代理团队的插件。它支持从自然语言生成代码、重构调试、编写文档等多种功能。提供 Code、Architect、Ask、Debug 和 Custom 等多种模式，适应不同开发场景。目前由社区团队维护，支持 GPT-5.5 和 Claude Opus 4.7 等模型，并集成了 MCP 服务器。 |
-| 9 | [huggingface/ml-intern](https://github.com/huggingface/ml-intern) | 🤗 ml-intern: an open-source ML engineer that read... | Python | 6.2k | 1.2k | 这是一个基于 Hugging Face 生态系统的开源 AI 助手，旨在充当自主的 ML 工程师。它利用大语言模型（如 Claude 和 GPT）阅读论文、编写代码、训练模型并部署应用。支持交互式和 Headless 模式，能够自动处理从研究到交付的全流程。 |
-| 10 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Master programming by recreating your favorite tec... | Markdown | 495.9k | 1.4k | 通过从头构建著名技术来掌握编程的教程合集。涵盖操作系统、数据库、区块链、3D 渲染器、AI 模型等众多领域。旨在帮助开发者深入理解底层原理与系统设计。 |
-| 11 | [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | Deepseek to API: A lightweight, high-performance f... | Go | 1.4k | 37 | 这是一个将 DeepSeek Web 对话能力转换为 OpenAI、Claude 和 Gemini 兼容 API 的轻量级高性能中间件。后端基于 Go 全量实现，支持多账号轮询、Docker 和 Vercel 部署，提供统一接口和 WebUI 管理台。 |
-| 12 | [Universal-Commerce-Protocol/ucp](https://github.com/Universal-Commerce-Protocol/ucp) | Specification and documentation for the Universal ... | Python | 2.8k | 16 | UCP 是一个开放标准，旨在解决碎片化商业环境，促进平台、企业和支付服务商间的互操作性。它提供标准化的通用语言和组合式架构，支持动态发现与安全交互。专为支持 AI 代理的“代理商业”设计，通过模块化能力定义实现无缝、安全的电子商务集成。 |
-| 13 | [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills) | A curated list of practical Codex skills for autom... | Python | 1.5k | 174 | 该项目是一个精选的 Codex 技能库，旨在通过模块化指令包自动化工作流。支持跨 1000+ 应用操作，涵盖开发、生产力及沟通等领域。提供了 Python 安装脚本，方便用户快速集成技能，实现代码审查、自动化任务等高级功能。 |
+| 1 | [mattpocock/skills](https://github.com/mattpocock/skills) | Agent Skills for real engineers. Straight from my ... | Shell | 23.5k | 2.5k | 该项目是一套为 Claude AI 设计的工程化技能集，专注于真实开发而非“氛围编码”。它提供规划、设计及开发阶段的自动化工具，包括生成 PRD、拆分任务、TDD 测试驱动开发、代码重构计划及架构优化等，旨在提升工程师的效率与代码质量。 |
+| 2 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Use claude-code for free in the terminal, VSCode e... | Python | 13.5k | 1.7k | 这是一个轻量级代理项目，旨在让Claude Code免费使用。它通过路由API调用至NVIDIA NIM、OpenRouter、DeepSeek等免费或本地提供商，实现零成本代码辅助。支持VSCode和CLI，无需修改原软件，具备多模型映射、思考块解析及Discord机器人等功能。 |
+| 3 | [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers... | Python | 65.4k | 1.7k | 这是一个功能全面的黑客工具箱，包含185+种安全工具，涵盖信息收集、Web攻击、DDOS、云安全等20个类别。支持Python 3.10+，具备搜索、标签过滤、智能安装和更新功能。提供交互式终端界面，支持Docker部署，旨在为安全研究人员提供便捷的一站式渗透测试解决方案。 |
+| 4 | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | GitNexus: The Zero-Server Code Intelligence Engine... | TypeScript | 30.1k | 667 | GitNexus 是一个零服务器代码智能引擎，运行于浏览器端。它利用 Tree-sitter 将代码库索引为知识图谱，支持 CLI 和 Web UI 两种模式。通过 Graph RAG 技术，为 AI 代理（如 Cursor）提供深度架构视图，解决依赖缺失问题，强调本地隐私与高性能解析。 |
+| 5 | [PostHog/posthog](https://github.com/PostHog/posthog) | 🦔 PostHog is an all-in-one developer platform for... | Python | 33.8k | 338 | 处理失败 |
+| 6 | [microsoft/typescript-go](https://github.com/microsoft/typescript-go) | Staging repo for development of native port of Typ... | Go | 25.2k | 38 | 这是 TypeScript 的原生 Go 移植版本，目前处于预览阶段。项目实现了类型检查、解析、命令行工具及增量构建等核心功能，支持 JSX。虽然语言服务和部分 JS 特性仍在开发中，但已具备基本的编译能力。 |
+| 7 | [trycua/cua](https://github.com/trycua/cua) | Open-source infrastructure for Computer-Use Agents... | HTML | 14.4k | 200 | Cua 是一个为计算机使用代理提供开源基础设施的项目。它包含 Cua Driver（用于 macOS 后台操作）、Cua（跨平台沙箱 SDK）和 CuaBot（协作沙箱工具）。支持 Linux、macOS、Windows、Android 等系统，提供云端和本地部署方案，旨在帮助训练和评估能够控制完整桌面的 AI 代理。 |
+| 8 | [gastownhall/beads](https://github.com/gastownhall/beads) | Beads - A memory upgrade for your coding agent... | Go | 21.7k | 133 | Beads 是一个基于 Go 语言开发的分布式图问题跟踪器，专为 AI 编码代理提供持久化结构化记忆。它利用 Dolt 数据库实现版本控制和分支管理，通过依赖感知的图结构替代 Markdown，帮助代理处理长期任务。支持零冲突哈希 ID、语义压缩和消息线程。 |
+| 9 | [curl/curl](https://github.com/curl/curl) | A command line tool and library for transferring d... | C | 41.5k | 50 | curl 是一个用 C 语言编写的开源命令行工具和库，用于通过 URL 语法传输数据。它支持超过 30 种协议，功能强大且广泛用于网络请求测试和软件开发。 |
+| 10 | [home-assistant/core](https://github.com/home-assistant/core) | 🏡 Open source home automation that puts local con... | Python | 86.5k | 52 | Home Assistant 是一个开源的家庭自动化系统，优先强调本地控制和隐私保护。它基于模块化架构，支持在 Raspberry Pi 或本地服务器上运行，拥有庞大的社区支持，易于集成各种设备和自定义组件，适合 DIY 爱好者构建智能家居。 |
+| 11 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Master programming by recreating your favorite tec... | Markdown | 496.8k | 1.1k | 这是一个通过从头开始重新创建著名技术来学习编程的项目。它提供了详细的分步指南，涵盖操作系统、数据库、Web服务器、AI模型、游戏引擎等多个领域。通过实践这些教程，开发者可以深入理解底层原理，提升编程能力。 |
+| 12 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platfo... | TypeScript | 364.6k | 620 | OpenClaw 是一个在本地设备上运行的个人 AI 助手，支持 macOS、iOS 和 Android。它通过 CLI 工具安装，支持 WhatsApp、Telegram、Slack 等多种消息渠道，利用 OpenAI 或其他大模型提供快速、本地化的智能交互体验。 |
+| 13 | [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills) | A curated list of practical Codex skills for autom... | Python | 2.0k | 518 | 该项目是一个精选的 Codex 技能库，旨在通过模块化指令包自动化工作流。它包含 Python 安装脚本，支持通过 Skill Installer 或手动安装技能。技能涵盖开发、生产力、通信等领域，允许 Codex 执行跨应用操作（如邮件、Slack）及代码审查等任务。 |
 
-[查看完整数据](api/github/2026-04-25.json)
+[查看完整数据](api/github/2026-04-26.json)
 <!-- END GITHUB TRENDING -->
 
 

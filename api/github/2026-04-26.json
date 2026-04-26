@@ -1,0 +1,280 @@
+{
+  "date": "2026-04-26",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 12,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "mattpocock/skills",
+      "description": "Agent Skills for real engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 23469,
+      "forks": 1909,
+      "todayStars": 2507,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "该项目是一套为 Claude AI 设计的工程化技能集，专注于真实开发而非“氛围编码”。它提供规划、设计及开发阶段的自动化工具，包括生成 PRD、拆分任务、TDD 测试驱动开发、代码重构计划及架构优化等，旨在提升工程师的效率与代码质量。",
+        "summary_en": "A curated collection of reusable agent skills for real engineering workflows.",
+        "techStack": [
+          "Shell",
+          "Claude AI"
+        ],
+        "useCase": "适用于使用 Claude AI 进行 TDD 开发、代码重构及需求规划的开发者。",
+        "useCase_en": "To equip AI agents with practical tools for planning, designing, and developing software."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "language": "Python",
+      "stars": 13504,
+      "forks": 1946,
+      "todayStars": 1694,
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "aiSummary": {
+        "summary": "这是一个轻量级代理项目，旨在让Claude Code免费使用。它通过路由API调用至NVIDIA NIM、OpenRouter、DeepSeek等免费或本地提供商，实现零成本代码辅助。支持VSCode和CLI，无需修改原软件，具备多模型映射、思考块解析及Discord机器人等功能。",
+        "summary_en": "A Python proxy that enables free access to Claude Code by routing API calls to alternative providers like NVIDIA NIM or OpenRouter.",
+        "techStack": [
+          "Python",
+          "Anthropic API",
+          "NVIDIA NIM",
+          "OpenRouter",
+          "DeepSeek"
+        ],
+        "useCase": "需要免费使用Claude Code进行代码辅助的开发者",
+        "useCase_en": "Developers can use Claude Code for free by routing API calls through this proxy to alternative providers."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "stars": 65408,
+      "forks": 7334,
+      "todayStars": 1724,
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "aiSummary": {
+        "summary": "这是一个功能全面的黑客工具箱，包含185+种安全工具，涵盖信息收集、Web攻击、DDOS、云安全等20个类别。支持Python 3.10+，具备搜索、标签过滤、智能安装和更新功能。提供交互式终端界面，支持Docker部署，旨在为安全研究人员提供便捷的一站式渗透测试解决方案。",
+        "summary_en": "A comprehensive, all-in-one hacking toolkit for security professionals and enthusiasts, featuring 185+ tools across 20 categories.",
+        "techStack": [
+          "Python",
+          "Bash",
+          "Docker"
+        ],
+        "useCase": "渗透测试与安全研究的一站式工具箱",
+        "useCase_en": "It allows hackers and security researchers to install, update, and manage 185+ hacking utilities from a single terminal."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars": 30140,
+      "forks": 3477,
+      "todayStars": 667,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "aiSummary": {
+        "summary": "GitNexus 是一个零服务器代码智能引擎，运行于浏览器端。它利用 Tree-sitter 将代码库索引为知识图谱，支持 CLI 和 Web UI 两种模式。通过 Graph RAG 技术，为 AI 代理（如 Cursor）提供深度架构视图，解决依赖缺失问题，强调本地隐私与高性能解析。",
+        "summary_en": "A browser-based code intelligence engine that indexes codebases into knowledge graphs for AI agents.",
+        "techStack": [
+          "TypeScript",
+          "Tree-sitter",
+          "LadybugDB"
+        ],
+        "useCase": "适用于 AI 代理（如 Cursor）的代码架构分析与上下文增强，以及本地代码库的深度探索。",
+        "useCase_en": "Index codebases locally to provide AI agents with deep architectural context for reliable code analysis."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "PostHog/posthog",
+      "description": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+      "language": "Python",
+      "stars": 33821,
+      "forks": 2630,
+      "todayStars": 338,
+      "url": "https://github.com/PostHog/posthog",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 5,
+      "fullName": "microsoft/typescript-go",
+      "description": "Staging repo for development of native port of TypeScript",
+      "language": "Go",
+      "stars": 25153,
+      "forks": 919,
+      "todayStars": 38,
+      "url": "https://github.com/microsoft/typescript-go",
+      "aiSummary": {
+        "summary": "这是 TypeScript 的原生 Go 移植版本，目前处于预览阶段。项目实现了类型检查、解析、命令行工具及增量构建等核心功能，支持 JSX。虽然语言服务和部分 JS 特性仍在开发中，但已具备基本的编译能力。",
+        "summary_en": "Staging repository for a native Go port of the TypeScript compiler.",
+        "techStack": [
+          "Go",
+          "TypeScript",
+          "JavaScript"
+        ],
+        "useCase": "在 Go 环境中运行 TypeScript 代码或作为 TypeScript 编译器的原生 Go 替代方案。",
+        "useCase_en": "Compiling TypeScript to JavaScript using a native Go implementation."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "trycua/cua",
+      "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+      "language": "HTML",
+      "stars": 14353,
+      "forks": 898,
+      "todayStars": 200,
+      "url": "https://github.com/trycua/cua",
+      "aiSummary": {
+        "summary": "Cua 是一个为计算机使用代理提供开源基础设施的项目。它包含 Cua Driver（用于 macOS 后台操作）、Cua（跨平台沙箱 SDK）和 CuaBot（协作沙箱工具）。支持 Linux、macOS、Windows、Android 等系统，提供云端和本地部署方案，旨在帮助训练和评估能够控制完整桌面的 AI 代理。",
+        "summary_en": "Open-source infrastructure for Computer-Use Agents, providing sandboxes and SDKs to train and evaluate AI agents controlling full desktops.",
+        "techStack": [
+          "Python",
+          "Bash",
+          "MCP"
+        ],
+        "useCase": "用于训练和评估能够控制完整桌面（macOS、Linux、Windows等）的AI代理，实现自动化任务执行。",
+        "useCase_en": "Building and evaluating autonomous AI agents capable of controlling full desktop environments across various operating s"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "stars": 21659,
+      "forks": 1437,
+      "todayStars": 133,
+      "url": "https://github.com/gastownhall/beads",
+      "aiSummary": {
+        "summary": "Beads 是一个基于 Go 语言开发的分布式图问题跟踪器，专为 AI 编码代理提供持久化结构化记忆。它利用 Dolt 数据库实现版本控制和分支管理，通过依赖感知的图结构替代 Markdown，帮助代理处理长期任务。支持零冲突哈希 ID、语义压缩和消息线程。",
+        "summary_en": "Distributed graph issue tracker for AI agents powered by Dolt, replacing markdown plans with structured memory.",
+        "techStack": [
+          "Go",
+          "Dolt",
+          "SQL"
+        ],
+        "useCase": "为 AI 编码代理提供持久化、依赖感知的任务管理与上下文记忆。",
+        "useCase_en": "To replace messy markdown plans with a dependency-aware graph for AI agents to handle long-horizon tasks."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "curl/curl",
+      "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
+      "language": "C",
+      "stars": 41528,
+      "forks": 7153,
+      "todayStars": 50,
+      "url": "https://github.com/curl/curl",
+      "aiSummary": {
+        "summary": "curl 是一个用 C 语言编写的开源命令行工具和库，用于通过 URL 语法传输数据。它支持超过 30 种协议，功能强大且广泛用于网络请求测试和软件开发。",
+        "summary_en": "A command-line tool and library for transferring data using URL syntax.",
+        "techStack": [
+          "C",
+          "libcurl",
+          "HTTP",
+          "FTP",
+          "SFTP"
+        ],
+        "useCase": "网络请求测试、数据传输及软件开发中的网络库集成",
+        "useCase_en": "Used to transfer data from or to a server using URL syntax."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "home-assistant/core",
+      "description": "🏡 Open source home automation that puts local control and privacy first.",
+      "language": "Python",
+      "stars": 86498,
+      "forks": 37361,
+      "todayStars": 52,
+      "url": "https://github.com/home-assistant/core",
+      "aiSummary": {
+        "summary": "Home Assistant 是一个开源的家庭自动化系统，优先强调本地控制和隐私保护。它基于模块化架构，支持在 Raspberry Pi 或本地服务器上运行，拥有庞大的社区支持，易于集成各种设备和自定义组件，适合 DIY 爱好者构建智能家居。",
+        "summary_en": "Open source home automation platform prioritizing local control and privacy.",
+        "techStack": [
+          "Python",
+          "Home Assistant Components"
+        ],
+        "useCase": "在本地服务器或树莓派上运行，实现智能家居自动化与设备集成。",
+        "useCase_en": "Build a local home automation system to control devices and integrate services."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars": 496769,
+      "forks": 47078,
+      "todayStars": 1074,
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "aiSummary": {
+        "summary": "这是一个通过从头开始重新创建著名技术来学习编程的项目。它提供了详细的分步指南，涵盖操作系统、数据库、Web服务器、AI模型、游戏引擎等多个领域。通过实践这些教程，开发者可以深入理解底层原理，提升编程能力。",
+        "summary_en": "A repository of step-by-step guides to recreate famous technologies from scratch to master programming.",
+        "techStack": [
+          "C++",
+          "Java",
+          "Python",
+          "JavaScript",
+          "C#"
+        ],
+        "useCase": "适合想要深入理解计算机底层原理和系统架构的开发者。",
+        "useCase_en": "Learn programming by recreating famous technologies like Git, Blockchain, and Operating Systems from scratch."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "stars": 364589,
+      "forks": 74659,
+      "todayStars": 620,
+      "url": "https://github.com/openclaw/openclaw",
+      "aiSummary": {
+        "summary": "OpenClaw 是一个在本地设备上运行的个人 AI 助手，支持 macOS、iOS 和 Android。它通过 CLI 工具安装，支持 WhatsApp、Telegram、Slack 等多种消息渠道，利用 OpenAI 或其他大模型提供快速、本地化的智能交互体验。",
+        "summary_en": "A local personal AI assistant that runs on your own devices and integrates with various messaging platforms.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "OpenAI"
+        ],
+        "useCase": "需要在本地运行且支持多平台消息渠道的个人 AI 助手",
+        "useCase_en": "To run a local, single-user AI assistant that integrates with various messaging apps like WhatsApp and Slack."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "ComposioHQ/awesome-codex-skills",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "language": "Python",
+      "stars": 1953,
+      "forks": 158,
+      "todayStars": 518,
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "aiSummary": {
+        "summary": "该项目是一个精选的 Codex 技能库，旨在通过模块化指令包自动化工作流。它包含 Python 安装脚本，支持通过 Skill Installer 或手动安装技能。技能涵盖开发、生产力、通信等领域，允许 Codex 执行跨应用操作（如邮件、Slack）及代码审查等任务。",
+        "summary_en": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+        "techStack": [
+          "Python",
+          "Git"
+        ],
+        "useCase": "适用于需要利用 Codex 自动化复杂工作流、执行跨应用操作及代码审查的开发者。",
+        "useCase_en": "To extend Codex's capabilities beyond text generation by providing a curated list of modular skills for automating workf"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-26T23:51:28.095Z",
+    "duration": "346s",
+    "version": "1.0.0"
+  }
+}
