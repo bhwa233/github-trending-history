@@ -1,0 +1,274 @@
+{
+  "date": "2026-04-27",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 12,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 30064,
+      "forks": 2353,
+      "todayStars": 5551,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude AI 提供的工程技能集合，旨在帮助开发者进行真实的工程实践而非“氛围编码”。它包含规划与设计（如生成PRD、设计界面）以及开发（如TDD、重构、架构改进）两大类技能，通过命令行工具集成，辅助开发者进行需求分析、代码编写、测试驱动开发及代码库优化。",
+        "summary_en": "A collection of engineering-focused skills for Claude AI to assist with planning, design, and development.",
+        "techStack": [
+          "Shell",
+          "NPM"
+        ],
+        "useCase": "适用于需要自动化工程流程、提升代码质量和进行系统化开发的场景。",
+        "useCase_en": "To empower AI agents with engineering workflows for planning, testing, and refactoring codebases."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars": 31492,
+      "forks": 3602,
+      "todayStars": 1074,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "aiSummary": {
+        "summary": "GitNexus 是一个零服务器的代码智能引擎，完全在浏览器中运行。它通过 Tree-sitter 将代码库索引为知识图谱，追踪依赖和调用链。支持 CLI 和 Web UI 两种模式，可与 AI 代理（如 Cursor）集成，提供深度的架构视图，确保 AI 不会遗漏代码细节，保护隐私。",
+        "summary_en": "Client-side code intelligence engine that indexes codebases into knowledge graphs for AI agents.",
+        "techStack": [
+          "TypeScript",
+          "Tree-sitter",
+          "LadybugDB",
+          "MCP"
+        ],
+        "useCase": "代码库深度分析与 AI 代理上下文增强",
+        "useCase_en": "To index codebases locally and provide AI agents with deep architectural context for reliable code analysis."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "ComposioHQ/awesome-codex-skills",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "language": "Python",
+      "stars": 2759,
+      "forks": 201,
+      "todayStars": 637,
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "aiSummary": {
+        "summary": "这是一个精选的 Codex 技能列表，旨在通过模块化指令包自动化 Codex CLI 和 API 的工作流。项目提供了多种实用技能，涵盖开发、生产力、沟通等领域，支持邮件发送、Slack 发布等跨应用操作。用户可通过 Python 安装脚本或手动方式安装技能，Codex 会根据元数据自动触发执行。",
+        "summary_en": "A curated list of modular instruction bundles to automate workflows using the Codex CLI and API.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "需要扩展 Codex 能力以执行特定任务（如代码审查、自动化工作流、跨应用操作）的开发者或自动化工程师。",
+        "useCase_en": "Enable Codex to perform actions across 1000+ apps by installing modular instruction bundles."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "language": "Python",
+      "stars": 16035,
+      "forks": 2219,
+      "todayStars": 2973,
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "aiSummary": {
+        "summary": "这是一个开源代理工具，旨在让用户免费使用 Claude Code。它通过拦截 Anthropic API 调用，将其路由到 NVIDIA NIM、OpenRouter 或本地模型（如 LM Studio、Ollama）等替代服务。支持 VSCode、终端和 Discord，具备零成本、工具解析、智能限流等功能，无需修改 Claude Code 原有配置。",
+        "summary_en": "A Python proxy enabling free usage of Claude Code CLI and VSCode via alternative providers.",
+        "techStack": [
+          "Python",
+          "API Proxy",
+          "Local LLM"
+        ],
+        "useCase": "需要免费使用 Claude Code 进行编程或本地 AI 开发",
+        "useCase_en": "To bypass API costs by routing Claude Code requests to free or local AI models."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "stars": 22179,
+      "forks": 1456,
+      "todayStars": 485,
+      "url": "https://github.com/gastownhall/beads",
+      "aiSummary": {
+        "summary": "Beads 是一个基于 Go 和 Dolt 数据库的分布式图问题追踪器，专为 AI 编码代理设计。它提供持久化、结构化的记忆系统，支持依赖感知的图结构、版本控制、零冲突 ID 及语义压缩，帮助代理处理长期任务并保持上下文。",
+        "summary_en": "A Go CLI tool that acts as a memory upgrade for coding agents by providing a distributed graph issue tracker powered by Dolt.",
+        "techStack": [
+          "Go",
+          "Dolt",
+          "SQL"
+        ],
+        "useCase": "为 AI 编码代理提供持久化记忆和依赖管理，用于处理长期复杂任务。",
+        "useCase_en": "To provide persistent, structured memory for coding agents to handle long-horizon tasks without losing context."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "penpot/penpot",
+      "description": "Penpot: The open-source design tool for design and code collaboration",
+      "language": "Clojure",
+      "stars": 46584,
+      "forks": 2795,
+      "todayStars": 283,
+      "url": "https://github.com/penpot/penpot",
+      "aiSummary": {
+        "summary": "Penpot 是一个专为大规模团队设计的开源设计平台。支持自托管与合规性，利用 SVG、CSS、HTML 等开放标准。核心功能包括实时协作、设计即代码、Design Tokens 及 MCP 服务器，实现设计与代码的多向工作流，将设计系统与产品开发流程深度集成。",
+        "summary_en": "Open-source design platform for teams enabling design-to-code collaboration and self-hosting.",
+        "techStack": [
+          "Clojure"
+        ],
+        "useCase": "适用于需要自托管、合规性管控及设计即代码的大规模团队和企业。",
+        "useCase_en": "Teams use it to build scalable design systems and collaborate with developers using open standards."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "stars": 25775,
+      "forks": 2593,
+      "todayStars": 181,
+      "url": "https://github.com/davila7/claude-code-templates",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 7,
+      "fullName": "microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars": 43062,
+      "forks": 4887,
+      "todayStars": 771,
+      "url": "https://github.com/microsoft/VibeVoice",
+      "aiSummary": {
+        "summary": "VibeVoice 是微软开源的前沿语音 AI 框架，包含 ASR 和 TTS 模型。ASR 支持多语言长音频转录，输出结构化信息；TTS 支持多说话人长音频合成及实时流式生成。项目已集成至 Hugging Face Transformers，支持 vLLM 加速推理。",
+        "summary_en": "Microsoft's open-source frontier voice AI framework featuring advanced ASR and TTS models for multilingual speech processing.",
+        "techStack": [
+          "Python",
+          "Hugging Face Transformers",
+          "vLLM"
+        ],
+        "useCase": "适用于构建多语言语音助手、会议记录生成及长音频内容处理系统。",
+        "useCase_en": "Build multilingual speech applications using advanced ASR and TTS models."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "stars": 67058,
+      "forks": 7520,
+      "todayStars": 1839,
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 3.10+ 开发的全功能黑客工具箱，集成了 185+ 种渗透测试工具。项目提供交互式菜单、标签过滤、智能更新及一键安装功能，涵盖信息收集、Web 攻击、无线攻击等多个安全领域，旨在简化渗透测试流程。",
+        "summary_en": "A comprehensive Python-based framework aggregating 185+ offensive security tools into a unified, menu-driven interface.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Bash"
+        ],
+        "useCase": "渗透测试与安全研究",
+        "useCase_en": "It serves as a centralized management system for offensive security tools, allowing users to install, update, and execut"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 53752,
+      "forks": 9773,
+      "todayStars": 183,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents 是一个基于 Python 的多智能体 LLM 金融交易框架。它模拟真实交易公司，通过基本面分析师、技术分析师、交易员和风险管理团队等智能体的协作与动态讨论，共同评估市场并制定交易策略。支持多种大模型提供商，适合金融交易研究。",
+        "summary_en": "A multi-agent LLM framework simulating real-world trading firms for research and backtesting.",
+        "techStack": [
+          "Python",
+          "LangGraph",
+          "GPT-5.x",
+          "Claude 4.x"
+        ],
+        "useCase": "适合金融交易策略研究及多智能体协作模拟",
+        "useCase_en": "Researching financial trading strategies using multi-agent LLM collaboration."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "CJackHwang/ds2api",
+      "description": "Deepseek to API: A lightweight, high-performance full-stack middleware converting client protocols to universal APIs. Supports multi-account rotation, compiled binaries, Vercel Serverless, and Docker. Compatible with Google, Claude, and OpenAI API formats.",
+      "language": "Go",
+      "stars": 1825,
+      "forks": 566,
+      "todayStars": 144,
+      "url": "https://github.com/CJackHwang/ds2api",
+      "aiSummary": {
+        "summary": "这是一个将 DeepSeek Web 对话能力转换为 OpenAI、Claude 和 Gemini 兼容 API 的中间件。后端使用 Go 全量实现，前端为 React WebUI。支持多账户轮询、Docker 部署和 Vercel Serverless。具备 PromptCompat 内核、PoW 验证和工具调用解析等高级功能，旨在提供高性能的 API 转换服务。",
+        "summary_en": "A high-performance Go middleware converting DeepSeek web chat capabilities into OpenAI, Claude, and Gemini compatible APIs.",
+        "techStack": [
+          "Go",
+          "React",
+          "Docker",
+          "Vercel Serverless"
+        ],
+        "useCase": "需要将 DeepSeek 接入支持 OpenAI/Claude/Gemini 格式的客户端或 SDK 的开发者。",
+        "useCase_en": "Allows developers to use DeepSeek's chat capabilities through standard OpenAI, Claude, or Gemini API formats."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "deepseek-ai/DeepSeek-V3",
+      "description": "",
+      "language": "Python",
+      "stars": 103090,
+      "forks": 16697,
+      "todayStars": 60,
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "aiSummary": {
+        "summary": "DeepSeek-V3 是一个强大的混合专家（MoE）语言模型，拥有 671B 总参数和 37B 激活参数。它采用 Multi-head Latent Attention (MLA) 和 DeepSeekMoE 架构，引入无辅助损失负载均衡策略和多 Token 预测目标。在 14.8 万亿 token 上预训练后，其性能媲美顶尖闭源模型，且训练效率极高。",
+        "summary_en": "A 671B parameter Mixture-of-Experts (MoE) language model featuring FP8 training and auxiliary-loss-free load balancing.",
+        "techStack": [
+          "Python",
+          "DeepSeekMoE",
+          "MLA (Multi-head Latent Attention)",
+          "FP8"
+        ],
+        "useCase": "适用于高性能大语言模型推理、自然语言处理及代码生成任务。",
+        "useCase_en": "Provides a high-performance, cost-effective open-source LLM for complex reasoning and chat applications."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "stars": 345139,
+      "forks": 55760,
+      "todayStars": 396,
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "aiSummary": {
+        "summary": "这是一个开源项目，旨在帮助工程师学习如何设计大规模系统，并为系统设计面试做准备。它包含丰富的学习资源、面试题库、解决方案以及基于间隔重复的 Anki 闪卡，帮助用户掌握系统设计核心概念。",
+        "summary_en": "Comprehensive open-source guide for learning large-scale system design and interview preparation.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于准备系统设计面试的软件工程师进行学习和备考。",
+        "useCase_en": "Software engineers preparing for system design interviews use this guide to learn scalable architecture concepts."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-28T00:01:42.129Z",
+    "duration": "253s",
+    "version": "1.0.0"
+  }
+}
