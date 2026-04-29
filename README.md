@@ -70,25 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-27 | **成功**: 12 | **失败**: 1
+**最后更新**: 2026-04-28 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .claud... | Shell | 30.1k | 5.6k | 这是一个为 Claude AI 提供的工程技能集合，旨在帮助开发者进行真实的工程实践而非“氛围编码”。它包含规划与设计（如生成PRD、设计界面）以及开发（如TDD、重构、架构改进）两大类技能，通过命令行工具集成，辅助开发者进行需求分析、代码编写、测试驱动开发及代码库优化。 |
-| 2 | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | GitNexus: The Zero-Server Code Intelligence Engine... | TypeScript | 31.5k | 1.1k | GitNexus 是一个零服务器的代码智能引擎，完全在浏览器中运行。它通过 Tree-sitter 将代码库索引为知识图谱，追踪依赖和调用链。支持 CLI 和 Web UI 两种模式，可与 AI 代理（如 Cursor）集成，提供深度的架构视图，确保 AI 不会遗漏代码细节，保护隐私。 |
-| 3 | [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills) | A curated list of practical Codex skills for autom... | Python | 2.8k | 637 | 这是一个精选的 Codex 技能列表，旨在通过模块化指令包自动化 Codex CLI 和 API 的工作流。项目提供了多种实用技能，涵盖开发、生产力、沟通等领域，支持邮件发送、Slack 发布等跨应用操作。用户可通过 Python 安装脚本或手动方式安装技能，Codex 会根据元数据自动触发执行。 |
-| 4 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Use claude-code for free in the terminal, VSCode e... | Python | 16.0k | 3.0k | 这是一个开源代理工具，旨在让用户免费使用 Claude Code。它通过拦截 Anthropic API 调用，将其路由到 NVIDIA NIM、OpenRouter 或本地模型（如 LM Studio、Ollama）等替代服务。支持 VSCode、终端和 Discord，具备零成本、工具解析、智能限流等功能，无需修改 Claude Code 原有配置。 |
-| 5 | [gastownhall/beads](https://github.com/gastownhall/beads) | Beads - A memory upgrade for your coding agent... | Go | 22.2k | 485 | Beads 是一个基于 Go 和 Dolt 数据库的分布式图问题追踪器，专为 AI 编码代理设计。它提供持久化、结构化的记忆系统，支持依赖感知的图结构、版本控制、零冲突 ID 及语义压缩，帮助代理处理长期任务并保持上下文。 |
-| 6 | [penpot/penpot](https://github.com/penpot/penpot) | Penpot: The open-source design tool for design and... | Clojure | 46.6k | 283 | Penpot 是一个专为大规模团队设计的开源设计平台。支持自托管与合规性，利用 SVG、CSS、HTML 等开放标准。核心功能包括实时协作、设计即代码、Design Tokens 及 MCP 服务器，实现设计与代码的多向工作流，将设计系统与产品开发流程深度集成。 |
-| 7 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI tool for configuring and monitoring Claude Cod... | Python | 25.8k | 181 | 处理失败 |
-| 8 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI... | Python | 43.1k | 771 | VibeVoice 是微软开源的前沿语音 AI 框架，包含 ASR 和 TTS 模型。ASR 支持多语言长音频转录，输出结构化信息；TTS 支持多说话人长音频合成及实时流式生成。项目已集成至 Hugging Face Transformers，支持 vLLM 加速推理。 |
-| 9 | [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers... | Python | 67.1k | 1.8k | 这是一个基于 Python 3.10+ 开发的全功能黑客工具箱，集成了 185+ 种渗透测试工具。项目提供交互式菜单、标签过滤、智能更新及一键安装功能，涵盖信息收集、Web 攻击、无线攻击等多个安全领域，旨在简化渗透测试流程。 |
-| 10 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 53.8k | 183 | TradingAgents 是一个基于 Python 的多智能体 LLM 金融交易框架。它模拟真实交易公司，通过基本面分析师、技术分析师、交易员和风险管理团队等智能体的协作与动态讨论，共同评估市场并制定交易策略。支持多种大模型提供商，适合金融交易研究。 |
-| 11 | [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | Deepseek to API: A lightweight, high-performance f... | Go | 1.8k | 144 | 这是一个将 DeepSeek Web 对话能力转换为 OpenAI、Claude 和 Gemini 兼容 API 的中间件。后端使用 Go 全量实现，前端为 React WebUI。支持多账户轮询、Docker 部署和 Vercel Serverless。具备 PromptCompat 内核、PoW 验证和工具调用解析等高级功能，旨在提供高性能的 API 转换服务。 |
-| 12 | [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | ... | Python | 103.1k | 60 | DeepSeek-V3 是一个强大的混合专家（MoE）语言模型，拥有 671B 总参数和 37B 激活参数。它采用 Multi-head Latent Attention (MLA) 和 DeepSeekMoE 架构，引入无辅助损失负载均衡策略和多 Token 预测目标。在 14.8 万亿 token 上预训练后，其性能媲美顶尖闭源模型，且训练效率极高。 |
-| 13 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Learn how to design large-scale systems. Prep for ... | Python | 345.1k | 396 | 这是一个开源项目，旨在帮助工程师学习如何设计大规模系统，并为系统设计面试做准备。它包含丰富的学习资源、面试题库、解决方案以及基于间隔重复的 Anki 闪卡，帮助用户掌握系统设计核心概念。 |
+| 1 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .claud... | Shell | 37.2k | 7.4k | 这是一个为 Claude Code 等编码代理设计的技能集，旨在帮助工程师避免“氛围编码”，通过 `/grill-me` 等命令解决需求理解偏差，提升开发效率和代码质量。支持快速安装和自定义配置。 |
+| 2 | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | GitNexus: The Zero-Server Code Intelligence Engine... | TypeScript | 32.6k | 1.6k | GitNexus 是一个零服务器代码智能引擎，完全在浏览器中运行。它将代码库索引为知识图谱，追踪依赖关系和调用链，并提供 Graph RAG Agent。它支持本地隐私，并通过 CLI/MCP 与 Cursor、Claude 等 AI 代理集成，帮助它们理解复杂的代码架构。 |
+| 3 | [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills) | A curated list of practical Codex skills for autom... | Python | 4.0k | 961 | 这是一个精选的 Codex 技能列表，旨在通过模块化的指令包自动化工作流。这些技能支持跨 1000+ 应用执行操作（如发送邮件、发布 Slack），涵盖开发、生产力、沟通等领域。项目提供了安装脚本，允许用户将技能集成到 Codex CLI 中，通过元数据触发特定任务，提升 AI 的执行能力。 |
+| 4 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI... | Python | 44.8k | 1.5k | VibeVoice 是微软开源的前沿语音 AI 模型家族，包含 TTS 和 ASR。TTS 支持长篇多说话人合成及实时流式生成，ASR 支持超长音频（60分钟）及多语言结构化转录。现已集成至 Hugging Face Transformers，支持 vLLM 推理加速。 |
+| 5 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI tool for configuring and monitoring Claude Cod... | Python | 26.1k | 347 | 该项目是一个为 Anthropic Claude Code 提供即用型配置的 CLI 工具。它包含 100 多个 AI 代理、自定义命令、MCP 集成、设置和钩子，旨在通过 Web 仪表板增强开发工作流。支持通过 npx 快速安装特定组件。 |
+| 6 | [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | Useful tool to track location or mobile number... | Python | 10.6k | 976 | GhostTrack 是一个基于 Python 的开源情报（OSINT）工具，主要用于信息收集。它提供 IP 追踪、手机号码查询以及社交媒体用户名搜索功能，帮助用户获取目标对象的网络足迹和基本信息。 |
+| 7 | [fspecii/ace-step-ui](https://github.com/fspecii/ace-step-ui) | 🎵 The Ultimate Open Source Suno Alternative - Pro... | JavaScript | 1.7k | 263 | 这是一个为 ACE-Step 1.5 AI 音乐模型提供专业界面的开源项目。它允许用户在本地免费生成完整的歌曲（含人声或纯音乐），支持自定义参数、批量生成和风格参考。作为 Suno 的替代品，它强调隐私、无限制和完全本地化运行，适合追求高质量且无需付费的音乐创作者。 |
+| 8 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs... | Python | 428.1k | 600 | 这是一个由社区成员手动策划的免费公共 API 集合。项目涵盖了动物、动漫、商业、天气、金融等众多领域的 API，旨在为开发者提供寻找和集成免费 API 的资源库。它不仅包含 API 列表，还提供了详细的分类索引和文档链接，是开发者寻找 API 资源的重要参考。 |
+| 9 | [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | Deepseek to API: A lightweight, high-performance f... | Go | 2.3k | 418 | 这是一个将 DeepSeek Web 对话能力转换为 OpenAI、Claude 和 Gemini 兼容 API 的轻量级全栈中间件。后端使用 Go 实现，支持多账号轮询、流式响应和 PoW 验证，前端为 React 管理台。支持 Docker、Vercel Serverless 部署，兼容多种客户端协议。 |
+| 10 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Use claude-code for free in the terminal, VSCode e... | Python | 17.5k | 1.7k | 这是一个免费使用 Claude Code 的代理工具，支持 CLI、VS Code 扩展及 Discord 机器人。它通过路由 Anthropic API 流量至 NVIDIA NIM、OpenRouter 等免费或本地模型，实现了流式传输、工具调用及推理块处理等功能，让用户无需付费即可享受 Claude Code 的强大能力。 |
+| 11 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Learn how to design large-scale systems. Prep for ... | Python | 345.8k | 734 | 这是一个开源的系统设计学习指南，旨在帮助工程师掌握大规模系统设计原理，并为系统设计面试做准备。项目包含丰富的学习资源、面试题库及解决方案，并提供了基于间隔重复算法的 Anki 闪卡，支持多语言，鼓励社区贡献。 |
+| 12 | [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 📚 Freely available programming books... | Python | 386.6k | 133 | 该项目由 Free Ebook Foundation 维护，是一个汇集了多种编程语言和主题的免费电子书资源列表。支持多语言分类与搜索，旨在促进免费教育资源的创建、分发与存档，是 GitHub 上极具影响力的开源学习库。 |
+| 13 | [iamgio/quarkdown](https://github.com/iamgio/quarkdown) | 🪐 Markdown with superpowers: from ideas to papers... | Kotlin | 12.0k | 797 | Quarkdown 是一个基于 Kotlin 的现代 Markdown 排版系统，通过 Turing-complete 扩展将单一 Markdown 文件编译为书籍、学术论文、知识库或交互式演示文稿。它支持函数调用、变量定义及复杂逻辑，结合快速编译和 VS Code 扩展，实现从想法到成品的自动化转换。 |
 
-[查看完整数据](api/github/2026-04-27.json)
+[查看完整数据](api/github/2026-04-28.json)
 <!-- END GITHUB TRENDING -->
 
 

@@ -1,0 +1,287 @@
+{
+  "date": "2026-04-28",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 37154,
+      "forks": 2917,
+      "todayStars": 7429,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 等编码代理设计的技能集，旨在帮助工程师避免“氛围编码”，通过 `/grill-me` 等命令解决需求理解偏差，提升开发效率和代码质量。支持快速安装和自定义配置。",
+        "summary_en": "A collection of composable agent skills for AI coding assistants to improve engineering workflows.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "AI Agents"
+        ],
+        "useCase": "用于提升 AI 编码代理的工程化能力，解决需求理解偏差，规范开发流程。",
+        "useCase_en": "To install and configure agent skills that help AI coding assistants align with engineering requirements and workflows."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars": 32608,
+      "forks": 3701,
+      "todayStars": 1565,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "aiSummary": {
+        "summary": "GitNexus 是一个零服务器代码智能引擎，完全在浏览器中运行。它将代码库索引为知识图谱，追踪依赖关系和调用链，并提供 Graph RAG Agent。它支持本地隐私，并通过 CLI/MCP 与 Cursor、Claude 等 AI 代理集成，帮助它们理解复杂的代码架构。",
+        "summary_en": "Client-side knowledge graph engine that indexes codebases locally to provide AI agents with deep architectural context.",
+        "techStack": [
+          "TypeScript",
+          "Tree-sitter",
+          "LadybugDB",
+          "WASM"
+        ],
+        "useCase": "适用于 AI 代理（如 Cursor、Claude）的本地代码库深度分析与架构理解。",
+        "useCase_en": "Index codebases into a knowledge graph to enable AI agents like Cursor and Claude Code to understand complex dependencie"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "ComposioHQ/awesome-codex-skills",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "language": "Python",
+      "stars": 3967,
+      "forks": 255,
+      "todayStars": 961,
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "aiSummary": {
+        "summary": "这是一个精选的 Codex 技能列表，旨在通过模块化的指令包自动化工作流。这些技能支持跨 1000+ 应用执行操作（如发送邮件、发布 Slack），涵盖开发、生产力、沟通等领域。项目提供了安装脚本，允许用户将技能集成到 Codex CLI 中，通过元数据触发特定任务，提升 AI 的执行能力。",
+        "summary_en": "A curated list of modular skills to automate workflows across the Codex CLI and API.",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "Codex CLI/API"
+        ],
+        "useCase": "需要利用 Codex AI 自动化跨应用工作流及执行特定任务的场景。",
+        "useCase_en": "Automate complex workflows and actions across 1000+ apps using modular Codex skills."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars": 44769,
+      "forks": 4971,
+      "todayStars": 1523,
+      "url": "https://github.com/microsoft/VibeVoice",
+      "aiSummary": {
+        "summary": "VibeVoice 是微软开源的前沿语音 AI 模型家族，包含 TTS 和 ASR。TTS 支持长篇多说话人合成及实时流式生成，ASR 支持超长音频（60分钟）及多语言结构化转录。现已集成至 Hugging Face Transformers，支持 vLLM 推理加速。",
+        "summary_en": "Microsoft's open-source frontier voice AI framework featuring ASR and TTS models for long-form speech processing.",
+        "techStack": [
+          "Python",
+          "Hugging Face Transformers",
+          "vLLM"
+        ],
+        "useCase": "适用于长音频转录、多说话人语音合成及实时语音交互场景。",
+        "useCase_en": "Enables developers to build applications with advanced speech recognition and text-to-speech capabilities."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "stars": 26148,
+      "forks": 2614,
+      "todayStars": 347,
+      "url": "https://github.com/davila7/claude-code-templates",
+      "aiSummary": {
+        "summary": "该项目是一个为 Anthropic Claude Code 提供即用型配置的 CLI 工具。它包含 100 多个 AI 代理、自定义命令、MCP 集成、设置和钩子，旨在通过 Web 仪表板增强开发工作流。支持通过 npx 快速安装特定组件。",
+        "summary_en": "CLI tool for configuring and monitoring Claude Code with ready-to-use templates for agents, commands, and integrations.",
+        "techStack": [
+          "Python",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "快速配置 Claude Code，提升开发效率，安装各类 AI 代理和工具。",
+        "useCase_en": "Streamline Claude Code configuration by installing pre-built AI agents, commands, and external service integrations."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "HunxByts/GhostTrack",
+      "description": "Useful tool to track location or mobile number",
+      "language": "Python",
+      "stars": 10590,
+      "forks": 1489,
+      "todayStars": 976,
+      "url": "https://github.com/HunxByts/GhostTrack",
+      "aiSummary": {
+        "summary": "GhostTrack 是一个基于 Python 的开源情报（OSINT）工具，主要用于信息收集。它提供 IP 追踪、手机号码查询以及社交媒体用户名搜索功能，帮助用户获取目标对象的网络足迹和基本信息。",
+        "summary_en": "A Python-based OSINT tool for tracking IP addresses, phone numbers, and usernames.",
+        "techStack": [
+          "Python",
+          "Git",
+          "pip",
+          "Linux",
+          "Termux"
+        ],
+        "useCase": "用于网络安全测试、信息收集或网络取证。",
+        "useCase_en": "An OSINT tool for gathering information on targets via IP, phone numbers, or usernames."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "fspecii/ace-step-ui",
+      "description": "🎵 The Ultimate Open Source Suno Alternative - Professional UI for ACE-Step 1.5 AI Music Generation. Free, local, unlimited. Stop paying for Suno!",
+      "language": "JavaScript",
+      "stars": 1656,
+      "forks": 258,
+      "todayStars": 263,
+      "url": "https://github.com/fspecii/ace-step-ui",
+      "aiSummary": {
+        "summary": "这是一个为 ACE-Step 1.5 AI 音乐模型提供专业界面的开源项目。它允许用户在本地免费生成完整的歌曲（含人声或纯音乐），支持自定义参数、批量生成和风格参考。作为 Suno 的替代品，它强调隐私、无限制和完全本地化运行，适合追求高质量且无需付费的音乐创作者。",
+        "summary_en": "Professional UI for ACE-Step 1.5 AI music generation, offering a local, free alternative to Suno.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "本地 AI 音乐生成，替代 Suno/Udio 等付费服务",
+        "useCase_en": "Generate professional AI music locally using the ACE-Step 1.5 model via a Spotify-like interface."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars": 428116,
+      "forks": 46748,
+      "todayStars": 600,
+      "url": "https://github.com/public-apis/public-apis",
+      "aiSummary": {
+        "summary": "这是一个由社区成员手动策划的免费公共 API 集合。项目涵盖了动物、动漫、商业、天气、金融等众多领域的 API，旨在为开发者提供寻找和集成免费 API 的资源库。它不仅包含 API 列表，还提供了详细的分类索引和文档链接，是开发者寻找 API 资源的重要参考。",
+        "summary_en": "A community-curated collection of free public APIs for developers to integrate into their projects.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "开发者寻找免费 API 资源，用于快速集成第三方服务或开发新产品。",
+        "useCase_en": "To find and integrate free APIs for various applications."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "CJackHwang/ds2api",
+      "description": "Deepseek to API: A lightweight, high-performance full-stack middleware converting client protocols to universal APIs. Supports multi-account rotation, compiled binaries, Vercel Serverless, and Docker. Compatible with Google, Claude, and OpenAI API formats.",
+      "language": "Go",
+      "stars": 2314,
+      "forks": 645,
+      "todayStars": 418,
+      "url": "https://github.com/CJackHwang/ds2api",
+      "aiSummary": {
+        "summary": "这是一个将 DeepSeek Web 对话能力转换为 OpenAI、Claude 和 Gemini 兼容 API 的轻量级全栈中间件。后端使用 Go 实现，支持多账号轮询、流式响应和 PoW 验证，前端为 React 管理台。支持 Docker、Vercel Serverless 部署，兼容多种客户端协议。",
+        "summary_en": "Go-based middleware converting DeepSeek Web chat to OpenAI, Claude, and Gemini compatible APIs with multi-account rotation.",
+        "techStack": [
+          "Go",
+          "React",
+          "Docker",
+          "Vercel Serverless",
+          "Chi Router"
+        ],
+        "useCase": "将 DeepSeek 能力无缝集成到使用 OpenAI、Claude 或 Gemini 协议的现有应用中。",
+        "useCase_en": "Run a local proxy to access DeepSeek's AI models using standard OpenAI, Claude, or Gemini API clients."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "language": "Python",
+      "stars": 17480,
+      "forks": 2457,
+      "todayStars": 1706,
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "aiSummary": {
+        "summary": "这是一个免费使用 Claude Code 的代理工具，支持 CLI、VS Code 扩展及 Discord 机器人。它通过路由 Anthropic API 流量至 NVIDIA NIM、OpenRouter 等免费或本地模型，实现了流式传输、工具调用及推理块处理等功能，让用户无需付费即可享受 Claude Code 的强大能力。",
+        "summary_en": "Free proxy for Claude Code routing traffic to multiple AI providers.",
+        "techStack": [
+          "Python",
+          "uv",
+          "FastAPI/Uvicorn",
+          "Claude Code"
+        ],
+        "useCase": "需要免费使用 Claude Code 进行编程或本地开发",
+        "useCase_en": "Allows free usage of Claude Code by routing API calls to various AI providers."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "stars": 345833,
+      "forks": 55827,
+      "todayStars": 734,
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "aiSummary": {
+        "summary": "这是一个开源的系统设计学习指南，旨在帮助工程师掌握大规模系统设计原理，并为系统设计面试做准备。项目包含丰富的学习资源、面试题库及解决方案，并提供了基于间隔重复算法的 Anki 闪卡，支持多语言，鼓励社区贡献。",
+        "summary_en": "Open-source guide for learning system design and preparing for technical interviews with Anki flashcards.",
+        "techStack": [
+          "Python",
+          "Markdown"
+        ],
+        "useCase": "适用于希望提升大型系统架构设计能力及准备技术面试的软件工程师。",
+        "useCase_en": "A resource for engineers preparing for system design interviews and learning scalable architecture."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "EbookFoundation/free-programming-books",
+      "description": "📚 Freely available programming books",
+      "language": "Python",
+      "stars": 386613,
+      "forks": 66157,
+      "todayStars": 133,
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "aiSummary": {
+        "summary": "该项目由 Free Ebook Foundation 维护，是一个汇集了多种编程语言和主题的免费电子书资源列表。支持多语言分类与搜索，旨在促进免费教育资源的创建、分发与存档，是 GitHub 上极具影响力的开源学习库。",
+        "summary_en": "A comprehensive list of freely available programming books in multiple languages maintained by the Free Ebook Foundation.",
+        "techStack": [
+          "Python",
+          "Markdown"
+        ],
+        "useCase": "适合程序员、学生及开发者寻找免费的学习资料和电子书。",
+        "useCase_en": "A centralized repository for finding free programming books across various languages."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "iamgio/quarkdown",
+      "description": "🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.",
+      "language": "Kotlin",
+      "stars": 11982,
+      "forks": 318,
+      "todayStars": 797,
+      "url": "https://github.com/iamgio/quarkdown",
+      "aiSummary": {
+        "summary": "Quarkdown 是一个基于 Kotlin 的现代 Markdown 排版系统，通过 Turing-complete 扩展将单一 Markdown 文件编译为书籍、学术论文、知识库或交互式演示文稿。它支持函数调用、变量定义及复杂逻辑，结合快速编译和 VS Code 扩展，实现从想法到成品的自动化转换。",
+        "summary_en": "A Kotlin-based typesetting system extending Markdown with Turing-complete scripting for versatile document generation.",
+        "techStack": [
+          "Kotlin",
+          "Markdown",
+          "CommonMark/GFM"
+        ],
+        "useCase": "适用于将 Markdown 文档转换为学术论文、书籍、知识库或交互式演示文稿的场景。",
+        "useCase_en": "Generate complex documents like books, papers, and presentations using a Turing-complete Markdown extension."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-29T00:02:00.387Z",
+    "duration": "231s",
+    "version": "1.0.0"
+  }
+}
