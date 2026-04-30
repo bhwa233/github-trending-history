@@ -1,0 +1,282 @@
+{
+  "date": "2026-04-30",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "warpdotdev/warp",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "language": "Rust",
+      "stars": 49139,
+      "forks": 3187,
+      "todayStars": 8262,
+      "url": "https://github.com/warpdotdev/warp",
+      "aiSummary": {
+        "summary": "Warp 是一个基于 Rust 的代理式开发环境，旨在增强终端体验。它集成了由 OpenAI 支持的内置编码代理，同时也支持外部 CLI 代理。项目采用 MIT 和 AGPL v3 双重许可，致力于构建现代化的开源终端工具，并欢迎社区贡献。",
+        "summary_en": "Warp is a Rust-based agentic development environment that integrates AI coding agents into the terminal.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "适合需要 AI 辅助编程和现代化终端体验的开发者。",
+        "useCase_en": "Developers use Warp to integrate AI coding agents directly into their terminal workflow."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 57684,
+      "forks": 10943,
+      "todayStars": 2203,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents 是一个基于多智能体 LLM 的金融交易框架，模拟真实交易公司运作。它部署基本面、情绪、技术分析师及交易员等角色，协作评估市场并动态讨论策略。支持多种大模型提供商及 LangGraph，旨在为金融研究提供自动化交易决策支持。",
+        "summary_en": "Multi-agent LLM framework simulating real-world trading dynamics for financial research.",
+        "techStack": [
+          "Python",
+          "LangGraph",
+          "Docker"
+        ],
+        "useCase": "金融交易策略的研究与模拟",
+        "useCase_en": "Simulate real-world trading firm dynamics using specialized LLM-powered agents for financial research."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 49375,
+      "forks": 4045,
+      "todayStars": 6175,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一套为 Claude Code 等编码代理提供的实用技能集，旨在解决 AI 代理常见的沟通偏差和执行问题。通过提供结构化工作流（如问题跟踪、文档管理）和交互命令（如 /grill-me），帮助工程师更高效地与 AI 协作，实现真正的工程化开发。",
+        "summary_en": "A collection of shell skills for coding agents to improve engineering workflows and alignment.",
+        "techStack": [
+          "Shell",
+          "Node.js"
+        ],
+        "useCase": "为 AI 编码代理配置工程化工作流，解决 AI 沟通偏差，提升协作效率。",
+        "useCase_en": "Enhance coding agents with engineering-focused skills to improve workflow alignment and bug resolution."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 174551,
+      "forks": 15404,
+      "todayStars": 1623,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码代理设计的代理技能框架和软件开发方法论。它通过引导用户明确需求、分解规范、制定实施计划，并利用子代理驱动开发，强调 TDD、YAGNI 和 DRY 原则。该框架支持 Claude 代理在无需人工干预的情况下自主工作数小时，实现高效的自动化编程。",
+        "summary_en": "An agentic skills framework and software development methodology designed for coding agents.",
+        "techStack": [
+          "Shell",
+          "Claude"
+        ],
+        "useCase": "适用于利用 AI 代理进行自动化软件开发、代码生成及复杂项目管理的场景。",
+        "useCase_en": "To empower coding agents with a structured methodology for autonomous software development."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "lukilabs/craft-agents-oss",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 5562,
+      "forks": 738,
+      "todayStars": 314,
+      "url": "https://github.com/lukilabs/craft-agents-oss",
+      "aiSummary": {
+        "summary": "这是一个由 Craft.do 开发的开源工具，旨在提供直观的 AI 代理协作体验。项目基于 TypeScript，结合 Claude 和 Pi SDK，支持无需配置文件即可连接各类 API 和 MCP 服务（包括本地和自定义）。它采用 Agent Native 原则，允许用户通过自然语言提示实现高度定制化，提供以文档为中心的流畅 UI。",
+        "summary_en": "A TypeScript-based UI for managing AI agents like Claude and Pi, featuring seamless API integration and session sharing.",
+        "techStack": [
+          "TypeScript",
+          "Claude Agent SDK",
+          "Pi SDK",
+          "MCP"
+        ],
+        "useCase": "适合需要通过自然语言与 AI 代理协作、连接多种外部服务并实现高度定制化工作流的用户。",
+        "useCase_en": "To provide a beautiful, document-centric interface for working with AI agents and connecting to various APIs."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars": 429498,
+      "forks": 46862,
+      "todayStars": 307,
+      "url": "https://github.com/public-apis/public-apis",
+      "aiSummary": {
+        "summary": "这是一个由社区成员手动策划的免费公共 API 集合列表。它涵盖了从 Authentication 到 Finance 等众多领域的 API，旨在帮助开发者轻松找到并集成所需的接口。项目不仅包含分类索引，还展示了赞助商提供的优质 API 服务，是开发者寻找 API 资源的宝藏库。",
+        "summary_en": "A curated list of free APIs for developers to use in their projects.",
+        "techStack": [
+          "Markdown",
+          "HTML",
+          "Static Site"
+        ],
+        "useCase": "开发者寻找免费 API 资源以集成到产品中",
+        "useCase_en": "A resource for developers to discover and integrate free public APIs."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "stars": 1868,
+      "forks": 171,
+      "todayStars": 670,
+      "url": "https://github.com/1jehuang/jcode",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 的高性能 Coding Agent Harness，专为多会话工作流设计。它以极致的资源效率和性能著称，内存占用远低于 Cursor、Claude Code 等竞品，支持无限定制。",
+        "summary_en": "A high-performance Rust-based coding agent harness focused on multi-session workflows and resource efficiency.",
+        "techStack": [
+          "Rust",
+          "Coding Agent",
+          "CLI Tool"
+        ],
+        "useCase": "适合需要高性能、低资源占用的多会话编程工作流。",
+        "useCase_en": "To manage and execute coding agents with high performance and customizability."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "stars": 20825,
+      "forks": 1448,
+      "todayStars": 723,
+      "url": "https://github.com/soxoj/maigret",
+      "aiSummary": {
+        "summary": "Maigret 是一款开源的 OSINT 工具，能够通过单一用户名在 3000+ 个网站收集个人档案。它支持自动提取信息、递归搜索、绕过封锁及 Tor/I2P 访问，并提供 Web UI 和多种报告格式，无需 API 密钥即可使用。",
+        "summary_en": "A Python OSINT tool that aggregates user profiles from 3000+ websites to build comprehensive digital dossiers.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于开源情报收集、社交媒体分析和人员背景调查。",
+        "useCase_en": "To perform open-source intelligence gathering by checking for user accounts across thousands of websites."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "HunxByts/GhostTrack",
+      "description": "Useful tool to track location or mobile number",
+      "language": "Python",
+      "stars": 12161,
+      "forks": 1629,
+      "todayStars": 830,
+      "url": "https://github.com/HunxByts/GhostTrack",
+      "aiSummary": {
+        "summary": "GhostTrack 是一个基于 Python 的 OSINT 信息收集工具，支持 IP 追踪、手机号码查询及社交媒体用户名搜索。它提供了 Linux 和 Termux 环境下的安装指南，主要用于网络情报获取和目标信息收集。",
+        "summary_en": "A Python-based OSINT tool for tracking IP addresses, phone numbers, and usernames.",
+        "techStack": [
+          "Python",
+          "Git",
+          "pip"
+        ],
+        "useCase": "用于网络情报收集和目标信息追踪",
+        "useCase_en": "Used for gathering information on targets via IP, phone, and username tracking."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "iamgio/quarkdown",
+      "description": "🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.",
+      "language": "Kotlin",
+      "stars": 13050,
+      "forks": 357,
+      "todayStars": 350,
+      "url": "https://github.com/iamgio/quarkdown",
+      "aiSummary": {
+        "summary": "Quarkdown 是一个基于 Kotlin 的现代 Markdown 排版系统。它通过 Turing-complete 扩展，允许在 Markdown 中编写函数、逻辑和布局，将单一文档编译为书籍、论文、知识库或演示文稿。支持自定义函数和标准库，极大提升了 Markdown 的灵活性。",
+        "summary_en": "A Kotlin-based typesetting system extending Markdown with Turing-complete scripting for versatile document generation.",
+        "techStack": [
+          "Kotlin"
+        ],
+        "useCase": "学术写作、书籍出版、知识库构建及交互式演示制作。",
+        "useCase_en": "Generate print-ready books, academic papers, and interactive presentations using a Turing-complete Markdown extension."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "ghostty-org/ghostty",
+      "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+      "language": "Zig",
+      "stars": 52841,
+      "forks": 2562,
+      "todayStars": 379,
+      "url": "https://github.com/ghostty-org/ghostty",
+      "aiSummary": {
+        "summary": "Ghostty 是一个快速、功能丰富且跨平台的终端模拟器，采用原生 UI 和 GPU 加速。它提供主应用和零依赖的 libghostty 库，支持嵌入终端或构建新终端。项目已实现标准合规、高性能及丰富的窗口功能，目前处于稳定状态，被广泛使用。",
+        "summary_en": "Ghostty is a fast, cross-platform terminal emulator written in Zig featuring native UI and GPU acceleration.",
+        "techStack": [
+          "Zig",
+          "C",
+          "GPU",
+          "Native UI"
+        ],
+        "useCase": "适合追求高性能、原生体验及丰富功能的开发者或系统管理员使用。",
+        "useCase_en": "Developers use this fast, native terminal emulator for command-line tasks and development workflows."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "ForrestKnight/open-source-cs",
+      "description": "Video discussing this curriculum:",
+      "language": "",
+      "stars": 22366,
+      "forks": 3212,
+      "todayStars": 133,
+      "url": "https://github.com/ForrestKnight/open-source-cs",
+      "aiSummary": {
+        "summary": "这是一个精选的免费课程列表，旨在满足计算机科学学士学位的要求。它涵盖了编程、数学和计算机科学理论，汇集了哈佛、MIT、斯坦福等名校资源，为自学者提供了结构化的学习路径。",
+        "summary_en": "A curated list of free university courses covering CS basics, programming, and math to simulate an undergraduate degree.",
+        "techStack": [
+          "教育",
+          "课程",
+          "文档"
+        ],
+        "useCase": "适合希望自学计算机科学并获得与本科同等水平知识的个人。",
+        "useCase_en": "Self-learners can use this curated list of free university courses to self-study for a Computer Science degree."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "browserbase/skills",
+      "description": "Claude Agent SDK with a web browsing tool",
+      "language": "JavaScript",
+      "stars": 823,
+      "forks": 64,
+      "todayStars": 54,
+      "url": "https://github.com/browserbase/skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 提供的 Browserbase 集成技能集，支持云端浏览器自动化、反机器人检测、CAPTCHA 解决及代理设置。包含调试、追踪、无服务器函数部署、Cookie 同步、静态抓取、AI UI 测试及成本分析等功能，旨在简化云端浏览器操作与测试流程。",
+        "summary_en": "A collection of skills for Claude Code to automate web browsing via Browserbase.",
+        "techStack": [
+          "JavaScript",
+          "Browserbase",
+          "Claude Code",
+          "bb CLI"
+        ],
+        "useCase": "适用于需要云端无头浏览器自动化、反爬虫测试及 AI 辅助 UI 测试的开发场景。",
+        "useCase_en": "Enable Claude Code to perform complex web automation, debugging, and testing using Browserbase."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-30T23:58:42.021Z",
+    "duration": "198s",
+    "version": "1.0.0"
+  }
+}

@@ -70,28 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-29 | **成功**: 15 | **失败**: 1
+**最后更新**: 2026-04-30 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [warpdotdev/warp](https://github.com/warpdotdev/warp) | Warp is an agentic development environment, born o... | Rust | 43.6k | 12.0k | Warp 是一个基于 Rust 的智能终端开发环境，集成了 OpenAI 支持的编码代理。它支持内置及外部 CLI 代理，提供 Web 界面监控开发活动，旨在通过 AI 增强 Terminal 体验，简化开发流程。 |
-| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .claud... | Shell | 44.4k | 7.4k | 专为 Claude Code 等编码代理设计的实用技能库，旨在解决 AI 与用户之间的沟通错位。提供快速安装脚本和一系列交互式命令（如 /grill-me、/triage），帮助工程师高效管理问题跟踪、文档生成及代码审查，强调小而美、可组合的工程实践。 |
-| 3 | [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | Useful tool to track location or mobile number... | Python | 11.6k | 1.0k | GhostTrack 是一个基于 Python 的 OSINT 信息收集工具，主要用于追踪 IP 地址、手机号码以及社交媒体用户名。它支持在 Linux 和 Termux 环境下运行，通过菜单界面提供 IP 追踪、手机号码查询和用户名搜索等功能，帮助用户获取目标对象的公开信息。 |
-| 4 | [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills) | A curated list of practical Codex skills for autom... | Python | 4.8k | 1.2k | 这是一个由 ComposioHQ 维护的 Codex 技能精选列表，旨在通过模块化指令包自动化工作流。项目提供 Python 安装脚本，支持将技能安装至 Codex CLI，涵盖开发、生产力、沟通等领域，让 Codex 能执行邮件、Slack 等跨应用操作。 |
-| 5 | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Coding Agent Harness... | Rust | 1.3k | 386 | jcode 是一个用 Rust 编写的下一代编码代理框架。它专注于多会话工作流、无限可定制性和极致性能。项目以极低的资源占用（内存和启动速度）著称，相比同类工具具有显著优势，适合大规模并发场景。 |
-| 6 | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | GitNexus: The Zero-Server Code Intelligence Engine... | TypeScript | 33.3k | 777 | GitNexus 是一个纯客户端的代码智能引擎，利用 Tree-sitter 将代码库索引为交互式知识图谱。它内置 Graph RAG Agent，支持 CLI 和 Web UI 模式，可与 Cursor、Claude Code 等 AI 工具集成。项目强调隐私保护，通过本地解析提供深度的代码架构视图，帮助 AI 代理准确理解代码依赖和执行流程。 |
-| 7 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI... | Python | 45.7k | 1.7k | VibeVoice 是微软开源的前沿语音 AI 框架，包含 ASR 和 TTS 模型。ASR 模型支持 60 分钟长音频转录，输出结构化信息，支持 50+ 语言；TTS 模型支持流式输入和多说话人长音频生成。项目已集成到 Transformers 库，支持 vLLM 推理加速。 |
-| 8 | [CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) | Deepseek to API: A lightweight, high-performance f... | Go | 2.7k | 461 | 这是一个将 DeepSeek Web 对话能力转换为 OpenAI、Claude 和 Gemini 兼容 API 的全栈中间件。后端采用 Go 实现，支持多账户轮换、Docker 和 Vercel 部署，并提供 React 管理后台。它实现了 Prompt 兼容内核、并发控制和工具调用适配，旨在为开发者提供统一的 API 接口。 |
-| 9 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 173.1k | 1.7k | Superpowers 是一个面向编码代理的技能框架与软件开发方法论。它通过引导用户明确需求、拆解设计、制定 TDD 实施计划，并利用子代理进行自主开发，实现高效的 AI 辅助编程，无需特殊配置即可自动触发技能。 |
-| 10 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | LLM驱动的 A/H/美股智能分析器：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推... | Python | 32.7k | 358 | 这是一个基于 Python 的 LLM 驱动股票智能分析系统，支持 A/H/美股市场。整合多数据源行情、实时新闻与 AI 模型，生成决策仪表盘（含评分、买卖点、风险警报）。支持企业微信、飞书等多渠道推送，可通过 GitHub Actions 零成本定时运行，具备回测、复盘及策略问答功能。 |
-| 11 | [lukilabs/craft-agents-oss](https://github.com/lukilabs/craft-agents-oss) | ... | TypeScript | 5.3k | 432 | Craft Agents 是一个开源的 AI 代理协作工具，旨在通过直观的 UI 实现多任务处理和文档中心的工作流。它支持无配置连接各种 API 和 MCP 服务，基于 Claude 和 Pi SDK 构建，高度可定制，允许用户通过自然语言提示进行配置和扩展，无需编写代码。 |
-| 12 | [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 📚 Freely available programming books... | Python | 387.2k | 609 | 处理失败 |
-| 13 | [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username f... | Python | 20.2k | 31 | Maigret 是一款强大的开源情报（OSINT）工具，支持通过用户名在 3000 多个网站上收集个人档案。它无需 API 密钥，支持递归搜索、绕过封锁，并可直接嵌入 Python 项目。项目提供 Web UI 和多种报告格式，适合专业社交媒体分析和隐私调查。 |
-| 14 | [iv-org/invidious](https://github.com/iv-org/invidious) | Invidious is an alternative front-end to YouTube... | Crystal | 19.4k | 243 | Invidious 是一个开源的 YouTube 替代前端，使用 Crystal 语言编写。它提供无广告、无追踪、无需 JavaScript 的纯净浏览体验。支持订阅管理、音频模式、多语言及数据导入导出，并拥有开发者 API。用户可选择公共实例或自托管，旨在保护用户隐私并绕过 Google 限制。 |
-| 15 | [gorhill/uBlock](https://github.com/gorhill/uBlock) | uBlock Origin - An efficient blocker for Chromium ... | JavaScript | 64.0k | 315 | uBlock Origin 是一款高效、轻量级的跨浏览器广告拦截扩展，支持 Firefox 和 Chromium。它默认拦截广告、跟踪器及恶意内容，保护用户隐私。支持多种过滤列表和自定义规则，资源占用低，是保护上网隐私的强大工具。 |
-| 16 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | Microsoft PowerToys is a collection of utilities t... | C# | 132.4k | 79 | Microsoft PowerToys 是微软官方推出的一套 Windows 系统实用工具集合，旨在提升用户的生产力和系统自定义能力。它包含超过 30 个实用工具，如 FancyZones（窗口分区）、PowerToys Run（快速启动）、PowerRename（批量重命名）等，帮助用户优化 Windows 体验，简化日常任务。 |
+| 1 | [warpdotdev/warp](https://github.com/warpdotdev/warp) | Warp is an agentic development environment, born o... | Rust | 49.1k | 8.3k | Warp 是一个基于 Rust 的代理式开发环境，旨在增强终端体验。它集成了由 OpenAI 支持的内置编码代理，同时也支持外部 CLI 代理。项目采用 MIT 和 AGPL v3 双重许可，致力于构建现代化的开源终端工具，并欢迎社区贡献。 |
+| 2 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 57.7k | 2.2k | TradingAgents 是一个基于多智能体 LLM 的金融交易框架，模拟真实交易公司运作。它部署基本面、情绪、技术分析师及交易员等角色，协作评估市场并动态讨论策略。支持多种大模型提供商及 LangGraph，旨在为金融研究提供自动化交易决策支持。 |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .claud... | Shell | 49.4k | 6.2k | 这是一套为 Claude Code 等编码代理提供的实用技能集，旨在解决 AI 代理常见的沟通偏差和执行问题。通过提供结构化工作流（如问题跟踪、文档管理）和交互命令（如 /grill-me），帮助工程师更高效地与 AI 协作，实现真正的工程化开发。 |
+| 4 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 174.6k | 1.6k | Superpowers 是一个为编码代理设计的代理技能框架和软件开发方法论。它通过引导用户明确需求、分解规范、制定实施计划，并利用子代理驱动开发，强调 TDD、YAGNI 和 DRY 原则。该框架支持 Claude 代理在无需人工干预的情况下自主工作数小时，实现高效的自动化编程。 |
+| 5 | [lukilabs/craft-agents-oss](https://github.com/lukilabs/craft-agents-oss) | ... | TypeScript | 5.6k | 314 | 这是一个由 Craft.do 开发的开源工具，旨在提供直观的 AI 代理协作体验。项目基于 TypeScript，结合 Claude 和 Pi SDK，支持无需配置文件即可连接各类 API 和 MCP 服务（包括本地和自定义）。它采用 Agent Native 原则，允许用户通过自然语言提示实现高度定制化，提供以文档为中心的流畅 UI。 |
+| 6 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs... | Python | 429.5k | 307 | 这是一个由社区成员手动策划的免费公共 API 集合列表。它涵盖了从 Authentication 到 Finance 等众多领域的 API，旨在帮助开发者轻松找到并集成所需的接口。项目不仅包含分类索引，还展示了赞助商提供的优质 API 服务，是开发者寻找 API 资源的宝藏库。 |
+| 7 | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Coding Agent Harness... | Rust | 1.9k | 670 | 这是一个基于 Rust 的高性能 Coding Agent Harness，专为多会话工作流设计。它以极致的资源效率和性能著称，内存占用远低于 Cursor、Claude Code 等竞品，支持无限定制。 |
+| 8 | [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username f... | Python | 20.8k | 723 | Maigret 是一款开源的 OSINT 工具，能够通过单一用户名在 3000+ 个网站收集个人档案。它支持自动提取信息、递归搜索、绕过封锁及 Tor/I2P 访问，并提供 Web UI 和多种报告格式，无需 API 密钥即可使用。 |
+| 9 | [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | Useful tool to track location or mobile number... | Python | 12.2k | 830 | GhostTrack 是一个基于 Python 的 OSINT 信息收集工具，支持 IP 追踪、手机号码查询及社交媒体用户名搜索。它提供了 Linux 和 Termux 环境下的安装指南，主要用于网络情报获取和目标信息收集。 |
+| 10 | [iamgio/quarkdown](https://github.com/iamgio/quarkdown) | 🪐 Markdown with superpowers: from ideas to papers... | Kotlin | 13.1k | 350 | Quarkdown 是一个基于 Kotlin 的现代 Markdown 排版系统。它通过 Turing-complete 扩展，允许在 Markdown 中编写函数、逻辑和布局，将单一文档编译为书籍、论文、知识库或演示文稿。支持自定义函数和标准库，极大提升了 Markdown 的灵活性。 |
+| 11 | [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty) | 👻 Ghostty is a fast, feature-rich, and cross-plat... | Zig | 52.8k | 379 | Ghostty 是一个快速、功能丰富且跨平台的终端模拟器，采用原生 UI 和 GPU 加速。它提供主应用和零依赖的 libghostty 库，支持嵌入终端或构建新终端。项目已实现标准合规、高性能及丰富的窗口功能，目前处于稳定状态，被广泛使用。 |
+| 12 | [ForrestKnight/open-source-cs](https://github.com/ForrestKnight/open-source-cs) | Video discussing this curriculum:... | - | 22.4k | 133 | 这是一个精选的免费课程列表，旨在满足计算机科学学士学位的要求。它涵盖了编程、数学和计算机科学理论，汇集了哈佛、MIT、斯坦福等名校资源，为自学者提供了结构化的学习路径。 |
+| 13 | [browserbase/skills](https://github.com/browserbase/skills) | Claude Agent SDK with a web browsing tool... | JavaScript | 823 | 54 | 这是一个为 Claude Code 提供的 Browserbase 集成技能集，支持云端浏览器自动化、反机器人检测、CAPTCHA 解决及代理设置。包含调试、追踪、无服务器函数部署、Cookie 同步、静态抓取、AI UI 测试及成本分析等功能，旨在简化云端浏览器操作与测试流程。 |
 
-[查看完整数据](api/github/2026-04-29.json)
+[查看完整数据](api/github/2026-04-30.json)
 <!-- END GITHUB TRENDING -->
 
 
