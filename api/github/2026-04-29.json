@@ -1,0 +1,337 @@
+{
+  "date": "2026-04-29",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 15,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "warpdotdev/warp",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "language": "Rust",
+      "stars": 43627,
+      "forks": 2593,
+      "todayStars": 11955,
+      "url": "https://github.com/warpdotdev/warp",
+      "aiSummary": {
+        "summary": "Warp 是一个基于 Rust 的智能终端开发环境，集成了 OpenAI 支持的编码代理。它支持内置及外部 CLI 代理，提供 Web 界面监控开发活动，旨在通过 AI 增强 Terminal 体验，简化开发流程。",
+        "summary_en": "Rust-based agentic development environment combining a modern terminal with AI coding agents.",
+        "techStack": [
+          "Rust",
+          "OpenAI (GPT)",
+          "Web"
+        ],
+        "useCase": "需要利用 AI 代理自动化开发任务的开发者",
+        "useCase_en": "Developers use Warp to streamline coding workflows by leveraging AI agents within a modern terminal interface."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 44386,
+      "forks": 3553,
+      "todayStars": 7356,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "专为 Claude Code 等编码代理设计的实用技能库，旨在解决 AI 与用户之间的沟通错位。提供快速安装脚本和一系列交互式命令（如 /grill-me、/triage），帮助工程师高效管理问题跟踪、文档生成及代码审查，强调小而美、可组合的工程实践。",
+        "summary_en": "A collection of composable agent skills for real engineering workflows.",
+        "techStack": [
+          "Shell",
+          "JavaScript (Node.js)",
+          "Claude Code"
+        ],
+        "useCase": "提升 AI 编码代理的工作效率，解决需求理解偏差，规范开发流程。",
+        "useCase_en": "To provide a collection of composable agent skills for real engineering workflows."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "HunxByts/GhostTrack",
+      "description": "Useful tool to track location or mobile number",
+      "language": "Python",
+      "stars": 11552,
+      "forks": 1584,
+      "todayStars": 1036,
+      "url": "https://github.com/HunxByts/GhostTrack",
+      "aiSummary": {
+        "summary": "GhostTrack 是一个基于 Python 的 OSINT 信息收集工具，主要用于追踪 IP 地址、手机号码以及社交媒体用户名。它支持在 Linux 和 Termux 环境下运行，通过菜单界面提供 IP 追踪、手机号码查询和用户名搜索等功能，帮助用户获取目标对象的公开信息。",
+        "summary_en": "A Python-based OSINT tool for tracking IP addresses, phone numbers, and usernames.",
+        "techStack": [
+          "Python",
+          "Git",
+          "Pip"
+        ],
+        "useCase": "适用于安全研究人员进行目标 IP、手机号及社交媒体信息的收集与追踪。",
+        "useCase_en": "Used for OSINT and information gathering to track IP addresses, phone numbers, and social media profiles."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "ComposioHQ/awesome-codex-skills",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "language": "Python",
+      "stars": 4761,
+      "forks": 297,
+      "todayStars": 1180,
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "aiSummary": {
+        "summary": "这是一个由 ComposioHQ 维护的 Codex 技能精选列表，旨在通过模块化指令包自动化工作流。项目提供 Python 安装脚本，支持将技能安装至 Codex CLI，涵盖开发、生产力、沟通等领域，让 Codex 能执行邮件、Slack 等跨应用操作。",
+        "summary_en": "A curated list of modular skills for the Codex CLI to automate workflows.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为 Codex 配置特定任务自动化，实现跨应用操作与工作流集成。",
+        "useCase_en": "Automate workflows across the Codex CLI and API using modular skills for actions like sending emails and code reviews."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "stars": 1335,
+      "forks": 127,
+      "todayStars": 386,
+      "url": "https://github.com/1jehuang/jcode",
+      "aiSummary": {
+        "summary": "jcode 是一个用 Rust 编写的下一代编码代理框架。它专注于多会话工作流、无限可定制性和极致性能。项目以极低的资源占用（内存和启动速度）著称，相比同类工具具有显著优势，适合大规模并发场景。",
+        "summary_en": "A high-performance Rust coding agent harness optimized for multi-session workflows and resource efficiency.",
+        "techStack": [
+          "Rust",
+          "Shell",
+          "Local Embedding"
+        ],
+        "useCase": "适用于需要多会话并发、追求极致资源效率的复杂编码工作流。",
+        "useCase_en": "Manage and optimize coding agents for complex, multi-session development workflows."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars": 33311,
+      "forks": 3780,
+      "todayStars": 777,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "aiSummary": {
+        "summary": "GitNexus 是一个纯客户端的代码智能引擎，利用 Tree-sitter 将代码库索引为交互式知识图谱。它内置 Graph RAG Agent，支持 CLI 和 Web UI 模式，可与 Cursor、Claude Code 等 AI 工具集成。项目强调隐私保护，通过本地解析提供深度的代码架构视图，帮助 AI 代理准确理解代码依赖和执行流程。",
+        "summary_en": "Zero-server code intelligence engine that indexes codebases into knowledge graphs for AI agents.",
+        "techStack": [
+          "TypeScript",
+          "Tree-sitter",
+          "LadybugDB",
+          "MCP"
+        ],
+        "useCase": "为 AI 代理提供深度的代码架构分析，支持 Cursor、Claude Code 等工具进行本地代码探索与智能问答。",
+        "useCase_en": "Index codebases locally to provide AI agents with deep architectural context for reliable code analysis."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars": 45664,
+      "forks": 5045,
+      "todayStars": 1688,
+      "url": "https://github.com/microsoft/VibeVoice",
+      "aiSummary": {
+        "summary": "VibeVoice 是微软开源的前沿语音 AI 框架，包含 ASR 和 TTS 模型。ASR 模型支持 60 分钟长音频转录，输出结构化信息，支持 50+ 语言；TTS 模型支持流式输入和多说话人长音频生成。项目已集成到 Transformers 库，支持 vLLM 推理加速。",
+        "summary_en": "Microsoft's open-source frontier voice AI framework featuring ASR and TTS models for multilingual speech processing.",
+        "techStack": [
+          "Python",
+          "Hugging Face Transformers",
+          "vLLM"
+        ],
+        "useCase": "长音频转录、多说话人语音合成及实时语音生成",
+        "useCase_en": "Build applications for speech recognition and text-to-speech synthesis across 50+ languages."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "CJackHwang/ds2api",
+      "description": "Deepseek to API: A lightweight, high-performance full-stack middleware converting client protocols to universal APIs. Supports multi-account rotation, compiled binaries, Vercel Serverless, and Docker. Compatible with Google, Claude, and OpenAI API formats.",
+      "language": "Go",
+      "stars": 2702,
+      "forks": 721,
+      "todayStars": 461,
+      "url": "https://github.com/CJackHwang/ds2api",
+      "aiSummary": {
+        "summary": "这是一个将 DeepSeek Web 对话能力转换为 OpenAI、Claude 和 Gemini 兼容 API 的全栈中间件。后端采用 Go 实现，支持多账户轮换、Docker 和 Vercel 部署，并提供 React 管理后台。它实现了 Prompt 兼容内核、并发控制和工具调用适配，旨在为开发者提供统一的 API 接口。",
+        "summary_en": "Go-based middleware converting DeepSeek Web chat to OpenAI, Claude, and Gemini compatible APIs with multi-account rotation.",
+        "techStack": [
+          "Go",
+          "React",
+          "Docker",
+          "Vercel"
+        ],
+        "useCase": "将 DeepSeek Web 对话能力转换为标准 API，供客户端 SDK 调用。",
+        "useCase_en": "Enable clients using OpenAI, Claude, or Gemini SDKs to interact with DeepSeek via a unified API gateway."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 173071,
+      "forks": 15260,
+      "todayStars": 1683,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个面向编码代理的技能框架与软件开发方法论。它通过引导用户明确需求、拆解设计、制定 TDD 实施计划，并利用子代理进行自主开发，实现高效的 AI 辅助编程，无需特殊配置即可自动触发技能。",
+        "summary_en": "A software development methodology and skills framework for coding agents, built on Shell scripts to automate software engineering workflows.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "用于自动化 AI 编码代理的软件开发流程，提升开发效率。",
+        "useCase_en": "To provide a structured software development methodology for coding agents to autonomously build and review code."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "description": "LLM驱动的 A/H/美股智能分析器：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.",
+      "language": "Python",
+      "stars": 32719,
+      "forks": 32907,
+      "todayStars": 358,
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 LLM 驱动股票智能分析系统，支持 A/H/美股市场。整合多数据源行情、实时新闻与 AI 模型，生成决策仪表盘（含评分、买卖点、风险警报）。支持企业微信、飞书等多渠道推送，可通过 GitHub Actions 零成本定时运行，具备回测、复盘及策略问答功能。",
+        "summary_en": "An LLM-powered stock analysis system for A/H/US markets that automates decision dashboards and multi-channel notifications.",
+        "techStack": [
+          "Python",
+          "LLM (AIHubMix/Gemini/OpenAI)",
+          "数据源 (AkShare/Tushare/YFinance)",
+          "GitHub Actions",
+          "Docker"
+        ],
+        "useCase": "适合需要自动化股票分析、获取 AI 决策建议并实时推送通知的个人投资者或交易者。",
+        "useCase_en": "Automate daily stock analysis and receive AI-driven decision dashboards via multiple messaging channels."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "lukilabs/craft-agents-oss",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 5315,
+      "forks": 722,
+      "todayStars": 432,
+      "url": "https://github.com/lukilabs/craft-agents-oss",
+      "aiSummary": {
+        "summary": "Craft Agents 是一个开源的 AI 代理协作工具，旨在通过直观的 UI 实现多任务处理和文档中心的工作流。它支持无配置连接各种 API 和 MCP 服务，基于 Claude 和 Pi SDK 构建，高度可定制，允许用户通过自然语言提示进行配置和扩展，无需编写代码。",
+        "summary_en": "A TypeScript-based open-source tool for intuitive multitasking and connecting to APIs using AI agents.",
+        "techStack": [
+          "TypeScript",
+          "Claude Agent SDK",
+          "Pi SDK",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "适合需要与 AI 代理深度集成、管理复杂工作流（如 API 连接和会话共享）的开发者或团队。",
+        "useCase_en": "To provide a document-centric, customizable UI for working with powerful AI agents and connecting to APIs."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "EbookFoundation/free-programming-books",
+      "description": "📚 Freely available programming books",
+      "language": "Python",
+      "stars": 387163,
+      "forks": 66183,
+      "todayStars": 609,
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 12,
+      "fullName": "soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "stars": 20229,
+      "forks": 1418,
+      "todayStars": 31,
+      "url": "https://github.com/soxoj/maigret",
+      "aiSummary": {
+        "summary": "Maigret 是一款强大的开源情报（OSINT）工具，支持通过用户名在 3000 多个网站上收集个人档案。它无需 API 密钥，支持递归搜索、绕过封锁，并可直接嵌入 Python 项目。项目提供 Web UI 和多种报告格式，适合专业社交媒体分析和隐私调查。",
+        "summary_en": "A Python OSINT tool that aggregates user profiles from 3000+ websites into a comprehensive dossier.",
+        "techStack": [
+          "Python",
+          "Web UI",
+          "Tor/I2P"
+        ],
+        "useCase": "开源情报（OSINT）调查与社交媒体账号关联分析",
+        "useCase_en": "Used by OSINT professionals to gather intelligence on individuals by scanning their usernames across thousands of websit"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "iv-org/invidious",
+      "description": "Invidious is an alternative front-end to YouTube",
+      "language": "Crystal",
+      "stars": 19406,
+      "forks": 2135,
+      "todayStars": 243,
+      "url": "https://github.com/iv-org/invidious",
+      "aiSummary": {
+        "summary": "Invidious 是一个开源的 YouTube 替代前端，使用 Crystal 语言编写。它提供无广告、无追踪、无需 JavaScript 的纯净浏览体验。支持订阅管理、音频模式、多语言及数据导入导出，并拥有开发者 API。用户可选择公共实例或自托管，旨在保护用户隐私并绕过 Google 限制。",
+        "summary_en": "Invidious is a privacy-focused, open-source alternative front-end to YouTube written in Crystal.",
+        "techStack": [
+          "Crystal"
+        ],
+        "useCase": "适用于追求隐私保护、无广告干扰的 YouTube 观看，或作为自托管的视频流媒体解决方案。",
+        "useCase_en": "Users seeking an ad-free, privacy-respecting alternative to YouTube can use this self-hosted or public instance."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "gorhill/uBlock",
+      "description": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
+      "language": "JavaScript",
+      "stars": 64029,
+      "forks": 4074,
+      "todayStars": 315,
+      "url": "https://github.com/gorhill/uBlock",
+      "aiSummary": {
+        "summary": "uBlock Origin 是一款高效、轻量级的跨浏览器广告拦截扩展，支持 Firefox 和 Chromium。它默认拦截广告、跟踪器及恶意内容，保护用户隐私。支持多种过滤列表和自定义规则，资源占用低，是保护上网隐私的强大工具。",
+        "summary_en": "uBlock Origin is a CPU and memory-efficient content blocker for Chromium and Firefox.",
+        "techStack": [
+          "JavaScript",
+          "WebExtensions",
+          "EasyList"
+        ],
+        "useCase": "保护用户隐私，拦截网页广告、跟踪器及恶意内容。",
+        "useCase_en": "To block ads, trackers, and malware on Chromium and Firefox browsers efficiently."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "language": "C#",
+      "stars": 132378,
+      "forks": 7911,
+      "todayStars": 79,
+      "url": "https://github.com/microsoft/PowerToys",
+      "aiSummary": {
+        "summary": "Microsoft PowerToys 是微软官方推出的一套 Windows 系统实用工具集合，旨在提升用户的生产力和系统自定义能力。它包含超过 30 个实用工具，如 FancyZones（窗口分区）、PowerToys Run（快速启动）、PowerRename（批量重命名）等，帮助用户优化 Windows 体验，简化日常任务。",
+        "summary_en": "A collection of utilities designed to supercharge productivity and customization on Windows.",
+        "techStack": [
+          "C#"
+        ],
+        "useCase": "需要高度自定义 Windows 界面和提升工作效率的高级用户",
+        "useCase_en": "A suite of utilities to help you customize Windows and streamline everyday tasks."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-30T00:04:31.133Z",
+    "duration": "346s",
+    "version": "1.0.0"
+  }
+}
