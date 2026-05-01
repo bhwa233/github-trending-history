@@ -1,0 +1,203 @@
+{
+  "date": "2026-05-01",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 59811,
+      "forks": 11489,
+      "todayStars": 2115,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents 是一个基于 Python 的多智能体 LLM 金融交易框架。它模拟现实交易公司，通过基本面、技术、情绪分析专家及交易员、风控团队等智能体协作，动态评估市场并制定交易策略。支持多种大模型和 LangGraph，主要用于金融交易研究。",
+        "summary_en": "Multi-agent LLM framework for financial trading research and strategy simulation.",
+        "techStack": [
+          "Python",
+          "LLM (GPT-5.x, Gemini 3.x, Claude 4.x, Grok 4.x, DeepSeek, Qwen, GLM, Azure)",
+          "LangGraph",
+          "Docker"
+        ],
+        "useCase": "金融交易策略研究及多智能体协作模拟",
+        "useCase_en": "To research and develop autonomous financial trading strategies using multi-agent systems."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "stars": 21621,
+      "forks": 1509,
+      "todayStars": 535,
+      "url": "https://github.com/soxoj/maigret",
+      "aiSummary": {
+        "summary": "Maigret 是一个强大的开源情报（OSINT）工具，通过用户名在 3000+ 网站上收集个人档案。它支持递归搜索、自动更新数据库、绕过封锁，并提供 Web 界面和多种报告格式。无需 API 密钥，可嵌入 Python 项目使用。",
+        "summary_en": "A Python-based OSINT tool that scrapes 3000+ websites to collect user profiles and social media footprints.",
+        "techStack": [
+          "Python",
+          "HTTP/Tor",
+          "GitHub API"
+        ],
+        "useCase": "适用于开源情报（OSINT）调查、社交媒体账号追踪及身份验证分析。",
+        "useCase_en": "Gathering intelligence on individuals by checking their usernames across thousands of websites for OSINT analysis."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "warpdotdev/warp",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "language": "Rust",
+      "stars": 51413,
+      "forks": 3443,
+      "todayStars": 3403,
+      "url": "https://github.com/warpdotdev/warp",
+      "aiSummary": {
+        "summary": "Warp 是一个基于 Rust 的智能开发环境，旨在增强终端体验。它集成了内置的 AI 编码代理，支持 Claude Code 等 CLI 工具，并提供 Web 端仪表盘监控开发流程。项目采用 MIT 和 AGPL v3 双重许可证，欢迎社区贡献。",
+        "summary_en": "Warp is a modern terminal environment built in Rust that integrates AI-powered coding agents and a web dashboard.",
+        "techStack": [
+          "Rust",
+          "AI/LLM",
+          "CLI Tools"
+        ],
+        "useCase": "适合需要 AI 辅助编码和现代化终端体验的开发者。",
+        "useCase_en": "To provide a modern terminal interface enhanced by AI agents for coding and development tasks."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "stars": 2343,
+      "forks": 206,
+      "todayStars": 404,
+      "url": "https://github.com/1jehuang/jcode",
+      "aiSummary": {
+        "summary": "jcode 是一个用 Rust 编写的下一代编码代理框架。它专注于多会话工作流、无限自定义和极致性能。项目强调资源效率，相比 Copilot CLI 和 Claude Code 等竞品，其内存占用显著更低，旨在提升编码能力上限。",
+        "summary_en": "A Rust-based coding agent harness optimized for performance and multi-session workflows.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "构建高性能、低资源消耗的多会话编码代理工作流",
+        "useCase_en": "Orchestrate coding agents for high-performance, multi-session development workflows."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 52493,
+      "forks": 4387,
+      "todayStars": 3649,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一套为 Claude Code 等编程代理设计的 Shell 技能集合，旨在解决 AI 编程中的沟通鸿沟。它提供可组合的命令（如 /grill-me 和 /triage），帮助工程师通过详细提问和配置来规范工作流，确保 AI 理解需求并生成高质量代码。",
+        "summary_en": "A collection of engineering skills for AI coding agents to improve alignment and workflow.",
+        "techStack": [
+          "Shell",
+          "Node.js",
+          "Claude Code"
+        ],
+        "useCase": "适用于需要与 AI 编程代理协作的工程师，用于规范开发流程、提高代码质量并解决 AI 误解需求的问题。",
+        "useCase_en": "Developers install these skills to configure AI coding agents for better alignment and project management."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "browserbase/skills",
+      "description": "Claude Agent SDK with a web browsing tool",
+      "language": "JavaScript",
+      "stars": 1168,
+      "forks": 81,
+      "todayStars": 334,
+      "url": "https://github.com/browserbase/skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 提供的 Browserbase SDK，包含多种自动化技能。支持浏览器交互、无服务器函数部署、网站调试、Cookie 同步、静态抓取及 AI UI 测试。通过 CLI 命令简化与 Browserbase 云平台的交互，提供反机器人、代理及全链路调试能力，提升开发效率。",
+        "summary_en": "A collection of skills for Claude Code enabling web automation and debugging via Browserbase.",
+        "techStack": [
+          "JavaScript",
+          "Browserbase CLI",
+          "Claude Code"
+        ],
+        "useCase": "适用于需要自动化浏览器操作、爬虫开发、网站测试或集成 Browserbase 云服务的开发者。",
+        "useCase_en": "Enable Claude Code to perform complex web automation, debugging, and testing tasks via Browserbase."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "simstudioai/sim",
+      "description": "Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.",
+      "language": "TypeScript",
+      "stars": 28144,
+      "forks": 3557,
+      "todayStars": 38,
+      "url": "https://github.com/simstudioai/sim",
+      "aiSummary": {
+        "summary": "Sim 是一个开源的 AI 代理构建与编排平台。它提供可视化画布来设计代理工作流，支持连接 1000+ 集成和 LLM。内置 Copilot 可通过自然语言辅助开发，并支持向量数据库以实现基于特定内容的问答。支持云端和多种自托管方式。",
+        "summary_en": "An open-source platform to build, deploy, and orchestrate AI agents and workflows visually.",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "PostgreSQL",
+          "Docker"
+        ],
+        "useCase": "构建和编排 AI 代理工作流，实现智能体劳动力的自动化管理。",
+        "useCase_en": "Design agent workflows visually and integrate with 1,000+ LLMs and tools to run your AI workforce."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 175601,
+      "forks": 15513,
+      "todayStars": 1098,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个面向编码代理的软件开发生命周期框架。它通过一套可组合的技能，引导代理从需求分析、设计确认到实施计划制定，并利用子代理进行自主开发。强调 TDD、YAGNI 和 DRY 原则，旨在让 Claude 等代理能够独立高效地完成复杂编码任务。",
+        "summary_en": "An agentic skills framework and software development methodology for coding agents.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "AI Agents"
+        ],
+        "useCase": "用于自动化 Claude 代理的软件开发流程，实现自主编码和任务执行。",
+        "useCase_en": "To empower coding agents to autonomously build software following strict engineering principles."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Flowseal/zapret-discord-youtube",
+      "description": "",
+      "language": "Batchfile",
+      "stars": 26967,
+      "forks": 2107,
+      "todayStars": 165,
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "aiSummary": {
+        "summary": "该项目旨在绕过针对 Discord 和 YouTube 的网络封锁。它使用 Batchfile 编写，依赖 WinDivert 驱动进行流量拦截与过滤。作者提醒 WinDivert 可能会被杀毒软件误报，需添加排除项。使用前需启用 Secure DNS。",
+        "summary_en": "Windows batch utility to bypass censorship on Discord and YouTube using WinDivert.",
+        "techStack": [
+          "Batchfile",
+          "WinDivert",
+          "Windows"
+        ],
+        "useCase": "在 Windows 系统上绕过针对特定网站的网络封锁",
+        "useCase_en": "To bypass censorship and access blocked Discord and YouTube content on Windows systems."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-01T23:57:17.544Z",
+    "duration": "103s",
+    "version": "1.0.0"
+  }
+}

@@ -70,25 +70,21 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-04-30 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-05-01 | **成功**: 9 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [warpdotdev/warp](https://github.com/warpdotdev/warp) | Warp is an agentic development environment, born o... | Rust | 49.1k | 8.3k | Warp 是一个基于 Rust 的代理式开发环境，旨在增强终端体验。它集成了由 OpenAI 支持的内置编码代理，同时也支持外部 CLI 代理。项目采用 MIT 和 AGPL v3 双重许可，致力于构建现代化的开源终端工具，并欢迎社区贡献。 |
-| 2 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 57.7k | 2.2k | TradingAgents 是一个基于多智能体 LLM 的金融交易框架，模拟真实交易公司运作。它部署基本面、情绪、技术分析师及交易员等角色，协作评估市场并动态讨论策略。支持多种大模型提供商及 LangGraph，旨在为金融研究提供自动化交易决策支持。 |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .claud... | Shell | 49.4k | 6.2k | 这是一套为 Claude Code 等编码代理提供的实用技能集，旨在解决 AI 代理常见的沟通偏差和执行问题。通过提供结构化工作流（如问题跟踪、文档管理）和交互命令（如 /grill-me），帮助工程师更高效地与 AI 协作，实现真正的工程化开发。 |
-| 4 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 174.6k | 1.6k | Superpowers 是一个为编码代理设计的代理技能框架和软件开发方法论。它通过引导用户明确需求、分解规范、制定实施计划，并利用子代理驱动开发，强调 TDD、YAGNI 和 DRY 原则。该框架支持 Claude 代理在无需人工干预的情况下自主工作数小时，实现高效的自动化编程。 |
-| 5 | [lukilabs/craft-agents-oss](https://github.com/lukilabs/craft-agents-oss) | ... | TypeScript | 5.6k | 314 | 这是一个由 Craft.do 开发的开源工具，旨在提供直观的 AI 代理协作体验。项目基于 TypeScript，结合 Claude 和 Pi SDK，支持无需配置文件即可连接各类 API 和 MCP 服务（包括本地和自定义）。它采用 Agent Native 原则，允许用户通过自然语言提示实现高度定制化，提供以文档为中心的流畅 UI。 |
-| 6 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs... | Python | 429.5k | 307 | 这是一个由社区成员手动策划的免费公共 API 集合列表。它涵盖了从 Authentication 到 Finance 等众多领域的 API，旨在帮助开发者轻松找到并集成所需的接口。项目不仅包含分类索引，还展示了赞助商提供的优质 API 服务，是开发者寻找 API 资源的宝藏库。 |
-| 7 | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Coding Agent Harness... | Rust | 1.9k | 670 | 这是一个基于 Rust 的高性能 Coding Agent Harness，专为多会话工作流设计。它以极致的资源效率和性能著称，内存占用远低于 Cursor、Claude Code 等竞品，支持无限定制。 |
-| 8 | [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username f... | Python | 20.8k | 723 | Maigret 是一款开源的 OSINT 工具，能够通过单一用户名在 3000+ 个网站收集个人档案。它支持自动提取信息、递归搜索、绕过封锁及 Tor/I2P 访问，并提供 Web UI 和多种报告格式，无需 API 密钥即可使用。 |
-| 9 | [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | Useful tool to track location or mobile number... | Python | 12.2k | 830 | GhostTrack 是一个基于 Python 的 OSINT 信息收集工具，支持 IP 追踪、手机号码查询及社交媒体用户名搜索。它提供了 Linux 和 Termux 环境下的安装指南，主要用于网络情报获取和目标信息收集。 |
-| 10 | [iamgio/quarkdown](https://github.com/iamgio/quarkdown) | 🪐 Markdown with superpowers: from ideas to papers... | Kotlin | 13.1k | 350 | Quarkdown 是一个基于 Kotlin 的现代 Markdown 排版系统。它通过 Turing-complete 扩展，允许在 Markdown 中编写函数、逻辑和布局，将单一文档编译为书籍、论文、知识库或演示文稿。支持自定义函数和标准库，极大提升了 Markdown 的灵活性。 |
-| 11 | [ghostty-org/ghostty](https://github.com/ghostty-org/ghostty) | 👻 Ghostty is a fast, feature-rich, and cross-plat... | Zig | 52.8k | 379 | Ghostty 是一个快速、功能丰富且跨平台的终端模拟器，采用原生 UI 和 GPU 加速。它提供主应用和零依赖的 libghostty 库，支持嵌入终端或构建新终端。项目已实现标准合规、高性能及丰富的窗口功能，目前处于稳定状态，被广泛使用。 |
-| 12 | [ForrestKnight/open-source-cs](https://github.com/ForrestKnight/open-source-cs) | Video discussing this curriculum:... | - | 22.4k | 133 | 这是一个精选的免费课程列表，旨在满足计算机科学学士学位的要求。它涵盖了编程、数学和计算机科学理论，汇集了哈佛、MIT、斯坦福等名校资源，为自学者提供了结构化的学习路径。 |
-| 13 | [browserbase/skills](https://github.com/browserbase/skills) | Claude Agent SDK with a web browsing tool... | JavaScript | 823 | 54 | 这是一个为 Claude Code 提供的 Browserbase 集成技能集，支持云端浏览器自动化、反机器人检测、CAPTCHA 解决及代理设置。包含调试、追踪、无服务器函数部署、Cookie 同步、静态抓取、AI UI 测试及成本分析等功能，旨在简化云端浏览器操作与测试流程。 |
+| 1 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 59.8k | 2.1k | TradingAgents 是一个基于 Python 的多智能体 LLM 金融交易框架。它模拟现实交易公司，通过基本面、技术、情绪分析专家及交易员、风控团队等智能体协作，动态评估市场并制定交易策略。支持多种大模型和 LangGraph，主要用于金融交易研究。 |
+| 2 | [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username f... | Python | 21.6k | 535 | Maigret 是一个强大的开源情报（OSINT）工具，通过用户名在 3000+ 网站上收集个人档案。它支持递归搜索、自动更新数据库、绕过封锁，并提供 Web 界面和多种报告格式。无需 API 密钥，可嵌入 Python 项目使用。 |
+| 3 | [warpdotdev/warp](https://github.com/warpdotdev/warp) | Warp is an agentic development environment, born o... | Rust | 51.4k | 3.4k | Warp 是一个基于 Rust 的智能开发环境，旨在增强终端体验。它集成了内置的 AI 编码代理，支持 Claude Code 等 CLI 工具，并提供 Web 端仪表盘监控开发流程。项目采用 MIT 和 AGPL v3 双重许可证，欢迎社区贡献。 |
+| 4 | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Coding Agent Harness... | Rust | 2.3k | 404 | jcode 是一个用 Rust 编写的下一代编码代理框架。它专注于多会话工作流、无限自定义和极致性能。项目强调资源效率，相比 Copilot CLI 和 Claude Code 等竞品，其内存占用显著更低，旨在提升编码能力上限。 |
+| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .claud... | Shell | 52.5k | 3.6k | 这是一套为 Claude Code 等编程代理设计的 Shell 技能集合，旨在解决 AI 编程中的沟通鸿沟。它提供可组合的命令（如 /grill-me 和 /triage），帮助工程师通过详细提问和配置来规范工作流，确保 AI 理解需求并生成高质量代码。 |
+| 6 | [browserbase/skills](https://github.com/browserbase/skills) | Claude Agent SDK with a web browsing tool... | JavaScript | 1.2k | 334 | 这是一个为 Claude Code 提供的 Browserbase SDK，包含多种自动化技能。支持浏览器交互、无服务器函数部署、网站调试、Cookie 同步、静态抓取及 AI UI 测试。通过 CLI 命令简化与 Browserbase 云平台的交互，提供反机器人、代理及全链路调试能力，提升开发效率。 |
+| 7 | [simstudioai/sim](https://github.com/simstudioai/sim) | Build, deploy, and orchestrate AI agents. Sim is t... | TypeScript | 28.1k | 38 | Sim 是一个开源的 AI 代理构建与编排平台。它提供可视化画布来设计代理工作流，支持连接 1000+ 集成和 LLM。内置 Copilot 可通过自然语言辅助开发，并支持向量数据库以实现基于特定内容的问答。支持云端和多种自托管方式。 |
+| 8 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 175.6k | 1.1k | Superpowers 是一个面向编码代理的软件开发生命周期框架。它通过一套可组合的技能，引导代理从需求分析、设计确认到实施计划制定，并利用子代理进行自主开发。强调 TDD、YAGNI 和 DRY 原则，旨在让 Claude 等代理能够独立高效地完成复杂编码任务。 |
+| 9 | [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) | ... | Batchfile | 27.0k | 165 | 该项目旨在绕过针对 Discord 和 YouTube 的网络封锁。它使用 Batchfile 编写，依赖 WinDivert 驱动进行流量拦截与过滤。作者提醒 WinDivert 可能会被杀毒软件误报，需添加排除项。使用前需启用 Secure DNS。 |
 
-[查看完整数据](api/github/2026-04-30.json)
+[查看完整数据](api/github/2026-05-01.json)
 <!-- END GITHUB TRENDING -->
 
 
