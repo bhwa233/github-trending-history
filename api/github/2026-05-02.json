@@ -1,0 +1,184 @@
+{
+  "date": "2026-05-02",
+  "since": "daily",
+  "totalRepos": 8,
+  "successCount": 8,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 62547,
+      "forks": 12085,
+      "todayStars": 2227,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents 是一个基于 Python 的多代理 LLM 金融交易框架，旨在模拟现实交易公司运作。框架包含基本面、技术面及情绪分析等专家代理，通过协作评估市场并制定交易策略。支持 GPT-5.x、Claude 4.x 等多种大模型，近期更新增加了结构化输出、LangGraph 状态恢复及 Docker 支持。",
+        "summary_en": "A multi-agent LLM framework simulating real-world financial trading firms for research purposes.",
+        "techStack": [
+          "Python",
+          "LLM (GPT-5.x, Claude 4.x, Gemini 3.x, Grok 4.x, DeepSeek, Qwen, GLM, Azure)",
+          "LangGraph",
+          "Docker"
+        ],
+        "useCase": "金融交易策略研究、多智能体协作模拟及量化交易实验平台。",
+        "useCase_en": "To simulate real-world trading firms using multi-agent LLM systems for financial research."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "stars": 36769,
+      "forks": 4217,
+      "todayStars": 1258,
+      "url": "https://github.com/ruvnet/ruflo",
+      "aiSummary": {
+        "summary": "Ruflo 是专为 Claude Code 设计的领先多代理编排平台。它允许用户协调跨机器和团队的 100+ 专业 AI 代理，构建协作式智能集群。项目具备自学习记忆、联邦通信和企业级安全架构，支持 RAG 集成。通过 Claude Code 插件，用户可以轻松部署自主工作流，让代理在后台自动协作与优化。",
+        "summary_en": "An enterprise orchestration platform for Claude Code enabling multi-agent swarms and autonomous workflows.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "Claude Code",
+          "MCP"
+        ],
+        "useCase": "构建复杂的自主 AI 工作流和多代理协作系统",
+        "useCase_en": "To deploy intelligent multi-agent swarms and coordinate autonomous workflows for Claude Code."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "browserbase/skills",
+      "description": "Claude Agent SDK with a web browsing tool",
+      "language": "JavaScript",
+      "stars": 1496,
+      "forks": 100,
+      "todayStars": 347,
+      "url": "https://github.com/browserbase/skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 提供的 Browserbase 技能集，旨在通过浏览器自动化和 CLI 工具增强 Claude 的网页浏览能力。它包含浏览器自动化、反机器人处理、无服务器函数部署、网站调试、Cookie 同步、静态抓取、AI UI 测试及使用监控等多种技能，支持复杂的网页交互与自动化测试。",
+        "summary_en": "A collection of skills for Claude Code to automate web interactions via Browserbase.",
+        "techStack": [
+          "JavaScript",
+          "Browserbase",
+          "Claude Code",
+          "bb CLI",
+          "DevTools Protocol"
+        ],
+        "useCase": "需要使用 Claude 进行自动化网页浏览、测试或数据抓取的场景",
+        "useCase_en": "To empower Claude Code agents with advanced web automation capabilities using Browserbase."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "stars": 22652,
+      "forks": 1593,
+      "todayStars": 1065,
+      "url": "https://github.com/soxoj/maigret",
+      "aiSummary": {
+        "summary": "Maigret 是一款强大的开源 OSINT 工具，支持通过用户名在 3000+ 个网站上进行全网搜索。它无需 API 密钥，能自动抓取并提取个人资料信息，支持递归搜索、绕过封锁，并兼容 Tor 和 I2P。项目提供命令行、Web UI 和 Python 库接口，适合专业情报收集和社交媒体分析。",
+        "summary_en": "A Python tool for OSINT that collects a digital dossier on a person by searching for their username across 3000+ websites.",
+        "techStack": [
+          "Python",
+          "Web UI",
+          "Tor/I2P"
+        ],
+        "useCase": "开源情报收集与社交媒体分析",
+        "useCase_en": "To perform open-source intelligence (OSINT) by gathering information on a person from their username across 3000+ websit"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "Flowseal/zapret-discord-youtube",
+      "description": "",
+      "language": "Batchfile",
+      "stars": 27116,
+      "forks": 2112,
+      "todayStars": 179,
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "aiSummary": {
+        "summary": "这是一个基于 Batchfile 的 Windows 网络代理工具，旨在绕过针对 Discord 和 YouTube 的网络封锁。项目利用 WinDivert 驱动程序拦截和过滤网络流量，模拟 Linux 的 iptables 功能。需注意，WinDivert 可能会被杀毒软件误报为病毒或风险工具，建议添加到排除项。此外，还建议启用 Secure DNS 以辅助访问。",
+        "summary_en": "Windows utility to bypass censorship on Discord and YouTube using WinDivert.",
+        "techStack": [
+          "Batchfile",
+          "WinDivert",
+          "Windows"
+        ],
+        "useCase": "绕过针对 Discord 和 YouTube 的网络封锁",
+        "useCase_en": "Allows users to bypass internet censorship on Discord and YouTube using Windows network filtering."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "stars": 2826,
+      "forks": 254,
+      "todayStars": 482,
+      "url": "https://github.com/1jehuang/jcode",
+      "aiSummary": {
+        "summary": "jcode 是一个基于 Rust 构建的下一代编码代理框架，旨在通过多会话工作流和无限可定制性提升编码能力。项目核心优势在于极致的资源效率，内存占用远低于同类竞品，非常适合需要高性能、低资源消耗的复杂编码场景。",
+        "summary_en": "A high-performance Rust coding agent harness designed for multi-session workflows and resource efficiency.",
+        "techStack": [
+          "Rust",
+          "Coding Agent",
+          "CLI Tool"
+        ],
+        "useCase": "适用于追求极致性能与资源效率的多会话编码代理工作流。",
+        "useCase_en": "A high-performance coding agent harness for managing multi-session workflows."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "ShareX/ShareX",
+      "description": "ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.",
+      "language": "C#",
+      "stars": 36788,
+      "forks": 3677,
+      "todayStars": 129,
+      "url": "https://github.com/ShareX/ShareX",
+      "aiSummary": {
+        "summary": "ShareX 是一款免费开源的屏幕截图与录制工具。用户可通过单键快捷键捕获屏幕任意区域，支持录制视频。此外，它还具备强大的文件上传功能，支持将图片、文本等多种文件类型上传至多种云存储或自定义服务器。",
+        "summary_en": "ShareX is a free and open-source screen capture and file sharing tool for Windows.",
+        "techStack": [
+          "C#"
+        ],
+        "useCase": "适合需要频繁截图、录屏并快速分享或上传文件的办公及开发人员。",
+        "useCase_en": "Capture screen recordings or images and upload them to various destinations."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "jwasham/coding-interview-university",
+      "description": "A complete computer science study plan to become a software engineer.",
+      "language": "",
+      "stars": 344539,
+      "forks": 82473,
+      "todayStars": 717,
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "aiSummary": {
+        "summary": "一份全面的计算机科学自学计划，旨在帮助求职者通过大型科技公司（如Google、Amazon）的技术面试。内容涵盖数据结构、算法、操作系统等核心知识，提供详细学习路径和多语言支持。",
+        "summary_en": "A comprehensive study plan for software engineering interviews covering computer science topics.",
+        "techStack": [
+          "计算机科学",
+          "算法",
+          "数据结构"
+        ],
+        "useCase": "适用于准备大型科技公司技术面试的求职者。",
+        "useCase_en": "A self-taught roadmap to master computer science concepts for software engineering roles."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-02T23:53:26.914Z",
+    "duration": "101s",
+    "version": "1.0.0"
+  }
+}

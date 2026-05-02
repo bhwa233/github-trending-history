@@ -70,21 +70,20 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-05-01 | **成功**: 9 | **失败**: 0
+**最后更新**: 2026-05-02 | **成功**: 8 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 59.8k | 2.1k | TradingAgents 是一个基于 Python 的多智能体 LLM 金融交易框架。它模拟现实交易公司，通过基本面、技术、情绪分析专家及交易员、风控团队等智能体协作，动态评估市场并制定交易策略。支持多种大模型和 LangGraph，主要用于金融交易研究。 |
-| 2 | [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username f... | Python | 21.6k | 535 | Maigret 是一个强大的开源情报（OSINT）工具，通过用户名在 3000+ 网站上收集个人档案。它支持递归搜索、自动更新数据库、绕过封锁，并提供 Web 界面和多种报告格式。无需 API 密钥，可嵌入 Python 项目使用。 |
-| 3 | [warpdotdev/warp](https://github.com/warpdotdev/warp) | Warp is an agentic development environment, born o... | Rust | 51.4k | 3.4k | Warp 是一个基于 Rust 的智能开发环境，旨在增强终端体验。它集成了内置的 AI 编码代理，支持 Claude Code 等 CLI 工具，并提供 Web 端仪表盘监控开发流程。项目采用 MIT 和 AGPL v3 双重许可证，欢迎社区贡献。 |
-| 4 | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Coding Agent Harness... | Rust | 2.3k | 404 | jcode 是一个用 Rust 编写的下一代编码代理框架。它专注于多会话工作流、无限自定义和极致性能。项目强调资源效率，相比 Copilot CLI 和 Claude Code 等竞品，其内存占用显著更低，旨在提升编码能力上限。 |
-| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .claud... | Shell | 52.5k | 3.6k | 这是一套为 Claude Code 等编程代理设计的 Shell 技能集合，旨在解决 AI 编程中的沟通鸿沟。它提供可组合的命令（如 /grill-me 和 /triage），帮助工程师通过详细提问和配置来规范工作流，确保 AI 理解需求并生成高质量代码。 |
-| 6 | [browserbase/skills](https://github.com/browserbase/skills) | Claude Agent SDK with a web browsing tool... | JavaScript | 1.2k | 334 | 这是一个为 Claude Code 提供的 Browserbase SDK，包含多种自动化技能。支持浏览器交互、无服务器函数部署、网站调试、Cookie 同步、静态抓取及 AI UI 测试。通过 CLI 命令简化与 Browserbase 云平台的交互，提供反机器人、代理及全链路调试能力，提升开发效率。 |
-| 7 | [simstudioai/sim](https://github.com/simstudioai/sim) | Build, deploy, and orchestrate AI agents. Sim is t... | TypeScript | 28.1k | 38 | Sim 是一个开源的 AI 代理构建与编排平台。它提供可视化画布来设计代理工作流，支持连接 1000+ 集成和 LLM。内置 Copilot 可通过自然语言辅助开发，并支持向量数据库以实现基于特定内容的问答。支持云端和多种自托管方式。 |
-| 8 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 175.6k | 1.1k | Superpowers 是一个面向编码代理的软件开发生命周期框架。它通过一套可组合的技能，引导代理从需求分析、设计确认到实施计划制定，并利用子代理进行自主开发。强调 TDD、YAGNI 和 DRY 原则，旨在让 Claude 等代理能够独立高效地完成复杂编码任务。 |
-| 9 | [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) | ... | Batchfile | 27.0k | 165 | 该项目旨在绕过针对 Discord 和 YouTube 的网络封锁。它使用 Batchfile 编写，依赖 WinDivert 驱动进行流量拦截与过滤。作者提醒 WinDivert 可能会被杀毒软件误报，需添加排除项。使用前需启用 Secure DNS。 |
+| 1 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 62.5k | 2.2k | TradingAgents 是一个基于 Python 的多代理 LLM 金融交易框架，旨在模拟现实交易公司运作。框架包含基本面、技术面及情绪分析等专家代理，通过协作评估市场并制定交易策略。支持 GPT-5.x、Claude 4.x 等多种大模型，近期更新增加了结构化输出、LangGraph 状态恢复及 Docker 支持。 |
+| 2 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The leading agent orchestration platform for Cl... | TypeScript | 36.8k | 1.3k | Ruflo 是专为 Claude Code 设计的领先多代理编排平台。它允许用户协调跨机器和团队的 100+ 专业 AI 代理，构建协作式智能集群。项目具备自学习记忆、联邦通信和企业级安全架构，支持 RAG 集成。通过 Claude Code 插件，用户可以轻松部署自主工作流，让代理在后台自动协作与优化。 |
+| 3 | [browserbase/skills](https://github.com/browserbase/skills) | Claude Agent SDK with a web browsing tool... | JavaScript | 1.5k | 347 | 这是一个为 Claude Code 提供的 Browserbase 技能集，旨在通过浏览器自动化和 CLI 工具增强 Claude 的网页浏览能力。它包含浏览器自动化、反机器人处理、无服务器函数部署、网站调试、Cookie 同步、静态抓取、AI UI 测试及使用监控等多种技能，支持复杂的网页交互与自动化测试。 |
+| 4 | [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username f... | Python | 22.7k | 1.1k | Maigret 是一款强大的开源 OSINT 工具，支持通过用户名在 3000+ 个网站上进行全网搜索。它无需 API 密钥，能自动抓取并提取个人资料信息，支持递归搜索、绕过封锁，并兼容 Tor 和 I2P。项目提供命令行、Web UI 和 Python 库接口，适合专业情报收集和社交媒体分析。 |
+| 5 | [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) | ... | Batchfile | 27.1k | 179 | 这是一个基于 Batchfile 的 Windows 网络代理工具，旨在绕过针对 Discord 和 YouTube 的网络封锁。项目利用 WinDivert 驱动程序拦截和过滤网络流量，模拟 Linux 的 iptables 功能。需注意，WinDivert 可能会被杀毒软件误报为病毒或风险工具，建议添加到排除项。此外，还建议启用 Secure DNS 以辅助访问。 |
+| 6 | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Coding Agent Harness... | Rust | 2.8k | 482 | jcode 是一个基于 Rust 构建的下一代编码代理框架，旨在通过多会话工作流和无限可定制性提升编码能力。项目核心优势在于极致的资源效率，内存占用远低于同类竞品，非常适合需要高性能、低资源消耗的复杂编码场景。 |
+| 7 | [ShareX/ShareX](https://github.com/ShareX/ShareX) | ShareX is a free and open-source application that ... | C# | 36.8k | 129 | ShareX 是一款免费开源的屏幕截图与录制工具。用户可通过单键快捷键捕获屏幕任意区域，支持录制视频。此外，它还具备强大的文件上传功能，支持将图片、文本等多种文件类型上传至多种云存储或自定义服务器。 |
+| 8 | [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | A complete computer science study plan to become a... | - | 344.5k | 717 | 一份全面的计算机科学自学计划，旨在帮助求职者通过大型科技公司（如Google、Amazon）的技术面试。内容涵盖数据结构、算法、操作系统等核心知识，提供详细学习路径和多语言支持。 |
 
-[查看完整数据](api/github/2026-05-01.json)
+[查看完整数据](api/github/2026-05-02.json)
 <!-- END GITHUB TRENDING -->
 
 
