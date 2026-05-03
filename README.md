@@ -70,20 +70,21 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-05-02 | **成功**: 8 | **失败**: 0
+**最后更新**: 2026-05-03 | **成功**: 9 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 62.5k | 2.2k | TradingAgents 是一个基于 Python 的多代理 LLM 金融交易框架，旨在模拟现实交易公司运作。框架包含基本面、技术面及情绪分析等专家代理，通过协作评估市场并制定交易策略。支持 GPT-5.x、Claude 4.x 等多种大模型，近期更新增加了结构化输出、LangGraph 状态恢复及 Docker 支持。 |
-| 2 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The leading agent orchestration platform for Cl... | TypeScript | 36.8k | 1.3k | Ruflo 是专为 Claude Code 设计的领先多代理编排平台。它允许用户协调跨机器和团队的 100+ 专业 AI 代理，构建协作式智能集群。项目具备自学习记忆、联邦通信和企业级安全架构，支持 RAG 集成。通过 Claude Code 插件，用户可以轻松部署自主工作流，让代理在后台自动协作与优化。 |
-| 3 | [browserbase/skills](https://github.com/browserbase/skills) | Claude Agent SDK with a web browsing tool... | JavaScript | 1.5k | 347 | 这是一个为 Claude Code 提供的 Browserbase 技能集，旨在通过浏览器自动化和 CLI 工具增强 Claude 的网页浏览能力。它包含浏览器自动化、反机器人处理、无服务器函数部署、网站调试、Cookie 同步、静态抓取、AI UI 测试及使用监控等多种技能，支持复杂的网页交互与自动化测试。 |
-| 4 | [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username f... | Python | 22.7k | 1.1k | Maigret 是一款强大的开源 OSINT 工具，支持通过用户名在 3000+ 个网站上进行全网搜索。它无需 API 密钥，能自动抓取并提取个人资料信息，支持递归搜索、绕过封锁，并兼容 Tor 和 I2P。项目提供命令行、Web UI 和 Python 库接口，适合专业情报收集和社交媒体分析。 |
-| 5 | [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) | ... | Batchfile | 27.1k | 179 | 这是一个基于 Batchfile 的 Windows 网络代理工具，旨在绕过针对 Discord 和 YouTube 的网络封锁。项目利用 WinDivert 驱动程序拦截和过滤网络流量，模拟 Linux 的 iptables 功能。需注意，WinDivert 可能会被杀毒软件误报为病毒或风险工具，建议添加到排除项。此外，还建议启用 Secure DNS 以辅助访问。 |
-| 6 | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Coding Agent Harness... | Rust | 2.8k | 482 | jcode 是一个基于 Rust 构建的下一代编码代理框架，旨在通过多会话工作流和无限可定制性提升编码能力。项目核心优势在于极致的资源效率，内存占用远低于同类竞品，非常适合需要高性能、低资源消耗的复杂编码场景。 |
-| 7 | [ShareX/ShareX](https://github.com/ShareX/ShareX) | ShareX is a free and open-source application that ... | C# | 36.8k | 129 | ShareX 是一款免费开源的屏幕截图与录制工具。用户可通过单键快捷键捕获屏幕任意区域，支持录制视频。此外，它还具备强大的文件上传功能，支持将图片、文本等多种文件类型上传至多种云存储或自定义服务器。 |
-| 8 | [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | A complete computer science study plan to become a... | - | 344.5k | 717 | 一份全面的计算机科学自学计划，旨在帮助求职者通过大型科技公司（如Google、Amazon）的技术面试。内容涵盖数据结构、算法、操作系统等核心知识，提供详细学习路径和多语言支持。 |
+| 1 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The leading agent orchestration platform for Cl... | TypeScript | 38.9k | 1.8k | Ruflo 是专为 Claude Code 设计的多代理 AI 编排平台。它支持部署 100+ 专业代理，协调自主工作流，并具备自学习记忆、联邦通信和企业级安全特性。通过插件系统，它能将 Claude Code 转化为具备集群智能的自主系统，适合需要复杂 AI 协作的开发场景。 |
+| 2 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 65.2k | 3.3k | TradingAgents 是一个基于 Python 的多智能体 LLM 金融交易框架，模拟真实交易公司运作。它集成了基本面、情绪、技术分析师及交易员等角色，通过 LLM 协作评估市场并制定交易策略。支持多种大模型（如 GPT-5.4、Claude 4.6 等），具备回测、持久化日志及 Docker 部署功能，专为金融研究设计。 |
+| 3 | [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username f... | Python | 23.8k | 1.1k | Maigret 是一款强大的开源 OSINT 工具，通过用户名在 3000+ 网站上收集个人档案。支持递归搜索、绕过封锁及 Web UI，无需 API 密钥，可嵌入 Python 项目，适用于社交媒体分析和数字足迹调查。 |
+| 4 | [Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) | Coding agent for DeepSeek models that runs in your... | Rust | 2.1k | 389 | 这是一个基于 Rust 开发的终端原生编码代理，专为 DeepSeek V4 模型设计。它支持 1M token 上下文和思考模式流式输出，提供文件操作、Shell 执行、Git 管理等全功能工具集。支持会话保存、回滚及多种交互模式，无需额外运行时即可直接运行。 |
+| 5 | [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video) | 🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video En... | Python | 9.9k | 478 | 这是一个基于 Python 的 AI 全自动短视频生成引擎。它提供 Web 界面，支持利用 LLM 生成文案，通过 ComfyUI 或云端 API 生成配图，并集成了多种 TTS 引擎进行语音合成。支持本地一键整合包和源码部署，适合快速制作解说类短视频。 |
+| 6 | [browserbase/skills](https://github.com/browserbase/skills) | Claude Agent SDK with a web browsing tool... | JavaScript | 1.8k | 322 | 这是一个为 Claude Code 提供的浏览器自动化技能集，旨在通过 Browserbase 平台实现强大的 Web 爬取、自动化测试和调试功能。它包含多种技能，如远程浏览器会话管理、无服务器函数部署、站点调试、Cookie 同步以及 AI 驱动的对抗性 UI 测试，支持反机器人检测和代理设置，极大增强了 Claude Agent 处理复杂 Web 任务的能力。 |
+| 7 | [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | A MCP for Claude Desktop / Claude Code / Windsurf ... | TypeScript | 19.5k | 264 | 这是一个 TypeScript 编写的 MCP 服务器，为 Claude、Cursor 等 AI 助手提供对 n8n 节点文档、属性和操作的全面访问。它支持 1,650 个节点，覆盖 99% 的属性和 63.6% 的操作，允许 AI 帮助构建自动化工作流，并提供云端快速体验。 |
+| 8 | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Coding Agent Harness... | Rust | 3.4k | 587 | 这是一个用 Rust 编写的下一代编码代理框架，专注于多会话工作流、无限自定义和高性能。项目在资源效率方面表现优异，内存占用显著低于同类竞品，适合需要高效运行多个 AI 编码会话的开发者。 |
+| 9 | [openwrt/openwrt](https://github.com/openwrt/openwrt) | This repository is a mirror of https://git.openwrt... | C | 26.6k | 14 | OpenWrt 是一个面向嵌入式设备的 Linux 操作系统，提供完全可写的文件系统和包管理。它允许用户摆脱厂商限制，通过安装各种软件包对设备进行深度定制，适用于 WiFi 路由器等场景。开发者也可将其作为构建应用的框架。 |
 
-[查看完整数据](api/github/2026-05-02.json)
+[查看完整数据](api/github/2026-05-03.json)
 <!-- END GITHUB TRENDING -->
 
 

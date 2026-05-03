@@ -1,0 +1,207 @@
+{
+  "date": "2026-05-03",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "stars": 38924,
+      "forks": 4416,
+      "todayStars": 1834,
+      "url": "https://github.com/ruvnet/ruflo",
+      "aiSummary": {
+        "summary": "Ruflo 是专为 Claude Code 设计的多代理 AI 编排平台。它支持部署 100+ 专业代理，协调自主工作流，并具备自学习记忆、联邦通信和企业级安全特性。通过插件系统，它能将 Claude Code 转化为具备集群智能的自主系统，适合需要复杂 AI 协作的开发场景。",
+        "summary_en": "Ruflo orchestrates multi-agent AI swarms for Claude Code with self-learning capabilities and enterprise features.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "Claude Code",
+          "MCP"
+        ],
+        "useCase": "适合需要协调多个 AI 代理、构建自主工作流或增强 Claude Code 能力的开发团队。",
+        "useCase_en": "Deploy intelligent multi-agent swarms and coordinate autonomous workflows for conversational AI systems."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 65214,
+      "forks": 12610,
+      "todayStars": 3315,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents 是一个基于 Python 的多智能体 LLM 金融交易框架，模拟真实交易公司运作。它集成了基本面、情绪、技术分析师及交易员等角色，通过 LLM 协作评估市场并制定交易策略。支持多种大模型（如 GPT-5.4、Claude 4.6 等），具备回测、持久化日志及 Docker 部署功能，专为金融研究设计。",
+        "summary_en": "A multi-agent LLM framework simulating real-world trading firms using specialized AI agents for market analysis and decision-making.",
+        "techStack": [
+          "Python",
+          "LLM (GPT-5.4/Claude 4.6/DeepSeek)",
+          "LangGraph",
+          "Docker"
+        ],
+        "useCase": "适用于金融交易策略的研究与回测。",
+        "useCase_en": "Researching and simulating autonomous financial trading strategies using multi-agent LLM architectures."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "stars": 23764,
+      "forks": 1668,
+      "todayStars": 1117,
+      "url": "https://github.com/soxoj/maigret",
+      "aiSummary": {
+        "summary": "Maigret 是一款强大的开源 OSINT 工具，通过用户名在 3000+ 网站上收集个人档案。支持递归搜索、绕过封锁及 Web UI，无需 API 密钥，可嵌入 Python 项目，适用于社交媒体分析和数字足迹调查。",
+        "summary_en": "Maigret is a Python-based OSINT tool that collects a dossier on a person by username from 3000+ websites.",
+        "techStack": [
+          "Python",
+          "Web UI",
+          "Tor/I2P"
+        ],
+        "useCase": "社交媒体分析、数字足迹调查及 OSINT 研究",
+        "useCase_en": "To perform open-source intelligence (OSINT) by gathering a person's online presence across 3000+ websites."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "stars": 2127,
+      "forks": 120,
+      "todayStars": 389,
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 开发的终端原生编码代理，专为 DeepSeek V4 模型设计。它支持 1M token 上下文和思考模式流式输出，提供文件操作、Shell 执行、Git 管理等全功能工具集。支持会话保存、回滚及多种交互模式，无需额外运行时即可直接运行。",
+        "summary_en": "Terminal-native coding agent built in Rust that leverages DeepSeek V4 models for file operations and reasoning.",
+        "techStack": [
+          "Rust",
+          "DeepSeek API",
+          "TUI",
+          "MCP"
+        ],
+        "useCase": "适合需要在终端中直接使用 DeepSeek 进行代码编写、调试和管理的开发者。",
+        "useCase_en": "Run an AI coding agent directly in your terminal to perform file operations, debugging, and reasoning using DeepSeek mod"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "AIDC-AI/Pixelle-Video",
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "language": "Python",
+      "stars": 9920,
+      "forks": 1550,
+      "todayStars": 478,
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 AI 全自动短视频生成引擎。它提供 Web 界面，支持利用 LLM 生成文案，通过 ComfyUI 或云端 API 生成配图，并集成了多种 TTS 引擎进行语音合成。支持本地一键整合包和源码部署，适合快速制作解说类短视频。",
+        "summary_en": "Fully automated short video engine powered by LLMs, TTS, and image generation tools.",
+        "techStack": [
+          "Python",
+          "Streamlit",
+          "ComfyUI",
+          "uv",
+          "ffmpeg"
+        ],
+        "useCase": "自动化短视频内容创作与制作",
+        "useCase_en": "Automatically generate short videos with AI-generated scripts, voiceovers, and visuals."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "browserbase/skills",
+      "description": "Claude Agent SDK with a web browsing tool",
+      "language": "JavaScript",
+      "stars": 1810,
+      "forks": 118,
+      "todayStars": 322,
+      "url": "https://github.com/browserbase/skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 提供的浏览器自动化技能集，旨在通过 Browserbase 平台实现强大的 Web 爬取、自动化测试和调试功能。它包含多种技能，如远程浏览器会话管理、无服务器函数部署、站点调试、Cookie 同步以及 AI 驱动的对抗性 UI 测试，支持反机器人检测和代理设置，极大增强了 Claude Agent 处理复杂 Web 任务的能力。",
+        "summary_en": "A plugin suite for Claude Code to automate web browsing via Browserbase.",
+        "techStack": [
+          "JavaScript",
+          "Node.js"
+        ],
+        "useCase": "专为 Claude Code 设计，用于实现复杂的 Web 自动化、爬虫、调试和 AI 驱动的 UI 测试。",
+        "useCase_en": "It enables Claude Code to perform web automation, debugging, and testing tasks using Browserbase."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "czlonkowski/n8n-mcp",
+      "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+      "language": "TypeScript",
+      "stars": 19506,
+      "forks": 3235,
+      "todayStars": 264,
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "aiSummary": {
+        "summary": "这是一个 TypeScript 编写的 MCP 服务器，为 Claude、Cursor 等 AI 助手提供对 n8n 节点文档、属性和操作的全面访问。它支持 1,650 个节点，覆盖 99% 的属性和 63.6% 的操作，允许 AI 帮助构建自动化工作流，并提供云端快速体验。",
+        "summary_en": "An MCP server that bridges AI assistants with n8n's node documentation and operations for workflow automation.",
+        "techStack": [
+          "TypeScript",
+          "Model Context Protocol (MCP)",
+          "n8n"
+        ],
+        "useCase": "利用 AI 助手自动构建和优化 n8n 工作流自动化",
+        "useCase_en": "Enables AI assistants like Claude to build n8n workflows by accessing comprehensive node documentation and templates."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "stars": 3410,
+      "forks": 317,
+      "todayStars": 587,
+      "url": "https://github.com/1jehuang/jcode",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的下一代编码代理框架，专注于多会话工作流、无限自定义和高性能。项目在资源效率方面表现优异，内存占用显著低于同类竞品，适合需要高效运行多个 AI 编码会话的开发者。",
+        "summary_en": "A high-performance Rust coding agent harness designed for multi-session workflows and resource efficiency.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "适用于需要高性能、低资源占用的多会话 AI 编码工作流。",
+        "useCase_en": "Execute coding tasks across multiple sessions with optimized resource usage."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "openwrt/openwrt",
+      "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
+      "language": "C",
+      "stars": 26604,
+      "forks": 12345,
+      "todayStars": 14,
+      "url": "https://github.com/openwrt/openwrt",
+      "aiSummary": {
+        "summary": "OpenWrt 是一个面向嵌入式设备的 Linux 操作系统，提供完全可写的文件系统和包管理。它允许用户摆脱厂商限制，通过安装各种软件包对设备进行深度定制，适用于 WiFi 路由器等场景。开发者也可将其作为构建应用的框架。",
+        "summary_en": "A customizable Linux operating system for embedded devices featuring a fully writable filesystem and package management.",
+        "techStack": [
+          "C",
+          "Make",
+          "GCC",
+          "Linux",
+          "BSD"
+        ],
+        "useCase": "将路由器等嵌入式设备刷入自定义固件，或作为开发嵌入式应用的框架。",
+        "useCase_en": "To customize embedded hardware by replacing vendor firmware with a flexible, package-managed operating system."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-03T23:55:42.998Z",
+    "duration": "106s",
+    "version": "1.0.0"
+  }
+}
