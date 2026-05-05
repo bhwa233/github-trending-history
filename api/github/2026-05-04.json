@@ -1,0 +1,327 @@
+{
+  "date": "2026-05-04",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "stars": 41341,
+      "forks": 4625,
+      "todayStars": 2594,
+      "url": "https://github.com/ruvnet/ruflo",
+      "aiSummary": {
+        "summary": "Ruflo 是专为 Claude Code 打造的智能体编排平台，支持跨机器和团队编排 100+ 专业智能体。它具备自学习记忆、联邦通信和企业级安全架构，通过插件系统实现智能体协作与自主运行，简化 AI 系统开发。",
+        "summary_en": "A multi-agent orchestration platform for Claude Code enabling self-learning swarms and autonomous workflows.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "WASM"
+        ],
+        "useCase": "构建多智能体协作系统、自主工作流及对话式 AI 应用",
+        "useCase_en": "To orchestrate 100+ specialized AI agents across machines, teams, and trust boundaries using Claude Code."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 67426,
+      "forks": 12982,
+      "todayStars": 2181,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents 是一个基于 Python 的多智能体 LLM 金融交易框架。它模拟真实交易公司，通过基本面、情感、技术分析师、交易员和风控团队等智能体协作评估市场并决策。支持多种大模型（如 GPT-5.4、Claude 4.6）及 LangGraph，具备回测、Docker 部署等功能，专为研究目的设计。",
+        "summary_en": "Multi-agent LLM framework simulating real-world trading firms for financial research.",
+        "techStack": [
+          "Python",
+          "LLM (GPT-5.4, Claude 4.6, DeepSeek, etc.)",
+          "LangGraph",
+          "Docker"
+        ],
+        "useCase": "适用于金融交易策略研究、多智能体协作模拟及大模型在量化交易中的应用探索。",
+        "useCase_en": "A research tool for simulating collaborative AI-driven financial trading strategies."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "browserbase/skills",
+      "description": "Claude Agent SDK with a web browsing tool",
+      "language": "JavaScript",
+      "stars": 2107,
+      "forks": 134,
+      "todayStars": 320,
+      "url": "https://github.com/browserbase/skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 提供的 Browserbase 浏览器自动化技能集。它包含多种技能，如浏览器自动化、CLI 操作、无服务器函数部署、站点调试、性能追踪、Cookie 同步、静态抓取、结构化搜索以及 AI 驱动的 UI 测试。旨在通过 Browserbase 平台实现强大的网页交互和测试能力。",
+        "summary_en": "A plugin ecosystem for Claude Code enabling advanced web automation, debugging, and testing via Browserbase.",
+        "techStack": [
+          "JavaScript",
+          "Claude Code",
+          "Browserbase CLI",
+          "DevTools Protocol"
+        ],
+        "useCase": "适用于利用 Claude 进行网页自动化、调试及 AI 驱动的 UI 测试场景。",
+        "useCase_en": "To provide Claude Code with tools for automated web browsing, debugging, and serverless deployment."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "stars": 3891,
+      "forks": 262,
+      "todayStars": 1277,
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 构建的终端原生编码代理，专为 DeepSeek V4 模型设计。它支持 1M token 上下文，具备并行推理、思维模式流、文件操作、Shell 执行及 Git 管理等全功能工具集。内置 MCP 协议支持，支持会话保存与持久化任务队列，适合在终端中进行高效的代码编写与自动化任务处理。",
+        "summary_en": "Terminal-native coding agent powered by DeepSeek V4 models",
+        "techStack": [
+          "Rust",
+          "DeepSeek API",
+          "MCP Protocol",
+          "LSP"
+        ],
+        "useCase": "终端环境下的代码编写、自动化任务执行及长上下文代码分析",
+        "useCase_en": "To automate coding tasks and file operations directly in the terminal using DeepSeek models"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "stars": 24800,
+      "forks": 1728,
+      "todayStars": 1116,
+      "url": "https://github.com/soxoj/maigret",
+      "aiSummary": {
+        "summary": "Maigret 是一款强大的开源 OSINT 工具，支持通过用户名在 3000+ 网站上收集个人资料信息。具备递归搜索、绕过封锁、Tor/I2P 支持、Web UI 及报告生成功能，无需 API 密钥，适合专业情报分析。",
+        "summary_en": "Maigret is a Python OSINT tool that collects user profiles from 3000+ websites to build a comprehensive dossier.",
+        "techStack": [
+          "Python",
+          "Tor",
+          "I2P",
+          "Web UI"
+        ],
+        "useCase": "社交媒体情报收集、人肉搜索、网络足迹追踪",
+        "useCase_en": "Collect a dossier on a person by username from 3000+ websites."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "qbittorrent/qBittorrent",
+      "description": "qBittorrent BitTorrent client",
+      "language": "C++",
+      "stars": 37038,
+      "forks": 4650,
+      "todayStars": 68,
+      "url": "https://github.com/qbittorrent/qBittorrent",
+      "aiSummary": {
+        "summary": "qBittorrent 是一个用 C++ 和 Qt 编写的开源 BitTorrent 客户端。它基于 libtorrent 库开发，旨在成为其他客户端的优秀替代品。该软件以速度快、稳定性高著称，支持 Unicode，功能丰富，提供命令行界面和图形用户界面，适合需要高效下载和管理的用户。",
+        "summary_en": "qBittorrent is a fast, stable, and feature-rich BitTorrent client written in C++ and Qt.",
+        "techStack": [
+          "C++",
+          "Qt",
+          "libtorrent"
+        ],
+        "useCase": "下载 BT 种子文件，进行 P2P 文件传输与管理。",
+        "useCase_en": "It serves as a lightweight and powerful alternative to other BitTorrent clients for downloading files."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "czlonkowski/n8n-mcp",
+      "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+      "language": "TypeScript",
+      "stars": 19900,
+      "forks": 3267,
+      "todayStars": 497,
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "aiSummary": {
+        "summary": "这是一个 TypeScript 编写的 MCP 服务器，为 Claude 等智能体提供对 n8n 1,650 个节点的全面访问。它包含节点文档、属性及操作，帮助 AI 高效构建自动化工作流，支持核心与社区节点。",
+        "summary_en": "A Model Context Protocol server connecting AI assistants to n8n's workflow automation nodes.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "为 AI 助手（如 Claude）提供 n8n 节点知识，辅助构建自动化工作流。",
+        "useCase_en": "Enables AI assistants to build n8n workflows by accessing node documentation and properties via MCP."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "stars": 3897,
+      "forks": 369,
+      "todayStars": 545,
+      "url": "https://github.com/1jehuang/jcode",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 的高性能 Coding Agent Harness。它专注于提升编码技能上限，支持多会话工作流与高度自定义。项目核心优势在于极致的资源效率，内存占用显著低于同类竞品，适合需要大规模并发会话的开发者。",
+        "summary_en": "A Rust-based coding agent harness designed for high performance, multi-session workflows, and resource efficiency.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "支持多会话工作流的高性能编码代理开发",
+        "useCase_en": "To run coding agents with high performance and customizability in multi-session workflows."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 92609,
+      "forks": 15238,
+      "todayStars": 1290,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "该项目提供了一套精心设计的 AI 代理集合，涵盖前端开发、社区运营等不同领域。每个代理具备独特人格和专业化流程，支持通过 Shell 脚本一键安装至 Claude Code、Copilot 等主流开发工具中，旨在构建全天候工作的 AI 专家团队。",
+        "summary_en": "A collection of specialized AI agent personalities designed for various coding workflows.",
+        "techStack": [
+          "Shell",
+          "Markdown"
+        ],
+        "useCase": "需要特定领域 AI 专家辅助开发或运营的用户",
+        "useCase_en": "To provide specialized AI agent personalities for various coding workflows and tools."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "stars": 23185,
+      "forks": 2841,
+      "todayStars": 497,
+      "url": "https://github.com/virattt/dexter",
+      "aiSummary": {
+        "summary": "Dexter 是一个基于 TypeScript 的自主金融研究代理。它利用任务规划、自我反思和实时市场数据，将复杂的金融问题分解为结构化的研究步骤。它具备自主执行、自我验证和循环检测等安全功能，能够独立完成深度财务分析并输出数据支持的结论。",
+        "summary_en": "An autonomous TypeScript agent for deep financial research using task planning and real-time data.",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "OpenAI API"
+        ],
+        "useCase": "专为自动化深度金融研究、市场分析及数据验证设计。",
+        "useCase_en": "Automate complex financial research by decomposing queries into structured plans and validating results with real-time m"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Flowseal/zapret-discord-youtube",
+      "description": "",
+      "language": "Batchfile",
+      "stars": 27309,
+      "forks": 2132,
+      "todayStars": 106,
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "aiSummary": {
+        "summary": "这是一个用于 Windows 的批处理脚本项目，旨在绕过 Discord 和 YouTube 的网络封锁。它利用 WinDivert 驱动程序拦截和过滤网络流量。项目警告用户注意杀毒软件可能将其误报为风险工具，并建议启用安全 DNS。",
+        "summary_en": "Windows utility for bypassing internet censorship using WinDivert and Secure DNS.",
+        "techStack": [
+          "Batchfile",
+          "WinDivert",
+          "Windows"
+        ],
+        "useCase": "在受限网络环境下绕过 Discord 和 YouTube 的封锁",
+        "useCase_en": "To bypass internet censorship on Windows using WinDivert."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "fspecii/ace-step-ui",
+      "description": "🎵 The Ultimate Open Source Suno Alternative - Professional UI for ACE-Step 1.5 AI Music Generation. Free, local, unlimited. Stop paying for Suno!",
+      "language": "JavaScript",
+      "stars": 2827,
+      "forks": 408,
+      "todayStars": 222,
+      "url": "https://github.com/fspecii/ace-step-ui",
+      "aiSummary": {
+        "summary": "这是一个为 ACE-Step 1.5 AI 音乐生成模型提供专业界面的开源项目。它允许用户在本地免费、无限地生成高质量音乐，支持全歌生成、人声/乐器模式、批量处理及高级参数调整。相比商业服务，它提供完全的隐私控制和所有权，是 Suno 的理想替代方案。",
+        "summary_en": "A professional UI for the ACE-Step 1.5 AI music generation model, offering a free, local alternative to Suno.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "本地 AI 音乐创作与生成",
+        "useCase_en": "Generate professional AI music locally using the ACE-Step 1.5 model via a Spotify-like interface."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "jellyfin/jellyfin",
+      "description": "The Free Software Media System - Server Backend & API",
+      "language": "C#",
+      "stars": 51148,
+      "forks": 4739,
+      "todayStars": 35,
+      "url": "https://github.com/jellyfin/jellyfin",
+      "aiSummary": {
+        "summary": "Jellyfin 是一个免费开源的媒体系统，旨在替代专有的 Emby 和 Plex。它提供后端服务器和 API，允许用户从专用服务器跨平台管理和流式传输媒体。项目完全开源，无付费功能，支持多设备访问。",
+        "summary_en": "A free, open-source media server and API for managing and streaming personal media libraries.",
+        "techStack": [
+          "C#",
+          ".NET"
+        ],
+        "useCase": "适合需要自建私有媒体服务器，替代 Plex 或 Emby 的用户。",
+        "useCase_en": "To serve as a self-hosted media server for organizing and streaming personal video, music, and photo libraries."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "cocoindex-io/cocoindex",
+      "description": "Incremental engine for long horizon agents 🌟 Star if you like it!",
+      "language": "Python",
+      "stars": 7995,
+      "forks": 589,
+      "todayStars": 204,
+      "url": "https://github.com/cocoindex-io/cocoindex",
+      "aiSummary": {
+        "summary": "CocoIndex 是一个专为 AI 代理和 LLM 应用设计的增量上下文引擎。它支持将代码库、文档、视频等多种数据源实时转化为向量索引，具备增量处理和并行计算能力，确保数据始终新鲜，无需手动维护批次，能快速构建生产级 AI 应用。",
+        "summary_en": "Incremental engine for AI agents to maintain fresh context by processing only code changes.",
+        "techStack": [
+          "Python",
+          "向量数据库",
+          "文件系统/数据源"
+        ],
+        "useCase": "为 AI 代理和 LLM 应用提供实时、增量更新的上下文数据，解决数据过时和上下文缺口问题。",
+        "useCase_en": "To provide production AI agents with reliable, continuously fresh data by processing only code changes."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "docusealco/docuseal",
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "language": "Ruby",
+      "stars": 13235,
+      "forks": 1205,
+      "todayStars": 900,
+      "url": "https://github.com/docusealco/docuseal",
+      "aiSummary": {
+        "summary": "DocuSeal 是一个开源的 DocuSign 替代方案，使用 Ruby 构建。它提供安全的数字文档签署与处理平台，支持 WYSIWYG 表单构建、多种字段类型、自动电子签名、移动端优化及多语言支持。项目具备完善的 API 和 Webhook，支持多种部署方式，适合企业快速集成文档签署流程。",
+        "summary_en": "An open-source alternative to DocuSign for creating, filling, and signing digital documents securely.",
+        "techStack": [
+          "Ruby",
+          "SQLite",
+          "PostgreSQL",
+          "MySQL",
+          "AWS S3"
+        ],
+        "useCase": "适用于需要替代 DocuSign 进行在线 PDF 表单填写和电子签名的企业和开发者。",
+        "useCase_en": "Organizations use this to automate document signing workflows and manage user roles without relying on third-party servi"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-05T00:01:56.066Z",
+    "duration": "201s",
+    "version": "1.0.0"
+  }
+}

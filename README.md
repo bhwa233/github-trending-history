@@ -70,21 +70,27 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-05-03 | **成功**: 9 | **失败**: 0
+**最后更新**: 2026-05-04 | **成功**: 15 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The leading agent orchestration platform for Cl... | TypeScript | 38.9k | 1.8k | Ruflo 是专为 Claude Code 设计的多代理 AI 编排平台。它支持部署 100+ 专业代理，协调自主工作流，并具备自学习记忆、联邦通信和企业级安全特性。通过插件系统，它能将 Claude Code 转化为具备集群智能的自主系统，适合需要复杂 AI 协作的开发场景。 |
-| 2 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 65.2k | 3.3k | TradingAgents 是一个基于 Python 的多智能体 LLM 金融交易框架，模拟真实交易公司运作。它集成了基本面、情绪、技术分析师及交易员等角色，通过 LLM 协作评估市场并制定交易策略。支持多种大模型（如 GPT-5.4、Claude 4.6 等），具备回测、持久化日志及 Docker 部署功能，专为金融研究设计。 |
-| 3 | [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username f... | Python | 23.8k | 1.1k | Maigret 是一款强大的开源 OSINT 工具，通过用户名在 3000+ 网站上收集个人档案。支持递归搜索、绕过封锁及 Web UI，无需 API 密钥，可嵌入 Python 项目，适用于社交媒体分析和数字足迹调查。 |
-| 4 | [Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) | Coding agent for DeepSeek models that runs in your... | Rust | 2.1k | 389 | 这是一个基于 Rust 开发的终端原生编码代理，专为 DeepSeek V4 模型设计。它支持 1M token 上下文和思考模式流式输出，提供文件操作、Shell 执行、Git 管理等全功能工具集。支持会话保存、回滚及多种交互模式，无需额外运行时即可直接运行。 |
-| 5 | [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video) | 🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video En... | Python | 9.9k | 478 | 这是一个基于 Python 的 AI 全自动短视频生成引擎。它提供 Web 界面，支持利用 LLM 生成文案，通过 ComfyUI 或云端 API 生成配图，并集成了多种 TTS 引擎进行语音合成。支持本地一键整合包和源码部署，适合快速制作解说类短视频。 |
-| 6 | [browserbase/skills](https://github.com/browserbase/skills) | Claude Agent SDK with a web browsing tool... | JavaScript | 1.8k | 322 | 这是一个为 Claude Code 提供的浏览器自动化技能集，旨在通过 Browserbase 平台实现强大的 Web 爬取、自动化测试和调试功能。它包含多种技能，如远程浏览器会话管理、无服务器函数部署、站点调试、Cookie 同步以及 AI 驱动的对抗性 UI 测试，支持反机器人检测和代理设置，极大增强了 Claude Agent 处理复杂 Web 任务的能力。 |
-| 7 | [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | A MCP for Claude Desktop / Claude Code / Windsurf ... | TypeScript | 19.5k | 264 | 这是一个 TypeScript 编写的 MCP 服务器，为 Claude、Cursor 等 AI 助手提供对 n8n 节点文档、属性和操作的全面访问。它支持 1,650 个节点，覆盖 99% 的属性和 63.6% 的操作，允许 AI 帮助构建自动化工作流，并提供云端快速体验。 |
-| 8 | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Coding Agent Harness... | Rust | 3.4k | 587 | 这是一个用 Rust 编写的下一代编码代理框架，专注于多会话工作流、无限自定义和高性能。项目在资源效率方面表现优异，内存占用显著低于同类竞品，适合需要高效运行多个 AI 编码会话的开发者。 |
-| 9 | [openwrt/openwrt](https://github.com/openwrt/openwrt) | This repository is a mirror of https://git.openwrt... | C | 26.6k | 14 | OpenWrt 是一个面向嵌入式设备的 Linux 操作系统，提供完全可写的文件系统和包管理。它允许用户摆脱厂商限制，通过安装各种软件包对设备进行深度定制，适用于 WiFi 路由器等场景。开发者也可将其作为构建应用的框架。 |
+| 1 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The leading agent orchestration platform for Cl... | TypeScript | 41.3k | 2.6k | Ruflo 是专为 Claude Code 打造的智能体编排平台，支持跨机器和团队编排 100+ 专业智能体。它具备自学习记忆、联邦通信和企业级安全架构，通过插件系统实现智能体协作与自主运行，简化 AI 系统开发。 |
+| 2 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 67.4k | 2.2k | TradingAgents 是一个基于 Python 的多智能体 LLM 金融交易框架。它模拟真实交易公司，通过基本面、情感、技术分析师、交易员和风控团队等智能体协作评估市场并决策。支持多种大模型（如 GPT-5.4、Claude 4.6）及 LangGraph，具备回测、Docker 部署等功能，专为研究目的设计。 |
+| 3 | [browserbase/skills](https://github.com/browserbase/skills) | Claude Agent SDK with a web browsing tool... | JavaScript | 2.1k | 320 | 这是一个为 Claude Code 提供的 Browserbase 浏览器自动化技能集。它包含多种技能，如浏览器自动化、CLI 操作、无服务器函数部署、站点调试、性能追踪、Cookie 同步、静态抓取、结构化搜索以及 AI 驱动的 UI 测试。旨在通过 Browserbase 平台实现强大的网页交互和测试能力。 |
+| 4 | [Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) | Coding agent for DeepSeek models that runs in your... | Rust | 3.9k | 1.3k | 这是一个基于 Rust 构建的终端原生编码代理，专为 DeepSeek V4 模型设计。它支持 1M token 上下文，具备并行推理、思维模式流、文件操作、Shell 执行及 Git 管理等全功能工具集。内置 MCP 协议支持，支持会话保存与持久化任务队列，适合在终端中进行高效的代码编写与自动化任务处理。 |
+| 5 | [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username f... | Python | 24.8k | 1.1k | Maigret 是一款强大的开源 OSINT 工具，支持通过用户名在 3000+ 网站上收集个人资料信息。具备递归搜索、绕过封锁、Tor/I2P 支持、Web UI 及报告生成功能，无需 API 密钥，适合专业情报分析。 |
+| 6 | [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) | qBittorrent BitTorrent client... | C++ | 37.0k | 68 | qBittorrent 是一个用 C++ 和 Qt 编写的开源 BitTorrent 客户端。它基于 libtorrent 库开发，旨在成为其他客户端的优秀替代品。该软件以速度快、稳定性高著称，支持 Unicode，功能丰富，提供命令行界面和图形用户界面，适合需要高效下载和管理的用户。 |
+| 7 | [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | A MCP for Claude Desktop / Claude Code / Windsurf ... | TypeScript | 19.9k | 497 | 这是一个 TypeScript 编写的 MCP 服务器，为 Claude 等智能体提供对 n8n 1,650 个节点的全面访问。它包含节点文档、属性及操作，帮助 AI 高效构建自动化工作流，支持核心与社区节点。 |
+| 8 | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Coding Agent Harness... | Rust | 3.9k | 545 | 这是一个基于 Rust 的高性能 Coding Agent Harness。它专注于提升编码技能上限，支持多会话工作流与高度自定义。项目核心优势在于极致的资源效率，内存占用显著低于同类竞品，适合需要大规模并发会话的开发者。 |
+| 9 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 92.6k | 1.3k | 该项目提供了一套精心设计的 AI 代理集合，涵盖前端开发、社区运营等不同领域。每个代理具备独特人格和专业化流程，支持通过 Shell 脚本一键安装至 Claude Code、Copilot 等主流开发工具中，旨在构建全天候工作的 AI 专家团队。 |
+| 10 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 23.2k | 497 | Dexter 是一个基于 TypeScript 的自主金融研究代理。它利用任务规划、自我反思和实时市场数据，将复杂的金融问题分解为结构化的研究步骤。它具备自主执行、自我验证和循环检测等安全功能，能够独立完成深度财务分析并输出数据支持的结论。 |
+| 11 | [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) | ... | Batchfile | 27.3k | 106 | 这是一个用于 Windows 的批处理脚本项目，旨在绕过 Discord 和 YouTube 的网络封锁。它利用 WinDivert 驱动程序拦截和过滤网络流量。项目警告用户注意杀毒软件可能将其误报为风险工具，并建议启用安全 DNS。 |
+| 12 | [fspecii/ace-step-ui](https://github.com/fspecii/ace-step-ui) | 🎵 The Ultimate Open Source Suno Alternative - Pro... | JavaScript | 2.8k | 222 | 这是一个为 ACE-Step 1.5 AI 音乐生成模型提供专业界面的开源项目。它允许用户在本地免费、无限地生成高质量音乐，支持全歌生成、人声/乐器模式、批量处理及高级参数调整。相比商业服务，它提供完全的隐私控制和所有权，是 Suno 的理想替代方案。 |
+| 13 | [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | The Free Software Media System - Server Backend & ... | C# | 51.1k | 35 | Jellyfin 是一个免费开源的媒体系统，旨在替代专有的 Emby 和 Plex。它提供后端服务器和 API，允许用户从专用服务器跨平台管理和流式传输媒体。项目完全开源，无付费功能，支持多设备访问。 |
+| 14 | [cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex) | Incremental engine for long horizon agents 🌟 Star... | Python | 8.0k | 204 | CocoIndex 是一个专为 AI 代理和 LLM 应用设计的增量上下文引擎。它支持将代码库、文档、视频等多种数据源实时转化为向量索引，具备增量处理和并行计算能力，确保数据始终新鲜，无需手动维护批次，能快速构建生产级 AI 应用。 |
+| 15 | [docusealco/docuseal](https://github.com/docusealco/docuseal) | Open source DocuSign alternative. Create, fill, an... | Ruby | 13.2k | 900 | DocuSeal 是一个开源的 DocuSign 替代方案，使用 Ruby 构建。它提供安全的数字文档签署与处理平台，支持 WYSIWYG 表单构建、多种字段类型、自动电子签名、移动端优化及多语言支持。项目具备完善的 API 和 Webhook，支持多种部署方式，适合企业快速集成文档签署流程。 |
 
-[查看完整数据](api/github/2026-05-03.json)
+[查看完整数据](api/github/2026-05-04.json)
 <!-- END GITHUB TRENDING -->
 
 
