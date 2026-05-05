@@ -70,27 +70,27 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-05-04 | **成功**: 15 | **失败**: 0
+**最后更新**: 2026-05-05 | **成功**: 15 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The leading agent orchestration platform for Cl... | TypeScript | 41.3k | 2.6k | Ruflo 是专为 Claude Code 打造的智能体编排平台，支持跨机器和团队编排 100+ 专业智能体。它具备自学习记忆、联邦通信和企业级安全架构，通过插件系统实现智能体协作与自主运行，简化 AI 系统开发。 |
-| 2 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 67.4k | 2.2k | TradingAgents 是一个基于 Python 的多智能体 LLM 金融交易框架。它模拟真实交易公司，通过基本面、情感、技术分析师、交易员和风控团队等智能体协作评估市场并决策。支持多种大模型（如 GPT-5.4、Claude 4.6）及 LangGraph，具备回测、Docker 部署等功能，专为研究目的设计。 |
-| 3 | [browserbase/skills](https://github.com/browserbase/skills) | Claude Agent SDK with a web browsing tool... | JavaScript | 2.1k | 320 | 这是一个为 Claude Code 提供的 Browserbase 浏览器自动化技能集。它包含多种技能，如浏览器自动化、CLI 操作、无服务器函数部署、站点调试、性能追踪、Cookie 同步、静态抓取、结构化搜索以及 AI 驱动的 UI 测试。旨在通过 Browserbase 平台实现强大的网页交互和测试能力。 |
-| 4 | [Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) | Coding agent for DeepSeek models that runs in your... | Rust | 3.9k | 1.3k | 这是一个基于 Rust 构建的终端原生编码代理，专为 DeepSeek V4 模型设计。它支持 1M token 上下文，具备并行推理、思维模式流、文件操作、Shell 执行及 Git 管理等全功能工具集。内置 MCP 协议支持，支持会话保存与持久化任务队列，适合在终端中进行高效的代码编写与自动化任务处理。 |
-| 5 | [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username f... | Python | 24.8k | 1.1k | Maigret 是一款强大的开源 OSINT 工具，支持通过用户名在 3000+ 网站上收集个人资料信息。具备递归搜索、绕过封锁、Tor/I2P 支持、Web UI 及报告生成功能，无需 API 密钥，适合专业情报分析。 |
-| 6 | [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) | qBittorrent BitTorrent client... | C++ | 37.0k | 68 | qBittorrent 是一个用 C++ 和 Qt 编写的开源 BitTorrent 客户端。它基于 libtorrent 库开发，旨在成为其他客户端的优秀替代品。该软件以速度快、稳定性高著称，支持 Unicode，功能丰富，提供命令行界面和图形用户界面，适合需要高效下载和管理的用户。 |
-| 7 | [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | A MCP for Claude Desktop / Claude Code / Windsurf ... | TypeScript | 19.9k | 497 | 这是一个 TypeScript 编写的 MCP 服务器，为 Claude 等智能体提供对 n8n 1,650 个节点的全面访问。它包含节点文档、属性及操作，帮助 AI 高效构建自动化工作流，支持核心与社区节点。 |
-| 8 | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Coding Agent Harness... | Rust | 3.9k | 545 | 这是一个基于 Rust 的高性能 Coding Agent Harness。它专注于提升编码技能上限，支持多会话工作流与高度自定义。项目核心优势在于极致的资源效率，内存占用显著低于同类竞品，适合需要大规模并发会话的开发者。 |
-| 9 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 92.6k | 1.3k | 该项目提供了一套精心设计的 AI 代理集合，涵盖前端开发、社区运营等不同领域。每个代理具备独特人格和专业化流程，支持通过 Shell 脚本一键安装至 Claude Code、Copilot 等主流开发工具中，旨在构建全天候工作的 AI 专家团队。 |
-| 10 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 23.2k | 497 | Dexter 是一个基于 TypeScript 的自主金融研究代理。它利用任务规划、自我反思和实时市场数据，将复杂的金融问题分解为结构化的研究步骤。它具备自主执行、自我验证和循环检测等安全功能，能够独立完成深度财务分析并输出数据支持的结论。 |
-| 11 | [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) | ... | Batchfile | 27.3k | 106 | 这是一个用于 Windows 的批处理脚本项目，旨在绕过 Discord 和 YouTube 的网络封锁。它利用 WinDivert 驱动程序拦截和过滤网络流量。项目警告用户注意杀毒软件可能将其误报为风险工具，并建议启用安全 DNS。 |
-| 12 | [fspecii/ace-step-ui](https://github.com/fspecii/ace-step-ui) | 🎵 The Ultimate Open Source Suno Alternative - Pro... | JavaScript | 2.8k | 222 | 这是一个为 ACE-Step 1.5 AI 音乐生成模型提供专业界面的开源项目。它允许用户在本地免费、无限地生成高质量音乐，支持全歌生成、人声/乐器模式、批量处理及高级参数调整。相比商业服务，它提供完全的隐私控制和所有权，是 Suno 的理想替代方案。 |
-| 13 | [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | The Free Software Media System - Server Backend & ... | C# | 51.1k | 35 | Jellyfin 是一个免费开源的媒体系统，旨在替代专有的 Emby 和 Plex。它提供后端服务器和 API，允许用户从专用服务器跨平台管理和流式传输媒体。项目完全开源，无付费功能，支持多设备访问。 |
-| 14 | [cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex) | Incremental engine for long horizon agents 🌟 Star... | Python | 8.0k | 204 | CocoIndex 是一个专为 AI 代理和 LLM 应用设计的增量上下文引擎。它支持将代码库、文档、视频等多种数据源实时转化为向量索引，具备增量处理和并行计算能力，确保数据始终新鲜，无需手动维护批次，能快速构建生产级 AI 应用。 |
-| 15 | [docusealco/docuseal](https://github.com/docusealco/docuseal) | Open source DocuSign alternative. Create, fill, an... | Ruby | 13.2k | 900 | DocuSeal 是一个开源的 DocuSign 替代方案，使用 Ruby 构建。它提供安全的数字文档签署与处理平台，支持 WYSIWYG 表单构建、多种字段类型、自动电子签名、移动端优化及多语言支持。项目具备完善的 API 和 Webhook，支持多种部署方式，适合企业快速集成文档签署流程。 |
+| 1 | [Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) | Coding agent for DeepSeek models that runs in your... | Rust | 7.2k | 2.4k | 这是一个基于 Rust 构建的终端原生 DeepSeek 编码代理。支持 1M token 上下文和思考模式流，具备文件读写、运行命令、Git 管理及子代理编排能力。项目包含 MCP 客户端、沙箱和持久化任务队列，提供快速、键盘驱动的交互体验。 |
+| 2 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The leading agent orchestration platform for Cl... | TypeScript | 43.6k | 2.4k | Ruflo 是一个为 Claude Code 打造的多代理编排平台，支持部署智能群组、协调自主工作流及构建对话式 AI 系统。它具备自学习记忆、联邦通信和企业级安全，通过 CLI 或插件集成，让 AI 代理在后台自动协作完成任务。 |
+| 3 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 23.7k | 660 | Dexter 是一个专为深度金融研究设计的自主代理。它利用任务规划、自我反思和实时市场数据，将复杂金融问题分解为结构化步骤，自动执行并验证结果，最终提供数据支持的清晰答案。 |
+| 4 | [docusealco/docuseal](https://github.com/docusealco/docuseal) | Open source DocuSign alternative. Create, fill, an... | Ruby | 14.0k | 929 | DocuSeal 是一个开源的 DocuSign 替代品，使用 Ruby 构建。它提供所见即所得的 PDF 表单构建器，支持多种字段类型（签名、日期等）及自动签名功能。具备用户管理、移动端优化、多语言支持及 API 集成能力，支持多种存储后端，易于部署。 |
+| 5 | [bwya77/vscode-dark-islands](https://github.com/bwya77/vscode-dark-islands) | VSCode theme based off the easemate IDE and Jetbra... | PowerShell | 7.8k | 665 | 这是一个灵感源自 easemate IDE 和 JetBrains Islands 的 VS Code 深色主题。它采用深色画布、玻璃拟态面板、圆角设计和流畅动画，提供舒适的视觉体验。支持多种编程语言的语法高亮，并推荐使用特定字体。项目提供自动化安装脚本，可一键配置主题、UI 样式及字体。 |
+| 6 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents. ... | TypeScript | 13.0k | 344 | 这是一个针对 AI 编码代理的上下文窗口优化 MCP 服务器。它通过沙箱化工具输出（减少 98%）、使用 SQLite 和 FTS5 索引保持会话连续性，以及强制“代码思维”模式（让 LLM 编写脚本而非读取数据）来大幅节省 token。它还压缩输出废话。 |
+| 7 | [cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex) | Incremental engine for long horizon agents 🌟 Star... | Python | 8.4k | 434 | CocoIndex 是一个专为 AI 代理和 LLM 应用设计的增量上下文引擎。它支持将代码库、文档、视频等多种数据源实时转换为向量索引，通过增量处理技术仅更新变化部分，确保数据始终新鲜。项目提供声明式 API，支持并行处理，旨在帮助开发者快速构建生产级 AI 应用，解决数据过时和上下文缺口问题。 |
+| 8 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 93.6k | 1.2k | 这是一个提供多种专业AI代理配置的开源项目，旨在构建一个“AI代理机构”。每个代理拥有独特的个性、工作流程和交付成果，涵盖前端开发、社区运营等多个领域。项目支持与Claude Code、Copilot等主流AI工具集成，通过Shell脚本一键安装，帮助用户快速激活特定领域的专家模式。 |
+| 9 | [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | A complete computer science study plan to become a... | - | 345.8k | 424 | 这是一个旨在帮助求职者通过大型科技公司技术面试的完整计算机科学自学计划。内容涵盖数据结构、算法、操作系统及网络等核心知识，提供详细的学习路线图和资源，支持多语言翻译。 |
+| 10 | [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) | A collection of projects showcasing RAG, agents, w... | Python | 11.3k | 170 | 该项目是一个全面的LLM应用开发指南，包含80+个实用示例和教程。涵盖了RAG、Agents、工作流等核心AI技术，支持OpenAI、LangChain、LlamaIndex等多种框架，适合开发者快速上手并构建强大的AI应用。 |
+| 11 | [AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video) | 🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video En... | Python | 11.6k | 724 | Pixelle-Video 是一个基于 Python 的 AI 全自动短视频引擎。它利用大语言模型生成文案，结合 ComfyUI 或云端 API 生成配图，并使用 TTS 技术合成语音，通过 Streamlit 提供可视化界面，支持一键启动，实现视频内容的自动化生产。 |
+| 12 | [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research) | ~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Sup... | Python | 5.1k | 200 | 这是一个本地运行的 AI 深度研究助手，支持所有本地和云端 LLM。它能自动搜索网络、学术论文及私有文档，综合生成带引用的报告。项目支持 Docker 和 pip 安装，内置 SQLCipher 加密，确保数据隐私，适合需要自主可控研究工具的用户。 |
+| 13 | [browserbase/skills](https://github.com/browserbase/skills) | Claude Agent SDK with a web browsing tool... | JavaScript | 2.4k | 313 | 这是一个为 Claude Code 提供的 Browserbase 浏览器自动化工具集 SDK。包含远程浏览器自动化、无服务器函数部署、网站调试、安全浏览器构建及 AI 驱动的 UI 测试等技能。支持反机器人、验证码解决和代理，旨在帮助开发者高效构建和调试基于浏览器的 AI 应用。 |
+| 14 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code beh... | - | 113.8k | 2.4k | 这是一个基于 Andrej Karpathy 关于 LLM 编码陷阱观察的 CLAUDE.md 配置文件，旨在提升 Claude Code 的行为质量。项目针对大模型常见的过度复杂化、错误假设、隐藏困惑等问题，提出了“思考前编码”、“简单优先”、“外科手术式修改”和“目标驱动执行”四大原则。它通过强制模型明确假设、最小化代码、精准修改和测试驱动，帮助开发者避免臃肿代码，确保代码质量和逻辑清晰。 |
+| 15 | [PriorLabs/TabPFN](https://github.com/PriorLabs/TabPFN) | ⚡ TabPFN: Foundation Model for Tabular Data ⚡... | Python | 6.4k | 41 | TabPFN 是一个专为表格数据设计的 Foundation Model，支持分类与回归任务。它无需复杂的特征工程（如缩放或独热编码），特别适合小数据集。模型支持 GPU 加速，提供简单的 API，首次使用自动下载检查点，适合快速原型开发。 |
 
-[查看完整数据](api/github/2026-05-04.json)
+[查看完整数据](api/github/2026-05-05.json)
 <!-- END GITHUB TRENDING -->
 
 

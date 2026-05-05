@@ -1,0 +1,338 @@
+{
+  "date": "2026-05-05",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "stars": 7181,
+      "forks": 548,
+      "todayStars": 2389,
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 构建的终端原生 DeepSeek 编码代理。支持 1M token 上下文和思考模式流，具备文件读写、运行命令、Git 管理及子代理编排能力。项目包含 MCP 客户端、沙箱和持久化任务队列，提供快速、键盘驱动的交互体验。",
+        "summary_en": "Rust-based terminal coding agent for DeepSeek V4 with 1M-token context and parallel reasoning capabilities.",
+        "techStack": [
+          "Rust",
+          "DeepSeek API",
+          "TUI"
+        ],
+        "useCase": "适合需要在终端中直接使用 DeepSeek 模型进行代码编写、调试和自动化任务处理的开发者。",
+        "useCase_en": "Execute coding tasks and file operations directly in the terminal using DeepSeek V4 models."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "stars": 43570,
+      "forks": 4854,
+      "todayStars": 2441,
+      "url": "https://github.com/ruvnet/ruflo",
+      "aiSummary": {
+        "summary": "Ruflo 是一个为 Claude Code 打造的多代理编排平台，支持部署智能群组、协调自主工作流及构建对话式 AI 系统。它具备自学习记忆、联邦通信和企业级安全，通过 CLI 或插件集成，让 AI 代理在后台自动协作完成任务。",
+        "summary_en": "An agent orchestration platform for Claude Code that manages multi-agent swarms and autonomous workflows.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "Claude Code"
+        ],
+        "useCase": "构建复杂的多代理协作 AI 工作流与智能系统",
+        "useCase_en": "Coordinate intelligent multi-agent swarms and autonomous workflows within the Claude ecosystem."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "stars": 23739,
+      "forks": 2895,
+      "todayStars": 660,
+      "url": "https://github.com/virattt/dexter",
+      "aiSummary": {
+        "summary": "Dexter 是一个专为深度金融研究设计的自主代理。它利用任务规划、自我反思和实时市场数据，将复杂金融问题分解为结构化步骤，自动执行并验证结果，最终提供数据支持的清晰答案。",
+        "summary_en": "Autonomous financial research agent built with TypeScript and Bun that plans, executes, and validates tasks.",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "OpenAI API",
+          "Exa API"
+        ],
+        "useCase": "深度金融数据分析与自动化研究",
+        "useCase_en": "Automates complex financial queries into clear, data-backed research plans using live market data."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "docusealco/docuseal",
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "language": "Ruby",
+      "stars": 13986,
+      "forks": 1260,
+      "todayStars": 929,
+      "url": "https://github.com/docusealco/docuseal",
+      "aiSummary": {
+        "summary": "DocuSeal 是一个开源的 DocuSign 替代品，使用 Ruby 构建。它提供所见即所得的 PDF 表单构建器，支持多种字段类型（签名、日期等）及自动签名功能。具备用户管理、移动端优化、多语言支持及 API 集成能力，支持多种存储后端，易于部署。",
+        "summary_en": "An open-source DocuSign alternative for creating, filling, and signing digital documents securely.",
+        "techStack": [
+          "Ruby",
+          "SQLite/PostgreSQL",
+          "Docker"
+        ],
+        "useCase": "适用于需要自托管、安全且高效的电子签名和文档处理解决方案的企业或个人。",
+        "useCase_en": "A self-hosted solution for businesses to manage digital document workflows, including signing, verification, and automat"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "bwya77/vscode-dark-islands",
+      "description": "VSCode theme based off the easemate IDE and Jetbrains islands theme",
+      "language": "PowerShell",
+      "stars": 7842,
+      "forks": 237,
+      "todayStars": 665,
+      "url": "https://github.com/bwya77/vscode-dark-islands",
+      "aiSummary": {
+        "summary": "这是一个灵感源自 easemate IDE 和 JetBrains Islands 的 VS Code 深色主题。它采用深色画布、玻璃拟态面板、圆角设计和流畅动画，提供舒适的视觉体验。支持多种编程语言的语法高亮，并推荐使用特定字体。项目提供自动化安装脚本，可一键配置主题、UI 样式及字体。",
+        "summary_en": "A dark VSCode theme featuring glass-like floating panels and rounded corners.",
+        "techStack": [
+          "PowerShell",
+          "VS Code Theme",
+          "CSS",
+          "IBM Plex Mono",
+          "FiraCode Nerd Font Mono"
+        ],
+        "useCase": "适合追求现代玻璃拟态 UI 效果的 VS Code 开发者。",
+        "useCase_en": "For developers seeking a modern, glass-effect dark theme for Visual Studio Code."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 14 platforms",
+      "language": "TypeScript",
+      "stars": 13011,
+      "forks": 895,
+      "todayStars": 344,
+      "url": "https://github.com/mksglu/context-mode",
+      "aiSummary": {
+        "summary": "这是一个针对 AI 编码代理的上下文窗口优化 MCP 服务器。它通过沙箱化工具输出（减少 98%）、使用 SQLite 和 FTS5 索引保持会话连续性，以及强制“代码思维”模式（让 LLM 编写脚本而非读取数据）来大幅节省 token。它还压缩输出废话。",
+        "summary_en": "An MCP server optimizing AI coding agent context windows through sandboxing, session tracking, and code-based analysis.",
+        "techStack": [
+          "TypeScript",
+          "SQLite",
+          "FTS5",
+          "MCP"
+        ],
+        "useCase": "用于需要长时间运行或处理大型代码库的 AI 编码代理，防止上下文溢出并保持编辑状态。",
+        "useCase_en": "To optimize AI coding agent context windows by sandboxing tool outputs and maintaining session continuity."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "cocoindex-io/cocoindex",
+      "description": "Incremental engine for long horizon agents 🌟 Star if you like it!",
+      "language": "Python",
+      "stars": 8373,
+      "forks": 614,
+      "todayStars": 434,
+      "url": "https://github.com/cocoindex-io/cocoindex",
+      "aiSummary": {
+        "summary": "CocoIndex 是一个专为 AI 代理和 LLM 应用设计的增量上下文引擎。它支持将代码库、文档、视频等多种数据源实时转换为向量索引，通过增量处理技术仅更新变化部分，确保数据始终新鲜。项目提供声明式 API，支持并行处理，旨在帮助开发者快速构建生产级 AI 应用，解决数据过时和上下文缺口问题。",
+        "summary_en": "Incremental Python engine for AI agents to maintain fresh context over large codebases and documents.",
+        "techStack": [
+          "Python",
+          "Postgres",
+          "LocalFS",
+          "RecursiveSplitter"
+        ],
+        "useCase": "为 AI 代理和 LLM 应用提供实时、增量更新的向量上下文",
+        "useCase_en": "Maintain fresh context for AI agents by incrementally processing and indexing large codebases and documents."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 93599,
+      "forks": 15404,
+      "todayStars": 1228,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "这是一个提供多种专业AI代理配置的开源项目，旨在构建一个“AI代理机构”。每个代理拥有独特的个性、工作流程和交付成果，涵盖前端开发、社区运营等多个领域。项目支持与Claude Code、Copilot等主流AI工具集成，通过Shell脚本一键安装，帮助用户快速激活特定领域的专家模式。",
+        "summary_en": "A collection of specialized AI agent personalities for various workflows.",
+        "techStack": [
+          "Shell",
+          "Markdown"
+        ],
+        "useCase": "为AI编程助手配置特定领域的专家角色，快速激活专业模式。",
+        "useCase_en": "To provide specialized AI agent personalities for various coding tasks and workflows."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "jwasham/coding-interview-university",
+      "description": "A complete computer science study plan to become a software engineer.",
+      "language": "",
+      "stars": 345781,
+      "forks": 82725,
+      "todayStars": 424,
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "aiSummary": {
+        "summary": "这是一个旨在帮助求职者通过大型科技公司技术面试的完整计算机科学自学计划。内容涵盖数据结构、算法、操作系统及网络等核心知识，提供详细的学习路线图和资源，支持多语言翻译。",
+        "summary_en": "A comprehensive computer science study plan designed to prepare candidates for software engineering interviews at major tech companies.",
+        "techStack": [
+          "Markdown",
+          "HTML"
+        ],
+        "useCase": "准备软件工程师技术面试，系统自学计算机科学基础。",
+        "useCase_en": "To prepare for software engineering technical interviews at major tech companies."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Arindam200/awesome-ai-apps",
+      "description": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
+      "language": "Python",
+      "stars": 11260,
+      "forks": 1473,
+      "todayStars": 170,
+      "url": "https://github.com/Arindam200/awesome-ai-apps",
+      "aiSummary": {
+        "summary": "该项目是一个全面的LLM应用开发指南，包含80+个实用示例和教程。涵盖了RAG、Agents、工作流等核心AI技术，支持OpenAI、LangChain、LlamaIndex等多种框架，适合开发者快速上手并构建强大的AI应用。",
+        "summary_en": "A curated collection of 80+ practical examples and tutorials for building LLM-powered applications.",
+        "techStack": [
+          "Python",
+          "LangChain",
+          "LangGraph",
+          "LlamaIndex",
+          "OpenAI"
+        ],
+        "useCase": "用于学习LLM应用开发、RAG及Agent构建",
+        "useCase_en": "A resource for developers to learn and implement LLM-powered applications like agents and RAG systems."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "AIDC-AI/Pixelle-Video",
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "language": "Python",
+      "stars": 11624,
+      "forks": 1796,
+      "todayStars": 724,
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "aiSummary": {
+        "summary": "Pixelle-Video 是一个基于 Python 的 AI 全自动短视频引擎。它利用大语言模型生成文案，结合 ComfyUI 或云端 API 生成配图，并使用 TTS 技术合成语音，通过 Streamlit 提供可视化界面，支持一键启动，实现视频内容的自动化生产。",
+        "summary_en": "An AI-powered engine for generating short videos automatically using LLMs, TTS, and image generation.",
+        "techStack": [
+          "Python",
+          "Streamlit",
+          "LLM API",
+          "ComfyUI",
+          "TTS"
+        ],
+        "useCase": "快速批量生成短视频内容，适合自媒体创作者或营销推广。",
+        "useCase_en": "Automate short video creation by generating scripts, voiceovers, and visuals using AI models."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "LearningCircuit/local-deep-research",
+      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
+      "language": "Python",
+      "stars": 5146,
+      "forks": 475,
+      "todayStars": 200,
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "aiSummary": {
+        "summary": "这是一个本地运行的 AI 深度研究助手，支持所有本地和云端 LLM。它能自动搜索网络、学术论文及私有文档，综合生成带引用的报告。项目支持 Docker 和 pip 安装，内置 SQLCipher 加密，确保数据隐私，适合需要自主可控研究工具的用户。",
+        "summary_en": "Local AI research assistant that uses various LLMs and search engines to generate reports with citations while keeping data private.",
+        "techStack": [
+          "Python",
+          "llama.cpp",
+          "Ollama",
+          "SearXNG",
+          "SQLCipher"
+        ],
+        "useCase": "适合需要本地化、隐私保护且支持多模型的研究助手。",
+        "useCase_en": "Run a private, offline AI research agent to synthesize information from the web and local documents into cited reports."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "browserbase/skills",
+      "description": "Claude Agent SDK with a web browsing tool",
+      "language": "JavaScript",
+      "stars": 2361,
+      "forks": 153,
+      "todayStars": 313,
+      "url": "https://github.com/browserbase/skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 提供的 Browserbase 浏览器自动化工具集 SDK。包含远程浏览器自动化、无服务器函数部署、网站调试、安全浏览器构建及 AI 驱动的 UI 测试等技能。支持反机器人、验证码解决和代理，旨在帮助开发者高效构建和调试基于浏览器的 AI 应用。",
+        "summary_en": "A set of skills for Claude Code to automate web browsing and testing using Browserbase.",
+        "techStack": [
+          "JavaScript",
+          "Browserbase",
+          "Claude Code",
+          "bb CLI",
+          "Node.js"
+        ],
+        "useCase": "适用于需要自动化浏览器操作、进行网站测试或构建 AI 驱动浏览应用的开发者。",
+        "useCase_en": "To enable Claude Code agents to perform automated web browsing, debugging, and testing."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 113804,
+      "forks": 11372,
+      "todayStars": 2381,
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "这是一个基于 Andrej Karpathy 关于 LLM 编码陷阱观察的 CLAUDE.md 配置文件，旨在提升 Claude Code 的行为质量。项目针对大模型常见的过度复杂化、错误假设、隐藏困惑等问题，提出了“思考前编码”、“简单优先”、“外科手术式修改”和“目标驱动执行”四大原则。它通过强制模型明确假设、最小化代码、精准修改和测试驱动，帮助开发者避免臃肿代码，确保代码质量和逻辑清晰。",
+        "summary_en": "A Claude Code guide based on Andrej Karpathy's principles to improve LLM coding behavior.",
+        "techStack": [
+          "Markdown",
+          "Claude Code",
+          "LLM"
+        ],
+        "useCase": "适用于使用 Claude Code 进行编程的开发者，旨在优化 AI 辅助编码的质量和效率。",
+        "useCase_en": "To enhance Claude Code's coding behavior by applying Karpathy's principles."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "PriorLabs/TabPFN",
+      "description": "⚡ TabPFN: Foundation Model for Tabular Data ⚡",
+      "language": "Python",
+      "stars": 6356,
+      "forks": 638,
+      "todayStars": 41,
+      "url": "https://github.com/PriorLabs/TabPFN",
+      "aiSummary": {
+        "summary": "TabPFN 是一个专为表格数据设计的 Foundation Model，支持分类与回归任务。它无需复杂的特征工程（如缩放或独热编码），特别适合小数据集。模型支持 GPU 加速，提供简单的 API，首次使用自动下载检查点，适合快速原型开发。",
+        "summary_en": "Foundation model for tabular data enabling fast classification and regression.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于表格数据的分类与回归任务，特别适合小样本场景下的快速建模。",
+        "useCase_en": "Enable fast classification and regression on tabular data without preprocessing."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-05T23:56:41.697Z",
+    "duration": "171s",
+    "version": "1.0.0"
+  }
+}
