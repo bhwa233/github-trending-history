@@ -1,0 +1,329 @@
+{
+  "date": "2026-05-06",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "stars": 13682,
+      "forks": 1050,
+      "todayStars": 6184,
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "aiSummary": {
+        "summary": "DeepSeek-TUI 是一个基于 Rust 的终端编码代理，专为 DeepSeek V4 模型设计。它支持流式推理、1M token 上下文窗口，并提供自动模式选择模型和思考级别。具备文件编辑、Shell 执行、Git 管理、Web 搜索及 MCP 服务器等完整工具套件，通过键盘驱动的 TUI 界面运行。",
+        "summary_en": "A Rust-based terminal coding agent powered by DeepSeek V4 models that streams reasoning and edits local workspaces.",
+        "techStack": [
+          "Rust",
+          "DeepSeek V4",
+          "TUI",
+          "Terminal"
+        ],
+        "useCase": "适合需要在终端中直接使用 DeepSeek 进行代码编写、调试和项目管理的开发者。",
+        "useCase_en": "Execute AI-powered coding tasks directly in your terminal with streaming reasoning."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "stars": 30397,
+      "forks": 3621,
+      "todayStars": 629,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供生产级工程技能，将资深工程师的工作流和最佳实践编码为可执行的技能。它通过 7 个斜杠命令覆盖开发全生命周期，确保 AI 代理遵循标准化的质量门禁和最佳实践，提升代码质量与开发效率。",
+        "summary_en": "A collection of production-grade engineering skills and workflows for AI coding agents to ensure consistent software development.",
+        "techStack": [
+          "Shell",
+          "Claude Code"
+        ],
+        "useCase": "为 AI 编码代理提供结构化的开发工作流、质量门禁和最佳实践，提升代码质量和开发效率。",
+        "useCase_en": "To guide AI coding agents through the software development lifecycle using predefined workflows and quality gates."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "PriorLabs/TabPFN",
+      "description": "⚡ TabPFN: Foundation Model for Tabular Data ⚡",
+      "language": "Python",
+      "stars": 6565,
+      "forks": 658,
+      "todayStars": 218,
+      "url": "https://github.com/PriorLabs/TabPFN",
+      "aiSummary": {
+        "summary": "TabPFN 是一个专为表格数据设计的预训练基础模型，支持分类和回归任务。它默认在合成数据上训练，提供开箱即用的性能。项目支持 GPU 加速，建议使用批量预测模式以提高效率，并建议避免进行数据预处理。",
+        "summary_en": "Pre-trained foundation model for fast tabular classification and regression.",
+        "techStack": [
+          "Python",
+          "PyTorch"
+        ],
+        "useCase": "适用于中小型表格数据的分类和回归任务，支持快速原型设计。",
+        "useCase_en": "Perform fast classification and regression on tabular datasets without heavy preprocessing."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "docusealco/docuseal",
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "language": "Ruby",
+      "stars": 14858,
+      "forks": 1353,
+      "todayStars": 772,
+      "url": "https://github.com/docusealco/docuseal",
+      "aiSummary": {
+        "summary": "DocuSeal 是一个开源的 DocuSign 替代品，使用 Ruby 构建。它提供移动端优化的 Web 工具，支持创建、填写和签署 PDF 表单。核心功能包括 WYSIWYG 表单构建器、多种字段类型、自动签名、邮件通知及多种云存储支持。此外，它还支持白标、批量发送、SSO 等高级功能，易于部署。",
+        "summary_en": "Open-source DocuSign alternative for secure digital document signing and processing.",
+        "techStack": [
+          "Ruby",
+          "Docker",
+          "PostgreSQL/MySQL"
+        ],
+        "useCase": "需要自托管电子签名解决方案的企业或个人",
+        "useCase_en": "Create, fill, and sign digital documents securely as a self-hosted alternative to DocuSign."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "LearningCircuit/local-deep-research",
+      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
+      "language": "Python",
+      "stars": 5625,
+      "forks": 511,
+      "todayStars": 532,
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "aiSummary": {
+        "summary": "这是一个本地运行的 AI 深度研究助手，支持 llama.cpp、Ollama 等多种大模型。它能自动搜索网络、学术论文及私有文档，合成带引用的报告。项目强调数据隐私，内置 SQLCipher 加密，提供 Docker 和 pip 安装方式，适合需要安全、可控研究环境的用户。",
+        "summary_en": "Privacy-focused AI research assistant that runs locally, supports various LLMs, and searches multiple sources.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "llama.cpp",
+          "Ollama",
+          "SQLCipher"
+        ],
+        "useCase": "隐私保护下的深度学术研究及本地知识库构建",
+        "useCase_en": "Run a private, encrypted AI research assistant locally to synthesize information from the web and personal documents."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "LadybirdBrowser/ladybird",
+      "description": "Truly independent web browser",
+      "language": "C++",
+      "stars": 62971,
+      "forks": 2995,
+      "todayStars": 87,
+      "url": "https://github.com/LadybirdBrowser/ladybird",
+      "aiSummary": {
+        "summary": "Ladybird 是一款基于 Web 标准的真正独立浏览器，目前处于预-alpha 阶段。它采用多进程架构，包含 UI、渲染、解码和服务器进程，具有强大的安全沙箱机制。核心组件（如 LibWeb、LibJS、LibWasm 等）继承自 SerenityOS，支持 Linux、macOS 和 Windows (WSL2)，旨在构建完整的现代 Web 浏览器。",
+        "summary_en": "Ladybird is a pre-alpha independent web browser with a novel engine based on web standards.",
+        "techStack": [
+          "C++",
+          "LibWeb",
+          "LibJS",
+          "LibWasm",
+          "LibGfx"
+        ],
+        "useCase": "适合开发者进行早期测试和开发贡献",
+        "useCase_en": "A novel, independent web browser engine suitable for developers in pre-alpha state."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "InsForge/InsForge",
+      "description": "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway. Built for coding agents.",
+      "language": "TypeScript",
+      "stars": 8423,
+      "forks": 699,
+      "todayStars": 213,
+      "url": "https://github.com/InsForge/InsForge",
+      "aiSummary": {
+        "summary": "InsForge 是一个专为 AI 编码代理设计的后端开发平台。它充当语义层，将数据库、认证、存储等后端原语封装成 AI 可理解、推理和操作的格式。它支持获取上下文、配置原语和检查状态，旨在简化 AI 与后端系统的交互。",
+        "summary_en": "InsForge is a Postgres-based backend platform acting as a semantic layer for AI coding agents to manage auth, storage, and compute.",
+        "techStack": [
+          "TypeScript",
+          "PostgreSQL",
+          "S3",
+          "Fly.io",
+          "OpenAI Compatible API"
+        ],
+        "useCase": "专为 AI 编码代理和 AI 代码编辑器提供后端基础设施支持，实现自动化开发。",
+        "useCase_en": "Enables AI coding agents to interact with backend primitives through a semantic layer for end-to-end operations."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "stars": 24338,
+      "forks": 2961,
+      "todayStars": 666,
+      "url": "https://github.com/virattt/dexter",
+      "aiSummary": {
+        "summary": "Dexter 是一个基于 TypeScript 的自主金融研究代理。它利用任务规划、自我反思和实时市场数据来分析复杂的金融问题。它将查询分解为结构化的研究步骤，自主执行并验证结果，提供数据支持的分析。",
+        "summary_en": "An autonomous TypeScript agent for deep financial research using AI and real-time data.",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "OpenAI API",
+          "Financial Datasets API"
+        ],
+        "useCase": "用于自动化复杂的金融研究和深度分析。",
+        "useCase_en": "Automates deep financial research by decomposing complex queries into structured, data-backed steps."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "stars": 9098,
+      "forks": 1238,
+      "todayStars": 540,
+      "url": "https://github.com/anthropics/financial-services",
+      "aiSummary": {
+        "summary": "Anthropic 官方提供的金融服务业参考代理、技能和数据连接器库。包含 Pitch Agent、Market Researcher 等端到端工作流代理，支持生成推介材料、市场研究和财务模型。这些组件可作为 Claude Cowork 插件或 Managed Agents API 部署，旨在辅助专业人士完成分析工作。",
+        "summary_en": "Reference agents and skills for financial services workflows, deployable as Claude plugins or API templates.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "投资银行、股权研究、私募股权和财富管理的自动化工作流辅助",
+        "useCase_en": "Automating financial workflows such as pitch decks, market research, and reconciliations for investment banking and equi"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "stars": 45225,
+      "forks": 5006,
+      "todayStars": 2190,
+      "url": "https://github.com/ruvnet/ruflo",
+      "aiSummary": {
+        "summary": "Ruflo 是专为 Claude Code 打造的多代理编排平台，支持协调 100+ 专业代理。它具备自学习记忆、联邦通信和企业级安全架构，能自动组织代理群集并优化工作流，让 AI 系统具备协作与自主学习能力。",
+        "summary_en": "Multi-agent orchestration platform for Claude Code featuring self-learning swarms and autonomous workflows.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "Claude Code/Codex"
+        ],
+        "useCase": "构建智能多代理 AI 系统，自动化复杂工作流与代码协作。",
+        "useCase_en": "Orchestrate intelligent multi-agent swarms and autonomous workflows within Claude Code environments."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "cheahjs/free-llm-api-resources",
+      "description": "A list of free LLM inference resources accessible via API.",
+      "language": "Python",
+      "stars": 20474,
+      "forks": 2086,
+      "todayStars": 255,
+      "url": "https://github.com/cheahjs/free-llm-api-resources",
+      "aiSummary": {
+        "summary": "这是一个收集免费大语言模型（LLM）推理 API 资源的项目。它整理了包括 OpenRouter、Google AI Studio、HuggingFace 等在内的多家免费提供商及其具体模型和调用限制。项目旨在帮助开发者快速找到可用的免费接口进行测试或开发，同时提醒用户合理使用以免服务失效。",
+        "summary_en": "A curated list of free LLM inference resources accessible via API.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "供开发者寻找免费的大语言模型 API 资源，用于测试和开发。",
+        "useCase_en": "Developers can discover and access free LLM inference resources."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 23192,
+      "forks": 4063,
+      "todayStars": 241,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，专为处理高噪声的金融数据设计。它采用两阶段框架，通过专用分词器将 OHLCV 数据转换为离散标记，再利用自回归 Transformer 进行预训练。该项目支持多种量化任务，已在 AAAI 2026 被接收，并提供了从 mini 到 large 的不同参数模型。",
+        "summary_en": "Kronos is an open-source foundation model for financial candlesticks trained on data from over 45 global exchanges.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Hugging Face"
+        ],
+        "useCase": "金融时间序列预测与量化交易",
+        "useCase_en": "Forecasting financial market trends using candlestick data."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "bwya77/vscode-dark-islands",
+      "description": "VSCode theme based off the easemate IDE and Jetbrains islands theme",
+      "language": "PowerShell",
+      "stars": 8197,
+      "forks": 253,
+      "todayStars": 502,
+      "url": "https://github.com/bwya77/vscode-dark-islands",
+      "aiSummary": {
+        "summary": "这是一个基于 easemate IDE 和 JetBrains Islands 的 VSCode 深色主题。它包含悬浮玻璃面板、圆角设计和平滑动画效果，支持多种编程语言。项目提供自动化安装脚本，可一键配置主题、自定义 UI 样式及推荐字体。",
+        "summary_en": "A dark Visual Studio Code theme featuring floating glass-like panels and rounded corners inspired by the easemate IDE and JetBrains Islands.",
+        "techStack": [
+          "PowerShell",
+          "VSCode",
+          "CSS"
+        ],
+        "useCase": "适合追求现代玻璃拟态 UI 和深色模式的开发者。",
+        "useCase_en": "To provide a visually refined, dark-themed development environment with floating glass panels and smooth animations."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "bytedance/deer-flow",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "language": "Python",
+      "stars": 65520,
+      "forks": 8663,
+      "todayStars": 350,
+      "url": "https://github.com/bytedance/deer-flow",
+      "aiSummary": {
+        "summary": "DeerFlow 是一个开源的长期超智能体框架，由字节跳动开发。它通过编排子智能体、记忆系统和沙箱环境，结合可扩展的技能和工具，能够执行从研究到编码的复杂任务。项目支持多种大模型，并集成了智能搜索功能，旨在实现高效且自主的自动化工作流。",
+        "summary_en": "An open-source Python framework for building autonomous AI agents that research, code, and execute complex tasks using sub-agents and memory.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要自主研究、代码生成及复杂任务编排的自动化场景。",
+        "useCase_en": "It is used to orchestrate autonomous AI agents for complex research, coding, and task execution."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "stars": 46248,
+      "forks": 4278,
+      "todayStars": 1184,
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "aiSummary": {
+        "summary": "Scrapling 是一个基于 Python 的自适应网络抓取框架，支持从单次请求到大规模爬取。它具备智能解析器，能自动适应网站结构变化；内置的 Fetchers 可绕过 Cloudflare 等反爬虫系统；Spider 框架支持并发、多会话及代理轮换。项目旨在提供零妥协的快速爬取体验，适合各类用户。",
+        "summary_en": "An adaptive Python web scraping framework for single requests to full-scale crawls, featuring anti-bot bypassing and intelligent parsing.",
+        "techStack": [
+          "Python",
+          "Async Programming",
+          "Headless Browsers"
+        ],
+        "useCase": "适用于需要绕过反爬虫系统、应对网站结构频繁变化以及进行大规模并发数据采集的场景。",
+        "useCase_en": "Scrape data from complex websites with anti-bot protections and dynamic layouts using adaptive selectors."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-06T23:57:59.162Z",
+    "duration": "178s",
+    "version": "1.0.0"
+  }
+}
