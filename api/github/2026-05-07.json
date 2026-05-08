@@ -1,0 +1,294 @@
+{
+  "date": "2026-05-07",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "stars": 11601,
+      "forks": 1507,
+      "todayStars": 1367,
+      "url": "https://github.com/anthropics/financial-services",
+      "aiSummary": {
+        "summary": "该项目为金融行业提供 Claude AI 代理和技能库，涵盖投资银行、股权研究等领域。包含 Pitch Agent、Market Researcher 等端到端工作流代理及垂直插件，支持通过插件或 API 部署。旨在辅助生成分析报告和模型，需人工审核。",
+        "summary_en": "Reference agents and skills for financial services workflows like investment banking and equity research.",
+        "techStack": [
+          "Python",
+          "Claude API",
+          "AI Agents"
+        ],
+        "useCase": "金融行业工作流自动化与辅助分析",
+        "useCase_en": "Automates financial workflows like pitch deck creation, market research, and reconciliation for professionals."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "stars": 18694,
+      "forks": 1411,
+      "todayStars": 5787,
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "aiSummary": {
+        "summary": "DeepSeek-TUI 是一个基于 Rust 开发的终端编码代理，利用 DeepSeek V4 模型。它支持流式推理、自动模式选择模型与思考级别，具备文件编辑、Shell 执行、Git 管理及 Web 搜索等全功能工具集，支持 1M token 上下文窗口，旨在通过键盘驱动的 TUI 提升终端编码效率。",
+        "summary_en": "Terminal coding agent powered by DeepSeek V4 models with streaming reasoning and workspace editing capabilities.",
+        "techStack": [
+          "Rust",
+          "DeepSeek V4",
+          "TUI"
+        ],
+        "useCase": "适合需要在终端环境中进行智能代码编写、调试和文件管理的开发者。",
+        "useCase_en": "Run a coding agent in your terminal to edit files, run commands, and manage git using DeepSeek V4 models."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "z-lab/dflash",
+      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "language": "Python",
+      "stars": 3478,
+      "forks": 246,
+      "todayStars": 654,
+      "url": "https://github.com/z-lab/dflash",
+      "aiSummary": {
+        "summary": "DFlash 是一个专为快速推测解码设计的轻量级块扩散模型。它通过并行起草机制，显著提升了大语言模型（LLM）的生成效率，支持多种主流模型（如 Gemma、Qwen 等）的加速。",
+        "summary_en": "DFlash accelerates LLM inference via block diffusion speculative decoding.",
+        "techStack": [
+          "Python",
+          "Transformers",
+          "SGLang",
+          "vLLM",
+          "MLX"
+        ],
+        "useCase": "大语言模型的高效推理加速",
+        "useCase_en": "Accelerate LLM inference by using a lightweight draft model for parallel token drafting."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "InsForge/InsForge",
+      "description": "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway. Built for coding agents.",
+      "language": "TypeScript",
+      "stars": 8846,
+      "forks": 732,
+      "todayStars": 459,
+      "url": "https://github.com/InsForge/InsForge",
+      "aiSummary": {
+        "summary": "InsForge 是一个专为 AI 编码代理设计的后端开发平台。它充当语义层，连接 AI 代理与后端原语（如数据库、认证、存储、边缘函数等），使代理能够理解、配置和检查后端系统。支持 Postgres、S3、OpenAI 兼容 API 等核心服务，旨在简化 AI Agent 的后端开发流程。",
+        "summary_en": "InsForge is a Postgres-based backend platform offering a semantic layer for AI coding agents to manage auth, storage, and compute.",
+        "techStack": [
+          "TypeScript",
+          "PostgreSQL",
+          "S3",
+          "OpenAI Compatible API",
+          "Fly.io"
+        ],
+        "useCase": "为 AI 编码代理和 AI 代码编辑器提供后端基础设施支持",
+        "useCase_en": "It enables AI coding agents to interact with backend services like databases and auth through a semantic layer."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "LearningCircuit/local-deep-research",
+      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
+      "language": "Python",
+      "stars": 6227,
+      "forks": 547,
+      "todayStars": 564,
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "aiSummary": {
+        "summary": "这是一个本地运行的AI研究助手，支持多种大模型和搜索引擎。它可以在本地处理数据，保护隐私，并自动搜索网络、学术论文和私有文档来生成带引用的研究报告。支持Docker和pip安装，具备SQLCipher加密功能。",
+        "summary_en": "Local AI research assistant that searches web, academic papers, and private documents using any LLM.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "SQLCipher",
+          "llama.cpp",
+          "Ollama"
+        ],
+        "useCase": "适合需要隐私保护的学术研究、个人知识库构建及本地化AI问答。",
+        "useCase_en": "Run a private, encrypted AI research assistant locally to synthesize information from web and private documents."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "stars": 32913,
+      "forks": 3805,
+      "todayStars": 3058,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供生产级工程技能，包含 7 个斜杠命令映射开发全流程。它封装了资深工程师的工作流、质量门禁和最佳实践，确保 AI 代理在开发各阶段（定义、计划、构建、测试、审查、简化、发送）遵循标准。支持 Claude Code，并能根据上下文自动激活特定技能。",
+        "summary_en": "Production-grade engineering skills for AI coding agents to follow best practices.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "GitHub"
+        ],
+        "useCase": "用于提升 AI 编码代理的工程质量和开发一致性，规范代码审查和交付流程。",
+        "useCase_en": "It provides workflows and best practices for AI agents to build software consistently across development phases."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "stars": 29519,
+      "forks": 2492,
+      "todayStars": 953,
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "aiSummary": {
+        "summary": "PageIndex 是一个基于 Python 的向量无关 RAG 系统。它通过构建文档的层级树索引并利用 LLM 进行推理，解决了传统向量搜索在长文档中缺乏相关性问题。它无需向量数据库，支持大规模文档检索，提供更可解释和上下文感知的搜索体验。",
+        "summary_en": "A vectorless, reasoning-based RAG system that builds hierarchical tree indexes for accurate document retrieval without vector databases.",
+        "techStack": [
+          "Python",
+          "OpenAI Agents SDK",
+          "LLM"
+        ],
+        "useCase": "适用于对检索准确性要求高的长篇专业文档分析。",
+        "useCase_en": "To enable agentic, context-aware retrieval over long documents without relying on vector databases."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "vercel-labs/open-agents",
+      "description": "An open source template for building cloud agents.",
+      "language": "TypeScript",
+      "stars": 5033,
+      "forks": 636,
+      "todayStars": 160,
+      "url": "https://github.com/vercel-labs/open-agents",
+      "aiSummary": {
+        "summary": "这是一个用于在 Vercel 上构建和运行后台编码代理的开源参考应用。它采用三层架构（Web、代理工作流、沙盒），实现了聊天驱动的代码生成、持久化工作流、隔离沙盒执行和 Git 集成。核心设计将代理与沙盒分离，支持独立的生命周期管理。",
+        "summary_en": "An open-source template for building cloud agents on Vercel featuring a three-layer architecture.",
+        "techStack": [
+          "TypeScript",
+          "Vercel",
+          "Workflow SDK",
+          "Sandbox VM"
+        ],
+        "useCase": "构建云端后台编码代理系统",
+        "useCase_en": "Create cloud-based coding agents that run background workflows and interact with isolated sandboxes."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "docusealco/docuseal",
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "language": "Ruby",
+      "stars": 15606,
+      "forks": 1409,
+      "todayStars": 899,
+      "url": "https://github.com/docusealco/docuseal",
+      "aiSummary": {
+        "summary": "DocuSeal 是一个开源的 DocuSign 替代品，使用 Ruby 构建。它提供 PDF 表单构建、数字签名、验证及自动化邮件等功能。支持多语言、移动端优化，并具备完善的 API 和 Webhook 供集成。支持多种部署方式，适合需要在线签署文档的企业和个人。",
+        "summary_en": "Open-source platform for secure digital document signing and processing.",
+        "techStack": [
+          "Ruby",
+          "Docker",
+          "PostgreSQL",
+          "SQLite"
+        ],
+        "useCase": "适合需要在线签署 PDF 文档、替代 DocuSign 的企业和个人开发者。",
+        "useCase_en": "Create, fill, and sign digital documents securely and efficiently."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "decolua/9router",
+      "description": "🆓 Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "language": "JavaScript",
+      "stars": 4503,
+      "forks": 978,
+      "todayStars": 249,
+      "url": "https://github.com/decolua/9router",
+      "aiSummary": {
+        "summary": "9Router 是一个免费的 AI 编码路由器，旨在通过连接 40+ AI 提供商来节省令牌和成本。它支持 Claude Code、Cursor 等工具，提供 RTK 令牌压缩（节省 20-40%）、自动回退机制（订阅到免费）以及多账户轮询，确保持续编码并避免配额限制。",
+        "summary_en": "A local proxy server that routes AI coding tool requests to multiple providers, saving tokens via RTK and auto-fallback.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "HTTP"
+        ],
+        "useCase": "需要使用 AI 编码工具但希望节省 API 成本或避免配额限制的开发者。",
+        "useCase_en": "To connect AI coding assistants like Cursor and Claude Code to multiple providers while saving 20-40% on tokens."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "PriorLabs/TabPFN",
+      "description": "⚡ TabPFN: Foundation Model for Tabular Data ⚡",
+      "language": "Python",
+      "stars": 6781,
+      "forks": 669,
+      "todayStars": 233,
+      "url": "https://github.com/PriorLabs/TabPFN",
+      "aiSummary": {
+        "summary": "TabPFN 是一个专为表格数据设计的预训练基础模型，支持分类和回归任务。它通过下载预训练检查点实现快速训练，无需复杂的数据预处理。项目推荐使用 GPU 以获得最佳性能，CPU 仅适合小数据集，并支持批量预测以提高效率。",
+        "summary_en": "Foundation model for tabular data classification and regression, requiring no data preprocessing.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "表格数据的分类和回归任务",
+        "useCase_en": "Perform classification and regression on tabular data without manual preprocessing."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "aaif-goose/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "stars": 44489,
+      "forks": 4555,
+      "todayStars": 431,
+      "url": "https://github.com/aaif-goose/goose",
+      "aiSummary": {
+        "summary": "Goose 是一个开源的通用 AI 代理，运行在本地。它提供桌面应用、CLI 和 API，支持执行、编辑和测试代码。基于 Rust 构建，兼容 15+ 个 LLM 提供商及 70+ 个扩展，现隶属于 Agentic AI Foundation。适用于代码开发、自动化、研究及数据分析等多种场景。",
+        "summary_en": "A Rust-based open-source AI agent offering a desktop app, CLI, and API to execute tasks and integrate with various LLM providers.",
+        "techStack": [
+          "Rust",
+          "LLM",
+          "Model Context Protocol (MCP)"
+        ],
+        "useCase": "代码开发、自动化任务、研究写作及数据分析",
+        "useCase_en": "A general-purpose AI agent for code, workflows, research, writing, and automation running locally."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "Augani/openreel-video",
+      "description": "OpenReel Video - Professional browser-based video editor. Open source CapCut alternative. 100% browser-based, no installation, no cloud uploads, no watermarks.",
+      "language": "TypeScript",
+      "stars": 1667,
+      "forks": 250,
+      "todayStars": 208,
+      "url": "https://github.com/Augani/openreel-video",
+      "aiSummary": {
+        "summary": "OpenReel Video 是一个专业浏览器端视频编辑器，开源 CapCut 替代品。100% 客户端运行，无安装、无云上传、无水印。支持多轨时间轴、关键帧动画、调色、音频特效及 GPU 加速。提供丰富的图形文本工具，包括专业字幕、SVG 支持和多种动画效果。",
+        "summary_en": "A client-side video editor offering professional features without cloud uploads or installation.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "WebCodecs",
+          "WebGPU"
+        ],
+        "useCase": "需要在浏览器中快速进行专业视频编辑且注重隐私的用户。",
+        "useCase_en": "Users can perform professional video editing tasks directly in their browser without cloud uploads."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-08T00:00:10.175Z",
+    "duration": "155s",
+    "version": "1.0.0"
+  }
+}

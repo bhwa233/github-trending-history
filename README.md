@@ -70,27 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-05-06 | **成功**: 15 | **失败**: 0
+**最后更新**: 2026-05-07 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) | Coding agent for DeepSeek models that runs in your... | Rust | 13.7k | 6.2k | DeepSeek-TUI 是一个基于 Rust 的终端编码代理，专为 DeepSeek V4 模型设计。它支持流式推理、1M token 上下文窗口，并提供自动模式选择模型和思考级别。具备文件编辑、Shell 执行、Git 管理、Web 搜索及 MCP 服务器等完整工具套件，通过键盘驱动的 TUI 界面运行。 |
-| 2 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | Shell | 30.4k | 629 | 该项目为 AI 编码代理提供生产级工程技能，将资深工程师的工作流和最佳实践编码为可执行的技能。它通过 7 个斜杠命令覆盖开发全生命周期，确保 AI 代理遵循标准化的质量门禁和最佳实践，提升代码质量与开发效率。 |
-| 3 | [PriorLabs/TabPFN](https://github.com/PriorLabs/TabPFN) | ⚡ TabPFN: Foundation Model for Tabular Data ⚡... | Python | 6.6k | 218 | TabPFN 是一个专为表格数据设计的预训练基础模型，支持分类和回归任务。它默认在合成数据上训练，提供开箱即用的性能。项目支持 GPU 加速，建议使用批量预测模式以提高效率，并建议避免进行数据预处理。 |
-| 4 | [docusealco/docuseal](https://github.com/docusealco/docuseal) | Open source DocuSign alternative. Create, fill, an... | Ruby | 14.9k | 772 | DocuSeal 是一个开源的 DocuSign 替代品，使用 Ruby 构建。它提供移动端优化的 Web 工具，支持创建、填写和签署 PDF 表单。核心功能包括 WYSIWYG 表单构建器、多种字段类型、自动签名、邮件通知及多种云存储支持。此外，它还支持白标、批量发送、SSO 等高级功能，易于部署。 |
-| 5 | [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research) | ~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Sup... | Python | 5.6k | 532 | 这是一个本地运行的 AI 深度研究助手，支持 llama.cpp、Ollama 等多种大模型。它能自动搜索网络、学术论文及私有文档，合成带引用的报告。项目强调数据隐私，内置 SQLCipher 加密，提供 Docker 和 pip 安装方式，适合需要安全、可控研究环境的用户。 |
-| 6 | [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser... | C++ | 63.0k | 87 | Ladybird 是一款基于 Web 标准的真正独立浏览器，目前处于预-alpha 阶段。它采用多进程架构，包含 UI、渲染、解码和服务器进程，具有强大的安全沙箱机制。核心组件（如 LibWeb、LibJS、LibWasm 等）继承自 SerenityOS，支持 Linux、macOS 和 Windows (WSL2)，旨在构建完整的现代 Web 浏览器。 |
-| 7 | [InsForge/InsForge](https://github.com/InsForge/InsForge) | InsForge is a Postgres-based backend with auth, st... | TypeScript | 8.4k | 213 | InsForge 是一个专为 AI 编码代理设计的后端开发平台。它充当语义层，将数据库、认证、存储等后端原语封装成 AI 可理解、推理和操作的格式。它支持获取上下文、配置原语和检查状态，旨在简化 AI 与后端系统的交互。 |
-| 8 | [virattt/dexter](https://github.com/virattt/dexter) | An autonomous agent for deep financial research... | TypeScript | 24.3k | 666 | Dexter 是一个基于 TypeScript 的自主金融研究代理。它利用任务规划、自我反思和实时市场数据来分析复杂的金融问题。它将查询分解为结构化的研究步骤，自主执行并验证结果，提供数据支持的分析。 |
-| 9 | [anthropics/financial-services](https://github.com/anthropics/financial-services) | ... | Python | 9.1k | 540 | Anthropic 官方提供的金融服务业参考代理、技能和数据连接器库。包含 Pitch Agent、Market Researcher 等端到端工作流代理，支持生成推介材料、市场研究和财务模型。这些组件可作为 Claude Cowork 插件或 Managed Agents API 部署，旨在辅助专业人士完成分析工作。 |
-| 10 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The leading agent orchestration platform for Cl... | TypeScript | 45.2k | 2.2k | Ruflo 是专为 Claude Code 打造的多代理编排平台，支持协调 100+ 专业代理。它具备自学习记忆、联邦通信和企业级安全架构，能自动组织代理群集并优化工作流，让 AI 系统具备协作与自主学习能力。 |
-| 11 | [cheahjs/free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources) | A list of free LLM inference resources accessible ... | Python | 20.5k | 255 | 这是一个收集免费大语言模型（LLM）推理 API 资源的项目。它整理了包括 OpenRouter、Google AI Studio、HuggingFace 等在内的多家免费提供商及其具体模型和调用限制。项目旨在帮助开发者快速找到可用的免费接口进行测试或开发，同时提醒用户合理使用以免服务失效。 |
-| 12 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Fin... | Python | 23.2k | 241 | Kronos 是首个开源的金融蜡烛图基础模型，专为处理高噪声的金融数据设计。它采用两阶段框架，通过专用分词器将 OHLCV 数据转换为离散标记，再利用自回归 Transformer 进行预训练。该项目支持多种量化任务，已在 AAAI 2026 被接收，并提供了从 mini 到 large 的不同参数模型。 |
-| 13 | [bwya77/vscode-dark-islands](https://github.com/bwya77/vscode-dark-islands) | VSCode theme based off the easemate IDE and Jetbra... | PowerShell | 8.2k | 502 | 这是一个基于 easemate IDE 和 JetBrains Islands 的 VSCode 深色主题。它包含悬浮玻璃面板、圆角设计和平滑动画效果，支持多种编程语言。项目提供自动化安装脚本，可一键配置主题、自定义 UI 样式及推荐字体。 |
-| 14 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | An open-source long-horizon SuperAgent harness tha... | Python | 65.5k | 350 | DeerFlow 是一个开源的长期超智能体框架，由字节跳动开发。它通过编排子智能体、记忆系统和沙箱环境，结合可扩展的技能和工具，能够执行从研究到编码的复杂任务。项目支持多种大模型，并集成了智能搜索功能，旨在实现高效且自主的自动化工作流。 |
-| 15 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ An adaptive Web Scraping framework that handle... | Python | 46.2k | 1.2k | Scrapling 是一个基于 Python 的自适应网络抓取框架，支持从单次请求到大规模爬取。它具备智能解析器，能自动适应网站结构变化；内置的 Fetchers 可绕过 Cloudflare 等反爬虫系统；Spider 框架支持并发、多会话及代理轮换。项目旨在提供零妥协的快速爬取体验，适合各类用户。 |
+| 1 | [anthropics/financial-services](https://github.com/anthropics/financial-services) | ... | Python | 11.6k | 1.4k | 该项目为金融行业提供 Claude AI 代理和技能库，涵盖投资银行、股权研究等领域。包含 Pitch Agent、Market Researcher 等端到端工作流代理及垂直插件，支持通过插件或 API 部署。旨在辅助生成分析报告和模型，需人工审核。 |
+| 2 | [Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) | Coding agent for DeepSeek models that runs in your... | Rust | 18.7k | 5.8k | DeepSeek-TUI 是一个基于 Rust 开发的终端编码代理，利用 DeepSeek V4 模型。它支持流式推理、自动模式选择模型与思考级别，具备文件编辑、Shell 执行、Git 管理及 Web 搜索等全功能工具集，支持 1M token 上下文窗口，旨在通过键盘驱动的 TUI 提升终端编码效率。 |
+| 3 | [z-lab/dflash](https://github.com/z-lab/dflash) | DFlash: Block Diffusion for Flash Speculative Deco... | Python | 3.5k | 654 | DFlash 是一个专为快速推测解码设计的轻量级块扩散模型。它通过并行起草机制，显著提升了大语言模型（LLM）的生成效率，支持多种主流模型（如 Gemma、Qwen 等）的加速。 |
+| 4 | [InsForge/InsForge](https://github.com/InsForge/InsForge) | InsForge is a Postgres-based backend with auth, st... | TypeScript | 8.8k | 459 | InsForge 是一个专为 AI 编码代理设计的后端开发平台。它充当语义层，连接 AI 代理与后端原语（如数据库、认证、存储、边缘函数等），使代理能够理解、配置和检查后端系统。支持 Postgres、S3、OpenAI 兼容 API 等核心服务，旨在简化 AI Agent 的后端开发流程。 |
+| 5 | [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research) | ~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Sup... | Python | 6.2k | 564 | 这是一个本地运行的AI研究助手，支持多种大模型和搜索引擎。它可以在本地处理数据，保护隐私，并自动搜索网络、学术论文和私有文档来生成带引用的研究报告。支持Docker和pip安装，具备SQLCipher加密功能。 |
+| 6 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | Shell | 32.9k | 3.1k | 该项目为 AI 编码代理提供生产级工程技能，包含 7 个斜杠命令映射开发全流程。它封装了资深工程师的工作流、质量门禁和最佳实践，确保 AI 代理在开发各阶段（定义、计划、构建、测试、审查、简化、发送）遵循标准。支持 Claude Code，并能根据上下文自动激活特定技能。 |
+| 7 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 PageIndex: Document Index for Vectorless, Reaso... | Python | 29.5k | 953 | PageIndex 是一个基于 Python 的向量无关 RAG 系统。它通过构建文档的层级树索引并利用 LLM 进行推理，解决了传统向量搜索在长文档中缺乏相关性问题。它无需向量数据库，支持大规模文档检索，提供更可解释和上下文感知的搜索体验。 |
+| 8 | [vercel-labs/open-agents](https://github.com/vercel-labs/open-agents) | An open source template for building cloud agents.... | TypeScript | 5.0k | 160 | 这是一个用于在 Vercel 上构建和运行后台编码代理的开源参考应用。它采用三层架构（Web、代理工作流、沙盒），实现了聊天驱动的代码生成、持久化工作流、隔离沙盒执行和 Git 集成。核心设计将代理与沙盒分离，支持独立的生命周期管理。 |
+| 9 | [docusealco/docuseal](https://github.com/docusealco/docuseal) | Open source DocuSign alternative. Create, fill, an... | Ruby | 15.6k | 899 | DocuSeal 是一个开源的 DocuSign 替代品，使用 Ruby 构建。它提供 PDF 表单构建、数字签名、验证及自动化邮件等功能。支持多语言、移动端优化，并具备完善的 API 和 Webhook 供集成。支持多种部署方式，适合需要在线签署文档的企业和个人。 |
+| 10 | [decolua/9router](https://github.com/decolua/9router) | 🆓 Unlimited FREE AI coding. Connect Claude Code, ... | JavaScript | 4.5k | 249 | 9Router 是一个免费的 AI 编码路由器，旨在通过连接 40+ AI 提供商来节省令牌和成本。它支持 Claude Code、Cursor 等工具，提供 RTK 令牌压缩（节省 20-40%）、自动回退机制（订阅到免费）以及多账户轮询，确保持续编码并避免配额限制。 |
+| 11 | [PriorLabs/TabPFN](https://github.com/PriorLabs/TabPFN) | ⚡ TabPFN: Foundation Model for Tabular Data ⚡... | Python | 6.8k | 233 | TabPFN 是一个专为表格数据设计的预训练基础模型，支持分类和回归任务。它通过下载预训练检查点实现快速训练，无需复杂的数据预处理。项目推荐使用 GPU 以获得最佳性能，CPU 仅适合小数据集，并支持批量预测以提高效率。 |
+| 12 | [aaif-goose/goose](https://github.com/aaif-goose/goose) | an open source, extensible AI agent that goes beyo... | Rust | 44.5k | 431 | Goose 是一个开源的通用 AI 代理，运行在本地。它提供桌面应用、CLI 和 API，支持执行、编辑和测试代码。基于 Rust 构建，兼容 15+ 个 LLM 提供商及 70+ 个扩展，现隶属于 Agentic AI Foundation。适用于代码开发、自动化、研究及数据分析等多种场景。 |
+| 13 | [Augani/openreel-video](https://github.com/Augani/openreel-video) | OpenReel Video - Professional browser-based video ... | TypeScript | 1.7k | 208 | OpenReel Video 是一个专业浏览器端视频编辑器，开源 CapCut 替代品。100% 客户端运行，无安装、无云上传、无水印。支持多轨时间轴、关键帧动画、调色、音频特效及 GPU 加速。提供丰富的图形文本工具，包括专业字幕、SVG 支持和多种动画效果。 |
 
-[查看完整数据](api/github/2026-05-06.json)
+[查看完整数据](api/github/2026-05-07.json)
 <!-- END GITHUB TRENDING -->
 
 
