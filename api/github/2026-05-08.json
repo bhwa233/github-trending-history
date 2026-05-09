@@ -1,0 +1,264 @@
+{
+  "date": "2026-05-08",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "stars": 15067,
+      "forks": 1879,
+      "todayStars": 3662,
+      "url": "https://github.com/anthropics/financial-services",
+      "aiSummary": {
+        "summary": "Anthropic 提供的金融服务业参考实现，包含针对投资银行、股票研究等领域的代理和技能。项目提供 Pitch Agent、Market Researcher 等端到端工作流，支持作为 Claude Cowork 插件或 API 部署。包含估值、收益分析等垂直插件，旨在辅助分析师起草工作产品，需人工审核。",
+        "summary_en": "Reference agents and skills for financial services workflows like investment banking and equity research.",
+        "techStack": [
+          "Python",
+          "Claude API",
+          "Cowork Plugins"
+        ],
+        "useCase": "投资银行、股票研究、私募股权及财富管理的自动化工作流辅助",
+        "useCase_en": "Automate financial workflows like pitch decks, market research, and reconciliations."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "stars": 35321,
+      "forks": 4017,
+      "todayStars": 1794,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供了一套生产级工程技能和工作流。它包含 7 个斜杠命令，覆盖从需求定义到代码审查和部署的完整开发生命周期。旨在确保 AI 代理遵循资深工程师的最佳实践和质量标准，提升代码质量和开发效率。",
+        "summary_en": "A collection of production-grade engineering skills and workflows for AI coding agents to follow.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "为 AI 编码代理提供标准化的工程工作流和最佳实践指导。",
+        "useCase_en": "To provide AI coding agents with production-grade workflows and quality gates for software development."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "stars": 21707,
+      "forks": 1688,
+      "todayStars": 3827,
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 开发的终端编码代理，专为 DeepSeek V4 模型设计。它支持流式传输推理过程，允许用户通过键盘驱动的 TUI 界面编辑本地代码、运行 Shell 命令和管理 Git。具备自动模式可智能选择模型和思考级别，并包含批准门控以安全地修改工作区。",
+        "summary_en": "A Rust-based terminal coding agent powered by DeepSeek V4 models for file editing and command execution.",
+        "techStack": [
+          "Rust",
+          "DeepSeek V4",
+          "TUI"
+        ],
+        "useCase": "适合需要在终端中直接与 DeepSeek 模型协作进行代码编写、调试和项目管理的开发者。",
+        "useCase_en": "Use a keyboard-driven terminal interface to manage coding tasks and edit local workspaces."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "z-lab/dflash",
+      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "language": "Python",
+      "stars": 3839,
+      "forks": 265,
+      "todayStars": 388,
+      "url": "https://github.com/z-lab/dflash",
+      "aiSummary": {
+        "summary": "DFlash 是一种专为快速推测解码设计的轻量级块扩散模型。它通过并行起草机制，实现了高效且高质量的推理加速。项目支持 Gemma、Qwen 等多种主流大模型，并提供了针对 vLLM、SGLang 等框架的安装方案，旨在提升大语言模型的生成速度。",
+        "summary_en": "DFlash is a lightweight block diffusion model designed for efficient and high-quality parallel drafting in speculative decoding.",
+        "techStack": [
+          "Python",
+          "vLLM",
+          "Transformers",
+          "SGLang",
+          "MLX"
+        ],
+        "useCase": "用于加速大语言模型的生成速度，通过推测解码技术提升推理效率。",
+        "useCase_en": "Enable efficient and high-quality parallel drafting for faster LLM inference using speculative decoding."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "decolua/9router",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "language": "JavaScript",
+      "stars": 5547,
+      "forks": 1066,
+      "todayStars": 1028,
+      "url": "https://github.com/decolua/9router",
+      "aiSummary": {
+        "summary": "9Router 是一个免费的 AI 路由器，旨在通过 40+ 提供商连接 AI 编码工具。它利用 RTK 技术节省 20-40% 的 Token，并具备自动回退机制（订阅→便宜→免费），确保零停机时间和成本优化。",
+        "summary_en": "A local proxy router connecting AI coding tools to multiple providers, saving tokens and preventing rate limits.",
+        "techStack": [
+          "JavaScript",
+          "Node.js"
+        ],
+        "useCase": "用于连接 Claude Code、Cursor 等 AI 编码工具，通过智能路由和 Token 压缩技术，节省 API 成本并避免配额限制。",
+        "useCase_en": "Connect AI coding assistants to multiple providers to save tokens and prevent rate limits."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "stars": 2943,
+      "forks": 232,
+      "todayStars": 482,
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "aiSummary": {
+        "summary": "CloakBrowser 是一个通过 C++ 源级补丁修改指纹的隐身 Chromium 浏览器，旨在绕过所有反机器人检测。它作为 Playwright 和 Puppeteer 的零代码更改替代品，支持 Python 和 Node.js，并通过 Cloudflare Turnstile 和 reCAPTCHA v3 等测试，提供“humanize”模式模拟人类行为。",
+        "summary_en": "Stealth Chromium browser that bypasses bot detection via C++ source-level patches, acting as a drop-in Playwright replacement.",
+        "techStack": [
+          "Python",
+          "Chromium (C++)",
+          "Playwright / Puppeteer"
+        ],
+        "useCase": "绕过 Cloudflare、reCAPTCHA 等反爬虫检测，进行自动化测试或数据采集。",
+        "useCase_en": "Automating web scraping while evading anti-bot systems like Cloudflare Turnstile."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "awslabs/aidlc-workflows",
+      "description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents",
+      "language": "Python",
+      "stars": 1744,
+      "forks": 304,
+      "todayStars": 92,
+      "url": "https://github.com/awslabs/aidlc-workflows",
+      "aiSummary": {
+        "summary": "这是一个由 AWS 实验室开发的 AI-Driven Development Life Cycle (AI-DLC) 工作流规则集。它为 AI 编码代理提供自适应的引导规则，旨在智能管理软件开发流程，确保代码质量并保持开发者对过程的控制。",
+        "summary_en": "A collection of adaptive workflow steering rules for AI coding agents to maintain quality standards.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于使用 AI 编码代理进行软件开发，希望通过自适应规则保持流程控制和代码质量的开发者。",
+        "useCase_en": "To steer AI coding agents through adaptive workflows to maintain quality standards."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "HKUDS/AI-Trader",
+      "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
+      "language": "Python",
+      "stars": 14595,
+      "forks": 2432,
+      "todayStars": 189,
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "aiSummary": {
+        "summary": "AI-Trader 是一个面向 AI 代理的自动化交易平台，支持 OpenClaw、Claude Code 等主流代理协作。平台提供跨平台信号同步、一键跟单及多市场交易功能，旨在通过集体智能提升交易效率。最近版本优化了生产稳定性与代码架构。",
+        "summary_en": "An agent-native trading platform enabling AI agents to collaborate, trade, and execute strategies across various markets.",
+        "techStack": [
+          "Python",
+          "FastAPI"
+        ],
+        "useCase": "为 AI 代理提供自动化交易解决方案，支持多市场策略协作与跟单。",
+        "useCase_en": "To provide a platform for AI agents to automate trading strategies and collaborate on financial decisions."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "LearningCircuit/local-deep-research",
+      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
+      "language": "Python",
+      "stars": 6716,
+      "forks": 594,
+      "todayStars": 572,
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "aiSummary": {
+        "summary": "这是一个专注于隐私保护的本地 AI 研究助手。它支持接入多种本地和云端大模型，能利用 arXiv、PubMed 等搜索引擎及私有文档进行自动研究。项目提供 Docker 快速部署方案，内置 SQLCipher 加密，适合需要自主掌控数据并进行深度学术或知识分析的用户。",
+        "summary_en": "Privacy-focused AI research assistant running locally that searches web, academic papers, and private documents.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "LLMs (llama.cpp, Ollama)",
+          "Search Engines",
+          "SQLCipher"
+        ],
+        "useCase": "需要隐私保护的本地深度研究、学术分析及构建私有知识库",
+        "useCase_en": "Run a private, encrypted AI research assistant locally to synthesize information from the web and personal documents."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "lobehub/lobehub",
+      "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
+      "language": "TypeScript",
+      "stars": 76486,
+      "forks": 15112,
+      "todayStars": 74,
+      "url": "https://github.com/lobehub/lobehub",
+      "aiSummary": {
+        "summary": "LobeHub 是一个专注于 AI Agent 的协作平台，旨在通过多智能体协作、思维链和插件系统，打造人类与智能体共同进化的工作空间。支持本地/云端模型、多模态交互（语音、图像）及 MCP 插件市场，提供桌面端应用，支持自托管，致力于构建开放透明的 AIGC 生态系统。",
+        "summary_en": "An open-source platform for creating, deploying, and collaborating with AI agent teammates.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合需要构建、管理和协作多智能体团队的专业开发者及 AIGC 爱好者。",
+        "useCase_en": "To create and manage AI agent teams for collaborative work and knowledge management."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "datawhalechina/hello-agents",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "language": "Python",
+      "stars": 44533,
+      "forks": 5416,
+      "todayStars": 645,
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "aiSummary": {
+        "summary": "Datawhale 社区发起的系统性智能体学习教程，专注于 AI 原生智能体的构建。内容涵盖从基础理论、经典范式（如 ReAct）到高级技术（记忆、上下文工程、Agentic RL）的完整知识体系，包含低代码平台使用及多智能体实战项目，旨在帮助开发者从 LLM 使用者蜕变为智能体系统构建者。",
+        "summary_en": "A comprehensive open-source guide to building AI-native agents from theory to practice.",
+        "techStack": [
+          "Python",
+          "LLM (OpenAI)",
+          "Agent Frameworks (AutoGen, LangGraph, AgentScope)",
+          "Low-code Platforms (Coze, Dify, n8n)"
+        ],
+        "useCase": "适合想要系统学习智能体原理与实践、掌握 AI 原生 Agent 构建技能的开发者。",
+        "useCase_en": "A guide for developers to learn and build AI-native agents from scratch."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "flutter/skills",
+      "description": "",
+      "language": "Dart",
+      "stars": 1659,
+      "forks": 92,
+      "todayStars": 168,
+      "url": "https://github.com/flutter/skills",
+      "aiSummary": {
+        "summary": "Flutter 团队维护的 Agent Skills 项目，提供一系列定制指令和工作流，辅助 AI 代理进行 Flutter 开发。它作为 MCP 的补充，教会代理如何使用工具完成特定任务（如集成测试、小部件预览等），旨在减少错误并确保遵循最佳实践。",
+        "summary_en": "A curated collection of agent skills maintained by the Flutter team to streamline app development workflows.",
+        "techStack": [
+          "Dart",
+          "Flutter",
+          "MCP (Model Context Protocol)",
+          "Node.js"
+        ],
+        "useCase": "用于自动化 Flutter 应用的开发流程，特别是集成测试生成、UI 组件预览及组件级测试编写。",
+        "useCase_en": "To equip AI agents with domain expertise and repeatable workflows for Flutter app development tasks."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-09T00:01:54.629Z",
+    "duration": "150s",
+    "version": "1.0.0"
+  }
+}
