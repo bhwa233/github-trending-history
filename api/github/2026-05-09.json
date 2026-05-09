@@ -1,0 +1,291 @@
+{
+  "date": "2026-05-09",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "stars": 17355,
+      "forks": 2196,
+      "todayStars": 3077,
+      "url": "https://github.com/anthropics/financial-services",
+      "aiSummary": {
+        "summary": "该项目为金融服务行业提供了一套基于 Claude 的代理、技能和数据连接器，涵盖投资银行、股权研究、私募股权和财富管理。包含 Pitch Agent、Market Researcher 等端到端工作流代理，用于生成估值模型、市场研究和财务对账等分析师工作产品。支持通过插件或 API 部署，旨在辅助专业人员进行合规审查。",
+        "summary_en": "Reference agents and skills for financial services workflows like investment banking and equity research.",
+        "techStack": [
+          "Python",
+          "Claude API"
+        ],
+        "useCase": "投资银行、股权研究、私募股权和财富管理的自动化工作流辅助",
+        "useCase_en": "Automate financial workflows such as investment banking pitch decks and market research using Claude AI."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "stars": 31379,
+      "forks": 3119,
+      "todayStars": 549,
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "aiSummary": {
+        "summary": "这是一个开源的多模态 AI Agent 堆栈，包含 Agent TARS 和 UI-TARS-desktop。它利用先进的视觉和多模态大模型，通过 CLI 和桌面应用提供类人任务完成能力。支持在终端、浏览器及本地/远程计算机上进行自动化操作，集成了 MCP 工具，旨在实现高效的 GUI 自动化与智能交互。",
+        "summary_en": "An open-source multimodal AI agent stack by ByteDance enabling GUI automation and human-like task completion.",
+        "techStack": [
+          "TypeScript",
+          "Multimodal LLMs",
+          "MCP Tools",
+          "GUI Agent"
+        ],
+        "useCase": "适用于自动化计算机操作、浏览器任务处理及构建类人智能交互系统。",
+        "useCase_en": "Automating desktop operations and browser interactions using multimodal AI agents."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "rohitg00/agentmemory",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "language": "TypeScript",
+      "stars": 3410,
+      "forks": 339,
+      "todayStars": 518,
+      "url": "https://github.com/rohitg00/agentmemory",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供持久化内存的 TypeScript 项目。它基于 Karpathy 的 LLM Wiki 模式，增加了知识图谱和混合搜索。支持 Claude Code、Cursor 等多种工具，通过 MCP 或 REST API 共享记忆，让 AI 在多会话中记住上下文、偏好和代码结构，无需重复解释。",
+        "summary_en": "Persistent memory system for AI coding agents to share context across sessions.",
+        "techStack": [
+          "TypeScript",
+          "MCP",
+          "iii Engine",
+          "REST API"
+        ],
+        "useCase": "为 Claude Code、Cursor 等 AI 编码工具提供持久化上下文记忆，解决多会话重复解释问题。",
+        "useCase_en": "Provides persistent memory for AI coding agents to avoid re-explaining setup and preferences."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "datawhalechina/hello-agents",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "language": "Python",
+      "stars": 45663,
+      "forks": 5527,
+      "todayStars": 1162,
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "aiSummary": {
+        "summary": "Datawhale 社区发起的系统性智能体学习教程，旨在帮助开发者从零掌握 AI 原生智能体的构建。教程涵盖从基础理论、经典范式（如 ReAct）到高级技术（如记忆、RL）的全流程，包含 AutoGen、LangGraph 等框架实战，以及智能旅行助手、赛博小镇等综合案例，适合希望成为智能体系统构建者的开发者。",
+        "summary_en": "A comprehensive open-source tutorial for building AI-native agents from scratch, covering theory, frameworks, and advanced techniques.",
+        "techStack": [
+          "Python",
+          "LLM",
+          "AutoGen",
+          "LangGraph",
+          "AgentScope"
+        ],
+        "useCase": "适合希望从 LLM 使用者转型为智能体系统构建者的开发者，用于系统学习智能体原理、实战开发及求职准备。",
+        "useCase_en": "A guide for developers to transition from LLM users to intelligent agent system builders."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "datawhalechina/easy-vibe",
+      "description": "💻 vibe coding 2026 | Your first modern programming course for beginners to master step by step.",
+      "language": "JavaScript",
+      "stars": 8511,
+      "forks": 857,
+      "todayStars": 294,
+      "url": "https://github.com/datawhalechina/easy-vibe",
+      "aiSummary": {
+        "summary": "这是一个面向初学者的现代编程课程，专注于“Vibe Coding”理念。它教导用户通过描述需求，利用 AI 生成代码并构建真实产品。项目包含从需求验证、全栈开发到高级 AI Agent 集成的完整教程，涵盖 SaaS 副业项目、Stripe 支付及微信小程序开发，并提供英文文档支持。",
+        "summary_en": "A beginner-friendly modern programming course teaching AI-driven SaaS development and integration.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "零基础初学者学习 AI 辅助编程及构建 SaaS 产品的实战课程。",
+        "useCase_en": "Beginners learn to build modern SaaS products and integrate payment systems using AI."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "rowboatlabs/rowboat",
+      "description": "Open-source AI coworker, with memory",
+      "language": "TypeScript",
+      "stars": 13767,
+      "forks": 1366,
+      "todayStars": 144,
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "aiSummary": {
+        "summary": "Rowboat 是一个开源的本地优先 AI 同事，基于 TypeScript 构建。它能连接用户的邮件和会议笔记，构建长期的知识图谱，利用上下文辅助用户完成工作，如生成演示文稿、准备会议简报和记录语音备忘录。支持 Markdown 编辑和外部工具集成，确保数据在本地处理。",
+        "summary_en": "Open-source AI coworker that builds a local knowledge graph from your emails and notes to help you work.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "Markdown",
+          "MCP"
+        ],
+        "useCase": "个人知识管理与自动化工作流辅助",
+        "useCase_en": "Connect to your email and meeting notes to build a long-lived knowledge graph and help you get work done."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 38812,
+      "forks": 2454,
+      "todayStars": 159,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码助手提供 Chrome DevTools 访问权限的 MCP 服务器。基于 Puppeteer，它允许代理控制实时浏览器，支持性能分析、网络调试、截图及自动化操作，旨在提升 AI 在浏览器环境中的自动化与调试能力。",
+        "summary_en": "An MCP server enabling AI coding agents to control and debug Chrome browsers using Puppeteer and DevTools.",
+        "techStack": [
+          "TypeScript",
+          "Puppeteer",
+          "MCP"
+        ],
+        "useCase": "AI 编码助手进行浏览器自动化测试、网页性能分析与调试",
+        "useCase_en": "Provides AI coding assistants with the ability to automate browser actions and debug web applications."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "masterking32/MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "language": "Go",
+      "stars": 2508,
+      "forks": 264,
+      "todayStars": 595,
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "aiSummary": {
+        "summary": "MasterDnsVPN 是一个基于 Go 语言的高级 DNS 隧道 VPN 项目，旨在通过 DNS 查询传输 TCP 流量以绕过审查。它采用轻量级自定义协议，头部开销极低（5-7B），并集成了 ARQ 和多路径技术，实现了比同类项目（如 DNSTT、SlipStream）更高的速度（快 9 倍）和丢包稳定性。支持多解析器负载均衡、SOCKS5 及 Shadowsocks 间接支持，适合在恶劣网络环境下使用。",
+        "summary_en": "Advanced Go-based DNS tunneling VPN optimized for censorship bypass with low overhead and high stability.",
+        "techStack": [
+          "Go",
+          "DNS Tunneling",
+          "QUIC",
+          "ARQ",
+          "AES/ChaCha20 Encryption"
+        ],
+        "useCase": "适用于需要绕过网络审查、在丢包率高或网络环境恶劣的情况下保持高速稳定连接的场景。",
+        "useCase_en": "Bypass internet censorship and firewall restrictions by tunneling TCP traffic through DNS queries."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "playcanvas/supersplat",
+      "description": "3D Gaussian Splat Editor",
+      "language": "TypeScript",
+      "stars": 6285,
+      "forks": 730,
+      "todayStars": 513,
+      "url": "https://github.com/playcanvas/supersplat",
+      "aiSummary": {
+        "summary": "SuperSplat Editor 是一个基于 Web 技术的免费开源工具，用于检查、编辑、优化和发布 3D Gaussian Splat。它无需安装即可在浏览器中运行，支持本地开发环境搭建和多语言本地化，旨在为 3D 内容创作者提供便捷的编辑体验。",
+        "summary_en": "A browser-based editor for inspecting, editing, optimizing, and publishing 3D Gaussian Splat models.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Web Technologies"
+        ],
+        "useCase": "3D Gaussian Splat 模型的检查、编辑、优化及发布",
+        "useCase_en": "To inspect, edit, optimize, and publish 3D Gaussian Splat models directly in the browser."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "language": "Jupyter Notebook",
+      "stars": 36472,
+      "forks": 4484,
+      "todayStars": 194,
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "aiSummary": {
+        "summary": "这是一个基于Jupyter Notebook的公益大模型编程实践教程，涵盖微调、提示学习、越狱攻击、隐写术、多模态及RLHF对齐等前沿主题。教程由上海交通大学开发，并联合华为昇腾推出了国产化开发全流程课程，适合初学者和研究者快速入门大模型开发。",
+        "summary_en": "A comprehensive series of Jupyter Notebook tutorials for diving into Large Language Models, covering fine-tuning, agents, and security.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "昇腾"
+        ],
+        "useCase": "适合初学者快速入门大模型开发，辅助课程设计或学术研究。",
+        "useCase_en": "A practical guide for students and developers to learn LLM fine-tuning, agent development, and security techniques."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "stars": 37359,
+      "forks": 4173,
+      "todayStars": 2801,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供生产级工程技能的项目。它将资深工程师的工作流程、质量门禁和最佳实践编码为技能，确保 AI 代理在开发过程中始终如一地遵循。包含 7 个斜杠命令，覆盖从定义到发布的全生命周期，并支持根据上下文自动激活特定技能。",
+        "summary_en": "Shell scripts providing production-grade engineering workflows and best practices for AI coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "辅助 AI 编码代理遵循生产级工程最佳实践和开发流程。",
+        "useCase_en": "To enforce production-grade engineering workflows and quality gates for AI coding agents."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "decolua/9router",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "language": "JavaScript",
+      "stars": 6478,
+      "forks": 1163,
+      "todayStars": 980,
+      "url": "https://github.com/decolua/9router",
+      "aiSummary": {
+        "summary": "9Router 是一个免费的 AI 编程路由器，旨在通过智能回退机制（订阅→便宜→免费）和 RTK 代币压缩技术，帮助开发者节省 20-40% 的 Token 成本并避免 API 限制。它支持连接多种 AI 代码工具（如 Cursor、Copilot）到 40+ 提供商，实现零停机编码体验。",
+        "summary_en": "A smart router for AI coding tools that saves tokens and manages subscriptions to free and cheap providers.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "npm"
+        ],
+        "useCase": "需要连接多个 AI 编码工具并希望节省 API 成本或避免配额限制的开发者。",
+        "useCase_en": "To connect AI coding assistants to multiple providers while saving money on tokens."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "oracle-devrel/oracle-ai-developer-hub",
+      "description": "Technical resources for AI developers to build applications, agents, and systems using Oracle AI Database and OCI services",
+      "language": "Jupyter Notebook",
+      "stars": 789,
+      "forks": 229,
+      "todayStars": 153,
+      "url": "https://github.com/oracle-devrel/oracle-ai-developer-hub",
+      "aiSummary": {
+        "summary": "这是一个面向 AI 开发者的技术资源库，旨在帮助开发者利用 Oracle AI Database 和 OCI 服务构建 AI 应用、智能体及系统。项目包含完整的参考实现（如健身平台、金融代理）和交互式 Jupyter 笔记本，涵盖模型开发、数据分析和代理编排等关键领域，提供生产级解决方案的架构模式与最佳实践。",
+        "summary_en": "A hub of technical resources and reference implementations for building AI applications using Oracle AI Database and OCI services.",
+        "techStack": [
+          "Oracle AI Database",
+          "OCI Services",
+          "Jupyter Notebook",
+          "FastAPI",
+          "Redis"
+        ],
+        "useCase": "适用于使用 Oracle AI Database 和 OCI 服务构建 AI 应用、智能体及系统的开发者。",
+        "useCase_en": "To provide technical resources and reference implementations for building AI applications, agents, and systems using Ora"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-09T23:57:55.549Z",
+    "duration": "202s",
+    "version": "1.0.0"
+  }
+}

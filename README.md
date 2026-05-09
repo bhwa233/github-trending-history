@@ -70,24 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-05-08 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-05-09 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [anthropics/financial-services](https://github.com/anthropics/financial-services) | ... | Python | 15.1k | 3.7k | Anthropic 提供的金融服务业参考实现，包含针对投资银行、股票研究等领域的代理和技能。项目提供 Pitch Agent、Market Researcher 等端到端工作流，支持作为 Claude Cowork 插件或 API 部署。包含估值、收益分析等垂直插件，旨在辅助分析师起草工作产品，需人工审核。 |
-| 2 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | Shell | 35.3k | 1.8k | 该项目为 AI 编码代理提供了一套生产级工程技能和工作流。它包含 7 个斜杠命令，覆盖从需求定义到代码审查和部署的完整开发生命周期。旨在确保 AI 代理遵循资深工程师的最佳实践和质量标准，提升代码质量和开发效率。 |
-| 3 | [Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) | Coding agent for DeepSeek models that runs in your... | Rust | 21.7k | 3.8k | 这是一个基于 Rust 开发的终端编码代理，专为 DeepSeek V4 模型设计。它支持流式传输推理过程，允许用户通过键盘驱动的 TUI 界面编辑本地代码、运行 Shell 命令和管理 Git。具备自动模式可智能选择模型和思考级别，并包含批准门控以安全地修改工作区。 |
-| 4 | [z-lab/dflash](https://github.com/z-lab/dflash) | DFlash: Block Diffusion for Flash Speculative Deco... | Python | 3.8k | 388 | DFlash 是一种专为快速推测解码设计的轻量级块扩散模型。它通过并行起草机制，实现了高效且高质量的推理加速。项目支持 Gemma、Qwen 等多种主流大模型，并提供了针对 vLLM、SGLang 等框架的安装方案，旨在提升大语言模型的生成速度。 |
-| 5 | [decolua/9router](https://github.com/decolua/9router) | Unlimited FREE AI coding. Connect Claude Code, Cod... | JavaScript | 5.5k | 1.0k | 9Router 是一个免费的 AI 路由器，旨在通过 40+ 提供商连接 AI 编码工具。它利用 RTK 技术节省 20-40% 的 Token，并具备自动回退机制（订阅→便宜→免费），确保零停机时间和成本优化。 |
-| 6 | [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) | Stealth Chromium that passes every bot detection t... | Python | 2.9k | 482 | CloakBrowser 是一个通过 C++ 源级补丁修改指纹的隐身 Chromium 浏览器，旨在绕过所有反机器人检测。它作为 Playwright 和 Puppeteer 的零代码更改替代品，支持 Python 和 Node.js，并通过 Cloudflare Turnstile 和 reCAPTCHA v3 等测试，提供“humanize”模式模拟人类行为。 |
-| 7 | [awslabs/aidlc-workflows](https://github.com/awslabs/aidlc-workflows) | AI-Driven Life Cycle (AI-DLC) adaptive workflow st... | Python | 1.7k | 92 | 这是一个由 AWS 实验室开发的 AI-Driven Development Life Cycle (AI-DLC) 工作流规则集。它为 AI 编码代理提供自适应的引导规则，旨在智能管理软件开发流程，确保代码质量并保持开发者对过程的控制。 |
-| 8 | [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader) | "AI-Trader: 100% Fully-Automated Agent-Native Trad... | Python | 14.6k | 189 | AI-Trader 是一个面向 AI 代理的自动化交易平台，支持 OpenClaw、Claude Code 等主流代理协作。平台提供跨平台信号同步、一键跟单及多市场交易功能，旨在通过集体智能提升交易效率。最近版本优化了生产稳定性与代码架构。 |
-| 9 | [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research) | ~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Sup... | Python | 6.7k | 572 | 这是一个专注于隐私保护的本地 AI 研究助手。它支持接入多种本地和云端大模型，能利用 arXiv、PubMed 等搜索引擎及私有文档进行自动研究。项目提供 Docker 快速部署方案，内置 SQLCipher 加密，适合需要自主掌控数据并进行深度学术或知识分析的用户。 |
-| 10 | [lobehub/lobehub](https://github.com/lobehub/lobehub) | The ultimate space for work and life — to find, bu... | TypeScript | 76.5k | 74 | LobeHub 是一个专注于 AI Agent 的协作平台，旨在通过多智能体协作、思维链和插件系统，打造人类与智能体共同进化的工作空间。支持本地/云端模型、多模态交互（语音、图像）及 MCP 插件市场，提供桌面端应用，支持自托管，致力于构建开放透明的 AIGC 生态系统。 |
-| 11 | [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程... | Python | 44.5k | 645 | Datawhale 社区发起的系统性智能体学习教程，专注于 AI 原生智能体的构建。内容涵盖从基础理论、经典范式（如 ReAct）到高级技术（记忆、上下文工程、Agentic RL）的完整知识体系，包含低代码平台使用及多智能体实战项目，旨在帮助开发者从 LLM 使用者蜕变为智能体系统构建者。 |
-| 12 | [flutter/skills](https://github.com/flutter/skills) | ... | Dart | 1.7k | 168 | Flutter 团队维护的 Agent Skills 项目，提供一系列定制指令和工作流，辅助 AI 代理进行 Flutter 开发。它作为 MCP 的补充，教会代理如何使用工具完成特定任务（如集成测试、小部件预览等），旨在减少错误并确保遵循最佳实践。 |
+| 1 | [anthropics/financial-services](https://github.com/anthropics/financial-services) | ... | Python | 17.4k | 3.1k | 该项目为金融服务行业提供了一套基于 Claude 的代理、技能和数据连接器，涵盖投资银行、股权研究、私募股权和财富管理。包含 Pitch Agent、Market Researcher 等端到端工作流代理，用于生成估值模型、市场研究和财务对账等分析师工作产品。支持通过插件或 API 部署，旨在辅助专业人员进行合规审查。 |
+| 2 | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | The Open-Source Multimodal AI Agent Stack: Connect... | TypeScript | 31.4k | 549 | 这是一个开源的多模态 AI Agent 堆栈，包含 Agent TARS 和 UI-TARS-desktop。它利用先进的视觉和多模态大模型，通过 CLI 和桌面应用提供类人任务完成能力。支持在终端、浏览器及本地/远程计算机上进行自动化操作，集成了 MCP 工具，旨在实现高效的 GUI 自动化与智能交互。 |
+| 3 | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | #1 Persistent memory for AI coding agents based on... | TypeScript | 3.4k | 518 | 这是一个为 AI 编码代理提供持久化内存的 TypeScript 项目。它基于 Karpathy 的 LLM Wiki 模式，增加了知识图谱和混合搜索。支持 Claude Code、Cursor 等多种工具，通过 MCP 或 REST API 共享记忆，让 AI 在多会话中记住上下文、偏好和代码结构，无需重复解释。 |
+| 4 | [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程... | Python | 45.7k | 1.2k | Datawhale 社区发起的系统性智能体学习教程，旨在帮助开发者从零掌握 AI 原生智能体的构建。教程涵盖从基础理论、经典范式（如 ReAct）到高级技术（如记忆、RL）的全流程，包含 AutoGen、LangGraph 等框架实战，以及智能旅行助手、赛博小镇等综合案例，适合希望成为智能体系统构建者的开发者。 |
+| 5 | [datawhalechina/easy-vibe](https://github.com/datawhalechina/easy-vibe) | 💻 vibe coding 2026 | Your first modern programmin... | JavaScript | 8.5k | 294 | 这是一个面向初学者的现代编程课程，专注于“Vibe Coding”理念。它教导用户通过描述需求，利用 AI 生成代码并构建真实产品。项目包含从需求验证、全栈开发到高级 AI Agent 集成的完整教程，涵盖 SaaS 副业项目、Stripe 支付及微信小程序开发，并提供英文文档支持。 |
+| 6 | [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | Open-source AI coworker, with memory... | TypeScript | 13.8k | 144 | Rowboat 是一个开源的本地优先 AI 同事，基于 TypeScript 构建。它能连接用户的邮件和会议笔记，构建长期的知识图谱，利用上下文辅助用户完成工作，如生成演示文稿、准备会议简报和记录语音备忘录。支持 Markdown 编辑和外部工具集成，确保数据在本地处理。 |
+| 7 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 38.8k | 159 | 这是一个为 AI 编码助手提供 Chrome DevTools 访问权限的 MCP 服务器。基于 Puppeteer，它允许代理控制实时浏览器，支持性能分析、网络调试、截图及自动化操作，旨在提升 AI 在浏览器环境中的自动化与调试能力。 |
+| 8 | [masterking32/MasterDnsVPN](https://github.com/masterking32/MasterDnsVPN) | Advanced DNS tunneling VPN for censorship bypass, ... | Go | 2.5k | 595 | MasterDnsVPN 是一个基于 Go 语言的高级 DNS 隧道 VPN 项目，旨在通过 DNS 查询传输 TCP 流量以绕过审查。它采用轻量级自定义协议，头部开销极低（5-7B），并集成了 ARQ 和多路径技术，实现了比同类项目（如 DNSTT、SlipStream）更高的速度（快 9 倍）和丢包稳定性。支持多解析器负载均衡、SOCKS5 及 Shadowsocks 间接支持，适合在恶劣网络环境下使用。 |
+| 9 | [playcanvas/supersplat](https://github.com/playcanvas/supersplat) | 3D Gaussian Splat Editor... | TypeScript | 6.3k | 513 | SuperSplat Editor 是一个基于 Web 技术的免费开源工具，用于检查、编辑、优化和发布 3D Gaussian Splat。它无需安装即可在浏览器中运行，支持本地开发环境搭建和多语言本地化，旨在为 3D 内容创作者提供便捷的编辑体验。 |
+| 10 | [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) | 《动手学大模型Dive into LLMs》系列编程实践教程... | Jupyter Notebook | 36.5k | 194 | 这是一个基于Jupyter Notebook的公益大模型编程实践教程，涵盖微调、提示学习、越狱攻击、隐写术、多模态及RLHF对齐等前沿主题。教程由上海交通大学开发，并联合华为昇腾推出了国产化开发全流程课程，适合初学者和研究者快速入门大模型开发。 |
+| 11 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | Shell | 37.4k | 2.8k | 这是一个为 AI 编码代理提供生产级工程技能的项目。它将资深工程师的工作流程、质量门禁和最佳实践编码为技能，确保 AI 代理在开发过程中始终如一地遵循。包含 7 个斜杠命令，覆盖从定义到发布的全生命周期，并支持根据上下文自动激活特定技能。 |
+| 12 | [decolua/9router](https://github.com/decolua/9router) | Unlimited FREE AI coding. Connect Claude Code, Cod... | JavaScript | 6.5k | 980 | 9Router 是一个免费的 AI 编程路由器，旨在通过智能回退机制（订阅→便宜→免费）和 RTK 代币压缩技术，帮助开发者节省 20-40% 的 Token 成本并避免 API 限制。它支持连接多种 AI 代码工具（如 Cursor、Copilot）到 40+ 提供商，实现零停机编码体验。 |
+| 13 | [oracle-devrel/oracle-ai-developer-hub](https://github.com/oracle-devrel/oracle-ai-developer-hub) | Technical resources for AI developers to build app... | Jupyter Notebook | 789 | 153 | 这是一个面向 AI 开发者的技术资源库，旨在帮助开发者利用 Oracle AI Database 和 OCI 服务构建 AI 应用、智能体及系统。项目包含完整的参考实现（如健身平台、金融代理）和交互式 Jupyter 笔记本，涵盖模型开发、数据分析和代理编排等关键领域，提供生产级解决方案的架构模式与最佳实践。 |
 
-[查看完整数据](api/github/2026-05-08.json)
+[查看完整数据](api/github/2026-05-09.json)
 <!-- END GITHUB TRENDING -->
 
 
