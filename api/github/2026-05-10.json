@@ -1,0 +1,270 @@
+{
+  "date": "2026-05-10",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "stars": 32074,
+      "forks": 3182,
+      "todayStars": 656,
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "aiSummary": {
+        "summary": "TARS 是一个开源的多模态 AI Agent 栈，包含 Agent TARS 和 UI-TARS-desktop。Agent TARS 提供了 CLI 和 Web UI，旨在通过前沿多模态 LLM 和 MCP 工具集成，实现更接近人类任务完成的工作流。UI-TARS-desktop 则是基于模型的原生 GUI Agent 桌面应用，支持本地和远程计算机及浏览器操作。",
+        "summary_en": "ByteDance's open-source multimodal AI agent stack featuring CLI and desktop applications for GUI automation and vision tasks.",
+        "techStack": [
+          "TypeScript",
+          "Multimodal LLMs",
+          "MCP Tools",
+          "GUI Agent"
+        ],
+        "useCase": "构建基于视觉和 GUI 的自动化智能体，执行复杂的计算机操作和浏览器任务。",
+        "useCase_en": "Automate desktop and browser tasks using multimodal AI agents."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "stars": 18757,
+      "forks": 2422,
+      "todayStars": 1479,
+      "url": "https://github.com/anthropics/financial-services",
+      "aiSummary": {
+        "summary": "该项目为金融服务业提供参考代理、技能和数据连接器，覆盖投资银行、股权研究等领域。包含 Pitch Agent、Market Researcher 等端到端工作流代理及估值插件。支持通过 Claude Cowork 插件或 API 部署，旨在辅助生成分析师工作产品，需人工审核。",
+        "summary_en": "A collection of Claude agents and connectors for financial workflows including investment banking and equity research.",
+        "techStack": [
+          "Python",
+          "Claude API",
+          "Cowork Plugin"
+        ],
+        "useCase": "投资银行、股权研究及财富管理领域的自动化工作流辅助。",
+        "useCase_en": "Provides reference agents and connectors for automating financial workflows like investment banking and equity research."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "stars": 38367,
+      "forks": 4259,
+      "todayStars": 1092,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "为 AI 编码代理提供生产级工程技能，将资深工程师的工作流程与最佳实践编码为技能。通过 7 个斜杠命令覆盖开发全生命周期，确保 AI 在定义、计划、构建、测试、审查和发布阶段遵循标准，提升代码质量与工程效率。",
+        "summary_en": "Production-grade engineering skills and workflows packaged for AI coding agents to follow.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "GitHub"
+        ],
+        "useCase": "适用于使用 Claude Code 的开发者，旨在提升 AI 编码代理的工程质量和开发规范性。",
+        "useCase_en": "To guide AI coding agents through the software development lifecycle using specific slash commands."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "stars": 4663,
+      "forks": 361,
+      "todayStars": 567,
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "aiSummary": {
+        "summary": "CloakBrowser 是一个基于 Python 的隐身浏览器项目，通过修改 C++ 源代码实现绕过反机器人检测。它作为 Playwright/Puppeteer 的替代品，内置 49 个源级补丁和人类行为模拟，自动下载二进制文件，可轻松通过 Cloudflare Turnstile、reCAPTCHA v3 等检测。",
+        "summary_en": "Stealth browser bypassing bot detection via C++ source-level patches and Playwright compatibility.",
+        "techStack": [
+          "Python",
+          "Chromium",
+          "C++",
+          "Playwright",
+          "Puppeteer"
+        ],
+        "useCase": "绕过反机器人检测系统（如 Cloudflare、reCAPTCHA），实现自动化访问受保护网站。",
+        "useCase_en": "Automate web scraping and browser automation while bypassing strict bot detection systems."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "HKUDS/AI-Trader",
+      "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
+      "language": "Python",
+      "stars": 15521,
+      "forks": 2526,
+      "todayStars": 255,
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "aiSummary": {
+        "summary": "AI-Trader 是一个 100% 全自动的原生 AI 代理交易平台。它支持 OpenClaw、Claude Code 等多种 AI 代理，允许代理协作交易、跨平台同步信号，并提供一键跟单和通用市场访问功能。项目采用 FastAPI 架构，旨在通过集体智能提升交易效率。",
+        "summary_en": "An agent-native trading platform enabling AI agents to collaborate, trade, and share strategies across global markets.",
+        "techStack": [
+          "Python",
+          "FastAPI"
+        ],
+        "useCase": "为 AI 代理提供自动化交易环境，支持跨市场的一键跟单与信号同步。",
+        "useCase_en": "To enable AI agents to collaborate, execute trades, and share strategies across multiple financial markets."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "jundot/omlx",
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "language": "Python",
+      "stars": 13267,
+      "forks": 1135,
+      "todayStars": 187,
+      "url": "https://github.com/jundot/omlx",
+      "aiSummary": {
+        "summary": "oMLX 是专为 Apple Silicon 优化的 LLM 推理服务器。它支持持续批处理和分层 KV 缓存（内存+SSD），确保上下文变更时缓存持久化。通过 macOS 菜单栏管理，支持 MCP 协议，让本地大模型在 Mac 上高效运行，适合编码等实际工作场景。",
+        "summary_en": "A macOS menu bar app for running LLMs on Apple Silicon with continuous batching and tiered caching.",
+        "techStack": [
+          "Python",
+          "Apple Silicon",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "在 Mac 上运行本地大模型进行编码和开发工作。",
+        "useCase_en": "Run local LLMs on Apple Silicon with persistent context caching and menu bar management."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "datawhalechina/easy-vibe",
+      "description": "💻 vibe coding 2026 | Your first modern Coding course for beginners to master step by step.",
+      "language": "JavaScript",
+      "stars": 9118,
+      "forks": 894,
+      "todayStars": 642,
+      "url": "https://github.com/datawhalechina/easy-vibe",
+      "aiSummary": {
+        "summary": "这是一个面向初学者的现代编程课程，专注于“Vibe Coding”理念。课程旨在帮助用户利用 AI 将想法转化为真实产品，涵盖从入门到高级的全栈开发路径。内容包括 SaaS 副业项目实战、支付系统集成及微信小程序开发，并附带用户研究和需求验证等附录知识，适合零基础开发者系统学习。",
+        "summary_en": "A beginner-friendly course teaching 'vibe coding' to build real-world products using AI.",
+        "techStack": [
+          "JavaScript",
+          "全栈开发",
+          "AI编程",
+          "SaaS",
+          "微信小程序"
+        ],
+        "useCase": "适合零基础开发者学习利用 AI 快速构建全栈 Web 应用和 SaaS 产品。",
+        "useCase_en": "Learn to build SaaS applications and WeChat mini programs by describing what you want."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "playcanvas/supersplat",
+      "description": "3D Gaussian Splat Editor",
+      "language": "TypeScript",
+      "stars": 6789,
+      "forks": 765,
+      "todayStars": 604,
+      "url": "https://github.com/playcanvas/supersplat",
+      "aiSummary": {
+        "summary": "SuperSplat 是一个基于 Web 的开源 3D Gaussian Splat 编辑器，支持检查、编辑、优化和发布 3D 模型。它无需安装，直接在浏览器运行，支持本地开发环境搭建、多语言本地化及社区贡献。",
+        "summary_en": "Open-source web tool for inspecting, editing, and publishing 3D Gaussian Splat models.",
+        "techStack": [
+          "TypeScript",
+          "Web Technologies",
+          "Node.js"
+        ],
+        "useCase": "3D Gaussian Splat 模型的编辑、优化与发布",
+        "useCase_en": "Create and manage 3D Gaussian Splat content directly in a web browser."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "lsdefine/GenericAgent",
+      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "language": "Python",
+      "stars": 10502,
+      "forks": 1196,
+      "todayStars": 170,
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "aiSummary": {
+        "summary": "GenericAgent 是一个极简的自主代理框架，仅用约 3K 行核心代码实现系统级控制。它通过 9 个原子工具和自进化机制，将任务转化为技能，形成个人技能树。支持多模型，Token 消耗极低，具备浏览器、终端、文件系统等全方位操作能力。",
+        "summary_en": "Minimal Python framework granting LLMs system-level control through self-evolving skills and atomic tools.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "用于构建具备自进化能力的本地系统自动化代理，实现跨平台操作。",
+        "useCase_en": "Automate complex local computer tasks by allowing an LLM to autonomously learn and execute workflows."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "decolua/9router",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "language": "JavaScript",
+      "stars": 7263,
+      "forks": 1230,
+      "todayStars": 806,
+      "url": "https://github.com/decolua/9router",
+      "aiSummary": {
+        "summary": "9Router 是一个免费的 AI 编码智能路由器，旨在连接 Claude Code、Cursor 等工具到 40+ AI 提供商。它通过 RTK 技术（压缩工具输出）节省 20-40% tokens，并具备自动故障转移机制（订阅→便宜→免费），帮助开发者避免配额限制，实现低成本无限次 AI 编码。",
+        "summary_en": "A smart proxy router connecting AI coding tools to free and cheap providers, saving 20-40% tokens via auto-fallback.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "HTTP"
+        ],
+        "useCase": "需要使用 Claude Code、Cursor 等工具进行 AI 辅助编程，但希望节省 API 成本或避免配额限制的开发者。",
+        "useCase_en": "Developers connecting Claude Code, Cursor, and other AI tools to free or cheap providers to save costs and avoid rate li"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "affaan-m/everything-claude-code",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 178135,
+      "forks": 27509,
+      "todayStars": 1011,
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "aiSummary": {
+        "summary": "Anthropic Hackathon 获奖项目，专为 Claude Code、Cursor 等 AI 代理框架设计的性能优化系统。提供技能、记忆持久化、安全扫描及持续学习功能，支持多平台。v2.0 版本新增 Tkinter 仪表板和 Hermes 操作员工作流，包含 48 个代理和 182 个技能，助力研究优先的开发。",
+        "summary_en": "An Anthropic Hackathon-winning performance optimization system for AI agent harnesses, featuring skills, memory, and security.",
+        "techStack": [
+          "JavaScript",
+          "Python",
+          "Node.js"
+        ],
+        "useCase": "用于优化 AI 代理的性能、记忆和技能，适用于需要多平台 AI 辅助编程和自动化任务的开发者。",
+        "useCase_en": "Optimize AI agent performance and development workflows across multiple coding environments using a comprehensive system"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "datawhalechina/hello-agents",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "language": "Python",
+      "stars": 46443,
+      "forks": 5596,
+      "todayStars": 756,
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "aiSummary": {
+        "summary": "Datawhale 社区开源的《从零开始构建智能体》教程，专注于 AI 原生智能体开发。内容涵盖从基础理论、经典范式（如 ReAct）到高级技术（记忆、上下文工程、Agentic-RL）及实战案例（旅行助手、赛博小镇）。项目旨在帮助开发者从模型使用者转变为系统构建者，提供从零构建框架到模型训练的全流程实战指南。",
+        "summary_en": "A comprehensive open-source tutorial for building AI-native agents from scratch using Python and frameworks.",
+        "techStack": [
+          "Python",
+          "AutoGen",
+          "LangGraph",
+          "Coze",
+          "Dify"
+        ],
+        "useCase": "适合希望系统学习智能体原理、掌握 AI 原生 Agent 构建技术及模型训练的开发者。",
+        "useCase_en": "A systematic guide for developers to learn and build AI-native agents from scratch."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-11T00:00:11.144Z",
+    "duration": "189s",
+    "version": "1.0.0"
+  }
+}
