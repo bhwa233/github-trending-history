@@ -1,0 +1,289 @@
+{
+  "date": "2026-05-11",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "stars": 32978,
+      "forks": 3271,
+      "todayStars": 956,
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "aiSummary": {
+        "summary": "这是一个由字节跳动开源的多模态 AI Agent 栈，包含 Agent TARS 和 UI-TARS-desktop。它通过 CLI 和 Web UI 提供强大的 GUI Agent 和视觉能力，支持终端、浏览器及桌面环境操作。旨在通过多模态大模型和 MCP 工具集成，实现更接近人类直觉的任务完成流程，并支持流式工具调用和沙箱执行环境。",
+        "summary_en": "An open-source multimodal AI agent stack connecting AI models and infra, featuring CLI and desktop apps for computer automation.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于构建具备视觉感知能力的桌面自动化助手，以及通过 CLI/Web UI 进行复杂的多模态任务处理。",
+        "useCase_en": "Automating complex tasks on computers and browsers using a multimodal AI agent stack."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "stars": 6087,
+      "forks": 451,
+      "todayStars": 1320,
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "aiSummary": {
+        "summary": "这是一个通过所有机器人检测测试的隐身浏览器项目。它不是简单的配置修补，而是对 Chromium 二进制文件进行 C++ 源级修改，模拟真实浏览器指纹。它支持 Python 和 JavaScript，作为 Playwright/Puppeteer 的零配置替代品，能通过 Cloudflare Turnstile 等检测，提供人类化行为模拟，适合需要绕过反爬虫系统的自动化任务。",
+        "summary_en": "A stealth Chromium browser that passes bot detection tests via C++ source-level patches.",
+        "techStack": [
+          "Python",
+          "JavaScript",
+          "Chromium"
+        ],
+        "useCase": "绕过 Cloudflare Turnstile 等反爬虫检测，用于自动化测试或数据采集。",
+        "useCase_en": "A drop-in replacement for Playwright/Puppeteer designed to bypass anti-bot systems."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "yikart/AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "language": "TypeScript",
+      "stars": 10710,
+      "forks": 1996,
+      "todayStars": 427,
+      "url": "https://github.com/yikart/AiToEarn",
+      "aiSummary": {
+        "summary": "AiToEarn 是一个利用 AI 自动化帮助创作者和企业在全球主流平台（如抖音、TikTok、YouTube 等）进行内容创作、分发和变现的一站式平台。它提供四大核心 Agent 能力：Monetize（按 CPS/CPE/CPM 结算）、Publish（一键分发）、Engage（自动化互动）和 Create（AI 生成内容）。支持多种部署方式，旨在帮助 OPC 和品牌实现高效运营。",
+        "summary_en": "An AI-powered platform enabling creators to monetize, publish, and engage with content across global social media channels.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "AI Agents"
+        ],
+        "useCase": "适用于需要跨多平台自动化内容运营和变现的 OPC、创作者及品牌企业。",
+        "useCase_en": "Creators and businesses use this platform to automate content creation, distribution, and monetization across global soc"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "playcanvas/supersplat",
+      "description": "3D Gaussian Splat Editor",
+      "language": "TypeScript",
+      "stars": 7331,
+      "forks": 804,
+      "todayStars": 531,
+      "url": "https://github.com/playcanvas/supersplat",
+      "aiSummary": {
+        "summary": "SuperSplat Editor 是一个基于 Web 的开源工具，用于检查、编辑、优化和发布 3D Gaussian Splat。它运行在浏览器中，无需安装。项目支持本地开发环境搭建和多语言本地化功能。",
+        "summary_en": "A free and open-source browser tool for editing 3D Gaussian Splat files.",
+        "techStack": [
+          "TypeScript",
+          "Web Technologies",
+          "Node.js"
+        ],
+        "useCase": "用于 3D Gaussian Splat 的可视化编辑、优化与发布。",
+        "useCase_en": "To inspect, edit, optimize, and publish 3D Gaussian Splat models directly in a web browser."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "datawhalechina/easy-vibe",
+      "description": "💻 vibe coding 2026 | Your first modern Coding course for beginners to master step by step.",
+      "language": "JavaScript",
+      "stars": 9875,
+      "forks": 946,
+      "todayStars": 812,
+      "url": "https://github.com/datawhalechina/easy-vibe",
+      "aiSummary": {
+        "summary": "这是一个面向初学者的现代编程课程，专注于“Vibe Coding”。它教授如何利用 AI 将想法转化为真实产品，涵盖从入门到高级的全栈开发路径。课程包含 SaaS 副业实战项目、支付系统集成（如 Stripe）及微信小程序开发，并附有需求验证与用户研究指南，旨在帮助学员掌握现代编程技能。",
+        "summary_en": "A modern coding course for beginners to master step-by-step using AI vibe coding.",
+        "techStack": [
+          "JavaScript",
+          "Full-stack",
+          "SaaS",
+          "Stripe",
+          "WeChat Mini Program"
+        ],
+        "useCase": "适合希望利用 AI 快速构建产品的初学者及开发者，特别是想通过实战项目（如 SaaS 副业）掌握现代全栈开发技能的人群。",
+        "useCase_en": "A step-by-step guide for beginners to build real-world products using AI vibe coding."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "decolua/9router",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "language": "JavaScript",
+      "stars": 8285,
+      "forks": 1327,
+      "todayStars": 941,
+      "url": "https://github.com/decolua/9router",
+      "aiSummary": {
+        "summary": "9Router 是一个免费的 AI 编码工具路由器，旨在通过 40+ 提供商连接 Claude Code、Cursor 等工具。它提供 RTK Token 保存功能，可节省 20-40% 的 tokens，并支持自动故障转移（订阅 -> 便宜 -> 免费）和多账户轮询，帮助开发者避免 API 限制并降低成本。",
+        "summary_en": "A local proxy router that connects AI coding tools to multiple providers, saving tokens and costs.",
+        "techStack": [
+          "JavaScript",
+          "Node.js"
+        ],
+        "useCase": "为 AI 编码工具提供免费、低成本且无限制的 API 访问。",
+        "useCase_en": "To optimize AI coding costs and prevent rate limits by routing requests through a smart local proxy."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars": 1432,
+      "forks": 181,
+      "todayStars": 366,
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "aiSummary": {
+        "summary": "OpenHuman 是一个基于 Rust 的个人 AI 代理助手，主打私有化与易用性。它拥有桌面吉祥物，支持一键接入 118+ 第三方应用（如 Gmail、Notion），并具备本地记忆树功能，利用 SQLite 和 Obsidian 格式管理知识，实现全天候智能辅助。",
+        "summary_en": "A local-first, open-source AI agent with a desktop mascot and deep integrations for personal productivity.",
+        "techStack": [
+          "Rust",
+          "SQLite",
+          "Markdown/Obsidian",
+          "OAuth"
+        ],
+        "useCase": "适合追求隐私保护、需要自动化管理个人数据及多应用集成的用户。",
+        "useCase_en": "A private, desktop-based AI assistant that integrates with your daily tools and manages a local knowledge base."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "millionco/react-doctor",
+      "description": "Your agent writes bad React. This catches it",
+      "language": "TypeScript",
+      "stars": 8029,
+      "forks": 258,
+      "todayStars": 212,
+      "url": "https://github.com/millionco/react-doctor",
+      "aiSummary": {
+        "summary": "这是一个针对 AI 编写的 React 代码进行质量检测的工具。它能扫描代码库并输出 0-100 的健康评分，涵盖状态管理、性能、安全等维度。支持 Next.js、Vite 和 React Native。工具提供 GitHub Actions 集成以进行 CI/CD 检查，并支持为 Claude、Cursor 等 AI 编码助手配置最佳实践规则，帮助开发者及早发现并修复代码问题。",
+        "summary_en": "Automated React code quality analyzer that scans for best practices and performance issues.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Vite",
+          "React Native"
+        ],
+        "useCase": "适用于使用 AI 编码助手开发 React 项目的团队，用于自动化代码质量检查、CI/CD 流程集成以及防止 AI 生成低质量代码。",
+        "useCase_en": "Developers use this tool to automatically scan their React codebases for quality issues and enforce best practices."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "language": "Jupyter Notebook",
+      "stars": 37276,
+      "forks": 4574,
+      "todayStars": 422,
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "aiSummary": {
+        "summary": "这是一个由上海交通大学开发的《动手学大模型》系列编程实践教程，涵盖微调、提示学习、知识编辑、数学推理、水印、越狱、隐写、多模态、GUI Agent、智能体安全及RLHF等前沿主题。项目近期还上线了基于华为昇腾的国产化大模型开发全流程公益教程，适合学生和开发者入门及研究。",
+        "summary_en": "A comprehensive Jupyter Notebook tutorial series covering LLM fine-tuning, agents, and security.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python"
+        ],
+        "useCase": "适合大模型初学者进行课程设计、学术研究及快速上手实践。",
+        "useCase_en": "A free educational resource for students and researchers to learn LLM development and security."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "AUTOMATIC1111/stable-diffusion-webui",
+      "description": "Stable Diffusion web UI",
+      "language": "Python",
+      "stars": 162893,
+      "forks": 30336,
+      "todayStars": 39,
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "aiSummary": {
+        "summary": "这是一个功能强大的 Stable Diffusion Web UI，基于 Python 和 Gradio 构建。支持 txt2img、img2img、Outpainting、Inpainting 及 Textual Inversion。集成了 GFPGAN、CodeFormer 等面部修复与超分辨率工具，支持注意力控制、参数保存及低显存运行。",
+        "summary_en": "A feature-rich web interface for Stable Diffusion enabling advanced image generation, editing, and upscaling.",
+        "techStack": [
+          "Python",
+          "Gradio"
+        ],
+        "useCase": "为 Stable Diffusion 提供功能强大的浏览器端图像生成与编辑界面。",
+        "useCase_en": "Provides a user-friendly web interface for generating and editing images using Stable Diffusion models."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "rasbt/LLMs-from-scratch",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "language": "Jupyter Notebook",
+      "stars": 92979,
+      "forks": 14334,
+      "todayStars": 337,
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个基于 PyTorch 和 Jupyter Notebook 从零开始构建类似 ChatGPT 的大型语言模型的教学项目。它提供了开发、预训练和微调 GPT 模型的完整代码，旨在帮助开发者通过实践深入理解 LLM 的工作原理。",
+        "summary_en": "Educational repository implementing a ChatGPT-like LLM in PyTorch from scratch, covering training and finetuning.",
+        "techStack": [
+          "Jupyter Notebook",
+          "PyTorch",
+          "Python"
+        ],
+        "useCase": "适合深度学习初学者及开发者学习大模型原理与从零构建模型。",
+        "useCase_en": "Educational resource for understanding LLM architecture and training."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 144729,
+      "forks": 22629,
+      "todayStars": 2065,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "这是一个自改进的 AI 代理，具备内置学习循环。它能从经验中创建和优化技能，管理长期记忆，并通过 TUI 和多平台（Telegram 等）与用户交互。支持多种大模型，具备自动化调度、子代理并行处理及随处部署的能力。",
+        "summary_en": "A self-improving AI agent featuring a built-in learning loop and multi-platform support.",
+        "techStack": [
+          "Python",
+          "TUI",
+          "RPC",
+          "LLM"
+        ],
+        "useCase": "适合需要长期记忆、自动化任务和多平台交互的个人助理或开发者。",
+        "useCase_en": "Deploy an autonomous AI agent that learns from experience and automates tasks across various platforms."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "rohitg00/agentmemory",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "language": "TypeScript",
+      "stars": 4717,
+      "forks": 448,
+      "todayStars": 430,
+      "url": "https://github.com/rohitg00/agentmemory",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供持久化记忆的 TypeScript 项目。基于 iii engine，它扩展了 Karpathy 的 LLM Wiki 模式，支持 Claude Code、Cursor 等多种主流工具。通过 MCP 或 REST API，它能在会话间共享记忆，解决代理重复解释和遗忘上下文的问题，提升开发效率。",
+        "summary_en": "Persistent memory system for AI coding agents built on the iii engine and MCP protocol.",
+        "techStack": [
+          "TypeScript",
+          "iii engine",
+          "MCP",
+          "REST API"
+        ],
+        "useCase": "为 Claude Code、Cursor 等 AI 编码助手提供跨会话的持久化记忆，避免重复解释和配置，提升开发效率。",
+        "useCase_en": "To provide persistent memory for AI coding agents, allowing them to remember context and preferences across sessions."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-12T00:05:35.133Z",
+    "duration": "178s",
+    "version": "1.0.0"
+  }
+}
