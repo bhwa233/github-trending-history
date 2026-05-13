@@ -1,0 +1,246 @@
+{
+  "date": "2026-05-12",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars": 2655,
+      "forks": 258,
+      "todayStars": 1014,
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "aiSummary": {
+        "summary": "OpenHuman 是一个基于 Rust 开发的开源个人 AI 智能体助手。它采用 UI 优先设计，拥有桌面吉祥物，支持 118+ 第三方集成（如 Gmail、Notion）。项目具备自动数据获取和本地知识库（Memory Tree + SQLite）功能，注重隐私保护，旨在提供简单、强大且私人的 AI 体验。",
+        "summary_en": "OpenHuman is a Rust-based personal AI assistant with a desktop mascot, local-first memory, and 118+ integrations.",
+        "techStack": [
+          "Rust",
+          "SQLite",
+          "Markdown"
+        ],
+        "useCase": "适合需要本地化、隐私保护且集成多种工作流（如邮件、文档、会议）的个人 AI 助手。",
+        "useCase_en": "A private, desktop-based AI agent that integrates with daily tools and manages local knowledge."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "rohitg00/agentmemory",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "language": "TypeScript",
+      "stars": 5816,
+      "forks": 544,
+      "todayStars": 1048,
+      "url": "https://github.com/rohitg00/agentmemory",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供持久化记忆的开源项目。基于 iii engine 构建，支持 Claude Code、Cursor 等多种主流工具。它通过扩展 Karpathy 的 LLM Wiki 模式，利用钩子、MCP 或 REST API 与代理集成，解决多会话中重复解释、重复发现 Bug 的问题，实现跨会话的知识共享与上下文注入。",
+        "summary_en": "Persistent memory system for AI coding agents to share context across sessions.",
+        "techStack": [
+          "TypeScript",
+          "iii engine",
+          "MCP (Model Context Protocol)",
+          "Hooks",
+          "REST API"
+        ],
+        "useCase": "为 AI 编程代理提供跨会话的持久化记忆，解决重复配置和上下文丢失问题。",
+        "useCase_en": "Enables AI coding agents to retain context and preferences across sessions."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "stars": 7804,
+      "forks": 565,
+      "todayStars": 1606,
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "aiSummary": {
+        "summary": "这是一个通过所有机器人检测测试的隐身 Chromium 浏览器。它在 C++ 源码级别修改指纹，而非简单的配置或 JS 注入。它是 Playwright/Puppeteer 的零配置替代品，支持 Python 和 JavaScript，能通过 Cloudflare Turnstile、reCAPTCHA v3 等检测，并提供人类行为模拟。",
+        "summary_en": "A stealth Chromium browser that passes bot detection tests and serves as a drop-in replacement for Playwright and Puppeteer.",
+        "techStack": [
+          "Python",
+          "JavaScript",
+          "Chromium",
+          "Playwright",
+          "Puppeteer"
+        ],
+        "useCase": "绕过反爬虫检测，自动化访问受 Cloudflare 等保护的高难度网站。",
+        "useCase_en": "Automate web interactions while bypassing bot detection systems like Cloudflare Turnstile."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "apernet/hysteria",
+      "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
+      "language": "Go",
+      "stars": 20211,
+      "forks": 2093,
+      "todayStars": 51,
+      "url": "https://github.com/apernet/hysteria",
+      "aiSummary": {
+        "summary": "Hysteria 是一个用 Go 编写的强大、快速且抗审查的代理工具。它基于自定义 QUIC 协议，专为不可靠网络设计，提供 SOCKS5、HTTP、TProxy 等多种模式。该工具伪装成 HTTP/3 流量以规避审查，支持跨平台部署，并具备完善的认证、统计和访问控制功能，易于集成到基础设施中。",
+        "summary_en": "A lightning-fast, censorship-resistant proxy built in Go using the QUIC protocol.",
+        "techStack": [
+          "Go",
+          "QUIC"
+        ],
+        "useCase": "适用于需要绕过网络审查、在丢包或高延迟网络中实现高速代理连接的场景。",
+        "useCase_en": "Bypass internet censorship and access blocked content with high-speed performance."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 75939,
+      "forks": 6544,
+      "todayStars": 3867,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个专为 AI 编程代理设计的技能集合，旨在解决代理与开发者间的沟通鸿沟。项目提供了一系列可组合、易于适应的命令（如 /grill-me），帮助开发者通过详细问答确保 AI 理解真实工程需求，避免盲目编码。支持通过 Shell 脚本快速安装和配置。",
+        "summary_en": "A collection of composable agent skills for AI coding assistants to improve engineering workflows.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "用于提升 AI 编程代理的工程协作效率与准确性。",
+        "useCase_en": "Install these skills into your AI coding agent to streamline workflows and improve alignment with user intent."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "anonfaded/FadCam",
+      "description": "Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control",
+      "language": "Java",
+      "stars": 2198,
+      "forks": 168,
+      "todayStars": 116,
+      "url": "https://github.com/anonfaded/FadCam",
+      "aiSummary": {
+        "summary": "FadCam 是一个开源的 Android 多媒体录制工具，专注于隐私保护。它支持后台视频录制、屏幕录制、直播和远程控制，具备行车记录仪和标注功能。该应用由 FadSec Lab 开发，完全去广告，旨在为个人安全、内容创作等提供专业工具。",
+        "summary_en": "Privacy-focused Android multimedia suite offering background recording, screen capture, and live streaming without ads.",
+        "techStack": [
+          "Java"
+        ],
+        "useCase": "适用于个人安全监控、行车记录及专业内容创作。",
+        "useCase_en": "A privacy-conscious tool for recording screen content, acting as a dashcam, or monitoring security feeds locally."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "millionco/react-doctor",
+      "description": "Your agent writes bad React. This catches it",
+      "language": "TypeScript",
+      "stars": 8751,
+      "forks": 280,
+      "todayStars": 788,
+      "url": "https://github.com/millionco/react-doctor",
+      "aiSummary": {
+        "summary": "React Doctor 是一款 TypeScript 编写的代码健康检查工具。它通过扫描代码库生成 0-100 的健康评分，覆盖状态管理、性能、安全等维度。支持 Next.js、Vite 和 React Native。除人工检查外，还可配置给 AI 编码代理学习最佳实践，并集成 GitHub Actions 实现自动化 CI/CD 检查。",
+        "summary_en": "Automated React code quality scanner that detects best practice violations and generates health scores.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "GitHub Actions"
+        ],
+        "useCase": "用于自动化检查 React 代码质量，辅助 AI 编码代理生成规范代码，并集成到 CI/CD 流程中。",
+        "useCase_en": "Developers use this tool to scan their React codebases for quality issues, enforce best practices, and integrate automat"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "rasbt/LLMs-from-scratch",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "language": "Jupyter Notebook",
+      "stars": 93752,
+      "forks": 14412,
+      "todayStars": 772,
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个基于 PyTorch 和 Jupyter Notebook 的项目，旨在从零开始逐步实现类似 ChatGPT 的大语言模型。它涵盖了模型的开发、预训练和微调过程，适合学习 LLM 的内部工作机制。项目代码也支持加载预训练权重进行微调。",
+        "summary_en": "Educational repository implementing a GPT-like LLM from scratch using PyTorch and Jupyter Notebooks.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Jupyter Notebook"
+        ],
+        "useCase": "适合想要深入理解大语言模型原理并从零开始构建 GPT 类模型的开发者或学习者。",
+        "useCase_en": "To learn how to develop, pretrain, and finetune a GPT-like LLM from scratch."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "datawhalechina/hello-agents",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "language": "Python",
+      "stars": 48193,
+      "forks": 5803,
+      "todayStars": 599,
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "aiSummary": {
+        "summary": "Datawhale 社区发起的系统性智能体实战教程，旨在帮助开发者从零掌握 AI 原生智能体的构建。内容涵盖基础理论、经典范式（如 ReAct）、低代码平台及 AutoGen/LangGraph 等主流框架，深入讲解记忆、上下文工程、协议及 Agentic RL 等高级技术，并通过实战项目（如智能旅行助手、赛博小镇）助你成为智能体系统的构建者。",
+        "summary_en": "A comprehensive open-source tutorial for building AI-native agents from scratch, covering theory, frameworks, and advanced techniques.",
+        "techStack": [
+          "Python",
+          "OpenAI API",
+          "AutoGen",
+          "AgentScope",
+          "LangGraph"
+        ],
+        "useCase": "适合希望深入理解智能体原理、掌握主流框架开发及实战构建多智能体应用的开发者。",
+        "useCase_en": "A guide for developers to build AI-native agents from theory to practice."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "yikart/AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "language": "TypeScript",
+      "stars": 11825,
+      "forks": 2083,
+      "todayStars": 1282,
+      "url": "https://github.com/yikart/AiToEarn",
+      "aiSummary": {
+        "summary": "AiToEarn 是一个基于 TypeScript 的 AI 一站式平台，旨在帮助创作者、品牌和 OPC 通过自动化内容创作、分发和互动来赚钱。它支持全球 10 多个主流平台，提供 CPS、CPE 和 CPM 等变现模式，并集成了 Claude/Cursor 等工具。它通过 Agent 能力简化了内容生命周期。",
+        "summary_en": "An AI-powered platform enabling creators to monetize, publish, and engage with content across global social media channels.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "MCP"
+        ],
+        "useCase": "适用于需要自动化多平台内容分发、互动及变现的创作者、品牌及企业。",
+        "useCase_en": "A one-stop solution for creators and businesses to automate content creation, distribution, and monetization on global s"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "HKUDS/AI-Trader",
+      "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
+      "language": "Python",
+      "stars": 16580,
+      "forks": 2611,
+      "todayStars": 229,
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "aiSummary": {
+        "summary": "AI-Trader 是一个面向 AI 代理的原生交易平台，支持 OpenClaw、Claude Code 等主流代理。它提供即时集成、集体智能交易、跨平台信号同步及一键跟单功能。最近进行了代码库精简，采用 FastAPI 分离架构，提升了生产稳定性，并支持 Polymarket 模拟交易。",
+        "summary_en": "A fully automated trading platform designed for AI agents to collaborate, trade, and sync signals across global markets.",
+        "techStack": [
+          "Python",
+          "FastAPI",
+          "Polymarket"
+        ],
+        "useCase": "为 AI 代理提供自动化交易协作与信号同步的平台。",
+        "useCase_en": "To provide a unified platform for AI agents to execute automated trading strategies and share signals across global mark"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-13T00:07:07.965Z",
+    "duration": "144s",
+    "version": "1.0.0"
+  }
+}
