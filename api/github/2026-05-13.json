@@ -1,0 +1,406 @@
+{
+  "date": "2026-05-13",
+  "since": "daily",
+  "totalRepos": 19,
+  "successCount": 19,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars": 5421,
+      "forks": 452,
+      "todayStars": 1696,
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "aiSummary": {
+        "summary": "OpenHuman 是一个基于 Rust 的个人 AI 智能体，主打简单易用。它拥有桌面吉祥物，支持 118+ 第三方应用集成（如 Gmail、GitHub），通过 OAuth 自动获取数据。核心是本地 SQLite 存储的 Memory Tree 知识库，能记忆用户并参与会议，提供隐私保护的智能助手体验。",
+        "summary_en": "Open-source personal AI assistant with a desktop mascot and local-first memory management.",
+        "techStack": [
+          "Rust",
+          "SQLite",
+          "Markdown",
+          "OAuth"
+        ],
+        "useCase": "适合需要高度集成个人工作流、注重隐私且希望拥有个性化 AI 助手的用户。",
+        "useCase_en": "A private, desktop-based AI agent that integrates with daily tools and manages local memory."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "rohitg00/agentmemory",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "language": "TypeScript",
+      "stars": 7588,
+      "forks": 656,
+      "todayStars": 1379,
+      "url": "https://github.com/rohitg00/agentmemory",
+      "aiSummary": {
+        "summary": "agentmemory 是一个为 AI 编码代理提供持久化记忆的开源库。它基于 iii 引擎，支持 Claude Code、Cursor 等多种工具，通过 MCP 或 REST API 集成。项目利用知识图谱和混合搜索技术，让 AI 跨会话记住上下文、配置和偏好，避免重复解释，显著提升开发效率。",
+        "summary_en": "Persistent memory solution for AI coding agents that shares context across sessions and tools like Claude and Cursor.",
+        "techStack": [
+          "TypeScript",
+          "MCP",
+          "iii Engine"
+        ],
+        "useCase": "为 AI 编程助手提供跨会话的持久化记忆，避免重复解释和配置，提升开发效率。",
+        "useCase_en": "To enable AI coding agents to remember previous sessions, codebases, and preferences without re-explaining context."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 189481,
+      "forks": 16865,
+      "todayStars": 1401,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码代理设计的软件开发方法论框架。它通过一套可组合技能，引导代理在编写代码前明确需求、拆解设计并制定实施计划。支持 TDD、YAGNI 和 DRY 原则，并能自动触发子代理进行自主开发、审查和迭代，适用于多种主流 AI 编码工具。",
+        "summary_en": "An agentic skills framework providing a structured software development methodology for AI coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "为 AI 编码代理提供结构化的软件开发流程，提升代码质量和自主性。",
+        "useCase_en": "To empower AI coding agents with a structured software development methodology for autonomous coding."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "yikart/AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "language": "TypeScript",
+      "stars": 12894,
+      "forks": 2221,
+      "todayStars": 981,
+      "url": "https://github.com/yikart/AiToEarn",
+      "aiSummary": {
+        "summary": "AiToEarn 是一个基于 TypeScript 的 AI Agent 平台，旨在帮助 OPC、创作者和企业在全球主流平台（如抖音、TikTok、YouTube 等）自动化构建、分发并变现内容。平台提供 Monetize（变现）、Publish（全网分发）、Engage（互动）和 Create（创作）四大核心能力，支持多种部署方式。",
+        "summary_en": "An AI-powered platform for creators to monetize, publish, and engage with content across global social media channels.",
+        "techStack": [
+          "TypeScript",
+          "Docker"
+        ],
+        "useCase": "适合一人公司、内容创作者及品牌企业，用于自动化内容分发、互动运营及全球多平台变现。",
+        "useCase_en": "Creators use this tool to automate content creation and distribution while earning money through various monetization mo"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "stars": 16993,
+      "forks": 5777,
+      "todayStars": 13,
+      "url": "https://github.com/influxdata/telegraf",
+      "aiSummary": {
+        "summary": "Telegraf 是一个用 Go 编写的开源数据收集代理，用于收集、处理和写入指标、日志等数据。它拥有超过 300 个插件，支持系统监控、云服务和消息传递等多种场景，编译为独立二进制文件，配置简单，部署高效。",
+        "summary_en": "Open-source data collection agent written in Go with 300+ plugins for metrics, logs, and events.",
+        "techStack": [
+          "Go",
+          "TOML"
+        ],
+        "useCase": "系统监控、日志收集与数据管道构建",
+        "useCase_en": "Collect and process metrics, logs, and events from various sources and write them to output destinations."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "millionco/react-doctor",
+      "description": "Your agent writes bad React. This catches it",
+      "language": "TypeScript",
+      "stars": 9263,
+      "forks": 288,
+      "todayStars": 604,
+      "url": "https://github.com/millionco/react-doctor",
+      "aiSummary": {
+        "summary": "这是一个用于检查 React 代码质量的工具，通过扫描代码库给出 0-100 的健康评分。它支持 Next.js、Vite 和 React Native，检查状态、性能、安全等方面。它还提供 CLI 工具和 GitHub Actions 集成，并专门用于指导 AI 编码代理遵循最佳实践，防止生成低质量代码。",
+        "summary_en": "Automated React code quality scanner providing health scores and actionable diagnostics.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Node.js",
+          "GitHub Actions"
+        ],
+        "useCase": "用于 CI/CD 流程中的代码质量检查，或指导 AI 编码代理生成符合最佳实践的 React 代码。",
+        "useCase_en": "Developers use this tool to scan their codebase for React best practice violations and generate a health score."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "stars": 21107,
+      "forks": 2321,
+      "todayStars": 99,
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "aiSummary": {
+        "summary": "该项目提供135+个跨学科的科学技能，涵盖生物信息学、化学信息学等领域。它支持Agent Skills标准，兼容Cursor、Claude等AI代理。新增的K-Dense BYOK允许用户在本地桌面运行AI科学家，支持40+模型，数据安全，适合复杂多步骤科学工作流。",
+        "summary_en": "A collection of 135 ready-to-use scientific agent skills for AI agents to perform complex research workflows.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于科研人员、工程师及分析师，用于执行复杂的多步骤科学工作流。",
+        "useCase_en": "Enable AI agents to execute complex multi-step scientific workflows across biology, chemistry, and medicine using curate"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "danielmiessler/Personal_AI_Infrastructure",
+      "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+      "language": "TypeScript",
+      "stars": 13349,
+      "forks": 1864,
+      "todayStars": 435,
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "aiSummary": {
+        "summary": "PAI 是一个旨在放大人类能力的“生活操作系统”。它集成了 Pulse 仪表盘、DA 数字助手及 Algorithm 算法，帮助用户管理目标、记忆和工作流。项目强调以人为本，将 AI 作为提升个人生活和效率的工具，而非单纯的技术堆砌。支持 45 个技能和隐私保护，适合个人及团队构建统一的 AI 基础设施。",
+        "summary_en": "A Life Operating System built with TypeScript to magnify human capabilities using AI agents.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "个人构建 AI 基础设施以提升生活与工作效率",
+        "useCase_en": "Individuals use this to manage their life goals and work using an AI-driven operating system."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "supertone-inc/supertonic",
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "language": "Swift",
+      "stars": 4331,
+      "forks": 440,
+      "todayStars": 859,
+      "url": "https://github.com/supertone-inc/supertonic",
+      "aiSummary": {
+        "summary": "Supertonic 是一个基于 ONNX Runtime 的极速、本地化多语言文本转语音系统。它完全在设备端运行，无需云端 API，保护隐私。支持 31 种语言，提供多种语音风格，并包含 Python 和 Flutter SDK，适合离线场景下的语音合成。",
+        "summary_en": "Lightning-fast, on-device multilingual TTS system powered by ONNX Runtime.",
+        "techStack": [
+          "Swift",
+          "ONNX Runtime",
+          "Python",
+          "Flutter"
+        ],
+        "useCase": "适用于本地化、隐私敏感环境下的多语言语音合成应用。",
+        "useCase_en": "Generate speech locally on devices for privacy-focused applications."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "stars": 9475,
+      "forks": 704,
+      "todayStars": 1835,
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "aiSummary": {
+        "summary": "CloakBrowser 是一款通过所有机器人检测的隐身浏览器，通过修改 C++ 源码实现指纹伪装，非 JS 注入。它作为 Playwright/Puppeteer 的即插即用替代品，支持 Python 和 JS，具备人类行为模拟、自动更新及通过 Cloudflare Turnstile 等高级反爬检测的能力。",
+        "summary_en": "A stealth browser that bypasses bot detection by patching Chromium at the C++ source level.",
+        "techStack": [
+          "Python",
+          "Chromium",
+          "Playwright/Puppeteer"
+        ],
+        "useCase": "绕过 Cloudflare Turnstile 等反爬虫检测，用于自动化测试或爬虫。",
+        "useCase_en": "To bypass bot detection systems like Cloudflare Turnstile and reCAPTCHA v3."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Greedeks/GTweak",
+      "description": "Portable Tool for an Ideal Windows Setup",
+      "language": "C#",
+      "stars": 917,
+      "forks": 77,
+      "todayStars": 75,
+      "url": "https://github.com/Greedeks/GTweak",
+      "aiSummary": {
+        "summary": "这是一个用 C# 编写的便携式 Windows 优化工具。它集成了系统激活、禁用 Defender 与更新、卸载预装应用、清理垃圾文件、自定义界面及监控硬件等多种功能，旨在帮助用户打造理想的 Windows 环境。",
+        "summary_en": "A portable C# tool for optimizing Windows by disabling telemetry, removing bloatware, and customizing system settings.",
+        "techStack": [
+          "C#"
+        ],
+        "useCase": "适合需要深度定制系统、清理隐私数据及优化 Windows 性能的高级用户。",
+        "useCase_en": "Users can optimize their Windows system by disabling telemetry, removing bloatware, and customizing settings."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 78912,
+      "forks": 6796,
+      "todayStars": 3392,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个面向真实工程师的 Claude AI 技能集，旨在解决 AI 代理常见的“意图不匹配”问题。它通过 /grill-me 等命令在编码前进行详细提问，确保 AI 理解需求。技能小巧、可组合，支持 GitHub、Linear 等工具集成，帮助开发者摆脱“氛围编码”，建立标准化的工程流程。",
+        "summary_en": "A collection of composable skills for AI coding agents to streamline engineering workflows and requirements gathering.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "npx"
+        ],
+        "useCase": "适用于需要与 Claude AI 代理深度协作、确保需求理解准确并建立标准化开发流程的工程师。",
+        "useCase_en": "To provide developers with a toolkit of pre-configured commands for AI coding agents to improve project management and c"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "ArthurBrussee/brush",
+      "description": "3D Reconstruction for all",
+      "language": "Rust",
+      "stars": 4357,
+      "forks": 234,
+      "todayStars": 81,
+      "url": "https://github.com/ArthurBrussee/brush",
+      "aiSummary": {
+        "summary": "Brush 是一个基于 Rust 和 WebGPU 的 3D 重建引擎，采用高斯泼溅技术。它支持跨平台运行（Windows/macOS/Linux/Android/浏览器），无需 CUDA 依赖，提供轻量级二进制文件。支持 COLMAP 和 Nerfstudio 数据集训练，具备实时交互、图像遮罩、PLY 文件查看及 CLI 工具等功能。",
+        "summary_en": "A cross-platform 3D reconstruction engine using Gaussian splatting and Rust, running on mobile and web.",
+        "techStack": [
+          "Rust",
+          "WebGPU",
+          "Burn",
+          "Gaussian Splatting"
+        ],
+        "useCase": "适用于跨平台、无需复杂依赖的实时 3D 重建与渲染场景，支持移动端和浏览器环境。",
+        "useCase_en": "To reconstruct 3D scenes from images using Gaussian splatting on any device."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "imthenachoman/How-To-Secure-A-Linux-Server",
+      "description": "An evolving how-to guide for securing a Linux server.",
+      "language": "",
+      "stars": 27078,
+      "forks": 1774,
+      "todayStars": 234,
+      "url": "https://github.com/imthenachoman/How-To-Secure-A-Linux-Server",
+      "aiSummary": {
+        "summary": "这是一个关于如何保护 Linux 服务器的不断演变的指南。它提供了全面的安全配置步骤和最佳实践，帮助用户加固服务器环境，防止常见的安全威胁。",
+        "summary_en": "A comprehensive guide for securing Linux servers.",
+        "techStack": [
+          "Markdown",
+          "Linux"
+        ],
+        "useCase": "适用于系统管理员和开发者，用于加固 Linux 服务器环境的安全性和防御能力。",
+        "useCase_en": "Administrators use this guide to harden Linux servers against security threats."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "apernet/hysteria",
+      "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
+      "language": "Go",
+      "stars": 20606,
+      "forks": 2131,
+      "todayStars": 485,
+      "url": "https://github.com/apernet/hysteria",
+      "aiSummary": {
+        "summary": "Hysteria 是一款基于 Go 语言开发的强大代理工具，利用自定义 QUIC 协议提供极速且抗审查的网络连接。支持 SOCKS5、HTTP、TCP/UDP 转发等多种模式，具备跨平台特性，适合在不可靠网络环境下使用。",
+        "summary_en": "Hysteria is a high-performance, censorship-resistant proxy built with Go and QUIC.",
+        "techStack": [
+          "Go",
+          "QUIC",
+          "HTTP/3"
+        ],
+        "useCase": "适用于需要绕过网络审查、在不可靠或高丢包网络环境下进行高速代理的场景。",
+        "useCase_en": "Bypass internet censorship and achieve high-speed connectivity on unreliable networks."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "rasbt/LLMs-from-scratch",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "language": "Jupyter Notebook",
+      "stars": 94443,
+      "forks": 14482,
+      "todayStars": 821,
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "aiSummary": {
+        "summary": "本项目基于 PyTorch 从零开始逐步实现类似 ChatGPT 的大型语言模型。它涵盖了模型的开发、预训练及微调全流程，旨在通过 Jupyter Notebook 教程深入解析 LLM 的工作原理，并支持加载预训练权重进行进一步微调。",
+        "summary_en": "Official repository for building a GPT-like LLM from scratch using PyTorch and Jupyter Notebooks.",
+        "techStack": [
+          "Jupyter Notebook",
+          "PyTorch",
+          "Python"
+        ],
+        "useCase": "深度学习初学者及研究人员学习 LLM 底层实现原理与训练流程。",
+        "useCase_en": "To understand the internal workings of Large Language Models by building one from scratch."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "ton-blockchain/acton",
+      "description": "Toolchain for TON smart contract development and beyond",
+      "language": "Rust",
+      "stars": 202,
+      "forks": 29,
+      "todayStars": 18,
+      "url": "https://github.com/ton-blockchain/acton",
+      "aiSummary": {
+        "summary": "Acton 是一个用 Rust 编写的全栈 TON 智能合约开发工具包。它集成了项目脚手架、构建、测试、调试、部署和验证等功能，提供原生速度和 Tolk 优先的工作流。内置强大的测试工具（如覆盖率、模糊测试）和浏览器 UI，支持 dApp 开发，是 TON 区块链开发的高效解决方案。",
+        "summary_en": "Rust-based all-in-one CLI toolkit for TON smart contract development, testing, and deployment.",
+        "techStack": [
+          "Rust",
+          "TypeScript",
+          "Docker"
+        ],
+        "useCase": "TON 区块链智能合约开发及 dApp 应用构建",
+        "useCase_en": "A comprehensive toolchain for building, testing, and deploying TON smart contracts and dApps."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "trycua/cua",
+      "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+      "language": "HTML",
+      "stars": 16533,
+      "forks": 1040,
+      "todayStars": 245,
+      "url": "https://github.com/trycua/cua",
+      "aiSummary": {
+        "summary": "这是一个为计算机使用代理提供的开源基础设施，包含 macOS 后台驱动、多平台沙箱（Linux/macOS/Windows/Android）以及协作沙箱工具 CuaBot。它支持云端和本地运行，提供统一的 API 来训练和评估能控制完整桌面的 AI 代理。",
+        "summary_en": "Open-source infrastructure for Computer-Use Agents providing sandboxes and SDKs to train AI agents on macOS, Linux, and Windows.",
+        "techStack": [
+          "Python",
+          "Shell",
+          "JavaScript"
+        ],
+        "useCase": "用于训练和评估能够自主控制桌面环境的 AI 智能体。",
+        "useCase_en": "Train and evaluate AI agents capable of autonomously controlling full desktops on macOS, Linux, and Windows."
+      }
+    },
+    {
+      "index": 18,
+      "fullName": "github/spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "language": "Python",
+      "stars": 98338,
+      "forks": 8566,
+      "todayStars": 1120,
+      "url": "https://github.com/github/spec-kit",
+      "aiSummary": {
+        "summary": "Spec-Kit 是一个开源工具包，旨在帮助开发者采用规范驱动开发（SDD）。它将规范转化为可执行代码，直接生成工作实现而非仅作为指导。通过专注于产品场景和可预测结果，该工具帮助开发者摆脱“凭感觉编码”，利用 AI 编码代理集成，加速高质量软件的构建。",
+        "summary_en": "A Python toolkit for Spec-Driven Development that generates executable specifications to build high-quality software faster.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "AI Coding Agent"
+        ],
+        "useCase": "需要使用 AI 编码代理进行规范驱动开发，快速构建高质量软件的开发者。",
+        "useCase_en": "Developers use this toolkit to focus on product scenarios and generate working implementations instead of coding from sc"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-14T00:11:46.696Z",
+    "duration": "336s",
+    "version": "1.0.0"
+  }
+}
