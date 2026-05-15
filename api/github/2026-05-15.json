@@ -1,0 +1,270 @@
+{
+  "date": "2026-05-15",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars": 9007,
+      "forks": 758,
+      "todayStars": 1272,
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "aiSummary": {
+        "summary": "OpenHuman 是一个基于 Rust 的开源个人 AI 代理助手。它提供简洁的桌面 UI 和桌面吉祥物，支持 118+ 第三方应用集成（如 Gmail、Notion）。核心采用本地 SQLite 存储的 Memory Tree 技术，将数据转化为 Markdown 知识库，实现跨会话记忆与自动上下文获取，旨在打造私密、强大的个人智能体。",
+        "summary_en": "A private, agentic AI assistant with a desktop mascot and local-first memory management.",
+        "techStack": [
+          "Rust",
+          "SQLite",
+          "Markdown",
+          "OAuth"
+        ],
+        "useCase": "适合需要集成多种工作流并保持数据完全私有的个人智能助手。",
+        "useCase_en": "A private AI agent that integrates with daily tools and manages a local memory tree."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 192790,
+      "forks": 17147,
+      "todayStars": 1646,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为 AI 编码代理构建的软件开发方法论框架。它通过引导用户明确需求、展示设计规范、制定包含 TDD 和 YAGNI 原则的实施计划，并利用子代理进行自主开发，显著提升了 AI 编码的规范性和自主性。",
+        "summary_en": "An agentic skills framework providing a structured software development methodology for coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "用于增强 Claude Code、Codex CLI 等主流 AI 编码代理的自主开发能力，实现规范的软件工程流程。",
+        "useCase_en": "To empower coding agents with a structured methodology for autonomous software development."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "stars": 22430,
+      "forks": 2425,
+      "todayStars": 643,
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "aiSummary": {
+        "summary": "这是一个包含135+个科学领域现成Agent Skills的项目，支持生物信息学、化学信息学、蛋白质组学等多个领域。它兼容开放Agent Skills标准，可与Cursor、Claude Code等工具集成。项目还提供了K-Dense BYOK本地运行方案，支持Web搜索和100+科学数据库，旨在将AI Agent转化为强大的科研助手。",
+        "summary_en": "A comprehensive library of 135 scientific agent skills for research across biology, chemistry, and engineering.",
+        "techStack": [
+          "Python",
+          "Open Agent Skills Standard",
+          "Scientific Databases",
+          "Web Search Tools"
+        ],
+        "useCase": "将AI Agent转化为能够执行复杂多步骤科学工作流的科研助手",
+        "useCase_en": "Empower AI agents to perform complex scientific research and analysis across multiple domains."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "supertone-inc/supertonic",
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "language": "Swift",
+      "stars": 6022,
+      "forks": 592,
+      "todayStars": 712,
+      "url": "https://github.com/supertone-inc/supertonic",
+      "aiSummary": {
+        "summary": "Supertonic 是一个极快、本地运行的文本转语音（TTS）系统。它利用 ONNX Runtime 在设备端进行推理，无需云端，保护隐私。支持多语言和多种语音风格，提供 Python 和 Flutter SDK，适合需要离线语音合成的应用场景。",
+        "summary_en": "Lightning-fast, on-device multilingual TTS running natively via ONNX Runtime.",
+        "techStack": [
+          "Swift",
+          "ONNX Runtime",
+          "Python",
+          "Flutter"
+        ],
+        "useCase": "适用于边缘计算、离线语音交互及隐私敏感的本地 TTS 应用。",
+        "useCase_en": "Run local text-to-speech inference on devices for privacy and speed."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 57477,
+      "forks": 7550,
+      "todayStars": 1865,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 感知平台，利用 ESP32 传感器捕获信道状态信息（CSI），将 WiFi 信号转化为空间智能。它能通过墙壁检测人员存在、监测呼吸心率、识别活动（如跌倒）及环境映射，无需摄像头或可穿戴设备。",
+        "summary_en": "Rust-based WiFi sensing platform using ESP32 to detect presence, vital signs, and activity through walls without cameras.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "CSI (Channel State Information)",
+          "Cognitum Seed"
+        ],
+        "useCase": "适用于智能家居安防、隐私敏感环境下的生命体征监测及室内人员活动追踪。",
+        "useCase_en": "Turn ordinary WiFi into a spatial intelligence system to detect presence, vital signs, and activity through walls."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "stars": 17403,
+      "forks": 5802,
+      "todayStars": 213,
+      "url": "https://github.com/influxdata/telegraf",
+      "aiSummary": {
+        "summary": "Telegraf 是一个用 Go 语言编写的数据收集代理，拥有超过 300 种插件，支持从系统、日志、消息传递等多种来源采集、处理和聚合指标与日志，并写入目标端。它提供独立的静态二进制文件，配置简单，适用于系统监控、日志采集及云服务集成等场景。",
+        "summary_en": "A Go-based data collection agent with a plugin ecosystem for metrics, logs, and arbitrary data.",
+        "techStack": [
+          "Go",
+          "TOML",
+          "插件架构"
+        ],
+        "useCase": "系统监控、日志采集与云服务数据集成",
+        "useCase_en": "Collecting and processing metrics, logs, and data from various sources to be written to output destinations."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 135101,
+      "forks": 15926,
+      "todayStars": 625,
+      "url": "https://github.com/anthropics/skills",
+      "aiSummary": {
+        "summary": "Anthropic 官方维护的 Claude Agent Skills 公共仓库，包含一系列用于提升 Claude 在特定任务中性能的技能。这些技能涵盖创意、技术及企业工作流，以独立文件夹形式存在，包含指令和脚本。该仓库旨在展示技能系统的可能性，为开发者提供创建自定义技能的参考和灵感。",
+        "summary_en": "Anthropic's repository showcasing Claude's Agent Skills for dynamic task execution and specialized workflows.",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "Apache-2.0"
+        ],
+        "useCase": "为 Claude 提供特定任务的专业能力，包括文档生成、数据分析及企业工作流自动化。",
+        "useCase_en": "Enable Claude to perform specialized tasks by loading dynamic instructions and scripts."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "czlonkowski/n8n-mcp",
+      "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+      "language": "TypeScript",
+      "stars": 20887,
+      "forks": 3398,
+      "todayStars": 68,
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "aiSummary": {
+        "summary": "这是一个 TypeScript 编写的 MCP 服务器，连接 AI 助手与 n8n 平台。它提供对 1,650 个节点、属性、操作及模板的全面访问，帮助 Claude 等助手高效构建自动化工作流，支持快速部署与社区节点搜索。",
+        "summary_en": "An MCP server connecting AI assistants to n8n's workflow automation nodes for building workflows.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "为 Claude Desktop 等智能助手提供 n8n 节点操作能力，辅助开发者构建自动化工作流。",
+        "useCase_en": "Enables AI assistants to build n8n workflows by accessing node documentation and properties."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "description": "Suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
+      "language": "Python",
+      "stars": 1145,
+      "forks": 264,
+      "todayStars": 305,
+      "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "aiSummary": {
+        "summary": "NVIDIA 提供的参考架构套件，旨在构建 GPU 加速的视觉代理和 AI 视频分析应用。它结合了视觉语言模型 (VLM)、大语言模型 (LLM) 和加速微服务，支持实时视频智能、下游分析和离线处理。主要功能包括视频搜索、问答、总结和剪辑检索，适用于智能空间监控、仓库自动化等场景，帮助提升决策效率和运营能力。",
+        "summary_en": "Reference architectures for GPU-accelerated vision agents and video analytics applications powered by VLMs and LLMs.",
+        "techStack": [
+          "Python",
+          "GPU",
+          "VLM",
+          "LLM",
+          "NVIDIA NIM"
+        ],
+        "useCase": "适用于智能空间监控、仓库自动化及 SOP 验证等场景，用于快速准确分析视频数据以提升决策效率。",
+        "useCase_en": "Deploying visual agents to analyze large volumes of video data for monitoring smart spaces and warehouse automation."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "stars": 90610,
+      "forks": 4512,
+      "todayStars": 395,
+      "url": "https://github.com/oven-sh/bun",
+      "aiSummary": {
+        "summary": "Bun 是一个用 Rust 编写的极速 JavaScript 运行时、打包器、测试运行器和包管理器。它旨在替代 Node.js，提供更快的性能和更简单的开发体验，同时完全兼容 Node.js API。",
+        "summary_en": "A high-performance JavaScript runtime, bundler, and package manager built in Rust.",
+        "techStack": [
+          "Rust",
+          "JavaScript"
+        ],
+        "useCase": "适用于需要高性能 JavaScript 开发的全栈 Web 应用、CLI 工具及 Node.js 项目迁移。",
+        "useCase_en": "Developers use this tool to run, bundle, and test JavaScript applications with high performance."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 84911,
+      "forks": 7353,
+      "todayStars": 3155,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个专为 Claude 等编码代理设计的实用技能集合，旨在解决 AI 代理常见的误解问题。项目提供 Shell 脚本，支持快速安装和配置（如选择问题跟踪器、标签等）。包含 /grill-me 和 /triage 等命令，帮助工程师通过详细问答和分类管理，更高效地与 AI 协作，专注于实际工程而非“氛围编程”。",
+        "summary_en": "A collection of prompt-based skills for AI coding agents to improve engineering workflows and alignment.",
+        "techStack": [
+          "Shell",
+          "Node.js",
+          "Claude Code",
+          "AI Agents"
+        ],
+        "useCase": "使用 AI 编码助手进行日常开发时，需要标准化工作流和提升沟通效率。",
+        "useCase_en": "To install prompt-based skills that improve alignment and workflow for AI coding agents."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "joeseesun/qiaomu-anything-to-notebooklm",
+      "description": "Claude Skill: Multi-source content processor for NotebookLM. Supports WeChat articles, web pages, YouTube, PDF, Markdown, search queries → Podcast/PPT/MindMap/Quiz etc.",
+      "language": "Python",
+      "stars": 2680,
+      "forks": 272,
+      "todayStars": 465,
+      "url": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
+      "aiSummary": {
+        "summary": "这是一个基于 Claude Code 的 Python 项目，旨在将多源内容（微信、网页、PDF等）智能处理并上传至 Google NotebookLM。它支持15+种格式，核心亮点是具备强大的付费墙绕过能力，可自动生成播客、PPT、思维导图和Quiz，极大提升了信息获取与整理效率。",
+        "summary_en": "A Python Claude Skill that bypasses paywalls to convert diverse content sources into podcasts, PPTs, and mind maps for NotebookLM.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "NotebookLM",
+          "多源内容抓取",
+          "付费墙绕过技术"
+        ],
+        "useCase": "适合需要快速整理多源信息（含付费内容）并生成播客、PPT或思维导图的学习者与内容创作者。",
+        "useCase_en": "Transforming paywalled articles and videos into podcasts, presentations, and study materials effortlessly."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-15T23:59:55.111Z",
+    "duration": "157s",
+    "version": "1.0.0"
+  }
+}
