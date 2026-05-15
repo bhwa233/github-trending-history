@@ -1,0 +1,333 @@
+{
+  "date": "2026-05-14",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 55943,
+      "forks": 7401,
+      "todayStars": 1715,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 感知平台，利用 ESP32 采集信道状态信息（CSI），将 WiFi 信号转化为实时空间智能。它能在无摄像头、无穿戴设备的情况下，穿透墙壁检测人体存在、生命体征（呼吸/心率）、活动识别及环境映射。项目依赖 RuVector 和 Cognitum Seed，运行于边缘硬件。",
+        "summary_en": "Rust-based WiFi sensing platform turning radio signals into spatial intelligence for presence detection and vital sign monitoring.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "WiFi CSI",
+          "RuVector",
+          "Cognitum Seed"
+        ],
+        "useCase": "无摄像头环境下，通过墙壁检测人体存在、生命体征及活动识别。",
+        "useCase_en": "Use commodity WiFi signals to detect presence, vital signs, and activity through walls without cameras or wearables."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars": 7730,
+      "forks": 621,
+      "todayStars": 3329,
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "aiSummary": {
+        "summary": "OpenHuman 是一个基于 Rust 开发的个人 AI 智能体桌面应用。它提供极简 UI 和桌面吉祥物，支持接入 118+ 第三方服务。核心特点是本地优先，利用 SQLite 存储记忆树，自动抓取数据，无需复杂配置，旨在成为用户日常生活中的智能助手。",
+        "summary_en": "Open-source personal AI agent with a desktop mascot and local-first memory tree.",
+        "techStack": [
+          "Rust",
+          "SQLite",
+          "OAuth"
+        ],
+        "useCase": "适合需要本地化、隐私保护的个人智能助手，集成多种工作流。",
+        "useCase_en": "A private, desktop-based AI agent that integrates with your daily tools and manages local memory."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "rohitg00/agentmemory",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "language": "TypeScript",
+      "stars": 8952,
+      "forks": 740,
+      "todayStars": 1879,
+      "url": "https://github.com/rohitg00/agentmemory",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供持久化内存的 TypeScript 项目。它基于 iii 引擎，通过 MCP、钩子或 REST API 与 Claude Code、Cursor 等多种代理集成。项目解决了内置记忆上限和过时问题，能自动捕获代理行为、压缩记忆并在新会话中注入上下文，实现跨会话的知识共享。",
+        "summary_en": "Persistent memory system for AI coding agents that shares context across sessions and integrates with tools.",
+        "techStack": [
+          "TypeScript",
+          "MCP (Model Context Protocol)",
+          "iii Engine"
+        ],
+        "useCase": "适用于需要跨会话保持上下文记忆的 AI 编码代理，解决重复解释和配置问题。",
+        "useCase_en": "To prevent AI coding agents from forgetting context between sessions by providing a shared persistent memory server."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 191150,
+      "forks": 17002,
+      "todayStars": 1780,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码代理设计的软件开发方法论框架。它通过一系列可组合技能，引导代理在编码前确认需求、展示设计细节，并制定包含 TDD、YAGNI 和 DRY 原则的实现计划。随后，代理会自动执行子代理驱动的开发流程，实现自主编码。",
+        "summary_en": "A framework providing a structured software development methodology for AI coding agents.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "Codex CLI"
+        ],
+        "useCase": "用于自动化软件开发流程，特别是需要高度自主性的 AI 编码代理。",
+        "useCase_en": "To empower AI coding agents with a structured software development methodology."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "stars": 21766,
+      "forks": 2376,
+      "todayStars": 654,
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "aiSummary": {
+        "summary": "这是一个提供135+个科学技能的开源库，旨在将AI代理转化为专业的科研助手。项目支持开放Agent Skills标准，兼容多种AI工具，涵盖生物信息学、化学信息学、蛋白质组学等领域，集成了丰富的科学数据库和工具，支持本地BYOK运行。",
+        "summary_en": "A collection of 135 ready-to-use scientific agent skills for complex research workflows in biology, chemistry, and engineering.",
+        "techStack": [
+          "Python",
+          "Agent Skills Standard"
+        ],
+        "useCase": "适用于需要AI执行复杂多步骤科学工作流的研究、工程和数据分析场景。",
+        "useCase_en": "Empower AI agents to execute complex scientific workflows across biology, chemistry, and engineering using curated skill"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 24802,
+      "forks": 4342,
+      "todayStars": 363,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融数据的高噪声特性设计。它采用两阶段框架，首先将 OHLCV 数据量化为离散 Token，再通过自回归 Transformer 进行预训练。项目提供多个版本模型，支持预测和量化任务，已获 AAAI 2026 录用。",
+        "summary_en": "Open-source foundation model for financial candlesticks trained on 45+ global exchanges using a specialized tokenizer and autoregressive Transformer.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Hugging Face"
+        ],
+        "useCase": "金融时间序列预测与量化交易分析",
+        "useCase_en": "It serves as a unified model for diverse quantitative tasks in financial markets by forecasting K-line sequences."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "roboflow/supervision",
+      "description": "We write your reusable computer vision tools. 💜",
+      "language": "Python",
+      "stars": 38868,
+      "forks": 3478,
+      "todayStars": 83,
+      "url": "https://github.com/roboflow/supervision",
+      "aiSummary": {
+        "summary": "Roboflow Supervision 是一个 Python 计算机视觉工具包，提供从数据加载到实时区域计数的构建模块。它支持模型无关设计，可与主流深度学习库（如 Ultralytics、Transformers）无缝集成。此外，它还提供高度可定制的标注器和数据集处理工具，帮助开发者专注于模型应用开发，无需重复造轮子。",
+        "summary_en": "A Python toolkit for computer vision providing reusable tools for model integration, annotation, and dataset management.",
+        "techStack": [
+          "Python",
+          "Computer Vision",
+          "Ultralytics",
+          "Transformers",
+          "MMDetection"
+        ],
+        "useCase": "适用于计算机视觉应用开发、模型推理结果可视化及数据集管理的场景。",
+        "useCase_en": "Build computer vision applications by integrating models, visualizing detections, and managing datasets."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "stars": 17216,
+      "forks": 5791,
+      "todayStars": 215,
+      "url": "https://github.com/influxdata/telegraf",
+      "aiSummary": {
+        "summary": "Telegraf 是一个用 Go 语言编写的开源数据收集代理，支持从系统、日志、消息传递等多种来源收集、处理和写入指标、日志及任意数据。它拥有超过 300 个插件，支持用户自定义代码，并编译为无依赖的静态二进制文件，广泛用于系统监控和可观测性场景。",
+        "summary_en": "Open-source data collection agent written in Go featuring 300+ plugins for metrics, logs, and arbitrary data.",
+        "techStack": [
+          "Go",
+          "TOML",
+          "Plugins"
+        ],
+        "useCase": "系统监控、日志聚合及可观测性数据采集",
+        "useCase_en": "Collecting metrics, logs, and arbitrary data from diverse sources using a plugin-based agent."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "supertone-inc/supertonic",
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "language": "Swift",
+      "stars": 5306,
+      "forks": 517,
+      "todayStars": 1128,
+      "url": "https://github.com/supertone-inc/supertonic",
+      "aiSummary": {
+        "summary": "Supertonic 是一个基于 Swift 和 ONNX Runtime 的超快、本地化多语言文本转语音系统。它完全在设备上运行，无需云端，保护隐私。支持 31 种语言和多种声音风格，提供 Python 和 Flutter SDK，适合离线语音合成场景。",
+        "summary_en": "Lightning-fast, on-device, multilingual TTS system running natively via ONNX Runtime.",
+        "techStack": [
+          "Swift",
+          "ONNX Runtime",
+          "Python",
+          "Flutter"
+        ],
+        "useCase": "适用于需要离线、隐私保护且高性能的本地语音合成应用。",
+        "useCase_en": "Developers use this library to generate lightning-fast, on-device speech synthesis without cloud dependencies."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Genymobile/scrcpy",
+      "description": "Display and control your Android device",
+      "language": "C",
+      "stars": 141316,
+      "forks": 13049,
+      "todayStars": 851,
+      "url": "https://github.com/Genymobile/scrcpy",
+      "aiSummary": {
+        "summary": "scrcpy 是一款开源工具，通过 USB 或 TCP/IP 镜像 Android 设备屏幕，并使用电脑键盘和鼠标进行控制。它轻量、高性能，支持 30-120fps，延迟低至 35-70ms，无需 root 或安装应用，支持 Linux、Windows 和 macOS。",
+        "summary_en": "Free and open-source tool to display and control Android devices via USB or TCP/IP without root.",
+        "techStack": [
+          "C",
+          "Java"
+        ],
+        "useCase": "屏幕镜像与远程控制 Android 设备",
+        "useCase_en": "Users can mirror and control their Android device screen and input from a computer."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "description": "Suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
+      "language": "Python",
+      "stars": 823,
+      "forks": 245,
+      "todayStars": 62,
+      "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "aiSummary": {
+        "summary": "NVIDIA 提供的用于构建 GPU 加速视觉代理和视频分析应用的参考架构套件。它结合了加速视觉微服务、VLM 和 LLM，支持实时视频智能、下游分析和代理工作流，实现自然语言视频搜索、问答和总结等功能。",
+        "summary_en": "Reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
+        "techStack": [
+          "Python",
+          "GPU Acceleration",
+          "Vision Language Models (VLM)",
+          "Large Language Models (LLM)",
+          "NVIDIA NIM"
+        ],
+        "useCase": "智能空间监控、仓库自动化及 SOP 验证",
+        "useCase_en": "Building vision AI agents for monitoring smart spaces, warehouse automation, and SOP validation."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "stars": 10837,
+      "forks": 807,
+      "todayStars": 1354,
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "aiSummary": {
+        "summary": "CloakBrowser 是一个通过所有机器人检测测试的隐身 Chromium 浏览器。它通过在 C++ 源代码级别修改 49 个指纹（如 Canvas、WebGL 等），实现了对 Playwright 和 Puppeteer 的零配置替代。支持 Python 和 JavaScript，能轻松绕过 Cloudflare Turnstile 和 reCAPTCHA v3，非常适合需要通过反爬虫检测的自动化任务。",
+        "summary_en": "Stealth Chromium browser that passes bot detection tests and replaces Playwright/Puppeteer.",
+        "techStack": [
+          "Python",
+          "Chromium",
+          "JavaScript",
+          "Playwright/Puppeteer"
+        ],
+        "useCase": "绕过反机器人检测（如 Cloudflare、reCAPTCHA），实现自动化爬虫或测试。",
+        "useCase_en": "Automate web scraping or testing on protected sites without being detected as a bot."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 82197,
+      "forks": 7092,
+      "todayStars": 2987,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 等编码代理设计的技能集，旨在解决 AI 编程中常见的“需求理解偏差”问题。它包含一系列可组合的小型技能，如 /grill-me（深度提问）和 /triage（问题分类），帮助工程师在开发过程中保持控制权，确保 AI 输出符合预期。项目基于作者多年的工程经验，支持快速安装和自定义。",
+        "summary_en": "A collection of composable agent skills for real engineering, designed to fix common failure modes in AI coding workflows.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "AI Agents"
+        ],
+        "useCase": "在使用 Claude Code 等智能体进行软件开发时，通过结构化技能解决需求对齐问题。",
+        "useCase_en": "Use these skills to configure AI coding agents with a standardized engineering workflow for real-world applications."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "github/spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "language": "Python",
+      "stars": 99464,
+      "forks": 8667,
+      "todayStars": 1232,
+      "url": "https://github.com/github/spec-kit",
+      "aiSummary": {
+        "summary": "这是一个 Python 工具包，旨在支持 Spec-Driven Development（规范驱动开发）。它通过 CLI 工具与 AI 编码代理集成，将产品规范转化为可执行的代码实现，帮助开发者专注于场景和可预测结果，从而提升软件质量和开发效率。",
+        "summary_en": "A Python toolkit for Spec-Driven Development that generates working implementations from specifications.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "AI Coding Agent"
+        ],
+        "useCase": "适用于需要利用 AI 辅助生成代码、追求高质量软件交付的团队或个人开发者。",
+        "useCase_en": "To streamline software development by focusing on product scenarios and generating code from executable specifications."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "stars": 96720,
+      "forks": 14387,
+      "todayStars": 915,
+      "url": "https://github.com/garrytan/gstack",
+      "aiSummary": {
+        "summary": "gstack 是一套 TypeScript 工具集，旨在将 Claude Code 转化为虚拟工程团队。它包含 23 个有偏见的工具，分别扮演 CEO、设计经理、工程经理、发布经理、文档工程师和 QA 角色，帮助开发者利用 AI 大幅提升个人生产力与交付速度。",
+        "summary_en": "A TypeScript setup of 23 AI tools acting as a virtual engineering team.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合希望利用 AI 模拟团队协作、提升个人开发效率的单人开发者。",
+        "useCase_en": "To turn Claude Code into a virtual engineering team using 23 AI tools."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-15T00:04:59.724Z",
+    "duration": "278s",
+    "version": "1.0.0"
+  }
+}
