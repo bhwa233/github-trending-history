@@ -70,24 +70,20 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-05-15 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-05-16 | **成功**: 7 | **失败**: 1
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | Your Personal AI super intelligence. Private, Simp... | Rust | 9.0k | 1.3k | OpenHuman 是一个基于 Rust 的开源个人 AI 代理助手。它提供简洁的桌面 UI 和桌面吉祥物，支持 118+ 第三方应用集成（如 Gmail、Notion）。核心采用本地 SQLite 存储的 Memory Tree 技术，将数据转化为 Markdown 知识库，实现跨会话记忆与自动上下文获取，旨在打造私密、强大的个人智能体。 |
-| 2 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 192.8k | 1.6k | Superpowers 是一个为 AI 编码代理构建的软件开发方法论框架。它通过引导用户明确需求、展示设计规范、制定包含 TDD 和 YAGNI 原则的实施计划，并利用子代理进行自主开发，显著提升了 AI 编码的规范性和自主性。 |
-| 3 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | A set of ready to use Agent Skills for research, s... | Python | 22.4k | 643 | 这是一个包含135+个科学领域现成Agent Skills的项目，支持生物信息学、化学信息学、蛋白质组学等多个领域。它兼容开放Agent Skills标准，可与Cursor、Claude Code等工具集成。项目还提供了K-Dense BYOK本地运行方案，支持Web搜索和100+科学数据库，旨在将AI Agent转化为强大的科研助手。 |
-| 4 | [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic) | Lightning-Fast, On-Device, Multilingual TTS — runn... | Swift | 6.0k | 712 | Supertonic 是一个极快、本地运行的文本转语音（TTS）系统。它利用 ONNX Runtime 在设备端进行推理，无需云端，保护隐私。支持多语言和多种语音风格，提供 Python 和 Flutter SDK，适合需要离线语音合成的应用场景。 |
-| 5 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView turns commodity WiFi signals into real-ti... | Rust | 57.5k | 1.9k | RuView 是一个基于 Rust 的 WiFi 感知平台，利用 ESP32 传感器捕获信道状态信息（CSI），将 WiFi 信号转化为空间智能。它能通过墙壁检测人员存在、监测呼吸心率、识别活动（如跌倒）及环境映射，无需摄像头或可穿戴设备。 |
-| 6 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | Agent for collecting, processing, aggregating, and... | Go | 17.4k | 213 | Telegraf 是一个用 Go 语言编写的数据收集代理，拥有超过 300 种插件，支持从系统、日志、消息传递等多种来源采集、处理和聚合指标与日志，并写入目标端。它提供独立的静态二进制文件，配置简单，适用于系统监控、日志采集及云服务集成等场景。 |
-| 7 | [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills... | Python | 135.1k | 625 | Anthropic 官方维护的 Claude Agent Skills 公共仓库，包含一系列用于提升 Claude 在特定任务中性能的技能。这些技能涵盖创意、技术及企业工作流，以独立文件夹形式存在，包含指令和脚本。该仓库旨在展示技能系统的可能性，为开发者提供创建自定义技能的参考和灵感。 |
-| 8 | [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | A MCP for Claude Desktop / Claude Code / Windsurf ... | TypeScript | 20.9k | 68 | 这是一个 TypeScript 编写的 MCP 服务器，连接 AI 助手与 n8n 平台。它提供对 1,650 个节点、属性、操作及模板的全面访问，帮助 Claude 等助手高效构建自动化工作流，支持快速部署与社区节点搜索。 |
-| 9 | [NVIDIA-AI-Blueprints/video-search-and-summarization](https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization) | Suite of reference architectures for building GPU-... | Python | 1.1k | 305 | NVIDIA 提供的参考架构套件，旨在构建 GPU 加速的视觉代理和 AI 视频分析应用。它结合了视觉语言模型 (VLM)、大语言模型 (LLM) 和加速微服务，支持实时视频智能、下游分析和离线处理。主要功能包括视频搜索、问答、总结和剪辑检索，适用于智能空间监控、仓库自动化等场景，帮助提升决策效率和运营能力。 |
-| 10 | [oven-sh/bun](https://github.com/oven-sh/bun) | Incredibly fast JavaScript runtime, bundler, test ... | Rust | 90.6k | 395 | Bun 是一个用 Rust 编写的极速 JavaScript 运行时、打包器、测试运行器和包管理器。它旨在替代 Node.js，提供更快的性能和更简单的开发体验，同时完全兼容 Node.js API。 |
-| 11 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .claud... | Shell | 84.9k | 3.2k | 这是一个专为 Claude 等编码代理设计的实用技能集合，旨在解决 AI 代理常见的误解问题。项目提供 Shell 脚本，支持快速安装和配置（如选择问题跟踪器、标签等）。包含 /grill-me 和 /triage 等命令，帮助工程师通过详细问答和分类管理，更高效地与 AI 协作，专注于实际工程而非“氛围编程”。 |
-| 12 | [joeseesun/qiaomu-anything-to-notebooklm](https://github.com/joeseesun/qiaomu-anything-to-notebooklm) | Claude Skill: Multi-source content processor for N... | Python | 2.7k | 465 | 这是一个基于 Claude Code 的 Python 项目，旨在将多源内容（微信、网页、PDF等）智能处理并上传至 Google NotebookLM。它支持15+种格式，核心亮点是具备强大的付费墙绕过能力，可自动生成播客、PPT、思维导图和Quiz，极大提升了信息获取与整理效率。 |
+| 1 | [oven-sh/bun](https://github.com/oven-sh/bun) | Incredibly fast JavaScript runtime, bundler, test ... | Rust | 91.2k | 414 | 处理失败 |
+| 2 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | A set of ready to use Agent Skills for research, s... | Python | 23.1k | 669 | 这是一个包含135个科学和研究技能的集合，旨在增强AI Agent的能力。它支持生物信息学、化学信息学、蛋白质组学等多个领域，兼容Cursor、Claude Code等工具。新增的BYOK功能允许用户在本地运行AI科学家，处理复杂的多步骤科学工作流。 |
+| 3 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 194.0k | 1.3k | Superpowers 是一个面向编码代理的技能框架与软件开发方法论。它通过一组可组合的技能和指令，增强 Claude、Codex 等代理的自主开发能力。系统强调 TDD、YAGNI 和 DRY 原则，支持从需求分析到子代理驱动开发的完整流程，旨在让 AI 代理更智能、更规范地编写代码。 |
+| 4 | [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | Open-source alternative to AI video platforms — Fr... | JavaScript | 14.4k | 393 | 开源的 AI 视频生成平台替代品，支持 200+ 模型（Flux, Sora 等）。提供图像/视频生成、唇形同步及影院模式，无内容过滤，支持自托管与桌面应用。支持通过编程代理自动化生成媒体内容，无需订阅费用。 |
+| 5 | [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic) | Lightning-Fast, On-Device, Multilingual TTS — runn... | Swift | 6.8k | 745 | Supertonic 是一个基于 ONNX Runtime 的本地多语言文本转语音系统。它具有闪电般的速度，支持31种语言，无需云端即可在边缘设备上运行，保护隐私。该模型仅含9900万参数，输出44.1kHz高保真音频，并支持表情标签以增加自然感，适用于桌面、移动端及浏览器等多种环境。 |
+| 6 | [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | Your Personal AI super intelligence. Private, Simp... | Rust | 10.7k | 1.6k | OpenHuman 是一个基于 Rust 的开源个人 AI 超级智能助手。它采用 UI 优先的设计，拥有桌面吉祥物，支持与 Google Meet 等工具集成。项目内置 118+ 第三方应用集成，通过 OAuth 自动获取数据，并利用本地 SQLite 和 Memory Tree 构建知识库。它旨在提供简单、私密且强大的个人代理体验，目前处于早期测试阶段。 |
+| 7 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView turns commodity WiFi signals into real-ti... | Rust | 58.3k | 990 | RuView 是一个基于 Rust 的 WiFi 感知平台，利用 ESP32 网状网络采集信道状态信息（CSI）。它能在无摄像头、无穿戴设备的情况下，通过 WiFi 信号实现透视墙壁、人体存在检测、呼吸心率监测、活动识别及睡眠质量分析。项目运行在边缘硬件上，旨在将普通 WiFi 转化为空间智能系统。 |
+| 8 | [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) | Pre-indexed code knowledge graph for Claude Code —... | TypeScript | 2.5k | 397 | CodeGraph 是一个为 Claude Code 提供语义代码知识图谱的工具。它通过预索引代码库的符号关系和调用图，让 AI 代理直接查询图谱而非扫描文件，从而大幅减少令牌消耗和工具调用次数。该工具 100% 本地运行，能显著提升代码探索速度。 |
 
-[查看完整数据](api/github/2026-05-15.json)
+[查看完整数据](api/github/2026-05-16.json)
 <!-- END GITHUB TRENDING -->
 
 

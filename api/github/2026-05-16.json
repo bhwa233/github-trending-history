@@ -1,0 +1,177 @@
+{
+  "date": "2026-05-16",
+  "since": "daily",
+  "totalRepos": 8,
+  "successCount": 7,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "stars": 91192,
+      "forks": 4547,
+      "todayStars": 414,
+      "url": "https://github.com/oven-sh/bun",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 1,
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "stars": 23110,
+      "forks": 2487,
+      "todayStars": 669,
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "aiSummary": {
+        "summary": "这是一个包含135个科学和研究技能的集合，旨在增强AI Agent的能力。它支持生物信息学、化学信息学、蛋白质组学等多个领域，兼容Cursor、Claude Code等工具。新增的BYOK功能允许用户在本地运行AI科学家，处理复杂的多步骤科学工作流。",
+        "summary_en": "A library of 135 scientific agent skills for AI-powered research across biology, chemistry, and engineering.",
+        "techStack": [
+          "Python",
+          "Agent Skills Standard",
+          "Scientific Libraries"
+        ],
+        "useCase": "将AI Agent转化为能够执行复杂多步骤科学工作流的研究助手。",
+        "useCase_en": "Empower AI agents to execute complex scientific workflows in genomics, drug discovery, and engineering."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 193981,
+      "forks": 17259,
+      "todayStars": 1281,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个面向编码代理的技能框架与软件开发方法论。它通过一组可组合的技能和指令，增强 Claude、Codex 等代理的自主开发能力。系统强调 TDD、YAGNI 和 DRY 原则，支持从需求分析到子代理驱动开发的完整流程，旨在让 AI 代理更智能、更规范地编写代码。",
+        "summary_en": "A framework empowering coding agents with a structured software development methodology.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "Codex CLI",
+          "Cursor",
+          "GitHub Copilot CLI"
+        ],
+        "useCase": "适用于需要 AI 代理进行自主、规范软件开发的场景。",
+        "useCase_en": "To enable autonomous software development by coding agents using a structured methodology."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Anil-matcha/Open-Generative-AI",
+      "description": "Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "language": "JavaScript",
+      "stars": 14410,
+      "forks": 2513,
+      "todayStars": 393,
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "aiSummary": {
+        "summary": "开源的 AI 视频生成平台替代品，支持 200+ 模型（Flux, Sora 等）。提供图像/视频生成、唇形同步及影院模式，无内容过滤，支持自托管与桌面应用。支持通过编程代理自动化生成媒体内容，无需订阅费用。",
+        "summary_en": "Open-source alternative to AI video platforms offering free image and video generation using 200+ models without content filters.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Electron"
+        ],
+        "useCase": "适合需要免费、无过滤且支持多种 AI 模型的图像与视频生成需求的开发者及创作者。",
+        "useCase_en": "Generate AI images and videos locally or online using 200+ models without content filters or subscriptions."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "supertone-inc/supertonic",
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "language": "Swift",
+      "stars": 6848,
+      "forks": 700,
+      "todayStars": 745,
+      "url": "https://github.com/supertone-inc/supertonic",
+      "aiSummary": {
+        "summary": "Supertonic 是一个基于 ONNX Runtime 的本地多语言文本转语音系统。它具有闪电般的速度，支持31种语言，无需云端即可在边缘设备上运行，保护隐私。该模型仅含9900万参数，输出44.1kHz高保真音频，并支持表情标签以增加自然感，适用于桌面、移动端及浏览器等多种环境。",
+        "summary_en": "Lightning-fast, on-device multilingual TTS system powered by ONNX Runtime for local inference.",
+        "techStack": [
+          "Swift",
+          "ONNX Runtime",
+          "WebGPU",
+          "Python",
+          "Node.js"
+        ],
+        "useCase": "适用于需要在本地设备上实现低延迟、高保真且保护隐私的多语言语音合成场景。",
+        "useCase_en": "Generate studio-quality audio locally on edge devices for privacy-sensitive applications."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars": 10677,
+      "forks": 919,
+      "todayStars": 1601,
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "aiSummary": {
+        "summary": "OpenHuman 是一个基于 Rust 的开源个人 AI 超级智能助手。它采用 UI 优先的设计，拥有桌面吉祥物，支持与 Google Meet 等工具集成。项目内置 118+ 第三方应用集成，通过 OAuth 自动获取数据，并利用本地 SQLite 和 Memory Tree 构建知识库。它旨在提供简单、私密且强大的个人代理体验，目前处于早期测试阶段。",
+        "summary_en": "OpenHuman is a Rust-based personal AI agent with a desktop mascot and local-first memory tree.",
+        "techStack": [
+          "Rust",
+          "SQLite",
+          "Markdown"
+        ],
+        "useCase": "适合需要构建个人知识库、管理多平台数据并希望拥有具有桌面交互体验的 AI 助手的用户。",
+        "useCase_en": "A private, desktop-based AI assistant that integrates with daily tools and manages local memory."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 58323,
+      "forks": 7621,
+      "todayStars": 990,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 感知平台，利用 ESP32 网状网络采集信道状态信息（CSI）。它能在无摄像头、无穿戴设备的情况下，通过 WiFi 信号实现透视墙壁、人体存在检测、呼吸心率监测、活动识别及睡眠质量分析。项目运行在边缘硬件上，旨在将普通 WiFi 转化为空间智能系统。",
+        "summary_en": "Rust-based WiFi sensing platform turning radio signals into spatial intelligence for presence detection and vital sign monitoring.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "RuVector",
+          "Cognitum Seed"
+        ],
+        "useCase": "通过墙壁进行人体存在检测、生命体征监测及环境感知",
+        "useCase_en": "Turn ordinary WiFi into a spatial intelligence system to detect presence, vital signs, and activities through walls."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "stars": 2498,
+      "forks": 208,
+      "todayStars": 397,
+      "url": "https://github.com/colbymchenry/codegraph",
+      "aiSummary": {
+        "summary": "CodeGraph 是一个为 Claude Code 提供语义代码知识图谱的工具。它通过预索引代码库的符号关系和调用图，让 AI 代理直接查询图谱而非扫描文件，从而大幅减少令牌消耗和工具调用次数。该工具 100% 本地运行，能显著提升代码探索速度。",
+        "summary_en": "Local pre-indexed knowledge graph tool that accelerates Claude Code's code exploration by replacing file scanning with graph queries.",
+        "techStack": [
+          "TypeScript",
+          "Knowledge Graph",
+          "Node.js"
+        ],
+        "useCase": "适用于需要快速理解大型代码库结构、减少 AI 令牌消耗及提升代码分析效率的场景。",
+        "useCase_en": "To accelerate Claude Code's codebase exploration by providing a pre-indexed knowledge graph of symbols and call graphs."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-17T00:00:59.646Z",
+    "duration": "201s",
+    "version": "1.0.0"
+  }
+}
