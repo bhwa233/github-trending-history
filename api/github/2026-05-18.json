@@ -1,0 +1,326 @@
+{
+  "date": "2026-05-18",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars": 17147,
+      "forks": 1492,
+      "todayStars": 3941,
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "aiSummary": {
+        "summary": "OpenHuman 是一个基于 Rust 的开源个人 AI 智能体，主打隐私与易用性。它提供桌面 UI，拥有可交互的桌面吉祥物，能自动集成 Gmail、Notion 等第三方服务，并构建本地记忆树知识库。该工具旨在无缝融入日常生活，无需复杂配置即可作为全能助手工作。",
+        "summary_en": "Rust-based personal AI assistant featuring a desktop mascot, local memory tree, and 118+ integrations.",
+        "techStack": [
+          "Rust",
+          "Markdown",
+          "OAuth"
+        ],
+        "useCase": "适合需要高度隐私的个人助理，用于管理日常任务、知识库和跨平台工作流。",
+        "useCase_en": "A private, desktop-based AI agent that integrates with daily tools and manages local memory."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "stars": 11679,
+      "forks": 1191,
+      "todayStars": 1439,
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 设计的学术研究技能套件，涵盖从研究到出版的全流程。它利用 AI 协助处理引用、格式化和数据验证，通过风格校准和质量检查提升写作水平。项目强调“人在回路”模式，利用 Socratic 对话辅助构建论文结构，并通过 7 模式完整性检查防止 AI 幻觉和逻辑错误，旨在辅助而非替代人类研究者。",
+        "summary_en": "A Claude Code plugin suite for the academic research pipeline, emphasizing human oversight and quality control.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于学术研究人员，利用 Claude Code 辅助完成论文写作、引用管理和逻辑校验。",
+        "useCase_en": "Assist researchers in managing the academic writing pipeline, from literature review to final publication, while maintai"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars": 36609,
+      "forks": 3554,
+      "todayStars": 1049,
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "aiSummary": {
+        "summary": "CLI-Anything 旨在让所有软件具备“代理原生”能力，通过 CLI-Hub 注册表连接 AI 代理与现有软件生态。它允许 AI 代理（如 Claude Code）通过命令行接口自动化操作各类软件（如 CAD、3D 场景、地图等），并提供社区贡献和一键安装管理功能。",
+        "summary_en": "Bridging AI agents and software via a community-driven CLI hub and skill system.",
+        "techStack": [
+          "Python",
+          "Node.js"
+        ],
+        "useCase": "让 AI 代理通过命令行自动化操作各类软件和工具。",
+        "useCase_en": "Transform standard software into agent-native tools accessible via a unified CLI hub."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "stars": 24378,
+      "forks": 2574,
+      "todayStars": 609,
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "aiSummary": {
+        "summary": "提供包含135个科学技能的集合，旨在将任何AI代理转化为强大的科研助手。支持生物信息学、化学信息学、医学等领域，兼容Cursor、Claude等工具。新增K-Dense BYOK本地AI科学家，支持私有数据运行，提供Web搜索和数据库访问。",
+        "summary_en": "A comprehensive collection of 135 scientific agent skills for AI agents.",
+        "techStack": [
+          "Python",
+          "Agent Skills Standard",
+          "K-Dense BYOK"
+        ],
+        "useCase": "将AI代理转化为跨生物、化学、医学等领域的科研助手，执行复杂的多步骤科学工作流。",
+        "useCase_en": "Empower AI agents to execute complex scientific workflows across biology, chemistry, and medicine."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "supertone-inc/supertonic",
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "language": "Swift",
+      "stars": 8326,
+      "forks": 850,
+      "todayStars": 715,
+      "url": "https://github.com/supertone-inc/supertonic",
+      "aiSummary": {
+        "summary": "Supertonic 是一款超快、本地运行的 31 语言 TTS 系统。基于 ONNX Runtime，它无需 GPU 或云端即可在桌面、浏览器和移动设备上运行。拥有 99M 参数模型，支持 44.1kHz 高质量音频和表情标签，确保隐私和低延迟。",
+        "summary_en": "Lightning-fast, on-device multilingual TTS system running natively via ONNX Runtime.",
+        "techStack": [
+          "ONNX Runtime",
+          "Swift",
+          "Python",
+          "JavaScript"
+        ],
+        "useCase": "适用于需要离线、隐私保护且低延迟的跨平台文本转语音应用。",
+        "useCase_en": "Run high-quality, multilingual text-to-speech locally on edge devices for privacy."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "stars": 111021,
+      "forks": 18377,
+      "todayStars": 213,
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "aiSummary": {
+        "summary": "llama.cpp 是一个用 C++ 编写的本地大语言模型推理库，支持多种硬件架构（如 Apple Silicon、x86 AVX/AVX2/AVX512）。它提供无依赖的纯 C/C++ 实现，旨在实现最小化设置和最佳性能，支持多模态、OpenAI 兼容 API 以及 GGUF 模型格式。",
+        "summary_en": "A high-performance, dependency-free C++ library for running Large Language Models locally on diverse hardware.",
+        "techStack": [
+          "C++",
+          "C",
+          "Apple Silicon (Metal/NEON)",
+          "x86 (AVX/AVX2/AVX512)",
+          "Docker"
+        ],
+        "useCase": "在本地或云端设备上高效运行大语言模型，支持多模态任务及 API 服务部署。",
+        "useCase_en": "Enable local LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 59889,
+      "forks": 7808,
+      "todayStars": 700,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 感知平台，利用 ESP32 传感器通过 WiFi 信号实现穿墙检测、生命体征监测（呼吸、心率）、活动识别及环境映射。它无需摄像头或可穿戴设备，通过分析信道状态信息（CSI）提供实时空间智能，适用于智能家居、安防及健康监测场景。",
+        "summary_en": "Rust-based WiFi sensing platform using CSI to detect presence, vital signs, and activity through walls without cameras.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "CSI (Channel State Information)",
+          "Cognitum Seed"
+        ],
+        "useCase": "智能家居安防、非接触式生命体征监测及睡眠质量分析",
+        "useCase_en": "Turn ordinary WiFi into a spatial intelligence system to detect people, vital signs, and activity through walls."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "stars": 15187,
+      "forks": 1189,
+      "todayStars": 1420,
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "aiSummary": {
+        "summary": "CloakBrowser 是一个通过 C++ 源级补丁修改真实 Chromium 二进制文件的隐身浏览器，旨在绕过所有机器人检测测试。它作为 Playwright 和 Puppeteer 的零配置替代品，提供 30+ 检测网站通过，包括 Cloudflare Turnstile 和 reCAPTCHA v3，支持人类行为模拟。",
+        "summary_en": "Stealth browser that bypasses bot detection by modifying Chromium at the C++ source level and emulating human behavior.",
+        "techStack": [
+          "Python",
+          "JavaScript (Node.js)",
+          "Chromium"
+        ],
+        "useCase": "用于绕过反爬虫检测（如 Cloudflare、reCAPTCHA）的自动化测试与数据采集。",
+        "useCase_en": "Bypass anti-bot detection systems to automate web scraping or testing on protected sites."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "tech-leads-club/agent-skills",
+      "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+      "language": "TypeScript",
+      "stars": 4027,
+      "forks": 349,
+      "todayStars": 1244,
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "aiSummary": {
+        "summary": "这是一个为专业 AI 编码代理提供的安全、验证过的技能注册表。项目通过静态分析、人工审核和深度防御机制，解决了市场技能中存在的安全漏洞问题。支持 Claude Code、Cursor、Copilot 等主流工具，提供可扩展的插件式工作流和专业知识。",
+        "summary_en": "A hardened library of verified, safe skills for professional AI coding agents.",
+        "techStack": [
+          "TypeScript",
+          "Snyk",
+          "CLI"
+        ],
+        "useCase": "为 AI 编码代理添加安全、经过验证的技能和插件，提升开发效率与安全性。",
+        "useCase_en": "Developers use this registry to safely extend AI coding agents like Claude Code and Cursor with verified workflows and p"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "BigBodyCobain/Shadowbroker",
+      "description": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
+      "language": "Python",
+      "stars": 7714,
+      "forks": 1190,
+      "todayStars": 767,
+      "url": "https://github.com/BigBodyCobain/Shadowbroker",
+      "aiSummary": {
+        "summary": "ShadowBroker 是一个开源情报（OSINT）平台，聚合了60多个实时数据源（飞机、船只、卫星、冲突区等）到一个暗战地图界面。支持35+数据层和多种视觉模式，允许用户通过AI代理分析数据。项目无用户数据收集，完全开源，旨在为分析师和研究人员提供统一的全球威胁监控视图。",
+        "summary_en": "A real-time OSINT platform aggregating global telemetry like aircraft, satellites, and seismic events into a unified geospatial interface.",
+        "techStack": [
+          "Next.js",
+          "MapLibre GL",
+          "FastAPI",
+          "Python"
+        ],
+        "useCase": "适合分析师、研究人员及无线电操作员进行全球威胁监控与数据可视化分析。",
+        "useCase_en": "To aggregate and visualize real-time global OSINT telemetry for analysts and researchers."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "humanlayer/12-factor-agents",
+      "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+      "language": "TypeScript",
+      "stars": 20546,
+      "forks": 1557,
+      "todayStars": 399,
+      "url": "https://github.com/humanlayer/12-factor-agents",
+      "aiSummary": {
+        "summary": "该项目受 12-Factor App 启发，旨在为构建生产级 LLM 应用程序提供核心原则。作者通过实践发现，真正的 AI Agent 应主要由软件逻辑构成而非简单的确定性代码。项目致力于探索如何让 LLM 驱动的软件更可靠、可扩展且易于维护，为开发者提供构建高质量 AI 应用的指导。",
+        "summary_en": "A guide for building reliable, production-grade LLM applications using engineering principles.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "为开发者提供构建可靠、可扩展且易于维护的生产级 LLM 应用程序的设计原则和最佳实践。",
+        "useCase_en": "To establish engineering principles for building reliable, production-ready LLM-powered software."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "NVlabs/Sana",
+      "description": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer",
+      "language": "Python",
+      "stars": 6512,
+      "forks": 466,
+      "todayStars": 387,
+      "url": "https://github.com/NVlabs/Sana",
+      "aiSummary": {
+        "summary": "SANA 是一个面向高分辨率图像和视频生成的效率导向代码库，基于线性扩散 Transformer。项目提供完整的训练与推理管道，包含 SANA, SANA-Video, SANA-WM 等模型。支持 720p 及 1 分钟视频生成、6-DoF 相机控制及实时视频生成，近期发布了 Sol-RL 训练基础设施，适用于世界建模与具身 AI。",
+        "summary_en": "An efficiency-oriented codebase for high-resolution image and video generation featuring Linear Diffusion Transformers.",
+        "techStack": [
+          "Python",
+          "Diffusion Transformer"
+        ],
+        "useCase": "高分辨率图像与视频生成，世界建模及具身 AI研究",
+        "useCase_en": "Generate high-resolution images and videos efficiently using a Linear Diffusion Transformer architecture."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "microsoft/ai-agents-for-beginners",
+      "description": "12 Lessons to Get Started Building AI Agents",
+      "language": "Jupyter Notebook",
+      "stars": 63435,
+      "forks": 21173,
+      "todayStars": 1012,
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "aiSummary": {
+        "summary": "微软推出的 AI Agents 入门课程，包含 12 节 Jupyter Notebook 交互式课程。内容涵盖构建 AI Agents 的核心基础知识，支持 50 多种语言。适合零基础开发者学习如何利用生成式 AI 模型构建智能体。",
+        "summary_en": "A beginner course teaching how to build AI agents using Jupyter Notebooks.",
+        "techStack": [
+          "Jupyter Notebook"
+        ],
+        "useCase": "适合零基础开发者学习 AI Agents 开发与生成式 AI 应用构建",
+        "useCase_en": "To provide a structured learning path for beginners to build AI agents."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "description": "LLM驱动的 A/H/美股智能分析：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.",
+      "language": "Python",
+      "stars": 37072,
+      "forks": 36161,
+      "todayStars": 310,
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "aiSummary": {
+        "summary": "这是一个基于大语言模型（LLM）的智能股票分析系统，支持A股、港股及美股。它聚合多源行情与新闻，利用AI生成决策仪表盘，支持企业微信、飞书等多渠道推送。项目支持GitHub Actions零成本部署，适合个人投资者进行自动化选股与决策参考。",
+        "summary_en": "An AI-driven stock analysis system for A/H/US markets that aggregates data and generates decision dashboards via LLMs.",
+        "techStack": [
+          "Python",
+          "LLM (OpenAI/DeepSeek/Claude)",
+          "Data Sources (AkShare/Tushare/YFinance)",
+          "FastAPI",
+          "GitHub Actions"
+        ],
+        "useCase": "适合个人投资者利用AI技术进行零成本自动化股票分析与决策参考。",
+        "useCase_en": "Automate daily stock analysis and receive decision reports via chat apps like WeChat or Telegram."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "plausible/analytics",
+      "description": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
+      "language": "Elixir",
+      "stars": 25951,
+      "forks": 1493,
+      "todayStars": 638,
+      "url": "https://github.com/plausible/analytics",
+      "aiSummary": {
+        "summary": "Plausible Analytics 是一个开源、隐私优先的网页分析工具，作为轻量级且无 Cookie 的 Google Analytics 替代品。它完全合规（GDPR/CCPA），提供简洁的仪表板和 API，支持自托管或云端托管，适合注重数据隐私和网站性能的用户。",
+        "summary_en": "Open-source, privacy-first web analytics alternative to Google Analytics.",
+        "techStack": [
+          "Elixir"
+        ],
+        "useCase": "适用于寻求轻量级、无 Cookie 且符合 GDPR/CCPA 标准的网站流量分析解决方案。",
+        "useCase_en": "A privacy-first, self-hosted web analytics tool for tracking website traffic without cookies."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-19T00:16:54.177Z",
+    "duration": "250s",
+    "version": "1.0.0"
+  }
+}
