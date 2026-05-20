@@ -1,0 +1,385 @@
+{
+  "date": "2026-05-19",
+  "since": "daily",
+  "totalRepos": 18,
+  "successCount": 18,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars": 21141,
+      "forks": 1860,
+      "todayStars": 3973,
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "aiSummary": {
+        "summary": "OpenHuman 是一个基于 Rust 的个人 AI 超级智能，主打私密与简单。它提供桌面 UI 体验，拥有可交互的桌面吉祥物。支持 118+ 第三方应用（如 Gmail、Notion）的一键集成，具备自动数据获取能力。核心特色是 Memory Tree 本地知识库和 Obsidian Wiki 集成，能将数据转化为结构化记忆，让 AI 在后台持续思考，无缝融入日常生活。",
+        "summary_en": "OpenHuman is a Rust-based personal AI assistant featuring a desktop mascot and local-first memory management.",
+        "techStack": [
+          "Rust",
+          "OAuth",
+          "Markdown",
+          "Obsidian"
+        ],
+        "useCase": "适合需要个人 AI 助手管理日常任务、集成多种工作流工具并保持私密性的用户。",
+        "useCase_en": "A private, desktop-based AI agent that integrates with daily tools and manages a local knowledge base."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars": 37684,
+      "forks": 3608,
+      "todayStars": 1038,
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "aiSummary": {
+        "summary": "CLI-Anything 旨在连接 AI 代理与各类软件，通过 CLI-Hub 提供社区 CLI 的安装与管理，使 Claude Code、Cursor 等代理能够通过命令行自动化处理 CAD、GIS、3D 建模等任务。",
+        "summary_en": "Making all software agent-native through a unified CLI hub and registry.",
+        "techStack": [
+          "Python",
+          "Node.js"
+        ],
+        "useCase": "使 AI 代理能够通过命令行自动化操作各类专业软件。",
+        "useCase_en": "To bridge the gap between AI agents and the world's software by providing a command-line interface."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "stars": 14091,
+      "forks": 1332,
+      "todayStars": 3164,
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 设计的学术研究技能套件，涵盖从研究到出版的全流程。它利用 AI 处理引用、格式化和数据验证等繁琐工作，同时通过风格校准和写作质量检查提升文本质量。项目强调“人在回路”模式，旨在辅助人类研究者避免全自动化系统常见的幻觉和逻辑错误，专注于核心研究决策。",
+        "summary_en": "A Claude Code plugin suite for the full academic research pipeline, assisting with writing, reviewing, and refining papers.",
+        "techStack": [
+          "Python",
+          "Claude Code"
+        ],
+        "useCase": "适用于需要全流程学术写作辅助的研究人员和学生。",
+        "useCase_en": "Researchers use this plugin to automate the grunt work of academic writing, such as citation formatting and data verific"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 198347,
+      "forks": 17697,
+      "todayStars": 1623,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码代理设计的软件开发框架。它通过技能组合，引导代理从需求收集、设计审查到实施计划（强调 TDD、YAGNI、DRY），最后进行子代理驱动的开发。它支持多种主流 AI 编码工具，旨在让代理自主高效地完成复杂工程任务。",
+        "summary_en": "An agentic skills framework that enforces a structured software development methodology for coding agents.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "Codex CLI",
+          "Cursor"
+        ],
+        "useCase": "适用于需要自动化软件开发生命周期的开发者，利用 AI 代理进行高效、规范的代码编写。",
+        "useCase_en": "To empower coding agents with a structured software development methodology and autonomous execution capabilities."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 20168,
+      "forks": 2506,
+      "todayStars": 171,
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "aiSummary": {
+        "summary": "Anthropic 官方维护的 Claude Code 插件目录，包含内部开发及第三方社区插件。提供标准插件结构规范，支持通过 Claude Code 系统直接安装。用户需注意安全，在安装前确认插件来源及安全性。",
+        "summary_en": "Official Anthropic directory for high-quality Claude Code plugins.",
+        "techStack": [
+          "Python",
+          "JSON",
+          "Claude Code"
+        ],
+        "useCase": "为 Claude Code 用户寻找和安装高质量插件，以扩展 AI 助手的功能和交互能力。",
+        "useCase_en": "To provide a centralized marketplace for discovering and installing plugins for Claude Code."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "rohitg00/agentmemory",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "language": "TypeScript",
+      "stars": 14122,
+      "forks": 1178,
+      "todayStars": 1609,
+      "url": "https://github.com/rohitg00/agentmemory",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供持久化内存的开源项目。基于 iii engine 构建，扩展了 Karpathy 的 LLM Wiki 模式，增加了置信度评分、生命周期管理和知识图谱等功能。支持 Claude Code、Cursor、Gemini CLI 等主流 AI 编码工具，通过 MCP 或 Hooks 实现无缝连接，让 AI 代理能够记住上下文，无需重复解释。",
+        "summary_en": "A persistent memory system for AI coding agents built on the iii engine.",
+        "techStack": [
+          "TypeScript",
+          "iii engine",
+          "MCP",
+          "Hooks",
+          "Knowledge Graph"
+        ],
+        "useCase": "为 Claude Code、Cursor 等主流 AI 编码工具提供持久化上下文记忆，解决重复解释问题。",
+        "useCase_en": "Provides persistent memory for AI coding agents to remember context across sessions."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "stars": 16558,
+      "forks": 1279,
+      "todayStars": 1463,
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "aiSummary": {
+        "summary": "这是一个通过所有机器人检测测试的隐身 Chromium 浏览器，通过修改 C++ 源代码实现。它作为 Playwright/Puppeteer 的零配置替代品，内置 49 个源级补丁和人类行为模拟，能轻松绕过 Cloudflare Turnstile 和 reCAPTCHA 等反爬虫检测，适合自动化测试和爬虫开发。",
+        "summary_en": "Stealth browser that bypasses bot detection by modifying Chromium at the C++ source level.",
+        "techStack": [
+          "Python",
+          "Chromium",
+          "C++",
+          "Playwright",
+          "Puppeteer"
+        ],
+        "useCase": "绕过反爬虫检测（如 Cloudflare）及自动化测试场景",
+        "useCase_en": "A drop-in replacement for Playwright/Puppeteer to bypass bot detection on protected websites."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "language": "Rust",
+      "stars": 50858,
+      "forks": 3101,
+      "todayStars": 704,
+      "url": "https://github.com/rtk-ai/rtk",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的 CLI 代理工具，通过过滤和压缩命令输出，显著减少 LLM 的 token 消耗（最高达 90%）。它支持 100+ 个常用开发命令（如 git、ls、cat 等），且开销极低（<10ms）。作为单二进制文件，它无需依赖，非常适合在开发过程中与 AI 助手协作以节省成本。",
+        "summary_en": "High-performance Rust CLI proxy that filters and compresses command outputs to reduce LLM token consumption by up to 90%.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "减少开发过程中 LLM 上下文窗口的 token 消耗，优化 AI 编程助手的使用成本。",
+        "useCase_en": "Developers use this proxy to minimize token costs when interacting with AI coding assistants."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 101571,
+      "forks": 16793,
+      "todayStars": 1120,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "该项目提供了一套完整的 AI 代理集合，专为 Claude Code 等开发工具设计。包含前端开发、社区管理等不同领域的专业代理，每个代理拥有独特性格和流程。通过 Shell 脚本一键安装，帮助开发者快速获得特定领域的专家级辅助。",
+        "summary_en": "A curated collection of specialized AI agent personalities for various workflows.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "为 Claude Code 等开发工具集成特定领域专家 AI 代理，提升开发效率。",
+        "useCase_en": "Install specialized AI agents into your development environment for specific tasks."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "stars": 6560,
+      "forks": 434,
+      "todayStars": 1850,
+      "url": "https://github.com/colbymchenry/codegraph",
+      "aiSummary": {
+        "summary": "CodeGraph 是一个为 Claude Code、Cursor、Codex 和 OpenCode 提供预索引代码知识图谱的工具。它通过构建符号关系和调用图，让 AI 代理无需扫描文件即可快速查询代码库。该工具能显著减少工具调用次数（最高 94%）并加快探索速度（最高 77%），且完全本地化运行。",
+        "summary_en": "Pre-indexed code knowledge graph to accelerate local AI coding agents.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "用于增强 Claude Code、Cursor 等编码助手对大型代码库的理解能力，实现更高效的代码探索和更少的 Token 消耗。",
+        "useCase_en": "To accelerate AI code exploration by providing a local, pre-indexed knowledge graph."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 137950,
+      "forks": 14139,
+      "todayStars": 1955,
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "该项目是一个基于 Andrej Karpathy 关于 LLM 编码陷阱观察的 CLAUDE.md 配置文件。旨在通过“思考、简单、手术式更改、目标驱动”四大原则，指导 Claude Code 避免错误假设、过度复杂化和破坏性变更，提升代码质量与执行效率。",
+        "summary_en": "A single CLAUDE.md file applying Andrej Karpathy's principles to improve AI coding behavior.",
+        "techStack": [
+          "Markdown"
+        ],
+        "useCase": "适用于希望优化 Claude AI 编码助手表现、提升代码质量和执行效率的开发者。",
+        "useCase_en": "To improve Claude Code behavior by applying Karpathy's principles to avoid common LLM coding pitfalls."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "humanlayer/12-factor-agents",
+      "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+      "language": "TypeScript",
+      "stars": 21169,
+      "forks": 1597,
+      "todayStars": 736,
+      "url": "https://github.com/humanlayer/12-factor-agents",
+      "aiSummary": {
+        "summary": "受 12-Factor Apps 启发，该项目旨在为构建生产级 LLM 应用提供核心原则。作者指出真正的 AI 代理应主要由软件逻辑而非简单的 Prompt 循环组成。项目致力于探索如何构建可靠、可扩展且易于维护的 LLM 驱动软件，解决当前市场上许多产品缺乏真正代理能力的痛点。",
+        "summary_en": "A guide outlining principles for building production-ready LLM applications.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要构建可靠、生产级 LLM 应用和智能代理的开发者。",
+        "useCase_en": "To provide a framework for engineering reliable LLM-powered software."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "Diolinux/PhotoGIMP",
+      "description": "A Patch for GIMP 3+ for Photoshop Users",
+      "language": "CSS",
+      "stars": 10760,
+      "forks": 374,
+      "todayStars": 493,
+      "url": "https://github.com/Diolinux/PhotoGIMP",
+      "aiSummary": {
+        "summary": "PhotoGIMP 是一个针对 GIMP 3+ 的社区驱动补丁，旨在将 GIMP 的界面转换为类似 Photoshop 的布局。它重新组织了工具位置，优化了画布空间，并应用了 Photoshop 的键盘快捷键和自定义图标，帮助用户从 Photoshop 平滑过渡到 GIMP。",
+        "summary_en": "A patch for GIMP 3+ that transforms the interface to mimic Adobe Photoshop.",
+        "techStack": [
+          "CSS",
+          "GIMP",
+          "Flatpak"
+        ],
+        "useCase": "适合从 Adobe Photoshop 切换到 GIMP 的用户，希望保留熟悉的操作界面和快捷键。",
+        "useCase_en": "Allows Photoshop users to seamlessly transition to GIMP by providing a familiar interface and workflow."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "language": "Python",
+      "stars": 26357,
+      "forks": 3928,
+      "todayStars": 563,
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "aiSummary": {
+        "summary": "这是一个开源代理工具，允许用户免费使用 Claude Code CLI、VSCode 扩展和 Discord 机器人。它将 Anthropic API 流量路由到 NVIDIA NIM、DeepSeek、Ollama 等多个免费或本地模型提供商，支持流式传输、工具调用和推理处理，并提供本地管理界面。",
+        "summary_en": "A proxy for Claude Code that routes API calls to various providers to use models for free.",
+        "techStack": [
+          "Python",
+          "Node.js"
+        ],
+        "useCase": "适合希望在无需 Anthropic 付费订阅的情况下，利用本地或免费模型进行 AI 编程辅助的用户。",
+        "useCase_en": "Run Claude Code features for free by routing API traffic to various providers or local models."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "stars": 15870,
+      "forks": 2080,
+      "todayStars": 110,
+      "url": "https://github.com/pascalorg/editor",
+      "aiSummary": {
+        "summary": "这是一个基于 React Three Fiber 和 WebGPU 的 3D 建筑编辑器。项目采用 Turborepo Monorepo 架构，包含核心逻辑、3D 渲染和 UI 工具三个主要包。利用 Zustand 进行状态管理，支持节点系统、撤销重做及 IndexedDB 持久化，旨在帮助用户创建和分享 3D 建筑项目。",
+        "summary_en": "A monorepo-based 3D architectural editor built with React Three Fiber and WebGPU.",
+        "techStack": [
+          "TypeScript",
+          "React Three Fiber",
+          "WebGPU",
+          "Next.js",
+          "Turborepo"
+        ],
+        "useCase": "适用于需要创建、编辑和分享 3D 建筑模型的场景。",
+        "useCase_en": "A tool for creating and sharing 3D architectural projects."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "frappe/erpnext",
+      "description": "Free and Open Source Enterprise Resource Planning (ERP)",
+      "language": "Python",
+      "stars": 34266,
+      "forks": 11314,
+      "todayStars": 98,
+      "url": "https://github.com/frappe/erpnext",
+      "aiSummary": {
+        "summary": "ERPNext 是一个基于 Python 和 Vue.js 的 100% 开源企业资源规划系统。它集成了会计、订单管理、制造、资产管理和项目管理等核心功能，旨在帮助用户免费高效地处理复杂的业务运营。",
+        "summary_en": "A free and open-source ERP system for managing business operations like accounting, inventory, and manufacturing.",
+        "techStack": [
+          "Python",
+          "JavaScript",
+          "Vue.js"
+        ],
+        "useCase": "适用于需要全面管理财务、库存、制造及项目运营的中小企业或组织。",
+        "useCase_en": "Helps organizations manage accounting, inventory, manufacturing, and project management tasks in one centralized system."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "microsoft/ai-agents-for-beginners",
+      "description": "12 Lessons to Get Started Building AI Agents",
+      "language": "Jupyter Notebook",
+      "stars": 64304,
+      "forks": 21288,
+      "todayStars": 818,
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "aiSummary": {
+        "summary": "这是一个由微软提供的 AI Agents 入门课程，包含12个教学单元。项目使用 Jupyter Notebook 格式，旨在帮助初学者掌握构建 AI Agents 的基础知识。课程支持超过50种语言的自动翻译，内容涵盖生成式 AI 模型的基础介绍。适合零基础开发者学习如何创建智能代理。",
+        "summary_en": "A Microsoft course with 12 lessons to help beginners build AI agents.",
+        "techStack": [
+          "Jupyter Notebook"
+        ],
+        "useCase": "适合初学者学习如何构建 AI Agents",
+        "useCase_en": "A beginner-friendly course to learn how to build AI agents for automation and intelligent tasks."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "HKUDS/ViMax",
+      "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
+      "language": "Python",
+      "stars": 5403,
+      "forks": 920,
+      "todayStars": 503,
+      "url": "https://github.com/HKUDS/ViMax",
+      "aiSummary": {
+        "summary": "ViMax 是一个基于 Python 的全流程 AI 视频生成项目，旨在解决现有工具短片段、缺乏叙事连贯性的痛点。它集成了导演、编剧、制片人和生成器功能，提供 Idea2Video、Novel2Video、Script2Video 和 AutoCameo 四大核心模块，支持从创意到成片的端到端自动化。",
+        "summary_en": "ViMax is an agentic framework for end-to-end video generation, orchestrating scriptwriting, storyboarding, and production.",
+        "techStack": [
+          "Python",
+          "AI Agents",
+          "Video Generation"
+        ],
+        "useCase": "适用于将文本创意、小说或剧本快速转化为高质量视频内容，适合内容创作者和影视制作人员。",
+        "useCase_en": "Transform raw ideas, novels, or scripts into complete video stories using an autonomous multi-agent production pipeline."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-20T00:16:45.880Z",
+    "duration": "336s",
+    "version": "1.0.0"
+  }
+}
