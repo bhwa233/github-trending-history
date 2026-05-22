@@ -1,0 +1,418 @@
+{
+  "date": "2026-05-21",
+  "since": "daily",
+  "totalRepos": 19,
+  "successCount": 19,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 22370,
+      "forks": 2640,
+      "todayStars": 682,
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "aiSummary": {
+        "summary": "Anthropic 官方维护的 Claude Code 插件目录，提供高质量插件资源。包含 Anthropic 内部开发及合作伙伴/社区提交的外部插件。用户可通过 Claude Code 插件系统直接安装。插件遵循标准结构，支持元数据、MCP 配置及自定义命令/代理/技能。安装前请务必信任插件来源。",
+        "summary_en": "Official Anthropic-managed marketplace for high-quality Claude Code plugins.",
+        "techStack": [
+          "Python",
+          "JSON",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "为 Claude Code 安装和管理高质量插件，扩展 AI 助手功能。",
+        "useCase_en": "A centralized hub for discovering and installing plugins to enhance Claude Code capabilities."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "stars": 13379,
+      "forks": 762,
+      "todayStars": 4294,
+      "url": "https://github.com/colbymchenry/codegraph",
+      "aiSummary": {
+        "summary": "CodeGraph 是一个为 Claude Code、Cursor、Codex 等智能体提供预索引代码知识图谱的工具。它通过构建符号关系和调用图，让智能体无需扫描文件即可快速查询代码结构。该工具 100% 本地运行，能显著降低 Token 消耗和工具调用次数，提升代码分析效率。",
+        "summary_en": "A local pre-indexed code knowledge graph that optimizes AI agents like Claude Code and Cursor by reducing tokens and tool calls.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于提升 Claude Code、Cursor 等代码助手在大型代码库中的语义理解与分析效率。",
+        "useCase_en": "Accelerate AI coding agents like Claude Code and Cursor by providing them with a pre-indexed local knowledge graph of co"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 143111,
+      "forks": 14672,
+      "todayStars": 2614,
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "该项目提供了一套基于 Andrej Karpathy 观察的 Claude Code 指令集，包含四个核心原则：思考先于编码、简单优先、外科手术式修改和目标驱动执行。旨在解决 LLM 假设错误、过度复杂化代码及无关更改等问题，提升代码质量与执行效率。",
+        "summary_en": "A single CLAUDE.md file containing Karpathy-inspired guidelines to improve Claude Code behavior",
+        "techStack": [
+          "Markdown"
+        ],
+        "useCase": "用于优化 Claude Code 的行为，提升代码编写质量与效率。",
+        "useCase_en": "A reference guideline file to improve AI coding assistant behavior by addressing common LLM coding pitfalls"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "dotnet/skills",
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "language": "C#",
+      "stars": 2185,
+      "forks": 177,
+      "todayStars": 129,
+      "url": "https://github.com/dotnet/skills",
+      "aiSummary": {
+        "summary": "该项目由 .NET 团队维护，旨在为 AI 编码代理提供 .NET 和 C# 的核心技能及自定义代理。包含 dotnet、数据访问、性能诊断、构建、包管理、升级、MAUI、AI/ML、模板、测试、ASP.NET Core 和 .NET 11 等多领域插件。开发者可通过 Copilot CLI 或 Claude Code 安装，以提升 AI 辅助编程的准确性和效率。",
+        "summary_en": "A curated collection of .NET skills and agents for AI coding assistants.",
+        "techStack": [
+          "C#",
+          ".NET",
+          "ASP.NET Core",
+          "MAUI",
+          "Entity Framework"
+        ],
+        "useCase": "用于通过 AI 代理辅助 .NET 和 C# 开发，涵盖从基础编码、构建优化到 AI/ML 集成的全流程任务。",
+        "useCase_en": "To assist AI coding agents with .NET and C# development tasks."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 201481,
+      "forks": 17948,
+      "todayStars": 1576,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为 AI 编码代理设计的软件开发生命周期框架。它通过技能和指令引导代理在编码前与用户确认需求、展示设计并制定计划。系统强调 TDD、YAGNI 和 DRY 原则，支持子代理驱动的自主开发，兼容 Claude Code、Cursor 等多种主流 AI 编码工具。",
+        "summary_en": "An agentic skills framework and software development methodology for coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要自动化 AI 编码代理工作流的场景，特别是希望 AI 在编写代码前进行需求确认和结构化规划的项目。",
+        "useCase_en": "To empower coding agents with a structured methodology for autonomous software development."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars": 39106,
+      "forks": 3710,
+      "todayStars": 656,
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "aiSummary": {
+        "summary": "CLI-Anything 致力于让所有软件具备 AI 代理原生能力。通过 CLI-Hub 提供统一的命令行接口注册表，允许 AI 代理（如 Claude、Cursor）直接调用各类软件（如 CAD、3D、游戏等）的功能。项目支持社区贡献，旨在连接 AI 与全球软件生态，实现自动化操作。",
+        "summary_en": "A Python framework bridging AI agents and software via a CLI hub for command execution.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "AI Agent"
+        ],
+        "useCase": "为 AI 代理提供统一的命令行接口，实现各类软件的自动化操作与交互。",
+        "useCase_en": "Make any software agent-ready for tools like Pi, OpenClaw, and Cursor."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "rmyndharis/OpenWA",
+      "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+      "language": "TypeScript",
+      "stars": 5397,
+      "forks": 1080,
+      "todayStars": 730,
+      "url": "https://github.com/rmyndharis/OpenWA",
+      "aiSummary": {
+        "summary": "OpenWA 是一个免费开源的 WhatsApp API 网关，基于 TypeScript 构建。它支持多会话并发、插件化架构（可更换数据库和存储）以及 Docker 部署。提供 REST API、Webhook 和 React 管理仪表板，支持文本、媒体消息及群组管理，适合开发者自建消息基础设施。",
+        "summary_en": "Open-source, self-hosted WhatsApp API Gateway featuring a pluggable architecture and React dashboard.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Docker",
+          "SQLite/PostgreSQL",
+          "Redis"
+        ],
+        "useCase": "适合需要自托管 WhatsApp 消息服务、避免供应商锁定或集成自动化工作流的开发者。",
+        "useCase_en": "Developers building custom messaging applications or automating workflows using WhatsApp without vendor lock-in."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 40474,
+      "forks": 2571,
+      "todayStars": 151,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供 Chrome DevTools 能力，通过 MCP 协议控制实时浏览器。支持性能分析、网络调试、截图及 Puppeteer 自动化，帮助代理实现可靠的网页操作与深度调试。",
+        "summary_en": "An MCP server enabling coding agents to control and debug Chrome browsers using Puppeteer.",
+        "techStack": [
+          "TypeScript",
+          "Puppeteer",
+          "MCP"
+        ],
+        "useCase": "AI 编码助手进行浏览器自动化、网页调试及性能分析",
+        "useCase_en": "Enables AI coding assistants to automate browser tasks and debug web applications using Puppeteer."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 10693,
+      "forks": 2118,
+      "todayStars": 1333,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个从零开始构建 AI 工程技能的全面课程，包含 435 个课程和 20 个阶段。项目涵盖 Python、TypeScript、Rust 和 Julia，从数学基础到生产环境，教授如何从底层构建模型、代理和 MCP 服务器。强调“动手实践”，旨在弥合学生使用 AI 工具与专业应用之间的差距。",
+        "summary_en": "A comprehensive curriculum teaching AI engineering from math foundations to production deployment across four languages.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "适合希望从底层原理到工程落地全面掌握 AI 技术的学习者。",
+        "useCase_en": "To bridge the gap between using AI tools and engineering them professionally by building reusable artifacts from scratch"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "teng-lin/notebooklm-py",
+      "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
+      "language": "Python",
+      "stars": 14365,
+      "forks": 1993,
+      "todayStars": 186,
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "aiSummary": {
+        "summary": "这是一个非官方的 NotebookLM Python API 库，提供对 NotebookLM 功能的完全程序化访问。支持通过 Python、CLI 和 AI 代理（如 Claude Code）使用。主要功能包括研究自动化（批量导入、查询）、内容生成（音频、幻灯片、测验）以及批量下载导出，适合构建 AI 代理工具和研究流程。",
+        "summary_en": "Unofficial Python API and CLI for Google NotebookLM, enabling programmatic access and agent integration.",
+        "techStack": [
+          "Python",
+          "Google NotebookLM",
+          "AI Agents"
+        ],
+        "useCase": "适合构建 AI 代理工具、自动化研究流程及深度集成 NotebookLM 功能。",
+        "useCase_en": "Automate research and content generation tasks using Google NotebookLM programmatically."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "can1357/oh-my-pi",
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "language": "TypeScript",
+      "stars": 5831,
+      "forks": 477,
+      "todayStars": 500,
+      "url": "https://github.com/can1357/oh-my-pi",
+      "aiSummary": {
+        "summary": "这是一个基于终端的 AI 编码代理，专注于提供高准确率的代码编辑能力。它集成了 LSP 和 DAP，支持多种大模型，拥有优化的工具框架和哈希锚定编辑功能。内置 40+ 提供商和 32+ 工具，能够实现高效的代码修改、执行与搜索，适合需要自动化代码开发的开发者。",
+        "summary_en": "A terminal-based AI coding agent optimized for edits, LSP, and Python execution.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "Python",
+          "LSP",
+          "DAP"
+        ],
+        "useCase": "终端内的 AI 辅助编程，自动化代码修改、重构与调试",
+        "useCase_en": "Automate coding tasks in the terminal using an optimized AI agent with LSP support."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "antoinezambelli/forge",
+      "description": "A Python framework for self-hosted LLM tool-calling and multi-step agentic workflows",
+      "language": "Python",
+      "stars": 1479,
+      "forks": 75,
+      "todayStars": 398,
+      "url": "https://github.com/antoinezambelli/forge",
+      "aiSummary": {
+        "summary": "这是一个用于自托管 LLM 的 Python 框架，专注于工具调用和多步骤代理工作流。它通过防护栏（如解析救援、重试 nudges）和上下文管理（VRAM 预算）提升模型可靠性。支持 WorkflowRunner、中间件和代理服务器三种使用方式，兼容 Ollama、llama-server 等后端，旨在让本地小模型在复杂任务中表现优异。",
+        "summary_en": "Python framework for self-hosted LLM tool-calling and multi-step agentic workflows with guardrails.",
+        "techStack": [
+          "Python",
+          "Ollama",
+          "llama-server",
+          "Llamafile",
+          "Anthropic"
+        ],
+        "useCase": "适用于构建高可靠性的自托管 LLM 代理工作流，或作为 OpenAI 兼容代理为客户端提供智能服务。",
+        "useCase_en": "Build reliable, multi-step agentic workflows for self-hosted LLMs using guardrails and context management."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "Go",
+      "stars": 30712,
+      "forks": 3733,
+      "todayStars": 534,
+      "url": "https://github.com/multica-ai/multica",
+      "aiSummary": {
+        "summary": "Multica 是一个开源的托管代理平台，旨在将编码 AI 代理转化为真正的团队成员。它支持分配任务、跟踪进度和积累技能，无需手动复制粘贴提示词。平台兼容多种主流 AI 模型，提供看板视图和任务生命周期管理，专为人类与 AI 协作设计，支持自托管。",
+        "summary_en": "An open-source managed agents platform that turns coding agents into autonomous teammates for software development.",
+        "techStack": [
+          "Go",
+          "Claude Code",
+          "GitHub Copilot CLI",
+          "OpenAI Codex",
+          "Gemini"
+        ],
+        "useCase": "适用于需要将 AI 代理集成到开发工作流中，实现自动化任务管理和团队协作的场景。",
+        "useCase_en": "Orchestrate coding agents to autonomously handle software development tasks and collaborate with human teams."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "stars": 18148,
+      "forks": 1560,
+      "todayStars": 2579,
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 设计的学术研究技能套件，覆盖从文献调研、论文写作到审查修订的全流程。它通过 Socratic 对话辅助构建结构，处理引用、数据验证及逻辑检查，并具备风格校准与质量检测功能。项目强调‘人在回路’机制，旨在提升写作效率与原创性，避免 AI 幻觉。",
+        "summary_en": "A Claude Code plugin for the academic research pipeline, emphasizing human oversight and quality checks.",
+        "techStack": [
+          "Python",
+          "Claude Code"
+        ],
+        "useCase": "学术研究人员利用 Claude Code 进行论文写作、文献综述及格式化整理。",
+        "useCase_en": "Researchers use this tool to automate the grunt work of writing papers while maintaining human control over the scientif"
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "trimstray/the-book-of-secret-knowledge",
+      "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+      "language": "",
+      "stars": 222417,
+      "forks": 13321,
+      "todayStars": 756,
+      "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+      "aiSummary": {
+        "summary": "该项目是一个汇集了鼓舞人心的列表、手册、速查表、黑客技巧、单行代码、CLI/网络工具等资源的知识库。它旨在为开发者和学习者提供丰富的参考资料和灵感来源，涵盖多个技术领域。",
+        "summary_en": "A curated collection of inspiring lists, manuals, cheatsheets, and tools for developers.",
+        "techStack": [
+          "Markdown"
+        ],
+        "useCase": "开发者寻找技术资源、学习工具和灵感。",
+        "useCase_en": "A reference guide for developers seeking cheatsheets, tools, and inspiration."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "truelockmc/streambert",
+      "description": "A cross-platform Electron Desktop App to stream and download any Movie, TV Series or Anime in the World. Zero Ads and Tracking",
+      "language": "JavaScript",
+      "stars": 3962,
+      "forks": 309,
+      "todayStars": 1094,
+      "url": "https://github.com/truelockmc/streambert",
+      "aiSummary": {
+        "summary": "这是一个基于 Electron 的跨平台桌面应用，支持全球电影、电视剧和动漫的流媒体播放与下载。它集成了 TMDB 和 AniList 数据源，提供无广告、无追踪的纯净体验，支持多线程下载、字幕管理及本地媒体库功能，适合追求隐私和高速下载的用户。",
+        "summary_en": "Cross-platform Electron app to stream and download movies, TV series, and anime with zero ads.",
+        "techStack": [
+          "Electron",
+          "JavaScript",
+          "Node.js",
+          "FFmpeg"
+        ],
+        "useCase": "适合需要无广告、高速下载电影和动漫的跨平台桌面用户。",
+        "useCase_en": "A privacy-focused desktop media player for streaming and downloading movies and anime."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 103655,
+      "forks": 17045,
+      "todayStars": 1018,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "这是一个包含多种专业AI代理个性的集合，旨在模拟专业团队协作。每个代理都有独特的性格、工作流程和交付成果，支持Claude Code、GitHub Copilot等多种工具。项目提供安装脚本，帮助用户快速配置这些生产就绪的AI专家，提升开发效率。",
+        "summary_en": "A curated collection of specialized AI agent personalities for various workflows and tools.",
+        "techStack": [
+          "Shell",
+          "Markdown",
+          "Claude Code",
+          "GitHub Copilot",
+          "Cursor"
+        ],
+        "useCase": "为AI编程助手配置特定领域的专业角色，提升开发效率。",
+        "useCase_en": "Provides specialized AI agent personalities for various coding workflows and IDEs."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "alireza0/s-ui",
+      "description": "An advanced Web Panel • Built for SagerNet/Sing-Box",
+      "language": "Go",
+      "stars": 8919,
+      "forks": 1502,
+      "todayStars": 27,
+      "url": "https://github.com/alireza0/s-ui",
+      "aiSummary": {
+        "summary": "这是一个基于 Go 语言开发的 SagerNet/Sing-Box 先进 Web 面板。支持多协议、多语言、多客户端及高级流量路由，提供订阅管理、系统监控和 API 接口。支持 Linux、Windows 和 macOS。注意：仅供个人学习交流，不可用于生产环境。",
+        "summary_en": "An advanced web panel built with Go to manage SagerNet/Sing-Box proxy services.",
+        "techStack": [
+          "Go",
+          "SagerNet/Sing-Box"
+        ],
+        "useCase": "用于管理 SagerNet/Sing-Box 代理服务的 Web 面板，适合个人学习与节点管理。",
+        "useCase_en": "A web-based control panel for managing Sing-Box/SagerNet proxy configurations and traffic."
+      }
+    },
+    {
+      "index": 18,
+      "fullName": "Lum1104/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "stars": 16592,
+      "forks": 1552,
+      "todayStars": 666,
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "aiSummary": {
+        "summary": "这是一个 Claude Code 插件，旨在将代码库、知识库或文档转化为交互式知识图谱。通过多智能体分析，它能构建文件、函数及依赖关系的可视化模型，帮助开发者快速理解大型项目的结构、业务逻辑及隐含关系，支持搜索与引导式探索。",
+        "summary_en": "A Claude Code plugin that transforms codebases into interactive knowledge graphs for exploration and understanding.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code",
+          "LLM Agents",
+          "Knowledge Graph Visualization"
+        ],
+        "useCase": "适用于新成员快速上手大型代码库，或分析知识库文档。",
+        "useCase_en": "To visualize complex codebases and knowledge bases as interactive graphs to aid in understanding and navigation."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-22T00:13:21.638Z",
+    "duration": "297s",
+    "version": "1.0.0"
+  }
+}
