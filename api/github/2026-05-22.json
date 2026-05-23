@@ -1,0 +1,306 @@
+{
+  "date": "2026-05-22",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 24894,
+      "forks": 2763,
+      "todayStars": 2549,
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "aiSummary": {
+        "summary": "Anthropic 官方维护的 Claude Code 插件目录，包含内部及第三方高质量插件。提供标准插件结构规范、安装指南及安全警告，旨在帮助用户安全扩展 Claude Code 功能。",
+        "summary_en": "Official Anthropic-managed directory for high-quality Claude Code plugins.",
+        "techStack": [
+          "Python",
+          "JSON",
+          "Claude Code"
+        ],
+        "useCase": "为 Claude Code 添加自定义功能、工具或工作流。",
+        "useCase_en": "Users can discover and install plugins to extend the capabilities of Claude Code."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "stars": 16499,
+      "forks": 909,
+      "todayStars": 3684,
+      "url": "https://github.com/colbymchenry/codegraph",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code、Cursor 等智能体提供预索引代码知识图谱的工具。它通过构建符号关系和调用图，让 AI 代理在查询时直接检索知识而非扫描文件，从而大幅降低 Token 消耗、工具调用次数和成本，且完全本地运行。",
+        "summary_en": "Pre-indexed code knowledge graph for AI coding agents to reduce tokens and tool calls.",
+        "techStack": [
+          "TypeScript",
+          "Knowledge Graph",
+          "MCP"
+        ],
+        "useCase": "优化 AI 代码助手（如 Claude Code）的代码理解效率，降低 Token 消耗与成本。",
+        "useCase_en": "Optimize AI coding agents by providing a local pre-indexed knowledge graph to reduce token usage and latency."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 63999,
+      "forks": 8455,
+      "todayStars": 978,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 感知平台，利用 ESP32 采集信道状态信息（CSI），将 WiFi 信号转化为实时空间智能。它支持穿墙检测人体存在、生命体征监测、活动识别及环境映射，无需摄像头或可穿戴设备，适合隐私保护监控和智能家居应用。",
+        "summary_en": "Rust project turning commodity WiFi signals into spatial intelligence, vital sign monitoring, and presence detection without cameras.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "WiFi CSI"
+        ],
+        "useCase": "隐私保护监控与智能家居",
+        "useCase_en": "Turn ordinary WiFi into a spatial intelligence system to detect people, vital signs, and activity through walls without "
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 11889,
+      "forks": 2263,
+      "todayStars": 988,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "该项目是一个从零开始构建 AI 工程能力的开源课程，包含435个课程和20个阶段。课程涵盖Python、TypeScript、Rust和Julia，强调从原始数学出发构建算法（如反向传播、注意力机制），旨在培养学员从底层原理到实际应用的全栈AI工程能力。",
+        "summary_en": "A comprehensive open-source curriculum to learn AI engineering by building from scratch using Python, TypeScript, Rust, and Julia.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "AI 工程师或开发者的深度学习与算法构建教育",
+        "useCase_en": "A self-paced curriculum for developers to master AI engineering by building components from scratch."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 40967,
+      "forks": 2601,
+      "todayStars": 501,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "这是一个允许 AI 编码代理控制 Chrome 浏览器的 MCP 服务器。它提供性能分析、高级调试（截图、网络请求、控制台）及自动化功能，支持 Claude、Cursor 等助手进行可靠的自动化和深度调试。",
+        "summary_en": "Provides Chrome DevTools capabilities to coding agents via an MCP server for automation and debugging.",
+        "techStack": [
+          "TypeScript",
+          "Puppeteer",
+          "MCP"
+        ],
+        "useCase": "AI 编码助手进行浏览器自动化、调试和性能分析",
+        "useCase_en": "Allows coding agents to control Chrome browsers for automation, debugging, and performance analysis."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "dotnet/skills",
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "language": "C#",
+      "stars": 2524,
+      "forks": 198,
+      "todayStars": 389,
+      "url": "https://github.com/dotnet/skills",
+      "aiSummary": {
+        "summary": "这是一个由 .NET 团队维护的技能仓库，旨在辅助 AI 编码代理处理 .NET 和 C# 开发任务。它包含多个插件，涵盖核心 .NET 编码、数据访问、性能诊断、MSBuild 构建、NuGet 包管理、项目升级、MAUI 开发、AI/ML 集成、模板引擎、测试运行以及 ASP.NET Core Web 开发等领域，支持通过 Copilot CLI 或 Claude Code 安装使用。",
+        "summary_en": "A curated set of .NET skills and agents for AI coding assistants to handle .NET development tasks.",
+        "techStack": [
+          "C#"
+        ],
+        "useCase": "为 AI 编码代理提供 .NET 和 C# 开发技能支持，用于代码诊断、构建优化、迁移升级及 Web 开发等任务。",
+        "useCase_en": "To provide AI coding agents with specialized skills for .NET development, debugging, and modernization."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Lum1104/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "stars": 18543,
+      "forks": 1679,
+      "todayStars": 1393,
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "aiSummary": {
+        "summary": "Understand Anything 是一款 Claude Code 插件，旨在将大型代码库或知识库转化为交互式知识图谱。它通过多智能体分析构建包含文件、函数及依赖关系的可视化结构，支持结构探索、业务逻辑映射及知识库分析，帮助开发者快速理解复杂项目，实现从盲目阅读到全局视野的转变。",
+        "summary_en": "A Claude Code plugin that transforms codebases into interactive knowledge graphs for visual exploration and understanding.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code",
+          "LLM Agents"
+        ],
+        "useCase": "快速理解大型代码库或知识库，辅助新成员入职或代码审查。",
+        "useCase_en": "To visualize and understand complex codebases by converting them into interactive knowledge graphs."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "odoo/odoo",
+      "description": "Odoo. Open Source Apps To Grow Your Business.",
+      "language": "Python",
+      "stars": 51122,
+      "forks": 32514,
+      "todayStars": 79,
+      "url": "https://github.com/odoo/odoo",
+      "aiSummary": {
+        "summary": "Odoo 是一套基于 Web 的开源商业应用套件，包含 CRM、电子商务、仓库管理、会计、POS、制造等模块。这些应用可独立使用或无缝集成，形成全功能的开源 ERP 系统，适用于企业业务管理。",
+        "summary_en": "Open source ERP suite providing integrated business applications for CRM, accounting, and more.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要全功能开源 ERP 系统的企业，涵盖业务管理、客户关系、电子商务及制造等多个领域。",
+        "useCase_en": "To run a full-featured open source ERP system for growing businesses."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "byJoey/cfnew",
+      "description": "",
+      "language": "",
+      "stars": 13295,
+      "forks": 6479,
+      "todayStars": 87,
+      "url": "https://github.com/byJoey/cfnew",
+      "aiSummary": {
+        "summary": "这是一个基于 Cloudflare Workers 的代理订阅管理与转换工具。支持 VLESS、Trojan、xhttp 等多协议，具备图形化管理、延迟测试、订阅转换及多客户端适配功能。通过 KV 存储配置，支持自定义优选 IP，优化了传输性能，适合在 Cloudflare 环境下部署使用。",
+        "summary_en": "A web-based dashboard for managing Cloudflare Workers proxy configurations and generating subscription links for various clients.",
+        "techStack": [
+          "Cloudflare Workers",
+          "JavaScript",
+          "KV Storage"
+        ],
+        "useCase": "适合需要自建代理订阅服务、管理优选 IP 或在 Cloudflare 环境下部署代理节点的用户。",
+        "useCase_en": "Manage proxy settings and generate subscription links for Clash, Sing-box, and other clients via a web interface."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "trimstray/the-book-of-secret-knowledge",
+      "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+      "language": "",
+      "stars": 223189,
+      "forks": 13381,
+      "todayStars": 969,
+      "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+      "aiSummary": {
+        "summary": "Trimstray 维护的‘秘密知识之书’，汇集了各类鼓舞人心的列表、手册、备忘单、黑客技巧及 CLI/网络工具。该项目旨在为开发者提供丰富的参考资料和灵感，涵盖开发、安全等多个领域。",
+        "summary_en": "A curated collection of inspiring lists, manuals, cheatsheets, and web tools.",
+        "techStack": [
+          "Markdown",
+          "Documentation"
+        ],
+        "useCase": "开发者查找参考资料、学习新技术或寻找实用工具。",
+        "useCase_en": "A reference guide for developers seeking cheatsheets, tools, and inspiration."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "language": "Python",
+      "stars": 22628,
+      "forks": 3125,
+      "todayStars": 367,
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "aiSummary": {
+        "summary": "FinceptTerminal 是一款基于 C++20 和 Qt6 的原生桌面金融终端。它集成了 Python 进行高级分析，支持 100+ 数据源和实时交易（16 个经纪商）。内置 AI 代理和量化实验室，提供 DCF 模型、投资组合优化及全球情报分析，适合专业投资者进行数据驱动决策。",
+        "summary_en": "Professional C++20 desktop finance terminal featuring embedded Python, AI agents, and real-time trading.",
+        "techStack": [
+          "C++20",
+          "Qt6",
+          "Python",
+          "QuantLib",
+          "WebSocket"
+        ],
+        "useCase": "专业投资者、量化交易员及金融分析师进行市场研究和自动化交易。",
+        "useCase_en": "Delivers advanced market analytics, investment research, and real-time trading capabilities for professional investors."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "can1357/oh-my-pi",
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "language": "TypeScript",
+      "stars": 6330,
+      "forks": 514,
+      "todayStars": 457,
+      "url": "https://github.com/can1357/oh-my-pi",
+      "aiSummary": {
+        "summary": "这是一个基于终端的强大 AI 编码代理，基于 Pi 分支开发。它集成了 LSP、Python 执行环境和浏览器支持，拥有 40+ 个提供商和 32 个内置工具。通过优化的工具调用和哈希锚定编辑技术，显著提升了代码修改的成功率和效率，支持复杂的代码重构和自动化任务。",
+        "summary_en": "A terminal-based AI coding agent with IDE integration, LSP support, and optimized tool harness.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "Python",
+          "Bun",
+          "LSP"
+        ],
+        "useCase": "在终端中执行复杂的代码生成、重构和自动化开发任务。",
+        "useCase_en": "Automate coding tasks in the terminal using an AI agent with IDE integration and advanced tooling."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "stars": 164324,
+      "forks": 13822,
+      "todayStars": 444,
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "aiSummary": {
+        "summary": "yt-dlp 是一个功能丰富的命令行音频/视频下载器，支持数千个网站。作为 youtube-dl 的分支，它基于 youtube-dlc 开发，提供了高度可配置的下载选项，包括格式选择、字幕处理、元数据修改及插件扩展功能。",
+        "summary_en": "Python-based command-line tool for downloading videos and audio from thousands of websites.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要从数千个网站批量下载音视频内容的用户或开发者。",
+        "useCase_en": "Users download videos and audio from thousands of supported websites via a command-line interface."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "karpathy/nn-zero-to-hero",
+      "description": "Neural Networks: Zero to Hero",
+      "language": "Jupyter Notebook",
+      "stars": 22330,
+      "forks": 3242,
+      "todayStars": 159,
+      "url": "https://github.com/karpathy/nn-zero-to-hero",
+      "aiSummary": {
+        "summary": "这是一个从零开始学习神经网络的完整课程，包含多个 Jupyter Notebook 教程。课程涵盖了反向传播、语言建模（如 GPT）、MLP 架构、激活函数、梯度及批归一化等核心概念，适合初学者通过视频和代码实践掌握深度学习基础。",
+        "summary_en": "A YouTube-based course teaching neural networks from scratch using Jupyter notebooks and PyTorch.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "PyTorch"
+        ],
+        "useCase": "适合深度学习初学者系统学习神经网络原理与实战，构建从基础到现代 Transformer 的知识体系。",
+        "useCase_en": "An educational tutorial series for learning neural networks and backpropagation from scratch."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-23T00:16:04.283Z",
+    "duration": "284s",
+    "version": "1.0.0"
+  }
+}
