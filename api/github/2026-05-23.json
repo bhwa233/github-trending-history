@@ -1,0 +1,339 @@
+{
+  "date": "2026-05-23",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Lum1104/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "stars": 21453,
+      "forks": 1916,
+      "todayStars": 2299,
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "aiSummary": {
+        "summary": "这是一个 Claude Code 插件，旨在将任何代码库、知识库或文档转换为交互式知识图谱。它通过多智能体管道分析项目，构建文件、函数、类和依赖关系的可视化图谱，帮助开发者快速理解大型代码库结构。",
+        "summary_en": "A Claude Code plugin that transforms codebases into interactive knowledge graphs for exploration and analysis.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code",
+          "LLM Agents"
+        ],
+        "useCase": "快速理解大型代码库或知识库结构",
+        "useCase_en": "Turn any codebase into an interactive knowledge graph to explore structure and dependencies."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 26411,
+      "forks": 2854,
+      "todayStars": 2193,
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "aiSummary": {
+        "summary": "Anthropic 官方维护的 Claude Code 插件精选目录，包含内部及第三方高质量插件。支持通过 Claude Code 插件系统直接安装，遵循标准插件结构（含元数据、MCP 配置等）。开发者可参考示例或提交新插件，但需注意安装前需信任插件内容。",
+        "summary_en": "Official Anthropic-managed marketplace for high-quality Claude Code plugins.",
+        "techStack": [
+          "Python",
+          "JSON",
+          "Claude Code"
+        ],
+        "useCase": "为 Claude Code 提供官方插件市场，方便用户安装和管理扩展功能。",
+        "useCase_en": "A centralized hub for discovering and installing plugins for the Claude Code AI assistant."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "stars": 19392,
+      "forks": 1071,
+      "todayStars": 2456,
+      "url": "https://github.com/colbymchenry/codegraph",
+      "aiSummary": {
+        "summary": "这是一个 TypeScript 项目，为 Claude Code、Cursor 等 AI 编程助手提供预索引的代码知识图谱。它通过构建符号关系和调用图，让 AI 代理直接查询数据库而非扫描文件，从而显著降低 Token 消耗、工具调用次数和成本，提升代码理解速度。",
+        "summary_en": "Pre-indexed code knowledge graph for local AI coding agents to reduce tokens and tool calls.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于提升 Claude Code、Cursor 等 AI 编程助手在本地理解大型代码库的效率与成本。",
+        "useCase_en": "To optimize AI coding agents by providing a local, pre-indexed knowledge graph for faster code exploration."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 13721,
+      "forks": 2564,
+      "todayStars": 1521,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个涵盖 435 课、20 个阶段的 AI 工程实战课程。课程从底层数学推导算法，涵盖 Python、TypeScript、Rust 和 Julia，强调从零构建可重用工件（如代理、MCP 服务器）。旨在通过系统化的学习路径，帮助开发者掌握 AI 核心原理，具备专业工程能力。",
+        "summary_en": "A comprehensive open-source curriculum teaching AI engineering from scratch using math and code.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "适合希望从底层原理出发，系统掌握 AI 工程构建能力的开发者。",
+        "useCase_en": "To build AI systems and reusable artifacts from scratch using math and code."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "language": "Python",
+      "stars": 23106,
+      "forks": 3189,
+      "todayStars": 545,
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "aiSummary": {
+        "summary": "FinceptTerminal 是一款基于 C++20 和 Qt6 的专业桌面金融终端，集成 Python 进行高级分析。它提供多资产分析、AI 代理、实时交易及 100+ 数据源连接，支持量化建模、算法交易和全球情报，旨在为用户提供数据驱动的投资决策环境。",
+        "summary_en": "Professional desktop finance terminal with AI agents, real-time trading, and advanced analytics.",
+        "techStack": [
+          "C++20",
+          "Qt6",
+          "Python"
+        ],
+        "useCase": "专业金融交易、投资研究与量化分析",
+        "useCase_en": "Enables professional trading and investment research through AI agents and real-time market data."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 149580,
+      "forks": 15336,
+      "todayStars": 3507,
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "这是一个基于 Andrej Karpathy 观察的 Claude Code 指南文件。旨在解决 LLM 编码中的常见陷阱，如错误假设、过度复杂化和破坏性更改。通过四个核心原则——思考前编码、简单优先、外科手术式更改和目标驱动执行，帮助 Claude 生成更简洁、可靠且符合预期的代码。",
+        "summary_en": "Guidelines for Claude AI coding based on Andrej Karpathy's insights on LLM pitfalls.",
+        "techStack": [
+          "Markdown",
+          "Claude AI"
+        ],
+        "useCase": "开发者希望 Claude AI 编写出更简洁、准确且易于维护的代码。",
+        "useCase_en": "To improve Claude Code's behavior by preventing common LLM coding mistakes like overcomplication and wrong assumptions."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "dotnet/skills",
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "language": "C#",
+      "stars": 2738,
+      "forks": 209,
+      "todayStars": 266,
+      "url": "https://github.com/dotnet/skills",
+      "aiSummary": {
+        "summary": "该项目是 .NET 官方维护的技能库，专为 AI 编码代理设计。包含 dotnet、数据访问、性能诊断、构建优化、包管理、项目迁移、MAUI、AI/ML 集成、模板引擎及测试等 12 个核心插件，覆盖 .NET 开发全流程，支持通过 Copilot CLI 或 Claude Code 安装使用。",
+        "summary_en": "A curated collection of skills and agents for AI coding agents to assist with .NET and C# development.",
+        "techStack": [
+          "C#",
+          ".NET",
+          "AI Agents"
+        ],
+        "useCase": "辅助 AI 编码代理处理 .NET 和 C# 开发全流程任务",
+        "useCase_en": "Install plugins to provide AI coding agents with curated .NET and C# skills for development tasks."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 41322,
+      "forks": 2624,
+      "todayStars": 435,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "这是一个基于 TypeScript 的 MCP 服务器，旨在让 AI 编码代理（如 Claude、Cursor）能够控制并调试 Chrome 浏览器。它利用 Puppeteer 实现自动化操作，提供性能分析、网络请求检查、截图和日志记录等功能，帮助 AI 进行可靠的自动化测试和深度调试。",
+        "summary_en": "An MCP server enabling AI coding agents to control and inspect Chrome browsers for automation and debugging.",
+        "techStack": [
+          "TypeScript",
+          "Puppeteer",
+          "MCP"
+        ],
+        "useCase": "AI 编码助手进行浏览器自动化测试、性能分析与深度调试。",
+        "useCase_en": "To provide AI coding assistants with direct access to Chrome DevTools for reliable automation and debugging."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "language": "Python",
+      "stars": 7387,
+      "forks": 1008,
+      "todayStars": 281,
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "aiSummary": {
+        "summary": "这是一个为 AI 代理提供高级网络安全技能的开源库，包含 754 个结构化技能，覆盖 26 个安全领域。它将每个技能映射到 MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND 和 NIST AI RMF 五大框架，确保合规性和全面性。项目兼容 Claude Code、Copilot 等多种 AI 平台，旨在帮助 AI 代理像资深分析师一样进行安全调查。",
+        "summary_en": "A comprehensive library of 754 cybersecurity skills for AI agents, mapped to five major frameworks including MITRE ATT&CK and NIST CSF 2.0.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为 AI 代理提供高级网络安全技能，支持安全调查、防御策略制定及多框架合规性检查。",
+        "useCase_en": "Equip AI agents with senior-level cybersecurity skills by providing a structured library mapped to five major industry f"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "presenton/presenton",
+      "description": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)",
+      "language": "TypeScript",
+      "stars": 6344,
+      "forks": 1114,
+      "todayStars": 241,
+      "url": "https://github.com/presenton/presenton",
+      "aiSummary": {
+        "summary": "Presenton 是一个开源的 AI 演示文稿生成器，支持自托管和桌面应用。它兼容多种 AI 模型（如 OpenAI、Ollama），允许用户完全控制数据和模型。项目提供 API 和 PPTX 导出功能，支持自定义模板，旨在作为 Gamma、Beautiful AI 等商业 SaaS 的替代方案，强调隐私和灵活性。",
+        "summary_en": "Open-source AI presentation generator and API offering self-hosting and full model control.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Tailwind CSS"
+        ],
+        "useCase": "适合需要完全控制 AI 模型和数据隐私的企业或开发者，用于替代商业 SaaS 生成专业演示文稿。",
+        "useCase_en": "Create AI-powered presentations locally or via API using customizable AI models and templates."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "stars": 31903,
+      "forks": 3858,
+      "todayStars": 410,
+      "url": "https://github.com/multica-ai/multica",
+      "aiSummary": {
+        "summary": "Multica 是一个开源的托管代理平台，旨在将编码 AI 代理转化为真正的团队成员。它支持任务分配、进度跟踪和技能积累，允许代理自主工作并参与对话。该平台支持多种 AI 工具，专为人类与 AI 协作团队设计，提供自托管方案。",
+        "summary_en": "An open-source platform managing coding agents as autonomous teammates for software development.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要将 AI 代理集成到开发工作流中，实现自主任务管理和团队协作的场景。",
+        "useCase_en": "Manage autonomous coding agents as teammates to handle software development tasks autonomously."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "trimstray/the-book-of-secret-knowledge",
+      "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+      "language": "",
+      "stars": 223824,
+      "forks": 13425,
+      "todayStars": 628,
+      "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+      "aiSummary": {
+        "summary": "这是一个汇集了各类灵感列表、技术手册、速查表、黑客技巧及CLI/Web工具的综合性知识库。它旨在为开发者提供丰富的学习资源和参考资料，涵盖软件开发生命周期的多个方面。",
+        "summary_en": "A collection of inspiring lists, manuals, cheatsheets, and tools for developers.",
+        "techStack": [
+          "Markdown",
+          "HTML",
+          "CSS"
+        ],
+        "useCase": "适用于开发者查找学习资料、技术参考及寻找实用工具。",
+        "useCase_en": "To discover cheatsheets, tools, and resources for developers."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "odoo/odoo",
+      "description": "Odoo. Open Source Apps To Grow Your Business.",
+      "language": "Python",
+      "stars": 51472,
+      "forks": 32529,
+      "todayStars": 386,
+      "url": "https://github.com/odoo/odoo",
+      "aiSummary": {
+        "summary": "Odoo 是一套基于 Web 的开源商业应用套件，包含 CRM、网站构建、电子商务、仓库管理、会计、POS 等多种功能。它既可以作为独立应用使用，也可以集成以提供全功能的开源 ERP 解决方案，适用于企业业务增长。",
+        "summary_en": "Open source ERP suite providing integrated business applications like CRM, accounting, and manufacturing.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "企业全流程业务管理，涵盖 CRM、电商、会计及制造等领域的开源 ERP 解决方案。",
+        "useCase_en": "Companies use this open source ERP suite to manage business operations like CRM, accounting, and manufacturing."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "NVlabs/LongLive",
+      "description": "LongLive 2.0: Infra - Long Video Gen",
+      "language": "Python",
+      "stars": 1800,
+      "forks": 168,
+      "todayStars": 94,
+      "url": "https://github.com/NVlabs/LongLive",
+      "aiSummary": {
+        "summary": "LongLive 2.0 是 NVIDIA 实验室推出的长视频生成 NVFP4 并行基础设施。支持 AR 训练与多镜头推理，利用 NVFP4 和序列并行技术实现高达 45.7 FPS 的实时生成，解决了长序列处理难题。",
+        "summary_en": "NVFP4 parallel infrastructure for training and inference of long videos.",
+        "techStack": [
+          "Python",
+          "NVFP4",
+          "PyTorch"
+        ],
+        "useCase": "长视频生成与实时交互视频创作",
+        "useCase_en": "Infrastructure for training and generating long videos using NVFP4 parallelism."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "stars": 164944,
+      "forks": 13857,
+      "todayStars": 759,
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "aiSummary": {
+        "summary": "yt-dlp 是一个功能丰富的命令行音频/视频下载器，支持数千个网站。作为 youtube-dl 的活跃分支，它提供格式选择、元数据修改、插件支持及多平台安装方式。",
+        "summary_en": "Feature-rich command-line downloader supporting thousands of websites.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "用于从数千个网站下载音频和视频文件。",
+        "useCase_en": "To download videos and audio from thousands of supported websites via CLI."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "janestreet/magic-trace",
+      "description": "magic-trace collects and displays high-resolution traces of what a process is doing",
+      "language": "OCaml",
+      "stars": 5841,
+      "forks": 180,
+      "todayStars": 68,
+      "url": "https://github.com/janestreet/magic-trace",
+      "aiSummary": {
+        "summary": "magic-trace 是一个用于收集和显示进程高分辨率跟踪信息的 OCaml 工具。它利用 Intel Processor Trace 技术，以约 40ns 的分辨率记录控制流，提供约 10ms 的回溯。该工具具有低开销（2%-10%）且无需修改应用程序代码，类似于 perf 但提供环形缓冲区快照，适用于性能分析、调试和崩溃后分析。",
+        "summary_en": "A high-resolution tracing tool for processes using Intel Processor Trace to analyze performance and execution flow.",
+        "techStack": [
+          "OCaml",
+          "Intel Processor Trace"
+        ],
+        "useCase": "适用于性能分析、调试和崩溃后分析，无需修改应用代码即可查看高精度调用栈。",
+        "useCase_en": "Analyze performance bottlenecks and execution flow in production applications without code changes."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-24T00:06:39.677Z",
+    "duration": "346s",
+    "version": "1.0.0"
+  }
+}
