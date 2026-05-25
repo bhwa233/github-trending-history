@@ -1,0 +1,343 @@
+{
+  "date": "2026-05-24",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 15,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Lum1104/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "stars": 25665,
+      "forks": 2224,
+      "todayStars": 3999,
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "aiSummary": {
+        "summary": "这是一个 Claude Code 插件，能够将代码库、知识库或文档转化为交互式知识图谱。通过多智能体分析，它构建包含文件、函数及依赖关系的可视化结构，帮助开发者快速理解大型项目的架构与业务逻辑，支持探索、搜索和问答。",
+        "summary_en": "A Claude Code plugin that builds interactive knowledge graphs from codebases to visualize structure and dependencies.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code",
+          "LLM"
+        ],
+        "useCase": "适用于需要快速理解大型代码库、复杂业务逻辑或知识库结构的开发者。",
+        "useCase_en": "Turn any codebase into an interactive knowledge graph to explore, search, and understand business logic."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 15894,
+      "forks": 2833,
+      "todayStars": 1853,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个全面的 AI 工程自学课程，旨在弥合学生使用 AI 工具与专业准备之间的差距。项目包含 435 节课，覆盖 Python、TypeScript、Rust 和 Julia 四种语言。课程从数学基础开始，逐步构建从线性代数到自主代理的算法，强调“从零开始”和“动手实践”，每节课都会产出可复用的 AI 工件。",
+        "summary_en": "A comprehensive, hands-on curriculum for building AI systems from scratch using math and code.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "适合希望深入理解 AI 原理并从零构建 AI 系统的开发者。",
+        "useCase_en": "Aspiring AI engineers seeking to build production-ready systems from the ground up."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 27221,
+      "forks": 2906,
+      "todayStars": 1173,
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "aiSummary": {
+        "summary": "Anthropic 官方维护的 Claude Code 插件目录，提供高质量插件资源。包含 Anthropic 内部插件及社区/合作伙伴提交的外部插件。支持通过 Claude Code 插件系统直接安装，遵循标准化的插件结构（含元数据、MCP 配置、命令等）。用户需自行评估插件安全性，Anthropic 不对外部插件提供担保。",
+        "summary_en": "Official Anthropic-managed directory of high-quality plugins for Claude Code.",
+        "techStack": [
+          "Python",
+          "JSON",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "为 Claude Code 安装功能扩展插件，或开发者提交和发布 Claude 插件。",
+        "useCase_en": "A marketplace for discovering, installing, and managing high-quality plugins for Claude Code."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 14016,
+      "forks": 1736,
+      "todayStars": 550,
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "aiSummary": {
+        "summary": "这是一个开源插件仓库，旨在将 Claude 转变为特定角色的专家。它包含生产力、销售、客户支持、产品管理等11种插件，支持与多种工具（如 Slack、Notion、Jira）集成。这些插件通过捆绑技能、连接器和斜杠命令，帮助知识工作者和团队自动化工作流程，提升协作效率和一致性。",
+        "summary_en": "Open-source plugins that customize Claude for specific roles, workflows, and company processes.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "知识工作者和团队利用 Claude 进行角色定制化工作，提升工作效率与协作质量。",
+        "useCase_en": "To customize Claude for specific roles, workflows, and company processes by integrating external tools."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 151997,
+      "forks": 15584,
+      "todayStars": 2551,
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "这是一个基于 Andrej Karpathy 对 LLM 编码陷阱观察的单一 CLAUDE.md 文件，旨在提升 Claude Code 的行为质量。项目提出了四个核心原则：编码前思考、简单优先、外科手术式修改和目标驱动执行，以解决模型假设错误、过度复杂化代码及意外副作用等问题，帮助开发者编写更简洁、精准的代码。",
+        "summary_en": "A single CLAUDE.md file containing Karpathy-inspired guidelines for improving Claude Code behavior",
+        "techStack": [
+          "Markdown",
+          "Claude Code Configuration"
+        ],
+        "useCase": "使用 Claude Code 进行编程的开发者，旨在优化 AI 代码生成的准确性与简洁性。",
+        "useCase_en": "Provides coding guidelines for Claude Code based on Andrej Karpathy's observations on LLM coding pitfalls"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "earendil-works/pi",
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "language": "TypeScript",
+      "stars": 53907,
+      "forks": 6438,
+      "todayStars": 456,
+      "url": "https://github.com/earendil-works/pi",
+      "aiSummary": {
+        "summary": "这是一个名为 Pi 的 AI 代理工具包，包含交互式编码代理 CLI、统一多提供商 LLM API、代理运行时及终端 UI 库。项目支持 Slack 机器人和 vLLM pods，旨在通过开源会话数据提升 AI 编码能力，促进社区协作。",
+        "summary_en": "A TypeScript monorepo providing a toolkit for building AI coding agents, unified LLM APIs, and TUI libraries.",
+        "techStack": [
+          "TypeScript",
+          "LLM API",
+          "TUI"
+        ],
+        "useCase": "用于构建和运行 AI 编码代理，自动化软件开发任务。",
+        "useCase_en": "To build and manage autonomous AI coding agents using a unified LLM API and tool calling runtime."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "language": "Python",
+      "stars": 29141,
+      "forks": 4376,
+      "todayStars": 553,
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "aiSummary": {
+        "summary": "这是一个 Claude Code 的免费代理工具，支持终端、VSCode 和 Discord 集成。它充当中间层，将 API 请求路由至 17 种提供商（如 OpenRouter、DeepSeek 等）。支持流式传输、工具调用、语音转录及本地模型，允许用户自定义模型路由和配置。",
+        "summary_en": "A Python proxy to route Claude Code API calls to free or local AI providers.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "Anthropic API",
+          "Uvicorn",
+          "Whisper"
+        ],
+        "useCase": "希望在本地或免费提供商上使用 Claude Code 功能的开发者。",
+        "useCase_en": "Enables free usage of Claude Code features by routing API traffic to various providers or local models."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "stars": 21897,
+      "forks": 1218,
+      "todayStars": 3003,
+      "url": "https://github.com/colbymchenry/codegraph",
+      "aiSummary": {
+        "summary": "CodeGraph 为 Claude Code、Cursor 等 AI 编程助手提供预索引的代码知识图谱。通过构建符号关系和调用图，它让 AI 代理直接查询图谱而非扫描文件，从而显著降低成本（约35%）、减少工具调用（约70%）并提升速度。支持本地运行，无需 Node.js，兼容多种主流 AI 编程助手。",
+        "summary_en": "A local pre-indexed knowledge graph tool that optimizes AI coding agents by reducing token usage and tool calls.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "优化 AI 代码助手对大型代码库的查询效率，降低成本并减少资源消耗。",
+        "useCase_en": "Optimize AI coding agents like Claude Code and Cursor by providing them with a pre-indexed knowledge graph."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "stars": 32468,
+      "forks": 3902,
+      "todayStars": 585,
+      "url": "https://github.com/multica-ai/multica",
+      "aiSummary": {
+        "summary": "Multica 是一个开源的托管代理平台，旨在将编码 AI 代理转化为真正的团队成员。它允许用户像分配给同事一样分配任务，代理会自主编写代码、报告进度和解决问题。该平台支持多种 AI 模型，提供看板视图和技能积累功能，旨在构建 vendor-neutral、self-hosted 的人类与 AI 协作基础设施。",
+        "summary_en": "An open-source managed agents platform that turns coding agents into teammates for software teams.",
+        "techStack": [
+          "TypeScript",
+          "AI Agents",
+          "Self-hosted Infrastructure"
+        ],
+        "useCase": "适用于需要将 AI 代理集成到软件开发工作流中，实现自动化任务分配、进度跟踪和团队协作的场景。",
+        "useCase_en": "Manage and coordinate autonomous coding agents to act as teammates for software development."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 25783,
+      "forks": 4494,
+      "todayStars": 106,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融数据的高噪声特性设计。它采用两阶段框架，通过专用分词器将 OHLCV 数据量化为离散标记，再利用自回归 Transformer 进行预训练。该模型支持多种量化任务，已在 AAAI 2026 被接收，并提供了 mini、small、base 等不同参数量的模型版本。",
+        "summary_en": "Open-source foundation model for financial candlesticks trained on data from over 45 global exchanges.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Hugging Face"
+        ],
+        "useCase": "金融时间序列预测与量化分析",
+        "useCase_en": "It is used for forecasting financial market trends and quantitative analysis."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "manaflow-ai/cmux",
+      "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
+      "language": "Swift",
+      "stars": 19001,
+      "forks": 1449,
+      "todayStars": 696,
+      "url": "https://github.com/manaflow-ai/cmux",
+      "aiSummary": {
+        "summary": "这是一个基于 Ghostty 的 macOS 原生终端应用，专为 AI 编码代理设计。它支持垂直标签页、SSH 远程连接和浏览器集成，具备通知系统以提醒用户 AI 代理的需求。通过脚本化 API 和命令行工具，支持自动化操作和自定义命令，旨在提供流畅、高效的开发体验。",
+        "summary_en": "Ghostty-based macOS terminal featuring vertical tabs, SSH, and notifications for AI coding agents.",
+        "techStack": [
+          "Swift",
+          "AppKit",
+          "Ghostty",
+          "libghostty"
+        ],
+        "useCase": "适合需要与 AI 编码助手深度协作的 macOS 开发者，特别是进行远程开发、自动化脚本执行及多任务管理的场景。",
+        "useCase_en": "To streamline AI-assisted development on macOS by integrating terminal, browser, and SSH workflows."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "stars": 62130,
+      "forks": 9728,
+      "todayStars": 197,
+      "url": "https://github.com/666ghj/MiroFish",
+      "aiSummary": {
+        "summary": "MiroFish 是一个基于 Python 的多智能体群体智能引擎。它通过提取现实世界的种子信息，构建高保真数字世界，模拟智能体互动与演化。用户可上传数据或故事，通过自然语言描述需求，获得详细的预测报告和互动模拟，用于决策回放或创意探索。",
+        "summary_en": "MiroFish is a Python-based swarm intelligence engine that constructs parallel digital worlds to simulate and predict future scenarios.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "用于通过模拟智能体演化来预测未来趋势或进行创意场景推演。",
+        "useCase_en": "Users upload seed materials and describe requirements to simulate and predict future scenarios in a digital sandbox."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars": 504248,
+      "forks": 47828,
+      "todayStars": 550,
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "aiSummary": {
+        "summary": "这是一个汇集了众多技术从头重建教程的开源项目。涵盖操作系统、数据库、Web浏览器、AI模型及3D渲染器等领域。通过跟随指南从零构建这些技术，开发者能深入理解底层原理，是提升编程能力的绝佳实践平台。",
+        "summary_en": "A collection of guides to recreate famous technologies from scratch.",
+        "techStack": [
+          "Markdown",
+          "C++",
+          "Python",
+          "Java",
+          "JavaScript"
+        ],
+        "useCase": "适合希望深入理解计算机科学底层原理、提升编程实战能力的开发者。",
+        "useCase_en": "A resource for developers to master programming by recreating famous technologies from scratch."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "dotnet/skills",
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "language": "C#",
+      "stars": 2954,
+      "forks": 217,
+      "todayStars": 183,
+      "url": "https://github.com/dotnet/skills",
+      "aiSummary": {
+        "summary": "这是一个由 .NET 团队维护的 AI 编码代理技能库，包含核心 .NET 开发、数据访问、性能诊断、构建优化、包管理、项目升级、MAUI 开发、AI/ML 集成、模板引擎、测试运行及 ASP.NET Core 等多种插件，旨在提升 AI 助手在 .NET 生态中的开发效率与准确性。",
+        "summary_en": "A curated set of core skills and custom agents for AI coding agents to assist with .NET and C# development.",
+        "techStack": [
+          "C#",
+          ".NET",
+          "ASP.NET Core",
+          "MAUI",
+          "Entity Framework"
+        ],
+        "useCase": "辅助 AI 编码代理处理 .NET 及 C# 项目的开发、调试、构建、升级及 AI 集成任务。",
+        "useCase_en": "To provide AI coding agents with curated skills for .NET development tasks."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "blakeblackshear/frigate",
+      "description": "NVR with realtime local object detection for IP cameras",
+      "language": "TypeScript",
+      "stars": 32827,
+      "forks": 3178,
+      "todayStars": 181,
+      "url": "https://github.com/blakeblackshear/frigate",
+      "aiSummary": {
+        "summary": "Frigate 是一个专为 Home Assistant 设计的本地 NVR，利用 OpenCV 和 TensorFlow 进行实时 AI 对象检测。支持 GPU 加速，通过 MQTT 集成，提供 24/7 录制、低延迟 WebRTC 流媒体及智能视频保留功能，旨在最大化性能并最小化资源使用。",
+        "summary_en": "Local NVR for Home Assistant featuring AI object detection and real-time video processing.",
+        "techStack": [
+          "TypeScript",
+          "OpenCV",
+          "TensorFlow",
+          "MQTT",
+          "WebRTC"
+        ],
+        "useCase": "适合家庭自动化爱好者构建本地智能安防监控与录像系统。",
+        "useCase_en": "To provide local, real-time object detection and recording for IP cameras."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "language": "Python",
+      "stars": 8305,
+      "forks": 1057,
+      "todayStars": 930,
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-25T00:09:39.888Z",
+    "duration": "316s",
+    "version": "1.0.0"
+  }
+}
