@@ -1,0 +1,364 @@
+{
+  "date": "2026-05-25",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Lum1104/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "stars": 30983,
+      "forks": 2567,
+      "todayStars": 5604,
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "aiSummary": {
+        "summary": "这是一个 TypeScript 开发的 Claude Code 插件，旨在将代码库、知识库或文档转化为交互式知识图谱。它通过多智能体管道分析项目结构，构建包含文件、函数、类和依赖关系的可视化图谱。用户可以通过交互式仪表板进行探索、搜索和提问，帮助开发者快速理解复杂的代码库和业务逻辑，实现从“盲目阅读代码”到“直观理解全貌”的转变。",
+        "summary_en": "A Claude Code plugin that transforms codebases into interactive knowledge graphs for visual exploration and understanding.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code",
+          "Multi-agent Pipeline"
+        ],
+        "useCase": "适用于新团队成员快速上手大型复杂代码库，或用于代码结构、业务逻辑及知识库的可视化探索与分析。",
+        "useCase_en": "To turn complex codebases into interactive knowledge graphs for exploration and analysis."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 15409,
+      "forks": 1862,
+      "todayStars": 1441,
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Cowork 和 Claude Code 设计的开源插件库，旨在将 Claude 转变为特定角色（如销售、产品管理等）的专家。它提供了预构建的插件，包含技能、连接器和斜杠命令，帮助知识工作者自动化任务、管理数据流并提高团队协作效率。用户还可以根据公司特定工具和流程进行自定义。",
+        "summary_en": "Open-source plugins to specialize Claude for specific roles and workflows.",
+        "techStack": [
+          "Python",
+          "Claude API"
+        ],
+        "useCase": "为知识工作者提供定制化的 Claude 插件，以自动化特定工作流并提升团队协作效率。",
+        "useCase_en": "To configure Claude with company-specific tools and workflows for specialized knowledge work."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 18484,
+      "forks": 3141,
+      "todayStars": 3154,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个全栈AI工程实战课程，包含435课和20个阶段，涵盖Python、TypeScript、Rust、Julia四种语言。课程从数学基础出发，逐步构建算法与代理，强调从零开始开发并产出可复用工件，旨在培养具备底层原理理解与工程落地能力的AI工程师。",
+        "summary_en": "Comprehensive open-source curriculum teaching AI engineering from raw math to production.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "AI工程师从零构建AI系统与代理的实战学习",
+        "useCase_en": "To master AI engineering by building algorithms and agents from raw math to production systems."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 192302,
+      "forks": 29768,
+      "todayStars": 2025,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个跨多个 AI 代理工具（如 Claude、Cursor）的性能优化系统。它提供技能、直觉、记忆持久化、安全扫描和持续学习功能，旨在提升代理的开发效率和代码质量。作为 Anthropic Hackathon 获奖项目，它支持生产环境部署，包含 Token 优化、并行化和子代理编排等高级特性。",
+        "summary_en": "An open-source agent harness optimization system for AI coding tools like Cursor and Claude Code, featuring skills, memory, and security.",
+        "techStack": [
+          "JavaScript",
+          "Python"
+        ],
+        "useCase": "适用于需要优化 AI 代理工具性能、提升开发效率的程序员和 AI 工程师。",
+        "useCase_en": "Optimize AI coding agent performance across multiple platforms like Cursor and Claude Code using skills, memory, and sec"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "language": "Python",
+      "stars": 9210,
+      "forks": 1134,
+      "todayStars": 1004,
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "aiSummary": {
+        "summary": "这是一个为 AI 代理提供 754 个结构化网络安全技能的开源库。它遵循 agentskills.io 标准，将技能映射到 MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND 和 NIST AI RMF 五大框架。旨在帮助 AI 代理像资深分析师一样处理安全调查，支持多种主流 AI 编程助手平台。",
+        "summary_en": "Open-source library of 754 cybersecurity skills mapped to five major frameworks for AI agents.",
+        "techStack": [
+          "Python",
+          "Node.js",
+          "Git"
+        ],
+        "useCase": "为 AI 编程助手提供安全专家级指导，用于网络安全调查、威胁检测与合规检查。",
+        "useCase_en": "Equip AI coding agents with expert-level cybersecurity guidance by integrating this skills library."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "stars": 24870,
+      "forks": 1373,
+      "todayStars": 3161,
+      "url": "https://github.com/colbymchenry/codegraph",
+      "aiSummary": {
+        "summary": "CodeGraph 是一个为 Claude Code、Cursor 等 AI 编程助手提供预索引代码知识图谱的工具。它通过构建符号关系和调用图，让 AI 代理无需扫描文件即可快速查询代码结构，从而降低 Token 消耗和工具调用次数，提升开发效率，且完全本地运行。",
+        "summary_en": "Pre-indexed code knowledge graph to accelerate AI coding agents and reduce token usage.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "为 Claude Code、Cursor 等 AI 编程助手提供本地化的代码语义索引，优化代码理解效率。",
+        "useCase_en": "Optimize AI coding agents like Claude Code and Cursor by providing a pre-indexed knowledge graph for faster, cheaper cod"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "manaflow-ai/cmux",
+      "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
+      "language": "Swift",
+      "stars": 19473,
+      "forks": 1473,
+      "todayStars": 603,
+      "url": "https://github.com/manaflow-ai/cmux",
+      "aiSummary": {
+        "summary": "这是一个基于 Ghostty 的 macOS 终端应用，专为 AI 编码代理设计。它提供垂直标签页、通知系统及内置浏览器，支持 SSH 远程连接和 Claude Code Teams。应用采用原生 Swift 开发，性能高效，支持脚本化操作。",
+        "summary_en": "A native macOS terminal for AI coding agents featuring vertical tabs, SSH support, and integrated browser panes.",
+        "techStack": [
+          "Swift",
+          "AppKit",
+          "libghostty"
+        ],
+        "useCase": "适合需要高效管理 AI 编码助手、SSH 远程连接及浏览器集成的开发者。",
+        "useCase_en": "Developers use this tool to manage AI coding agents within a unified native macOS interface with split panes for termina"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 154901,
+      "forks": 15873,
+      "todayStars": 2749,
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "该项目是一个基于 Andrej Karpathy 关于 LLM 编码观察的单一 CLAUDE.md 配置文件。它旨在通过四个核心原则（思考前编码、简单优先、外科手术式更改、目标驱动执行）来改善 Claude Code 的行为，解决模型假设错误、代码过度复杂化和破坏性更改等问题。",
+        "summary_en": "A set of coding guidelines for Claude AI based on Andrej Karpathy's observations on LLM pitfalls.",
+        "techStack": [
+          "Markdown",
+          "Claude Code",
+          "LLM"
+        ],
+        "useCase": "需要提升 Claude Code 代码质量和逻辑严谨性的开发者",
+        "useCase_en": "To improve Claude Code behavior by applying Andrej Karpathy's principles for writing simpler, more robust code."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "language": "Python",
+      "stars": 23862,
+      "forks": 3282,
+      "todayStars": 317,
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "aiSummary": {
+        "summary": "FinceptTerminal 是一款基于 C++20 和 Qt6 的专业桌面金融终端。它利用嵌入式 Python 进行高级量化分析，集成了 37 个 AI 交易代理、100+ 数据源及实时交易功能。支持多资产分析、算法交易和量化实验室，旨在为用户提供数据驱动的投资决策环境。",
+        "summary_en": "Professional-grade finance terminal featuring AI agents, real-time trading, and quantitative analytics.",
+        "techStack": [
+          "C++20",
+          "Qt6",
+          "Python",
+          "QuantLib"
+        ],
+        "useCase": "专业量化交易与投资分析",
+        "useCase_en": "A comprehensive tool for professional traders and investors to analyze markets and execute trades."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "paperless-ngx/paperless-ngx",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "language": "Python",
+      "stars": 41317,
+      "forks": 2743,
+      "todayStars": 176,
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "aiSummary": {
+        "summary": "Paperless-ngx 是一个基于 Python 的社区支持文档管理系统，旨在将物理文档转化为可搜索的在线档案。它支持扫描、索引和归档，提供 Docker 部署方案，并允许从旧版本轻松迁移。项目强调社区协作，适合需要数字化管理大量纸质文件的用户。",
+        "summary_en": "A community-supported document management system designed to scan, index, and archive physical documents.",
+        "techStack": [
+          "Python",
+          "Docker"
+        ],
+        "useCase": "适合个人或团队进行纸质文档的数字化归档与检索。",
+        "useCase_en": "To digitize and archive physical documents into a searchable online database."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "stars": 44003,
+      "forks": 5046,
+      "todayStars": 141,
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "aiSummary": {
+        "summary": "这是一个由 Anthropic 提供的 Claude API 使用指南集合，包含 Jupyter Notebook 格式的代码示例。项目涵盖了分类、RAG、总结、工具使用、第三方集成及多模态等核心能力，旨在帮助开发者快速集成 Claude API 构建应用。",
+        "summary_en": "A collection of Jupyter notebooks showcasing effective ways to use the Claude AI API.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "Claude API"
+        ],
+        "useCase": "适合开发者学习 Claude API 的各种高级用法并集成到项目中。",
+        "useCase_en": "Developers use these code snippets to build applications integrating Claude's capabilities."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "language": "Shell",
+      "stars": 19665,
+      "forks": 1653,
+      "todayStars": 264,
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "aiSummary": {
+        "summary": "Taste-Skill 是一个为 AI 代理设计的“反垃圾”前端框架，旨在提升 AI 生成的界面设计质量。它提供可移植的技能包，包含代码和图像生成技能，帮助 AI 构建更美观的布局、排版和动画，避免通用的样板 UI。用户可与图像生成工具配合，生成设计参考图，再由代码编辑器实现代码。",
+        "summary_en": "A framework of skills that upgrades AI-generated frontend interfaces and prevents generic design output.",
+        "techStack": [
+          "Shell",
+          "JavaScript"
+        ],
+        "useCase": "用于提升 AI 代理生成的网页和移动端界面的设计质量，避免生成通用的样板 UI。",
+        "useCase_en": "To upgrade AI-generated interfaces with better layout, typography, and motion while preventing generic design output."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars": 39699,
+      "forks": 4021,
+      "todayStars": 62,
+      "url": "https://github.com/moeru-ai/airi",
+      "aiSummary": {
+        "summary": "这是一个自托管的 AI 虚拟伴侣项目，灵感来源于 Neuro-sama。它旨在将虚拟角色带入现实，支持实时语音聊天、游戏游玩（如 Minecraft 和 Factorio）以及代码查看。项目基于 TypeScript 开发，支持 Web、macOS 和 Windows 平台，致力于打造一个能与用户互动的赛博生命体。",
+        "summary_en": "A self-hosted AI companion inspired by Neuro-sama, capable of voice chat, gaming, and coding assistance on Web, macOS, and Windows.",
+        "techStack": [
+          "TypeScript",
+          "LLM (ChatGPT/Claude)",
+          "Live2D"
+        ],
+        "useCase": "寻求自托管 AI 虚拟伴侣或虚拟主播体验的用户。",
+        "useCase_en": "To provide a self-hosted, customizable AI companion capable of voice interaction, gaming, and coding assistance."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 26015,
+      "forks": 4518,
+      "todayStars": 245,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，专为处理高噪声金融数据设计。它采用两阶段框架，利用专用分词器量化 OHLCV 数据，并通过自回归 Transformer 进行预训练。项目提供多版本模型，支持 BTC 等交易对的预测，已获 AAAI 2026 接收。",
+        "summary_en": "Open-source foundation model for financial candlesticks trained on data from over 45 global exchanges.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Tokenizer"
+        ],
+        "useCase": "金融时间序列预测，特别是加密货币和股票的 K 线走势预测。",
+        "useCase_en": "It is used for forecasting financial market trends and diverse quantitative tasks."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "Axorax/awesome-free-apps",
+      "description": "Curated list of the best free apps for PC and mobile",
+      "language": "JavaScript",
+      "stars": 4491,
+      "forks": 230,
+      "todayStars": 192,
+      "url": "https://github.com/Axorax/awesome-free-apps",
+      "aiSummary": {
+        "summary": "这是一个精选的免费 PC 和移动端应用列表，按类别（如音频、开发工具、视频等）组织。项目包含各类实用软件的推荐，并标注了操作系统兼容性和开源状态，旨在帮助用户发现优质免费工具。",
+        "summary_en": "A curated collection of the best free software applications for PC and mobile devices.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "适合寻找各类免费实用软件、开发工具或娱乐应用的 PC 和移动端用户。",
+        "useCase_en": "A resource for finding and discovering the best free applications for various operating systems and use cases."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "hardikpandya/stop-slop",
+      "description": "A skill file for removing AI tells from prose",
+      "language": "",
+      "stars": 4380,
+      "forks": 383,
+      "todayStars": 345,
+      "url": "https://github.com/hardikpandya/stop-slop",
+      "aiSummary": {
+        "summary": "这是一个用于 Claude 和其他 LLM 的技能文件，旨在移除 AI 写作中的“AI 痕迹”。它包含指令、参考短语、结构和示例，帮助 AI 生成更自然、直接且具有人类风格的文本，避免陈词滥调、被动语态和模糊的过渡。",
+        "summary_en": "A skill for removing AI-generated patterns from prose to make it sound more human.",
+        "techStack": [
+          "提示词工程",
+          "LLM 技能",
+          "Markdown"
+        ],
+        "useCase": "用于 Claude Code、Claude Projects 或 API 调用中，提升文本的自然度，去除 AI 垃圾话。",
+        "useCase_en": "Use this skill to refine AI-generated text and eliminate robotic patterns."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "stars": 102451,
+      "forks": 15284,
+      "todayStars": 640,
+      "url": "https://github.com/garrytan/gstack",
+      "aiSummary": {
+        "summary": "gstack 是一个基于 TypeScript 的项目，旨在将 Claude Code 转化为一个虚拟工程团队。它包含 23 个观点鲜明的工具，模拟 CEO、设计师、工程经理、发布经理、文档工程师和 QA 的角色。通过这套工具，开发者可以大幅提升个人生产力，实现单人团队的高效交付。",
+        "summary_en": "A TypeScript setup for 23 AI agents acting as a virtual engineering team.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code"
+        ],
+        "useCase": "适用于希望利用 AI 工具模拟团队协作、提升个人开发效率和交付速度的个人开发者或初创团队。",
+        "useCase_en": "To transform Claude Code into a virtual engineering team using 23 opinionated tools."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-26T00:14:43.766Z",
+    "duration": "286s",
+    "version": "1.0.0"
+  }
+}
