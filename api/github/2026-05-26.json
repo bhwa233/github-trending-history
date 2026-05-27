@@ -1,0 +1,303 @@
+{
+  "date": "2026-05-26",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Lum1104/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "stars": 35734,
+      "forks": 2869,
+      "todayStars": 4697,
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "aiSummary": {
+        "summary": "这是一个 Claude Code 插件，通过多智能体管道将代码库、知识库或文档转换为交互式知识图谱。它支持结构图探索、业务逻辑映射及知识库分析，帮助开发者快速理解大型代码库的架构与业务逻辑，告别盲目阅读代码。",
+        "summary_en": "A Claude Code plugin that builds interactive knowledge graphs from codebases to help developers understand complex projects.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code",
+          "LLM Agents"
+        ],
+        "useCase": "新加入团队快速理解大型代码库架构，或分析知识库文档。",
+        "useCase_en": "Transform large codebases into interactive visual graphs to understand code structure, dependencies, and business logic."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 194321,
+      "forks": 29964,
+      "todayStars": 1915,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个高性能的 AI 代理运行时优化系统，旨在提升 Claude Code、Cursor 等多个 AI 编程助手的能力。它提供技能、记忆持久化、安全扫描和并行化等核心功能，支持持续学习和验证循环，帮助开发者构建生产级的智能体工作流。该项目曾获 Anthropic Hackathon 获奖者，目前处于 v2.0.0-rc.1 阶段，并推出了基于 Tkinter 的桌面仪表板。",
+        "summary_en": "An Anthropic Hackathon-winning agent harness optimization system for AI coding tools like Cursor and Claude Code.",
+        "techStack": [
+          "JavaScript",
+          "Python",
+          "Tkinter",
+          "MCP"
+        ],
+        "useCase": "适用于需要优化 AI 编程助手性能、构建复杂智能体工作流或进行多模型并行开发的开发者。",
+        "useCase_en": "Enhance the performance and capabilities of AI coding agents like Cursor and Claude Code through a unified optimization "
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 20684,
+      "forks": 3446,
+      "todayStars": 2155,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个从零构建 AI 系统的实战课程，包含 435 课和 20 个阶段。课程涵盖数学基础到生产级代理，支持 Python、TypeScript、Rust 和 Julia。核心在于从底层算法（如反向传播、注意力机制）开始手写实现，而非仅依赖 PyTorch 等库，旨在培养具备深度理解的专业 AI 工程师。",
+        "summary_en": "Comprehensive open-source curriculum teaching AI engineering from scratch across 4 languages.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "适合希望深入理解 AI 底层原理并从零构建系统的开发者。",
+        "useCase_en": "A self-paced educational resource for building AI systems and agents from raw mathematical foundations."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 16645,
+      "forks": 1952,
+      "todayStars": 1718,
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "aiSummary": {
+        "summary": "该项目为 Claude Cowork 提供开源插件库，旨在将 Claude 转变为特定角色（如销售、产品、法律等）的专家助手。通过集成 Slack、Jira、Notion 等工具，它允许用户自定义工作流和斜杠命令，从而自动化任务管理、客户支持和内容创作，提升团队协作效率。",
+        "summary_en": "Open-source plugins to customize Claude for specific roles and workflows.",
+        "techStack": [
+          "Python",
+          "Claude API"
+        ],
+        "useCase": "适用于需要将 Claude 集成到工作流中以提高生产力、自动化任务和管理的知识工作者和企业团队。",
+        "useCase_en": "Customize Claude with specific tools and workflows for roles like sales, support, and product management."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "language": "Python",
+      "stars": 10097,
+      "forks": 1186,
+      "todayStars": 880,
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "aiSummary": {
+        "summary": "该项目包含754个结构化网络安全技能，遵循agentskills.io标准，并映射至MITRE ATT&CK、NIST CSF 2.0等五大框架。旨在赋予AI代理资深分析师的能力，支持Claude Code、GitHub Copilot等20多个平台，覆盖26个安全领域，帮助用户快速获得专家级的安全调查指导。",
+        "summary_en": "A library of 754 cybersecurity skills for AI agents mapped to major frameworks.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为AI代理提供资深分析师级别的网络安全技能，用于自动化安全调查和威胁检测。",
+        "useCase_en": "Provides structured cybersecurity skills for AI agents using five major frameworks."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "hardikpandya/stop-slop",
+      "description": "A skill file for removing AI tells from prose",
+      "language": "",
+      "stars": 5003,
+      "forks": 402,
+      "todayStars": 539,
+      "url": "https://github.com/hardikpandya/stop-slop",
+      "aiSummary": {
+        "summary": "该项目是一个旨在移除 AI 写作痕迹的技能文件。它通过定义禁用短语、结构陈词滥调和句子级规则，教导 Claude 或其他 LLM 识别并修正机械节奏、被动语态等 AI 特征。项目包含评分机制，帮助评估文本的直接性与真实性，旨在生成更自然、更符合人类阅读习惯的散文。",
+        "summary_en": "A skill file designed to remove AI-generated patterns and tells from prose.",
+        "techStack": [
+          "Markdown",
+          "LLM"
+        ],
+        "useCase": "用于优化 AI 生成的文本，使其去除机械感，提升自然度和真实感。",
+        "useCase_en": "Helps users refine AI-generated prose by removing robotic patterns and clichés."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "language": "Shell",
+      "stars": 21612,
+      "forks": 1738,
+      "todayStars": 1430,
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "aiSummary": {
+        "summary": "Taste-Skill 是一款面向 AI 代理的“反垃圾”前端框架。它提供可移植的设计技能，帮助 AI 生成具有优秀布局、排版和动效的界面，避免枯燥的样板代码。此外，还包含图像生成技能用于参考板制作。用户可通过 npx 安装，与 ChatGPT、Codex 等工具配合使用，提升 AI 产出界面的质量。",
+        "summary_en": "An anti-slop frontend framework providing design skills and reference boards for AI agents.",
+        "techStack": [
+          "Shell",
+          "Markdown"
+        ],
+        "useCase": "提升 AI 生成的前端界面设计质量，避免生成枯燥的通用代码。",
+        "useCase_en": "Developers use this framework to prevent AI from generating generic UIs and improve layout quality."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "DigitalPlatDev/FreeDomain",
+      "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+      "language": "HTML",
+      "stars": 167321,
+      "forks": 3080,
+      "todayStars": 1219,
+      "url": "https://github.com/DigitalPlatDev/FreeDomain",
+      "aiSummary": {
+        "summary": "DigitalPlat FreeDomain 是一个提供免费域名注册服务的项目，旨在让每个人都能拥有数字身份。用户可注册 .DPDNS.ORG 等扩展名的域名，并将其托管在 Cloudflare 等服务商。该项目已有超50万域名注册，致力于降低建站门槛，让互联网更加开放。",
+        "summary_en": "A service providing free domain names to help users establish a digital identity.",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "个人或组织免费获取域名并托管网站",
+        "useCase_en": "Users can register free domain extensions to host their websites on preferred DNS providers."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "jellyfin/jellyfin",
+      "description": "The Free Software Media System - Server Backend & API",
+      "language": "C#",
+      "stars": 52377,
+      "forks": 4870,
+      "todayStars": 83,
+      "url": "https://github.com/jellyfin/jellyfin",
+      "aiSummary": {
+        "summary": "Jellyfin 是一个免费开源的媒体系统，提供服务器端和 API。它是 Emby 和 Plex 的替代品，允许用户管理和流式传输媒体。项目基于 .NET 平台，支持跨平台，无付费许可证或隐藏议程。本仓库包含后端服务器代码。",
+        "summary_en": "A free, open-source media server for streaming and managing your media library.",
+        "techStack": [
+          "C#",
+          ".NET",
+          "Server Backend"
+        ],
+        "useCase": "构建个人媒体服务器，替代 Emby/Plex 进行家庭影院媒体管理和流式传输。",
+        "useCase_en": "To manage and stream personal media collections across multiple devices."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Axorax/awesome-free-apps",
+      "description": "Curated list of the best free apps for PC and mobile",
+      "language": "JavaScript",
+      "stars": 5243,
+      "forks": 268,
+      "todayStars": 731,
+      "url": "https://github.com/Axorax/awesome-free-apps",
+      "aiSummary": {
+        "summary": "这是一个精选的免费软件列表，涵盖 PC 和移动端。项目按类别（如音频、开发工具、游戏等）组织，使用图标标识平台（Windows、macOS、Linux）及状态（开源、推荐），旨在帮助用户发现高质量且免费的实用工具。",
+        "summary_en": "A curated list of the best free applications for PC and mobile devices.",
+        "techStack": [
+          "JavaScript",
+          "Markdown"
+        ],
+        "useCase": "适合寻找免费软件替代品或需要整理优质工具推荐的用户。",
+        "useCase_en": "A resource for finding free, open-source, and recommended software across multiple categories."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "language": "TypeScript",
+      "stars": 46847,
+      "forks": 6651,
+      "todayStars": 216,
+      "url": "https://github.com/twentyhq/twenty",
+      "aiSummary": {
+        "summary": "Twenty 是 Salesforce 的开源替代品，专为 AI 设计。它为技术团队提供构建块，允许通过代码定义对象、字段和视图，像管理其他技术栈一样管理 CRM。支持云端、CLI 和自托管，包含对象、视图、工作流和智能体等功能，适合需要高度定制化和快速适应业务变化的团队。",
+        "summary_en": "An open-source, AI-powered CRM alternative to Salesforce built with TypeScript.",
+        "techStack": [
+          "TypeScript",
+          "Docker"
+        ],
+        "useCase": "适合需要高度定制化 CRM 且希望像管理代码一样管理业务逻辑的技术团队。",
+        "useCase_en": "Technical teams use Twenty to build custom, AI-driven CRMs that adapt to evolving business needs."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "Open-Dev-Society/OpenStock",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "language": "TypeScript",
+      "stars": 12091,
+      "forks": 1626,
+      "todayStars": 156,
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "aiSummary": {
+        "summary": "OpenStock 是一个开源的股票市场平台，旨在替代昂贵的商业服务。它使用 Next.js 和 TypeScript 构建，提供实时价格追踪、个性化警报和详细的公司洞察。该项目由 Open Dev Society 维护，承诺永久免费且无付费墙，强调透明度和社区支持。",
+        "summary_en": "OpenStock is a free, open-source stock market tracking platform offering real-time prices and alerts.",
+        "techStack": [
+          "Next.js",
+          "TypeScript",
+          "shadcn/ui",
+          "Tailwind CSS",
+          "Better Auth"
+        ],
+        "useCase": "适合个人投资者及学生，用于免费追踪股市行情、获取实时数据及设置价格提醒。",
+        "useCase_en": "Track real-time stock prices, set personalized alerts, and explore company insights without paying for expensive brokera"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 78632,
+      "forks": 6767,
+      "todayStars": 352,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "Claude-Mem 是一个为 Claude Code 等代理提供持久化上下文的工具。它自动捕获会话中的工具使用，利用 AI 进行语义压缩，并将相关上下文注入未来会话，实现跨会话的知识连续性。支持 Claude Code、Gemini CLI、OpenCode 等多种平台。",
+        "summary_en": "Persistent memory compression system for AI agents to maintain context across sessions.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "为 AI 编程助手提供跨会话的持久化记忆与上下文管理",
+        "useCase_en": "To maintain continuity of knowledge across sessions for AI agents by capturing and compressing context."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "st-tech/ppf-contact-solver",
+      "description": "A contact solver for physics-based simulations involving 👚 shells, 🪵 solids and 🪢 rods.",
+      "language": "Python",
+      "stars": 3479,
+      "forks": 249,
+      "todayStars": 170,
+      "url": "https://github.com/st-tech/ppf-contact-solver",
+      "aiSummary": {
+        "summary": "这是一个由 ZOZO 开发的物理模拟接触求解器，专为处理壳、实体和杆等物体设计。它具备 GPU 加速、无穿透接触、支持超大规模计算（1.8亿+接触点）及有限元法（FEM）等特点。项目提供 Blender 插件、Docker 容器及 Python API，支持云端部署，适用于高性能物理仿真场景。",
+        "summary_en": "High-performance GPU contact solver for physics simulations using Finite Element Method.",
+        "techStack": [
+          "Python",
+          "GPU (CUDA)",
+          "Blender",
+          "Docker",
+          "JupyterLab"
+        ],
+        "useCase": "高性能物理仿真，特别是涉及服装（壳）、实体和杆的模拟。",
+        "useCase_en": "Running physics-based simulations for shells, solids, and rods in high-scale environments."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-27T00:15:20.375Z",
+    "duration": "205s",
+    "version": "1.0.0"
+  }
+}
