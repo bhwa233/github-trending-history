@@ -1,0 +1,360 @@
+{
+  "date": "2026-05-27",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "stars": 61885,
+      "forks": 9040,
+      "todayStars": 1742,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 AI 视频生成工具，采用 MVC 架构。用户只需输入主题，即可自动生成文案、素材、字幕和背景音乐，并合成高清视频。支持批量生成、多种尺寸及多种大模型接入，适合快速制作短视频内容。",
+        "summary_en": "An AI-driven Python project for automated short video generation with scripts, assets, and subtitles.",
+        "techStack": [
+          "Python",
+          "AI/LLM",
+          "视频处理",
+          "Web/API"
+        ],
+        "useCase": "适合需要快速批量生成短视频内容的创作者或营销人员。",
+        "useCase_en": "Users can generate high-quality short videos for social media by simply entering a topic or keyword."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "Lum1104/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "stars": 39713,
+      "forks": 3164,
+      "todayStars": 4465,
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "aiSummary": {
+        "summary": "这是一个 Claude Code 插件，利用多智能体管道将代码库、知识库或文档转化为交互式知识图谱。它通过可视化文件、函数、类和依赖关系，帮助开发者快速理解复杂的代码结构、业务逻辑及知识关联，支持搜索、探索和问答，旨在让开发者“看到大局”而非盲目阅读代码。",
+        "summary_en": "A Claude Code plugin that builds interactive knowledge graphs of codebases to visualize structure and dependencies.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code",
+          "LLM Agents"
+        ],
+        "useCase": "适用于新加入的大型代码库团队，帮助快速理解代码结构和业务逻辑，或将非结构化知识库转化为可视化图谱。",
+        "useCase_en": "Turn any codebase into an interactive knowledge graph to explore, search, and understand business logic visually."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "hardikpandya/stop-slop",
+      "description": "A skill file for removing AI tells from prose",
+      "language": "",
+      "stars": 5666,
+      "forks": 434,
+      "todayStars": 664,
+      "url": "https://github.com/hardikpandya/stop-slop",
+      "aiSummary": {
+        "summary": "这是一个用于移除 AI 写作痕迹（如填充词、陈词滥调、被动语态）的技能文件。它通过提供参考库和评分系统，教导 Claude 等大模型识别并修正文本中的“AI 味”，使散文更自然、直接且具有人类特征。",
+        "summary_en": "A skill file designed to remove AI-generated patterns from prose.",
+        "techStack": [
+          "Claude",
+          "Markdown",
+          "LLM"
+        ],
+        "useCase": "用于优化 AI 生成的文本，去除机械感和套路化表达，使其更自然、直接且具有人类特征。",
+        "useCase_en": "Helps AI remove predictable phrases and structures to produce more authentic prose."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 195990,
+      "forks": 30154,
+      "todayStars": 2062,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是 Anthropic Hackathon 获胜者，专为 Claude Code、Cursor 等主流 AI 代理工具设计的性能优化系统。它提供了一套完整的操作员系统，包含技能管理、记忆持久化、持续学习和安全扫描等功能，旨在提升代理的开发效率和智能化水平。",
+        "summary_en": "An open-source agent harness optimization system for AI coding tools like Cursor and Claude Code, featuring skills and memory management.",
+        "techStack": [
+          "JavaScript",
+          "Python"
+        ],
+        "useCase": "用于提升 Claude Code、Cursor 等主流 AI 编程代理工具的性能、记忆持久化及自动化工作流。",
+        "useCase_en": "Optimize AI coding agent performance and workflows across multiple IDEs."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 17253,
+      "forks": 2015,
+      "todayStars": 695,
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "aiSummary": {
+        "summary": "Anthropics 开源的知识工作插件库，旨在将 Claude 定制为特定角色专家。通过集成各类工具（如 Slack、Jira）和自定义工作流，这些插件帮助知识工作者自动化任务、管理数据并提升团队协作效率，支持深度定制以适应公司特定流程。",
+        "summary_en": "Open-source plugins to customize Claude for specific roles and workflows.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于知识工作者将 Claude 定制为特定角色（如销售、产品管理），并集成企业工具以自动化工作流的场景。",
+        "useCase_en": "Configure Claude to handle specialized workflows for roles like sales, support, and project management."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "language": "Shell",
+      "stars": 24162,
+      "forks": 1865,
+      "todayStars": 2715,
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "aiSummary": {
+        "summary": "Taste-Skill 是一个为 AI 代理设计的反垃圾前端框架，旨在提升 AI 生成界面的设计质量。它提供可移植的技能，包含布局、排版、动画等优化，并支持图像生成参考板。可与 ChatGPT Images、Codex 等工具配合，帮助 AI 构建更美观、非通用的用户界面。",
+        "summary_en": "An anti-slop frontend framework for AI agents to generate high-quality, non-generic interfaces.",
+        "techStack": [
+          "Shell",
+          "AI Tools"
+        ],
+        "useCase": "提升 AI 代理生成的界面设计质量，避免通用 UI，辅助前端开发。",
+        "useCase_en": "Improves the design quality of AI-generated frontend code and UI layouts."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "stars": 22000,
+      "forks": 2348,
+      "todayStars": 211,
+      "url": "https://github.com/p-e-w/heretic",
+      "aiSummary": {
+        "summary": "Heretic 是一个用于自动移除语言模型审查（安全对齐）的工具。它结合了方向消融技术和 Optuna 优化器，通过最小化拒绝率和 KL 散度自动寻找最佳参数。该方法无需人工干预，能生成保留原始模型智能的解密模型，支持多种模型架构，且效果优于人工消融。",
+        "summary_en": "Fully automatic censorship removal tool for transformer-based language models using directional ablation and Optuna optimization.",
+        "techStack": [
+          "Python",
+          "Optuna",
+          "Transformer",
+          "方向消融"
+        ],
+        "useCase": "移除语言模型安全限制以进行实验或研究，同时尽量减少对模型能力损害的场景。",
+        "useCase_en": "Automatically remove censorship from transformer-based language models without expensive post-training."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 26866,
+      "forks": 4655,
+      "todayStars": 401,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融数据的高噪声特性设计。它采用两阶段框架，首先将 OHLCV 数据量化为离散标记，再通过自回归 Transformer 进行预训练。该模型支持多种量化任务，已在 AAAI 2026 被接收，并提供了从 mini 到 large 的多种模型版本。",
+        "summary_en": "Open-source foundation model for financial candlesticks, trained on data from 45+ global exchanges.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Hugging Face",
+          "Tokenization"
+        ],
+        "useCase": "金融时间序列预测、量化交易策略开发",
+        "useCase_en": "Forecasting financial market trends and performing quantitative analysis on candlestick data."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "language": "Python",
+      "stars": 10937,
+      "forks": 1250,
+      "todayStars": 886,
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "aiSummary": {
+        "summary": "这是一个开源的网络安全技能库，包含754个结构化技能，覆盖26个安全领域。它将技能映射到MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND和NIST AI RMF五个主流框架，遵循agentskills.io标准。旨在为AI代理提供资深分析师级别的安全指导，支持Claude Code、Copilot等多种平台。",
+        "summary_en": "A comprehensive library of 754 cybersecurity skills mapped to five major frameworks for AI agents to assist in security investigations.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为AI代理提供资深分析师级别的网络安全指导。",
+        "useCase_en": "To equip AI agents with structured cybersecurity skills and framework mappings for threat analysis and defense."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "language": "TypeScript",
+      "stars": 47319,
+      "forks": 6716,
+      "todayStars": 519,
+      "url": "https://github.com/twentyhq/twenty",
+      "aiSummary": {
+        "summary": "Twenty 是一个开源的 Salesforce 替代品，专为 AI 设计。它为技术团队提供构建自定义 CRM 的积木，允许通过代码定义对象、视图和工作流。支持云端、CLI 构建和自托管，旨在像其他技术栈一样快速适应业务需求。",
+        "summary_en": "An open-source, AI-powered CRM alternative to Salesforce built with TypeScript.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Node.js"
+        ],
+        "useCase": "需要高度定制化且可扩展的 CRM 系统的技术团队。",
+        "useCase_en": "Technical teams use this to build and version custom, AI-enhanced CRMs for complex business needs."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Chachamaru127/claude-code-harness",
+      "description": "Claude Code Dedicated Development Harness - Achieving High-Quality Development Through an Autonomous Plan→Work→Review Cycle",
+      "language": "Shell",
+      "stars": 1809,
+      "forks": 198,
+      "todayStars": 87,
+      "url": "https://github.com/Chachamaru127/claude-code-harness",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 设计的开发工具，旨在通过“计划→工作→审查→发布”的自律循环实现高质量开发。它将原始的代理工作转化为可重复的操作路径，通过规范编写、批准切片、验证结果和独立审查等步骤，确保代码质量和交付证据的完整性。",
+        "summary_en": "A disciplined development harness for Claude Code enforcing a Plan-Work-Review-Ship cycle.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "需要结构化开发流程、提升代码质量和自动化交付的开发者。",
+        "useCase_en": "To structure and automate the development workflow for Claude Code agents."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "DigitalPlatDev/FreeDomain",
+      "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+      "language": "HTML",
+      "stars": 169100,
+      "forks": 3194,
+      "todayStars": 2222,
+      "url": "https://github.com/DigitalPlatDev/FreeDomain",
+      "aiSummary": {
+        "summary": "DigitalPlat FreeDomain 是一个提供免费域名的项目，旨在让每个人都能拥有数字身份。它支持多种顶级域名扩展，用户可将其托管在 Cloudflare 等服务商。该项目由 DigitalPlat Foundation 维护，已注册超过 50 万个域名，致力于降低建站门槛。",
+        "summary_en": "A platform providing free domain names for individuals and organizations to host websites.",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "适合个人或组织免费获取域名并搭建网站。",
+        "useCase_en": "Users can register free domain names to create a digital identity without paying registration fees."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 209493,
+      "forks": 18670,
+      "todayStars": 1511,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码代理设计的完整软件开发方法论和技能框架。它通过引导用户定义规范、分解设计，并制定包含 TDD、YAGNI 和 DRY 原则的实现计划，实现代理的自主开发。支持多种主流 AI 编码工具，旨在让代理像拥有超能力一样高效工作。",
+        "summary_en": "An agentic skills framework that enforces structured software development for coding agents.",
+        "techStack": [
+          "Shell",
+          "Agentic Skills Framework"
+        ],
+        "useCase": "用于自动化软件开发流程，提升 AI 编码代理的自主性和代码质量。",
+        "useCase_en": "To empower coding agents with a structured software development methodology and skills."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "byoungd/English-level-up-tips",
+      "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+      "language": "",
+      "stars": 46552,
+      "forks": 4880,
+      "todayStars": 1163,
+      "url": "https://github.com/byoungd/English-level-up-tips",
+      "aiSummary": {
+        "summary": "这是一个结合个人备考经验的高效英语学习指南，特别新增了2026版AI章节。内容详细介绍了如何利用Gemini、ChatGPT等工具构建完整的听说读写训练回路，旨在帮助用户通过AI技术加速英语学习进程。",
+        "summary_en": "An advanced English learning guide featuring AI integration and efficient study methods.",
+        "techStack": [
+          "Markdown"
+        ],
+        "useCase": "适合希望利用AI工具构建完整训练回路以高效提升听说读写能力的英语学习者。",
+        "useCase_en": "Users can utilize this guide to master English through structured lessons and AI-assisted learning."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "iii-hq/iii",
+      "description": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
+      "language": "Rust",
+      "stars": 16847,
+      "forks": 1104,
+      "todayStars": 376,
+      "url": "https://github.com/iii-hq/iii",
+      "aiSummary": {
+        "summary": "iii 是一个基于 Rust 的服务编排系统，采用 Worker-Function-Trigger 三大原语模型。它将队列、Cron、HTTP 等服务统一到一个实时系统表面，支持动态添加 Worker 和实时观察，旨在简化服务组合与扩展。",
+        "summary_en": "A Rust framework for real-time service composition, extension, and observability using Workers, Functions, and Triggers.",
+        "techStack": [
+          "Rust",
+          "TypeScript",
+          "Python"
+        ],
+        "useCase": "适用于需要统一管理微服务、队列和定时任务，并希望实现动态扩展和实时监控的复杂后端系统。",
+        "useCase_en": "To provide a unified platform for composing, extending, and observing backend services in real-time using a Worker-Funct"
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "Axorax/awesome-free-apps",
+      "description": "Curated list of the best free apps for PC and mobile",
+      "language": "JavaScript",
+      "stars": 5862,
+      "forks": 293,
+      "todayStars": 728,
+      "url": "https://github.com/Axorax/awesome-free-apps",
+      "aiSummary": {
+        "summary": "这是一个精选的免费软件列表，涵盖 PC 和移动端各类应用。包含音频、开发、安全、视频等分类，标注平台支持、开源状态及推荐度，旨在帮助用户发现高质量免费替代方案。",
+        "summary_en": "A curated list of the best free applications for PC and mobile platforms.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "寻找高质量免费软件替代方案的用户",
+        "useCase_en": "Users can discover and download the best free applications for various operating systems and specific tasks."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars": 40206,
+      "forks": 4046,
+      "todayStars": 72,
+      "url": "https://github.com/moeru-ai/airi",
+      "aiSummary": {
+        "summary": "AIRI 是一个自托管的 AI 虚拟主播伴侣项目，灵感来源于 Neuro-sama。它基于 TypeScript 开发，支持 Web、macOS 和 Windows 平台。项目具备实时语音聊天、游戏游玩（如 Minecraft 和 Factorio）、代码查看等功能。它集成了 RAG、记忆系统和 Live2D 工具，旨在为用户提供沉浸式的虚拟伴侣体验。",
+        "summary_en": "Self-hosted AI companion inspired by Neuro-sama for voice chat, gaming, and coding assistance.",
+        "techStack": [
+          "TypeScript",
+          "Large Language Models",
+          "RAG",
+          "Live2D"
+        ],
+        "useCase": "自建 AI 虚拟伴侣，提供实时语音互动、游戏游玩及多任务处理体验。",
+        "useCase_en": "To run a self-hosted AI companion capable of voice interaction, gaming, and coding assistance."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-28T00:09:54.642Z",
+    "duration": "380s",
+    "version": "1.0.0"
+  }
+}
