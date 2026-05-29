@@ -1,0 +1,339 @@
+{
+  "date": "2026-05-28",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "stars": 66217,
+      "forks": 9592,
+      "todayStars": 4698,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 AI 视频生成工具，利用大模型一键生成短视频。它支持自动生成文案、素材、字幕和背景音乐，提供 Web 和 API 接口。支持多种视频尺寸（竖屏/横屏）和批量生成，兼容多种大模型（如 DeepSeek, OpenAI），适合内容创作者快速制作无版权高清视频。",
+        "summary_en": "An AI-powered Python tool for one-click generation of short videos using various LLMs and stock media.",
+        "techStack": [
+          "Python",
+          "AI/LLM",
+          "Web Framework",
+          "Video Processing"
+        ],
+        "useCase": "适合自媒体创作者一键生成短视频。",
+        "useCase_en": "Automatically generate short videos with AI-generated scripts, voiceovers, subtitles, and stock footage from a single ke"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 197244,
+      "forks": 30334,
+      "todayStars": 1385,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个跨 AI 代理框架（如 Cursor、Claude Code）的性能优化系统。它提供了一套完整的技能、本能、记忆优化、安全扫描和持续学习机制，旨在提升代理的工作流效率和生产力。支持多语言生态，包含 Token 优化、并行化和子代理编排等功能，并推出了基于 Tkinter 的 GUI 管理界面。",
+        "summary_en": "An open-source agent harness performance optimization system for AI coding assistants like Cursor and Claude Code.",
+        "techStack": [
+          "JavaScript",
+          "Python"
+        ],
+        "useCase": "适用于需要优化 AI 编码助手（如 Cursor、Claude Code）工作流、提升开发效率的开发者及团队。",
+        "useCase_en": "Optimize AI coding agent performance across multiple platforms like Cursor and Claude Code using skills, memory, and sec"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "language": "Shell",
+      "stars": 26363,
+      "forks": 1973,
+      "todayStars": 2234,
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "aiSummary": {
+        "summary": "Taste-Skill 是一个专为 AI Agent 设计的“反垃圾”前端框架。它提供可移植的技能，帮助 AI 生成高质量的 UI（布局、排版、动画），避免通用的样板代码。项目包含图像生成技能，用于创建参考板，可与 Codex、Cursor 等工具配合使用，提升 AI 构建界面的审美和设计质量。",
+        "summary_en": "A frontend framework for AI agents that generates high-quality, non-generic UI designs.",
+        "techStack": [
+          "Shell",
+          "Markdown"
+        ],
+        "useCase": "用于提升 AI Agent 生成的前端界面设计质量，避免平庸的 UI。",
+        "useCase_en": "Provides portable agent skills and reference boards to upgrade AI-generated interfaces with better layout and typography"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "hardikpandya/stop-slop",
+      "description": "A skill file for removing AI tells from prose",
+      "language": "",
+      "stars": 6397,
+      "forks": 470,
+      "todayStars": 761,
+      "url": "https://github.com/hardikpandya/stop-slop",
+      "aiSummary": {
+        "summary": "这是一个用于从文本中移除 AI 写作痕迹的技能文件。它通过提供核心指令和参考数据，教导 Claude 或其他 LLM 识别并修正可预测的短语、结构陈词滥调以及句子级错误。该项目旨在提升文本的直接性、节奏感和真实性，使其听起来更像人类写作。",
+        "summary_en": "A skill file designed to remove AI-generated patterns and clichés from prose.",
+        "techStack": [
+          "Claude Skills",
+          "Markdown",
+          "LLM Prompt Engineering"
+        ],
+        "useCase": "用于 Claude Code 或 Claude Projects，通过自定义指令或系统提示词，自动检测并修正 AI 生成文本中的模式化表达，提升文本的自然度和人类感。",
+        "useCase_en": "Helps refine AI-generated prose by identifying and removing predictable patterns and clichés."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "language": "TypeScript",
+      "stars": 47830,
+      "forks": 6792,
+      "todayStars": 493,
+      "url": "https://github.com/twentyhq/twenty",
+      "aiSummary": {
+        "summary": "twenty 是一个开源的 Salesforce 替代品，专为 AI 设计。它允许技术团队通过代码（SDK）快速构建和定制符合复杂业务需求的 CRM 系统。项目提供了对象、视图、工作流和代理等构建模块，支持云端部署和自托管，旨在让 CRM 的开发、发布和版本控制像其他技术栈一样简单高效。",
+        "summary_en": "An open-source CRM alternative to Salesforce, built with TypeScript, allowing teams to build custom business solutions via code.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "AI"
+        ],
+        "useCase": "适合需要高度定制化、可扩展 CRM 系统的技术团队，以及希望将 CRM 开发纳入 DevOps 流程的企业。",
+        "useCase_en": "Technical teams build custom, adaptable CRMs for complex business needs using code."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "DigitalPlatDev/FreeDomain",
+      "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+      "language": "HTML",
+      "stars": 170684,
+      "forks": 3291,
+      "todayStars": 1761,
+      "url": "https://github.com/DigitalPlatDev/FreeDomain",
+      "aiSummary": {
+        "summary": "DigitalPlat FreeDomain 是一个致力于为个人和组织提供免费域名的平台。该项目支持 .DPDNS.ORG 等多种扩展名，用户可自由注册并托管在 Cloudflare 等服务商。项目由 DigitalPlat Foundation 维护，拥有庞大的用户群体，旨在降低建站门槛，让每个人都能拥有数字身份。",
+        "summary_en": "A platform offering free domain names to individuals and organizations.",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "个人或组织获取免费域名并托管网站",
+        "useCase_en": "Registering free domain names for personal or organizational websites."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "byoungd/English-level-up-tips",
+      "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+      "language": "",
+      "stars": 48451,
+      "forks": 5084,
+      "todayStars": 2019,
+      "url": "https://github.com/byoungd/English-level-up-tips",
+      "aiSummary": {
+        "summary": "这是一个基于作者自身高考和托福备考经验整理的英语进阶指南。内容涵盖英语水平等级、特色章节以及2026版AI学习方案，详细介绍了如何利用Gemini、ChatGPT等工具构建听说读写训练回路，旨在帮助用户高效学习英语。",
+        "summary_en": "An advanced guide to learning English using AI tools and structured methods.",
+        "techStack": [
+          "Markdown"
+        ],
+        "useCase": "适合希望利用AI工具系统化提升听说读写能力的英语学习者。",
+        "useCase_en": "A resource for learners to master English using advanced AI tools and strategies."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars": 127704,
+      "forks": 8738,
+      "todayStars": 1410,
+      "url": "https://github.com/microsoft/markitdown",
+      "aiSummary": {
+        "summary": "这是一个微软开源的轻量级 Python 工具，用于将 PDF、Word、Excel、图片、音频等多种文件格式转换为 Markdown。它专注于保留文档结构（如标题、列表、表格），专为 LLM 文本分析和处理管道设计，输出格式对机器友好且 token 效率高。",
+        "summary_en": "A lightweight Python utility for converting office documents, PDFs, and media files into Markdown.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于将 Office 文档、PDF 等非结构化数据转换为 Markdown，供大语言模型（LLM）进行文本分析或内容处理的场景。",
+        "useCase_en": "To convert various file formats into Markdown for consumption by LLMs and text analysis pipelines."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 211049,
+      "forks": 18787,
+      "todayStars": 1730,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为 Claude Code、Codex 等编码代理构建的技能框架和软件开发方法论。它通过自动触发技能，引导代理在开发前询问用户需求、展示规范、制定实施计划（强调 TDD、YAGNI、DRY），并利用子代理进行自主开发。旨在让编码代理具备更强的自主性和工程化能力。",
+        "summary_en": "An agentic skills framework and methodology for autonomous software development.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "为 Claude Code、Codex 等编码代理提供完整的软件开发方法论和技能框架。",
+        "useCase_en": "To provide a structured methodology for autonomous software development using coding agents."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "language": "HTML",
+      "stars": 3875,
+      "forks": 580,
+      "todayStars": 65,
+      "url": "https://github.com/revfactory/harness",
+      "aiSummary": {
+        "summary": "Harness 是一个为 Claude Code 设计的团队架构工厂。它利用 6 种预定义模式（如流水线、专家池等）将域描述转化为专门的代理团队和技能。该工具自动生成 `.claude/agents/` 和 `.claude/skills/` 文件，帮助用户快速构建复杂的 AI 代理系统。",
+        "summary_en": "Harness is a team-architecture factory for Claude Code that generates agent teams and skills.",
+        "techStack": [
+          "HTML",
+          "Claude Code",
+          "Agent System"
+        ],
+        "useCase": "当需要为特定领域构建复杂的 AI 代理团队架构时使用。",
+        "useCase_en": "Automatically generates agent team architectures and skills for Claude Code based on domain descriptions."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars": 506532,
+      "forks": 48090,
+      "todayStars": 1066,
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "aiSummary": {
+        "summary": "这是一个通过从头开始重新创建著名技术来学习编程的指南集合。涵盖了从3D渲染器、AI模型、区块链到操作系统、编程语言等众多领域。项目提供详细的分步教程，帮助开发者深入理解底层原理，适合希望提升技术深度的开发者。",
+        "summary_en": "A collection of step-by-step guides for recreating famous technologies from scratch.",
+        "techStack": [
+          "Markdown",
+          "教程",
+          "指南"
+        ],
+        "useCase": "适合希望深入理解底层原理的开发者进行系统学习。",
+        "useCase_en": "A resource for developers to master programming by recreating complex technologies from scratch."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "Lum1104/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "stars": 42695,
+      "forks": 3402,
+      "todayStars": 3776,
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "aiSummary": {
+        "summary": "这是一个 Claude Code 插件，旨在将代码库、知识库或文档转化为交互式知识图谱。通过多智能体管道分析文件、函数和依赖，提供结构图、业务逻辑视图及知识库分析功能。用户可交互式探索代码，帮助新成员快速理解大型项目，实现从“阅读代码”到“理解全貌”的转变。",
+        "summary_en": "A Claude Code plugin that builds interactive knowledge graphs from codebases and documentation using a multi-agent pipeline.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code",
+          "LLM Agents"
+        ],
+        "useCase": "适用于新团队成员快速理解大型代码库、梳理复杂业务逻辑及分析知识库结构。",
+        "useCase_en": "To visualize and understand complex codebases and knowledge bases through interactive graphs."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "unclecode/crawl4ai",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "language": "Python",
+      "stars": 66926,
+      "forks": 6855,
+      "todayStars": 154,
+      "url": "https://github.com/unclecode/crawl4ai",
+      "aiSummary": {
+        "summary": "Crawl4AI 是一个开源的 LLM 友好型网络爬虫，专注于将网页转换为干净的 Markdown 格式，专为 RAG、AI 代理和数据管道设计。它具备反机器人检测、Shadow DOM 解析、崩溃恢复等高级功能，速度快且可控，旨在提供比现有解决方案更具成本效益的大规模网页提取服务。",
+        "summary_en": "Open-source web crawler optimized for LLMs, converting web pages into clean Markdown for RAG and AI agent applications.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Markdown"
+        ],
+        "useCase": "适用于构建 RAG 系统、AI 代理以及需要高质量网页数据提取的数据管道。",
+        "useCase_en": "To convert web pages into clean Markdown for Retrieval-Augmented Generation (RAG) and AI agent data pipelines."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "OpenMOSS/MOSS-TTS",
+      "description": "MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.",
+      "language": "Python",
+      "stars": 2221,
+      "forks": 211,
+      "todayStars": 71,
+      "url": "https://github.com/OpenMOSS/MOSS-TTS",
+      "aiSummary": {
+        "summary": "MOSS-TTS 是一个开源的高保真语音和声音生成模型家族，支持长文本语音、多说话人对话、角色设计及环境音效生成。具备实时流式 TTS 能力，支持多语言、高采样率（48kHz）及 llama.cpp 集成，适用于复杂现实场景。",
+        "summary_en": "Open-source speech and sound generation models for high-fidelity synthesis, voice cloning, and real-time streaming.",
+        "techStack": [
+          "Python",
+          "DiT",
+          "Flow Matching",
+          "SGLang",
+          "llama.cpp"
+        ],
+        "useCase": "适用于高保真语音合成、多说话人对话、角色声音设计及环境音效生成的复杂现实场景。",
+        "useCase_en": "Generate high-fidelity voice cloning, multi-speaker dialogue, and environmental sound effects for complex real-world sce"
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "EveryInc/compound-engineering-plugin",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "language": "TypeScript",
+      "stars": 17765,
+      "forks": 1362,
+      "todayStars": 184,
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code、Codex 和 Cursor 等工具设计的官方 Compound Engineering 插件。它旨在通过 AI 代理简化工程工作，遵循“复合工程”理念（80%规划/审查，20%执行）。插件提供 /ce-strategy、/ce-brainstorm、/ce-code-review 等技能，帮助用户制定策略、头脑风暴、规划实现、审查代码文档及沉淀知识，从而减少技术债务，提升开发效率。",
+        "summary_en": "An official plugin for AI coding agents implementing compound engineering workflows to reduce technical debt and improve planning efficiency.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "需要结构化 AI 辅助开发流程、代码审查及知识沉淀的工程团队或个人开发者。",
+        "useCase_en": "Automate the software development lifecycle by implementing compound engineering workflows like brainstorming, planning,"
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 142803,
+      "forks": 16860,
+      "todayStars": 718,
+      "url": "https://github.com/anthropics/skills",
+      "aiSummary": {
+        "summary": "Anthropic 为 Claude AI 提供的技能公共仓库，包含用于动态加载的指令、脚本和资源。旨在提升 Claude 在创意、技术及企业工作流等特定任务上的表现。项目涵盖艺术创作、Web 测试、文档处理等多种场景，部分技能开源（Apache 2.0），部分为生产环境使用的源可用技能。",
+        "summary_en": "Anthropic's repository showcasing Claude's dynamic skill loading system for specialized tasks.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "提升 Claude 在创意、技术及企业工作流等特定任务上的表现",
+        "useCase_en": "To improve Claude's performance on specialized tasks by loading dynamic instructions and scripts."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-29T00:21:02.589Z",
+    "duration": "391s",
+    "version": "1.0.0"
+  }
+}
