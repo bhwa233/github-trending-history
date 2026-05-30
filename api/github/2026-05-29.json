@@ -1,0 +1,373 @@
+{
+  "date": "2026-05-29",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "stars": 69612,
+      "forks": 10033,
+      "todayStars": 3567,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "aiSummary": {
+        "summary": "基于 Python 的 AI 视频生成工具，支持一键生成文案、素材、字幕及配乐。采用 MVC 架构，支持多种 AI 模型接入，可批量生成高清视频，适配竖屏与横屏，适合自媒体创作者快速制作内容。",
+        "summary_en": "An automated AI video generation tool supporting multiple LLMs, batch processing, and customizable subtitles and audio.",
+        "techStack": [
+          "Python",
+          "AI LLM (OpenAI/DeepSeek/Moonshot)",
+          "Web Framework (MVC)",
+          "Video Processing"
+        ],
+        "useCase": "适用于自媒体创作者快速批量生成短视频内容。",
+        "useCase_en": "Automatically generate high-definition short videos from text prompts using AI models."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars": 129917,
+      "forks": 8915,
+      "todayStars": 1873,
+      "url": "https://github.com/microsoft/markitdown",
+      "aiSummary": {
+        "summary": "Microsoft/MarkItDown 是一个轻量级 Python 工具，用于将 PDF、Office 文档、图像、音频等多种格式转换为 Markdown。它专为 LLM 和文本分析设计，能保留文档结构（如标题、表格），并注重 token 效率，适合构建数据处理管道。",
+        "summary_en": "Lightweight Python tool for converting files and office documents to Markdown for LLMs.",
+        "techStack": [
+          "Python",
+          "OCR",
+          "LLM"
+        ],
+        "useCase": "适用于将非结构化文档转换为结构化 Markdown，供 LLM 处理或文本分析管道使用。",
+        "useCase_en": "Convert various file formats into Markdown for consumption by LLMs and text analysis tools."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "EveryInc/compound-engineering-plugin",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "language": "TypeScript",
+      "stars": 18126,
+      "forks": 1377,
+      "todayStars": 353,
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code、Codex 等提供的官方 Compound Engineering 插件。它通过 AI 代理和工作流（如策略制定、头脑风暴、代码审查和知识复合）实现“复合工程”理念。旨在通过 80% 的规划与审查减少技术债务，使未来的开发工作更轻松高效。",
+        "summary_en": "A TypeScript plugin for AI coding agents implementing Compound Engineering principles to streamline planning, reviewing, and knowledge management.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code",
+          "Codex",
+          "Cursor",
+          "Markdown"
+        ],
+        "useCase": "需要利用 AI 代理进行结构化开发、减少技术债务并管理项目策略的工程师。",
+        "useCase_en": "Improve AI-assisted coding workflows by enforcing Compound Engineering principles to streamline planning, reviewing, and"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "language": "TypeScript",
+      "stars": 48399,
+      "forks": 6862,
+      "todayStars": 578,
+      "url": "https://github.com/twentyhq/twenty",
+      "aiSummary": {
+        "summary": "twenty 是 Salesforce 的开源替代品，专为 AI 设计。它提供对象、视图、工作流和代理等构建模块，允许技术团队通过代码（TypeScript）定义和定制 CRM，像管理其他技术栈一样管理版本。支持云端、CLI 和自托管部署。",
+        "summary_en": "An open-source CRM alternative to Salesforce, designed for technical teams to build custom business solutions using code.",
+        "techStack": [
+          "TypeScript",
+          "Docker"
+        ],
+        "useCase": "需要高度定制化、可扩展 CRM 的技术团队和企业。",
+        "useCase_en": "Technical teams use Twenty to build, ship, and version custom CRMs that adapt to complex business needs."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Python",
+      "stars": 127865,
+      "forks": 20909,
+      "todayStars": 395,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code 是一个运行在终端的智能编码助手，通过自然语言命令理解代码库，帮助开发者执行常规任务、解释复杂代码及处理 Git 工作流，从而显著提升编码效率。",
+        "summary_en": "Terminal-based agentic coding tool that accelerates development using natural language commands.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于通过自然语言命令加速代码开发、自动化执行常规任务及处理 Git 工作流的场景。",
+        "useCase_en": "Accelerate coding workflows by executing tasks, explaining code, and managing git operations via natural language."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "language": "Shell",
+      "stars": 28104,
+      "forks": 2081,
+      "todayStars": 2062,
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "aiSummary": {
+        "summary": "这是一个为 AI 代理设计的“反平庸”前端框架。它提供可移植的技能，帮助 AI 构建具有更好布局、排版和动画的界面，避免生成通用的 UI。项目还包含图像生成技能，用于创建参考板，可与 Codex、Cursor 等工具配合使用，提升 AI 生成界面的设计质量。",
+        "summary_en": "A framework for AI agents to generate high-quality, non-boilerplate frontend interfaces and design assets.",
+        "techStack": [
+          "Shell",
+          "Markdown"
+        ],
+        "useCase": "提升 AI 生成界面的设计美感，避免平庸的 UI，辅助开发者快速构建高质量前端界面。",
+        "useCase_en": "Upgrade AI-generated interfaces by providing design skills that prevent boring, boilerplate layouts."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars": 1294,
+      "forks": 111,
+      "todayStars": 134,
+      "url": "https://github.com/cursor/plugins",
+      "aiSummary": {
+        "summary": "该仓库包含 Cursor 官方插件集合，涵盖持续学习、团队协作、代码审查画布、交互式文档及 SDK 等工具。插件旨在增强开发体验，支持 CI/CD、安全审计、自动化构建及交互式代码/文档浏览。",
+        "summary_en": "Official plugins and specifications for the Cursor AI code editor.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Cursor SDK"
+        ],
+        "useCase": "为 Cursor 编辑器构建插件、自动化开发工作流及进行代码审查。",
+        "useCase_en": "Provides official plugins and specifications to enhance the Cursor AI code editor."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "run-llama/liteparse",
+      "description": "A fast, helpful, and open-source document parser",
+      "language": "Rust",
+      "stars": 7279,
+      "forks": 444,
+      "todayStars": 701,
+      "url": "https://github.com/run-llama/liteparse",
+      "aiSummary": {
+        "summary": "LiteParse 是一个用 Rust 编写的快速、轻量级开源文档解析工具。它专注于本地运行，提供高质量的空间文本解析和边界框信息，无需云端依赖。支持灵活的 OCR 系统（内置 Tesseract 或 HTTP 服务器），并支持多语言和多平台，适用于需要结构化数据的场景。",
+        "summary_en": "A fast, open-source Rust document parser for local PDF parsing with spatial text extraction and bounding boxes.",
+        "techStack": [
+          "Rust",
+          "PDFium",
+          "Tesseract",
+          "LibreOffice",
+          "ImageMagick"
+        ],
+        "useCase": "适用于需要本地快速解析 PDF 文档并提取结构化文本和布局信息的场景。",
+        "useCase_en": "Parse documents locally to extract text, layout, and bounding boxes for LLMs or data pipelines."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "galilai-group/stable-worldmodel",
+      "description": "A platform for reproducible world model research and evaluation",
+      "language": "Python",
+      "stars": 1244,
+      "forks": 148,
+      "todayStars": 362,
+      "url": "https://github.com/galilai-group/stable-worldmodel",
+      "aiSummary": {
+        "summary": "这是一个专注于可复现世界模型研究的 Python 平台，提供从数据收集、模型训练到基于模型预测控制（MPC）评估的统一接口。项目内置了标准化的环境和常见基线求解器，支持 Lance 数据格式和 LeRobot 数据集，旨在帮助研究者专注于模型创新。",
+        "summary_en": "A Python platform for reproducible world model research and evaluation with standardized environments and solvers.",
+        "techStack": [
+          "Python",
+          "PyPI",
+          "Lance",
+          "LeRobot",
+          "uv"
+        ],
+        "useCase": "机器人学习与强化学习领域的世界模型研究及评估",
+        "useCase_en": "Researchers use this library to standardize world model research by providing interfaces for data collection, training, "
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "byoungd/English-level-up-tips",
+      "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+      "language": "",
+      "stars": 49623,
+      "forks": 5196,
+      "todayStars": 1566,
+      "url": "https://github.com/byoungd/English-level-up-tips",
+      "aiSummary": {
+        "summary": "这是一个基于个人经验总结的英语进阶指南，作者结合自身高考和托福备考经历，分享了高效学习英语的方法。项目包含英语水平分级、资源推荐以及2026版AI辅助学习章节，重点介绍了如何利用Gemini、ChatGPT等工具构建完整的听说读写训练回路，旨在帮助用户通过热爱和科学方法提升英语能力。",
+        "summary_en": "An advanced English learning guide featuring AI integration and personal study experiences.",
+        "techStack": [
+          "Markdown",
+          "GitHub Pages",
+          "GitBook"
+        ],
+        "useCase": "适合希望系统化提升英语水平，特别是利用AI工具辅助听说读写训练的学习者。",
+        "useCase_en": "A comprehensive guide to learning English using AI tools and personalized study methods."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Biohub/esm",
+      "description": "",
+      "language": "Jupyter Notebook",
+      "stars": 2566,
+      "forks": 314,
+      "todayStars": 52,
+      "url": "https://github.com/Biohub/esm",
+      "aiSummary": {
+        "summary": "这是一个基于进化尺度建模（ESM）的蛋白质生物学世界模型，旨在实现蛋白质的预测、设计和发现。项目包含三个核心组件：ESMC（高性能蛋白质语言模型）、ESMFold2（快速结构预测模型，支持蛋白质-蛋白质相互作用设计）以及ESM Atlas（包含68亿种蛋白质的预测结构图谱）。该系统利用进化知识，从原子交互到亿万年进化关系进行建模，在药物发现和生物设计领域具有广泛应用。",
+        "summary_en": "A protein biology world model for prediction, design, and discovery using deep learning.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "Deep Learning"
+        ],
+        "useCase": "蛋白质结构预测、药物靶点发现及蛋白质-蛋白质相互作用设计",
+        "useCase_en": "Predicting protein structures and designing novel proteins for therapeutic discovery."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "stars": 26953,
+      "forks": 2656,
+      "todayStars": 318,
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "aiSummary": {
+        "summary": "Project N.O.M.A.D. 是一个自包含的离线优先知识服务器，旨在通过浏览器提供关键工具、知识和 AI。它使用 Docker 容器化工具，作为管理 UI（“Command Center”）和 API 运行。支持 Debian/Ubuntu 系统，允许用户在无网络环境下保持信息更新和赋能。",
+        "summary_en": "An offline-first survival computer and knowledge server built with TypeScript and Docker.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Debian/Ubuntu"
+        ],
+        "useCase": "适用于无网络环境下的生存、离线知识管理及应急响应场景。",
+        "useCase_en": "To provide a self-contained, offline-first knowledge and education server for survival scenarios."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "DigitalPlatDev/FreeDomain",
+      "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+      "language": "HTML",
+      "stars": 171761,
+      "forks": 3344,
+      "todayStars": 1313,
+      "url": "https://github.com/DigitalPlatDev/FreeDomain",
+      "aiSummary": {
+        "summary": "DigitalPlat FreeDomain 是一个致力于提供免费域名注册服务的项目，旨在降低建站门槛。用户可注册独特域名并使用 Cloudflare 等服务商托管，目前支持多种后缀，已服务超50万用户，致力于打造开放的互联网空间。",
+        "summary_en": "A service providing free domain names to help individuals and organizations establish their digital identity.",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "个人或组织免费获取域名以托管网站",
+        "useCase_en": "Users can register free domain names to host websites without paying registration fees."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 198562,
+      "forks": 30510,
+      "todayStars": 1406,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个跨 AI 编程助手（如 Cursor、Claude Code）的性能优化系统。它提供技能管理、记忆持久化、安全扫描及持续学习功能，旨在提升开发效率。v2.0.0 引入了桌面仪表盘，支持 Token 优化与并行化工作流。",
+        "summary_en": "A comprehensive system optimizing AI agent performance, memory, and workflows across multiple coding environments.",
+        "techStack": [
+          "JavaScript",
+          "Python",
+          "Node.js",
+          "Tkinter"
+        ],
+        "useCase": "适用于需要优化 AI 编程助手性能、管理多工具工作流及提升开发效率的开发者。",
+        "useCase_en": "To optimize AI agent performance, memory, and workflows across various coding environments like Cursor and Copilot."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "hardikpandya/stop-slop",
+      "description": "A skill file for removing AI tells from prose",
+      "language": "",
+      "stars": 6977,
+      "forks": 491,
+      "todayStars": 617,
+      "url": "https://github.com/hardikpandya/stop-slop",
+      "aiSummary": {
+        "summary": "该项目提供了一套技能文件，旨在帮助 Claude 等大语言模型识别并移除文本中的 AI 痕迹。通过检测填充短语、结构陈词滥调及句子级错误，它指导模型重写文本，使其更具直接性、节奏感和人类真实性。",
+        "summary_en": "A skill file for removing AI tells and predictable patterns from prose.",
+        "techStack": [
+          "Markdown",
+          "Claude AI",
+          "LLM"
+        ],
+        "useCase": "用于 Claude Code、Claude Projects 或 API 调用，旨在优化 AI 生成的文本，使其去除机械感，更接近人类写作风格。",
+        "useCase_en": "Helps LLMs refine generated prose by eliminating robotic patterns and clichés."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "DataTalksClub/data-engineering-zoomcamp",
+      "description": "Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. The next cohort starts in January 2026. Join the course here 👇🏼",
+      "language": "Jupyter Notebook",
+      "stars": 41558,
+      "forks": 8271,
+      "todayStars": 160,
+      "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+      "aiSummary": {
+        "summary": "这是一个免费的9周数据工程课程，旨在帮助学员从零开始构建生产级数据管道。课程涵盖容器化、工作流编排、数据仓库、分析工程、批处理和流处理等核心模块，使用GCP、Docker、Terraform、Kestra、BigQuery、dbt、Spark和Kafka等工具，并提供实战作业与最终项目。",
+        "summary_en": "Free 9-week course teaching production-ready data engineering pipelines using tools like Docker, BigQuery, and Kafka.",
+        "techStack": [
+          "Jupyter Notebook",
+          "GCP",
+          "Docker",
+          "Terraform",
+          "Kestra"
+        ],
+        "useCase": "适合希望掌握现代数据工程技能、构建端到端数据管道的开发者或学生。",
+        "useCase_en": "Gain hands-on experience building end-to-end data pipelines from scratch."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars": 507345,
+      "forks": 48167,
+      "todayStars": 866,
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "aiSummary": {
+        "summary": "Build Your Own X 是一个通过从头开始重建各种技术来掌握编程的指南合集。它涵盖了操作系统、数据库、Web 服务器、AI 模型、3D 渲染器等众多领域。通过实践这些教程，开发者可以深入理解底层原理，非常适合想要提升底层技术能力的程序员。",
+        "summary_en": "A collection of step-by-step guides for recreating famous technologies from scratch.",
+        "techStack": [
+          "Markdown"
+        ],
+        "useCase": "深入理解底层技术原理，提升编程能力。",
+        "useCase_en": "To learn programming by building complex systems from scratch."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-30T00:17:08.164Z",
+    "duration": "306s",
+    "version": "1.0.0"
+  }
+}
