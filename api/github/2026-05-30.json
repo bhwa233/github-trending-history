@@ -1,0 +1,424 @@
+{
+  "date": "2026-05-30",
+  "since": "daily",
+  "totalRepos": 19,
+  "successCount": 19,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars": 132325,
+      "forks": 9060,
+      "todayStars": 2470,
+      "url": "https://github.com/microsoft/markitdown",
+      "aiSummary": {
+        "summary": "Microsoft 开发的轻量级 Python 工具，用于将各种文件和 Office 文档转换为 Markdown。它专注于保留文档结构（如标题、列表、表格），专为 LLM 和文本分析管道设计。支持 PDF、Word、Excel、图像、音频、HTML 等多种格式，输出格式对 LLM 友好且 token 效率高。",
+        "summary_en": "A lightweight Python utility for converting various file formats to Markdown for LLMs and text analysis.",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "LLM"
+        ],
+        "useCase": "将多种文件格式转换为 Markdown，用于 LLM 文本分析和处理。",
+        "useCase_en": "Convert various file formats like PDFs and Office docs into Markdown for LLM consumption."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "stars": 71927,
+      "forks": 10314,
+      "todayStars": 2768,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 AI 视频生成工具，采用 MVC 架构。用户只需输入主题，即可自动生成文案、素材、字幕和 BGM，合成高清视频。支持竖屏/横屏、批量生成、自定义样式及多种大模型接入。支持 Web 和 API 界面，部署方式灵活，适合内容创作者快速制作短视频。",
+        "summary_en": "An AI-driven Python application for automated short video generation with scripts, visuals, and audio.",
+        "techStack": [
+          "Python",
+          "MVC架构",
+          "AI大模型",
+          "Whisper",
+          "视频合成"
+        ],
+        "useCase": "适合内容创作者快速批量生成短视频内容",
+        "useCase_en": "Automatically generate high-quality short videos from text prompts using AI."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Python",
+      "stars": 128387,
+      "forks": 20953,
+      "todayStars": 592,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code 是 Anthropic 推出的终端智能编码助手，基于 Python 开发。它通过自然语言命令理解代码库，执行常规任务、解释复杂代码及处理 Git 工作流，旨在提升开发效率。支持插件扩展功能，并提供跨平台安装方式。",
+        "summary_en": "An agentic coding tool for the terminal that automates tasks, explains code, and manages git workflows using natural language.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要通过自然语言快速编写、调试和优化代码的开发者，特别是处理代码库理解和 Git 工作流时。",
+        "useCase_en": "Execute routine coding tasks, explain complex code, and handle git workflows through natural language commands."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars": 1454,
+      "forks": 118,
+      "todayStars": 205,
+      "url": "https://github.com/cursor/plugins",
+      "aiSummary": {
+        "summary": "该项目是 Cursor AI 编辑器的官方插件集合，包含持续学习、团队工作流、代码审查、文档渲染及 SDK 等多种工具。它提供了插件开发规范、脚手架工具以及用于自动化 CI/CD、代码审查和文档管理的实用插件，旨在提升 AI 编程助手的工作效率和团队协作体验。",
+        "summary_en": "Official repository for Cursor plugins featuring TypeScript tools for automation, code review, and team workflows.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "JSON",
+          "MCP"
+        ],
+        "useCase": "适用于需要利用 Cursor AI 进行代码审查、文档生成及自动化团队工作流的开发者。",
+        "useCase_en": "Provides official plugins to extend Cursor's functionality for memory management, code review, and team automation workf"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "language": "HTML",
+      "stars": 4252,
+      "forks": 625,
+      "todayStars": 55,
+      "url": "https://github.com/revfactory/harness",
+      "aiSummary": {
+        "summary": "Harness 是一个为 Claude Code 设计的团队架构工厂。它利用 Claude Code 的代理团队系统，通过 6 种预定义模式（如流水线、专家池等）自动生成特定领域的代理团队和技能。它位于 L3 元工厂层，旨在将复杂任务分解为协调的团队，适用于需要自动化代理协作和架构设计的场景。",
+        "summary_en": "Harness is a team-architecture factory for Claude Code that decomposes complex tasks into coordinated teams of specialized agents.",
+        "techStack": [
+          "HTML",
+          "Claude Code"
+        ],
+        "useCase": "为 Claude Code 项目自动构建和配置专业的代理团队架构",
+        "useCase_en": "Automatically generates agent definitions and skills tailored to a specific domain using predefined team-architecture pa"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "EveryInc/compound-engineering-plugin",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "language": "TypeScript",
+      "stars": 18414,
+      "forks": 1392,
+      "todayStars": 349,
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code、Codex、Cursor 等编辑器设计的官方插件，旨在实现“复合工程”。它通过规划、审查和知识积累等代理技能，优化开发流程，强调80%的时间用于计划与审查，以减少技术债务，让后续工作更轻松。",
+        "summary_en": "Official TypeScript plugin for AI coding agents implementing compound engineering workflows to reduce technical debt.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于使用 Claude Code、Cursor 等工具进行 AI 辅助编程的开发者，旨在通过复合工程理念优化开发流程，减少技术债务。",
+        "useCase_en": "To help AI coding agents execute compound engineering workflows to reduce technical debt and improve code quality."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 199280,
+      "forks": 30599,
+      "todayStars": 908,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个跨 AI 代理框架（如 Cursor、Claude Code 等）的性能优化系统。它提供了一套完整的工具，包括技能管理、记忆优化、安全扫描和持续学习，旨在通过工作流编排、并行化和上下文管理来提升 AI 开发效率。",
+        "summary_en": "A comprehensive optimization system for AI coding agents, providing skills, memory, and workflows.",
+        "techStack": [
+          "JavaScript",
+          "Python",
+          "Tkinter"
+        ],
+        "useCase": "适用于需要优化 AI 编程助手工作流、提升 Token 效率和管理复杂多代理任务的开发者。",
+        "useCase_en": "Optimize AI coding agent performance across multiple platforms like Cursor and Claude Code using skills, memory, and sec"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "stars": 22745,
+      "forks": 2672,
+      "todayStars": 779,
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "aiSummary": {
+        "summary": "VoxCPM2 是一个基于扩散自回归架构的 tokenizer-free 文本转语音系统。它支持 30 种语言，具备语音设计、可控克隆和 48kHz 高保真音频输出能力。模型参数量达 2B，支持实时流式传输，能从文本或参考音频中生成自然流畅的语音，适用于多语言语音合成和创意语音设计场景。",
+        "summary_en": "VoxCPM2 is a tokenizer-free, multilingual Text-to-Speech system using diffusion architecture for high-fidelity voice cloning and design.",
+        "techStack": [
+          "Python",
+          "Diffusion",
+          "MiniCPM-4",
+          "AudioVAE V2",
+          "vLLM"
+        ],
+        "useCase": "适用于多语言语音合成、创意语音设计及高保真语音克隆场景。",
+        "useCase_en": "Generate high-quality speech and clone voices across 30 languages for applications requiring natural-sounding audio."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "galilai-group/stable-worldmodel",
+      "description": "A platform for reproducible world model research and evaluation",
+      "language": "Python",
+      "stars": 1456,
+      "forks": 164,
+      "todayStars": 318,
+      "url": "https://github.com/galilai-group/stable-worldmodel",
+      "aiSummary": {
+        "summary": "这是一个用于可复现世界模型研究和评估的 Python 平台。它提供统一的接口，涵盖数据收集、训练和基于模型预测控制的评估三个阶段。内置标准环境和常见基线求解器，支持 LeRobot 数据集，旨在让研究代码专注于模型和目标本身。",
+        "summary_en": "A Python platform for reproducible world model research and evaluation.",
+        "techStack": [
+          "Python",
+          "PyPI",
+          "LeRobot",
+          "Lance",
+          "uv"
+        ],
+        "useCase": "适用于机器人学习中的世界模型研究、数据收集与模型预测控制评估。",
+        "useCase_en": "Researchers use this library to perform reproducible world model research and evaluation using standardized environments"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "stars": 27348,
+      "forks": 2683,
+      "todayStars": 469,
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "aiSummary": {
+        "summary": "Project N.O.M.A.D. 是一个离线优先的知识服务器，集成了关键工具、知识和 AI。它通过 Docker 容器化管理资源，提供命令中心 UI，支持在 Debian/Ubuntu 系统上快速部署，适合需要在断网环境下保持信息获取能力的场景。",
+        "summary_en": "An offline-first knowledge server and survival computer packed with critical tools and AI to keep you informed anywhere.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Node.js"
+        ],
+        "useCase": "离线生存环境与离线知识管理",
+        "useCase_en": "To provide a self-contained, offline-first knowledge and education server for survival and critical information."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "run-llama/liteparse",
+      "description": "A fast, helpful, and open-source document parser",
+      "language": "Rust",
+      "stars": 7894,
+      "forks": 465,
+      "todayStars": 925,
+      "url": "https://github.com/run-llama/liteparse",
+      "aiSummary": {
+        "summary": "LiteParse 是一个用 Rust 编写的开源文档解析工具，专注于快速且轻量的本地解析。它提供高质量的空间文本解析（含边界框），支持多种输出格式和多语言（Rust/JS/Python/WASM）。内置 Tesseract OCR，也可接入 HTTP 服务器，适合需要离线处理和结构化数据提取的场景。",
+        "summary_en": "Fast, open-source Rust library for local document parsing with spatial text extraction and bounding boxes.",
+        "techStack": [
+          "Rust",
+          "PDFium",
+          "Tesseract",
+          "OCR"
+        ],
+        "useCase": "需要在本地离线处理 PDF 文档并提取结构化文本的场景",
+        "useCase_en": "Parse documents locally to extract text with spatial positioning for LLMs or data pipelines."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "chen08209/FlClash",
+      "description": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
+      "language": "Dart",
+      "stars": 40355,
+      "forks": 2524,
+      "todayStars": 187,
+      "url": "https://github.com/chen08209/FlClash",
+      "aiSummary": {
+        "summary": "FlClash 是一个基于 ClashMeta 的开源多平台代理客户端，支持 Android、Windows、macOS 和 Linux。它采用 Material You 设计风格，界面简洁，支持暗黑模式和 WebDAV 数据同步，旨在提供无广告的代理体验。",
+        "summary_en": "A multi-platform proxy client based on ClashMeta, featuring Material You design and ad-free usage.",
+        "techStack": [
+          "Dart",
+          "Golang"
+        ],
+        "useCase": "适合需要在多设备间同步代理配置并享受 Material You 设计风格的用户。",
+        "useCase_en": "A simple and ad-free proxy client for bypassing internet censorship on Android, Windows, macOS, and Linux."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "FareedKhan-dev/train-llm-from-scratch",
+      "description": "A straightforward method for training your LLM, from downloading data to generating text.",
+      "language": "Jupyter Notebook",
+      "stars": 2236,
+      "forks": 371,
+      "todayStars": 327,
+      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+      "aiSummary": {
+        "summary": "本项目使用 PyTorch 从头实现 Transformer 模型，涵盖数据准备、模型构建及训练生成全流程。支持在单 GPU 上训练数十亿或数百万参数的 LLM，适合学习大语言模型底层原理。",
+        "summary_en": "Implements a Transformer model from scratch using PyTorch to train LLMs on a single GPU.",
+        "techStack": [
+          "Jupyter Notebook",
+          "PyTorch"
+        ],
+        "useCase": "从零开始训练大语言模型（LLM）",
+        "useCase_en": "Train your own billion or million parameter LLM using a single GPU."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 68882,
+      "forks": 9183,
+      "todayStars": 655,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 感知平台，利用 ESP32 传感器捕获 WiFi 信道状态信息（CSI），实现穿墙检测、生命体征监测、活动识别和睡眠质量分析。它无需摄像头或可穿戴设备，支持 Home Assistant、Apple Home、Google Home 和 Amazon Alexa 等主流智能家居生态。",
+        "summary_en": "Rust-based WiFi sensing platform that turns radio signals into spatial intelligence for presence detection and vital sign monitoring.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "WiFi CSI",
+          "MQTT",
+          "HAP/Matter"
+        ],
+        "useCase": "适用于隐私保护的智能家居环境，用于无感监测人员存在、生命体征及活动状态。",
+        "useCase_en": "Detect people through walls and measure vital signs using commodity WiFi signals without cameras or wearables."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "DataTalksClub/data-engineering-zoomcamp",
+      "description": "Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. The next cohort starts in January 2026. Join the course here 👇🏼",
+      "language": "Jupyter Notebook",
+      "stars": 41785,
+      "forks": 8286,
+      "todayStars": 274,
+      "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+      "aiSummary": {
+        "summary": "这是一个免费的9周数据工程课程，旨在帮助学员掌握生产就绪数据管道的构建。课程涵盖容器化、工作流编排、数据仓库、分析工程、批处理和流处理等核心模块，通过实战项目强化技能。适合有一定基础编码和SQL经验的学员自学。",
+        "summary_en": "Free 9-week course covering data engineering fundamentals, from containerization to streaming with modern tools like Docker and Spark.",
+        "techStack": [
+          "Jupyter Notebook",
+          "GCP",
+          "Docker",
+          "Terraform",
+          "Kestra"
+        ],
+        "useCase": "适合希望系统学习数据工程、掌握端到端数据管道构建的开发者或学生。",
+        "useCase_en": "Gain hands-on experience building production-ready data pipelines from scratch."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "OpenMOSS/MOSS-TTS",
+      "description": "MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.",
+      "language": "Python",
+      "stars": 2625,
+      "forks": 236,
+      "todayStars": 62,
+      "url": "https://github.com/OpenMOSS/MOSS-TTS",
+      "aiSummary": {
+        "summary": "MOSS-TTS 是一个开源的高保真语音与声音生成模型家族，支持长文本朗读、多说话人对话、声音克隆及环境音效生成。项目包含实时流式 TTS、轻量级 Nano 模型及 SoundEffect v2.0，支持多语言与 48kHz 音频，集成了 llama.cpp 和 SGLang 后端，适用于复杂现实场景。",
+        "summary_en": "Open-source speech and sound generation model family for high-fidelity synthesis, voice cloning, and sound effects.",
+        "techStack": [
+          "Python",
+          "DiT",
+          "Flow Matching",
+          "MLX-Audio",
+          "llama.cpp"
+        ],
+        "useCase": "高保真语音合成、多说话人对话、声音克隆、环境音效生成及实时流式 TTS",
+        "useCase_en": "Generate high-fidelity speech, sound effects, and voice clones for complex real-world scenarios."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "dreammis/social-auto-upload",
+      "description": "自动化上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili",
+      "language": "Python",
+      "stars": 11761,
+      "forks": 2090,
+      "todayStars": 73,
+      "url": "https://github.com/dreammis/social-auto-upload",
+      "aiSummary": {
+        "summary": "这是一个 Python 项目，旨在帮助内容创作者和运营者自动化将视频及图文内容发布到抖音、Bilibili、小红书等多个主流社交媒体平台。项目支持定时发布、CLI 命令行操作及 AI Agent Skill 接口，目前正在重构以提升稳定性和隐蔽性。",
+        "summary_en": "A Python automation tool for uploading videos to multiple social media platforms including Douyin, Bilibili, and TikTok.",
+        "techStack": [
+          "Python",
+          "浏览器自动化",
+          "CLI",
+          "AI Agent"
+        ],
+        "useCase": "适合内容创作者和运营者批量管理社交媒体账号，实现视频和图文的一键发布。",
+        "useCase_en": "Automates the process of uploading videos to multiple social media platforms for content creators."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 144112,
+      "forks": 16984,
+      "todayStars": 454,
+      "url": "https://github.com/anthropics/skills",
+      "aiSummary": {
+        "summary": "这是 Anthropic 官方的 Python 项目，旨在提供 Claude AI 的 Agent Skills 实现。它包含一系列动态加载的指令、脚本和资源，用于提升 Claude 在特定任务（如文档创建、数据分析、自动化）上的性能。仓库展示了从创意应用到企业工作流的多种技能模式，开发者可参考这些开源技能来构建自定义能力。",
+        "summary_en": "Anthropic's repository of reusable skills and instructions for Claude to perform specialized tasks.",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "Office 文件格式",
+          "MCP"
+        ],
+        "useCase": "为 Claude AI 提供特定领域的任务执行能力，包括文档处理、数据分析和企业自动化工作流。",
+        "useCase_en": "Enabling Claude to perform specialized tasks through reusable instruction sets and scripts."
+      }
+    },
+    {
+      "index": 18,
+      "fullName": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars": 508213,
+      "forks": 48241,
+      "todayStars": 817,
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "aiSummary": {
+        "summary": "该项目汇集了从零开始构建各种流行技术（如操作系统、Web浏览器、AI模型等）的编程指南。通过跟随详细的步骤教程，开发者可以深入理解底层原理，提升编程技能。",
+        "summary_en": "A collection of guides to recreate famous technologies from scratch.",
+        "techStack": [
+          "Markdown",
+          "C++",
+          "Python",
+          "Java",
+          "JavaScript"
+        ],
+        "useCase": "适合想要深入理解计算机底层原理、提升编程实战能力的开发者或学习者。",
+        "useCase_en": "To learn programming by recreating famous technologies from scratch."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-05-31T00:11:20.278Z",
+    "duration": "405s",
+    "version": "1.0.0"
+  }
+}
