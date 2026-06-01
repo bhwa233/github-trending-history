@@ -1,0 +1,328 @@
+{
+  "date": "2026-05-31",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "stars": 74105,
+      "forks": 10579,
+      "todayStars": 1937,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 AI 视频生成工具，采用 MVC 架构，支持一键生成高清短视频。它集成了多种大模型（如 DeepSeek、OpenAI）和语音合成技术，能自动生成文案、字幕、背景音乐并合成视频。支持竖屏与横屏，具备批量生成功能，适合内容创作者快速制作视频。",
+        "summary_en": "A Python-based AI tool for one-click generation of high-definition short videos with scripts, voiceovers, and subtitles.",
+        "techStack": [
+          "Python",
+          "Web Framework",
+          "AI LLM (OpenAI, DeepSeek, etc.)",
+          "TTS (Text-to-Speech)",
+          "Video Processing"
+        ],
+        "useCase": "适合自媒体创作者、营销人员快速批量生成短视频内容。",
+        "useCase_en": "Automatically generate high-definition short videos for social media from a single keyword."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars": 134900,
+      "forks": 9226,
+      "todayStars": 2798,
+      "url": "https://github.com/microsoft/markitdown",
+      "aiSummary": {
+        "summary": "MarkItDown 是微软推出的轻量级 Python 工具，旨在将 PDF、Office、图像、音频等多种文件转换为 Markdown。它专注于保留文档结构（如标题、列表、表格），专为 LLM 文本分析管道设计，输出结构化数据以供机器消费。",
+        "summary_en": "Microsoft's Python tool for converting various file formats to Markdown for LLMs.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "LLM 数据预处理与文档结构化提取",
+        "useCase_en": "Convert files and office documents to Markdown for use with LLMs and text analysis pipelines."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "stars": 56584,
+      "forks": 5487,
+      "todayStars": 606,
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "aiSummary": {
+        "summary": "Scrapling 是一个自适应的 Web 抓取框架，支持从单次请求到大规模爬取。它具备智能解析功能，能自动适应网站结构变化。内置反检测机制，可绕过 Cloudflare Turnstile 等反爬虫系统。支持并发爬取、代理轮换、暂停恢复等功能，且代码简洁，适合各种规模的爬虫需求。",
+        "summary_en": "An adaptive Python web scraping framework that bypasses anti-bot systems and handles single requests to full-scale crawls.",
+        "techStack": [
+          "Python",
+          "Web Scraping Framework",
+          "Async"
+        ],
+        "useCase": "适用于需要绕过反爬虫机制、应对网站频繁改版以及进行大规模数据采集的场景。",
+        "useCase_en": "Scrape websites protected by anti-bot systems like Cloudflare Turnstile and perform large-scale data extraction with ada"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "nesquena/hermes-webui",
+      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "language": "Python",
+      "stars": 9950,
+      "forks": 1369,
+      "todayStars": 357,
+      "url": "https://github.com/nesquena/hermes-webui",
+      "aiSummary": {
+        "summary": "Hermes WebUI 是一个轻量级、暗色主题的 Web 界面，用于访问 Hermes Agent。它实现了与 CLI 完全一致的功能，无需构建步骤。支持持久记忆、自托管调度，可通过 SSH 隧道安全访问，适合远程管理和使用 AI 代理。",
+        "summary_en": "A web-based interface for the Hermes autonomous agent, providing full CLI parity and persistent memory access.",
+        "techStack": [
+          "Python",
+          "Vanilla JavaScript",
+          "HTML/CSS"
+        ],
+        "useCase": "通过 Web 浏览器或 SSH 隧道远程访问和管理 Hermes Agent。",
+        "useCase_en": "Access the Hermes autonomous agent from a web browser instead of a terminal."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "EveryInc/compound-engineering-plugin",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "language": "TypeScript",
+      "stars": 18693,
+      "forks": 1408,
+      "todayStars": 251,
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "aiSummary": {
+        "summary": "该插件旨在通过 'Compound Engineering'（复合工程）理念，利用 AI 技能（如 /ce-strategy、/ce-brainstorm 等）优化开发流程。它强调 80% 的计划与审查，20% 的执行，通过编码知识减少技术债务，使后续工程工作更轻松。适用于 Claude Code、Codex、Cursor 等开发环境。",
+        "summary_en": "A TypeScript plugin for AI coding agents that streamlines engineering workflows through planning, review, and knowledge codification.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code",
+          "Codex",
+          "Cursor",
+          "AI Agents"
+        ],
+        "useCase": "需要使用 AI 辅助进行结构化规划、代码审查和知识管理的软件开发场景。",
+        "useCase_en": "To help developers use AI agents to plan, review, and codify engineering knowledge for more efficient development."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "github/docs",
+      "description": "The open-source repo for docs.github.com",
+      "language": "TypeScript",
+      "stars": 19721,
+      "forks": 67286,
+      "todayStars": 27,
+      "url": "https://github.com/github/docs",
+      "aiSummary": {
+        "summary": "GitHub 官方文档的开源仓库，使用 TypeScript 构建。支持外部贡献者编辑 Markdown 内容文件，并与内部仓库同步。项目采用双重许可（CC BY 4.0 和 MIT），旨在为用户提供准确的技术文档并促进社区协作。",
+        "summary_en": "The open-source repository hosting the official documentation for GitHub's website.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于维护 GitHub 技术文档及开源社区文档贡献。",
+        "useCase_en": "Serves as the source of truth for the official GitHub documentation website."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "stars": 23494,
+      "forks": 2716,
+      "todayStars": 635,
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "aiSummary": {
+        "summary": "VoxCPM2 是一个基于扩散自回归架构的 tokenizer-free TTS 系统，支持 30 种语言。它具备声音设计、可控克隆和终极克隆功能，能输出 48kHz 高质量音频，支持实时流式传输，且完全开源。",
+        "summary_en": "VoxCPM2 is a tokenizer-free Text-to-Speech system supporting 30 languages, voice cloning, and high-quality audio generation.",
+        "techStack": [
+          "Python",
+          "Diffusion Autoregressive",
+          "AudioVAE V2",
+          "MiniCPM-4",
+          "vLLM"
+        ],
+        "useCase": "适用于多语言语音合成、高质量语音克隆及创意声音设计。",
+        "useCase_en": "Generate high-quality multilingual speech and clone voices using text descriptions or audio clips."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "language": "HTML",
+      "stars": 4583,
+      "forks": 648,
+      "todayStars": 323,
+      "url": "https://github.com/revfactory/harness",
+      "aiSummary": {
+        "summary": "Harness 是一个为 Claude Code 设计的团队架构工厂。它利用 Claude Code 的代理团队系统，将域描述转化为由 6 种预定义模式（如流水线、专家池等）定义的代理团队和技能。它位于 L3 Meta-Factory 层，专注于生成团队架构而非运行时配置。",
+        "summary_en": "A meta-skill for Claude Code that designs domain-specific agent teams and generates specialized skills using six architectural patterns.",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "需要为特定领域构建复杂代理团队架构时。",
+        "useCase_en": "Automatically generate specialized agent teams and skills for Claude Code based on domain descriptions."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "FareedKhan-dev/train-llm-from-scratch",
+      "description": "A straightforward method for training your LLM, from downloading data to generating text.",
+      "language": "Jupyter Notebook",
+      "stars": 2944,
+      "forks": 441,
+      "todayStars": 626,
+      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+      "aiSummary": {
+        "summary": "该项目基于 PyTorch 和《Attention is All You Need》论文，从头实现 Transformer 模型。它提供了从数据准备、模型构建（MLP、多头注意力、Transformer 块）到训练和文本生成的完整流程，使用 Pile 数据集，适合在单 GPU 上训练数十亿参数的 LLM。",
+        "summary_en": "A Jupyter Notebook tutorial implementing a Transformer model from scratch using PyTorch for training LLMs.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Jupyter Notebook"
+        ],
+        "useCase": "适合想要深入理解 Transformer 架构和 LLM 训练流程的开发者或研究者。",
+        "useCase_en": "Train Large Language Models by implementing the Transformer architecture from scratch."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "supermemoryai/supermemory",
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "language": "TypeScript",
+      "stars": 23320,
+      "forks": 2104,
+      "todayStars": 264,
+      "url": "https://github.com/supermemoryai/supermemory",
+      "aiSummary": {
+        "summary": "Supermemory 是一个极速、可扩展的 AI 记忆引擎，旨在解决 AI 记忆丢失问题。它通过自动提取事实、构建用户画像和混合搜索，提供完整的上下文管理。支持多模态文件处理及 Google Drive、Notion 等连接器，开发者可通过 API 无需配置向量库即可为应用添加持久记忆。",
+        "summary_en": "A high-performance memory engine for AI that handles context, user profiles, and RAG.",
+        "techStack": [
+          "TypeScript",
+          "RAG",
+          "Embeddings"
+        ],
+        "useCase": "为 AI 应用提供持久记忆和上下文管理，解决 AI 记忆丢失问题，支持个人知识库构建和企业级应用开发。",
+        "useCase_en": "To provide AI applications with persistent memory, context management, and knowledge retrieval."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "stars": 27714,
+      "forks": 2712,
+      "todayStars": 374,
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "aiSummary": {
+        "summary": "Project N.O.M.A.D. 是一个基于 TypeScript 的自包含离线生存计算机。它通过 Docker 容器化工具和资源，提供管理 UI（Command Center）和 API，旨在任何时间、任何地点为用户提供关键工具、知识和 AI 支持，确保数据永不离线。",
+        "summary_en": "An offline-first survival computer and knowledge server managed via a Docker Command Center.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Debian/Ubuntu"
+        ],
+        "useCase": "适合在断网或紧急情况下作为个人知识库和工具集服务器使用。",
+        "useCase_en": "To provide an offline-first knowledge and survival server with critical tools and AI."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Python",
+      "stars": 128888,
+      "forks": 20997,
+      "todayStars": 489,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code 是一个运行在终端中的智能编码工具，通过自然语言命令理解代码库、执行例行任务、解释复杂代码并处理 Git 工作流，旨在帮助开发者提升编码效率。",
+        "summary_en": "An agentic coding tool for the terminal that automates tasks and handles git workflows via natural language.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要通过自然语言与代码库交互以执行任务、调试或重构的开发者。",
+        "useCase_en": "Automate routine coding tasks and handle git workflows directly in your terminal using natural language commands."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "nicobailon/pi-subagents",
+      "description": "Pi extension for async subagent delegation with truncation, artifacts, and session sharing",
+      "language": "TypeScript",
+      "stars": 1831,
+      "forks": 255,
+      "todayStars": 69,
+      "url": "https://github.com/nicobailon/pi-subagents",
+      "aiSummary": {
+        "summary": "这是一个 Pi 的扩展插件，允许 Pi 将任务委托给专注的子代理。它支持代码审查、并行审计、后台作业等功能。用户无需配置，只需用自然语言请求即可。通过创建具有特定任务的专注子会话，Pi 能够更高效地处理复杂工作流，如代码检查和任务执行。",
+        "summary_en": "Pi extension for delegating tasks to focused child agents for code review and auditing.",
+        "techStack": [
+          "TypeScript",
+          "Pi",
+          "Node.js"
+        ],
+        "useCase": "代码审查、并行审计、复杂任务分解与后台作业处理",
+        "useCase_en": "Enables Pi to delegate tasks to focused child agents for code review, auditing, and parallel processing."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "emmabostian/developer-portfolios",
+      "description": "A list of developer portfolios for your inspiration",
+      "language": "Python",
+      "stars": 23350,
+      "forks": 4609,
+      "todayStars": 73,
+      "url": "https://github.com/emmabostian/developer-portfolios",
+      "aiSummary": {
+        "summary": "这是一个由 Emma Bostian 维护的 GitHub 仓库，旨在收集并展示 1700 多个开发者的个人作品集网站。它按字母顺序排列，旨在为开发者提供寻找灵感、展示作品或提交 PR 的平台，是寻找优秀前端或全栈项目展示的绝佳资源。",
+        "summary_en": "A curated collection of developer portfolios for inspiration and reference.",
+        "techStack": [
+          "Python",
+          "Markdown"
+        ],
+        "useCase": "为开发者提供寻找优秀作品集灵感的资源库，或作为展示个人作品集的参考。",
+        "useCase_en": "To find inspiration for building a developer portfolio website."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars": 509377,
+      "forks": 48311,
+      "todayStars": 1158,
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "aiSummary": {
+        "summary": "这是一个旨在通过从零开始构建经典技术来掌握编程的项目。它提供了涵盖操作系统、编程语言、数据库、3D 渲染器、AI 模型等领域的详细教程。通过实践这些项目，开发者可以深入理解底层原理，提升工程能力。",
+        "summary_en": "A collection of guides to recreate famous technologies from scratch to master programming.",
+        "techStack": [
+          "Markdown",
+          "C++",
+          "Java",
+          "Python",
+          "JavaScript"
+        ],
+        "useCase": "适合计算机科学学生、初级及高级开发者深入理解底层原理和系统设计。",
+        "useCase_en": "A resource for developers to learn programming by implementing core technologies like 3D renderers and AI models."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-01T00:14:10.483Z",
+    "duration": "273s",
+    "version": "1.0.0"
+  }
+}
