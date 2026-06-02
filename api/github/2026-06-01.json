@@ -1,0 +1,369 @@
+{
+  "date": "2026-06-01",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars": 138329,
+      "forks": 9421,
+      "todayStars": 3034,
+      "url": "https://github.com/microsoft/markitdown",
+      "aiSummary": {
+        "summary": "微软开源的轻量级 Python 工具，用于将 PDF、Office 文档、图片、音频等多种格式转换为 Markdown。它专注于保留文档结构（标题、列表、表格等），专为 LLM 和文本分析管道设计，输出高效且结构化。",
+        "summary_en": "Lightweight Python utility converting files and office documents to Markdown for LLMs.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要将非结构化文档（如 PDF、图片）转换为结构化 Markdown 文本以供大语言模型（LLM）处理或文本分析的场景。",
+        "useCase_en": "Convert files and office documents to Markdown for consumption by LLMs and text analysis pipelines."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "nesquena/hermes-webui",
+      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "language": "Python",
+      "stars": 11268,
+      "forks": 1449,
+      "todayStars": 945,
+      "url": "https://github.com/nesquena/hermes-webui",
+      "aiSummary": {
+        "summary": "这是一个为 Hermes Agent 提供的轻量级 Web 界面，支持通过浏览器或手机访问。它实现了与 CLI 完全一致的功能体验，采用 Python 和原生 JS 开发，无需构建步骤。用户可通过 SSH 隧道安全访问，无需额外配置，直接使用现有的代理和模型。",
+        "summary_en": "A web interface for the Hermes Agent, enabling terminal-like interaction via a browser.",
+        "techStack": [
+          "Python",
+          "JavaScript",
+          "Docker"
+        ],
+        "useCase": "为需要通过 Web 或移动设备安全访问服务器端 AI 代理的用户提供便捷的图形化操作界面。",
+        "useCase_en": "Provides a browser-based interface to manage and interact with the Hermes Agent on your server."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "supermemoryai/supermemory",
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "language": "TypeScript",
+      "stars": 23960,
+      "forks": 2142,
+      "todayStars": 647,
+      "url": "https://github.com/supermemoryai/supermemory",
+      "aiSummary": {
+        "summary": "Supermemory 是一个高性能的 AI 记忆引擎，旨在解决 AI 在对话间遗忘信息的问题。它支持从对话中提取事实、构建用户画像、混合搜索以及多模态数据（文档、代码、图片）处理。提供连接器自动同步外部数据，并支持通过 API 快速集成到 AI 产品中，充当 AI 的“大脑”。",
+        "summary_en": "A high-performance memory engine and API for AI that persists context and manages knowledge.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "为 AI 应用程序和企业构建持久化、可扩展的记忆层和个人知识库。",
+        "useCase_en": "It provides a persistent memory layer for AI agents to remember context across conversations."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "stars": 76807,
+      "forks": 10898,
+      "todayStars": 3375,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 AI 视频生成工具，采用 MVC 架构。支持一键生成包含文案、素材、字幕和音乐的短视频，兼容竖屏与横屏。集成了多种主流大模型和语音合成技术，支持批量生成与自定义配置。提供 Web 界面与 API 接口，旨在实现全自动、高质量的视频内容生产。",
+        "summary_en": "Python tool for one-click AI video generation using large language models, featuring scripts, subtitles, and music.",
+        "techStack": [
+          "Python",
+          "AI大模型",
+          "Web/API",
+          "视频处理"
+        ],
+        "useCase": "快速生成短视频内容，适合自媒体创作者",
+        "useCase_en": "Automate video creation by inputting a topic to generate scripts, visuals, and audio."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "stars": 58002,
+      "forks": 5632,
+      "todayStars": 1486,
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "aiSummary": {
+        "summary": "Scrapling 是一个高性能的 Python 网络抓取框架，支持从单次请求到大规模爬取。其核心优势在于自适应解析，能自动适应网站结构变化；内置 StealthyFetcher 等工具可绕过 Cloudflare Turnstile 等反爬虫系统；Spider 模块支持并发、多会话及代理轮换，操作简便且功能强大。",
+        "summary_en": "An adaptive Python web scraping framework for single requests to full-scale crawls with anti-bot bypassing.",
+        "techStack": [
+          "Python",
+          "Web Scraping",
+          "Async Programming"
+        ],
+        "useCase": "适用于需要绕过反爬虫机制、适应网站结构变更以及进行大规模并发爬取的场景。",
+        "useCase_en": "Automate web scraping tasks ranging from simple requests to complex crawls while bypassing anti-bot protections."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "stars": 32667,
+      "forks": 1780,
+      "todayStars": 485,
+      "url": "https://github.com/pbakaus/impeccable",
+      "aiSummary": {
+        "summary": "这是一个为 AI 设计助手提供标准化设计语言的 JavaScript 项目。它包含 7 个领域参考文件、23 个设计命令及反模式规则，旨在防止 AI 生成重复或糟糕的 UI。通过 CLI 和浏览器扩展，帮助开发者构建一致、高质量的前端界面。",
+        "summary_en": "A design skill for AI to enforce consistent, high-quality frontend design standards.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "用于 AI 辅助前端设计，确保设计一致性，避免重复模式。",
+        "useCase_en": "Use this skill to guide AI in generating consistent, high-quality frontend designs using a shared design vocabulary."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "stars": 23023,
+      "forks": 2466,
+      "todayStars": 249,
+      "url": "https://github.com/p-e-w/heretic",
+      "aiSummary": {
+        "summary": "Heretic 是一个 Python 工具，用于自动移除语言模型的审查（安全对齐）。它结合了方向消融技术和 TPE 优化器，通过最小化拒绝率和 KL 散度来寻找最佳参数。该方法无需人工干预，能在保持模型原有智能的同时，有效降低有害提示的拒绝率，支持多种模型架构。",
+        "summary_en": "Fully automatic censorship removal tool for transformer-based language models using directional ablation and Optuna.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Optuna"
+        ],
+        "useCase": "移除语言模型审查以恢复原始能力的研究与开发",
+        "useCase_en": "Decensor language models by automatically finding optimal abliteration parameters to minimize refusals and model damage."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "EveryInc/compound-engineering-plugin",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "language": "TypeScript",
+      "stars": 19092,
+      "forks": 1428,
+      "todayStars": 417,
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code、Codex 和 Cursor 提供的官方 Compound Engineering 插件。它旨在通过 AI 技能和代理提高工程效率，遵循“80% 计划与审查，20% 执行”的哲学。核心功能包括策略制定、头脑风暴、代码审查及知识积累，旨在减少技术债务，让后续开发工作更轻松。",
+        "summary_en": "A TypeScript plugin for AI coding agents that streamlines engineering workflows by planning, reviewing, and compounding knowledge.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于使用 Claude Code、Codex 或 Cursor 进行 AI 辅助编程的团队和个人，旨在通过结构化的规划、审查和知识复用来提高开发效率并降低技术债务。",
+        "useCase_en": "Developers use this plugin to streamline AI-assisted coding workflows by planning, reviewing, and compounding engineerin"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 81749,
+      "forks": 15889,
+      "todayStars": 299,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents 是一个基于多智能体 LLM 的金融交易框架，模拟真实交易公司运作。它集成了基本面、情感和技术分析师等角色，协同评估市场并决策。支持多模型（GPT-5.x, Claude 等）和 LangGraph，提供回测与风险管理功能，旨在构建影响深远的交易项目。",
+        "summary_en": "A multi-agent LLM framework simulating real-world trading firms for autonomous financial decision-making.",
+        "techStack": [
+          "Python",
+          "LangGraph",
+          "Docker",
+          "OpenAI API",
+          "多模型 LLM"
+        ],
+        "useCase": "适用于构建基于大语言模型的自动化金融交易系统与投资策略研究。",
+        "useCase_en": "Automate financial trading strategies using specialized LLM-powered agents for market analysis and execution."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "language": "HTML",
+      "stars": 5132,
+      "forks": 689,
+      "todayStars": 524,
+      "url": "https://github.com/revfactory/harness",
+      "aiSummary": {
+        "summary": "Harness 是 Claude Code 的团队架构工厂，利用 6 种预定义模式（如流水线、专家池等）将项目描述自动转化为专业的代理团队定义和技能文件。它位于 L3 元工厂层，帮助用户高效构建复杂的代理协作系统。",
+        "summary_en": "A Claude Code meta-skill that designs domain-specific agent teams and generates specialized skills using predefined patterns.",
+        "techStack": [
+          "HTML",
+          "Claude Code"
+        ],
+        "useCase": "需要构建复杂多代理系统或自动化团队协作流程的场景。",
+        "useCase_en": "Automatically generates agent teams and skills for Claude Code based on domain descriptions."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "godotengine/godot",
+      "description": "Godot Engine – Multi-platform 2D and 3D game engine",
+      "language": "C++",
+      "stars": 111628,
+      "forks": 25509,
+      "todayStars": 77,
+      "url": "https://github.com/godotengine/godot",
+      "aiSummary": {
+        "summary": "Godot Engine 是一个免费开源的跨平台 2D 和 3D 游戏引擎，采用 C++ 编写。它提供统一接口和丰富工具，支持一键导出至桌面、移动、Web 及主机平台。项目遵循 MIT 许可证，由社区驱动，允许用户自由使用和贡献。",
+        "summary_en": "Free, open-source game engine for creating 2D and 3D games across multiple platforms.",
+        "techStack": [
+          "C++",
+          "GDScript",
+          "C#"
+        ],
+        "useCase": "适用于开发跨平台的 2D 和 3D 游戏项目，支持一键导出至多种平台。",
+        "useCase_en": "Develop cross-platform 2D and 3D games for desktop, mobile, web, and consoles."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "can1357/oh-my-pi",
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "language": "TypeScript",
+      "stars": 9454,
+      "forks": 759,
+      "todayStars": 335,
+      "url": "https://github.com/can1357/oh-my-pi",
+      "aiSummary": {
+        "summary": "这是一个基于终端的 AI 编码代理，fork 自 Pi 项目。它集成了 40+ 提供商、32 个内置工具及 27k 行 Rust 核心。支持 LSP 和 DAP，通过哈希锚定编辑技术大幅提升代码修改成功率，旨在提供最强大的终端编码界面。",
+        "summary_en": "A terminal-based AI coding agent forked from Pi, featuring optimized tools, LSP support, and subagents for efficient code editing.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "LSP"
+        ],
+        "useCase": "适合需要在终端环境中进行高效、自动化代码编写与调试的开发者。",
+        "useCase_en": "Automate coding tasks in the terminal using an AI agent that integrates with IDE features like LSP and browser automatio"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "stars": 24213,
+      "forks": 2790,
+      "todayStars": 888,
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "aiSummary": {
+        "summary": "VoxCPM2 是一个基于 Python 的 tokenizer-free 文本转语音系统，支持 30 种语言。它具备语音设计、可控克隆及终极克隆功能，能生成 48kHz 高质量音频。支持实时流式传输，基于 MiniCPM-4 骨干网络，完全开源。",
+        "summary_en": "A tokenizer-free TTS system for multilingual speech generation, voice cloning, and creative voice design using a 2B parameter diffusion model.",
+        "techStack": [
+          "Python",
+          "Diffusion Models",
+          "MiniCPM-4",
+          "AudioVAE V2",
+          "vLLM"
+        ],
+        "useCase": "多语言语音合成、创意语音设计、高保真语音克隆及实时流式语音生成。",
+        "useCase_en": "Generate high-quality speech in 30 languages and clone voices from text descriptions or audio clips."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "FareedKhan-dev/train-llm-from-scratch",
+      "description": "A straightforward method for training your LLM, from downloading data to generating text.",
+      "language": "Jupyter Notebook",
+      "stars": 3694,
+      "forks": 516,
+      "todayStars": 861,
+      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+      "aiSummary": {
+        "summary": "本项目基于 PyTorch 从零实现 Transformer 架构，提供从数据准备（Pile 数据集）到模型训练及文本生成的完整教程。代码详细讲解了注意力机制、MLP 和 Transformer Block 等核心组件，适合深度学习初学者学习原理并尝试训练自己的语言模型。",
+        "summary_en": "Implements a Transformer model from scratch using PyTorch to train LLMs on a single GPU.",
+        "techStack": [
+          "Jupyter Notebook",
+          "PyTorch",
+          "Python"
+        ],
+        "useCase": "深度学习教学、Transformer 原理学习、小型语言模型训练",
+        "useCase_en": "Training LLMs from scratch using a single GPU based on the Transformer architecture."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "stefan-jansen/machine-learning-for-trading",
+      "description": "Code for Machine Learning for Algorithmic Trading, 2nd edition.",
+      "language": "Jupyter Notebook",
+      "stars": 17843,
+      "forks": 5183,
+      "todayStars": 93,
+      "url": "https://github.com/stefan-jansen/machine-learning-for-trading",
+      "aiSummary": {
+        "summary": "本项目是《机器学习用于算法交易》第2版的配套代码库，包含150多个Jupyter Notebook。它展示了如何利用线性回归到深度强化学习等多种ML技术，处理市场与文本数据，构建、回测并评估交易策略，是学习金融量化与机器学习结合的实战指南。",
+        "summary_en": "Comprehensive Jupyter notebooks demonstrating ML techniques for building and backtesting algorithmic trading strategies.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Linear Regression",
+          "Deep Reinforcement Learning",
+          "CNN",
+          "RNN"
+        ],
+        "useCase": "机器学习在金融量化交易策略的开发、回测与评估",
+        "useCase_en": "Applying machine learning techniques to extract signals and build trading strategies."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "dmtrKovalenko/fff",
+      "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
+      "language": "Rust",
+      "stars": 7162,
+      "forks": 298,
+      "todayStars": 135,
+      "url": "https://github.com/dmtrKovalenko/fff",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的极速文件搜索工具，专为 AI 代理和开发者设计。它提供抗拼写错误的路径/内容搜索、频率记忆和 Git 感知功能。通过 MCP 服务器，它能让 Claude Code、Cursor 等工具获得比内置搜索更快、更节省 token 的文件检索能力。",
+        "summary_en": "A fast, typo-resistant file search toolkit optimized for AI agents and developers.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "为 AI 代理（如 Claude Code）和代码编辑器（如 Neovim）提供高性能、低延迟的文件索引与搜索服务。",
+        "useCase_en": "To provide high-performance, typo-resistant file search capabilities to AI agents and developers."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars": 510392,
+      "forks": 48388,
+      "todayStars": 1212,
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "aiSummary": {
+        "summary": "这是一个通过从零开始重新创建流行技术来学习编程的指南集合。项目涵盖了操作系统、Web 浏览器、AI 模型、区块链等广泛领域，提供分步教程，帮助开发者深入理解底层原理。",
+        "summary_en": "A collection of step-by-step guides to recreate famous technologies from scratch.",
+        "techStack": [
+          "Markdown",
+          "C++",
+          "Python",
+          "JavaScript",
+          "Java"
+        ],
+        "useCase": "适合希望深入理解计算机底层原理、提升实战编程能力的开发者。",
+        "useCase_en": "A resource for programmers to deepen their understanding of computer science concepts by building them from scratch."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-02T00:22:34.492Z",
+    "duration": "324s",
+    "version": "1.0.0"
+  }
+}
