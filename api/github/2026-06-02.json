@@ -1,0 +1,249 @@
+{
+  "date": "2026-06-02",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "chopratejas/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "language": "Python",
+      "stars": 6555,
+      "forks": 458,
+      "todayStars": 1265,
+      "url": "https://github.com/chopratejas/headroom",
+      "aiSummary": {
+        "summary": "Headroom 是一个专为 AI 代理设计的上下文压缩层，旨在显著减少 LLM 的 token 消耗。它支持 Python 和 TypeScript，提供库、代理和 MCP 服务器等多种形式。通过压缩工具输出、日志和 RAG 块，它能减少 60-95% 的 token，同时保持答案一致，支持本地运行和可逆压缩。",
+        "summary_en": "Local-first context compression tool for AI agents that reduces token usage by 60-95% while maintaining accuracy.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "用于优化 AI 代理的上下文窗口，大幅降低 LLM 调用成本并提升处理效率。",
+        "useCase_en": "Reduce LLM token usage by compressing context like tool outputs, logs, and RAG chunks without losing accuracy."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars": 141214,
+      "forks": 9622,
+      "todayStars": 3618,
+      "url": "https://github.com/microsoft/markitdown",
+      "aiSummary": {
+        "summary": "这是一个轻量级 Python 工具，用于将 PDF、Office 文档、图片、音频等多种格式转换为 Markdown。它专注于保留文档结构（如标题、列表、表格），专为 LLM 文本分析管道设计，旨在提供比 textract 更适合机器消费的输出格式。",
+        "summary_en": "Lightweight Python utility for converting files and office documents to Markdown for LLMs and text analysis.",
+        "techStack": [
+          "Python",
+          "OCR",
+          "LLM"
+        ],
+        "useCase": "将各种文档格式转换为 Markdown，供 LLM 进行文本分析和处理。",
+        "useCase_en": "Convert files and office documents to Markdown for LLMs and text analysis pipelines."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 204020,
+      "forks": 31296,
+      "todayStars": 1533,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个跨 AI 代理工具（如 Cursor、Claude Code）的性能优化系统。它提供了一套完整的操作员系统，包含技能、直觉、记忆优化、安全扫描和持续学习功能。项目支持多工具工作流，旨在提升代理效率，并包含 Token 优化、并行化和子代理编排等高级特性。",
+        "summary_en": "A comprehensive system for optimizing AI agent performance across multiple coding environments.",
+        "techStack": [
+          "JavaScript",
+          "Python"
+        ],
+        "useCase": "适用于需要优化 AI 代理（如 Cursor、Claude Code）性能、记忆管理和技能编排的开发者，支持多工具协作。",
+        "useCase_en": "To optimize the performance and workflows of AI coding agents across various platforms."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "stars": 59211,
+      "forks": 5722,
+      "todayStars": 1182,
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "aiSummary": {
+        "summary": "Scrapling 是一个 Python 编写的自适应 Web Scraping 框架，支持从单次请求到大规模爬虫。它具备智能解析器，能自动适应网站结构变化；内置 Fetchers 可绕过 Cloudflare 等反爬系统；Spider 框架支持并发、多会话及代理轮换。适合需要高效、隐蔽且灵活的网页数据采集场景。",
+        "summary_en": "Scrapling is an adaptive Python web scraping framework for single requests to full-scale crawls, bypassing anti-bot systems.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要绕过反爬虫机制（如 Cloudflare）并自动适应网站结构变化的现代网页数据采集。",
+        "useCase_en": "Build robust web scrapers that bypass anti-bot protections and automatically adapt to website changes."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "nesquena/hermes-webui",
+      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "language": "Python",
+      "stars": 12562,
+      "forks": 1540,
+      "todayStars": 1722,
+      "url": "https://github.com/nesquena/hermes-webui",
+      "aiSummary": {
+        "summary": "Hermes WebUI 是一个轻量级暗色主题 Web 界面，为 Hermes Agent 提供与 CLI 体验完全一致的功能。支持会话管理、工作区浏览及配置，通过 SSH 隧道安全访问，无需构建步骤，支持多容器部署。",
+        "summary_en": "A lightweight web interface for Hermes Agent providing full CLI parity via Python and vanilla JS.",
+        "techStack": [
+          "Python",
+          "Vanilla JavaScript",
+          "Docker"
+        ],
+        "useCase": "通过 Web 浏览器或手机远程安全访问和管理 Hermes Agent。",
+        "useCase_en": "Interact with your local Hermes Agent securely through a web browser."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "reconurge/flowsint",
+      "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
+      "language": "TypeScript",
+      "stars": 4528,
+      "forks": 583,
+      "todayStars": 124,
+      "url": "https://github.com/reconurge/flowsint",
+      "aiSummary": {
+        "summary": "Flowsint 是一个开源的 OSINT 图探索工具，专注于网络侦察。它提供可视化图界面探索实体关系，并内置多种自动化丰富器（如 DNS、IP、ASN、社交媒体等）。项目强调隐私，数据本地存储，适合网络安全分析师进行调查和验证。",
+        "summary_en": "An open-source OSINT platform for visualizing relationships and automating cybersecurity investigations.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Make"
+        ],
+        "useCase": "网络安全分析师进行开源情报调查和关系探索",
+        "useCase_en": "It allows cybersecurity analysts to visualize relationships and automate data enrichment for OSINT investigations."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "stars": 25145,
+      "forks": 2881,
+      "todayStars": 783,
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "aiSummary": {
+        "summary": "VoxCPM2 是一个基于扩散自回归架构的 tokenizer-free 多语言 TTS 系统。它支持 30 种语言、声音设计、可控克隆及终极克隆，能输出 48kHz 高质量音频。具备上下文感知合成和实时流式传输能力，完全开源且商业就绪。",
+        "summary_en": "VoxCPM2 is a tokenizer-free TTS system supporting 30 languages, voice design, and high-quality cloning.",
+        "techStack": [
+          "Python",
+          "Diffusion Model",
+          "Autoregressive Architecture",
+          "AudioVAE V2",
+          "MiniCPM-4"
+        ],
+        "useCase": "适用于多语言语音合成、创意声音设计及高保真语音克隆场景。",
+        "useCase_en": "Generate high-quality speech in 30 languages and clone voices using text descriptions or audio clips."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "stefan-jansen/machine-learning-for-trading",
+      "description": "Code for Machine Learning for Algorithmic Trading, 2nd edition.",
+      "language": "Jupyter Notebook",
+      "stars": 18493,
+      "forks": 5228,
+      "todayStars": 574,
+      "url": "https://github.com/stefan-jansen/machine-learning-for-trading",
+      "aiSummary": {
+        "summary": "该项目是《机器学习用于算法交易》第2版的代码库，包含150多个Jupyter Notebook。它涵盖了从线性回归到深度强化学习的多种ML技术，展示了如何利用市场、基本面及文本数据构建、回测和评估交易策略，旨在通过实践案例展示ML如何为交易策略增加价值。",
+        "summary_en": "A collection of 150+ Jupyter notebooks implementing ML algorithms for building and backtesting algorithmic trading strategies.",
+        "techStack": [
+          "Jupyter Notebook",
+          "机器学习算法 (线性回归/深度学习/强化学习)",
+          "金融数据分析",
+          "文本挖掘"
+        ],
+        "useCase": "学习如何利用机器学习技术构建、回测和评估算法交易策略。",
+        "useCase_en": "Applying machine learning to algorithmic trading strategies using market and text data."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "jamwithai/production-agentic-rag-course",
+      "description": "",
+      "language": "Python",
+      "stars": 6397,
+      "forks": 1488,
+      "todayStars": 30,
+      "url": "https://github.com/jamwithai/production-agentic-rag-course",
+      "aiSummary": {
+        "summary": "这是一个面向学习者的生产级 RAG 系统实战课程。通过7周的学习，从零构建一个基于 arXiv 论文的研究助手。课程强调专业路径，先掌握 BM25 关键词搜索基础，再结合向量检索构建混合搜索系统。最终集成了 Docker、FastAPI、LangGraph 和 Telegram Bot，涵盖数据管道、智能分块、本地 LLM 调用及生产监控，帮助开发者掌握现代 AI 工程技能。",
+        "summary_en": "A comprehensive course building a production-grade RAG system for academic research using Python, Docker, and LangGraph.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "FastAPI",
+          "PostgreSQL",
+          "OpenSearch"
+        ],
+        "useCase": "适合 AI 工程师或开发者学习构建生产级 RAG 系统及 Agentic AI 应用。",
+        "useCase_en": "To build an AI research assistant that automatically fetches and answers questions about academic papers."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "supermemoryai/supermemory",
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "language": "TypeScript",
+      "stars": 24661,
+      "forks": 2179,
+      "todayStars": 680,
+      "url": "https://github.com/supermemoryai/supermemory",
+      "aiSummary": {
+        "summary": "Supermemory 是一个为 AI 时代设计的极速记忆引擎，旨在解决 AI 记忆缺失问题。它具备事实提取、用户画像构建、自动遗忘及混合搜索功能，支持多模态处理和多种数据源连接。开发者可将其作为上下文栈，为 AI 应用赋予持久化记忆能力。",
+        "summary_en": "A fast, scalable memory engine and API for AI that provides persistent context, user profiles, and RAG capabilities.",
+        "techStack": [
+          "TypeScript",
+          "RAG",
+          "Vector Database",
+          "Connectors"
+        ],
+        "useCase": "为 AI 助手和产品提供持久化记忆和上下文管理，解决对话间遗忘问题，构建智能体“大脑”。",
+        "useCase_en": "To give AI assistants persistent memory and context so they can remember user preferences and past discussions."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Open-LLM-VTuber/Open-LLM-VTuber",
+      "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
+      "language": "Python",
+      "stars": 8384,
+      "forks": 1075,
+      "todayStars": 66,
+      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+      "aiSummary": {
+        "summary": "这是一个本地运行的跨平台 AI 伴侣项目，支持语音交互和 Live2D 虚拟形象。它可在 Windows、macOS 和 Linux 上运行，提供 Web 版和桌面版（含透明背景模式）。项目目前处于 v2.0 重写阶段，专注于离线体验和个性化角色定制。",
+        "summary_en": "A local Python project enabling hands-free voice interaction with LLMs and Live2D avatars across Windows, macOS, and Linux.",
+        "techStack": [
+          "Python",
+          "Live2D",
+          "Web 技术",
+          "本地运行环境"
+        ],
+        "useCase": "适合作为本地运行的个性化 AI 伴侣或桌面宠物",
+        "useCase_en": "Create a virtual AI companion with a Live2D avatar for hands-free voice conversations on your desktop."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-03T01:44:50.501Z",
+    "duration": "150s",
+    "version": "1.0.0"
+  }
+}
