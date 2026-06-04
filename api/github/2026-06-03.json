@@ -1,0 +1,312 @@
+{
+  "date": "2026-06-03",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "chopratejas/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "language": "Python",
+      "stars": 9862,
+      "forks": 651,
+      "todayStars": 3530,
+      "url": "https://github.com/chopratejas/headroom",
+      "aiSummary": {
+        "summary": "Headroom 是一个本地优先的 AI 上下文压缩层，旨在减少 LLM token 消耗。它支持压缩工具输出、日志、文件及 RAG 块，减少 60-95% token 且保持答案一致。提供 Python 库、代理和 MCP 服务器，具备可逆压缩、跨代理记忆及智能学习功能。",
+        "summary_en": "A local-first context compression library and proxy for AI agents to reduce token usage by up to 95%.",
+        "techStack": [
+          "Python",
+          "MCP",
+          "TypeScript"
+        ],
+        "useCase": "适用于 AI 代理开发、RAG 系统优化及代码编辑器（如 Cursor/Claude），旨在减少 LLM token 消耗并提升上下文处理效率。",
+        "useCase_en": "Reducing token usage for AI agents by compressing context like logs and RAG chunks without losing accuracy."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 205795,
+      "forks": 31597,
+      "todayStars": 2141,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个跨多 AI 代理工具（如 Claude Code、Cursor）的性能优化系统。它提供技能、直觉、记忆持久化、安全扫描和持续学习功能。支持并行化和子代理编排，旨在提升代理工作流效率。",
+        "summary_en": "A high-performance optimization system for AI agent harnesses like Cursor and Claude Code, featuring skills, memory, and security.",
+        "techStack": [
+          "JavaScript",
+          "Python",
+          "Tkinter"
+        ],
+        "useCase": "适用于需要优化 AI 代理工作流、管理上下文记忆并跨多个代码编辑器/工具进行安全协作的开发者。",
+        "useCase_en": "Enhance the performance and capabilities of AI coding agents across various platforms through a unified optimization sys"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 35419,
+      "forks": 416,
+      "todayStars": 24,
+      "url": "https://github.com/aquasecurity/trivy",
+      "aiSummary": {
+        "summary": "Trivy 是一个用 Go 编写的多功能安全扫描器，支持扫描容器、文件系统、Git 仓库、虚拟机和 Kubernetes。它能检测 CVE 漏洞、配置错误、敏感信息、SBOM 及许可证问题。支持多种语言和平台，并与 GitHub Actions 等工具集成，提供全面的软件供应链安全检查。",
+        "summary_en": "A versatile Go-based security scanner for finding vulnerabilities and misconfigurations across containers, code, and clouds.",
+        "techStack": [
+          "Go",
+          "Kubernetes",
+          "Docker",
+          "IaC"
+        ],
+        "useCase": "用于检查容器、Kubernetes 集群及代码仓库中的安全漏洞、配置错误和敏感信息。",
+        "useCase_en": "To identify security vulnerabilities, misconfigurations, and secrets in container images, code repositories, and cloud i"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 179194,
+      "forks": 30695,
+      "todayStars": 1735,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "这是一个由 Nous Research 构建的自我改进 AI 代理。它具备内置的学习循环，能从经验中创建和优化技能，建立用户模型。支持多平台（Telegram, Discord 等）集成，内置自动化调度，并能并行处理任务。它运行灵活，可适配多种大模型，旨在成为伴随用户成长的智能助手。",
+        "summary_en": "Self-improving AI agent with a built-in learning loop, memory management, and multi-platform integration.",
+        "techStack": [
+          "Python",
+          "TUI",
+          "RPC",
+          "Docker",
+          "Cron"
+        ],
+        "useCase": "构建具备自我进化能力的个人智能助理，用于自动化工作流和多平台消息管理。",
+        "useCase_en": "Deploy a self-improving, autonomous AI agent capable of managing tasks and learning from interactions across multiple pl"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars": 142921,
+      "forks": 9766,
+      "todayStars": 1984,
+      "url": "https://github.com/microsoft/markitdown",
+      "aiSummary": {
+        "summary": "MarkItDown 是微软推出的轻量级 Python 工具，旨在将 PDF、Office 文档、图片、音频等多种格式转换为 Markdown。它专注于保留文档结构（如标题、列表、表格），专为 LLM 和文本分析管道设计，是 textract 的轻量级替代方案。",
+        "summary_en": "Lightweight Python utility for converting various files to Markdown for LLMs.",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "OCR"
+        ],
+        "useCase": "将非结构化文档转换为 LLM 可处理的 Markdown 格式",
+        "useCase_en": "Convert documents into Markdown format for LLMs and text analysis."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "nesquena/hermes-webui",
+      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "language": "Python",
+      "stars": 13115,
+      "forks": 1594,
+      "todayStars": 719,
+      "url": "https://github.com/nesquena/hermes-webui",
+      "aiSummary": {
+        "summary": "Hermes WebUI 是 Hermes Agent 的轻量级深色主题 Web 界面，提供与 CLI 完全一致的功能。支持会话管理、工作区浏览及模型配置，无需构建步骤。通过 SSH 隧道可安全访问，方便在手机或浏览器中使用，无需重新解释上下文。",
+        "summary_en": "A lightweight web interface for the Hermes autonomous agent, providing full CLI parity and secure remote access.",
+        "techStack": [
+          "Python",
+          "Vanilla JavaScript"
+        ],
+        "useCase": "为希望在手机或浏览器中通过 Web 界面安全访问 Hermes Agent 的用户提供便捷方案。",
+        "useCase_en": "To provide a secure, browser-based interface for the Hermes autonomous agent with full CLI parity."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "stars": 60298,
+      "forks": 5815,
+      "todayStars": 1067,
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "aiSummary": {
+        "summary": "Scrapling 是一个自适应的 Python 网络爬虫框架，支持从单次请求到大规模爬取。它具备智能解析器，能自动适应网站结构变化；内置的 Fetchers 可绕过 Cloudflare 等反爬系统；Spider 框架支持并发、多会话及代理轮换，提供快速且隐蔽的数据抓取方案。",
+        "summary_en": "Adaptive Python web scraping framework for bypassing anti-bot systems and scaling crawls.",
+        "techStack": [
+          "Python",
+          "Web Scraping",
+          "Async Programming"
+        ],
+        "useCase": "适用于需要绕过反爬虫系统、应对网站结构频繁变动及进行大规模并发数据采集的场景。",
+        "useCase_en": "Scrape modern websites protected by anti-bot systems like Cloudflare Turnstile using adaptive parsing and concurrent cra"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "opendataloader-project/opendataloader-pdf",
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "language": "Java",
+      "stars": 23310,
+      "forks": 2183,
+      "todayStars": 570,
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "aiSummary": {
+        "summary": "这是一个专为 AI 数据提取设计的 PDF 解析器，支持 Markdown、JSON（含边界框）和 HTML 输出。它在基准测试中准确率高达 0.907，支持 OCR、表格、公式及图表识别。此外，它还能自动化 PDF 无障碍性，自动生成 Tagged PDF 以符合屏幕阅读器标准，支持 LangChain 集成。",
+        "summary_en": "Java library for AI-ready PDF data extraction, OCR, and accessibility automation.",
+        "techStack": [
+          "Java",
+          "PDF Parsing",
+          "OCR",
+          "LangChain"
+        ],
+        "useCase": "适用于 AI RAG 应用开发中的 PDF 结构化数据提取，以及自动化 PDF 无障碍性合规处理。",
+        "useCase_en": "Automate PDF accessibility and extract AI-ready data (Markdown, JSON, HTML) for RAG pipelines."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "odoo/odoo",
+      "description": "Odoo. Open Source Apps To Grow Your Business.",
+      "language": "Python",
+      "stars": 51958,
+      "forks": 32644,
+      "todayStars": 29,
+      "url": "https://github.com/odoo/odoo",
+      "aiSummary": {
+        "summary": "Odoo 是基于 Python 的开源企业级 ERP 系统，提供 CRM、电子商务、仓库管理、会计等全功能业务应用。其模块化设计允许独立部署或无缝集成，帮助企业实现业务流程的数字化管理。",
+        "summary_en": "Open-source ERP suite providing integrated business apps for CRM, accounting, and manufacturing.",
+        "techStack": [
+          "Python",
+          "Web"
+        ],
+        "useCase": "适用于需要构建或集成 CRM、电商、ERP 等业务系统的企业。",
+        "useCase_en": "Manage business operations with a comprehensive suite of integrated open-source applications."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Open-LLM-VTuber/Open-LLM-VTuber",
+      "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
+      "language": "Python",
+      "stars": 8983,
+      "forks": 1107,
+      "todayStars": 693,
+      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+      "aiSummary": {
+        "summary": "Open-LLM-VTuber 是一款本地运行的 AI 虚拟主播软件，支持语音交互、打断和 Live2D 面部捕捉。它可在 Windows、macOS 和 Linux 上运行，提供 Web 和桌面版（含透明背景模式）。用户可将其作为虚拟伴侣，支持实时语音对话及视觉感知，所有功能均可离线运行。目前项目正开发 v2.0 版本。",
+        "summary_en": "A local Python project enabling hands-free voice interaction with Live2D avatars.",
+        "techStack": [
+          "Python",
+          "Live2D",
+          "Web 技术"
+        ],
+        "useCase": "本地运行的 AI 伴侣，用于语音对话、虚拟形象展示及透明背景桌面宠物模式",
+        "useCase_en": "Create a personal AI companion with a Live2D avatar for hands-free voice conversations."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "jwasham/coding-interview-university",
+      "description": "A complete computer science study plan to become a software engineer.",
+      "language": "",
+      "stars": 349039,
+      "forks": 83159,
+      "todayStars": 330,
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "aiSummary": {
+        "summary": "这是一个完整的计算机科学学习计划，旨在帮助开发者通过大厂技术面试。它涵盖了约75%的大学计算机科学核心内容，包括数据结构与算法。作者通过此计划成功入职亚马逊，并提供了多语言支持和丰富的学习资源，适合有一定基础的开发者系统提升编程能力。",
+        "summary_en": "A comprehensive computer science study plan to prepare for software engineering technical interviews.",
+        "techStack": [
+          "计算机科学",
+          "算法",
+          "数据结构"
+        ],
+        "useCase": "适合想要进入大厂（如Google、Amazon）的软件工程师候选人进行系统复习和面试准备。",
+        "useCase_en": "A resource for self-taught developers to learn computer science and ace technical interviews."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "stars": 18922,
+      "forks": 2071,
+      "todayStars": 208,
+      "url": "https://github.com/lyogavin/airllm",
+      "aiSummary": {
+        "summary": "AirLLM 是一个专注于大语言模型推理内存优化的库。它允许在单张 4GB 显存 GPU 上运行 70B 大模型，无需量化或剪枝，并支持在 8GB 显存上运行 405B Llama3.1。项目支持 MacOS，兼容 Llama、Qwen、ChatGLM 等多种主流模型，适合资源受限环境下的高性能推理。",
+        "summary_en": "Optimizes LLM inference to run massive models like Llama3 70B on single 4GB GPUs.",
+        "techStack": [
+          "Python",
+          "Jupyter Notebook",
+          "PyTorch",
+          "CUDA"
+        ],
+        "useCase": "在低配置硬件（如 4GB 显存 GPU）上运行大型语言模型",
+        "useCase_en": "Enable running large language models on consumer-grade hardware with limited VRAM."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "supermemoryai/supermemory",
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "language": "TypeScript",
+      "stars": 25191,
+      "forks": 2213,
+      "todayStars": 600,
+      "url": "https://github.com/supermemoryai/supermemory",
+      "aiSummary": {
+        "summary": "Supermemory 是一个为 AI 时代设计的记忆引擎，旨在解决 AI 上下文窗口限制问题。它通过自动提取事实、构建用户画像、处理知识更新与矛盾，实现持久记忆。支持全栈 RAG、多模态提取及与 Google Drive、Notion 等的连接器集成，可作为个人大脑或开发者 API 使用。",
+        "summary_en": "A TypeScript memory engine and API for AI that provides persistent context, user profiles, and RAG capabilities.",
+        "techStack": [
+          "TypeScript",
+          "RAG",
+          "Multi-modal Processing"
+        ],
+        "useCase": "为 AI 助手提供持久记忆，解决上下文遗忘问题，适用于构建个人知识库或集成到 AI 产品中。",
+        "useCase_en": "To provide AI applications with persistent memory, user profiles, and context retrieval."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "stars": 9965,
+      "forks": 2008,
+      "todayStars": 197,
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "aiSummary": {
+        "summary": "Vibe-Trading 是一个个人交易代理，旨在通过一条命令赋予 AI 代理全面的交易能力。它支持连接多个主流券商（如老虎、币安、盈透等），提供只读数据和纸面交易功能。项目基于 Python 和 LangChain 构建，具备严格的安全模型和审计日志，支持港股、美股及加密货币交易策略的测试与回测。",
+        "summary_en": "A Python-based personal trading agent connecting AI models to multiple brokers for automated trading and strategy testing.",
+        "techStack": [
+          "Python",
+          "LangChain",
+          "MCP",
+          "SDK"
+        ],
+        "useCase": "AI 驱动的量化交易策略测试与回测",
+        "useCase_en": "Empower your AI agent with comprehensive trading capabilities and safety features across multiple brokers."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-04T01:48:06.320Z",
+    "duration": "237s",
+    "version": "1.0.0"
+  }
+}

@@ -70,23 +70,26 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-06-02 | **成功**: 11 | **失败**: 0
+**最后更新**: 2026-06-03 | **成功**: 14 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | Compress tool outputs, logs, files, and RAG chunks... | Python | 6.6k | 1.3k | Headroom 是一个专为 AI 代理设计的上下文压缩层，旨在显著减少 LLM 的 token 消耗。它支持 Python 和 TypeScript，提供库、代理和 MCP 服务器等多种形式。通过压缩工具输出、日志和 RAG 块，它能减少 60-95% 的 token，同时保持答案一致，支持本地运行和可逆压缩。 |
-| 2 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office docume... | Python | 141.2k | 3.6k | 这是一个轻量级 Python 工具，用于将 PDF、Office 文档、图片、音频等多种格式转换为 Markdown。它专注于保留文档结构（如标题、列表、表格），专为 LLM 文本分析管道设计，旨在提供比 textract 更适合机器消费的输出格式。 |
-| 3 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 204.0k | 1.5k | ECC 是一个跨 AI 代理工具（如 Cursor、Claude Code）的性能优化系统。它提供了一套完整的操作员系统，包含技能、直觉、记忆优化、安全扫描和持续学习功能。项目支持多工具工作流，旨在提升代理效率，并包含 Token 优化、并行化和子代理编排等高级特性。 |
-| 4 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ An adaptive Web Scraping framework that handle... | Python | 59.2k | 1.2k | Scrapling 是一个 Python 编写的自适应 Web Scraping 框架，支持从单次请求到大规模爬虫。它具备智能解析器，能自动适应网站结构变化；内置 Fetchers 可绕过 Cloudflare 等反爬系统；Spider 框架支持并发、多会话及代理轮换。适合需要高效、隐蔽且灵活的网页数据采集场景。 |
-| 5 | [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) | Hermes WebUI: The best way to use Hermes Agent fro... | Python | 12.6k | 1.7k | Hermes WebUI 是一个轻量级暗色主题 Web 界面，为 Hermes Agent 提供与 CLI 体验完全一致的功能。支持会话管理、工作区浏览及配置，通过 SSH 隧道安全访问，无需构建步骤，支持多容器部署。 |
-| 6 | [reconurge/flowsint](https://github.com/reconurge/flowsint) | A modern platform for visual, flexible, and extens... | TypeScript | 4.5k | 124 | Flowsint 是一个开源的 OSINT 图探索工具，专注于网络侦察。它提供可视化图界面探索实体关系，并内置多种自动化丰富器（如 DNS、IP、ASN、社交媒体等）。项目强调隐私，数据本地存储，适合网络安全分析师进行调查和验证。 |
-| 7 | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | VoxCPM2: Tokenizer-Free TTS for Multilingual Speec... | Python | 25.1k | 783 | VoxCPM2 是一个基于扩散自回归架构的 tokenizer-free 多语言 TTS 系统。它支持 30 种语言、声音设计、可控克隆及终极克隆，能输出 48kHz 高质量音频。具备上下文感知合成和实时流式传输能力，完全开源且商业就绪。 |
-| 8 | [stefan-jansen/machine-learning-for-trading](https://github.com/stefan-jansen/machine-learning-for-trading) | Code for Machine Learning for Algorithmic Trading,... | Jupyter Notebook | 18.5k | 574 | 该项目是《机器学习用于算法交易》第2版的代码库，包含150多个Jupyter Notebook。它涵盖了从线性回归到深度强化学习的多种ML技术，展示了如何利用市场、基本面及文本数据构建、回测和评估交易策略，旨在通过实践案例展示ML如何为交易策略增加价值。 |
-| 9 | [jamwithai/production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course) | ... | Python | 6.4k | 30 | 这是一个面向学习者的生产级 RAG 系统实战课程。通过7周的学习，从零构建一个基于 arXiv 论文的研究助手。课程强调专业路径，先掌握 BM25 关键词搜索基础，再结合向量检索构建混合搜索系统。最终集成了 Docker、FastAPI、LangGraph 和 Telegram Bot，涵盖数据管道、智能分块、本地 LLM 调用及生产监控，帮助开发者掌握现代 AI 工程技能。 |
-| 10 | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scal... | TypeScript | 24.7k | 680 | Supermemory 是一个为 AI 时代设计的极速记忆引擎，旨在解决 AI 记忆缺失问题。它具备事实提取、用户画像构建、自动遗忘及混合搜索功能，支持多模态处理和多种数据源连接。开发者可将其作为上下文栈，为 AI 应用赋予持久化记忆能力。 |
-| 11 | [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) | Talk to any LLM with hands-free voice interaction,... | Python | 8.4k | 66 | 这是一个本地运行的跨平台 AI 伴侣项目，支持语音交互和 Live2D 虚拟形象。它可在 Windows、macOS 和 Linux 上运行，提供 Web 版和桌面版（含透明背景模式）。项目目前处于 v2.0 重写阶段，专注于离线体验和个性化角色定制。 |
+| 1 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | Compress tool outputs, logs, files, and RAG chunks... | Python | 9.9k | 3.5k | Headroom 是一个本地优先的 AI 上下文压缩层，旨在减少 LLM token 消耗。它支持压缩工具输出、日志、文件及 RAG 块，减少 60-95% token 且保持答案一致。提供 Python 库、代理和 MCP 服务器，具备可逆压缩、跨代理记忆及智能学习功能。 |
+| 2 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 205.8k | 2.1k | ECC 是一个跨多 AI 代理工具（如 Claude Code、Cursor）的性能优化系统。它提供技能、直觉、记忆持久化、安全扫描和持续学习功能。支持并行化和子代理编排，旨在提升代理工作流效率。 |
+| 3 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | Find vulnerabilities, misconfigurations, secrets, ... | Go | 35.4k | 24 | Trivy 是一个用 Go 编写的多功能安全扫描器，支持扫描容器、文件系统、Git 仓库、虚拟机和 Kubernetes。它能检测 CVE 漏洞、配置错误、敏感信息、SBOM 及许可证问题。支持多种语言和平台，并与 GitHub Actions 等工具集成，提供全面的软件供应链安全检查。 |
+| 4 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you... | Python | 179.2k | 1.7k | 这是一个由 Nous Research 构建的自我改进 AI 代理。它具备内置的学习循环，能从经验中创建和优化技能，建立用户模型。支持多平台（Telegram, Discord 等）集成，内置自动化调度，并能并行处理任务。它运行灵活，可适配多种大模型，旨在成为伴随用户成长的智能助手。 |
+| 5 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office docume... | Python | 142.9k | 2.0k | MarkItDown 是微软推出的轻量级 Python 工具，旨在将 PDF、Office 文档、图片、音频等多种格式转换为 Markdown。它专注于保留文档结构（如标题、列表、表格），专为 LLM 和文本分析管道设计，是 textract 的轻量级替代方案。 |
+| 6 | [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) | Hermes WebUI: The best way to use Hermes Agent fro... | Python | 13.1k | 719 | Hermes WebUI 是 Hermes Agent 的轻量级深色主题 Web 界面，提供与 CLI 完全一致的功能。支持会话管理、工作区浏览及模型配置，无需构建步骤。通过 SSH 隧道可安全访问，方便在手机或浏览器中使用，无需重新解释上下文。 |
+| 7 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ An adaptive Web Scraping framework that handle... | Python | 60.3k | 1.1k | Scrapling 是一个自适应的 Python 网络爬虫框架，支持从单次请求到大规模爬取。它具备智能解析器，能自动适应网站结构变化；内置的 Fetchers 可绕过 Cloudflare 等反爬系统；Spider 框架支持并发、多会话及代理轮换，提供快速且隐蔽的数据抓取方案。 |
+| 8 | [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | PDF Parser for AI-ready data. Automate PDF accessi... | Java | 23.3k | 570 | 这是一个专为 AI 数据提取设计的 PDF 解析器，支持 Markdown、JSON（含边界框）和 HTML 输出。它在基准测试中准确率高达 0.907，支持 OCR、表格、公式及图表识别。此外，它还能自动化 PDF 无障碍性，自动生成 Tagged PDF 以符合屏幕阅读器标准，支持 LangChain 集成。 |
+| 9 | [odoo/odoo](https://github.com/odoo/odoo) | Odoo. Open Source Apps To Grow Your Business.... | Python | 52.0k | 29 | Odoo 是基于 Python 的开源企业级 ERP 系统，提供 CRM、电子商务、仓库管理、会计等全功能业务应用。其模块化设计允许独立部署或无缝集成，帮助企业实现业务流程的数字化管理。 |
+| 10 | [Open-LLM-VTuber/Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) | Talk to any LLM with hands-free voice interaction,... | Python | 9.0k | 693 | Open-LLM-VTuber 是一款本地运行的 AI 虚拟主播软件，支持语音交互、打断和 Live2D 面部捕捉。它可在 Windows、macOS 和 Linux 上运行，提供 Web 和桌面版（含透明背景模式）。用户可将其作为虚拟伴侣，支持实时语音对话及视觉感知，所有功能均可离线运行。目前项目正开发 v2.0 版本。 |
+| 11 | [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | A complete computer science study plan to become a... | - | 349.0k | 330 | 这是一个完整的计算机科学学习计划，旨在帮助开发者通过大厂技术面试。它涵盖了约75%的大学计算机科学核心内容，包括数据结构与算法。作者通过此计划成功入职亚马逊，并提供了多语言支持和丰富的学习资源，适合有一定基础的开发者系统提升编程能力。 |
+| 12 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | AirLLM 70B inference with single 4GB GPU... | Jupyter Notebook | 18.9k | 208 | AirLLM 是一个专注于大语言模型推理内存优化的库。它允许在单张 4GB 显存 GPU 上运行 70B 大模型，无需量化或剪枝，并支持在 8GB 显存上运行 405B Llama3.1。项目支持 MacOS，兼容 Llama、Qwen、ChatGLM 等多种主流模型，适合资源受限环境下的高性能推理。 |
+| 13 | [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) | Memory engine and app that is extremely fast, scal... | TypeScript | 25.2k | 600 | Supermemory 是一个为 AI 时代设计的记忆引擎，旨在解决 AI 上下文窗口限制问题。它通过自动提取事实、构建用户画像、处理知识更新与矛盾，实现持久记忆。支持全栈 RAG、多模态提取及与 Google Drive、Notion 等的连接器集成，可作为个人大脑或开发者 API 使用。 |
+| 14 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent"... | Python | 10.0k | 197 | Vibe-Trading 是一个个人交易代理，旨在通过一条命令赋予 AI 代理全面的交易能力。它支持连接多个主流券商（如老虎、币安、盈透等），提供只读数据和纸面交易功能。项目基于 Python 和 LangChain 构建，具备严格的安全模型和审计日志，支持港股、美股及加密货币交易策略的测试与回测。 |
 
-[查看完整数据](api/github/2026-06-02.json)
+[查看完整数据](api/github/2026-06-03.json)
 <!-- END GITHUB TRENDING -->
 
 
