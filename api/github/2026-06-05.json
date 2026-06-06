@@ -1,0 +1,380 @@
+{
+  "date": "2026-06-05",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 183086,
+      "forks": 31399,
+      "todayStars": 1845,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "这是一个由 Nous Research 开发的自我改进 AI 代理，具备内置学习循环。它能从经验中创建技能，管理长期记忆，并跨会话构建用户模型。支持多种大模型和平台（Telegram, Discord 等），提供强大的终端界面和自动化调度功能。",
+        "summary_en": "A self-improving AI agent with a built-in learning loop that operates across multiple platforms.",
+        "techStack": [
+          "Python",
+          "LLM",
+          "TUI",
+          "Docker"
+        ],
+        "useCase": "适合需要长期记忆管理、自动化任务处理和多平台交互的 AI 助手场景。",
+        "useCase_en": "Automate complex tasks and manage conversations using a self-improving AI agent across various channels."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "chopratejas/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "language": "Python",
+      "stars": 14485,
+      "forks": 921,
+      "todayStars": 2473,
+      "url": "https://github.com/chopratejas/headroom",
+      "aiSummary": {
+        "summary": "Headroom 是一个专为 AI Agent 设计的上下文压缩层。它能在 LLM 接收前压缩工具输出、日志、文件和 RAG 块，减少 60-95% 的 token，同时保持答案一致。支持库、代理和 MCP 服务器，数据本地化且可逆。",
+        "summary_en": "Context compression layer for AI agents reducing token usage by 60-95% while maintaining accuracy.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "优化 AI Agent 上下文处理，大幅降低 LLM Token 消耗。",
+        "useCase_en": "Compressing tool outputs, logs, and RAG chunks to reduce token costs for AI agents."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "CopilotKit/CopilotKit",
+      "description": "The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol",
+      "language": "TypeScript",
+      "stars": 32667,
+      "forks": 4192,
+      "todayStars": 366,
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "aiSummary": {
+        "summary": "CopilotKit 是一个全栈 SDK，用于构建代理应用和生成式 UI。它支持 React、Angular、Vue 和 React Native 等多平台。核心功能包括聊天界面、动态 UI 生成、共享状态和工具调用。作为 AG-UI 协议的创建者，它允许同一个代理逻辑在 Web、移动应用和 Slack 等工作区中运行。",
+        "summary_en": "A multi-platform SDK for building agentic applications and Generative UI.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Angular",
+          "React Native"
+        ],
+        "useCase": "构建具备 AI 能力的 Web 应用、移动应用及 Slack 机器人。",
+        "useCase_en": "Developers use this to integrate AI agents and Generative UI into web and mobile applications."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "lfnovo/open-notebook",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "language": "TypeScript",
+      "stars": 25987,
+      "forks": 2991,
+      "todayStars": 1152,
+      "url": "https://github.com/lfnovo/open-notebook",
+      "aiSummary": {
+        "summary": "这是一个开源的 Notebook LM 替代品，支持本地部署和多模型（18+）。它强调数据隐私，支持 PDF、视频、音频等多模态内容管理，并能生成播客。相比 Google Notebook LM，它提供更灵活的 AI 提供商选择、API 访问和自定义选项，适合需要完全掌控数据和本地化 AI 体验的用户。",
+        "summary_en": "A private, local-first alternative to Notebook LM featuring multi-model AI support and podcast generation.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "OpenAI",
+          "Anthropic",
+          "Ollama"
+        ],
+        "useCase": "适合需要本地化、隐私保护且希望灵活切换 AI 模型的知识管理与播客生成场景。",
+        "useCase_en": "Researchers and developers seeking a self-hosted, flexible AI research environment with data sovereignty."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 208345,
+      "forks": 31962,
+      "todayStars": 1361,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个跨 AI 代理框架（如 Cursor、Claude Code）的性能优化系统。它提供技能管理、记忆持久化、安全扫描及持续学习功能，支持并行化与子代理编排，旨在提升多环境下的开发效率与工作流质量。",
+        "summary_en": "A comprehensive performance optimization system for AI agent harnesses, featuring skills, memory, and security tools.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "优化 Claude Code、Cursor 等 AI 代理工作流与性能。",
+        "useCase_en": "To optimize AI agent performance and workflows across multiple coding environments and harnesses."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars": 21546,
+      "forks": 1861,
+      "todayStars": 148,
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "aiSummary": {
+        "summary": "Agent-Reach 是一个 Python 项目，旨在赋予 AI Agent 浏览整个互联网的能力。它支持 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等主流平台，提供阅读、搜索、字幕提取等功能。项目完全免费、开源，支持一键安装更新，兼容 Claude Code、Cursor 等命令行 Agent，解决了 Agent 无法直接访问受限网站和付费 API 的问题。",
+        "summary_en": "A Python CLI tool that equips AI agents with zero-cost internet access to read and search major platforms like Twitter and Reddit.",
+        "techStack": [
+          "Python",
+          "yt-dlp",
+          "twitter-cli",
+          "rdt-cli",
+          "Jina Reader"
+        ],
+        "useCase": "为 Claude Code、Cursor 等命令行 AI Agent 提供全网数据获取能力，实现无需 API 费用的自动化信息抓取。",
+        "useCase_en": "Enable AI agents to browse the web, read social media, and search content across various platforms without paying for AP"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "NVIDIA/cosmos",
+      "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+      "language": "Jupyter Notebook",
+      "stars": 9409,
+      "forks": 601,
+      "todayStars": 479,
+      "url": "https://github.com/NVIDIA/cosmos",
+      "aiSummary": {
+        "summary": "NVIDIA Cosmos 是一个开放的世界模型平台，旨在构建物理 AI。其 Cosmos 3 采用混合专家架构，统一处理语言、图像、视频、音频和动作。平台提供 Reasoner（推理/规划）和 Generator（生成/模拟）两种运行时，支持自动驾驶、机器人等场景的物理世界模拟与决策。",
+        "summary_en": "NVIDIA Cosmos is an open platform of world models designed for building Physical AI applications like robotics and autonomous vehicles.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Diffusers",
+          "vLLM",
+          "Transformers"
+        ],
+        "useCase": "机器人、自动驾驶汽车、智能基础设施的物理 AI 开发",
+        "useCase_en": "Enable developers to build Physical AI for robots, autonomous vehicles, and smart infrastructure."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "stars": 64689,
+      "forks": 10087,
+      "todayStars": 320,
+      "url": "https://github.com/666ghj/MiroFish",
+      "aiSummary": {
+        "summary": "MiroFish 是一个基于 Python 的多智能体群体智能引擎，通过构建高保真平行数字世界，模拟社会演变以预测未来。用户上传种子材料后，系统利用数千个具备独立个性的智能体进行交互推演，生成详细预测报告。它既可作为宏观决策的风险演练实验室，也可作为微观用户的创意沙盒。",
+        "summary_en": "MiroFish is a Python-based swarm intelligence engine that simulates future scenarios using multi-agent technology and parallel digital worlds.",
+        "techStack": [
+          "Python",
+          "多智能体系统",
+          "AI 预测引擎"
+        ],
+        "useCase": "政策模拟推演、创意故事探索、未来趋势预测",
+        "useCase_en": "Upload seed data and natural language prompts to simulate and predict future outcomes in a digital sandbox."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 28197,
+      "forks": 2391,
+      "todayStars": 731,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "aiSummary": {
+        "summary": "这是一个基于 AI Agent 的搜索技能，能够跨 Reddit、X、YouTube、HN、Polymarket 等平台并行搜索特定主题，并根据真实用户互动（点赞、金钱）进行评分，最终合成一份基于事实的摘要。",
+        "summary_en": "An AI agent skill that aggregates social media and market data to synthesize grounded summaries based on real engagement.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "浏览器自动化"
+        ],
+        "useCase": "快速获取特定话题在社交媒体和市场上的真实热度与趋势。",
+        "useCase_en": "Quickly research any topic across Reddit, X, and Polymarket to synthesize a grounded summary based on real engagement."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "PaddlePaddle/PaddleOCR",
+      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "language": "Python",
+      "stars": 80531,
+      "forks": 10632,
+      "todayStars": 747,
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "aiSummary": {
+        "summary": "PaddleOCR 是一款强大的轻量级 OCR 工具包，支持 100+ 种语言。它包含 SOTA 文档 VLM (PaddleOCR-VL-1.6) 和高效场景 OCR (PP-OCRv5)，能将 PDF 和图像转换为结构化的 LLM 就绪数据（JSON/Markdown），广泛应用于智能 RAG 和 Agentic 应用开发。",
+        "summary_en": "Industry-leading OCR toolkit converting documents into structured data for AI.",
+        "techStack": [
+          "Python",
+          "PaddlePaddle",
+          "OCR"
+        ],
+        "useCase": "将非结构化文档（PDF/图像）转换为结构化数据，赋能智能 RAG 和 Agentic 应用开发。",
+        "useCase_en": "Transform visual documents into structured LLM-ready data."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "openai/plugins",
+      "description": "OpenAI Plugins",
+      "language": "JavaScript",
+      "stars": 1528,
+      "forks": 239,
+      "todayStars": 49,
+      "url": "https://github.com/openai/plugins",
+      "aiSummary": {
+        "summary": "该仓库是 OpenAI Codex 插件的示例集合，展示了如何构建各类插件。每个插件包含 manifest 配置文件及技能、命令等辅助文件。示例涵盖了 Figma 设计、Notion 知识管理、iOS/macOS/Web 应用开发、Expo 以及 Netlify 等工具的集成，展示了丰富的插件功能实现。",
+        "summary_en": "Curated collection of OpenAI Codex plugin examples demonstrating various integrations and workflows.",
+        "techStack": [
+          "JavaScript",
+          "React Native",
+          "Expo"
+        ],
+        "useCase": "为 OpenAI Codex 开发特定功能的插件",
+        "useCase_en": "To demonstrate how to create OpenAI Codex plugins integrating with various tools and frameworks."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "MemPalace/mempalace",
+      "description": "The best-benchmarked open-source AI memory system. And it's free.",
+      "language": "Python",
+      "stars": 53872,
+      "forks": 7079,
+      "todayStars": 227,
+      "url": "https://github.com/MemPalace/mempalace",
+      "aiSummary": {
+        "summary": "MemPalace 是一个开源的本地优先 AI 记忆系统，采用结构化索引（人/项目为翅膀，话题为房间，内容为抽屉）存储对话历史。它支持可插拔后端（默认 ChromaDB），在 LongMemEval 上达到 96.6% 的 R@5 准确率。数据完全本地化，不离开机器，适合需要精准、安全管理 AI 交互记忆的用户。",
+        "summary_en": "Local-first AI memory system storing verbatim text with semantic search and pluggable backends.",
+        "techStack": [
+          "Python",
+          "ChromaDB",
+          "NumPy",
+          "gRPC"
+        ],
+        "useCase": "适合需要本地化、高准确率且结构化管理 AI 对话历史和项目知识的用户。",
+        "useCase_en": "Store conversation history locally and retrieve it using semantic search without API calls."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "withastro/flue",
+      "description": "The sandbox agent framework.",
+      "language": "TypeScript",
+      "stars": 4511,
+      "forks": 241,
+      "todayStars": 126,
+      "url": "https://github.com/withastro/flue",
+      "aiSummary": {
+        "summary": "Flue 是一个 TypeScript 框架，用于构建下一代自主智能体。它类似于 Claude Code，但 100% 无头且可编程。逻辑主要存储在 Markdown 中，无需编写大量代码即可运行。作为一个运行时无关的框架，它支持在 Node.js、Cloudflare 等环境部署，并提供内置沙箱和工具。",
+        "summary_en": "A TypeScript framework for building headless, autonomous AI agents with a built-in sandbox.",
+        "techStack": [
+          "TypeScript",
+          "Markdown",
+          "Node.js",
+          "Cloudflare"
+        ],
+        "useCase": "构建无头、可编程的自主 AI 智能体，用于自动化任务和问题解决。",
+        "useCase_en": "Create autonomous AI agents that run headlessly in various environments like Cloudflare or GitHub Actions."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "openclaw/openclaw-windows-node",
+      "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
+      "language": "C#",
+      "stars": 1598,
+      "forks": 181,
+      "todayStars": 326,
+      "url": "https://github.com/openclaw/openclaw-windows-node",
+      "aiSummary": {
+        "summary": "这是一个为 OpenClaw AI 助手设计的原生 Windows 伴侣套件。项目包含系统托盘应用、共享网关客户端库和 CLI 工具，基于 WinUI 3 开发，支持 WebSocket 连接验证及本地 WSL 网关管理，旨在提升 Windows 上的 AI 交互体验。",
+        "summary_en": "Windows companion suite for OpenClaw AI assistant featuring a system tray app and shared libraries.",
+        "techStack": [
+          "C#",
+          "WinUI 3",
+          ".NET 10.0 SDK",
+          "WebView2"
+        ],
+        "useCase": "适用于 Windows 用户快速访问 OpenClaw AI 助手，或进行 WebSocket 连接调试与网关管理的场景。",
+        "useCase_en": "Provides a native Windows hub for interacting with the OpenClaw AI assistant."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars": 35851,
+      "forks": 443,
+      "todayStars": 207,
+      "url": "https://github.com/aquasecurity/trivy",
+      "aiSummary": {
+        "summary": "Trivy 是一个用 Go 语言编写的多功能安全扫描器，支持扫描容器、文件系统、Git 仓库、虚拟机及 Kubernetes。它能检测操作系统漏洞、CVE、IaC 配置错误、敏感信息及许可证，支持多种平台，易于安装且集成广泛。",
+        "summary_en": "A versatile Go-based security scanner for vulnerabilities, misconfigurations, and secrets in containers, Kubernetes, and code repositories.",
+        "techStack": [
+          "Go",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "用于 CI/CD 流程中的容器镜像安全审计、基础设施配置检查及漏洞扫描。",
+        "useCase_en": "Scan container images, filesystems, and Kubernetes clusters for vulnerabilities, misconfigurations, and secrets."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "jwasham/coding-interview-university",
+      "description": "A complete computer science study plan to become a software engineer.",
+      "language": "",
+      "stars": 350379,
+      "forks": 83289,
+      "todayStars": 745,
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "aiSummary": {
+        "summary": "这是一个旨在帮助求职者通过大型科技公司（如亚马逊、谷歌）技术面试的计算机科学自学计划。它涵盖了数据结构、算法、操作系统等核心知识，提供了结构化的学习路线图和资源推荐，适合希望系统掌握计算机科学基础并进入软件工程领域的初学者。",
+        "summary_en": "A comprehensive computer science study plan to prepare for software engineering interviews at major tech companies.",
+        "techStack": [
+          "Markdown",
+          "Text"
+        ],
+        "useCase": "适用于准备大型科技公司技术面试的求职者，或希望系统学习计算机科学基础的自学者。",
+        "useCase_en": "A self-guided curriculum to master computer science concepts for technical interviews at major tech companies."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "github/copilot-sdk",
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "language": "Java",
+      "stars": 9236,
+      "forks": 1223,
+      "todayStars": 309,
+      "url": "https://github.com/github/copilot-sdk",
+      "aiSummary": {
+        "summary": "这是一个多平台 SDK，用于将 GitHub Copilot 的代理工作流集成到应用程序中。它暴露了 Copilot CLI 的生产级引擎，支持 Python、TypeScript、Go、.NET、Java 和 Rust 等多种语言。开发者无需手动构建编排逻辑，只需定义代理行为，Copilot 即可处理规划、工具调用和文件编辑。SDK 通过 JSON-RPC 与 CLI 服务器通信，自动管理进程生命周期。",
+        "summary_en": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services.",
+        "techStack": [
+          "Java",
+          "JSON-RPC",
+          "GitHub Copilot"
+        ],
+        "useCase": "将 GitHub Copilot 的智能代理能力集成到自定义应用程序或服务中。",
+        "useCase_en": "Embed Copilot's agentic workflows into applications programmatically."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-06T00:17:28.817Z",
+    "duration": "331s",
+    "version": "1.0.0"
+  }
+}
