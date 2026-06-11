@@ -1,0 +1,377 @@
+{
+  "date": "2026-06-10",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "stars": 51737,
+      "forks": 5702,
+      "todayStars": 821,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供生产级工程技能，将资深工程师的工作流程、质量门控和最佳实践编码为技能。包含 7 个开发生命周期斜杠命令，支持自动技能激活，可集成至 Claude Code、Cursor 等工具中，确保 AI 在开发过程中始终如一地遵循最佳实践。",
+        "summary_en": "Production-grade engineering skills and workflows for AI coding agents.",
+        "techStack": [
+          "Shell",
+          "Markdown"
+        ],
+        "useCase": "为 AI 编码代理提供标准化的工程规范和自动化工作流。",
+        "useCase_en": "To package engineering best practices and workflows for AI coding agents."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "phuryn/pm-skills",
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "language": "",
+      "stars": 14826,
+      "forks": 1618,
+      "todayStars": 804,
+      "url": "https://github.com/phuryn/pm-skills",
+      "aiSummary": {
+        "summary": "这是一个面向产品经理的 AI 技能市场，旨在将成熟的产品管理框架编码为 AI 工作流。它包含 100+ 个技能、命令和插件，专为 Claude Code 和 Cowork 设计，帮助用户通过结构化的 AI 交互做出更好的产品决策。",
+        "summary_en": "An AI operating system for product managers featuring 100+ skills and workflows.",
+        "techStack": [
+          "Claude Code",
+          "Cowork",
+          "AI/LLM"
+        ],
+        "useCase": "产品经理利用 AI 辅助进行产品全生命周期管理，包括需求发现、策略制定、执行规划及发布增长。",
+        "useCase_en": "Provides structured workflows and frameworks for product management tasks using AI agents."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "refactoringhq/tolaria",
+      "description": "Desktop app to manage markdown knowledge bases",
+      "language": "TypeScript",
+      "stars": 14894,
+      "forks": 1028,
+      "todayStars": 612,
+      "url": "https://github.com/refactoringhq/tolaria",
+      "aiSummary": {
+        "summary": "Tolaria 是一款跨平台桌面应用，专为管理 Markdown 知识库设计。它采用“文件优先”和“Git 优先”原则，确保数据完全属于用户，支持离线使用和版本控制。该工具支持构建第二大脑、管理 AI 上下文及存储记忆，界面设计键盘优先，适合追求高效知识管理的极客用户。",
+        "summary_en": "A desktop app for managing markdown knowledge bases with git integration and AI support.",
+        "techStack": [
+          "TypeScript",
+          "Markdown",
+          "Git"
+        ],
+        "useCase": "构建个人第二大脑、管理 AI 上下文及存储记忆",
+        "useCase_en": "To manage markdown knowledge bases for personal use and AI context."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 39053,
+      "forks": 3154,
+      "todayStars": 2535,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "aiSummary": {
+        "summary": "这是一个基于 AI agent 的跨平台搜索技能，能并行检索 Reddit、X、YouTube、HN、Polymarket 等平台数据。通过点赞、观看量和真实资金支持对内容进行评分，并由 AI 代理综合成摘要。旨在提供一种由真实用户参与度驱动的搜索体验，而非编辑筛选。",
+        "summary_en": "An AI agent skill that aggregates social media and market data from Reddit, X, and Polymarket to synthesize grounded summaries based on real engagement.",
+        "techStack": [
+          "Python",
+          "AI Agent",
+          "多平台API集成"
+        ],
+        "useCase": "快速获取跨社交媒体、新闻及市场的真实用户反馈与趋势分析。",
+        "useCase_en": "Research any topic across social media and markets to synthesize a grounded summary of what actually matters."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "stars": 31997,
+      "forks": 2339,
+      "todayStars": 318,
+      "url": "https://github.com/soxoj/maigret",
+      "aiSummary": {
+        "summary": "Maigret 是一款基于 Python 的开源 OSINT 工具，通过用户名在 3000+ 网站上自动收集个人档案。支持 AI 分析、递归搜索、Tor/I2P 访问及 Web UI，无需 API 密钥，可生成多种格式报告。",
+        "summary_en": "Python tool for OSINT that aggregates user profiles from 3000+ websites.",
+        "techStack": [
+          "Python",
+          "Tor",
+          "I2P",
+          "OpenAI API"
+        ],
+        "useCase": "开源情报收集、社交媒体分析、数字取证",
+        "useCase_en": "To perform social media analysis and OSINT by checking usernames across thousands of websites."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "language": "",
+      "stars": 139506,
+      "forks": 34590,
+      "todayStars": 393,
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "aiSummary": {
+        "summary": "该项目是一个汇集了Cursor、Claude Code、Replit等多种主流AI工具的系统提示词、内部工具及AI模型的资源库。它不仅提供技术参考，还包含针对AI初创公司的安全警告及漏洞防护建议。",
+        "summary_en": "A comprehensive collection of system prompts and internal tools for various AI coding assistants.",
+        "techStack": [
+          "Markdown",
+          "JSON",
+          "YAML"
+        ],
+        "useCase": "供开发者研究AI工具内部机制、学习提示词工程，或用于AI初创公司的安全测试与防护。",
+        "useCase_en": "To access and study the system prompts and internal models of various AI coding assistants."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 223578,
+      "forks": 19874,
+      "todayStars": 1104,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码代理设计的软件开发生命周期框架。它通过可组合的技能引导代理在编码前先明确需求、展示设计并制定计划，随后执行子代理驱动的开发流程。系统强调 TDD、YAGNI 和 DRY 原则，支持 Claude、Codex 等多种主流工具，实现自主化开发。",
+        "summary_en": "An agentic skills framework providing a structured software development methodology for coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要自动化 AI 编码代理开发流程的项目，特别是希望引入结构化 SDLC（如 TDD、YAGNI）的场景。",
+        "useCase_en": "To empower coding agents with a structured methodology for autonomous software development."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "masterking32/MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "language": "Go",
+      "stars": 5201,
+      "forks": 502,
+      "todayStars": 354,
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "aiSummary": {
+        "summary": "这是一个基于 Go 语言开发的高级 DNS 隧道 VPN 项目，旨在通过 DNS 查询传输 TCP 流量以绕过网络审查。相比同类项目，它具有极低的开销（5-7B）、极高的传输速度（比 DNSTT 快 9 倍）和强大的稳定性（支持 ARQ 和多路径）。项目针对恶劣网络环境进行了优化，支持多解析器负载均衡和 SOCKS5 协议，适合在受限网络中进行科学上网和数据传输。",
+        "summary_en": "A high-performance Go-based DNS tunneling VPN optimized for bypassing censorship with low overhead and high stability.",
+        "techStack": [
+          "Go",
+          "DNS",
+          "TCP",
+          "QUIC",
+          "ARQ"
+        ],
+        "useCase": "绕过网络审查，在受限网络环境下进行安全的数据传输",
+        "useCase_en": "Enables bypassing internet censorship by tunneling TCP traffic through DNS queries with high speed and stability."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "stars": 85000,
+      "forks": 12137,
+      "todayStars": 1389,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 AI 视频生成工具，采用 MVC 架构。用户只需输入主题，即可利用大模型自动生成文案、字幕、背景音乐及高清无版权素材，并合成竖屏或横屏视频。支持批量生成及多种主流 AI 模型接入。",
+        "summary_en": "A Python-based AI tool for automating the generation of short videos from text prompts, supporting multiple AI models and stock footage.",
+        "techStack": [
+          "Python",
+          "OpenAI/Claude/DeepSeek (LLM)",
+          "Pexels/Pixabay (素材源)",
+          "FFmpeg (视频合成)",
+          "Docker"
+        ],
+        "useCase": "适合自媒体创作者、营销人员快速批量制作短视频内容。",
+        "useCase_en": "Automatically generate high-definition short videos for social media by inputting a text topic or keyword."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "maziyarpanahi/openmed",
+      "description": "open-source healthcare ai",
+      "language": "Python",
+      "stars": 2278,
+      "forks": 243,
+      "todayStars": 527,
+      "url": "https://github.com/maziyarpanahi/openmed",
+      "aiSummary": {
+        "summary": "OpenMed 是一个本地优先的开源医疗 AI 项目，专注于临床文本结构化。它包含 1000+ 专用模型，支持实体提取和 PII 去标识化，完全在设备端运行。项目支持 Apple MLX 加速，提供原生 iOS/macOS 应用，确保患者数据隐私，无云依赖。",
+        "summary_en": "Local-first healthcare AI library running 1,000+ medical models on-device for NLP and PII redaction.",
+        "techStack": [
+          "Python",
+          "Apple MLX",
+          "Swift"
+        ],
+        "useCase": "医疗机构或个人在本地处理敏感临床数据，进行文档结构化分析、去标识化及实体识别。",
+        "useCase_en": "De-identify patient data and extract clinical entities locally without cloud dependencies."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "stars": 36521,
+      "forks": 4411,
+      "todayStars": 211,
+      "url": "https://github.com/luongnv89/claude-howto",
+      "aiSummary": {
+        "summary": "这是一个关于 Claude Code 的视觉化、示例驱动指南，旨在帮助开发者从基础概念掌握到构建高级代理。项目提供结构化的学习路径、Mermaid 图表和即拿即用的生产级模板，解决官方文档缺乏实战组合示例的问题，帮助用户快速掌握 Claude Code 的核心功能与工作流。",
+        "summary_en": "A visual, example-driven guide to mastering Claude Code features with copy-paste templates.",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "Mermaid"
+        ],
+        "useCase": "适合希望系统学习 Claude Code 并快速构建自动化工作流的开发者。",
+        "useCase_en": "Developers learn to orchestrate Claude Code agents, hooks, and MCP servers using visual tutorials."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "activeloopai/hivemind",
+      "description": "One brain for all your agents",
+      "language": "TypeScript",
+      "stars": 824,
+      "forks": 49,
+      "todayStars": 64,
+      "url": "https://github.com/activeloopai/hivemind",
+      "aiSummary": {
+        "summary": "Hivemind 是一个为 AI 代理提供共享大脑的工具。它自动学习并记忆团队的工作模式，将经验转化为可复用的技能。通过混合检索和实时传播，它让所有团队成员（如 Claude、Cursor 等）都能利用已解决的经验，从而降低成本、减少 Token 消耗并提高效率。",
+        "summary_en": "A shared memory and skill-sharing system for AI agents that improves team efficiency.",
+        "techStack": [
+          "TypeScript",
+          "Deeplake",
+          "SQL"
+        ],
+        "useCase": "适用于需要团队 AI 代理共享经验、自动学习并提升整体开发效率的场景。",
+        "useCase_en": "To provide a shared memory and skill-sharing layer for AI agents to improve collaboration."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 72889,
+      "forks": 9727,
+      "todayStars": 420,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 感知平台，利用信道状态信息（CSI）将普通 WiFi 转化为空间智能系统。它能在无摄像头、无穿戴设备的情况下，穿透墙壁检测人体存在、生命体征（呼吸心率）、活动行为（跌倒、睡眠）及环境变化。支持 Home Assistant、Apple Home 等主流生态，提供 21 种实体数据，适用于智能家居安全与健康监测。",
+        "summary_en": "RuView is a Rust-based WiFi sensing platform turning commodity routers into contactless presence, vitals, and activity monitors.",
+        "techStack": [
+          "Rust",
+          "WiFi CSI (Channel State Information)",
+          "ESP32",
+          "MQTT",
+          "Home Assistant Integration"
+        ],
+        "useCase": "无摄像头环境下的智能家居存在检测、生命体征监测及安防预警。",
+        "useCase_en": "Turn existing WiFi routers into contactless health and occupancy sensors for smart homes."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "roboflow/supervision",
+      "description": "We write your reusable computer vision tools. 💜",
+      "language": "Python",
+      "stars": 43563,
+      "forks": 3869,
+      "todayStars": 695,
+      "url": "https://github.com/roboflow/supervision",
+      "aiSummary": {
+        "summary": "这是一个面向计算机视觉的 Python 工具包，旨在提供可复用的组件。它支持从数据加载、模型集成到可视化标注的全流程，兼容多种主流深度学习框架（如 Ultralytics, Transformers）。开发者可以专注于应用构建，快速实现目标检测、分割及区域计数等功能。",
+        "summary_en": "A Python toolkit for computer vision offering reusable tools, annotators, and model connectors.",
+        "techStack": [
+          "Python",
+          "Ultralytics",
+          "Transformers",
+          "MMDetection",
+          "OpenCV"
+        ],
+        "useCase": "适用于计算机视觉应用开发，特别是需要快速集成模型并进行可视化标注和数据处理的项目。",
+        "useCase_en": "To streamline computer vision workflows by providing model connectors, annotators, and dataset utilities."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "stars": 13280,
+      "forks": 1007,
+      "todayStars": 211,
+      "url": "https://github.com/google/skills",
+      "aiSummary": {
+        "summary": "该项目为 Google 产品和技术提供 Agent Skills，涵盖 Gemini API、Google Cloud 服务（如 AlloyDB、BigQuery）及 Well-Architected Framework。开发者可通过 npx 安装特定技能，旨在加速 Google Cloud 及相关技术的学习与集成，目前处于积极开发阶段。",
+        "summary_en": "A collection of agent skills and recipes for Google Cloud, AI, and related technologies.",
+        "techStack": [
+          "Python",
+          "Agent Platform",
+          "Google Cloud"
+        ],
+        "useCase": "适用于希望快速掌握 Google Cloud、Gemini API 及相关技术的开发者。",
+        "useCase_en": "To provide pre-configured skills and recipes for AI agents interacting with Google Cloud services."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "FareedKhan-dev/train-llm-from-scratch",
+      "description": "A straightforward method for training your LLM, from downloading data to generating text.",
+      "language": "Python",
+      "stars": 5246,
+      "forks": 709,
+      "todayStars": 247,
+      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个使用 PyTorch 从零实现 Transformer 架构的 LLM 训练项目。它涵盖了从预训练到对齐的全流程，包括 SFT、RM、PPO、DPO 和 GRPO 等算法。项目支持多 GPU 训练，使用真实公开数据集，不依赖第三方库，适合学习大模型底层原理。",
+        "summary_en": "A PyTorch implementation of Transformer models for training LLMs from scratch, including post-training alignment techniques like PPO and DPO.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "CUDA"
+        ],
+        "useCase": "适合学习大模型底层原理及 Transformer 架构实现",
+        "useCase_en": "Train and align large language models from scratch using pure PyTorch."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "language": "Swift",
+      "stars": 29746,
+      "forks": 829,
+      "todayStars": 1611,
+      "url": "https://github.com/apple/container",
+      "aiSummary": {
+        "summary": "这是一个用 Swift 编写的工具，用于在 Mac 上通过轻量级虚拟机运行 Linux 容器。它针对 Apple Silicon 优化，支持 OCI 兼容镜像，允许用户从标准注册表拉取和推送镜像。需要 macOS 26 和 Apple Silicon 硬件。",
+        "summary_en": "A Swift-based tool for running Linux containers as lightweight virtual machines on Apple silicon Macs.",
+        "techStack": [
+          "Swift",
+          "Linux",
+          "OCI"
+        ],
+        "useCase": "在 Apple Silicon Mac 上运行 Linux 容器",
+        "useCase_en": "Create and run OCI-compatible Linux containers on Apple silicon Macs."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-11T00:24:42.242Z",
+    "duration": "273s",
+    "version": "1.0.0"
+  }
+}
