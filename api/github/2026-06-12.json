@@ -1,0 +1,284 @@
+{
+  "date": "2026-06-12",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "stars": 56766,
+      "forks": 6117,
+      "todayStars": 2656,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供生产级工程技能，将资深工程师的工作流程、质量门控和最佳实践编码为技能。包含 7 个斜杠命令覆盖全生命周期，支持自动生成计划和实现任务，确保 AI 代理遵循严格的工程规范。",
+        "summary_en": "Production-grade engineering skills for AI coding agents to automate workflows and ensure code quality.",
+        "techStack": [
+          "Shell",
+          "Claude Code"
+        ],
+        "useCase": "为 AI 编码代理提供标准化的工程工作流程和质量门控，适用于自动化软件开发流程。",
+        "useCase_en": "To provide AI coding agents with production-grade workflows and best practices for software development."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "music-assistant/server",
+      "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+      "language": "Python",
+      "stars": 1774,
+      "forks": 422,
+      "todayStars": 20,
+      "url": "https://github.com/music-assistant/server",
+      "aiSummary": {
+        "summary": "Music Assistant 是一个免费开源的媒体库管理器，核心为 Python 编写的服务器。它连接流媒体服务和扬声器，支持与 Home Assistant 深度集成，推荐在树莓派、NAS 等常开设备上运行，通过 Docker 容器或 HA 插件安装。",
+        "summary_en": "Open-source media library manager connecting streaming services and speakers, optimized for Home Assistant integration.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Home Assistant"
+        ],
+        "useCase": "适用于在常开设备（如树莓派、NAS）上搭建本地音乐中心，并与 Home Assistant 智能家居系统集成的场景。",
+        "useCase_en": "To centralize media management and control speakers via Home Assistant on always-on hardware."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "mattermost/mattermost",
+      "description": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
+      "language": "TypeScript",
+      "stars": 37623,
+      "forks": 8712,
+      "todayStars": 388,
+      "url": "https://github.com/mattermost/mattermost",
+      "aiSummary": {
+        "summary": "Mattermost 是一个开源、自托管的协作平台，提供即时通讯、工作流自动化、语音通话及 AI 集成功能。它采用开源核心模式，支持 DevSecOps、事件解决和 IT 服务台等场景，旨在保障软件开发生命周期的安全协作。",
+        "summary_en": "Open core, self-hosted collaboration platform offering chat, workflow automation, and AI integration for secure team communication.",
+        "techStack": [
+          "Go",
+          "React",
+          "TypeScript"
+        ],
+        "useCase": "适用于软件开发生命周期的安全协作，涵盖 DevSecOps、事件解决及 IT 服务管理。",
+        "useCase_en": "Secure collaboration across the entire software development lifecycle for DevSecOps, Incident Resolution, and IT Service"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "language": "Swift",
+      "stars": 35062,
+      "forks": 978,
+      "todayStars": 3504,
+      "url": "https://github.com/apple/container",
+      "aiSummary": {
+        "summary": "这是一个用 Swift 编写的工具，用于在 Mac 上通过轻量级虚拟机创建和运行 Linux 容器。它针对 Apple Silicon 进行了优化，支持 OCI 兼容的容器镜像，允许用户从标准注册表拉取、构建和推送镜像。它依赖于 Containerization Swift 包进行底层管理，并需要 macOS 26。",
+        "summary_en": "A Swift tool for running Linux containers as lightweight virtual machines on Apple Silicon Macs.",
+        "techStack": [
+          "Swift",
+          "Linux Containers",
+          "OCI"
+        ],
+        "useCase": "在 Apple Silicon Mac 上运行 Linux 容器",
+        "useCase_en": "Run Linux containers as lightweight virtual machines on Apple Silicon Macs."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "stars": 118023,
+      "forks": 6301,
+      "todayStars": 179,
+      "url": "https://github.com/iptv-org/iptv",
+      "aiSummary": {
+        "summary": "该项目是一个全球公开 IPTV 频道列表的集合，提供 M3U 格式的播放列表。用户可将链接粘贴至播放器观看直播，并支持 EPG 电子节目指南及 API 接口调用。项目旨在聚合全球公开资源，方便用户获取电视直播内容。",
+        "summary_en": "A massive collection of publicly available IPTV channel playlists from around the world.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "在支持 M3U 播放列表的媒体播放器中观看全球电视直播。",
+        "useCase_en": "Users can stream live TV channels by pasting the provided M3U playlist links into compatible video players."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 225985,
+      "forks": 20085,
+      "todayStars": 1275,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个面向编码代理的软件开发框架。它通过一套可组合的技能，指导 AI 代理从理解需求、制定规范、规划实现到自主执行的全过程。强调 TDD、YAGNI 和 DRY 原则，支持 Claude Code、Codex 等多种主流 AI 编码工具。",
+        "summary_en": "A framework empowering coding agents with a structured methodology for autonomous software development.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "为 AI 编码助手提供结构化、自主化的软件开发工作流。",
+        "useCase_en": "To automate software development workflows by providing a structured methodology for AI coding agents."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "refactoringhq/tolaria",
+      "description": "Desktop app to manage markdown knowledge bases",
+      "language": "TypeScript",
+      "stars": 15756,
+      "forks": 1076,
+      "todayStars": 369,
+      "url": "https://github.com/refactoringhq/tolaria",
+      "aiSummary": {
+        "summary": "Tolaria 是一款跨平台的桌面应用，旨在管理 Markdown 知识库。它强调文件优先和 Git 优先，支持离线使用、版本控制及 AI 集成，适合个人构建第二大脑或管理公司文档。",
+        "summary_en": "A desktop app for managing markdown knowledge bases with git integration and AI support.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "构建个人第二大脑或管理 AI 上下文文档",
+        "useCase_en": "A desktop app for managing markdown knowledge bases and organizing docs for AI."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "maziyarpanahi/openmed",
+      "description": "open-source healthcare ai",
+      "language": "Python",
+      "stars": 3185,
+      "forks": 304,
+      "todayStars": 515,
+      "url": "https://github.com/maziyarpanahi/openmed",
+      "aiSummary": {
+        "summary": "这是一个本地优先的开源医疗 AI 项目，提供 1000+ 专用医疗模型。它允许在设备端进行临床文本实体提取和 PII 去标识化，确保患者数据不离开网络。项目支持 Python 和 Apple MLX 加速，并提供原生 iOS/macOS 应用，完全离线运行，无云依赖。",
+        "summary_en": "Local-first healthcare AI for clinical text analysis and PII de-identification without cloud dependency.",
+        "techStack": [
+          "Python",
+          "Apple MLX",
+          "Swift",
+          "NLP"
+        ],
+        "useCase": "需要在本地处理敏感医疗数据、构建离线医疗应用或进行临床文本结构化的场景。",
+        "useCase_en": "Analyze clinical notes and de-identify PII locally on-device without cloud."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "LMCache/LMCache",
+      "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+      "language": "Python",
+      "stars": 8631,
+      "forks": 1289,
+      "todayStars": 28,
+      "url": "https://github.com/LMCache/LMCache",
+      "aiSummary": {
+        "summary": "LMCache 是一个用于 LLM 推理的 KV 缓存管理层，将 KV 缓存转化为可持久化、跨引擎复用的 AI 原生知识。通过独立守护进程部署，它显著降低了首字延迟（TTFT）并提升吞吐量，特别适用于长上下文、多轮对话及知识增强（RAG）工作负载，支持多硬件和多框架。",
+        "summary_en": "A vendor-neutral KV cache management layer for LLM inference that accelerates performance and reduces latency.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "vLLM",
+          "Redis",
+          "多硬件支持 (AMD/Arm/NVIDIA)"
+        ],
+        "useCase": "适用于长上下文、多轮对话及知识增强（RAG）等场景，旨在降低 LLM 推理的首字延迟（TTFT）并提升吞吐量。",
+        "useCase_en": "Accelerate LLM inference and reduce time-to-first-token for long-context and agentic workloads."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "phuryn/pm-skills",
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "language": "",
+      "stars": 16971,
+      "forks": 1741,
+      "todayStars": 827,
+      "url": "https://github.com/phuryn/pm-skills",
+      "aiSummary": {
+        "summary": "这是一个面向产品经理的 AI 操作系统，包含 100+ 个技能、命令和插件。它专为 Claude Code 设计，提供从发现到发布的全流程工作流，将成熟的 PM 框架编码到 AI 助手中，帮助用户做出更好的产品决策。",
+        "summary_en": "A marketplace of agentic skills and workflows for Product Managers using AI assistants.",
+        "techStack": [
+          "Claude Code",
+          "Cowork",
+          "AI Assistant"
+        ],
+        "useCase": "专为产品经理打造，用于通过 AI 辅助完成从产品构思到发布的全生命周期管理。",
+        "useCase_en": "Helps Product Managers structure workflows for discovery, strategy, and execution using AI."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "masterking32/MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "language": "Go",
+      "stars": 6004,
+      "forks": 540,
+      "todayStars": 400,
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "aiSummary": {
+        "summary": "MasterDnsVPN 是一个基于 Go 的高级 DNS 隧道 VPN，旨在通过 DNS 查询传输 TCP 流量以绕过审查。项目采用自定义轻量级协议和 ARQ 技术，实现了极低的开销（5-7B）和极高的速度（比 DNSTT 快 9 倍）。它支持多解析器负载均衡、多路径传输及 SOCKS5/Shadowsocks，在恶劣网络环境下表现出极高的稳定性和抗审查能力。",
+        "summary_en": "A Go-based advanced DNS tunneling VPN optimized for bypassing censorship with low overhead, high speed, and stability.",
+        "techStack": [
+          "Go",
+          "DNS Tunneling",
+          "TCP",
+          "QUIC",
+          "ARQ"
+        ],
+        "useCase": "绕过网络审查，在恶劣网络环境下实现高速、稳定的 TCP 流量传输。",
+        "useCase_en": "Enables secure and fast internet access in censored environments by tunneling TCP traffic via DNS."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 112403,
+      "forks": 18335,
+      "todayStars": 1026,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "这是一个包含多个具有特定个性、流程和可交付成果的 AI 代理的项目。它提供了从前端开发到社区运营等不同领域的专家代理，旨在提升用户的工作流效率。项目支持多种主流 AI 编程工具的集成，通过脚本一键安装，让用户能像组建团队一样使用 AI 专家。",
+        "summary_en": "A collection of specialized AI agent personalities for various workflows.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "GitHub Copilot",
+          "Cursor"
+        ],
+        "useCase": "集成到 Claude Code、Copilot 等工具中，获取特定领域的 AI 专家协助。",
+        "useCase_en": "Use specialized AI agent personalities to enhance workflows in coding tools."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "language": "C",
+      "stars": 134327,
+      "forks": 8063,
+      "todayStars": 103,
+      "url": "https://github.com/microsoft/PowerToys",
+      "aiSummary": {
+        "summary": "Microsoft PowerToys 是微软官方推出的 Windows 生产力增强工具集，包含超过 30 个实用程序。它旨在帮助用户自定义 Windows 系统、优化工作流程并简化日常任务，如窗口管理、文件重命名和快捷键操作等。",
+        "summary_en": "A collection of utilities for Windows to customize and streamline everyday tasks.",
+        "techStack": [
+          "C"
+        ],
+        "useCase": "适用于希望深度定制 Windows 系统并提升工作效率的开发者及高级用户。",
+        "useCase_en": "Enhance Windows productivity and customization with a suite of powerful utilities."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-13T00:25:35.353Z",
+    "duration": "215s",
+    "version": "1.0.0"
+  }
+}
