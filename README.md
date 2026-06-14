@@ -70,25 +70,26 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-06-12 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-06-13 | **成功**: 14 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | Shell | 56.8k | 2.7k | 该项目为 AI 编码代理提供生产级工程技能，将资深工程师的工作流程、质量门控和最佳实践编码为技能。包含 7 个斜杠命令覆盖全生命周期，支持自动生成计划和实现任务，确保 AI 代理遵循严格的工程规范。 |
-| 2 | [music-assistant/server](https://github.com/music-assistant/server) | Music Assistant is a free, opensource Media librar... | Python | 1.8k | 20 | Music Assistant 是一个免费开源的媒体库管理器，核心为 Python 编写的服务器。它连接流媒体服务和扬声器，支持与 Home Assistant 深度集成，推荐在树莓派、NAS 等常开设备上运行，通过 Docker 容器或 HA 插件安装。 |
-| 3 | [mattermost/mattermost](https://github.com/mattermost/mattermost) | Mattermost is an open source platform for secure c... | TypeScript | 37.6k | 388 | Mattermost 是一个开源、自托管的协作平台，提供即时通讯、工作流自动化、语音通话及 AI 集成功能。它采用开源核心模式，支持 DevSecOps、事件解决和 IT 服务台等场景，旨在保障软件开发生命周期的安全协作。 |
-| 4 | [apple/container](https://github.com/apple/container) | A tool for creating and running Linux containers u... | Swift | 35.1k | 3.5k | 这是一个用 Swift 编写的工具，用于在 Mac 上通过轻量级虚拟机创建和运行 Linux 容器。它针对 Apple Silicon 进行了优化，支持 OCI 兼容的容器镜像，允许用户从标准注册表拉取、构建和推送镜像。它依赖于 Containerization Swift 包进行底层管理，并需要 macOS 26。 |
-| 5 | [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels fro... | TypeScript | 118.0k | 179 | 该项目是一个全球公开 IPTV 频道列表的集合，提供 M3U 格式的播放列表。用户可将链接粘贴至播放器观看直播，并支持 EPG 电子节目指南及 API 接口调用。项目旨在聚合全球公开资源，方便用户获取电视直播内容。 |
-| 6 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 226.0k | 1.3k | Superpowers 是一个面向编码代理的软件开发框架。它通过一套可组合的技能，指导 AI 代理从理解需求、制定规范、规划实现到自主执行的全过程。强调 TDD、YAGNI 和 DRY 原则，支持 Claude Code、Codex 等多种主流 AI 编码工具。 |
-| 7 | [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) | Desktop app to manage markdown knowledge bases... | TypeScript | 15.8k | 369 | Tolaria 是一款跨平台的桌面应用，旨在管理 Markdown 知识库。它强调文件优先和 Git 优先，支持离线使用、版本控制及 AI 集成，适合个人构建第二大脑或管理公司文档。 |
-| 8 | [maziyarpanahi/openmed](https://github.com/maziyarpanahi/openmed) | open-source healthcare ai... | Python | 3.2k | 515 | 这是一个本地优先的开源医疗 AI 项目，提供 1000+ 专用医疗模型。它允许在设备端进行临床文本实体提取和 PII 去标识化，确保患者数据不离开网络。项目支持 Python 和 Apple MLX 加速，并提供原生 iOS/macOS 应用，完全离线运行，无云依赖。 |
-| 9 | [LMCache/LMCache](https://github.com/LMCache/LMCache) | LMCache: Supercharge Your LLM with the Fastest KV ... | Python | 8.6k | 28 | LMCache 是一个用于 LLM 推理的 KV 缓存管理层，将 KV 缓存转化为可持久化、跨引擎复用的 AI 原生知识。通过独立守护进程部署，它显著降低了首字延迟（TTFT）并提升吞吐量，特别适用于长上下文、多轮对话及知识增强（RAG）工作负载，支持多硬件和多框架。 |
-| 10 | [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | PM Skills Marketplace: 100+ agentic skills, comman... | - | 17.0k | 827 | 这是一个面向产品经理的 AI 操作系统，包含 100+ 个技能、命令和插件。它专为 Claude Code 设计，提供从发现到发布的全流程工作流，将成熟的 PM 框架编码到 AI 助手中，帮助用户做出更好的产品决策。 |
-| 11 | [masterking32/MasterDnsVPN](https://github.com/masterking32/MasterDnsVPN) | Advanced DNS tunneling VPN for censorship bypass, ... | Go | 6.0k | 400 | MasterDnsVPN 是一个基于 Go 的高级 DNS 隧道 VPN，旨在通过 DNS 查询传输 TCP 流量以绕过审查。项目采用自定义轻量级协议和 ARQ 技术，实现了极低的开销（5-7B）和极高的速度（比 DNSTT 快 9 倍）。它支持多解析器负载均衡、多路径传输及 SOCKS5/Shadowsocks，在恶劣网络环境下表现出极高的稳定性和抗审查能力。 |
-| 12 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 112.4k | 1.0k | 这是一个包含多个具有特定个性、流程和可交付成果的 AI 代理的项目。它提供了从前端开发到社区运营等不同领域的专家代理，旨在提升用户的工作流效率。项目支持多种主流 AI 编程工具的集成，通过脚本一键安装，让用户能像组建团队一样使用 AI 专家。 |
-| 13 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | Microsoft PowerToys is a collection of utilities t... | C | 134.3k | 103 | Microsoft PowerToys 是微软官方推出的 Windows 生产力增强工具集，包含超过 30 个实用程序。它旨在帮助用户自定义 Windows 系统、优化工作流程并简化日常任务，如窗口管理、文件重命名和快捷键操作等。 |
+| 1 | [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels fro... | TypeScript | 119.1k | 530 | 这是一个全球公开 IPTV 频道列表的集合项目。它提供了大量的 M3U 播放列表，用户可以直接将链接粘贴到支持直播流的播放器中观看电视节目。项目还包含 EPG 电子节目指南、API 接口以及相关的数据库和资源链接。项目本身不存储视频文件，仅提供外部链接。 |
+| 2 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | Shell | 58.3k | 1.5k | 面向 AI 编码代理的生产级工程技能库，将资深工程师的工作流程与最佳实践编码为标准化技能。提供 7 个斜杠命令覆盖开发全生命周期（定义、计划、构建、测试、审查、发布），支持自动生成计划与任务实现，确保代码质量与一致性。 |
+| 3 | [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | Open-source live-chat, email support, omni-channel... | Ruby | 30.8k | 83 | Chatwoot 是一款开源的全渠道客户支持平台，支持网站、邮件及 WhatsApp 等多渠道沟通。它集成了 AI 代理 Captain 自动处理常见问题，并提供帮助中心、团队协作及自动化工具。作为 Intercom 的自托管替代方案，它允许企业完全掌控客户数据，灵活扩展支持流程。 |
+| 4 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 226.9k | 924 | Superpowers 是一个为编码代理（如 Claude Code）设计的软件开发方法论框架。它通过一套可组合的技能，引导代理从需求收集、规范拆解、实施计划制定到自主开发的全流程。强调 TDD、YAGNI 和 DRY 原则，支持代理自主工作数小时，旨在提升 AI 编码的效率和质量。 |
+| 5 | [apple/container](https://github.com/apple/container) | A tool for creating and running Linux containers u... | Swift | 36.3k | 1.5k | 这是一个用 Swift 编写的工具，用于在 Mac 上创建和运行 Linux 容器。它利用轻量级虚拟机技术，针对 Apple Silicon 进行了优化。支持 OCI 兼容的容器镜像，可在 macOS 26 上运行。 |
+| 6 | [music-assistant/server](https://github.com/music-assistant/server) | Music Assistant is a free, opensource Media librar... | Python | 2.0k | 270 | Music Assistant 是一个开源的媒体库管理器，核心功能是连接流媒体服务和扬声器。它专为常开设备（如树莓派、NAS）设计，支持与 Home Assistant 深度集成，实现自动化控制。由于依赖外部组件，主要通过 Docker 容器或 Home Assistant 插件运行。 |
+| 7 | [kenn-io/agentsview](https://github.com/kenn-io/agentsview) | Local-first session intelligence and analytics for... | Go | 2.4k | 190 | 这是一个用 Go 编写的本地优先 AI 编码代理会话智能与分析工具。支持 Claude Code、Codex 等 20+ 代理，追踪成本、浏览和搜索会话。单二进制部署，本地 SQLite 存储，提供 Web UI 和命令行工具，号称比 ccusage 快 100 倍。 |
+| 8 | [LMCache/LMCache](https://github.com/LMCache/LMCache) | LMCache: Supercharge Your LLM with the Fastest KV ... | Python | 8.9k | 238 | LMCache 是一个用于 LLM 推理的 KV 缓存管理层，旨在将 KV 缓存转化为可重用的 AI 原生知识。它通过独立守护进程实现引擎无关部署，支持跨硬件厂商和存储系统的持久化缓存，显著降低 TTFT 并提升吞吐量，特别适用于长上下文代理、多轮对话及 RAG 场景。 |
+| 9 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | Microsoft PowerToys is a collection of utilities t... | C | 134.7k | 370 | Microsoft PowerToys 是一套用于 Windows 的实用工具集合，旨在提升生产力与系统自定义能力。它包含超过 30 个工具，如 FancyZones（窗口分区）、PowerRename（批量重命名）、PowerToys Run（快速启动器）和 Color Picker 等，帮助用户优化 Windows 体验，简化日常任务。 |
+| 10 | [andrewyng/aisuite](https://github.com/andrewyng/aisuite) | Simple, unified interface to multiple Generative A... | Python | 14.1k | 127 | aisuite 是一个轻量级 Python 库，提供统一的 Chat Completions API 以支持 OpenAI、Anthropic、Google 等多种生成式 AI 提供商。它还包含 Agents API 和 MCP 支持，便于构建具备工具调用能力的智能代理，并集成了桌面 AI 代理 OpenCoworker。 |
+| 11 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Security scanner for AI agent skills. Detect vulne... | Python | 4.4k | 804 | SkillSpector 是 NVIDIA 开发的 AI Agent Skills 安全扫描工具，旨在检测安装前的漏洞和恶意意图。它支持多种输入格式，包含 64 种漏洞模式，提供两阶段分析（静态+LLM）和实时 CVE 查询，输出多种格式报告并给出风险评分，帮助用户确保 AI Agent Skills 的安全性。 |
+| 12 | [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) | 翻墙-科学上网... | Kotlin | 47.5k | 93 | 这是一个综合性的科学上网工具库，包含安卓APP、Chrome一键翻墙包（ChromeGo）及各类教程。项目涵盖了V2Ray、Shadowsocks、Clash等多种协议在Windows、Mac、iOS、Android及路由器等平台上的配置与使用指南，旨在帮助用户突破网络限制。 |
+| 13 | [swc-project/swc](https://github.com/swc-project/swc) | Rust-based platform for the Web... | Rust | 33.6k | 20 | SWC 是一个用 Rust 编写的超快 TypeScript/JavaScript 编译器平台，旨在让 Web 开发更快。它支持 Rust 和 JavaScript 环境，提供高性能的代码转译服务，是现代前端工程化中 Babel 的强力替代方案。 |
+| 14 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL Augment Code, Claude Code, Cluely, CodeBuddy,... | - | 140.3k | 109 | 该项目是一个开源的 AI 工具系统提示词与模型集合，涵盖了 Cursor、Devin AI、Replit、Windsurf 等主流开发工具。它整理了这些工具的内部提示词、工具及模型，旨在帮助开发者优化 AI 辅助开发体验，同时也包含安全提示和赞助信息。 |
 
-[查看完整数据](api/github/2026-06-12.json)
+[查看完整数据](api/github/2026-06-13.json)
 <!-- END GITHUB TRENDING -->
 
 

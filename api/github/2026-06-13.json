@@ -1,0 +1,305 @@
+{
+  "date": "2026-06-13",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "stars": 119078,
+      "forks": 6366,
+      "todayStars": 530,
+      "url": "https://github.com/iptv-org/iptv",
+      "aiSummary": {
+        "summary": "这是一个全球公开 IPTV 频道列表的集合项目。它提供了大量的 M3U 播放列表，用户可以直接将链接粘贴到支持直播流的播放器中观看电视节目。项目还包含 EPG 电子节目指南、API 接口以及相关的数据库和资源链接。项目本身不存储视频文件，仅提供外部链接。",
+        "summary_en": "A massive collection of publicly available IPTV channel playlists for global live streaming.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "用于在支持直播流的播放器中观看全球各地的电视频道。",
+        "useCase_en": "Users can access live TV channels from around the world by pasting playlist links into compatible video players."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "stars": 58337,
+      "forks": 6300,
+      "todayStars": 1514,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "面向 AI 编码代理的生产级工程技能库，将资深工程师的工作流程与最佳实践编码为标准化技能。提供 7 个斜杠命令覆盖开发全生命周期（定义、计划、构建、测试、审查、发布），支持自动生成计划与任务实现，确保代码质量与一致性。",
+        "summary_en": "A collection of production-grade engineering skills and workflows designed to guide AI coding agents through the software development lifecycle.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "为 AI 编码代理（如 Claude Code）提供工程最佳实践和质量标准，确保开发流程规范化。",
+        "useCase_en": "To equip AI coding agents with production-grade engineering skills and automated workflows for consistent software devel"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "chatwoot/chatwoot",
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "language": "Ruby",
+      "stars": 30845,
+      "forks": 7553,
+      "todayStars": 83,
+      "url": "https://github.com/chatwoot/chatwoot",
+      "aiSummary": {
+        "summary": "Chatwoot 是一款开源的全渠道客户支持平台，支持网站、邮件及 WhatsApp 等多渠道沟通。它集成了 AI 代理 Captain 自动处理常见问题，并提供帮助中心、团队协作及自动化工具。作为 Intercom 的自托管替代方案，它允许企业完全掌控客户数据，灵活扩展支持流程。",
+        "summary_en": "Open-source customer support platform offering omnichannel inbox and AI agent capabilities.",
+        "techStack": [
+          "Ruby",
+          "Rails"
+        ],
+        "useCase": "企业自建全渠道客服系统，替代 Intercom 等商业 SaaS 平台。",
+        "useCase_en": "A self-hosted alternative to Intercom for managing omnichannel customer support and AI automation."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 226912,
+      "forks": 20178,
+      "todayStars": 924,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码代理（如 Claude Code）设计的软件开发方法论框架。它通过一套可组合的技能，引导代理从需求收集、规范拆解、实施计划制定到自主开发的全流程。强调 TDD、YAGNI 和 DRY 原则，支持代理自主工作数小时，旨在提升 AI 编码的效率和质量。",
+        "summary_en": "An agentic skills framework and methodology to automate software development for coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "用于提升 AI 编码代理的自主开发能力和软件工程效率。",
+        "useCase_en": "To provide a methodology and framework for coding agents to autonomously build software."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "language": "Swift",
+      "stars": 36276,
+      "forks": 1033,
+      "todayStars": 1487,
+      "url": "https://github.com/apple/container",
+      "aiSummary": {
+        "summary": "这是一个用 Swift 编写的工具，用于在 Mac 上创建和运行 Linux 容器。它利用轻量级虚拟机技术，针对 Apple Silicon 进行了优化。支持 OCI 兼容的容器镜像，可在 macOS 26 上运行。",
+        "summary_en": "A Swift tool for creating and running Linux containers as lightweight VMs on Apple Silicon Macs.",
+        "techStack": [
+          "Swift",
+          "Linux",
+          "Apple Silicon"
+        ],
+        "useCase": "在 Apple Silicon Mac 上运行 Linux 容器",
+        "useCase_en": "Run Linux containers on Apple Silicon Macs using lightweight virtualization."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "music-assistant/server",
+      "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+      "language": "Python",
+      "stars": 1998,
+      "forks": 429,
+      "todayStars": 270,
+      "url": "https://github.com/music-assistant/server",
+      "aiSummary": {
+        "summary": "Music Assistant 是一个开源的媒体库管理器，核心功能是连接流媒体服务和扬声器。它专为常开设备（如树莓派、NAS）设计，支持与 Home Assistant 深度集成，实现自动化控制。由于依赖外部组件，主要通过 Docker 容器或 Home Assistant 插件运行。",
+        "summary_en": "Open-source media library manager connecting streaming services and speakers for Home Assistant.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Home Assistant"
+        ],
+        "useCase": "在常开设备上搭建家庭音乐中心，与 Home Assistant 结合实现智能家居自动化。",
+        "useCase_en": "To serve as a central media server that integrates with streaming services and speakers, often used within Home Assistan"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "kenn-io/agentsview",
+      "description": "Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
+      "language": "Go",
+      "stars": 2357,
+      "forks": 216,
+      "todayStars": 190,
+      "url": "https://github.com/kenn-io/agentsview",
+      "aiSummary": {
+        "summary": "这是一个用 Go 编写的本地优先 AI 编码代理会话智能与分析工具。支持 Claude Code、Codex 等 20+ 代理，追踪成本、浏览和搜索会话。单二进制部署，本地 SQLite 存储，提供 Web UI 和命令行工具，号称比 ccusage 快 100 倍。",
+        "summary_en": "Local-first analytics tool for tracking AI coding agent sessions and costs.",
+        "techStack": [
+          "Go",
+          "SQLite",
+          "Docker"
+        ],
+        "useCase": "需要集中管理和追踪多个 AI 编码代理成本与会话的开发者。",
+        "useCase_en": "Monitor and analyze the usage and costs of various AI coding agents locally."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "LMCache/LMCache",
+      "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+      "language": "Python",
+      "stars": 8884,
+      "forks": 1305,
+      "todayStars": 238,
+      "url": "https://github.com/LMCache/LMCache",
+      "aiSummary": {
+        "summary": "LMCache 是一个用于 LLM 推理的 KV 缓存管理层，旨在将 KV 缓存转化为可重用的 AI 原生知识。它通过独立守护进程实现引擎无关部署，支持跨硬件厂商和存储系统的持久化缓存，显著降低 TTFT 并提升吞吐量，特别适用于长上下文代理、多轮对话及 RAG 场景。",
+        "summary_en": "A vendor-neutral KV cache management layer for LLM inference that accelerates performance by caching and reusing key-value states.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "vLLM",
+          "Redis",
+          "NVIDIA"
+        ],
+        "useCase": "长上下文代理、多轮对话及 RAG 知识增强场景",
+        "useCase_en": "Accelerate LLM inference by caching and reusing key-value states to reduce latency and improve throughput for long-conte"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "language": "C",
+      "stars": 134658,
+      "forks": 8078,
+      "todayStars": 370,
+      "url": "https://github.com/microsoft/PowerToys",
+      "aiSummary": {
+        "summary": "Microsoft PowerToys 是一套用于 Windows 的实用工具集合，旨在提升生产力与系统自定义能力。它包含超过 30 个工具，如 FancyZones（窗口分区）、PowerRename（批量重命名）、PowerToys Run（快速启动器）和 Color Picker 等，帮助用户优化 Windows 体验，简化日常任务。",
+        "summary_en": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+        "techStack": [
+          "C#",
+          ".NET",
+          "WinUI 3"
+        ],
+        "useCase": "适合希望深度自定义 Windows 工作环境、提升日常操作效率的高级用户。",
+        "useCase_en": "Helps users customize Windows and streamline everyday tasks"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "andrewyng/aisuite",
+      "description": "Simple, unified interface to multiple Generative AI providers",
+      "language": "Python",
+      "stars": 14101,
+      "forks": 1487,
+      "todayStars": 127,
+      "url": "https://github.com/andrewyng/aisuite",
+      "aiSummary": {
+        "summary": "aisuite 是一个轻量级 Python 库，提供统一的 Chat Completions API 以支持 OpenAI、Anthropic、Google 等多种生成式 AI 提供商。它还包含 Agents API 和 MCP 支持，便于构建具备工具调用能力的智能代理，并集成了桌面 AI 代理 OpenCoworker。",
+        "summary_en": "Lightweight Python library offering a unified interface for multiple Generative AI providers and an Agents API.",
+        "techStack": [
+          "Python",
+          "OpenAI API",
+          "LLM",
+          "MCP"
+        ],
+        "useCase": "构建跨多个 AI 提供商的统一聊天应用或智能代理。",
+        "useCase_en": "Developers use this to build applications with LLMs using a unified interface across multiple providers."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "language": "Python",
+      "stars": 4420,
+      "forks": 334,
+      "todayStars": 804,
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "aiSummary": {
+        "summary": "SkillSpector 是 NVIDIA 开发的 AI Agent Skills 安全扫描工具，旨在检测安装前的漏洞和恶意意图。它支持多种输入格式，包含 64 种漏洞模式，提供两阶段分析（静态+LLM）和实时 CVE 查询，输出多种格式报告并给出风险评分，帮助用户确保 AI Agent Skills 的安全性。",
+        "summary_en": "Security scanner for AI agent skills that detects vulnerabilities, malicious patterns, and security risks before installation.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Make"
+        ],
+        "useCase": "在安装 Claude Code、Codex CLI 等工具的 AI Agent Skills 前，扫描其是否存在漏洞或恶意代码。",
+        "useCase_en": "To verify the safety of AI agent skills by detecting vulnerabilities and malicious patterns before installation."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "bannedbook/fanqiang",
+      "description": "翻墙-科学上网",
+      "language": "Kotlin",
+      "stars": 47477,
+      "forks": 8081,
+      "todayStars": 93,
+      "url": "https://github.com/bannedbook/fanqiang",
+      "aiSummary": {
+        "summary": "这是一个综合性的科学上网工具库，包含安卓APP、Chrome一键翻墙包（ChromeGo）及各类教程。项目涵盖了V2Ray、Shadowsocks、Clash等多种协议在Windows、Mac、iOS、Android及路由器等平台上的配置与使用指南，旨在帮助用户突破网络限制。",
+        "summary_en": "A resource repository for bypassing the Great Firewall, aggregating various VPN tools and tutorials across multiple platforms.",
+        "techStack": [
+          "Kotlin",
+          "V2Ray",
+          "Shadowsocks",
+          "Clash",
+          "Chrome"
+        ],
+        "useCase": "适用于需要突破网络限制、访问国际互联网资源的用户。",
+        "useCase_en": "To bypass the Great Firewall and access blocked content in China."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "swc-project/swc",
+      "description": "Rust-based platform for the Web",
+      "language": "Rust",
+      "stars": 33627,
+      "forks": 1398,
+      "todayStars": 20,
+      "url": "https://github.com/swc-project/swc",
+      "aiSummary": {
+        "summary": "SWC 是一个用 Rust 编写的超快 TypeScript/JavaScript 编译器平台，旨在让 Web 开发更快。它支持 Rust 和 JavaScript 环境，提供高性能的代码转译服务，是现代前端工程化中 Babel 的强力替代方案。",
+        "summary_en": "Rust-based super-fast TypeScript and JavaScript compiler.",
+        "techStack": [
+          "Rust",
+          "JavaScript",
+          "TypeScript"
+        ],
+        "useCase": "适用于需要高性能代码转译的 Web 开发环境、构建工具及前端工程化场景。",
+        "useCase_en": "Used by developers to compile TypeScript and JavaScript code significantly faster than traditional compilers."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "language": "",
+      "stars": 140299,
+      "forks": 34656,
+      "todayStars": 109,
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "aiSummary": {
+        "summary": "该项目是一个开源的 AI 工具系统提示词与模型集合，涵盖了 Cursor、Devin AI、Replit、Windsurf 等主流开发工具。它整理了这些工具的内部提示词、工具及模型，旨在帮助开发者优化 AI 辅助开发体验，同时也包含安全提示和赞助信息。",
+        "summary_en": "Aggregates system prompts and internal models for popular AI coding tools like Cursor, Devin, and others.",
+        "techStack": [
+          "Markdown",
+          "Text"
+        ],
+        "useCase": "开发者获取主流 AI 工具的内部提示词与模型，用于优化 AI 辅助开发体验。",
+        "useCase_en": "Developers can access and use system prompts for various AI coding assistants and tools."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-14T00:16:24.793Z",
+    "duration": "211s",
+    "version": "1.0.0"
+  }
+}
