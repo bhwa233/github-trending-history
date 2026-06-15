@@ -1,0 +1,315 @@
+{
+  "date": "2026-06-14",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 14,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "stars": 120872,
+      "forks": 6468,
+      "todayStars": 1528,
+      "url": "https://github.com/iptv-org/iptv",
+      "aiSummary": {
+        "summary": "这是一个全球公开 IPTV 频道集合项目，提供 M3U 播放列表。用户可将链接粘贴至支持直播流的播放器观看。项目包含 EPG 电子节目指南、API 接口及数据库支持，旨在整合全球电视频道资源，方便开发者与用户获取直播流数据。",
+        "summary_en": "A massive collection of publicly available IPTV channel playlists from around the world.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要获取全球直播电视频道列表或开发 IPTV 相关应用的场景。",
+        "useCase_en": "Allows users to access live TV streams via compatible video players."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "stars": 447172,
+      "forks": 44948,
+      "todayStars": 146,
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 2,
+      "fullName": "pytest-dev/pytest",
+      "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
+      "language": "Python",
+      "stars": 14029,
+      "forks": 3179,
+      "todayStars": 14,
+      "url": "https://github.com/pytest-dev/pytest",
+      "aiSummary": {
+        "summary": "pytest 是一个功能强大的 Python 测试框架，旨在简化测试编写，同时支持复杂应用和库的功能测试。它支持简单的断言语句、自动发现测试、模块化 fixtures 以及丰富的插件生态。该框架兼容 Python 3.10+ 和 PyPy3，并能直接运行 unittest 测试套件，是 Python 开发者进行单元测试和集成测试的首选工具。",
+        "summary_en": "A robust Python testing framework for applications and libraries.",
+        "techStack": [
+          "Python",
+          "PyPy",
+          "插件架构"
+        ],
+        "useCase": "适用于 Python 应用程序和库的单元测试、集成测试及自动化测试。",
+        "useCase_en": "Used for writing and executing tests for Python applications and libraries."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "swc-project/swc",
+      "description": "Rust-based platform for the Web",
+      "language": "Rust",
+      "stars": 33775,
+      "forks": 1401,
+      "todayStars": 163,
+      "url": "https://github.com/swc-project/swc",
+      "aiSummary": {
+        "summary": "SWC 是一个用 Rust 编写的超快 TypeScript/JavaScript 编译器，旨在替代 Babel 等工具。它是一个同时支持 Rust 和 JavaScript 的库，能显著提升 Web 开发构建速度，由社区维护。",
+        "summary_en": "SWC is a super-fast TypeScript and JavaScript compiler written in Rust, serving as a library for both Rust and JavaScript.",
+        "techStack": [
+          "Rust",
+          "TypeScript",
+          "JavaScript"
+        ],
+        "useCase": "适用于需要高性能代码转换的 Web 前端构建工具和开发环境。",
+        "useCase_en": "To compile TypeScript and JavaScript code into optimized web assets quickly."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "chatwoot/chatwoot",
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "language": "Ruby",
+      "stars": 31208,
+      "forks": 7586,
+      "todayStars": 400,
+      "url": "https://github.com/chatwoot/chatwoot",
+      "aiSummary": {
+        "summary": "Chatwoot 是一个开源、自托管的现代客户支持平台，替代 Intercom 和 Zendesk。它支持多渠道（聊天、邮件、社交媒体等），集成了 AI 代理 Captain 自动化常见查询。此外，它还提供帮助中心、团队协作和生产力工具，帮助企业高效管理客户互动。",
+        "summary_en": "An open-source, self-hosted customer support platform featuring omnichannel management and AI automation.",
+        "techStack": [
+          "Ruby"
+        ],
+        "useCase": "适合需要自托管、多渠道客户支持解决方案的企业，作为 Intercom 等商业软件的替代品。",
+        "useCase_en": "Businesses use this to centralize customer support across multiple channels like WhatsApp, Email, and Live Chat."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "language": "Python",
+      "stars": 5264,
+      "forks": 402,
+      "todayStars": 964,
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "aiSummary": {
+        "summary": "SkillSpector 是 NVIDIA 开发的 AI agent skills 安全扫描工具。它支持多种输入格式，通过两阶段分析（静态分析+LLM语义评估）检测漏洞、恶意模式及安全风险。提供实时漏洞查询、多种输出格式及风险评分，旨在解决 AI agent 信任缺失问题，确保安装前的安全性。",
+        "summary_en": "Security scanner for AI agent skills detecting vulnerabilities and malicious patterns.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "LLM"
+        ],
+        "useCase": "在安装 AI agent skills（如 Claude Code）之前进行安全扫描，防止漏洞和恶意代码。",
+        "useCase_en": "Developers use this tool to scan AI agent skills for security vulnerabilities and malicious intent before installation."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "meshery/meshery",
+      "description": "Meshery, the cloud native manager",
+      "language": "TypeScript",
+      "stars": 10396,
+      "forks": 3420,
+      "todayStars": 20,
+      "url": "https://github.com/meshery/meshery",
+      "aiSummary": {
+        "summary": "Meshery 是一个开源的云原生管理平台，使用 TypeScript 构建。它允许用户设计和管理基于 Kubernetes 的多集群基础设施和应用。它支持 380+ 集成，提供可视化 GitOps 工作流，并允许通过 Dry-run 功能进行部署前的配置验证，简化多云环境下的运维。",
+        "summary_en": "Open-source cloud native manager for designing and managing Kubernetes infrastructure across multiple clouds.",
+        "techStack": [
+          "TypeScript",
+          "Kubernetes"
+        ],
+        "useCase": "用于设计、部署和管理跨多云环境的 Kubernetes 基础设施和应用的 DevOps 平台。",
+        "useCase_en": "Design and manage Kubernetes infrastructure and applications across multiple clouds using a self-service platform."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "cypress-io/cypress",
+      "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "language": "TypeScript",
+      "stars": 49928,
+      "forks": 3413,
+      "todayStars": 39,
+      "url": "https://github.com/cypress-io/cypress",
+      "aiSummary": {
+        "summary": "Cypress 是一个专为浏览器应用设计的快速、简单且可靠的测试框架。它支持端到端、集成和单元测试，旨在解决传统测试工具的痛点，提供更好的开发体验。",
+        "summary_en": "Cypress is a fast, easy, and reliable end-to-end testing framework for web applications.",
+        "techStack": [
+          "TypeScript",
+          "Node.js"
+        ],
+        "useCase": "适用于任何在浏览器中运行的 Web 应用程序的前端自动化测试。",
+        "useCase_en": "Automate testing for web applications running in a browser."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "GorvGoyl/Clone-Wars",
+      "description": "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.",
+      "language": "",
+      "stars": 35447,
+      "forks": 3184,
+      "todayStars": 269,
+      "url": "https://github.com/GorvGoyl/Clone-Wars",
+      "aiSummary": {
+        "summary": "这是一个包含100多个流行网站开源克隆版的聚合项目。涵盖了Airbnb, Amazon, Netflix, Spotify, Discord, Clubhouse等知名应用。每个克隆版都提供了源代码、演示链接、技术栈和GitHub星标信息，适合开发者学习不同技术栈的实际应用案例。",
+        "summary_en": "A curated collection of 100+ open-source clones for popular websites like Airbnb and Netflix.",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "Node.js",
+          "Flutter",
+          "Dart"
+        ],
+        "useCase": "适合开发者学习不同技术栈的实际应用案例和参考源码。",
+        "useCase_en": "A resource for developers to find open-source implementations of popular web applications."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+      "description": "Introduction to Autonomous Robots",
+      "language": "TeX",
+      "stars": 2707,
+      "forks": 612,
+      "todayStars": 293,
+      "url": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+      "aiSummary": {
+        "summary": "这是一个关于自主机器人计算原理的开放教科书项目。使用 TeX 编写，源代码遵循 CC-BY-NC-ND 协议。项目提供了详细的编译指南，支持在 Overleaf 或本地 LaTeX 环境下生成 PDF。适合计算机科学、机器人学专业的学生和教师作为教学参考材料。",
+        "summary_en": "Open textbook on autonomous robots covering computational principles, mechanisms, sensors, and algorithms.",
+        "techStack": [
+          "TeX"
+        ],
+        "useCase": "机器人学教学与学术研究",
+        "useCase_en": "Researchers and students can use this open textbook to study autonomous robot computational principles and algorithms."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 29901,
+      "forks": 5150,
+      "todayStars": 244,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融数据的高噪声特性设计。它采用两阶段框架，通过专用分词器量化 OHLCV 数据，并利用自回归 Transformer 进行预训练。项目支持多种模型规模，已在 AAAI 2026 录用，可用于金融预测和量化交易任务。",
+        "summary_en": "Open-source foundation model for financial candlesticks trained on data from 45+ global exchanges.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Hugging Face"
+        ],
+        "useCase": "金融时间序列预测与量化交易",
+        "useCase_en": "It is used for forecasting financial market trends using candlestick data."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "music-assistant/server",
+      "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+      "language": "Python",
+      "stars": 2177,
+      "forks": 437,
+      "todayStars": 197,
+      "url": "https://github.com/music-assistant/server",
+      "aiSummary": {
+        "summary": "Music Assistant 是一个免费开源的媒体库管理器，核心功能是连接流媒体服务和扬声器。它作为服务器运行在常开设备（如树莓派、NAS）上，支持与 Home Assistant 深度集成，通过 Docker 容器或 Home Assistant 插件安装。",
+        "summary_en": "Open-source media library manager connecting streaming services and speakers, designed for always-on devices like Raspberry Pi.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Home Assistant"
+        ],
+        "useCase": "适用于家庭自动化爱好者，在常开设备上搭建本地音乐流媒体服务器。",
+        "useCase_en": "To serve as a central media server connecting streaming services and speakers on always-on hardware."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "Free-TV/IPTV",
+      "description": "M3U Playlist for free TV channels",
+      "language": "Python",
+      "stars": 16922,
+      "forks": 2543,
+      "todayStars": 70,
+      "url": "https://github.com/Free-TV/IPTV",
+      "aiSummary": {
+        "summary": "该项目提供全球免费电视频道的 M3U 播放列表。项目专注于质量，仅收录免费、主流且高清的频道，严格排除成人、政治及宗教内容。使用 Python 脚本生成播放列表，用户可直接通过 IPTV 播放器访问。",
+        "summary_en": "A curated M3U playlist generator for free, high-quality TV channels.",
+        "techStack": [
+          "Python",
+          "M3U/M3U8",
+          "Markdown"
+        ],
+        "useCase": "适用于 IPTV 播放器观看全球免费电视直播。",
+        "useCase_en": "Provides a single URL for users to load into IPTV players to watch curated free TV channels."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "puppeteer/puppeteer",
+      "description": "JavaScript API for Chrome and Firefox",
+      "language": "TypeScript",
+      "stars": 94640,
+      "forks": 9438,
+      "todayStars": 29,
+      "url": "https://github.com/puppeteer/puppeteer",
+      "aiSummary": {
+        "summary": "Puppeteer 是一个用于控制 Chrome 或 Firefox 的 JavaScript 库。它通过 DevTools Protocol 或 WebDriver BiDi 提供高级 API，默认以无头模式运行。支持网页自动化、截图、爬虫及测试等场景。",
+        "summary_en": "Node.js library providing a high-level API to control Chrome or Firefox.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Chrome/Firefox",
+          "DevTools Protocol"
+        ],
+        "useCase": "适用于网页自动化测试、数据抓取、生成 PDF 和截图等场景。",
+        "useCase_en": "Automate web scraping, testing, and browser interactions."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "andrewyng/aisuite",
+      "description": "Simple, unified interface to multiple Generative AI providers",
+      "language": "Python",
+      "stars": 14385,
+      "forks": 1504,
+      "todayStars": 291,
+      "url": "https://github.com/andrewyng/aisuite",
+      "aiSummary": {
+        "summary": "aisuite 是一个轻量级 Python 库，旨在为多个生成式 AI 提供商提供统一的接口。它包含统一的聊天完成 API 和支持工具/工具包的智能体 API，支持 OpenAI、Anthropic、Google、Ollama 等多种模型，允许用户轻松切换提供商。该项目也是桌面 AI 代理 OpenCoworker 的基础。",
+        "summary_en": "Lightweight Python library offering a unified interface for multiple Generative AI providers and an Agents API.",
+        "techStack": [
+          "Python",
+          "LLM",
+          "Unified API",
+          "Agents"
+        ],
+        "useCase": "构建跨多个 LLM 提供商的 AI 应用和智能体，或开发桌面 AI 代理。",
+        "useCase_en": "To build AI agents and chat applications using multiple LLM providers through a single unified API."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-15T00:21:56.623Z",
+    "duration": "265s",
+    "version": "1.0.0"
+  }
+}

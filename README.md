@@ -70,26 +70,27 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-06-13 | **成功**: 14 | **失败**: 0
+**最后更新**: 2026-06-14 | **成功**: 14 | **失败**: 1
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels fro... | TypeScript | 119.1k | 530 | 这是一个全球公开 IPTV 频道列表的集合项目。它提供了大量的 M3U 播放列表，用户可以直接将链接粘贴到支持直播流的播放器中观看电视节目。项目还包含 EPG 电子节目指南、API 接口以及相关的数据库和资源链接。项目本身不存储视频文件，仅提供外部链接。 |
-| 2 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | Shell | 58.3k | 1.5k | 面向 AI 编码代理的生产级工程技能库，将资深工程师的工作流程与最佳实践编码为标准化技能。提供 7 个斜杠命令覆盖开发全生命周期（定义、计划、构建、测试、审查、发布），支持自动生成计划与任务实现，确保代码质量与一致性。 |
-| 3 | [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | Open-source live-chat, email support, omni-channel... | Ruby | 30.8k | 83 | Chatwoot 是一款开源的全渠道客户支持平台，支持网站、邮件及 WhatsApp 等多渠道沟通。它集成了 AI 代理 Captain 自动处理常见问题，并提供帮助中心、团队协作及自动化工具。作为 Intercom 的自托管替代方案，它允许企业完全掌控客户数据，灵活扩展支持流程。 |
-| 4 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 226.9k | 924 | Superpowers 是一个为编码代理（如 Claude Code）设计的软件开发方法论框架。它通过一套可组合的技能，引导代理从需求收集、规范拆解、实施计划制定到自主开发的全流程。强调 TDD、YAGNI 和 DRY 原则，支持代理自主工作数小时，旨在提升 AI 编码的效率和质量。 |
-| 5 | [apple/container](https://github.com/apple/container) | A tool for creating and running Linux containers u... | Swift | 36.3k | 1.5k | 这是一个用 Swift 编写的工具，用于在 Mac 上创建和运行 Linux 容器。它利用轻量级虚拟机技术，针对 Apple Silicon 进行了优化。支持 OCI 兼容的容器镜像，可在 macOS 26 上运行。 |
-| 6 | [music-assistant/server](https://github.com/music-assistant/server) | Music Assistant is a free, opensource Media librar... | Python | 2.0k | 270 | Music Assistant 是一个开源的媒体库管理器，核心功能是连接流媒体服务和扬声器。它专为常开设备（如树莓派、NAS）设计，支持与 Home Assistant 深度集成，实现自动化控制。由于依赖外部组件，主要通过 Docker 容器或 Home Assistant 插件运行。 |
-| 7 | [kenn-io/agentsview](https://github.com/kenn-io/agentsview) | Local-first session intelligence and analytics for... | Go | 2.4k | 190 | 这是一个用 Go 编写的本地优先 AI 编码代理会话智能与分析工具。支持 Claude Code、Codex 等 20+ 代理，追踪成本、浏览和搜索会话。单二进制部署，本地 SQLite 存储，提供 Web UI 和命令行工具，号称比 ccusage 快 100 倍。 |
-| 8 | [LMCache/LMCache](https://github.com/LMCache/LMCache) | LMCache: Supercharge Your LLM with the Fastest KV ... | Python | 8.9k | 238 | LMCache 是一个用于 LLM 推理的 KV 缓存管理层，旨在将 KV 缓存转化为可重用的 AI 原生知识。它通过独立守护进程实现引擎无关部署，支持跨硬件厂商和存储系统的持久化缓存，显著降低 TTFT 并提升吞吐量，特别适用于长上下文代理、多轮对话及 RAG 场景。 |
-| 9 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | Microsoft PowerToys is a collection of utilities t... | C | 134.7k | 370 | Microsoft PowerToys 是一套用于 Windows 的实用工具集合，旨在提升生产力与系统自定义能力。它包含超过 30 个工具，如 FancyZones（窗口分区）、PowerRename（批量重命名）、PowerToys Run（快速启动器）和 Color Picker 等，帮助用户优化 Windows 体验，简化日常任务。 |
-| 10 | [andrewyng/aisuite](https://github.com/andrewyng/aisuite) | Simple, unified interface to multiple Generative A... | Python | 14.1k | 127 | aisuite 是一个轻量级 Python 库，提供统一的 Chat Completions API 以支持 OpenAI、Anthropic、Google 等多种生成式 AI 提供商。它还包含 Agents API 和 MCP 支持，便于构建具备工具调用能力的智能代理，并集成了桌面 AI 代理 OpenCoworker。 |
-| 11 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Security scanner for AI agent skills. Detect vulne... | Python | 4.4k | 804 | SkillSpector 是 NVIDIA 开发的 AI Agent Skills 安全扫描工具，旨在检测安装前的漏洞和恶意意图。它支持多种输入格式，包含 64 种漏洞模式，提供两阶段分析（静态+LLM）和实时 CVE 查询，输出多种格式报告并给出风险评分，帮助用户确保 AI Agent Skills 的安全性。 |
-| 12 | [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) | 翻墙-科学上网... | Kotlin | 47.5k | 93 | 这是一个综合性的科学上网工具库，包含安卓APP、Chrome一键翻墙包（ChromeGo）及各类教程。项目涵盖了V2Ray、Shadowsocks、Clash等多种协议在Windows、Mac、iOS、Android及路由器等平台上的配置与使用指南，旨在帮助用户突破网络限制。 |
-| 13 | [swc-project/swc](https://github.com/swc-project/swc) | Rust-based platform for the Web... | Rust | 33.6k | 20 | SWC 是一个用 Rust 编写的超快 TypeScript/JavaScript 编译器平台，旨在让 Web 开发更快。它支持 Rust 和 JavaScript 环境，提供高性能的代码转译服务，是现代前端工程化中 Babel 的强力替代方案。 |
-| 14 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL Augment Code, Claude Code, Cluely, CodeBuddy,... | - | 140.3k | 109 | 该项目是一个开源的 AI 工具系统提示词与模型集合，涵盖了 Cursor、Devin AI、Replit、Windsurf 等主流开发工具。它整理了这些工具的内部提示词、工具及模型，旨在帮助开发者优化 AI 辅助开发体验，同时也包含安全提示和赞助信息。 |
+| 1 | [iptv-org/iptv](https://github.com/iptv-org/iptv) | Collection of publicly available IPTV channels fro... | TypeScript | 120.9k | 1.5k | 这是一个全球公开 IPTV 频道集合项目，提供 M3U 播放列表。用户可将链接粘贴至支持直播流的播放器观看。项目包含 EPG 电子节目指南、API 接口及数据库支持，旨在整合全球电视频道资源，方便开发者与用户获取直播流数据。 |
+| 2 | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | freeCodeCamp.org's open-source codebase and curric... | TypeScript | 447.2k | 146 | 处理失败 |
+| 3 | [pytest-dev/pytest](https://github.com/pytest-dev/pytest) | The pytest framework makes it easy to write small ... | Python | 14.0k | 14 | pytest 是一个功能强大的 Python 测试框架，旨在简化测试编写，同时支持复杂应用和库的功能测试。它支持简单的断言语句、自动发现测试、模块化 fixtures 以及丰富的插件生态。该框架兼容 Python 3.10+ 和 PyPy3，并能直接运行 unittest 测试套件，是 Python 开发者进行单元测试和集成测试的首选工具。 |
+| 4 | [swc-project/swc](https://github.com/swc-project/swc) | Rust-based platform for the Web... | Rust | 33.8k | 163 | SWC 是一个用 Rust 编写的超快 TypeScript/JavaScript 编译器，旨在替代 Babel 等工具。它是一个同时支持 Rust 和 JavaScript 的库，能显著提升 Web 开发构建速度，由社区维护。 |
+| 5 | [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | Open-source live-chat, email support, omni-channel... | Ruby | 31.2k | 400 | Chatwoot 是一个开源、自托管的现代客户支持平台，替代 Intercom 和 Zendesk。它支持多渠道（聊天、邮件、社交媒体等），集成了 AI 代理 Captain 自动化常见查询。此外，它还提供帮助中心、团队协作和生产力工具，帮助企业高效管理客户互动。 |
+| 6 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Security scanner for AI agent skills. Detect vulne... | Python | 5.3k | 964 | SkillSpector 是 NVIDIA 开发的 AI agent skills 安全扫描工具。它支持多种输入格式，通过两阶段分析（静态分析+LLM语义评估）检测漏洞、恶意模式及安全风险。提供实时漏洞查询、多种输出格式及风险评分，旨在解决 AI agent 信任缺失问题，确保安装前的安全性。 |
+| 7 | [meshery/meshery](https://github.com/meshery/meshery) | Meshery, the cloud native manager... | TypeScript | 10.4k | 20 | Meshery 是一个开源的云原生管理平台，使用 TypeScript 构建。它允许用户设计和管理基于 Kubernetes 的多集群基础设施和应用。它支持 380+ 集成，提供可视化 GitOps 工作流，并允许通过 Dry-run 功能进行部署前的配置验证，简化多云环境下的运维。 |
+| 8 | [cypress-io/cypress](https://github.com/cypress-io/cypress) | Fast, easy and reliable testing for anything that ... | TypeScript | 49.9k | 39 | Cypress 是一个专为浏览器应用设计的快速、简单且可靠的测试框架。它支持端到端、集成和单元测试，旨在解决传统测试工具的痛点，提供更好的开发体验。 |
+| 9 | [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) | 100+ open-source clones of popular sites like Airb... | - | 35.4k | 269 | 这是一个包含100多个流行网站开源克隆版的聚合项目。涵盖了Airbnb, Amazon, Netflix, Spotify, Discord, Clubhouse等知名应用。每个克隆版都提供了源代码、演示链接、技术栈和GitHub星标信息，适合开发者学习不同技术栈的实际应用案例。 |
+| 10 | [Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots](https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots) | Introduction to Autonomous Robots... | TeX | 2.7k | 293 | 这是一个关于自主机器人计算原理的开放教科书项目。使用 TeX 编写，源代码遵循 CC-BY-NC-ND 协议。项目提供了详细的编译指南，支持在 Overleaf 或本地 LaTeX 环境下生成 PDF。适合计算机科学、机器人学专业的学生和教师作为教学参考材料。 |
+| 11 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Fin... | Python | 29.9k | 244 | Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融数据的高噪声特性设计。它采用两阶段框架，通过专用分词器量化 OHLCV 数据，并利用自回归 Transformer 进行预训练。项目支持多种模型规模，已在 AAAI 2026 录用，可用于金融预测和量化交易任务。 |
+| 12 | [music-assistant/server](https://github.com/music-assistant/server) | Music Assistant is a free, opensource Media librar... | Python | 2.2k | 197 | Music Assistant 是一个免费开源的媒体库管理器，核心功能是连接流媒体服务和扬声器。它作为服务器运行在常开设备（如树莓派、NAS）上，支持与 Home Assistant 深度集成，通过 Docker 容器或 Home Assistant 插件安装。 |
+| 13 | [Free-TV/IPTV](https://github.com/Free-TV/IPTV) | M3U Playlist for free TV channels... | Python | 16.9k | 70 | 该项目提供全球免费电视频道的 M3U 播放列表。项目专注于质量，仅收录免费、主流且高清的频道，严格排除成人、政治及宗教内容。使用 Python 脚本生成播放列表，用户可直接通过 IPTV 播放器访问。 |
+| 14 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | JavaScript API for Chrome and Firefox... | TypeScript | 94.6k | 29 | Puppeteer 是一个用于控制 Chrome 或 Firefox 的 JavaScript 库。它通过 DevTools Protocol 或 WebDriver BiDi 提供高级 API，默认以无头模式运行。支持网页自动化、截图、爬虫及测试等场景。 |
+| 15 | [andrewyng/aisuite](https://github.com/andrewyng/aisuite) | Simple, unified interface to multiple Generative A... | Python | 14.4k | 291 | aisuite 是一个轻量级 Python 库，旨在为多个生成式 AI 提供商提供统一的接口。它包含统一的聊天完成 API 和支持工具/工具包的智能体 API，支持 OpenAI、Anthropic、Google、Ollama 等多种模型，允许用户轻松切换提供商。该项目也是桌面 AI 代理 OpenCoworker 的基础。 |
 
-[查看完整数据](api/github/2026-06-13.json)
+[查看完整数据](api/github/2026-06-14.json)
 <!-- END GITHUB TRENDING -->
 
 
