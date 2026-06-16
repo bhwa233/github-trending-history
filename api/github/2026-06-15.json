@@ -1,0 +1,391 @@
+{
+  "date": "2026-06-15",
+  "since": "daily",
+  "totalRepos": 18,
+  "successCount": 18,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "stars": 122933,
+      "forks": 6605,
+      "todayStars": 2657,
+      "url": "https://github.com/iptv-org/iptv",
+      "aiSummary": {
+        "summary": "该项目是一个全球公开 IPTV 频道集合，提供 M3U 格式的播放列表。用户只需将链接粘贴到支持流媒体的播放器即可观看。项目不存储视频文件，仅提供链接索引，并集成了 EPG 和 API 等相关资源。",
+        "summary_en": "A massive collection of publicly available IPTV channel playlists from around the world.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "用于在支持流媒体播放器的设备上观看全球各地的电视频道。",
+        "useCase_en": "Users can access live TV channels by pasting playlist links into compatible media players."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "teslamate-org/teslamate",
+      "description": "A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
+      "language": "Elixir",
+      "stars": 8245,
+      "forks": 947,
+      "todayStars": 33,
+      "url": "https://github.com/teslamate-org/teslamate",
+      "aiSummary": {
+        "summary": "TeslaMate 是一个用 Elixir 编写的自托管 Tesla 数据记录器。它将数据存储在 Postgres 数据库中，并利用 Grafana 进行可视化分析。项目支持高精度记录、低功耗运行、多车辆管理及成本追踪，并通过 MQTT 协议与 Home Assistant 等系统轻松集成，提供电池健康、里程统计等丰富的仪表板。",
+        "summary_en": "A self-hosted data logger for Tesla vehicles featuring high precision tracking and Grafana dashboards.",
+        "techStack": [
+          "Elixir",
+          "PostgreSQL",
+          "Grafana",
+          "MQTT"
+        ],
+        "useCase": "适合希望自托管监控 Tesla 车辆性能、追踪充电成本及数据隐私的用户。",
+        "useCase_en": "To self-host a comprehensive data logger for Tesla vehicles to track efficiency, charging, and driving statistics."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars": 30248,
+      "forks": 2453,
+      "todayStars": 1100,
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "aiSummary": {
+        "summary": "这是一个为 AI Agent 提供互联网访问能力的 Python 工具。它支持 Twitter、Reddit、YouTube、GitHub、Bilibili 等主流平台，提供一键安装、零 API 费用、自动处理登录与风控、隐私安全等特性。兼容所有命令行 Agent，解决 AI 无法直接读取网页和社交媒体内容的问题。",
+        "summary_en": "A Python CLI tool that equips AI agents with free internet access to read and search social media and websites without API keys.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "MCP",
+          "yt-dlp",
+          "bili-cli"
+        ],
+        "useCase": "当 AI Agent 需要读取社交媒体、视频网站内容或进行全网搜索时使用。",
+        "useCase_en": "Developers use this to enable AI agents to read and search the internet and social media platforms without API fees."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "meshery/meshery",
+      "description": "Meshery, the cloud native manager",
+      "language": "TypeScript",
+      "stars": 10638,
+      "forks": 3434,
+      "todayStars": 228,
+      "url": "https://github.com/meshery/meshery",
+      "aiSummary": {
+        "summary": "Meshery 是一个开源的云原生管理平台，基于 TypeScript 开发。它提供自助服务工程能力，支持可视化和协作式 GitOps，帮助用户设计和管理基于 Kubernetes 的多云基础设施。平台具备基础设施生命周期管理功能，支持 380+ 种集成，并能通过干运行机制在部署前验证配置，确保多集群环境的一致性和可观测性。",
+        "summary_en": "Open-source cloud native manager enabling design and management of Kubernetes infrastructure and applications.",
+        "techStack": [
+          "TypeScript",
+          "Kubernetes",
+          "GitOps",
+          "Helm"
+        ],
+        "useCase": "适用于需要管理多云 Kubernetes 集群、实施 GitOps 工作流及自动化基础设施配置的场景。",
+        "useCase_en": "Design and manage multi-cloud Kubernetes infrastructure and applications without writing YAML."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "chatwoot/chatwoot",
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "language": "Ruby",
+      "stars": 31709,
+      "forks": 7630,
+      "todayStars": 431,
+      "url": "https://github.com/chatwoot/chatwoot",
+      "aiSummary": {
+        "summary": "Chatwoot 是一个开源的全渠道客户支持平台，支持实时聊天、邮件及社交媒体等多种渠道。它集成了 AI 代理 Captain 以自动化常见问题，并提供帮助中心、团队协作及多语言支持等功能。作为 Intercom 等商业软件的自托管替代方案，它允许企业完全掌控客户数据，适合需要灵活、可扩展客服解决方案的团队。",
+        "summary_en": "Open-source alternative to Intercom providing omnichannel support and AI agent capabilities.",
+        "techStack": [
+          "Ruby",
+          "Ruby on Rails"
+        ],
+        "useCase": "适用于需要自托管、全渠道客户支持解决方案的企业或团队。",
+        "useCase_en": "Companies use this open-source platform to manage customer support and automate responses across various channels."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "krahets/hello-algo",
+      "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+      "language": "Java",
+      "stars": 126935,
+      "forks": 15141,
+      "todayStars": 71,
+      "url": "https://github.com/krahets/hello-algo",
+      "aiSummary": {
+        "summary": "《Hello 算法》是一款开源免费的数据结构与算法入门教程，以动画图解和一键运行为核心特色。支持简繁中、英、日、俄等多语言，并提供 Python、Java、C++ 等多种语言的代码实现。内容通俗易懂，旨在帮助初学者平滑学习算法，适合编程新手及进阶开发者。",
+        "summary_en": "An open-source, animated data structures and algorithms tutorial featuring runnable code for beginners.",
+        "techStack": [
+          "Java",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "useCase": "适合编程初学者学习数据结构与算法，以及开发者提升算法技能。",
+        "useCase_en": "An interactive learning tool for data structures and algorithms with animated explanations and runnable code."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "stars": 447916,
+      "forks": 44993,
+      "todayStars": 736,
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "aiSummary": {
+        "summary": "freeCodeCamp 是一个非营利性的开源编程学习平台，提供全栈 Web 开发、机器学习等免费课程。项目包含数千个交互式编程挑战，涵盖响应式 Web 设计、JavaScript、Python 等认证。用户完成课程和项目后可获得可验证的证书，用于求职。项目使用 TypeScript 编写，旨在帮助忙碌的成年人转型进入科技行业。",
+        "summary_en": "Open-source platform providing free coding curriculum and certifications for aspiring developers.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合零基础开发者或转行者免费学习编程、获取可验证的职业证书以及参与开源社区。",
+        "useCase_en": "Aspiring developers use this platform to learn coding for free and earn verified certifications."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "trycua/cua",
+      "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+      "language": "HTML",
+      "stars": 18167,
+      "forks": 1171,
+      "todayStars": 70,
+      "url": "https://github.com/trycua/cua",
+      "aiSummary": {
+        "summary": "这是一个为计算机使用代理提供开源基础设施的项目。它包含Cua Drivers用于后台控制桌面，Cua沙箱支持多平台（macOS, Windows, Linux, Android）的API，以及Cua-Bench用于评估和训练模型。旨在帮助AI代理自主完成桌面任务。",
+        "summary_en": "Open-source infrastructure for Computer-Use Agents offering sandboxes, SDKs, and benchmarks to train and evaluate AI agents controlling full desktops.",
+        "techStack": [
+          "Python",
+          "Shell",
+          "HTML"
+        ],
+        "useCase": "用于训练和评估能够控制完整桌面环境的AI智能体。",
+        "useCase_en": "Building and evaluating AI agents that can autonomously control desktop environments (macOS, Linux, Windows) via sandbox"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "jwasham/coding-interview-university",
+      "description": "A complete computer science study plan to become a software engineer.",
+      "language": "",
+      "stars": 352320,
+      "forks": 83567,
+      "todayStars": 364,
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "aiSummary": {
+        "summary": "这是一个旨在帮助用户通过大型科技公司技术面试的完整计算机科学自学计划。它涵盖了CS核心知识，提供了详细的学习路线和资源，适合有一定编程基础的学习者系统提升。",
+        "summary_en": "A comprehensive computer science study plan designed to prepare for software engineering technical interviews at major tech companies.",
+        "techStack": [
+          "Algorithms",
+          "Data Structures",
+          "Computer Science"
+        ],
+        "useCase": "准备大型科技公司技术面试",
+        "useCase_en": "A self-taught curriculum for individuals preparing for software engineering technical interviews."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 33105,
+      "forks": 5413,
+      "todayStars": 562,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个涵盖从数学基础到生产级 AI 系统构建的综合课程，包含503节课和20个阶段。支持Python、TypeScript、Rust和Julia四种语言，强调从零手写算法（如反向传播、注意力机制），每个阶段产出可重用工件，旨在培养具备端到端 AI 工程能力的开发者。",
+        "summary_en": "A comprehensive, math-first curriculum for building AI from scratch using Python, TypeScript, Rust, and Julia.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "适合希望从底层原理出发，系统掌握 AI 系统设计与构建的开发者。",
+        "useCase_en": "To provide a structured, end-to-end learning path for engineering AI systems from raw math."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "music-assistant/server",
+      "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+      "language": "Python",
+      "stars": 2388,
+      "forks": 444,
+      "todayStars": 225,
+      "url": "https://github.com/music-assistant/server",
+      "aiSummary": {
+        "summary": "Music Assistant 是一个免费开源的媒体库管理器，核心是服务器组件，需运行在树莓派或 NAS 等常开设备上。它连接流媒体服务和扬声器，支持与 Home Assistant 深度集成，通过 Docker 容器或 Home Assistant 插件安装，旨在实现自动化音乐管理。",
+        "summary_en": "Open-source media server connecting streaming services and speakers for home automation on always-on devices.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Home Assistant"
+        ],
+        "useCase": "在树莓派或 NAS 等常开设备上搭建家庭音乐中心，实现流媒体与智能家居的自动化控制。",
+        "useCase_en": "Centralize media management and control smart speakers using streaming services on always-on hardware."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "Free-TV/IPTV",
+      "description": "M3U Playlist for free TV channels",
+      "language": "Python",
+      "stars": 17298,
+      "forks": 2565,
+      "todayStars": 361,
+      "url": "https://github.com/Free-TV/IPTV",
+      "aiSummary": {
+        "summary": "这是一个提供全球免费电视频道的 M3U 播放列表项目。项目专注于高质量和主流内容，仅收录官方免费频道，排除成人、宗教及政治类内容。使用 Python 脚本生成 m3u8 格式，用户可直接用于 IPTV 播放器。",
+        "summary_en": "A Python project providing a curated M3U playlist of free, high-quality global TV channels.",
+        "techStack": [
+          "Python",
+          "M3U8",
+          "Markdown"
+        ],
+        "useCase": "适用于 IPTV 播放器，用于观看全球免费电视频道。",
+        "useCase_en": "Allows users to stream free TV channels worldwide using compatible IPTV players."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+      "description": "Introduction to Autonomous Robots",
+      "language": "TeX",
+      "stars": 3077,
+      "forks": 657,
+      "todayStars": 489,
+      "url": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+      "aiSummary": {
+        "summary": "这是一个关于自主机器人计算原理的开放教科书项目。使用 TeX 编写，涵盖机制、传感器、执行器和算法。由于版权限制，源码需自行编译。适合教学及非商业研究使用。",
+        "summary_en": "An open-source LaTeX textbook focusing on the computational principles of autonomous robots.",
+        "techStack": [
+          "TeX",
+          "LaTeX",
+          "Overleaf"
+        ],
+        "useCase": "自主机器人教学与学习教材",
+        "useCase_en": "Researchers and students can compile the LaTeX source to study autonomous robot algorithms and principles."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "Raphire/Win11Debloat",
+      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+      "language": "PowerShell",
+      "stars": 48041,
+      "forks": 1938,
+      "todayStars": 112,
+      "url": "https://github.com/Raphire/Win11Debloat",
+      "aiSummary": {
+        "summary": "这是一个轻量级且无需安装的 PowerShell 脚本，旨在帮助用户清理和自定义 Windows 10/11 体验。它能够移除预装应用、禁用遥测、移除侵入性界面元素，并提供强大的命令行界面和管理员支持，适合系统管理员和高级用户优化系统性能。",
+        "summary_en": "Lightweight PowerShell script for Windows 10/11 to remove bloatware, disable telemetry, and customize the OS.",
+        "techStack": [
+          "PowerShell"
+        ],
+        "useCase": "用于清理 Windows 系统预装应用、禁用遥测及深度自定义系统体验。",
+        "useCase_en": "System administrators and power users can automate the removal of bloatware and telemetry on Windows 10 and 11."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "mikeroyal/Self-Hosting-Guide",
+      "description": "Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.",
+      "language": "Dockerfile",
+      "stars": 21050,
+      "forks": 1067,
+      "todayStars": 188,
+      "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+      "aiSummary": {
+        "summary": "这是一个关于自托管的综合指南，旨在帮助个人或组织学习如何自行管理软件应用。内容涵盖本地部署、私有云、LLMs、WireGuard、自动化、Home Assistant及网络配置等广泛主题。",
+        "summary_en": "A comprehensive guide for learning self-hosting, covering LLMs, automation, and networking.",
+        "techStack": [
+          "Dockerfile",
+          "WireGuard",
+          "Home Assistant",
+          "LLMs",
+          "Automation"
+        ],
+        "useCase": "适合希望掌握私有化部署、自建服务器及管理个人或企业软件应用的技术爱好者或运维人员。",
+        "useCase_en": "Individuals and organizations use this guide to manage software applications locally."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "itsfatduck/optimizerDuck",
+      "description": "Free, open-source Windows optimization tool for performance, privacy, and simplicity.",
+      "language": "C#",
+      "stars": 3703,
+      "forks": 161,
+      "todayStars": 340,
+      "url": "https://github.com/itsfatduck/optimizerDuck",
+      "aiSummary": {
+        "summary": "这是一个开源的 Windows 优化工具，使用 C# 开发。它提供超过 30 项系统优化，涵盖性能提升和隐私保护。用户可清理预装应用、禁用遥测、调整服务优先级等。工具支持多语言，无需安装即可运行，旨在让用户轻松管理后台进程并提升系统响应速度。",
+        "summary_en": "Free, open-source Windows tool to optimize performance and privacy by cleaning bloat and applying system tweaks.",
+        "techStack": [
+          "C#"
+        ],
+        "useCase": "适合希望提升 Windows 性能、清理系统垃圾或屏蔽隐私追踪的用户。",
+        "useCase_en": "Users can optimize their Windows PC for better performance and privacy by cleaning bloat and applying tweaks."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "language": "Python",
+      "stars": 6402,
+      "forks": 468,
+      "todayStars": 1079,
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "aiSummary": {
+        "summary": "NVIDIA 开发的 AI 代理技能安全扫描器，支持 Git、文件等多种输入格式。内置 64 种漏洞检测模式，结合静态分析与可选的 LLM 语义评估，实时查询 CVE 数据。它能有效识别漏洞、恶意意图及数据泄露风险，提供风险评分与修复建议，确保 AI 代理技能的安全安装。",
+        "summary_en": "A Python-based security scanner for AI agent skills that detects vulnerabilities and malicious patterns.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Make"
+        ],
+        "useCase": "在安装 Claude Code、Codex CLI 等 AI 代理技能前进行安全扫描与风险评估。",
+        "useCase_en": "To verify the safety of AI agent skills before installation by detecting vulnerabilities and malicious patterns."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 30289,
+      "forks": 5195,
+      "todayStars": 396,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融市场的高噪声数据设计。它采用两阶段框架，首先将 OHLCV 数据量化为离散 Token，再通过自回归 Transformer 进行预训练。该模型支持多种量化任务，提供 Mini、Small、Base 等不同参数量的版本，并已在 AAAI 2026 被接收。用户可轻松使用 Python 进行预测，如 BTC/USDT 交易对的未来走势。",
+        "summary_en": "An open-source foundation model for financial candlesticks trained on data from over 45 global exchanges.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Hugging Face Hub"
+        ],
+        "useCase": "金融时间序列预测与量化交易分析",
+        "useCase_en": "Forecast financial market trends and analyze candlestick data using a specialized transformer model."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-16T01:48:03.445Z",
+    "duration": "329s",
+    "version": "1.0.0"
+  }
+}
