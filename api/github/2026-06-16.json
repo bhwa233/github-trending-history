@@ -1,0 +1,286 @@
+{
+  "date": "2026-06-16",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "stars": 448548,
+      "forks": 45036,
+      "todayStars": 633,
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "aiSummary": {
+        "summary": "freeCodeCamp 是一个非营利性的开源编程学习平台，提供全栈 Web 开发和机器学习等免费课程。项目采用 TypeScript 开发，包含数千个互动编程挑战。用户通过完成项目、考试获得认证，这些认证可链接到 LinkedIn，帮助求职者转型进入科技行业。",
+        "summary_en": "Open-source platform providing free coding curriculum and certifications for aspiring developers.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合零基础或希望转型进入科技行业的开发者，用于系统学习编程、获取职业认证及提升技能。",
+        "useCase_en": "Aspiring developers use this platform to learn coding skills and earn verified certifications for free."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "swc-project/swc",
+      "description": "Rust-based platform for the Web",
+      "language": "Rust",
+      "stars": 33964,
+      "forks": 1417,
+      "todayStars": 20,
+      "url": "https://github.com/swc-project/swc",
+      "aiSummary": {
+        "summary": "SWC 是一个用 Rust 编写的超快 TypeScript/JavaScript 编译器。它同时作为 Rust 和 JavaScript 库使用，旨在显著提高 Web 开发速度。这是一个社区驱动的项目，支持 Node.js 环境，并遵循 Apache 2.0 许可证。",
+        "summary_en": "A super-fast TypeScript/JavaScript compiler written in Rust to speed up web development.",
+        "techStack": [
+          "Rust",
+          "TypeScript/JavaScript",
+          "Node.js"
+        ],
+        "useCase": "适用于需要高性能 JavaScript/TypeScript 转换和构建工具的开发场景。",
+        "useCase_en": "Used by developers to compile TypeScript and JavaScript code quickly in build pipelines."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "teslamate-org/teslamate",
+      "description": "A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
+      "language": "Elixir",
+      "stars": 8401,
+      "forks": 956,
+      "todayStars": 215,
+      "url": "https://github.com/teslamate-org/teslamate",
+      "aiSummary": {
+        "summary": "TeslaMate 是一个基于 Elixir 的自托管特斯拉数据记录器。它将车辆数据存储在 Postgres 数据库中，并利用 Grafana 进行可视化分析。项目支持高精度驾驶记录、充电成本追踪、多车辆管理，并通过 MQTT 协议与 Home Assistant 等智能家居系统无缝集成。此外，它还支持从其他数据源导入数据，并提供自定义主题。",
+        "summary_en": "Self-hosted Tesla data logger written in Elixir that tracks vehicle performance and integrates with Home Assistant.",
+        "techStack": [
+          "Elixir",
+          "PostgreSQL",
+          "Grafana",
+          "MQTT"
+        ],
+        "useCase": "用于记录和分析特斯拉车辆数据，并与 Home Assistant 等智能家居系统无缝集成。",
+        "useCase_en": "To track driving statistics, charging costs, and vehicle health for Tesla owners."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "stars": 124034,
+      "forks": 6692,
+      "todayStars": 1197,
+      "url": "https://github.com/iptv-org/iptv",
+      "aiSummary": {
+        "summary": "该项目是一个全球公开 IPTV 频道列表集合。它提供 M3U 格式的播放列表，用户可直接在支持直播流的播放器中观看。项目还集成了 EPG 电子节目指南、数据库及 API 等相关资源，致力于为用户提供便捷的全球电视频道访问服务。",
+        "summary_en": "Aggregates publicly available IPTV channel playlists from around the world.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "用于在本地播放器中观看全球各地的电视直播频道。",
+        "useCase_en": "Users can watch live TV by pasting playlist links into compatible video players."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "puppeteer/puppeteer",
+      "description": "JavaScript API for Chrome and Firefox",
+      "language": "TypeScript",
+      "stars": 94880,
+      "forks": 9451,
+      "todayStars": 56,
+      "url": "https://github.com/puppeteer/puppeteer",
+      "aiSummary": {
+        "summary": "Puppeteer 是一个提供高级 API 的 JavaScript 库，用于控制 Chrome 或 Firefox 浏览器。它默认以无头模式运行，支持通过 DevTools Protocol 或 WebDriver BiDi 进行自动化操作，适用于网页抓取、自动化测试和截图等场景。",
+        "summary_en": "High-level API for controlling Chrome and Firefox in headless mode.",
+        "techStack": [
+          "TypeScript",
+          "Chrome/Firefox",
+          "DevTools Protocol"
+        ],
+        "useCase": "网页自动化、爬虫、无头浏览器测试",
+        "useCase_en": "Automate web scraping, testing, and debugging of web applications."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "meshery/meshery",
+      "description": "Meshery, the cloud native manager",
+      "language": "TypeScript",
+      "stars": 10846,
+      "forks": 3448,
+      "todayStars": 228,
+      "url": "https://github.com/meshery/meshery",
+      "aiSummary": {
+        "summary": "Meshery 是一个开源的云原生管理平台，基于 TypeScript 开发。它提供自助服务工程能力，支持可视化和协作式 GitOps，帮助用户设计和管理基于 Kubernetes 的多云基础设施与应用。平台具备基础设施生命周期管理功能，支持 380+ 种集成，并能通过干运行验证配置，确保多集群部署的一致性与可观测性。",
+        "summary_en": "Open-source cloud native manager for designing and managing Kubernetes infrastructure across multiple clouds.",
+        "techStack": [
+          "TypeScript",
+          "Kubernetes"
+        ],
+        "useCase": "用于设计和管理基于 Kubernetes 的多云基础设施与应用，支持可视化的 GitOps 工作流。",
+        "useCase_en": "Manage Kubernetes infrastructure and applications across multiple clouds using a self-service platform."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "cypress-io/cypress",
+      "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "language": "TypeScript",
+      "stars": 50202,
+      "forks": 3426,
+      "todayStars": 13,
+      "url": "https://github.com/cypress-io/cypress",
+      "aiSummary": {
+        "summary": "Cypress 是一个现代化的端到端测试框架，专为浏览器应用设计。它提供快速、简单且可靠的测试体验，支持 Mac、Linux 和 Windows。开发者可以通过 npm 或 yarn 轻松安装并开始编写测试脚本，旨在解决传统测试工具的痛点，提升开发效率。",
+        "summary_en": "Cypress is a fast, easy, and reliable end-to-end testing framework for modern web applications.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于 Web 应用程序的端到端自动化测试。",
+        "useCase_en": "Developers use Cypress to automate and verify the behavior of web applications directly in the browser."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "music-assistant/server",
+      "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+      "language": "Python",
+      "stars": 2563,
+      "forks": 450,
+      "todayStars": 157,
+      "url": "https://github.com/music-assistant/server",
+      "aiSummary": {
+        "summary": "Music Assistant 是一个免费开源的媒体库管理服务器，核心用 Python 编写。它连接流媒体服务和扬声器，支持与 Home Assistant 深度集成。由于依赖外部组件，必须通过 Docker 容器或 Home Assistant 插件运行，适合部署在树莓派、NAS 等常开设备上。",
+        "summary_en": "Open-source media library manager connecting streaming services to speakers, optimized for always-on devices like Raspberry Pi or NAS.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Home Assistant"
+        ],
+        "useCase": "适合作为家庭自动化中心的媒体服务器，运行在树莓派、NAS 等常开设备上。",
+        "useCase_en": "To act as a central media server connecting streaming services to local speakers on always-on hardware."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+      "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+      "language": "Rust",
+      "stars": 7291,
+      "forks": 315,
+      "todayStars": 146,
+      "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 开发的跨平台 GUI 工具，利用 ADB 技术为非 Root 的 Android 设备提供去臃肿服务。它旨在通过移除不必要的系统应用来提升设备的隐私保护、安全性和电池续航。项目不收集用户数据，仅向 GitHub 发出请求获取包列表和更新。适合希望优化手机性能和隐私的用户。",
+        "summary_en": "A cross-platform Rust GUI tool for debloating non-rooted Android devices via ADB to improve privacy and battery life.",
+        "techStack": [
+          "Rust",
+          "ADB",
+          "GUI"
+        ],
+        "useCase": "非 Root Android 设备用户优化隐私、安全及电池续航。",
+        "useCase_en": "Remove unnecessary system apps from non-rooted Android devices to improve privacy, security, and battery life."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "stars": 30121,
+      "forks": 3406,
+      "todayStars": 408,
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "aiSummary": {
+        "summary": "VoxCPM2 是一个基于扩散自回归架构的 tokenizer-free 文本转语音系统。它支持30种语言，具备语音设计、可控克隆及终极克隆功能，能输出48kHz高保真音频。模型基于MiniCPM-4，支持实时流式传输，开源且商业可用。",
+        "summary_en": "VoxCPM2 is a tokenizer-free diffusion TTS system enabling multilingual speech synthesis and high-fidelity voice cloning.",
+        "techStack": [
+          "Python",
+          "Diffusion",
+          "MiniCPM-4",
+          "AudioVAE",
+          "vLLM"
+        ],
+        "useCase": "多语言语音合成、语音克隆、创意语音设计及实时流式语音生成",
+        "useCase_en": "Generate studio-quality multilingual speech and create custom voices using natural language descriptions."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "alibaba/zvec",
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "language": "C++",
+      "stars": 10446,
+      "forks": 606,
+      "todayStars": 156,
+      "url": "https://github.com/alibaba/zvec",
+      "aiSummary": {
+        "summary": "Zvec 是阿里巴巴开源的轻量级进程内向量数据库，基于 C++ 开发。它支持混合检索（向量+全文+过滤）、DiskANN 磁盘索引及 WAL 持久化，能毫秒级处理数十亿向量搜索。提供 Go/Rust SDK，无需外部服务器，适合嵌入式应用。",
+        "summary_en": "Alibaba's high-performance in-process vector database for fast similarity search and hybrid retrieval.",
+        "techStack": [
+          "C++",
+          "向量数据库",
+          "DiskANN",
+          "全文搜索",
+          "Go/Rust SDK"
+        ],
+        "useCase": "适用于需要高性能、低延迟向量检索的嵌入式应用或本地化服务。",
+        "useCase_en": "Embed directly into applications for lightning-fast similarity search and full-text retrieval without external servers."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "rmyndharis/OpenWA",
+      "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+      "language": "TypeScript",
+      "stars": 9075,
+      "forks": 1998,
+      "todayStars": 185,
+      "url": "https://github.com/rmyndharis/OpenWA",
+      "aiSummary": {
+        "summary": "OpenWA 是一个免费开源的 WhatsApp API 网关，基于 TypeScript 构建。它采用插件化架构，支持多会话并发、Docker 部署及 REST API。提供现代化的 Web Dashboard 管理界面，支持 Webhooks、媒体消息发送及 n8n 等第三方集成，适合开发者自建消息基础设施。",
+        "summary_en": "Open-source WhatsApp API gateway providing self-hosted messaging infrastructure with multi-session support.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Docker"
+        ],
+        "useCase": "适用于需要完全掌控消息基础设施、构建自动化工作流或开发第三方集成的开发者。",
+        "useCase_en": "Developers use this to build custom WhatsApp applications without vendor lock-in or hidden paywalls."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "n0-computer/iroh",
+      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "language": "Rust",
+      "stars": 9277,
+      "forks": 436,
+      "todayStars": 334,
+      "url": "https://github.com/n0-computer/iroh",
+      "aiSummary": {
+        "summary": "iroh 是一个 Rust 编写的模块化网络堆栈，旨在通过公钥而非 IP 地址进行连接。它利用 QUIC 协议和打洞技术自动寻找并维护最佳连接路径，支持中继回退。项目提供了基于内容的寻址存储（blobs）、发布订阅网络（gossip）和键值存储（docs）等可组合协议，适用于构建去中心化、高可用的分布式应用。",
+        "summary_en": "A Rust modular networking stack for establishing connections via public keys using QUIC and hole-punching.",
+        "techStack": [
+          "Rust",
+          "QUIC",
+          "noq",
+          "BLAKE3"
+        ],
+        "useCase": "构建去中心化 P2P 通信与分布式存储系统",
+        "useCase_en": "Building scalable peer-to-peer applications and distributed systems that require fast, direct connections via public key"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-17T00:26:10.559Z",
+    "duration": "269s",
+    "version": "1.0.0"
+  }
+}
