@@ -1,0 +1,429 @@
+{
+  "date": "2026-06-17",
+  "since": "daily",
+  "totalRepos": 20,
+  "successCount": 20,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "stars": 5234,
+      "forks": 484,
+      "todayStars": 371,
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "aiSummary": {
+        "summary": "这是一个高性能的代码智能 MCP 服务器，使用 C 语言编写。它能将代码库索引到持久化知识图谱中，平均毫秒级索引，结构化查询低于 1ms。支持 158 种语言，具备混合 LSP 语义解析能力，生成函数、类、调用链等信息。提供单静态二进制，零依赖，内置 3D 可视化，专为 AI 编码代理设计，确保本地处理安全。",
+        "summary_en": "High-performance code intelligence MCP server indexing codebases into persistent knowledge graphs for AI agents.",
+        "techStack": [
+          "C",
+          "Tree-sitter",
+          "SQLite",
+          "LSP",
+          "MCP"
+        ],
+        "useCase": "为 AI 编码代理提供极速、本地化的代码库索引与语义分析，加速代码探索与理解。",
+        "useCase_en": "To enable AI coding agents to explore large codebases instantly using a local, high-performance knowledge graph."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "n0-computer/iroh",
+      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "language": "Rust",
+      "stars": 9636,
+      "forks": 449,
+      "todayStars": 421,
+      "url": "https://github.com/n0-computer/iroh",
+      "aiSummary": {
+        "summary": "Iroh 是一个基于 Rust 的模块化网络栈，通过公钥而非 IP 地址建立连接。它支持 NAT 穿透、QUIC 协议及自动路由优化，确保连接稳定高效。项目包含用于内容寻址、发布订阅和键值存储的模块，适合构建去中心化网络应用。",
+        "summary_en": "Modular Rust networking stack enabling public key dialing via QUIC and hole-punching.",
+        "techStack": [
+          "Rust",
+          "QUIC",
+          "noq"
+        ],
+        "useCase": "适用于构建去中心化网络应用、P2P 通信及大规模内容分发系统。",
+        "useCase_en": "Enables developers to establish fast, direct connections between peers using public keys instead of IP addresses."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars": 33142,
+      "forks": 2668,
+      "todayStars": 1161,
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "aiSummary": {
+        "summary": "这是一个为 AI Agent 提供全网浏览能力的 Python CLI 工具。它解决了 Agent 无法访问 Twitter、YouTube、Bilibili 等平台的问题，提供一键安装和零 API 费用方案。项目支持多平台（含视频、社交、搜索），兼容各类 Agent，具备自动切换失效接口的容错机制，让 Agent 轻松获取互联网信息。",
+        "summary_en": "A Python CLI tool that equips AI agents with internet access to read and search various platforms like Twitter and YouTube for free.",
+        "techStack": [
+          "Python",
+          "MCP",
+          "CLI"
+        ],
+        "useCase": "适用于需要联网获取信息、搜索社交媒体内容或阅读视频字幕的 AI Agent 开发者。",
+        "useCase_en": "Enable AI agents to browse the web, read social media, and search content across multiple platforms without paying for A"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "meshery/meshery",
+      "description": "Meshery, the cloud native manager",
+      "language": "TypeScript",
+      "stars": 11015,
+      "forks": 3458,
+      "todayStars": 196,
+      "url": "https://github.com/meshery/meshery",
+      "aiSummary": {
+        "summary": "Meshery 是一个开源的云原生管理平台，基于 TypeScript 开发。它支持多集群、多云环境下的基础设施生命周期管理，提供可视化的 GitOps 工作流。平台内置 380+ 种集成，支持配置验证和部署模拟，帮助开发者从 YAML 中解放出来，高效管理 Kubernetes 应用。",
+        "summary_en": "Meshery is an open-source self-service engineering platform for designing and managing Kubernetes-based infrastructure across multiple clouds.",
+        "techStack": [
+          "TypeScript",
+          "Kubernetes",
+          "GitOps"
+        ],
+        "useCase": "适用于多云环境下的 Kubernetes 集群管理与基础设施编排。",
+        "useCase_en": "Manage Kubernetes infrastructure and multi-cloud deployments using an extensible, self-service engineering platform."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 231039,
+      "forks": 20542,
+      "todayStars": 1129,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个面向编码代理的软件开发方法论框架。它通过一套可组合的技能，引导代理在编写代码前先与用户确认需求和设计规范，强调 TDD、YAGNI 和 DRY 原则。代理会自动执行子代理驱动的开发流程，实现自主编码，适用于需要自动化和结构化开发流程的团队。",
+        "summary_en": "An agentic skills framework providing a structured software development methodology for coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要利用 AI 代理进行自动化、结构化软件开发的企业或个人开发者。",
+        "useCase_en": "To empower coding agents with a structured methodology for autonomous software development."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "stars": 21876,
+      "forks": 2129,
+      "todayStars": 606,
+      "url": "https://github.com/google-research/timesfm",
+      "aiSummary": {
+        "summary": "TimesFM 是 Google Research 开发的预训练时间序列基础模型，基于解码器架构，支持长上下文（16k）和协变量。最新版本 2.5 参数量降至 200M，支持连续分位数预测。项目提供 Flax 版本加速推理，并集成了微调（LoRA）和代理技能，广泛应用于 BigQuery ML、Google Sheets 等企业级产品中。",
+        "summary_en": "Google Research's pretrained time-series foundation model for forecasting with support for long contexts and fine-tuning.",
+        "techStack": [
+          "Python",
+          "Flax",
+          "Hugging Face Transformers",
+          "PEFT (LoRA)"
+        ],
+        "useCase": "时间序列预测、企业级数据分析与自动化",
+        "useCase_en": "Forecasting time-series data using a foundation model with support for long context windows and covariates."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "RocketChat/Rocket.Chat",
+      "description": "The Secure CommsOS™ for mission-critical operations",
+      "language": "TypeScript",
+      "stars": 45572,
+      "forks": 13656,
+      "todayStars": 22,
+      "url": "https://github.com/RocketChat/Rocket.Chat",
+      "aiSummary": {
+        "summary": "Rocket.Chat 是一个开源、安全且高度可定制的团队通讯平台，采用 TypeScript 开发。它支持实时对话、语音通话及联邦功能，提供端到端加密和基于角色的访问控制。支持自托管、云部署及 Kubernetes 等多种方式，适用于对数据隐私要求高的企业及组织，能显著提升协作效率。",
+        "summary_en": "An open-source, secure team communication platform built in TypeScript for mission-critical operations.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "适用于对数据隐私和安全要求极高的企业级团队协作及任务关键型通信场景。",
+        "useCase_en": "To provide secure, real-time team communication and collaboration for mission-critical operations."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "continuedev/continue",
+      "description": "open-source coding agent",
+      "language": "TypeScript",
+      "stars": 33889,
+      "forks": 4696,
+      "todayStars": 49,
+      "url": "https://github.com/continuedev/continue",
+      "aiSummary": {
+        "summary": "这是一个开源的编码代理，提供 CLI、VS Code 扩展和 JetBrains 插件。项目在 2.0.0 版本后停止维护，移除了匿名遥测和认证功能，代码库已转为只读。",
+        "summary_en": "Open-source coding agent available as a CLI, VS Code extension, and JetBrains plugin.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于集成 AI 编程能力的开发者，通过 CLI 或 IDE 插件辅助代码编写。",
+        "useCase_en": "Provides AI-powered coding assistance within IDEs like VS Code and JetBrains."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "penpot/penpot",
+      "description": "Penpot: The open-source design tool for design and code collaboration",
+      "language": "Clojure",
+      "stars": 50076,
+      "forks": 3234,
+      "todayStars": 70,
+      "url": "https://github.com/penpot/penpot",
+      "aiSummary": {
+        "summary": "Penpot 是一个开源的跨平台设计平台，专为大规模数字产品团队打造。它支持自托管，确保合规与治理。核心优势在于“设计即代码”，通过设计令牌和 MCP 服务器实现设计与开发的实时协作与自动化，支持 SVG、CSS、HTML 等标准，加速产品交付。",
+        "summary_en": "Open-source design platform for teams enabling self-hosting, real-time collaboration, and code-to-design workflows.",
+        "techStack": [
+          "Clojure"
+        ],
+        "useCase": "适用于需要自托管、严格合规及设计开发协作的大规模数字产品团队。",
+        "useCase_en": "Teams use it to build scalable design systems and collaborate with developers through code."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "krahets/hello-algo",
+      "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+      "language": "Java",
+      "stars": 127432,
+      "forks": 15175,
+      "todayStars": 96,
+      "url": "https://github.com/krahets/hello-algo",
+      "aiSummary": {
+        "summary": "这是一个开源的数据结构与算法入门教程，主打动画图解和一键运行。支持简繁中、英、日、俄等多语言，提供Python、Java、C++等十余种编程语言的代码实现。内容清晰易懂，适合初学者手脑并用学习。",
+        "summary_en": "An open-source, animated data structures and algorithms tutorial with multi-language support.",
+        "techStack": [
+          "Java",
+          "Python",
+          "C++",
+          "C",
+          "C#"
+        ],
+        "useCase": "适合编程初学者进行数据结构与算法的入门学习与练习。",
+        "useCase_en": "A beginner-friendly guide to data structures and algorithms with visual animations and runnable code."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+      "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+      "language": "Rust",
+      "stars": 7635,
+      "forks": 328,
+      "todayStars": 457,
+      "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 开发的跨平台 GUI 工具，利用 ADB 对非 Root 的 Android 设备进行去臃肿。它通过移除不必要的系统应用来提升隐私、安全性和电池续航。项目不收集用户数据，仅连接 GitHub 获取列表和更新。适合希望优化设备性能和隐私的用户。",
+        "summary_en": "Cross-platform Rust GUI application that uses ADB to debloat non-rooted Android devices, enhancing privacy and battery life.",
+        "techStack": [
+          "Rust",
+          "ADB",
+          "Cross-platform GUI"
+        ],
+        "useCase": "适用于非 Root 的 Android 用户，用于优化设备隐私、安全性和电池寿命。",
+        "useCase_en": "Improve privacy, security, and battery life by removing unnecessary system apps on non-rooted Android devices via ADB."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 133522,
+      "forks": 11600,
+      "todayStars": 1523,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude 等编码代理设计的技能集合，旨在帮助工程师进行‘真实工程’而非‘氛围编码’。项目通过 Shell 脚本提供可组合的技能，解决 AI 代理无法准确理解用户需求的问题。核心功能包括 `/grill-me` 等命令，用于在编码前通过详细提问来明确需求，确保开发过程可控且易于调试。",
+        "summary_en": "A collection of composable engineering skills designed to improve coding agent workflows.",
+        "techStack": [
+          "Shell",
+          "Claude Code"
+        ],
+        "useCase": "用于提升 Claude 等编码代理的沟通效率，确保 AI 准确理解复杂需求，避免开发偏差。",
+        "useCase_en": "To provide a set of composable skills for coding agents to improve engineering workflows."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "yairm210/Unciv",
+      "description": "Open-source Android/Desktop remake of Civ V",
+      "language": "Kotlin",
+      "stars": 10651,
+      "forks": 1844,
+      "todayStars": 24,
+      "url": "https://github.com/yairm210/Unciv",
+      "aiSummary": {
+        "summary": "Unciv 是一款开源的 Android 和桌面端《文明 V》重制版，使用 Kotlin 和 LibGDX 开发。它是一款轻量级、可模组化的 4X 策略游戏，支持多平台，致力于还原原版 Civ V 的核心玩法，并持续更新 G&K 和 BNW 等扩展包机制。",
+        "summary_en": "An open-source, moddable remake of Civilization V for Android and Desktop built with LibGDX.",
+        "techStack": [
+          "Kotlin",
+          "LibGDX"
+        ],
+        "useCase": "适合在低配置设备上运行、追求开源模组化体验的 4X 策略游戏爱好者。",
+        "useCase_en": "A lightweight, FOSS 4X strategy game for Android and Desktop that runs on older hardware."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "stars": 449127,
+      "forks": 45088,
+      "todayStars": 757,
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "aiSummary": {
+        "summary": "这是一个由慈善机构运营的开源编程学习平台，提供全栈 Web 开发、机器学习及多语言认证课程。平台包含数千个互动挑战，用户通过完成项目与考试获得免费证书，证书可在 LinkedIn 上验证，旨在帮助忙碌的成年人转型进入科技行业。",
+        "summary_en": "Open-source non-profit platform offering free coding certifications and interactive curriculum for full-stack development.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合初学者及忙碌的成年人免费学习编程、获取技术认证并转型进入科技行业。",
+        "useCase_en": "Users can learn programming and computer science for free through interactive challenges and earn verified certification"
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "stars": 36688,
+      "forks": 3700,
+      "todayStars": 150,
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "aiSummary": {
+        "summary": "这是一个由字节跳动开源的多模态 AI Agent 堆栈，包含 Agent TARS 和 UI-TARS-desktop。它利用先进的视觉和多模态大模型，通过 CLI 和桌面应用实现类似人类的 GUI 任务完成。支持本地/远程计算机及浏览器操作，旨在连接前沿 AI 模型与智能体基础设施。",
+        "summary_en": "An open-source multimodal AI agent stack connecting cutting-edge models and agent infra for desktop automation.",
+        "techStack": [
+          "TypeScript",
+          "Multimodal LLMs",
+          "MCP Tools"
+        ],
+        "useCase": "适用于桌面自动化、浏览器操作及复杂任务的类人化执行。",
+        "useCase_en": "Automate complex computer and browser tasks using multimodal AI agents."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "stars": 23802,
+      "forks": 3017,
+      "todayStars": 98,
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "aiSummary": {
+        "summary": "NautilusTrader 是一个生产级的 Rust 原生交易引擎，采用确定性事件驱动架构。它结合了 Rust 的高性能与 Python 的灵活性，支持多资产、多交易场所。系统提供从研究、模拟到实盘执行的统一架构，确保研究环境与生产环境的一致性。支持通过模块化适配器集成各类 REST API 和 WebSocket 数据源。",
+        "summary_en": "Production-grade Rust-native trading engine with deterministic event-driven architecture for multi-asset systems.",
+        "techStack": [
+          "Rust",
+          "Python",
+          "Tokio",
+          "Docker"
+        ],
+        "useCase": "适用于高频交易、量化策略开发及需要高性能确定性模拟的金融系统。",
+        "useCase_en": "Used for building high-performance, deterministic trading systems for crypto, FX, and equities."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "chatwoot/chatwoot",
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "language": "Ruby",
+      "stars": 32362,
+      "forks": 7712,
+      "todayStars": 264,
+      "url": "https://github.com/chatwoot/chatwoot",
+      "aiSummary": {
+        "summary": "Chatwoot 是一个开源的全渠道客户支持平台，支持网站聊天、邮件、WhatsApp、Facebook 等多种渠道。它提供 AI 代理 Captain 自动化回复，内置帮助中心，以及团队协作工具。作为 Intercom 的替代方案，它允许企业自托管，提供数据控制，并具备强大的自动化和生产力功能，帮助企业高效管理客户互动。",
+        "summary_en": "Open-source customer support platform offering omnichannel messaging, AI agents, and help center features for businesses.",
+        "techStack": [
+          "Ruby"
+        ],
+        "useCase": "适合需要自托管、多渠道客户支持管理及利用 AI 提升效率的企业。",
+        "useCase_en": "A self-hosted solution for businesses to manage omnichannel customer support and automate responses using AI agents."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "stars": 5295,
+      "forks": 1005,
+      "todayStars": 98,
+      "url": "https://github.com/calesthio/OpenMontage",
+      "aiSummary": {
+        "summary": "OpenMontage 是全球首个开源代理驱动视频制作系统，将 AI 编程助手转化为全能工作室。它包含 12 个管道、52 个工具和 500+ 代理技能，支持通过自然语言描述自动完成从研究、脚本、素材生成到剪辑合成的全流程。不仅能制作动画视频，还能利用免费素材库生成真实视频，支持多种风格创作。",
+        "summary_en": "Open-source agentic video production system transforming AI coding assistants into full video studios.",
+        "techStack": [
+          "Python",
+          "Remotion",
+          "AI Models (Veo/Kling/GPT)"
+        ],
+        "useCase": "AI 辅助视频自动化制作与内容生成",
+        "useCase_en": "Automate video production workflows by describing concepts in plain language to generate scripts, assets, and edits."
+      }
+    },
+    {
+      "index": 18,
+      "fullName": "alexzhang13/rlm",
+      "description": "General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes.",
+      "language": "Python",
+      "stars": 4917,
+      "forks": 822,
+      "todayStars": 43,
+      "url": "https://github.com/alexzhang13/rlm",
+      "aiSummary": {
+        "summary": "这是一个通用即插即用的递归语言模型（RLM）推理库，支持多种沙箱环境。RLM 允许语言模型通过递归调用自身来处理无限长度的上下文，将上下文视为代码环境中的变量。项目提供推理引擎和训练环境，旨在通过代码执行方式超越传统的 JSON 工具调用标准。",
+        "summary_en": "A Python library for Recursive Language Models enabling infinite context handling through recursive self-calling and sandbox environments.",
+        "techStack": [
+          "Python",
+          "LLM",
+          "Sandbox",
+          "Code Execution"
+        ],
+        "useCase": "处理无限长上下文的语言模型推理与训练，特别是需要代码执行能力的复杂任务。",
+        "useCase_en": "Build language models capable of handling infinite context by recursively calling themselves within a code environment."
+      }
+    },
+    {
+      "index": 19,
+      "fullName": "makeplane/plane",
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "stars": 51272,
+      "forks": 4561,
+      "todayStars": 89,
+      "url": "https://github.com/makeplane/plane",
+      "aiSummary": {
+        "summary": "Plane 是一个开源的项目管理平台，旨在替代 Jira、Linear 等工具。它提供任务管理、冲刺周期、产品路线图、文档协作（含 AI）及数据分析功能。支持云端或自托管（Docker/K8s），具备灵活的视图定制和模块化管理能力，帮助团队高效追踪进度。",
+        "summary_en": "Plane is a modern, open-source project management platform for tracking issues, sprints, and documentation.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "适合需要自托管或寻找 Jira/Linear 替代品的团队，用于任务追踪、敏捷开发冲刺管理和团队协作。",
+        "useCase_en": "Manage tasks, sprints, and documentation in an open-source environment."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-18T00:23:48.765Z",
+    "duration": "340s",
+    "version": "1.0.0"
+  }
+}
