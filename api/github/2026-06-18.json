@@ -1,0 +1,371 @@
+{
+  "date": "2026-06-18",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "stars": 23207,
+      "forks": 2220,
+      "todayStars": 844,
+      "url": "https://github.com/google-research/timesfm",
+      "aiSummary": {
+        "summary": "TimesFM 是 Google Research 开发的预训练时间序列基础模型，基于 ICML 2024 论文。支持 16k 长上下文与连续分位数预测，参数量 2 亿。包含 Flax 版本、协变量支持及微调示例，已集成至 BigQuery ML 等产品中。",
+        "summary_en": "Google Research's pretrained time-series foundation model for forecasting.",
+        "techStack": [
+          "Python",
+          "Flax",
+          "Hugging Face Transformers",
+          "PEFT"
+        ],
+        "useCase": "时间序列预测、企业级数据分析及模型微调",
+        "useCase_en": "Enables scalable time-series forecasting for enterprise applications."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "n0-computer/iroh",
+      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "language": "Rust",
+      "stars": 10011,
+      "forks": 463,
+      "todayStars": 369,
+      "url": "https://github.com/n0-computer/iroh",
+      "aiSummary": {
+        "summary": "Iroh 是一个 Rust 编写的模块化网络堆栈，支持通过公钥而非 IP 地址进行连接。它利用 QUIC 协议和 NAT 穿透技术自动寻找并维护最佳连接路径。项目提供了 iroh-blobs、iroh-gossip 和 iroh-docs 等预构建协议，适用于构建可扩展的 P2P 应用、分布式存储和发布订阅网络。",
+        "summary_en": "A Rust-based modular networking stack enabling connection discovery via public keys and hole-punching.",
+        "techStack": [
+          "Rust",
+          "QUIC",
+          "NAT 穿透",
+          "P2P"
+        ],
+        "useCase": "构建可扩展的 P2P 应用、分布式存储系统及发布订阅网络",
+        "useCase_en": "Build decentralized applications requiring fast, authenticated connections via public key dialing."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "stars": 449551,
+      "forks": 45130,
+      "todayStars": 417,
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "aiSummary": {
+        "summary": "freeCodeCamp 是一个由捐赠支持的 501(c)(3) 慈善机构运营的开源教育平台。它提供完全免费、自定进度的全栈 Web 开发和机器学习课程，包含数千个交互式编程挑战。用户通过完成项目并通过考试获得认证，旨在帮助数百万人转型进入科技行业。",
+        "summary_en": "An open-source platform providing free coding education and certifications for aspiring developers.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合编程初学者及希望转型科技行业的职场人士，用于系统学习全栈开发、机器学习等技能并获得免费认证。",
+        "useCase_en": "Aspiring developers use this platform to learn web development and machine learning for free."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 232449,
+      "forks": 20645,
+      "todayStars": 1429,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码代理设计的代理技能框架和软件开发方法论。它通过一套可组合的技能，指导代理在编写代码前先与用户确认需求、展示设计规格、制定清晰计划，并执行自主的子代理开发。它强调 TDD、YAGNI 和 DRY 原则，旨在让代理在没有项目上下文的情况下也能高效工作。",
+        "summary_en": "An agentic framework providing a structured software development methodology for coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "为 Claude Code、Cursor 等 AI 编码代理提供结构化的工作流和技能框架，实现自主软件开发。",
+        "useCase_en": "To provide coding agents with a structured methodology for autonomous software development."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "zai-org/GLM-5",
+      "description": "GLM-5: From Vibe Coding to Agentic Engineering",
+      "language": "",
+      "stars": 4140,
+      "forks": 433,
+      "todayStars": 202,
+      "url": "https://github.com/zai-org/GLM-5",
+      "aiSummary": {
+        "summary": "GLM-5 是由 zai-org 开发的一系列先进大语言模型，包含旗舰版 GLM-5.2 和代理工程版 GLM-5.1。GLM-5.2 拥有 100 万 token 的超长上下文窗口，支持灵活的编码思考级别，并在 Terminal-Bench 和 SWE-bench Pro 等基准测试中表现优异，接近闭源模型水平。GLM-5.1 则专注于代理工程，具备更强的长时任务执行能力，解决了模型过早耗尽技巧的问题。项目旨在推动从“氛围编码”到“代",
+        "summary_en": "Flagship AI model series GLM-5 featuring advanced coding and 1M-token context for long-horizon tasks.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "CUDA",
+          "Transformers"
+        ],
+        "useCase": "长上下文代码生成、复杂终端任务处理及智能代理开发",
+        "useCase_en": "Execute complex coding tasks and long-horizon workflows using a massive 1M-token context window."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "stars": 7078,
+      "forks": 567,
+      "todayStars": 2322,
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "aiSummary": {
+        "summary": "这是一个高性能的代码智能 MCP 服务器，使用 C 语言编写。它通过 Tree-sitter 和 LSP 将代码库索引为持久化知识图谱，支持 158 种语言，平均仓库毫秒级索引，查询速度极快。单静态二进制，零依赖，专为 AI 编码代理设计。",
+        "summary_en": "High-performance code intelligence MCP server that indexes codebases into a persistent knowledge graph for AI agents.",
+        "techStack": [
+          "C",
+          "Tree-sitter",
+          "LSP",
+          "MCP"
+        ],
+        "useCase": "为 AI 编码代理提供极速的代码库索引与语义分析服务。",
+        "useCase_en": "To enable AI coding agents to explore large codebases with extreme speed and low token usage using a knowledge graph."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "yifanfeng97/Hyper-Extract",
+      "description": "Transform unstructured text into structured knowledge with LLMs. Graphs, hypergraphs, and spatio-temporal extractions — with one command.",
+      "language": "Python",
+      "stars": 1791,
+      "forks": 204,
+      "todayStars": 124,
+      "url": "https://github.com/yifanfeng97/Hyper-Extract",
+      "aiSummary": {
+        "summary": "Hyper-Extract 是一个基于 LLM 的智能知识提取框架，旨在将非结构化文本转化为结构化知识。它支持 8 种知识结构（如图谱、超图）及 10+ 种提取引擎，内置 80+ YAML 模板，支持增量演化，适用于科研、金融等领域，实现零代码的知识库构建。",
+        "summary_en": "An intelligent CLI framework for transforming unstructured text into structured knowledge using LLMs and YAML templates.",
+        "techStack": [
+          "Python",
+          "LLM",
+          "vLLM",
+          "GraphRAG",
+          "Pydantic"
+        ],
+        "useCase": "将非结构化文档（如学术论文、财报）转化为结构化知识图谱，用于科研分析或金融风控。",
+        "useCase_en": "Turn unstructured documents like academic papers and financial reports into structured knowledge graphs and entities."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "alibaba/zvec",
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "language": "C++",
+      "stars": 11230,
+      "forks": 652,
+      "todayStars": 259,
+      "url": "https://github.com/alibaba/zvec",
+      "aiSummary": {
+        "summary": "Zvec 是阿里巴巴开源的轻量级、高性能进程内向量数据库。它支持密集和稀疏向量混合检索、原生全文搜索及 DiskANN 索引，具备毫秒级搜索数十亿向量的能力。通过 WAL 保证数据持久化，支持多进程并发读取，无需外部服务器配置，专为嵌入式应用设计。",
+        "summary_en": "Alibaba's in-process vector database offering lightning-fast similarity search and full-text capabilities.",
+        "techStack": [
+          "C++",
+          "Dense Vectors",
+          "Sparse Vectors",
+          "DiskANN",
+          "Go"
+        ],
+        "useCase": "适合需要低延迟、高并发向量检索的嵌入式应用场景。",
+        "useCase_en": "Embed directly into applications to perform lightning-fast similarity search and full-text retrieval."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "withastro/flue",
+      "description": "The sandbox agent framework.",
+      "language": "TypeScript",
+      "stars": 5517,
+      "forks": 301,
+      "todayStars": 162,
+      "url": "https://github.com/withastro/flue",
+      "aiSummary": {
+        "summary": "Flue 是一个基于 TypeScript 的沙盒代理框架，旨在构建下一代自主 AI 智能体。它提供安全的运行环境、工具集成和上下文管理，允许开发者通过编程方式定义代理行为，实现从本地 CLI 到云端部署的自动化工作流。",
+        "summary_en": "A TypeScript framework for building autonomous AI agents with secure sandboxes and tool integration.",
+        "techStack": [
+          "TypeScript",
+          "Node.js"
+        ],
+        "useCase": "构建能够自主执行复杂任务（如代码修复、Bug 诊断）的 AI 智能体。",
+        "useCase_en": "Create autonomous AI agents capable of complex workflows and tool usage within a secure sandbox."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Kilo-Org/kilocode",
+      "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+      "language": "TypeScript",
+      "stars": 22171,
+      "forks": 2708,
+      "todayStars": 1345,
+      "url": "https://github.com/Kilo-Org/kilocode",
+      "aiSummary": {
+        "summary": "Kilo 是一个开源的 AI 编程代理平台，支持在 VS Code、JetBrains 和 CLI 中使用。它提供 500+ 种模型选择，支持中途切换，采用开放定价模式（无加价），无需 API 密钥即可开始。此外，还提供云端代理、代码审查和 KiloClaw 等功能，帮助开发者快速构建和迭代代码。",
+        "summary_en": "Kilo is an open-source AI coding agent that works across VS Code, JetBrains, and CLI.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "VS Code Extension",
+          "JetBrains Plugin"
+        ],
+        "useCase": "适用于希望在 VS Code、JetBrains 或命令行中使用 AI 辅助编程、进行代码审查或部署云端代理的开发者。",
+        "useCase_en": "Developers use Kilo to build, ship, and iterate faster using AI coding agents in their preferred IDEs."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "makeplane/plane",
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "stars": 51848,
+      "forks": 4602,
+      "todayStars": 613,
+      "url": "https://github.com/makeplane/plane",
+      "aiSummary": {
+        "summary": "Plane 是一个开源的现代项目管理平台，旨在替代 Jira、Linear 等工具。它支持任务管理、冲刺周期、路线图规划、文档协作（含 AI 功能）以及数据分析。用户可选择云端部署或自托管，提供灵活的工作流视图和模块化管理，适合各类团队高效协作。",
+        "summary_en": "Open-source alternative to Jira and Linear for modern project management.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "适合需要开源、自托管或云端项目管理解决方案的团队，用于任务追踪、敏捷开发及文档协作。",
+        "useCase_en": "Track issues, run sprints, and manage product roadmaps for teams."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "Kong/insomnia",
+      "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+      "language": "TypeScript",
+      "stars": 38689,
+      "forks": 2293,
+      "todayStars": 18,
+      "url": "https://github.com/Kong/insomnia",
+      "aiSummary": {
+        "summary": "Insomnia 是一个开源的跨平台 API 客户端，使用 TypeScript 编写。它支持 GraphQL、REST、WebSockets、SSE 和 gRPC 等多种协议。用户可以使用它调试、设计、测试和模拟 API，支持本地、Git 和云端存储，并具备强大的协作功能。",
+        "summary_en": "An open-source, cross-platform API client for debugging and testing GraphQL, REST, and gRPC APIs.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于开发人员调试、测试和设计 RESTful、GraphQL 及 gRPC API。",
+        "useCase_en": "Developers use this tool to design, debug, and test APIs across various protocols like REST, GraphQL, and gRPC."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+      "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+      "language": "Rust",
+      "stars": 7926,
+      "forks": 341,
+      "todayStars": 244,
+      "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 开发的跨平台 GUI 工具，利用 ADB 技术为非 Root 的 Android 设备提供深度卸载服务。它旨在移除不必要的系统应用，从而提升设备的隐私保护、安全性和电池续航。项目不收集用户数据，拥有完善的 Wiki 文档支持。",
+        "summary_en": "A cross-platform Rust GUI tool to debloat non-rooted Android devices via ADB, improving privacy and battery life.",
+        "techStack": [
+          "Rust",
+          "ADB",
+          "GUI"
+        ],
+        "useCase": "适用于非 Root 的 Android 用户，用于卸载预装应用以优化设备性能、隐私和电池续航。",
+        "useCase_en": "Remove unnecessary system apps on non-rooted Android devices to improve privacy, security, and battery life."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "dotnet/aspnetcore",
+      "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+      "language": "C#",
+      "stars": 38098,
+      "forks": 10710,
+      "todayStars": 14,
+      "url": "https://github.com/dotnet/aspnetcore",
+      "aiSummary": {
+        "summary": "ASP.NET Core 是一个开源、跨平台的 C# 框架，专为构建现代云原生互联网应用（如 Web、IoT、移动后端）而设计。它运行在 .NET 运行时上，支持 Windows、Mac 和 Linux，具有模块化组件和最小开销，适合云部署或本地运行。",
+        "summary_en": "Open-source framework for building modern cloud-based web apps and backends on Windows, Mac, or Linux.",
+        "techStack": [
+          "C#",
+          ".NET"
+        ],
+        "useCase": "构建跨平台的现代云原生 Web 应用及后端服务。",
+        "useCase_en": "Developing cross-platform web applications, IoT apps, and mobile backends for cloud or on-premises deployment."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "owainlewis/awesome-artificial-intelligence",
+      "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+      "language": "",
+      "stars": 14406,
+      "forks": 2335,
+      "todayStars": 40,
+      "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+      "aiSummary": {
+        "summary": "这是一个精选的 AI 资源列表，涵盖课程、书籍、视频和论文。重点聚焦于 AI 工程（RAG、代理、评估、部署），提供从现代实用书籍到基础理论的全面学习路径，适合不同水平的开发者构建和部署 AI 系统。",
+        "summary_en": "Curated collection of AI courses, books, and papers for engineering and learning.",
+        "techStack": [
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Education",
+          "Resources"
+        ],
+        "useCase": "适合希望系统学习 AI 理论与实践的开发者，特别是关注 AI 工程（如 RAG、代理）和系统部署的学习者。",
+        "useCase_en": "Developers and students use this list to find curated resources for AI engineering and learning."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "Lightricks/LTX-2",
+      "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+      "language": "Python",
+      "stars": 7500,
+      "forks": 1208,
+      "todayStars": 51,
+      "url": "https://github.com/Lightricks/LTX-2",
+      "aiSummary": {
+        "summary": "这是一个用于 LTX-2 音频-视频生成模型的官方 Python 推理和 LoRA 训练包。LTX-2 是首个基于 DiT 的音频-视频基础模型，支持同步音频与视频生成、高保真输出及多种性能模式。项目提供了完整的推理流程、模型权重下载指南以及多种 LoRA 扩展（如控制、相机、HDR等），旨在实现生产就绪的 AI 视频生成。",
+        "summary_en": "Official Python inference and LoRA trainer package for the LTX-2 audio-video generative model.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Diffusion Transformers (DiT)"
+        ],
+        "useCase": "音频-视频生成、AI 内容创作",
+        "useCase_en": "Generate synchronized audio and video content using the LTX-2 generative model."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "LibreTranslate/LibreTranslate",
+      "description": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup.",
+      "language": "Python",
+      "stars": 14983,
+      "forks": 1534,
+      "todayStars": 51,
+      "url": "https://github.com/LibreTranslate/LibreTranslate",
+      "aiSummary": {
+        "summary": "LibreTranslate 是一个完全自托管的免费开源机器翻译 API，不依赖专有云服务。它基于开源的 Argos Translate 引擎，支持离线运行，易于部署，适合构建私有化翻译服务。",
+        "summary_en": "Self-hosted, open-source machine translation API powered by Argos Translate.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "构建私有化、离线可用的机器翻译服务",
+        "useCase_en": "Developers can self-host a translation service without relying on proprietary cloud APIs."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-19T01:51:21.852Z",
+    "duration": "332s",
+    "version": "1.0.0"
+  }
+}
