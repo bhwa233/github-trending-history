@@ -1,0 +1,378 @@
+{
+  "date": "2026-06-20",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "palmier-io/palmier-pro",
+      "description": "macOS video editor built for AI",
+      "language": "Swift",
+      "stars": 3322,
+      "forks": 277,
+      "todayStars": 902,
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "aiSummary": {
+        "summary": "Palmier Pro 是一款基于 Swift 的 macOS 视频编辑器，对标 Premiere Pro。它集成了生成式 AI 模型，允许用户在时间轴上直接生成和编辑视频。项目开源了编辑器核心、MCP 服务器及代理聊天功能，生成式 AI 处理部分需订阅。支持通过 MCP 协议与 Claude、Cursor 等工具集成，实现人机协作。",
+        "summary_en": "A native macOS video editor powered by Swift and AI agents for collaborative content creation.",
+        "techStack": [
+          "Swift",
+          "MCP (Model Context Protocol)",
+          "HTTP"
+        ],
+        "useCase": "适合 macOS 用户利用 AI 代理进行协作式视频创作与编辑。",
+        "useCase_en": "Collaborate with AI agents to generate and edit videos natively on macOS."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "penpot/penpot",
+      "description": "Penpot: The open-source design tool for design and code collaboration",
+      "language": "Clojure",
+      "stars": 51400,
+      "forks": 3302,
+      "todayStars": 420,
+      "url": "https://github.com/penpot/penpot",
+      "aiSummary": {
+        "summary": "Penpot 是一个开源的跨平台设计平台，专为规模化团队打造。它支持自托管，确保设计基础设施的完全控制。核心优势在于设计与代码的无缝协作，支持 SVG、CSS、HTML 等开放标准。通过实时协作、设计令牌和 MCP 服务器，它实现了从设计到开发的自动化流程，帮助团队构建可扩展的设计系统。",
+        "summary_en": "Open-source design platform for teams enabling design-to-code collaboration and self-hosting.",
+        "techStack": [
+          "Clojure",
+          "SVG",
+          "CSS",
+          "HTML",
+          "JSON"
+        ],
+        "useCase": "适用于需要自托管、严格合规及设计与代码深度协作的规模化团队。",
+        "useCase_en": "Teams use it to build scalable design systems and collaborate with developers on digital products."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "stars": 7044,
+      "forks": 1148,
+      "todayStars": 677,
+      "url": "https://github.com/calesthio/OpenMontage",
+      "aiSummary": {
+        "summary": "OpenMontage 是世界首个开源的代理式视频制作系统。它包含12条流水线和52个工具，能将AI编码助手转化为全功能视频工作室。用户只需用自然语言描述需求，系统即可自动完成研究、脚本编写、素材生成、剪辑及合成。它不仅能制作基于图像的视频，还能通过检索真实运动素材制作高质量视频，支持多种AI模型。",
+        "summary_en": "Open-source agentic video production system automating video creation via AI agents.",
+        "techStack": [
+          "Python",
+          "Remotion",
+          "OpenAI API"
+        ],
+        "useCase": "将AI编码助手转化为全功能视频制作工作室，适用于自动化影视制作、广告生成及创意内容创作。",
+        "useCase_en": "Automate video production workflows by leveraging AI agents for research, scripting, and asset generation."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "tursodatabase/turso",
+      "description": "Turso is an in-process SQL database, compatible with SQLite.",
+      "language": "Rust",
+      "stars": 20320,
+      "forks": 1042,
+      "todayStars": 801,
+      "url": "https://github.com/tursodatabase/turso",
+      "aiSummary": {
+        "summary": "Turso 是一个用 Rust 编写的进程内 SQL 数据库，完全兼容 SQLite。它支持 MVCC、变更数据捕获 (CDC)、向量搜索和多语言接口。具备异步 I/O 和跨平台能力，旨在提供高性能的本地数据存储解决方案。",
+        "summary_en": "Turso is a Rust-based in-process SQL database compatible with SQLite, featuring MVCC and vector support.",
+        "techStack": [
+          "Rust",
+          "SQLite",
+          "WebAssembly"
+        ],
+        "useCase": "适用于需要高性能、兼容 SQLite 且支持向量搜索的本地应用开发。",
+        "useCase_en": "Use Turso for high-performance, cross-platform in-process SQL databases requiring SQLite compatibility and vector search"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "stars": 9332,
+      "forks": 706,
+      "todayStars": 1271,
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "aiSummary": {
+        "summary": "这是一个高性能的代码智能 MCP 服务器，使用 C 语言编写。它能将代码库索引到持久化知识图谱中，支持 158 种语言，平均仓库毫秒级索引，Linux 内核 3 分钟完成。具备亚毫秒级查询能力，令牌消耗减少 99%。提供单静态二进制文件，零依赖，内置 3D 可视化，专为 AI 编码代理设计，支持本地安全处理。",
+        "summary_en": "High-performance MCP server that indexes codebases into a persistent knowledge graph for AI coding agents.",
+        "techStack": [
+          "C",
+          "Tree-sitter",
+          "SQLite",
+          "LSP",
+          "MCP"
+        ],
+        "useCase": "为 AI 编码代理提供极速、低成本的代码库深度理解与结构化查询服务。",
+        "useCase_en": "Enable AI coding agents to instantly explore and query large codebases with high-quality semantic indexing."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "stars": 24539,
+      "forks": 2327,
+      "todayStars": 433,
+      "url": "https://github.com/google-research/timesfm",
+      "aiSummary": {
+        "summary": "TimesFM 是 Google Research 开发的预训练时间序列基础模型，基于解码器架构。支持长上下文（16k）和协变量，提供连续分位数预测。支持微调（LoRA）和 Flax 推理，已集成至 BigQuery ML 等产品中。",
+        "summary_en": "Google Research's pretrained time-series foundation model for forecasting.",
+        "techStack": [
+          "Python",
+          "Hugging Face Transformers",
+          "Flax",
+          "PEFT/LoRA"
+        ],
+        "useCase": "企业级时间序列预测与自动化分析",
+        "useCase_en": "Forecasting future time-series data values using a pretrained foundation model."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "language": "TypeScript",
+      "stars": 50856,
+      "forks": 7412,
+      "todayStars": 140,
+      "url": "https://github.com/twentyhq/twenty",
+      "aiSummary": {
+        "summary": "twenty 是 Salesforce 的开源替代品，专为 AI 设计。它允许技术团队通过代码定义对象、字段和视图，像构建其他应用一样构建、发布和版本控制 CRM。支持云端和自托管，提供对象、视图、工作流和代理等现代 CRM 构建模块。",
+        "summary_en": "An open-source CRM alternative to Salesforce designed for AI.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "CLI"
+        ],
+        "useCase": "需要高度可定制、基于代码的 CRM 解决方案的技术团队，特别是希望将 AI 功能集成到销售流程中的团队。",
+        "useCase_en": "A customizable, open-source CRM platform for technical teams to build custom business solutions."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "Kong/insomnia",
+      "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+      "language": "TypeScript",
+      "stars": 39321,
+      "forks": 2325,
+      "todayStars": 329,
+      "url": "https://github.com/Kong/insomnia",
+      "aiSummary": {
+        "summary": "Insomnia 是一款开源跨平台 API 客户端，支持 GraphQL、REST、WebSockets、SSE 和 gRPC 等多种协议。它集成了 API 设计、调试、测试、模拟以及 CI/CD 集成功能，支持本地、Git 和云端多种存储方式，方便团队协作与安全存储。",
+        "summary_en": "Cross-platform API client for debugging, testing, and designing REST, GraphQL, and gRPC APIs.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于开发人员调试 REST、GraphQL、gRPC 等多种 HTTP 协议接口及 API 设计测试。",
+        "useCase_en": "A tool for developers to design, debug, and test APIs across various protocols and environments."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "tw93/Pake",
+      "description": "🤱🏻 Turn any webpage into a desktop app with one command.",
+      "language": "Rust",
+      "stars": 54712,
+      "forks": 10873,
+      "todayStars": 2546,
+      "url": "https://github.com/tw93/Pake",
+      "aiSummary": {
+        "summary": "Pake 是一个基于 Rust 的开源工具，旨在将任意网页一键打包为轻量级桌面应用。利用 Tauri 框架，它体积小（约5M）、启动快且内存占用低，支持 macOS、Windows 和 Linux。提供丰富的自定义功能，如快捷键、窗口样式及广告移除，适合将 Web 应用转化为原生体验。",
+        "summary_en": "A Rust-based tool to turn any webpage into a lightweight desktop application with one command.",
+        "techStack": [
+          "Rust",
+          "Tauri"
+        ],
+        "useCase": "将常用网页（如 ChatGPT、YouTube）快速封装为跨平台桌面应用程序。",
+        "useCase_en": "Developers and users can convert web apps like ChatGPT or YouTube into native desktop applications."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "chopratejas/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "language": "Python",
+      "stars": 41827,
+      "forks": 2874,
+      "todayStars": 3795,
+      "url": "https://github.com/chopratejas/headroom",
+      "aiSummary": {
+        "summary": "Headroom 是一个 AI 代理的上下文压缩层，旨在减少 60-95% 的 token。它通过压缩工具输出、日志、RAG 块等数据，在 LLM 接收前进行处理，保持答案准确。支持库、代理、MCP 服务器等多种形式，具备可逆压缩和跨代理记忆功能。",
+        "summary_en": "Context compression layer for AI agents reducing tokens by 60-95% while maintaining accuracy.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "MCP"
+        ],
+        "useCase": "适用于需要处理大量上下文（如 RAG、日志）的 AI Agent 开发者，以降低成本并提高处理速度。",
+        "useCase_en": "Compress context for AI agents to reduce token usage by up to 95% without sacrificing accuracy."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "language": "TypeScript",
+      "stars": 31012,
+      "forks": 3834,
+      "todayStars": 145,
+      "url": "https://github.com/jamiepine/voicebox",
+      "aiSummary": {
+        "summary": "Voicebox 是一个本地优先的 AI 语音工作室，开源替代 ElevenLabs 和 WisprFlow。支持零样本声音克隆、23 种语言的语音生成及全局语音输入。所有模型和数据均在本地运行，保护隐私，提供丰富的语音效果和编辑功能。",
+        "summary_en": "Local-first AI voice studio for cloning, dictation, and speech generation.",
+        "techStack": [
+          "TypeScript",
+          "Whisper",
+          "Local LLM",
+          "Qwen3-TTS",
+          "LuxTTS"
+        ],
+        "useCase": "适合需要本地化、隐私保护且不想依赖云服务的语音合成、转换及 AI 代理配音场景。",
+        "useCase_en": "Clone voices and generate speech locally for privacy-focused applications."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "Kilo-Org/kilocode",
+      "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+      "language": "TypeScript",
+      "stars": 23343,
+      "forks": 2742,
+      "todayStars": 513,
+      "url": "https://github.com/Kilo-Org/kilocode",
+      "aiSummary": {
+        "summary": "Kilo Code 是一个开源的 AI 编程代理平台，支持 VS Code、JetBrains 和 CLI。它提供 500+ 种模型选择，支持任务中途切换，采用零加价的开放定价模式，无需 API 密钥即可开始使用，旨在帮助开发者更快地构建和迭代代码。",
+        "summary_en": "An open-source AI coding agent supporting VS Code, JetBrains, and CLI with 500+ models.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "VS Code",
+          "JetBrains"
+        ],
+        "useCase": "适用于希望在 VS Code、JetBrains 或 CLI 中使用 AI 辅助编写和审查代码的开发者。",
+        "useCase_en": "Automate coding tasks and code reviews using AI models directly in your IDE."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 138196,
+      "forks": 11992,
+      "todayStars": 1395,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个面向 AI 编程助手的技能集合，旨在帮助工程师进行“真正的工程”而非“氛围编码”。它包含一系列 Shell 脚本，通过 `/grill-me` 等命令解决 AI 与用户需求不一致的常见问题。项目强调技能的小巧、可组合性和易用性，支持自定义配置，帮助开发者建立标准化的开发工作流。",
+        "summary_en": "A collection of composable skills for AI coding agents to improve engineering workflows and alignment.",
+        "techStack": [
+          "Shell",
+          "Node.js",
+          "Claude Code"
+        ],
+        "useCase": "用于提升 AI 编程助手（如 Claude）的工程化能力，解决需求理解偏差，建立标准化的开发工作流。",
+        "useCase_en": "To fix common failure modes in AI coding agents by providing composable skills for alignment and issue tracking."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "withastro/flue",
+      "description": "The sandbox agent framework.",
+      "language": "TypeScript",
+      "stars": 6091,
+      "forks": 344,
+      "todayStars": 316,
+      "url": "https://github.com/withastro/flue",
+      "aiSummary": {
+        "summary": "Flue 是一个用于构建自主 AI 代理和强大工作流的沙盒代理框架。它提供内置的 TypeScript 工具，支持会话、工具、技能、文件系统访问和安全沙盒，使模型能够安全地执行复杂任务。开发者可通过 CLI 本地运行或部署代理。",
+        "summary_en": "A TypeScript framework for building autonomous agents with secure sandboxes and tool integration.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "AI/LLM"
+        ],
+        "useCase": "构建能够安全执行复杂任务、维护上下文并连接现有系统的自主 AI 代理。",
+        "useCase_en": "Create autonomous AI agents capable of complex workflows and system interactions using a TypeScript harness."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "owainlewis/awesome-artificial-intelligence",
+      "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+      "language": "",
+      "stars": 14776,
+      "forks": 2355,
+      "todayStars": 48,
+      "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+      "aiSummary": {
+        "summary": "这是一个精选的人工智能资源库，专注于AI工程（RAG、代理、部署）及最佳书籍、论文和工具。内容涵盖从基础理论到现代大模型应用，包含Chip Huyen等专家撰写的书籍及Google、Stanford等机构的课程，适合希望构建和部署AI系统的开发者。",
+        "summary_en": "A curated list of essential AI engineering resources, covering books, courses, and papers for building AI systems.",
+        "techStack": [
+          "AI",
+          "Machine Learning",
+          "Deep Learning",
+          "LLM",
+          "NLP"
+        ],
+        "useCase": "适合希望系统学习AI理论、掌握AI工程实践（如RAG、部署）并构建AI系统的开发者。",
+        "useCase_en": "A comprehensive guide for learning AI engineering, RAG, agents, and deploying production-ready AI systems."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "pppscn/SmsForwarder",
+      "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
+      "language": "Kotlin",
+      "stars": 26486,
+      "forks": 3273,
+      "todayStars": 104,
+      "url": "https://github.com/pppscn/SmsForwarder",
+      "aiSummary": {
+        "summary": "这是一个基于Kotlin开发的Android短信转发器，支持监控短信、来电和APP通知，并转发至钉钉、企业微信、飞书、邮箱等多种平台。具备远程控制功能，可查询短信、通话记录等。支持Android 4.4至13.0，适合需要多设备消息同步的用户。",
+        "summary_en": "An Android utility that monitors SMS, calls, and notifications, forwarding them to various platforms like DingTalk, WeChat, and Telegram.",
+        "techStack": [
+          "Kotlin",
+          "XUI",
+          "XXPermissions",
+          "AndServer",
+          "Socket通信"
+        ],
+        "useCase": "适合需要将手机消息同步至多平台或进行远程设备管理的用户。",
+        "useCase_en": "Automatically forward SMS, calls, and app notifications to platforms like DingTalk, WeChat, and Telegram for remote moni"
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "stars": 7392,
+      "forks": 827,
+      "todayStars": 87,
+      "url": "https://github.com/1jehuang/jcode",
+      "aiSummary": {
+        "summary": "jcode 是一个用 Rust 构建的下一代编码代理框架，专为多会话工作流设计。它以极致的性能和资源效率著称，内存占用远低于同类竞品，支持高度自定义，旨在提升开发者的技能上限。",
+        "summary_en": "A high-performance Rust-based coding agent harness designed for multi-session workflows and resource efficiency.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "适用于需要多会话并行开发、追求极致性能和低资源占用的编程场景。",
+        "useCase_en": "A tool for developers to run coding agents efficiently in multi-session workflows."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-21T00:20:54.410Z",
+    "duration": "473s",
+    "version": "1.0.0"
+  }
+}
