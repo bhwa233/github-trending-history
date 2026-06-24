@@ -1,0 +1,357 @@
+{
+  "date": "2026-06-23",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "stars": 15565,
+      "forks": 1849,
+      "todayStars": 3592,
+      "url": "https://github.com/calesthio/OpenMontage",
+      "aiSummary": {
+        "summary": "OpenMontage 是全球首个开源的代理视频制作系统，包含12条流水线和52个工具。用户只需用自然语言描述需求，系统即可自动完成从研究、脚本编写、素材生成到剪辑合成的全流程。它不仅能制作基于图像的视频，还能通过调用免费素材库和实际运动剪辑，生成具有真实动态效果的视频作品。",
+        "summary_en": "Open-source agentic video production system that transforms AI coding assistants into full video studios.",
+        "techStack": [
+          "Python",
+          "Remotion",
+          "AI Agents"
+        ],
+        "useCase": "将 AI 编码助手转化为视频制作工作室，用于自动化生成电影预告片、动画短片和产品广告。",
+        "useCase_en": "Automate video production workflows by describing concepts in plain language to generate cinematic content."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "stars": 47004,
+      "forks": 42367,
+      "todayStars": 1119,
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 LLM 驱动多市场股票智能分析系统，支持 A股、港股、美股等。它能聚合多源行情与新闻，生成 AI 决策报告，并自动推送至企业微信、飞书等平台。支持零成本 GitHub Actions 部署，适合个人投资者进行自动化选股与决策。",
+        "summary_en": "AI-driven multi-market stock analysis system with automated decision reports and multi-channel notifications.",
+        "techStack": [
+          "Python",
+          "LLM (OpenAI/Gemini/DeepSeek)",
+          "Data Sources (AkShare/Tushare/YFinance)",
+          "FastAPI",
+          "GitHub Actions"
+        ],
+        "useCase": "适合个人投资者进行多市场股票的自动化智能分析与决策辅助。",
+        "useCase_en": "Automate daily stock analysis and receive AI-generated decision dashboards via messaging apps."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "language": "Python",
+      "stars": 19653,
+      "forks": 2286,
+      "todayStars": 1041,
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "aiSummary": {
+        "summary": "该项目包含817个结构化的网络安全技能，遵循agentskills.io标准，并将技能映射到MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND、NIST AI RMF和MITRE F3六大框架。旨在为AI代理提供资深分析师级别的安全调查指导，支持Claude Code、GitHub Copilot等多种平台。",
+        "summary_en": "A structured library of 817 cybersecurity skills mapped to six frameworks for AI agents.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为AI代理提供资深分析师级别的网络安全调查指导。",
+        "useCase_en": "Provide AI agents with expert-level security guidance by mapping skills to six major cybersecurity frameworks."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "stars": 114039,
+      "forks": 16883,
+      "todayStars": 1011,
+      "url": "https://github.com/garrytan/gstack",
+      "aiSummary": {
+        "summary": "这是一个将 Claude Code 转化为虚拟工程团队的工具集，包含 23 个有偏见的工具，分别扮演 CEO、设计师、工程经理、发布经理、文档工程师和 QA 等角色。旨在通过 AI 辅助，让个人开发者以团队规模的速度交付产品，显著提升开发效率。",
+        "summary_en": "An opinionated toolset to configure Claude Code as a virtual engineering team.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code"
+        ],
+        "useCase": "个人开发者利用 AI 代理模拟团队协作，快速构建和交付产品。",
+        "useCase_en": "To configure Claude Code with 23 tools to act as a full-stack engineering team."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "bytedance/deer-flow",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "language": "Python",
+      "stars": 73882,
+      "forks": 9967,
+      "todayStars": 739,
+      "url": "https://github.com/bytedance/deer-flow",
+      "aiSummary": {
+        "summary": "DeerFlow 是字节跳动开源的 2.0 版本超级代理框架，通过编排子代理、沙箱、记忆和技能，实现复杂的长周期任务自动化。它支持研究、编码和内容创作，集成了搜索工具，能够高效处理从几分钟到几小时的工作流。",
+        "summary_en": "An open-source Python framework for building long-horizon AI agents that research, code, and execute complex tasks.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Claude Code",
+          "MCP Server",
+          "LangSmith"
+        ],
+        "useCase": "处理复杂的长周期研究、代码生成与自动化任务",
+        "useCase_en": "To orchestrate autonomous AI agents for complex, long-horizon tasks such as research and coding."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "stars": 59067,
+      "forks": 9282,
+      "todayStars": 294,
+      "url": "https://github.com/koala73/worldmonitor",
+      "aiSummary": {
+        "summary": "这是一个基于 TypeScript 的实时全球情报仪表盘。项目集成了 AI 新闻聚合、地缘政治监控和国家不稳定指数 (CII)。支持 3D/2D 双地图引擎、金融雷达及本地 AI (Ollama)。提供多站点变体和跨流信号相关性分析，支持桌面应用和多语言，旨在提供统一态势感知界面。",
+        "summary_en": "Real-time global intelligence dashboard aggregating AI news, geopolitical data, and financial markets via 3D mapping.",
+        "techStack": [
+          "TypeScript",
+          "Tauri 2",
+          "Ollama",
+          "globe.gl",
+          "deck.gl"
+        ],
+        "useCase": "全球地缘政治监控与实时情报分析",
+        "useCase_en": "Monitor global instability and market trends using AI-synthesized news and 3D visualization."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "palmier-io/palmier-pro",
+      "description": "macOS video editor built for AI",
+      "language": "Swift",
+      "stars": 8400,
+      "forks": 551,
+      "todayStars": 1630,
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "aiSummary": {
+        "summary": "Palmier Pro 是一款基于 Swift 开发的 macOS 视频编辑器，旨在将 AI 深度集成到创作工作流中。它允许用户与 AI 代理在时间轴上协作生成和编辑视频。内置了 Seedance、Kling 等先进生成式 AI 模型，支持通过 MCP 协议连接 Claude、Cursor 等工具。编辑器核心功能开源，但生成式 AI 处理需订阅。",
+        "summary_en": "Open-source macOS video editor built with Swift, featuring AI integration and agent collaboration via MCP.",
+        "techStack": [
+          "Swift",
+          "macOS",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "适合需要在 Mac 上利用 AI 代理辅助视频生成与编辑的专业创作者。",
+        "useCase_en": "Collaborate with AI agents to generate and edit videos directly on the timeline."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 30828,
+      "forks": 3358,
+      "todayStars": 77,
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "aiSummary": {
+        "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。包含内部及第三方插件，提供标准化的安装方式（如 /plugin install）和插件结构规范。用户可在此发现并安装插件，但需注意安全风险。",
+        "summary_en": "Official Anthropic-managed directory hosting high-quality plugins for Claude Code.",
+        "techStack": [
+          "Python",
+          "JSON"
+        ],
+        "useCase": "为 Claude Code 用户发现、安装和管理第三方插件。",
+        "useCase_en": "A centralized marketplace for discovering and installing plugins to enhance Claude Code functionality."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "shanraisshan/claude-code-best-practice",
+      "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+      "language": "HTML",
+      "stars": 59415,
+      "forks": 5980,
+      "todayStars": 344,
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "aiSummary": {
+        "summary": "这是一个关于 Claude Code 最佳实践的项目，旨在帮助开发者从“氛围编码”转向“代理工程”。项目详细展示了如何配置子代理、命令、技能、工作流、钩子、MCP 服务器和插件等高级功能，并提供了代码审查、自动模式等热门功能的实践指南。",
+        "summary_en": "A repository of best practices, agents, and workflows for mastering Claude Code.",
+        "techStack": [
+          "HTML",
+          "Claude Code"
+        ],
+        "useCase": "适用于希望深入掌握 Claude Code 高级配置、构建自动化开发工作流及提升 AI 编程效率的开发者。",
+        "useCase_en": "A repository of best practices and templates for mastering Claude Code's agentic capabilities."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "language": "HTML",
+      "stars": 7433,
+      "forks": 1045,
+      "todayStars": 128,
+      "url": "https://github.com/revfactory/harness",
+      "aiSummary": {
+        "summary": "Harness 是一个为 Claude Code 设计特定领域代理团队的元技能。它通过自然语言指令自动生成代理定义和技能，支持流水线、专家池等六种团队架构模式，帮助用户快速构建复杂的 AI 代理协作系统。",
+        "summary_en": "A meta-skill that designs domain-specific agent teams and generates skills using six pre-defined architectural patterns for Claude Code.",
+        "techStack": [
+          "HTML",
+          "Claude Code"
+        ],
+        "useCase": "为 Claude Code 项目快速构建自动化代理团队和技能。",
+        "useCase_en": "Automatically generates specialized agent teams and skills to decompose complex tasks into coordinated workflows using p"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "language": "TypeScript",
+      "stars": 33113,
+      "forks": 3995,
+      "todayStars": 1045,
+      "url": "https://github.com/jamiepine/voicebox",
+      "aiSummary": {
+        "summary": "Voicebox 是一个本地优先的 AI 声音工作室，开源替代 ElevenLabs 和 WisprFlow。它支持零样本声音克隆、23种语言的7种TTS引擎语音合成、全局热键听写以及与 AI 代理集成。所有模型和数据均在本地运行，保护隐私，支持多轨故事编辑和丰富的语音效果。",
+        "summary_en": "An open-source local-first AI voice studio for cloning voices and generating speech.",
+        "techStack": [
+          "TypeScript",
+          "Qwen3-TTS",
+          "LuxTTS",
+          "Whisper",
+          "HumeAI TADA"
+        ],
+        "useCase": "适合需要本地化、高隐私的语音克隆、多语言 TTS 生成及 AI 语音交互的用户。",
+        "useCase_en": "Generate speech and clone voices locally without uploading data to the cloud."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "JCodesMore/ai-website-cloner-template",
+      "description": "Clone any website with one command using AI coding agents",
+      "language": "TypeScript",
+      "stars": 18527,
+      "forks": 2801,
+      "todayStars": 826,
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "aiSummary": {
+        "summary": "这是一个基于 Next.js 的可重用模板，利用 AI 编码代理（推荐 Claude Code）通过一条命令自动反向工程并克隆任何网站。它能提取设计令牌、资产和组件规范，生成现代化的代码库，极大地加速了前端开发流程。",
+        "summary_en": "A reusable template for reverse-engineering websites into Next.js codebases using AI coding agents.",
+        "techStack": [
+          "TypeScript",
+          "Next.js",
+          "Claude Code"
+        ],
+        "useCase": "快速将任意网站的设计转化为可用的 Next.js 代码，利用 AI 自动化前端重构与开发。",
+        "useCase_en": "Automate the process of recreating website designs into modern codebases using AI agents."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "byoungd/English-level-up-tips",
+      "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 人生进阶指南 离谱的人生 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+      "language": "",
+      "stars": 54486,
+      "forks": 5584,
+      "todayStars": 125,
+      "url": "https://github.com/byoungd/English-level-up-tips",
+      "aiSummary": {
+        "summary": "这是一个结合个人经验与科学依据的高级英语学习指南。项目重点更新了2026版AI章节，推荐使用Gemini作为学习主引擎，并详细介绍了AI辅助学习的方法。此外，还整合了token.love和ku0.com等AI资源。旨在帮助用户通过AI技术高效、自然地掌握英语，开启语言学习的奇妙冒险。",
+        "summary_en": "An advanced English learning guide utilizing AI tools like Gemini and token.love for efficient language mastery.",
+        "techStack": [
+          "Markdown",
+          "HTML",
+          "AI Models (Gemini)",
+          "OpenAI Compatible API"
+        ],
+        "useCase": "适合希望利用AI技术辅助英语学习、掌握高效进阶方法的用户。",
+        "useCase_en": "A comprehensive guide for English learners to leverage AI tools like Gemini for efficient language acquisition."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "stars": 12860,
+      "forks": 933,
+      "todayStars": 1300,
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "aiSummary": {
+        "summary": "这是一个高性能的代码智能 MCP 服务器，使用 C 语言编写。它通过树-sitter AST 分析和混合 LSP 语义解析，将代码库索引为持久知识图谱。支持 158 种语言，平均仓库毫秒级索引，Linux 内核 3 分钟。提供 14 个 MCP 工具，单静态二进制零依赖，内置 3D 可视化，确保代码 100% 本地处理，安全高效。",
+        "summary_en": "High-performance MCP server indexing codebases into a persistent knowledge graph for AI agents.",
+        "techStack": [
+          "C",
+          "Tree-sitter",
+          "LSP",
+          "SQLite",
+          "MCP"
+        ],
+        "useCase": "适用于 AI 编码助手进行快速、精准的代码库导航与结构分析，特别是处理大型代码库时。",
+        "useCase_en": "To enable AI coding agents to explore and understand large codebases locally with high performance and low token usage."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 200905,
+      "forks": 35833,
+      "todayStars": 936,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "这是一个由 Nous Research 构建的自我改进 AI 智能体。它具备内置的学习循环，能从经验中创建技能并优化记忆。支持跨平台（Telegram、CLI 等）交互，兼容多种大模型，并具备自动化任务、并行子代理及灵活的部署能力，旨在成为伴随用户成长的智能助手。",
+        "summary_en": "A self-improving AI agent featuring a closed learning loop, memory management, and multi-platform integration.",
+        "techStack": [
+          "Python",
+          "LLM 集成",
+          "数据库",
+          "TUI"
+        ],
+        "useCase": "适合需要长期记忆、自动化工作流和多平台交互的 AI 助手用户。",
+        "useCase_en": "Deploy a persistent, self-improving AI assistant that manages memory and automations across various communication platfo"
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 220518,
+      "forks": 33780,
+      "todayStars": 593,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个跨 AI 代理工具（如 Claude Code, Cursor）的性能优化系统。它提供技能、记忆、安全扫描和持续学习功能，旨在提升代理工具的效率和可用性。支持多平台工作流，包含钩子、规则和配置，适合需要管理复杂 AI 代理工作流的开发者。",
+        "summary_en": "A high-performance optimization system for AI agent harnesses like Cursor and Claude Code, featuring skills, memory, and security.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "MCP",
+          "Git"
+        ],
+        "useCase": "优化 AI 代理工具（如 Cursor, Claude Code）的工作流，提升开发效率与安全性。",
+        "useCase_en": "Enhance the performance and capabilities of AI coding assistants like Cursor and Claude Code through a unified optimizat"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-24T00:09:28.115Z",
+    "duration": "423s",
+    "version": "1.0.0"
+  }
+}
