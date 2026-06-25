@@ -1,0 +1,290 @@
+{
+  "date": "2026-06-24",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "stars": 19306,
+      "forks": 2197,
+      "todayStars": 3719,
+      "url": "https://github.com/calesthio/OpenMontage",
+      "aiSummary": {
+        "summary": "这是一个开源的代理驱动视频制作系统，拥有12条流水线和500+代理技能。它将AI编程助手转化为全功能视频工作室，能自动处理研究、脚本、资产生成、剪辑和合成。不仅能制作基于图像的视频，还能利用免费素材制作真实视频。",
+        "summary_en": "Open-source agentic video production system that automates video creation using AI agents and Remotion.",
+        "techStack": [
+          "Python",
+          "Remotion",
+          "AI Video Models (Veo/Kling)",
+          "WhisperX"
+        ],
+        "useCase": "将AI编程助手转化为全功能视频制作工作室，适用于自动化生成影视预告片、动画短片及产品广告。",
+        "useCase_en": "Automate the entire video production workflow from concept to final render using AI agents."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "stars": 48461,
+      "forks": 42948,
+      "todayStars": 1468,
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 LLM 驱动多市场股票智能分析系统。支持 A股、港股、美股等数据聚合，提供 AI 决策报告、实时新闻分析及决策看板。支持通过 GitHub Actions 零成本部署，并能自动推送分析结果到企业微信、飞书等主流平台，辅助用户进行自动化投资决策。",
+        "summary_en": "LLM-driven multi-market stock analysis system with automated decision dashboards and real-time news aggregation.",
+        "techStack": [
+          "Python",
+          "LLM (OpenAI/DeepSeek/Claude/Ollama)",
+          "Data Sources (AkShare/Tushare/YFinance)",
+          "Notification (企业微信/飞书/Telegram)",
+          "Deployment (GitHub Actions/Docker)"
+        ],
+        "useCase": "适合需要自动化股票分析、多市场监控及智能决策推送的个人投资者或量化团队。",
+        "useCase_en": "Automate daily stock analysis across multiple markets using AI and receive decision reports via messaging platforms."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "language": "Swift",
+      "stars": 42196,
+      "forks": 1239,
+      "todayStars": 1838,
+      "url": "https://github.com/apple/container",
+      "aiSummary": {
+        "summary": "这是一个用 Swift 编写的工具，用于在 Mac 上通过轻量级虚拟机创建和运行 Linux 容器。它针对 Apple Silicon 进行了优化，支持 OCI 兼容的容器镜像，允许用户从标准注册表拉取和推送镜像。它依赖于 Containerization Swift 包进行底层管理。",
+        "summary_en": "A Swift tool for creating and running Linux containers as lightweight virtual machines on Apple Silicon Macs.",
+        "techStack": [
+          "Swift",
+          "Apple Silicon",
+          "OCI",
+          "Containerization Swift package"
+        ],
+        "useCase": "在 Apple Silicon Mac 上运行 Linux 容器",
+        "useCase_en": "Developers can run Linux containers as lightweight virtual machines on Apple Silicon Macs."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "interviewstreet/hiring-agent",
+      "description": "AI agent to evaluate and score resumes.",
+      "language": "Python",
+      "stars": 2142,
+      "forks": 595,
+      "todayStars": 203,
+      "url": "https://github.com/interviewstreet/hiring-agent",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 AI 简历评估 Agent。它通过 PyMuPDF 解析 PDF 简历，利用 LLM（支持 Ollama 或 Gemini）提取结构化数据，并结合 GitHub 账号信号进行增强。最终输出包含分数、证据和加减分的客观评估报告，旨在实现公平透明的招聘筛选。",
+        "summary_en": "AI agent for parsing resumes, enriching with GitHub data, and scoring candidates using LLMs.",
+        "techStack": [
+          "Python",
+          "PyMuPDF",
+          "LLM (Ollama/Google Gemini)",
+          "GitHub API",
+          "Jinja2"
+        ],
+        "useCase": "自动化简历筛选与候选人 GitHub 活动评估",
+        "useCase_en": "Automate resume screening by parsing PDFs, enriching with GitHub signals, and generating objective candidate scores."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "JCodesMore/ai-website-cloner-template",
+      "description": "Clone any website with one command using AI coding agents",
+      "language": "TypeScript",
+      "stars": 19285,
+      "forks": 2881,
+      "todayStars": 692,
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "aiSummary": {
+        "summary": "这是一个基于 TypeScript 的 Next.js 模板，旨在通过 AI 编码代理一键克隆任何网站。用户只需指定 URL 并运行命令，AI 代理即可自动分析网站设计、提取资源并生成现代化的前端代码。推荐使用 Claude Code，但也支持其他代理工具。",
+        "summary_en": "A reusable template for reverse-engineering websites into Next.js codebases using AI coding agents.",
+        "techStack": [
+          "TypeScript",
+          "Next.js",
+          "Claude Code"
+        ],
+        "useCase": "快速将任意网页转化为可定制的 Next.js 代码库。",
+        "useCase_en": "Clone any website into a clean Next.js codebase using AI coding agents."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "language": "HTML",
+      "stars": 7718,
+      "forks": 1054,
+      "todayStars": 277,
+      "url": "https://github.com/revfactory/harness",
+      "aiSummary": {
+        "summary": "Harness 是一个为 Claude Code 设计的团队架构工厂。它利用 Claude Code 的代理团队系统，将复杂的域描述自动分解为协调的代理团队。它支持 6 种预定义的团队架构模式（如流水线、专家池等），并自动生成专门的代理定义和技能，帮助用户快速构建专业的 AI 代理团队。",
+        "summary_en": "Harness is a team-architecture factory for Claude Code that generates agent teams and skills based on domain descriptions.",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "用于将自然语言描述转化为结构化的 Claude Code 代理团队架构和技能。",
+        "useCase_en": "Automatically decompose complex tasks into coordinated teams of specialized agents for Claude Code projects."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "flutter/flutter",
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "language": "Dart",
+      "stars": 177289,
+      "forks": 30545,
+      "todayStars": 73,
+      "url": "https://github.com/flutter/flutter",
+      "aiSummary": {
+        "summary": "Flutter 是 Google 的开源 UI 工具包，使用 Dart 语言。它允许开发者使用单一代码库构建高性能、美观的移动、Web 和桌面应用。其硬件加速渲染和丰富的组件库使其成为跨平台开发的理想选择。",
+        "summary_en": "Google's open-source SDK for building beautiful, fast user experiences for mobile, web, and desktop from a single codebase.",
+        "techStack": [
+          "Dart"
+        ],
+        "useCase": "适用于构建高性能、跨平台的移动端、Web 及桌面应用程序。",
+        "useCase_en": "Creating beautiful, fast, and pixel-perfect applications for mobile, web, and desktop from a single codebase."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "andreknieriem/headunit-revived",
+      "description": "Headunit App for displaying Android Auto",
+      "language": "Kotlin",
+      "stars": 1411,
+      "forks": 112,
+      "todayStars": 41,
+      "url": "https://github.com/andreknieriem/headunit-revived",
+      "aiSummary": {
+        "summary": "这是一个将 Android 平板或手机转换为 Android Auto 接收器的应用。项目支持有线及无线连接（含 Helper 模式），允许用户在车载屏幕上使用 Android Auto。基于 Kotlin 开发，旨在为车载系统提供原生的 Android Auto 体验。",
+        "summary_en": "A Kotlin-based Android application that transforms your tablet or phone into an Android Auto receiver for in-car use.",
+        "techStack": [
+          "Kotlin",
+          "Android"
+        ],
+        "useCase": "将 Android 设备改造为车载 Android Auto 接收器。",
+        "useCase_en": "To turn an Android tablet or phone into a head unit capable of displaying Android Auto."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "stablyai/orca",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "language": "TypeScript",
+      "stars": 6758,
+      "forks": 490,
+      "todayStars": 331,
+      "url": "https://github.com/stablyai/orca",
+      "aiSummary": {
+        "summary": "Orca 是一个 AI 编排器，旨在帮助开发者高效管理多个 AI 编码代理。它支持并行工作树，允许同时运行 Codex、Claude 等多个代理进行代码生成和对比。此外，它提供移动端伴侣、终端分割、GitHub/Linear 集成以及 SSH 支持，旨在通过统一界面提升开发者的生产力。",
+        "summary_en": "Orca is an AI orchestrator for managing parallel coding agents with worktrees and mobile access.",
+        "techStack": [
+          "TypeScript",
+          "WebGL",
+          "Chromium",
+          "Electron"
+        ],
+        "useCase": "专为需要并行运行多个 AI 编码代理进行高效协作和代码生成的开发者设计。",
+        "useCase_en": "Orchestrate multiple AI coding agents in parallel worktrees to compare outputs and manage development workflows."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "google-labs-code/design.md",
+      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "language": "TypeScript",
+      "stars": 17306,
+      "forks": 1567,
+      "todayStars": 619,
+      "url": "https://github.com/google-labs-code/design.md",
+      "aiSummary": {
+        "summary": "这是一个为编码代理定义的视觉身份格式规范，旨在提供持久、结构化的设计系统理解。它结合了机器可读的 YAML 令牌与人类可读的 Markdown 理由。Google 提供了 lint 工具来验证设计文件、检查 WCAG 对比度，确保 AI 代理能准确生成符合设计意图的 UI。",
+        "summary_en": "A TypeScript specification for encoding visual identity and design tokens for coding agents.",
+        "techStack": [
+          "TypeScript",
+          "YAML",
+          "Markdown"
+        ],
+        "useCase": "用于 AI 编码代理理解设计系统，生成符合视觉规范的代码。",
+        "useCase_en": "It provides a structured format for coding agents to understand and implement design systems."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Flowseal/zapret-discord-youtube",
+      "description": "",
+      "language": "Batchfile",
+      "stars": 30025,
+      "forks": 2341,
+      "todayStars": 61,
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "aiSummary": {
+        "summary": "这是一个基于 Batchfile 的 Windows 工具，旨在绕过网络审查（如 Discord 和 YouTube 的封锁）。它利用 WinDivert 驱动程序拦截和过滤网络流量。项目提醒用户注意杀毒软件可能将其误报为病毒，并提供了启用 Secure DNS 的配置指南。",
+        "summary_en": "Windows batch script to bypass censorship on Discord and YouTube using WinDivert.",
+        "techStack": [
+          "Batchfile",
+          "WinDivert",
+          "Windows"
+        ],
+        "useCase": "在 Windows 系统上绕过网络审查或封锁",
+        "useCase_en": "To bypass internet censorship and access blocked services like Discord and YouTube."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "kunchenguid/no-mistakes",
+      "description": "git push no-mistakes",
+      "language": "Go",
+      "stars": 2075,
+      "forks": 142,
+      "todayStars": 110,
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "aiSummary": {
+        "summary": "这是一个 Go 语言编写的本地 git 代理工具。它拦截 git push 操作，在隔离的工作树中运行 AI 驱动的验证管道（包括代码审查、测试、文档、Lint 等）。只有所有检查通过后，才会将代码推送到真实远程仓库并自动打开 PR。它支持多种 AI 代理，提供非阻塞的代码质量保障。",
+        "summary_en": "A Go-based local git proxy that validates code with AI before pushing to the remote and opening a clean PR.",
+        "techStack": [
+          "Go",
+          "Git"
+        ],
+        "useCase": "适用于希望在推送代码前自动进行代码审查、测试和修复，确保代码质量并自动生成 PR 的开发者。",
+        "useCase_en": "Automate code validation and PR creation to ensure clean commits before pushing to the remote repository."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 202035,
+      "forks": 36111,
+      "todayStars": 1178,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "Hermes Agent 是一个具备自我改进能力的 AI 代理，内置学习循环，能从经验中创建和优化技能，并建立跨会话的用户模型。支持多平台（Telegram、Discord 等）接入，提供全功能 TUI 界面及自动化调度，适合需要长期记忆和复杂任务处理的用户。",
+        "summary_en": "A self-improving AI agent featuring a closed learning loop, memory management, and multi-platform integration.",
+        "techStack": [
+          "Python",
+          "LLM (OpenAI/NVIDIA)",
+          "RPC",
+          "TUI",
+          "Cron"
+        ],
+        "useCase": "适合需要长期记忆、自动化任务处理及多平台交互的个人助理或开发者。",
+        "useCase_en": "Deploy a persistent, self-learning AI assistant that integrates with chat apps and automates tasks."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-25T00:20:46.265Z",
+    "duration": "223s",
+    "version": "1.0.0"
+  }
+}
