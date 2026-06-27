@@ -1,0 +1,368 @@
+{
+  "date": "2026-06-26",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "simplex-chat/simplex-chat",
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "language": "Haskell",
+      "stars": 12532,
+      "forks": 709,
+      "todayStars": 432,
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "aiSummary": {
+        "summary": "SimpleX Chat 是一个基于 Haskell 开发的首个无需任何用户标识符的即时通讯网络，主打 100% 隐私保护。采用双重 ratchet 端到端加密，支持 iOS、Android、Linux、macOS 和 Windows 多平台，提供移动端 App 和终端 CLI 工具。",
+        "summary_en": "SimpleX is a privacy-first messaging network built with Haskell that operates without user identifiers, featuring end-to-end encryption.",
+        "techStack": [
+          "Haskell"
+        ],
+        "useCase": "需要高度隐私保护、无需暴露个人身份信息的即时通讯场景。",
+        "useCase_en": "A private messaging network for iOS, Android, and desktop that protects metadata and messages without user IDs."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "google-labs-code/design.md",
+      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "language": "TypeScript",
+      "stars": 21229,
+      "forks": 1720,
+      "todayStars": 2407,
+      "url": "https://github.com/google-labs-code/design.md",
+      "aiSummary": {
+        "summary": "这是一个面向编码代理的视觉身份描述格式规范。它结合了机器可读的 YAML 设计令牌与人类可读的 Markdown 设计理由，为 AI 代理提供设计系统的持久化结构化理解。项目包含验证工具，可检查令牌引用及 WCAG 对比度，确保设计规范准确无误。",
+        "summary_en": "A format specification enabling coding agents to understand design systems via YAML and Markdown.",
+        "techStack": [
+          "TypeScript",
+          "YAML",
+          "Markdown",
+          "Node.js"
+        ],
+        "useCase": "为 AI 编码代理提供结构化的设计系统规范，辅助生成符合设计要求的前端代码。",
+        "useCase_en": "It provides a structured format for coding agents to understand and implement design systems."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "commaai/openpilot",
+      "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "language": "Python",
+      "stars": 61775,
+      "forks": 11047,
+      "todayStars": 80,
+      "url": "https://github.com/commaai/openpilot",
+      "aiSummary": {
+        "summary": "openpilot 是一个开源的驾驶员辅助系统，旨在升级 300 多种支持汽车的自动驾驶功能。它遵循 ISO26262 安全标准，拥有活跃的社区和完善的测试流程，支持在 comma four 硬件上运行。",
+        "summary_en": "An open-source driver assistance system upgrade for 300+ supported vehicles.",
+        "techStack": [
+          "Python",
+          "Panda",
+          "comma four"
+        ],
+        "useCase": "为支持的汽车升级驾驶员辅助系统",
+        "useCase_en": "To upgrade the driver assistance system on 300+ supported cars."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "kunchenguid/no-mistakes",
+      "description": "git push no-mistakes",
+      "language": "Go",
+      "stars": 3415,
+      "forks": 205,
+      "todayStars": 398,
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "aiSummary": {
+        "summary": "这是一个 Go 语言编写的本地 Git 代理工具，旨在通过 AI 驱动的验证管道防止代码错误。它拦截推送操作，在隔离的工作树中运行测试、代码审查和 Lint，仅在所有检查通过后才将代码推送到远程仓库并自动创建 PR。支持多种 AI 代理，提供安全自动修复和人工审核机制，确保提交质量。",
+        "summary_en": "A Go-based local git proxy that uses AI-driven validation to ensure clean PRs before pushing to the real remote.",
+        "techStack": [
+          "Go",
+          "Git",
+          "AI Agents (Claude/Copilot)"
+        ],
+        "useCase": "需要自动化代码质量检查、防止错误提交并自动生成 PR 的开发者或团队。",
+        "useCase_en": "Developers use this tool to ensure code quality and clean PRs by validating changes via AI before merging."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "grafana/grafana",
+      "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.",
+      "language": "TypeScript",
+      "stars": 74891,
+      "forks": 14125,
+      "todayStars": 32,
+      "url": "https://github.com/grafana/grafana",
+      "aiSummary": {
+        "summary": "Grafana 是一个开源的可观测性和数据可视化平台。它支持从 Prometheus、Loki、Elasticsearch 等多种数据源查询、可视化、告警和分析指标、日志及追踪。用户可创建动态仪表板，混合使用数据源，并设置告警通知，帮助团队建立数据驱动的监控文化。",
+        "summary_en": "Open-source observability platform for visualizing metrics, logs, and traces from various data sources.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要统一监控、日志分析和可视化告警的 DevOps 和 SRE 团队。",
+        "useCase_en": "A platform for monitoring and observability that allows users to visualize metrics, logs, and traces from various data s"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "language": "HTML",
+      "stars": 123724,
+      "forks": 13051,
+      "todayStars": 90,
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "aiSummary": {
+        "summary": "这是一个收集各种 SaaS、PaaS 和 IaaS 免费层级服务的清单，专门面向 DevOps 和基础设施开发者。项目由社区维护，列出了包括云服务、监控、代码质量工具等在内的众多服务。入选标准严格，要求必须是即服务且提供长期免费层级，而非试用。开发者可以借此快速了解并选择适合的免费开发工具。",
+        "summary_en": "A curated directory of SaaS, PaaS, and IaaS services offering free developer tiers for DevOps and infrastructure teams.",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "帮助 DevOps 和开发者寻找、评估具有免费层级的云服务及开发工具。",
+        "useCase_en": "Helps developers and DevOps engineers discover and compare free tiers of SaaS, PaaS, and IaaS offerings."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "opendatalab/MinerU",
+      "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+      "language": "Python",
+      "stars": 70406,
+      "forks": 5939,
+      "todayStars": 960,
+      "url": "https://github.com/opendatalab/MinerU",
+      "aiSummary": {
+        "summary": "MinerU 是一个高精度文档解析引擎，支持 PDF、Office 文档及图片转换为 LLM 就绪的 Markdown/JSON。采用 VLM+OCR 双引擎，支持 109 种语言及复杂布局处理。提供 MCP Server、LangChain 等集成，支持国内 AI 芯片及私有化部署，专为 RAG、Agent 工作流设计。",
+        "summary_en": "High-accuracy document parsing engine converting complex documents into LLM-ready markdown and JSON for RAG and Agent workflows.",
+        "techStack": [
+          "Python",
+          "OCR",
+          "LangChain",
+          "MCP",
+          "Docker"
+        ],
+        "useCase": "适用于构建基于 LLM 的 RAG 系统、智能 Agent 工作流及文档数字化处理。",
+        "useCase_en": "Transform complex documents into structured Markdown/JSON for LLM and Agent workflows."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "alchaincyf/zhangxuefeng-skill",
+      "description": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+      "language": "",
+      "stars": 9244,
+      "forks": 2561,
+      "todayStars": 160,
+      "url": "https://github.com/alchaincyf/zhangxuefeng-skill",
+      "aiSummary": {
+        "summary": "这是一个基于张雪峰实战思维框架的AI技能包，专注于高考志愿、考研及职业规划。通过就业倒推法、家庭背景分流等核心模型，提供基于现实考量的决策建议。",
+        "summary_en": "An AI skill simulating Zhang Xuefeng's pragmatic advice on education and career planning.",
+        "techStack": [
+          "未知"
+        ],
+        "useCase": "高考志愿填报、考研择校及职业规划咨询",
+        "useCase_en": "Users interact with an AI persona to get pragmatic advice on education and career planning."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "mauriceboe/TREK",
+      "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
+      "language": "TypeScript",
+      "stars": 7647,
+      "forks": 647,
+      "todayStars": 1060,
+      "url": "https://github.com/mauriceboe/TREK",
+      "aiSummary": {
+        "summary": "TREK 是一个自托管的旅行规划工具，支持拖放行程安排、交互式地图（Leaflet/Mapbox）、天气查询和路线优化。它具备实时协作功能，支持多人共同编辑行程、管理预算、预订和打包清单。项目支持 PWA 和离线使用，并集成了 SSO、2FA 和 Passkeys 等安全功能，适合团队或个人规划长途旅行。",
+        "summary_en": "A self-hosted travel planner offering drag-and-drop itineraries, real-time collaboration, and PWA support.",
+        "techStack": [
+          "TypeScript",
+          "Leaflet/Mapbox",
+          "Open-Meteo",
+          "Workbox",
+          "WebSocket"
+        ],
+        "useCase": "适合团队或个人进行长途旅行的行程规划、预算管理及实时协作。",
+        "useCase_en": "Plan and organize complex travel itineraries collaboratively with friends."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "xbtlin/ai-berkshire",
+      "description": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "language": "Python",
+      "stars": 3101,
+      "forks": 456,
+      "todayStars": 1274,
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "aiSummary": {
+        "summary": "基于 Claude Code 的价值投资研究框架，整合巴菲特、芒格、段永平、李录四位大师方法论。通过多 Agent 并行对抗分析，强制输出明确结论，内置反偏见机制与金融数据精确校验，旨在解决 AI 分析质量与决策纪律问题，实盘验证超额收益显著。",
+        "summary_en": "A Python-based value investing framework utilizing Claude Code and multi-agent adversarial analysis to emulate the strategies of Buffett, Munger, Duan, and Li Lu.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "Python Decimal"
+        ],
+        "useCase": "适合个人投资者进行深度价值投资研究和决策辅助，构建个人投研团队。",
+        "useCase_en": "Conduct rigorous, multi-perspective stock analysis to determine investment decisions based on value investing principles"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "stars": 23592,
+      "forks": 2618,
+      "todayStars": 1754,
+      "url": "https://github.com/calesthio/OpenMontage",
+      "aiSummary": {
+        "summary": "OpenMontage是全球首个开源代理驱动视频制作系统，拥有12条流水线和500+技能。它将AI编程助手升级为视频工作室，支持从脚本、素材生成到剪辑渲染的全流程自动化，不仅能制作动画，还能利用真实素材库制作高质量视频。",
+        "summary_en": "Open-source agentic video production system with 12 pipelines and 500+ skills to turn AI coding assistants into video studios.",
+        "techStack": [
+          "Python",
+          "Remotion",
+          "OpenAI",
+          "WhisperX"
+        ],
+        "useCase": "将AI编程助手转化为全自动视频制作工作室，适用于影视制作、广告宣传及创意短片生成。",
+        "useCase_en": "Turn your AI coding assistant into a full video production studio by describing what you want in plain language."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "aws/agent-toolkit-for-aws",
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "language": "Python",
+      "stars": 1347,
+      "forks": 121,
+      "todayStars": 243,
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "aiSummary": {
+        "summary": "AWS 官方支持的 MCP 服务器和插件集合，旨在帮助 AI 编码代理在 AWS 上构建、部署和管理应用。提供核心服务、AI 代理构建、数据分析及 DevSecOps 等插件，兼容 Claude Code、Codex 和 Cursor，为 AI 代理提供必要的工具、知识和安全护栏。",
+        "summary_en": "Official AWS toolkit providing MCP servers and plugins for AI coding agents to build on AWS.",
+        "techStack": [
+          "Python",
+          "AWS",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "为 AI 编码代理提供在 AWS 上构建、部署和管理应用的工具与知识。",
+        "useCase_en": "To enable AI coding agents to securely build, deploy, and manage AWS applications using official plugins and guardrails."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "stars": 53342,
+      "forks": 10974,
+      "todayStars": 673,
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "aiSummary": {
+        "summary": "MediaCrawler 是一个功能强大的多平台自媒体数据采集工具，支持小红书、抖音、B站等主流平台。基于 Playwright 浏览器自动化技术，无需 JS 逆向即可获取签名参数，支持登录态缓存、IP代理池及评论词云生成，适合学习爬虫架构与数据采集。",
+        "summary_en": "A multi-platform web crawler for Chinese social media platforms like Xiaohongshu, Douyin, and Bilibili using browser automation.",
+        "techStack": [
+          "Python",
+          "Playwright",
+          "Node.js",
+          "Chrome DevTools Protocol"
+        ],
+        "useCase": "适用于学习多平台数据采集技术、研究浏览器自动化及构建自媒体数据分析工具。",
+        "useCase_en": "Collects public information and comments from major Chinese social media platforms for research purposes."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "stars": 116620,
+      "forks": 17306,
+      "todayStars": 950,
+      "url": "https://github.com/garrytan/gstack",
+      "aiSummary": {
+        "summary": "gstack 是一个基于 Claude Code 的 AI 工具集，包含 23 个预设角色，模拟 CEO、设计师、工程经理等团队职能，旨在帮助个人开发者像团队一样高效交付产品，减少 AI 生成内容的错误。",
+        "summary_en": "A TypeScript setup that turns Claude Code into a virtual engineering team using 23 opinionated AI tools.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code"
+        ],
+        "useCase": "适合个人开发者或小团队利用 AI 代理自动化开发流程、架构设计及质量检查，以提升交付速度。",
+        "useCase_en": "To replicate Garry Tan's workflow by turning Claude Code into a virtual engineering team with 23 tools."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "IceWhaleTech/CasaOS",
+      "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+      "language": "Go",
+      "stars": 35362,
+      "forks": 2026,
+      "todayStars": 619,
+      "url": "https://github.com/IceWhaleTech/CasaOS",
+      "aiSummary": {
+        "summary": "CasaOS 是一个简单易用的开源个人云系统。它支持多种硬件（如树莓派、NUC），提供友好的用户界面和文件管理。用户可以通过应用商店一键安装 Docker 应用，构建个人数据中心，实现数据协作与智能设备控制。",
+        "summary_en": "CasaOS is an open-source personal cloud system designed for home scenarios, featuring a user-friendly interface and Docker app management.",
+        "techStack": [
+          "Go",
+          "Docker"
+        ],
+        "useCase": "适合家庭用户或小团队搭建低成本、易管理的个人数据中心及私有云环境。",
+        "useCase_en": "To provide a simple, low-cost personal cloud system for managing files and smart devices at home."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "JCodesMore/ai-website-cloner-template",
+      "description": "Clone any website with one command using AI coding agents",
+      "language": "TypeScript",
+      "stars": 21352,
+      "forks": 3096,
+      "todayStars": 1088,
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "aiSummary": {
+        "summary": "这是一个基于 Next.js 的可重用模板，利用 AI 编码代理（如 Claude Code）通过单一命令克隆任何网站。它能自动提取设计令牌、资产和组件规范，并行重建页面，实现快速网站逆向工程与原型设计。",
+        "summary_en": "A reusable template for reverse-engineering websites into Next.js codebases using AI coding agents.",
+        "techStack": [
+          "TypeScript",
+          "Next.js",
+          "AI Coding Agents (Claude Code, Codex CLI)"
+        ],
+        "useCase": "快速网站克隆、逆向工程与原型设计",
+        "useCase_en": "Clone any website into a modern Next.js codebase automatically using AI coding agents."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars": 42330,
+      "forks": 3361,
+      "todayStars": 1194,
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "aiSummary": {
+        "summary": "Agent-Reach 是一个 Python 项目，旨在赋予 AI Agent 访问互联网的能力。它通过 CLI 工具支持 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等主流平台，无需付费 API。项目提供一键安装和更新，具备隐私安全、多后端路由和兼容性等特点，帮助 Agent 轻松获取全网信息。",
+        "summary_en": "A Python CLI tool that equips AI agents with internet capabilities to read social media and search the web without API fees.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "MCP"
+        ],
+        "useCase": "适用于需要联网能力的 AI Agent（如 Claude Code、Cursor），用于全网搜索、阅读社交媒体内容、抓取视频字幕及网页信息。",
+        "useCase_en": "Enable AI agents to browse the web and read social media content like Twitter and YouTube without API keys."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-27T00:18:14.529Z",
+    "duration": "320s",
+    "version": "1.0.0"
+  }
+}
