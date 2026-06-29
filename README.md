@@ -70,32 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-06-27 | **成功**: 18 | **失败**: 2
+**最后更新**: 2026-06-28 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) | SimpleX - the first messaging network operating wi... | Haskell | 13.8k | 1.5k | SimpleX Chat 是一个基于 Haskell 开发的隐私优先即时通讯应用。它采用零用户标识符设计，结合双重 ratchet 端到端加密，保护消息和元数据。支持 iOS、Android 及桌面终端，强调 100% 的隐私保护。 |
-| 2 | [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四... | Python | 4.1k | 685 | 基于 Python 的价值投资研究框架，整合巴菲特、芒格、段永平、李录四位大师方法论。通过多 Agent 对抗分析、结构化反偏见机制及精确金融计算校验，强制输出明确投资结论。项目声称实盘收益显著跑赢指数，旨在将个人 AI 助手转化为专业投研团队。 |
-| 3 | [commaai/openpilot](https://github.com/commaai/openpilot) | openpilot is an operating system for robotics. Cur... | Python | 62.1k | 322 | 处理失败 |
-| 4 | [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS) | CasaOS - A simple, easy-to-use, elegant open-sourc... | Go | 35.8k | 502 | CasaOS 是一个简单易用的开源个人云系统。它支持多种硬件，提供友好的UI和直观的文件管理。内置应用商店，支持一键安装 Nextcloud、HomeAssistant 等应用，并兼容 Docker 生态。旨在为个人和小型组织提供低成本的数据中心解决方案。 |
-| 5 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | A list of SaaS, PaaS and IaaS offerings that have ... | HTML | 124.2k | 459 | 这是一个由社区维护的免费开发者服务列表，涵盖 SaaS、PaaS 和 IaaS。项目严格筛选仅提供免费层级而非试用期的服务，旨在帮助 DevOps 和基础设施开发者做出明智决策。列表包含云服务、监控、CI/CD 等多个分类，由 1600+ 贡献者共同维护。 |
-| 6 | [google-labs-code/design.md](https://github.com/google-labs-code/design.md) | A format specification for describing a visual ide... | TypeScript | 22.3k | 1.5k | 这是一个由 Google Labs 开发的开源项目，旨在为编码代理提供一种标准化的设计系统描述格式。它结合了机器可读的 YAML 设计令牌和人类可读的 Markdown 设计理由，帮助 AI 理解视觉身份。项目包含一个 lint 工具，用于验证设计规范、检查 WCAG 对比度并生成结构化报告，确保 AI 生成的 UI 符合设计意图。 |
-| 7 | [microsoft/PowerToys](https://github.com/microsoft/PowerToys) | Microsoft PowerToys is a collection of utilities t... | C | 135.7k | 57 | 处理失败 |
-| 8 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | AI generates a real, editable PowerPoint from any ... | Python | 33.1k | 589 | 这是一个基于 Python 的 AI 工具，能将文档转换为真实可编辑的 PPT。它支持原生形状、动画、音频旁白，并提供自定义模板选项，不仅限于图片，极大提升了演示文稿制作效率。 |
-| 9 | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | Clone any website with one command using AI coding... | TypeScript | 22.1k | 750 | 这是一个基于 Next.js 和 TypeScript 的可重用模板，旨在利用 AI 编码代理（如 Claude Code）一键克隆任何网站。它通过分析目标 URL，提取设计令牌和资产，自动生成组件规范并重建代码库，极大地简化了网站逆向工程和前端开发流程。 |
-| 10 | [garrytan/gstack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinio... | TypeScript | 117.2k | 674 | gstack 是一个 TypeScript 项目，旨在将 Claude Code 转化为虚拟工程团队。它包含 23 个有偏见的工具，模拟 CEO、设计师、工程经理、发布经理、文档工程师和 QA 等角色，帮助开发者通过 AI 工具实现单人高效开发，显著提升生产力。 |
-| 11 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、... | Python | 53.8k | 394 | 这是一个功能强大的多平台自媒体数据采集工具，支持小红书、抖音、B站等主流平台。基于Playwright和CDP技术，无需复杂JS逆向，支持登录态缓存、代理池及评论词云生成，适合爬虫架构学习。 |
-| 12 | [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | Unrestricted Open-source alternative to AI video p... | JavaScript | 21.4k | 255 | 这是一个无限制的开源 AI 视频平台替代品，提供免费的图像和视频生成工作室，支持 200+ 种先进模型（如 Flux, Midjourney, Kling 等）。项目无内容过滤，支持自托管。它集成了自动化媒体生成技能，支持通过 CLI 和 ComfyUI 节点进行终端操作，并可与 Claude Code 等编码助手配合，构建自动化媒体管道。 |
-| 13 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | Cognee is the open-source AI memory platform for a... | Python | 24.0k | 780 | Cognee 是一个开源的 AI 记忆平台，旨在为智能体提供持久长期记忆。它通过自托管知识图谱引擎，结合向量嵌入和图推理技术，实现数据的语义搜索与关系连接。支持多模态数据摄取，帮助构建可靠、可信的企业级知识基础设施。 |
-| 14 | [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | dbt enables data analysts and engineers to transfo... | Rust | 13.2k | 18 | dbt-core 是一个用 Rust 重写的数据转换工具，旨在帮助数据分析师和工程师使用软件工程实践来处理数据。它支持 SQL 转换，将查询转换为数据仓库中的表和视图。v2.0 版本提供了更快的性能、更严格的语言规范和 Parquet 格式的可扩展工件，且无需 Python 依赖即可作为单二进制文件分发。 |
-| 15 | [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | A visual, example-driven guide to Claude Code — fr... | Python | 38.6k | 141 | 这是一个关于 Claude Code 的视觉化、示例驱动指南，旨在解决官方文档缺乏结构的问题。项目提供从基础到高级的教程、Mermaid 流程图、生产就绪的模板以及互动测验，帮助用户快速掌握 Claude Code 的核心功能，如代理、钩子和 MCP 服务器，构建高效工作流。 |
-| 16 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent.... | TypeScript | 179.7k | 392 | OpenCode 是一个开源的 AI 编码代理，基于 TypeScript 构建。它提供命令行和桌面应用（Beta）两种使用方式，支持 macOS、Windows 和 Linux 多平台，旨在通过 AI 技术辅助开发者进行代码编写和自动化任务。 |
-| 17 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | Spec-driven development (SDD) for AI coding assist... | TypeScript | 57.1k | 177 | OpenSpec 是一个基于 TypeScript 的 AI 编码助手规范驱动开发（SDD）框架。它强调流动和迭代，支持从探索想法到实施任务的完整工作流。通过 AI 对话，用户可以快速生成提案、规范、设计和任务清单，适用于个人及企业项目，帮助开发者高效管理代码变更。 |
-| 18 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent"... | Python | 13.7k | 92 | Vibe-Trading 是一个基于 Python 的个人交易代理，旨在通过一条命令赋予代理全面的交易能力。项目集成了 LLM 进行智能决策，支持影子账户机制、回测验证以及通过 Tushare 获取市场数据。它具备内容过滤韧性，能处理 ETF、指数和港股数据，并包含严格的 JSON 验证。 |
-| 19 | [keycloak/keycloak](https://github.com/keycloak/keycloak) | Open Source Identity and Access Management For Mod... | Java | 35.3k | 20 | Keycloak 是一个开源的身份和访问管理解决方案，专为现代应用程序和服务设计。它提供用户联邦、强认证、用户管理和细粒度授权等功能，帮助开发者以最小成本为应用添加认证，无需自行管理用户数据。 |
-| 20 | [every-app/open-seo](https://github.com/every-app/open-seo) | Open source alternative to Semrush and Ahrefs... | TypeScript | 3.4k | 239 | OpenSEO 是一款开源的 SEO 工具，旨在替代 Semrush 和 Ahrefs。它采用按使用付费模式，无订阅费，支持 Docker 自托管。核心功能包括关键词研究、排名追踪、竞争对手分析和网站审计。它集成了 MCP 协议，可与 Claude Code 等 AI 代理无缝连接，提供 AI 驱动的 SEO 工作流。 |
+| 1 | [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) | SimpleX - the first messaging network operating wi... | Haskell | 15.0k | 1.2k | SimpleX Chat 是首个完全无用户标识符的即时通讯网络，强调 100% 隐私设计。它采用双重 ratchet 端到端加密，保护消息和元数据。支持 iOS、Android 以及桌面端（包括 Linux、macOS、Windows 的终端应用），提供跨平台的安全通讯体验。 |
+| 2 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | A list of SaaS, PaaS and IaaS offerings that have ... | HTML | 125.2k | 495 | 这是一个由社区维护的免费开发者服务列表，涵盖 SaaS、PaaS 和 IaaS。项目专注于基础设施开发者，筛选出提供长期免费层级且支持 SSO 的服务，帮助开发者做出明智决策。 |
+| 3 | [commaai/openpilot](https://github.com/commaai/openpilot) | openpilot is an operating system for robotics. Cur... | Python | 62.4k | 266 | openpilot 是一个基于 Python 的机器人操作系统，旨在升级 300 多种支持车辆的驾驶员辅助系统。它支持 comma four 硬件，遵循 ISO26262 安全标准，拥有软件在环测试，并欢迎社区贡献。 |
+| 4 | [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格... | Python | 5.3k | 1.4k | 这是一个基于 Python 的价值投资研究框架，兼容 Claude Code 和 Codex。它整合了巴菲特、芒格、段永平、李录四位大师的投资方法论，通过多 Agent 并行对抗分析，强制输出结论并内置反偏见机制。项目强调金融数据的精确计算，旨在通过 AI 将个人研究能力提升至专业团队水平。 |
+| 5 | [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) | A feed-forward 3D foundation model for reconstruct... | Python | 8.2k | 372 | LingBot-Map 是一个用于流式 3D 重建的前馈 3D 基础模型。它采用几何上下文变换器架构，统一了坐标定位、几何线索和漂移校正。支持高效推理（~20 FPS），在长序列（>10,000 帧）上表现优异，在 KITTI 和 Oxford Spires 等基准测试中达到最先进水平。 |
+| 6 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | High-performance code intelligence MCP server. Ind... | C | 19.6k | 2.2k | 这是一个高性能的代码智能 MCP 服务器，利用 Tree-sitter 和混合 LSP 语义解析技术，将代码库索引为持久知识图谱。支持 158 种语言，平均仓库毫秒级索引，查询速度极快。提供单静态二进制，零依赖，内置 3D 可视化，专为 AI 编码代理设计，确保本地安全处理。 |
+| 7 | [cupy/cupy](https://github.com/cupy/cupy) | NumPy & SciPy for GPU... | Python | 11.5k | 174 | CuPy 是一个兼容 NumPy 和 SciPy 的 GPU 加速数组库。它作为现有代码的即插即用替代品，支持 NVIDIA CUDA 和 AMD ROCm 平台。除了高性能数组操作外，它还提供对低级 CUDA 特性的访问，如 RawKernels 和 Streams，允许直接调用 CUDA 运行时 API。 |
+| 8 | [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice) | FluidVoice - Fastest macOS Offline Dictation app -... | Swift | 3.7k | 365 | FluidVoice 是一款专为 macOS 设计的极速离线语音转文字应用。它利用本地 AI 模型（Fluid Intelligence）实现零延迟的语音识别和智能增强（如自动格式化），无需云端服务，保护用户隐私。项目基于 GPLv3 开源，支持 Homebrew 安装。 |
+| 9 | [opendatalab/MinerU](https://github.com/opendatalab/MinerU) | Transforms complex documents like PDFs and Office ... | Python | 71.6k | 380 | MinerU 是一个高精度文档解析引擎，支持将 PDF、Office 文档及网页转换为结构化的 Markdown/JSON。它采用 VLM+OCR 双引擎，支持 109 种语言，具备公式转 LaTeX、表格重建等强大功能。项目支持国产 AI 芯片，提供 MCP Server 和多种 RAG 框架集成，专为 LLM、RAG 和 Agent 工作流设计。 |
+| 10 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent"... | Python | 14.3k | 492 | Vibe-Trading 是一个基于 Python 的个人交易代理，旨在通过一条命令赋予代理全面的交易能力。它集成了 LLM（如 OpenAI 和 Gemini）进行智能决策，支持 Shadow Account 影子账户策略、Tushare 数据加载以及 MCP 协议。项目具备跨平台支持、内容过滤韧性和事件驱动架构，能够自动执行交易信号生成和资金管理。 |
+| 11 | [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | Explain complex systems using visuals and simple t... | - | 84.4k | 250 | 该项目旨在通过可视化和通俗易懂的语言解释复杂的系统概念，帮助开发者系统性地准备系统设计面试。 |
+| 12 | [usestrix/strix](https://github.com/usestrix/strix) | Open-source AI hackers to find and fix your app’s ... | Python | 26.7k | 122 | Strix 是一个开源 AI 黑客工具，利用自主 AI 代理模拟真实黑客行为，动态运行代码以发现并验证漏洞。它提供完整的黑客工具包，支持 CI/CD 集成，能够自动生成 PoCs 并修复问题，帮助开发者和安全团队快速进行渗透测试和应用安全检测。 |
+| 13 | [browser-use/video-use](https://github.com/browser-use/video-use) | Edit videos with coding agents... | Python | 11.0k | 196 | 这是一个基于 Python 的开源项目，允许用户通过 Claude Code 等编程代理自动编辑视频。它支持自动剪除填充词、调色、添加字幕及生成动画叠加层。用户只需将素材放入文件夹，与代理对话即可生成 final.mp4。项目依赖 ffmpeg 和 ElevenLabs API，旨在实现无需预设的智能视频剪辑。 |
 
-[查看完整数据](api/github/2026-06-27.json)
+[查看完整数据](api/github/2026-06-28.json)
 <!-- END GITHUB TRENDING -->
 
 

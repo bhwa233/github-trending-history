@@ -1,0 +1,291 @@
+{
+  "date": "2026-06-28",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "simplex-chat/simplex-chat",
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "language": "Haskell",
+      "stars": 14969,
+      "forks": 865,
+      "todayStars": 1180,
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "aiSummary": {
+        "summary": "SimpleX Chat 是首个完全无用户标识符的即时通讯网络，强调 100% 隐私设计。它采用双重 ratchet 端到端加密，保护消息和元数据。支持 iOS、Android 以及桌面端（包括 Linux、macOS、Windows 的终端应用），提供跨平台的安全通讯体验。",
+        "summary_en": "SimpleX is a privacy-first messaging network operating without user identifiers, featuring end-to-end encryption for mobile and desktop.",
+        "techStack": [
+          "Haskell"
+        ],
+        "useCase": "需要极致隐私保护、无用户追踪的即时通讯场景",
+        "useCase_en": "To enable private, metadata-free messaging on iOS, Android, and desktop devices."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "language": "HTML",
+      "stars": 125189,
+      "forks": 13166,
+      "todayStars": 495,
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "aiSummary": {
+        "summary": "这是一个由社区维护的免费开发者服务列表，涵盖 SaaS、PaaS 和 IaaS。项目专注于基础设施开发者，筛选出提供长期免费层级且支持 SSO 的服务，帮助开发者做出明智决策。",
+        "summary_en": "A curated list of SaaS, PaaS, and IaaS services offering free developer tiers for DevOps professionals.",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "适合 DevOps、系统管理员及开发者寻找免费云服务和开发工具。",
+        "useCase_en": "DevOps engineers use this resource to discover and compare free tiers for SaaS, PaaS, and IaaS services."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "commaai/openpilot",
+      "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "language": "Python",
+      "stars": 62375,
+      "forks": 11093,
+      "todayStars": 266,
+      "url": "https://github.com/commaai/openpilot",
+      "aiSummary": {
+        "summary": "openpilot 是一个基于 Python 的机器人操作系统，旨在升级 300 多种支持车辆的驾驶员辅助系统。它支持 comma four 硬件，遵循 ISO26262 安全标准，拥有软件在环测试，并欢迎社区贡献。",
+        "summary_en": "openpilot is an open-source operating system for robotics that upgrades driver assistance systems on 300+ supported cars.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为 300+ 支持车辆提供驾驶员辅助系统升级",
+        "useCase_en": "To upgrade the driver assistance system on 300+ supported cars."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "xbtlin/ai-berkshire",
+      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "language": "Python",
+      "stars": 5259,
+      "forks": 717,
+      "todayStars": 1445,
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的价值投资研究框架，兼容 Claude Code 和 Codex。它整合了巴菲特、芒格、段永平、李录四位大师的投资方法论，通过多 Agent 并行对抗分析，强制输出结论并内置反偏见机制。项目强调金融数据的精确计算，旨在通过 AI 将个人研究能力提升至专业团队水平。",
+        "summary_en": "A Python-based investment research framework utilizing multi-agent AI to apply value investing methodologies for structured financial analysis.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "OpenAI Codex",
+          "Financial Data Processing"
+        ],
+        "useCase": "适合个人投资者利用 AI 模拟专业投研团队，进行深度价值投资分析与决策。",
+        "useCase_en": "Execute structured value investing research by leveraging multi-agent AI analysis of financial data."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "Robbyant/lingbot-map",
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "language": "Python",
+      "stars": 8210,
+      "forks": 802,
+      "todayStars": 372,
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "aiSummary": {
+        "summary": "LingBot-Map 是一个用于流式 3D 重建的前馈 3D 基础模型。它采用几何上下文变换器架构，统一了坐标定位、几何线索和漂移校正。支持高效推理（~20 FPS），在长序列（>10,000 帧）上表现优异，在 KITTI 和 Oxford Spires 等基准测试中达到最先进水平。",
+        "summary_en": "A feed-forward 3D foundation model for streaming scene reconstruction using a Geometric Context Transformer.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "FlashInfer"
+        ],
+        "useCase": "适用于自动驾驶、机器人导航及长视频场景的实时 3D 重建。",
+        "useCase_en": "Real-time 3D scene reconstruction from streaming video data."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "stars": 19601,
+      "forks": 1422,
+      "todayStars": 2190,
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "aiSummary": {
+        "summary": "这是一个高性能的代码智能 MCP 服务器，利用 Tree-sitter 和混合 LSP 语义解析技术，将代码库索引为持久知识图谱。支持 158 种语言，平均仓库毫秒级索引，查询速度极快。提供单静态二进制，零依赖，内置 3D 可视化，专为 AI 编码代理设计，确保本地安全处理。",
+        "summary_en": "High-performance MCP server indexing codebases into a persistent knowledge graph for AI agents.",
+        "techStack": [
+          "C",
+          "Tree-sitter",
+          "LSP",
+          "SQLite",
+          "MCP"
+        ],
+        "useCase": "适用于 AI 编码代理进行高效的代码库索引、结构化查询和知识图谱分析。",
+        "useCase_en": "To enable AI coding agents to instantly explore and query large codebases via a knowledge graph."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "cupy/cupy",
+      "description": "NumPy & SciPy for GPU",
+      "language": "Python",
+      "stars": 11505,
+      "forks": 1069,
+      "todayStars": 174,
+      "url": "https://github.com/cupy/cupy",
+      "aiSummary": {
+        "summary": "CuPy 是一个兼容 NumPy 和 SciPy 的 GPU 加速数组库。它作为现有代码的即插即用替代品，支持 NVIDIA CUDA 和 AMD ROCm 平台。除了高性能数组操作外，它还提供对低级 CUDA 特性的访问，如 RawKernels 和 Streams，允许直接调用 CUDA 运行时 API。",
+        "summary_en": "A NumPy/SciPy-compatible library for GPU-accelerated computing in Python.",
+        "techStack": [
+          "Python",
+          "CUDA",
+          "ROCm",
+          "NumPy",
+          "SciPy"
+        ],
+        "useCase": "适用于需要利用 GPU 加速科学计算和机器学习任务的 Python 开发者。",
+        "useCase_en": "Accelerate scientific computing tasks by running NumPy/SciPy code on GPUs."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "altic-dev/FluidVoice",
+      "description": "FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :))",
+      "language": "Swift",
+      "stars": 3708,
+      "forks": 238,
+      "todayStars": 365,
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "aiSummary": {
+        "summary": "FluidVoice 是一款专为 macOS 设计的极速离线语音转文字应用。它利用本地 AI 模型（Fluid Intelligence）实现零延迟的语音识别和智能增强（如自动格式化），无需云端服务，保护用户隐私。项目基于 GPLv3 开源，支持 Homebrew 安装。",
+        "summary_en": "Fastest macOS offline dictation app with local AI enhancement for privacy-focused voice-to-text.",
+        "techStack": [
+          "Swift",
+          "macOS",
+          "Local AI (Parakeet)",
+          "GPLv3"
+        ],
+        "useCase": "适合需要快速、隐私保护且无需联网的 macOS 用户进行语音输入和文字记录。",
+        "useCase_en": "Users can perform fast, offline voice-to-text dictation on macOS with privacy-focused local AI enhancement."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "opendatalab/MinerU",
+      "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+      "language": "Python",
+      "stars": 71565,
+      "forks": 6013,
+      "todayStars": 380,
+      "url": "https://github.com/opendatalab/MinerU",
+      "aiSummary": {
+        "summary": "MinerU 是一个高精度文档解析引擎，支持将 PDF、Office 文档及网页转换为结构化的 Markdown/JSON。它采用 VLM+OCR 双引擎，支持 109 种语言，具备公式转 LaTeX、表格重建等强大功能。项目支持国产 AI 芯片，提供 MCP Server 和多种 RAG 框架集成，专为 LLM、RAG 和 Agent 工作流设计。",
+        "summary_en": "MinerU is a high-accuracy document parsing engine converting complex documents into LLM-ready Markdown/JSON using VLM and OCR.",
+        "techStack": [
+          "Python",
+          "Go",
+          "TypeScript",
+          "Docker",
+          "VLM"
+        ],
+        "useCase": "适用于构建基于 LLM 的 RAG 系统、Agent 工作流及文档解析任务，将复杂文档转换为结构化数据。",
+        "useCase_en": "Converts complex documents like PDFs and Office files into structured Markdown/JSON for LLM and RAG workflows."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "stars": 14294,
+      "forks": 2630,
+      "todayStars": 492,
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "aiSummary": {
+        "summary": "Vibe-Trading 是一个基于 Python 的个人交易代理，旨在通过一条命令赋予代理全面的交易能力。它集成了 LLM（如 OpenAI 和 Gemini）进行智能决策，支持 Shadow Account 影子账户策略、Tushare 数据加载以及 MCP 协议。项目具备跨平台支持、内容过滤韧性和事件驱动架构，能够自动执行交易信号生成和资金管理。",
+        "summary_en": "A Python AI trading agent that automates trading strategies using LLMs and financial data APIs.",
+        "techStack": [
+          "Python",
+          "MCP",
+          "Tushare",
+          "OpenAI",
+          "Gemini"
+        ],
+        "useCase": "适用于构建基于大语言模型的自动化量化交易系统。",
+        "useCase_en": "Empower users to build and run autonomous trading agents with comprehensive financial analysis capabilities."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "ByteByteGoHq/system-design-101",
+      "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+      "language": "",
+      "stars": 84431,
+      "forks": 9347,
+      "todayStars": 250,
+      "url": "https://github.com/ByteByteGoHq/system-design-101",
+      "aiSummary": {
+        "summary": "该项目旨在通过可视化和通俗易懂的语言解释复杂的系统概念，帮助开发者系统性地准备系统设计面试。",
+        "summary_en": "A comprehensive guide to system design interviews using visuals and simple terms.",
+        "techStack": [
+          "Unknown"
+        ],
+        "useCase": "系统设计面试准备与系统架构学习",
+        "useCase_en": "Prepare for system design interviews by learning complex concepts through visual explanations."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "usestrix/strix",
+      "description": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "stars": 26710,
+      "forks": 2983,
+      "todayStars": 122,
+      "url": "https://github.com/usestrix/strix",
+      "aiSummary": {
+        "summary": "Strix 是一个开源 AI 黑客工具，利用自主 AI 代理模拟真实黑客行为，动态运行代码以发现并验证漏洞。它提供完整的黑客工具包，支持 CI/CD 集成，能够自动生成 PoCs 并修复问题，帮助开发者和安全团队快速进行渗透测试和应用安全检测。",
+        "summary_en": "Open-source AI tool that autonomously finds and fixes application vulnerabilities using dynamic code execution and PoCs.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "LLM API"
+        ],
+        "useCase": "适用于需要自动化应用安全测试和快速渗透测试的开发团队。",
+        "useCase_en": "Automate application security testing and vulnerability detection in CI/CD pipelines."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "browser-use/video-use",
+      "description": "Edit videos with coding agents",
+      "language": "Python",
+      "stars": 11025,
+      "forks": 1522,
+      "todayStars": 196,
+      "url": "https://github.com/browser-use/video-use",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的开源项目，允许用户通过 Claude Code 等编程代理自动编辑视频。它支持自动剪除填充词、调色、添加字幕及生成动画叠加层。用户只需将素材放入文件夹，与代理对话即可生成 final.mp4。项目依赖 ffmpeg 和 ElevenLabs API，旨在实现无需预设的智能视频剪辑。",
+        "summary_en": "Open-source tool enabling coding agents to edit raw video footage into polished final videos.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "FFmpeg",
+          "ElevenLabs API",
+          "HyperFrames/Remotion"
+        ],
+        "useCase": "适合需要快速生成视频内容（如访谈、教程、蒙太奇）的用户，通过编程方式自动化剪辑流程。",
+        "useCase_en": "Automate video editing workflows by using coding agents to process raw footage and generate polished videos."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-29T00:16:22.092Z",
+    "duration": "227s",
+    "version": "1.0.0"
+  }
+}
