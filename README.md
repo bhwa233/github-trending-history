@@ -70,25 +70,27 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-06-28 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-06-29 | **成功**: 15 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) | SimpleX - the first messaging network operating wi... | Haskell | 15.0k | 1.2k | SimpleX Chat 是首个完全无用户标识符的即时通讯网络，强调 100% 隐私设计。它采用双重 ratchet 端到端加密，保护消息和元数据。支持 iOS、Android 以及桌面端（包括 Linux、macOS、Windows 的终端应用），提供跨平台的安全通讯体验。 |
-| 2 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | A list of SaaS, PaaS and IaaS offerings that have ... | HTML | 125.2k | 495 | 这是一个由社区维护的免费开发者服务列表，涵盖 SaaS、PaaS 和 IaaS。项目专注于基础设施开发者，筛选出提供长期免费层级且支持 SSO 的服务，帮助开发者做出明智决策。 |
-| 3 | [commaai/openpilot](https://github.com/commaai/openpilot) | openpilot is an operating system for robotics. Cur... | Python | 62.4k | 266 | openpilot 是一个基于 Python 的机器人操作系统，旨在升级 300 多种支持车辆的驾驶员辅助系统。它支持 comma four 硬件，遵循 ISO26262 安全标准，拥有软件在环测试，并欢迎社区贡献。 |
-| 4 | [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格... | Python | 5.3k | 1.4k | 这是一个基于 Python 的价值投资研究框架，兼容 Claude Code 和 Codex。它整合了巴菲特、芒格、段永平、李录四位大师的投资方法论，通过多 Agent 并行对抗分析，强制输出结论并内置反偏见机制。项目强调金融数据的精确计算，旨在通过 AI 将个人研究能力提升至专业团队水平。 |
-| 5 | [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) | A feed-forward 3D foundation model for reconstruct... | Python | 8.2k | 372 | LingBot-Map 是一个用于流式 3D 重建的前馈 3D 基础模型。它采用几何上下文变换器架构，统一了坐标定位、几何线索和漂移校正。支持高效推理（~20 FPS），在长序列（>10,000 帧）上表现优异，在 KITTI 和 Oxford Spires 等基准测试中达到最先进水平。 |
-| 6 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | High-performance code intelligence MCP server. Ind... | C | 19.6k | 2.2k | 这是一个高性能的代码智能 MCP 服务器，利用 Tree-sitter 和混合 LSP 语义解析技术，将代码库索引为持久知识图谱。支持 158 种语言，平均仓库毫秒级索引，查询速度极快。提供单静态二进制，零依赖，内置 3D 可视化，专为 AI 编码代理设计，确保本地安全处理。 |
-| 7 | [cupy/cupy](https://github.com/cupy/cupy) | NumPy & SciPy for GPU... | Python | 11.5k | 174 | CuPy 是一个兼容 NumPy 和 SciPy 的 GPU 加速数组库。它作为现有代码的即插即用替代品，支持 NVIDIA CUDA 和 AMD ROCm 平台。除了高性能数组操作外，它还提供对低级 CUDA 特性的访问，如 RawKernels 和 Streams，允许直接调用 CUDA 运行时 API。 |
-| 8 | [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice) | FluidVoice - Fastest macOS Offline Dictation app -... | Swift | 3.7k | 365 | FluidVoice 是一款专为 macOS 设计的极速离线语音转文字应用。它利用本地 AI 模型（Fluid Intelligence）实现零延迟的语音识别和智能增强（如自动格式化），无需云端服务，保护用户隐私。项目基于 GPLv3 开源，支持 Homebrew 安装。 |
-| 9 | [opendatalab/MinerU](https://github.com/opendatalab/MinerU) | Transforms complex documents like PDFs and Office ... | Python | 71.6k | 380 | MinerU 是一个高精度文档解析引擎，支持将 PDF、Office 文档及网页转换为结构化的 Markdown/JSON。它采用 VLM+OCR 双引擎，支持 109 种语言，具备公式转 LaTeX、表格重建等强大功能。项目支持国产 AI 芯片，提供 MCP Server 和多种 RAG 框架集成，专为 LLM、RAG 和 Agent 工作流设计。 |
-| 10 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent"... | Python | 14.3k | 492 | Vibe-Trading 是一个基于 Python 的个人交易代理，旨在通过一条命令赋予代理全面的交易能力。它集成了 LLM（如 OpenAI 和 Gemini）进行智能决策，支持 Shadow Account 影子账户策略、Tushare 数据加载以及 MCP 协议。项目具备跨平台支持、内容过滤韧性和事件驱动架构，能够自动执行交易信号生成和资金管理。 |
-| 11 | [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | Explain complex systems using visuals and simple t... | - | 84.4k | 250 | 该项目旨在通过可视化和通俗易懂的语言解释复杂的系统概念，帮助开发者系统性地准备系统设计面试。 |
-| 12 | [usestrix/strix](https://github.com/usestrix/strix) | Open-source AI hackers to find and fix your app’s ... | Python | 26.7k | 122 | Strix 是一个开源 AI 黑客工具，利用自主 AI 代理模拟真实黑客行为，动态运行代码以发现并验证漏洞。它提供完整的黑客工具包，支持 CI/CD 集成，能够自动生成 PoCs 并修复问题，帮助开发者和安全团队快速进行渗透测试和应用安全检测。 |
-| 13 | [browser-use/video-use](https://github.com/browser-use/video-use) | Edit videos with coding agents... | Python | 11.0k | 196 | 这是一个基于 Python 的开源项目，允许用户通过 Claude Code 等编程代理自动编辑视频。它支持自动剪除填充词、调色、添加字幕及生成动画叠加层。用户只需将素材放入文件夹，与代理对话即可生成 final.mp4。项目依赖 ffmpeg 和 ElevenLabs API，旨在实现无需预设的智能视频剪辑。 |
+| 1 | [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) | SimpleX - the first messaging network operating wi... | Haskell | 16.5k | 1.6k | SimpleX Chat 是一个基于 Haskell 开发的即时通讯网络，主打零用户标识符设计，确保 100% 的通信隐私。它采用双重 ratchet 端到端加密技术，支持 iOS、Android 及桌面终端应用，旨在提供无需注册、无元数据追踪的私密聊天体验。 |
+| 2 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 118.8k | 1.4k | 这是一个提供多种专业AI代理的集合，旨在提升开发工作流。每个代理都具备独特的个性和专业技能。项目提供原生桌面应用和Shell脚本，支持一键安装到Claude Code、Cursor等IDE中，无需编写复杂脚本，即开即用。 |
+| 3 | [cupy/cupy](https://github.com/cupy/cupy) | NumPy & SciPy for GPU... | Python | 11.8k | 352 | CuPy 是一个用于 GPU 加速计算的 Python 数组库，兼容 NumPy 和 SciPy。它作为现有代码的即插即用替代品，可在 NVIDIA CUDA 和 AMD ROCm 平台上运行。此外，它还提供对低级 CUDA 特性的访问。 |
+| 4 | [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice) | FluidVoice - Fastest macOS Offline Dictation app -... | Swift | 4.4k | 830 | FluidVoice 是一款基于 Swift 开发的 macOS 语音转文字应用，主打极速与离线体验。它集成了本地 AI 模型（Fluid Intelligence），提供零延迟的语音识别和智能格式化功能，无需云端服务，保护用户隐私。支持 Homebrew 安装，开源免费，旨在为用户提供高效、私密的语音输入方案。 |
+| 5 | [soxoj/maigret](https://github.com/soxoj/maigret) | 🕵️‍♂️ Collect a dossier on a person by username f... | Python | 34.4k | 224 | Maigret 是一款 Python 工具，通过单一用户名在 3000+ 个网站上收集个人档案。它无需 API 密钥，支持递归搜索、信息提取及绕过封锁，并能嵌入 Python 项目中。 |
+| 6 | [commaai/openpilot](https://github.com/commaai/openpilot) | openpilot is an operating system for robotics. Cur... | Python | 62.8k | 458 | openpilot 是一个开源的驾驶员辅助系统（ADAS）升级软件，支持 300 多款车型。它基于 Python 开发，旨在通过硬件（如 comma four）和软件结合，提升驾驶安全性。项目遵循 ISO26262 安全标准，拥有活跃的开发社区和完善的测试流程。 |
+| 7 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | A list of SaaS, PaaS and IaaS offerings that have ... | HTML | 126.7k | 1.9k | 这是一个由社区维护的免费开发者服务列表，涵盖 SaaS、PaaS 和 IaaS。项目严格筛选真正提供免费层级而非试用期的服务，专注于基础设施开发人员的需求。列表分类清晰，由 1600+ 人共同维护，旨在帮助开发者快速做出技术选型决策。 |
+| 8 | [logto-io/logto](https://github.com/logto-io/logto) | 🧑‍🚀 Authentication and authorization infrastruct... | TypeScript | 12.6k | 158 | Logto 是一个现代开源的身份验证和授权基础设施，专为 SaaS 和 AI 应用设计。它基于 OIDC 和 OAuth 2.1 构建，提供多租户、企业级 SSO 和 RBAC 功能。项目提供 30 多种框架的 SDK，支持 MCP 和代理架构，旨在简化安全认证流程，帮助团队快速构建生产就绪的应用。 |
+| 9 | [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格... | Python | 6.6k | 1.4k | 这是一个基于 Python 的价值投资研究框架，利用 Claude Code 和 Codex 模拟巴菲特、芒格等大师的投资逻辑。通过多 Agent 并行对抗分析，强制输出明确结论，并内置反偏见机制和金融数据精确校验，旨在提升投资决策的深度与纪律性。 |
+| 10 | [browser-use/video-use](https://github.com/browser-use/video-use) | Edit videos with coding agents... | Python | 11.9k | 967 | 这是一个开源项目，允许用户通过 Claude Code 等编码代理自动编辑视频。它支持自动剪辑填充词、自动调色、添加字幕和生成动画。用户只需将原始素材放入文件夹，代理即可处理转录、剪辑和渲染，生成最终视频。项目支持自我评估和会话记忆，适用于各种视频内容。 |
+| 11 | [Unclecheng-li/VulnClaw](https://github.com/Unclecheng-li/VulnClaw) | 基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言... | Python | 1.1k | 129 | VulnClaw 是一个基于 Python 的 AI 驱动渗透测试 CLI 工具。它利用 LLM Agent、MCP 工具链和渗透 Skill 编排，通过自然语言输入自动执行从信息收集到漏洞利用的全流程。项目采用目标驱动求解引擎和黑板图状态空间搜索，有效防止幻觉，支持多种大模型，并能生成结构化报告和 PoC 脚本。 |
+| 12 | [0xNyk/council-of-high-intelligence](https://github.com/0xNyk/council-of-high-intelligence) | 18 AI personas deliberate your hardest decisions a... | Shell | 1.9k | 331 | 该项目通过18个不同AI人设（如亚里士多德、费曼等）在多个LLM提供商间进行多轮辩论，帮助用户做出艰难决策。它通过问题重述、分歧配额等协议防止单一模型的偏见和幻觉，提供结构化的不同视角。 |
+| 13 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent"... | Python | 15.1k | 839 | Vibe-Trading 是一个基于 Python 的个人交易代理，旨在通过一个命令赋予 AI 代理全面的交易能力。它支持跨平台运行，集成了 Trading 212 等券商接口，提供影子账户功能以模拟交易，并具备内容过滤韧性和审计追踪等安全机制，适合需要自动化交易策略的用户。 |
+| 14 | [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) | Desktop app to manage markdown knowledge bases... | TypeScript | 17.5k | 280 | Tolaria 是一款跨平台桌面应用，用于管理 Markdown 知识库。它采用文件优先和 Git 优先原则，确保数据完全本地化、可移植且版本可控。应用支持离线使用，无云锁定，并专为 AI 代理优化，适合构建个人第二大脑或管理 AI 上下文。 |
+| 15 | [veracrypt/VeraCrypt](https://github.com/veracrypt/VeraCrypt) | Disk encryption with strong security based on True... | C | 10.5k | 186 | VeraCrypt 是一款基于 TrueCrypt 7.1a 开发的磁盘加密软件，提供了比原版更强的安全性。它支持 Windows、Linux、macOS、FreeBSD 和 OpenBSD 等多平台。项目包含源代码，需遵守特定的开源许可协议，且官方二进制文件经过数字签名以确保在 64 位系统上运行。 |
 
-[查看完整数据](api/github/2026-06-28.json)
+[查看完整数据](api/github/2026-06-29.json)
 <!-- END GITHUB TRENDING -->
 
 

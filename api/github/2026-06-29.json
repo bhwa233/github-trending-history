@@ -1,0 +1,332 @@
+{
+  "date": "2026-06-29",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "simplex-chat/simplex-chat",
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "language": "Haskell",
+      "stars": 16548,
+      "forks": 957,
+      "todayStars": 1607,
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "aiSummary": {
+        "summary": "SimpleX Chat 是一个基于 Haskell 开发的即时通讯网络，主打零用户标识符设计，确保 100% 的通信隐私。它采用双重 ratchet 端到端加密技术，支持 iOS、Android 及桌面终端应用，旨在提供无需注册、无元数据追踪的私密聊天体验。",
+        "summary_en": "A privacy-focused messaging network built in Haskell that operates without user identifiers.",
+        "techStack": [
+          "Haskell",
+          "端到端加密",
+          "跨平台应用开发"
+        ],
+        "useCase": "追求极致隐私、无需注册即可进行点对点加密聊天的场景。",
+        "useCase_en": "To communicate securely without using phone numbers, usernames, or other identifiers."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 118847,
+      "forks": 19466,
+      "todayStars": 1425,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "这是一个提供多种专业AI代理的集合，旨在提升开发工作流。每个代理都具备独特的个性和专业技能。项目提供原生桌面应用和Shell脚本，支持一键安装到Claude Code、Cursor等IDE中，无需编写复杂脚本，即开即用。",
+        "summary_en": "A curated collection of specialized AI agent personalities for development workflows.",
+        "techStack": [
+          "Shell",
+          "Native App (macOS/Linux/Windows)",
+          "AI Agents"
+        ],
+        "useCase": "为开发者提供即插即用的专业AI助手，快速集成到各类IDE中提升开发效率。",
+        "useCase_en": "Install specialized AI agent personalities into coding environments like Claude Code to enhance productivity."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "cupy/cupy",
+      "description": "NumPy & SciPy for GPU",
+      "language": "Python",
+      "stars": 11813,
+      "forks": 1082,
+      "todayStars": 352,
+      "url": "https://github.com/cupy/cupy",
+      "aiSummary": {
+        "summary": "CuPy 是一个用于 GPU 加速计算的 Python 数组库，兼容 NumPy 和 SciPy。它作为现有代码的即插即用替代品，可在 NVIDIA CUDA 和 AMD ROCm 平台上运行。此外，它还提供对低级 CUDA 特性的访问。",
+        "summary_en": "CuPy provides GPU-accelerated NumPy and SciPy compatible arrays for Python on CUDA and ROCm.",
+        "techStack": [
+          "Python",
+          "CUDA",
+          "ROCm",
+          "NumPy"
+        ],
+        "useCase": "用于在 GPU 上加速 Python 科学计算和深度学习任务。",
+        "useCase_en": "Accelerate scientific computing by running NumPy and SciPy code on NVIDIA CUDA or AMD ROCm GPUs."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "altic-dev/FluidVoice",
+      "description": "FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :))",
+      "language": "Swift",
+      "stars": 4373,
+      "forks": 273,
+      "todayStars": 830,
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "aiSummary": {
+        "summary": "FluidVoice 是一款基于 Swift 开发的 macOS 语音转文字应用，主打极速与离线体验。它集成了本地 AI 模型（Fluid Intelligence），提供零延迟的语音识别和智能格式化功能，无需云端服务，保护用户隐私。支持 Homebrew 安装，开源免费，旨在为用户提供高效、私密的语音输入方案。",
+        "summary_en": "Fastest macOS Offline Dictation app with on-device AI enhancement for local voice-to-text.",
+        "techStack": [
+          "Swift",
+          "macOS",
+          "Local AI",
+          "Open Source"
+        ],
+        "useCase": "需要快速、离线且隐私安全的 macOS 语音输入场景",
+        "useCase_en": "To perform fast, offline voice-to-text dictation on macOS with local AI enhancement."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "stars": 34360,
+      "forks": 2597,
+      "todayStars": 224,
+      "url": "https://github.com/soxoj/maigret",
+      "aiSummary": {
+        "summary": "Maigret 是一款 Python 工具，通过单一用户名在 3000+ 个网站上收集个人档案。它无需 API 密钥，支持递归搜索、信息提取及绕过封锁，并能嵌入 Python 项目中。",
+        "summary_en": "A Python tool for OSINT that scrapes 3000+ websites to find social media accounts by username.",
+        "techStack": [
+          "Python",
+          "Web Scraping",
+          "GitHub"
+        ],
+        "useCase": "OSINT 开源情报调查，追踪个人在互联网上的社交足迹。",
+        "useCase_en": "An OSINT tool to gather public profile information across thousands of websites using a single username."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "commaai/openpilot",
+      "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "language": "Python",
+      "stars": 62764,
+      "forks": 11111,
+      "todayStars": 458,
+      "url": "https://github.com/commaai/openpilot",
+      "aiSummary": {
+        "summary": "openpilot 是一个开源的驾驶员辅助系统（ADAS）升级软件，支持 300 多款车型。它基于 Python 开发，旨在通过硬件（如 comma four）和软件结合，提升驾驶安全性。项目遵循 ISO26262 安全标准，拥有活跃的开发社区和完善的测试流程。",
+        "summary_en": "openpilot is an open-source driver assistance system for supported vehicles.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为 300+ 款支持的车型提供开源的驾驶员辅助系统（ADAS）升级服务。",
+        "useCase_en": "It upgrades the driver assistance system on supported cars."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "language": "HTML",
+      "stars": 126706,
+      "forks": 13256,
+      "todayStars": 1935,
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "aiSummary": {
+        "summary": "这是一个由社区维护的免费开发者服务列表，涵盖 SaaS、PaaS 和 IaaS。项目严格筛选真正提供免费层级而非试用期的服务，专注于基础设施开发人员的需求。列表分类清晰，由 1600+ 人共同维护，旨在帮助开发者快速做出技术选型决策。",
+        "summary_en": "A curated list of SaaS, PaaS, and IaaS services offering free developer tiers for DevOps and infrastructure developers.",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "帮助 DevOps 和基础设施开发人员快速查找和评估提供免费层级的 SaaS、PaaS 和 IaaS 服务。",
+        "useCase_en": "Helps developers and DevOps engineers find free tiers for SaaS, PaaS, and IaaS services."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "logto-io/logto",
+      "description": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+      "language": "TypeScript",
+      "stars": 12647,
+      "forks": 865,
+      "todayStars": 158,
+      "url": "https://github.com/logto-io/logto",
+      "aiSummary": {
+        "summary": "Logto 是一个现代开源的身份验证和授权基础设施，专为 SaaS 和 AI 应用设计。它基于 OIDC 和 OAuth 2.1 构建，提供多租户、企业级 SSO 和 RBAC 功能。项目提供 30 多种框架的 SDK，支持 MCP 和代理架构，旨在简化安全认证流程，帮助团队快速构建生产就绪的应用。",
+        "summary_en": "Open-source authentication and authorization infrastructure for SaaS and AI apps.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "OIDC",
+          "OAuth 2.1"
+        ],
+        "useCase": "适用于需要快速构建安全认证系统的 SaaS 应用、AI 应用及基于代理的平台。",
+        "useCase_en": "To provide authentication and authorization infrastructure for SaaS and AI applications."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "xbtlin/ai-berkshire",
+      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "language": "Python",
+      "stars": 6592,
+      "forks": 865,
+      "todayStars": 1386,
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的价值投资研究框架，利用 Claude Code 和 Codex 模拟巴菲特、芒格等大师的投资逻辑。通过多 Agent 并行对抗分析，强制输出明确结论，并内置反偏见机制和金融数据精确校验，旨在提升投资决策的深度与纪律性。",
+        "summary_en": "A Python framework for AI-driven value investing using multi-agent adversarial analysis of four masters' methodologies.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "Codex"
+        ],
+        "useCase": "利用 AI 模拟大师投资逻辑，辅助个人投资者进行深度价值分析和决策。",
+        "useCase_en": "To apply structured value investing methodologies through AI-driven multi-agent adversarial analysis."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "browser-use/video-use",
+      "description": "Edit videos with coding agents",
+      "language": "Python",
+      "stars": 11924,
+      "forks": 1570,
+      "todayStars": 967,
+      "url": "https://github.com/browser-use/video-use",
+      "aiSummary": {
+        "summary": "这是一个开源项目，允许用户通过 Claude Code 等编码代理自动编辑视频。它支持自动剪辑填充词、自动调色、添加字幕和生成动画。用户只需将原始素材放入文件夹，代理即可处理转录、剪辑和渲染，生成最终视频。项目支持自我评估和会话记忆，适用于各种视频内容。",
+        "summary_en": "An open-source Python project enabling coding agents to edit videos automatically using AI.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "FFmpeg",
+          "ElevenLabs API",
+          "HyperFrames/Remotion/Manim/PIL"
+        ],
+        "useCase": "适用于各类视频内容的自动化剪辑，如采访、蒙太奇、教程等，无需预设。",
+        "useCase_en": "Automate video editing workflows by dropping raw footage and letting an AI agent handle cuts, color grading, and subtitl"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Unclecheng-li/VulnClaw",
+      "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
+      "language": "Python",
+      "stars": 1123,
+      "forks": 171,
+      "todayStars": 129,
+      "url": "https://github.com/Unclecheng-li/VulnClaw",
+      "aiSummary": {
+        "summary": "VulnClaw 是一个基于 Python 的 AI 驱动渗透测试 CLI 工具。它利用 LLM Agent、MCP 工具链和渗透 Skill 编排，通过自然语言输入自动执行从信息收集到漏洞利用的全流程。项目采用目标驱动求解引擎和黑板图状态空间搜索，有效防止幻觉，支持多种大模型，并能生成结构化报告和 PoC 脚本。",
+        "summary_en": "AI-powered penetration testing CLI automating full security workflows using natural language and agent orchestration.",
+        "techStack": [
+          "Python",
+          "LLM Agent",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "适用于已授权的渗透测试、CTF 竞赛、安全教学及红队演练。",
+        "useCase_en": "Automate authorized penetration testing and security assessments by describing goals in natural language."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "0xNyk/council-of-high-intelligence",
+      "description": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more — structured multi-round deliberation with genuine model diversity. One command: /council",
+      "language": "Shell",
+      "stars": 1874,
+      "forks": 201,
+      "todayStars": 331,
+      "url": "https://github.com/0xNyk/council-of-high-intelligence",
+      "aiSummary": {
+        "summary": "该项目通过18个不同AI人设（如亚里士多德、费曼等）在多个LLM提供商间进行多轮辩论，帮助用户做出艰难决策。它通过问题重述、分歧配额等协议防止单一模型的偏见和幻觉，提供结构化的不同视角。",
+        "summary_en": "Multi-LLM deliberation tool featuring 18 diverse AI personas to solve complex problems.",
+        "techStack": [
+          "Shell",
+          "LLM API",
+          "Claude Code",
+          "OpenAI API"
+        ],
+        "useCase": "需要复杂决策支持、避免单一模型偏见或进行多角度论证的场景。",
+        "useCase_en": "To obtain diverse AI perspectives on complex decisions via a single command."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "stars": 15075,
+      "forks": 2686,
+      "todayStars": 839,
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "aiSummary": {
+        "summary": "Vibe-Trading 是一个基于 Python 的个人交易代理，旨在通过一个命令赋予 AI 代理全面的交易能力。它支持跨平台运行，集成了 Trading 212 等券商接口，提供影子账户功能以模拟交易，并具备内容过滤韧性和审计追踪等安全机制，适合需要自动化交易策略的用户。",
+        "summary_en": "Python-based AI trading agent with cross-platform support and broker integrations.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "MCP (Model Context Protocol)",
+          "Vite"
+        ],
+        "useCase": "适合希望利用 AI 代理自动化执行交易策略的个人投资者。",
+        "useCase_en": "Empower your personal trading agent with comprehensive capabilities and broker integrations via a single command."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "refactoringhq/tolaria",
+      "description": "Desktop app to manage markdown knowledge bases",
+      "language": "TypeScript",
+      "stars": 17503,
+      "forks": 1205,
+      "todayStars": 280,
+      "url": "https://github.com/refactoringhq/tolaria",
+      "aiSummary": {
+        "summary": "Tolaria 是一款跨平台桌面应用，用于管理 Markdown 知识库。它采用文件优先和 Git 优先原则，确保数据完全本地化、可移植且版本可控。应用支持离线使用，无云锁定，并专为 AI 代理优化，适合构建个人第二大脑或管理 AI 上下文。",
+        "summary_en": "Cross-platform desktop app for managing markdown knowledge bases with git integration and AI support.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于构建个人知识库、管理 AI 上下文及离线文档存储。",
+        "useCase_en": "To manage markdown knowledge bases and organize company docs as context for AI."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "veracrypt/VeraCrypt",
+      "description": "Disk encryption with strong security based on TrueCrypt",
+      "language": "C",
+      "stars": 10470,
+      "forks": 1231,
+      "todayStars": 186,
+      "url": "https://github.com/veracrypt/VeraCrypt",
+      "aiSummary": {
+        "summary": "VeraCrypt 是一款基于 TrueCrypt 7.1a 开发的磁盘加密软件，提供了比原版更强的安全性。它支持 Windows、Linux、macOS、FreeBSD 和 OpenBSD 等多平台。项目包含源代码，需遵守特定的开源许可协议，且官方二进制文件经过数字签名以确保在 64 位系统上运行。",
+        "summary_en": "Open-source disk encryption software based on TrueCrypt with security enhancements.",
+        "techStack": [
+          "C",
+          "Windows",
+          "Linux",
+          "macOS",
+          "BSD"
+        ],
+        "useCase": "用于保护磁盘数据安全，防止未授权访问。",
+        "useCase_en": "Encrypt disk partitions and volumes to secure sensitive data on various operating systems."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-06-30T00:14:41.491Z",
+    "duration": "278s",
+    "version": "1.0.0"
+  }
+}
