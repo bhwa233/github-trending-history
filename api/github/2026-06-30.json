@@ -1,0 +1,412 @@
+{
+  "date": "2026-06-30",
+  "since": "daily",
+  "totalRepos": 19,
+  "successCount": 19,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "hasaneyldrm/exercises-dataset",
+      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+      "language": "HTML",
+      "stars": 6545,
+      "forks": 788,
+      "todayStars": 1343,
+      "url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "aiSummary": {
+        "summary": "这是一个包含1,324个健身动作的结构化数据集，支持英语、西班牙语等6种语言。项目提供开发者设置向导和交互式浏览器，包含数据库架构和API代码模板，旨在帮助开发者快速构建健身应用后端。注意：媒体文件（图片和GIF）未包含在内，仅提供元数据和媒体ID引用。",
+        "summary_en": "A developer-focused dataset of 1,324 multilingual fitness exercises with setup tools and schema scaffolding.",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "适用于开发者快速搭建健身应用后端架构、API接口或进行AI模型训练。",
+        "useCase_en": "To serve as a structured backend scaffold for fitness applications using multilingual exercise data."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "stars": 28096,
+      "forks": 3124,
+      "todayStars": 515,
+      "url": "https://github.com/usestrix/strix",
+      "aiSummary": {
+        "summary": "Strix 是一款开源 AI 渗透测试工具，利用自主 AI 黑客代理动态运行代码，发现并验证漏洞。它提供全套渗透测试工具包、多智能体编排及真实 PoC 验证，支持 CI/CD 集成，旨在为开发者和安全团队提供快速、准确的自动化安全测试。",
+        "summary_en": "Open-source AI penetration testing tool that autonomously finds and fixes application vulnerabilities using multi-agent AI hackers.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "LLM API"
+        ],
+        "useCase": "应用安全测试与 CI/CD 流水线集成",
+        "useCase_en": "Automate penetration testing and vulnerability discovery in CI/CD pipelines to secure applications before production."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 120829,
+      "forks": 19744,
+      "todayStars": 1791,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "这是一个包含多个专业 AI 代理的集合，每个代理都有独特的个性和专业技能（如前端开发、Reddit 社区运营等）。项目提供桌面应用和命令行脚本，方便用户将这些代理一键安装到 Claude Code、Cursor 等开发工具中，提升开发效率。",
+        "summary_en": "A collection of specialized AI agent personalities for coding environments.",
+        "techStack": [
+          "Shell",
+          "Desktop App (macOS/Linux/Windows)"
+        ],
+        "useCase": "为开发者提供专业、个性化和可交付成果导向的 AI 助手，以优化代码生成和项目管理流程。",
+        "useCase_en": "To deploy specialized AI agent personas into coding environments."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "altic-dev/FluidVoice",
+      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS and Linux coming soon.",
+      "language": "Swift",
+      "stars": 4906,
+      "forks": 300,
+      "todayStars": 588,
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "aiSummary": {
+        "summary": "FluidVoice 是一款专为 macOS 设计的极速语音转文字应用，支持本地语音识别（STT）和完全离线的 AI 增强模型。它提供零延迟的输入体验，具备智能格式化和上下文感知功能，且完全免费开源，保护用户隐私。",
+        "summary_en": "Fast macOS dictation app featuring on-device AI enhancement and local speech-to-text processing.",
+        "techStack": [
+          "Swift",
+          "Homebrew",
+          "Parakeet",
+          "Fluid Intelligence"
+        ],
+        "useCase": "适用于需要在 macOS 上进行隐私保护、零延迟的语音输入或替代云端语音识别服务的用户。",
+        "useCase_en": "Enables private, offline voice-to-text dictation on macOS with AI enhancement."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "language": "TypeScript",
+      "stars": 8477,
+      "forks": 1391,
+      "todayStars": 387,
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "aiSummary": {
+        "summary": "OmniRoute 是一个免费的 AI 网关，通过单一端点连接 231+ 个提供商（含 50+ 免费模型）。它支持 Claude Code、Copilot 等工具接入免费 Claude/GPT/Gemini。内置 RTK+Caveman 压缩技术节省 15-95% Token，并具备智能回退和聚合免费额度功能，旨在帮助开发者低成本使用各类 AI 服务。",
+        "summary_en": "An AI gateway aggregating 236+ providers and free tokens for developers.",
+        "techStack": [
+          "TypeScript",
+          "CLI",
+          "MCP",
+          "PWA"
+        ],
+        "useCase": "为开发者提供统一的 AI 服务接入入口，通过压缩和聚合免费额度大幅降低使用成本。",
+        "useCase_en": "Connects AI coding tools to multiple providers via a single gateway to save tokens."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "browser-use/video-use",
+      "description": "Edit videos with coding agents",
+      "language": "Python",
+      "stars": 12569,
+      "forks": 1606,
+      "todayStars": 721,
+      "url": "https://github.com/browser-use/video-use",
+      "aiSummary": {
+        "summary": "这是一个基于 Claude Code 的开源视频编辑工具，允许用户通过编程代理自动处理视频。它具备去除填充词、自动调色、音频淡入淡出、字幕生成及动画覆盖等功能，支持 FFmpeg 和 ElevenLabs API，适合需要自动化视频剪辑流程的用户。",
+        "summary_en": "Open-source tool for editing videos via coding agents like Claude Code, automating cuts, color grading, and subtitles.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "FFmpeg",
+          "ElevenLabs",
+          "HyperFrames/Remotion/Manim/PIL"
+        ],
+        "useCase": "自动化视频剪辑与后期处理，去除填充词并生成字幕动画。",
+        "useCase_en": "Automate video editing workflows by instructing an AI coding agent to process raw footage into polished videos."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "xbtlin/ai-berkshire",
+      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "language": "Python",
+      "stars": 7469,
+      "forks": 953,
+      "todayStars": 969,
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的价值投资研究框架，利用 Claude Code 和 Codex 模拟巴菲特、芒格、段永平、李录四位大师的投资逻辑。它通过多 Agent 并行对抗分析、强制输出结论、结构化反偏见机制以及金融数据精确校验，帮助用户进行深度投研。项目宣称实盘收益显著跑赢指数。",
+        "summary_en": "A Python framework for value investing that uses multi-agent AI to simulate analysis from Buffett, Munger, and other masters.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "Codex",
+          "decimal.Decimal"
+        ],
+        "useCase": "个人投资者利用 AI 进行深度价值投资研究和决策辅助",
+        "useCase_en": "Perform rigorous, multi-perspective value investment analysis by simulating perspectives from Buffett, Munger, and other"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "Mebus/cupp",
+      "description": "Common User Passwords Profiler (CUPP)",
+      "language": "Python",
+      "stars": 6094,
+      "forks": 2046,
+      "todayStars": 32,
+      "url": "https://github.com/Mebus/cupp",
+      "aiSummary": {
+        "summary": "CUPP (Common User Passwords Profiler) 是一款基于 Python 的密码分析工具，旨在帮助用户创建自定义字典。它通过交互式问答或解析现有词表，针对生日、昵称等个人信息生成弱密码列表，常用于法律渗透测试和取证调查。",
+        "summary_en": "Generates custom wordlists by profiling common user passwords for penetration testing and forensic analysis.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "生成弱密码字典以辅助渗透测试或取证分析。",
+        "useCase_en": "Used to generate targeted wordlists for password cracking and forensic investigations."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "language": "HTML",
+      "stars": 127301,
+      "forks": 13305,
+      "todayStars": 742,
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "aiSummary": {
+        "summary": "这是一个由社区维护的免费开发者服务列表，涵盖 SaaS、PaaS 和 IaaS。项目专注于基础设施开发者的需求，筛选出提供长期免费层级（非试用）且具备基本安全性的服务。内容分类详细，包括云服务、CI/CD、监控、DNS 等，帮助开发者快速找到适合的工具。",
+        "summary_en": "Curated list of SaaS, PaaS, and IaaS services offering free developer tiers for DevOps and infradev.",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "帮助 DevOps 和 Infra 开发者寻找和评估提供免费层级的云服务及开发工具。",
+        "useCase_en": "Helps developers and DevOps practitioners find free tiers for SaaS, PaaS, and IaaS services."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "google/agents-cli",
+      "description": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
+      "language": "Python",
+      "stars": 4165,
+      "forks": 453,
+      "todayStars": 445,
+      "url": "https://github.com/google/agents-cli",
+      "aiSummary": {
+        "summary": "这是一个 Google Cloud 官方的 CLI 和技能包，旨在将任何编码助手（如 Claude、Codex）转变为构建、评估和部署企业级 AI 代理的专家。它提供了从项目脚手架、模型选择、代码编排到部署上线的全流程支持，帮助开发者简化 Google Cloud Agent Platform 的使用。",
+        "summary_en": "CLI toolkit for coding assistants to build, evaluate, and deploy AI agents on Google Cloud.",
+        "techStack": [
+          "Python",
+          "Google Cloud",
+          "Agent Development Kit (ADK)",
+          "uv",
+          "Node.js"
+        ],
+        "useCase": "适用于希望在 Google Cloud 上快速构建、评估和部署企业级 AI 智能体的开发者。",
+        "useCase_en": "To empower coding assistants with the skills and commands needed to build, scale, and govern AI agents on Google Cloud."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "roboflow/supervision",
+      "description": "We write your reusable computer vision tools. 💜",
+      "language": "Python",
+      "stars": 45897,
+      "forks": 4071,
+      "todayStars": 309,
+      "url": "https://github.com/roboflow/supervision",
+      "aiSummary": {
+        "summary": "Roboflow Supervision 是一个 Python 计算机视觉工具包，旨在提供可复用的构建模块。它支持模型无关的架构，能够轻松集成 Ultralytics、Transformers 等主流库。项目提供丰富的标注器和可视化工具，帮助开发者从数据加载到实时区域计数，专注于应用层的开发。",
+        "summary_en": "A Python toolkit for building computer vision applications with model connectors and annotators.",
+        "techStack": [
+          "Python",
+          "OpenCV",
+          "Pillow"
+        ],
+        "useCase": "适用于需要快速集成计算机视觉模型并进行结果可视化的开发场景。",
+        "useCase_en": "Use this library to visualize detection results and integrate with various AI models for computer vision tasks."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "ogulcancelik/herdr",
+      "description": "agent multiplexer that lives in your terminal.",
+      "language": "Rust",
+      "stars": 8994,
+      "forks": 538,
+      "todayStars": 486,
+      "url": "https://github.com/ogulcancelik/herdr",
+      "aiSummary": {
+        "summary": "Herdr 是一个用 Rust 编写的终端 Agent 多路复用器，旨在在一个窗口中管理和可视化多个 AI 编码 Agent。它提供真实的终端视图、状态指示（阻塞/工作/完成）以及类似 tmux 的窗格管理。支持 SSH、持久会话和脚本化 API，专为开发者优化。",
+        "summary_en": "A Rust-based terminal multiplexer for managing coding agents with real terminals and state tracking.",
+        "techStack": [
+          "Rust",
+          "Terminal/TUI",
+          "Socket API"
+        ],
+        "useCase": "在本地或远程服务器上同时运行和管理多个 AI 编码助手。",
+        "useCase_en": "Run and monitor multiple coding agents in a single terminal with real terminal views and state tracking."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "simplex-chat/simplex-chat",
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "language": "Haskell",
+      "stars": 17322,
+      "forks": 1007,
+      "todayStars": 1235,
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "aiSummary": {
+        "summary": "SimpleX Chat 是一款基于 Haskell 开发的隐私优先通讯应用。它采用无用户标识符的设计，提供 100% 的端到端加密，保护消息内容和元数据。支持 iOS、Android 以及桌面端（Linux、macOS、Windows）的终端应用，旨在实现完全私密的即时通讯体验。",
+        "summary_en": "A privacy-first messaging network built in Haskell that operates without user identifiers.",
+        "techStack": [
+          "Haskell"
+        ],
+        "useCase": "隐私优先的即时通讯",
+        "useCase_en": "A private messaging network for mobile and desktop users that protects metadata."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "CoreBunch/Instatic",
+      "description": "Instatic is a modern self-hosted visual CMS - get it running in 1 minute",
+      "language": "TypeScript",
+      "stars": 1513,
+      "forks": 137,
+      "todayStars": 351,
+      "url": "https://github.com/CoreBunch/Instatic",
+      "aiSummary": {
+        "summary": "Instatic 是一个基于 Bun 服务器的现代自托管可视化 CMS。它集成了编辑器、内容引擎和发布功能，支持 SQLite 或 Postgres 数据库。其核心优势在于生成的页面是纯净的语义 HTML 和 CSS，无框架运行时，加载速度快。支持一键部署，适合快速搭建个人博客、作品集或小型商业网站。",
+        "summary_en": "A self-hosted visual CMS built with Bun and TypeScript that outputs clean, semantic HTML.",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "SQLite",
+          "Postgres"
+        ],
+        "useCase": "适合需要自托管且追求纯净 HTML 输出的个人博客、作品集或小型商业网站。",
+        "useCase_en": "Building a blog, portfolio, or small business website using a visual editor."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "microsoft/AI-For-Beginners",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "language": "Jupyter Notebook",
+      "stars": 49339,
+      "forks": 10159,
+      "todayStars": 252,
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "aiSummary": {
+        "summary": "这是一个由微软提供的面向初学者的 12 周 AI 入门课程，包含 24 节课。课程涵盖 AI 基础、机器学习、深度学习等内容，使用 Jupyter Notebook 进行实践。课程支持多语言翻译，包含测验和实验，旨在帮助初学者探索 AI 世界并掌握 TensorFlow 和 PyTorch 等工具。",
+        "summary_en": "A beginner-friendly 12-week curriculum for learning AI with Jupyter Notebooks, covering TensorFlow, PyTorch, and ethics.",
+        "techStack": [
+          "Jupyter Notebook",
+          "TensorFlow",
+          "PyTorch"
+        ],
+        "useCase": "适合零基础人员系统学习人工智能理论与实战。",
+        "useCase_en": "A comprehensive educational resource for beginners to learn AI fundamentals using practical labs and quizzes."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "facebook/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars": 1749,
+      "forks": 95,
+      "todayStars": 364,
+      "url": "https://github.com/facebook/astryx",
+      "aiSummary": {
+        "summary": "Meta 内部开源设计系统，基于 React 和 StyleX。提供 150+ 可访问组件及暗黑模式。核心优势在于“面向代理”，支持无构建插件集成，允许通过 CSS 变量自定义主题，且不锁定样式，方便人类和 AI 助手协作开发。",
+        "summary_en": "An open-source, customizable React design system built on StyleX, designed for human and AI collaboration.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "StyleX"
+        ],
+        "useCase": "适用于需要高度可定制、无样式锁定且支持 AI 协作开发的企业级 Web 应用。",
+        "useCase_en": "Build accessible, customizable web applications using a React design system that supports both human and AI developers."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "stars": 15779,
+      "forks": 2733,
+      "todayStars": 721,
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "aiSummary": {
+        "summary": "Vibe-Trading 是一个基于 Python 的个人交易代理，旨在通过一条命令赋予代理全面的交易能力。它支持多种消息适配器（如 Telegram、Discord 等）进行 IM 交互，提供 CLI、REST API 和 Web UI 管理界面。项目集成了安全机制（如预交易咨询接口）和多个经纪商连接器（如 Trading 212），支持只读账户查看，旨在为用户提供安全、智能的自动化交易体验。",
+        "summary_en": "A Python-based personal trading agent featuring multi-channel support, safety guards, and broker connectors.",
+        "techStack": [
+          "Python",
+          "MCP (Model Context Protocol)",
+          "REST API",
+          "Web UI"
+        ],
+        "useCase": "适合需要通过多渠道（IM、邮件等）进行交互，并希望利用 AI 代理进行自动化交易或市场研究的个人或团队。",
+        "useCase_en": "To empower users with a personal trading agent capable of managing trades across multiple brokers and communication plat"
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 242479,
+      "forks": 21519,
+      "todayStars": 890,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个面向 AI 编码代理的软件开发方法论框架。它通过一套可组合的技能，引导代理从需求分析、规范拆解到自主子代理开发的全流程。强调 TDD、YAGNI 和 DRY 原则，旨在让 AI 代理具备自主编写高质量代码的能力。",
+        "summary_en": "A framework for autonomous software development using coding agents and composable skills.",
+        "techStack": [
+          "Shell",
+          "AI Agent"
+        ],
+        "useCase": "自动化软件开发流程，利用 AI 代理自主完成从需求分析到代码实现的任务。",
+        "useCase_en": "To provide a structured methodology for autonomous software development using coding agents."
+      }
+    },
+    {
+      "index": 18,
+      "fullName": "Robbyant/lingbot-map",
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "language": "Python",
+      "stars": 8857,
+      "forks": 859,
+      "todayStars": 189,
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "aiSummary": {
+        "summary": "LingBot-Map 是一个用于流式 3D 重建的前馈 3D 基础模型。它通过几何上下文 Transformer 统一了坐标锚定、几何线索和漂移校正。该模型支持高效推理（约 20 FPS）和长序列处理（超 10,000 帧），在 KITTI 和 Oxford Spires 等基准测试中表现优于现有方法。",
+        "summary_en": "A feed-forward 3D foundation model for streaming scene reconstruction using a Geometric Context Transformer.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "FlashInfer"
+        ],
+        "useCase": "适用于自动驾驶和视频流处理的 3D 场景重建",
+        "useCase_en": "Real-time 3D scene reconstruction from streaming video data."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-01T00:18:22.861Z",
+    "duration": "395s",
+    "version": "1.0.0"
+  }
+}
