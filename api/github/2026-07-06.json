@@ -1,0 +1,353 @@
+{
+  "date": "2026-07-06",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "language": "JavaScript",
+      "stars": 51484,
+      "forks": 8392,
+      "todayStars": 1378,
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "aiSummary": {
+        "summary": "该项目致力于收集并公开 Anthropic、OpenAI、Google、xAI 等主流 AI 模型的系统提示词。它详细记录了 Claude、ChatGPT、Gemini、Grok 等产品的底层指令，并提供版本更新与差异对比，帮助开发者了解 AI 的行为规则。",
+        "summary_en": "Collection of leaked system prompts for major AI models like Claude, ChatGPT, and Gemini.",
+        "techStack": [
+          "JavaScript",
+          "Markdown",
+          "CC0-1.0 License"
+        ],
+        "useCase": "适用于 AI 安全研究人员、开发者及安全专家，用于研究 AI 模型的底层行为、限制及安全边界。",
+        "useCase_en": "Researchers and developers analyze the hidden instructions and behaviors of various AI models."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "stars": 70771,
+      "forks": 7671,
+      "todayStars": 1112,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供生产级工程技能，将资深工程师的工作流、质量门控和最佳实践封装成技能。包含 8 个斜杠命令覆盖全生命周期开发，支持自动生成计划和测试驱动开发，适用于 Claude Code、Cursor 等多种 AI 编码工具。",
+        "summary_en": "A collection of production-grade engineering workflows and best practices for AI coding agents.",
+        "techStack": [
+          "Shell",
+          "AI Agents",
+          "CLI"
+        ],
+        "useCase": "为 AI 编码代理提供标准化的工程工作流与最佳实践，提升代码质量与开发效率。",
+        "useCase_en": "To enforce production-grade engineering workflows and best practices across AI coding agents."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "Zackriya-Solutions/meetily",
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
+      "language": "Rust",
+      "stars": 19331,
+      "forks": 1964,
+      "todayStars": 2494,
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "aiSummary": {
+        "summary": "Meetily 是一款基于 Rust 的隐私优先 AI 会议助手，支持实时转录、说话人分离和 Ollama 总结。它完全在本地运行，无需云端，确保数据主权，适合需要数据安全和合规的企业及个人用户。",
+        "summary_en": "Rust-based local AI meeting assistant for privacy-focused transcription and summarization.",
+        "techStack": [
+          "Rust",
+          "Parakeet/Whisper",
+          "Ollama"
+        ],
+        "useCase": "适合对数据隐私要求高、需要本地化部署的企业及个人用户。",
+        "useCase_en": "Self-hosted meeting transcription and summarization for privacy-conscious users."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 77499,
+      "forks": 10406,
+      "todayStars": 470,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 开发的 WiFi 传感平台，利用信道状态信息（CSI）将普通 WiFi 信号转化为空间智能。它能在无摄像头、无穿戴设备的情况下，穿透墙壁检测人体存在、呼吸心率、活动状态及睡眠质量，并支持与 Home Assistant、Apple Home 等主流智能家居生态无缝集成。",
+        "summary_en": "Rust-based WiFi sensing platform turning radio signals into spatial intelligence for presence detection and vital sign monitoring.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "MQTT"
+        ],
+        "useCase": "无摄像头智能家居存在感监测与生命体征追踪",
+        "useCase_en": "Turn ordinary WiFi into a spatial intelligence system to detect presence, vitals, and activity through walls without cam"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "language": "JavaScript",
+      "stars": 58896,
+      "forks": 4012,
+      "todayStars": 1458,
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "aiSummary": {
+        "summary": "Taste-Skill 是一个为 AI 代理设计的“反垃圾”前端框架，旨在提升 AI 生成的界面质量。它提供可移植的技能包，包含增强的布局、排版和动画设计，帮助 AI 避免生成枯燥的通用 UI。项目还包含图像生成技能，可与 ChatGPT Images 等工具配合使用，生成设计参考板，最终由 Codex 或 Claude Code 等代码生成器实现。",
+        "summary_en": "A JavaScript framework providing design skills to upgrade AI-generated interfaces and prevent generic output.",
+        "techStack": [
+          "JavaScript",
+          "Markdown",
+          "Node.js"
+        ],
+        "useCase": "为 AI 代理提供高质量的前端设计参考，辅助生成美观的 Web 或移动端界面代码。",
+        "useCase_en": "Enhance AI coding workflows by providing design standards and reference boards for frontend implementation."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "alirezarezvani/claude-skills",
+      "description": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "language": "Python",
+      "stars": 21135,
+      "forks": 2840,
+      "todayStars": 610,
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "aiSummary": {
+        "summary": "这是一个为13个AI编程工具提供355+生产就绪技能、插件和代理技能的开源库。包含602个Python CLI脚本和711个参考模板，涵盖工程、营销、合规、研究等多个领域，支持Claude Code、Cursor等主流工具。",
+        "summary_en": "A comprehensive library of 355+ production-ready skills and plugins for 13 AI coding agents.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "Markdown"
+        ],
+        "useCase": "为AI编程助手提供领域专业知识，提升代码生成、文档编写及跨领域业务流程自动化能力。",
+        "useCase_en": "To provide modular domain expertise and automation tools for developers using 13 different AI coding agents."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "openai/codex-plugin-cc",
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "language": "JavaScript",
+      "stars": 26263,
+      "forks": 1573,
+      "todayStars": 906,
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 用户设计的插件，允许在 Claude 工作流中直接调用 Codex 进行代码审查和任务委托。支持常规审查、对抗性审查及后台任务管理，需 Node.js 18.18+ 环境。",
+        "summary_en": "Integrates OpenAI Codex into Claude Code for code reviews and task delegation.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "OpenAI API"
+        ],
+        "useCase": "适用于希望在 Claude Code 环境中集成 Codex 进行自动化代码审查和任务处理的开发者。",
+        "useCase_en": "Allows Claude Code users to leverage OpenAI Codex for code reviews and task delegation."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 49724,
+      "forks": 4145,
+      "todayStars": 458,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 AI agent skill，能够跨 Reddit、X、YouTube、HN、Polymarket 和全网搜索任意主题。它通过点赞、观看量及真实资金投入等真实互动数据进行评分，并由 AI 代理综合生成总结。旨在替代传统编辑筛选，提供基于大众关注度和市场资金的搜索结果。",
+        "summary_en": "An AI agent skill that aggregates and synthesizes data from Reddit, X, YouTube, and Polymarket based on real-time engagement.",
+        "techStack": [
+          "Python",
+          "AI Agent",
+          "Web Scraping"
+        ],
+        "useCase": "快速获取跨多平台的最新热点话题及深度总结。",
+        "useCase_en": "Research any topic across Reddit, X, YouTube, and Polymarket to synthesize a grounded summary based on real-time engagem"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "ogulcancelik/herdr",
+      "description": "agent multiplexer that lives in your terminal.",
+      "language": "Rust",
+      "stars": 12855,
+      "forks": 746,
+      "todayStars": 779,
+      "url": "https://github.com/ogulcancelik/herdr",
+      "aiSummary": {
+        "summary": "Herdr 是一个运行在终端内的多路复用器，用于统一管理所有编码代理。它提供真实的终端视图，支持状态可视化（阻塞/工作/完成），并具备类似 tmux 的分屏、标签页和持久化会话功能。支持 SSH 远程连接，无 GUI 依赖，轻量级且可脚本化。",
+        "summary_en": "A Rust terminal multiplexer for managing coding agents with real terminals and state tracking.",
+        "techStack": [
+          "Rust",
+          "Socket API",
+          "CLI"
+        ],
+        "useCase": "需要在单终端窗口中高效管理和监控多个 AI 编码代理的开发者。",
+        "useCase_en": "Manage multiple coding agents in a single terminal window with real terminal views and state tracking."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "bradautomates/claude-video",
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "language": "Python",
+      "stars": 4210,
+      "forks": 603,
+      "todayStars": 427,
+      "url": "https://github.com/bradautomates/claude-video",
+      "aiSummary": {
+        "summary": "该项目通过下载、提取帧和转录音频，赋予 Claude AI 观看视频的能力。支持零配置安装，自动处理字幕或调用 Whisper API。用户可利用它分析视频内容、诊断 Bug 或研究竞争对手策略。",
+        "summary_en": "A Python plugin enabling Claude to watch, analyze, and answer questions about videos by extracting frames and transcribing audio.",
+        "techStack": [
+          "Python",
+          "Claude AI",
+          "yt-dlp",
+          "ffmpeg",
+          "Whisper API"
+        ],
+        "useCase": "分析视频内容、诊断 Bug 或研究竞争对手策略",
+        "useCase_en": "Allows users to analyze video content or diagnose bugs by having Claude watch, transcribe, and read frames of the media."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "karakeep-app/karakeep",
+      "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
+      "language": "TypeScript",
+      "stars": 26879,
+      "forks": 1319,
+      "todayStars": 199,
+      "url": "https://github.com/karakeep-app/karakeep",
+      "aiSummary": {
+        "summary": "Karakeep 是一款自托管的书签与笔记应用，支持链接、图片及 PDF。核心特色是利用 AI（LLM）自动生成标签、摘要及全文搜索，并支持本地模型。功能涵盖 OCR、浏览器插件、移动端、RSS 摘要、视频归档及防链接失效的完整页面归档，适合数据囤积者进行知识管理与协作。",
+        "summary_en": "A self-hostable bookmark manager with AI-powered tagging and full-text search.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Node.js",
+          "PostgreSQL",
+          "Ollama"
+        ],
+        "useCase": "适合个人或团队进行知识管理、数据囤积及高效整理网络资源。",
+        "useCase_en": "A self-hosted solution for organizing bookmarks, notes, and media with AI-driven tagging and search."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "firecrawl/firecrawl",
+      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "language": "TypeScript",
+      "stars": 146226,
+      "forks": 8411,
+      "todayStars": 867,
+      "url": "https://github.com/firecrawl/firecrawl",
+      "aiSummary": {
+        "summary": "Firecrawl 是一个用于大规模搜索、抓取和与网络交互的 API。它将网页内容转换为干净的 Markdown 或结构化数据，专为 AI 应用设计。项目覆盖 96% 的网络，支持 JS 页面抓取，具备代理集成、媒体解析及交互功能，提供开源和托管服务，旨在简化 AI 应用的数据获取流程。",
+        "summary_en": "A scalable API for searching, scraping, and interacting with the web to generate LLM-ready data.",
+        "techStack": [
+          "TypeScript",
+          "Python"
+        ],
+        "useCase": "AI 应用数据获取、网页爬取与实时代理",
+        "useCase_en": "Extracting clean markdown and structured data from websites for AI applications."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "steipete/CodexBar",
+      "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+      "language": "Swift",
+      "stars": 16723,
+      "forks": 1375,
+      "todayStars": 598,
+      "url": "https://github.com/steipete/CodexBar",
+      "aiSummary": {
+        "summary": "CodexBar 是一款 macOS 菜单栏应用，专为追踪多种 AI 编码工具（如 OpenAI、Claude、Copilot 等）的使用配额、重置时间和成本而设计。它支持多种接入方式，无需存储密码，帮助开发者规划任务并监控余额。",
+        "summary_en": "A macOS menu bar app that tracks usage stats for various AI coding providers without requiring login.",
+        "techStack": [
+          "Swift",
+          "macOS"
+        ],
+        "useCase": "适用于需要同时监控多个 AI 编码助手配额与成本的 macOS 开发者。",
+        "useCase_en": "Monitor AI coding limits and credits across multiple providers directly from the macOS menu bar."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "alibaba/zvec",
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "language": "C++",
+      "stars": 13492,
+      "forks": 823,
+      "todayStars": 382,
+      "url": "https://github.com/alibaba/zvec",
+      "aiSummary": {
+        "summary": "Zvec 是阿里巴巴开源的轻量级、极速的进程内向量数据库。支持稠密与稀疏向量、原生全文搜索及混合检索。具备 DiskANN 索引、WAL 持久化及多读单写并发机制，专为嵌入式应用设计，无需外部服务器即可实现毫秒级大规模相似性搜索。",
+        "summary_en": "Alibaba's high-performance in-process vector database featuring hybrid retrieval, full-text search, and disk-based indexing.",
+        "techStack": [
+          "C++",
+          "向量数据库",
+          "DiskANN",
+          "全文搜索"
+        ],
+        "useCase": "适用于需要高性能、低延迟相似性搜索的嵌入式应用场景，如 RAG、推荐系统和语义搜索。",
+        "useCase_en": "Embed a production-grade vector database into applications for low-latency similarity search and hybrid retrieval."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "sindresorhus/awesome",
+      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "language": "",
+      "stars": 482275,
+      "forks": 35736,
+      "todayStars": 345,
+      "url": "https://github.com/sindresorhus/awesome",
+      "aiSummary": {
+        "summary": "这是一个汇集了各类主题精选资源列表的集合，涵盖了平台、编程语言、前后端开发、大数据、安全、硬件等广泛领域。它旨在作为发现优质项目和学习资源的综合目录，帮助开发者高效获取相关领域的知识。",
+        "summary_en": "A curated collection of awesome lists covering various topics like programming, platforms, and development tools.",
+        "techStack": [
+          "Markdown",
+          "GitHub"
+        ],
+        "useCase": "用于发现和学习各类技术主题的优质资源与工具。",
+        "useCase_en": "A comprehensive resource for finding curated lists of tools, libraries, and resources across various development topics."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "gastownhall/gastown",
+      "description": "Gas Town - multi-agent workspace manager",
+      "language": "Go",
+      "stars": 16682,
+      "forks": 1538,
+      "todayStars": 291,
+      "url": "https://github.com/gastownhall/gastown",
+      "aiSummary": {
+        "summary": "Gas Town 是一个用 Go 编写的多智能体工作区管理器，旨在协调 Claude Code、Copilot 等 AI 编码智能体。它通过 git-backed hooks 持久化工作状态，解决智能体重启丢失上下文的问题，内置邮箱和交接机制，支持管理 20-30 个智能体，实现可靠的协作。",
+        "summary_en": "A Go-based multi-agent workspace manager for coordinating AI coding agents with persistent state.",
+        "techStack": [
+          "Go",
+          "Claude Code",
+          "GitHub Copilot",
+          "Git"
+        ],
+        "useCase": "适用于需要管理多个 AI 编码智能体协作、防止上下文丢失的复杂开发场景。",
+        "useCase_en": "Coordinate multiple AI coding agents across different projects while maintaining persistent context and state."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-07T00:17:28.929Z",
+    "duration": "276s",
+    "version": "1.0.0"
+  }
+}
