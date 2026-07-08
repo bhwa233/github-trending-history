@@ -10,7 +10,6 @@ import {
 import { DEFAULT_LOCALE, isLocale, type SiteLocale } from '@/i18n/config';
 import { getMessages } from '@/i18n/messages';
 
-export const revalidate = 3600;
 
 interface LanguagesPageProps {
   params: Promise<{ locale: string }>;

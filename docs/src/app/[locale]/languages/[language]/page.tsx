@@ -13,7 +13,7 @@ import {
 import { DEFAULT_LOCALE, isLocale, LOCALES, type SiteLocale } from '@/i18n/config';
 import { getMessages } from '@/i18n/messages';
 
-export const revalidate = 3600;
+export const dynamicParams = false;
 
 interface LanguagePageProps {
   params: Promise<{ locale: string; language: string }>;

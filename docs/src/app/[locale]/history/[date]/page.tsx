@@ -11,7 +11,7 @@ import { DEFAULT_LOCALE, isLocale, LOCALES, type SiteLocale } from '@/i18n/confi
 import { getMessages } from '@/i18n/messages';
 import { formatDisplayDate } from '@/i18n/format';
 
-export const revalidate = 3600;
+export const dynamicParams = false;
 
 interface HotsProps {
   params: Promise<{ locale: string; date: string }>;

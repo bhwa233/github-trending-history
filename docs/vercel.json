@@ -1,10 +1,4 @@
 {
-    "functions": {
-        "pages/**/*": {
-            "maxDuration": 60,
-            "excludeFiles": "{api,archives,node_modules,.next}/**"
-        }
-    },
     "headers": [
         {
             "source": "/(.*)",
@@ -58,8 +52,13 @@
     "rewrites": [],
     "redirects": [
         {
+            "source": "/",
+            "destination": "/zh-CN",
+            "permanent": false
+        },
+        {
             "source": "/hots",
-            "destination": "/",
+            "destination": "/zh-CN",
             "permanent": false
         }
     ]

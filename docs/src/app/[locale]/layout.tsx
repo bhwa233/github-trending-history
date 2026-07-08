@@ -25,6 +25,8 @@ export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
 }
 
+export const dynamicParams = false;
+
 export async function generateMetadata(props: LocaleLayoutProps): Promise<Metadata> {
   const { locale: localeParam } = await props.params;
   const locale = isLocale(localeParam) ? localeParam : DEFAULT_LOCALE;

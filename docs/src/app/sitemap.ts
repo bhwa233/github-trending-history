@@ -4,7 +4,7 @@ import { getAvailableDates, getBaseUrl, getLanguageSlug, getLatestAvailableData,
 import { LOCALES } from '@/i18n/config';
 import { getTopicStats } from '@/lib/topic-taxonomy';
 
-export const revalidate = 3600;
+export const dynamic = 'force-static';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = getBaseUrl();

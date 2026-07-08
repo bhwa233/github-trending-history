@@ -12,7 +12,7 @@ import {
   getTopicStats,
 } from '@/lib/topic-taxonomy';
 
-export const revalidate = 3600;
+export const dynamicParams = false;
 
 interface TopicPageProps {
   params: Promise<{ locale: string; topic: string }>;

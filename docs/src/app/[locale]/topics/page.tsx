@@ -6,7 +6,6 @@ import { getMessages } from '@/i18n/messages';
 import { DEFAULT_LOCALE, isLocale, type SiteLocale } from '@/i18n/config';
 import { getTopicLocalizedDescription, getTopicLocalizedName, getTopicStats } from '@/lib/topic-taxonomy';
 
-export const revalidate = 3600;
 
 interface TopicsPageProps {
   params: Promise<{ locale: string }>;
