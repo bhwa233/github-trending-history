@@ -1,0 +1,360 @@
+{
+  "date": "2026-07-12",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 16,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Dicklesworthstone/destructive_command_guard",
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "language": "Rust",
+      "stars": 2845,
+      "forks": 107,
+      "todayStars": 444,
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "aiSummary": {
+        "summary": "DCG 是一个用 Rust 编写的高性能钩子，用于阻止 AI 编码代理执行危险的 git 和 shell 命令。它支持 Claude Code、Copilot、Cursor 等多种工具，保护用户工作免受意外删除，提供跨平台（Linux/macOS/Windows）的自动安装和配置。",
+        "summary_en": "Rust-based security guard for AI coding agents that blocks destructive commands.",
+        "techStack": [
+          "Rust",
+          "Shell",
+          "Git"
+        ],
+        "useCase": "保护使用 AI 编码助手（如 Claude、Copilot）的开发者免受意外删除或破坏性操作。",
+        "useCase_en": "Prevents accidental data loss in AI coding environments by blocking dangerous git and shell commands."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "wonderwhy-er/DesktopCommanderMCP",
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "language": "TypeScript",
+      "stars": 7973,
+      "forks": 985,
+      "todayStars": 207,
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "aiSummary": {
+        "summary": "这是一个基于 TypeScript 的 MCP 服务器，旨在为 Claude 等大模型提供终端控制、文件系统搜索和 diff 编辑能力。它支持远程 AI 控制、文件预览 UI、内存中代码执行及数据分析，让 AI 能够自动化桌面任务和开发流程。",
+        "summary_en": "TypeScript MCP server enabling AI-driven terminal control and file management.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "适合需要通过大模型直接控制本地终端、文件系统及自动化开发任务的开发者。",
+        "useCase_en": "Automate development tasks and manage files using AI models via the Model Context Protocol."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "stars": 20520,
+      "forks": 3594,
+      "todayStars": 776,
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "aiSummary": {
+        "summary": "Vibe-Trading 是一个基于 Python 的个人交易代理，旨在通过一条命令赋予用户全面的交易能力。它集成了策略开发管理器，能将学术论文和经纪商研究转化为可注册的策略，并具备持久化存储和自动监控 IC/夏普比率衰减的功能。项目支持多市场回测、基本面因子分析及计划研究，提供端到端的量化交易解决方案。",
+        "summary_en": "AI-powered Python trading framework enabling strategy development, backtesting, and automated research.",
+        "techStack": [
+          "Python",
+          "MCP (Model Context Protocol)",
+          "LLM (OpenAI Compatible)",
+          "OHLCV"
+        ],
+        "useCase": "量化交易策略开发、回测与自动化研究",
+        "useCase_en": "A personal trading agent that transforms academic research and market data into actionable trading strategies."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "PrefectHQ/prefect",
+      "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+      "language": "Python",
+      "stars": 23135,
+      "forks": 2390,
+      "todayStars": 55,
+      "url": "https://github.com/PrefectHQ/prefect",
+      "aiSummary": {
+        "summary": "Prefect 是一个基于 Python 的工作流编排框架，用于构建弹性数据管道。它允许开发者通过简单的装饰器将脚本转化为生产级工作流，支持调度、缓存、重试和事件驱动自动化。提供自托管服务器或 Prefect Cloud 进行监控，帮助数据团队高效自动化数据流程。",
+        "summary_en": "Prefect is a Python workflow orchestration framework for building resilient data pipelines.",
+        "techStack": [
+          "Python",
+          "Prefect Framework",
+          "HTTP Client"
+        ],
+        "useCase": "适用于构建和编排生产级 Python 数据管道及自动化工作流。",
+        "useCase_en": "Elevate scripts into production workflows by building resilient data pipelines."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "language": "Python",
+      "stars": 118501,
+      "forks": 17623,
+      "todayStars": 450,
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "aiSummary": {
+        "summary": "该项目汇集了100多个经过测试的AI Agent和RAG应用模板，提供完整的源代码和快速启动指南。支持多种大模型提供商，开发者无需从零构建基础架构，即可通过简单的命令快速定制并部署生产级LLM应用。",
+        "summary_en": "A curated collection of 100+ production-ready AI Agent and RAG templates for rapid development.",
+        "techStack": [
+          "Python",
+          "AI Agents",
+          "RAG",
+          "MCP",
+          "Streamlit"
+        ],
+        "useCase": "快速构建和部署生产级AI Agent及RAG应用。",
+        "useCase_en": "To provide developers with ready-to-run templates for building AI agents and RAG applications quickly."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "stars": 48382,
+      "forks": 5725,
+      "todayStars": 464,
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "aiSummary": {
+        "summary": "这是一个由 Anthropic 提供的 Jupyter Notebook 项目，旨在帮助开发者构建 Claude 应用。它包含大量可复用的代码片段和教程，涵盖了分类、RAG、总结、工具调用、多模态视觉等核心能力，以及与第三方工具（如 Pinecone、SQL）的集成示例。",
+        "summary_en": "A collection of Jupyter notebooks providing code snippets and guides for developers building with Claude.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "Claude API"
+        ],
+        "useCase": "适合希望快速上手 Claude API 开发 AI 应用的开发者，用于学习 RAG、工具调用、多模态等具体实现方案。",
+        "useCase_en": "To demonstrate effective techniques and provide copy-able code for building applications with Claude."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "home-assistant/core",
+      "description": "🏡 Open source home automation that puts local control and privacy first.",
+      "language": "Python",
+      "stars": 89043,
+      "forks": 38080,
+      "todayStars": 404,
+      "url": "https://github.com/home-assistant/core",
+      "aiSummary": {
+        "summary": "Home Assistant 是一个开源家庭自动化平台，优先保障本地控制与隐私安全。它由全球社区驱动，支持在树莓派或本地服务器上运行。系统采用模块化架构，易于扩展和集成新设备，允许用户创建自定义组件，非常适合 DIY 爱好者。",
+        "summary_en": "Open source home automation platform prioritizing local control and privacy.",
+        "techStack": [
+          "Python",
+          "模块化架构",
+          "组件系统"
+        ],
+        "useCase": "家庭自动化、DIY 智能家居项目、本地服务器部署",
+        "useCase_en": "Automate home devices locally with a privacy-focused open-source platform."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "stars": 33788,
+      "forks": 3388,
+      "todayStars": 122,
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "aiSummary": {
+        "summary": "Project N.O.M.A.D. 是一个基于 Docker 的自包含离线生存服务器，集成了关键工具、知识和 AI。它通过浏览器访问，无需桌面环境，旨在帮助用户在任何时间、任何地点保持信息获取和生存能力。",
+        "summary_en": "Offline-first knowledge server and survival tool suite managed via a web interface.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Debian/Ubuntu"
+        ],
+        "useCase": "适用于离线环境下的信息存储、知识管理和生存工具部署。",
+        "useCase_en": "To provide a self-contained, offline environment for critical tools and AI knowledge."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "ColeMurray/background-agents",
+      "description": "An open-source background agents coding system",
+      "language": "TypeScript",
+      "stars": 2251,
+      "forks": 342,
+      "todayStars": 9,
+      "url": "https://github.com/ColeMurray/background-agents",
+      "aiSummary": {
+        "summary": "这是一个开源的背景代理编码系统，灵感来自 Ramp 的 Inspect。它允许用户在后台处理任务，支持 Node.js、Python 等全功能开发环境，并能通过 Web UI、Slack 等多种方式连接。系统支持多人实时协作、并行子任务、定时任务及多种 AI 模型（如 Claude、OpenAI）。基于 GitHub App 进行 Git 操作，确保 PR 创建时的用户归属。",
+        "summary_en": "An open-source background coding agent system inspired by Ramp's Inspect, enabling AI-powered development tasks in full dev environments with multi-channel access.",
+        "techStack": [
+          "TypeScript",
+          "GitHub App",
+          "Anthropic Claude",
+          "OpenAI Codex"
+        ],
+        "useCase": "适合需要自动化代码审查、后台任务处理或多人协作开发的企业或团队。",
+        "useCase_en": "Run AI-powered coding tasks and automations in the background using full development environments."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "k1tbyte/Wand-Enhancer",
+      "description": "Advanced UX and interoperability extension for Wand (WeMod) app",
+      "language": "C#",
+      "stars": 6934,
+      "forks": 19447,
+      "todayStars": 603,
+      "url": "https://github.com/k1tbyte/Wand-Enhancer",
+      "aiSummary": {
+        "summary": "Wand-Enhancer 是一个 C# 开源工具，旨在扩展 Wand (WeMod) 的 UX 和互操作性。它提供本地配置管理、自动兼容性调整、高级主题定制及 AI 功能。内置远程 Web 面板支持手机控制，且完全本地运行，零网络请求，安全可靠。",
+        "summary_en": "An open-source C# tool that extends the Wand (WeMod) application with advanced UX, AI features, and a remote web panel for local configuration management.",
+        "techStack": [
+          "C#"
+        ],
+        "useCase": "用于增强 WeMod 应用体验，提供本地配置管理与远程手机控制功能。",
+        "useCase_en": "Wand (WeMod) users can enhance their experience with advanced customization, AI features, and remote control capabilitie"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 13738,
+      "forks": 2889,
+      "todayStars": 79,
+      "url": "https://github.com/pingdotgg/t3code",
+      "aiSummary": {
+        "summary": "T3 Code 是一个极简的 Web 界面，旨在统一管理 Codex、Claude、Cursor 和 OpenCode 等编码代理。它支持通过 CLI 或桌面应用运行，为开发者提供了一个集中式的代码生成与交互平台。目前项目处于早期阶段，暂不接受外部贡献。",
+        "summary_en": "T3 Code is a minimal web GUI designed to manage and interact with AI coding agents such as Codex, Claude, Cursor, and OpenCode.",
+        "techStack": [
+          "TypeScript",
+          "Vite"
+        ],
+        "useCase": "为开发者提供统一的 Web 界面，集中管理和使用多个 AI 编码工具。",
+        "useCase_en": "It provides a minimal web graphical user interface to interact with AI coding agents like Codex, Claude, and Cursor."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars": 61381,
+      "forks": 10855,
+      "todayStars": 109,
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 AI 对冲基金概念验证项目。旨在探索 AI 在交易决策中的应用。项目正在重构为全天候系统，集成了多位知名投资大师（如巴菲特、格雷厄姆、伍德等）的策略代理及技术分析代理。目前仅供教育研究，不用于真实交易。",
+        "summary_en": "A Python-based proof of concept for an AI-powered hedge fund featuring multiple investing agent personas for trading decisions.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "人工智能交易策略的教育研究、投资代理系统开发的概念验证",
+        "useCase_en": "An educational proof of concept for an AI-driven hedge fund using multiple investing agent personas to generate trading "
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "chen08209/FlClash",
+      "description": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
+      "language": "Dart",
+      "stars": 45206,
+      "forks": 2853,
+      "todayStars": 151,
+      "url": "https://github.com/chen08209/FlClash",
+      "aiSummary": {
+        "summary": "FlClash 是一个基于 ClashMeta 的开源、无广告多平台代理客户端。支持 Android、Windows、macOS 和 Linux。采用 Material You 设计风格，提供自适应界面、多主题、暗黑模式及 WebDAV 数据同步功能，旨在提供简单易用的代理体验。",
+        "summary_en": "A multi-platform proxy client based on ClashMeta, offering a simple, ad-free experience.",
+        "techStack": [
+          "Dart",
+          "Flutter",
+          "ClashMeta"
+        ],
+        "useCase": "需要在 Android 或桌面端使用 ClashMeta 代理服务的用户。",
+        "useCase_en": "A simple, ad-free proxy client for bypassing internet censorship on Android, Windows, macOS, and Linux."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "stars": 29228,
+      "forks": 3203,
+      "todayStars": 274,
+      "url": "https://github.com/davila7/claude-code-templates",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 14,
+      "fullName": "par274/sharpemu",
+      "description": "An experimental PlayStation 5 emulator project.",
+      "language": "C#",
+      "stars": 1238,
+      "forks": 75,
+      "todayStars": 349,
+      "url": "https://github.com/par274/sharpemu",
+      "aiSummary": {
+        "summary": "这是一个使用 C# 从零开始开发的实验性 PlayStation 5 模拟器。目前处于早期阶段，主要针对 Windows 平台。它具备加载 eboot.bin、执行 CPU 指令、处理部分内核功能以及读取元数据的能力。Demon's Souls 等游戏已能运行至视频循环阶段。项目专注于系统架构研究和教育，旨在实现高精度模拟。",
+        "summary_en": "Experimental PlayStation 5 emulator written in C# for research and educational purposes.",
+        "techStack": [
+          "C#",
+          ".NET",
+          "Windows"
+        ],
+        "useCase": "系统架构研究与逆向工程学习",
+        "useCase_en": "To run PlayStation 5 games on PC for research and educational purposes."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "malisper/pgrust",
+      "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "language": "Rust",
+      "stars": 2449,
+      "forks": 66,
+      "todayStars": 518,
+      "url": "https://github.com/malisper/pgrust",
+      "aiSummary": {
+        "summary": "这是一个使用 Rust 重写的 PostgreSQL 数据库，旨在保持与 PostgreSQL 18.3 的兼容性，目前已通过 100% 的回归测试。它采用每连接一个线程的模型，在事务和分析工作负载上分别比原生 Postgres 快 50% 和 300%。项目利用 Rust 和 AI 辅助编程简化内部修改，但尚未达到生产就绪状态，部分扩展尚不支持。",
+        "summary_en": "A Rust rewrite of PostgreSQL passing 100% of regression tests with performance improvements.",
+        "techStack": [
+          "Rust",
+          "PostgreSQL",
+          "WASM",
+          "Docker"
+        ],
+        "useCase": "高性能数据分析与数据库内核研究实验",
+        "useCase_en": "To explore PostgreSQL internals and improve performance using a Rust rewrite and AI-assisted development."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 4243,
+      "forks": 252,
+      "todayStars": 210,
+      "url": "https://github.com/Nutlope/hallmark",
+      "aiSummary": {
+        "summary": "这是一个专为 Claude Code、Cursor 和 Codex 设计的 AI 技能，旨在拒绝生成平庸的“AI 垃圾”设计。它提供 20 种主题和宏观结构选择，通过 57 项“垃圾测试”确保每个项目都有独特的 DNA。支持 UI 构建、代码审计、重构及设计研究。",
+        "summary_en": "An anti-AI-slop design skill for Claude Code, Cursor, and Codex that generates unique, high-quality UIs.",
+        "techStack": [
+          "CSS",
+          "HTML"
+        ],
+        "useCase": "开发人员希望利用 AI 编码助手生成独特、高质量且非模板化的 UI 设计。",
+        "useCase_en": "Developers use this skill to generate unique, high-quality UI designs that avoid the generic 'AI-slop' look in Claude Co"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-13T00:06:30.118Z",
+    "duration": "418s",
+    "version": "1.0.0"
+  }
+}
