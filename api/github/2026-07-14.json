@@ -1,0 +1,346 @@
+{
+  "date": "2026-07-14",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "1c7/chinese-independent-developer",
+      "description": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么",
+      "language": "Python",
+      "stars": 53422,
+      "forks": 4693,
+      "todayStars": 1194,
+      "url": "https://github.com/1c7/chinese-independent-developer",
+      "aiSummary": {
+        "summary": "这是一个收集中国独立开发者项目的列表，旨在分享大家都在做什么。项目汇集了众多独立开发者的作品，涵盖不同领域，为开发者提供灵感和交流平台。",
+        "summary_en": "A curated list of projects by Chinese independent developers sharing their work and innovations.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "寻找中国独立开发者项目灵感，了解行业动态。",
+        "useCase_en": "A resource for discovering innovative projects developed by independent Chinese developers."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "language": "Python",
+      "stars": 120749,
+      "forks": 17873,
+      "todayStars": 1104,
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "aiSummary": {
+        "summary": "该项目汇集了100+个可实际运行的AI Agent和RAG应用，涵盖博客转播客、数据分析、医疗诊断等多种场景。支持GPT、Claude、Llama等主流大模型，提供Agent Skills和Starter AI Agents两种使用方式，旨在帮助开发者快速克隆、定制并部署AI应用。",
+        "summary_en": "A curated collection of 100+ open-source AI agents and RAG apps ready to run.",
+        "techStack": [
+          "Python",
+          "Streamlit",
+          "NPM",
+          "AI Models (Claude/GPT/Llama)"
+        ],
+        "useCase": "快速构建和部署各类AI应用，如数据分析、播客生成、医疗诊断等。",
+        "useCase_en": "To provide a library of ready-to-run AI agents and RAG apps for developers to clone and customize."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 170185,
+      "forks": 14640,
+      "todayStars": 1864,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude 等编码代理设计的工程技能集，旨在提供真实的工程实践而非“氛围编码”。它包含一系列可组合的 Shell 脚本，支持通过 npx 或 Claude Code 插件安装。安装后可配置 issue tracker（如 GitHub、Linear）和标签系统，帮助开发者高效管理开发流程和文档。",
+        "summary_en": "A collection of engineering skills for AI coding agents to perform real engineering tasks.",
+        "techStack": [
+          "Shell",
+          "JavaScript (Node.js)",
+          "Claude Code"
+        ],
+        "useCase": "适用于需要为 Claude Code 配置标准化工程工作流和开发工具的开发者。",
+        "useCase_en": "Install these skills to help AI agents perform real engineering tasks with issue tracking and documentation management."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Dicklesworthstone/destructive_command_guard",
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "language": "Rust",
+      "stars": 4388,
+      "forks": 164,
+      "todayStars": 481,
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的高性能钩子工具，旨在阻止 AI 编码代理（如 Claude、Copilot 等）执行危险的 git 和 shell 命令，防止意外删除文件，保护开发环境安全。",
+        "summary_en": "High-performance Rust hook blocking destructive git and shell commands for AI coding agents.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "为使用 AI 编码助手（如 Cursor、Copilot）的开发者提供安全防护，防止误操作导致代码或文件丢失。",
+        "useCase_en": "Protects codebases from accidental deletion by blocking dangerous commands in AI coding agents."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "stars": 69139,
+      "forks": 7205,
+      "todayStars": 4349,
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "aiSummary": {
+        "summary": "OpenCut 是一款免费开源的视频编辑器，支持 Web、桌面和移动端。目前正在进行从零开始的架构重写，旨在提供插件优先架构、跨平台 Rust 核心以及 AI 代理支持。新版本将包含编辑器 API、无头模式和脚本标签等高级功能。",
+        "summary_en": "Open-source video editor alternative to CapCut, currently being rewritten with Rust and TypeScript.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "Moon"
+        ],
+        "useCase": "适用于需要跨平台视频编辑、插件扩展及自动化处理的创作者和开发者。",
+        "useCase_en": "Create videos on web, desktop, and mobile using this open-source alternative to CapCut."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars": 61858,
+      "forks": 10911,
+      "todayStars": 156,
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "aiSummary": {
+        "summary": "这是一个基于Python的AI对冲基金概念验证项目，旨在探索AI在交易决策中的应用。项目正在重构为持久、全天候运行的系统，包含多个模拟著名投资大师（如巴菲特、格雷厄姆等）的代理，以及估值、情绪、基本面和技术面分析代理，共同协作生成交易信号。该项目仅供教育研究，不用于实盘交易。",
+        "summary_en": "An evolving AI-powered hedge fund simulation featuring multiple investing agents working together to generate trading signals.",
+        "techStack": [
+          "Python",
+          "AI Agents"
+        ],
+        "useCase": "适合用于研究AI在金融交易中的应用及多智能体协作机制。",
+        "useCase_en": "To explore AI-driven trading decisions through a simulation of multiple investing agents."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 6112,
+      "forks": 349,
+      "todayStars": 1010,
+      "url": "https://github.com/Nutlope/hallmark",
+      "aiSummary": {
+        "summary": "这是一个专为 Claude Code、Cursor 和 Codex 设计的 AI 设计技能，旨在防止生成平庸的 AI 风格代码。它提供 20 种主题和 57 个“垃圾测试关卡”，通过宏观结构选择和自我批评确保设计独特。支持构建新 UI、审计现有代码、重新设计以及分析设计 DNA，生成自包含的 HTML + CSS 文件。",
+        "summary_en": "An anti-AI-slop design skill for Claude Code and Cursor that generates unique, non-template HTML/CSS layouts.",
+        "techStack": [
+          "CSS",
+          "HTML",
+          "AI IDE 插件"
+        ],
+        "useCase": "用于 AI 编程助手生成高质量、非模板化的网页设计，避免平庸的 AI 风格。",
+        "useCase_en": "Generate unique, non-template HTML/CSS layouts for web projects to avoid generic AI design patterns."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "stars": 22823,
+      "forks": 3917,
+      "todayStars": 1265,
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "aiSummary": {
+        "summary": "Vibe-Trading 是一个基于 Python 的个人交易代理，旨在通过一条命令赋予 AI 全面的交易能力。项目集成了 Longbridge 和 Tushare 等市场数据源，支持 MCP 协议，提供回测功能，并具备完善的安全加固措施。它支持 Web 和 CLI 界面，帮助用户进行量化交易策略的开发与执行。",
+        "summary_en": "Vibe-Trading is a Python-based personal trading agent empowering users with comprehensive market capabilities via MCP.",
+        "techStack": [
+          "Python",
+          "MCP",
+          "Longbridge",
+          "Tushare",
+          "NVIDIA NIM"
+        ],
+        "useCase": "适合需要 AI 驱动交易决策、自动化量化策略执行的开发者及个人投资者。",
+        "useCase_en": "To empower users with a comprehensive trading agent via a single command, integrating market data and AI providers."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Raphire/Win11Debloat",
+      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+      "language": "PowerShell",
+      "stars": 51644,
+      "forks": 2127,
+      "todayStars": 779,
+      "url": "https://github.com/Raphire/Win11Debloat",
+      "aiSummary": {
+        "summary": "这是一个轻量级 PowerShell 脚本，专为 Windows 10 和 11 设计，旨在通过移除预装应用、禁用遥测及清理界面来优化系统体验。它支持命令行参数、审计模式及设置导入导出，适合系统管理员和高级用户进行系统定制。",
+        "summary_en": "A lightweight PowerShell script to remove bloatware and customize Windows 10/11.",
+        "techStack": [
+          "PowerShell"
+        ],
+        "useCase": "适合系统管理员及高级用户快速清理预装软件、禁用遥测并定制 Windows 体验。",
+        "useCase_en": "To declutter and customize Windows by removing pre-installed apps and disabling telemetry."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "hasaneyldrm/exercises-dataset",
+      "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
+      "language": "HTML",
+      "stars": 13479,
+      "forks": 1610,
+      "todayStars": 864,
+      "url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "aiSummary": {
+        "summary": "这是一个包含1,324个健身动作的综合数据集，涵盖动画GIF、缩略图、肌肉群及器材数据，并提供9种语言的分步说明。它为LogPress应用提供支持，也可用于构建健身应用、机器学习项目或健康研究。",
+        "summary_en": "A comprehensive fitness dataset of 1,324 exercises featuring media, metadata, and multilingual instructions for app development.",
+        "techStack": [
+          "HTML",
+          "JSON"
+        ],
+        "useCase": "适用于构建健身应用、开发机器学习项目或进行健康研究。",
+        "useCase_en": "Powers the LogPress app and provides a ready-to-use backend layer for building fitness or workout planning applications."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "penpot/penpot",
+      "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
+      "language": "Clojure",
+      "stars": 56147,
+      "forks": 3693,
+      "todayStars": 264,
+      "url": "https://github.com/penpot/penpot",
+      "aiSummary": {
+        "summary": "Penpot 是一款开源的跨平台设计平台，专为需要可扩展协作的产品团队打造。它支持自托管，确保设计基础设施的完全掌控，符合合规要求。通过实时协作、设计令牌和 MCP 服务器，它实现了设计与代码的无缝双向流转，利用 CSS Grid 和 Flex 布局支持响应式设计，是构建全栈设计系统的理想选择。",
+        "summary_en": "Open-source design platform for scalable collaboration, self-hosting, and integrating design with code.",
+        "techStack": [
+          "Clojure",
+          "React"
+        ],
+        "useCase": "适用于需要自托管、高合规性及设计系统管理的规模化产品团队。",
+        "useCase_en": "Product teams use this to self-host a scalable design platform that integrates design with code."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "AIEraDev/Clypra",
+      "description": "A modern video editor built with Tauri, React, and TypeScript. Focus on building free capabilities of premium capcut functionalities",
+      "language": "TypeScript",
+      "stars": 2607,
+      "forks": 279,
+      "todayStars": 66,
+      "url": "https://github.com/AIEraDev/Clypra",
+      "aiSummary": {
+        "summary": "Clypra 是一个基于 Tauri v2、React 19 和 Rust 的现代开源视频编辑器。它提供专业级功能，如多轨道时间轴、硬件加速和音频同步，核心功能永久免费。支持桌面和移动平台，并可选 AI 增强功能。",
+        "summary_en": "A modern, open-source video editor offering professional-grade features and optional AI capabilities.",
+        "techStack": [
+          "TypeScript",
+          "Tauri",
+          "React",
+          "Rust",
+          "FFmpeg"
+        ],
+        "useCase": "适合需要专业视频剪辑功能且无需订阅费用的用户，以及跨平台（桌面/移动）开发人员。",
+        "useCase_en": "A free, open-source alternative to premium video editors for creating professional content."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "par274/sharpemu",
+      "description": "An experimental PlayStation 5 emulator project.",
+      "language": "C#",
+      "stars": 2110,
+      "forks": 137,
+      "todayStars": 448,
+      "url": "https://github.com/par274/sharpemu",
+      "aiSummary": {
+        "summary": "这是一个用C#编写的实验性PlayStation 5模拟器，目前处于早期开发阶段。项目支持加载eboot.bin和.elf文件，执行CPU指令，读取元数据及部分内核功能。目前主要针对Windows平台，Demon's Souls已实现视频循环。项目旨在研究系统架构和逆向工程，暂无商业目标。",
+        "summary_en": "Experimental C# PS5 emulator capable of loading eboot.bin and executing CPU instructions, currently focusing on kernel functionality and shader handling.",
+        "techStack": [
+          "C#"
+        ],
+        "useCase": "适用于系统架构研究、逆向工程学习及早期PS5游戏兼容性测试。",
+        "useCase_en": "To run PlayStation 5 games on Windows for research and educational purposes."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "chenyme/grok2api",
+      "description": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关",
+      "language": "Go",
+      "stars": 5842,
+      "forks": 1925,
+      "todayStars": 179,
+      "url": "https://github.com/chenyme/grok2api",
+      "aiSummary": {
+        "summary": "这是一个基于 Go 语言开发的 Grok API 网关，支持 Build、Web 和 Console 三种服务。项目实现了多账号池管理、负载均衡及故障切换，提供 OpenAI 和 Anthropic 兼容接口。包含图片/视频生成、代理池及基于 Web 的管理后台，适合需要统一接入 Grok 服务的开发者。",
+        "summary_en": "A Go-based multi-account API gateway for Grok services providing OpenAI-compatible interfaces and account management.",
+        "techStack": [
+          "Go",
+          "SQLite/PostgreSQL",
+          "Redis",
+          "Docker"
+        ],
+        "useCase": "为开发者提供统一的 OpenAI 风格接口，用于访问和管理 Grok AI 服务。",
+        "useCase_en": "To aggregate multiple Grok accounts into a unified API gateway compatible with standard AI client libraries."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "Graphify-Labs/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "language": "Python",
+      "stars": 86325,
+      "forks": 8495,
+      "todayStars": 1858,
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "aiSummary": {
+        "summary": "这是一个将代码库、文档和媒体转换为可查询知识图谱的 AI 编程助手技能。它利用 tree-sitter 进行本地代码解析，结合 LLM 进行语义理解，生成 HTML、Markdown 和 JSON 文件。用户可通过图遍历而非文件搜索来查询项目结构、依赖关系和概念。",
+        "summary_en": "Turns codebases into local knowledge graphs for querying via AI assistants.",
+        "techStack": [
+          "Python",
+          "tree-sitter",
+          "LLM",
+          "HTML/JSON"
+        ],
+        "useCase": "AI 编程助手中的代码库导航与架构分析",
+        "useCase_en": "Query your entire project structure and relationships instead of reading files."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "HenryNdubuaku/maths-cs-ai-compendium",
+      "description": "Become a cracked AI/ML Research Engineer",
+      "language": "TypeScript",
+      "stars": 5218,
+      "forks": 701,
+      "todayStars": 69,
+      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "aiSummary": {
+        "summary": "这是一个涵盖数学、计算和人工智能的开放教科书，旨在帮助从业者深入理解 AI/ML 知识。项目包含一个 MCP Server，允许 Claude Code、Cursor 等 AI 助手将其作为本地知识库使用。内容涵盖向量、矩阵、微积分、统计、概率、机器学习和计算语言学，适合 AI/ML 研究工程师面试准备和深度学习。",
+        "summary_en": "An open-source AI/ML textbook with an MCP server for deep understanding and interview prep.",
+        "techStack": [
+          "TypeScript",
+          "MCP Server",
+          "AI/ML"
+        ],
+        "useCase": "AI/ML 研究工程师面试准备及 AI 助手知识库集成",
+        "useCase_en": "A comprehensive resource for AI/ML engineers to learn concepts deeply and utilize the MCP server for AI-assisted coding."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-15T00:02:59.935Z",
+    "duration": "444s",
+    "version": "1.0.0"
+  }
+}
