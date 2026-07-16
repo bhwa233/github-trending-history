@@ -1,0 +1,286 @@
+{
+  "date": "2026-07-15",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "stars": 71605,
+      "forks": 7342,
+      "todayStars": 1664,
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "aiSummary": {
+        "summary": "OpenCut 是一款跨平台（Web/桌面/移动）的开源视频编辑器。项目正在从零重写，采用 Rust 核心，旨在提供插件架构、MCP 服务器（AI 集成）、无头模式及脚本支持，打造强大的第三方插件生态。",
+        "summary_en": "Open-source CapCut alternative rewritten in Rust and TypeScript.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "Moon"
+        ],
+        "useCase": "适合需要跨平台视频编辑、插件扩展或开源替代 CapCut 的用户。",
+        "useCase_en": "Create professional videos using a free, open-source alternative to CapCut."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 8413,
+      "forks": 437,
+      "todayStars": 1277,
+      "url": "https://github.com/Nutlope/hallmark",
+      "aiSummary": {
+        "summary": "这是一个专为 Claude Code、Cursor 和 Codex 设计的 AI 设计技能，旨在生成独特、非模板化的 UI。它包含 20 种主题和 57 个反垃圾测试，确保设计避免 AI 生成的陈词滥调。提供四种命令（构建、审计、重构、研究），帮助开发者创建高质量、定制化的网页，拒绝默认的 AI 模式。",
+        "summary_en": "A design skill for AI coding tools that generates unique, anti-AI-slop UIs using CSS.",
+        "techStack": [
+          "CSS",
+          "HTML"
+        ],
+        "useCase": "AI 编码助手生成独特、高质量且非模板化的网页设计",
+        "useCase_en": "Developers use this skill to generate unique, non-template UI designs for web applications."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 172230,
+      "forks": 14788,
+      "todayStars": 2130,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个面向 Claude AI 的工程技能集，旨在提供真实的工程实践而非“氛围编码”。它包含一系列可组合的小型脚本和插件，支持自定义安装，可配置问题跟踪器和文档存储，旨在帮助开发者建立标准化的开发工作流。",
+        "summary_en": "A collection of composable engineering skills for AI agents and Claude Code.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "Node.js"
+        ],
+        "useCase": "适合使用 Claude Code 进行辅助编程的开发者，用于建立标准化的工程工作流和问题管理。",
+        "useCase_en": "Automate engineering workflows and configure AI agents for issue tracking and documentation management."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars": 42481,
+      "forks": 4250,
+      "todayStars": 110,
+      "url": "https://github.com/moeru-ai/airi",
+      "aiSummary": {
+        "summary": "AIRI 是一个受 Neuro-sama 启发的自托管 AI 虚拟伴侣项目。它旨在将 AI 虚拟角色带入现实，支持实时语音聊天、在 Minecraft 和 Factorio 等游戏中游玩，并兼容 Web、macOS 和 Windows 平台。项目集成了 RAG、记忆系统和 Live2D 工具，致力于打造全能的赛博生命伴侣。",
+        "summary_en": "Self-hosted AI companion inspired by Neuro-sama capable of voice chat, gaming, and coding assistance.",
+        "techStack": [
+          "TypeScript",
+          "LLM",
+          "RAG",
+          "Live2D"
+        ],
+        "useCase": "适合寻求自托管 AI 虚拟伴侣、希望其具备游戏互动和语音聊天能力的用户。",
+        "useCase_en": "To create a self-hosted virtual companion for roleplay, gaming, and coding assistance."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "Dicklesworthstone/destructive_command_guard",
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "language": "Rust",
+      "stars": 4755,
+      "forks": 178,
+      "todayStars": 471,
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的高性能钩子工具，旨在阻止 AI 编码代理（如 Claude、Copilot）执行危险的 git 和 shell 命令，防止意外删除文件，保护开发者的代码安全。",
+        "summary_en": "Rust tool blocking destructive git and shell commands for AI coding agents.",
+        "techStack": [
+          "Rust",
+          "Shell Script",
+          "PowerShell"
+        ],
+        "useCase": "保护使用 AI 编码助手（如 Claude、Copilot）的开发者免受意外破坏性操作的影响。",
+        "useCase_en": "Blocks dangerous git and shell commands to protect projects from accidental deletion by AI agents."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "stars": 23673,
+      "forks": 4032,
+      "todayStars": 915,
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "aiSummary": {
+        "summary": "Vibe-Trading 是一个基于 Python 的个人交易代理框架，旨在通过一条命令赋予代理全面的交易能力。项目包含回测正确性验证、投资组合工作室以及多数据源支持（如长桥、NVIDIA NIM）。它集成了 MCP（模型上下文协议）传输，提供市场数据获取和交易策略执行功能，适合构建自动化交易系统。",
+        "summary_en": "A Python-based personal trading agent framework featuring backtesting, portfolio management, and multi-provider market data integration.",
+        "techStack": [
+          "Python",
+          "MCP",
+          "Longbridge",
+          "NVIDIA NIM"
+        ],
+        "useCase": "构建自动化交易代理及回测交易策略",
+        "useCase_en": "Empower users to build and run autonomous trading agents with comprehensive backtesting and real-time market data integr"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "openinterpreter/openinterpreter",
+      "description": "A coding agent for low-cost models",
+      "language": "Rust",
+      "stars": 65462,
+      "forks": 5652,
+      "todayStars": 299,
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 的编码代理，专为低成本模型优化。它允许 AI 在本地或远程机器上运行命令、操作文件及测试应用。支持多种模型框架和沙盒环境，提供类似人类开发者的交互体验，旨在降低 AI 编程成本。",
+        "summary_en": "A Rust coding agent optimized for low-cost models with native sandboxing.",
+        "techStack": [
+          "Rust",
+          "Shell/Terminal",
+          "Agent Protocol"
+        ],
+        "useCase": "适合需要低成本 AI 编程助手，在本地或远程机器上执行代码和自动化任务的用户。",
+        "useCase_en": "To execute code and automate tasks using low-cost AI models via a terminal interface."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "language": "Python",
+      "stars": 26237,
+      "forks": 3561,
+      "todayStars": 172,
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "aiSummary": {
+        "summary": "DeepTutor 是一个终身个性化辅导系统，利用 LlamaIndex、LightRAG 和 FAISS 等技术构建强大的知识库检索与 RAG 功能。支持多模态图像提取、引导式学习和深度研究，旨在提供智能化的学习体验。",
+        "summary_en": "Lifelong personalized tutoring platform using RAG and vector databases.",
+        "techStack": [
+          "Python",
+          "LlamaIndex",
+          "LightRAG",
+          "FAISS",
+          "OpenAI"
+        ],
+        "useCase": "适用于构建智能化的终身个性化辅导系统，支持多模态知识库检索与深度学习研究。",
+        "useCase_en": "Offers lifelong personalized tutoring through a RAG-based knowledge base and AI chat interface."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "HenryNdubuaku/maths-cs-ai-compendium",
+      "description": "Become a cracked AI/ML Research Engineer",
+      "language": "TypeScript",
+      "stars": 5873,
+      "forks": 740,
+      "todayStars": 725,
+      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "aiSummary": {
+        "summary": "这是一个涵盖数学、计算和人工智能的开放式教科书，旨在帮助从业者深入理解核心概念。项目包含详细的章节大纲，从向量、矩阵到机器学习和自然语言处理，强调直觉和现实世界背景。此外，它还提供了一个 MCP Server，允许 AI 助手作为知识库使用，非常适合准备 AI/ML 面试和深入研究的学习者。",
+        "summary_en": "An open-source compendium covering math, CS, and AI with an MCP server for AI assistants.",
+        "techStack": [
+          "TypeScript",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "适用于 AI/ML 研究工程师面试准备及构建本地 AI 知识库。",
+        "useCase_en": "An educational resource for AI/ML engineers featuring an MCP server for local knowledge access."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "language": "Python",
+      "stars": 121876,
+      "forks": 17990,
+      "todayStars": 1236,
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "aiSummary": {
+        "summary": "该项目汇集了100+个经过测试的开源AI Agent和RAG应用模板，支持Claude、GPT、Llama等多种大模型。用户可通过简单的命令快速克隆、定制并部署这些应用，涵盖博客转播客、数据分析、医疗影像诊断及个人助理等多种场景，旨在帮助开发者高效构建和发布AI产品。",
+        "summary_en": "A curated collection of 100+ open-source AI agents and RAG apps.",
+        "techStack": [
+          "Python",
+          "Streamlit",
+          "LLMs (Claude, GPT, Llama, Qwen)"
+        ],
+        "useCase": "快速构建和部署各类AI应用，涵盖数据分析、内容生成、医疗诊断及个人助理等多种场景。",
+        "useCase_en": "A collection of ready-to-run AI agents for data analysis, content generation, and project management."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "stars": 39739,
+      "forks": 6314,
+      "todayStars": 340,
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 和 AI 代理提供的营销技能集合，涵盖 CRO、文案写作、SEO、分析和增长工程。通过 Markdown 文件为 AI 提供专业知识和工作流，支持 Cursor、Windsurf 等多种工具。项目以产品营销为基础，构建了模块化技能体系，旨在帮助技术营销人员和创始人利用 AI 提升营销效率。",
+        "summary_en": "A collection of AI agent skills for marketing tasks including CRO, copywriting, and SEO.",
+        "techStack": [
+          "JavaScript",
+          "Markdown"
+        ],
+        "useCase": "适用于需要 AI 辅助进行营销策略制定、内容创作和数据分析的技术营销人员和创始人。",
+        "useCase_en": "Equip AI coding agents with specialized marketing workflows for CRO and SEO."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "YimMenu/YimMenuV2",
+      "description": "Experimental menu for GTA 5: Enhanced",
+      "language": "C++",
+      "stars": 1416,
+      "forks": 355,
+      "todayStars": 38,
+      "url": "https://github.com/YimMenu/YimMenuV2",
+      "aiSummary": {
+        "summary": "这是一个为 GTA 5: Enhanced 开发的实验性菜单，使用 C++ 编写。它允许用户通过注入 DLL 文件来修改游戏，支持使用 FSL 进行账号数据保存。使用前需禁用 BattlEye 并配合注入器（如 Xenos）运行。",
+        "summary_en": "Experimental mod menu for GTA 5: Enhanced allowing in-game customization.",
+        "techStack": [
+          "C++",
+          "GTA 5 Enhanced",
+          "FSL"
+        ],
+        "useCase": "GTA 5 Enhanced 游戏内功能增强与作弊",
+        "useCase_en": "Provides an in-game menu for modifying GTA 5: Enhanced gameplay and settings."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "hasaneyldrm/exercises-dataset",
+      "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
+      "language": "HTML",
+      "stars": 14345,
+      "forks": 1721,
+      "todayStars": 949,
+      "url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "aiSummary": {
+        "summary": "这是一个包含1,324个健身动作的综合数据集，涵盖动画GIF、缩略图及详细的肌肉群、器材和目标数据。支持9种语言的分步说明，为LogPress应用提供数据层，适合用于构建健身应用、机器学习研究及健康项目。",
+        "summary_en": "A comprehensive fitness dataset containing 1,324 exercises with media, metadata, and multi-language instructions for building workout apps.",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "为健身应用开发、AI辅助训练追踪及健康研究提供核心数据支持。",
+        "useCase_en": "Building fitness apps, machine learning projects for exercise recognition, or health and wellness research."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-16T00:06:26.112Z",
+    "duration": "253s",
+    "version": "1.0.0"
+  }
+}

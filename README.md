@@ -70,28 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-07-14 | **成功**: 16 | **失败**: 0
+**最后更新**: 2026-07-15 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) | 👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- ... | Python | 53.4k | 1.2k | 这是一个收集中国独立开发者项目的列表，旨在分享大家都在做什么。项目汇集了众多独立开发者的作品，涵盖不同领域，为开发者提供灵感和交流平台。 |
-| 2 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 100+ AI Agent & RAG apps you can actually run — cl... | Python | 120.7k | 1.1k | 该项目汇集了100+个可实际运行的AI Agent和RAG应用，涵盖博客转播客、数据分析、医疗诊断等多种场景。支持GPT、Claude、Llama等主流大模型，提供Agent Skills和Starter AI Agents两种使用方式，旨在帮助开发者快速克隆、定制并部署AI应用。 |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .claud... | Shell | 170.2k | 1.9k | 这是一个为 Claude 等编码代理设计的工程技能集，旨在提供真实的工程实践而非“氛围编码”。它包含一系列可组合的 Shell 脚本，支持通过 npx 或 Claude Code 插件安装。安装后可配置 issue tracker（如 GitHub、Linear）和标签系统，帮助开发者高效管理开发流程和文档。 |
-| 4 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | The Destructive Command Guard (dcg) is for blockin... | Rust | 4.4k | 481 | 这是一个用 Rust 编写的高性能钩子工具，旨在阻止 AI 编码代理（如 Claude、Copilot 等）执行危险的 git 和 shell 命令，防止意外删除文件，保护开发环境安全。 |
-| 5 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | The open-source CapCut alternative... | TypeScript | 69.1k | 4.3k | OpenCut 是一款免费开源的视频编辑器，支持 Web、桌面和移动端。目前正在进行从零开始的架构重写，旨在提供插件优先架构、跨平台 Rust 核心以及 AI 代理支持。新版本将包含编辑器 API、无头模式和脚本标签等高级功能。 |
-| 6 | [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team... | Python | 61.9k | 156 | 这是一个基于Python的AI对冲基金概念验证项目，旨在探索AI在交易决策中的应用。项目正在重构为持久、全天候运行的系统，包含多个模拟著名投资大师（如巴菲特、格雷厄姆等）的代理，以及估值、情绪、基本面和技术面分析代理，共同协作生成交易信号。该项目仅供教育研究，不用于实盘交易。 |
-| 7 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Anti-AI-slop design skill for Claude Code, Cursor,... | CSS | 6.1k | 1.0k | 这是一个专为 Claude Code、Cursor 和 Codex 设计的 AI 设计技能，旨在防止生成平庸的 AI 风格代码。它提供 20 种主题和 57 个“垃圾测试关卡”，通过宏观结构选择和自我批评确保设计独特。支持构建新 UI、审计现有代码、重新设计以及分析设计 DNA，生成自包含的 HTML + CSS 文件。 |
-| 8 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent"... | Python | 22.8k | 1.3k | Vibe-Trading 是一个基于 Python 的个人交易代理，旨在通过一条命令赋予 AI 全面的交易能力。项目集成了 Longbridge 和 Tushare 等市场数据源，支持 MCP 协议，提供回测功能，并具备完善的安全加固措施。它支持 Web 和 CLI 界面，帮助用户进行量化交易策略的开发与执行。 |
-| 9 | [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | A simple, lightweight PowerShell script that allow... | PowerShell | 51.6k | 779 | 这是一个轻量级 PowerShell 脚本，专为 Windows 10 和 11 设计，旨在通过移除预装应用、禁用遥测及清理界面来优化系统体验。它支持命令行参数、审计模式及设置导入导出，适合系统管理员和高级用户进行系统定制。 |
-| 10 | [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) | 1,324-exercise fitness dataset — animation GIFs, 1... | HTML | 13.5k | 864 | 这是一个包含1,324个健身动作的综合数据集，涵盖动画GIF、缩略图、肌肉群及器材数据，并提供9种语言的分步说明。它为LogPress应用提供支持，也可用于构建健身应用、机器学习项目或健康研究。 |
-| 11 | [penpot/penpot](https://github.com/penpot/penpot) | Penpot: The open-source design platform for Produc... | Clojure | 56.1k | 264 | Penpot 是一款开源的跨平台设计平台，专为需要可扩展协作的产品团队打造。它支持自托管，确保设计基础设施的完全掌控，符合合规要求。通过实时协作、设计令牌和 MCP 服务器，它实现了设计与代码的无缝双向流转，利用 CSS Grid 和 Flex 布局支持响应式设计，是构建全栈设计系统的理想选择。 |
-| 12 | [AIEraDev/Clypra](https://github.com/AIEraDev/Clypra) | A modern video editor built with Tauri, React, and... | TypeScript | 2.6k | 66 | Clypra 是一个基于 Tauri v2、React 19 和 Rust 的现代开源视频编辑器。它提供专业级功能，如多轨道时间轴、硬件加速和音频同步，核心功能永久免费。支持桌面和移动平台，并可选 AI 增强功能。 |
-| 13 | [par274/sharpemu](https://github.com/par274/sharpemu) | An experimental PlayStation 5 emulator project.... | C# | 2.1k | 448 | 这是一个用C#编写的实验性PlayStation 5模拟器，目前处于早期开发阶段。项目支持加载eboot.bin和.elf文件，执行CPU指令，读取元数据及部分内核功能。目前主要针对Windows平台，Demon's Souls已实现视频循环。项目旨在研究系统架构和逆向工程，暂无商业目标。 |
-| 14 | [chenyme/grok2api](https://github.com/chenyme/grok2api) | 面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关... | Go | 5.8k | 179 | 这是一个基于 Go 语言开发的 Grok API 网关，支持 Build、Web 和 Console 三种服务。项目实现了多账号池管理、负载均衡及故障切换，提供 OpenAI 和 Anthropic 兼容接口。包含图片/视频生成、代理池及基于 Web 的管理后台，适合需要统一接入 Grok 服务的开发者。 |
-| 15 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | AI coding assistant skill (Claude Code, Codex, Ope... | Python | 86.3k | 1.9k | 这是一个将代码库、文档和媒体转换为可查询知识图谱的 AI 编程助手技能。它利用 tree-sitter 进行本地代码解析，结合 LLM 进行语义理解，生成 HTML、Markdown 和 JSON 文件。用户可通过图遍历而非文件搜索来查询项目结构、依赖关系和概念。 |
-| 16 | [HenryNdubuaku/maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) | Become a cracked AI/ML Research Engineer... | TypeScript | 5.2k | 69 | 这是一个涵盖数学、计算和人工智能的开放教科书，旨在帮助从业者深入理解 AI/ML 知识。项目包含一个 MCP Server，允许 Claude Code、Cursor 等 AI 助手将其作为本地知识库使用。内容涵盖向量、矩阵、微积分、统计、概率、机器学习和计算语言学，适合 AI/ML 研究工程师面试准备和深度学习。 |
+| 1 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | The open-source CapCut alternative... | TypeScript | 71.6k | 1.7k | OpenCut 是一款跨平台（Web/桌面/移动）的开源视频编辑器。项目正在从零重写，采用 Rust 核心，旨在提供插件架构、MCP 服务器（AI 集成）、无头模式及脚本支持，打造强大的第三方插件生态。 |
+| 2 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Anti-AI-slop design skill for Claude Code, Cursor,... | CSS | 8.4k | 1.3k | 这是一个专为 Claude Code、Cursor 和 Codex 设计的 AI 设计技能，旨在生成独特、非模板化的 UI。它包含 20 种主题和 57 个反垃圾测试，确保设计避免 AI 生成的陈词滥调。提供四种命令（构建、审计、重构、研究），帮助开发者创建高质量、定制化的网页，拒绝默认的 AI 模式。 |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .claud... | Shell | 172.2k | 2.1k | 这是一个面向 Claude AI 的工程技能集，旨在提供真实的工程实践而非“氛围编码”。它包含一系列可组合的小型脚本和插件，支持自定义安装，可配置问题跟踪器和文档存储，旨在帮助开发者建立标准化的开发工作流。 |
+| 4 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you-owned Grok Companion, a cont... | TypeScript | 42.5k | 110 | AIRI 是一个受 Neuro-sama 启发的自托管 AI 虚拟伴侣项目。它旨在将 AI 虚拟角色带入现实，支持实时语音聊天、在 Minecraft 和 Factorio 等游戏中游玩，并兼容 Web、macOS 和 Windows 平台。项目集成了 RAG、记忆系统和 Live2D 工具，致力于打造全能的赛博生命伴侣。 |
+| 5 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | The Destructive Command Guard (dcg) is for blockin... | Rust | 4.8k | 471 | 这是一个用 Rust 编写的高性能钩子工具，旨在阻止 AI 编码代理（如 Claude、Copilot）执行危险的 git 和 shell 命令，防止意外删除文件，保护开发者的代码安全。 |
+| 6 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent"... | Python | 23.7k | 915 | Vibe-Trading 是一个基于 Python 的个人交易代理框架，旨在通过一条命令赋予代理全面的交易能力。项目包含回测正确性验证、投资组合工作室以及多数据源支持（如长桥、NVIDIA NIM）。它集成了 MCP（模型上下文协议）传输，提供市场数据获取和交易策略执行功能，适合构建自动化交易系统。 |
+| 7 | [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) | A coding agent for low-cost models... | Rust | 65.5k | 299 | 这是一个基于 Rust 的编码代理，专为低成本模型优化。它允许 AI 在本地或远程机器上运行命令、操作文件及测试应用。支持多种模型框架和沙盒环境，提供类似人类开发者的交互体验，旨在降低 AI 编程成本。 |
+| 8 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor: Lifelong Personalized Tutoring. https:/... | Python | 26.2k | 172 | DeepTutor 是一个终身个性化辅导系统，利用 LlamaIndex、LightRAG 和 FAISS 等技术构建强大的知识库检索与 RAG 功能。支持多模态图像提取、引导式学习和深度研究，旨在提供智能化的学习体验。 |
+| 9 | [HenryNdubuaku/maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) | Become a cracked AI/ML Research Engineer... | TypeScript | 5.9k | 725 | 这是一个涵盖数学、计算和人工智能的开放式教科书，旨在帮助从业者深入理解核心概念。项目包含详细的章节大纲，从向量、矩阵到机器学习和自然语言处理，强调直觉和现实世界背景。此外，它还提供了一个 MCP Server，允许 AI 助手作为知识库使用，非常适合准备 AI/ML 面试和深入研究的学习者。 |
+| 10 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 100+ AI Agent & RAG apps you can actually run — cl... | Python | 121.9k | 1.2k | 该项目汇集了100+个经过测试的开源AI Agent和RAG应用模板，支持Claude、GPT、Llama等多种大模型。用户可通过简单的命令快速克隆、定制并部署这些应用，涵盖博客转播客、数据分析、医疗影像诊断及个人助理等多种场景，旨在帮助开发者高效构建和发布AI产品。 |
+| 11 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Marketing skills for Claude Code and AI agents. CR... | JavaScript | 39.7k | 340 | 这是一个为 Claude Code 和 AI 代理提供的营销技能集合，涵盖 CRO、文案写作、SEO、分析和增长工程。通过 Markdown 文件为 AI 提供专业知识和工作流，支持 Cursor、Windsurf 等多种工具。项目以产品营销为基础，构建了模块化技能体系，旨在帮助技术营销人员和创始人利用 AI 提升营销效率。 |
+| 12 | [YimMenu/YimMenuV2](https://github.com/YimMenu/YimMenuV2) | Experimental menu for GTA 5: Enhanced... | C++ | 1.4k | 38 | 这是一个为 GTA 5: Enhanced 开发的实验性菜单，使用 C++ 编写。它允许用户通过注入 DLL 文件来修改游戏，支持使用 FSL 进行账号数据保存。使用前需禁用 BattlEye 并配合注入器（如 Xenos）运行。 |
+| 13 | [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) | 1,324-exercise fitness dataset — animation GIFs, 1... | HTML | 14.3k | 949 | 这是一个包含1,324个健身动作的综合数据集，涵盖动画GIF、缩略图及详细的肌肉群、器材和目标数据。支持9种语言的分步说明，为LogPress应用提供数据层，适合用于构建健身应用、机器学习研究及健康项目。 |
 
-[查看完整数据](api/github/2026-07-14.json)
+[查看完整数据](api/github/2026-07-15.json)
 <!-- END GITHUB TRENDING -->
 
 
