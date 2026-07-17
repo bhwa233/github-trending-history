@@ -1,0 +1,315 @@
+{
+  "date": "2026-07-17",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars": 527314,
+      "forks": 49903,
+      "todayStars": 1070,
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "aiSummary": {
+        "summary": "这是一个包含从操作系统、数据库到 AI 模型、3D 渲染器等众多热门技术实现教程的指南集合。项目通过“从零开始”的实践方式，帮助开发者深入理解底层原理，掌握核心编程技能。",
+        "summary_en": "A collection of guides to recreate complex technologies from scratch.",
+        "techStack": [
+          "Markdown",
+          "C++",
+          "Python",
+          "JavaScript",
+          "Java"
+        ],
+        "useCase": "适合希望深入理解计算机底层原理、掌握核心编程技能的开发者。",
+        "useCase_en": "To master programming by recreating complex technologies from scratch."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "PostHog/posthog",
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "language": "Python",
+      "stars": 36177,
+      "forks": 3010,
+      "todayStars": 437,
+      "url": "https://github.com/PostHog/posthog",
+      "aiSummary": {
+        "summary": "PostHog 是一个全栈产品分析平台，提供自驱动模式、产品分析、会话回放、功能标志、实验、错误跟踪、日志、调查、数据仓库集成及 AI 可观测性等工具。它帮助开发者主动诊断问题、发现机会并修复缺陷，支持从 Slack、Web 或 MCP 进行管理。",
+        "summary_en": "Open-source product analytics platform offering session replay, feature flags, and error tracking.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要全面产品分析、错误监控和 A/B 测试的软件开发团队。",
+        "useCase_en": "A self-driving product platform for analytics, session replay, and feature flagging."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "HenryNdubuaku/maths-cs-ai-compendium",
+      "description": "Become a cracked AI/ML Research Engineer",
+      "language": "TypeScript",
+      "stars": 6601,
+      "forks": 810,
+      "todayStars": 248,
+      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "aiSummary": {
+        "summary": "这是一个涵盖数学、计算和人工智能的开放教科书，旨在帮助从业者深入理解核心概念。项目包含 MCP 服务器，允许 Claude Code、Cursor 等 AI 助手将其作为知识库使用。内容从基础向量、矩阵到机器学习和计算语言学，适合准备 AI/ML 面试或深入研究的人员。",
+        "summary_en": "Open-source textbook and MCP server covering math, CS, and AI concepts for aspiring engineers.",
+        "techStack": [
+          "TypeScript",
+          "MCP"
+        ],
+        "useCase": "AI/ML 研究人员或工程师的自学教材，以及 AI 助手的本地知识库",
+        "useCase_en": "Aspiring AI engineers use this open textbook and MCP server to master math, CS, and AI concepts."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 11988,
+      "forks": 601,
+      "todayStars": 1486,
+      "url": "https://github.com/Nutlope/hallmark",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code、Cursor 和 Codex 设计的 AI 设计技能，旨在防止生成平庸的 AI 设计。它提供 20 种主题和四种操作模式（构建、审计、重构、研究），通过宏观结构选择和“slop-test”机制，确保每个生成的页面都独一无二，避免模板化，生成高质量的 HTML+CSS 代码。",
+        "summary_en": "A design skill for AI coding agents that generates unique, non-template UI layouts to avoid AI-generated slop.",
+        "techStack": [
+          "CSS",
+          "HTML"
+        ],
+        "useCase": "开发者使用 AI 编码工具时，需要生成独特、高质量且非模板化的 UI 界面。",
+        "useCase_en": "Developers use this skill to instruct AI coding assistants to create unique, non-template user interfaces."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "github/copilot-sdk",
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "language": "Java",
+      "stars": 9789,
+      "forks": 1328,
+      "todayStars": 234,
+      "url": "https://github.com/github/copilot-sdk",
+      "aiSummary": {
+        "summary": "这是一个多平台 SDK，旨在将 GitHub Copilot Agent 集成到各类应用中。它暴露了 Copilot CLI 的引擎，允许开发者通过编程方式调用代理工作流，自动处理规划、工具调用和文件编辑等任务。支持 Java、Python、TypeScript、Go、.NET 和 Rust 等多种语言，需配合 Copilot 订阅使用。",
+        "summary_en": "Multi-platform SDK for integrating GitHub Copilot's agent runtime and CLI capabilities into custom applications.",
+        "techStack": [
+          "Java",
+          "JSON-RPC",
+          "GitHub Copilot CLI"
+        ],
+        "useCase": "在应用程序中集成 GitHub Copilot 的智能代理能力，实现自动化编程辅助。",
+        "useCase_en": "Developers use this SDK to embed GitHub Copilot's agentic workflows and runtime into their applications without building"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "anthropics/cwc-workshops",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 1579,
+      "forks": 489,
+      "todayStars": 37,
+      "url": "https://github.com/anthropics/cwc-workshops",
+      "aiSummary": {
+        "summary": "Anthropic 运行的 Code with Claude 工作坊集合，包含多个 TypeScript 项目。这些材料教授如何使用 Claude Code、Managed Agents 和 MCP 构建多智能体系统、AI 辅助工作流及评估策略。虽然项目不再维护，但内容涵盖了从模型选择到部署的完整开发流程，适合学习 Claude 在编程和自动化中的应用。",
+        "summary_en": "Anthropic's workshop materials for Code with Claude, covering multi-agent systems, model selection, and agent development.",
+        "techStack": [
+          "TypeScript",
+          "Python",
+          "Streamlit",
+          "React",
+          "Vite"
+        ],
+        "useCase": "适合学习 Claude 在多智能体系统、AI 辅助编程及自动化工作流开发中的应用实践。",
+        "useCase_en": "Hands-on workshops teaching how to build multi-agent systems and managed agents using Claude."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "PrismML-Eng/Bonsai-demo",
+      "description": "Bonsai Demo",
+      "language": "Shell",
+      "stars": 1705,
+      "forks": 167,
+      "todayStars": 279,
+      "url": "https://github.com/PrismML-Eng/Bonsai-demo",
+      "aiSummary": {
+        "summary": "这是一个用于在本地运行 Bonsai 语言模型的演示项目。支持 Mac (Metal)、Linux/Windows (CUDA, Vulkan, ROCm) 及 CPU。项目提供 Bonsai 27B 等多种模型，支持视觉语言、工具调用、推理和长上下文，且具有极小的内存占用。通过简单的 Shell 脚本即可快速启动本地聊天、视觉和工具服务。",
+        "summary_en": "Demo repository for running Bonsai language models locally on various hardware platforms.",
+        "techStack": [
+          "Shell",
+          "CUDA",
+          "Metal",
+          "Vulkan",
+          "ROCm"
+        ],
+        "useCase": "在本地设备上部署和体验轻量级、高性能的 Bonsai 语言模型，支持视觉理解与工具调用。",
+        "useCase_en": "Run Bonsai language models locally on various hardware to test vision and reasoning capabilities."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "protocolbuffers/protobuf",
+      "description": "Protocol Buffers - Google's data interchange format",
+      "language": "C++",
+      "stars": 71537,
+      "forks": 16192,
+      "todayStars": 18,
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "aiSummary": {
+        "summary": "Protocol Buffers 是 Google 开发的语言中立、平台中立的数据序列化机制，用于高效存储和传输结构化数据。项目提供了源码构建指南，并集成了 Bazel 构建系统。",
+        "summary_en": "Google's language-neutral mechanism for serializing structured data.",
+        "techStack": [
+          "C++",
+          "Bazel",
+          "Protocol Buffers"
+        ],
+        "useCase": "适用于需要跨语言、跨平台进行高效数据序列化和通信的分布式系统或微服务架构。",
+        "useCase_en": "Efficiently serialize and deserialize structured data across different platforms."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "language": "Python",
+      "stars": 19732,
+      "forks": 2105,
+      "todayStars": 57,
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的本地优先代码智能图工具，利用 Tree-sitter 构建代码库结构。它通过 MCP 协议为 AI 编码工具提供精确的上下文，避免重复读取整个代码库，显著减少 token 消耗，提升代码审查效率。",
+        "summary_en": "A local-first Python tool that builds a code graph to optimize AI coding assistant context and reduce token usage.",
+        "techStack": [
+          "Python",
+          "Tree-sitter",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "适用于需要优化 AI 编码工具上下文窗口、减少 token 消耗的大型代码库代码审查场景。",
+        "useCase_en": "To reduce token usage for AI coding assistants by providing a localized code graph."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "docusealco/docuseal",
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "language": "Ruby",
+      "stars": 17829,
+      "forks": 1769,
+      "todayStars": 131,
+      "url": "https://github.com/docusealco/docuseal",
+      "aiSummary": {
+        "summary": "DocuSeal 是一个开源的 DocuSign 替代品，使用 Ruby 构建。它提供 PDF 表单构建、自动签名、多语言支持及 API 集成等功能。支持多种存储后端和部署方式，具备移动端优化和用户管理能力，适合需要数字化文档签署流程的企业或个人。",
+        "summary_en": "Open-source DocuSign alternative for secure digital document signing and processing.",
+        "techStack": [
+          "Ruby",
+          "Docker",
+          "PostgreSQL/MySQL",
+          "AWS S3/Google Cloud/Azure"
+        ],
+        "useCase": "需要数字化文档签署流程的企业或个人",
+        "useCase_en": "Create, fill, and sign digital documents securely online using this open-source platform."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "openinterpreter/openinterpreter",
+      "description": "A coding agent for open models like Kimi K3",
+      "language": "Rust",
+      "stars": 66344,
+      "forks": 5705,
+      "todayStars": 431,
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "aiSummary": {
+        "summary": "Open Interpreter 是一个用 Rust 编写的编码代理，专为低成本模型（如 Kimi K3）优化。它模拟了 OpenAI Codex 接口，支持多种模型 harness，具备沙箱运行命令、计算机使用（QA skill）以及 ACP 协议兼容等特性，允许模型在本地环境中执行代码和操作应用。",
+        "summary_en": "Rust-based coding agent optimized for low-cost open models like Kimi K3 with Codex-like interface.",
+        "techStack": [
+          "Rust",
+          "OpenAI Codex Protocol",
+          "Kimi Code Harness",
+          "ACP (Agent Client Protocol)"
+        ],
+        "useCase": "适用于需要低成本大模型进行代码生成、自动化测试及本地环境操作的开发者。",
+        "useCase_en": "To execute code and automate tasks using low-cost open-source AI models in a local environment."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "language": "Python",
+      "stars": 13291,
+      "forks": 1179,
+      "todayStars": 280,
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "aiSummary": {
+        "summary": "turbovec 是一个基于 Rust 和 TurboQuant 算法的向量索引库，提供 Python 绑定。它通过数据无关量化技术实现极高的内存压缩率（10M 文档仅需 4GB），并利用 SIMD 内核提供比 FAISS 更快的搜索速度。支持在线摄取、搜索时过滤及纯本地部署，非常适合对隐私、内存或延迟敏感的 RAG 应用场景。",
+        "summary_en": "High-performance vector index library using TurboQuant for compressed similarity search with Python bindings.",
+        "techStack": [
+          "Rust",
+          "Python",
+          "SIMD",
+          "TurboQuant"
+        ],
+        "useCase": "高性能、低内存占用的 RAG 应用及隐私敏感场景",
+        "useCase_en": "Building high-performance, air-gapped RAG systems requiring low memory footprint and fast search."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "language": "Python",
+      "stars": 27344,
+      "forks": 3644,
+      "todayStars": 528,
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "aiSummary": {
+        "summary": "DeepTutor 是一个基于 Python 的终身个性化 AI 导师系统。项目利用 LlamaIndex、LightRAG 和 FAISS 构建 RAG 引擎，支持多模态文档解析、向量检索及智能问答。它提供 Web 界面，支持用户管理、测验评分及 Mattermost 集成，旨在通过 AI 实现高效的知识库问答与个性化学习。",
+        "summary_en": "An AI-powered personalized tutoring system using RAG and vector databases.",
+        "techStack": [
+          "Python",
+          "LlamaIndex",
+          "RAG",
+          "LightRAG",
+          "FAISS"
+        ],
+        "useCase": "适用于构建基于知识库的终身个性化 AI 导师系统，支持文档解析、智能问答与多模态交互。",
+        "useCase_en": "Provides lifelong, personalized tutoring through AI-driven knowledge base retrieval and guided learning."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "stars": 74834,
+      "forks": 7544,
+      "todayStars": 1077,
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "aiSummary": {
+        "summary": "OpenCut 是一款免费开源的视频编辑器，致力于成为 CapCut 的替代品。项目正在重写，计划支持跨平台（Web、桌面、移动端）及插件架构。新版本将包含 Editor API、MCP 服务器（AI 代理支持）和 Headless 模式，旨在为创作者提供强大的自动化和扩展能力。",
+        "summary_en": "A free, open-source video editor for web, desktop, and mobile platforms.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "Moon"
+        ],
+        "useCase": "适合需要跨平台视频编辑、自动化批量渲染或开发第三方视频编辑插件的开发者及创作者。",
+        "useCase_en": "A free and open-source video editor for web, desktop, and mobile devices."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-17T23:59:36.706Z",
+    "duration": "218s",
+    "version": "1.0.0"
+  }
+}

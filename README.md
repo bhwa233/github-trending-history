@@ -70,25 +70,26 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-07-15 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-07-17 | **成功**: 14 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | The open-source CapCut alternative... | TypeScript | 71.6k | 1.7k | OpenCut 是一款跨平台（Web/桌面/移动）的开源视频编辑器。项目正在从零重写，采用 Rust 核心，旨在提供插件架构、MCP 服务器（AI 集成）、无头模式及脚本支持，打造强大的第三方插件生态。 |
-| 2 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Anti-AI-slop design skill for Claude Code, Cursor,... | CSS | 8.4k | 1.3k | 这是一个专为 Claude Code、Cursor 和 Codex 设计的 AI 设计技能，旨在生成独特、非模板化的 UI。它包含 20 种主题和 57 个反垃圾测试，确保设计避免 AI 生成的陈词滥调。提供四种命令（构建、审计、重构、研究），帮助开发者创建高质量、定制化的网页，拒绝默认的 AI 模式。 |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .claud... | Shell | 172.2k | 2.1k | 这是一个面向 Claude AI 的工程技能集，旨在提供真实的工程实践而非“氛围编码”。它包含一系列可组合的小型脚本和插件，支持自定义安装，可配置问题跟踪器和文档存储，旨在帮助开发者建立标准化的开发工作流。 |
-| 4 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you-owned Grok Companion, a cont... | TypeScript | 42.5k | 110 | AIRI 是一个受 Neuro-sama 启发的自托管 AI 虚拟伴侣项目。它旨在将 AI 虚拟角色带入现实，支持实时语音聊天、在 Minecraft 和 Factorio 等游戏中游玩，并兼容 Web、macOS 和 Windows 平台。项目集成了 RAG、记忆系统和 Live2D 工具，致力于打造全能的赛博生命伴侣。 |
-| 5 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | The Destructive Command Guard (dcg) is for blockin... | Rust | 4.8k | 471 | 这是一个用 Rust 编写的高性能钩子工具，旨在阻止 AI 编码代理（如 Claude、Copilot）执行危险的 git 和 shell 命令，防止意外删除文件，保护开发者的代码安全。 |
-| 6 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | "Vibe-Trading: Your Personal Trading Agent"... | Python | 23.7k | 915 | Vibe-Trading 是一个基于 Python 的个人交易代理框架，旨在通过一条命令赋予代理全面的交易能力。项目包含回测正确性验证、投资组合工作室以及多数据源支持（如长桥、NVIDIA NIM）。它集成了 MCP（模型上下文协议）传输，提供市场数据获取和交易策略执行功能，适合构建自动化交易系统。 |
-| 7 | [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) | A coding agent for low-cost models... | Rust | 65.5k | 299 | 这是一个基于 Rust 的编码代理，专为低成本模型优化。它允许 AI 在本地或远程机器上运行命令、操作文件及测试应用。支持多种模型框架和沙盒环境，提供类似人类开发者的交互体验，旨在降低 AI 编程成本。 |
-| 8 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor: Lifelong Personalized Tutoring. https:/... | Python | 26.2k | 172 | DeepTutor 是一个终身个性化辅导系统，利用 LlamaIndex、LightRAG 和 FAISS 等技术构建强大的知识库检索与 RAG 功能。支持多模态图像提取、引导式学习和深度研究，旨在提供智能化的学习体验。 |
-| 9 | [HenryNdubuaku/maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) | Become a cracked AI/ML Research Engineer... | TypeScript | 5.9k | 725 | 这是一个涵盖数学、计算和人工智能的开放式教科书，旨在帮助从业者深入理解核心概念。项目包含详细的章节大纲，从向量、矩阵到机器学习和自然语言处理，强调直觉和现实世界背景。此外，它还提供了一个 MCP Server，允许 AI 助手作为知识库使用，非常适合准备 AI/ML 面试和深入研究的学习者。 |
-| 10 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 100+ AI Agent & RAG apps you can actually run — cl... | Python | 121.9k | 1.2k | 该项目汇集了100+个经过测试的开源AI Agent和RAG应用模板，支持Claude、GPT、Llama等多种大模型。用户可通过简单的命令快速克隆、定制并部署这些应用，涵盖博客转播客、数据分析、医疗影像诊断及个人助理等多种场景，旨在帮助开发者高效构建和发布AI产品。 |
-| 11 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Marketing skills for Claude Code and AI agents. CR... | JavaScript | 39.7k | 340 | 这是一个为 Claude Code 和 AI 代理提供的营销技能集合，涵盖 CRO、文案写作、SEO、分析和增长工程。通过 Markdown 文件为 AI 提供专业知识和工作流，支持 Cursor、Windsurf 等多种工具。项目以产品营销为基础，构建了模块化技能体系，旨在帮助技术营销人员和创始人利用 AI 提升营销效率。 |
-| 12 | [YimMenu/YimMenuV2](https://github.com/YimMenu/YimMenuV2) | Experimental menu for GTA 5: Enhanced... | C++ | 1.4k | 38 | 这是一个为 GTA 5: Enhanced 开发的实验性菜单，使用 C++ 编写。它允许用户通过注入 DLL 文件来修改游戏，支持使用 FSL 进行账号数据保存。使用前需禁用 BattlEye 并配合注入器（如 Xenos）运行。 |
-| 13 | [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) | 1,324-exercise fitness dataset — animation GIFs, 1... | HTML | 14.3k | 949 | 这是一个包含1,324个健身动作的综合数据集，涵盖动画GIF、缩略图及详细的肌肉群、器材和目标数据。支持9种语言的分步说明，为LogPress应用提供数据层，适合用于构建健身应用、机器学习研究及健康项目。 |
+| 1 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Master programming by recreating your favorite tec... | Markdown | 527.3k | 1.1k | 这是一个包含从操作系统、数据库到 AI 模型、3D 渲染器等众多热门技术实现教程的指南集合。项目通过“从零开始”的实践方式，帮助开发者深入理解底层原理，掌握核心编程技能。 |
+| 2 | [PostHog/posthog](https://github.com/PostHog/posthog) | 🦔 PostHog is the leading platform for building se... | Python | 36.2k | 437 | PostHog 是一个全栈产品分析平台，提供自驱动模式、产品分析、会话回放、功能标志、实验、错误跟踪、日志、调查、数据仓库集成及 AI 可观测性等工具。它帮助开发者主动诊断问题、发现机会并修复缺陷，支持从 Slack、Web 或 MCP 进行管理。 |
+| 3 | [HenryNdubuaku/maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) | Become a cracked AI/ML Research Engineer... | TypeScript | 6.6k | 248 | 这是一个涵盖数学、计算和人工智能的开放教科书，旨在帮助从业者深入理解核心概念。项目包含 MCP 服务器，允许 Claude Code、Cursor 等 AI 助手将其作为知识库使用。内容从基础向量、矩阵到机器学习和计算语言学，适合准备 AI/ML 面试或深入研究的人员。 |
+| 4 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Anti-AI-slop design skill for Claude Code, Cursor,... | CSS | 12.0k | 1.5k | 这是一个为 Claude Code、Cursor 和 Codex 设计的 AI 设计技能，旨在防止生成平庸的 AI 设计。它提供 20 种主题和四种操作模式（构建、审计、重构、研究），通过宏观结构选择和“slop-test”机制，确保每个生成的页面都独一无二，避免模板化，生成高质量的 HTML+CSS 代码。 |
+| 5 | [github/copilot-sdk](https://github.com/github/copilot-sdk) | Multi-platform SDK for integrating GitHub Copilot ... | Java | 9.8k | 234 | 这是一个多平台 SDK，旨在将 GitHub Copilot Agent 集成到各类应用中。它暴露了 Copilot CLI 的引擎，允许开发者通过编程方式调用代理工作流，自动处理规划、工具调用和文件编辑等任务。支持 Java、Python、TypeScript、Go、.NET 和 Rust 等多种语言，需配合 Copilot 订阅使用。 |
+| 6 | [anthropics/cwc-workshops](https://github.com/anthropics/cwc-workshops) | ... | TypeScript | 1.6k | 37 | Anthropic 运行的 Code with Claude 工作坊集合，包含多个 TypeScript 项目。这些材料教授如何使用 Claude Code、Managed Agents 和 MCP 构建多智能体系统、AI 辅助工作流及评估策略。虽然项目不再维护，但内容涵盖了从模型选择到部署的完整开发流程，适合学习 Claude 在编程和自动化中的应用。 |
+| 7 | [PrismML-Eng/Bonsai-demo](https://github.com/PrismML-Eng/Bonsai-demo) | Bonsai Demo... | Shell | 1.7k | 279 | 这是一个用于在本地运行 Bonsai 语言模型的演示项目。支持 Mac (Metal)、Linux/Windows (CUDA, Vulkan, ROCm) 及 CPU。项目提供 Bonsai 27B 等多种模型，支持视觉语言、工具调用、推理和长上下文，且具有极小的内存占用。通过简单的 Shell 脚本即可快速启动本地聊天、视觉和工具服务。 |
+| 8 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | Protocol Buffers - Google's data interchange forma... | C++ | 71.5k | 18 | Protocol Buffers 是 Google 开发的语言中立、平台中立的数据序列化机制，用于高效存储和传输结构化数据。项目提供了源码构建指南，并集成了 Bazel 构建系统。 |
+| 9 | [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) | Local-first code intelligence graph for MCP and CL... | Python | 19.7k | 57 | 这是一个基于 Python 的本地优先代码智能图工具，利用 Tree-sitter 构建代码库结构。它通过 MCP 协议为 AI 编码工具提供精确的上下文，避免重复读取整个代码库，显著减少 token 消耗，提升代码审查效率。 |
+| 10 | [docusealco/docuseal](https://github.com/docusealco/docuseal) | Open source DocuSign alternative. Create, fill, an... | Ruby | 17.8k | 131 | DocuSeal 是一个开源的 DocuSign 替代品，使用 Ruby 构建。它提供 PDF 表单构建、自动签名、多语言支持及 API 集成等功能。支持多种存储后端和部署方式，具备移动端优化和用户管理能力，适合需要数字化文档签署流程的企业或个人。 |
+| 11 | [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) | A coding agent for open models like Kimi K3... | Rust | 66.3k | 431 | Open Interpreter 是一个用 Rust 编写的编码代理，专为低成本模型（如 Kimi K3）优化。它模拟了 OpenAI Codex 接口，支持多种模型 harness，具备沙箱运行命令、计算机使用（QA skill）以及 ACP 协议兼容等特性，允许模型在本地环境中执行代码和操作应用。 |
+| 12 | [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec) | A vector index built on TurboQuant, written in Rus... | Python | 13.3k | 280 | turbovec 是一个基于 Rust 和 TurboQuant 算法的向量索引库，提供 Python 绑定。它通过数据无关量化技术实现极高的内存压缩率（10M 文档仅需 4GB），并利用 SIMD 内核提供比 FAISS 更快的搜索速度。支持在线摄取、搜索时过滤及纯本地部署，非常适合对隐私、内存或延迟敏感的 RAG 应用场景。 |
+| 13 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor: Lifelong Personalized Tutoring. https:/... | Python | 27.3k | 528 | DeepTutor 是一个基于 Python 的终身个性化 AI 导师系统。项目利用 LlamaIndex、LightRAG 和 FAISS 构建 RAG 引擎，支持多模态文档解析、向量检索及智能问答。它提供 Web 界面，支持用户管理、测验评分及 Mattermost 集成，旨在通过 AI 实现高效的知识库问答与个性化学习。 |
+| 14 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | The open-source CapCut alternative... | TypeScript | 74.8k | 1.1k | OpenCut 是一款免费开源的视频编辑器，致力于成为 CapCut 的替代品。项目正在重写，计划支持跨平台（Web、桌面、移动端）及插件架构。新版本将包含 Editor API、MCP 服务器（AI 代理支持）和 Headless 模式，旨在为创作者提供强大的自动化和扩展能力。 |
 
-[查看完整数据](api/github/2026-07-15.json)
+[查看完整数据](api/github/2026-07-17.json)
 <!-- END GITHUB TRENDING -->
 
 
