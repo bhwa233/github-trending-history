@@ -1,0 +1,433 @@
+{
+  "date": "2026-07-20",
+  "since": "daily",
+  "totalRepos": 20,
+  "successCount": 20,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "language": "Python",
+      "stars": 23097,
+      "forks": 2273,
+      "todayStars": 1833,
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "aiSummary": {
+        "summary": "这是一个本地优先的代码智能图工具，利用 Tree-sitter 构建代码结构映射，通过 MCP 协议为 AI 编码助手提供精确上下文，显著减少 token 消耗，优化大型代码库的审查与工作流效率。",
+        "summary_en": "A local-first code intelligence graph that optimizes AI coding tools by reducing context read during reviews.",
+        "techStack": [
+          "Python",
+          "Tree-sitter",
+          "MCP"
+        ],
+        "useCase": "AI 代码审查与大型代码库智能导航",
+        "useCase_en": "To reduce token usage for AI coding tools by building a persistent structural map of the codebase."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "1jehuang/jcode",
+      "description": "The most intelligent agent harness for code",
+      "language": "Rust",
+      "stars": 9612,
+      "forks": 1082,
+      "todayStars": 568,
+      "url": "https://github.com/1jehuang/jcode",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 构建的下一代代码智能体框架，旨在提升编码技能上限。它专注于多会话工作流、高度可定制性及极致性能，通过优化资源使用（如极低的内存占用）来支持大规模并发场景。",
+        "summary_en": "A Rust-based coding agent harness designed for multi-session workflows, high performance, and resource efficiency.",
+        "techStack": [
+          "Rust",
+          "Agent Harness",
+          "Local Embedding"
+        ],
+        "useCase": "适用于需要高性能、低资源占用的多会话代码智能体开发与工作流场景。",
+        "useCase_en": "To run and manage intelligent coding agents with high performance and low resource usage."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors.",
+      "language": "TypeScript",
+      "stars": 21754,
+      "forks": 2959,
+      "todayStars": 1107,
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "aiSummary": {
+        "summary": "OmniRoute 是一个免费的 MIT AI 网关，聚合 268+ 提供商和 500+ 模型。它提供零配置的自动故障转移和智能路由，支持 Claude、GPT 等主流模型，并兼容多种编辑器。项目还包含代币追踪和压缩功能，帮助开发者节省成本并提高可用性。",
+        "summary_en": "A free MIT AI gateway aggregating 268+ providers and 500+ models with auto-fallback and compression.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Web 技术"
+        ],
+        "useCase": "开发者通过单一端点访问多个 AI 模型，用于 AI 编码助手（如 Cursor, Copilot）及成本优化的 AI 应用开发。",
+        "useCase_en": "Aggregate free AI tiers and route requests across multiple providers with automatic fallback."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 40500,
+      "forks": 6722,
+      "todayStars": 823,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个全面的 AI 工程课程，包含 503 个课程和 20 个阶段，涵盖 Python、TypeScript、Rust 和 Julia。它强调从零开始构建 AI，从原始数学到复杂的代理，而不是仅仅使用工具。它免费且开源，旨在弥合学生使用 AI 与专业使用之间的差距。",
+        "summary_en": "A comprehensive open-source curriculum teaching AI engineering from scratch using Python, TypeScript, Rust, and Julia.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "适合想要深入理解 AI 原理并从零开始构建 AI 系统的开发者。",
+        "useCase_en": "To learn AI engineering by building reusable artifacts and agents from raw math and code."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 134688,
+      "forks": 21962,
+      "todayStars": 862,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "Agency Agents 是一个包含多个具有特定个性、流程和交付成果的 AI 代理的项目。它提供了一个原生桌面应用，用于浏览、安装和管理这些代理到各种 AI 编码工具（如 Claude Code、Cursor 等），旨在帮助用户快速组建“AI 专家团队”以提升开发效率。",
+        "summary_en": "A curated collection of specialized AI agent personalities for coding workflows.",
+        "techStack": [
+          "Shell",
+          "Native App (macOS/Linux/Windows)",
+          "AI Coding Tools (Claude Code, Cursor, etc.)"
+        ],
+        "useCase": "为 Claude Code、Cursor 等 AI 编码工具配置具有特定个性和专业能力的 AI 代理。",
+        "useCase_en": "Provides specialized AI agent personalities for coding tools like Claude Code and Cursor."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "kvcache-ai/ktransformers",
+      "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+      "language": "Python",
+      "stars": 18727,
+      "forks": 1463,
+      "todayStars": 458,
+      "url": "https://github.com/kvcache-ai/ktransformers",
+      "aiSummary": {
+        "summary": "KTransformers 是一个专注于异构计算的高效 LLM 推理与微调框架。它支持 CPU-GPU 资源调度，提供 AVX2 和 NPU 后端，支持多种前沿模型（如 GLM, Kimi, DeepSeek）。项目集成了 LLaMA-Factory，支持 SFT 和推理优化，旨在在消费级硬件上实现高性能边缘 AI。",
+        "summary_en": "A Python framework for efficient LLM inference and fine-tuning using heterogeneous CPU-GPU computing.",
+        "techStack": [
+          "Python",
+          "CPU-GPU Heterogeneous Computing",
+          "AVX2",
+          "NPU",
+          "BF16/FP8 Precision"
+        ],
+        "useCase": "适用于在消费级硬件上体验前沿大模型的高效推理与微调优化。",
+        "useCase_en": "Run and optimize large language models on consumer hardware and edge devices using heterogeneous computing."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "language": "TypeScript",
+      "stars": 44141,
+      "forks": 5364,
+      "todayStars": 821,
+      "url": "https://github.com/jamiepine/voicebox",
+      "aiSummary": {
+        "summary": "Voicebox 是一个完全本地运行的开源 AI 声音工作室。它支持零样本声音克隆、23种语言的语音生成（基于7种TTS引擎）以及全局语音输入。项目注重隐私，提供丰富的后期处理效果和故事编辑器，是 ElevenLabs 和 WisprFlow 的本地替代方案。",
+        "summary_en": "Open-source local-first AI voice studio for cloning voices, generating speech, and dictation.",
+        "techStack": [
+          "TypeScript",
+          "Qwen3-TTS",
+          "LuxTTS",
+          "Whisper"
+        ],
+        "useCase": "本地语音克隆、多语言语音合成及语音转文字",
+        "useCase_en": "Clone voices and generate speech locally for privacy and creative projects."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "topoteretes/cognee",
+      "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+      "language": "Python",
+      "stars": 28774,
+      "forks": 2743,
+      "todayStars": 234,
+      "url": "https://github.com/topoteretes/cognee",
+      "aiSummary": {
+        "summary": "Cognee 是一个开源的 AI 记忆平台，专为智能体设计。它利用自托管的知识图谱引擎，为 AI 智能体提供跨会话的持久化长期记忆，帮助它们更好地处理信息。",
+        "summary_en": "Open-source AI memory platform providing persistent long-term memory for agents.",
+        "techStack": [
+          "Python",
+          "Knowledge Graph"
+        ],
+        "useCase": "为 AI 智能体提供跨会话的持久化长期记忆存储。",
+        "useCase_en": "Enable AI agents to retain information across sessions using a self-hosted knowledge graph engine."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Robbyant/lingbot-map",
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "language": "Python",
+      "stars": 14207,
+      "forks": 1483,
+      "todayStars": 565,
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "aiSummary": {
+        "summary": "LingBot-Map 是一个用于流式 3D 重建的几何上下文 Transformer 模型。它通过锚点上下文、姿态参考窗口和轨迹记忆，统一了坐标定位与几何线索。该模型具备高效的前馈架构，支持长序列（>10,000帧）稳定推理（~20 FPS），在多种基准测试中表现优异，优于现有流式及迭代优化方法。",
+        "summary_en": "A high-efficiency feed-forward 3D foundation model for reconstructing scenes from streaming data using a Geometric Context Transformer.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "CUDA"
+        ],
+        "useCase": "从视频流数据中进行实时 3D 场景重建",
+        "useCase_en": "Reconstructing 3D scenes from streaming video data with high efficiency."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "language": "TypeScript",
+      "stars": 5831,
+      "forks": 645,
+      "todayStars": 939,
+      "url": "https://github.com/every-app/open-seo",
+      "aiSummary": {
+        "summary": "OpenSEO 是一款开源的 SEO 工具，旨在替代 Semrush 和 Ahrefs。它采用按需付费模式，无订阅费，支持自托管。核心功能包括关键词研究、排名追踪、竞争对手分析等。特别之处在于集成了 MCP 协议，可与 Claude Code 等 AI 代理无缝协作，提供 AI 可见性分析，适合个人开发者及 AI 辅助的 SEO 工作流。",
+        "summary_en": "An open-source, self-hostable SEO suite that integrates with AI agents and uses a pay-as-you-go API model.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合需要低成本 SEO 工具且希望与 AI 代理（如 Claude Code）深度集成的开发者或个人用户。",
+        "useCase_en": "A self-hostable, cost-effective SEO suite for individuals and AI agents to perform keyword research and audits."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "MoonshotAI/kimi-cli",
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "language": "Python",
+      "stars": 10225,
+      "forks": 1218,
+      "todayStars": 410,
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "aiSummary": {
+        "summary": "Kimi CLI 是一个运行在终端的下一代 AI 代理，旨在帮助完成软件开发和终端操作。它具备代码读写、Shell 命令执行、网页搜索及自主规划能力。支持通过 Ctrl-X 切换 Shell 模式，并可与 VS Code、Zed、JetBrains 等 IDE 或编辑器深度集成，提供强大的终端 AI 助手体验。",
+        "summary_en": "Next-gen terminal AI agent for coding, shell commands, and autonomous task planning.",
+        "techStack": [
+          "Python",
+          "ACP (Agent Client Protocol)",
+          "Zsh"
+        ],
+        "useCase": "适用于需要终端 AI 助手的软件开发场景，支持代码编辑、命令执行及多 IDE 集成。",
+        "useCase_en": "Automate software development tasks and terminal operations via an AI agent."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "AstrBotDevs/AstrBot",
+      "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "language": "Python",
+      "stars": 37073,
+      "forks": 2576,
+      "todayStars": 317,
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "aiSummary": {
+        "summary": "AstrBot 是一个开源的 AI Agent 聊天机器人平台，支持多平台集成（QQ、微信、飞书等）和多种 LLM。它提供丰富的插件生态、Agent 沙箱、角色扮演及 WebUI，旨在帮助用户快速构建生产级的 AI 应用，如个人助手或企业知识库。",
+        "summary_en": "An open-source AI agent framework integrating multiple IM platforms and LLMs for building conversational bots.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适合构建个人 AI 伴侣、智能客服、自动化助手及企业知识库。",
+        "useCase_en": "Build production-ready AI applications and intelligent customer service within instant messaging workflows."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "PrefectHQ/fastmcp",
+      "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+      "language": "Python",
+      "stars": 26525,
+      "forks": 2164,
+      "todayStars": 96,
+      "url": "https://github.com/PrefectHQ/fastmcp",
+      "aiSummary": {
+        "summary": "FastMCP 是构建 Model Context Protocol (MCP) 服务器和客户端的 Python 框架。它通过装饰器将 Python 函数自动转换为 MCP 工具，自动处理模式生成、验证和协议生命周期。作为 MCP 的标准框架，它支持服务器、客户端和应用三种模式，被广泛用于连接 LLM 与工具数据。",
+        "summary_en": "A Pythonic framework for building Model Context Protocol (MCP) servers and clients.",
+        "techStack": [
+          "Python",
+          "MCP (Model Context Protocol)",
+          "FastMCP"
+        ],
+        "useCase": "快速开发连接 LLM 与工具或数据的 MCP 应用程序，实现从原型到生产的无缝集成。",
+        "useCase_en": "To rapidly develop Model Context Protocol servers and clients for LLM integration."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "KnockOutEZ/wigolo",
+      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "language": "TypeScript",
+      "stars": 2523,
+      "forks": 147,
+      "todayStars": 689,
+      "url": "https://github.com/KnockOutEZ/wigolo",
+      "aiSummary": {
+        "summary": "wigolo 是一个面向 AI 编程代理的本地优先 Web 智能工具。它提供搜索、抓取、爬取和研究功能，无需 API 密钥或云端，确保数据隐私且零成本。支持 Claude Code、Cursor 等多种 IDE 及 LangChain 等框架，可作为 MCP 服务器或 SDK 嵌入运行。",
+        "summary_en": "Local-first web intelligence tool for AI agents providing search, crawl, and research via MCP without API keys or cloud costs.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "为本地运行的 AI 编程代理提供 Web 数据访问能力，支持自主搜索、爬取和研究。",
+        "useCase_en": "To enable AI coding agents to perform local web research, crawling, and data fetching without relying on cloud APIs or A"
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "tokio-rs/topcoat",
+      "description": "A batteries-included framework for building web apps",
+      "language": "Rust",
+      "stars": 1528,
+      "forks": 40,
+      "todayStars": 371,
+      "url": "https://github.com/tokio-rs/topcoat",
+      "aiSummary": {
+        "summary": "Topcoat 是一个基于 Rust 的全栈 Web 框架，旨在提供开箱即用的功能。它支持服务器端渲染，允许组件直接查询数据库。其独特之处在于通过 $(...) 表达式实现客户端响应性，无需 WebAssembly 或构建步骤。它还支持 #[shard] 进行服务器端更新，简化了全栈开发流程。",
+        "summary_en": "A full-stack Rust framework enabling server-side rendering and client-side reactivity without Wasm.",
+        "techStack": [
+          "Rust",
+          "Tokio"
+        ],
+        "useCase": "适合需要快速构建全栈 Web 应用并减少样板代码的开发者。",
+        "useCase_en": "Building full-stack web applications that combine server-side rendering with client-side interactivity using Rust."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "stars": 133766,
+      "forks": 7559,
+      "todayStars": 240,
+      "url": "https://github.com/iptv-org/iptv",
+      "aiSummary": {
+        "summary": "该项目是一个全球公开 IPTV 频道集合库，提供 M3U 格式的播放列表。它整合了 API 和数据库，方便开发者获取数据。用户只需将链接粘贴至播放器即可观看直播，项目不存储视频文件，仅提供公开链接。",
+        "summary_en": "A massive collection of publicly available IPTV channel playlists from around the world.",
+        "techStack": [
+          "TypeScript",
+          "M3U"
+        ],
+        "useCase": "适合需要获取全球 IPTV 频道列表进行开发或个人观看的用户。",
+        "useCase_en": "Users can access live TV channels worldwide by pasting playlist links into compatible video players."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "oblien/openship",
+      "description": "Self-hosted deployment platform",
+      "language": "TypeScript",
+      "stars": 4764,
+      "forks": 331,
+      "todayStars": 1641,
+      "url": "https://github.com/oblien/openship",
+      "aiSummary": {
+        "summary": "OpenShip 是一个自托管的部署平台，内置 CI/CD 能力。它支持多种编程语言和框架，提供零配置的推送部署体验。平台集成了数据库、域名管理、SSL、CDN、邮件服务器和备份功能，支持自动扩展和实时监控。用户可通过 CLI、桌面应用或 Web 仪表板进行管理。",
+        "summary_en": "Self-hosted deployment platform featuring built-in CI/CD and zero-config infrastructure management.",
+        "techStack": [
+          "TypeScript",
+          "Docker"
+        ],
+        "useCase": "适合需要快速部署、全栈自托管管理的个人开发者及团队。",
+        "useCase_en": "A zero-config deployment platform for developers to ship containers and manage infrastructure."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "microsoft/Ontology-Playground",
+      "description": "Free, open-source web app for learning about ontologies and Microsoft Fabric IQ. Explore a catalogue of pre-built ontologies, design your own visually, export as RDF/XML, and share interactive diagrams. Zero backend, fully static.",
+      "language": "TypeScript",
+      "stars": 1716,
+      "forks": 230,
+      "todayStars": 464,
+      "url": "https://github.com/microsoft/Ontology-Playground",
+      "aiSummary": {
+        "summary": "这是一个用于学习和设计本体的免费开源 Web 应用。它支持可视化编辑、交互式图探索、RDF 导入导出以及一键提交社区目录。项目完全静态，无后端依赖，旨在帮助用户理解本体结构并与 Microsoft Fabric IQ 集成。",
+        "summary_en": "A free, open-source web app for visual ontology design and exploration using Microsoft Fabric IQ.",
+        "techStack": [
+          "TypeScript",
+          "Cytoscape.js"
+        ],
+        "useCase": "适用于本体学习、数据建模及 Microsoft Fabric IQ 的数据集成开发。",
+        "useCase_en": "A visual tool for designing, exploring, and sharing ontologies compatible with Microsoft Fabric IQ."
+      }
+    },
+    {
+      "index": 18,
+      "fullName": "handy-computer/transcribe.cpp",
+      "description": "ggml speech-to-text inference for 16+ model families",
+      "language": "C++",
+      "stars": 1235,
+      "forks": 31,
+      "todayStars": 395,
+      "url": "https://github.com/handy-computer/transcribe.cpp",
+      "aiSummary": {
+        "summary": "这是一个基于 C++ 的语音转文字推理库，支持 16+ 种模型家族。它利用 GGML 运行时和 GGUF 模型，提供 Metal、Vulkan、CUDA 等多后端加速，支持流式和批处理。所有模型均经过数值验证和 WER 测试。",
+        "summary_en": "High-performance C++ speech-to-text inference library supporting 16+ model families via GGML.",
+        "techStack": [
+          "C++",
+          "GGML",
+          "GGUF",
+          "Metal",
+          "Vulkan"
+        ],
+        "useCase": "适用于需要高性能、多模型支持的本地语音识别和流式转录场景。",
+        "useCase_en": "Enables fast GPU-accelerated speech-to-text inference across 16+ model families."
+      }
+    },
+    {
+      "index": 19,
+      "fullName": "moonshine-ai/moonshine",
+      "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
+      "language": "C++",
+      "stars": 9812,
+      "forks": 518,
+      "todayStars": 282,
+      "url": "https://github.com/moonshine-ai/moonshine",
+      "aiSummary": {
+        "summary": "Moonshine 是一个开源 AI 工具包，专为构建低延迟、隐私优先的实时语音代理设计。它支持语音转文本、文本转语音及意图识别，所有模型均在设备端运行。项目提供从 1MB 小型模型到高精度模型的多种选择，支持跨平台部署（包括移动端、嵌入式及 IoT 设备），并包含语音克隆、说话人识别等高级功能。",
+        "summary_en": "An open-source toolkit for building real-time voice agents with on-device speech-to-text and text-to-speech capabilities.",
+        "techStack": [
+          "C++",
+          "Python",
+          "iOS",
+          "Android",
+          "MacOS"
+        ],
+        "useCase": "构建低延迟、隐私优先的实时语音交互应用和智能代理",
+        "useCase_en": "Developers building low-latency voice agents and interfaces across diverse hardware platforms."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-21T00:07:30.006Z",
+    "duration": "445s",
+    "version": "1.0.0"
+  }
+}
