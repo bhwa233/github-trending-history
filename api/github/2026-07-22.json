@@ -1,0 +1,423 @@
+{
+  "date": "2026-07-22",
+  "since": "daily",
+  "totalRepos": 19,
+  "successCount": 19,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "stars": 68894,
+      "forks": 10529,
+      "todayStars": 4139,
+      "url": "https://github.com/koala73/worldmonitor",
+      "aiSummary": {
+        "summary": "这是一个实时全球情报仪表盘，集成了AI驱动的新闻聚合、地缘政治监控和基础设施跟踪。它支持双地图引擎（3D地球与平面地图），提供国家不稳定指数（CII）和金融雷达，支持本地AI运行，并支持多语言和桌面应用，适合需要全球态势感知的用户。",
+        "summary_en": "Real-time global intelligence dashboard aggregating AI-synthesized news, geopolitical monitoring, and infrastructure tracking.",
+        "techStack": [
+          "TypeScript",
+          "globe.gl",
+          "deck.gl",
+          "Ollama",
+          "Tauri 2"
+        ],
+        "useCase": "适合需要全球态势感知、地缘政治监控及金融情报分析的专业人士或研究人员。",
+        "useCase_en": "Provides a unified situational awareness interface for real-time geopolitical monitoring and AI-synthesized news aggrega"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 83763,
+      "forks": 11234,
+      "todayStars": 741,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 感知平台，利用 ESP32 采集信道状态信息（CSI），通过物理信号分析实现无视频、无穿戴设备的实时空间感知。它能穿透墙壁检测人体存在、呼吸心率、活动状态及睡眠质量，并原生支持 Home Assistant、Apple Home、Google Home 和 Amazon Alexa 等主流智能家居生态。",
+        "summary_en": "Rust-based WiFi sensing platform turning commodity WiFi signals into spatial intelligence and vital sign monitoring without cameras.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "MQTT",
+          "Matter"
+        ],
+        "useCase": "非接触式智能家居安防与生命体征监测",
+        "useCase_en": "Turn ordinary WiFi into a spatial intelligence system to detect presence, vital signs, and activity through walls withou"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "ayghri/i-have-adhd",
+      "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "language": "Python",
+      "stars": 8248,
+      "forks": 378,
+      "todayStars": 1699,
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "aiSummary": {
+        "summary": "这是一个专为 ADHD 用户设计的编码助手技能，旨在解决 AI 回答冗长、隐藏步骤的问题。它强制 AI 首先采取行动，对多步骤任务进行编号，提供具体时间估算，并抑制离题内容，确保输出简洁、直接且易于理解。",
+        "summary_en": "A plugin for coding agents that enforces concise, ADHD-friendly output by prioritizing direct actions and suppressing conversational filler.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Claude Code",
+          "Codex"
+        ],
+        "useCase": "适用于需要快速、清晰、无废话技术指导的编程场景。",
+        "useCase_en": "To help developers with ADHD by forcing coding agents to provide direct, actionable instructions without conversational "
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "schollz/croc",
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
+      "language": "Go",
+      "stars": 37551,
+      "forks": 1483,
+      "todayStars": 739,
+      "url": "https://github.com/schollz/croc",
+      "aiSummary": {
+        "summary": "croc 是一款基于 Go 的跨平台命令行文件传输工具，允许任意两台计算机通过中继安全传输文件。它支持端到端加密、断点续传、无需本地服务器或端口转发，兼容 IPv6 和代理，使用简单便捷。",
+        "summary_en": "A secure, cross-platform CLI tool for transferring files between any two computers using a relay.",
+        "techStack": [
+          "Go",
+          "PAKE (加密)",
+          "Relay (中继)"
+        ],
+        "useCase": "无需配置服务器，快速安全地跨设备传输文件。",
+        "useCase_en": "Easily and securely transfer files and folders between any two computers without needing a local server or port-forwardi"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "likec4/likec4",
+      "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+      "language": "TypeScript",
+      "stars": 4264,
+      "forks": 302,
+      "todayStars": 80,
+      "url": "https://github.com/likec4/likec4",
+      "aiSummary": {
+        "summary": "LikeC4 是一个基于 TypeScript 的软件架构建模语言，灵感源自 C4 模型。它允许用户定义架构模型并自动生成实时、更新的图表。项目提供灵活的自定义选项，支持 CLI 工具，旨在帮助团队可视化、协作并演进软件架构。",
+        "summary_en": "LikeC4 is a modeling language and tool for visualizing software architecture with live diagrams generated from code.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要从代码自动生成架构图、进行软件架构可视化和协作的团队。",
+        "useCase_en": "Visualize and evolve software architecture by generating live diagrams directly from your code."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "chrislgarry/Apollo-11",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "language": "Assembly",
+      "stars": 70587,
+      "forks": 7882,
+      "todayStars": 768,
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "aiSummary": {
+        "summary": "该项目包含阿波罗11号原始的指令计算机（AGC）源代码，涵盖指令模块和登月模块。代码使用汇编语言编写，处于公共领域，旨在保存历史并允许社区贡献修正。",
+        "summary_en": "Original Apollo 11 Guidance Computer (AGC) source code for the Command and Lunar Modules.",
+        "techStack": [
+          "Assembly",
+          "yaYUL",
+          "AGC Architecture"
+        ],
+        "useCase": "历史研究、计算机科学教育及复古计算研究",
+        "useCase_en": "Preserving the original source code of the Apollo 11 Guidance Computer for historical and educational purposes."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "language": "TypeScript",
+      "stars": 45739,
+      "forks": 5585,
+      "todayStars": 557,
+      "url": "https://github.com/jamiepine/voicebox",
+      "aiSummary": {
+        "summary": "Voicebox 是一个本地优先的开源 AI 声音工作室。它支持零样本语音克隆、23种语言的语音生成（基于7种TTS引擎），并提供全局听写和表情控制功能。它完全在本地运行，保护隐私，是 ElevenLabs 和 WisprFlow 的免费替代方案。",
+        "summary_en": "Open-source local AI voice studio for cloning voices, generating speech, and dictation.",
+        "techStack": [
+          "TypeScript",
+          "Whisper",
+          "Qwen",
+          "HumeAI",
+          "LuxTTS"
+        ],
+        "useCase": "适合需要本地化、隐私保护且具备语音克隆和生成能力的开发者或内容创作者。",
+        "useCase_en": "Clone voices and generate speech locally for privacy and creative projects."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "language": "TypeScript",
+      "stars": 25222,
+      "forks": 3350,
+      "todayStars": 1651,
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "aiSummary": {
+        "summary": "OmniRoute 是一个免费的 MIT AI 网关，聚合 268+ 提供商及 500+ 模型。支持自动回退、零配置及令牌压缩，显著降低成本。兼容 Claude Code、Cursor 等主流工具，提供多语言界面及桌面应用，由 500+ 贡献者维护。",
+        "summary_en": "Open-source AI gateway aggregating 268+ providers with auto-fallback and compression to optimize free token usage.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "AI 开发与多模型访问优化",
+        "useCase_en": "Developers aggregate multiple AI providers into a single gateway with automatic failover and compression to optimize cos"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 32588,
+      "forks": 5598,
+      "todayStars": 137,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融数据的高噪声特性设计。它采用两阶段框架，利用专用分词器将OHLCV数据量化为离散标记，并通过自回归Transformer进行预训练。项目支持多种模型规模，可用于金融预测等量化任务。",
+        "summary_en": "Open-source foundation model for financial candlesticks trained on data from over 45 global exchanges.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Hugging Face"
+        ],
+        "useCase": "金融时间序列预测与量化交易分析",
+        "useCase_en": "Forecast financial market trends and perform quantitative analysis on candlestick data."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": "Python",
+      "stars": 68756,
+      "forks": 7803,
+      "todayStars": 163,
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "aiSummary": {
+        "summary": "这是一个精选的 Claude Skills 列表，包含 1000+ 个生产就绪的技能和插件。它支持 Claude.ai、Claude Code 以及 Cursor、Codex 等编码代理。项目通过 Composio 插件实现了与 500+ 个应用的连接，允许 Claude 执行发送邮件、创建问题等真实操作，涵盖文档处理、数据分析、自动化等多种场景。",
+        "summary_en": "A curated collection of 1000+ production-ready Claude Skills to automate workflows across AI agents and apps.",
+        "techStack": [
+          "Python",
+          "Claude AI",
+          "Composio",
+          "YAML",
+          "Markdown"
+        ],
+        "useCase": "用于增强 Claude AI 工作流，实现跨应用自动化操作及提升生产力。",
+        "useCase_en": "Customize AI workflows and automate tasks across 500+ apps using reusable Claude Skills."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "oblien/openship",
+      "description": "Self-hosted deployment platform",
+      "language": "TypeScript",
+      "stars": 7278,
+      "forks": 537,
+      "todayStars": 1302,
+      "url": "https://github.com/oblien/openship",
+      "aiSummary": {
+        "summary": "OpenShip 是一个开源的自托管部署平台，支持内置 CI/CD。它提供桌面应用和 CLI 两种使用方式，允许用户通过 SSH 或服务模式管理服务器、部署容器和基础设施。适合个人开发者使用桌面工具，也适合团队通过 CLI 在服务器上运行。",
+        "summary_en": "Self-hosted deployment platform with CI/CD, offering a desktop app, web dashboard, and CLI for managing containers and infrastructure.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "SSH"
+        ],
+        "useCase": "适合需要自托管 CI/CD 流程的开发者或团队，用于管理容器化应用的部署和基础设施。",
+        "useCase_en": "Self-host a CI/CD platform to manage containers and infrastructure locally or on a server."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "agegr/pi-web",
+      "description": "Web UI for the pi coding agent",
+      "language": "TypeScript",
+      "stars": 2062,
+      "forks": 309,
+      "todayStars": 314,
+      "url": "https://github.com/agegr/pi-web",
+      "aiSummary": {
+        "summary": "这是一个为 pi coding agent 提供的本地 Web UI。它读取本地会话文件，提供浏览器工作区，支持会话浏览、实时聊天、模型配置、技能管理及项目文件预览。支持 Git 分支切换，可查看上下文使用情况和成本。相比 CLI，它提供了更直观的界面来管理 AI 会话和代码上下文。",
+        "summary_en": "A browser-based workspace for the pi coding agent to manage sessions, chat, and view project files.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Web"
+        ],
+        "useCase": "为 AI 编码助手提供可视化的会话管理和代码上下文浏览体验。",
+        "useCase_en": "To provide a visual interface for browsing and managing local pi coding agent sessions."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 42239,
+      "forks": 7036,
+      "todayStars": 652,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个旨在弥合学生使用AI工具与专业使用之间差距的全面自学课程。包含503个课程、20个阶段，涵盖Python、TypeScript、Rust和Julia。课程从线性代数到自主蜂群，每个阶段都从零构建算法（如反向传播、注意力机制），并产出可重用工件。这是一个免费开源的MIT项目，强调通过亲自动手构建来深入理解AI底层原理。",
+        "summary_en": "Comprehensive open-source curriculum teaching AI engineering from scratch using Python, TypeScript, Rust, and Julia.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "适合希望从零开始深入理解 AI 原理并构建可落地应用的开发者。",
+        "useCase_en": "A self-paced curriculum for developers to master AI engineering by building algorithms from scratch."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "language": "Python",
+      "stars": 25301,
+      "forks": 2389,
+      "todayStars": 882,
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "aiSummary": {
+        "summary": "这是一个本地优先的代码智能图项目，旨在解决 AI 编码工具在审查大代码库时浪费 Token 的问题。它利用 Tree-sitter 构建代码结构映射，通过 MCP 协议为 AI 提供精确的上下文，实现增量跟踪和上下文减少。支持多种 AI 工具的自动配置和集成。",
+        "summary_en": "Local-first code intelligence graph for MCP and CLI that reduces token usage by building a persistent map of your codebase.",
+        "techStack": [
+          "Python",
+          "Tree-sitter",
+          "MCP"
+        ],
+        "useCase": "适用于需要优化 AI 代码审查效率、减少 Token 消耗的大型代码库项目。",
+        "useCase_en": "To optimize AI coding tools by providing precise, graph-based context to reduce token usage during code reviews."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "dreamhunter2333/cloudflare_temp_email",
+      "description": "CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot",
+      "language": "TypeScript",
+      "stars": 10793,
+      "forks": 7289,
+      "todayStars": 68,
+      "url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
+      "aiSummary": {
+        "summary": "这是一个基于 Cloudflare 免费服务构建的完整临时邮箱系统。支持收发邮件、附件、DKIM 验证及 AI 验证码提取。后端使用 TypeScript + Cloudflare Workers，前端为 Vue 3，数据库采用 D1。具备用户管理、Admin 控制台、多语言、Telegram Bot 推送及 Agent 友好等特性，支持移动端 CloudMail 客户端管理。",
+        "summary_en": "A fully functional temporary email service built on Cloudflare Workers, featuring Rust parsing and AI integration.",
+        "techStack": [
+          "TypeScript",
+          "Vue 3",
+          "Cloudflare Workers",
+          "Cloudflare D1",
+          "Rust WASM"
+        ],
+        "useCase": "适合个人学习、临时注册账号及低成本搭建邮件服务的场景。",
+        "useCase_en": "Create temporary email addresses for privacy protection and secure communication."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "DioxusLabs/dioxus",
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "language": "Rust",
+      "stars": 38003,
+      "forks": 1786,
+      "todayStars": 420,
+      "url": "https://github.com/DioxusLabs/dioxus",
+      "aiSummary": {
+        "summary": "Dioxus 是一个基于 Rust 的全栈应用框架，支持 Web、桌面和移动端。它提供零配置、热重载和基于信号的状态管理。集成了 Server Functions 和 Axum 以实现强大的后端功能，并支持多种渲染器。",
+        "summary_en": "A fullstack Rust framework for building web, desktop, and mobile applications with hot-reloading and server-side capabilities.",
+        "techStack": [
+          "Rust",
+          "HTML/CSS",
+          "Axum",
+          "Web-sys",
+          "TailwindCSS"
+        ],
+        "useCase": "适合构建高性能、跨平台的 Web、桌面和移动应用。",
+        "useCase_en": "Build cross-platform web, desktop, and mobile applications using a single Rust codebase with hot-reloading."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "hyprwm/Hyprland",
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "language": "C++",
+      "stars": 37288,
+      "forks": 1871,
+      "todayStars": 356,
+      "url": "https://github.com/hyprwm/Hyprland",
+      "aiSummary": {
+        "summary": "Hyprland 是一个基于 C++ 编写的独立、高度可定制的动态平铺 Wayland 合成器。它拥有丰富的视觉效果、强大的插件系统、 tearing 支持以及即时配置重载功能，旨在提供比其他合成器更好的用户体验和性能。",
+        "summary_en": "Hyprland is an independent, dynamic tiling Wayland compositor written in C++ featuring extensive customization and powerful plugins.",
+        "techStack": [
+          "C++",
+          "Wayland"
+        ],
+        "useCase": "适用于需要高度可定制、动态平铺窗口管理及丰富视觉效果的开发者和桌面用户。",
+        "useCase_en": "For Linux users seeking a highly customizable, dynamic tiling Wayland compositor with advanced visual effects."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "language": "Rust",
+      "stars": 8392,
+      "forks": 591,
+      "todayStars": 108,
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "aiSummary": {
+        "summary": "Pumpkin 是一个用 Rust 编写的 Minecraft 服务器，旨在提供高性能和可定制的游戏体验。它支持 Java 和 Bedrock 版本，具备多线程优化、安全防护、插件系统以及完整的游戏机制（如红石、实体、玩家交互等）。项目目前处于开发中，致力于成为高效且灵活的服务器解决方案。",
+        "summary_en": "A high-performance Minecraft server written in Rust supporting Java and Bedrock editions.",
+        "techStack": [
+          "Rust",
+          "Minecraft Protocol",
+          "TOML"
+        ],
+        "useCase": "适合需要高性能、低延迟且支持 Java 与 Bedrock 双端互通的 Minecraft 服务器搭建。",
+        "useCase_en": "Hosting a high-performance, customizable Minecraft server for both Java and Bedrock players."
+      }
+    },
+    {
+      "index": 18,
+      "fullName": "dottxt-ai/outlines",
+      "description": "Structured Outputs",
+      "language": "Python",
+      "stars": 15095,
+      "forks": 802,
+      "todayStars": 364,
+      "url": "https://github.com/dottxt-ai/outlines",
+      "aiSummary": {
+        "summary": "Outlines 是一个 Python 库，旨在为 LLM 提供结构化输出。它通过在生成过程中直接约束模型输出，确保数据符合 JSON、XML 或 Pydantic 模型等特定模式。支持多种模型提供商，无需事后解析，简化了复杂 AI 应用的开发。",
+        "summary_en": "Python library guaranteeing LLMs produce valid structured outputs using type hints.",
+        "techStack": [
+          "Python",
+          "Pydantic",
+          "OpenAI",
+          "Ollama",
+          "vLLM"
+        ],
+        "useCase": "适用于函数调用、数据提取及需要严格格式化输出的自动化工作流开发。",
+        "useCase_en": "Generating reliable structured data from Large Language Models."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-23T00:08:47.885Z",
+    "duration": "309s",
+    "version": "1.0.0"
+  }
+}
