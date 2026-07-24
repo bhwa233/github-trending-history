@@ -1,0 +1,325 @@
+{
+  "date": "2026-07-23",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "stars": 6828,
+      "forks": 550,
+      "todayStars": 2162,
+      "url": "https://github.com/block/buzz",
+      "aiSummary": {
+        "summary": "Buzz 是一个基于 Rust 的自托管工作空间，允许人类与 AI 代理在同一房间协作。它采用 Nostr 协议作为底层事件日志，支持代理执行代码审查、工作流和 Git 操作等任务。项目强调基于身份的权限管理和统一的审计跟踪，旨在打造一个人类与智能体共同构建的“蜂巢思维”平台。",
+        "summary_en": "A self-hostable Nostr relay workspace for human and AI agent collaboration.",
+        "techStack": [
+          "Rust",
+          "Nostr",
+          "Git"
+        ],
+        "useCase": "适合需要人类与 AI 代理深度协作进行代码开发、审查及自动化工作流的团队。",
+        "useCase_en": "A self-hosted workspace for humans and AI agents to collaborate on code, reviews, and workflows."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "stars": 71535,
+      "forks": 10797,
+      "todayStars": 3175,
+      "url": "https://github.com/koala73/worldmonitor",
+      "aiSummary": {
+        "summary": "这是一个基于 TypeScript 的实时全球情报仪表板，集成了 AI 驱动的新闻聚合、地缘政治监控和国家不稳定指数评估。支持 3D 地球与 WebGL 平面地图可视化，内置金融雷达与本地 AI（Ollama）引擎，无需 API 密钥。提供跨平台桌面应用（Tauri 2）及多站点变体，适合需要全球态势感知的专业用户。",
+        "summary_en": "Real-time global intelligence dashboard aggregating AI-synthesized news, geopolitical monitoring, and financial data.",
+        "techStack": [
+          "TypeScript",
+          "globe.gl",
+          "deck.gl",
+          "Tauri 2",
+          "Ollama"
+        ],
+        "useCase": "全球态势感知、地缘政治监控与实时情报分析",
+        "useCase_en": "A unified situational awareness interface for real-time global intelligence, news aggregation, and financial tracking."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 33041,
+      "forks": 5646,
+      "todayStars": 401,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，在45个全球交易所数据上训练。它采用两阶段框架，先用专用分词器量化OHLCV数据，再用自回归Transformer处理，专为处理金融数据的高噪声特性设计，支持多种量化任务。",
+        "summary_en": "Open-source foundation model for financial candlesticks trained on data from 45+ global exchanges.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Tokenizer"
+        ],
+        "useCase": "金融时间序列预测与量化交易分析",
+        "useCase_en": "It is used for forecasting financial market trends using K-line sequences."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "language": "Rust",
+      "stars": 8899,
+      "forks": 613,
+      "todayStars": 565,
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "aiSummary": {
+        "summary": "Pumpkin 是一个用 Rust 编写的 Minecraft 服务器，旨在提供高性能和可定制的体验。它支持 Java 与 Bedrock 版本，包含完整的世界生成、实体 AI、红石物理和插件系统。项目通过多线程优化性能，并致力于实现与原版 Vanilla 机制的兼容性。",
+        "summary_en": "A high-performance Minecraft server implementation written in Rust, focusing on speed, security, and cross-version support.",
+        "techStack": [
+          "Rust",
+          "TOML",
+          "Protocol"
+        ],
+        "useCase": "适合追求极致性能和低延迟的 Minecraft 服务器托管，支持 Java 与 Bedrock 双端互通。",
+        "useCase_en": "To run a custom, high-performance Minecraft server compatible with Java and Bedrock editions."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "citrolabs/ego-lite",
+      "description": "The best browser for both you and your AI agents work in parallel.",
+      "language": "JavaScript",
+      "stars": 1612,
+      "forks": 92,
+      "todayStars": 247,
+      "url": "https://github.com/citrolabs/ego-lite",
+      "aiSummary": {
+        "summary": "专为用户与 AI 代理并行工作设计的浏览器。通过独立的‘空间’运行任务，继承用户真实登录状态，无需额外浏览器实例，解决自动化工具登录不互通痛点。",
+        "summary_en": "A browser application enabling parallel work between users and AI agents on web tasks.",
+        "techStack": [
+          "JavaScript",
+          "macOS"
+        ],
+        "useCase": "AI 代理执行浏览器自动化任务，无需干扰用户当前浏览。",
+        "useCase_en": "A browser designed for parallel collaboration between human users and AI agents on web tasks."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "chrislgarry/Apollo-11",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "language": "Assembly",
+      "stars": 71094,
+      "forks": 7916,
+      "todayStars": 592,
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "aiSummary": {
+        "summary": "该项目收录了阿波罗11号任务中指令舱和登月舱的原始阿波罗制导计算机(AGC)源代码。代码使用汇编语言编写，包含Comanche055和Luminary099两个核心程序。项目旨在保存历史技术资料，并欢迎社区贡献纠错，适合航天历史研究者和汇编语言开发者参考。",
+        "summary_en": "Original Apollo 11 Guidance Computer source code for Command and Lunar modules.",
+        "techStack": [
+          "Assembly",
+          "yaYUL",
+          "AGC (Apollo Guidance Computer)"
+        ],
+        "useCase": "航天历史研究、早期计算机编程学习、汇编语言技术分析",
+        "useCase_en": "Historical preservation and emulation of the Apollo 11 Guidance Computer."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "language": "TypeScript",
+      "stars": 27130,
+      "forks": 3557,
+      "todayStars": 1929,
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "aiSummary": {
+        "summary": "这是一个 MIT 许可的开源 AI 网关，聚合了 290+ 提供商和 500+ 模型。它支持 43 种语言，提供无需密钥的开箱即用体验，内置智能路由和压缩算法，帮助用户最大化利用免费额度。",
+        "summary_en": "Open-source AI gateway aggregating 290+ providers and free tiers into a single zero-config endpoint.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合需要统一管理多个 AI 模型提供商、降低 API 调用成本的开发者。",
+        "useCase_en": "Developers use this to aggregate free AI tiers and access 500+ models via a single endpoint."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": "Python",
+      "stars": 69407,
+      "forks": 7852,
+      "todayStars": 636,
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "aiSummary": {
+        "summary": "这是一个精选的 Claude Skills 资源库，包含 1000+ 生产就绪的技能和插件。它支持 Claude.ai、Claude Code 及多种编码代理，帮助用户实现跨 500+ 应用（如邮件、Slack）的自动化操作，提升 AI 工作流效率。",
+        "summary_en": "A curated list of 1000+ production-ready Claude Skills and Plugins for customizing AI workflows.",
+        "techStack": [
+          "Python",
+          "YAML",
+          "Markdown"
+        ],
+        "useCase": "用于构建和定制 Claude AI 的自动化工作流，实现跨应用的智能操作。",
+        "useCase_en": "Customizing Claude AI workflows and automating actions across 500+ apps."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "earthtojake/text-to-cad",
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "language": "JavaScript",
+      "stars": 9964,
+      "forks": 1096,
+      "todayStars": 230,
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "aiSummary": {
+        "summary": "这是一个面向CAD、机器人和硬件设计的代理技能库。它提供从文本或图像生成CAD模型、查看本地文件、查找标准部件、生成机器人描述文件（URDF/SDF）、切片G-code以及与Bambu Labs打印机交互等技能，旨在简化从设计到制造的自动化工作流。",
+        "summary_en": "A library of agent skills for generating, inspecting, and sourcing CAD and robotics artifacts.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "GLSL"
+        ],
+        "useCase": "适用于自动化CAD设计、机器人仿真及硬件制造流程。",
+        "useCase_en": "Enables agents to generate, slice, and manage CAD models and robot descriptions for hardware design and fabrication."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "agegr/pi-web",
+      "description": "Web UI for the pi coding agent",
+      "language": "TypeScript",
+      "stars": 2349,
+      "forks": 325,
+      "todayStars": 315,
+      "url": "https://github.com/agegr/pi-web",
+      "aiSummary": {
+        "summary": "本项目为 pi coding agent 提供本地 Web UI 界面。它读取本地会话文件，提供浏览器工作区，支持会话浏览、实时聊天、模型配置及文件预览。核心功能包括跨分支工作、恢复历史对话、侧边栏文件浏览及会话状态监控。支持通过 npx 快速启动，并兼容 HTTP 代理设置。",
+        "summary_en": "Web UI for the pi coding agent to browse sessions, chat, and manage projects locally.",
+        "techStack": [
+          "TypeScript",
+          "Node.js"
+        ],
+        "useCase": "为 pi coding agent 提供可视化界面，方便开发者进行会话管理、代码预览和实时交互。",
+        "useCase_en": "A browser-based interface for managing and interacting with the pi coding agent locally."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 11489,
+      "forks": 794,
+      "todayStars": 180,
+      "url": "https://github.com/alibaba/open-code-review",
+      "aiSummary": {
+        "summary": "阿里巴巴开源的AI代码审查CLI工具，基于Go开发。采用确定性管道+LLM Agent混合架构，具备精确的逐行评论能力和内置微调规则集。相比通用Agent，精度更高且Token消耗更少。已通过大规模基准测试验证，能有效提升代码质量。",
+        "summary_en": "Alibaba's battle-tested open-source AI code review tool using hybrid deterministic pipelines and LLM agents for precise line-level analysis.",
+        "techStack": [
+          "Go",
+          "LLM",
+          "Git",
+          "OCR"
+        ],
+        "useCase": "适用于企业级CI/CD流水线中的自动化代码质量检查，或审计不熟悉代码库的代码安全漏洞。",
+        "useCase_en": "Automate code reviews in CI/CD pipelines to detect defects like NPE and SQL injection with high precision."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 85192,
+      "forks": 11370,
+      "todayStars": 1708,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 传感平台，利用 WiFi 信号（CSI）实现无摄像头、无穿戴设备的实时空间感知。它能穿透墙壁检测人体存在、呼吸心率、活动及睡眠质量，并支持 Home Assistant、Apple Home 等主流智能家居生态集成。",
+        "summary_en": "Rust-based WiFi sensing platform turning radio signals into spatial intelligence for presence detection and vital signs.",
+        "techStack": [
+          "Rust",
+          "WiFi / CSI",
+          "ESP32",
+          "MQTT",
+          "HAP"
+        ],
+        "useCase": "非侵入式人体存在与生命体征监测，智能家居环境感知",
+        "useCase_en": "Detect presence, breathing, and heart rates through walls using ordinary WiFi signals without cameras."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "likec4/likec4",
+      "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+      "language": "TypeScript",
+      "stars": 4682,
+      "forks": 318,
+      "todayStars": 472,
+      "url": "https://github.com/likec4/likec4",
+      "aiSummary": {
+        "summary": "LikeC4 是一个基于 C4 模型的软件架构建模语言，允许用户从代码生成实时、最新的架构图。它支持自定义和协作，通过 CLI 工具提供灵活的可视化方案，非常适合需要动态文档的团队。",
+        "summary_en": "LikeC4 is a modeling language for software architecture that generates live diagrams from code.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要从代码自动生成架构图、进行软件架构可视化和协作的团队。",
+        "useCase_en": "Generate live, up-to-date diagrams from software architecture models."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "stars": 12272,
+      "forks": 456,
+      "todayStars": 624,
+      "url": "https://github.com/Automattic/harper",
+      "aiSummary": {
+        "summary": "Harper 是一个由 Rust 编写的离线、隐私优先的英语语法检查器。它旨在解决 Grammarly 和 LanguageTool 的痛点，提供毫秒级的检查速度和极低的内存占用。项目完全开源，支持 WebAssembly，目前仅支持英语，但核心架构可扩展至其他语言。",
+        "summary_en": "A fast, offline, and privacy-first English grammar checker built in Rust.",
+        "techStack": [
+          "Rust",
+          "WebAssembly"
+        ],
+        "useCase": "适用于需要快速、本地化且隐私安全的英语写作辅助，特别适合对性能和内存敏感的开发者或编辑。",
+        "useCase_en": "Check English grammar offline with high performance and privacy."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "jellyfin/jellyfin",
+      "description": "The Free Software Media System - Server Backend & API",
+      "language": "C#",
+      "stars": 54725,
+      "forks": 5163,
+      "todayStars": 66,
+      "url": "https://github.com/jellyfin/jellyfin",
+      "aiSummary": {
+        "summary": "Jellyfin 是一个免费开源的媒体系统，提供服务器后端和 API。它是 Emby 和 Plex 的替代品，允许用户管理并流式传输媒体。它移植自 Emby 3.5.2 并使用 .NET 平台，支持跨平台。该项目无付费功能，致力于构建更好的媒体解决方案。",
+        "summary_en": "A free, open-source media server and streaming platform built on .NET, providing an alternative to proprietary solutions like Plex and Emby.",
+        "techStack": [
+          "C#"
+        ],
+        "useCase": "适用于个人或组织搭建自托管媒体服务器，替代商业软件管理并流式传输媒体内容。",
+        "useCase_en": "To manage and stream personal media libraries from a dedicated server to end-user devices across multiple platforms."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-24T00:08:40.662Z",
+    "duration": "250s",
+    "version": "1.0.0"
+  }
+}
