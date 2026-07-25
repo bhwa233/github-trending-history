@@ -1,0 +1,348 @@
+{
+  "date": "2026-07-24",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "stars": 9916,
+      "forks": 770,
+      "todayStars": 3270,
+      "url": "https://github.com/block/buzz",
+      "aiSummary": {
+        "summary": "Buzz 是一个基于 Rust 的自托管协作平台，允许人类和 AI 代理在共享的 Nostr 中继房间中共同工作。它通过事件日志记录所有交互，代理拥有独立的身份、密钥和审计跟踪，能够执行代码审查、运行工作流等操作，提供类似人类队友的协作体验。",
+        "summary_en": "A self-hostable Nostr relay workspace where humans and AI agents collaborate on code, workflows, and communication.",
+        "techStack": [
+          "Rust",
+          "Nostr"
+        ],
+        "useCase": "适用于需要人类与 AI 代理深度协作的软件开发团队。",
+        "useCase_en": "A self-hosted communication platform allowing humans and AI agents to collaborate on code, reviews, and workflows."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "stars": 73248,
+      "forks": 10983,
+      "todayStars": 2184,
+      "url": "https://github.com/koala73/worldmonitor",
+      "aiSummary": {
+        "summary": "这是一个基于 TypeScript 的实时全球情报仪表盘，利用 AI 聚合新闻并监控地缘政治。支持 3D 地球与 2D 地图可视化，提供国家不稳定指数（CII）评分及金融雷达。内置本地 AI（Ollama）引擎，支持多站点变体与跨平台桌面应用（Tauri 2），界面支持 25 种语言。",
+        "summary_en": "Real-time global intelligence dashboard aggregating AI-synthesized news, geopolitical data, and infrastructure tracking via 3D maps.",
+        "techStack": [
+          "TypeScript",
+          "globe.gl",
+          "deck.gl",
+          "Ollama",
+          "Tauri 2"
+        ],
+        "useCase": "适合需要实时全球情报、地缘政治监控及金融数据可视化的专业用户。",
+        "useCase_en": "Monitor global instability, news, and financial markets in a unified desktop application."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": "Python",
+      "stars": 70038,
+      "forks": 7900,
+      "todayStars": 663,
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "aiSummary": {
+        "summary": "这是一个精选的 Claude Skills 列表，包含 1000+ 生产就绪的插件和工具。项目集成了 Composio MCP Gateway，允许 Claude 通过单一端点安全访问 1000+ 应用（如 Slack、邮件），执行真实操作而非仅生成文本。它支持 Claude.ai、Claude Code 及多种编码代理，旨在提升 AI 工作流的生产力和实用性。",
+        "summary_en": "A curated list of production-ready Claude Skills and Plugins to enhance AI workflows across various platforms.",
+        "techStack": [
+          "Python",
+          "MCP",
+          "YAML",
+          "Composio"
+        ],
+        "useCase": "为 Claude AI 及各类编码代理提供可执行的真实世界操作能力，自动化跨平台应用任务。",
+        "useCase_en": "To customize Claude AI workflows and enhance productivity by connecting to 1000+ apps via Composio."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "language": "Rust",
+      "stars": 9328,
+      "forks": 633,
+      "todayStars": 473,
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "aiSummary": {
+        "summary": "Pumpkin 是一个用 Rust 编写的 Minecraft 服务器，旨在提供高性能和高效的游戏体验。它利用多线程技术优化性能，支持 Java 和 Bedrock 版本，并具备插件系统、世界管理、实体交互等核心功能。项目致力于在保持 Vanilla 游戏机制的同时，提供安全、灵活且可扩展的服务器解决方案。",
+        "summary_en": "A high-performance Minecraft server written in Rust supporting Java and Bedrock editions.",
+        "techStack": [
+          "Rust",
+          "Minecraft Protocol",
+          "TOML"
+        ],
+        "useCase": "适合追求高性能、低延迟的 Minecraft 服务器部署，特别是需要支持 Java 和 Bedrock 双端连接的场景。",
+        "useCase_en": "Developers and server administrators can deploy a high-performance, cross-platform Minecraft server."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 33480,
+      "forks": 5678,
+      "todayStars": 499,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融数据的高噪声特性设计。它采用两阶段框架，首先将 OHLCV 数据量化为离散标记，再通过自回归 Transformer 进行预训练。项目提供多个模型版本，支持 BTC/USDT 等交易对预测。",
+        "summary_en": "Open-source foundation model for financial candlesticks, trained on data from over 45 global exchanges.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Hugging Face"
+        ],
+        "useCase": "金融时间序列预测与量化交易",
+        "useCase_en": "Forecasting financial market trends using candlestick data."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "stars": 13030,
+      "forks": 481,
+      "todayStars": 876,
+      "url": "https://github.com/Automattic/harper",
+      "aiSummary": {
+        "summary": "Harper 是一个由 Rust 编写的离线、隐私优先的英语语法检查器。它旨在解决 Grammarly 的隐私问题和 LanguageTool 的性能瓶颈。Harper 速度快（毫秒级）、内存占用极低，且支持 WebAssembly，目前主要支持英语，可扩展至其他语言。",
+        "summary_en": "Fast, offline, and privacy-focused grammar checker written in Rust.",
+        "techStack": [
+          "Rust",
+          "WebAssembly"
+        ],
+        "useCase": "适用于追求极致隐私和低资源占用的代码编辑器与文本编辑环境。",
+        "useCase_en": "A lightweight, offline grammar checking tool for developers and writers who prioritize privacy."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "likec4/likec4",
+      "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+      "language": "TypeScript",
+      "stars": 5013,
+      "forks": 334,
+      "todayStars": 337,
+      "url": "https://github.com/likec4/likec4",
+      "aiSummary": {
+        "summary": "LikeC4 是一个基于 TypeScript 的建模语言和工具，灵感源自 C4 模型。它允许用户从代码生成实时、最新的架构图表，支持自定义元素类型和层级，旨在帮助团队协作和演进软件架构。",
+        "summary_en": "A modeling language and tool for visualizing software architecture with live diagrams generated from code.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "软件架构可视化与协作",
+        "useCase_en": "Generate live software architecture diagrams from code to visualize and collaborate on system design."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "citrolabs/ego-lite",
+      "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "language": "JavaScript",
+      "stars": 2546,
+      "forks": 121,
+      "todayStars": 880,
+      "url": "https://github.com/citrolabs/ego-lite",
+      "aiSummary": {
+        "summary": "这是一个专为 AI 代理设计的浏览器，旨在实现人类用户与 AI 并行工作。它允许 AI 代理在独立的“Space”中运行自动化任务，同时保持用户的标签页和登录状态不变。项目解决了现有自动化工具中登录状态不共享和标签页冲突的问题，支持零配置安装，目前主要支持 macOS。",
+        "summary_en": "A browser designed for AI agents to run web automation in parallel with users, sharing logged-in state.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "AI 代理执行网页自动化任务，且需要访问用户已登录的浏览器状态。",
+        "useCase_en": "Allows AI agents to perform web automation tasks using the user's logged-in browser state without interfering with perso"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "stars": 19560,
+      "forks": 596,
+      "todayStars": 338,
+      "url": "https://github.com/yorukot/superfile",
+      "aiSummary": {
+        "summary": "superfile 是一个用 Go 语言编写的现代化、漂亮的终端文件管理器。它支持 Linux、macOS 和 Windows，提供直观的界面、丰富的插件系统、主题定制以及 Vim 风格的热键操作，旨在提升终端下的文件管理效率。",
+        "summary_en": "A modern and fancy terminal file manager written in Go featuring plugins and themes.",
+        "techStack": [
+          "Go",
+          "Shell",
+          "Git"
+        ],
+        "useCase": "适合追求高效、现代化终端体验的开发者及 Vim 用户。",
+        "useCase_en": "Users can manage files in a modern terminal interface with plugins and themes."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 85921,
+      "forks": 11447,
+      "todayStars": 1022,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 信号感知平台，利用无线电波实现无视频的墙壁透视、生命体征监测和存在检测。它支持 Home Assistant、Apple HomeKit、Google Home 和 Amazon Alexa 等主流智能家居生态，通过 ESP32 传感器采集 CSI 数据，提供房间活动、睡眠质量及环境映射等智能服务。",
+        "summary_en": "Rust-based WiFi sensing platform that transforms radio signals into spatial intelligence for presence and vital sign monitoring.",
+        "techStack": [
+          "Rust",
+          "WiFi CSI",
+          "ESP32",
+          "MQTT",
+          "Home Assistant"
+        ],
+        "useCase": "隐私保护的家庭安防与生命体征监测",
+        "useCase_en": "Turn ordinary WiFi into a spatial intelligence system to detect presence, breathing, and heart rate through walls."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "CoreBunch/Instatic",
+      "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+      "language": "TypeScript",
+      "stars": 4275,
+      "forks": 409,
+      "todayStars": 201,
+      "url": "https://github.com/CoreBunch/Instatic",
+      "aiSummary": {
+        "summary": "Instatic 是一个自托管的可视化 CMS，旨在替代 Webflow 和 WordPress。它使用 Bun 服务器和 SQLite/Postgres 数据库，集成了视觉编辑器、内容引擎和发布功能。其独特之处在于输出纯净的静态 HTML 和 CSS，无需框架运行时，非常适合快速部署和自托管。",
+        "summary_en": "A self-hosted visual CMS that outputs clean static HTML, replacing Webflow and WordPress.",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "SQLite",
+          "Postgres"
+        ],
+        "useCase": "适合需要自托管、快速部署且希望获得静态网站性能的用户。",
+        "useCase_en": "Building static websites for blogs, portfolios, and small businesses using a visual editor."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "chrislgarry/Apollo-11",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "language": "Assembly",
+      "stars": 71401,
+      "forks": 7932,
+      "todayStars": 409,
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "aiSummary": {
+        "summary": "包含阿波罗11号指令舱和登月舱原始源代码的开源项目，使用汇编语言编写。代码由MIT博物馆数字化，分为Comanche055和Luminary099两个部分。作为公共领域资源，旨在保存历史并欢迎社区贡献修正转录错误。",
+        "summary_en": "Original Apollo 11 Guidance Computer (AGC) source code for Command and Lunar modules, digitized from MIT Museum.",
+        "techStack": [
+          "Assembly",
+          "yaYUL",
+          "AGC"
+        ],
+        "useCase": "历史研究、计算机科学教育及复古计算模拟",
+        "useCase_en": "To preserve and study the original source code of the Apollo 11 Guidance Computer."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 186686,
+      "forks": 16018,
+      "todayStars": 2251,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个为工程师设计的 AI 技能集合，基于 Shell 语言编写。它旨在提供可组合、可定制的工作流，帮助用户在编码代理中高效管理任务（如问题跟踪、标签和文档）。支持通过 npx 安装或作为 Claude Code 插件使用，强调“真实工程”而非“氛围编码”。",
+        "summary_en": "A collection of engineering skills for coding agents to manage workflows and processes.",
+        "techStack": [
+          "Shell",
+          "JavaScript",
+          "Claude Code"
+        ],
+        "useCase": "适合需要结构化工作流和 AI 辅助编码的工程师，用于管理项目任务、标签和文档生成。",
+        "useCase_en": "Configure coding agents with engineering workflows and issue tracking tools."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "language": "Jupyter Notebook",
+      "stars": 44989,
+      "forks": 5386,
+      "todayStars": 328,
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "aiSummary": {
+        "summary": "这是一个由上海交通大学开发的公益大模型编程实践教程，使用Jupyter Notebook编写。内容涵盖微调、提示学习、知识编辑、数学推理、越狱攻击、隐写术、多模态、GUI智能体及RLHF对齐等前沿主题。近期新增了基于华为昇腾的国产化大模型开发全流程教程，适合初学者快速入门大模型开发与学术研究。",
+        "summary_en": "An open-source, practical tutorial series for Large Language Models covering fine-tuning, agents, and security.",
+        "techStack": [
+          "Jupyter Notebook"
+        ],
+        "useCase": "适合大模型初学者、高校学生及研究者进行课程学习、学术研究及大模型开发实践。",
+        "useCase_en": "A practical guide for students and developers to learn LLM development, fine-tuning, and agent creation."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "language": "TypeScript",
+      "stars": 28803,
+      "forks": 3777,
+      "todayStars": 1841,
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "aiSummary": {
+        "summary": "OmniRoute 是一个免费的 MIT AI 网关，聚合了 290+ 提供商和 500+ 模型。它支持自动回退、RTK+Caveman 压缩（节省 15-95% tokens），无需配置即可开箱即用。适合需要统一访问多个 AI 模型并节省 API 成本的开发者。",
+        "summary_en": "Open-source AI gateway aggregating 290+ providers and 500+ models into a single endpoint for cost-effective access.",
+        "techStack": [
+          "TypeScript",
+          "PWA",
+          "MCP",
+          "A2A"
+        ],
+        "useCase": "适用于需要统一管理多个 AI 模型、利用免费额度并自动降级以节省 API 成本的开发者。",
+        "useCase_en": "To aggregate multiple AI providers into a single gateway for simplified access to free and paid models."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "OtterMind/Chat2DB",
+      "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+      "language": "Java",
+      "stars": 26321,
+      "forks": 2880,
+      "todayStars": 82,
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "aiSummary": {
+        "summary": "Chat2DB 是一款跨平台的 AI 驱动数据库客户端，支持 30+ 种主流数据库。它集成了强大的 SQL 工作区和 AI 助手，允许用户通过自然语言生成、解释和优化 SQL。此外，它还提供数据管理、ER 图、仪表板和导入导出功能，适合开发者和数据团队使用。",
+        "summary_en": "AI-driven cross-platform database client supporting 30+ databases with built-in AI for SQL generation and optimization.",
+        "techStack": [
+          "Java",
+          "Docker"
+        ],
+        "useCase": "适合开发人员、DBA 及数据团队进行跨平台数据库管理和 AI 辅助 SQL 开发。",
+        "useCase_en": "Developers and DBAs use this tool to manage databases and generate SQL using AI."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-25T00:12:33.671Z",
+    "duration": "255s",
+    "version": "1.0.0"
+  }
+}

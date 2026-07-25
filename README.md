@@ -70,27 +70,28 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-07-23 | **成功**: 15 | **失败**: 0
+**最后更新**: 2026-07-24 | **成功**: 16 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [block/buzz](https://github.com/block/buzz) | A hive mind communication platform... | Rust | 6.8k | 2.2k | Buzz 是一个基于 Rust 的自托管工作空间，允许人类与 AI 代理在同一房间协作。它采用 Nostr 协议作为底层事件日志，支持代理执行代码审查、工作流和 Git 操作等任务。项目强调基于身份的权限管理和统一的审计跟踪，旨在打造一个人类与智能体共同构建的“蜂巢思维”平台。 |
-| 2 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powere... | TypeScript | 71.5k | 3.2k | 这是一个基于 TypeScript 的实时全球情报仪表板，集成了 AI 驱动的新闻聚合、地缘政治监控和国家不稳定指数评估。支持 3D 地球与 WebGL 平面地图可视化，内置金融雷达与本地 AI（Ollama）引擎，无需 API 密钥。提供跨平台桌面应用（Tauri 2）及多站点变体，适合需要全球态势感知的专业用户。 |
-| 3 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Fin... | Python | 33.0k | 401 | Kronos 是首个开源的金融蜡烛图基础模型，在45个全球交易所数据上训练。它采用两阶段框架，先用专用分词器量化OHLCV数据，再用自回归Transformer处理，专为处理金融数据的高噪声特性设计，支持多种量化任务。 |
-| 4 | [Pumpkin-MC/Pumpkin](https://github.com/Pumpkin-MC/Pumpkin) | Empowering everyone to host fast and efficient Min... | Rust | 8.9k | 565 | Pumpkin 是一个用 Rust 编写的 Minecraft 服务器，旨在提供高性能和可定制的体验。它支持 Java 与 Bedrock 版本，包含完整的世界生成、实体 AI、红石物理和插件系统。项目通过多线程优化性能，并致力于实现与原版 Vanilla 机制的兼容性。 |
-| 5 | [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) | The best browser for both you and your AI agents w... | JavaScript | 1.6k | 247 | 专为用户与 AI 代理并行工作设计的浏览器。通过独立的‘空间’运行任务，继承用户真实登录状态，无需额外浏览器实例，解决自动化工具登录不互通痛点。 |
-| 6 | [chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11) | Original Apollo 11 Guidance Computer (AGC) source ... | Assembly | 71.1k | 592 | 该项目收录了阿波罗11号任务中指令舱和登月舱的原始阿波罗制导计算机(AGC)源代码。代码使用汇编语言编写，包含Comanche055和Luminary099两个核心程序。项目旨在保存历史技术资料，并欢迎社区贡献纠错，适合航天历史研究者和汇编语言开发者参考。 |
-| 7 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | Never stop coding. Free MIT AI gateway: one endpoi... | TypeScript | 27.1k | 1.9k | 这是一个 MIT 许可的开源 AI 网关，聚合了 290+ 提供商和 500+ 模型。它支持 43 种语言，提供无需密钥的开箱即用体验，内置智能路由和压缩算法，帮助用户最大化利用免费额度。 |
-| 8 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | A curated list of awesome Claude Skills, resources... | Python | 69.4k | 636 | 这是一个精选的 Claude Skills 资源库，包含 1000+ 生产就绪的技能和插件。它支持 Claude.ai、Claude Code 及多种编码代理，帮助用户实现跨 500+ 应用（如邮件、Slack）的自动化操作，提升 AI 工作流效率。 |
-| 9 | [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | A collection of agent skills for CAD, robotics and... | JavaScript | 10.0k | 230 | 这是一个面向CAD、机器人和硬件设计的代理技能库。它提供从文本或图像生成CAD模型、查看本地文件、查找标准部件、生成机器人描述文件（URDF/SDF）、切片G-code以及与Bambu Labs打印机交互等技能，旨在简化从设计到制造的自动化工作流。 |
-| 10 | [agegr/pi-web](https://github.com/agegr/pi-web) | Web UI for the pi coding agent... | TypeScript | 2.3k | 315 | 本项目为 pi coding agent 提供本地 Web UI 界面。它读取本地会话文件，提供浏览器工作区，支持会话浏览、实时聊天、模型配置及文件预览。核心功能包括跨分支工作、恢复历史对话、侧边栏文件浏览及会话状态监控。支持通过 npx 快速启动，并兼容 HTTP 代理设置。 |
-| 11 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Open-source & free — Battle-tested at Alibaba's sc... | Go | 11.5k | 180 | 阿里巴巴开源的AI代码审查CLI工具，基于Go开发。采用确定性管道+LLM Agent混合架构，具备精确的逐行评论能力和内置微调规则集。相比通用Agent，精度更高且Token消耗更少。已通过大规模基准测试验证，能有效提升代码质量。 |
-| 12 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView turns commodity WiFi signals into real-ti... | Rust | 85.2k | 1.7k | RuView 是一个基于 Rust 的 WiFi 传感平台，利用 WiFi 信号（CSI）实现无摄像头、无穿戴设备的实时空间感知。它能穿透墙壁检测人体存在、呼吸心率、活动及睡眠质量，并支持 Home Assistant、Apple Home 等主流智能家居生态集成。 |
-| 13 | [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software ar... | TypeScript | 4.7k | 472 | LikeC4 是一个基于 C4 模型的软件架构建模语言，允许用户从代码生成实时、最新的架构图。它支持自定义和协作，通过 CLI 工具提供灵活的可视化方案，非常适合需要动态文档的团队。 |
-| 14 | [Automattic/harper](https://github.com/Automattic/harper) | Offline, privacy-first grammar checker. Fast, open... | Rust | 12.3k | 624 | Harper 是一个由 Rust 编写的离线、隐私优先的英语语法检查器。它旨在解决 Grammarly 和 LanguageTool 的痛点，提供毫秒级的检查速度和极低的内存占用。项目完全开源，支持 WebAssembly，目前仅支持英语，但核心架构可扩展至其他语言。 |
-| 15 | [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) | The Free Software Media System - Server Backend & ... | C# | 54.7k | 66 | Jellyfin 是一个免费开源的媒体系统，提供服务器后端和 API。它是 Emby 和 Plex 的替代品，允许用户管理并流式传输媒体。它移植自 Emby 3.5.2 并使用 .NET 平台，支持跨平台。该项目无付费功能，致力于构建更好的媒体解决方案。 |
+| 1 | [block/buzz](https://github.com/block/buzz) | A hive mind communication platform... | Rust | 9.9k | 3.3k | Buzz 是一个基于 Rust 的自托管协作平台，允许人类和 AI 代理在共享的 Nostr 中继房间中共同工作。它通过事件日志记录所有交互，代理拥有独立的身份、密钥和审计跟踪，能够执行代码审查、运行工作流等操作，提供类似人类队友的协作体验。 |
+| 2 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powere... | TypeScript | 73.2k | 2.2k | 这是一个基于 TypeScript 的实时全球情报仪表盘，利用 AI 聚合新闻并监控地缘政治。支持 3D 地球与 2D 地图可视化，提供国家不稳定指数（CII）评分及金融雷达。内置本地 AI（Ollama）引擎，支持多站点变体与跨平台桌面应用（Tauri 2），界面支持 25 种语言。 |
+| 3 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | A curated list of awesome Claude Skills, resources... | Python | 70.0k | 663 | 这是一个精选的 Claude Skills 列表，包含 1000+ 生产就绪的插件和工具。项目集成了 Composio MCP Gateway，允许 Claude 通过单一端点安全访问 1000+ 应用（如 Slack、邮件），执行真实操作而非仅生成文本。它支持 Claude.ai、Claude Code 及多种编码代理，旨在提升 AI 工作流的生产力和实用性。 |
+| 4 | [Pumpkin-MC/Pumpkin](https://github.com/Pumpkin-MC/Pumpkin) | Empowering everyone to host fast and efficient Min... | Rust | 9.3k | 473 | Pumpkin 是一个用 Rust 编写的 Minecraft 服务器，旨在提供高性能和高效的游戏体验。它利用多线程技术优化性能，支持 Java 和 Bedrock 版本，并具备插件系统、世界管理、实体交互等核心功能。项目致力于在保持 Vanilla 游戏机制的同时，提供安全、灵活且可扩展的服务器解决方案。 |
+| 5 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Fin... | Python | 33.5k | 499 | Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融数据的高噪声特性设计。它采用两阶段框架，首先将 OHLCV 数据量化为离散标记，再通过自回归 Transformer 进行预训练。项目提供多个模型版本，支持 BTC/USDT 等交易对预测。 |
+| 6 | [Automattic/harper](https://github.com/Automattic/harper) | Offline, privacy-first grammar checker. Fast, open... | Rust | 13.0k | 876 | Harper 是一个由 Rust 编写的离线、隐私优先的英语语法检查器。它旨在解决 Grammarly 的隐私问题和 LanguageTool 的性能瓶颈。Harper 速度快（毫秒级）、内存占用极低，且支持 WebAssembly，目前主要支持英语，可扩展至其他语言。 |
+| 7 | [likec4/likec4](https://github.com/likec4/likec4) | Visualize, collaborate, and evolve the software ar... | TypeScript | 5.0k | 337 | LikeC4 是一个基于 TypeScript 的建模语言和工具，灵感源自 C4 模型。它允许用户从代码生成实时、最新的架构图表，支持自定义元素类型和层级，旨在帮助团队协作和演进软件架构。 |
+| 8 | [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) | The fastest browser for AI agents to run web autom... | JavaScript | 2.5k | 880 | 这是一个专为 AI 代理设计的浏览器，旨在实现人类用户与 AI 并行工作。它允许 AI 代理在独立的“Space”中运行自动化任务，同时保持用户的标签页和登录状态不变。项目解决了现有自动化工具中登录状态不共享和标签页冲突的问题，支持零配置安装，目前主要支持 macOS。 |
+| 9 | [yorukot/superfile](https://github.com/yorukot/superfile) | Pretty fancy and modern terminal file manager... | Go | 19.6k | 338 | superfile 是一个用 Go 语言编写的现代化、漂亮的终端文件管理器。它支持 Linux、macOS 和 Windows，提供直观的界面、丰富的插件系统、主题定制以及 Vim 风格的热键操作，旨在提升终端下的文件管理效率。 |
+| 10 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView turns commodity WiFi signals into real-ti... | Rust | 85.9k | 1.0k | RuView 是一个基于 Rust 的 WiFi 信号感知平台，利用无线电波实现无视频的墙壁透视、生命体征监测和存在检测。它支持 Home Assistant、Apple HomeKit、Google Home 和 Amazon Alexa 等主流智能家居生态，通过 ESP32 传感器采集 CSI 数据，提供房间活动、睡眠质量及环境映射等智能服务。 |
+| 11 | [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | The open-source alternative to Webflow, Framer and... | TypeScript | 4.3k | 201 | Instatic 是一个自托管的可视化 CMS，旨在替代 Webflow 和 WordPress。它使用 Bun 服务器和 SQLite/Postgres 数据库，集成了视觉编辑器、内容引擎和发布功能。其独特之处在于输出纯净的静态 HTML 和 CSS，无需框架运行时，非常适合快速部署和自托管。 |
+| 12 | [chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11) | Original Apollo 11 Guidance Computer (AGC) source ... | Assembly | 71.4k | 409 | 包含阿波罗11号指令舱和登月舱原始源代码的开源项目，使用汇编语言编写。代码由MIT博物馆数字化，分为Comanche055和Luminary099两个部分。作为公共领域资源，旨在保存历史并欢迎社区贡献修正转录错误。 |
+| 13 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .agent... | Shell | 186.7k | 2.3k | 这是一个为工程师设计的 AI 技能集合，基于 Shell 语言编写。它旨在提供可组合、可定制的工作流，帮助用户在编码代理中高效管理任务（如问题跟踪、标签和文档）。支持通过 npx 安装或作为 Claude Code 插件使用，强调“真实工程”而非“氛围编码”。 |
+| 14 | [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) | 《动手学大模型Dive into LLMs》系列编程实践教程... | Jupyter Notebook | 45.0k | 328 | 这是一个由上海交通大学开发的公益大模型编程实践教程，使用Jupyter Notebook编写。内容涵盖微调、提示学习、知识编辑、数学推理、越狱攻击、隐写术、多模态、GUI智能体及RLHF对齐等前沿主题。近期新增了基于华为昇腾的国产化大模型开发全流程教程，适合初学者快速入门大模型开发与学术研究。 |
+| 15 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | Never stop coding. Free MIT AI gateway: one endpoi... | TypeScript | 28.8k | 1.8k | OmniRoute 是一个免费的 MIT AI 网关，聚合了 290+ 提供商和 500+ 模型。它支持自动回退、RTK+Caveman 压缩（节省 15-95% tokens），无需配置即可开箱即用。适合需要统一访问多个 AI 模型并节省 API 成本的开发者。 |
+| 16 | [OtterMind/Chat2DB](https://github.com/OtterMind/Chat2DB) | 🔥🔥🔥 AI-driven database tool and SQL client, The... | Java | 26.3k | 82 | Chat2DB 是一款跨平台的 AI 驱动数据库客户端，支持 30+ 种主流数据库。它集成了强大的 SQL 工作区和 AI 助手，允许用户通过自然语言生成、解释和优化 SQL。此外，它还提供数据管理、ER 图、仪表板和导入导出功能，适合开发者和数据团队使用。 |
 
-[查看完整数据](api/github/2026-07-23.json)
+[查看完整数据](api/github/2026-07-24.json)
 <!-- END GITHUB TRENDING -->
 
 
