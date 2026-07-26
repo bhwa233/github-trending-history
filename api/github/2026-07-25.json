@@ -1,0 +1,393 @@
+{
+  "date": "2026-07-25",
+  "since": "daily",
+  "totalRepos": 18,
+  "successCount": 18,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "stars": 11887,
+      "forks": 944,
+      "todayStars": 2491,
+      "url": "https://github.com/block/buzz",
+      "aiSummary": {
+        "summary": "Buzz 是一个基于 Rust 的自托管工作区，允许人类和 AI 代理在共享的 Nostr 中继房间中协作。它将所有活动（包括代码审查、Git 事件和工作流）记录为经过签名的日志事件。代理拥有独立的身份和权限，可以执行如打开仓库、发送补丁和审查代码等操作，提供类似人类队友的协作体验。",
+        "summary_en": "A self-hostable Nostr relay workspace for human and AI agent collaboration.",
+        "techStack": [
+          "Rust",
+          "Nostr"
+        ],
+        "useCase": "适合需要 AI 代理深度参与代码审查、工作流自动化和团队协作的开发团队。",
+        "useCase_en": "A self-hostable workspace for human and AI agent collaboration using a Nostr relay architecture."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 12941,
+      "forks": 887,
+      "todayStars": 431,
+      "url": "https://github.com/alibaba/open-code-review",
+      "aiSummary": {
+        "summary": "这是阿里巴巴开源的 AI 代码审查 CLI 工具，基于 Go 开发。采用混合架构（确定性管道 + LLM Agent），提供精确的逐行代码审查，内置针对 NPE、线程安全等漏洞的微调规则集。相比通用 Agent，它在相同模型下精度更高、Token 消耗更低（约 1/9），适合企业级代码质量保障。",
+        "summary_en": "Alibaba's battle-tested AI code review tool built with Go and LLMs for precise line-level analysis.",
+        "techStack": [
+          "Go",
+          "LLM (OpenAI/Anthropic Compatible)",
+          "Git",
+          "OCR",
+          "CLI Tool"
+        ],
+        "useCase": "适用于企业级代码质量保障，特别是需要高精度、低 Token 消耗的自动化代码审查场景。",
+        "useCase_en": "Automate code reviews to detect defects and improve code quality using AI agents."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "citrolabs/ego-lite",
+      "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "language": "JavaScript",
+      "stars": 3561,
+      "forks": 175,
+      "todayStars": 986,
+      "url": "https://github.com/citrolabs/ego-lite",
+      "aiSummary": {
+        "summary": "ego-lite 是一个专为 AI 代理设计的浏览器，旨在与人类用户并行工作。它允许 AI 代理在独立空间运行自动化任务，无需干扰用户的标签页。通过零配置和共享登录状态，它实现了无缝协作，让 Codex 或 Claude Code 等代理能够高效执行网页操作。",
+        "summary_en": "A browser for AI agents to run web automation while sharing your logged-in state without disturbing the user.",
+        "techStack": [
+          "JavaScript",
+          "macOS",
+          "npx"
+        ],
+        "useCase": "AI 代理进行网页自动化操作（如社交媒体互动），同时保持用户登录状态和浏览体验。",
+        "useCase_en": "Enables AI agents to perform web automation tasks in parallel using your existing browser logins without interfering wit"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": "Python",
+      "stars": 70573,
+      "forks": 7938,
+      "todayStars": 577,
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "aiSummary": {
+        "summary": "这是一个精选的 1000+ 生产就绪的 Claude Skills 和 Plugins 列表，旨在增强跨 Claude.ai、Claude Code 及各类编码代理（如 Cursor、Codex）的生产力。项目集成了 Composio MCP Gateway，允许 Claude 执行真实操作（如发送邮件、创建问题），并提供文档处理、开发工具、数据分析等分类资源。",
+        "summary_en": "A curated list of 1000+ production-ready Claude Skills and Plugins for enhancing AI productivity.",
+        "techStack": [
+          "Python",
+          "YAML",
+          "Markdown",
+          "MCP"
+        ],
+        "useCase": "为 Claude AI 代理定制工作流，实现跨应用自动化操作与生产力提升。",
+        "useCase_en": "To customize Claude AI workflows and automate actions across 1000+ apps using a curated list of skills."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "stars": 49877,
+      "forks": 5895,
+      "todayStars": 132,
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "aiSummary": {
+        "summary": "这是一个展示如何使用 Claude 的 Jupyter Notebook 集合。它提供了分类、RAG、总结等能力的代码示例，涵盖工具使用、第三方集成和多模态视觉。开发者可以通过这些可复制的代码片段快速构建应用。",
+        "summary_en": "A collection of Jupyter notebooks demonstrating effective ways to use the Claude API.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python"
+        ],
+        "useCase": "帮助开发者学习 Claude API 并快速集成到项目中。",
+        "useCase_en": "Developers use this to learn how to integrate Claude into their own projects."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "stars": 13409,
+      "forks": 508,
+      "todayStars": 503,
+      "url": "https://github.com/Automattic/harper",
+      "aiSummary": {
+        "summary": "Harper 是一个用 Rust 编写的开源英语语法检查器。它专注于离线使用和隐私保护，速度极快且内存占用极低（比 LanguageTool 小得多）。目前仅支持英语，但核心架构可扩展，适合追求高效、安全写作体验的用户。",
+        "summary_en": "A fast, offline, privacy-first grammar checker built in Rust for lightweight text correction.",
+        "techStack": [
+          "Rust",
+          "WebAssembly"
+        ],
+        "useCase": "适用于追求高性能、离线运行且重视隐私的英语写作辅助场景。",
+        "useCase_en": "Users can check grammar offline with high privacy and low resource usage."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 33781,
+      "forks": 5702,
+      "todayStars": 319,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融数据的高噪声特性设计。它采用独特的两阶段框架，将 OHLCV 数据量化为离散标记，并通过自回归 Transformer 进行预训练。该模型支持多种量化任务，已在 AAAI 2026 录用，提供 mini、small、base 等不同规模的预训练模型。",
+        "summary_en": "Open-source foundation model for financial candlestick data, trained on 45+ exchanges using a specialized tokenizer and transformer architecture.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Tokenizer",
+          "Hugging Face"
+        ],
+        "useCase": "专为金融市场的K线序列预测和量化分析设计。",
+        "useCase_en": "It serves as a unified model for diverse quantitative tasks in financial markets."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 261089,
+      "forks": 23298,
+      "todayStars": 479,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个面向 AI 编码代理的软件开发方法论框架。它通过提供可组合的技能和初始指令，使代理能够自主工作。流程包括询问用户目标、分解规范、制定实现计划（强调 TDD/YAGNI/DRY）以及执行子代理驱动的开发。它支持多种主流 AI 编码工具，旨在让代理在没有人工干预的情况下进行自主开发。",
+        "summary_en": "An agentic skills framework that empowers coding agents with a structured software development methodology.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "为 AI 编码代理赋能，实现从需求分析、规范制定到代码实现的自主软件开发流程。",
+        "useCase_en": "To provide coding agents with a structured methodology for autonomous software development."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "language": "Rust",
+      "stars": 9705,
+      "forks": 655,
+      "todayStars": 358,
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "aiSummary": {
+        "summary": "Pumpkin 是一个使用 Rust 编写的 Minecraft 服务器，旨在提供高性能、低延迟且高度可定制的游戏体验。它支持 Java 和 Bedrock 版本，具备多线程优化、安全防护及插件开发支持。项目涵盖了世界管理、实体AI、玩家交互及代理功能等核心模块，目前处于开发阶段。",
+        "summary_en": "A high-performance Minecraft server written in Rust supporting Java and Bedrock editions.",
+        "techStack": [
+          "Rust",
+          "Minecraft Protocol",
+          "TOML"
+        ],
+        "useCase": "适合追求极致性能、低延迟且需要高度定制化与可扩展性的 Minecraft 服务器搭建。",
+        "useCase_en": "To run a high-performance, vanilla-compatible Minecraft server for both Java and Bedrock clients."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "permissionlesstech/bitchat",
+      "description": "bluetooth mesh chat, IRC vibes",
+      "language": "Swift",
+      "stars": 28687,
+      "forks": 4281,
+      "todayStars": 1720,
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "aiSummary": {
+        "summary": "BitChat 是一款去中心化的点对点消息应用，采用蓝牙 Mesh 和 Nostr 协议的双传输架构。它支持本地离线通信和全球互联网连接，无需账户或服务器。具备位置频道、端到端加密及 IRC 风格命令，强调隐私与抗审查能力。",
+        "summary_en": "Decentralized Swift app offering offline Bluetooth mesh and global Nostr messaging without accounts.",
+        "techStack": [
+          "Swift",
+          "Bluetooth Mesh",
+          "Nostr Protocol",
+          "Noise Protocol",
+          "LZ4"
+        ],
+        "useCase": "适用于需要离线通信、隐私保护及去中心化社交的场景。",
+        "useCase_en": "A private, decentralized messaging tool for offline local chats and global communication."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 188229,
+      "forks": 16175,
+      "todayStars": 1740,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个专为 AI 编码代理设计的实用技能集合，旨在帮助开发者进行真实的工程实践而非“氛围编码”。它包含了一系列可组合的小型脚本和工作流，支持通过 Shell 命令或 Claude Code 插件安装。项目提供了一套标准化的开发流程，包括问题跟踪、标签管理和文档生成，旨在赋予开发者对开发过程的控制权。",
+        "summary_en": "A collection of engineering skills for coding agents to manage workflows and issue tracking.",
+        "techStack": [
+          "Shell",
+          "JavaScript",
+          "Claude Code"
+        ],
+        "useCase": "适用于使用 AI 编码助手（如 Claude）进行日常开发的工程师，用于建立标准化的工作流和提升工程化能力。",
+        "useCase_en": "Install these skills into your coding agent to automate workflows and issue tracking."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "palmier-io/palmier-pro",
+      "description": "macOS video editor built for AI",
+      "language": "Swift",
+      "stars": 12209,
+      "forks": 893,
+      "todayStars": 412,
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "aiSummary": {
+        "summary": "Palmier Pro 是一款基于 Swift 的 macOS 原生视频编辑器，主打 AI 驱动的工作流。它支持与 Claude、Codex 等代理协作，利用 SOTA 模型在时间轴上生成和编辑视频。项目开源了编辑器和 MCP 服务器，基础功能免费，生成式 AI 功能需订阅。",
+        "summary_en": "Open-source macOS video editor integrating generative AI and agents for collaborative editing.",
+        "techStack": [
+          "Swift",
+          "macOS",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "需要利用 AI 代理辅助视频创作的 macOS 用户",
+        "useCase_en": "Generate and edit videos collaboratively using AI agents directly in the timeline."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "CoreBunch/Instatic",
+      "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+      "language": "TypeScript",
+      "stars": 5057,
+      "forks": 473,
+      "todayStars": 426,
+      "url": "https://github.com/CoreBunch/Instatic",
+      "aiSummary": {
+        "summary": "Instatic 是一个自托管的视觉 CMS，旨在替代 Webflow 和 WordPress。它使用 Bun 运行时和 TypeScript 构建，将编辑器、内容引擎和发布器集成在单个服务器中。它输出干净的静态 HTML 和 CSS，没有框架开销。支持 SQLite 和 Postgres，提供一键部署。",
+        "summary_en": "An open-source, self-hosted visual CMS that outputs clean static HTML, replacing Webflow and WordPress.",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "SQLite",
+          "Postgres"
+        ],
+        "useCase": "适合需要自托管、快速部署且追求极致页面性能的博客、作品集及小型企业网站。",
+        "useCase_en": "A self-hosted alternative to Webflow for building clean, static websites and blogs."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "language": "Jupyter Notebook",
+      "stars": 45343,
+      "forks": 5414,
+      "todayStars": 408,
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "aiSummary": {
+        "summary": "这是一个由上海交通大学开发的公益大模型编程实践教程，基于 Jupyter Notebook。内容涵盖微调、提示学习、知识编辑、数学推理、隐写术、多模态、智能体安全等多个前沿主题。近期新增了与华为昇腾合作的国产化全流程开发课程，包含PPT、手册和视频，旨在帮助初学者快速入门大模型开发与学术研究。",
+        "summary_en": "A comprehensive Jupyter Notebook tutorial series on Large Language Models covering fine-tuning, agents, and security.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python"
+        ],
+        "useCase": "大模型入门学习、课程设计、学术研究及开发者实践",
+        "useCase_en": "A free educational resource for students and researchers to learn LLM development, fine-tuning, and security."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "language": "Python",
+      "stars": 14279,
+      "forks": 1268,
+      "todayStars": 86,
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "aiSummary": {
+        "summary": "turbovec 是一个基于 Rust 和 TurboQuant 算法的向量索引库，提供 Python 绑定。它利用 SIMD 优化实现极高的压缩率（10M 文档仅需 4GB），支持在线增量索引和搜索时过滤。相比 FAISS，它在 ARM 和 x86 上均表现优异，特别适合对内存占用敏感或需要完全本地化部署的 RAG 应用场景。",
+        "summary_en": "A high-performance, memory-efficient vector index library built with Rust and Python bindings.",
+        "techStack": [
+          "Rust",
+          "Python",
+          "TurboQuant"
+        ],
+        "useCase": "适用于对隐私、内存或延迟敏感的 RAG 系统。",
+        "useCase_en": "Ideal for building privacy-focused Retrieval-Augmented Generation (RAG) systems with fast vector search."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "OtterMind/Chat2DB",
+      "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+      "language": "Java",
+      "stars": 26655,
+      "forks": 2906,
+      "todayStars": 360,
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "aiSummary": {
+        "summary": "Chat2DB 是一款跨平台的 AI 驱动数据库工具，支持 30+ 种主流数据库。它集成了强大的 SQL 工作区和本地 AI 助手，支持自然语言生成 SQL、数据管理、图表展示及导入导出，适合开发者和数据团队使用。",
+        "summary_en": "An AI-powered cross-platform database client and SQL workspace for developers and data teams.",
+        "techStack": [
+          "Java",
+          "SQL",
+          "Docker",
+          "AI"
+        ],
+        "useCase": "适合开发人员、DBA及数据团队进行跨平台数据库管理与AI辅助SQL开发。",
+        "useCase_en": "Developers and DBAs use it to manage databases and generate SQL using AI."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "andrewyng/aisuite",
+      "description": "Simple, unified interface to multiple Generative AI providers",
+      "language": "Python",
+      "stars": 15215,
+      "forks": 1614,
+      "todayStars": 77,
+      "url": "https://github.com/andrewyng/aisuite",
+      "aiSummary": {
+        "summary": "aisuite 是一个轻量级 Python 库，提供统一的 Chat Completions API，支持 OpenAI、Anthropic、Google 等多个大模型提供商。它还包含 Agents API，允许构建具有工具和工具包的智能体，是桌面 AI 同事 OpenWorker 的核心引擎。",
+        "summary_en": "Python library offering a unified interface for multiple LLM providers and an Agents API.",
+        "techStack": [
+          "Python",
+          "LLM",
+          "OpenAI API"
+        ],
+        "useCase": "为开发者提供统一的大模型接口，用于构建跨多个提供商的智能体应用。",
+        "useCase_en": "Developers use it to build LLM applications using a unified interface across multiple providers."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 233295,
+      "forks": 35568,
+      "todayStars": 377,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个跨 AI 代理框架（如 Cursor、Claude Code 等）的性能优化系统。它提供了一套完整的工具，包括技能、直觉、记忆优化、安全扫描和持续学习功能，旨在提升 AI 编码代理的工作效率和生产力，支持多语言生态系统。",
+        "summary_en": "An agent harness performance optimization system for AI coding tools like Cursor and Claude Code.",
+        "techStack": [
+          "JavaScript",
+          "多语言生态系统"
+        ],
+        "useCase": "用于优化 Claude Code、Cursor 等主流 AI 编码工具的性能，提升开发效率和代码质量。",
+        "useCase_en": "To enhance the performance and capabilities of AI coding agents across various platforms."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-26T00:08:41.694Z",
+    "duration": "324s",
+    "version": "1.0.0"
+  }
+}
