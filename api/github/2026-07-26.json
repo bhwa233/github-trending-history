@@ -1,0 +1,367 @@
+{
+  "date": "2026-07-26",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "permissionlesstech/bitchat",
+      "description": "bluetooth mesh chat, IRC vibes",
+      "language": "Swift",
+      "stars": 30260,
+      "forks": 4702,
+      "todayStars": 1166,
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "aiSummary": {
+        "summary": "这是一个去中心化的点对点消息应用，采用蓝牙 Mesh 和 Nostr 协议的双重传输架构。支持离线通信与全球覆盖，无需账号或服务器。具备基于地理位置的频道、端到端加密（Noise 协议）及类 IRC 命令界面，支持 iOS 和 macOS。",
+        "summary_en": "Decentralized peer-to-peer messaging app for iOS and macOS using Bluetooth mesh and Nostr.",
+        "techStack": [
+          "Swift",
+          "Bluetooth Mesh",
+          "Nostr Protocol",
+          "Noise Protocol",
+          "LZ4"
+        ],
+        "useCase": "适合需要隐私保护和去中心化通信的场景，特别是离线群聊或基于地理位置的即时通讯。",
+        "useCase_en": "For secure, decentralized messaging using local Bluetooth mesh and global Nostr relays."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "citrolabs/ego-lite",
+      "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "language": "JavaScript",
+      "stars": 4469,
+      "forks": 221,
+      "todayStars": 900,
+      "url": "https://github.com/citrolabs/ego-lite",
+      "aiSummary": {
+        "summary": "ego-lite 是一个专为 AI 代理设计的浏览器，支持用户与代理并行工作。它允许代理在独立空间运行自动化任务，同时无缝共享用户的登录状态、Cookie 和扩展，无需额外配置。该项目解决了现有工具中登录状态不共享和资源冲突的问题，是目前 macOS 上 AI 浏览自动化的快速解决方案。",
+        "summary_en": "A browser for AI agents to run web automation in parallel with human users, sharing login state.",
+        "techStack": [
+          "JavaScript",
+          "macOS",
+          "AI Agent Integration"
+        ],
+        "useCase": "AI 代理执行网页自动化任务，无需用户干预即可复用已登录的浏览器状态。",
+        "useCase_en": "Enable AI agents to perform web automation tasks in parallel with human users by sharing logged-in browser state."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "stars": 13236,
+      "forks": 1086,
+      "todayStars": 1710,
+      "url": "https://github.com/block/buzz",
+      "aiSummary": {
+        "summary": "Buzz 是一个基于 Rust 的自托管工作区，允许人类和 AI 代理在同一房间协作。它采用 Nostr 中继架构，将所有消息、代码审查和事件记录为审计日志。代理拥有独立的密钥和权限，可以执行代码操作、运行工作流和进行语音通话，提供类似人类队友的体验。",
+        "summary_en": "A Rust-based self-hostable workspace for human and AI agent collaboration via a Nostr relay.",
+        "techStack": [
+          "Rust",
+          "Nostr"
+        ],
+        "useCase": "适用于需要 AI 代理深度参与代码审查、自动化工作流及团队协作的开发环境。",
+        "useCase_en": "To provide a self-hostable, auditable workspace where humans and AI agents collaborate on code and workflows."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 15037,
+      "forks": 3309,
+      "todayStars": 149,
+      "url": "https://github.com/pingdotgg/t3code",
+      "aiSummary": {
+        "summary": "T3 Code 是一个为 Codex、Claude、Cursor 和 OpenCode 等编码代理提供的极简 Web GUI。用户可通过浏览器或桌面应用统一管理这些 AI 编码工具，提供便捷的交互体验。项目目前处于早期阶段。",
+        "summary_en": "A minimal web GUI for coding agents like Codex, Claude, and Cursor.",
+        "techStack": [
+          "TypeScript",
+          "Vite"
+        ],
+        "useCase": "为 Codex、Claude、Cursor 和 OpenCode 等 AI 编码代理提供统一的 Web 管理界面。",
+        "useCase_en": "To provide a graphical interface for interacting with AI coding agents."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "CoreBunch/Instatic",
+      "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+      "language": "TypeScript",
+      "stars": 5648,
+      "forks": 520,
+      "todayStars": 888,
+      "url": "https://github.com/CoreBunch/Instatic",
+      "aiSummary": {
+        "summary": "Instatic 是一个基于 TypeScript 和 Bun 的自托管视觉 CMS，旨在替代 Webflow 和 WordPress。它集成了编辑器、内容引擎和发布器，输出纯净的静态 HTML 和 CSS，不包含框架运行时。支持 SQLite 或 Postgres 数据库，提供一键部署功能，适合需要完全掌控网站构建和部署的用户。",
+        "summary_en": "A self-hosted visual CMS built with Bun and TypeScript that outputs clean static HTML and CSS, replacing Webflow and WordPress.",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "SQLite/Postgres"
+        ],
+        "useCase": "适合需要自托管、完全掌控网站构建过程，并希望输出纯净静态页面的开发者或小型团队。",
+        "useCase_en": "A self-hosted alternative to Webflow for creating clean, static websites."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "stars": 20212,
+      "forks": 639,
+      "todayStars": 131,
+      "url": "https://github.com/yorukot/superfile",
+      "aiSummary": {
+        "summary": "superfile 是一款由 Go 语言开发的现代化终端文件管理器，界面美观且功能丰富。支持跨平台（Linux、macOS、Windows），提供插件、主题、热键配置及自动更新功能，旨在为用户提供高效、美观的命令行文件管理体验。",
+        "summary_en": "A modern and fancy terminal file manager written in Go.",
+        "techStack": [
+          "Go",
+          "Terminal GUI"
+        ],
+        "useCase": "适合需要在终端中高效管理文件的用户，特别是追求现代化界面的开发者。",
+        "useCase_en": "To manage files directly in the terminal using a modern UI."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "nodejs/node",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "language": "JavaScript",
+      "stars": 118460,
+      "forks": 36175,
+      "todayStars": 36,
+      "url": "https://github.com/nodejs/node",
+      "aiSummary": {
+        "summary": "Node.js 是一个开源的、跨平台的 JavaScript 运行时环境，由 OpenJS Foundation 支持。项目采用开放治理模式，提供 Current、LTS 和 Nightly 三种发布类型，遵循语义化版本控制，专注于稳定性和安全性。",
+        "summary_en": "Open-source JavaScript runtime for server-side execution and building scalable network applications.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "构建高性能的服务器端应用程序和命令行工具",
+        "useCase_en": "Enables server-side JavaScript execution and building scalable network applications."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "OtterMind/Chat2DB",
+      "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+      "language": "Java",
+      "stars": 27092,
+      "forks": 2941,
+      "todayStars": 398,
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "aiSummary": {
+        "summary": "Chat2DB 是一款跨平台的 AI 驱动数据库客户端，支持 MySQL、Oracle 等 30+ 种数据库。它集成了全功能 SQL 工作区和 AI 助手，允许用户连接自定义模型生成、解释和优化 SQL。此外，它还提供数据管理、导入导出、图表仪表板等功能，适合开发者和数据团队使用。",
+        "summary_en": "AI-powered cross-platform database client and SQL workspace supporting 30+ databases.",
+        "techStack": [
+          "Java"
+        ],
+        "useCase": "适合开发人员、DBA 及数据团队进行跨平台数据库管理与 AI 辅助 SQL 开发。",
+        "useCase_en": "Developers and DBAs use this tool to manage databases and generate SQL using AI."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "stars": 50638,
+      "forks": 2986,
+      "todayStars": 413,
+      "url": "https://github.com/pbakaus/impeccable",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供设计指导的开源项目。它包含 23 个命令和 60 条确定性检测规则，帮助 AI 生成高质量、符合品牌规范的前端设计。通过初始化上下文，AI 可以使用 craft、shape 等命令进行设计规划和构建，避免设计同质化。",
+        "summary_en": "A design language and CLI tool to guide AI coding agents in generating consistent, branded frontend designs.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "AI 辅助前端开发，确保生成的设计符合品牌规范并避免同质化。",
+        "useCase_en": "Use this tool to ensure AI-generated frontend code follows a specific design system and avoids generic templates."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 34160,
+      "forks": 5753,
+      "todayStars": 321,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融数据的高噪声特性设计。它采用两阶段框架，先通过专用分词器量化 OHLCV 数据，再利用自回归 Transformer 进行预训练。该模型支持多种量化任务，已在 AAAI 2026 接收，并提供了不同规模的预训练模型。",
+        "summary_en": "Kronos is an open-source foundation model for financial candlesticks and time series forecasting.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Tokenizer",
+          "Hugging Face"
+        ],
+        "useCase": "金融市场的K线预测与量化交易分析",
+        "useCase_en": "To perform quantitative forecasting on financial market data."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 13774,
+      "forks": 939,
+      "todayStars": 832,
+      "url": "https://github.com/alibaba/open-code-review",
+      "aiSummary": {
+        "summary": "阿里巴巴开源的 AI 代码审查 CLI 工具，基于 Go 开发。采用确定性管道与 LLM Agent 混合架构，能生成精确的行级评论。内置针对 NPE、线程安全等常见漏洞的规则集，支持 OCR 全量扫描。相比通用 Agent，它在精度和 F1 分数上表现优异，且 Token 消耗更低，适合大规模团队提升代码质量。",
+        "summary_en": "Alibaba's battle-tested AI code review tool using deterministic pipelines and LLM agents for high precision and low token consumption.",
+        "techStack": [
+          "Go",
+          "LLM (OpenAI/Anthropic)",
+          "Git"
+        ],
+        "useCase": "适用于需要高精度、低误报的自动化代码审查场景，特别适合大型团队进行代码质量保障和安全审计。",
+        "useCase_en": "To perform high-precision, line-level code reviews on Git diffs using a configurable LLM agent."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "andrewyng/aisuite",
+      "description": "Simple, unified interface to multiple Generative AI providers",
+      "language": "Python",
+      "stars": 15393,
+      "forks": 1629,
+      "todayStars": 187,
+      "url": "https://github.com/andrewyng/aisuite",
+      "aiSummary": {
+        "summary": "aisuite 是一个轻量级 Python 库，旨在为多个生成式 AI 提供商提供统一的接口。它包含两层：统一的 Chat Completions API 和支持工具、工具包及 MCP 的 Agents API。该库支持 OpenAI、Anthropic、Google 等多种模型。",
+        "summary_en": "A lightweight Python library providing a unified interface for multiple Generative AI providers and an Agents API.",
+        "techStack": [
+          "Python",
+          "OpenAI API",
+          "MCP"
+        ],
+        "useCase": "构建跨多个 LLM 提供商的 AI 应用和智能体",
+        "useCase_en": "Developers use this to build applications and agents that interact with multiple LLM providers using a single unified in"
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "stars": 50218,
+      "forks": 5918,
+      "todayStars": 379,
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "aiSummary": {
+        "summary": "这是一个由 Anthropic 官方提供的 Jupyter Notebook 集合，旨在帮助开发者掌握 Claude API 的使用。项目包含大量可复制的代码示例，涵盖文本分类、检索增强生成（RAG）、工具集成、多模态处理等场景，是学习和构建 Claude 应用的实用资源。",
+        "summary_en": "A collection of Jupyter notebooks providing recipes and code examples for building with Claude.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python"
+        ],
+        "useCase": "开发者学习 Claude API 的各种能力，并获取可复制的代码片段用于项目集成。",
+        "useCase_en": "Developers use these notebooks to learn how to integrate Claude into their applications."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "language": "Rust",
+      "stars": 9995,
+      "forks": 672,
+      "todayStars": 338,
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "aiSummary": {
+        "summary": "Pumpkin 是一个完全使用 Rust 编写的 Minecraft 服务器，旨在提供极致的性能和安全性。它支持 Java 和 Bedrock 版本（W.I.P），具备多线程处理、插件系统、RCON、查询等功能，并兼容 Bungeecord 和 Velocity 代理，致力于打造高效、可定制的游戏体验。",
+        "summary_en": "A Rust-based Minecraft server implementation prioritizing performance and cross-platform compatibility.",
+        "techStack": [
+          "Rust",
+          "Minecraft Protocol",
+          "TOML"
+        ],
+        "useCase": "需要高性能、原生 Rust 架构的 Minecraft 服务器，或希望搭建支持 Java 与 Bedrock 双端互通的服务器。",
+        "useCase_en": "To host fast, secure, and customizable Minecraft servers for both Java and Bedrock players."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "permissionlesstech/bitchat-android",
+      "description": "bluetooth mesh chat, IRC vibes",
+      "language": "Kotlin",
+      "stars": 6690,
+      "forks": 1587,
+      "todayStars": 260,
+      "url": "https://github.com/permissionlesstech/bitchat-android",
+      "aiSummary": {
+        "summary": "这是一个基于 Kotlin 开发的 Android 版安全去中心化即时通讯应用。它利用蓝牙 Mesh 网络实现无需互联网、无服务器的点对端到端加密通信。支持 IRC 风格命令和地理哈希频道，强调隐私保护，适合离线环境下的安全通讯。",
+        "summary_en": "A decentralized, peer-to-peer messaging app for Android using Bluetooth mesh networks.",
+        "techStack": [
+          "Kotlin",
+          "Bluetooth LE",
+          "X25519",
+          "AES-256-GCM"
+        ],
+        "useCase": "适用于无互联网环境下的私密、去中心化即时通讯。",
+        "useCase_en": "Communicate securely with nearby peers using Bluetooth mesh without internet or servers."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "jenkinsci/jenkins",
+      "description": "Jenkins automation server",
+      "language": "Java",
+      "stars": 25697,
+      "forks": 9655,
+      "todayStars": 18,
+      "url": "https://github.com/jenkinsci/jenkins",
+      "aiSummary": {
+        "summary": "Jenkins 是领先的基于 Java 的开源自动化服务器，提供超过 2000 个插件以支持自动化几乎所有任务。它主要用于构建、测试、部署和执行重复性任务，帮助开发者优化开发流程。支持 WAR、Docker 等多种分发方式，拥有 Weekly 和 LTS 两个发布线。",
+        "summary_en": "Leading open-source automation server built with Java to support building, testing, and deploying software.",
+        "techStack": [
+          "Java",
+          "Docker",
+          "WAR"
+        ],
+        "useCase": "适用于软件开发流程中的构建、测试、部署及重复性任务自动化。",
+        "useCase_en": "Automate development workflows including building, testing, and deploying software."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "amnezia-vpn/amnezia-client",
+      "description": "Amnezia VPN Client (Desktop+Mobile)",
+      "language": "C++",
+      "stars": 13307,
+      "forks": 1009,
+      "todayStars": 35,
+      "url": "https://github.com/amnezia-vpn/amnezia-client",
+      "aiSummary": {
+        "summary": "Amnezia 是一款开源的多平台 VPN 客户端，支持 Windows、macOS、Linux、Android 和 iOS。它最大的特点是能够自动在服务器上部署 VPN 服务，支持 OpenVPN、WireGuard、IKEv2 等多种协议，并具备流量伪装和分流隧道功能，适合自建 VPN 服务的用户使用。",
+        "summary_en": "Cross-platform VPN client enabling self-hosted server deployment with advanced protocols and obfuscation.",
+        "techStack": [
+          "C++",
+          "Qt",
+          "OpenVPN",
+          "WireGuard",
+          "Xray-core"
+        ],
+        "useCase": "适合需要自建 VPN 服务并希望简化部署流程的用户，特别是需要流量伪装或分流功能的场景。",
+        "useCase_en": "Users deploy self-hosted VPN servers to bypass censorship or secure remote access across multiple devices."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-27T00:09:43.640Z",
+    "duration": "356s",
+    "version": "1.0.0"
+  }
+}
