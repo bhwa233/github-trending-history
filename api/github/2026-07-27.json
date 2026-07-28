@@ -1,0 +1,333 @@
+{
+  "date": "2026-07-27",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "permissionlesstech/bitchat",
+      "description": "bluetooth mesh chat, IRC vibes",
+      "language": "Swift",
+      "stars": 32222,
+      "forks": 5058,
+      "todayStars": 2346,
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "aiSummary": {
+        "summary": "BitChat 是一个去中心化的点对点消息应用，采用蓝牙 Mesh 和 Nostr 协议双传输架构。它支持离线本地通信和全球在线消息，无需账户或服务器。具备基于地理位置的频道、端到端加密和 IRC 风格界面，专注于隐私保护。",
+        "summary_en": "Decentralized P2P messaging app combining Bluetooth mesh and Nostr for offline and global communication.",
+        "techStack": [
+          "Swift",
+          "Bluetooth Mesh",
+          "Nostr Protocol",
+          "Noise Protocol"
+        ],
+        "useCase": "适合需要隐私保护、无服务器依赖的离线或远程即时通讯。",
+        "useCase_en": "Communicate offline via Bluetooth mesh or globally via Nostr without central servers."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "amnezia-vpn/amnezia-client",
+      "description": "Amnezia VPN Client (Desktop+Mobile)",
+      "language": "C++",
+      "stars": 13796,
+      "forks": 1030,
+      "todayStars": 515,
+      "url": "https://github.com/amnezia-vpn/amnezia-client",
+      "aiSummary": {
+        "summary": "Amnezia 是一款开源的跨平台 VPN 客户端，支持自托管 VPN 服务器。它集成了 OpenVPN、WireGuard、IKEv2 等多种协议，并具备流量伪装功能。用户只需输入服务器信息，即可自动部署 Docker 容器。支持 Windows、macOS、Linux、Android 和 iOS，并提供分流隧道功能，允许仅对特定网站或应用开启 VPN。",
+        "summary_en": "An open-source VPN client that automates self-hosted server deployment and supports multiple protocols and obfuscation.",
+        "techStack": [
+          "C++",
+          "Qt",
+          "OpenVPN",
+          "WireGuard",
+          "Xray-core"
+        ],
+        "useCase": "适合需要自建 VPN 服务器、追求流量伪装以规避审查或需要跨平台分流访问的用户。",
+        "useCase_en": "To easily deploy and manage a self-hosted VPN server with advanced obfuscation features."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars": 44006,
+      "forks": 4394,
+      "todayStars": 572,
+      "url": "https://github.com/moeru-ai/airi",
+      "aiSummary": {
+        "summary": "AIRI 是一个自托管的 AI 伴侣项目，灵感来源于 Neuro-sama。它旨在将虚拟角色带入现实世界，支持实时语音聊天、Minecraft 和 Factorio 等游戏游玩。项目基于 TypeScript 开发，支持 Web、macOS 和 Windows 平台，具备 RAG、记忆系统和 Live2D 等功能，致力于打造高度智能的数字伴侣。",
+        "summary_en": "Self-hosted AI companion inspired by Neuro-sama capable of voice chat, gaming, and coding assistance on desktop platforms.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "自托管 AI 伴侣，支持游戏互动与实时语音聊天。",
+        "useCase_en": "To provide a self-hosted, customizable AI companion capable of voice interaction, gaming, and coding assistance."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "opengeos/GeoLibre",
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "language": "TypeScript",
+      "stars": 2656,
+      "forks": 352,
+      "todayStars": 420,
+      "url": "https://github.com/opengeos/GeoLibre",
+      "aiSummary": {
+        "summary": "GeoLibre 是一个免费开源的轻量级云原生 GIS 平台，支持在浏览器、桌面、移动端及 Jupyter 笔记本中运行。它集成了 Tauri v2、React 和 MapLibre GL 等技术，专注于本地数据处理。功能强大，支持 3D Tiles 可视化、行星地图（如月球、火星）以及时间滑块动画，适合跨平台地理空间数据探索与分析。",
+        "summary_en": "A lightweight, cloud-native GIS platform for visualizing and analyzing geospatial data locally.",
+        "techStack": [
+          "Tauri v2",
+          "React",
+          "TypeScript",
+          "MapLibre GL JS",
+          "DuckDB-WASM Spatial"
+        ],
+        "useCase": "适用于跨平台地理空间数据可视化、探索与分析。",
+        "useCase_en": "Visualize and analyze geospatial data, including 3D planetary basemaps, locally and privately."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "stars": 20860,
+      "forks": 676,
+      "todayStars": 600,
+      "url": "https://github.com/yorukot/superfile",
+      "aiSummary": {
+        "summary": "superfile 是一个用 Go 语言编写的现代化、美观的终端文件管理器。它支持 macOS、Linux 和 Windows，提供丰富的插件、主题和热键配置功能。项目内置自动更新机制，安装便捷，旨在为用户提供高效且视觉愉悦的命令行文件操作体验。",
+        "summary_en": "A modern and fancy terminal file manager written in Go.",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "适用于追求现代化终端体验的 Linux/macOS/Windows 用户。",
+        "useCase_en": "Users navigate and manage files in the terminal using a modern interface."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "stars": 58151,
+      "forks": 11582,
+      "todayStars": 362,
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "aiSummary": {
+        "summary": "MediaCrawler 是一个功能强大的多平台自媒体数据采集工具，支持小红书、抖音、B站等主流平台。基于 Playwright 浏览器自动化，利用登录态获取数据，无需复杂逆向。支持搜索、评论、主页采集及代理池，适合学习爬虫架构与数据采集。",
+        "summary_en": "A multi-platform web crawler for Chinese social media using Playwright automation.",
+        "techStack": [
+          "Python",
+          "Playwright",
+          "Node.js",
+          "uv",
+          "Chrome (CDP)"
+        ],
+        "useCase": "用于学习多平台社交媒体数据采集技术，或构建自媒体数据分析工具。",
+        "useCase_en": "To collect public data from Chinese social media platforms for research and learning."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "stars": 51516,
+      "forks": 3039,
+      "todayStars": 847,
+      "url": "https://github.com/pbakaus/impeccable",
+      "aiSummary": {
+        "summary": "Impeccable 是一个为 AI 编码代理提供设计指导的开源项目。它包含 23 个命令、60 条确定性检测规则和实时浏览器迭代功能。通过 /impeccable init 初始化项目，生成设计上下文文档，帮助 AI 生成独特、高质量的前端设计，避免重复模板化风格。",
+        "summary_en": "A design language and CLI tool that guides AI coding agents to produce consistent, high-quality frontend designs.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "AI 辅助前端开发，确保生成的 UI 设计具有独特性并符合品牌规范。",
+        "useCase_en": "A design system and CLI tool for AI coding agents to generate consistent, high-quality frontend UIs."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 34557,
+      "forks": 5795,
+      "todayStars": 441,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融市场的高噪声数据设计。它采用两阶段框架，通过专用分词器量化 OHLCV 数据，并利用自回归 Transformer 进行预训练。项目提供多种规模的模型，支持量化任务预测，已获 AAAI 2026 录用。",
+        "summary_en": "Kronos is an open-source foundation model for financial candlesticks trained on data from over 45 global exchanges.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Hugging Face"
+        ],
+        "useCase": "适用于金融市场的量化分析、K线序列预测及时间序列预测任务。",
+        "useCase_en": "It is used for forecasting financial markets and quantitative analysis tasks."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 14768,
+      "forks": 997,
+      "todayStars": 979,
+      "url": "https://github.com/alibaba/open-code-review",
+      "aiSummary": {
+        "summary": "OpenCodeReview 是源自阿里巴巴的开源 AI 代码审查 CLI 工具。它采用混合架构（确定性管道 + LLM Agent），提供精确的逐行注释和内置微调规则集。相比通用代理，它在 Precision 和 F1 指标上表现更优，且 Token 消耗更少、速度更快，适合大规模代码库的自动化安全与质量审查。",
+        "summary_en": "Alibaba's battle-tested AI code review CLI tool combining deterministic pipelines and LLM agents for precise defect detection.",
+        "techStack": [
+          "Go",
+          "LLM (OpenAI/Anthropic)",
+          "Git"
+        ],
+        "useCase": "适用于企业级大规模代码库的自动化安全与质量审查，提升代码审查效率与准确性。",
+        "useCase_en": "Configure an LLM endpoint to automatically review code changes for precise defect detection and auditing."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "jenkinsci/jenkins",
+      "description": "Jenkins automation server",
+      "language": "Java",
+      "stars": 25875,
+      "forks": 9680,
+      "todayStars": 180,
+      "url": "https://github.com/jenkinsci/jenkins",
+      "aiSummary": {
+        "summary": "Jenkins 是领先的基于 Java 的开源自动化服务器，提供超过 2000 个插件以支持自动化几乎所有任务。它主要用于自动化开发工作流，包括项目构建、测试执行、静态代码分析和部署，帮助开发者执行重复性任务，节省时间并优化流程。",
+        "summary_en": "Leading open-source automation server built with Java to automate building, testing, and deployment.",
+        "techStack": [
+          "Java",
+          "Docker"
+        ],
+        "useCase": "用于自动化开发工作流，包括项目构建、测试、静态代码分析和部署。",
+        "useCase_en": "Automate repetitive development tasks like building, testing, and deployment to optimize workflows."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "bradautomates/claude-video",
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "language": "Python",
+      "stars": 11047,
+      "forks": 1142,
+      "todayStars": 434,
+      "url": "https://github.com/bradautomates/claude-video",
+      "aiSummary": {
+        "summary": "这是一个为 Claude AI 提供视频观看能力的 Python 项目。它通过下载视频、提取帧和转录音频，让 Claude 能够理解视频内容。支持 YouTube 链接和本地文件，自动处理字幕和关键帧，无需复杂配置即可分析视频内容或诊断 Bug。",
+        "summary_en": "A plugin that empowers Claude AI to analyze videos by extracting frames and transcribing audio.",
+        "techStack": [
+          "Python",
+          "yt-dlp",
+          "ffmpeg",
+          "Whisper API"
+        ],
+        "useCase": "分析视频内容结构或诊断屏幕录制中的 Bug",
+        "useCase_en": "Allows users to ask questions about videos and receive answers based on visual and audio analysis."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "vudovn/ag-kit",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 7950,
+      "forks": 1509,
+      "todayStars": 14,
+      "url": "https://github.com/vudovn/ag-kit",
+      "aiSummary": {
+        "summary": "这是一个基于 Google Antigravity 运行时的智能体工程套件。它集成了规则、技能、专家路由、持久化记忆、MCP 指导、编排及原生安全钩子等功能。项目提供完整的开发工具链、验证机制和安全控制，旨在帮助开发者构建生产级的智能体系统。",
+        "summary_en": "A TypeScript toolkit for engineering agents in Google Antigravity with safety, workflows, and memory.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Python",
+          "Google Antigravity"
+        ],
+        "useCase": "用于构建基于 Google Antigravity 的复杂智能体系统，特别是需要规则、记忆、编排和安全控制的场景。",
+        "useCase_en": "To build and orchestrate intelligent agents with safety constraints and persistent memory."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "apache/cassandra",
+      "description": "Open source transactional distributed database. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure without compromising performance.",
+      "language": "Java",
+      "stars": 9955,
+      "forks": 4006,
+      "todayStars": 11,
+      "url": "https://github.com/apache/cassandra",
+      "aiSummary": {
+        "summary": "Apache Cassandra 是一个开源的事务性分布式数据库，使用 Java 编写。它采用分区行存储架构，支持线性可扩展性和经过验证的容错能力，能在普通硬件或云基础设施上运行。它提供类 SQL 的 CQL 语言，能够透明地将数据分布到多台机器上，并自动重新分区。",
+        "summary_en": "Apache Cassandra is a highly scalable, distributed NoSQL database designed for high availability and linear scalability.",
+        "techStack": [
+          "Java",
+          "Python",
+          "CQL"
+        ],
+        "useCase": "适用于需要高可用性、线性扩展能力和容错性的大规模数据存储场景。",
+        "useCase_en": "It is used for building scalable, distributed applications requiring high availability and linear scalability."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 54152,
+      "forks": 4699,
+      "todayStars": 240,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 AI Agent 技能，通过并行搜索 Reddit、X、YouTube、HN、Polymarket 等多个平台，聚合真实用户数据（如点赞、投票、资金），并利用 AI 生成基于事实的总结。它打破了平台围墙，提供由用户行为而非编辑评分的搜索结果。",
+        "summary_en": "An AI agent skill aggregating social media and news data to synthesize grounded summaries based on real-time engagement metrics.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "Agent Skills Hosts (Codex, Cursor, Copilot, etc.)"
+        ],
+        "useCase": "适用于需要跨多平台（社交、新闻、市场）获取实时舆论、趋势或市场情报的场景。",
+        "useCase_en": "Research any topic across social media and news platforms to find what real people are engaging with and discussing."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "ocornut/imgui",
+      "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+      "language": "C++",
+      "stars": 75195,
+      "forks": 11970,
+      "todayStars": 51,
+      "url": "https://github.com/ocornut/imgui",
+      "aiSummary": {
+        "summary": "Dear ImGui 是一个轻量级、无外部依赖的 C++ 图形用户界面库。它输出优化的顶点缓冲区，专为快速迭代和创建内容创作工具、可视化及调试工具而设计。支持游戏引擎和实时 3D 应用集成，但缺乏国际化等高级功能。",
+        "summary_en": "A bloat-free, renderer-agnostic C++ GUI library designed for creating tools and debug interfaces in real-time applications.",
+        "techStack": [
+          "C++",
+          "Vertex Buffers",
+          "Renderer Agnostic"
+        ],
+        "useCase": "游戏引擎工具开发、实时 3D 应用程序、可视化与调试工具",
+        "useCase_en": "Ideal for creating tools, debug interfaces, and visualization in game engines and real-time 3D applications."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-28T00:12:21.744Z",
+    "duration": "428s",
+    "version": "1.0.0"
+  }
+}
