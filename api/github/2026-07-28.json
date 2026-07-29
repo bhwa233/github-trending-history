@@ -1,0 +1,273 @@
+{
+  "date": "2026-07-28",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "stars": 18674,
+      "forks": 2526,
+      "todayStars": 341,
+      "url": "https://github.com/pascalorg/editor",
+      "aiSummary": {
+        "summary": "这是一个基于 React Three Fiber 和 WebGPU 构建的 3D 建筑编辑器。项目采用 Turborepo monorepo 架构，包含核心逻辑、3D 渲染、编辑工具和内置节点定义，支持用户创建和分享 3D 建筑项目。",
+        "summary_en": "A 3D architectural editor built with React Three Fiber and WebGPU for creating and sharing building projects.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "React Three Fiber",
+          "WebGPU",
+          "Next.js"
+        ],
+        "useCase": "3D 建筑项目的设计、编辑与分享",
+        "useCase_en": "Create and share 3D architectural projects using a node-based editor interface."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "jenkinsci/jenkins",
+      "description": "Jenkins automation server",
+      "language": "Java",
+      "stars": 26065,
+      "forks": 9687,
+      "todayStars": 180,
+      "url": "https://github.com/jenkinsci/jenkins",
+      "aiSummary": {
+        "summary": "Jenkins 是领先的开源自动化服务器，基于 Java 构建。它提供超过 2000 个插件，支持构建、测试、静态代码分析和部署等开发工作流，旨在通过自动化重复性任务来优化开发流程。",
+        "summary_en": "Leading open-source automation server built with Java to support building, testing, and deploying software.",
+        "techStack": [
+          "Java"
+        ],
+        "useCase": "适用于自动化开发流程、持续集成/持续部署（CI/CD）及构建测试。",
+        "useCase_en": "Automate repetitive tasks in the development lifecycle to save time and optimize processes."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars": 44736,
+      "forks": 4447,
+      "todayStars": 797,
+      "url": "https://github.com/moeru-ai/airi",
+      "aiSummary": {
+        "summary": "AIRI 是一个自托管的 AI 虚拟伴侣项目，灵感来源于 Neuro-sama。它允许用户拥有自己的“赛博老婆”或数字生命，支持实时语音聊天、在 Minecraft 和 Factorio 等游戏中游玩，并能与用户进行多任务交互。项目基于 TypeScript 开发，集成了 RAG、记忆系统和 Live2D 等功能，旨在提供沉浸式的虚拟伴侣体验。",
+        "summary_en": "Self-hosted AI companion inspired by Neuro-sama capable of voice chat and gaming.",
+        "techStack": [
+          "TypeScript",
+          "LLMs (ChatGPT/Claude)",
+          "RAG",
+          "Memory System",
+          "Live2D"
+        ],
+        "useCase": "适合寻求自托管 AI 虚拟伴侣、进行实时语音交互及游戏游玩体验的用户。",
+        "useCase_en": "To create a self-hosted virtual companion capable of voice chat and playing games like Minecraft and Factorio."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "andrewyng/aisuite",
+      "description": "Simple, unified interface to multiple Generative AI providers",
+      "language": "Python",
+      "stars": 15675,
+      "forks": 1656,
+      "todayStars": 62,
+      "url": "https://github.com/andrewyng/aisuite",
+      "aiSummary": {
+        "summary": "aisuite 是一个轻量级 Python 库，旨在为多个生成式 AI 提供商提供统一的接口。它包含两层架构：统一的 Chat Completions API（支持 OpenAI、Anthropic 等）和基于工具的 Agents API。支持 MCP 协议和工具包，可用于构建跨 LLM 的智能体，并作为桌面 AI 助手 OpenWorker 的后端。",
+        "summary_en": "Lightweight Python library for unified access to multiple Generative AI providers and building agents.",
+        "techStack": [
+          "Python",
+          "OpenAI",
+          "Anthropic",
+          "Google",
+          "Ollama"
+        ],
+        "useCase": "构建跨多个 LLM 提供商的统一接口和智能体应用",
+        "useCase_en": "To build applications using a unified interface for multiple Generative AI providers and agents."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 234784,
+      "forks": 35774,
+      "todayStars": 636,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个代理工具性能优化系统，旨在为 Claude Code、Codex、Cursor 等 AI 编程助手提供协调的工程系统。它包含 67 个专业代理和 281 个技能，支持规划、测试、安全扫描和持续学习等功能，帮助 AI 代理优化上下文窗口并提升开发效率。",
+        "summary_en": "An agent harness optimization system offering skills, memory, and security for AI coding tools.",
+        "techStack": [
+          "JavaScript",
+          "Claude Code",
+          "Codex",
+          "Cursor",
+          "GitHub Copilot"
+        ],
+        "useCase": "为 AI 编程助手提供工程化框架和工具箱，用于自动化代码规划、测试、审查和安全扫描。",
+        "useCase_en": "Optimize AI coding agents by providing a structured workflow, memory, and security tools."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "huggingface/speech-to-speech",
+      "description": "Build local voice agents with open-source models",
+      "language": "Python",
+      "stars": 7208,
+      "forks": 951,
+      "todayStars": 227,
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "aiSummary": {
+        "summary": "这是一个低延迟、全模块化的语音代理管道，包含VAD、STT、LLM和TTS四个组件。它通过OpenAI Realtime兼容的WebSocket API暴露，支持完全本地化部署。用户可以灵活替换各个组件，连接本地或云端的大语言模型，非常适合构建生产级的本地语音助手或机器人对话后端。",
+        "summary_en": "Modular Python pipeline for local voice agents with OpenAI-compatible API",
+        "techStack": [
+          "Python",
+          "WebSocket",
+          "OpenAI Realtime API",
+          "Silero VAD",
+          "Parakeet TDT"
+        ],
+        "useCase": "构建完全本地化的语音智能体，适用于机器人对话后端及实时语音交互场景。",
+        "useCase_en": "Build local voice agents for robotics and conversational applications"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "virgiliojr94/book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "language": "Python",
+      "stars": 11316,
+      "forks": 1335,
+      "todayStars": 423,
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "aiSummary": {
+        "summary": "该项目是一个 Python 工具，旨在将技术书籍（PDF、文件夹等）转换为 AI 代理技能。它通过将书籍结构化为框架和决策规则，显著减少 token 使用，防止 AI 幻觉。开发者可以在 Claude Code、Copilot CLI 等环境中按需加载这些技能，将书籍内容无缝集成到工作流中。",
+        "summary_en": "Converts technical book PDFs into structured agent skills for Claude Code, Copilot CLI, and Amp to use on demand.",
+        "techStack": [
+          "Python",
+          "PDF处理",
+          "Agent Skills标准"
+        ],
+        "useCase": "适用于需要将技术书籍内容转化为 AI 代理知识库，以便在开发工作中随时查询和引用的开发者。",
+        "useCase_en": "Transform technical book PDFs into structured, searchable skills for AI coding agents to reference without hallucinating"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "opengeos/GeoLibre",
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "language": "TypeScript",
+      "stars": 3379,
+      "forks": 390,
+      "todayStars": 607,
+      "url": "https://github.com/opengeos/GeoLibre",
+      "aiSummary": {
+        "summary": "GeoLibre 是一个免费开源的轻量级云原生 GIS 平台，支持在浏览器、桌面、移动端及 Jupyter 中运行。它强调数据本地化与隐私保护，具备强大的 3D 可视化、时间轴动画及行星地图（如月球、火星）分析能力，适合多场景地理空间数据处理。",
+        "summary_en": "A lightweight, cross-platform GIS platform for visualizing and analyzing geospatial data locally.",
+        "techStack": [
+          "Tauri v2",
+          "React",
+          "TypeScript",
+          "MapLibre GL JS",
+          "DuckDB-WASM Spatial"
+        ],
+        "useCase": "适用于跨平台地理空间数据可视化、探索与分析，支持桌面、Web 及 Jupyter 环境。",
+        "useCase_en": "Visualize and analyze geospatial data locally across web, desktop, and mobile platforms."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "paperswithbacktest/awesome-systematic-trading",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "language": "Python",
+      "stars": 9563,
+      "forks": 1290,
+      "todayStars": 309,
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "aiSummary": {
+        "summary": "这是一个关于系统性交易（量化交易）的精选资源列表。收录了97个用于研究和实盘交易的库、40多种策略、55本书籍及视频教程。内容涵盖回测框架、交易机器人、数据分析等多个领域，适合量化交易开发者和学习者使用。",
+        "summary_en": "A curated list of libraries, strategies, books, and resources for systematic trading.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "量化交易策略的研究、开发与回测",
+        "useCase_en": "To discover libraries, strategies, and educational materials for systematic trading."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "microsoft/agent-governance-toolkit",
+      "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
+      "language": "Python",
+      "stars": 5180,
+      "forks": 833,
+      "todayStars": 46,
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "aiSummary": {
+        "summary": "这是一个由微软开发的 AI Agent Governance Toolkit，旨在解决自主 AI 代理在生产环境中的治理和安全问题。它提供策略执行、零信任身份认证、执行沙箱隔离和可靠性工程。该工具覆盖了 OWASP Agentic Top 10 安全风险，确保代理在访问工具时受到严格控制，防止权限滥用，并提供可审计的记录，帮助开发者安全地部署多代理系统。",
+        "summary_en": "Microsoft's toolkit for enforcing policies and ensuring security in autonomous AI agents.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要安全部署和管理自主 AI 代理的企业级应用，特别是涉及多代理协作、敏感数据操作及合规审计的场景。",
+        "useCase_en": "Enforce policies and track identity for autonomous AI agents to ensure security and compliance."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "stars": 21463,
+      "forks": 695,
+      "todayStars": 662,
+      "url": "https://github.com/yorukot/superfile",
+      "aiSummary": {
+        "summary": "superfile 是一款基于 Go 语言开发的现代化终端文件管理器。它拥有精美的 UI 界面，支持跨平台（Linux、macOS、Windows），内置插件和主题系统，并具备自动更新功能。适合追求高效与美观的终端用户使用。",
+        "summary_en": "A modern and fancy terminal file manager built with Go.",
+        "techStack": [
+          "Go",
+          "Terminal UI"
+        ],
+        "useCase": "适合追求现代化界面与高效操作体验的终端用户。",
+        "useCase_en": "To manage files in a modern, fancy terminal environment."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "bradautomates/claude-video",
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "language": "Python",
+      "stars": 12069,
+      "forks": 1211,
+      "todayStars": 988,
+      "url": "https://github.com/bradautomates/claude-video",
+      "aiSummary": {
+        "summary": "该项目为 Claude AI 增加了观看视频的能力。它通过下载视频、提取帧和转录音频，将视觉和听觉信息转化为 Claude 可处理的格式。支持 YouTube 链接和本地文件，利用 yt-dlp 和 ffmpeg 处理，并支持 Whisper API 进行字幕转录。用户可借此分析内容结构、诊断 bug 或回答视频相关问题。",
+        "summary_en": "A Python tool that empowers Claude to analyze videos by downloading, extracting frames, and transcribing audio.",
+        "techStack": [
+          "Python",
+          "yt-dlp",
+          "ffmpeg",
+          "Whisper API",
+          "Claude"
+        ],
+        "useCase": "分析视频内容结构、诊断屏幕录制中的 bug 或回答视频相关问题。",
+        "useCase_en": "Allows users to ask questions about video content by providing Claude with visual frames and audio transcripts."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-29T00:08:00.022Z",
+    "duration": "413s",
+    "version": "1.0.0"
+  }
+}

@@ -70,27 +70,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-07-27 | **成功**: 15 | **失败**: 0
+**最后更新**: 2026-07-28 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) | bluetooth mesh chat, IRC vibes... | Swift | 32.2k | 2.3k | BitChat 是一个去中心化的点对点消息应用，采用蓝牙 Mesh 和 Nostr 协议双传输架构。它支持离线本地通信和全球在线消息，无需账户或服务器。具备基于地理位置的频道、端到端加密和 IRC 风格界面，专注于隐私保护。 |
-| 2 | [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client) | Amnezia VPN Client (Desktop+Mobile)... | C++ | 13.8k | 515 | Amnezia 是一款开源的跨平台 VPN 客户端，支持自托管 VPN 服务器。它集成了 OpenVPN、WireGuard、IKEv2 等多种协议，并具备流量伪装功能。用户只需输入服务器信息，即可自动部署 Docker 容器。支持 Windows、macOS、Linux、Android 和 iOS，并提供分流隧道功能，允许仅对特定网站或应用开启 VPN。 |
-| 3 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you-owned Grok Companion, a cont... | TypeScript | 44.0k | 572 | AIRI 是一个自托管的 AI 伴侣项目，灵感来源于 Neuro-sama。它旨在将虚拟角色带入现实世界，支持实时语音聊天、Minecraft 和 Factorio 等游戏游玩。项目基于 TypeScript 开发，支持 Web、macOS 和 Windows 平台，具备 RAG、记忆系统和 Live2D 等功能，致力于打造高度智能的数字伴侣。 |
-| 4 | [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) | A lightweight, cloud-native GIS platform for visua... | TypeScript | 2.7k | 420 | GeoLibre 是一个免费开源的轻量级云原生 GIS 平台，支持在浏览器、桌面、移动端及 Jupyter 笔记本中运行。它集成了 Tauri v2、React 和 MapLibre GL 等技术，专注于本地数据处理。功能强大，支持 3D Tiles 可视化、行星地图（如月球、火星）以及时间滑块动画，适合跨平台地理空间数据探索与分析。 |
-| 5 | [yorukot/superfile](https://github.com/yorukot/superfile) | Pretty fancy and modern terminal file manager... | Go | 20.9k | 600 | superfile 是一个用 Go 语言编写的现代化、美观的终端文件管理器。它支持 macOS、Linux 和 Windows，提供丰富的插件、主题和热键配置功能。项目内置自动更新机制，安装便捷，旨在为用户提供高效且视觉愉悦的命令行文件操作体验。 |
-| 6 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、... | Python | 58.2k | 362 | MediaCrawler 是一个功能强大的多平台自媒体数据采集工具，支持小红书、抖音、B站等主流平台。基于 Playwright 浏览器自动化，利用登录态获取数据，无需复杂逆向。支持搜索、评论、主页采集及代理池，适合学习爬虫架构与数据采集。 |
-| 7 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | JavaScript | 51.5k | 847 | Impeccable 是一个为 AI 编码代理提供设计指导的开源项目。它包含 23 个命令、60 条确定性检测规则和实时浏览器迭代功能。通过 /impeccable init 初始化项目，生成设计上下文文档，帮助 AI 生成独特、高质量的前端设计，避免重复模板化风格。 |
-| 8 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Fin... | Python | 34.6k | 441 | Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融市场的高噪声数据设计。它采用两阶段框架，通过专用分词器量化 OHLCV 数据，并利用自回归 Transformer 进行预训练。项目提供多种规模的模型，支持量化任务预测，已获 AAAI 2026 录用。 |
-| 9 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Open-source & free — Battle-tested at Alibaba's sc... | Go | 14.8k | 979 | OpenCodeReview 是源自阿里巴巴的开源 AI 代码审查 CLI 工具。它采用混合架构（确定性管道 + LLM Agent），提供精确的逐行注释和内置微调规则集。相比通用代理，它在 Precision 和 F1 指标上表现更优，且 Token 消耗更少、速度更快，适合大规模代码库的自动化安全与质量审查。 |
-| 10 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | Jenkins automation server... | Java | 25.9k | 180 | Jenkins 是领先的基于 Java 的开源自动化服务器，提供超过 2000 个插件以支持自动化几乎所有任务。它主要用于自动化开发工作流，包括项目构建、测试执行、静态代码分析和部署，帮助开发者执行重复性任务，节省时间并优化流程。 |
-| 11 | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | Give Claude the ability to watch any video. /watch... | Python | 11.0k | 434 | 这是一个为 Claude AI 提供视频观看能力的 Python 项目。它通过下载视频、提取帧和转录音频，让 Claude 能够理解视频内容。支持 YouTube 链接和本地文件，自动处理字幕和关键帧，无需复杂配置即可分析视频内容或诊断 Bug。 |
-| 12 | [vudovn/ag-kit](https://github.com/vudovn/ag-kit) | ... | TypeScript | 8.0k | 14 | 这是一个基于 Google Antigravity 运行时的智能体工程套件。它集成了规则、技能、专家路由、持久化记忆、MCP 指导、编排及原生安全钩子等功能。项目提供完整的开发工具链、验证机制和安全控制，旨在帮助开发者构建生产级的智能体系统。 |
-| 13 | [apache/cassandra](https://github.com/apache/cassandra) | Open source transactional distributed database. Li... | Java | 10.0k | 11 | Apache Cassandra 是一个开源的事务性分布式数据库，使用 Java 编写。它采用分区行存储架构，支持线性可扩展性和经过验证的容错能力，能在普通硬件或云基础设施上运行。它提供类 SQL 的 CQL 语言，能够透明地将数据分布到多台机器上，并自动重新分区。 |
-| 14 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | AI agent skill that researches any topic across Re... | Python | 54.2k | 240 | 这是一个基于 Python 的 AI Agent 技能，通过并行搜索 Reddit、X、YouTube、HN、Polymarket 等多个平台，聚合真实用户数据（如点赞、投票、资金），并利用 AI 生成基于事实的总结。它打破了平台围墙，提供由用户行为而非编辑评分的搜索结果。 |
-| 15 | [ocornut/imgui](https://github.com/ocornut/imgui) | Dear ImGui: Bloat-free Graphical User interface fo... | C++ | 75.2k | 51 | Dear ImGui 是一个轻量级、无外部依赖的 C++ 图形用户界面库。它输出优化的顶点缓冲区，专为快速迭代和创建内容创作工具、可视化及调试工具而设计。支持游戏引擎和实时 3D 应用集成，但缺乏国际化等高级功能。 |
+| 1 | [pascalorg/editor](https://github.com/pascalorg/editor) | Create and share 3D architectural projects.... | TypeScript | 18.7k | 341 | 这是一个基于 React Three Fiber 和 WebGPU 构建的 3D 建筑编辑器。项目采用 Turborepo monorepo 架构，包含核心逻辑、3D 渲染、编辑工具和内置节点定义，支持用户创建和分享 3D 建筑项目。 |
+| 2 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | Jenkins automation server... | Java | 26.1k | 180 | Jenkins 是领先的开源自动化服务器，基于 Java 构建。它提供超过 2000 个插件，支持构建、测试、静态代码分析和部署等开发工作流，旨在通过自动化重复性任务来优化开发流程。 |
+| 3 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 💖🧸 Self hosted, you-owned Grok Companion, a cont... | TypeScript | 44.7k | 797 | AIRI 是一个自托管的 AI 虚拟伴侣项目，灵感来源于 Neuro-sama。它允许用户拥有自己的“赛博老婆”或数字生命，支持实时语音聊天、在 Minecraft 和 Factorio 等游戏中游玩，并能与用户进行多任务交互。项目基于 TypeScript 开发，集成了 RAG、记忆系统和 Live2D 等功能，旨在提供沉浸式的虚拟伴侣体验。 |
+| 4 | [andrewyng/aisuite](https://github.com/andrewyng/aisuite) | Simple, unified interface to multiple Generative A... | Python | 15.7k | 62 | aisuite 是一个轻量级 Python 库，旨在为多个生成式 AI 提供商提供统一的接口。它包含两层架构：统一的 Chat Completions API（支持 OpenAI、Anthropic 等）和基于工具的 Agents API。支持 MCP 协议和工具包，可用于构建跨 LLM 的智能体，并作为桌面 AI 助手 OpenWorker 的后端。 |
+| 5 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 234.8k | 636 | ECC 是一个代理工具性能优化系统，旨在为 Claude Code、Codex、Cursor 等 AI 编程助手提供协调的工程系统。它包含 67 个专业代理和 281 个技能，支持规划、测试、安全扫描和持续学习等功能，帮助 AI 代理优化上下文窗口并提升开发效率。 |
+| 6 | [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) | Build local voice agents with open-source models... | Python | 7.2k | 227 | 这是一个低延迟、全模块化的语音代理管道，包含VAD、STT、LLM和TTS四个组件。它通过OpenAI Realtime兼容的WebSocket API暴露，支持完全本地化部署。用户可以灵活替换各个组件，连接本地或云端的大语言模型，非常适合构建生产级的本地语音助手或机器人对话后端。 |
+| 7 | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | Turn any technical book PDF into a Claude Code ski... | Python | 11.3k | 423 | 该项目是一个 Python 工具，旨在将技术书籍（PDF、文件夹等）转换为 AI 代理技能。它通过将书籍结构化为框架和决策规则，显著减少 token 使用，防止 AI 幻觉。开发者可以在 Claude Code、Copilot CLI 等环境中按需加载这些技能，将书籍内容无缝集成到工作流中。 |
+| 8 | [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) | A lightweight, cloud-native GIS platform for visua... | TypeScript | 3.4k | 607 | GeoLibre 是一个免费开源的轻量级云原生 GIS 平台，支持在浏览器、桌面、移动端及 Jupyter 中运行。它强调数据本地化与隐私保护，具备强大的 3D 可视化、时间轴动画及行星地图（如月球、火星）分析能力，适合多场景地理空间数据处理。 |
+| 9 | [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) | A curated list of awesome libraries, packages, str... | Python | 9.6k | 309 | 这是一个关于系统性交易（量化交易）的精选资源列表。收录了97个用于研究和实盘交易的库、40多种策略、55本书籍及视频教程。内容涵盖回测框架、交易机器人、数据分析等多个领域，适合量化交易开发者和学习者使用。 |
+| 10 | [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) | AI Agent Governance Toolkit — Policy enforcement, ... | Python | 5.2k | 46 | 这是一个由微软开发的 AI Agent Governance Toolkit，旨在解决自主 AI 代理在生产环境中的治理和安全问题。它提供策略执行、零信任身份认证、执行沙箱隔离和可靠性工程。该工具覆盖了 OWASP Agentic Top 10 安全风险，确保代理在访问工具时受到严格控制，防止权限滥用，并提供可审计的记录，帮助开发者安全地部署多代理系统。 |
+| 11 | [yorukot/superfile](https://github.com/yorukot/superfile) | Pretty fancy and modern terminal file manager... | Go | 21.5k | 662 | superfile 是一款基于 Go 语言开发的现代化终端文件管理器。它拥有精美的 UI 界面，支持跨平台（Linux、macOS、Windows），内置插件和主题系统，并具备自动更新功能。适合追求高效与美观的终端用户使用。 |
+| 12 | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | Give Claude the ability to watch any video. /watch... | Python | 12.1k | 988 | 该项目为 Claude AI 增加了观看视频的能力。它通过下载视频、提取帧和转录音频，将视觉和听觉信息转化为 Claude 可处理的格式。支持 YouTube 链接和本地文件，利用 yt-dlp 和 ffmpeg 处理，并支持 Whisper API 进行字幕转录。用户可借此分析内容结构、诊断 bug 或回答视频相关问题。 |
 
-[查看完整数据](api/github/2026-07-27.json)
+[查看完整数据](api/github/2026-07-28.json)
 <!-- END GITHUB TRENDING -->
 
 
