@@ -1,0 +1,379 @@
+{
+  "date": "2026-07-29",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "opengeos/GeoLibre",
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "language": "TypeScript",
+      "stars": 4013,
+      "forks": 430,
+      "todayStars": 671,
+      "url": "https://github.com/opengeos/GeoLibre",
+      "aiSummary": {
+        "summary": "GeoLibre 是一个轻量级、开源的云原生 GIS 平台，支持在浏览器、桌面、移动端及 Jupyter 中运行。它利用 Tauri v2、React 和 MapLibre GL JS 等技术栈，提供 3D 地理空间数据可视化、探索与分析功能，支持行星地图（如月球、火星）及时间轴动画，强调数据本地化与隐私保护。",
+        "summary_en": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data.",
+        "techStack": [
+          "Tauri v2",
+          "React",
+          "TypeScript",
+          "MapLibre GL JS",
+          "DuckDB-WASM Spatial"
+        ],
+        "useCase": "适合需要跨平台运行且注重数据隐私的地理空间数据可视化与分析工作。",
+        "useCase_en": "Visualizing and analyzing geospatial data locally and privately across web, desktop, and mobile."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars": 45366,
+      "forks": 4487,
+      "todayStars": 682,
+      "url": "https://github.com/moeru-ai/airi",
+      "aiSummary": {
+        "summary": "AIRI 是一个自托管、用户拥有的 Grok 伴侣项目，灵感来源于 Neuro-sama。它旨在将 AI 娇妻/虚拟角色带入现实世界。项目支持实时语音聊天、游戏（如 Minecraft 和 Factorio）以及代码查看等功能。基于 TypeScript 开发，支持 Web、macOS 和 Windows 平台，集成了 RAG、记忆系统和 Live2D 等技术，致力于打造全能型虚拟伴侣。",
+        "summary_en": "Self-hosted AI companion inspired by Neuro-sama for voice chat, gaming, and coding assistance.",
+        "techStack": [
+          "TypeScript",
+          "Large Language Models (LLMs)",
+          "RAG",
+          "Live2D",
+          "Embedded Database"
+        ],
+        "useCase": "适合寻求自托管、具备游戏互动和实时语音聊天能力的全能型 AI 虚拟伴侣的用户。",
+        "useCase_en": "To run a self-hosted AI companion capable of voice interaction, gaming, and coding assistance."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 235543,
+      "forks": 35868,
+      "todayStars": 857,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个 AI 代理性能优化系统，为 Claude Code、Cursor 等 AI 编码工具提供协调的工程系统。它包含 67 个代理和 281 个技能，支持计划、测试、实现、审查、验证、记忆和改进的全流程自动化。项目强调安全、上下文窗口优化和持久化记忆，帮助 AI 代理更高效、安全地编写代码。",
+        "summary_en": "An agent harness optimization system providing memory, security, and reusable skills for AI coding tools.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "为 AI 编码代理提供结构化、安全且高效的全流程开发工作流。",
+        "useCase_en": "It optimizes AI agent performance by providing a coordinated engineering system with memory, security, and reusable skil"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "huggingface/speech-to-speech",
+      "description": "Build local voice agents with open-source models",
+      "language": "Python",
+      "stars": 7844,
+      "forks": 999,
+      "todayStars": 827,
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "aiSummary": {
+        "summary": "这是一个低延迟、全模块化的语音代理管道（VAD->STT->LLM->TTS），通过 OpenAI Realtime 兼容 WebSocket API 暴露。支持所有组件替换，可灵活对接本地或云端 LLM。该项目已在数千台 Reachy Mini 机器人上作为生产后端运行，支持完全开源的本地化部署。",
+        "summary_en": "A modular, low-latency voice agent pipeline (VAD, STT, LLM, TTS) built for local deployment and robotics.",
+        "techStack": [
+          "Python",
+          "WebSocket",
+          "OpenAI Realtime API",
+          "Silero VAD",
+          "Parakeet TDT"
+        ],
+        "useCase": "构建本地语音代理、机器人对话后端及实时语音交互系统",
+        "useCase_en": "To build production-ready, local voice agents for robotics and hardware."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "1jehuang/jcode",
+      "description": "The most RAM efficient harness",
+      "language": "Rust",
+      "stars": 13436,
+      "forks": 1476,
+      "todayStars": 640,
+      "url": "https://github.com/1jehuang/jcode",
+      "aiSummary": {
+        "summary": "jcode 是一个用 Rust 编写的最高效的测试运行工具。它专注于极致的性能和资源效率，特别适合多会话工作流。数据显示，其内存占用远低于同类 AI 编码工具（如 Copilot CLI、Claude Code 等），单会话仅约 27.8 MB，是追求低资源消耗开发环境的理想选择。",
+        "summary_en": "A Rust-based coding harness designed for extreme RAM efficiency, significantly outperforming competitors in resource usage.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "适用于对内存占用敏感的 AI 辅助编程及多会话并发工作流。",
+        "useCase_en": "Execute AI coding workflows with minimal RAM overhead compared to other AI coding tools."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "grokability/snipe-it",
+      "description": "A free open source IT asset/license management system",
+      "language": "PHP",
+      "stars": 14431,
+      "forks": 3903,
+      "todayStars": 164,
+      "url": "https://github.com/grokability/snipe-it",
+      "aiSummary": {
+        "summary": "这是一个基于 Laravel 12 开发的免费开源 IT 资产与许可证管理系统。它帮助 IT 运营团队追踪设备（如笔记本电脑）的采购与折旧情况，并管理软件许可证。支持 Mac、Linux、Windows 及 Docker 部署，项目活跃开发中。",
+        "summary_en": "An open-source IT asset and license management system built on Laravel 12 for tracking hardware and software.",
+        "techStack": [
+          "PHP",
+          "Laravel 12"
+        ],
+        "useCase": "IT 运营团队进行资产追踪、折旧计算及软件许可证管理。",
+        "useCase_en": "To track hardware assets, manage software licenses, and handle IT operations depreciation."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "deepfakes/faceswap",
+      "description": "Deepfakes Software For All",
+      "language": "Python",
+      "stars": 56243,
+      "forks": 13428,
+      "todayStars": 166,
+      "url": "https://github.com/deepfakes/faceswap",
+      "aiSummary": {
+        "summary": "FaceSwap 是一款基于 Python 的开源深度学习工具，旨在让用户能够轻松识别并交换图片或视频中的面部。项目提供了从提取、训练到转换的完整工作流，并包含图形用户界面（GUI）。尽管技术最初用于不当内容，但项目强调其伦理用途，致力于降低 AI 技术的使用门槛，使非专家也能通过实验学习。",
+        "summary_en": "A Python-based deep learning application for face swapping in media.",
+        "techStack": [
+          "Python",
+          "深度学习",
+          "神经网络"
+        ],
+        "useCase": "适用于利用深度学习技术进行面部识别与替换的图像和视频处理。",
+        "useCase_en": "To swap faces in images and videos using deep learning techniques."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars": 51251,
+      "forks": 5707,
+      "todayStars": 336,
+      "url": "https://github.com/microsoft/VibeVoice",
+      "aiSummary": {
+        "summary": "VibeVoice 是微软开源的前沿语音 AI 框架，包含 ASR（语音转文本）和 TTS（文本转语音）两大核心模型。ASR 支持长音频转录、多语言（50+）及结构化输出，TTS 提供实时流式合成与多风格语音。项目已集成 Azure AI Foundry 和 Hugging Face，支持 vLLM 加速及 BitNet 边缘推理，适用于会议记录、多语言交互等场景。",
+        "summary_en": "Microsoft's open-source frontier voice AI framework featuring unified ASR and real-time TTS models for multilingual applications.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Transformers",
+          "vLLM",
+          "BitNet"
+        ],
+        "useCase": "长音频会议转录、实时多语言语音合成与交互",
+        "useCase_en": "Build multilingual speech-to-text and text-to-speech applications using Microsoft's open-source models."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "different-ai/openwork",
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "language": "TypeScript",
+      "stars": 17879,
+      "forks": 1854,
+      "todayStars": 97,
+      "url": "https://github.com/different-ai/openwork",
+      "aiSummary": {
+        "summary": "OpenWork 是一款开源的桌面应用，旨在替代 Claude Cowork。它通过 MCP 协议，允许用户在 Codex、Claude Code、Cursor 等多个 AI 工具间共享工作流、技能和连接服务。支持跨平台，并提供管理界面供团队协作。",
+        "summary_en": "Open-source desktop app and MCP server for sharing AI workflows across multiple agents.",
+        "techStack": [
+          "TypeScript",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "在多个 AI 编程工具间统一管理和复用 AI 工作流与技能。",
+        "useCase_en": "Share AI workflows, skills, and MCPs across different AI agents like Codex and Claude Code."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 263264,
+      "forks": 23510,
+      "todayStars": 616,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个面向编码代理的技能框架和软件开发方法论。它通过可组合技能引导代理在编码前先询问用户需求，展示规格，并制定包含 TDD、YAGNI 和 DRY 的实施计划。随后，代理会自主执行子代理驱动开发，无需人工干预即可持续工作数小时。它支持多种主流 AI 编码工具。",
+        "summary_en": "A framework providing a structured software development methodology for coding agents.",
+        "techStack": [
+          "Shell",
+          "Agent Framework",
+          "LLM"
+        ],
+        "useCase": "为 AI 编码代理提供自主软件开发能力，适用于自动化代码生成和复杂项目管理场景。",
+        "useCase_en": "To provide a structured methodology for AI coding agents to follow during software development."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "MoonshotAI/FlashKDA",
+      "description": "FlashKDA: high-performance Kimi Delta Attention kernels",
+      "language": "Cuda",
+      "stars": 980,
+      "forks": 95,
+      "todayStars": 91,
+      "url": "https://github.com/MoonshotAI/FlashKDA",
+      "aiSummary": {
+        "summary": "FlashKDA 是一个基于 CUTLASS 的高性能 Kimi Delta Attention 内核库。它专为 NVIDIA SM90 及以上架构优化，支持 CUDA 12.9 和 PyTorch 2.4。该项目作为 flash-linear-attention 的后端，能显著加速 Delta Attention 计算，适用于大规模 Transformer 模型的推理和训练场景。",
+        "summary_en": "High-performance Delta Attention kernels built on CUTLASS for modern NVIDIA GPUs.",
+        "techStack": [
+          "CUDA",
+          "CUTLASS",
+          "PyTorch"
+        ],
+        "useCase": "加速大规模 Transformer 模型中的 Delta Attention 计算，提升推理与训练性能。",
+        "useCase_en": "Accelerating sequence processing in AI models via high-performance Delta Attention kernels."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "stars": 59055,
+      "forks": 11673,
+      "todayStars": 154,
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "aiSummary": {
+        "summary": "MediaCrawler 是一款功能强大的多平台自媒体数据采集工具，支持小红书、抖音、B站等主流平台。基于 Playwright 和 CDP 技术，无需 JS 逆向即可获取数据，支持登录态缓存、IP 代理池及评论词云图。项目包含开源版和 Pro 版，Pro 版具备断点续爬、多账号及 AI Agent 等企业级特性。",
+        "summary_en": "A multi-platform web crawler for Chinese social media using Playwright automation.",
+        "techStack": [
+          "Python",
+          "Playwright",
+          "Node.js",
+          "Chrome DevTools Protocol (CDP)",
+          "uv"
+        ],
+        "useCase": "适用于学习多平台爬虫架构设计、自媒体数据采集及研究。",
+        "useCase_en": "To collect public data from Chinese social media platforms like Xiaohongshu and Douyin."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 15974,
+      "forks": 1078,
+      "todayStars": 359,
+      "url": "https://github.com/alibaba/open-code-review",
+      "aiSummary": {
+        "summary": "这是一个源自阿里巴巴内部的开源 AI 代码审查 CLI 工具，基于 Go 开发。它采用确定性管道与 LLM Agent 混合架构，支持行级精准评论和内置微调规则集。相比通用 Agent，它在相同模型下具有更高的精度和 F1 分数，且 Token 消耗更少、速度更快，专为大规模代码审查设计。",
+        "summary_en": "Battle-tested Alibaba AI code review tool using deterministic pipelines and LLM agents for high-precision, line-level feedback.",
+        "techStack": [
+          "Go",
+          "LLM (OpenAI/Anthropic)",
+          "Git",
+          "OCR"
+        ],
+        "useCase": "适用于企业级代码质量审计、自动化代码审查及大规模代码库的缺陷检测。",
+        "useCase_en": "Configure an LLM endpoint to automatically review code changes with line-level precision and built-in security rules."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "paperswithbacktest/awesome-systematic-trading",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "language": "Python",
+      "stars": 10377,
+      "forks": 1345,
+      "todayStars": 945,
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "aiSummary": {
+        "summary": "这是一个系统化交易（量化交易）领域的精选资源列表。项目收录了97个用于研究和实盘交易的库与包，涵盖回测、实盘交易、数据分析及机器学习等。同时整理了40多种策略、55本专业书籍及相关视频博客，旨在帮助开发者寻找、开发和运行量化交易策略。",
+        "summary_en": "A curated collection of libraries, strategies, and resources for systematic trading.",
+        "techStack": [
+          "Python",
+          "vnpy",
+          "zipline"
+        ],
+        "useCase": "适用于量化交易策略的研究、开发与实盘运行。",
+        "useCase_en": "To discover libraries, strategies, and books for systematic trading research."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "maderix/ANE",
+      "description": "Training neural networks on Apple Neural Engine via reverse-engineered private APIs",
+      "language": "Objective-C",
+      "stars": 7139,
+      "forks": 958,
+      "todayStars": 22,
+      "url": "https://github.com/maderix/ANE",
+      "aiSummary": {
+        "summary": "这是一个使用逆向工程私有 API 在 Apple Neural Engine (ANE) 上训练神经网络的实验性研究项目。它绕过了 CoreML 的限制，证明了 ANE 硬件具备训练能力，但目前仅作为概念验证，存在利用率低和部分操作回退到 CPU 的局限性，不适用于生产环境。",
+        "summary_en": "Research project demonstrating neural network training on Apple's Neural Engine using reverse-engineered private APIs.",
+        "techStack": [
+          "Objective-C",
+          "Apple Neural Engine (ANE)",
+          "Reverse-engineered Private APIs"
+        ],
+        "useCase": "探索 Apple Neural Engine 的训练潜力及性能基准测试",
+        "useCase_en": "To demonstrate that neural network training on Apple's Neural Engine is possible via reverse-engineered APIs."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "stars": 19552,
+      "forks": 2591,
+      "todayStars": 1022,
+      "url": "https://github.com/pascalorg/editor",
+      "aiSummary": {
+        "summary": "这是一个基于 React Three Fiber 和 WebGPU 构建的 3D 建筑编辑器。项目采用 Turborepo 单体仓库架构，分为核心、查看器、编辑器和节点定义等包。支持通过节点系统创建场景，提供交互式编辑工具、状态管理和撤销重做功能，旨在帮助用户创建和分享 3D 建筑项目。",
+        "summary_en": "A 3D architectural editor built with React Three Fiber and WebGPU.",
+        "techStack": [
+          "TypeScript",
+          "React Three Fiber",
+          "WebGPU",
+          "Next.js",
+          "Turborepo"
+        ],
+        "useCase": "3D 建筑设计与可视化场景",
+        "useCase_en": "Create and share 3D architectural projects."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "virgiliojr94/book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "language": "Python",
+      "stars": 12704,
+      "forks": 1413,
+      "todayStars": 1421,
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "aiSummary": {
+        "summary": "该项目是一个 Python 工具，可将技术书籍 PDF 转换为 Claude Code 或 Copilot CLI 可用的 Agent Skill。它将书籍提炼为结构化知识（框架、决策规则），而非摘要，大幅减少 Token 消耗。用户可按需加载书籍内容，避免 AI 幻觉，提升工作流效率。",
+        "summary_en": "Converts technical books into AI agent skills for on-demand reference.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "GitHub Copilot CLI",
+          "SKILL.md"
+        ],
+        "useCase": "将技术书籍转化为 AI 代理技能，用于在开发工作中按需查询和参考书籍内容。",
+        "useCase_en": "Transform technical books into structured AI skills for on-demand reference."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-30T00:12:06.838Z",
+    "duration": "510s",
+    "version": "1.0.0"
+  }
+}
