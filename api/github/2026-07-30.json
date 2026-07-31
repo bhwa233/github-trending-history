@@ -1,0 +1,305 @@
+{
+  "date": "2026-07-30",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 13,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "huggingface/speech-to-speech",
+      "description": "Build local voice agents with open-source models",
+      "language": "Python",
+      "stars": 8762,
+      "forks": 1086,
+      "todayStars": 628,
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "aiSummary": {
+        "summary": "这是一个低延迟、全模块化的语音代理管道，包含 VAD、STT、LLM 和 TTS 四个组件。它通过 OpenAI Realtime 兼容的 WebSocket API 暴露，支持本地和云端模型。所有组件均可替换，适合构建本地语音助手及机器人对话后端。",
+        "summary_en": "Modular, low-latency voice agent pipeline exposing OpenAI Realtime-compatible WebSocket API.",
+        "techStack": [
+          "Python",
+          "WebSocket",
+          "Silero VAD",
+          "Parakeet TDT",
+          "Qwen3-TTS"
+        ],
+        "useCase": "构建本地语音助手及机器人对话后端",
+        "useCase_en": "Build local voice agents with open-source models for robotics and personal assistants."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "microsoft/AI-For-Beginners",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "language": "Jupyter Notebook",
+      "stars": 53872,
+      "forks": 10946,
+      "todayStars": 155,
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "aiSummary": {
+        "summary": "这是一个由微软提供的面向初学者的 AI 课程，包含 12 周 24 课的 Jupyter Notebook 教程。课程涵盖 TensorFlow 和 PyTorch 等工具，包含实践练习、测验和伦理讨论，支持多语言，旨在帮助初学者探索 AI 世界。",
+        "summary_en": "A comprehensive 12-week beginner curriculum covering AI fundamentals, TensorFlow, PyTorch, and ethics.",
+        "techStack": [
+          "Jupyter Notebook",
+          "TensorFlow",
+          "PyTorch"
+        ],
+        "useCase": "适合零基础学习者系统学习人工智能基础知识与实践。",
+        "useCase_en": "For individuals seeking a structured introduction to AI concepts and practical implementation."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "paperswithbacktest/awesome-systematic-trading",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "language": "Python",
+      "stars": 11021,
+      "forks": 1412,
+      "todayStars": 621,
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "aiSummary": {
+        "summary": "这是一个关于系统化交易（量化交易）的精选资源列表。项目收录了97个用于研究和实盘交易的库与包，涵盖回测、实盘交易、数据分析、机器学习等领域。此外，还整理了40多种策略、55本相关书籍、23个视频以及博客课程，适合量化交易开发者与研究员寻找工具和参考资料。",
+        "summary_en": "A curated list of libraries, strategies, books, and tutorials for systematic trading.",
+        "techStack": [
+          "Python",
+          "Backtesting",
+          "Machine Learning",
+          "Data Analysis",
+          "Event-Driven"
+        ],
+        "useCase": "适合量化交易开发者、研究员寻找回测框架、策略实现库及学习资料。",
+        "useCase_en": "To discover libraries, strategies, and educational resources for systematic trading."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "different-ai/openwork",
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "language": "TypeScript",
+      "stars": 18707,
+      "forks": 1904,
+      "todayStars": 915,
+      "url": "https://github.com/different-ai/openwork",
+      "aiSummary": {
+        "summary": "OpenWork 是一款开源的桌面应用，旨在替代 Claude Cowork，用于共享 AI 工作流。它通过 MCP 协议，允许用户在 Codex、Claude Code、Cursor 等多个 AI 工具间共享技能、MCP 连接和连接服务。支持跨团队、跨机器协作，提供桌面应用和远程 MCP 服务器两种使用方式。",
+        "summary_en": "Open-source desktop app for sharing AI workflows across different agents via MCP.",
+        "techStack": [
+          "TypeScript",
+          "MCP (Model Context Protocol)",
+          "Desktop Application",
+          "Cross-platform"
+        ],
+        "useCase": "需要在多个 AI 编程工具间统一管理和复用工作流与技能的场景。",
+        "useCase_en": "Share AI workflows and services across multiple AI agents like Claude Code and Cursor."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "WhiskeySockets/Baileys",
+      "description": "Socket-based TS/JavaScript API for WhatsApp Web",
+      "language": "JavaScript",
+      "stars": 10429,
+      "forks": 3251,
+      "todayStars": 19,
+      "url": "https://github.com/WhiskeySockets/Baileys",
+      "aiSummary": {
+        "summary": "Baileys 是一个基于 WebSockets 的 TypeScript/JavaScript 库，用于与 WhatsApp Web API 交互。项目已升级至 7.0.0 版本，引入了重大变更，用户需查阅迁移指南。该库提供社区支持和商业级付费支持，但明确声明与 WhatsApp 无官方关联，并提醒用户遵守服务条款。",
+        "summary_en": "Socket-based TypeScript library for interacting with the WhatsApp Web API.",
+        "techStack": [
+          "TypeScript",
+          "JavaScript",
+          "WebSockets"
+        ],
+        "useCase": "开发者构建 WhatsApp Web 自动化工具、机器人或集成应用。",
+        "useCase_en": "Building custom applications or bots that interact with the WhatsApp Web API."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "stars": 20101,
+      "forks": 2620,
+      "todayStars": 625,
+      "url": "https://github.com/pascalorg/editor",
+      "aiSummary": {
+        "summary": "Pascal Editor 是一个基于 React Three Fiber 和 WebGPU 构建的 3D 建筑编辑器。它采用 Turborepo Monorepo 架构，将核心逻辑、渲染器、编辑工具和节点定义分离为独立包。项目利用 Zustand 管理场景状态，支持创建和分享 3D 建筑项目，提供交互式编辑与渲染功能。",
+        "summary_en": "A monorepo-based 3D architectural editor using React Three Fiber and WebGPU.",
+        "techStack": [
+          "TypeScript",
+          "React Three Fiber",
+          "WebGPU",
+          "Next.js",
+          "Turborepo"
+        ],
+        "useCase": "3D 建筑项目的创建、编辑与分享",
+        "useCase_en": "A tool for creating and sharing 3D architectural projects."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 55529,
+      "forks": 4786,
+      "todayStars": 378,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "aiSummary": {
+        "summary": "这是一个 AI Agent 技能，用于跨 Reddit、X、YouTube、HN、Polymarket 等平台搜索并综合生成基于事实的摘要。它通过点赞、金钱等真实参与度评分，而非编辑筛选，聚合了 Google 等搜索引擎无法触及的“围墙花园”数据。",
+        "summary_en": "AI agent skill aggregating social and financial data from Reddit, X, and Polymarket to synthesize grounded summaries.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "Agent Skills (Codex/Cursor/Copilot)"
+        ],
+        "useCase": "跨平台热点话题研究，获取基于真实用户参与度的综合信息摘要。",
+        "useCase_en": "To research topics across Reddit, X, and Polymarket and synthesize a grounded summary based on real engagement metrics."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "dotnet/aspnetcore",
+      "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+      "language": "C#",
+      "stars": 38287,
+      "forks": 10859,
+      "todayStars": 7,
+      "url": "https://github.com/dotnet/aspnetcore",
+      "aiSummary": {
+        "summary": "ASP.NET Core 是一个开源的、跨平台的 C# 框架，用于构建现代云原生 Web 应用、IoT 应用和移动后端。它专为云和本地部署优化，具有模块化组件和最小开销，支持在 Windows、Mac 和 Linux 上运行。",
+        "summary_en": "A cross-platform, open-source framework for building modern cloud-based web applications and backends on .NET.",
+        "techStack": [
+          "C#",
+          ".NET",
+          "Cross-platform"
+        ],
+        "useCase": "构建现代云原生 Web 应用、物联网应用及移动后端",
+        "useCase_en": "Building modern cloud-based web applications and backends."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "language": "C",
+      "stars": 137105,
+      "forks": 8364,
+      "todayStars": 70,
+      "url": "https://github.com/microsoft/PowerToys",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 9,
+      "fullName": "ansible/ansible",
+      "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+      "language": "Python",
+      "stars": 69874,
+      "forks": 24248,
+      "todayStars": 29,
+      "url": "https://github.com/ansible/ansible",
+      "aiSummary": {
+        "summary": "Ansible 是一个简单且激进的 IT 自动化平台，使用 Python 编写。它支持配置管理、应用部署、云管理和网络自动化等功能。其核心优势在于无代理架构，仅通过 SSH 即可远程管理，且使用接近英语的 YAML 语言，降低了学习门槛，适合大规模 IT 运维和自动化任务。",
+        "summary_en": "Ansible is a radically simple IT automation platform for configuration management, application deployment, and cloud provisioning.",
+        "techStack": [
+          "Python",
+          "YAML",
+          "SSH"
+        ],
+        "useCase": "适用于代码部署、网络配置、云管理及多节点编排等 IT 自动化运维场景。",
+        "useCase_en": "Automate IT tasks like configuration management and application deployment using a simple, agentless approach."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 48031,
+      "forks": 3258,
+      "todayStars": 80,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "这是一个基于 TypeScript 的 MCP 服务器，允许 AI 编码代理（如 Claude 或 Cursor）控制并检查实时 Chrome 浏览器。它集成了 Puppeteer，提供性能分析、网络调试、截图和控制台检查功能，旨在实现可靠的浏览器自动化和深度调试。",
+        "summary_en": "An MCP server enabling coding agents to control and inspect a live Chrome browser for automation and debugging.",
+        "techStack": [
+          "TypeScript",
+          "Puppeteer",
+          "Model-Context-Protocol (MCP)"
+        ],
+        "useCase": "为 AI 编码助手提供浏览器自动化、性能监控及深度调试能力。",
+        "useCase_en": "To provide coding agents with direct access to Chrome DevTools for reliable automation and debugging."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "jenkinsci/jenkins",
+      "description": "Jenkins automation server",
+      "language": "Java",
+      "stars": 26289,
+      "forks": 9718,
+      "todayStars": 25,
+      "url": "https://github.com/jenkinsci/jenkins",
+      "aiSummary": {
+        "summary": "Jenkins 是领先的开源自动化服务器，使用 Java 构建。它提供超过 2000 个插件，支持构建、测试、部署等开发流程，帮助用户自动化重复性任务，专注于核心工作。支持 WAR、Docker 等多种分发方式。",
+        "summary_en": "Leading open-source automation server built with Java for automating build, test, and deployment pipelines.",
+        "techStack": [
+          "Java"
+        ],
+        "useCase": "适用于自动化开发流程、持续集成与持续部署（CI/CD）。",
+        "useCase_en": "Automate development workflows including building, testing, and deployment to focus on high-value work."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "agavra/tuicr",
+      "description": "a code review TUI with vim keybindings",
+      "language": "Rust",
+      "stars": 1848,
+      "forks": 159,
+      "todayStars": 190,
+      "url": "https://github.com/agavra/tuicr",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 的终端代码审查工具，支持 Vim 键位绑定。它提供 GitHub 风格的连续差异视图，支持在行、范围、文件及审查级别添加评论。支持审查 git、jj 和 mercurial 的未提交更改、提交范围或 PR/MR，并能将评论导出到 GitHub、GitLab 或剪贴板。",
+        "summary_en": "A terminal-based code review tool with vim keybindings for Git and GitLab.",
+        "techStack": [
+          "Rust",
+          "TUI",
+          "Git"
+        ],
+        "useCase": "适合习惯 Vim 操作、需要在终端环境进行代码审查和管理的开发者。",
+        "useCase_en": "Review code changes in the terminal using vim keybindings and push comments to GitHub or GitLab."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 236202,
+      "forks": 35926,
+      "todayStars": 804,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个针对 AI 代理的性能优化系统，旨在为 Claude Code、Codex 等提供协调的工程工具箱。它通过计划、测试、审查等流程，优化上下文窗口，提升开发效率。项目包含 67 个专业代理、281 个技能及安全扫描功能，支持多种编程环境，采用 MIT 开源协议。",
+        "summary_en": "An engineering system and toolbox for AI agents to optimize performance, manage memory, and execute structured development workflows.",
+        "techStack": [
+          "JavaScript",
+          "Claude Code",
+          "Cursor",
+          "GitHub Copilot",
+          "Node.js"
+        ],
+        "useCase": "适用于需要 AI 代理进行自动化代码开发、架构设计及安全审查的场景。",
+        "useCase_en": "To optimize AI agent performance by providing a structured engineering system with skills, memory, and security for soft"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-07-31T00:14:46.395Z",
+    "duration": "507s",
+    "version": "1.0.0"
+  }
+}
