@@ -1,0 +1,265 @@
+{
+  "date": "2026-07-31",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "language": "PowerShell",
+      "stars": 10697,
+      "forks": 1652,
+      "todayStars": 335,
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "aiSummary": {
+        "summary": "这是一个面向 AI 代理的网络安全技能路由包，主要使用 PowerShell 编写。它能够根据任务类型（如 APK 分析、二进制逆向、CTF 挑战）自动路由到正确的工具链和方法论。支持 Claude Code 等客户端，集成 IDA、Frida、BurpSuite 等工具，实现自动化渗透测试和安全研究工作流。",
+        "summary_en": "An AI-powered routing system for reverse engineering, penetration testing, and security research workflows.",
+        "techStack": [
+          "PowerShell",
+          "Java",
+          "Node.js",
+          "Python",
+          "IDA Pro"
+        ],
+        "useCase": "为 Claude Code 等代码 AI 客户端提供自动化逆向工程、渗透测试和安全研究工作流支持。",
+        "useCase_en": "Automates the selection of tools and workflows for reverse engineering, penetration testing, and security research tasks"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "different-ai/openwork",
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "language": "TypeScript",
+      "stars": 19486,
+      "forks": 2004,
+      "todayStars": 806,
+      "url": "https://github.com/different-ai/openwork",
+      "aiSummary": {
+        "summary": "OpenWork 是一个开源的跨平台桌面应用，旨在作为 Claude Cowork 的替代品。它通过 MCP 协议，允许用户在 Codex、Claude Code、Cursor 等多个 AI 代理之间共享工作流、技能和连接服务。它提供桌面应用用于专用工作区，同时也支持通过 MCP 服务器集成到任何兼容的客户端中，方便团队协作和统一管理 AI 能力。",
+        "summary_en": "Open-source desktop app and MCP server for sharing AI workflows across multiple agents and organizations.",
+        "techStack": [
+          "TypeScript",
+          "MCP (Model Context Protocol)",
+          "Electron"
+        ],
+        "useCase": "适用于需要在多个 AI 代理（如 Cursor、Claude Code）间统一管理和复用工作流的开发者或团队。",
+        "useCase_en": "A cross-platform desktop application and MCP server to share AI workflows and services across different AI coding agents"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 56213,
+      "forks": 4886,
+      "todayStars": 658,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "aiSummary": {
+        "summary": "这是一个基于 AI agent 的搜索技能，能跨 Reddit、X、YouTube、HN、Polymarket 等平台研究任意主题。它通过真实互动数据（点赞、金钱）对搜索结果进行评分，而非依赖编辑。该工具旨在连接被主流搜索引擎和 AI 遗漏的“围墙花园”平台，提供独特的全网综合摘要。",
+        "summary_en": "AI agent skill aggregating social media and market data to synthesize grounded summaries of trending topics.",
+        "techStack": [
+          "Python",
+          "Node.js",
+          "Claude API"
+        ],
+        "useCase": "需要跨多个社交媒体和新闻平台进行深度研究，获取被主流 AI 遗漏的见解或趋势。",
+        "useCase_en": "Research any topic across Reddit, X, YouTube, and Polymarket to synthesize a grounded summary based on real-time engagem"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "paperswithbacktest/awesome-systematic-trading",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "language": "Python",
+      "stars": 11741,
+      "forks": 1464,
+      "todayStars": 763,
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "aiSummary": {
+        "summary": "这是一个系统化交易资源的精选列表，收录了97个用于回测、实盘交易及数据分析的Python库，涵盖债券、加密货币、股票等40+种策略。此外，还整理了55本专业书籍、23个视频及博客课程，旨在为量化交易者提供全方位的学习与开发资源。",
+        "summary_en": "A curated list of libraries, strategies, and resources for systematic and quantitative trading.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适合量化交易开发者寻找回测框架、数据分析库及学习资源的开发者。",
+        "useCase_en": "To discover libraries, strategies, and educational resources for systematic trading."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "microsoft/AI-For-Beginners",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "language": "Jupyter Notebook",
+      "stars": 55296,
+      "forks": 11143,
+      "todayStars": 1592,
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "aiSummary": {
+        "summary": "这是一个由微软提供的初学者人工智能课程，包含12周24课的内容。使用Jupyter Notebook编写，涵盖TensorFlow和PyTorch等工具，包含实践课程、测验和实验室。课程注重AI伦理，支持50多种语言，适合零基础学习者系统掌握AI知识。",
+        "summary_en": "A beginner-friendly 12-week curriculum for learning AI using Jupyter Notebooks and frameworks.",
+        "techStack": [
+          "Jupyter Notebook",
+          "TensorFlow",
+          "PyTorch"
+        ],
+        "useCase": "适合零基础学习者系统学习人工智能基础知识与实战技能。",
+        "useCase_en": "To learn the fundamentals of AI through practical lessons, quizzes, and labs."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "github/copilot-sdk",
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "language": "Java",
+      "stars": 10134,
+      "forks": 1372,
+      "todayStars": 7,
+      "url": "https://github.com/github/copilot-sdk",
+      "aiSummary": {
+        "summary": "这是一个用于将 GitHub Copilot Agent 集成到应用程序中的多平台 SDK。它暴露了 Copilot CLI 的生产级代理运行时，允许开发者定义代理行为，而无需自行构建编排逻辑。Java SDK 提供了通过 JSON-RPC 与 Copilot CLI 服务器通信的能力，支持 Maven 和 Gradle 构建。",
+        "summary_en": "Multi-platform SDK for integrating GitHub Copilot Agent into applications and services.",
+        "techStack": [
+          "Java",
+          "JSON-RPC",
+          "Maven/Gradle"
+        ],
+        "useCase": "需要在 Java 应用中集成 AI 代理能力，自动执行规划、工具调用和文件编辑的开发者。",
+        "useCase_en": "Embed Copilot's agentic workflows in your application without building your own orchestration."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "chatwoot/chatwoot",
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "language": "Ruby",
+      "stars": 35113,
+      "forks": 8440,
+      "todayStars": 35,
+      "url": "https://github.com/chatwoot/chatwoot",
+      "aiSummary": {
+        "summary": "Chatwoot 是一个开源的全渠道客户支持平台，支持网站聊天、邮件、WhatsApp、社交媒体等多种渠道。它提供 AI 代理 Captain 自动化回复，内置帮助中心，以及团队协作工具，旨在替代 Intercom 等商业软件，帮助企业高效管理客户沟通。",
+        "summary_en": "Open-source customer support platform providing omnichannel communication and AI agent capabilities.",
+        "techStack": [
+          "Ruby",
+          "Rails"
+        ],
+        "useCase": "适用于需要自托管、统一管理多渠道客户沟通（如邮件、WhatsApp、网站聊天）并具备 AI 自动化能力的团队。",
+        "useCase_en": "A self-hosted alternative to Intercom for managing customer conversations across various channels."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "agavra/tuicr",
+      "description": "a code review TUI with vim keybindings",
+      "language": "Rust",
+      "stars": 2146,
+      "forks": 172,
+      "todayStars": 335,
+      "url": "https://github.com/agavra/tuicr",
+      "aiSummary": {
+        "summary": "tuicr 是一个基于 Rust 的终端代码审查工具，支持 Vim 键绑定。它提供 GitHub 风格的连续差异流，支持多层级评论（行、范围、文件、审查），并支持将审查跟踪持久化。兼容 git、jj 和 mercurial，可导出到 GitHub、GitLab 或剪贴板，适用于审查未提交更改、提交范围或 PR/MR。",
+        "summary_en": "A Rust-based terminal code review tool featuring vim keybindings and support for multiple version control systems.",
+        "techStack": [
+          "Rust",
+          "TUI",
+          "Git"
+        ],
+        "useCase": "在终端中高效进行代码审查、PR/MR 审核及版本控制差异查看。",
+        "useCase_en": "Perform code reviews directly in the terminal using vim keybindings and export comments to GitHub or GitLab."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "usekaneo/kaneo",
+      "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+      "language": "TypeScript",
+      "stars": 5065,
+      "forks": 450,
+      "todayStars": 194,
+      "url": "https://github.com/usekaneo/kaneo",
+      "aiSummary": {
+        "summary": "Kaneo 是一款开源的项目管理系统，主打极简主义，旨在提供专注、高效的工作体验。它拥有干净的界面，支持自托管以确保数据安全，且基于 MIT 许可证开源。通过 Docker Compose 或 CLI 工具 drim 即可快速部署，适合追求轻量级和性能的团队。",
+        "summary_en": "A minimalist, self-hosted project management tool built with TypeScript that focuses on simplicity and performance.",
+        "techStack": [
+          "TypeScript",
+          "PostgreSQL",
+          "Docker"
+        ],
+        "useCase": "适合需要自托管、注重数据隐私且希望摆脱臃肿项目管理工具的团队。",
+        "useCase_en": "A self-hosted project management solution designed to be fast, clean, and invisible to the user."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "geo-tp/ESP32-Bit-Pirate",
+      "description": "A Hardware Hacking Tool with Web-Based CLI That Speaks Every Protocol",
+      "language": "C++",
+      "stars": 4990,
+      "forks": 406,
+      "todayStars": 83,
+      "url": "https://github.com/geo-tp/ESP32-Bit-Pirate",
+      "aiSummary": {
+        "summary": "这是一个开源固件，灵感源自 Bus Pirate，将 ESP32 转化为多协议开发与分析工具。支持 I2C、UART、SPI、蓝牙、Wi-Fi、CAN、JTAG 等多种协议的嗅探、发送、脚本编写及硬件交互。提供 Web 和串口 CLI 界面，功能强大。",
+        "summary_en": "Open-source firmware for ESP32 transforming the device into a multi-protocol hardware hacking tool with a web-based CLI.",
+        "techStack": [
+          "C++",
+          "ESP32",
+          "Web",
+          "Python"
+        ],
+        "useCase": "适用于硬件黑客、嵌入式开发及多协议信号分析调试。",
+        "useCase_en": "A versatile hardware hacking tool for developers and analysts to interact with digital and radio protocols via web or se"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "deepfakes/faceswap",
+      "description": "Deepfakes Software For All",
+      "language": "Python",
+      "stars": 56976,
+      "forks": 13478,
+      "todayStars": 93,
+      "url": "https://github.com/deepfakes/faceswap",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的开源深度学习工具，利用深度学习技术实现图片和视频中的人脸识别与交换。项目提供完整的提取、训练、转换流程及图形用户界面（GUI），支持多种生成模型。开发者强调其伦理用途，致力于降低 AI 技术的使用门槛。",
+        "summary_en": "Open-source deep learning software for swapping faces in images and videos using neural networks.",
+        "techStack": [
+          "Python",
+          "Deep Learning",
+          "Neural Networks"
+        ],
+        "useCase": "人脸替换、深度伪造与 AI 视频处理",
+        "useCase_en": "To recognize and swap faces in pictures and videos using deep learning techniques."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "1jehuang/jcode",
+      "description": "The most RAM efficient harness",
+      "language": "Rust",
+      "stars": 14602,
+      "forks": 1610,
+      "todayStars": 527,
+      "url": "https://github.com/1jehuang/jcode",
+      "aiSummary": {
+        "summary": "jcode 是一个用 Rust 编写的代码生成工具，主打极致的内存效率。通过优化各项指标，它在单会话和多会话场景下均显著降低了内存占用，远低于 Codex CLI、Cursor Agent 等竞品。项目提供了跨平台的安装脚本，旨在为开发者提供高性能且低资源消耗的 AI 编码辅助体验。",
+        "summary_en": "A Rust-based, highly RAM-efficient coding harness designed for multi-session workflows.",
+        "techStack": [
+          "Rust",
+          "Shell"
+        ],
+        "useCase": "适用于追求极致内存效率的多会话 AI 编码辅助场景。",
+        "useCase_en": "A lightweight, resource-efficient coding harness designed to minimize RAM usage in multi-session environments."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-01T00:11:07.515Z",
+    "duration": "418s",
+    "version": "1.0.0"
+  }
+}
