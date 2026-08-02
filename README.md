@@ -70,24 +70,27 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-07-31 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-08-01 | **成功**: 14 | **失败**: 1
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | Reverse Engineering / Authorized Penetration Testi... | PowerShell | 10.7k | 335 | 这是一个面向 AI 代理的网络安全技能路由包，主要使用 PowerShell 编写。它能够根据任务类型（如 APK 分析、二进制逆向、CTF 挑战）自动路由到正确的工具链和方法论。支持 Claude Code 等客户端，集成 IDA、Frida、BurpSuite 等工具，实现自动化渗透测试和安全研究工作流。 |
-| 2 | [different-ai/openwork](https://github.com/different-ai/openwork) | The open-source alternative to Claude Cowork (powe... | TypeScript | 19.5k | 806 | OpenWork 是一个开源的跨平台桌面应用，旨在作为 Claude Cowork 的替代品。它通过 MCP 协议，允许用户在 Codex、Claude Code、Cursor 等多个 AI 代理之间共享工作流、技能和连接服务。它提供桌面应用用于专用工作区，同时也支持通过 MCP 服务器集成到任何兼容的客户端中，方便团队协作和统一管理 AI 能力。 |
-| 3 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | AI agent skill that researches any topic across Re... | Python | 56.2k | 658 | 这是一个基于 AI agent 的搜索技能，能跨 Reddit、X、YouTube、HN、Polymarket 等平台研究任意主题。它通过真实互动数据（点赞、金钱）对搜索结果进行评分，而非依赖编辑。该工具旨在连接被主流搜索引擎和 AI 遗漏的“围墙花园”平台，提供独特的全网综合摘要。 |
-| 4 | [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) | A curated list of awesome libraries, packages, str... | Python | 11.7k | 763 | 这是一个系统化交易资源的精选列表，收录了97个用于回测、实盘交易及数据分析的Python库，涵盖债券、加密货币、股票等40+种策略。此外，还整理了55本专业书籍、23个视频及博客课程，旨在为量化交易者提供全方位的学习与开发资源。 |
-| 5 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 12 Weeks, 24 Lessons, AI for All!... | Jupyter Notebook | 55.3k | 1.6k | 这是一个由微软提供的初学者人工智能课程，包含12周24课的内容。使用Jupyter Notebook编写，涵盖TensorFlow和PyTorch等工具，包含实践课程、测验和实验室。课程注重AI伦理，支持50多种语言，适合零基础学习者系统掌握AI知识。 |
-| 6 | [github/copilot-sdk](https://github.com/github/copilot-sdk) | Multi-platform SDK for integrating GitHub Copilot ... | Java | 10.1k | 7 | 这是一个用于将 GitHub Copilot Agent 集成到应用程序中的多平台 SDK。它暴露了 Copilot CLI 的生产级代理运行时，允许开发者定义代理行为，而无需自行构建编排逻辑。Java SDK 提供了通过 JSON-RPC 与 Copilot CLI 服务器通信的能力，支持 Maven 和 Gradle 构建。 |
-| 7 | [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | Open-source live-chat, email support, omni-channel... | Ruby | 35.1k | 35 | Chatwoot 是一个开源的全渠道客户支持平台，支持网站聊天、邮件、WhatsApp、社交媒体等多种渠道。它提供 AI 代理 Captain 自动化回复，内置帮助中心，以及团队协作工具，旨在替代 Intercom 等商业软件，帮助企业高效管理客户沟通。 |
-| 8 | [agavra/tuicr](https://github.com/agavra/tuicr) | a code review TUI with vim keybindings... | Rust | 2.1k | 335 | tuicr 是一个基于 Rust 的终端代码审查工具，支持 Vim 键绑定。它提供 GitHub 风格的连续差异流，支持多层级评论（行、范围、文件、审查），并支持将审查跟踪持久化。兼容 git、jj 和 mercurial，可导出到 GitHub、GitLab 或剪贴板，适用于审查未提交更改、提交范围或 PR/MR。 |
-| 9 | [usekaneo/kaneo](https://github.com/usekaneo/kaneo) | 🎯 All you need. Nothing you don't. Open source pr... | TypeScript | 5.1k | 194 | Kaneo 是一款开源的项目管理系统，主打极简主义，旨在提供专注、高效的工作体验。它拥有干净的界面，支持自托管以确保数据安全，且基于 MIT 许可证开源。通过 Docker Compose 或 CLI 工具 drim 即可快速部署，适合追求轻量级和性能的团队。 |
-| 10 | [geo-tp/ESP32-Bit-Pirate](https://github.com/geo-tp/ESP32-Bit-Pirate) | A Hardware Hacking Tool with Web-Based CLI That Sp... | C++ | 5.0k | 83 | 这是一个开源固件，灵感源自 Bus Pirate，将 ESP32 转化为多协议开发与分析工具。支持 I2C、UART、SPI、蓝牙、Wi-Fi、CAN、JTAG 等多种协议的嗅探、发送、脚本编写及硬件交互。提供 Web 和串口 CLI 界面，功能强大。 |
-| 11 | [deepfakes/faceswap](https://github.com/deepfakes/faceswap) | Deepfakes Software For All... | Python | 57.0k | 93 | 这是一个基于 Python 的开源深度学习工具，利用深度学习技术实现图片和视频中的人脸识别与交换。项目提供完整的提取、训练、转换流程及图形用户界面（GUI），支持多种生成模型。开发者强调其伦理用途，致力于降低 AI 技术的使用门槛。 |
-| 12 | [1jehuang/jcode](https://github.com/1jehuang/jcode) | The most RAM efficient harness... | Rust | 14.6k | 527 | jcode 是一个用 Rust 编写的代码生成工具，主打极致的内存效率。通过优化各项指标，它在单会话和多会话场景下均显著降低了内存占用，远低于 Codex CLI、Cursor Agent 等竞品。项目提供了跨平台的安装脚本，旨在为开发者提供高性能且低资源消耗的 AI 编码辅助体验。 |
+| 1 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 12 Weeks, 24 Lessons, AI for All!... | Jupyter Notebook | 57.1k | 949 | 这是一个由微软提供的面向初学者的12周、24课AI课程。内容涵盖AI基础、TensorFlow和PyTorch等工具使用以及AI伦理。项目包含实践课程、测验和实验室，支持50多种语言，由GitHub Actions自动更新，适合零基础学习者入门。 |
+| 2 | [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) | A curated list of awesome libraries, packages, str... | Python | 12.2k | 523 | 一个专注于系统化交易的资源精选列表，包含97个库、40+种策略及55本专业书籍。涵盖回测、实盘交易、数据分析及机器学习等领域，旨在帮助开发者和研究人员寻找、开发并运行量化交易策略。 |
+| 3 | [usekaneo/kaneo](https://github.com/usekaneo/kaneo) | 🎯 All you need. Nothing you don't. Open source pr... | TypeScript | 5.7k | 760 | Kaneo 是一款极简主义的开源项目管理工具，旨在通过简洁的界面和自托管功能，减少对团队的干扰，专注于产品构建。它强调性能和隐私，支持 MIT 许可证，适合追求高效、轻量级工作流的团队使用。 |
+| 4 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | Reverse Engineering / Authorized Penetration Testi... | PowerShell | 11.9k | 1.3k | 这是一个专为 AI Agent 设计的网络安全技能路由包，利用 PowerShell 实现智能任务分发。它能将 APK、二进制、JS 等逆向任务自动路由至 Frida、IDA Pro、BurpSuite 等工具，支持按需自举工具链、自动化工作流及证据报告生成，解决 AI 代理工具选择困难的问题。 |
+| 5 | [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 21 Lessons, Get Started Building with Generative A... | Jupyter Notebook | 114.2k | 108 | 这是一个由微软提供的生成式 AI 入门课程，包含 21 课，涵盖从基础概念到应用构建的完整内容。项目采用 Jupyter Notebook 格式，支持 50 多种语言，内容持续更新。适合零基础开发者学习如何构建生成式 AI 应用。 |
+| 6 | [github/copilot-sdk](https://github.com/github/copilot-sdk) | Multi-platform SDK for integrating GitHub Copilot ... | Java | 10.3k | 142 | 这是一个多平台 SDK，用于将 GitHub Copilot Agent 集成到各类应用中。支持 Node.js、Python、Go、.NET、Java 和 Rust。SDK 通过 JSON-RPC 与 Copilot CLI 通信，提供生产就绪的代理运行时，开发者只需定义行为，无需自行构建编排逻辑，需订阅 GitHub Copilot。 |
+| 7 | [github/gh-stack](https://github.com/github/gh-stack) | GitHub Stacked PRs... | Go | 806 | 46 | 这是一个用于管理堆叠分支和 Pull Requests 的 GitHub CLI 扩展。它将大型变更拆解为一系列可审查的小型 PR，自动化了创建、变基和提交过程。通过维护基于主干（trunk）的层级结构，帮助开发者高效管理复杂的代码变更链。 |
+| 8 | [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) | Build local voice agents with open-source models... | Python | 10.2k | 442 | 这是一个基于 Python 的低延迟、全模块化语音代理管道，包含 VAD、STT、LLM 和 TTS 四个组件。它通过 OpenAI Realtime 兼容的 WebSocket API 暴露，支持完全本地化部署和组件替换，适用于构建本地语音助手或作为机器人后端。 |
+| 9 | [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro) | Gradio WebUI for creators and developers, featurin... | Python | 11.7k | 58 | 这是一个基于 Gradio 的 Web 应用，集成了语音识别、翻译和多语言配音功能。它支持 YouTube 下载、人声分离，并集成了 F5-TTS、CosyVoice 等先进的零样本语音克隆技术，以及 Edge-TTS 和 Kokoro 等文本转语音引擎，为创作者提供一站式多媒体处理解决方案。 |
+| 10 | [iv-org/invidious](https://github.com/iv-org/invidious) | Invidious is an alternative front-end to YouTube... | Crystal | 21.6k | 435 | Invidious 是一个基于 Crystal 语言开发的 YouTube 替代前端。它专注于用户隐私，提供无广告、无追踪、无需 JavaScript 的浏览体验，支持深色/浅色主题、音频模式及订阅管理。项目支持数据导入导出，不依赖官方 API，旨在为用户提供一个干净、独立的视频观看环境。 |
+| 11 | [ansible/ansible](https://github.com/ansible/ansible) | Ansible is a radically simple IT automation platfo... | Python | 70.1k | 30 | Ansible 是一个简单且强大的 IT 自动化平台，用于配置管理、应用部署、云 provisioning 和网络自动化。它采用无代理架构，通过 SSH 直接管理远程系统，使用 YAML 语言编写剧本，具有极低的学习曲线和强大的并行处理能力，支持零停机滚动更新。 |
+| 12 | [microsoft/TRELLIS.2](https://github.com/microsoft/TRELLIS.2) | Native and Compact Structured Latents for 3D Gener... | Python | 9.9k | 107 | TRELLIS.2 是微软推出的 4B 参数大模型，专注于高保真图像到 3D 生成。它采用创新的 O-Voxel 稀疏体素结构，能够处理任意拓扑（如开放表面、非流形几何），并支持全 PBR 材质建模。模型利用稀疏 3D VAE 进行高效编码，在 H100 上生成 1024³ 分辨率资产仅需约 17 秒，适合快速创建复杂 3D 资产。 |
+| 13 | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | TencentDB Agent Memory is a team-level memory hub ... | TypeScript | 10.3k | 227 | 处理失败 |
+| 14 | [NomaDamas/k-skill](https://github.com/NomaDamas/k-skill) | 한국인을 위한 스킬 모음집 - 에이전트를 한국인으로... | JavaScript | 6.7k | 53 | 该项目是一个面向韩国用户的实用工具集合，包含交通出行、生活服务及法律行政等多种自动化脚本。涵盖SRT/KTX购票、地铁查询、法律检索等功能，旨在简化韩国用户的日常事务处理流程。 |
+| 15 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | An open-source long-horizon SuperAgent harness tha... | Python | 78.7k | 209 | DeerFlow 是字节跳动开源的长周期 SuperAgent 框架，旨在研究、编码和创建。它通过编排子代理、记忆、沙箱和可扩展技能，处理从几分钟到几小时的复杂任务，支持 Claude Code 集成及智能搜索工具 InfoQuest。 |
 
-[查看完整数据](api/github/2026-07-31.json)
+[查看完整数据](api/github/2026-08-01.json)
 <!-- END GITHUB TRENDING -->
 
 

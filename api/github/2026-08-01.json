@@ -1,0 +1,327 @@
+{
+  "date": "2026-08-01",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 14,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "microsoft/AI-For-Beginners",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "language": "Jupyter Notebook",
+      "stars": 57150,
+      "forks": 11337,
+      "todayStars": 949,
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "aiSummary": {
+        "summary": "这是一个由微软提供的面向初学者的12周、24课AI课程。内容涵盖AI基础、TensorFlow和PyTorch等工具使用以及AI伦理。项目包含实践课程、测验和实验室，支持50多种语言，由GitHub Actions自动更新，适合零基础学习者入门。",
+        "summary_en": "A beginner-friendly 12-week curriculum covering AI concepts, TensorFlow, PyTorch, and ethics.",
+        "techStack": [
+          "Jupyter Notebook",
+          "TensorFlow",
+          "PyTorch"
+        ],
+        "useCase": "适合零基础开发者系统学习人工智能基础知识与实践。",
+        "useCase_en": "A practical curriculum for beginners to learn AI fundamentals, tools, and ethics."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "paperswithbacktest/awesome-systematic-trading",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "language": "Python",
+      "stars": 12230,
+      "forks": 1514,
+      "todayStars": 523,
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "aiSummary": {
+        "summary": "一个专注于系统化交易的资源精选列表，包含97个库、40+种策略及55本专业书籍。涵盖回测、实盘交易、数据分析及机器学习等领域，旨在帮助开发者和研究人员寻找、开发并运行量化交易策略。",
+        "summary_en": "A comprehensive collection of libraries, strategies, and educational resources for quantitative trading.",
+        "techStack": [
+          "Python",
+          "Quantitative Trading",
+          "Backtesting"
+        ],
+        "useCase": "适合量化交易开发者寻找开发工具、学习策略及进行实盘交易。",
+        "useCase_en": "A resource hub for finding libraries, strategies, and educational materials for systematic trading."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "usekaneo/kaneo",
+      "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+      "language": "TypeScript",
+      "stars": 5672,
+      "forks": 483,
+      "todayStars": 760,
+      "url": "https://github.com/usekaneo/kaneo",
+      "aiSummary": {
+        "summary": "Kaneo 是一款极简主义的开源项目管理工具，旨在通过简洁的界面和自托管功能，减少对团队的干扰，专注于产品构建。它强调性能和隐私，支持 MIT 许可证，适合追求高效、轻量级工作流的团队使用。",
+        "summary_en": "An open-source, self-hosted project management tool built on TypeScript, focusing on simplicity and performance.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "PostgreSQL"
+        ],
+        "useCase": "适合需要自托管、注重隐私且希望使用极简工具提升团队效率的团队。",
+        "useCase_en": "A self-hosted project management solution designed for teams who want a clean, fast, and privacy-focused workflow."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "language": "PowerShell",
+      "stars": 11882,
+      "forks": 1798,
+      "todayStars": 1320,
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "aiSummary": {
+        "summary": "这是一个专为 AI Agent 设计的网络安全技能路由包，利用 PowerShell 实现智能任务分发。它能将 APK、二进制、JS 等逆向任务自动路由至 Frida、IDA Pro、BurpSuite 等工具，支持按需自举工具链、自动化工作流及证据报告生成，解决 AI 代理工具选择困难的问题。",
+        "summary_en": "An AI-powered skill router for reverse engineering and penetration testing that automates tool selection and workflow execution.",
+        "techStack": [
+          "PowerShell",
+          "Java",
+          "Node.js",
+          "Python",
+          "IDA Pro"
+        ],
+        "useCase": "适用于 AI 编码客户端进行逆向工程、授权渗透测试和安全研究任务。",
+        "useCase_en": "To route AI agents to the correct security tools and methodologies for reverse engineering, penetration testing, and CTF"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "microsoft/generative-ai-for-beginners",
+      "description": "21 Lessons, Get Started Building with Generative AI",
+      "language": "Jupyter Notebook",
+      "stars": 114192,
+      "forks": 61215,
+      "todayStars": 108,
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "aiSummary": {
+        "summary": "这是一个由微软提供的生成式 AI 入门课程，包含 21 课，涵盖从基础概念到应用构建的完整内容。项目采用 Jupyter Notebook 格式，支持 50 多种语言，内容持续更新。适合零基础开发者学习如何构建生成式 AI 应用。",
+        "summary_en": "A comprehensive 21-lesson course by Microsoft to learn and build Generative AI applications.",
+        "techStack": [
+          "Jupyter Notebook"
+        ],
+        "useCase": "生成式 AI 初学者入门学习与实战演练",
+        "useCase_en": "To teach beginners the fundamentals of building Generative AI applications."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "github/copilot-sdk",
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "language": "Java",
+      "stars": 10272,
+      "forks": 1385,
+      "todayStars": 142,
+      "url": "https://github.com/github/copilot-sdk",
+      "aiSummary": {
+        "summary": "这是一个多平台 SDK，用于将 GitHub Copilot Agent 集成到各类应用中。支持 Node.js、Python、Go、.NET、Java 和 Rust。SDK 通过 JSON-RPC 与 Copilot CLI 通信，提供生产就绪的代理运行时，开发者只需定义行为，无需自行构建编排逻辑，需订阅 GitHub Copilot。",
+        "summary_en": "Multi-platform SDK for integrating GitHub Copilot agents into applications using various languages.",
+        "techStack": [
+          "Node.js",
+          "Python",
+          "Go",
+          ".NET",
+          "Java"
+        ],
+        "useCase": "在应用程序和服务中嵌入 Copilot 的代理工作流",
+        "useCase_en": "Embed Copilot's agentic workflows into applications programmatically."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "github/gh-stack",
+      "description": "GitHub Stacked PRs",
+      "language": "Go",
+      "stars": 806,
+      "forks": 36,
+      "todayStars": 46,
+      "url": "https://github.com/github/gh-stack",
+      "aiSummary": {
+        "summary": "这是一个用于管理堆叠分支和 Pull Requests 的 GitHub CLI 扩展。它将大型变更拆解为一系列可审查的小型 PR，自动化了创建、变基和提交过程。通过维护基于主干（trunk）的层级结构，帮助开发者高效管理复杂的代码变更链。",
+        "summary_en": "Go CLI extension for GitHub CLI to manage stacked PRs and branches.",
+        "techStack": [
+          "Go",
+          "GitHub CLI",
+          "Git"
+        ],
+        "useCase": "适用于需要将大型代码变更拆解为多个可独立审查的小型 PR 的开发者。",
+        "useCase_en": "Automates the tedious parts of managing stacked PRs to break large changes into small, reviewable chains."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "huggingface/speech-to-speech",
+      "description": "Build local voice agents with open-source models",
+      "language": "Python",
+      "stars": 10195,
+      "forks": 1249,
+      "todayStars": 442,
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的低延迟、全模块化语音代理管道，包含 VAD、STT、LLM 和 TTS 四个组件。它通过 OpenAI Realtime 兼容的 WebSocket API 暴露，支持完全本地化部署和组件替换，适用于构建本地语音助手或作为机器人后端。",
+        "summary_en": "A modular, low-latency voice agent pipeline (VAD, STT, LLM, TTS) running locally or via OpenAI-compatible APIs.",
+        "techStack": [
+          "Python",
+          "WebSocket",
+          "OpenAI Realtime API",
+          "Silero VAD",
+          "Parakeet TDT"
+        ],
+        "useCase": "构建完全本地化的语音代理，或作为机器人对话后端",
+        "useCase_en": "Building local voice agents with open-source models for robotics and conversational applications."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "abus-aikorea/voice-pro",
+      "description": "Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual translation.",
+      "language": "Python",
+      "stars": 11740,
+      "forks": 1716,
+      "todayStars": 58,
+      "url": "https://github.com/abus-aikorea/voice-pro",
+      "aiSummary": {
+        "summary": "这是一个基于 Gradio 的 Web 应用，集成了语音识别、翻译和多语言配音功能。它支持 YouTube 下载、人声分离，并集成了 F5-TTS、CosyVoice 等先进的零样本语音克隆技术，以及 Edge-TTS 和 Kokoro 等文本转语音引擎，为创作者提供一站式多媒体处理解决方案。",
+        "summary_en": "A comprehensive AI web app for speech recognition, translation, and dubbing using Whisper and advanced TTS models.",
+        "techStack": [
+          "Python",
+          "Gradio",
+          "Whisper",
+          "F5-TTS",
+          "CosyVoice"
+        ],
+        "useCase": "专为播客制作者、开发者和多语言专业人士打造，提供从语音识别到多语言配音的一站式解决方案。",
+        "useCase_en": "Creators and developers use this tool to process multimedia content, clone voices, and translate audio into multiple lan"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "iv-org/invidious",
+      "description": "Invidious is an alternative front-end to YouTube",
+      "language": "Crystal",
+      "stars": 21606,
+      "forks": 2430,
+      "todayStars": 435,
+      "url": "https://github.com/iv-org/invidious",
+      "aiSummary": {
+        "summary": "Invidious 是一个基于 Crystal 语言开发的 YouTube 替代前端。它专注于用户隐私，提供无广告、无追踪、无需 JavaScript 的浏览体验，支持深色/浅色主题、音频模式及订阅管理。项目支持数据导入导出，不依赖官方 API，旨在为用户提供一个干净、独立的视频观看环境。",
+        "summary_en": "A privacy-focused, open-source alternative front-end to YouTube built with Crystal.",
+        "techStack": [
+          "Crystal",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "useCase": "适用于追求隐私保护、厌恶 YouTube 广告及追踪，希望使用独立客户端的用户。",
+        "useCase_en": "Users watch YouTube videos without ads, tracking, or JavaScript using a self-hosted or public instance."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "ansible/ansible",
+      "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+      "language": "Python",
+      "stars": 70093,
+      "forks": 24270,
+      "todayStars": 30,
+      "url": "https://github.com/ansible/ansible",
+      "aiSummary": {
+        "summary": "Ansible 是一个简单且强大的 IT 自动化平台，用于配置管理、应用部署、云 provisioning 和网络自动化。它采用无代理架构，通过 SSH 直接管理远程系统，使用 YAML 语言编写剧本，具有极低的学习曲线和强大的并行处理能力，支持零停机滚动更新。",
+        "summary_en": "Ansible is a radically simple IT automation platform for configuration management, application deployment, and orchestration.",
+        "techStack": [
+          "Python",
+          "YAML",
+          "SSH"
+        ],
+        "useCase": "适用于代码部署、网络配置、云管理及多节点编排等 IT 自动化场景。",
+        "useCase_en": "Automate IT tasks like configuration management, application deployment, and cloud provisioning using SSH without agents"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "microsoft/TRELLIS.2",
+      "description": "Native and Compact Structured Latents for 3D Generation",
+      "language": "Python",
+      "stars": 9911,
+      "forks": 1196,
+      "todayStars": 107,
+      "url": "https://github.com/microsoft/TRELLIS.2",
+      "aiSummary": {
+        "summary": "TRELLIS.2 是微软推出的 4B 参数大模型，专注于高保真图像到 3D 生成。它采用创新的 O-Voxel 稀疏体素结构，能够处理任意拓扑（如开放表面、非流形几何），并支持全 PBR 材质建模。模型利用稀疏 3D VAE 进行高效编码，在 H100 上生成 1024³ 分辨率资产仅需约 17 秒，适合快速创建复杂 3D 资产。",
+        "summary_en": "A 4B-parameter generative model for high-fidelity image-to-3D generation using O-Voxel sparse voxel structures.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "CUDA"
+        ],
+        "useCase": "高保真图像到 3D 资产生成，处理复杂拓扑结构和 PBR 材质建模",
+        "useCase_en": "Generate high-fidelity 3D assets with arbitrary topologies and PBR materials from 2D images."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "language": "TypeScript",
+      "stars": 10282,
+      "forks": 987,
+      "todayStars": 227,
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 13,
+      "fullName": "NomaDamas/k-skill",
+      "description": "한국인을 위한 스킬 모음집 - 에이전트를 한국인으로",
+      "language": "JavaScript",
+      "stars": 6726,
+      "forks": 795,
+      "todayStars": 53,
+      "url": "https://github.com/NomaDamas/k-skill",
+      "aiSummary": {
+        "summary": "该项目是一个面向韩国用户的实用工具集合，包含交通出行、生活服务及法律行政等多种自动化脚本。涵盖SRT/KTX购票、地铁查询、法律检索等功能，旨在简化韩国用户的日常事务处理流程。",
+        "summary_en": "A collection of JavaScript utilities for booking Korean transportation and checking public services.",
+        "techStack": [
+          "JavaScript",
+          "Node.js"
+        ],
+        "useCase": "面向韩国用户的自动化工具集合，用于处理交通出行、生活查询及法律行政等日常事务。",
+        "useCase_en": "Automate booking for Korean trains, buses, and check public services like weather and subway arrivals."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "bytedance/deer-flow",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "language": "Python",
+      "stars": 78715,
+      "forks": 10741,
+      "todayStars": 209,
+      "url": "https://github.com/bytedance/deer-flow",
+      "aiSummary": {
+        "summary": "DeerFlow 是字节跳动开源的长周期 SuperAgent 框架，旨在研究、编码和创建。它通过编排子代理、记忆、沙箱和可扩展技能，处理从几分钟到几小时的复杂任务，支持 Claude Code 集成及智能搜索工具 InfoQuest。",
+        "summary_en": "An open-source long-horizon SuperAgent harness orchestrating sub-agents and tools for complex research and coding tasks.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "LangSmith",
+          "Langfuse",
+          "MCP Server"
+        ],
+        "useCase": "用于处理复杂的长周期任务，如深度研究、代码生成及自动化工作流编排。",
+        "useCase_en": "It automates complex, long-horizon tasks like research and coding by orchestrating multiple AI agents and tools within a"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-02T00:10:45.060Z",
+    "duration": "636s",
+    "version": "1.0.0"
+  }
+}
