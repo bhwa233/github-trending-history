@@ -1,0 +1,332 @@
+{
+  "date": "2026-08-02",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "microsoft/AI-For-Beginners",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "language": "Jupyter Notebook",
+      "stars": 58975,
+      "forks": 11598,
+      "todayStars": 2629,
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "aiSummary": {
+        "summary": "这是一个由微软提供的面向初学者的 AI 课程，包含 12 周 24 课的内容。使用 Jupyter Notebook 编写，涵盖 TensorFlow、PyTorch 等工具及 AI 伦理。项目支持 50 多种语言，通过 GitHub Actions 自动更新，适合零基础学习者系统学习人工智能。",
+        "summary_en": "Microsoft's 12-week beginner AI curriculum featuring Jupyter Notebooks, TensorFlow, and PyTorch.",
+        "techStack": [
+          "Jupyter Notebook",
+          "TensorFlow",
+          "PyTorch",
+          "GitHub Actions"
+        ],
+        "useCase": "适合零基础学习者系统学习人工智能基础知识与实战技能。",
+        "useCase_en": "A comprehensive educational resource for beginners to learn AI concepts and tools through practical lessons and labs."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "usekaneo/kaneo",
+      "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+      "language": "TypeScript",
+      "stars": 6128,
+      "forks": 515,
+      "todayStars": 496,
+      "url": "https://github.com/usekaneo/kaneo",
+      "aiSummary": {
+        "summary": "Kaneo 是一个极简主义的开源项目管理工具，旨在通过简洁的界面和隐形的设计，减少干扰，专注于实际工作。它支持自托管，数据安全，且基于 TypeScript 开发，提供快速且无冗余功能的体验。",
+        "summary_en": "A minimalist, self-hosted project management tool built with TypeScript to streamline team workflows.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "PostgreSQL"
+        ],
+        "useCase": "适合追求极简主义、注重数据隐私且希望工具隐形不干扰工作的团队。",
+        "useCase_en": "Self-hosted project management for teams seeking a clean, fast, and distraction-free workflow."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "stars": 25627,
+      "forks": 2882,
+      "todayStars": 819,
+      "url": "https://github.com/lyogavin/airllm",
+      "aiSummary": {
+        "summary": "AirLLM 是一个旨在大幅降低大语言模型推理显存占用的库。它通过稀疏 MoE 专家流式传输和 FP8 支持等技术，无需量化或剪枝即可在单张 4GB 显存 GPU 上运行 70B 等大模型，并支持在 8GB 显存上运行 405B 模型。",
+        "summary_en": "Memory-efficient inference framework for running large LLMs on small GPUs.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "PyTorch",
+          "CUDA"
+        ],
+        "useCase": "在资源受限的硬件（如消费级显卡）上部署和运行大语言模型。",
+        "useCase_en": "Deploy large language models on consumer-grade hardware with limited VRAM."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "iv-org/invidious",
+      "description": "Invidious is an alternative front-end to YouTube",
+      "language": "Crystal",
+      "stars": 21968,
+      "forks": 2455,
+      "todayStars": 305,
+      "url": "https://github.com/iv-org/invidious",
+      "aiSummary": {
+        "summary": "Invidious 是一个基于 Crystal 语言开发的 YouTube 替代前端。它提供无广告、无追踪、无需 JavaScript 的纯净浏览体验，支持订阅、通知、音频模式及多语言。项目不依赖官方 YouTube API，支持数据导入导出，用户可选择公共实例观看或自行托管，旨在保护用户隐私。",
+        "summary_en": "Invidious is a privacy-focused, open-source alternative front-end to YouTube built with Crystal.",
+        "techStack": [
+          "Crystal"
+        ],
+        "useCase": "适合需要无广告、无追踪且保护隐私的 YouTube 观看体验的用户。",
+        "useCase_en": "Watch YouTube videos without ads, tracking, or JavaScript using a self-hostable alternative front-end."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars": 534817,
+      "forks": 50554,
+      "todayStars": 674,
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "aiSummary": {
+        "summary": "该项目汇集了从零开始重建各类经典技术的分步指南，涵盖操作系统、Web浏览器、AI模型、区块链等广泛领域。通过亲手复刻技术实现，帮助开发者深入理解底层原理，是提升编程能力和系统思维的优质学习资源。",
+        "summary_en": "A collection of guides to recreate famous technologies from scratch.",
+        "techStack": [
+          "Markdown",
+          "C++",
+          "Python",
+          "Java",
+          "JavaScript"
+        ],
+        "useCase": "适合希望从零开始复刻经典软件、提升底层编程能力的开发者。",
+        "useCase_en": "Learn programming by recreating famous technologies from scratch."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "language": "PowerShell",
+      "stars": 13342,
+      "forks": 1996,
+      "todayStars": 1141,
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "aiSummary": {
+        "summary": "这是一个面向AI代理的网络安全逆向与渗透测试技能路由包。它通过AI自动路由和按需自举工具链，解决AI在处理APK、二进制文件、CTF等任务时工具选择困难的问题。支持Claude Code等客户端，集成了IDA、Frida等工具，提供标准化的工作流和报告生成。",
+        "summary_en": "An AI-powered skill router for cybersecurity, automating reverse engineering and penetration testing workflows.",
+        "techStack": [
+          "PowerShell",
+          "Java",
+          "Node.js",
+          "Python",
+          "IDA Pro"
+        ],
+        "useCase": "用于指导AI代理进行逆向工程、授权渗透测试和安全研究",
+        "useCase_en": "It routes AI coding agents to specific methodologies and tools for reverse engineering, penetration testing, and securit"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "different-ai/openwork",
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "language": "TypeScript",
+      "stars": 20298,
+      "forks": 2087,
+      "todayStars": 280,
+      "url": "https://github.com/different-ai/openwork",
+      "aiSummary": {
+        "summary": "OpenWork 是一款开源的跨平台桌面应用，旨在替代 Claude Cowork，用于统一管理和共享 AI 工作流。它通过 MCP 协议连接 Codex、Claude Code、Cursor 等多种 AI 工具，允许用户跨设备、跨团队复用技能和配置，提供桌面应用与浏览器集成两种使用方式。",
+        "summary_en": "Open-source desktop app for sharing AI workflows across different agents and teams.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "MCP"
+        ],
+        "useCase": "在多个 AI 编程工具间统一共享工作流与技能",
+        "useCase_en": "To centralize and share AI workflows and skills across various AI agents and teams."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "microsoft/generative-ai-for-beginners",
+      "description": "21 Lessons, Get Started Building with Generative AI",
+      "language": "Jupyter Notebook",
+      "stars": 114757,
+      "forks": 61283,
+      "todayStars": 588,
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "aiSummary": {
+        "summary": "这是一个由微软推出的生成式 AI 入门课程，包含 21 个 Jupyter Notebook 课节。课程涵盖从基础概念到实际构建的全方位内容，支持 50 多种语言，适合零基础开发者快速上手生成式 AI 应用开发。",
+        "summary_en": "A comprehensive 21-lesson course by Microsoft to learn Generative AI concepts and build applications using Jupyter Notebooks.",
+        "techStack": [
+          "Jupyter Notebook"
+        ],
+        "useCase": "生成式 AI 初学者入门教学与实战演练",
+        "useCase_en": "Beginners learning to build Generative AI applications using Jupyter Notebooks."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars": 64674,
+      "forks": 5346,
+      "todayStars": 659,
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "aiSummary": {
+        "summary": "这是一个为 AI Agent 提供全网浏览能力的 Python 工具。它通过 CLI 实现零 API 费用，支持 Twitter、YouTube、GitHub、Bilibili、Reddit、小红书等主流平台。项目主打一键安装、自动更新、隐私安全及多后端路由，解决了 Agent 无法获取外部信息的问题，兼容所有命令行 Agent。",
+        "summary_en": "A Python CLI tool that provides AI agents with internet access to read and search social media and web content without API keys.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "MCP",
+          "yt-dlp"
+        ],
+        "useCase": "为 Claude Code、Cursor 等命令行 Agent 提供全网信息获取能力，解决无法访问社交媒体、视频网站及搜索引擎的问题。",
+        "useCase_en": "Enable AI agents to read and search the internet, including social media platforms, without API fees."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "language": "TypeScript",
+      "stars": 10985,
+      "forks": 1043,
+      "todayStars": 602,
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "aiSummary": {
+        "summary": "TencentDB Agent Memory 是一个团队级 AI 记忆中心，旨在减少 Agent 重复工作。它将对话、文档和代码转化为四种可复用资产（聊天记忆、技能、LLM-Wiki、代码图），支持跨框架共享与管理，帮助 Agent 避免重复造轮子，提升团队协作效率与稳定性。",
+        "summary_en": "A team-level memory hub for AI Agents that converts conversations, docs, and code into reusable assets to reduce repetitive work.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Shell"
+        ],
+        "useCase": "适用于需要跨多个 AI Agent 共享上下文、知识库和代码库以提高协作效率的团队。",
+        "useCase_en": "To enable AI Agents to share and reuse context, skills, and code across a team to minimize repetitive work."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 56870,
+      "forks": 4975,
+      "todayStars": 206,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "aiSummary": {
+        "summary": "这是一个 Python 编写的 AI Agent 技能，能够跨 Reddit、X、YouTube、HN、Polymarket 等平台并行搜索并综合生成基于事实的摘要。它利用点赞、金钱等真实用户数据进行评分，弥补了传统搜索引擎无法访问社交媒体数据的不足，适用于全网舆情调研与趋势分析。",
+        "summary_en": "An AI agent skill that aggregates social and financial data to synthesize grounded summaries.",
+        "techStack": [
+          "Python",
+          "AI Agent",
+          "多平台集成"
+        ],
+        "useCase": "全网舆情调研与趋势分析",
+        "useCase_en": "Research any topic across social media and financial platforms to get a grounded summary based on real engagement and mo"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "NomaDamas/k-skill",
+      "description": "한국인을 위한 스킬 모음집 - 에이전트를 한국인으로",
+      "language": "JavaScript",
+      "stars": 6886,
+      "forks": 808,
+      "todayStars": 177,
+      "url": "https://github.com/NomaDamas/k-skill",
+      "aiSummary": {
+        "summary": "这是一个面向韩国用户的实用工具合集，包含SRT/KTX火车票预订、巴士查询、天气、法律检索等多种韩国本地生活服务脚本或指南。项目旨在帮助用户或代理程序自动化处理韩国本地事务，涵盖交通、生活、行政等多个领域。",
+        "summary_en": "A collection of JavaScript skills for Korean agents to perform booking and information retrieval tasks.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "用于自动化韩国本地生活服务（如交通、天气、行政）的查询与预订。",
+        "useCase_en": "To enable AI agents to perform Korean-specific tasks like booking transportation and retrieving local information."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "HarbourMasters/Lighthouse",
+      "description": "",
+      "language": "C",
+      "stars": 218,
+      "forks": 18,
+      "todayStars": 65,
+      "url": "https://github.com/HarbourMasters/Lighthouse",
+      "aiSummary": {
+        "summary": "这是一个基于 C 语言开发的《Banjo-Kazooie》游戏移植项目，允许用户在 PC 上运行 N64 版本的游戏。项目支持 Windows、Linux 和 macOS 系统，提供控制器映射功能，并要求用户提供合法的 ROM 文件。由 Harbour Masters 团队维护，旨在为经典游戏提供现代化的运行环境。",
+        "summary_en": "A C-based recreation of the N64 game Banjo-Kazooie for modern operating systems.",
+        "techStack": [
+          "C",
+          "N64 Emulation",
+          "Cross-platform"
+        ],
+        "useCase": "在 PC 上运行《Banjo-Kazooie》经典游戏",
+        "useCase_en": "To run a recreation of the N64 game Banjo-Kazooie on modern operating systems."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "antirez/ds4",
+      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+      "language": "C",
+      "stars": 19984,
+      "forks": 1774,
+      "todayStars": 139,
+      "url": "https://github.com/antirez/ds4",
+      "aiSummary": {
+        "summary": "DwarfStar 是一个专为 DeepSeek V4 Flash 优化的本地推理引擎，支持 Metal、CUDA 和 ROCm。它支持 GLM 5.2 和 DeepSeek V4 PRO，具备 SSD 流式传输和多 GPU 支持，可在消费级硬件上运行大型模型。",
+        "summary_en": "A native C inference engine optimized for DeepSeek V4 and GLM models on Metal, CUDA, and ROCm.",
+        "techStack": [
+          "C",
+          "Metal",
+          "CUDA",
+          "ROCm",
+          "GGML"
+        ],
+        "useCase": "在 Mac、NVIDIA 或 AMD 硬件上本地运行 DeepSeek 和 GLM 模型。",
+        "useCase_en": "Run high-performance local inference of DeepSeek and GLM models on consumer hardware and multi-GPU servers."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "Go",
+      "stars": 29042,
+      "forks": 1867,
+      "todayStars": 333,
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "aiSummary": {
+        "summary": "DeepSeek-Reasonix 是一个基于 Go 语言开发的终端 AI 编码代理，专为 DeepSeek 模型优化。它采用配置驱动和插件架构，支持多模型组合与 MCP 协议。核心优势在于前缀缓存稳定性，支持长时间运行且降低 Token 成本，提供单二进制分发。",
+        "summary_en": "A Go-based terminal AI coding agent optimized for DeepSeek's prefix cache stability, featuring a config-driven architecture and plugin support.",
+        "techStack": [
+          "Go",
+          "TOML",
+          "JSON-RPC/MCP"
+        ],
+        "useCase": "终端环境下的 AI 编程辅助，适合需要长时间运行且注重成本控制的开发场景。",
+        "useCase_en": "Run a stable, low-cost AI coding agent directly in your terminal."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-03T00:09:47.778Z",
+    "duration": "474s",
+    "version": "1.0.0"
+  }
+}
