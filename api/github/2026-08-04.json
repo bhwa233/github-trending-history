@@ -1,0 +1,395 @@
+{
+  "date": "2026-08-04",
+  "since": "daily",
+  "totalRepos": 18,
+  "successCount": 18,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "language": "TypeScript",
+      "stars": 13545,
+      "forks": 1271,
+      "todayStars": 1111,
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "aiSummary": {
+        "summary": "这是一个团队级的 AI Agent 记忆中心，旨在减少重复工作。它将对话、文档和代码转化为四种可重用的记忆资产（聊天记忆、技能、LLM-Wiki、代码图），支持跨代理和框架共享。通过自动化信息积累与流转，帮助 Agent 避免重复造轮子，提升团队协作效率和结果稳定性。",
+        "summary_en": "A team-level memory hub for AI Agents that transforms conversations and code into reusable assets like skills and wikis.",
+        "techStack": [
+          "TypeScript",
+          "LLM (OpenAI/Anthropic)",
+          "Docker/Shell"
+        ],
+        "useCase": "适用于需要跨多个 AI Agent 共享上下文、知识和工作流经验的团队协作场景。",
+        "useCase_en": "To enable AI Agents to share context, skills, and code graphs to avoid reinventing the wheel."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "language": "PowerShell",
+      "stars": 17818,
+      "forks": 2448,
+      "todayStars": 2297,
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "aiSummary": {
+        "summary": "这是一个专为 AI Agent 设计的逆向工程与安全研究技能路由包。它通过 AI 自动路由、按需自举工具链和自进化知识库，帮助 Claude Code、Cursor 等客户端处理 APK、二进制文件、CTF 等任务，提供标准化的安全测试工作流。",
+        "summary_en": "An AI-powered routing system for reverse engineering and penetration testing that automates tool selection and workflow execution for security researchers.",
+        "techStack": [
+          "PowerShell",
+          "Python",
+          "Node.js",
+          "Java",
+          "IDA Pro"
+        ],
+        "useCase": "为 AI Agent 提供标准化的逆向工程、渗透测试及安全研究自动化工作流。",
+        "useCase_en": "It helps AI agents route security tasks like APK analysis or binary exploitation to the correct tools and methodologies "
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "stars": 9965,
+      "forks": 656,
+      "todayStars": 2540,
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的快速 PDF 检查库。它能智能分类 PDF（文本/扫描/混合），提取位置感知的文本并转换为 Markdown。支持多列布局、表格检测和 CID 字体。无需 OCR 即可处理大部分 PDF，性能极快，支持 WebAssembly。",
+        "summary_en": "Fast Rust library for PDF inspection, classification, and text extraction without OCR.",
+        "techStack": [
+          "Rust",
+          "WebAssembly",
+          "Python",
+          "Node.js"
+        ],
+        "useCase": "本地快速 PDF 文本提取、分类和 Markdown 转换，适用于需要高性能处理 PDF 的应用。",
+        "useCase_en": "Intelligently route PDF processing by detecting scanned vs text-based documents locally."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "uber/ADR",
+      "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
+      "language": "Python",
+      "stars": 673,
+      "forks": 68,
+      "todayStars": 148,
+      "url": "https://github.com/uber/ADR",
+      "aiSummary": {
+        "summary": "ADR 是 Uber 开源的企业级 AI 代理安全系统，提供可观测性、基准测试（ADR-Bench）和威胁检测功能。它包含双层检测架构和 300+ 任务基准，已部署于生产环境，用于防御 Claude Code、Cursor 等工具的攻击。",
+        "summary_en": "Enterprise security system for AI agents featuring observability, benchmarking, and threat detection.",
+        "techStack": [
+          "Python",
+          "MCP (Model Context Protocol)",
+          "AI Agents"
+        ],
+        "useCase": "企业级 AI 代理安全防护与风险评估",
+        "useCase_en": "Secure enterprise AI agents by monitoring activity, benchmarking defenses, and detecting threats."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 266458,
+      "forks": 23825,
+      "todayStars": 653,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个面向编码代理的技能框架和软件开发方法论。它通过可组合的技能和初始指令，引导代理在编码前先与用户确认需求、展示设计细节，并制定包含 TDD、YAGNI 和 DRY 原则的实施计划。随后，代理会启动子代理驱动的开发过程，自主执行任务，无需人工持续干预。它支持多种主流 AI 编码工具。",
+        "summary_en": "An agentic skills framework that automates software development workflows for coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "用于自动化 AI 编码代理的软件开发流程，实现从需求确认到自主编码的端到端管理。",
+        "useCase_en": "To provide a structured methodology and skills framework for autonomous coding agents to build software specifications a"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "microsoft/generative-ai-for-beginners",
+      "description": "21 Lessons, Get Started Building with Generative AI",
+      "language": "Jupyter Notebook",
+      "stars": 116238,
+      "forks": 61545,
+      "todayStars": 783,
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "aiSummary": {
+        "summary": "Microsoft 推出的生成式 AI 入门课程，包含 21 个 Jupyter Notebook 教程。课程涵盖从基础概念到实际构建的完整流程，支持 50 多种语言。适合零基础开发者快速上手构建生成式 AI 应用。",
+        "summary_en": "A comprehensive 21-lesson course by Microsoft to learn building Generative AI applications.",
+        "techStack": [
+          "Jupyter Notebook"
+        ],
+        "useCase": "生成式 AI 初学者入门教学与实战构建",
+        "useCase_en": "A beginner-friendly course to learn and build Generative AI applications."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "cypress-io/cypress",
+      "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "language": "TypeScript",
+      "stars": 50783,
+      "forks": 3628,
+      "todayStars": 11,
+      "url": "https://github.com/cypress-io/cypress",
+      "aiSummary": {
+        "summary": "Cypress 是一个专为浏览器应用设计的快速、简单且可靠的端到端测试框架。它支持 Mac、Linux 和 Windows，提供直观的测试体验。项目采用 TypeScript 开发，遵循 MIT 许可证，并欢迎社区贡献。",
+        "summary_en": "Cypress is a fast, easy, and reliable end-to-end testing framework for web applications.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于 Web 前端应用的端到端自动化测试。",
+        "useCase_en": "Developers use this tool to automate the testing of web applications running in browsers."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "stars": 28359,
+      "forks": 3059,
+      "todayStars": 1711,
+      "url": "https://github.com/lyogavin/airllm",
+      "aiSummary": {
+        "summary": "AirLLM 是一个旨在大幅降低大语言模型推理内存使用的工具。它允许在单张 4GB GPU 上运行 70B 模型，无需量化或剪枝。通过流式传输专家，它支持 Kimi K3 (2.8T) 等超大规模稀疏 MoE 模型，也能在 12GB 显存中运行 DeepSeek-V3。项目支持 CPU 推理及 MacOS，极大降低了高性能 AI 模型的部署门槛。",
+        "summary_en": "Optimizes LLM inference to run massive models like 70B on 4GB GPUs using sparse MoE.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "CUDA",
+          "Flash Attention",
+          "Transformers"
+        ],
+        "useCase": "在低显存硬件（如单张 4GB GPU）上运行超大规模大语言模型",
+        "useCase_en": "Run large language models on consumer-grade hardware with limited VRAM."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "webpack/webpack",
+      "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
+      "language": "JavaScript",
+      "stars": 65926,
+      "forks": 9528,
+      "todayStars": 10,
+      "url": "https://github.com/webpack/webpack",
+      "aiSummary": {
+        "summary": "Webpack 是一个强大的 JavaScript 模块打包器，支持 ES Modules、CommonJS 和 AMD。它通过代码分割和异步加载优化性能，利用 Loaders 处理多种资源类型（如 CSS、TypeScript），并拥有丰富的插件系统以扩展功能，适用于现代 Web 应用的构建。",
+        "summary_en": "Webpack is a module bundler that packs JavaScript and other assets into optimized bundles for the browser.",
+        "techStack": [
+          "JavaScript",
+          "Loaders",
+          "Plugins",
+          "ES Modules"
+        ],
+        "useCase": "现代 Web 应用的模块打包与资源优化构建",
+        "useCase_en": "Developers use it to bundle JavaScript modules and assets for production deployment."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "gabime/spdlog",
+      "description": "Fast C++ logging library.",
+      "language": "C++",
+      "stars": 29372,
+      "forks": 5372,
+      "todayStars": 10,
+      "url": "https://github.com/gabime/spdlog",
+      "aiSummary": {
+        "summary": "spdlog 是一个高性能的 C++ 日志库，支持头文件或编译版本。它具备异步日志、多线程支持及丰富的格式化功能。支持多种日志输出目标（如轮转文件、控制台、syslog等），并提供运行时日志级别过滤和回溯支持，编译和运行速度极快。",
+        "summary_en": "A fast, feature-rich C++ logging library supporting async mode and multiple outputs.",
+        "techStack": [
+          "C++",
+          "CMake",
+          "fmt"
+        ],
+        "useCase": "适用于需要高性能、多线程日志记录的 C++ 应用程序开发。",
+        "useCase_en": "Ideal for high-performance applications requiring fast and flexible logging capabilities."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "denoland/deno",
+      "description": "A modern runtime for JavaScript and TypeScript.",
+      "language": "Rust",
+      "stars": 108056,
+      "forks": 6306,
+      "todayStars": 31,
+      "url": "https://github.com/denoland/deno",
+      "aiSummary": {
+        "summary": "Deno 是一个现代的 JavaScript、TypeScript 和 WebAssembly 运行时，内置安全默认设置和优秀的开发者体验。它基于 V8、Rust 和 Tokio 构建，支持直接运行 TypeScript 代码，非常适合构建 Web 服务器和后端应用。",
+        "summary_en": "A modern runtime for JavaScript and TypeScript with secure defaults and great developer experience.",
+        "techStack": [
+          "Rust",
+          "V8",
+          "Tokio"
+        ],
+        "useCase": "构建现代 Web 服务器和后端应用",
+        "useCase_en": "Building web servers and applications using JavaScript, TypeScript, and WebAssembly."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "usekaneo/kaneo",
+      "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+      "language": "TypeScript",
+      "stars": 7279,
+      "forks": 579,
+      "todayStars": 559,
+      "url": "https://github.com/usekaneo/kaneo",
+      "aiSummary": {
+        "summary": "Kaneo 是一个极简主义的开源项目管理工具，旨在通过简洁的界面和强大的性能，帮助团队专注于核心工作。它支持自托管，数据安全，并提供一键部署方案，解决了传统项目管理工具臃肿、干扰工作流的问题。",
+        "summary_en": "A minimalist, self-hosted project management tool built with TypeScript for teams who value simplicity.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "PostgreSQL"
+        ],
+        "useCase": "适合追求极简工作流、注重数据隐私且需要自托管解决方案的团队。",
+        "useCase_en": "A self-hosted project management solution designed to be fast, clean, and invisible to the user workflow."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "livekit/agents",
+      "description": "A framework for building realtime voice AI agents 🤖🎙️📹",
+      "language": "Python",
+      "stars": 12392,
+      "forks": 3478,
+      "todayStars": 432,
+      "url": "https://github.com/livekit/agents",
+      "aiSummary": {
+        "summary": "LiveKit Agents 是一个用于构建实时语音 AI 代理的 Python 框架。它支持多模态交互，具备灵活的模型集成（STT/LLM/TTS）、内置任务调度、WebRTC 客户端支持及电话集成功能。框架还提供语义轮次检测、MCP 支持和内置测试工具，完全开源。",
+        "summary_en": "A Python framework for building real-time voice AI agents with WebRTC and telephony integration.",
+        "techStack": [
+          "Python",
+          "WebRTC",
+          "MCP (Model Context Protocol)",
+          "STT/LLM/TTS"
+        ],
+        "useCase": "构建能够进行实时对话、多模态交互的智能语音代理应用。",
+        "useCase_en": "Build conversational, multi-modal voice agents that integrate with telephony and real-time APIs."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "angular/angular",
+      "description": "Deliver web apps with confidence 🚀",
+      "language": "TypeScript",
+      "stars": 100822,
+      "forks": 27401,
+      "todayStars": 13,
+      "url": "https://github.com/angular/angular",
+      "aiSummary": {
+        "summary": "Angular 是一个基于 TypeScript 的现代 Web 开发平台，用于构建移动和桌面 Web 应用程序。它提供了强大的命令行工具（CLI）、丰富的生态系统（如 Angular Material）以及跨平台、高性能的特性。项目包含完整的文档、升级指南和社区支持，适合需要构建复杂企业级应用的开发者。",
+        "summary_en": "Angular is a development platform for building mobile and desktop web applications using TypeScript and JavaScript.",
+        "techStack": [
+          "TypeScript",
+          "JavaScript",
+          "Angular CLI",
+          "Angular Material"
+        ],
+        "useCase": "构建跨平台（移动和桌面）Web 应用程序，特别是企业级复杂应用。",
+        "useCase_en": "Build mobile and desktop web applications using a modern development platform."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "tailwindlabs/tailwindcss",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "language": "TypeScript",
+      "stars": 96463,
+      "forks": 5533,
+      "todayStars": 52,
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "aiSummary": {
+        "summary": "Tailwind CSS 是一个实用优先的 CSS 框架，旨在加速 UI 开发。它允许开发者通过组合原子类快速构建自定义设计，无需编写繁琐的 CSS 文件。",
+        "summary_en": "A utility-first CSS framework for rapid UI development.",
+        "techStack": [
+          "TypeScript",
+          "CSS",
+          "JavaScript"
+        ],
+        "useCase": "适用于快速构建现代响应式用户界面和 Web 应用程序。",
+        "useCase_en": "Rapidly build modern user interfaces using a utility-first CSS framework."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "browser-use/video-use",
+      "description": "Edit videos with coding agents",
+      "language": "Python",
+      "stars": 19308,
+      "forks": 2405,
+      "todayStars": 320,
+      "url": "https://github.com/browser-use/video-use",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的开源项目，允许用户通过 Claude Code 等编程代理自动编辑视频。它具备自动剪除填充词、自动调色、音频淡入淡出、字幕生成及动画叠加等功能。项目支持多种内容类型，通过 ElevenLabs API 进行语音处理，并能自我评估输出质量，实现无需预设的智能化视频剪辑。",
+        "summary_en": "Open-source Python tool enabling AI coding agents to edit raw video footage automatically.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "FFmpeg",
+          "ElevenLabs API",
+          "HyperFrames/Remotion/Manim"
+        ],
+        "useCase": "自动化视频剪辑，适用于访谈、蒙太奇、教程等多种内容类型。",
+        "useCase_en": "Automate video editing workflows by dropping raw footage into a folder and using AI agents."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "Go",
+      "stars": 30756,
+      "forks": 1980,
+      "todayStars": 922,
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "aiSummary": {
+        "summary": "专为终端打造的 DeepSeek 原生 AI 编码代理，基于 Go 语言构建的单静态二进制。项目通过优化前缀缓存降低长会话成本，支持配置驱动、多模型及 MCP 插件扩展，提供零依赖的跨平台部署体验。",
+        "summary_en": "Go-based terminal AI coding agent optimized for DeepSeek and prefix cache stability.",
+        "techStack": [
+          "Go",
+          "DeepSeek",
+          "TOML",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "适合需要在终端或 IDE 中使用 DeepSeek 模型进行高效代码编写和辅助的开发者。",
+        "useCase_en": "Run a stable, low-cost AI coding agent in your terminal using DeepSeek."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "EveryInc/compound-engineering-plugin",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "language": "TypeScript",
+      "stars": 23861,
+      "forks": 1957,
+      "todayStars": 40,
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code、Cursor 和 Codex 等编程助手设计的官方插件。它提供 AI 技能，旨在让工程工作更高效。插件包含专家评审员和研究行为，作为本地提示资源，无需单独安装自定义代理即可使用。",
+        "summary_en": "A TypeScript plugin for AI coding agents like Claude Code and Cursor to enhance engineering workflows.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "提升各类 AI 编程助手（如 Claude、Cursor、Codex）的工程效率与代码质量。",
+        "useCase_en": "To enhance engineering workflows by providing AI skills to coding agents."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-05T00:15:35.231Z",
+    "duration": "443s",
+    "version": "1.0.0"
+  }
+}
