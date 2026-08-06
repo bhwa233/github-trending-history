@@ -1,0 +1,284 @@
+{
+  "date": "2026-08-05",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "cloudflare/computer",
+      "description": "Give your agent a computer 👾",
+      "language": "TypeScript",
+      "stars": 2854,
+      "forks": 131,
+      "todayStars": 891,
+      "url": "https://github.com/cloudflare/computer",
+      "aiSummary": {
+        "summary": "Cloudflare Computer 是一个基于 Durable Object 和 SQLite 的虚拟文件系统，旨在为 AI Agent 提供计算机环境。它提供三种执行后端：Container（FUSE 挂载，完整 Linux 环境）、Isolate shell（bash）和 Isolate JavaScript（ESM 模块）。目前处于预览阶段，适合实验和原型开发。",
+        "summary_en": "A virtual filesystem and execution environment inside a Durable Object with pluggable backends for containers and JavaScript.",
+        "techStack": [
+          "TypeScript",
+          "Durable Objects",
+          "SQLite",
+          "FUSE",
+          "Workers"
+        ],
+        "useCase": "为 AI Agent 提供虚拟计算环境，适合实验、探索和原型开发。",
+        "useCase_en": "To provide a sandboxed environment for running shell commands or JavaScript modules backed by persistent storage."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "huangruiteng/loopx",
+      "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+      "language": "Python",
+      "stars": 2089,
+      "forks": 161,
+      "todayStars": 326,
+      "url": "https://github.com/huangruiteng/loopx",
+      "aiSummary": {
+        "summary": "LoopX 是一个轻量级的 Python 状态内核，作为本地控制平面用于长期运行的 AI 代理团队。它管理持久化目标、待办事项和证据，支持跨多种代理的无缝交接与重启，确保工作可管理、可复盘。",
+        "summary_en": "A lightweight Python state kernel for managing long-running AI agent loops and handoffs.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于多日工程、研究、基准测试及长期任务管理。",
+        "useCase_en": "A local control plane for managing long-running AI agent work, ensuring verifiable handoffs and state stability."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "language": "TypeScript",
+      "stars": 15033,
+      "forks": 1367,
+      "todayStars": 1892,
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "aiSummary": {
+        "summary": "这是一个团队级的 AI Agent 内存中心，旨在减少重复工作。它将对话、文档和代码转化为四种可复用的内存资产（聊天记忆、技能、LLM-Wiki、代码图），支持跨框架共享和管理。通过积累和复用经验，帮助 Agent 避免重复造轮子，提升团队协作效率和稳定性。",
+        "summary_en": "A team-level memory hub for AI Agents that converts conversations and code into reusable assets to reduce repetitive work.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要积累团队经验、复用工作流和代码逻辑以提升 AI Agent 效率的团队协作场景。",
+        "useCase_en": "To reduce repetitive work for AI Agents by sharing context, docs, and code across the team."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "stars": 361503,
+      "forks": 57648,
+      "todayStars": 303,
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "aiSummary": {
+        "summary": "这是一个开源项目，旨在帮助工程师学习大规模系统设计并准备技术面试。项目包含学习指南、面试题、代码示例、图表以及 Anki 闪卡（用于间隔重复记忆）。内容持续更新，欢迎社区贡献。",
+        "summary_en": "Open-source guide for learning large-scale system design and interview prep.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适合准备系统设计面试的工程师及希望提升架构设计能力的开发者。",
+        "useCase_en": "A resource for engineers preparing for system design interviews."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "stars": 11422,
+      "forks": 760,
+      "todayStars": 1582,
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的快速 PDF 检查库。它能智能分类 PDF（文本/扫描），提取位置感知的文本并转换为 Markdown。支持多列布局、表格检测和 CID 字体，无需 OCR 即可在 200ms 内本地处理，性能高效。",
+        "summary_en": "Fast Rust library for local PDF classification, text extraction, and Markdown conversion without OCR.",
+        "techStack": [
+          "Rust",
+          "lopdf"
+        ],
+        "useCase": "需要快速本地解析 PDF 并提取结构化文本或转换为 Markdown 的开发者。",
+        "useCase_en": "Detect scanned vs text-based PDFs locally to enable smart routing decisions."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "Go",
+      "stars": 31574,
+      "forks": 2027,
+      "todayStars": 747,
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "aiSummary": {
+        "summary": "DeepSeek-Reasonix 是一个专为终端设计的 DeepSeek 原生 AI 编码代理。它采用配置和插件驱动架构，支持多模型与 MCP 服务器集成。项目核心优化了前缀缓存稳定性，旨在降低长会话的 Token 成本，并提供零依赖的单二进制分发方式。",
+        "summary_en": "A Go-based terminal AI coding agent optimized for DeepSeek models and prefix cache stability.",
+        "techStack": [
+          "Go",
+          "TOML",
+          "MCP",
+          "Extension Protocol v1"
+        ],
+        "useCase": "适合需要在终端中利用 DeepSeek 进行高效代码辅助、多模型协作及插件扩展的开发者。",
+        "useCase_en": "Run a stable, low-cost AI coding agent in your terminal for long development sessions."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 81966,
+      "forks": 8821,
+      "todayStars": 226,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供生产级工程技能，包含 8 个斜杠命令覆盖从定义到部署的完整开发流程。它封装了资深工程师的工作流与质量门禁，支持自动生成计划并实现任务，确保 AI 在不同阶段遵循最佳实践。",
+        "summary_en": "A collection of production-grade engineering skills for AI coding agents to automate workflows and ensure quality.",
+        "techStack": [
+          "JavaScript",
+          "Node.js"
+        ],
+        "useCase": "提升 AI 编码代理的开发效率与代码质量，适用于需要标准化开发流程的团队。",
+        "useCase_en": "To equip AI coding agents with production-grade workflows and best practices for consistent software development."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 267283,
+      "forks": 23879,
+      "todayStars": 931,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为 AI 编码代理设计的技能框架与软件开发方法论。它通过规范确认、设计审查、实施计划制定及子代理驱动开发，实现自主化软件构建。支持 Claude、Cursor 等多种工具，强调 TDD、YAGNI 和 DRY 原则，旨在让 AI 代理高效、自主地完成复杂工程任务。",
+        "summary_en": "An agentic skills framework providing a complete software development methodology for coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "为 AI 编码代理提供自主化软件开发流程与技能框架。",
+        "useCase_en": "Empower coding agents to autonomously build software using a structured, TDD-driven methodology."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "roboflow/supervision",
+      "description": "We write your reusable computer vision tools. 💜",
+      "language": "Python",
+      "stars": 48905,
+      "forks": 4618,
+      "todayStars": 146,
+      "url": "https://github.com/roboflow/supervision",
+      "aiSummary": {
+        "summary": "Roboflow Supervision 是一个 Python 计算机视觉工具包，提供从数据加载到实时区域计数的构建模块。它支持多种主流模型库（如 Ultralytics, Transformers），并拥有高度可定制的标注器，旨在帮助开发者专注于应用层开发。",
+        "summary_en": "A Python toolkit for building computer vision applications with model connectors and annotators.",
+        "techStack": [
+          "Python",
+          "OpenCV",
+          "Pillow"
+        ],
+        "useCase": "计算机视觉应用开发，模型推理与可视化标注",
+        "useCase_en": "To build computer vision applications by integrating models and annotating data."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "vercel/next.js",
+      "description": "The React Framework",
+      "language": "JavaScript",
+      "stars": 141538,
+      "forks": 31680,
+      "todayStars": 68,
+      "url": "https://github.com/vercel/next.js",
+      "aiSummary": {
+        "summary": "Next.js 是一个基于 React 的全栈 Web 应用框架，通过集成 Rust 工具实现极速构建。它扩展了 React 特性，支持服务端渲染和静态生成，被全球大公司广泛采用，适合构建高性能、SEO 友好的现代 Web 应用。",
+        "summary_en": "Next.js is a React framework for building full-stack web applications.",
+        "techStack": [
+          "React",
+          "JavaScript",
+          "Rust"
+        ],
+        "useCase": "适用于构建高性能、SEO 友好的全栈 Web 应用。",
+        "useCase_en": "Developers use Next.js to create full-stack web applications with fast builds."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "tailwindlabs/tailwindcss",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "language": "TypeScript",
+      "stars": 96842,
+      "forks": 5547,
+      "todayStars": 408,
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "aiSummary": {
+        "summary": "Tailwind CSS 是一个实用优先的 CSS 框架，旨在快速构建自定义用户界面。它通过提供底层工具类，让开发者无需编写复杂的 CSS 文件即可快速开发 UI。项目支持 TypeScript，拥有活跃的社区和完善的文档。",
+        "summary_en": "A utility-first CSS framework for rapidly building custom user interfaces.",
+        "techStack": [
+          "TypeScript",
+          "CSS",
+          "PostCSS"
+        ],
+        "useCase": "适用于追求快速开发、高度定制化且需要实用优先样式的现代 Web 应用开发。",
+        "useCase_en": "Rapidly building custom user interfaces using utility-first CSS classes."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "uber/ADR",
+      "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
+      "language": "Python",
+      "stars": 1030,
+      "forks": 85,
+      "todayStars": 354,
+      "url": "https://github.com/uber/ADR",
+      "aiSummary": {
+        "summary": "ADR 是 Uber 开源的企业级 AI 代理安全系统，旨在保护员工和客户代理。它提供可观测性（捕获意图与工具使用）、基准测试（覆盖 300+ 任务与 133 MCP 服务器）及威胁检测（两层架构）。该项目部署于生产环境，通过观察、评估、检测和预防四大能力保障 AI 代理安全。",
+        "summary_en": "Enterprise security system for AI agents offering observability, benchmarking, and threat detection.",
+        "techStack": [
+          "Python",
+          "MCP (Model Context Protocol)",
+          "AI Agents",
+          "Telemetry",
+          "Security"
+        ],
+        "useCase": "企业级 AI 代理的安全防护与威胁检测",
+        "useCase_en": "To secure enterprise AI agents by monitoring activity, benchmarking defenses, and detecting threats."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "stars": 29068,
+      "forks": 3121,
+      "todayStars": 833,
+      "url": "https://github.com/lyogavin/airllm",
+      "aiSummary": {
+        "summary": "AirLLM 是一个 Jupyter Notebook 项目，旨在大幅降低大语言模型推理的显存占用。它通过稀疏 MoE 专家流式加载技术，无需量化或剪枝，即可在单张 4GB 显卡上运行 70B 等超大模型，甚至支持 Kimi K3 等万亿参数模型。",
+        "summary_en": "Run massive LLMs (70B+) on single 4GB GPUs without quantization via sparse MoE streaming.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "PyTorch",
+          "Flash Attention",
+          "CUDA"
+        ],
+        "useCase": "在资源受限的硬件（如消费级显卡）上运行超大参数量的开源大语言模型。",
+        "useCase_en": "Deploying large language models on consumer-grade hardware with limited VRAM."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-06T00:09:17.039Z",
+    "duration": "404s",
+    "version": "1.0.0"
+  }
+}
