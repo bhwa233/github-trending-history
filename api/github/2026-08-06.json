@@ -1,0 +1,286 @@
+{
+  "date": "2026-08-06",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "language": "TypeScript",
+      "stars": 16439,
+      "forks": 1479,
+      "todayStars": 1057,
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "aiSummary": {
+        "summary": "这是一个团队级的 AI Agent 内存中心，旨在减少重复工作。它将对话、文档和代码转化为四种可复用资产（聊天记忆、技能、LLM-Wiki、代码图），支持跨代理共享与治理，帮助团队积累经验，实现工作流的高效复用与稳定产出。",
+        "summary_en": "A team-level memory hub for AI Agents that converts conversations and code into reusable memory assets.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要跨多个 AI Agent 共享上下文、文档和代码经验的团队，以减少重复工作并提升协作效率。",
+        "useCase_en": "To reduce repetitive work for AI Agents by sharing context, skills, and workflows across a team."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 82966,
+      "forks": 8896,
+      "todayStars": 593,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供生产级工程技能，包含 8 个覆盖开发全生命周期的斜杠命令。通过标准化工作流、质量门控和最佳实践，帮助 AI 代理遵循资深工程师标准，提升代码质量与开发效率，支持 Claude Code、Cursor 等主流工具。",
+        "summary_en": "A library of engineering skills and workflows for AI coding agents.",
+        "techStack": [
+          "JavaScript",
+          "CLI",
+          "AI Agents"
+        ],
+        "useCase": "为 AI 编码代理提供标准化工程流程，提升代码质量和开发效率。",
+        "useCase_en": "To equip AI coding agents with production-grade engineering workflows and best practices."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "cloudflare/computer",
+      "description": "Give your agent a computer 👾",
+      "language": "TypeScript",
+      "stars": 4834,
+      "forks": 242,
+      "todayStars": 2802,
+      "url": "https://github.com/cloudflare/computer",
+      "aiSummary": {
+        "summary": "Cloudflare Computer 是一个运行在 Durable Object 中的虚拟文件系统，使用 SQLite 存储状态。它提供可插拔的执行表面，支持三种后端：Container（完整 Linux 环境）、Isolate shell 和 Isolate JavaScript。它旨在为代理或工作区提供计算能力，目前处于预览阶段，适合实验和原型开发。",
+        "summary_en": "A virtual filesystem inside a Durable Object with pluggable execution backends.",
+        "techStack": [
+          "TypeScript",
+          "Durable Objects",
+          "SQLite",
+          "FUSE",
+          "Workers RPC"
+        ],
+        "useCase": "为 AI 代理或工作区提供沙盒化的计算环境，支持多种执行模式，适合实验和原型开发。",
+        "useCase_en": "Running shell commands or JavaScript modules against a virtual filesystem state."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 207101,
+      "forks": 17887,
+      "todayStars": 1873,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个面向真实工程师的 AI 代理技能集，旨在提供实用的工程实践而非“氛围编码”。它包含一系列小巧、可组合的 Shell 脚本，支持 Claude Code 和其他 AI 代理。用户可以选择托管安装或本地可编辑安装，通过运行特定命令来配置项目，帮助开发者提升工程效率。",
+        "summary_en": "A collection of engineering skills and scripts designed for AI agents to perform real development tasks.",
+        "techStack": [
+          "Shell",
+          "JavaScript",
+          "Claude Code"
+        ],
+        "useCase": "为 AI 代理提供一套经过验证的工程实践技能，辅助进行高质量软件开发。",
+        "useCase_en": "Provides reusable engineering skills and scripts to enhance AI coding agents."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "goauthentik/authentik",
+      "description": "The authentication glue you need.",
+      "language": "Python",
+      "stars": 23136,
+      "forks": 1774,
+      "todayStars": 138,
+      "url": "https://github.com/goauthentik/authentik",
+      "aiSummary": {
+        "summary": "authentik 是一个开源的身份提供商，旨在为现代 SSO 提供支持。它支持 SAML、OAuth2/OIDC、LDAP、RADIUS 等多种协议，适合从个人实验室到大型生产集群的自托管部署。它可以帮助企业安全地替换现有的身份提供商，如 Okta 或 Auth0，提供强大的身份管理功能。",
+        "summary_en": "An open-source Identity Provider (IdP) for modern SSO supporting SAML, OAuth2, OIDC, and LDAP.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Kubernetes",
+          "Helm",
+          "SAML"
+        ],
+        "useCase": "用于构建或替换企业级身份提供商，支持多种协议的 SSO 集成。",
+        "useCase_en": "A self-hosted Identity Provider for modern SSO to replace existing enterprise IdPs."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "huangruiteng/loopx",
+      "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+      "language": "Python",
+      "stars": 2885,
+      "forks": 218,
+      "todayStars": 847,
+      "url": "https://github.com/huangruiteng/loopx",
+      "aiSummary": {
+        "summary": "LoopX 是一个用于长期 AI Agent 工作的轻量级状态内核和本地控制平面。它独立于具体的 Agent 运行时（如 Codex、Claude Code），通过持久化管理目标、门控、待办事项和证据，实现多日任务的复盘、重启和交接。它将 Agent 工作流比作看板，确保长期工作的可管理性和可持续性。",
+        "summary_en": "A lightweight Python state kernel for managing long-running AI agent teams and loop engineering.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于多日工程、研究、基准测试或实验等长期 AI Agent 任务管理。",
+        "useCase_en": "Manage long-running AI agent work by maintaining a stable state kernel for objectives, todos, and evidence."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "google/guava",
+      "description": "Google core libraries for Java",
+      "language": "Java",
+      "stars": 51642,
+      "forks": 11164,
+      "todayStars": 13,
+      "url": "https://github.com/google/guava",
+      "aiSummary": {
+        "summary": "Guava 是 Google 的核心 Java 库，包含新集合类型（如 Multimap）、不可变集合、图库及并发、I/O 等实用工具。支持 JDK 1.8+ 和 Android 两个版本，通过 Maven 和 Gradle 引入，是 Java 开发中广泛使用的工具集。",
+        "summary_en": "Google's core Java libraries offering collections, immutables, and utilities.",
+        "techStack": [
+          "Java",
+          "Maven",
+          "Gradle",
+          "Android"
+        ],
+        "useCase": "适用于需要增强 Java 标准库功能、处理复杂集合操作及构建兼容 Android 的应用。",
+        "useCase_en": "Provides essential utilities and data structures for Java applications, including Android."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "TapXWorld/ChinaTextbook",
+      "description": "所有小初高、大学PDF教材。",
+      "language": "Roff",
+      "stars": 77128,
+      "forks": 17419,
+      "todayStars": 134,
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "aiSummary": {
+        "summary": "该项目汇集了中国小学至大学数学教材的PDF资源，旨在促进义务教育普及并帮助海外华人。针对GitHub文件大小限制，项目提供了合并工具以处理被拆分的PDF文件，并提供多种下载方式及社区支持。",
+        "summary_en": "A comprehensive open-source collection of Chinese PDF textbooks for primary, middle, high school, and university students.",
+        "techStack": [
+          "Roff",
+          "PDF"
+        ],
+        "useCase": "中国学生、家长及海外华人免费获取中小学及大学数学教材资源。",
+        "useCase_en": "To provide free Chinese educational resources for students and promote open education."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "language": "Python",
+      "stars": 186020,
+      "forks": 46056,
+      "todayStars": 37,
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "aiSummary": {
+        "summary": "AutoGPT 是一个开源的 AI 代理平台，允许用户通过自然语言描述目标，自动构建并执行复杂工作流。它提供托管服务和自托管选项，支持多种 AI 模型，旨在帮助用户自动化任务，提升效率。",
+        "summary_en": "Open-source platform for building autonomous AI agents that execute complex workflows.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "自动化复杂任务、自主编程及工作流管理。",
+        "useCase_en": "Describe a goal in plain English, and AutoGPT autonomously builds and executes agents to complete complex workflows."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "language": "Python",
+      "stars": 29036,
+      "forks": 2685,
+      "todayStars": 237,
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "aiSummary": {
+        "summary": "这是一个本地优先的代码智能图项目，利用 Python 和 Tree-sitter 构建代码库结构。它通过 MCP 协议为 AI 编码工具提供精确上下文，显著减少 token 消耗。支持多种平台，通过增量跟踪确保 AI 仅读取相关代码，提升代码审查和大仓库工作流的效率。",
+        "summary_en": "A Python tool that builds a local code graph to optimize AI code reviews by reducing token usage.",
+        "techStack": [
+          "Python",
+          "Tree-sitter",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "适用于使用 AI 编码工具处理大型代码库的开发者，旨在优化上下文读取并减少 token 消耗。",
+        "useCase_en": "To provide AI coding tools with precise, graph-based context to reduce token usage during code reviews."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "Go",
+      "stars": 32440,
+      "forks": 2099,
+      "todayStars": 888,
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "aiSummary": {
+        "summary": "这是一个基于 Go 语言开发的 DeepSeek 原生 AI 编码代理，专为终端设计。它是一个单静态二进制文件，通过配置和插件驱动，专注于 DeepSeek 的前缀缓存稳定性以降低 Token 成本。支持多模型、MCP 插件和扩展协议，提供零摩擦的跨平台分发体验。",
+        "summary_en": "A Go-based AI coding agent for the terminal optimized for DeepSeek and prefix cache stability.",
+        "techStack": [
+          "Go",
+          "DeepSeek",
+          "OpenAI Compatible API",
+          "MCP",
+          "TOML"
+        ],
+        "useCase": "适用于需要在终端中进行高效、低成本 AI 编程辅助的开发者。",
+        "useCase_en": "Run a DeepSeek-native AI coding agent in your terminal with low token costs via prefix caching."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 268114,
+      "forks": 23964,
+      "todayStars": 858,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个面向 AI 编码代理的技能框架与软件开发方法论。它通过引导用户定义需求、分解设计并生成实施计划，辅助代理自主完成软件开发。支持多种主流 AI 工具，强调 TDD、YAGNI 和 DRY 原则，实现代理的自主工作流。",
+        "summary_en": "An agentic skills framework providing a structured software development methodology for coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "增强 AI 编码代理的自主软件开发能力与工作流自动化。",
+        "useCase_en": "To empower coding agents with a structured methodology and composable skills for autonomous development."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "stars": 12477,
+      "forks": 839,
+      "todayStars": 1190,
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的快速 PDF 检查库。它能智能检测 PDF 类型（文本/扫描/混合），提取位置感知文本并转换为 Markdown。支持多列布局、表格检测及 CID 字体解码，无需 OCR 即可处理大多数 PDF，性能极快（<200ms）。支持 Python、Node.js 及 WebAssembly。",
+        "summary_en": "Fast Rust library for PDF inspection, classification, and text extraction without OCR.",
+        "techStack": [
+          "Rust",
+          "Python",
+          "Node.js",
+          "WebAssembly"
+        ],
+        "useCase": "需要快速本地处理 PDF 的场景，如文档分类、数据提取或构建无需 OCR 的 PDF 索引。",
+        "useCase_en": "Developers use this library to classify PDFs and extract text locally without OCR."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-07T01:48:46.450Z",
+    "duration": "406s",
+    "version": "1.0.0"
+  }
+}

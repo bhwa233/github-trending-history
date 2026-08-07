@@ -70,25 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-08-05 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-08-06 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [cloudflare/computer](https://github.com/cloudflare/computer) | Give your agent a computer 👾... | TypeScript | 2.9k | 891 | Cloudflare Computer 是一个基于 Durable Object 和 SQLite 的虚拟文件系统，旨在为 AI Agent 提供计算机环境。它提供三种执行后端：Container（FUSE 挂载，完整 Linux 环境）、Isolate shell（bash）和 Isolate JavaScript（ESM 模块）。目前处于预览阶段，适合实验和原型开发。 |
-| 2 | [huangruiteng/loopx](https://github.com/huangruiteng/loopx) | Lightweight loop engineering state kernel for long... | Python | 2.1k | 326 | LoopX 是一个轻量级的 Python 状态内核，作为本地控制平面用于长期运行的 AI 代理团队。它管理持久化目标、待办事项和证据，支持跨多种代理的无缝交接与重启，确保工作可管理、可复盘。 |
-| 3 | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | TencentDB Agent Memory is a team-level memory hub ... | TypeScript | 15.0k | 1.9k | 这是一个团队级的 AI Agent 内存中心，旨在减少重复工作。它将对话、文档和代码转化为四种可复用的内存资产（聊天记忆、技能、LLM-Wiki、代码图），支持跨框架共享和管理。通过积累和复用经验，帮助 Agent 避免重复造轮子，提升团队协作效率和稳定性。 |
-| 4 | [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) | Learn how to design large-scale systems. Prep for ... | Python | 361.5k | 303 | 这是一个开源项目，旨在帮助工程师学习大规模系统设计并准备技术面试。项目包含学习指南、面试题、代码示例、图表以及 Anki 闪卡（用于间隔重复记忆）。内容持续更新，欢迎社区贡献。 |
-| 5 | [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) | Fast Rust library for PDF inspection, classificati... | Rust | 11.4k | 1.6k | 这是一个用 Rust 编写的快速 PDF 检查库。它能智能分类 PDF（文本/扫描），提取位置感知的文本并转换为 Markdown。支持多列布局、表格检测和 CID 字体，无需 OCR 即可在 200ms 内本地处理，性能高效。 |
-| 6 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | DeepSeek-native AI coding agent for your terminal.... | Go | 31.6k | 747 | DeepSeek-Reasonix 是一个专为终端设计的 DeepSeek 原生 AI 编码代理。它采用配置和插件驱动架构，支持多模型与 MCP 服务器集成。项目核心优化了前缀缓存稳定性，旨在降低长会话的 Token 成本，并提供零依赖的单二进制分发方式。 |
-| 7 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | JavaScript | 82.0k | 226 | 该项目为 AI 编码代理提供生产级工程技能，包含 8 个斜杠命令覆盖从定义到部署的完整开发流程。它封装了资深工程师的工作流与质量门禁，支持自动生成计划并实现任务，确保 AI 在不同阶段遵循最佳实践。 |
-| 8 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 267.3k | 931 | Superpowers 是一个为 AI 编码代理设计的技能框架与软件开发方法论。它通过规范确认、设计审查、实施计划制定及子代理驱动开发，实现自主化软件构建。支持 Claude、Cursor 等多种工具，强调 TDD、YAGNI 和 DRY 原则，旨在让 AI 代理高效、自主地完成复杂工程任务。 |
-| 9 | [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜... | Python | 48.9k | 146 | Roboflow Supervision 是一个 Python 计算机视觉工具包，提供从数据加载到实时区域计数的构建模块。它支持多种主流模型库（如 Ultralytics, Transformers），并拥有高度可定制的标注器，旨在帮助开发者专注于应用层开发。 |
-| 10 | [vercel/next.js](https://github.com/vercel/next.js) | The React Framework... | JavaScript | 141.5k | 68 | Next.js 是一个基于 React 的全栈 Web 应用框架，通过集成 Rust 工具实现极速构建。它扩展了 React 特性，支持服务端渲染和静态生成，被全球大公司广泛采用，适合构建高性能、SEO 友好的现代 Web 应用。 |
-| 11 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | A utility-first CSS framework for rapid UI develop... | TypeScript | 96.8k | 408 | Tailwind CSS 是一个实用优先的 CSS 框架，旨在快速构建自定义用户界面。它通过提供底层工具类，让开发者无需编写复杂的 CSS 文件即可快速开发 UI。项目支持 TypeScript，拥有活跃的社区和完善的文档。 |
-| 12 | [uber/ADR](https://github.com/uber/ADR) | ADR secures enterprise AI agents through observabi... | Python | 1.0k | 354 | ADR 是 Uber 开源的企业级 AI 代理安全系统，旨在保护员工和客户代理。它提供可观测性（捕获意图与工具使用）、基准测试（覆盖 300+ 任务与 133 MCP 服务器）及威胁检测（两层架构）。该项目部署于生产环境，通过观察、评估、检测和预防四大能力保障 AI 代理安全。 |
-| 13 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | AirLLM 70B inference with single 4GB GPU... | Jupyter Notebook | 29.1k | 833 | AirLLM 是一个 Jupyter Notebook 项目，旨在大幅降低大语言模型推理的显存占用。它通过稀疏 MoE 专家流式加载技术，无需量化或剪枝，即可在单张 4GB 显卡上运行 70B 等超大模型，甚至支持 Kimi K3 等万亿参数模型。 |
+| 1 | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | TencentDB Agent Memory is a team-level memory hub ... | TypeScript | 16.4k | 1.1k | 这是一个团队级的 AI Agent 内存中心，旨在减少重复工作。它将对话、文档和代码转化为四种可复用资产（聊天记忆、技能、LLM-Wiki、代码图），支持跨代理共享与治理，帮助团队积累经验，实现工作流的高效复用与稳定产出。 |
+| 2 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | JavaScript | 83.0k | 593 | 该项目为 AI 编码代理提供生产级工程技能，包含 8 个覆盖开发全生命周期的斜杠命令。通过标准化工作流、质量门控和最佳实践，帮助 AI 代理遵循资深工程师标准，提升代码质量与开发效率，支持 Claude Code、Cursor 等主流工具。 |
+| 3 | [cloudflare/computer](https://github.com/cloudflare/computer) | Give your agent a computer 👾... | TypeScript | 4.8k | 2.8k | Cloudflare Computer 是一个运行在 Durable Object 中的虚拟文件系统，使用 SQLite 存储状态。它提供可插拔的执行表面，支持三种后端：Container（完整 Linux 环境）、Isolate shell 和 Isolate JavaScript。它旨在为代理或工作区提供计算能力，目前处于预览阶段，适合实验和原型开发。 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .agent... | Shell | 207.1k | 1.9k | 这是一个面向真实工程师的 AI 代理技能集，旨在提供实用的工程实践而非“氛围编码”。它包含一系列小巧、可组合的 Shell 脚本，支持 Claude Code 和其他 AI 代理。用户可以选择托管安装或本地可编辑安装，通过运行特定命令来配置项目，帮助开发者提升工程效率。 |
+| 5 | [goauthentik/authentik](https://github.com/goauthentik/authentik) | The authentication glue you need.... | Python | 23.1k | 138 | authentik 是一个开源的身份提供商，旨在为现代 SSO 提供支持。它支持 SAML、OAuth2/OIDC、LDAP、RADIUS 等多种协议，适合从个人实验室到大型生产集群的自托管部署。它可以帮助企业安全地替换现有的身份提供商，如 Okta 或 Auth0，提供强大的身份管理功能。 |
+| 6 | [huangruiteng/loopx](https://github.com/huangruiteng/loopx) | Lightweight loop engineering state kernel for long... | Python | 2.9k | 847 | LoopX 是一个用于长期 AI Agent 工作的轻量级状态内核和本地控制平面。它独立于具体的 Agent 运行时（如 Codex、Claude Code），通过持久化管理目标、门控、待办事项和证据，实现多日任务的复盘、重启和交接。它将 Agent 工作流比作看板，确保长期工作的可管理性和可持续性。 |
+| 7 | [google/guava](https://github.com/google/guava) | Google core libraries for Java... | Java | 51.6k | 13 | Guava 是 Google 的核心 Java 库，包含新集合类型（如 Multimap）、不可变集合、图库及并发、I/O 等实用工具。支持 JDK 1.8+ 和 Android 两个版本，通过 Maven 和 Gradle 引入，是 Java 开发中广泛使用的工具集。 |
+| 8 | [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) | 所有小初高、大学PDF教材。... | Roff | 77.1k | 134 | 该项目汇集了中国小学至大学数学教材的PDF资源，旨在促进义务教育普及并帮助海外华人。针对GitHub文件大小限制，项目提供了合并工具以处理被拆分的PDF文件，并提供多种下载方式及社区支持。 |
+| 9 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | AutoGPT is the vision of accessible AI for everyon... | Python | 186.0k | 37 | AutoGPT 是一个开源的 AI 代理平台，允许用户通过自然语言描述目标，自动构建并执行复杂工作流。它提供托管服务和自托管选项，支持多种 AI 模型，旨在帮助用户自动化任务，提升效率。 |
+| 10 | [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) | Local-first code intelligence graph for MCP and CL... | Python | 29.0k | 237 | 这是一个本地优先的代码智能图项目，利用 Python 和 Tree-sitter 构建代码库结构。它通过 MCP 协议为 AI 编码工具提供精确上下文，显著减少 token 消耗。支持多种平台，通过增量跟踪确保 AI 仅读取相关代码，提升代码审查和大仓库工作流的效率。 |
+| 11 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | DeepSeek-native AI coding agent for your terminal.... | Go | 32.4k | 888 | 这是一个基于 Go 语言开发的 DeepSeek 原生 AI 编码代理，专为终端设计。它是一个单静态二进制文件，通过配置和插件驱动，专注于 DeepSeek 的前缀缓存稳定性以降低 Token 成本。支持多模型、MCP 插件和扩展协议，提供零摩擦的跨平台分发体验。 |
+| 12 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 268.1k | 858 | Superpowers 是一个面向 AI 编码代理的技能框架与软件开发方法论。它通过引导用户定义需求、分解设计并生成实施计划，辅助代理自主完成软件开发。支持多种主流 AI 工具，强调 TDD、YAGNI 和 DRY 原则，实现代理的自主工作流。 |
+| 13 | [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) | Fast Rust library for PDF inspection, classificati... | Rust | 12.5k | 1.2k | 这是一个用 Rust 编写的快速 PDF 检查库。它能智能检测 PDF 类型（文本/扫描/混合），提取位置感知文本并转换为 Markdown。支持多列布局、表格检测及 CID 字体解码，无需 OCR 即可处理大多数 PDF，性能极快（<200ms）。支持 Python、Node.js 及 WebAssembly。 |
 
-[查看完整数据](api/github/2026-08-05.json)
+[查看完整数据](api/github/2026-08-06.json)
 <!-- END GITHUB TRENDING -->
 
 
