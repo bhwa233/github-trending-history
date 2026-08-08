@@ -1,0 +1,272 @@
+{
+  "date": "2026-08-08",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "language": "TypeScript",
+      "stars": 8832,
+      "forks": 829,
+      "todayStars": 2483,
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "aiSummary": {
+        "summary": "Prime Agent 是一个开源的编码和研究代理，专注于长期自主任务。它基于递归语言模型（RLM）和持续 Harness，支持持久化 Python 环境和程序化工具调用。具备自我改进能力，可执行技能，支持后台运行和代理间通信，适合处理复杂的长期工作流。",
+        "summary_en": "An open-source coding agent featuring a self-improving harness and recursive language model for autonomous workflows.",
+        "techStack": [
+          "TypeScript",
+          "Python"
+        ],
+        "useCase": "适用于长期自主编码、复杂研究任务及需要持久化上下文的工作流。",
+        "useCase_en": "To manage complex coding workflows and long-running autonomous tasks with a self-improving recursive language model."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 84533,
+      "forks": 9089,
+      "todayStars": 778,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供生产级工程技能的项目。它将资深工程师的工作流程、质量门禁和最佳实践编码为技能，通过 8 个斜杠命令覆盖开发全生命周期。支持自动技能激活和批量构建，可安装到 Claude Code、Cursor 等 70+ 个代理中，提升 AI 编码的一致性和质量。",
+        "summary_en": "A collection of production-grade engineering skills and workflows for AI coding agents.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "为 AI 编码代理提供标准化的工程流程和质量保障，提升代码质量和开发效率。",
+        "useCase_en": "It provides a CLI tool that installs engineering skills and workflows into AI coding agents."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "TapXWorld/ChinaTextbook",
+      "description": "所有小初高、大学PDF教材。",
+      "language": "Roff",
+      "stars": 77911,
+      "forks": 17640,
+      "todayStars": 591,
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "aiSummary": {
+        "summary": "该项目是一个开源的中国中小学及大学数学教材PDF资源库，旨在促进教育普及。针对GitHub文件大小限制导致的大文件拆分问题，项目提供了合并工具以还原完整教材。",
+        "summary_en": "Open-source repository of Chinese mathematics PDF textbooks, addressing GitHub file size limits by splitting and providing merge tools.",
+        "techStack": [
+          "Roff",
+          "PDF",
+          "Windows Executable"
+        ],
+        "useCase": "适用于需要免费获取中国中小学及大学数学教材的学生、教师及海外华人。",
+        "useCase_en": "Download and merge split PDF files to access free Chinese mathematics textbooks for primary, secondary, and university e"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "stars": 16713,
+      "forks": 1361,
+      "todayStars": 481,
+      "url": "https://github.com/google/skills",
+      "aiSummary": {
+        "summary": "该项目为 Google 产品和技术提供 Agent Skills，包含 Google Cloud 等产品的插件（Skills + MCP 服务器）。项目处于活跃开发中，支持通过 npx 安装特定技能，遵循 Apache 2.0 许可证。",
+        "summary_en": "A collection of agent skills and Google product plugins for AI agent harnesses.",
+        "techStack": [
+          "Python",
+          "Node.js"
+        ],
+        "useCase": "为 AI 代理提供 Google 产品的操作能力",
+        "useCase_en": "To provide modular skills and plugins for AI agents interacting with Google services."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 209974,
+      "forks": 18141,
+      "todayStars": 1354,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个面向工程师的 AI 技能集合，旨在提供真实的工程能力而非“氛围编码”。项目包含一系列可组合的 Shell 脚本和工作流，支持 Claude Code 和 Codex 等智能体。通过简单的安装命令，用户可以将这些技能集成到开发环境中，用于自动化开发流程、提高代码质量和工程效率。",
+        "summary_en": "A collection of composable engineering skills for AI agents to perform real application development tasks.",
+        "techStack": [
+          "Shell",
+          "AI Agent",
+          "CLI"
+        ],
+        "useCase": "为 AI 编程助手配置工程化工作流和脚本，提升开发效率。",
+        "useCase_en": "Provides a library of reusable engineering skills to be installed into AI coding agents like Claude Code."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "goauthentik/authentik",
+      "description": "The authentication glue you need.",
+      "language": "Python",
+      "stars": 23960,
+      "forks": 1836,
+      "todayStars": 467,
+      "url": "https://github.com/goauthentik/authentik",
+      "aiSummary": {
+        "summary": "authentik 是一个开源的现代 SSO 身份提供商，支持 SAML、OAuth2/OIDC、LDAP 和 RADIUS 等协议。它适用于从实验室到大规模生产环境的自托管部署，也可作为企业级 IdP 替代方案。支持 Docker Compose、Kubernetes 等多种部署方式。",
+        "summary_en": "Open-source Identity Provider (IdP) for modern SSO supporting SAML, OAuth2, and LDAP, designed for self-hosting.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Kubernetes",
+          "SAML",
+          "OAuth2/OIDC"
+        ],
+        "useCase": "需要自托管 SSO 或替换现有企业级 IdP（如 Okta）的组织。",
+        "useCase_en": "Securely replace existing identity providers like Okta for large-scale identity management."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 96457,
+      "forks": 18650,
+      "todayStars": 126,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents 是一个基于多智能体 LLM 的金融交易框架。支持 GPT-5.x、Claude 4.x 等多种大模型及 Alpha Vantage、FRED 等数据源。集成了研究、交易和投资组合管理代理，提供回测、代理管理和 Docker 部署，旨在利用 AI 实现自动化金融决策。",
+        "summary_en": "A Python framework for building autonomous multi-agent LLM trading systems.",
+        "techStack": [
+          "Python",
+          "LLM (GPT-5.x, Claude 4.x, Gemini 3.x)",
+          "LangGraph",
+          "Docker"
+        ],
+        "useCase": "适合利用大语言模型构建自动化金融交易策略与回测系统。",
+        "useCase_en": "To automate financial trading and portfolio management using multi-agent LLM systems."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "google/guava",
+      "description": "Google core libraries for Java",
+      "language": "Java",
+      "stars": 51845,
+      "forks": 11180,
+      "todayStars": 93,
+      "url": "https://github.com/google/guava",
+      "aiSummary": {
+        "summary": "Guava 是 Google 提供的核心 Java 库，包含新集合类型（如 Multimap 和 Multiset）、不可变集合、图库以及并发、I/O、哈希、原语和字符串等实用工具。它支持 JRE 和 Android 两种版本，被广泛应用于 Google 内部及众多公司的 Java 项目中。",
+        "summary_en": "Google's core Java libraries containing collections, concurrency, and I/O utilities.",
+        "techStack": [
+          "Java",
+          "JRE",
+          "Android"
+        ],
+        "useCase": "需要 Java 核心库、集合操作、并发处理及字符串工具的 Java 项目开发。",
+        "useCase_en": "Provides essential utility classes and collections for Java applications."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "LadybirdBrowser/ladybird",
+      "description": "Truly independent web browser",
+      "language": "C++",
+      "stars": 64975,
+      "forks": 3104,
+      "todayStars": 79,
+      "url": "https://github.com/LadybirdBrowser/ladybird",
+      "aiSummary": {
+        "summary": "Ladybird 是一个基于 Web 标准的真正独立浏览器，采用多进程架构。它继承自 SerenityOS 的核心库（如 LibWeb、LibJS、LibGfx 等），支持 Linux、macOS 和 Windows。目前处于预-alpha 阶段，仅供开发者使用。",
+        "summary_en": "An independent, pre-alpha web browser featuring a novel engine based on web standards.",
+        "techStack": [
+          "C++",
+          "Web 标准引擎",
+          "SerenityOS 核心库",
+          "多进程架构",
+          "跨平台支持"
+        ],
+        "useCase": "适合开发者进行浏览器内核开发、测试及学习 Web 标准实现。",
+        "useCase_en": "A development-focused browser for testing a novel, independent web engine."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "denoland/celld",
+      "description": "self-hosted, distributed Durable Objects",
+      "language": "Rust",
+      "stars": 2547,
+      "forks": 72,
+      "todayStars": 432,
+      "url": "https://github.com/denoland/celld",
+      "aiSummary": {
+        "summary": "celld 是一个用 Rust 编写的自托管、分布式 Durable Objects 解决方案。它允许在本地机器上运行 Cloudflare Workers 和 Durable Objects。每个对象都是一个独立的 SQLite 数据库，通过 S3 兼容存储桶进行复制和协调。它使用 V8 嵌入式引擎执行代码，旨在通过分片消除共享数据库的争用和故障范围。",
+        "summary_en": "Self-hosted, distributed Durable Objects runtime built with Rust and SQLite.",
+        "techStack": [
+          "Rust",
+          "SQLite",
+          "S3",
+          "V8"
+        ],
+        "useCase": "需要在本地或私有云环境中部署无服务器应用和 Durable Objects 的场景。",
+        "useCase_en": "Self-host Cloudflare Workers and Durable Objects using a decentralized, S3-based architecture."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "litu54/DevOps-Interview-Guide",
+      "description": "DevOps Interview Guide",
+      "language": "",
+      "stars": 696,
+      "forks": 882,
+      "todayStars": 59,
+      "url": "https://github.com/litu54/DevOps-Interview-Guide",
+      "aiSummary": {
+        "summary": "这是一个收集了2025-2026年真实DevOps、SRE及云工程面试题的实战指南。包含151份面试记录，覆盖85家公司。内容涵盖Kubernetes、Docker、Terraform、云服务、CI/CD、Ansible、Linux及SRE基础等。项目按公司分类，记录真实面试体验，适合求职者针对性备考。",
+        "summary_en": "Collection of real DevOps and SRE interview questions from 85 companies for 2025-2026.",
+        "techStack": [
+          "Kubernetes",
+          "Docker",
+          "Terraform",
+          "AWS/Azure/GCP",
+          "CI/CD"
+        ],
+        "useCase": "适用于准备DevOps、SRE及云工程岗位面试的求职者，用于查找特定公司的面试真题或进行广泛备考。",
+        "useCase_en": "Candidates prepare for DevOps and SRE interviews by reviewing real questions from 85 companies."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "bannedbook/fanqiang",
+      "description": "翻墙-科学上网",
+      "language": "Kotlin",
+      "stars": 49864,
+      "forks": 8252,
+      "todayStars": 161,
+      "url": "https://github.com/bannedbook/fanqiang",
+      "aiSummary": {
+        "summary": "这是一个涵盖多平台（Windows、Mac、iOS、Android等）的科学上网教程与工具库。项目提供V2Ray、Shadowsocks、Clash等主流工具的配置指南，包含Chrome一键翻墙包及安卓APP，旨在帮助用户解决网络访问限制问题。",
+        "summary_en": "A comprehensive repository of tutorials and tools for bypassing the Great Firewall, covering V2ray, Shadowsocks, and various client configurations.",
+        "techStack": [
+          "Kotlin",
+          "Android",
+          "V2Ray",
+          "Shadowsocks",
+          "Web"
+        ],
+        "useCase": "适用于需要突破网络限制、访问被屏蔽内容或进行科学上网的用户。",
+        "useCase_en": "This project provides guides and software resources for accessing blocked websites and bypassing internet censorship."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-08T23:38:15.459Z",
+    "duration": "317s",
+    "version": "1.0.0"
+  }
+}
