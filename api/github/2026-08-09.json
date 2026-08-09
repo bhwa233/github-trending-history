@@ -1,0 +1,271 @@
+{
+  "date": "2026-08-09",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "language": "TypeScript",
+      "stars": 10963,
+      "forks": 1139,
+      "todayStars": 2319,
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "aiSummary": {
+        "summary": "Prime Agent 是一个基于递归语言模型（RLM）的开源编码与研究代理。它采用持久化 REPL 和持续 Harness 架构，将上下文视为变量，工具视为函数调用。支持后台运行、子代理并行及自我改进技能，适合处理长期复杂的自主任务。",
+        "summary_en": "An open-source self-improving RLM agent designed for coding workflows and long-running autonomous tasks.",
+        "techStack": [
+          "TypeScript",
+          "Python",
+          "RLM",
+          "IPython"
+        ],
+        "useCase": "适用于长期自主编码工作流、复杂研究任务及后台持续运行的项目。",
+        "useCase_en": "Execute long-running autonomous coding workflows and research tasks using a self-improving recursive language model agen"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "vitali87/code-graph-rag",
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "language": "Python",
+      "stars": 2966,
+      "forks": 519,
+      "todayStars": 59,
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "aiSummary": {
+        "summary": "该项目利用 Tree-sitter 和 Memgraph 为多语言单体仓库构建知识图谱，结合 RAG 技术实现自然语言查询、编辑和代码优化。支持 Ruby、C#、Java 等语言，具备结构化搜索和数据流追踪能力，是代码理解和重构的强大工具。",
+        "summary_en": "A RAG system that parses multi-language codebases into a knowledge graph for querying and editing.",
+        "techStack": [
+          "Python",
+          "Tree-sitter",
+          "Memgraph",
+          "Cypher",
+          "AST-grep"
+        ],
+        "useCase": "多语言单体仓库的代码理解、搜索、重构与优化",
+        "useCase_en": "Query and edit complex multi-language codebases using natural language and knowledge graphs."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 140624,
+      "forks": 22973,
+      "todayStars": 932,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "Agency Agents 是一个包含多种专业 AI 代理的集合，旨在集成到 Claude Code、Cursor 等开发工具中。每个代理（如前端专家、Reddit 社区专家）都具备独特个性和专业流程。用户可通过原生应用或脚本一键安装，提升开发效率与代码质量。",
+        "summary_en": "A collection of specialized AI agent personalities for coding tools like Claude Code and Cursor.",
+        "techStack": [
+          "Shell",
+          "Native App (macOS/Linux/Windows)"
+        ],
+        "useCase": "为开发者提供专业 AI 助手，集成到 Claude Code 等工具中，提升开发效率与代码质量。",
+        "useCase_en": "To install specialized, personality-driven AI agents into coding environments and workflows."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "pranshuparmar/witr",
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+      "language": "Go",
+      "stars": 20613,
+      "forks": 726,
+      "todayStars": 342,
+      "url": "https://github.com/pranshuparmar/witr",
+      "aiSummary": {
+        "summary": "witr 是一款用 Go 语言开发的系统诊断工具，旨在回答“为什么这个在运行？”。它能够追踪进程、端口、容器或文件的启动链路，通过 CLI、JSON 或交互式 TUI 展示因果关系，帮助用户快速定位系统服务的来源。",
+        "summary_en": "A Go tool that traces processes, ports, and containers back to their origin to explain why they are running.",
+        "techStack": [
+          "Go",
+          "TUI",
+          "CLI"
+        ],
+        "useCase": "用于排查进程、端口或容器的启动来源，帮助开发者理解系统运行状态和因果关系。",
+        "useCase_en": "To investigate why a process, port, or container is running by tracing its origin."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "google-deepmind/weathernext",
+      "description": "",
+      "language": "Python",
+      "stars": 7064,
+      "forks": 936,
+      "todayStars": 105,
+      "url": "https://github.com/google-deepmind/weathernext",
+      "aiSummary": {
+        "summary": "这是一个由 Google DeepMind 开发的全球中程大气和气旋预报模型项目。它包含 WeatherNext 2 (WN2)，这是目前最先进的模型，支持 100m 风速预测和气旋追踪。项目还提供了 GraphCast（确定性）和 GenCast（扩散式集合预报）的代码及预训练权重，旨在利用 AI 提高天气预报的准确性和效率。",
+        "summary_en": "Google DeepMind's WeatherNext 2 is a global medium-range weather and cyclone forecasting model.",
+        "techStack": [
+          "Python",
+          "Graph Neural Networks (GNN)",
+          "Diffusion Models",
+          "ECMWF HRES Data"
+        ],
+        "useCase": "全球中程天气预报、气旋路径预测、气象科研与工业应用",
+        "useCase_en": "It provides accurate global medium-range weather and cyclone forecasts."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 85101,
+      "forks": 9156,
+      "todayStars": 670,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供生产级工程技能的项目。它将资深工程师的工作流程、质量门控和最佳实践编码为技能，通过 8 个斜杠命令（如 /spec, /plan, /build）标准化开发流程。支持 Claude、Cursor 等多种代理，旨在提高代码质量和开发效率，确保 AI 在每个阶段都遵循最佳实践。",
+        "summary_en": "A collection of engineering skills and workflows for AI coding agents to ensure production-grade quality.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "用于提升 AI 编码代理的开发效率和代码质量，标准化软件工程流程。",
+        "useCase_en": "Equip AI coding agents with production-grade engineering workflows and slash commands to build software efficiently."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "stars": 61163,
+      "forks": 51989,
+      "todayStars": 287,
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "aiSummary": {
+        "summary": "这是一个基于大语言模型（LLM）的多市场股票智能分析系统，支持A股、港股、美股等。它聚合多源行情与新闻，生成AI决策报告，并通过Web或自动化推送（企业微信/飞书等）发送分析结果，支持零成本定时运行。",
+        "summary_en": "AI-powered multi-market stock analysis system providing automated daily reports and notifications.",
+        "techStack": [
+          "Python",
+          "LLM (OpenAI/Gemini/Claude/DeepSeek)",
+          "Data Aggregation (AkShare/Tushare/YFinance)",
+          "FastAPI",
+          "GitHub Actions"
+        ],
+        "useCase": "适合需要自动化多市场股票分析、获取AI决策建议并接收实时推送的投资者。",
+        "useCase_en": "Automate daily stock analysis across global markets and receive AI-driven decision dashboards via messaging apps."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "goauthentik/authentik",
+      "description": "The authentication glue you need.",
+      "language": "Python",
+      "stars": 24254,
+      "forks": 1856,
+      "todayStars": 312,
+      "url": "https://github.com/goauthentik/authentik",
+      "aiSummary": {
+        "summary": "authentik 是一个开源的身份提供商，支持 SAML、OAuth2/OIDC、LDAP 和 RADIUS 等协议。它旨在替代 Okta 等企业级 IdP，支持从小型实验室到大规模生产集群的自托管部署。项目提供 Docker Compose、Kubernetes 和云原生等多种安装方式，适合需要统一身份认证管理的组织。",
+        "summary_en": "Open-source Identity Provider (IdP) for modern SSO supporting SAML, OAuth2, and LDAP.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Kubernetes",
+          "SAML",
+          "OAuth2/OIDC"
+        ],
+        "useCase": "替换企业现有身份提供商，实现统一身份认证与 SSO 管理。",
+        "useCase_en": "A self-hosted Identity Provider (IdP) designed to replace legacy systems like Okta."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "stars": 17202,
+      "forks": 1390,
+      "todayStars": 532,
+      "url": "https://github.com/google/skills",
+      "aiSummary": {
+        "summary": "该项目为 Google 产品和技术提供 Agent Skills，包含 Google Cloud 等。支持通过 npx 安装特定技能，并捆绑了用于 agent harnesses 的产品插件（Skills + MCP 服务器）。代码遵循 Apache 2.0 许可证，处于积极开发中，欢迎社区贡献。",
+        "summary_en": "Collection of Agent Skills and plugins for Google products.",
+        "techStack": [
+          "Python",
+          "MCP",
+          "Agent Harnesses"
+        ],
+        "useCase": "为 AI Agent 提供集成 Google 产品的插件和技能。",
+        "useCase_en": "To install and use specific Agent Skills for Google products and technologies."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "language": "Python",
+      "stars": 125470,
+      "forks": 14837,
+      "todayStars": 333,
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "aiSummary": {
+        "summary": "ComfyUI 是一个强大的扩散模型 GUI 和后端，采用可视化节点图界面。它支持图像、视频、3D 等生成，具备高效本地执行、模型卸载及对最新开源和闭源模型的原生支持。用户无需编写代码即可构建复杂工作流，并可通过 API 集成到生产环境。",
+        "summary_en": "A modular node-based GUI and backend for running advanced AI diffusion models locally.",
+        "techStack": [
+          "Python",
+          "GUI (Node Graph)",
+          "Diffusion Models",
+          "API",
+          "Cross-platform"
+        ],
+        "useCase": "专为视觉专业人士设计，用于 AI 图像、视频及 3D 模型的高精度创作与自动化工作流构建。",
+        "useCase_en": "To build complex AI workflows for image, video, and 3D generation without coding."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "harveyai/harvey-labs",
+      "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work.",
+      "language": "Python",
+      "stars": 812,
+      "forks": 174,
+      "todayStars": 87,
+      "url": "https://github.com/harveyai/harvey-labs",
+      "aiSummary": {
+        "summary": "Harvey LAB 是一个开源的法律智能体基准测试项目。它包含用于评估 LLM 智能体在真实法律环境（如并购数据室）中表现的数据集和执行框架。该项目旨在持续改进任务集和评估方法，为法律 AI 研究提供支持。",
+        "summary_en": "An open-source benchmark for evaluating LLM agents on real legal work tasks, featuring a dataset and execution harness.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "评估和改进法律智能体在真实法律工作场景中的表现。",
+        "useCase_en": "To benchmark LLM agents on realistic legal tasks like M&A data-room assignments."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 17637,
+      "forks": 4009,
+      "todayStars": 208,
+      "url": "https://github.com/pingdotgg/t3code",
+      "aiSummary": {
+        "summary": "T3 Code 是一个开源的 AI 代理控制台，旨在通过移动端、Web 和桌面端应用统一管理 Claude、Codex、Cursor 等多个 AI 编程工具。它支持远程访问，提供高性能的开发体验，目前处于早期阶段。",
+        "summary_en": "A control surface for AI coding agents, enabling management of local tools like Claude and Codex via mobile, web, and desktop apps.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "Node.js"
+        ],
+        "useCase": "需要统一管理多个 AI 编程代理的开发者。",
+        "useCase_en": "To control AI coding agents like Claude and Codex from a unified mobile, web, or desktop interface."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-09T23:41:46.845Z",
+    "duration": "381s",
+    "version": "1.0.0"
+  }
+}
