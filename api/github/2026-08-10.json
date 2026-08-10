@@ -1,0 +1,353 @@
+{
+  "date": "2026-08-10",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "semantica-agi/semantica",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "language": "Python",
+      "stars": 4059,
+      "forks": 482,
+      "todayStars": 967,
+      "url": "https://github.com/semantica-agi/semantica",
+      "aiSummary": {
+        "summary": "这是一个面向 AI 代理的原生图基础设施，旨在提供可解释、可追溯和可信的决策智能。它通过构建上下文图和知识图谱，支持因果推理和确定性推理，无需依赖 LLM 即可完成图构建和推理，确保决策的可审计性。",
+        "summary_en": "Graph-native infrastructure for accountable AI systems with provenance.",
+        "techStack": [
+          "Python",
+          "RDF",
+          "LPG (Property Graph)"
+        ],
+        "useCase": "适用于金融、医疗等高风险受监管领域，以及需要构建可解释、可审计 AI 决策系统的 AI 平台团队。",
+        "useCase_en": "To provide deterministic reasoning and provenance for AI agents in regulated domains."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 141778,
+      "forks": 23132,
+      "todayStars": 1352,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "这是一个包含多个专业化AI代理的项目，旨在集成到Claude Code、Cursor等开发工具中。每个代理都有独特的个性和专业领域，如前端开发或社区管理。项目提供了原生桌面应用和Shell脚本两种安装方式，方便用户一键部署和自动更新，打造永不疲倦的AI开发团队。",
+        "summary_en": "A collection of specialized AI agent personalities designed for coding workflows.",
+        "techStack": [
+          "Shell",
+          "Native App",
+          "Cross-platform"
+        ],
+        "useCase": "为AI编程工具集成专业化、个性化的AI代理，提升开发效率。",
+        "useCase_en": "Install specialized AI agent personalities into various coding environments."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "stars": 60974,
+      "forks": 12005,
+      "todayStars": 215,
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "aiSummary": {
+        "summary": "MediaCrawler 是一个功能强大的多平台自媒体数据采集工具，支持小红书、抖音、B站、微博等主流平台。基于 Playwright 浏览器自动化技术，无需复杂 JS 逆向即可获取签名参数。支持关键词搜索、评论爬取、主页采集及词云生成，适合学习爬虫架构与数据采集。",
+        "summary_en": "A multi-platform web crawler for Chinese social media using Playwright automation.",
+        "techStack": [
+          "Python",
+          "Playwright",
+          "Node.js",
+          "CDP"
+        ],
+        "useCase": "多平台公开信息抓取与自媒体数据分析",
+        "useCase_en": "To collect public data from Chinese social media platforms like Xiaohongshu, Douyin, and Bilibili."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 85721,
+      "forks": 9226,
+      "todayStars": 659,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供生产级工程技能，包含 8 个斜杠命令覆盖从定义到发布的全流程。通过标准化工作流、质量门控和最佳实践，帮助 AI 代理遵循最佳实践，提升代码质量和开发效率，支持 Claude Code、Cursor 等多种代理工具。",
+        "summary_en": "Production-grade engineering skills and workflows for AI coding agents.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "为 AI 编码代理提供标准化的工程工作流和质量门控，适用于自动化软件开发流程。",
+        "useCase_en": "To standardize engineering workflows and quality gates for AI coding agents."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 76449,
+      "forks": 14202,
+      "todayStars": 167,
+      "url": "https://github.com/paperclipai/paperclip",
+      "aiSummary": {
+        "summary": "Paperclip 是一个开源的 AI 代理管理应用，旨在帮助企业团队编排和管理 AI 代理。它提供类似任务管理器的界面，支持定义目标、分配任务、监控预算和审计工作流。基于 Node.js 和 React 构建，允许用户将各种 AI 代理（如 Claude、Codex）组织起来，共同完成商业目标，实现自主 AI 公司的运营。",
+        "summary_en": "Open-source orchestration platform for teams of AI agents to manage business goals and workflows.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "React"
+        ],
+        "useCase": "适用于需要协调多个 AI 代理、构建自主 AI 公司或管理 AI 团队工作流与预算的场景。",
+        "useCase_en": "Orchestrate a team of AI agents to run autonomous businesses with task management and budgeting."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "language": "TypeScript",
+      "stars": 13021,
+      "forks": 1322,
+      "todayStars": 2655,
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "aiSummary": {
+        "summary": "Prime Agent 是一个基于递归语言模型（RLM）和持续挂载（Continual Harness）的开源编码与研究代理。它具备持久化 REPL、子代理、技能及后台运行能力，支持长期自主任务，并能通过证据驱动的更新实现自我改进。",
+        "summary_en": "An open-source coding and research agent using Recursive Language Models (RLM) and a Continual Harness for persistent, autonomous, and self-improving workflows.",
+        "techStack": [
+          "TypeScript",
+          "Python",
+          "RLM"
+        ],
+        "useCase": "长期自主编码工作流与研究任务",
+        "useCase_en": "To manage long-running autonomous coding and research workflows using a self-improving Recursive Language Model (RLM) ag"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "LadybirdBrowser/ladybird",
+      "description": "Truly independent web browser",
+      "language": "C++",
+      "stars": 65244,
+      "forks": 3117,
+      "todayStars": 106,
+      "url": "https://github.com/LadybirdBrowser/ladybird",
+      "aiSummary": {
+        "summary": "Ladybird 是一个基于 Web 标准的真正独立网络浏览器，采用多进程架构（UI、渲染、解码等），旨在构建现代 Web 的完整浏览器。目前处于预-alpha 阶段，仅适合开发者使用。项目从 SerenityOS 继承了核心库支持，如 LibWeb、LibJS 和 LibGfx 等，支持 Linux、macOS 和 Windows (WSL2)。",
+        "summary_en": "Ladybird is a pre-alpha, independent web browser using a novel engine based on web standards.",
+        "techStack": [
+          "C++",
+          "LibWeb",
+          "LibJS",
+          "LibGfx",
+          "LibCore"
+        ],
+        "useCase": "适合开发者进行浏览器引擎开发与测试，或参与开源社区贡献。",
+        "useCase_en": "For developers to test a novel, independent web browser engine."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 89354,
+      "forks": 11889,
+      "todayStars": 186,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 感知平台，利用 WiFi 信号（CSI）实现无视频的穿墙检测、生命体征监测和活动识别。它支持与主流智能家居生态（Home Assistant, Apple Home 等）集成，无需摄像头或可穿戴设备即可感知房间内的人员存在、呼吸心率及异常行为。",
+        "summary_en": "Rust WiFi sensing platform turning radio signals into spatial intelligence for presence detection and vital sign monitoring without cameras.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "MQTT",
+          "Matter",
+          "HAP"
+        ],
+        "useCase": "适用于需要非侵入式、无视频监控的室内环境感知、老人监护及智能家居自动化场景。",
+        "useCase_en": "Turn ordinary WiFi into a spatial intelligence system to detect presence, breathing, and heart rate without cameras or w"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "danielmiessler/LifeOS",
+      "description": "⛰️A General Hill-climbing AI harness that helps you move from Current State to Ideal State in both Life and Work.",
+      "language": "TypeScript",
+      "stars": 17881,
+      "forks": 2363,
+      "todayStars": 357,
+      "url": "https://github.com/danielmiessler/LifeOS",
+      "aiSummary": {
+        "summary": "LifeOS 是一个通用 AI Harness，旨在帮助用户从当前状态迈向理想状态。它通过捕获用户的个人背景和目标，利用 AI 提供个性化指导。项目基于 TypeScript 开发，支持一键安装，可作为 Skill 集成到 Claude Code 等工具中，提升生活和工作的效率。",
+        "summary_en": "A general-purpose AI harness that captures user context to facilitate goal achievement in life and work.",
+        "techStack": [
+          "TypeScript",
+          "Bun",
+          "AI Coding Harness (Claude Code, Cursor)"
+        ],
+        "useCase": "适用于构建应用、创业及各类创意项目，帮助用户利用 AI 高效实现个人或职业目标。",
+        "useCase_en": "Configure an AI coding harness to utilize a personalized system of skills for achieving life and work goals."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "firecrawl/firecrawl",
+      "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
+      "language": "TypeScript",
+      "stars": 165033,
+      "forks": 9285,
+      "todayStars": 815,
+      "url": "https://github.com/firecrawl/firecrawl",
+      "aiSummary": {
+        "summary": "Firecrawl 是一个开源的 Web 上下文 API，旨在大规模搜索、抓取和交互网页。它覆盖 96% 的网页，支持 JS 渲染，提供 LLM 就绪的 Markdown 和 JSON 输出。项目自动处理代理、速率限制等复杂问题，支持媒体解析和网页交互（点击、滚动等），非常适合构建 AI 代理和动态应用。",
+        "summary_en": "A TypeScript library providing a scalable web scraping and crawling API for AI agents and data extraction.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Python"
+        ],
+        "useCase": "适用于构建 AI 代理和动态应用的大规模网页数据抓取与交互。",
+        "useCase_en": "To extract clean markdown and structured data from websites for AI agents and dynamic applications."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 97192,
+      "forks": 18733,
+      "todayStars": 234,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents 是一个基于多智能体架构的 LLM 金融交易框架。它利用 LangGraph 实现结构化代理（研究、交易、投资组合管理），支持多种大模型（GPT-5, Claude 4 等）和数据源。项目具备回测、情绪分析、风险管理及 Docker 部署能力，旨在通过 AI 智能体实现自动化金融决策。",
+        "summary_en": "Python framework for building autonomous AI agents for financial trading.",
+        "techStack": [
+          "Python",
+          "LangGraph",
+          "LLMs (GPT-5, Claude 4, etc.)",
+          "Docker"
+        ],
+        "useCase": "适用于构建基于大语言模型的自动化金融交易系统与量化回测研究。",
+        "useCase_en": "Automate financial trading strategies using multi-agent LLM systems."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "google-deepmind/weathernext",
+      "description": "",
+      "language": "Python",
+      "stars": 7334,
+      "forks": 954,
+      "todayStars": 327,
+      "url": "https://github.com/google-deepmind/weathernext",
+      "aiSummary": {
+        "summary": "Google DeepMind 开发的全球中尺度大气及气旋预测模型项目。包含 WeatherNext 2 (WN2) 及 GraphCast、GenCast 等前身模型。提供代码和预训练权重，支持 0.25° 分辨率（约30km）的天气与气旋预测。用户可通过 Google Cloud、WeatherLab 和 OpenMeteo 等平台获取预测数据。",
+        "summary_en": "Google DeepMind's WeatherNext 2 is a global medium-range atmospheric and cyclone forecasting model.",
+        "techStack": [
+          "Python",
+          "Graph Neural Networks",
+          "Deep Learning"
+        ],
+        "useCase": "全球中尺度大气预报与气旋追踪",
+        "useCase_en": "To provide accurate global medium-range weather and cyclone forecasts."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "vitali87/code-graph-rag",
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "language": "Python",
+      "stars": 3515,
+      "forks": 546,
+      "todayStars": 682,
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "aiSummary": {
+        "summary": "这是一个基于知识图谱的多语言代码库 RAG 系统。利用 Tree-sitter 解析代码，在 Memgraph 中构建结构化图谱。支持自然语言查询、基于 AST 的代码编辑、结构化搜索及数据流追踪，适用于复杂单体仓库的代码理解与优化。",
+        "summary_en": "AI-powered RAG system for querying and editing multi-language codebases using knowledge graphs.",
+        "techStack": [
+          "Python",
+          "Tree-sitter",
+          "Memgraph",
+          "ast-grep"
+        ],
+        "useCase": "适用于复杂多语言单体仓库的代码理解、重构与优化。",
+        "useCase_en": "Query, understand, and edit multi-language codebases using AI and knowledge graphs."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 18019,
+      "forks": 4076,
+      "todayStars": 388,
+      "url": "https://github.com/pingdotgg/t3code",
+      "aiSummary": {
+        "summary": "T3 Code 是一个开源的 AI 代理控制台，旨在通过移动端、Web 和桌面端应用统一管理 Claude、Codex、Cursor 等多个 AI 编程助手。它提供了一个高性能、远程就绪且完全开源的控制界面，帮助开发者优化与 AI 代理的交互体验。",
+        "summary_en": "An open-source control surface for managing AI coding agents across mobile, web, and desktop platforms.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Electron"
+        ],
+        "useCase": "适合需要在多平台统一管理多个 AI 编程代理的开发者。",
+        "useCase_en": "To provide a unified interface for controlling AI coding agents on your machine."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "language": "Python",
+      "stars": 126292,
+      "forks": 14898,
+      "todayStars": 921,
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "aiSummary": {
+        "summary": "ComfyUI 是一个基于 Python 的强大且模块化的扩散模型 GUI 和后端，采用节点图界面。它支持本地和云端执行，兼容多种主流模型（如 SDXL, Flux），能高效生成图像、视频、3D 模型和音频，并提供 API 便于集成到生产流程中。",
+        "summary_en": "A powerful and modular diffusion model GUI and backend with a node graph interface.",
+        "techStack": [
+          "Python",
+          "Node Graph Interface",
+          "GPU Acceleration"
+        ],
+        "useCase": "适用于视觉专业人士进行图像、视频、3D 模型及音频的高效生成与工作流定制。",
+        "useCase_en": "To create images, videos, and 3D models locally using a modular node-based interface for AI workflows."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "opa334/Dopamine",
+      "description": "Dopamine is a semi-untethered jailbreak for iOS 15 to 26(.0.1)",
+      "language": "C",
+      "stars": 6014,
+      "forks": 6192,
+      "todayStars": 174,
+      "url": "https://github.com/opa334/Dopamine",
+      "aiSummary": {
+        "summary": "Dopamine 是一款针对 iOS 15 至 iOS 26(.0.1) 的半无 tethered 越狱工具，支持 rootless 模式。它兼容多种设备架构（如 A12/A13 和 arm64/arm64e），旨在为较新的 iOS 版本提供系统级权限访问和自定义能力。",
+        "summary_en": "A rootless semi-untethered jailbreak for iOS 15 to 26(.0.1).",
+        "techStack": [
+          "C"
+        ],
+        "useCase": "为 iOS 设备提供越狱环境，允许用户安装第三方插件、修改系统功能及深度定制。",
+        "useCase_en": "To provide a rootless semi-untethered jailbreak for iOS 15 to 26 devices."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-10T23:48:08.885Z",
+    "duration": "547s",
+    "version": "1.0.0"
+  }
+}

@@ -70,24 +70,28 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-08-09 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-08-10 | **成功**: 16 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | A self-improving RLM agent for coding workflows an... | TypeScript | 11.0k | 2.3k | Prime Agent 是一个基于递归语言模型（RLM）的开源编码与研究代理。它采用持久化 REPL 和持续 Harness 架构，将上下文视为变量，工具视为函数调用。支持后台运行、子代理并行及自我改进技能，适合处理长期复杂的自主任务。 |
-| 2 | [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag) | The ultimate RAG for your monorepo. Query, underst... | Python | 3.0k | 59 | 该项目利用 Tree-sitter 和 Memgraph 为多语言单体仓库构建知识图谱，结合 RAG 技术实现自然语言查询、编辑和代码优化。支持 Ruby、C#、Java 等语言，具备结构化搜索和数据流追踪能力，是代码理解和重构的强大工具。 |
-| 3 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 140.6k | 932 | Agency Agents 是一个包含多种专业 AI 代理的集合，旨在集成到 Claude Code、Cursor 等开发工具中。每个代理（如前端专家、Reddit 社区专家）都具备独特个性和专业流程。用户可通过原生应用或脚本一键安装，提升开发效率与代码质量。 |
-| 4 | [pranshuparmar/witr](https://github.com/pranshuparmar/witr) | Why is this running? Trace any process, port, cont... | Go | 20.6k | 342 | witr 是一款用 Go 语言开发的系统诊断工具，旨在回答“为什么这个在运行？”。它能够追踪进程、端口、容器或文件的启动链路，通过 CLI、JSON 或交互式 TUI 展示因果关系，帮助用户快速定位系统服务的来源。 |
-| 5 | [google-deepmind/weathernext](https://github.com/google-deepmind/weathernext) | ... | Python | 7.1k | 105 | 这是一个由 Google DeepMind 开发的全球中程大气和气旋预报模型项目。它包含 WeatherNext 2 (WN2)，这是目前最先进的模型，支持 100m 风速预测和气旋追踪。项目还提供了 GraphCast（确定性）和 GenCast（扩散式集合预报）的代码及预训练权重，旨在利用 AI 提高天气预报的准确性和效率。 |
-| 6 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | JavaScript | 85.1k | 670 | 这是一个为 AI 编码代理提供生产级工程技能的项目。它将资深工程师的工作流程、质量门控和最佳实践编码为技能，通过 8 个斜杠命令（如 /spec, /plan, /build）标准化开发流程。支持 Claude、Cursor 等多种代理，旨在提高代码质量和开发效率，确保 AI 在每个阶段都遵循最佳实践。 |
-| 7 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 ... | Python | 61.2k | 287 | 这是一个基于大语言模型（LLM）的多市场股票智能分析系统，支持A股、港股、美股等。它聚合多源行情与新闻，生成AI决策报告，并通过Web或自动化推送（企业微信/飞书等）发送分析结果，支持零成本定时运行。 |
-| 8 | [goauthentik/authentik](https://github.com/goauthentik/authentik) | The authentication glue you need.... | Python | 24.3k | 312 | authentik 是一个开源的身份提供商，支持 SAML、OAuth2/OIDC、LDAP 和 RADIUS 等协议。它旨在替代 Okta 等企业级 IdP，支持从小型实验室到大规模生产集群的自托管部署。项目提供 Docker Compose、Kubernetes 和云原生等多种安装方式，适合需要统一身份认证管理的组织。 |
-| 9 | [google/skills](https://github.com/google/skills) | Agent Skills for Google products and technologies... | Python | 17.2k | 532 | 该项目为 Google 产品和技术提供 Agent Skills，包含 Google Cloud 等。支持通过 npx 安装特定技能，并捆绑了用于 agent harnesses 的产品插件（Skills + MCP 服务器）。代码遵循 Apache 2.0 许可证，处于积极开发中，欢迎社区贡献。 |
-| 10 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI,... | Python | 125.5k | 333 | ComfyUI 是一个强大的扩散模型 GUI 和后端，采用可视化节点图界面。它支持图像、视频、3D 等生成，具备高效本地执行、模型卸载及对最新开源和闭源模型的原生支持。用户无需编写代码即可构建复杂工作流，并可通过 API 集成到生产环境。 |
-| 11 | [harveyai/harvey-labs](https://github.com/harveyai/harvey-labs) | A benchmark built to evaluate and improve agent ca... | Python | 812 | 87 | Harvey LAB 是一个开源的法律智能体基准测试项目。它包含用于评估 LLM 智能体在真实法律环境（如并购数据室）中表现的数据集和执行框架。该项目旨在持续改进任务集和评估方法，为法律 AI 研究提供支持。 |
-| 12 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | ... | TypeScript | 17.6k | 208 | T3 Code 是一个开源的 AI 代理控制台，旨在通过移动端、Web 和桌面端应用统一管理 Claude、Codex、Cursor 等多个 AI 编程工具。它支持远程访问，提供高性能的开发体验，目前处于早期阶段。 |
+| 1 | [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | Graph-Native Infrastructure for Context and Accoun... | Python | 4.1k | 967 | 这是一个面向 AI 代理的原生图基础设施，旨在提供可解释、可追溯和可信的决策智能。它通过构建上下文图和知识图谱，支持因果推理和确定性推理，无需依赖 LLM 即可完成图构建和推理，确保决策的可审计性。 |
+| 2 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 141.8k | 1.4k | 这是一个包含多个专业化AI代理的项目，旨在集成到Claude Code、Cursor等开发工具中。每个代理都有独特的个性和专业领域，如前端开发或社区管理。项目提供了原生桌面应用和Shell脚本两种安装方式，方便用户一键部署和自动更新，打造永不疲倦的AI开发团队。 |
+| 3 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、... | Python | 61.0k | 215 | MediaCrawler 是一个功能强大的多平台自媒体数据采集工具，支持小红书、抖音、B站、微博等主流平台。基于 Playwright 浏览器自动化技术，无需复杂 JS 逆向即可获取签名参数。支持关键词搜索、评论爬取、主页采集及词云生成，适合学习爬虫架构与数据采集。 |
+| 4 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | JavaScript | 85.7k | 659 | 该项目为 AI 编码代理提供生产级工程技能，包含 8 个斜杠命令覆盖从定义到发布的全流程。通过标准化工作流、质量门控和最佳实践，帮助 AI 代理遵循最佳实践，提升代码质量和开发效率，支持 Claude Code、Cursor 等多种代理工具。 |
+| 5 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | The open-source app everyone uses to manage agents... | TypeScript | 76.4k | 167 | Paperclip 是一个开源的 AI 代理管理应用，旨在帮助企业团队编排和管理 AI 代理。它提供类似任务管理器的界面，支持定义目标、分配任务、监控预算和审计工作流。基于 Node.js 和 React 构建，允许用户将各种 AI 代理（如 Claude、Codex）组织起来，共同完成商业目标，实现自主 AI 公司的运营。 |
+| 6 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | A self-improving RLM agent for coding workflows an... | TypeScript | 13.0k | 2.7k | Prime Agent 是一个基于递归语言模型（RLM）和持续挂载（Continual Harness）的开源编码与研究代理。它具备持久化 REPL、子代理、技能及后台运行能力，支持长期自主任务，并能通过证据驱动的更新实现自我改进。 |
+| 7 | [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird) | Truly independent web browser... | C++ | 65.2k | 106 | Ladybird 是一个基于 Web 标准的真正独立网络浏览器，采用多进程架构（UI、渲染、解码等），旨在构建现代 Web 的完整浏览器。目前处于预-alpha 阶段，仅适合开发者使用。项目从 SerenityOS 继承了核心库支持，如 LibWeb、LibJS 和 LibGfx 等，支持 Linux、macOS 和 Windows (WSL2)。 |
+| 8 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView turns commodity WiFi signals into real-ti... | Rust | 89.4k | 186 | RuView 是一个基于 Rust 的 WiFi 感知平台，利用 WiFi 信号（CSI）实现无视频的穿墙检测、生命体征监测和活动识别。它支持与主流智能家居生态（Home Assistant, Apple Home 等）集成，无需摄像头或可穿戴设备即可感知房间内的人员存在、呼吸心率及异常行为。 |
+| 9 | [danielmiessler/LifeOS](https://github.com/danielmiessler/LifeOS) | ⛰️A General Hill-climbing AI harness that helps yo... | TypeScript | 17.9k | 357 | LifeOS 是一个通用 AI Harness，旨在帮助用户从当前状态迈向理想状态。它通过捕获用户的个人背景和目标，利用 AI 提供个性化指导。项目基于 TypeScript 开发，支持一键安装，可作为 Skill 集成到 Claude Code 等工具中，提升生活和工作的效率。 |
+| 10 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | The context API to search, scrape, and interact wi... | TypeScript | 165.0k | 815 | Firecrawl 是一个开源的 Web 上下文 API，旨在大规模搜索、抓取和交互网页。它覆盖 96% 的网页，支持 JS 渲染，提供 LLM 就绪的 Markdown 和 JSON 输出。项目自动处理代理、速率限制等复杂问题，支持媒体解析和网页交互（点击、滚动等），非常适合构建 AI 代理和动态应用。 |
+| 11 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 97.2k | 234 | TradingAgents 是一个基于多智能体架构的 LLM 金融交易框架。它利用 LangGraph 实现结构化代理（研究、交易、投资组合管理），支持多种大模型（GPT-5, Claude 4 等）和数据源。项目具备回测、情绪分析、风险管理及 Docker 部署能力，旨在通过 AI 智能体实现自动化金融决策。 |
+| 12 | [google-deepmind/weathernext](https://github.com/google-deepmind/weathernext) | ... | Python | 7.3k | 327 | Google DeepMind 开发的全球中尺度大气及气旋预测模型项目。包含 WeatherNext 2 (WN2) 及 GraphCast、GenCast 等前身模型。提供代码和预训练权重，支持 0.25° 分辨率（约30km）的天气与气旋预测。用户可通过 Google Cloud、WeatherLab 和 OpenMeteo 等平台获取预测数据。 |
+| 13 | [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag) | The ultimate RAG for your monorepo. Query, underst... | Python | 3.5k | 682 | 这是一个基于知识图谱的多语言代码库 RAG 系统。利用 Tree-sitter 解析代码，在 Memgraph 中构建结构化图谱。支持自然语言查询、基于 AST 的代码编辑、结构化搜索及数据流追踪，适用于复杂单体仓库的代码理解与优化。 |
+| 14 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | ... | TypeScript | 18.0k | 388 | T3 Code 是一个开源的 AI 代理控制台，旨在通过移动端、Web 和桌面端应用统一管理 Claude、Codex、Cursor 等多个 AI 编程助手。它提供了一个高性能、远程就绪且完全开源的控制界面，帮助开发者优化与 AI 代理的交互体验。 |
+| 15 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI,... | Python | 126.3k | 921 | ComfyUI 是一个基于 Python 的强大且模块化的扩散模型 GUI 和后端，采用节点图界面。它支持本地和云端执行，兼容多种主流模型（如 SDXL, Flux），能高效生成图像、视频、3D 模型和音频，并提供 API 便于集成到生产流程中。 |
+| 16 | [opa334/Dopamine](https://github.com/opa334/Dopamine) | Dopamine is a semi-untethered jailbreak for iOS 15... | C | 6.0k | 174 | Dopamine 是一款针对 iOS 15 至 iOS 26(.0.1) 的半无 tethered 越狱工具，支持 rootless 模式。它兼容多种设备架构（如 A12/A13 和 arm64/arm64e），旨在为较新的 iOS 版本提供系统级权限访问和自定义能力。 |
 
-[查看完整数据](api/github/2026-08-09.json)
+[查看完整数据](api/github/2026-08-10.json)
 <!-- END GITHUB TRENDING -->
 
 
