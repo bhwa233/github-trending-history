@@ -1,0 +1,377 @@
+{
+  "date": "2026-08-11",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 143148,
+      "forks": 23271,
+      "todayStars": 971,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "这是一个提供完整 AI 代理机构的 GitHub 项目，包含前端开发、社区运营等各领域的专家级 AI 代理。项目提供原生桌面应用和脚本，支持一键安装到 Claude Code、Cursor 等主流 AI 编码工具中。每个代理都具备独特个性、专业流程和可交付成果，旨在提升开发者的工作效率。",
+        "summary_en": "A collection of specialized AI agent personalities for coding tools like Claude Code and Cursor.",
+        "techStack": [
+          "Shell",
+          "macOS",
+          "Linux",
+          "Windows"
+        ],
+        "useCase": "为 Claude Code、Cursor 等开发工具安装专业 AI 代理，提升特定领域的开发效率。",
+        "useCase_en": "To install specialized AI agent personalities into various coding tools."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "semantica-agi/semantica",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "language": "Python",
+      "stars": 4843,
+      "forks": 526,
+      "todayStars": 884,
+      "url": "https://github.com/semantica-agi/semantica",
+      "aiSummary": {
+        "summary": "Semantica 是一个开源的原生图基础设施，旨在为 AI 代理提供可解释、可审计的决策智能。它通过构建上下文图和知识图谱，支持确定性推理和全链路可追溯性，无需依赖 LLM 即可完成图构建与推理。该平台支持 RDF 和 LPG 存储，专为金融、医疗等高利害受监管领域设计，确保数据主权与合规性。",
+        "summary_en": "Graph-native infrastructure for building accountable AI systems with provenance and causal reasoning.",
+        "techStack": [
+          "Python",
+          "Graph Database (RDF/LPG)",
+          "W3C Standards"
+        ],
+        "useCase": "为金融、医疗等受监管行业提供可解释、可审计的 AI 决策支持与数据治理。",
+        "useCase_en": "Provides a deterministic infrastructure layer for AI agents to ensure explainable, auditable decision-making in regulate"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "nvm-sh/nvm",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+      "language": "Shell",
+      "stars": 94483,
+      "forks": 10353,
+      "todayStars": 18,
+      "url": "https://github.com/nvm-sh/nvm",
+      "aiSummary": {
+        "summary": "nvm 是一个 POSIX 兼容的 bash 脚本，用于管理多个活动的 Node.js 版本。它允许用户在命令行中快速安装、切换和卸载不同版本的 Node.js，支持 bash、zsh 等多种 shell 环境。该工具非常适合需要在多个 Node.js 版本间切换的开发者，以确保项目兼容性和开发效率。",
+        "summary_en": "A POSIX-compliant shell script for managing multiple Node.js versions.",
+        "techStack": [
+          "Shell",
+          "Bash",
+          "Node.js",
+          "POSIX"
+        ],
+        "useCase": "开发者需要在同一台机器上维护多个 Node.js 版本以进行兼容性测试或项目开发。",
+        "useCase_en": "To install and switch between different Node.js versions on POSIX systems."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 86205,
+      "forks": 9263,
+      "todayStars": 571,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供生产级工程技能，将资深工程师的工作流程、质量门禁和最佳实践封装为 8 个斜杠命令（如 /spec, /build, /ship），覆盖开发全生命周期。支持自动激活技能，可集成至 Claude Code、Cursor 等多种代理工具中，提升代码质量和开发效率。",
+        "summary_en": "A library of engineering skills for AI coding agents to follow best practices.",
+        "techStack": [
+          "JavaScript",
+          "CLI",
+          "AI Agent Integration"
+        ],
+        "useCase": "为 AI 编码代理提供标准化的工程工作流程和质量门禁，适用于自动化代码生成与全栈开发。",
+        "useCase_en": "To standardize engineering workflows and best practices for AI coding agents."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "stars": 62107,
+      "forks": 52420,
+      "todayStars": 317,
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "aiSummary": {
+        "summary": "这是一个基于大语言模型（LLM）的多市场股票智能分析系统，支持A股、港股、美股等全球主要市场。它通过聚合多源行情、新闻和公告，生成包含评分、趋势和操作建议的AI决策报告，并自动推送至企业微信、飞书等平台。支持零成本部署，适合个人投资者进行自动化选股与决策辅助。",
+        "summary_en": "An AI-powered multi-market stock analysis system that aggregates data, generates decision dashboards, and pushes automated alerts.",
+        "techStack": [
+          "Python",
+          "LLM (OpenAI/DeepSeek/Claude)",
+          "Data Sources (AkShare/Tushare/YFinance)",
+          "FastAPI",
+          "GitHub Actions"
+        ],
+        "useCase": "适合需要自动化股票分析、多市场监控及智能决策辅助的个人投资者或量化爱好者。",
+        "useCase_en": "Automate stock analysis across multiple global markets and receive AI-generated decision reports via instant messaging a"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "vitali87/code-graph-rag",
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "language": "Python",
+      "stars": 3802,
+      "forks": 560,
+      "todayStars": 339,
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的多语言代码库 RAG 系统。它利用 Tree-sitter 和 Memgraph 构建代码知识图谱，支持自然语言查询、基于 AST 的编辑和优化。具备结构化搜索、数据流追踪及死代码检测功能，适用于大型 monorepo 的代码理解和维护。",
+        "summary_en": "A Python-based RAG system that builds knowledge graphs of multi-language codebases for AI-driven querying and editing.",
+        "techStack": [
+          "Python",
+          "Tree-sitter",
+          "Memgraph",
+          "AST-grep"
+        ],
+        "useCase": "适用于大型多语言 Monorepo 的代码理解、智能查询、结构化重构及代码优化。",
+        "useCase_en": "Query and edit complex multi-language codebases using natural language and knowledge graphs."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 168114,
+      "forks": 20029,
+      "todayStars": 468,
+      "url": "https://github.com/anthropics/skills",
+      "aiSummary": {
+        "summary": "这是 Anthropic 官方维护的 Claude Agent Skills 公共仓库。项目包含一系列用于提升 Claude 特定任务性能的技能，涵盖创意、技术及企业工作流。每个技能以独立文件夹和 SKILL.md 文件形式存在，展示了如何通过指令和脚本动态增强 AI 能力，供开发者参考和学习。",
+        "summary_en": "Anthropic's repository demonstrating Claude's Agent Skills for dynamic task performance.",
+        "techStack": [
+          "Python",
+          "Markdown"
+        ],
+        "useCase": "为 Claude 提供特定任务能力的动态加载模块，用于演示和开发 AI 智能体技能。",
+        "useCase_en": "To dynamically load instructions and resources to improve Claude's performance on specialized tasks."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "3b1b/manim",
+      "description": "Animation engine for explanatory math videos",
+      "language": "Python",
+      "stars": 90158,
+      "forks": 7478,
+      "todayStars": 246,
+      "url": "https://github.com/3b1b/manim",
+      "aiSummary": {
+        "summary": "Manim 是由 3Blue1Brown 作者创建的精确程序化动画引擎，专为制作解释性数学视频设计。该仓库为 ManimGL 版本，基于 Python 开发，依赖 FFmpeg、OpenGL 和 LaTeX，用于生成高质量的数学可视化动画。",
+        "summary_en": "ManimGL is a precise programmatic animation engine for creating explanatory math videos.",
+        "techStack": [
+          "Python",
+          "FFmpeg",
+          "OpenGL",
+          "LaTeX",
+          "Pango"
+        ],
+        "useCase": "专为制作高质量的数学教学和可视化视频设计。",
+        "useCase_en": "Used to generate precise programmatic animations for explanatory math videos."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "language": "Python",
+      "stars": 34679,
+      "forks": 4417,
+      "todayStars": 829,
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "aiSummary": {
+        "summary": "DeepTutor 是一个终身个性化辅导系统，集成了多种大语言模型（如 OpenAI、Gemini）和知识库，支持 RAG 检索增强生成。项目包含 101 个 CLI 应用，支持 MCP 协议，具备长期记忆功能，提供主题化和移动端支持，旨在为用户提供智能、个性化的学习体验。",
+        "summary_en": "Lifelong personalized tutoring platform powered by LLMs and RAG.",
+        "techStack": [
+          "Python",
+          "LLM",
+          "RAG",
+          "MCP"
+        ],
+        "useCase": "个性化在线教育、AI 智能辅导、终身学习助手",
+        "useCase_en": "An AI tutor that provides lifelong personalized learning using LLMs and RAG."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "stablyai/orca",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "language": "TypeScript",
+      "stars": 42733,
+      "forks": 2979,
+      "todayStars": 881,
+      "url": "https://github.com/stablyai/orca",
+      "aiSummary": {
+        "summary": "Orca 是一款面向高产开发者的 AI 编排工具，支持并行运行 Codex、ClaudeCode 等多个编码代理。它提供移动伴侣、终端分割、设计模式、Git 工作树管理及 GitHub/Linear 集成，帮助用户在隔离环境中对比和合并代理结果，提升开发效率。",
+        "summary_en": "An AI orchestrator for running multiple coding agents in parallel worktrees to compare results and manage workflows.",
+        "techStack": [
+          "TypeScript",
+          "WebGL",
+          "Git"
+        ],
+        "useCase": "需要并行测试和对比多个 AI 编码代理结果的高效开发者。",
+        "useCase_en": "Manage and orchestrate a fleet of parallel AI coding agents to compare outputs and streamline development workflows."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 77139,
+      "forks": 14248,
+      "todayStars": 743,
+      "url": "https://github.com/paperclipai/paperclip",
+      "aiSummary": {
+        "summary": "Paperclip 是一个开源的 AI 代理团队编排平台，基于 Node.js 和 React 构建。它允许用户定义业务目标，雇佣并协调多个 AI 代理（如 Claude、Codex）完成工作，同时提供预算管理、工作审计和进度监控功能。它将 AI 代理管理转化为类似任务管理器的体验，适合希望构建自主 AI 公司或高效管理多代理协作的用户。",
+        "summary_en": "Open-source orchestration platform for teams of AI agents to manage autonomous businesses.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "React"
+        ],
+        "useCase": "用于协调多个 AI 代理（如 Claude、Codex）以实现业务目标，构建自主 AI 公司，并管理代理的成本与工作进度。",
+        "useCase_en": "To orchestrate autonomous AI agents for business operations, budgeting, and goal tracking."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "language": "Python",
+      "stars": 163793,
+      "forks": 34200,
+      "todayStars": 69,
+      "url": "https://github.com/huggingface/transformers",
+      "aiSummary": {
+        "summary": "这是一个由 Hugging Face 开发的最先进机器学习模型定义框架，支持文本、视觉、音频、视频及多模态模型。它统一了模型定义，兼容 PyTorch、DeepSpeed 等多种训练框架和 vLLM 等推理引擎。项目提供了超过百万个预训练模型检查点，通过 Pipeline API 简化推理流程，旨在民主化 AI 模型的使用。",
+        "summary_en": "Framework for state-of-the-art ML models in text, vision, audio, and multimodal tasks.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Rust"
+        ],
+        "useCase": "用于构建和部署文本、视觉、音频及多模态的最先进机器学习模型，支持推理与训练。",
+        "useCase_en": "Use it to run state-of-the-art pretrained models for inference and training across text, vision, and audio."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "harveyai/harvey-labs",
+      "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work.",
+      "language": "Python",
+      "stars": 1074,
+      "forks": 195,
+      "todayStars": 24,
+      "url": "https://github.com/harveyai/harvey-labs",
+      "aiSummary": {
+        "summary": "Harvey LAB 是一个开源的法律智能体基准测试项目。它包含真实法律任务的数据集和执行框架，旨在评估 LLM 智能体在并购等法律工作中的能力。项目提供端到端的评估流程，包括任务设置、运行、评分和报告生成，支持持续更新和贡献。",
+        "summary_en": "Harvey LAB is an open-source benchmark for evaluating LLM agents on real legal work tasks.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "评估 LLM 智能体在真实法律环境（如并购尽职调查）中的表现。",
+        "useCase_en": "Benchmark LLM agents on realistic legal work tasks like M&A data-room assignments."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "jaywcjlove/awesome-mac",
+      "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+      "language": "Swift",
+      "stars": 110451,
+      "forks": 8415,
+      "todayStars": 334,
+      "url": "https://github.com/jaywcjlove/awesome-mac",
+      "aiSummary": {
+        "summary": "这是一个专注于 macOS 软件的精选列表，按类别系统化组织，旨在帮助用户发现和获取高质量的应用程序。项目维护活跃，拥有庞大的社区支持。",
+        "summary_en": "A curated list of high-quality macOS software organized by categories for easy discovery.",
+        "techStack": [
+          "Markdown"
+        ],
+        "useCase": "适合 macOS 用户寻找优质软件推荐和分类浏览。",
+        "useCase_en": "Users can easily discover and browse high-quality macOS applications by category."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "stars": 47306,
+      "forks": 5900,
+      "todayStars": 436,
+      "url": "https://github.com/calesthio/OpenMontage",
+      "aiSummary": {
+        "summary": "这是一个开源的代理驱动视频制作系统，旨在将 AI 编码助手转变为完整的视频制作工作室。它包含 12 条生产管线和 700+ 代理技能文件，能通过自然语言描述自动完成研究、脚本编写、资产生成、剪辑及合成。其独特之处在于不仅能制作基于图像的视频，还能通过代理从免费素材库检索真实运动片段并渲染成片，实现低成本高质量的视频创作。",
+        "summary_en": "Open-source agentic video production system turning AI coding assistants into full video studios with 12 pipelines.",
+        "techStack": [
+          "Python",
+          "Remotion",
+          "Veo",
+          "Kling v3",
+          "Google Chirp3-HD"
+        ],
+        "useCase": "将 AI 编码助手转化为全功能的视频制作工作室，实现从脚本到成片的自动化生产。",
+        "useCase_en": "Transform AI coding assistants into full video production studios to create cinematic trailers, animated shorts, and doc"
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "practical-tutorials/project-based-learning",
+      "description": "Curated list of project-based tutorials",
+      "language": "Python",
+      "stars": 278426,
+      "forks": 35778,
+      "todayStars": 394,
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "aiSummary": {
+        "summary": "该项目汇集了精选的项目导向教程，旨在帮助开发者从零开始构建应用程序。教程涵盖多种编程语言，内容涉及操作系统、编译器、解释器、数据库及游戏开发等复杂项目，是提升实战能力的优质资源库。",
+        "summary_en": "A curated list of project-based tutorials for various programming languages, helping developers build applications from scratch.",
+        "techStack": [
+          "C",
+          "C++",
+          "Go",
+          "Rust",
+          "Java"
+        ],
+        "useCase": "适合希望通过实战项目从零开始构建应用程序的开发者，涵盖操作系统、编译器及数据库等高级主题。",
+        "useCase_en": "Aspiring software developers use this repository to find curated project-based tutorials to build applications from scra"
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "language": "TypeScript",
+      "stars": 14062,
+      "forks": 1450,
+      "todayStars": 1148,
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "aiSummary": {
+        "summary": "Prime Agent 是一个基于递归语言模型（RLM）的开源编码与研究代理。它通过持久化的 REPL 和 Harness 状态，支持程序化工具调用、子代理并行工作及自我改进。结合 Python 环境，它能处理长期任务、后台运行和代理间通信，适合复杂且持续迭代的开发与研究场景。",
+        "summary_en": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+        "techStack": [
+          "TypeScript",
+          "Python"
+        ],
+        "useCase": "适用于复杂的编码工作流、长期自主任务及需要自我改进的研究项目。",
+        "useCase_en": "Automate complex coding workflows and long-running autonomous research tasks."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-11T23:55:17.544Z",
+    "duration": "499s",
+    "version": "1.0.0"
+  }
+}
