@@ -1,0 +1,379 @@
+{
+  "date": "2026-08-12",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "language": "HTML",
+      "stars": 10227,
+      "forks": 668,
+      "todayStars": 2951,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aiSummary": {
+        "summary": "这是一个专为 Claude Code 设计的 27 种编辑类图表库。项目提供自包含的 HTML + SVG，包含极简、深色和全编辑三种风格。支持品牌定制（读取网站配色）及从 Mermaid 导入，旨在生成高质量、非通用的图表，无需 Figma 或复杂构建步骤。",
+        "summary_en": "A collection of 27 editorial diagram types for Claude Code, generated as self-contained HTML and SVG files.",
+        "techStack": [
+          "HTML",
+          "SVG"
+        ],
+        "useCase": "用于 Claude Code 快速生成高质量、符合品牌风格的架构图、流程图及数据模型。",
+        "useCase_en": "Generate professional, editorial-style diagrams for technical documentation and architecture sketches."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "macro-inc/macro",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "language": "Rust",
+      "stars": 1753,
+      "forks": 221,
+      "todayStars": 325,
+      "url": "https://github.com/macro-inc/macro",
+      "aiSummary": {
+        "summary": "Macro 是一个为团队设计的统一工作空间，集成了邮件、消息、文档、任务、CRM 和 AI 代理。它通过共享的团队级内存和 @ 链接将所有工具连接成一个单一系统，旨在成为团队的“操作系统”。项目采用 Rust 和 SolidJS 构建，强调速度和可靠性，采用模块化“块”设计，支持实时协作和双向图存储。",
+        "summary_en": "A unified workspace integrating email, chat, docs, tasks, and CRM with shared AI memory.",
+        "techStack": [
+          "Rust",
+          "SolidJS",
+          "CRDTs"
+        ],
+        "useCase": "适合需要整合分散工具的初创公司或团队，作为提升协作效率和工作流管理的统一操作系统。",
+        "useCase_en": "Small companies use this as a unified operating system to manage communication and tasks."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "semantica-agi/semantica",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "language": "Python",
+      "stars": 5688,
+      "forks": 623,
+      "todayStars": 834,
+      "url": "https://github.com/semantica-agi/semantica",
+      "aiSummary": {
+        "summary": "这是一个面向 AI 代理的原生图基础设施，旨在解决 AI 决策缺乏可解释性和可审计性的问题。它提供决策智能、确定性推理和端到端可追溯性，支持 RDF 和 LPG 图存储。专为金融、医疗等高利害受监管领域设计，确保数据主权和合规性，是 AI 平台团队和合规团队的理想选择。",
+        "summary_en": "Open-source infrastructure for building accountable AI systems using knowledge graphs and causal reasoning.",
+        "techStack": [
+          "Python",
+          "RDF",
+          "LPG (Graph Database)"
+        ],
+        "useCase": "适用于需要高可解释性、可审计性和数据主权的金融、医疗等受监管行业 AI 平台团队。",
+        "useCase_en": "To build explainable and auditable AI agents by managing context and decision provenance in regulated industries."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "stablyai/orca",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "language": "TypeScript",
+      "stars": 43830,
+      "forks": 3053,
+      "todayStars": 1215,
+      "url": "https://github.com/stablyai/orca",
+      "aiSummary": {
+        "summary": "Orca 是一个用于管理并行 AI 编码代理的 ADE。它允许用户同时运行 Codex、ClaudeCode 等多个代理，每个代理拥有独立的工作树。支持移动端监控、WebGL 终端、设计模式、Git 集成及 SSH 远程执行。旨在通过并行化和集中管理加速开发流程。",
+        "summary_en": "Orca is an AI orchestrator for managing parallel coding agents in isolated worktrees across desktop, mobile, and VPS.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "WebGL"
+        ],
+        "useCase": "需要同时运行多个 AI 编码代理进行并行测试和代码审查的开发者。",
+        "useCase_en": "Manage and orchestrate multiple AI coding agents in parallel worktrees to compare results and merge the winner."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 144542,
+      "forks": 23416,
+      "todayStars": 1969,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "这是一个包含多种专业AI代理的集合，旨在为用户提供全方位的AI助手团队。项目支持通过原生应用或脚本将各类专家代理（如前端开发、Reddit运营等）安装到Claude Code、Cursor等主流AI编程工具中。每个代理都具备独特的个性、专业流程和可交付成果，帮助用户提升工作效率。",
+        "summary_en": "A collection of specialized AI agent personalities for coding environments like Claude Code and Cursor.",
+        "techStack": [
+          "Shell",
+          "macOS",
+          "Linux",
+          "Windows",
+          "Claude Code"
+        ],
+        "useCase": "为AI编程工具安装具备特定专业技能的AI代理，构建个性化的自动化工作流。",
+        "useCase_en": "Install specialized AI agent personalities into coding environments like Claude Code and Cursor."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 36934,
+      "forks": 6149,
+      "todayStars": 277,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融数据的高噪声特性设计。它采用两阶段框架，通过专用分词器将 OHLCV 数据量化为离散标记，再利用自回归 Transformer 进行预训练。项目提供多种模型规模，支持量化预测，已被 AAAI 2026 录用。",
+        "summary_en": "Open-source foundation model for financial candlesticks trained on data from 45+ global exchanges using a novel tokenizer and transformer architecture.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Hugging Face Hub",
+          "OHLCV"
+        ],
+        "useCase": "金融时间序列预测、量化交易策略开发、市场趋势分析",
+        "useCase_en": "A unified model for diverse quantitative financial tasks, including forecasting market trends."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "stars": 61953,
+      "forks": 12121,
+      "todayStars": 236,
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "aiSummary": {
+        "summary": "MediaCrawler 是一款功能强大的多平台自媒体数据采集工具，支持小红书、抖音、B站等主流平台。项目基于 Playwright 浏览器自动化框架，利用登录态缓存和 CDP 模式，无需复杂 JS 逆向即可实现搜索、评论及主页信息抓取。项目还提供 Pro 版本，支持断点续爬与 Agent 功能，适合学习爬虫架构与全栈开发。",
+        "summary_en": "A multi-platform web scraping tool for social media content using Playwright automation and browser automation.",
+        "techStack": [
+          "Python",
+          "Playwright",
+          "Node.js",
+          "Chrome"
+        ],
+        "useCase": "用于学习主流社交媒体平台的数据抓取技术及爬虫架构设计。",
+        "useCase_en": "Used to collect public data from social media platforms like Douyin, Bilibili, and Xiaohongshu."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "hugohe3/ppt-master",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "language": "Python",
+      "stars": 45535,
+      "forks": 3713,
+      "todayStars": 364,
+      "url": "https://github.com/hugohe3/ppt-master",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的开源项目，利用 AI（如 Kimi K3）将文档、网页或主题自动转换为原生可编辑的 PowerPoint 演示文稿。它支持生成原生形状、动画、图表、表格及音频旁白，并允许使用自定义模板。项目旨在通过 AI 大幅提升 PPT 制作效率，降低内容创作门槛。",
+        "summary_en": "An open-source Python tool leveraging AI to generate native, editable PowerPoint presentations from documents or topics.",
+        "techStack": [
+          "Python",
+          "python-pptx (推测)",
+          "AI API (Kimi/OpenAI/Claude)"
+        ],
+        "useCase": "适用于需要快速生成高质量、数据驱动演示文稿的场景，如报告制作、学术汇报或商业路演。",
+        "useCase_en": "Automate the creation of professional PowerPoint presentations from documents or topics using AI."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "stars": 87532,
+      "forks": 10309,
+      "todayStars": 182,
+      "url": "https://github.com/infiniflow/ragflow",
+      "aiSummary": {
+        "summary": "RAGFlow 是一个领先的开源 RAG 引擎，融合了前沿 RAG 与 Agent 能力，为 LLMs 提供卓越上下文层。它拥有收敛的上下文引擎和预构建 Agent 模板，支持多模态模型、多渠道接入及复杂文档解析，能将复杂数据转化为高保真、生产就绪的 AI 系统，适用于各类企业级应用。",
+        "summary_en": "Open-source RAG engine fusing Retrieval-Augmented Generation with Agent capabilities for high-fidelity LLM context.",
+        "techStack": [
+          "Go",
+          "Docker",
+          "RAG",
+          "Agent",
+          "Multi-modal"
+        ],
+        "useCase": "适用于企业级知识库构建、智能问答及复杂文档解析的 AI 应用开发。",
+        "useCase_en": "Developers use this to build production-ready AI systems by transforming complex data into high-fidelity context layers "
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 77709,
+      "forks": 14298,
+      "todayStars": 573,
+      "url": "https://github.com/paperclipai/paperclip",
+      "aiSummary": {
+        "summary": "Paperclip 是一个开源的 AI 代理编排平台，旨在帮助团队管理和协调多个 AI 代理。它提供类似任务管理器的界面，允许用户定义业务目标、分配角色（如 CEO、CTO）、设置预算并审计工作。基于 Node.js 和 React 构建，支持 24/7 自主运行，适合构建自主 AI 公司或管理复杂的多代理协作流程。",
+        "summary_en": "Open-source orchestration platform for teams of AI agents to manage business goals and costs.",
+        "techStack": [
+          "Node.js",
+          "React",
+          "TypeScript"
+        ],
+        "useCase": "适用于构建自主 AI 公司，或协调多个 AI 代理团队以实现特定业务目标。",
+        "useCase_en": "Coordinate multiple AI agents to execute business goals while monitoring costs and auditing work."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "NVIDIA-NeMo/Switchyard",
+      "description": "",
+      "language": "Rust",
+      "stars": 807,
+      "forks": 83,
+      "todayStars": 370,
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+      "aiSummary": {
+        "summary": "Switchyard 是一个用 Rust 编写的 LLM 流量代理与库。它支持 OpenAI、Anthropic 和 OpenAI Responses 格式间的协议转换，允许编码代理与开源模型（如 vLLM、NVIDIA NIM）通信。项目提供多后端路由、信号驱动路由及 Prometheus 指标，但当前处于 Pre-alpha 阶段，不建议用于生产环境。",
+        "summary_en": "A Rust-based proxy and library for LLM traffic that translates APIs and routes requests.",
+        "techStack": [
+          "Rust",
+          "OpenAI API",
+          "Anthropic API",
+          "Prometheus"
+        ],
+        "useCase": "在开源模型上运行编码代理，或对 LLM 进行 A/B 测试与流量路由。",
+        "useCase_en": "Route LLM traffic across multiple providers while translating between OpenAI and Anthropic API formats."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "ZuodaoTech/everyone-can-use-english",
+      "description": "人人都能用英语",
+      "language": "TypeScript",
+      "stars": 36055,
+      "forks": 5027,
+      "todayStars": 53,
+      "url": "https://github.com/ZuodaoTech/everyone-can-use-english",
+      "aiSummary": {
+        "summary": "这是一个名为 Enjoy 的 AI 英语学习项目，旨在帮助用户提升英语能力。项目提供网页版、浏览器插件（支持 YouTube 和 Netflix）以及即将推出的桌面版。它结合了 AI 辅助教学和经典英语学习教材，提供全方位的英语学习体验。",
+        "summary_en": "An AI-powered English learning platform offering web, browser, and desktop tools for language practice.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合利用 AI 辅助工具进行沉浸式英语听说读写能力提升的学习者。",
+        "useCase_en": "Practice English speaking and listening using AI-powered tools on the web, browser, or desktop."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "smicallef/spiderfoot",
+      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+      "language": "Python",
+      "stars": 20337,
+      "forks": 3298,
+      "todayStars": 40,
+      "url": "https://github.com/smicallef/spiderfoot",
+      "aiSummary": {
+        "summary": "SpiderFoot 是一个开源 OSINT 自动化工具，利用 Python 集成数百个外部数据源（如 Abuse.ch、AlienVault、Archive.org 等）。它自动收集目标（域名、IP、社交媒体）的情报，用于威胁情报分析、攻击面映射及安全风险评估。",
+        "summary_en": "SpiderFoot automates OSINT to map attack surfaces and identify threats.",
+        "techStack": [
+          "Python",
+          "OSINT",
+          "API Integration"
+        ],
+        "useCase": "威胁情报收集、攻击面映射与安全审计",
+        "useCase_en": "Automate open-source intelligence gathering to map attack surfaces and identify threats."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "localsend/localsend",
+      "description": "An open-source cross-platform alternative to AirDrop",
+      "language": "Dart",
+      "stars": 87796,
+      "forks": 4870,
+      "todayStars": 284,
+      "url": "https://github.com/localsend/localsend",
+      "aiSummary": {
+        "summary": "LocalSend 是一款开源免费的跨平台文件传输工具，旨在替代 AirDrop。它利用本地网络和 REST API 进行设备间通信，无需互联网连接或第三方服务器，支持 Android、iOS、macOS、Windows 和 Linux 等多平台，确保数据安全快速传输。",
+        "summary_en": "An open-source, cross-platform app for secure local file sharing without internet.",
+        "techStack": [
+          "Dart",
+          "REST API",
+          "HTTPS"
+        ],
+        "useCase": "适用于在无互联网环境下，设备间快速、安全地传输文件和消息。",
+        "useCase_en": "Transfer files and messages between nearby devices on a local network without an internet connection."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "Lightricks/LTX-2",
+      "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+      "language": "Python",
+      "stars": 8699,
+      "forks": 1396,
+      "todayStars": 40,
+      "url": "https://github.com/Lightricks/LTX-2",
+      "aiSummary": {
+        "summary": "这是 LTX-2 音频-视频生成模型的官方 Python 推理和 LoRA 训练包。LTX-2 是首个基于 DiT 的音频-视频基础模型，支持同步音频与视频生成、高保真输出及多种性能模式。项目提供了快速安装和模型下载指南，支持 Linux + CUDA 环境下的高效推理，适用于生产级 AI 视频内容创作。",
+        "summary_en": "Official Python inference and training package for the LTX-2 audio-video generative model.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Natten",
+          "Triton",
+          "Hugging Face"
+        ],
+        "useCase": "音频-视频生成、AI 视频内容创作",
+        "useCase_en": "Generate synchronized audio and video content using the LTX-2 generative model."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "embabel/embabel-agent",
+      "description": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/",
+      "language": "Kotlin",
+      "stars": 4219,
+      "forks": 411,
+      "todayStars": 29,
+      "url": "https://github.com/embabel/embabel-agent",
+      "aiSummary": {
+        "summary": "Embabel 是一个由 Spring 创始人开发的 JVM 智能代理框架。它将 LLM 提示与代码和领域模型无缝结合，支持智能寻路和动态规划（OODA 循环）。框架超越了传统的有限状态机，通过非 LLM 算法实现复杂规划，具备强大的可扩展性和类型安全性，适用于构建混合 AI 与代码的智能应用。",
+        "summary_en": "JVM agent framework for authoring agentic flows mixing LLM interactions with code and dynamic planning.",
+        "techStack": [
+          "Kotlin",
+          "JVM",
+          "LLM",
+          "Spring"
+        ],
+        "useCase": "构建混合 LLM 与代码的智能代理流程，实现复杂任务的动态规划与自适应执行。",
+        "useCase_en": "To create agentic flows on the JVM that combine LLM interactions with code and dynamic planning."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "language": "Python",
+      "stars": 4203,
+      "forks": 303,
+      "todayStars": 346,
+      "url": "https://github.com/cactus-compute/needle",
+      "aiSummary": {
+        "summary": "Needle 2 是一款专为边缘设备设计的轻量级 45M 参数模型，仅 14MB 大小。基于 Simple Attention Network 架构，支持工具调用、设备使用及结构化提取。提供 Python 推理与微调接口，具备置信度门控和内存管理功能，适合手机、可穿戴设备等资源受限环境。",
+        "summary_en": "Lightweight 14MB Python model for tool calling and structured extraction on edge devices.",
+        "techStack": [
+          "Python",
+          "Simple Attention Network",
+          "Cactus Quants",
+          "LoRA"
+        ],
+        "useCase": "适用于手机、可穿戴设备、智能家居及机器人等资源受限的边缘计算场景。",
+        "useCase_en": "Enabling AI agents to perform tool calling and structured extraction on resource-constrained edge devices."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-12T23:52:41.052Z",
+    "duration": "344s",
+    "version": "1.0.0"
+  }
+}
