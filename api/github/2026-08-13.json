@@ -1,0 +1,374 @@
+{
+  "date": "2026-08-13",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "language": "HTML",
+      "stars": 14368,
+      "forks": 859,
+      "todayStars": 4504,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 提供的 27 种编辑类图表库，包含架构、流程图、状态机等多种类型。项目提供自包含的 HTML 和 SVG，设计注重编辑类质量，支持静态输出和可选动画，可重绘 draw.io/Mermaid 源文件。",
+        "summary_en": "A collection of 27 editorial diagram types for Claude Code, built with self-contained HTML and SVG.",
+        "techStack": [
+          "HTML",
+          "SVG",
+          "Claude Code"
+        ],
+        "useCase": "适合 Claude Code 用户快速生成高质量、品牌化的技术架构图和流程图。",
+        "useCase_en": "Developers use this to generate high-quality, editorial diagrams for Claude Code without needing Figma."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "semantica-agi/semantica",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "language": "Python",
+      "stars": 6606,
+      "forks": 696,
+      "todayStars": 727,
+      "url": "https://github.com/semantica-agi/semantica",
+      "aiSummary": {
+        "summary": "Semantica 是一个开源的原生图基础设施，旨在为 AI 系统提供上下文和可问责性。它允许用户摄取企业数据，构建知识图谱，并执行因果推理和图分析。它强调决策可追溯性和可解释性，旨在解决 AI 代理缺乏审计跟踪的问题，特别适用于金融、医疗等高风险受监管领域。",
+        "summary_en": "Graph-native infrastructure for accountable AI systems with full decision provenance and explainability.",
+        "techStack": [
+          "Python",
+          "RDF",
+          "LPG (Graph Database)",
+          "Vector Database",
+          "Deterministic Reasoning"
+        ],
+        "useCase": "适用于金融、医疗等高风险受监管行业，以及需要可解释 AI 决策和审计跟踪的 AI/ML 平台团队。",
+        "useCase_en": "Provides deterministic infrastructure for building explainable and auditable AI agents in regulated industries."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 168999,
+      "forks": 20127,
+      "todayStars": 383,
+      "url": "https://github.com/anthropics/skills",
+      "aiSummary": {
+        "summary": "Anthropic 官方维护的 Claude Agent Skills 公开仓库。Skills 是包含指令、脚本和资源的文件夹，用于动态提升 Claude 在特定任务（如文档处理、数据分析、自动化）上的表现。包含 Apache 2.0 开源示例及文档处理技能源码参考。",
+        "summary_en": "Anthropic's repository of reusable skills for Claude to perform specialized tasks.",
+        "techStack": [
+          "Python",
+          "Markdown"
+        ],
+        "useCase": "为 Claude 创建自定义技能、学习 Agent Skills 标准及参考文档处理实现。",
+        "useCase_en": "To provide reusable skills and instructions for Claude to perform specialized tasks like document creation and automatio"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "language": "Python",
+      "stars": 4935,
+      "forks": 333,
+      "todayStars": 768,
+      "url": "https://github.com/cactus-compute/needle",
+      "aiSummary": {
+        "summary": "Needle 2 是一个专为小设备设计的轻量级大模型，仅 14MB，运行内存约 28MB。它基于 Simple Attention Network 和 CQ2-bit 压缩技术，支持工具调用、设备使用和结构化提取。项目提供 Python 包，包含推理、LoRA 微调及导出功能，具有自包含、置信度门控和内存限制等特性，适合手机、可穿戴设备和机器人。",
+        "summary_en": "45M-parameter model optimized for tiny devices, enabling tool calling and structured extraction with minimal memory footprint.",
+        "techStack": [
+          "Python",
+          "Simple Attention Network",
+          "CQ2-bit (Cactus Quants)"
+        ],
+        "useCase": "手机、可穿戴设备、智能家居及机器人的轻量级推理与工具调用",
+        "useCase_en": "Deploying AI on resource-constrained devices like phones and robots for tool calling and structured data extraction."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "altic-dev/FluidVoice",
+      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
+      "language": "Swift",
+      "stars": 9839,
+      "forks": 663,
+      "todayStars": 187,
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "aiSummary": {
+        "summary": "FluidVoice 是一款专为 macOS 设计的极速语音转文字应用。它支持本地离线语音识别（STT），并集成了名为“Fluid Intelligence”的本地 AI 模型，提供智能格式化、上下文感知大写等增强功能。无需云端 API，保护隐私，完全开源。",
+        "summary_en": "Fastest macOS dictation app featuring on-device STT and local AI enhancement.",
+        "techStack": [
+          "Swift",
+          "macOS",
+          "Parakeet",
+          "本地 AI 模型"
+        ],
+        "useCase": "适用于需要在 macOS 上进行快速、隐私保护的语音输入和笔记记录的用户。",
+        "useCase_en": "To provide a private, on-device voice-to-text dictation experience for macOS users."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "unslothai/unsloth",
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "language": "Python",
+      "stars": 71034,
+      "forks": 6405,
+      "todayStars": 354,
+      "url": "https://github.com/unslothai/unsloth",
+      "aiSummary": {
+        "summary": "Unsloth 是一款本地桌面应用，旨在高效运行和训练 LLM 及扩散模型。它提供 2 倍训练速度和 70% 显存优化，支持 Qwen、Gemma 等多种模型，具备 RAG、工具调用及远程访问功能，兼容多平台硬件。",
+        "summary_en": "A desktop application for running and training LLMs and diffusion models locally with high efficiency.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "本地 AI 模型训练、微调与离线推理开发",
+        "useCase_en": "Run and train AI models locally on personal hardware for privacy and cost savings."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "macro-inc/macro",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "language": "Rust",
+      "stars": 2585,
+      "forks": 276,
+      "todayStars": 1180,
+      "url": "https://github.com/macro-inc/macro",
+      "aiSummary": {
+        "summary": "Macro 是一个为团队打造的统一工作空间，整合了邮件、聊天、文档、任务、CRM 和 AI 代理。它采用模块化“块”设计，支持实时协作和双向链接。使用 Rust 和 SolidJS 构建，旨在成为团队的工作操作系统。",
+        "summary_en": "Macro is a unified workspace for teams combining email, chat, docs, and tasks with shared AI memory.",
+        "techStack": [
+          "Rust",
+          "SolidJS"
+        ],
+        "useCase": "适合需要整合分散工具的初创公司或团队，作为统一的工作操作系统。",
+        "useCase_en": "A unified operating system for teams to manage email, chat, docs, and tasks without switching tools."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "megadose/holehe",
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "language": "Python",
+      "stars": 12408,
+      "forks": 1667,
+      "todayStars": 166,
+      "url": "https://github.com/megadose/holehe",
+      "aiSummary": {
+        "summary": "这是一个用于开源情报（OSINT）的 Python 工具，能够检查电子邮件是否在超过 120 个网站（如 Twitter、Instagram）上注册。它通过“忘记密码”功能检索账户信息，包括恢复邮箱和电话号码，且不会通知目标用户。支持命令行和 Python 库集成。",
+        "summary_en": "A Python tool to check if an email is registered on various websites and retrieve account information using the forgotten password function.",
+        "techStack": [
+          "Python",
+          "httpx",
+          "trio",
+          "Docker"
+        ],
+        "useCase": "用于检查电子邮件泄露情况及收集账户恢复信息的 OSINT 工具",
+        "useCase_en": "OSINT analysts use this tool to find registered accounts on various websites by checking the forgotten password function"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "smicallef/spiderfoot",
+      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+      "language": "Python",
+      "stars": 20660,
+      "forks": 3314,
+      "todayStars": 278,
+      "url": "https://github.com/smicallef/spiderfoot",
+      "aiSummary": {
+        "summary": "SpiderFoot 是一个开源 OSINT 自动化工具，通过集成数百个数据源（如 IP 查询、社交媒体、云存储、恶意域名等）来收集威胁情报并映射攻击面。它支持 Python 编写，能够自动关联和解析目标信息，帮助安全人员快速发现潜在风险。",
+        "summary_en": "SpiderFoot automates OSINT for threat intelligence and attack surface mapping.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "威胁情报收集与攻击面映射",
+        "useCase_en": "Automate OSINT collection to map attack surfaces and gather threat intelligence data."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "NVIDIA-NeMo/Switchyard",
+      "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+      "language": "Rust",
+      "stars": 1197,
+      "forks": 108,
+      "todayStars": 408,
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+      "aiSummary": {
+        "summary": "Switchyard 是一个用 Rust 编写的 LLM 流量代理和库。它支持 OpenAI 和 Anthropic API 之间的协议转换，允许灵活地在多个模型提供商之间路由请求。它提供多种路由算法、运营指标记录，并支持 A/B 测试和成本优化，适合集成到编码代理中。",
+        "summary_en": "A Rust-based proxy for routing LLM traffic across providers with API compatibility.",
+        "techStack": [
+          "Rust",
+          "OpenAI API",
+          "Anthropic API",
+          "Prometheus"
+        ],
+        "useCase": "通过开源模型优化编码代理的成本和性能",
+        "useCase_en": "To route LLM traffic across multiple providers for benchmarking and cost optimization."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "holaboss-ai/holaOS",
+      "description": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
+      "language": "TypeScript",
+      "stars": 6569,
+      "forks": 598,
+      "todayStars": 380,
+      "url": "https://github.com/holaboss-ai/holaOS",
+      "aiSummary": {
+        "summary": "holaOS 是一个开源的本地优先 AI 代理工作空间，支持在一个环境中运行 Claude Code、Codex 等多个代理。它具备共享内存、100+ 工具集成及 MCP 协议支持，提供内置前沿模型或 BYOK 方案，实现无锁定、跨会话的持久化协作。",
+        "summary_en": "Open-source AI agent workspace running multiple agents with shared memory and local-first storage.",
+        "techStack": [
+          "TypeScript",
+          "MCP (Model Context Protocol)",
+          "AI Agents"
+        ],
+        "useCase": "适合需要在一个本地环境中统一管理多 AI 代理并共享上下文的高级开发者和团队。",
+        "useCase_en": "Run multiple AI agents in a unified local workspace with shared memory and flexible model options."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "kepano/obsidian-skills",
+      "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+      "language": "",
+      "stars": 45706,
+      "forks": 3295,
+      "todayStars": 411,
+      "url": "https://github.com/kepano/obsidian-skills",
+      "aiSummary": {
+        "summary": "这是一个为 Obsidian 设计的 Agent Skills 集合，旨在帮助 AI 智能体（如 Claude Code、Codex）操作 Obsidian vault。它提供了创建和编辑 Markdown、Bases、JSON Canvas 文件的能力，支持通过 CLI 交互，并能从网页提取干净内容。这些技能遵循 Agent Skills 规范，易于集成。",
+        "summary_en": "A collection of agent skills for Obsidian to manage vaults, markdown, bases, and canvas files.",
+        "techStack": [
+          "Obsidian",
+          "Markdown",
+          "JSON Canvas",
+          "Bases",
+          "Obsidian CLI"
+        ],
+        "useCase": "适用于需要 AI 智能体自动化操作 Obsidian vault、管理笔记及可视化数据的场景。",
+        "useCase_en": "Teach AI agents to interact with Obsidian vaults using specific skills for markdown, canvas, and bases."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "3b1b/manim",
+      "description": "Animation engine for explanatory math videos",
+      "language": "Python",
+      "stars": 90842,
+      "forks": 7529,
+      "todayStars": 204,
+      "url": "https://github.com/3b1b/manim",
+      "aiSummary": {
+        "summary": "Manim 是一个用于制作解释性数学视频的精确程序化动画引擎。最初由 3Blue1Brown 作者开发，此仓库为 ManimGL 版本。它支持 Python 3.10+，并依赖 FFmpeg、OpenGL 和 LaTeX 等系统库来生成高质量的视频内容。",
+        "summary_en": "Python-based engine for creating precise programmatic animations for math videos.",
+        "techStack": [
+          "Python",
+          "FFmpeg",
+          "OpenGL",
+          "LaTeX"
+        ],
+        "useCase": "制作高质量的数学教学和科普视频",
+        "useCase_en": "Creating precise programmatic animations for explanatory math videos."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 145173,
+      "forks": 23483,
+      "todayStars": 762,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "这是一个包含多种专业 AI 代理（如前端开发、Reddit 社区专家等）的集合。项目提供原生桌面应用和安装脚本，可一键将各类 AI 代理安装到 Claude Code、Cursor、Gemini 等开发工具中。每个代理具备独特个性和专业流程，旨在提升开发效率。",
+        "summary_en": "A collection of specialized AI agent personalities for coding workflows.",
+        "techStack": [
+          "Shell",
+          "Native App (macOS/Linux/Windows)"
+        ],
+        "useCase": "为 Claude Code、Cursor 等开发工具一键安装专业化的 AI 代理，提升开发效率。",
+        "useCase_en": "Install specialized AI agents into coding tools like Claude Code and Cursor."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "Lightricks/LTX-2",
+      "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+      "language": "Python",
+      "stars": 8905,
+      "forks": 1406,
+      "todayStars": 201,
+      "url": "https://github.com/Lightricks/LTX-2",
+      "aiSummary": {
+        "summary": "这是 LTX-2 音频-视频生成模型的官方 Python 推理和 LoRA 训练包。LTX-2 是首个基于 DiT 的音频-视频基础模型，支持同步音频视频、高保真输出及多种性能模式。项目提供了快速安装、模型下载及生成示例，适用于需要高质量视频生成的场景。",
+        "summary_en": "Official Python package for inference and training of the LTX-2 audio-video generative model.",
+        "techStack": [
+          "Python",
+          "Diffusion Transformers (DiT)",
+          "CUDA",
+          "Hugging Face",
+          "uv"
+        ],
+        "useCase": "生成高保真、同步的音频-视频内容",
+        "useCase_en": "Generate high-fidelity synchronized audio and video content using the LTX-2 DiT-based model."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "lightningpixel/modly",
+      "description": "Desktop app to generate 3D models from images using local AI — runs entirely on your GPU",
+      "language": "TypeScript",
+      "stars": 5390,
+      "forks": 574,
+      "todayStars": 221,
+      "url": "https://github.com/lightningpixel/modly",
+      "aiSummary": {
+        "summary": "Modly 是一款基于本地 AI 的桌面应用，支持 Windows、Linux 和 Apple Silicon macOS。它利用 GPU 运行开源模型，将普通照片快速转换为 3D 网格。应用内置扩展系统，支持多种 AI 模型，并提供网格平滑、简化等后期处理功能，适合本地 3D 内容创作。",
+        "summary_en": "Desktop application for generating 3D models from images using local AI models running on your GPU.",
+        "techStack": [
+          "TypeScript",
+          "Python",
+          "Node.js"
+        ],
+        "useCase": "适用于本地 AI 驱动的 3D 内容创作、游戏资产生成及 VR/AR 开发。",
+        "useCase_en": "Turn any photo into a 3D model using open source AI models running entirely on your GPU."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "stars": 88001,
+      "forks": 10351,
+      "todayStars": 473,
+      "url": "https://github.com/infiniflow/ragflow",
+      "aiSummary": {
+        "summary": "RAGFlow 是一个开源的检索增强生成引擎，融合了 RAG 与 Agent 能力。它提供企业级适配的 RAG 工作流，支持多模态文档解析、多渠道接入（如飞书、Discord）及多种大模型（如 GPT-5、DeepSeek）。通过编排式摄取管道和智能体模板，帮助开发者高效构建生产级 AI 系统。",
+        "summary_en": "Open-source RAG engine integrating advanced retrieval with agent capabilities for enterprise LLM applications.",
+        "techStack": [
+          "Go",
+          "Docker",
+          "Python/JavaScript"
+        ],
+        "useCase": "适用于企业级知识库构建、多模态文档处理及集成多渠道对话的 AI 应用开发。",
+        "useCase_en": "Transform complex enterprise data into high-fidelity AI systems using RAG and agent capabilities."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-13T23:51:15.863Z",
+    "duration": "257s",
+    "version": "1.0.0"
+  }
+}
