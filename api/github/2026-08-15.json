@@ -1,0 +1,287 @@
+{
+  "date": "2026-08-15",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "cordiverse/cordis",
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "language": "TypeScript",
+      "stars": 4044,
+      "forks": 198,
+      "todayStars": 616,
+      "url": "https://github.com/cordiverse/cordis",
+      "aiSummary": {
+        "summary": "Cordis 是一个专注于时空组合性的元框架，旨在提供灵活的数据处理和逻辑组合能力。项目采用 TypeScript 开发，集成了测试、代码规范和构建工具，适合构建复杂的时间序列或空间数据应用。",
+        "summary_en": "A TypeScript meta-framework focused on spatiotemporal composability.",
+        "techStack": [
+          "TypeScript",
+          "Vitest",
+          "ESLint",
+          "Yarn"
+        ],
+        "useCase": "适用于需要处理时空数据、构建复杂组合逻辑或元框架架构的开发场景。",
+        "useCase_en": "Enables developers to build highly composable systems by managing spatiotemporal relationships."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "language": "HTML",
+      "stars": 18571,
+      "forks": 1114,
+      "todayStars": 1619,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aiSummary": {
+        "summary": "这是一个专为 Claude Code 设计的 29 种编辑类图表库。提供自包含的 HTML/SVG，支持语义系统模式与静态输出。包含架构、流程、状态机等多种图表类型，旨在替代 Figma 和通用圆角框，提供高质量、品牌一致的图表，无需构建步骤。",
+        "summary_en": "A collection of 27 editorial diagram types for Claude Code, featuring semantic patterns and static HTML output.",
+        "techStack": [
+          "HTML",
+          "SVG",
+          "Claude Code"
+        ],
+        "useCase": "用于 Claude Code 生成高质量、品牌一致的编辑类图表。",
+        "useCase_en": "Generate professional, brand-consistent diagrams for documentation and architecture sketches."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars": 2945,
+      "forks": 233,
+      "todayStars": 152,
+      "url": "https://github.com/cursor/plugins",
+      "aiSummary": {
+        "summary": "该仓库是 Cursor 的官方插件规范与工具集集合。包含持续学习、团队协作、代码审查、插件生成器、可视化画布（PR/文档）、SDK 及任务编排等工具。旨在扩展 AI 编程助手的开发能力，提供从脚手架到自动化工作流的完整解决方案。",
+        "summary_en": "Official plugins and specifications for the Cursor AI code editor ecosystem.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "MCP"
+        ],
+        "useCase": "用于构建和扩展 Cursor AI 编程助手的功能，优化开发工作流与代码质量。",
+        "useCase_en": "To extend Cursor's AI capabilities with tools for memory management, team workflows, code review, and automation."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "language": "Python",
+      "stars": 6052,
+      "forks": 402,
+      "todayStars": 551,
+      "url": "https://github.com/cactus-compute/needle",
+      "aiSummary": {
+        "summary": "Needle 2 是一个专为边缘设备设计的轻量级模型，仅 14MB。它支持工具调用、设备使用和结构化提取，基于 Simple Attention Network 和 CQ2-bit 压缩技术。模型在约 28MB 内存下运行，性能媲美大模型，适合手机、可穿戴设备及机器人等资源受限场景。",
+        "summary_en": "A 14MB Python package for running a 45M-parameter model on tiny devices for tool calling and structured extraction.",
+        "techStack": [
+          "Python",
+          "Simple Attention Network",
+          "Cactus Quants (CQ2-bit)"
+        ],
+        "useCase": "适用于手机、可穿戴设备、智能家居和机器人等边缘计算场景。",
+        "useCase_en": "Enabling tool calling and structured extraction on resource-constrained devices like phones and wearables."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "unslothai/unsloth",
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "language": "Python",
+      "stars": 72025,
+      "forks": 6492,
+      "todayStars": 435,
+      "url": "https://github.com/unslothai/unsloth",
+      "aiSummary": {
+        "summary": "Unsloth 是一款本地桌面应用，旨在运行和训练各类 AI 模型（如 LLMs 和扩散模型）。它支持 Qwen、Gemma 等主流模型，提供 2 倍训练速度和 70% 显存优化。支持多平台硬件，具备远程访问和 OpenAI 兼容 API，适合本地 AI 开发与部署。",
+        "summary_en": "A desktop application for running and training LLMs and diffusion models locally with optimized performance.",
+        "techStack": [
+          "Python",
+          "Native Desktop App"
+        ],
+        "useCase": "本地 AI 模型开发、微调与私有化部署",
+        "useCase_en": "Run and train AI models locally on personal hardware with high efficiency and support for various model types."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars": 460124,
+      "forks": 50852,
+      "todayStars": 2476,
+      "url": "https://github.com/public-apis/public-apis",
+      "aiSummary": {
+        "summary": "这是一个拥有超过46万星标的GitHub开源项目，旨在收集整理互联网上所有免费可用的API接口。项目维护活跃，包含大量分类，为开发者提供了便捷的API资源查找渠道，支持MIT开源协议。",
+        "summary_en": "A massive collection of free public APIs for developers to integrate into applications.",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "Git"
+        ],
+        "useCase": "开发者寻找免费API资源，用于项目集成、数据获取或原型开发。",
+        "useCase_en": "Developers use this repository to discover and integrate free APIs into their software."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "MakazhanAlpamys/Soup",
+      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "language": "Python",
+      "stars": 1636,
+      "forks": 261,
+      "todayStars": 303,
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "aiSummary": {
+        "summary": "Soup 是一个简化 LLM 微调流程的 CLI 工具，仅需一个 YAML 配置文件和一个命令即可完成。其核心特性是逐层流式传输技术，允许在仅 4GB 显存的笔记本电脑 GPU 上训练 8B 模型，支持本地 QLoRA 训练，无需 SSH 或复杂配置。",
+        "summary_en": "A Python CLI tool simplifying LLM fine-tuning locally with a single YAML config and layer streaming.",
+        "techStack": [
+          "Python",
+          "YAML",
+          "QLoRA"
+        ],
+        "useCase": "在本地低显存设备上微调大语言模型",
+        "useCase_en": "Train LLMs on local hardware with limited VRAM using a single YAML configuration file."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "github/spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "language": "Python",
+      "stars": 129173,
+      "forks": 11548,
+      "todayStars": 901,
+      "url": "https://github.com/github/spec-kit",
+      "aiSummary": {
+        "summary": "这是一个开源的规范驱动开发（SDD）工具包，旨在帮助开发者在使用 AI 编码代理时，先定义可执行的规范再编写代码。它支持多种 AI 代理集成，流程可扩展，致力于通过规范驱动流程提升软件质量和开发效率。",
+        "summary_en": "An open-source toolkit enabling Spec-Driven Development with AI coding agents to generate code from specifications.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "AI Agent Integration"
+        ],
+        "useCase": "适用于希望利用 AI 编码代理（如 Copilot）进行规范驱动开发（SDD）的软件开发团队。",
+        "useCase_en": "It helps developers define specifications before coding to ensure high-quality software with AI assistance."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "megadose/holehe",
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "language": "Python",
+      "stars": 13106,
+      "forks": 1742,
+      "todayStars": 389,
+      "url": "https://github.com/megadose/holehe",
+      "aiSummary": {
+        "summary": "Holehe 是一个开源 OSINT 工具，用于检查电子邮件是否注册在超过 120 个网站（如 Twitter、Instagram）上。它利用“忘记密码”功能检索账户信息，包括恢复邮箱和电话号码，且不会通知目标用户。支持命令行和 Python 集成，适用于安全审计和账户追踪。",
+        "summary_en": "OSINT tool to check if an email is registered on various websites using the forgotten password function.",
+        "techStack": [
+          "Python",
+          "httpx",
+          "trio"
+        ],
+        "useCase": "适用于安全研究人员进行 OSINT 调查，验证电子邮件在多个平台的注册状态。",
+        "useCase_en": "Security researchers use this tool to check if an email is registered on various social media and other platforms."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "altic-dev/FluidVoice",
+      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp",
+      "language": "Swift",
+      "stars": 10310,
+      "forks": 697,
+      "todayStars": 165,
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "aiSummary": {
+        "summary": "FluidVoice 是一款专为 macOS 打造的极速语音转文字应用。它利用本地 STT 引擎实现零延迟输入，并集成了名为 Fluid Intelligence 的本地 AI 模型，提供智能格式化和上下文感知功能。该应用完全开源，注重隐私，无需云端 API，是本地化语音输入的优质替代方案。",
+        "summary_en": "Fastest macOS dictation app with on-device STT and local AI enhancement.",
+        "techStack": [
+          "Swift",
+          "macOS",
+          "Parakeet",
+          "Local AI (Fluid Intelligence)"
+        ],
+        "useCase": "适用于需要快速、隐私保护的 macOS 语音输入场景，替代云端服务或 Wispr Flow。",
+        "useCase_en": "A local, private alternative to cloud-based dictation services for macOS users."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "ToolJet/ToolJet",
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "language": "JavaScript",
+      "stars": 39514,
+      "forks": 5293,
+      "todayStars": 553,
+      "url": "https://github.com/ToolJet/ToolJet",
+      "aiSummary": {
+        "summary": "ToolJet 是一个开源的低代码平台，用于构建内部工具、仪表板和业务应用。它提供可视化拖拽构建器、内置数据库及80+数据源连接，支持JavaScript和Python代码编写。社区版具备企业级安全特性，企业版集成了AI功能（如应用生成、查询构建和智能调试），适合快速开发复杂的企业级应用。",
+        "summary_en": "An open-source low-code platform for building internal tools, dashboards, and workflows using a visual builder and AI integration.",
+        "techStack": [
+          "JavaScript",
+          "Python",
+          "Docker"
+        ],
+        "useCase": "快速构建企业级内部工具、仪表板、业务应用及AI工作流",
+        "useCase_en": "Build internal tools, dashboards, and business applications using a visual drag-and-drop interface and AI integration."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars": 47333,
+      "forks": 4391,
+      "todayStars": 100,
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "aiSummary": {
+        "summary": "CLI-Anything 旨在让所有软件具备‘代理原生’能力。通过 CLI-Hub 平台，它连接 AI 代理与各类软件，允许 Claude Code、Cursor 等代理通过一条命令行指令直接操作软件。项目支持社区贡献，提供丰富的 CLI 工具，帮助 AI 代理完成 CAD 构建、3D 场景、笔记管理等复杂任务，是构建 AI Agent 生态的重要基础设施。",
+        "summary_en": "A Python project bridging AI agents and software via a CLI hub registry.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "AI Agent"
+        ],
+        "useCase": "为 AI 代理提供软件自动化接口，使其能够通过命令行高效操作各类软件。",
+        "useCase_en": "Make any software agent-ready for tools like Pi, OpenClaw, and Cursor."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "citrolabs/ego-lite",
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "language": "JavaScript",
+      "stars": 10942,
+      "forks": 557,
+      "todayStars": 546,
+      "url": "https://github.com/citrolabs/ego-lite",
+      "aiSummary": {
+        "summary": "这是一个专为 AI 代理设计的浏览器，旨在让用户与 AI 并行工作。它允许 AI 代理在独立空间运行自动化任务，同时共享用户的已登录状态（如 Cookie 和扩展），无需打扰用户。项目支持 macOS，提供零配置的快速启动方式，解决了现有自动化框架中登录状态难以传递和资源冲突的问题。",
+        "summary_en": "A browser for AI agents to run automation tasks without disturbing the user.",
+        "techStack": [
+          "JavaScript",
+          "macOS"
+        ],
+        "useCase": "AI 代理自动化浏览器任务，特别是需要访问用户已登录账户的场景",
+        "useCase_en": "To run browser automation tasks for AI agents without disturbing the user's browsing session."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-15T23:26:33.550Z",
+    "duration": "160s",
+    "version": "1.0.0"
+  }
+}

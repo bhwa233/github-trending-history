@@ -70,29 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-08-14 | **成功**: 17 | **失败**: 0
+**最后更新**: 2026-08-15 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 29 editorial diagram types for Claude Code. Self-c... | HTML | 17.2k | 3.7k | 这是一个专为 Claude Code 设计的 27 种编辑类图表库。提供自包含的 HTML 和 SVG，支持架构、流程图、状态机等多种图表类型。默认静态输出，支持重绘 draw.io/Mermaid 源码，强调高对比度和极简主义设计，无需 Figma 即可快速生成符合品牌风格的图表。 |
-| 2 | [cactus-compute/needle](https://github.com/cactus-compute/needle) | 14MB foundation model for tiny devices; phones, we... | Python | 5.6k | 661 | Needle 2 是一个专为小型设备设计的 45M 参数模型，仅 14MB，运行时约 28MB RAM。它支持工具调用、设备使用和结构化提取。该模型基于 Simple Attention Network 和 Cactus Quants 压缩技术，提供自包含、JSON 输出、置信度门控和有界内存等特性，非常适合手机、可穿戴设备和机器人等边缘设备。 |
-| 3 | [megadose/holehe](https://github.com/megadose/holehe) | holehe allows you to check if the mail is used on ... | Python | 12.8k | 427 | Holehe 是一款开源情报（OSINT）工具，用于检查指定电子邮件是否在超过120个网站（如Twitter、Instagram）上注册。它通过模拟“忘记密码”流程来验证账户存在性，并尝试获取部分关联信息（如手机号、恢复邮箱），支持命令行和Python库集成。 |
-| 4 | [macro-inc/macro](https://github.com/macro-inc/macro) | Macro is a unified workspace for teams: email, cha... | Rust | 3.0k | 435 | Macro 是一个为团队打造的统一工作空间，集成了邮件、消息、文档、任务、CRM 等功能。它采用模块化“块”设计，基于 Rust 和 SolidJS 构建，利用 CRDT 和双向图实现跨功能的无缝链接与协作。旨在成为团队的工作操作系统，提升效率。 |
-| 5 | [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot) | SpiderFoot automates OSINT for threat intelligence... | Python | 20.9k | 292 | SpiderFoot 是一个开源的 OSINT 自动化工具，专注于威胁情报收集和攻击面映射。它通过集成数百个数据源（如恶意 IP 数据库、社交媒体、云存储等），自动收集目标域名、IP、账号及相关资产信息，辅助安全人员进行风险评估和情报分析。 |
-| 6 | [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) | The fastest browser for AI agents to run browser a... | JavaScript | 10.3k | 153 | ego-lite 是一个专为 AI 代理设计的浏览器，允许它们在独立空间运行自动化任务，而不干扰用户的实际浏览器。它支持零配置共享登录状态（cookies、扩展），通过技能机制集成到 Claude Code 等工具中，实现用户与 AI 并行浏览，提升效率。 |
-| 7 | [holaboss-ai/holaOS](https://github.com/holaboss-ai/holaOS) | Open-source All in One AI agent workspace. Run any... | TypeScript | 7.3k | 769 | holaOS 是一个开源的本地优先 AI 代理工作空间。它允许用户在一个界面中运行 Claude Code、Codex 等多个代理，并共享内存、工具和上下文。支持 100+ 集成和 MCP 协议，内置多种前沿模型或支持 BYOK，提供无锁定的统一开发体验。 |
-| 8 | [github/spec-kit](https://github.com/github/spec-kit) | 💫 Toolkit to help you get started with Spec-Drive... | Python | 128.5k | 1.1k | Spec-Kit 是一个开源工具包，旨在帮助开发者使用 AI 编程代理进行规范驱动开发。它允许用户在编写代码前定义规范，并通过 CLI 工具与各种 AI 代理（如 Copilot）集成，实现从规范到可执行代码的自动化生成，提升软件构建质量。 |
-| 9 | [lightningpixel/modly](https://github.com/lightningpixel/modly) | Desktop app to generate 3D models from images or p... | TypeScript | 5.9k | 580 | Modly 是一款基于本地 GPU 的桌面应用，利用开源 AI 模型将图片或文本提示转换为 3D 网格模型。支持 Windows、Linux 和 Apple Silicon macOS，具备扩展系统，允许用户导入并优化 3D 模型。 |
-| 10 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | RAGFlow is a leading open-source Retrieval-Augment... | Go | 88.4k | 474 | RAGFlow 是一个开源的检索增强生成引擎，融合了 RAG 与 Agent 能力，为 LLMs 提供优越上下文层。它支持多模态文档解析、多渠道集成及智能体工作流，具备记忆和代码执行功能，旨在帮助企业高效构建生产级 AI 系统。 |
-| 11 | [cursor/plugins](https://github.com/cursor/plugins) | Cursor plugin specification and official plugins... | TypeScript | 2.8k | 69 | 该项目包含 Cursor 的官方插件及规范，提供团队工作流、代码审查、安全审计和文档可视化等工具。包含用于创建插件、管理代理兼容性以及构建自动化应用的 SDK。旨在增强 AI 编码助手的功能，支持并行任务编排与高质量代码生成。 |
-| 12 | [deepseek-ai/awesome-deepseek-agent](https://github.com/deepseek-ai/awesome-deepseek-agent) | ... | - | 5.7k | 203 | 这是一个关于 DeepSeek 代理的精选资源列表。收录了多种 AI 代理工具，涵盖终端编码助手、跨平台桌面客户端、聊天机器人及通用智能体。项目展示了丰富的 Agent 技术栈与生态应用。 |
-| 13 | [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | Graph-Native Infrastructure for Context and Accoun... | Python | 7.5k | 1.2k | Semantica 是一个开源的原生图基础设施，旨在为 AI 系统提供上下文和可问责性。它位于 LLM 和向量存储之下，构建知识图谱并支持确定性推理与因果分析。该平台确保决策的可追溯性和可解释性，专为金融、医疗等高风险受监管领域设计，解决 AI Agent 缺乏审计追踪的问题。 |
-| 14 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | An open-source remote desktop application designed... | Rust | 120.6k | 182 | RustDesk 是一个用 Rust 编写的开源远程桌面应用，旨在替代 TeamViewer。它支持自托管，允许用户完全控制数据，无需配置即可开箱即用。用户可以选择使用官方服务器或搭建自己的中继/协调服务器，确保数据安全与隐私。 |
-| 15 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | The open-source CapCut alternative... | TypeScript | 83.1k | 238 | OpenCut 是一款开源的视频编辑器，支持 Web、桌面及移动端。项目正在重写，采用 Rust 核心和多平台架构，支持插件系统、MCP 服务器及 Headless 模式，致力于成为 CapCut 的开源替代品。 |
-| 16 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | Local UI to run and train LLMs and diffusion model... | Python | 71.5k | 502 | Unsloth 是一款本地桌面应用，旨在运行和训练各类 AI 模型。它支持 LLMs、扩散模型及音频模型，兼容多种硬件。核心优势在于训练速度提升 2 倍且显存占用降低 70%，支持 LoRA、RL、DPO 等多种微调技术。此外，它提供 OpenAI 兼容 API，支持远程访问，方便用户在本地构建和部署私有化 AI 解决方案。 |
-| 17 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | ToolJet is the open-source foundation of ToolJet A... | JavaScript | 39.1k | 302 | ToolJet 是一个开源的低代码平台，用于构建内部工具、工作流和 AI 代理。它提供可视化构建器、60+ 响应式组件、内置数据库及 80+ 数据源。支持 Docker 部署和代码扩展。企业版集成了 AI 功能，如应用生成和智能调试，适合快速开发企业级应用。 |
+| 1 | [cordiverse/cordis](https://github.com/cordiverse/cordis) | Meta-Framework of Spatiotemporal Composability... | TypeScript | 4.0k | 616 | Cordis 是一个专注于时空组合性的元框架，旨在提供灵活的数据处理和逻辑组合能力。项目采用 TypeScript 开发，集成了测试、代码规范和构建工具，适合构建复杂的时间序列或空间数据应用。 |
+| 2 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 29 editorial diagram types for Claude Code. Self-c... | HTML | 18.6k | 1.6k | 这是一个专为 Claude Code 设计的 29 种编辑类图表库。提供自包含的 HTML/SVG，支持语义系统模式与静态输出。包含架构、流程、状态机等多种图表类型，旨在替代 Figma 和通用圆角框，提供高质量、品牌一致的图表，无需构建步骤。 |
+| 3 | [cursor/plugins](https://github.com/cursor/plugins) | Cursor plugin specification and official plugins... | TypeScript | 2.9k | 152 | 该仓库是 Cursor 的官方插件规范与工具集集合。包含持续学习、团队协作、代码审查、插件生成器、可视化画布（PR/文档）、SDK 及任务编排等工具。旨在扩展 AI 编程助手的开发能力，提供从脚手架到自动化工作流的完整解决方案。 |
+| 4 | [cactus-compute/needle](https://github.com/cactus-compute/needle) | 14MB foundation model for tiny devices; phones, we... | Python | 6.1k | 551 | Needle 2 是一个专为边缘设备设计的轻量级模型，仅 14MB。它支持工具调用、设备使用和结构化提取，基于 Simple Attention Network 和 CQ2-bit 压缩技术。模型在约 28MB 内存下运行，性能媲美大模型，适合手机、可穿戴设备及机器人等资源受限场景。 |
+| 5 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | Local UI to run and train LLMs and diffusion model... | Python | 72.0k | 435 | Unsloth 是一款本地桌面应用，旨在运行和训练各类 AI 模型（如 LLMs 和扩散模型）。它支持 Qwen、Gemma 等主流模型，提供 2 倍训练速度和 70% 显存优化。支持多平台硬件，具备远程访问和 OpenAI 兼容 API，适合本地 AI 开发与部署。 |
+| 6 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs... | Python | 460.1k | 2.5k | 这是一个拥有超过46万星标的GitHub开源项目，旨在收集整理互联网上所有免费可用的API接口。项目维护活跃，包含大量分类，为开发者提供了便捷的API资源查找渠道，支持MIT开源协议。 |
+| 7 | [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) | Fine-tune LLMs from one YAML. Layer streaming trai... | Python | 1.6k | 303 | Soup 是一个简化 LLM 微调流程的 CLI 工具，仅需一个 YAML 配置文件和一个命令即可完成。其核心特性是逐层流式传输技术，允许在仅 4GB 显存的笔记本电脑 GPU 上训练 8B 模型，支持本地 QLoRA 训练，无需 SSH 或复杂配置。 |
+| 8 | [github/spec-kit](https://github.com/github/spec-kit) | 💫 Toolkit to help you get started with Spec-Drive... | Python | 129.2k | 901 | 这是一个开源的规范驱动开发（SDD）工具包，旨在帮助开发者在使用 AI 编码代理时，先定义可执行的规范再编写代码。它支持多种 AI 代理集成，流程可扩展，致力于通过规范驱动流程提升软件质量和开发效率。 |
+| 9 | [megadose/holehe](https://github.com/megadose/holehe) | holehe allows you to check if the mail is used on ... | Python | 13.1k | 389 | Holehe 是一个开源 OSINT 工具，用于检查电子邮件是否注册在超过 120 个网站（如 Twitter、Instagram）上。它利用“忘记密码”功能检索账户信息，包括恢复邮箱和电话号码，且不会通知目标用户。支持命令行和 Python 集成，适用于安全审计和账户追踪。 |
+| 10 | [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice) | Fastest and only macOS Dictation app with on-devic... | Swift | 10.3k | 165 | FluidVoice 是一款专为 macOS 打造的极速语音转文字应用。它利用本地 STT 引擎实现零延迟输入，并集成了名为 Fluid Intelligence 的本地 AI 模型，提供智能格式化和上下文感知功能。该应用完全开源，注重隐私，无需云端 API，是本地化语音输入的优质替代方案。 |
+| 11 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | ToolJet is the open-source foundation of ToolJet A... | JavaScript | 39.5k | 553 | ToolJet 是一个开源的低代码平台，用于构建内部工具、仪表板和业务应用。它提供可视化拖拽构建器、内置数据库及80+数据源连接，支持JavaScript和Python代码编写。社区版具备企业级安全特性，企业版集成了AI功能（如应用生成、查询构建和智能调试），适合快速开发复杂的企业级应用。 |
+| 12 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | "CLI-Anything: Making ALL Software Agent-Native" -... | Python | 47.3k | 100 | CLI-Anything 旨在让所有软件具备‘代理原生’能力。通过 CLI-Hub 平台，它连接 AI 代理与各类软件，允许 Claude Code、Cursor 等代理通过一条命令行指令直接操作软件。项目支持社区贡献，提供丰富的 CLI 工具，帮助 AI 代理完成 CAD 构建、3D 场景、笔记管理等复杂任务，是构建 AI Agent 生态的重要基础设施。 |
+| 13 | [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) | The fastest browser for AI agents to run browser a... | JavaScript | 10.9k | 546 | 这是一个专为 AI 代理设计的浏览器，旨在让用户与 AI 并行工作。它允许 AI 代理在独立空间运行自动化任务，同时共享用户的已登录状态（如 Cookie 和扩展），无需打扰用户。项目支持 macOS，提供零配置的快速启动方式，解决了现有自动化框架中登录状态难以传递和资源冲突的问题。 |
 
-[查看完整数据](api/github/2026-08-14.json)
+[查看完整数据](api/github/2026-08-15.json)
 <!-- END GITHUB TRENDING -->
 
 
