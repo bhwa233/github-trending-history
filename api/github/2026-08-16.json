@@ -1,0 +1,158 @@
+{
+  "date": "2026-08-16",
+  "since": "daily",
+  "totalRepos": 7,
+  "successCount": 7,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "cordiverse/cordis",
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "language": "TypeScript",
+      "stars": 4694,
+      "forks": 245,
+      "todayStars": 719,
+      "url": "https://github.com/cordiverse/cordis",
+      "aiSummary": {
+        "summary": "这是一个专注于时空组合性的元框架，旨在提供灵活的组件组合能力。项目采用 TypeScript 开发，具备完善的 CI/CD 流程和测试覆盖，支持模块化架构，适合需要高度可组合性和时间/空间维度管理的复杂应用开发。",
+        "summary_en": "A meta-framework for spatiotemporal composability.",
+        "techStack": [
+          "TypeScript",
+          "Vitest",
+          "ESLint",
+          "Yarn"
+        ],
+        "useCase": "适用于需要高度灵活的时空维度组件组合与管理的复杂应用开发。",
+        "useCase_en": "Building complex systems with spatiotemporal composability patterns."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "basecamp/omarchy",
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "language": "Shell",
+      "stars": 25351,
+      "forks": 2588,
+      "todayStars": 225,
+      "url": "https://github.com/basecamp/omarchy",
+      "aiSummary": {
+        "summary": "这是一个基于 Shell 的现代化 Linux 配置管理脚本。它提供了一套“有观点”的系统设置方案，旨在打造美观且高效的 Linux 体验。项目包含应用安装、主题配置、自动化脚本及迁移工具，帮助用户快速标准化 Linux 工作站。",
+        "summary_en": "A modern, opinionated Linux system for managing AI agents and applications.",
+        "techStack": [
+          "Shell",
+          "Git",
+          "Linux"
+        ],
+        "useCase": "适用于希望快速搭建现代化、美观且标准化的 Linux 开发环境或工作站的用户。",
+        "useCase_en": "To provide a structured, opinionated environment for managing AI agents and workflows on Linux."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "unslothai/unsloth",
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "language": "Python",
+      "stars": 72541,
+      "forks": 6542,
+      "todayStars": 580,
+      "url": "https://github.com/unslothai/unsloth",
+      "aiSummary": {
+        "summary": "Unsloth 是一款本地桌面应用，用于运行和训练各类 AI 模型（如 LLM 和扩散模型）。它支持多种硬件平台，训练速度更快且显存占用更低。功能包括模型微调、RAG 搜索、图像视频处理及远程访问，并提供 OpenAI 兼容 API。",
+        "summary_en": "A desktop app to run and train large language models and diffusion models locally with high efficiency.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适合需要在本地运行和微调大语言模型及扩散模型的开发者。",
+        "useCase_en": "To run and train large language models and diffusion models locally on personal hardware."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "stars": 83856,
+      "forks": 8281,
+      "todayStars": 134,
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "aiSummary": {
+        "summary": "OpenCut 是一个开源的视频编辑器，旨在成为 CapCut 的免费替代品。目前项目正在进行从零开始的全面重写，采用 Rust 核心和 TypeScript 前端。新版本支持跨平台（桌面、移动、浏览器），具备插件架构、MCP 服务器（AI 代理集成）、Headless 模式及内置脚本功能，致力于提供强大的自动化和第三方扩展能力。",
+        "summary_en": "A free, open-source video editor for web, desktop, and mobile platforms.",
+        "techStack": [
+          "TypeScript",
+          "Rust"
+        ],
+        "useCase": "适合需要跨平台视频编辑、自动化渲染及开发插件的开发者。",
+        "useCase_en": "A free and open source video editor for web, desktop, and mobile."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars": 461677,
+      "forks": 50996,
+      "todayStars": 1583,
+      "url": "https://github.com/public-apis/public-apis",
+      "aiSummary": {
+        "summary": "这是一个极受欢迎的开源项目，旨在收集整理互联网上所有免费可用的 API 接口。它涵盖了多种分类，方便开发者快速查找和测试资源，拥有极高的社区关注度。",
+        "summary_en": "A massive open-source collection of free public APIs for developers to integrate.",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "JSON"
+        ],
+        "useCase": "适合开发者寻找免费接口资源进行开发、测试或学习 API 集成。",
+        "useCase_en": "Developers use this repository to discover and integrate free APIs into their applications."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "ToolJet/ToolJet",
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "language": "JavaScript",
+      "stars": 39999,
+      "forks": 5329,
+      "todayStars": 446,
+      "url": "https://github.com/ToolJet/ToolJet",
+      "aiSummary": {
+        "summary": "ToolJet 是一个开源的低代码平台，用于构建内部工具、工作流和 AI 代理。它提供可视化拖拽构建器、内置数据库和 80+ 数据源集成。社区版支持 JavaScript/Python 代码执行，企业版 ToolJet AI 则提供 AI 应用生成和智能调试功能，支持自托管和多种部署方式。",
+        "summary_en": "Open-source low-code platform for building internal tools, dashboards, and business applications with AI features.",
+        "techStack": [
+          "JavaScript",
+          "Python"
+        ],
+        "useCase": "适用于快速构建企业级内部工具、业务应用、工作流自动化及 AI 代理。",
+        "useCase_en": "Build internal tools, dashboards, and business applications using a visual drag-and-drop interface and AI capabilities."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "language": "Python",
+      "stars": 6541,
+      "forks": 431,
+      "todayStars": 447,
+      "url": "https://github.com/cactus-compute/needle",
+      "aiSummary": {
+        "summary": "Needle 2 是一个专为边缘设备设计的超轻量级大模型，仅 14MB，运行内存约 28MB。它支持工具调用、设备使用及结构化提取，具备置信度门控、工具检索和有界内存等特性。相比同类模型体积更小（5x-70x），性能相当，适合手机、可穿戴设备及机器人等场景。",
+        "summary_en": "A compact 14MB Python model for tiny devices enabling tool calling and structured extraction.",
+        "techStack": [
+          "Python",
+          "Simple Attention Network",
+          "Cactus Quants"
+        ],
+        "useCase": "手机、可穿戴设备、智能家居和机器人等边缘计算场景",
+        "useCase_en": "Running a compressed AI model on constrained hardware for tool calling and structured extraction."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-16T23:26:10.978Z",
+    "duration": "136s",
+    "version": "1.0.0"
+  }
+}
