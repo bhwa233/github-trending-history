@@ -70,19 +70,23 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-08-16 | **成功**: 7 | **失败**: 0
+**最后更新**: 2026-08-17 | **成功**: 11 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [cordiverse/cordis](https://github.com/cordiverse/cordis) | Meta-Framework of Spatiotemporal Composability... | TypeScript | 4.7k | 719 | 这是一个专注于时空组合性的元框架，旨在提供灵活的组件组合能力。项目采用 TypeScript 开发，具备完善的 CI/CD 流程和测试覆盖，支持模块化架构，适合需要高度可组合性和时间/空间维度管理的复杂应用开发。 |
-| 2 | [basecamp/omarchy](https://github.com/basecamp/omarchy) | Beautiful, Modern & Opinionated Linux... | Shell | 25.4k | 225 | 这是一个基于 Shell 的现代化 Linux 配置管理脚本。它提供了一套“有观点”的系统设置方案，旨在打造美观且高效的 Linux 体验。项目包含应用安装、主题配置、自动化脚本及迁移工具，帮助用户快速标准化 Linux 工作站。 |
-| 3 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | Local UI to run and train LLMs and diffusion model... | Python | 72.5k | 580 | Unsloth 是一款本地桌面应用，用于运行和训练各类 AI 模型（如 LLM 和扩散模型）。它支持多种硬件平台，训练速度更快且显存占用更低。功能包括模型微调、RAG 搜索、图像视频处理及远程访问，并提供 OpenAI 兼容 API。 |
-| 4 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | The open-source CapCut alternative... | TypeScript | 83.9k | 134 | OpenCut 是一个开源的视频编辑器，旨在成为 CapCut 的免费替代品。目前项目正在进行从零开始的全面重写，采用 Rust 核心和 TypeScript 前端。新版本支持跨平台（桌面、移动、浏览器），具备插件架构、MCP 服务器（AI 代理集成）、Headless 模式及内置脚本功能，致力于提供强大的自动化和第三方扩展能力。 |
-| 5 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs... | Python | 461.7k | 1.6k | 这是一个极受欢迎的开源项目，旨在收集整理互联网上所有免费可用的 API 接口。它涵盖了多种分类，方便开发者快速查找和测试资源，拥有极高的社区关注度。 |
-| 6 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | ToolJet is the open-source foundation of ToolJet A... | JavaScript | 40.0k | 446 | ToolJet 是一个开源的低代码平台，用于构建内部工具、工作流和 AI 代理。它提供可视化拖拽构建器、内置数据库和 80+ 数据源集成。社区版支持 JavaScript/Python 代码执行，企业版 ToolJet AI 则提供 AI 应用生成和智能调试功能，支持自托管和多种部署方式。 |
-| 7 | [cactus-compute/needle](https://github.com/cactus-compute/needle) | 14MB foundation model for tiny devices; phones, we... | Python | 6.5k | 447 | Needle 2 是一个专为边缘设备设计的超轻量级大模型，仅 14MB，运行内存约 28MB。它支持工具调用、设备使用及结构化提取，具备置信度门控、工具检索和有界内存等特性。相比同类模型体积更小（5x-70x），性能相当，适合手机、可穿戴设备及机器人等场景。 |
+| 1 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD sho... | Python | 105.9k | 1.3k | 这是一个基于 Python 的一站式 AI 短视频生成工具。利用大模型自动生成脚本、匹配素材、生成字幕和背景音乐，并合成高清视频。支持批量生成、多尺寸（9:16/16:9）及一键发布至 TikTok 等平台，提供 WebUI、API 和 CLI 多种使用方式。 |
+| 2 | [usestrix/strix](https://github.com/usestrix/strix) | Open-source AI penetration testing tool to find an... | Python | 54.1k | 656 | Strix 是一个基于 Python 的开源 AI 渗透测试工具，利用自主 AI 代理动态运行代码以发现和验证漏洞。它支持多代理编排、真实 PoC 验证及 CI/CD 集成，能自动生成补丁和合规报告，旨在为开发者提供快速、准确的自动化安全测试解决方案。 |
+| 3 | [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | Production-grade Rust-native trading engine with d... | Rust | 25.9k | 115 | NautilusTrader 是一个生产级的 Rust 原生交易引擎，采用确定性事件驱动架构。它支持研究、模拟和实时交易，通过 Python 控制平面实现策略编排，确保研究到生产环境的一致性。支持多资产和多交易场所，具备高性能、高可靠性和模块化适配器。 |
+| 4 | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | Solution for long term memory for agent coding CLI... | Rust | 2.0k | 207 | 这是一个用 Rust 编写的项目，为 AI 编码代理提供长期记忆解决方案。它支持 Claude Code、Codex 和 Command Code 等多种工具，通过 MCP 配置和生命周期钩子实现跨代理的上下文无缝交接，让用户无需重复解释项目背景即可在不同工具间切换。 |
+| 5 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 817 structured cybersecurity skills for AI agents ... | Python | 28.4k | 156 | 该项目包含817个结构化网络安全技能，旨在赋予AI代理资深分析师的能力。它遵循agentskills.io标准，并映射到MITRE ATT&CK、NIST CSF 2.0等六大框架，覆盖29个安全领域。兼容多种AI开发工具，适用于授权的安全测试、研究和防御场景。 |
+| 6 | [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) | Hundreds of models & providers. One command to fin... | Rust | 32.2k | 239 | 这是一个用 Rust 编写的终端工具，旨在根据用户的硬件（RAM、CPU、GPU）为本地 LLM 模型“right-size”。它支持多 GPU、MoE 架构及多种本地运行时（如 Ollama、llama.cpp）。新功能允许用户直接从 TUI 进行基准测试并共享结果，帮助社区获得更准确的性能估计。 |
+| 7 | [santifer/career-ops](https://github.com/santifer/career-ops) | Open-source AI job search: scan job portals, evalu... | JavaScript | 64.6k | 147 | 这是一个开源的 AI 求职助手，旨在帮助候选人更高效地找工作。它可以将任何 AI 编码 CLI 转变为求职中心，自动扫描职位门户，利用 A-F 评分标准对职位进行 1.0-5.0 的评估，并生成 ATS 优化的简历。它支持批量处理和跟踪申请，通过 AI 推理而非关键词匹配来评估匹配度，帮助用户筛选出高质量职位，避免盲目投递。 |
+| 8 | [jundot/omlx](https://github.com/jundot/omlx) | LLM inference server with continuous batching & SS... | Python | 19.0k | 96 | oMLX 是专为 Apple Silicon 优化的 LLM 推理服务器。它支持持续批处理和分层 KV 缓存（内存+SSD），提供菜单栏管理界面。支持 MCP 协议，确保上下文持久化，适合本地开发与编码任务。 |
+| 9 | [immich-app/immich](https://github.com/immich-app/immich) | High performance self-hosted photo and video manag... | TypeScript | 111.1k | 337 | Immich 是一个高性能的自托管照片和视频管理解决方案，支持移动端和 Web 端。它提供自动备份、人脸识别、元数据搜索、相册分享、LivePhoto 支持等功能，旨在替代 Google Photos 等云服务，保护用户隐私。 |
+| 10 | [cordiverse/cordis](https://github.com/cordiverse/cordis) | Meta-Framework of Spatiotemporal Composability... | TypeScript | 5.6k | 959 | 这是一个专注于时空组合性的元框架，旨在提供灵活的底层抽象能力。项目采用 TypeScript 开发，具备模块化结构，支持在时间和空间维度上进行逻辑与数据的组合与编排。 |
+| 11 | [agalwood/Motrix](https://github.com/agalwood/Motrix) | A full-featured download manager.... | TypeScript | 53.0k | 295 | Motrix 是一个全功能的下载管理器，支持 HTTP、FTP、BitTorrent 和磁力链接。Motrix Turbo v2 是基于 Electron、React 和 TypeScript 重构的新版本，核心与 UI 分离，支持桌面应用和 Headless 服务器模式。它拥有简洁的界面、深色模式、BT 下载、速度限制、SQLite 会话恢复以及插件系统等功能，目前处于 Beta 测试阶段。 |
 
-[查看完整数据](api/github/2026-08-16.json)
+[查看完整数据](api/github/2026-08-17.json)
 <!-- END GITHUB TRENDING -->
 
 
