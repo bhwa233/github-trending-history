@@ -1,0 +1,287 @@
+{
+  "date": "2026-08-18",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "stars": 108469,
+      "forks": 16471,
+      "todayStars": 2306,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的一站式 AI 短视频生成工具。用户只需输入主题或关键词，系统即可自动生成视频脚本、匹配素材、添加字幕和背景音乐，并最终合成高清短视频。项目集成了多种 AI 大模型，旨在降低视频创作门槛，实现自动化内容生产。",
+        "summary_en": "Automated AI workflow for generating HD short videos from keywords using LLMs and media synthesis.",
+        "techStack": [
+          "Python",
+          "AI Large Language Models",
+          "Video Processing"
+        ],
+        "useCase": "快速生成短视频内容，适合自媒体创作者或需要批量生产视频的场景。",
+        "useCase_en": "Generate high-definition short videos automatically by inputting a topic or keyword."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "chaitanyagiri/munder-difflin",
+      "description": "local multi-agent harness",
+      "language": "TypeScript",
+      "stars": 1996,
+      "forks": 238,
+      "todayStars": 256,
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "aiSummary": {
+        "summary": "Munder Difflin 是一个本地多代理协作框架，将 Claude、Grok 等终端编码 CLI 包装成具有记忆和邮箱的独立代理。它通过桌面应用可视化这些代理在 2D 办公室中协作，由你的克隆 Michael 协调工作。支持多种 LLM 提供商，利用现有订阅，实现本地高效的多代理协作。",
+        "summary_en": "A desktop application that wraps terminal-based AI agents into a coordinated team for local coding tasks.",
+        "techStack": [
+          "Electron",
+          "React",
+          "TypeScript",
+          "Pixi.js",
+          "xterm.js"
+        ],
+        "useCase": "本地运行多代理协作系统，利用现有 LLM 订阅进行代码生成和任务协调。",
+        "useCase_en": "To create a local environment where multiple AI coding agents work together to complete tasks."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "stars": 2691,
+      "forks": 232,
+      "todayStars": 730,
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 的 AI 编码 Agent 长期记忆解决方案。它支持 Claude Code、Codex 等多种 Agent 供应商，通过 MCP 协议实现无缝上下文交接。用户可在不同 Agent 间无缝切换任务，无需重复解释架构或失败尝试，显著提升开发连续性。",
+        "summary_en": "Rust tool enabling long-term memory and seamless context handoff for AI coding agents.",
+        "techStack": [
+          "Rust",
+          "Docker",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "AI 编码 Agent 之间的上下文保持与任务交接",
+        "useCase_en": "To provide long-term memory for AI coding agents and facilitate seamless handoffs between different vendors."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "volcengine/OpenViking",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "language": "Python",
+      "stars": 29336,
+      "forks": 2304,
+      "todayStars": 298,
+      "url": "https://github.com/volcengine/OpenViking",
+      "aiSummary": {
+        "summary": "OpenViking 是一个面向 AI Agent 的自进化上下文数据库。它采用虚拟文件系统（viking://）统一管理记忆、知识和技能，支持分层加载（L0/L1/L2）以优化 Token 消耗，并提供可观察的检索轨迹，帮助 Agent 像开发者一样直观地浏览和调试上下文。",
+        "summary_en": "Open-source context database for AI agents that unifies memory, RAG, and skills via a virtual filesystem.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要统一管理记忆、知识库和技能的 AI Agent 开发，特别是涉及复杂上下文检索和长短期记忆管理的场景。",
+        "useCase_en": "To provide AI agents with a unified, self-evolving context database for memory and knowledge retrieval."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "language": "Python",
+      "stars": 29153,
+      "forks": 3494,
+      "todayStars": 726,
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 代理提供了 817 个结构化的网络安全技能，涵盖 29 个安全领域。它遵循 agentskills.io 标准，并将技能映射到 MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND、NIST AI RMF 和 MITRE F3 六大框架。旨在提升 AI 在安全调查和防御中的能力，支持 Claude Code、GitHub Copilot 等多种平台。",
+        "summary_en": "A comprehensive library of 817 cybersecurity skills for AI agents mapped to six major frameworks like MITRE ATT&CK and NIST CSF 2.0.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为 AI 代理提供资深分析师级别的网络安全技能，辅助安全调查、渗透测试和防御工作。",
+        "useCase_en": "Provide AI coding assistants with expert-level cybersecurity skills for authorized testing and defense."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars": 464489,
+      "forks": 51308,
+      "todayStars": 1139,
+      "url": "https://github.com/public-apis/public-apis",
+      "aiSummary": {
+        "summary": "这是一个极其热门的开源项目，旨在收集和整理互联网上所有免费的 API 资源。它为开发者提供了一个便捷的查找接口，涵盖了娱乐、教育、天气等多个领域。该项目拥有极高的社区关注度，是开发者寻找 API 的首选资源库。",
+        "summary_en": "A massive collection of categorized free public APIs for developers.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "开发者寻找免费 API 接口进行项目开发",
+        "useCase_en": "Developers use this repository to discover and access free APIs for their applications."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "basecamp/omarchy",
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "language": "Shell",
+      "stars": 26401,
+      "forks": 2688,
+      "todayStars": 411,
+      "url": "https://github.com/basecamp/omarchy",
+      "aiSummary": {
+        "summary": "这是一个基于 Shell 的现代、有主见的 Linux 管理工具或操作系统发行版。它集成了代理、技能、配置和主题等模块，旨在提供美观且自动化的 Linux 体验。",
+        "summary_en": "A modern, opinionated Linux configuration and setup tool managed by AI agents.",
+        "techStack": [
+          "Shell",
+          "Linux"
+        ],
+        "useCase": "适用于追求现代化、自动化且美观 Linux 系统配置的用户。",
+        "useCase_en": "Provides a beautiful, modern, and opinionated Linux environment and configuration managed by AI agents."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "agalwood/Motrix",
+      "description": "A full-featured download manager.",
+      "language": "TypeScript",
+      "stars": 53637,
+      "forks": 4948,
+      "todayStars": 607,
+      "url": "https://github.com/agalwood/Motrix",
+      "aiSummary": {
+        "summary": "Motrix 是一款功能全面的桌面下载管理器，支持 HTTP、FTP、BitTorrent 及磁力链接。Motrix Turbo v2 采用 Electron、React 和 TypeScript 重构，核心与 UI 解耦，支持插件系统和命令行工具。它支持 macOS、Windows 和 Linux，并提供无头服务器模式。功能包括磁力下载、Tracker 管理、速度限制、会话恢复、自定义仪表盘和通知等。",
+        "summary_en": "A modern, full-featured desktop download manager supporting HTTP, FTP, and BitTorrent.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "React"
+        ],
+        "useCase": "适用于需要管理多种协议下载、跨平台使用的桌面用户及服务器管理员。",
+        "useCase_en": "Users need a powerful tool to manage downloads from various sources like torrents and web links."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "NawfalMotii79/PLFM_RADAR",
+      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+      "language": "PLSQL",
+      "stars": 24280,
+      "forks": 5584,
+      "todayStars": 204,
+      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "aiSummary": {
+        "summary": "AERIS-10 是一款开源、低成本的 10.5 GHz 相控阵雷达系统，采用脉冲线性调频（PLFM）调制。项目提供 3km 和 20km 两种版本，具备全电子波束扫描、FPGA 高级信号处理及 Python 可视化界面。其模块化设计支持 GPS/IMU 集成，旨在为研究人员和爱好者提供探索相控阵雷达技术的平台。",
+        "summary_en": "Open-source 10.5 GHz phased array radar system with FPGA-based signal processing for research and drone detection.",
+        "techStack": [
+          "Python",
+          "FPGA",
+          "C/C++"
+        ],
+        "useCase": "适用于研究人员、无人机开发者及 SDR 爱好者探索相控阵雷达技术。",
+        "useCase_en": "Researchers and drone developers can experiment with beamforming, pulse compression, and target tracking."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "jundot/omlx",
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "language": "Python",
+      "stars": 19379,
+      "forks": 1668,
+      "todayStars": 366,
+      "url": "https://github.com/jundot/omlx",
+      "aiSummary": {
+        "summary": "oMLX 是专为 Apple Silicon 优化的 LLM 推理服务器，支持持续批处理与分层 KV 缓存（内存+SSD）。通过 macOS 菜单栏管理，支持 MCP 协议，旨在解决本地大模型上下文缓存难题，使其在编码等实际工作中变得实用。",
+        "summary_en": "LLM inference server for Apple Silicon featuring continuous batching and SSD caching, managed via a macOS menu bar.",
+        "techStack": [
+          "Python",
+          "Apple Silicon",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "适合需要在 Mac 上高效运行本地大模型进行实际编码或复杂任务的用户。",
+        "useCase_en": "To run local LLMs on Apple Silicon with efficient memory management and easy control via a menu bar."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "bojieli/ai-agent-book",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "language": "Python",
+      "stars": 39087,
+      "forks": 4310,
+      "todayStars": 556,
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "aiSummary": {
+        "summary": "这是一个关于 AI Agent 的开源书籍项目，使用 Python 编写。全书围绕核心公式 Agent = LLM + 上下文 + 工具 展开，包含 10 章正文和 103 个配套实验。项目提供了多语言版本（14种）的 PDF/EPUB 下载及在线阅读，旨在帮助读者从原理到实战深入理解 AI Agent 的设计与工程实践。",
+        "summary_en": "An open-source technical book covering AI Agent design principles and engineering practice, featuring 10 chapters and 103 experiments.",
+        "techStack": [
+          "Python",
+          "Pandoc",
+          "XeLaTeX",
+          "ElegantBook"
+        ],
+        "useCase": "适合想要系统学习 AI Agent 设计原理与工程实践的读者，以及需要配套实验代码的开发者。",
+        "useCase_en": "A comprehensive guide for developers to understand and implement AI Agents using LLMs and tools."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "genlayerlabs/genlayer-project-boilerplate",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 15902,
+      "forks": 801,
+      "todayStars": 543,
+      "url": "https://github.com/genlayerlabs/genlayer-project-boilerplate",
+      "aiSummary": {
+        "summary": "这是一个 GenLayer 智能合约样板项目，实现了一个足球博彩游戏。它集成了 Python 智能合约、Next.js 15 前端及部署脚本，支持 LLM 集成。项目包含快速直接模式测试、全链路集成测试、静态分析及 CI/CD 流程，旨在提供生产就绪的开发环境。",
+        "summary_en": "GenLayer boilerplate for a football betting game featuring Python contracts and Next.js frontend.",
+        "techStack": [
+          "TypeScript",
+          "Python",
+          "Next.js 15",
+          "TanStack Query",
+          "Radix UI"
+        ],
+        "useCase": "GenLayer 智能合约开发与区块链游戏构建",
+        "useCase_en": "A football betting game implementation on GenLayer with web access and LLM integration."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "stars": 84736,
+      "forks": 8350,
+      "todayStars": 288,
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "aiSummary": {
+        "summary": "OpenCut 是一个开源的视频编辑器，支持 Web、桌面和移动端。项目正在从零重写，采用 Rust 核心，支持插件架构、MCP 服务器、无头模式及脚本标签。它旨在成为 CapCut 的免费开源替代品，提供跨平台的一体化开发体验。",
+        "summary_en": "A free, open-source video editor for web, desktop, and mobile platforms.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "Web",
+          "Desktop",
+          "Mobile"
+        ],
+        "useCase": "适合需要跨平台视频编辑功能的创作者及开发者，特别是对开源生态和插件扩展有需求的用户。",
+        "useCase_en": "Create videos using a free, cross-platform video editor."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-18T23:32:36.378Z",
+    "duration": "397s",
+    "version": "1.0.0"
+  }
+}
