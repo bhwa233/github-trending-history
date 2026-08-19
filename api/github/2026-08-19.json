@@ -1,0 +1,295 @@
+{
+  "date": "2026-08-19",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "stars": 110547,
+      "forks": 16773,
+      "todayStars": 2221,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "aiSummary": {
+        "summary": "MoneyPrinterTurbo 是一个基于 Python 的一站式 AI 短视频生成工具。用户只需输入主题或关键词，系统即可自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频。项目支持 WebUI 和 API 接口，利用 Kimi 等大模型驱动内容创作，大幅降低了视频制作门槛。",
+        "summary_en": "An automated AI workflow tool that generates HD short videos from topics or keywords using large language models.",
+        "techStack": [
+          "Python",
+          "AI Large Models (LLM/VLM)",
+          "Video Processing"
+        ],
+        "useCase": "适合需要快速批量生成短视频内容（如科普、娱乐、资讯）的创作者或自媒体运营者。",
+        "useCase_en": "Generate high-definition short videos automatically by inputting a topic or keyword."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "volcengine/OpenViking",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "language": "Python",
+      "stars": 30142,
+      "forks": 2334,
+      "todayStars": 803,
+      "url": "https://github.com/volcengine/OpenViking",
+      "aiSummary": {
+        "summary": "OpenViking 是一个开源的 AI Agent 上下文数据库，旨在统一记忆、知识 RAG 和技能。它采用虚拟文件系统（viking:// 协议）存储上下文，支持确定性浏览。通过分层加载（L0/L1/L2）和可观察的检索轨迹，有效降低 Token 消耗并提升调试效率，实现会话向长期记忆的转化。",
+        "summary_en": "Open-source context database for AI agents that uses a virtual filesystem to unify memory, RAG, and skills.",
+        "techStack": [
+          "Python",
+          "向量数据库",
+          "虚拟文件系统"
+        ],
+        "useCase": "适用于需要管理复杂上下文、长期记忆和知识检索的 AI Agent 开发与调试。",
+        "useCase_en": "To provide a unified, filesystem-based context management system for AI agents to optimize memory and retrieval."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "chaitanyagiri/munder-difflin",
+      "description": "local multi-agent harness",
+      "language": "TypeScript",
+      "stars": 2663,
+      "forks": 319,
+      "todayStars": 797,
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "aiSummary": {
+        "summary": "Munder Difflin 是一个本地多代理协作工具，将 Claude、Copilot 等终端编码 CLI 转化为拥有记忆和邮箱的协作团队。它通过 Electron 和 React 构建，利用 node-pty 包装终端会话，让用户（Michael）作为协调者管理这些 AI 代理，实现本地高效的 AI 编码协作。",
+        "summary_en": "A desktop app that wraps terminal-based AI agents into a coordinated multi-agent system with memory.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "React",
+          "Pixi.js",
+          "xterm.js"
+        ],
+        "useCase": "本地管理多个 AI 编码助手，实现它们之间的协作与任务分配。",
+        "useCase_en": "To run a self-coordinating team of AI agents locally on your machine."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "language": "Python",
+      "stars": 29813,
+      "forks": 3535,
+      "todayStars": 767,
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 代理提供了 817 个结构化的网络安全技能库，遵循 agentskills.io 标准。它将技能深度映射到 MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND、NIST AI RMF 和 MITRE F3 六大框架，覆盖 29 个安全领域。旨在赋予 AI 高级分析师能力，支持 Claude Code、GitHub Copilot 等主流平台。",
+        "summary_en": "A curated library of 817 cybersecurity skills mapped to six major frameworks for AI agents.",
+        "techStack": [
+          "Python",
+          "Markdown"
+        ],
+        "useCase": "为 AI 编程助手（如 Claude Code、Copilot）提供高级网络安全分析能力，用于渗透测试、安全研究和防御。",
+        "useCase_en": "Equip AI coding assistants with structured cybersecurity skills and framework mappings for analysis."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "stars": 26435,
+      "forks": 3419,
+      "todayStars": 79,
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "aiSummary": {
+        "summary": "NautilusTrader 是一个生产级 Rust 原生交易引擎，采用确定性事件驱动架构。它结合了 Rust 的高性能与 Python 的灵活性，支持研究、模拟和实盘交易。具备多资产、多交易场所支持，以及高级订单类型，确保研究到实盘的无缝部署。",
+        "summary_en": "Production-grade Rust-native trading engine with deterministic event-driven architecture for multi-asset systems.",
+        "techStack": [
+          "Rust",
+          "Python",
+          "Tokio",
+          "mimalloc",
+          "Redis"
+        ],
+        "useCase": "适用于量化交易策略开发、高频交易系统及多资产金融科技应用。",
+        "useCase_en": "Building high-performance, multi-asset trading systems with research-to-live parity."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 223729,
+      "forks": 19251,
+      "todayStars": 1214,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一套专为真实工程师设计的 AI 辅助技能集合，旨在帮助开发者进行高质量的实际应用开发。项目包含一系列小巧、可组合的 Shell 脚本，支持 Claude Code 和 Codex 等主流 AI 编码助手。用户可选择订阅托管版本或直接克隆可编辑版本，通过运行特定命令快速配置开发环境。",
+        "summary_en": "A collection of reusable engineering agent skills for real software development.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "Codex"
+        ],
+        "useCase": "适用于使用 AI 编码助手进行实际项目开发，需要标准化工程流程和提升代码质量的场景。",
+        "useCase_en": "To install and use reusable engineering skills within coding agents like Claude Code or Codex."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 274247,
+      "forks": 24554,
+      "todayStars": 514,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码代理构建的软件开发方法论框架。它通过一套可组合的技能，引导代理先确认需求、拆解规范、制定计划，并严格执行 TDD、YAGNI 和 DRY 原则。代理可自动执行子任务，实现自主开发，适用于多种主流 AI 编码工具。",
+        "summary_en": "An agentic skills framework providing a structured software development methodology for AI coding agents.",
+        "techStack": [
+          "Shell",
+          "Agentic Framework",
+          "AI Coding Agents"
+        ],
+        "useCase": "需要自动化、结构化 AI 编码代理开发流程的场景。",
+        "useCase_en": "To empower AI coding agents with a structured methodology for autonomous software development."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "jundot/omlx",
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "language": "Python",
+      "stars": 19823,
+      "forks": 1689,
+      "todayStars": 467,
+      "url": "https://github.com/jundot/omlx",
+      "aiSummary": {
+        "summary": "oMLX 是一个专为 Apple Silicon 优化的 LLM 推理服务器，支持持续批处理和分层 KV 缓存（内存+SSD）。它提供 macOS 菜单栏管理，支持 MCP 协议及原生自定义内核，旨在解决本地 LLM 在实际编码工作中的缓存与性能痛点。",
+        "summary_en": "Local LLM inference server for Apple Silicon featuring continuous batching and tiered SSD caching.",
+        "techStack": [
+          "Python",
+          "macOS",
+          "MCP",
+          "Apple Silicon"
+        ],
+        "useCase": "适用于在 Mac 上部署本地 LLM，特别是需要持久化上下文缓存和高效推理的编程辅助场景。",
+        "useCase_en": "To run local LLMs on Mac hardware with optimized caching and menu bar management."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "santifer/career-ops",
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "language": "JavaScript",
+      "stars": 65751,
+      "forks": 12736,
+      "todayStars": 193,
+      "url": "https://github.com/santifer/career-ops",
+      "aiSummary": {
+        "summary": "这是一个开源的 AI 求职工具，将 AI 编码 CLI 转变为求职中心。它能自动扫描职位门户，使用结构化评分系统（1.0-5.0）评估职位匹配度，并生成针对 ATS 的定制化简历。支持批量处理、申请跟踪和公司研究，帮助求职者高效筛选高质量职位。",
+        "summary_en": "An open-source AI job search tool that evaluates listings, tailors CVs, and tracks applications locally in AI coding CLIs.",
+        "techStack": [
+          "JavaScript",
+          "Playwright",
+          "AI CLI"
+        ],
+        "useCase": "开发者利用 AI 编码助手自动化求职流程，批量筛选高质量职位并生成 ATS 优化简历。",
+        "useCase_en": "Automate the job search process by evaluating listings, tailoring resumes, and tracking applications using AI."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "stars": 111846,
+      "forks": 6627,
+      "todayStars": 137,
+      "url": "https://github.com/immich-app/immich",
+      "aiSummary": {
+        "summary": "Immich 是一个高性能自托管的照片与视频管理解决方案，支持移动端与 Web 端。它具备自动备份、去重、人脸识别、地理标记、智能搜索（含 CLIP）以及相册共享等功能，旨在为用户提供类似 Google Photos 的体验，同时确保数据完全自主可控。",
+        "summary_en": "High-performance self-hosted photo and video management solution with mobile and web support.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合需要自托管个人或团队照片视频库，追求数据隐私与高性能管理的用户。",
+        "useCase_en": "To self-host a private, high-performance photo and video gallery with advanced search and sharing features."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "amadeusprotocol/node",
+      "description": "",
+      "language": "Rust",
+      "stars": 4508,
+      "forks": 84,
+      "todayStars": 1415,
+      "url": "https://github.com/amadeusprotocol/node",
+      "aiSummary": {
+        "summary": "该项目是 Amadeus Protocol 的 Rust 节点实现，旨在运行本地测试网并提供 RPC API。它利用 Docker 进行构建，支持通过 Erlang REPL 部署 AssemblyScript 智能合约及执行交易。同时包含详细的系统网络配置，用于优化高带宽环境下的 UDP 性能。",
+        "summary_en": "Rust-based node implementation for the Amadeus Protocol blockchain, supporting local testnet deployment and AssemblyScript smart contract interaction.",
+        "techStack": [
+          "Rust",
+          "Docker",
+          "Erlang",
+          "AssemblyScript",
+          "Linux"
+        ],
+        "useCase": "区块链本地开发与测试环境搭建",
+        "useCase_en": "Deploy and interact with a local testnet for the Amadeus Protocol blockchain."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "marceloprates/prettymaps",
+      "description": "Draw pretty maps from OpenStreetMap data! Built with osmnx +matplotlib + shapely",
+      "language": "Python",
+      "stars": 13085,
+      "forks": 654,
+      "todayStars": 58,
+      "url": "https://github.com/marceloprates/prettymaps",
+      "aiSummary": {
+        "summary": "prettymaps 是一个基于 Python 的库，用于从 OpenStreetMap 数据绘制美观的地图。它结合了 osmnx、matplotlib 和 shapely 等工具，支持自定义样式、图层和预设。用户可以通过简单的 API 快速生成艺术风格的地图，并支持 Streamlit 前端交互。",
+        "summary_en": "A Python library to draw customized maps from OpenStreetMap data using osmnx, matplotlib, and shapely.",
+        "techStack": [
+          "Python",
+          "osmnx",
+          "matplotlib",
+          "shapely",
+          "vsketch"
+        ],
+        "useCase": "生成 OpenStreetMap 数据的艺术风格地图",
+        "useCase_en": "Generate aesthetically pleasing maps from OpenStreetMap data for visualization or art."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "genlayerlabs/genlayer-project-boilerplate",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 16222,
+      "forks": 808,
+      "todayStars": 421,
+      "url": "https://github.com/genlayerlabs/genlayer-project-boilerplate",
+      "aiSummary": {
+        "summary": "这是一个基于 GenLayer 框架的足球博彩游戏样板项目。它集成了 Python 智能合约、Next.js 15 前端及 LLM 功能，提供快速直接模式测试、代码检查和 CI/CD 流程，旨在帮助开发者快速构建去中心化应用。",
+        "summary_en": "Boilerplate for a GenLayer football betting game with Python contracts, Next.js frontend, and CI/CD.",
+        "techStack": [
+          "TypeScript",
+          "Python",
+          "Next.js",
+          "GenLayer",
+          "LLM"
+        ],
+        "useCase": "快速构建基于 GenLayer 的去中心化智能合约应用，特别是涉及 LLM 集成的场景。",
+        "useCase_en": "Implements a football betting game on the GenLayer blockchain with web and LLM integration."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-19T23:33:00.075Z",
+    "duration": "403s",
+    "version": "1.0.0"
+  }
+}

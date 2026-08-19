@@ -70,25 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-08-18 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-08-19 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD sho... | Python | 108.5k | 2.3k | 这是一个基于 Python 的一站式 AI 短视频生成工具。用户只需输入主题或关键词，系统即可自动生成视频脚本、匹配素材、添加字幕和背景音乐，并最终合成高清短视频。项目集成了多种 AI 大模型，旨在降低视频创作门槛，实现自动化内容生产。 |
-| 2 | [chaitanyagiri/munder-difflin](https://github.com/chaitanyagiri/munder-difflin) | local multi-agent harness... | TypeScript | 2.0k | 256 | Munder Difflin 是一个本地多代理协作框架，将 Claude、Grok 等终端编码 CLI 包装成具有记忆和邮箱的独立代理。它通过桌面应用可视化这些代理在 2D 办公室中协作，由你的克隆 Michael 协调工作。支持多种 LLM 提供商，利用现有订阅，实现本地高效的多代理协作。 |
-| 3 | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | Solution for long term memory for agent coding CLI... | Rust | 2.7k | 730 | 这是一个基于 Rust 的 AI 编码 Agent 长期记忆解决方案。它支持 Claude Code、Codex 等多种 Agent 供应商，通过 MCP 协议实现无缝上下文交接。用户可在不同 Agent 间无缝切换任务，无需重复解释架构或失败尝试，显著提升开发连续性。 |
-| 4 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | Self-evolving Context Database for AI Agents. Unif... | Python | 29.3k | 298 | OpenViking 是一个面向 AI Agent 的自进化上下文数据库。它采用虚拟文件系统（viking://）统一管理记忆、知识和技能，支持分层加载（L0/L1/L2）以优化 Token 消耗，并提供可观察的检索轨迹，帮助 Agent 像开发者一样直观地浏览和调试上下文。 |
-| 5 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 817 structured cybersecurity skills for AI agents ... | Python | 29.2k | 726 | 该项目为 AI 代理提供了 817 个结构化的网络安全技能，涵盖 29 个安全领域。它遵循 agentskills.io 标准，并将技能映射到 MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND、NIST AI RMF 和 MITRE F3 六大框架。旨在提升 AI 在安全调查和防御中的能力，支持 Claude Code、GitHub Copilot 等多种平台。 |
-| 6 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs... | Python | 464.5k | 1.1k | 这是一个极其热门的开源项目，旨在收集和整理互联网上所有免费的 API 资源。它为开发者提供了一个便捷的查找接口，涵盖了娱乐、教育、天气等多个领域。该项目拥有极高的社区关注度，是开发者寻找 API 的首选资源库。 |
-| 7 | [basecamp/omarchy](https://github.com/basecamp/omarchy) | Beautiful, Modern & Opinionated Linux... | Shell | 26.4k | 411 | 这是一个基于 Shell 的现代、有主见的 Linux 管理工具或操作系统发行版。它集成了代理、技能、配置和主题等模块，旨在提供美观且自动化的 Linux 体验。 |
-| 8 | [agalwood/Motrix](https://github.com/agalwood/Motrix) | A full-featured download manager.... | TypeScript | 53.6k | 607 | Motrix 是一款功能全面的桌面下载管理器，支持 HTTP、FTP、BitTorrent 及磁力链接。Motrix Turbo v2 采用 Electron、React 和 TypeScript 重构，核心与 UI 解耦，支持插件系统和命令行工具。它支持 macOS、Windows 和 Linux，并提供无头服务器模式。功能包括磁力下载、Tracker 管理、速度限制、会话恢复、自定义仪表盘和通知等。 |
-| 9 | [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | Open-source, low-cost 10.5 GHz PLFM phased array R... | PLSQL | 24.3k | 204 | AERIS-10 是一款开源、低成本的 10.5 GHz 相控阵雷达系统，采用脉冲线性调频（PLFM）调制。项目提供 3km 和 20km 两种版本，具备全电子波束扫描、FPGA 高级信号处理及 Python 可视化界面。其模块化设计支持 GPS/IMU 集成，旨在为研究人员和爱好者提供探索相控阵雷达技术的平台。 |
-| 10 | [jundot/omlx](https://github.com/jundot/omlx) | LLM inference server with continuous batching & SS... | Python | 19.4k | 366 | oMLX 是专为 Apple Silicon 优化的 LLM 推理服务器，支持持续批处理与分层 KV 缓存（内存+SSD）。通过 macOS 菜单栏管理，支持 MCP 协议，旨在解决本地大模型上下文缓存难题，使其在编码等实际工作中变得实用。 |
-| 11 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF... | Python | 39.1k | 556 | 这是一个关于 AI Agent 的开源书籍项目，使用 Python 编写。全书围绕核心公式 Agent = LLM + 上下文 + 工具 展开，包含 10 章正文和 103 个配套实验。项目提供了多语言版本（14种）的 PDF/EPUB 下载及在线阅读，旨在帮助读者从原理到实战深入理解 AI Agent 的设计与工程实践。 |
-| 12 | [genlayerlabs/genlayer-project-boilerplate](https://github.com/genlayerlabs/genlayer-project-boilerplate) | ... | TypeScript | 15.9k | 543 | 这是一个 GenLayer 智能合约样板项目，实现了一个足球博彩游戏。它集成了 Python 智能合约、Next.js 15 前端及部署脚本，支持 LLM 集成。项目包含快速直接模式测试、全链路集成测试、静态分析及 CI/CD 流程，旨在提供生产就绪的开发环境。 |
-| 13 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | The open-source CapCut alternative... | TypeScript | 84.7k | 288 | OpenCut 是一个开源的视频编辑器，支持 Web、桌面和移动端。项目正在从零重写，采用 Rust 核心，支持插件架构、MCP 服务器、无头模式及脚本标签。它旨在成为 CapCut 的免费开源替代品，提供跨平台的一体化开发体验。 |
+| 1 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD sho... | Python | 110.5k | 2.2k | MoneyPrinterTurbo 是一个基于 Python 的一站式 AI 短视频生成工具。用户只需输入主题或关键词，系统即可自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频。项目支持 WebUI 和 API 接口，利用 Kimi 等大模型驱动内容创作，大幅降低了视频制作门槛。 |
+| 2 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | Self-evolving Context Database for AI Agents. Unif... | Python | 30.1k | 803 | OpenViking 是一个开源的 AI Agent 上下文数据库，旨在统一记忆、知识 RAG 和技能。它采用虚拟文件系统（viking:// 协议）存储上下文，支持确定性浏览。通过分层加载（L0/L1/L2）和可观察的检索轨迹，有效降低 Token 消耗并提升调试效率，实现会话向长期记忆的转化。 |
+| 3 | [chaitanyagiri/munder-difflin](https://github.com/chaitanyagiri/munder-difflin) | local multi-agent harness... | TypeScript | 2.7k | 797 | Munder Difflin 是一个本地多代理协作工具，将 Claude、Copilot 等终端编码 CLI 转化为拥有记忆和邮箱的协作团队。它通过 Electron 和 React 构建，利用 node-pty 包装终端会话，让用户（Michael）作为协调者管理这些 AI 代理，实现本地高效的 AI 编码协作。 |
+| 4 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 817 structured cybersecurity skills for AI agents ... | Python | 29.8k | 767 | 该项目为 AI 代理提供了 817 个结构化的网络安全技能库，遵循 agentskills.io 标准。它将技能深度映射到 MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND、NIST AI RMF 和 MITRE F3 六大框架，覆盖 29 个安全领域。旨在赋予 AI 高级分析师能力，支持 Claude Code、GitHub Copilot 等主流平台。 |
+| 5 | [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | Production-grade Rust-native trading engine with d... | Rust | 26.4k | 79 | NautilusTrader 是一个生产级 Rust 原生交易引擎，采用确定性事件驱动架构。它结合了 Rust 的高性能与 Python 的灵活性，支持研究、模拟和实盘交易。具备多资产、多交易场所支持，以及高级订单类型，确保研究到实盘的无缝部署。 |
+| 6 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .agent... | Shell | 223.7k | 1.2k | 这是一套专为真实工程师设计的 AI 辅助技能集合，旨在帮助开发者进行高质量的实际应用开发。项目包含一系列小巧、可组合的 Shell 脚本，支持 Claude Code 和 Codex 等主流 AI 编码助手。用户可选择订阅托管版本或直接克隆可编辑版本，通过运行特定命令快速配置开发环境。 |
+| 7 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 274.2k | 514 | Superpowers 是一个为编码代理构建的软件开发方法论框架。它通过一套可组合的技能，引导代理先确认需求、拆解规范、制定计划，并严格执行 TDD、YAGNI 和 DRY 原则。代理可自动执行子任务，实现自主开发，适用于多种主流 AI 编码工具。 |
+| 8 | [jundot/omlx](https://github.com/jundot/omlx) | LLM inference server with continuous batching & SS... | Python | 19.8k | 467 | oMLX 是一个专为 Apple Silicon 优化的 LLM 推理服务器，支持持续批处理和分层 KV 缓存（内存+SSD）。它提供 macOS 菜单栏管理，支持 MCP 协议及原生自定义内核，旨在解决本地 LLM 在实际编码工作中的缓存与性能痛点。 |
+| 9 | [santifer/career-ops](https://github.com/santifer/career-ops) | Open-source AI job search: scan job portals, evalu... | JavaScript | 65.8k | 193 | 这是一个开源的 AI 求职工具，将 AI 编码 CLI 转变为求职中心。它能自动扫描职位门户，使用结构化评分系统（1.0-5.0）评估职位匹配度，并生成针对 ATS 的定制化简历。支持批量处理、申请跟踪和公司研究，帮助求职者高效筛选高质量职位。 |
+| 10 | [immich-app/immich](https://github.com/immich-app/immich) | High performance self-hosted photo and video manag... | TypeScript | 111.8k | 137 | Immich 是一个高性能自托管的照片与视频管理解决方案，支持移动端与 Web 端。它具备自动备份、去重、人脸识别、地理标记、智能搜索（含 CLIP）以及相册共享等功能，旨在为用户提供类似 Google Photos 的体验，同时确保数据完全自主可控。 |
+| 11 | [amadeusprotocol/node](https://github.com/amadeusprotocol/node) | ... | Rust | 4.5k | 1.4k | 该项目是 Amadeus Protocol 的 Rust 节点实现，旨在运行本地测试网并提供 RPC API。它利用 Docker 进行构建，支持通过 Erlang REPL 部署 AssemblyScript 智能合约及执行交易。同时包含详细的系统网络配置，用于优化高带宽环境下的 UDP 性能。 |
+| 12 | [marceloprates/prettymaps](https://github.com/marceloprates/prettymaps) | Draw pretty maps from OpenStreetMap data! Built wi... | Python | 13.1k | 58 | prettymaps 是一个基于 Python 的库，用于从 OpenStreetMap 数据绘制美观的地图。它结合了 osmnx、matplotlib 和 shapely 等工具，支持自定义样式、图层和预设。用户可以通过简单的 API 快速生成艺术风格的地图，并支持 Streamlit 前端交互。 |
+| 13 | [genlayerlabs/genlayer-project-boilerplate](https://github.com/genlayerlabs/genlayer-project-boilerplate) | ... | TypeScript | 16.2k | 421 | 这是一个基于 GenLayer 框架的足球博彩游戏样板项目。它集成了 Python 智能合约、Next.js 15 前端及 LLM 功能，提供快速直接模式测试、代码检查和 CI/CD 流程，旨在帮助开发者快速构建去中心化应用。 |
 
-[查看完整数据](api/github/2026-08-18.json)
+[查看完整数据](api/github/2026-08-19.json)
 <!-- END GITHUB TRENDING -->
 
 
