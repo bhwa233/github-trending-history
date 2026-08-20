@@ -1,0 +1,369 @@
+{
+  "date": "2026-08-20",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "modular/modular",
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "language": "Mojo",
+      "stars": 27902,
+      "forks": 2999,
+      "todayStars": 340,
+      "url": "https://github.com/modular/modular",
+      "aiSummary": {
+        "summary": "Modular Platform 是一个统一的 AI 开发和部署平台，包含 Mojo 编程语言和 MAX 框架。该项目开源了核心组件，包括 Mojo 编译器、标准库、MAX 加速器库、推理服务器及模型管道等。它旨在提供高性能的 AI 开发体验，支持模型部署，并接受社区贡献。",
+        "summary_en": "Modular Platform is a unified platform for AI development and deployment, featuring the Mojo language and MAX framework.",
+        "techStack": [
+          "Mojo",
+          "MAX Framework",
+          "Python"
+        ],
+        "useCase": "AI 模型开发与高性能部署",
+        "useCase_en": "Developing and deploying AI models with the Mojo language and MAX framework."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 226362,
+      "forks": 19409,
+      "todayStars": 2267,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "该项目提供了一套面向真实工程师的实用技能集合，旨在通过小型、可组合的脚本解决开发流程中的控制权问题。支持 Claude Code 和其他 AI 代理，帮助开发者摆脱“氛围编码”，专注于实际应用构建。",
+        "summary_en": "A collection of composable agent skills for real engineering, avoiding process-heavy frameworks.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "JavaScript (Node.js/NPM)"
+        ],
+        "useCase": "集成到 Claude Code 或其他 AI 编程代理中，用于自动化工程任务和提升开发效率。",
+        "useCase_en": "Developers install these skills into AI agents to streamline real engineering workflows and maintain control."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "AprilNEA/OpenLogi",
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "language": "Rust",
+      "stars": 11803,
+      "forks": 321,
+      "todayStars": 1540,
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "aiSummary": {
+        "summary": "OpenLogi 是一款用 Rust 编写的本地优先的 Logitech Options+ 替代品。它支持重映射鼠标按钮、DPI、SmartShift 和键盘 F 键，支持手势和应用程序配置文件。它跨平台运行，无需账户或遥测，并提供 CLI 和 GUI。",
+        "summary_en": "OpenLogi is a native Rust alternative to Logitech Options+ for remapping mice, keyboards, and webcams.",
+        "techStack": [
+          "Rust",
+          "GPUI",
+          "HID++",
+          "TOML"
+        ],
+        "useCase": "需要自定义 Logitech 鼠标、键盘及摄像头功能的用户，特别是追求本地化控制、隐私保护及跨平台兼容性的开发者或极客。",
+        "useCase_en": "Users need a local, open-source tool to remap buttons, DPI, and gestures on Logitech mice and keyboards."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 274917,
+      "forks": 24602,
+      "todayStars": 749,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码智能体设计的技能框架和软件开发方法论。它通过一套可组合的技能和指令，引导智能体从需求分析到设计审查，再到基于 TDD、YAGNI 和 DRY 原则的实施计划，最后通过子代理驱动开发实现自主编码。它支持多种主流 AI 编码工具，旨在提升智能体的开发效率和代码质量。",
+        "summary_en": "A framework providing a structured software development methodology for AI coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "为各类 AI 编码智能体提供结构化的软件开发工作流和技能框架。",
+        "useCase_en": "To provide a structured software development methodology for autonomous AI coding agents."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars": 4066,
+      "forks": 339,
+      "todayStars": 473,
+      "url": "https://github.com/cursor/plugins",
+      "aiSummary": {
+        "summary": "该项目是 Cursor 编辑器的官方插件集合，包含教学、持续学习、团队协作、代码审查、自动化工具等多种插件。它提供了插件开发规范和 SDK，支持构建 AI 代理、并行任务编排及文档/PR 可视化，旨在提升开发效率和代码质量。",
+        "summary_en": "Official plugins and specifications for the Cursor AI code editor ecosystem.",
+        "techStack": [
+          "TypeScript",
+          "Node.js"
+        ],
+        "useCase": "适用于 AI 辅助编程、团队协作开发、自动化代码审查及插件开发。",
+        "useCase_en": "Provides official plugins and specifications to extend the functionality of the Cursor AI code editor for development an"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "santifer/career-ops",
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "language": "JavaScript",
+      "stars": 66626,
+      "forks": 12815,
+      "todayStars": 855,
+      "url": "https://github.com/santifer/career-ops",
+      "aiSummary": {
+        "summary": "这是一个开源的 AI 求职工具，利用 AI 编码 CLI 在本地运行。它可以自动扫描职位门户，使用结构化评分系统（1-5分）评估职位匹配度，并生成针对特定职位的 ATS 优化简历。它旨在帮助求职者高效筛选高质量职位，而非盲目投递。",
+        "summary_en": "Open-source AI job search tool that evaluates listings and tailors CVs using AI coding CLIs.",
+        "techStack": [
+          "JavaScript",
+          "Playwright"
+        ],
+        "useCase": "适合需要利用 AI 自动化求职流程、筛选高质量职位并定制简历的开发者。",
+        "useCase_en": "Automate job application tracking and resume tailoring to filter for high-quality roles."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "stars": 3575,
+      "forks": 280,
+      "todayStars": 335,
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的项目，旨在为 AI 编码 CLI 提供长期记忆解决方案。它允许用户在不同的 AI Agent（如 Claude Code 和 Codex）之间无缝切换，无需重新解释项目架构或上下文，支持 Linux、macOS、Windows 等多平台。",
+        "summary_en": "Rust project enabling long-term memory for AI coding agents, allowing seamless context handoff between different vendors.",
+        "techStack": [
+          "Rust",
+          "Docker",
+          "MCP"
+        ],
+        "useCase": "AI 编码 Agent 之间的上下文保留与无缝交接",
+        "useCase_en": "Provides long-term memory for AI coding agents to facilitate seamless handoffs between different vendors."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "stars": 112892,
+      "forks": 17109,
+      "todayStars": 2774,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的一站式 AI 短视频生成工具。用户只需输入主题或关键词，系统利用大模型自动生成脚本、匹配素材、添加字幕和背景音乐，最终合成高清短视频。支持 WebUI 和 API 接口，极大降低了视频创作门槛。",
+        "summary_en": "Automated AI workflow tool generating HD short videos from keywords using LLMs and multimodal models.",
+        "techStack": [
+          "Python",
+          "AI 大模型",
+          "自动化工作流",
+          "WebUI",
+          "API"
+        ],
+        "useCase": "适合自媒体创作者、营销人员快速批量生成短视频内容。",
+        "useCase_en": "Automatically generate high-definition short videos from a topic or keyword using an AI workflow."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "stars": 1381,
+      "forks": 251,
+      "todayStars": 66,
+      "url": "https://github.com/agent-substrate/substrate",
+      "aiSummary": {
+        "summary": "Agent Substrate 是一个用 Go 编写的核心系统，旨在为大规模代理部署提供高性能、高密度的运行时环境。它支持微秒级的暂停/恢复操作，利用 Kubernetes 进行基础设施管理，并能将大量代理高效地多路复用到较少的工作节点上，适用于 AI 代理等应用的规模化运行。",
+        "summary_en": "A Go-based high-density runtime for managing agent lifecycles and multiplexing on Kubernetes.",
+        "techStack": [
+          "Go",
+          "Kubernetes",
+          "microVMs",
+          "gVisor"
+        ],
+        "useCase": "适用于大规模 AI 代理或类似应用的部署与运行。",
+        "useCase_en": "Providing a low-opinion runtime for high-density agent deployments and RL scenarios."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "chaitanyagiri/munder-difflin",
+      "description": "local multi-agent harness",
+      "language": "TypeScript",
+      "stars": 3112,
+      "forks": 350,
+      "todayStars": 517,
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "aiSummary": {
+        "summary": "这是一个本地多代理协作编排工具，将Claude、Gemini等终端编码CLI包装成具有记忆能力的智能代理。它通过Electron构建桌面应用，利用Pixi.js可视化代理在办公室的协作。用户克隆体“Michael”作为协调者，管理这些代理完成复杂任务，适合需要自动化和本地化AI协作的开发场景。",
+        "summary_en": "A desktop app that wraps multiple AI coding agents into a coordinated office environment, allowing users to manage clones locally.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "React",
+          "Pixi.js",
+          "xterm.js"
+        ],
+        "useCase": "本地多代理自动化与协作",
+        "useCase_en": "To coordinate a team of AI coding agents locally to automate complex tasks."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "PostHog/posthog",
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "language": "Python",
+      "stars": 37977,
+      "forks": 3214,
+      "todayStars": 100,
+      "url": "https://github.com/PostHog/posthog",
+      "aiSummary": {
+        "summary": "PostHog 是一个全栈产品分析平台，集成了产品分析、会话回放、错误追踪、A/B 测试、功能标志及 AI 可观测性等工具。它支持从 Slack 或 MCP 管理数据，帮助开发者主动诊断问题、发现机会并快速修复，所有功能均可免费使用。",
+        "summary_en": "Open-source product intelligence platform offering analytics, session replay, feature flags, and error tracking for self-driving products.",
+        "techStack": [
+          "Python",
+          "PostgreSQL",
+          "React"
+        ],
+        "useCase": "适用于需要全面产品分析、用户行为监控及自驱动开发流程的团队。",
+        "useCase_en": "Use PostHog to build self-driving products by capturing product data, analyzing user behavior, and automating workflows."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "mahlernim/google-timeline-visualizer",
+      "description": "Visualize your year in travel using your Google Location History (Timeline) data",
+      "language": "Kotlin",
+      "stars": 1509,
+      "forks": 171,
+      "todayStars": 575,
+      "url": "https://github.com/mahlernim/google-timeline-visualizer",
+      "aiSummary": {
+        "summary": "这是一个将 Google 位置历史数据转换为动画旅行视频的工具。支持 Android 和 iOS（Web 版）。用户可导出 Timeline.json 文件，选择日期范围和相机视角，生成 MP4 视频进行预览和分享。Android 版本需安装 APK，iOS 版本通过 Safari Web App 使用，无需上传文件。",
+        "summary_en": "Transform Google Location History data into animated travel videos for Android and iOS devices.",
+        "techStack": [
+          "Kotlin",
+          "Android"
+        ],
+        "useCase": "回顾年度旅行轨迹并制作成视频分享",
+        "useCase_en": "Create animated travel videos from Google Location History data on Android or iOS."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "volcengine/OpenViking",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "language": "Python",
+      "stars": 30999,
+      "forks": 2392,
+      "todayStars": 955,
+      "url": "https://github.com/volcengine/OpenViking",
+      "aiSummary": {
+        "summary": "OpenViking 是一个开源的 AI Agent 上下文数据库，通过虚拟文件系统（viking:// 协议）统一管理记忆、知识和技能。它采用分层加载机制（L0-L2）以节省 Token，支持可观察的检索轨迹，并能将会话转化为长期记忆，帮助 Agent 更高效地处理上下文。",
+        "summary_en": "An open-source context database for AI agents that unifies memory, knowledge RAG, and skills via a virtual filesystem.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要统一管理 AI Agent 记忆、知识库和技能，并优化 Token 消耗的开发场景。",
+        "useCase_en": "To manage AI agent memory and knowledge using a virtual filesystem to optimize retrieval and reduce costs."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "Go",
+      "stars": 99608,
+      "forks": 5768,
+      "todayStars": 309,
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "aiSummary": {
+        "summary": "该项目通过“穴居人模式”大幅降低 AI 代理的 Token 消耗。包含 Caveman Proxy（本地代理，压缩输入数据）和 Caveman Skill（让 Agent 用简短语言回答）。两者结合可减少约 65% Token，在保持代码准确性的同时显著降低成本。",
+        "summary_en": "Reduces AI agent token usage by 65% using a local proxy and skill to compress context.",
+        "techStack": [
+          "Go",
+          "Node.js",
+          "Shell"
+        ],
+        "useCase": "降低 AI 代理 Token 消耗与成本，优化上下文管理。",
+        "useCase_en": "To reduce token costs and improve context window efficiency for AI coding agents."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "makeplane/plane",
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "stars": 56474,
+      "forks": 5395,
+      "todayStars": 206,
+      "url": "https://github.com/makeplane/plane",
+      "aiSummary": {
+        "summary": "Plane 是一个开源的项目管理平台，旨在替代 Jira、Linear 等工具。它提供任务管理、冲刺周期、模块化、自定义视图、文档编写（含 AI）以及实时数据分析等功能。支持云端托管或自托管部署。",
+        "summary_en": "Open-source alternative to Jira and Linear for managing tasks, sprints, and documentation.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要自托管、灵活配置工作流及文档协作的敏捷开发团队。",
+        "useCase_en": "Teams use this to track issues, manage sprints, and organize documentation in a self-hosted environment."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "Tencent/AI-Infra-Guard",
+      "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+      "language": "Python",
+      "stars": 4934,
+      "forks": 480,
+      "todayStars": 28,
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
+      "aiSummary": {
+        "summary": "AI-Infra-Guard 是腾讯紫鹊实验室推出的全栈 AI 红队平台。它集成了 ClawScan、Agent Scan、MCP 扫描及 LLM 越狱评估等多种能力，旨在为用户提供全面的 AI 安全风险自检方案，帮助开发者发现并修复 AI 基础设施及应用中的漏洞。",
+        "summary_en": "A full-stack AI Red Teaming platform by Tencent Zhuque Lab for securing AI ecosystems via vulnerability scanning and jailbreak evaluation.",
+        "techStack": [
+          "Python",
+          "Frontend"
+        ],
+        "useCase": "适用于 AI 基础设施、Agent 及大模型应用的安全红队测试与漏洞挖掘。",
+        "useCase_en": "To perform comprehensive security self-examination and red teaming on AI infrastructures, agents, and skills."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "language": "Rust",
+      "stars": 15925,
+      "forks": 1383,
+      "todayStars": 251,
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "aiSummary": {
+        "summary": "turbovec 是一个基于 TurboQuant 算法的 Rust 向量索引库，提供 Python 绑定。它具有极高的压缩率（10M 文档仅需 4GB 内存），支持在线增量摄取和快速 SIMD 搜索，性能优于 FAISS。它支持搜索时过滤和纯本地部署，适合对隐私、内存和延迟敏感的 RAG 场景。",
+        "summary_en": "A Rust-based vector index library using TurboQuant for compressed, fast, and privacy-focused similarity search.",
+        "techStack": [
+          "Rust",
+          "Python",
+          "TurboQuant",
+          "SIMD (AVX-512/NEON)",
+          "NumPy"
+        ],
+        "useCase": "适用于对隐私、内存或延迟敏感的本地化 RAG 场景",
+        "useCase_en": "Building high-performance, privacy-focused vector search systems for RAG applications."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-20T23:37:57.265Z",
+    "duration": "532s",
+    "version": "1.0.0"
+  }
+}
