@@ -1,0 +1,366 @@
+{
+  "date": "2026-08-21",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 229401,
+      "forks": 19605,
+      "todayStars": 3368,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个为工程师设计的实用技能集合，旨在帮助开发者进行真实的工程构建而非“氛围编码”。它包含一系列小型、可组合的 Shell 脚本，支持通过 Claude Code 插件或 npx 安装。这些技能旨在提供工程控制权，简化开发流程，并允许用户根据需要进行定制。",
+        "summary_en": "A collection of engineering skills for AI coding agents to assist with real development tasks.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "Node.js"
+        ],
+        "useCase": "辅助 AI 编码代理执行工程任务，提升开发效率和代码质量。",
+        "useCase_en": "To install and manage a collection of engineering skills for AI coding agents."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "mahlernim/google-timeline-visualizer",
+      "description": "Visualize your year in travel using your Google Location History (Timeline) data",
+      "language": "Kotlin",
+      "stars": 2206,
+      "forks": 252,
+      "todayStars": 1040,
+      "url": "https://github.com/mahlernim/google-timeline-visualizer",
+      "aiSummary": {
+        "summary": "该项目允许用户将 Google 位置历史数据转换为动画旅行视频。支持 Android 和 iOS 平台，用户需导出 Timeline.json 文件，选择日期范围和相机视角，最终生成 MP4 视频以便回顾和分享年度旅行足迹。",
+        "summary_en": "A tool to visualize travel history by converting Google Timeline JSON files into animated MP4 videos on Android and iOS.",
+        "techStack": [
+          "Kotlin"
+        ],
+        "useCase": "回顾并分享年度旅行足迹",
+        "useCase_en": "Create an animated travel video from Google Location History data."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "stars": 113869,
+      "forks": 17278,
+      "todayStars": 1187,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的一站式 AI 短视频生成工具。用户只需输入主题或关键词，系统即可自动生成视频脚本、匹配素材、添加字幕和背景音乐，并合成高清短视频。项目集成了多种大模型（如 Kimi、豆包等）和多媒体 API，旨在降低视频制作门槛，实现自动化内容生产。",
+        "summary_en": "Automated AI workflow tool generating HD short videos from keywords using large language models.",
+        "techStack": [
+          "Python",
+          "大语言模型 (LLM)",
+          "多模态 AI (VLM/图像生成)",
+          "视频合成"
+        ],
+        "useCase": "快速批量生成短视频内容，适用于自媒体运营、营销推广及内容创作者。",
+        "useCase_en": "Generate high-definition short videos automatically based on a topic or keyword."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "AprilNEA/OpenLogi",
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "language": "Rust",
+      "stars": 12885,
+      "forks": 350,
+      "todayStars": 1372,
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "aiSummary": {
+        "summary": "OpenLogi 是一款用 Rust 编写的本地优先开源软件，旨在替代 Logitech Options+。它支持跨平台（macOS/Linux/Windows），允许用户通过 HID++ 协议重映射鼠标按键、DPI、SmartShift 及键盘功能，且无需账户或遥测，提供纯文本配置和 CLI 工具。",
+        "summary_en": "A native Rust alternative to Logitech Options+ for remapping buttons, DPI, and gestures on mice and keyboards.",
+        "techStack": [
+          "Rust",
+          "HID++",
+          "GPUI",
+          "TOML",
+          "UVC"
+        ],
+        "useCase": "需要自定义 Logitech 鼠标、键盘及摄像头功能的用户。",
+        "useCase_en": "Customize Logitech mice and keyboards locally with advanced features like gestures, DPI control, and per-app profiles."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "PostHog/posthog",
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "language": "Python",
+      "stars": 38278,
+      "forks": 3232,
+      "todayStars": 334,
+      "url": "https://github.com/PostHog/posthog",
+      "aiSummary": {
+        "summary": "PostHog 是一个开源的全栈产品分析平台，提供会话回放、功能标志、A/B 测试、错误跟踪和日志分析等全方位开发者工具。它支持从 Slack 或 MCP 进行控制，能够捕获用户行为上下文，帮助团队主动诊断问题、发现机会并快速修复，且所有功能均可免费使用。",
+        "summary_en": "Open-source product intelligence platform offering analytics, session replay, and feature flags.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要全面监控用户行为、进行产品实验及错误追踪的自托管产品分析场景。",
+        "useCase_en": "A self-hosted product intelligence platform for analytics, session replay, and feature flags."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "Go",
+      "stars": 110371,
+      "forks": 13741,
+      "todayStars": 65,
+      "url": "https://github.com/microsoft/TypeScript",
+      "aiSummary": {
+        "summary": "TypeScript 是微软开发的开源编程语言，作为 JavaScript 的超集，它引入了可选的静态类型系统。该项目旨在为大型 JavaScript 应用程序提供更好的工具支持，编译后生成标准且可读的 JavaScript 代码。它支持在任何浏览器、主机和操作系统上运行，广泛应用于现代前端开发，帮助开发者构建更健壮的应用。",
+        "summary_en": "TypeScript is a superset of JavaScript that adds optional types for scalable applications.",
+        "techStack": [
+          "TypeScript",
+          "JavaScript",
+          "TypeScript Compiler"
+        ],
+        "useCase": "适用于构建大型、复杂的前端应用程序和后端 Node.js 项目，提升代码可维护性和类型安全性。",
+        "useCase_en": "Build large-scale JavaScript applications with optional static typing."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 275639,
+      "forks": 24642,
+      "todayStars": 789,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为 AI 编码代理构建的技能框架与软件开发方法论。它通过一套可组合的技能，引导代理从需求分析、规范拆解、实施计划制定到自主执行开发的全流程。强调 TDD、YAGNI 和 DRY 原则，支持多种主流 AI 编码工具。",
+        "summary_en": "An agentic skills framework and methodology designed to empower autonomous coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "用于增强 Claude Code、Cursor 等主流 AI 编码代理的自主开发能力，实现从需求分析到代码实现的自动化流程。",
+        "useCase_en": "To empower AI coding agents with a structured methodology for autonomous software development."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "santifer/career-ops",
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "language": "JavaScript",
+      "stars": 67424,
+      "forks": 12867,
+      "todayStars": 918,
+      "url": "https://github.com/santifer/career-ops",
+      "aiSummary": {
+        "summary": "这是一个开源的 AI 求职助手，旨在通过 AI 编码 CLI（如 Claude Code）自动化求职流程。它能自动扫描职位门户，利用结构化评分系统（A-F 评分，1.0-5.0）评估职位匹配度，并生成 ATS 优化的 PDF 简历。项目强调“过滤器”理念，帮助用户筛选高质量职位，避免盲目投递，从而提高求职效率。",
+        "summary_en": "Open-source AI-powered job search tool that evaluates listings, tailors CVs, and tracks applications locally.",
+        "techStack": [
+          "JavaScript",
+          "Playwright"
+        ],
+        "useCase": "利用 AI 自动化求职流程，高效筛选和申请高质量职位。",
+        "useCase_en": "Enables job seekers to use AI agents to evaluate listings, research companies, and generate tailored resumes."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars": 4387,
+      "forks": 366,
+      "todayStars": 391,
+      "url": "https://github.com/cursor/plugins",
+      "aiSummary": {
+        "summary": "该项目是 Cursor 编辑器的官方插件集合，包含教学、持续学习、团队工作流、代码审查、自动化等多种工具。涵盖 AI 代理协作、文档渲染、CLI 设计模式及生产力集成（如 Gmail/Drive），旨在提升开发效率和代码质量。",
+        "summary_en": "A collection of official plugins for the Cursor IDE to enhance AI coding workflows and productivity.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要增强 Cursor 编辑器功能的开发者，用于提升代码质量、自动化任务及团队协作。",
+        "useCase_en": "To extend Cursor's capabilities with tools for teaching, code review, automation, and productivity."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "modular/modular",
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "language": "Mojo",
+      "stars": 28673,
+      "forks": 3053,
+      "todayStars": 905,
+      "url": "https://github.com/modular/modular",
+      "aiSummary": {
+        "summary": "Modular Platform 是一个统一的 AI 开发和部署平台，包含 Mojo 编程语言和 MAX 框架。项目开源了编译器、标准库、加速器库、推理服务器及模型管道等核心组件，旨在提供高性能的 AI 开发体验。",
+        "summary_en": "Unified platform for AI development and deployment featuring the Mojo language and MAX framework.",
+        "techStack": [
+          "Mojo",
+          "Python",
+          "MAX Framework"
+        ],
+        "useCase": "用于高性能 AI 模型的开发、加速与部署。",
+        "useCase_en": "Develop and deploy AI models using the Mojo language and MAX framework."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 241774,
+      "forks": 36655,
+      "todayStars": 348,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个代理框架性能优化系统，为 Claude Code、Codex 等提供技能、记忆和安全功能。它通过“计划-测试-审查”等流程优化上下文窗口，将重复性工作转化为可复用技能，支持研究优先的开发模式。",
+        "summary_en": "An agent harness performance optimization system for AI coding assistants.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "为 Claude Code、Codex 等 AI 编辑器提供结构化开发流程、记忆管理和上下文优化的开发者。",
+        "useCase_en": "Enhances AI coding agents with skills, memory, and security workflows."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "TryGhost/Ghost",
+      "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
+      "language": "JavaScript",
+      "stars": 54870,
+      "forks": 11903,
+      "todayStars": 32,
+      "url": "https://github.com/TryGhost/Ghost",
+      "aiSummary": {
+        "summary": "Ghost 是一个基于 JavaScript 的现代发布平台，专注于博客、会员资格和新闻通讯。它提供官方托管服务（Ghost(Pro)）以实现快速部署，支持通过 CLI 进行本地和生产环境安装。该项目由 Ghost 基金会维护，鼓励开源贡献和社区支持。",
+        "summary_en": "A Node.js-based open source publishing platform for blogs, newsletters, and memberships.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Ghost CLI",
+          "Ghost(Pro)"
+        ],
+        "useCase": "适合构建博客、会员网站、订阅制内容平台及新闻通讯。",
+        "useCase_en": "Hosting a professional blog, membership site, or newsletter platform."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "stars": 68633,
+      "forks": 8242,
+      "todayStars": 140,
+      "url": "https://github.com/ruvnet/ruflo",
+      "aiSummary": {
+        "summary": "Ruflo 是一个为 Claude Code 和 Codex 提供的智能执行层（Harness），旨在部署协调多智能体群组。它集成了 100+ 专用代理、自适应记忆、自我学习能力和联邦通信，支持 RAG 和企业安全。用户只需初始化即可自动路由任务，让 AI 代理在后台协作，无需手动管理复杂工具。",
+        "summary_en": "A TypeScript meta-harness for deploying intelligent multi-player swarms and coordinating autonomous workflows.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "Claude Code",
+          "MCP"
+        ],
+        "useCase": "构建协作式 AI 系统，部署智能多代理群组以自动化复杂工作流。",
+        "useCase_en": "It enables developers to deploy intelligent multi-player swarms and coordinate autonomous workflows."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "apache/maka",
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "language": "TypeScript",
+      "stars": 2001,
+      "forks": 240,
+      "todayStars": 141,
+      "url": "https://github.com/apache/maka",
+      "aiSummary": {
+        "summary": "Apache Maka 是一个本地优先的 AI 代理工作空间，旨在进行实际工作。它通过追加日志记录模型消息、工具调用和结果，作为可恢复的执行事实。支持桌面、终端和评估界面，允许在本地模型或云 API 之间进行灵活连接，并执行复杂的工具操作。",
+        "summary_en": "Apache Maka is a local-first AI agent workspace that records execution as an append-only log for recovery and controlled tool use.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "React"
+        ],
+        "useCase": "适合需要在本地安全运行 AI 代理以执行文件操作和代码分析的场景。",
+        "useCase_en": "A local-first environment for running AI agents with controlled permissions and recoverable execution logs."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "protocolbuffers/protobuf",
+      "description": "Protocol Buffers - Google's data interchange format",
+      "language": "C++",
+      "stars": 71763,
+      "forks": 16236,
+      "todayStars": 4,
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "aiSummary": {
+        "summary": "Protocol Buffers 是 Google 开发的语言中立、平台中立的数据序列化机制。它支持高效的结构化数据交换，适用于多种编程语言。项目提供了源码构建指南及 Bazel 构建支持，是构建高性能、跨平台分布式系统的核心工具。",
+        "summary_en": "Google's language-neutral, platform-neutral mechanism for serializing structured data.",
+        "techStack": [
+          "C++",
+          "Bazel"
+        ],
+        "useCase": "用于高效的结构化数据序列化和跨服务通信",
+        "useCase_en": "Serialize structured data efficiently across different programming languages."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "elder-plinius/OBLITERATUS",
+      "description": "OBLITERATE THE CHAINS THAT BIND YOU",
+      "language": "Python",
+      "stars": 7767,
+      "forks": 1432,
+      "todayStars": 63,
+      "url": "https://github.com/elder-plinius/OBLITERATUS",
+      "aiSummary": {
+        "summary": "OBLITERATUS 是一个用于移除大语言模型拒绝行为的先进开源工具包。它通过识别并切断内部表示，无需重新训练即可让模型响应所有提示。项目支持在 HuggingFace Spaces 上免费运行，并允许用户贡献数据参与分布式研究。",
+        "summary_en": "An open-source toolkit for removing refusal behaviors from large language models using abliteration techniques.",
+        "techStack": [
+          "Python",
+          "Gradio",
+          "Hugging Face Spaces"
+        ],
+        "useCase": "研究人员用于研究并移除大语言模型的拒绝行为，或开发无需训练即可绕过安全过滤器的模型。",
+        "useCase_en": "Researchers and developers can use this toolkit to surgically remove content refusal filters from LLMs without retrainin"
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "microsoft/onnxruntime",
+      "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+      "language": "C++",
+      "stars": 21428,
+      "forks": 4148,
+      "todayStars": 5,
+      "url": "https://github.com/microsoft/onnxruntime",
+      "aiSummary": {
+        "summary": "ONNX Runtime 是一个跨平台的高性能机器学习推理和训练加速器。它支持 PyTorch、TensorFlow 等深度学习框架及 scikit-learn 等传统库的模型，兼容多种硬件和操作系统。通过利用硬件加速器和图优化技术，它能显著提升推理速度和降低成本，并支持多节点 NVIDIA GPU 上的模型训练加速。",
+        "summary_en": "Cross-platform, high-performance machine learning accelerator for inference and training.",
+        "techStack": [
+          "C++",
+          "PyTorch",
+          "TensorFlow",
+          "scikit-learn",
+          "XGBoost"
+        ],
+        "useCase": "适用于需要高性能跨平台机器学习推理与训练加速的场景。",
+        "useCase_en": "Accelerate machine learning inference and training across various hardware platforms."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-21T23:34:27.824Z",
+    "duration": "417s",
+    "version": "1.0.0"
+  }
+}
