@@ -1,0 +1,354 @@
+{
+  "date": "2026-08-22",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 16,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars": 113267,
+      "forks": 17356,
+      "todayStars": 1978,
+      "url": "https://github.com/openai/codex",
+      "aiSummary": {
+        "summary": "Codex CLI 是 OpenAI 推出的轻量级本地编码代理，基于 Rust 开发。它允许用户在终端中直接运行，支持通过多种方式（如 Homebrew、npm 或手动下载）安装。用户可以登录 ChatGPT 账户，利用 AI 辅助代码编写，提供流畅的本地开发体验。",
+        "summary_en": "OpenAI's lightweight coding agent running locally in the terminal.",
+        "techStack": [
+          "Rust",
+          "CLI 工具",
+          "OpenAI API"
+        ],
+        "useCase": "适合需要在本地终端快速进行 AI 辅助编程和代码生成的开发者。",
+        "useCase_en": "Execute a lightweight coding agent locally in the terminal to assist with software development."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 231951,
+      "forks": 19803,
+      "todayStars": 2684,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一套专为工程师设计的AI编程技能集合，基于Shell脚本开发。旨在辅助进行真实的软件开发，而非简单的代码生成。这些技能小巧、可组合，支持Claude Code等主流AI编程助手，通过插件或命令行安装，帮助开发者提升工程效率和代码质量。",
+        "summary_en": "A collection of engineering skills for coding agents like Claude Code.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "AI Agent"
+        ],
+        "useCase": "AI辅助编程与工程化开发",
+        "useCase_en": "To equip coding agents with engineering skills for real application development."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 242164,
+      "forks": 36701,
+      "todayStars": 428,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个面向 AI 代理（如 Claude Code）的性能优化系统。它提供了一套完整的工程工具箱，包含技能、记忆、安全及研究优先的开发流程。通过“计划-测试-实现-审查-验证-记忆-改进”的闭环工作流，ECC 帮助代理优化上下文窗口，持久化关键信息，并将重复的成功转化为可复用的技能与工作流，适用于多种主流 AI 编程助手。",
+        "summary_en": "An agent harness optimization system for AI coding assistants like Claude Code.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "GitHub App"
+        ],
+        "useCase": "为 Claude Code 等主流 AI 编程助手提供系统化的工程框架，优化开发流程与记忆管理。",
+        "useCase_en": "To optimize AI agent performance by providing a coordinated engineering system with skills, memory, and security."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 276171,
+      "forks": 24698,
+      "todayStars": 592,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码代理设计的软件开发方法论框架。它通过一套可组合的技能，引导代理从需求分析、设计评审到自动化实现的全流程。支持多种主流 AI 编码工具，强调 TDD、YAGNI 和 DRY 原则，旨在让代理具备自主构建软件的能力。",
+        "summary_en": "A framework providing a structured software development methodology for autonomous coding agents.",
+        "techStack": [
+          "Shell",
+          "Skills Framework",
+          "Agentic Workflow"
+        ],
+        "useCase": "适用于提升 AI 编码代理的自主开发能力，实现自动化软件构建。",
+        "useCase_en": "To provide a structured methodology for autonomous coding agents to build software."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "stars": 38776,
+      "forks": 8038,
+      "todayStars": 264,
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "aiSummary": {
+        "summary": "这是一个基于 Go 语言开发的 AI API 网关中转服务，旨在统一接入 Claude、OpenAI、Gemini、Grok 等主流大模型订阅。它支持拼车共享模式以高效分摊成本，允许原生工具无缝使用，但用户需自行承担使用风险。",
+        "summary_en": "Open-source API gateway for distributing AI subscription quotas across multiple providers like Claude and OpenAI.",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "统一接入多个 AI 模型订阅，通过拼车共享降低使用成本。",
+        "useCase_en": "To provide a unified gateway for accessing various AI model subscriptions with cost optimization."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "makeplane/plane",
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "stars": 57207,
+      "forks": 5442,
+      "todayStars": 263,
+      "url": "https://github.com/makeplane/plane",
+      "aiSummary": {
+        "summary": "Plane 是一个开源的项目管理平台，旨在替代 Jira、Linear 等工具。它支持任务管理、冲刺周期、产品路线图及文档协作。用户可选择自托管或使用云服务。核心功能包括 Work Items、Cycles、Modules、Views、Pages（含 AI）和 Analytics，提供现代化的团队协作体验。",
+        "summary_en": "Open-source project management tool similar to Jira and Linear for managing tasks, sprints, and docs.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "适用于需要自托管或云托管项目管理工具的团队，特别是希望替代 Jira/Linear 的团队。",
+        "useCase_en": "Manage tasks, sprints, and documentation for teams in a self-hosted environment."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "stars": 201800,
+      "forks": 60301,
+      "todayStars": 202,
+      "url": "https://github.com/n8n-io/n8n",
+      "aiSummary": {
+        "summary": "n8n 是一个 Fair-code 工作流自动化平台，专注于 AI 代理和自动化。它结合了可视化画布与自定义代码，拥有 1500+ 集成和 9000+ 模板。支持自托管或云端部署，灵活连接多种 AI 模型，适合从原型到生产环境的 AI 工作流开发。",
+        "summary_en": "Fair-code workflow automation platform combining visual building with custom code, native AI, and 1500+ integrations.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "JavaScript",
+          "Python"
+        ],
+        "useCase": "构建企业级 AI 工作流与自动化代理",
+        "useCase_en": "Automate complex workflows and AI agents by connecting various services visually or using custom code."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Python",
+      "stars": 142515,
+      "forks": 22839,
+      "todayStars": 141,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code 是一个基于 Python 的终端代理编码工具，旨在通过自然语言命令加速开发。它能理解代码库，执行常规任务，解释复杂代码，并处理 Git 工作流。支持在终端、IDE 或 GitHub 中使用，提供插件扩展功能。",
+        "summary_en": "An agentic coding tool for terminal automation and codebase understanding.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要通过自然语言加速代码编写、理解复杂代码库及自动化 Git 工作流的开发者。",
+        "useCase_en": "Execute routine coding tasks and handle git workflows via natural language commands."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "AprilNEA/OpenLogi",
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "language": "Rust",
+      "stars": 13888,
+      "forks": 372,
+      "todayStars": 959,
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "aiSummary": {
+        "summary": "OpenLogi 是一个用 Rust 编写的开源替代方案，旨在替代 Logitech Options+。它支持鼠标、键盘和摄像头，允许用户重映射按钮、DPI、SmartShift 及灯光。项目支持 macOS、Linux 和 Windows，提供 CLI 和 GUI，配置采用纯文本 TOML 格式，无账户及遥测功能。",
+        "summary_en": "A native Rust alternative to Logitech Options+ for remapping mice, keyboards, and webcams.",
+        "techStack": [
+          "Rust",
+          "GPUI",
+          "HID++",
+          "UVC",
+          "TOML"
+        ],
+        "useCase": "需要本地化、无遥测的 Logitech 鼠标、键盘及摄像头高级配置的用户。",
+        "useCase_en": "To remap buttons, DPI, and gestures on Logitech devices locally and privately."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "modular/modular",
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "language": "Mojo",
+      "stars": 28834,
+      "forks": 3066,
+      "todayStars": 395,
+      "url": "https://github.com/modular/modular",
+      "aiSummary": {
+        "summary": "Modular Platform 是一个统一的 AI 开发与部署平台，集成了 Mojo 编程语言和 MAX 框架。项目开源了编译器、标准库、加速库、推理服务器及模型管道等核心组件，旨在提供高性能的 AI 开发体验。",
+        "summary_en": "A unified AI development platform featuring the Mojo language and MAX framework.",
+        "techStack": [
+          "Mojo",
+          "MAX",
+          "Python"
+        ],
+        "useCase": "适用于高性能 AI 模型开发、部署及加速场景。",
+        "useCase_en": "To build and serve AI models using the Mojo language and MAX framework."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 205286,
+      "forks": 21006,
+      "todayStars": 379,
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "这是一个基于 Andrej Karpathy 关于 LLM 编码观察的单一 CLAUDE.md 文件，旨在改善 Claude Code 的行为。它包含四个核心原则：思考前编码、简单优先、外科手术式更改和目标驱动执行。这些原则旨在解决 LLM 常见的假设错误、过度复杂化代码、破坏性更改等问题，帮助开发者编写更简洁、可靠和可维护的代码。",
+        "summary_en": "A single CLAUDE.md file with Karpathy-inspired guidelines to improve Claude Code behavior by addressing LLM coding pitfalls.",
+        "techStack": [
+          "Markdown",
+          "LLM",
+          "Claude AI"
+        ],
+        "useCase": "适用于希望 Claude AI 遵循 Karpathy 编码哲学的开发者，以提升代码质量和减少常见错误。",
+        "useCase_en": "A set of coding guidelines for Claude Code based on Andrej Karpathy's observations to improve LLM coding behavior."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "mahlernim/google-timeline-visualizer",
+      "description": "Visualize your year in travel using your Google Location History (Timeline) data",
+      "language": "Kotlin",
+      "stars": 2557,
+      "forks": 299,
+      "todayStars": 441,
+      "url": "https://github.com/mahlernim/google-timeline-visualizer",
+      "aiSummary": {
+        "summary": "该项目可将 Google 位置历史数据转换为动画旅行视频。支持 Android 和 iPhone 平台，用户导出 Timeline.json 文件后，可选择日期范围和相机运镜，生成 MP4 视频进行分享。",
+        "summary_en": "Turn your Google Timeline data into an animated travel video on Android or iPhone.",
+        "techStack": [
+          "Kotlin",
+          "Android",
+          "HTML5"
+        ],
+        "useCase": "回顾年度旅行足迹并制作视频分享",
+        "useCase_en": "Create animated travel videos from Google Location History data."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "language": "HTML",
+      "stars": 133882,
+      "forks": 14027,
+      "todayStars": 915,
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "aiSummary": {
+        "summary": "这是一个由社区维护的免费开发者服务列表，涵盖 SaaS、PaaS 和 IaaS。它专注于基础设施开发人员常用的工具，包括云服务、CI/CD、监控、数据库等。所有收录的服务必须提供长期有效的免费层级，而非仅限试用。",
+        "summary_en": "A curated list of SaaS, PaaS, and IaaS services offering free developer tiers for DevOps professionals.",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "开发者和 DevOps 工程师寻找免费云服务和开发工具以降低成本。",
+        "useCase_en": "To help DevOps engineers find free tiers of SaaS, PaaS, and IaaS services."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "Go",
+      "stars": 110532,
+      "forks": 13746,
+      "todayStars": 163,
+      "url": "https://github.com/microsoft/TypeScript",
+      "aiSummary": {
+        "summary": "TypeScript 是 JavaScript 的超集，通过添加可选静态类型系统，显著提升了大型应用的开发效率和代码可维护性。它编译为标准 JavaScript，支持跨平台和跨浏览器运行，是现代前端开发的核心工具。",
+        "summary_en": "A superset of JavaScript that adds optional types for scalable application development.",
+        "techStack": [
+          "TypeScript",
+          "JavaScript",
+          "Node.js"
+        ],
+        "useCase": "适用于构建大型、复杂的企业级前端应用及全栈项目。",
+        "useCase_en": "Building large-scale JavaScript applications with type safety."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars": 4653,
+      "forks": 381,
+      "todayStars": 286,
+      "url": "https://github.com/cursor/plugins",
+      "aiSummary": {
+        "summary": "该项目是 Cursor 编辑器的官方插件集合，涵盖教学、持续学习、团队协作、代码审查及自动化工具。包含 Gmail 和 Google Drive 等生产力插件，技术栈主要为 TypeScript，旨在增强 AI 编程辅助能力，提供从开发到管理的全方位支持。",
+        "summary_en": "Official plugins and specifications for the Cursor AI code editor to enhance development workflows.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要增强 AI 编程辅助、团队协作及自动化工作流的开发者。",
+        "useCase_en": "Offers official plugins for coding agents, team workflows, and productivity within the Cursor editor."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "PostHog/posthog",
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "language": "Python",
+      "stars": 38599,
+      "forks": 3244,
+      "todayStars": 288,
+      "url": "https://github.com/PostHog/posthog",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 16,
+      "fullName": "Tencent/AI-Infra-Guard",
+      "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+      "language": "Python",
+      "stars": 5481,
+      "forks": 518,
+      "todayStars": 161,
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
+      "aiSummary": {
+        "summary": "腾讯朱雀实验室开发的 AI-Infra-Guard 是一个全栈 AI 红队平台。它集成了 Agent 扫描、技能扫描、MCP 扫描、AI 基础设施扫描和 LLM 越狱评估等功能，旨在为用户提供全面的 AI 安全风险自我检查解决方案。",
+        "summary_en": "A comprehensive AI Red Teaming platform by Tencent for securing AI ecosystems via agent, skill, and infrastructure scanning.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "用于 AI 生态系统安全测试、AI 应用漏洞扫描及 LLM 越狱攻击评估。",
+        "useCase_en": "A tool for developers and security teams to perform AI red teaming and vulnerability scanning on AI infrastructures."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-22T23:32:40.366Z",
+    "duration": "482s",
+    "version": "1.0.0"
+  }
+}
