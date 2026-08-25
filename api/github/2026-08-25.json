@@ -1,0 +1,327 @@
+{
+  "date": "2026-08-25",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "freestylefly/awesome-gpt-image-2",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "language": "JavaScript",
+      "stars": 17587,
+      "forks": 1817,
+      "todayStars": 1698,
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "aiSummary": {
+        "summary": "这是一个基于 GPT-Image2 的工业级提示词引擎与模板库，包含 500+ 逆向工程案例和 20+ 工业级模板。项目提供可视化网站浏览、社区交流及 API 集成功能，支持 Prompt as Code，旨在帮助用户高效生成高质量 AI 图像。",
+        "summary_en": "A GPT-Image2 industrial prompt engine featuring 500+ reverse-engineered cases and 20+ templates.",
+        "techStack": [
+          "JavaScript",
+          "HTML/CSS",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "适用于 AI 图像生成、提示词工程优化及 API 集成开发。",
+        "useCase_en": "To provide industrial-grade prompt templates and reverse-engineered cases for GPT-Image2 generation."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "anthropics/claude-plugins-community",
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "language": "Python",
+      "stars": 1721,
+      "forks": 177,
+      "todayStars": 350,
+      "url": "https://github.com/anthropics/claude-plugins-community",
+      "aiSummary": {
+        "summary": "这是一个Anthropic官方维护的社区插件市场只读镜像，用于托管Claude Cowork和Claude Code的第三方插件。项目包含marketplace.json文件，每晚同步经过安全扫描的插件列表。用户可通过特定命令安装这些插件，所有提交必须通过官方渠道进行。",
+        "summary_en": "Community plugin marketplace mirror for Claude Cowork and Claude Code, containing approved plugins synced nightly.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为Claude AI用户提供安装经过安全审核的第三方插件的官方市场。",
+        "useCase_en": "Provides a curated list of approved plugins for Claude AI tools to extend functionality."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "apache/maka",
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "language": "TypeScript",
+      "stars": 3308,
+      "forks": 328,
+      "todayStars": 538,
+      "url": "https://github.com/apache/maka",
+      "aiSummary": {
+        "summary": "Apache Maka 是一个本地优先的 AI 代理工作空间，专注于数据隐私与可追溯性。它通过单一 Runtime Host 运行代理，将模型消息、工具调用及结果记录为追加日志，支持云端或本地模型接入。项目提供桌面与终端界面，处于 Apache 孵化阶段，旨在为真实工作流提供安全、可恢复的执行环境。",
+        "summary_en": "Apache Maka is a local-first AI agent workspace that records execution logs for recoverable workflows.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "React"
+        ],
+        "useCase": "本地 AI 代理任务、项目管理及文件工作流",
+        "useCase_en": "Run AI agents locally to inspect projects and manage tools with a recoverable execution log."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 100206,
+      "forks": 19350,
+      "todayStars": 191,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents 是一个基于 Python 的多智能体 LLM 金融交易框架。它利用 LangGraph 构建结构化智能体（研究经理、交易员、投资组合经理），支持多种大模型（GPT-5, Claude 4 等）和数据源。项目提供回测、情绪分析和代理间协作功能，旨在通过 AI 实现自动化金融决策。",
+        "summary_en": "A Python framework utilizing multi-agent LLMs for automated financial trading strategies.",
+        "techStack": [
+          "Python",
+          "LangGraph",
+          "Docker",
+          "LLMs (GPT-5, Claude 4, etc.)"
+        ],
+        "useCase": "适用于构建基于大语言模型的自动化金融交易系统，支持市场研究、策略制定及投资组合管理。",
+        "useCase_en": "Automate financial trading strategies using multi-agent LLM frameworks."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "AgriciDaniel/claude-obsidian",
+      "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+      "language": "Python",
+      "stars": 12685,
+      "forks": 1380,
+      "todayStars": 810,
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "aiSummary": {
+        "summary": "这是一个基于 Claude Code 和 Obsidian 的本地优先知识管理系统。它利用 AI 将各种源材料转化为链接的 Markdown 笔记，构建个人知识图谱。项目强调数据所有权，所有文件均以纯 Markdown 格式存储，支持可视化探索，旨在打造一个自组织的、可重用的第二大脑。",
+        "summary_en": "A local-first Python tool that uses Claude to organize Obsidian vaults into a self-organizing knowledge graph.",
+        "techStack": [
+          "Python",
+          "Obsidian",
+          "Claude Code",
+          "Markdown",
+          "LLM"
+        ],
+        "useCase": "适合需要本地化、私有化且利用 AI 辅助构建个人知识库的用户。",
+        "useCase_en": "Build a personal knowledge management system that keeps ownership of your data while using AI to link and retrieve infor"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 48920,
+      "forks": 8561,
+      "todayStars": 572,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个全面的 AI 工程自学课程，包含 511 个课程和 20 个阶段，总计约 329 小时。项目涵盖 Python、TypeScript、Rust 和 Julia，强调“动手构建”而非仅理论学习。学生将学习构建生产级 LLM 应用、智能体及 MCP 服务器，并提供多语言支持。",
+        "summary_en": "Comprehensive open-source curriculum teaching AI engineering from scratch with 511 lessons across Python, TypeScript, Rust, and Julia.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "适合想要从零开始学习 AI 工程并构建生产级 LLM 应用、智能体及 MCP 服务器的开发者。",
+        "useCase_en": "To build production-ready AI applications, agents, and MCP servers from scratch."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "language": "Rust",
+      "stars": 37747,
+      "forks": 3731,
+      "todayStars": 541,
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "aiSummary": {
+        "summary": "OpenHuman 是一个基于 Rust 的本地优先个人 AI 超级智能。它具备强大的记忆系统（基于 SQLite 和 Obsidian），能构建持久化的个人知识库；同时作为编排器和研究员，能管理代理舰队、执行复杂工作流并进行深度网络研究。项目强调隐私和本地化，通过 TokenJuice 技术优化成本。",
+        "summary_en": "Local-first personal AI super intelligence with memory, orchestration, and research capabilities.",
+        "techStack": [
+          "Rust",
+          "SQLite",
+          "Markdown",
+          "MCP",
+          "OAuth"
+        ],
+        "useCase": "适合需要本地化、隐私保护的个人知识管理及自动化工作流构建。",
+        "useCase_en": "A local-first personal AI that builds a persistent memory and orchestrates agent fleets."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "basecamp/omarchy",
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "language": "Shell",
+      "stars": 31203,
+      "forks": 3174,
+      "todayStars": 1080,
+      "url": "https://github.com/basecamp/omarchy",
+      "aiSummary": {
+        "summary": "这是一个基于 Shell 的现代化 Linux 发行版或配置管理工具，强调美观与特定设计理念。项目集成了安装脚本、配置管理、主题定制以及 AI 代理支持，旨在为用户提供开箱即用且高度可定制的 Linux 体验。",
+        "summary_en": "A modern, opinionated Linux distribution built with shell scripts.",
+        "techStack": [
+          "Shell",
+          "Lua",
+          "Markdown"
+        ],
+        "useCase": "适合追求美观、现代且具有特定设计理念的 Linux 体验的用户。",
+        "useCase_en": "To provide a beautiful and modern Linux desktop environment."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "language": "Python",
+      "stars": 134216,
+      "forks": 19740,
+      "todayStars": 161,
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "aiSummary": {
+        "summary": "该项目汇集了100+个开源AI代理、技能及RAG应用模板，支持Claude、GPT等多种大模型。提供即插即用的Agent Skills（如“项目墓地”）和单文件Starter Agents，帮助开发者快速构建、测试和部署AI应用。代码经过安全测试，遵循Apache-2.0协议，适合个人或商业使用。",
+        "summary_en": "A curated collection of 100+ open-source AI agents, skills, and RAG apps for building LLM applications.",
+        "techStack": [
+          "Python",
+          "Streamlit"
+        ],
+        "useCase": "快速构建和部署各类AI代理应用，或为现有编码代理添加新技能。",
+        "useCase_en": "Developers use this repository to find, clone, and deploy ready-to-use AI agents and skills for various LLMs."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 207169,
+      "forks": 21140,
+      "todayStars": 828,
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "这是一个基于 Andrej Karpathy 关于 LLM 编码陷阱的见解，旨在提高 Claude Code 效率的单一 CLAUDE.md 文件。它强调四个核心原则：思考前先编码、简单优先、外科手术式修改和目标驱动执行，旨在防止错误假设、过度复杂化代码及意外更改无关代码，从而提升 AI 编码质量。",
+        "summary_en": "A single CLAUDE.md file providing coding guidelines inspired by Andrej Karpathy to improve Claude Code behavior by addressing LLM coding pitfalls through four principles.",
+        "techStack": [
+          "Markdown",
+          "Claude AI"
+        ],
+        "useCase": "用于配置 Claude AI 模型以编写更简洁、更可靠代码的指南。",
+        "useCase_en": "Provides guidelines to improve Claude Code's behavior by addressing common LLM coding pitfalls through four principles."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars": 118071,
+      "forks": 17995,
+      "todayStars": 1183,
+      "url": "https://github.com/openai/codex",
+      "aiSummary": {
+        "summary": "Codex CLI 是 OpenAI 推出的轻量级本地编码代理，使用 Rust 编写。它支持在终端运行，提供 CLI、IDE 插件和桌面应用。用户可以通过 npm、Homebrew 或官方脚本安装，支持 macOS 和 Linux，并与 ChatGPT 账户集成以进行代码生成和辅助。",
+        "summary_en": "OpenAI's lightweight coding agent that runs locally in the terminal for developers.",
+        "techStack": [
+          "Rust",
+          "Shell",
+          "Node.js"
+        ],
+        "useCase": "适合需要在本地终端快速进行代码编写和辅助开发的开发者。",
+        "useCase_en": "Run a local coding agent that integrates with your ChatGPT account to assist with development tasks."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "marin-community/marin",
+      "description": "Open-source framework for the research and development of foundation models.",
+      "language": "Python",
+      "stars": 2083,
+      "forks": 191,
+      "todayStars": 277,
+      "url": "https://github.com/marin-community/marin",
+      "aiSummary": {
+        "summary": "Marin 是一个开源的基础模型研究框架与社区，专注于大型语言模型的训练全流程。它强调开放开发，记录从数据到模型的完整过程及实验决策。项目支持音频、DNA等模型构建，致力于大规模混合专家模型的前沿研究。",
+        "summary_en": "Marin is an open-source framework for researching and developing foundation models, focusing on large language models and open documentation of the training process.",
+        "techStack": [
+          "Python",
+          "Hugging Face",
+          "TPU"
+        ],
+        "useCase": "适用于基础模型（尤其是大语言模型）的研究、开发与实验记录，以及大规模模型训练流程的复现。",
+        "useCase_en": "Used for training large language models and other foundation models using open-source processes and scaling laws."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 110950,
+      "forks": 6097,
+      "todayStars": 944,
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "aiSummary": {
+        "summary": "Ponytail 是一个让 AI 代理像懒惰的高级开发人员一样思考的技能。它通过鼓励编写最少的代码（YAGNI 原则）来显著减少代码行数、成本和时间。实测显示，相比无技能基准，它能减少 54% 的代码量、20% 的成本并提升 27% 的速度，同时保持 100% 的安全性。它适用于需要高效、简洁代码生成的场景。",
+        "summary_en": "A library that optimizes AI agents to write minimal, efficient code, reducing overhead and cost.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "优化 AI 代理的代码生成，使其更简洁、更便宜且更安全。",
+        "useCase_en": "Optimize AI agents to generate minimal, efficient code, reducing cost and development time."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 34070,
+      "forks": 3869,
+      "todayStars": 47,
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "aiSummary": {
+        "summary": "Anthropic 官方维护的 Claude Code 插件目录，托管高质量插件。项目包含内部插件和外部插件，提供标准化的插件结构规范和安装方式。用户可安全安装插件以扩展 Claude Code 功能，开发者可提交符合标准的插件。",
+        "summary_en": "Official Anthropic-managed directory of high-quality plugins for the Claude Code AI assistant.",
+        "techStack": [
+          "Python",
+          "JSON",
+          "Claude Code"
+        ],
+        "useCase": "为 Claude Code 添加功能扩展或发布插件的开发者与用户。",
+        "useCase_en": "A centralized repository for discovering and installing plugins to extend the capabilities of Claude Code."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "asciimoo/hister",
+      "description": "Your own search engine",
+      "language": "Go",
+      "stars": 2753,
+      "forks": 122,
+      "todayStars": 166,
+      "url": "https://github.com/asciimoo/hister",
+      "aiSummary": {
+        "summary": "Hister 是一个基于 Go 的私有搜索引擎，专注于本地运行与隐私保护。它支持全文索引网页内容和本地文件，提供 Web、终端及 MCP 客户端接口。用户可通过浏览器扩展自动抓取历史，利用强大的查询语法或可选语义搜索快速定位信息，适合个人知识库管理及 AI 助手集成。",
+        "summary_en": "A private, full-text search engine written in Go that indexes your browser history and local files.",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "适合个人建立本地知识库，或作为 AI 助手的私有搜索后端。",
+        "useCase_en": "To run a local, privacy-focused search engine for indexing visited pages and local files."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-25T23:37:54.203Z",
+    "duration": "586s",
+    "version": "1.0.0"
+  }
+}
