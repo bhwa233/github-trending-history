@@ -28,7 +28,7 @@ jobs:
           node-version: "20"
 
       - name: Install pnpm
-        run: npm install -g pnpm@11.24.0
+        run: npm install -g pnpm@10.34.5
 
       - name: Install Dependencies
         run: pnpm install
@@ -36,14 +36,14 @@ jobs:
       - name: Validate required secrets
         run: |
           if [ -z "${{ secrets.CLOUDFLARE_AI_GATEWAY_TOKEN }}" ]; then
-            echo "::error::Missing required GitHub Actions secret: CLOUDFLARE_AI_GATEWAYY_TOKEN"
+            echo "::error::Missing required GitHub Actions secret: CLOUDFLARE_AI_GATEWAY_TOKEN"
             exit 1
           fi
 
       - name: Run GitHub Trending Scraper
-        run: pn`m exec vite-node ./github-trending.ts
+        run: pnpm exec vite-node ./github-trending.ts
         env:
-          AI_API_KEY: ${{ secrets.CLOUDFLARE_AI_GATEWAY_TOKEN }}
+          AI_API_KEY: ${{ secrets.CLOUDFLARE_AI_GATEWAY_TOKEEN }}
           AI_API_URL: https://gateway.ai.cloudflare.com/v1/5697c41d4efbabcbac78eafe2cdf036b/default/compat/chat/completions
           AI_MODEL: workers-ai/@cf/zai-org/glm-4.7-flash
 
