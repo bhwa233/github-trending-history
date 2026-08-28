@@ -1,0 +1,413 @@
+{
+  "date": "2026-08-28",
+  "since": "daily",
+  "totalRepos": 19,
+  "successCount": 19,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "stars": 9159,
+      "forks": 1975,
+      "todayStars": 1984,
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "aiSummary": {
+        "summary": "这是一个基于浏览器的间谍卫星模拟器，利用照片级真实感的 3D 地球展示实时开源情报（OSINT）。项目整合了飞机、船只、卫星、地震及摄像头等实时数据，支持语音控制，将公共信号转化为可视化交互地图，无需特殊许可即可监控全球动态。",
+        "summary_en": "A photorealistic 3D globe visualizing real-time global data like flights, ships, and satellites in the browser.",
+        "techStack": [
+          "JavaScript",
+          "Three.js (推测)",
+          "Web Speech API (推测)",
+          "OSINT 数据源"
+        ],
+        "useCase": "实时地理空间数据可视化与开源情报监控",
+        "useCase_en": "Monitor real-time global spatial intelligence, including flights, ships, and seismic activity, in a browser-based 3D env"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "zedeus/nitter",
+      "description": "Alternative Twitter front-end",
+      "language": "Nim",
+      "stars": 13988,
+      "forks": 1156,
+      "todayStars": 71,
+      "url": "https://github.com/zedeus/nitter",
+      "aiSummary": {
+        "summary": "这是一个基于 Nim 语言开发的 Twitter 替代前端，专注于隐私和性能。它不使用 JavaScript 和广告，所有请求通过后端转发，防止 Twitter 追踪用户 IP 和浏览器指纹。支持 RSS、移动端响应式设计，且代码轻量。目前因收到停止侵权信面临下架风险。",
+        "summary_en": "A privacy-focused, open-source alternative front-end for Twitter (X) that runs without JavaScript.",
+        "techStack": [
+          "Nim",
+          "Twitter API",
+          "RSS"
+        ],
+        "useCase": "需要无追踪、无广告访问 Twitter 的隐私敏感用户",
+        "useCase_en": "Access Twitter content without JavaScript or ads to avoid tracking and fingerprinting."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "freestylefly/awesome-gpt-image-2",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "language": "JavaScript",
+      "stars": 23577,
+      "forks": 2345,
+      "todayStars": 2096,
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "aiSummary": {
+        "summary": "这是一个 GPT-Image2 工业级提示词引擎与模板库，包含 530+ 个逆向工程案例和 20+ 套工业级模板。项目采用 Prompt as Code 模式，提炼出 Skills，持续更新，旨在帮助用户高效生成高质量图像。",
+        "summary_en": "Industrial-grade prompt engine and template library for GPT-Image2 featuring 500+ reverse-engineered cases.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "专为 AI 图像生成开发者及设计师提供工业级提示词模板与逆向工程案例。",
+        "useCase_en": "A resource for generating high-quality images using GPT-Image2 via industrial-grade prompts and templates."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "tt-a1i/archify",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "language": "JavaScript",
+      "stars": 24687,
+      "forks": 1579,
+      "todayStars": 4239,
+      "url": "https://github.com/tt-a1i/archify",
+      "aiSummary": {
+        "summary": "Archify 是一个将代码库或系统描述转化为精美交互式系统图的 Node.js 工具。它为 AI 代理生成类型化 JSON IR，并编译为 HTML/SVG。支持多种图表类型、版本对比、搜索追踪及多格式导出，帮助开发者直观展示和验证架构设计。",
+        "summary_en": "An agent skill that compiles codebases into interactive, verifiable architecture diagrams.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "HTML",
+          "SVG"
+        ],
+        "useCase": "适用于 AI 代理（如 Cursor、Claude）生成架构图，或开发者审查代码库架构变更与可视化。",
+        "useCase_en": "To generate interactive system maps and compare architectural changes for software projects."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "JetBrains/go-modern-guidelines",
+      "description": "Help AI coding agents write modern Go",
+      "language": "Go",
+      "stars": 2307,
+      "forks": 69,
+      "todayStars": 300,
+      "url": "https://github.com/JetBrains/go-modern-guidelines",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供现代 Go 编码指南，旨在解决 AI 生成过时代码的问题。它涵盖了 Go 1.0 到 1.27 的特性，推荐使用 `max`、`slices.Contains` 等现代惯用语，而非旧模式。项目与 Go 团队的 `modernize` analyzer 目标一致，帮助 IDE 插件在生成代码时自动应用最新的语言特性和最佳实践。",
+        "summary_en": "Guidelines for AI coding agents to write modern Go code using the latest language features.",
+        "techStack": [
+          "Go",
+          "JetBrains IDE"
+        ],
+        "useCase": "用于 JetBrains IDE 插件或 AI 编码助手，确保生成的 Go 代码符合最新的语言规范和最佳实践。",
+        "useCase_en": "Ensures AI coding agents generate modern, idiomatic Go code by referencing the latest language features."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars": 34781,
+      "forks": 3919,
+      "todayStars": 292,
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "aiSummary": {
+        "summary": "Anthropic 官方维护的 Claude Code 插件市场，包含内部及第三方高质量插件。提供标准插件结构规范，支持直接安装，并强调用户需自行评估插件安全性。",
+        "summary_en": "Official Anthropic-managed directory for Claude Code plugins.",
+        "techStack": [
+          "Python",
+          "JSON"
+        ],
+        "useCase": "为 Claude Code 用户发现、安装和管理扩展插件。",
+        "useCase_en": "Provides a curated marketplace for discovering and installing Claude Code plugins."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "stars": 35532,
+      "forks": 3417,
+      "todayStars": 498,
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "aiSummary": {
+        "summary": "这是一个将任何 AI 代理转化为 AI 科学家的技能库，包含 163 个经过验证的科学技能和 100+ 数据库。支持本地运行（BYOK）和多种 AI 模型，覆盖生物、化学、医学等领域，旨在帮助科学家进行高效的研究工作。",
+        "summary_en": "A library of 163 validated scientific skills to turn any AI agent into an AI scientist.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为生物、化学、医学等领域的科学家提供本地化、数据安全的 AI 辅助科研工具，覆盖从文献检索到分子模拟的全流程。",
+        "useCase_en": "To turn any AI agent into a scientific research assistant using validated skills and databases."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 114466,
+      "forks": 6255,
+      "todayStars": 1613,
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "aiSummary": {
+        "summary": "Ponytail 是一个 JavaScript 工具，旨在让 AI 代理像懒惰的资深开发者一样思考。它通过提示工程鼓励使用原生 HTML 元素和最简方案，避免过度构建。实测显示，它能显著减少代码行数、令牌消耗、成本和时间，同时保持 100% 安全性。适用于追求高效、低成本代码生成的场景。",
+        "summary_en": "A JavaScript tool that optimizes AI code generation by enforcing minimalism and native browser features.",
+        "techStack": [
+          "JavaScript",
+          "AI Agent",
+          "LLM"
+        ],
+        "useCase": "优化 AI 代码生成，减少冗余代码，降低开发成本。",
+        "useCase_en": "Use this tool to make AI agents write minimal, efficient code using native browser features."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "stars": 52682,
+      "forks": 6579,
+      "todayStars": 1292,
+      "url": "https://github.com/calesthio/OpenMontage",
+      "aiSummary": {
+        "summary": "OpenMontage 是首个开源的代理驱动视频制作系统，将 AI 编码助手升级为全能视频工作室。它拥有 12 条生产流水线、100+ 工具及 700+ 技能文件，支持从脚本、素材生成到剪辑合成的全流程自动化，并能利用开源素材库制作真实运动视频。",
+        "summary_en": "Open-source agentic video production system turning AI coding assistants into full video studios with 12 pipelines.",
+        "techStack": [
+          "Python",
+          "Remotion",
+          "AI Models"
+        ],
+        "useCase": "将 AI 编码助手转化为视频制作工作室，用于自动化生成电影预告片、动画短片和短视频。",
+        "useCase_en": "Turn your AI coding assistant into a full video production studio to create cinematic trailers and animated shorts."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 50341,
+      "forks": 8742,
+      "todayStars": 552,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个全面的 AI 工程开源课程，包含 511 个课程和 20 个阶段，涵盖 Python、TypeScript、Rust 和 Julia。项目强调“学、建、发布”，学生通过构建可重用的工件（如提示词、代理、MCP 服务器）来学习，旨在弥合 AI 工具使用与专业准备之间的差距。",
+        "summary_en": "A comprehensive open-source curriculum for building AI tools from scratch, covering math, LLMs, and agents.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "适合希望从零开始系统学习 AI 工程并构建实际可部署应用的开发者。",
+        "useCase_en": "To learn AI engineering by building production-ready LLM applications and agents."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "ConardLi/garden-skills",
+      "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "language": "CSS",
+      "stars": 11430,
+      "forks": 1418,
+      "todayStars": 415,
+      "url": "https://github.com/ConardLi/garden-skills",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理（如 Claude Code、Cursor）提供生产就绪技能的集合。包含 Web 视频演示工程（将脚本转为可点击视频）和 Web 设计工程师等技能。支持多种安装方式，具备主题切换、TTS 合成等功能，旨在提升 AI 辅助开发的效率和质量。",
+        "summary_en": "A curated collection of production-ready Agent Skills for AI coding agents like Claude Code and Cursor.",
+        "techStack": [
+          "CSS",
+          "React",
+          "TypeScript",
+          "Vite"
+        ],
+        "useCase": "适用于 AI 编码代理（如 Claude Code）的技能扩展，用于快速生成网页演示、视频脚本转化及前端设计任务。",
+        "useCase_en": "Turning scripts, articles, and lessons into cinematic, screen-recordable web presentations."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "JavaScript",
+      "stars": 92392,
+      "forks": 8121,
+      "todayStars": 143,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "Claude-Mem 是一个为 Claude Code 等代理设计的持久化上下文系统。它自动捕获会话活动，利用 AI 压缩语义信息，并将其注入未来会话。这确保了 AI 在会话中断或重启后，仍能保持对项目的连贯性知识，无需重复输入背景信息。",
+        "summary_en": "Persistent memory compression system for AI agents that captures and summarizes context across sessions.",
+        "techStack": [
+          "JavaScript",
+          "AI",
+          "Claude Code"
+        ],
+        "useCase": "开发者需要在 AI 编程助手（如 Claude Code）中实现跨会话的记忆功能，保持项目上下文的连续性。",
+        "useCase_en": "To enable AI agents to maintain continuity of knowledge across disconnected sessions."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "google/googletest",
+      "description": "GoogleTest - Google Testing and Mocking Framework",
+      "language": "C++",
+      "stars": 39084,
+      "forks": 10866,
+      "todayStars": 9,
+      "url": "https://github.com/google/googletest",
+      "aiSummary": {
+        "summary": "GoogleTest 是 Google 的 C++ 测试与模拟框架，基于 xUnit 架构。它提供自动测试发现、丰富的断言（含异常与死亡测试）、致命/非致命失败处理，以及值参数化和类型参数化测试等功能。该框架合并了 GoogleTest 与 GoogleMock，是 C++ 单元测试的行业标准工具。",
+        "summary_en": "GoogleTest is a C++ testing and mocking framework for unit testing and verification.",
+        "techStack": [
+          "C++",
+          "C++17",
+          "xUnit"
+        ],
+        "useCase": "适用于 C++ 项目的单元测试、模拟和集成测试，特别是需要验证代码行为、异常处理及多参数场景的软件开发。",
+        "useCase_en": "Developers use it to write unit tests and mock objects for C++ applications."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "AgriciDaniel/claude-obsidian",
+      "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+      "language": "Python",
+      "stars": 14164,
+      "forks": 1431,
+      "todayStars": 634,
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "aiSummary": {
+        "summary": "claude-obsidian 是一个本地优先的 AI 知识系统，专为 Claude Code 设计。它将源材料转化为带有引用的 Obsidian 页面，保留源文件所有权，支持连接笔记、可视化地图和基于证据的检索，是开源的 Notion 替代品。",
+        "summary_en": "A local-first Python tool connecting Claude Code with Obsidian to create a self-organizing, source-cited knowledge graph.",
+        "techStack": [
+          "Python",
+          "Obsidian",
+          "Claude Code"
+        ],
+        "useCase": "个人知识管理（PKM），构建本地化、可拥有的 AI 笔记系统",
+        "useCase_en": "Transform local sources into a connected, source-cited knowledge graph while maintaining full file ownership."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "marin-community/marin",
+      "description": "Open-source framework for the research and development of foundation models.",
+      "language": "Python",
+      "stars": 2747,
+      "forks": 232,
+      "todayStars": 255,
+      "url": "https://github.com/marin-community/marin",
+      "aiSummary": {
+        "summary": "Marin 是一个专注于大型语言模型研发的开源框架，强调开放开发，记录从数据到模型的完整流程。它致力于构建大规模混合专家模型，并提供了 Delphi 扩展套件用于研究模型缩放规律。",
+        "summary_en": "An open-source framework for training large language models and foundation models, emphasizing open research and data curation.",
+        "techStack": [
+          "Python",
+          "Hugging Face",
+          "Google TPU Research Cloud"
+        ],
+        "useCase": "适用于大型语言模型（LLM）的训练、评估及模型扩展规律研究，支持多模态模型开发。",
+        "useCase_en": "Researchers use this framework to train large language models and foundation models by curating data and documenting the"
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": "Python",
+      "stars": 73717,
+      "forks": 8449,
+      "todayStars": 130,
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "aiSummary": {
+        "summary": "这是一个精选的 Claude Skills 列表，包含 1000+ 生产就绪的技能和插件。它支持 Claude.ai、Claude Code 及多种编码代理。通过 Composio MCP Gateway，Claude 可以执行真实操作（如发送邮件、创建问题等），覆盖文档处理、开发、数据分析等多个领域，旨在提升 AI 工作流的生产力。",
+        "summary_en": "A curated list of 1000+ production-ready Claude Skills and Plugins for customizing AI workflows and automating tasks.",
+        "techStack": [
+          "Python",
+          "YAML",
+          "Markdown",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "自定义 Claude AI 工作流，实现跨 1000+ 应用程序的自动化操作。",
+        "useCase_en": "To enhance productivity by providing reusable instruction packages and plugins that allow Claude to perform real-world a"
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "actions/checkout",
+      "description": "Action for checking out a repo",
+      "language": "TypeScript",
+      "stars": 8756,
+      "forks": 2751,
+      "todayStars": 8,
+      "url": "https://github.com/actions/checkout",
+      "aiSummary": {
+        "summary": "这是一个 GitHub Actions，用于将仓库代码检出到工作区。支持获取指定提交或完整历史，处理 Git 凭证（可持久化或清除）。最新版本迁移至 ESM，支持 Node 24 运行时，并增强了安全策略以防止 Fork PR 漏洞。",
+        "summary_en": "Essential GitHub Action for checking out repository code into workflows.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "GitHub Actions"
+        ],
+        "useCase": "用于 CI/CD 工作流中获取源代码以执行构建、测试或部署任务。",
+        "useCase_en": "To provide access to repository source code within GitHub Actions workflows."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "stars": 87583,
+      "forks": 8641,
+      "todayStars": 478,
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "aiSummary": {
+        "summary": "OpenCut 是一款免费开源的视频编辑器，支持 Web、桌面和移动端。项目正在进行底层重写，采用 Rust 核心和插件优先架构。新版本将提供 Editor API、MCP 服务器（AI 代理）、Headless 模式及脚本功能，致力于成为 CapCut 的开源替代品，支持跨平台开发与自动化。",
+        "summary_en": "Open-source video editor for web, desktop, and mobile currently being rewritten with Rust core and plugin-first architecture.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "Moon"
+        ],
+        "useCase": "适合需要跨平台视频编辑、自动化批量渲染或开发视频编辑插件的开发者。",
+        "useCase_en": "A free and open source alternative to CapCut for creating videos across web, desktop, and mobile platforms."
+      }
+    },
+    {
+      "index": 18,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 101401,
+      "forks": 19489,
+      "todayStars": 229,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents 是一个基于多智能体 LLM 的金融交易框架。它集成了研究、交易和投资组合管理功能，支持多种大语言模型（如 GPT-5.x, Claude 4.x）和数据源。项目具备回测、情绪分析及持久化决策日志能力，支持 Docker 部署，旨在构建智能化的自动化交易系统。",
+        "summary_en": "A multi-agent LLM framework for automated financial trading and portfolio management.",
+        "techStack": [
+          "Python",
+          "LangGraph",
+          "多模态大模型 (GPT/Claude/Gemini)",
+          "Docker"
+        ],
+        "useCase": "构建基于大语言模型的自动化金融交易系统，进行市场研究、策略执行和投资组合管理。",
+        "useCase_en": "Build autonomous financial trading agents using advanced large language models."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-28T07:34:38.825Z",
+    "duration": "516s",
+    "version": "1.0.0"
+  }
+}
