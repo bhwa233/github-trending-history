@@ -43,7 +43,7 @@ jobs:
       - name: Run GitHub Trending Scraper
         run: pnpm exec vite-node ./github-trending.ts
         env:
-          AI_API_KEY: ${{ secrets.CLOUDFLARE_AI_GATEWAY_TOKEEN }}
+          AI_API_KEY: ${{ secrets.CLOUDFLARE_AI_GATEWAY_TOKEN }}
           AI_API_URL: https://gateway.ai.cloudflare.com/v1/5697c41d4efbabcbac78eafe2cdf036b/default/compat/chat/completions
           AI_MODEL: workers-ai/@cf/zai-org/glm-4.7-flash
 
