@@ -1,8 +1,8 @@
 {
   "date": "2026-08-29",
   "since": "daily",
-  "totalRepos": 20,
-  "successCount": 20,
+  "totalRepos": 19,
+  "successCount": 19,
   "failedCount": 0,
   "repos": [
     {
@@ -10,13 +10,13 @@
       "fullName": "tt-a1i/archify",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "language": "JavaScript",
-      "stars": 27951,
-      "forks": 1769,
-      "todayStars": 4562,
+      "stars": 31139,
+      "forks": 1939,
+      "todayStars": 3902,
       "url": "https://github.com/tt-a1i/archify",
       "aiSummary": {
-        "summary": "Archify 是一个专为 AI 编程助手设计的架构可视化系统，支持将代码库或系统描述转换为交互式 HTML/SVG 图表。它提供蓝图、信号流等多种图表类型，支持深色模式、动画导出及架构变更对比，适用于代码库架构自动映射与团队协作评审。",
-        "summary_en": "Agent skill for generating interactive, verifiable architecture diagrams from JSON IR.",
+        "summary": "Archify 是一个专为 AI 代理设计的架构可视化系统，可将代码库或系统描述转换为精美的交互式 HTML/SVG 图表。支持架构、工作流等多种图表类型，具备深色/浅色主题、动画效果及导出功能，并能比较架构变更，帮助开发者直观展示和审查系统设计。",
+        "summary_en": "An agent skill that compiles typed JSON IR into interactive, shareable architecture diagrams.",
         "techStack": [
           "JavaScript",
           "Node.js",
@@ -24,411 +24,400 @@
           "SVG",
           "JSON"
         ],
-        "useCase": "适用于 AI 编程助手（如 Cursor、Claude）将代码库自动转换为可视化架构图，或用于软件架构评审、系统流程梳理及团队协作展示。",
-        "useCase_en": "Convert codebases into interactive system maps for AI coding assistants."
+        "useCase": "AI 代理辅助架构可视化与代码库映射，用于系统设计审查与交互式展示。",
+        "useCase_en": "To generate interactive system maps and validate architecture changes for AI coding environments."
       }
     },
     {
       "index": 1,
-      "fullName": "K-Dense-AI/scientific-agent-skills",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-      "language": "Python",
-      "stars": 36789,
-      "forks": 3496,
-      "todayStars": 720,
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "stars": 12649,
+      "forks": 2503,
+      "todayStars": 1855,
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "aiSummary": {
-        "summary": "这是一个将任何 AI 代理转化为 AI 科学家的开源技能库。包含 163 个经过验证的科学技能和 100+ 个科学数据库，覆盖生物、化学、医学等领域。支持本地运行（BYOK）和云端扩展，兼容多种 AI 框架，旨在帮助科学家进行高效的研究工作。",
-        "summary_en": "A library of 163 scientific skills to turn any AI agent into an AI scientist.",
+        "summary": "这是一个基于浏览器的间谍卫星模拟器，利用真实开源数据（飞机、船只、卫星等）在照片级逼真的3D地球上进行实时可视化。项目支持语音控制，将公开信号转化为可视化的空间情报，无需特殊权限即可追踪全球动态。",
+        "summary_en": "A photorealistic 3D globe simulator visualizing real-time global data including aircraft, ships, and satellites.",
         "techStack": [
-          "Python",
-          "JSON"
+          "JavaScript",
+          "WebGL",
+          "AI"
         ],
-        "useCase": "适用于生物、化学、医学等领域的科学研究与数据分析。",
-        "useCase_en": "Empower AI agents to perform complex scientific research tasks such as drug discovery and literature analysis."
+        "useCase": "实时监控全球开源情报（OSINT）数据，如航班、船只和卫星轨迹。",
+        "useCase_en": "A real-time open source spatial intelligence tool visualizing global data like aircraft and ships on a photorealistic 3D"
       }
     },
     {
       "index": 2,
-      "fullName": "anthropics/claude-plugins-official",
-      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "language": "Python",
-      "stars": 35082,
-      "forks": 3938,
-      "todayStars": 457,
-      "url": "https://github.com/anthropics/claude-plugins-official",
+      "stars": 37958,
+      "forks": 3575,
+      "todayStars": 1587,
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "aiSummary": {
-        "summary": "Anthropic 官方维护的 Claude Code 插件精选目录。包含 Anthropic 内部开发及第三方合作伙伴提交的高质量插件。用户可通过 Claude Code 插件系统直接安装。插件遵循标准结构（含元数据、MCP 配置、命令等），名称不可变。注意：Anthropic 不对插件内容的安全性负责，用户需自行判断。",
-        "summary_en": "Official Anthropic-managed directory hosting high-quality plugins for Claude Code.",
+        "summary": "这是一个开源的 AI 科学家技能库，旨在将任何支持 Agent Skills 标准的 AI 代理转化为科研助手。包含 163 个验证过的科学技能及 100+ 数据库，支持本地运行（BYOK）和云端扩展，覆盖生物、化学、医学等领域，助力科研自动化。",
+        "summary_en": "A library of 163 scientific skills to turn any AI agent into an AI scientist.",
         "techStack": [
           "Python",
-          "JSON"
+          "JSON",
+          "Agent Skills Standard"
         ],
-        "useCase": "为 Claude Code 安装和管理第三方或官方插件",
-        "useCase_en": "A centralized marketplace for discovering and installing plugins for Claude Code."
+        "useCase": "适用于生物医学、药物发现及科研自动化等领域的 AI 代理开发与科研辅助。",
+        "useCase_en": "To provide AI agents with validated scientific skills for research and drug discovery."
       }
     },
     {
       "index": 3,
-      "fullName": "bilawalsidhu/gods-eye-view",
-      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-      "language": "JavaScript",
-      "stars": 11252,
-      "forks": 2282,
-      "todayStars": 3829,
-      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "fullName": "tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "stars": 3506,
+      "forks": 104,
+      "todayStars": 789,
+      "url": "https://github.com/tailscale/tailcat",
       "aiSummary": {
-        "summary": "这是一个基于浏览器的间谍卫星模拟器，利用真实公开数据（如飞机、船只、卫星位置）在照片级真实感的3D地球上进行实时可视化。项目集成了语音控制功能，允许用户通过AI代理与地球互动。它将零散的开源情报信号整合成一个统一的交互式界面，无需特殊权限即可查看全球实时动态。",
-        "summary_en": "A photorealistic 3D globe simulator visualizing real-time open-source intelligence like aircraft, ships, and satellites.",
+        "summary": "Tailcat 是一个基于 Go 的工具，类似于 netcat，但运行在 Tailscale 的数据平面上。它无需 Tailscale 控制平面、管理员权限或修改系统路由，利用 WireGuard 实现端到端加密。支持 DERP 中继和 NAT 穿透，提供 CLI 工具和 Go 库，用于在两台机器间安全传输数据。",
+        "summary_en": "A Go-based netcat alternative using Tailscale's data plane for encrypted peer-to-peer communication without a control plane.",
         "techStack": [
-          "JavaScript",
-          "Three.js",
-          "Web Speech API"
+          "Go",
+          "WireGuard",
+          "DERP"
         ],
-        "useCase": "开源情报可视化与实时地理空间数据监控",
-        "useCase_en": "Explore real-time global data streams including flights, ships, and satellites in a 3D environment."
+        "useCase": "在无需 Tailscale 账户或管理员权限的情况下，在两台机器间建立安全的点对点连接。",
+        "useCase_en": "Securely pipe stdin/stdout between two machines using Tailscale's data plane without a control plane."
       }
     },
     {
       "index": 4,
-      "fullName": "abhigyanpatwari/GitNexus",
-      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
+      "fullName": "THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "language": "TypeScript",
-      "stars": 46189,
-      "forks": 5103,
-      "todayStars": 202,
-      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "stars": 22271,
+      "forks": 4313,
+      "todayStars": 907,
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
       "aiSummary": {
-        "summary": "GitNexus 是一个零服务器代码智能引擎，完全在浏览器中运行。它将代码库索引为知识图谱，追踪依赖、调用链和执行流。通过 CLI 和 MCP 工具，它为 AI 代理（如 Cursor、Claude Code）提供深度架构视图，防止遗漏依赖或破坏调用链，是 AI 代理上下文的“神经系统”。",
-        "summary_en": "GitNexus is a client-side code intelligence engine that indexes repositories into knowledge graphs for AI agents.",
+        "summary": "OpenMAIC 是一个基于 TypeScript 的开源多智能体交互式课堂项目。v1.0.0 版本引入了代理工作台，允许用户通过聊天与 AI 代理协作规划、构建和修改课程。支持持久化会话、多种素材上传及丰富的课程工具（如幻灯片、测验、PBL），且设计中立，支持自定义模型和存储后端。",
+        "summary_en": "OpenMAIC is a TypeScript-based platform for creating immersive, multi-agent interactive courses via AI agents.",
         "techStack": [
           "TypeScript",
-          "Node.js",
-          "MCP",
-          "Graph RAG"
+          "PostgreSQL",
+          "FunASR",
+          "Amazon Bedrock",
+          "Claude"
         ],
-        "useCase": "为 AI 代理提供代码库的深度架构视图，用于代码探索和智能分析。",
-        "useCase_en": "Enables AI agents to understand complex codebases by indexing dependencies and execution flows into a knowledge graph."
+        "useCase": "教育内容自动生成与多智能体交互式教学",
+        "useCase_en": "Generate immersive interactive courses and videos using AI agents and custom materials."
       }
     },
     {
       "index": 5,
-      "fullName": "JetBrains/go-modern-guidelines",
-      "description": "Help AI coding agents write modern Go",
-      "language": "Go",
-      "stars": 2636,
-      "forks": 79,
-      "todayStars": 574,
-      "url": "https://github.com/JetBrains/go-modern-guidelines",
+      "fullName": "p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "stars": 28702,
+      "forks": 3163,
+      "todayStars": 150,
+      "url": "https://github.com/p-e-w/heretic",
       "aiSummary": {
-        "summary": "该项目为 AI 编码代理提供编写现代 Go 代码的指南，覆盖 Go 1.0 至 1.27 的特性。它旨在解决 AI 训练数据滞后和频率偏差问题，通过强制使用现代惯用语（如 slices.Contains、cmp.Or 等），确保生成的代码符合 Go 团队的现代化标准。",
-        "summary_en": "Guidelines for AI coding agents to write modern, idiomatic Go code.",
+        "summary": "Heretic 是一个全自动的语言模型审查移除工具。它结合了方向性消融与基于 Optuna 的 TPE 优化，通过最小化拒绝次数和 KL 散度来解密模型。该工具支持多种模型架构，无需深入了解 Transformer 内部原理，且生成的模型在移除审查的同时保留了更多原始能力。",
+        "summary_en": "Fully automatic censorship removal tool for transformer-based language models using directional ablation and Optuna.",
         "techStack": [
-          "Go",
-          "Go Toolchain",
-          "AI Coding Agents"
+          "Python",
+          "Optuna",
+          "Transformers"
         ],
-        "useCase": "帮助 AI 编码代理生成符合最新 Go 版本特性的现代化、惯用代码。",
-        "useCase_en": "To help AI coding agents generate modern, idiomatic Go code by avoiding outdated patterns."
+        "useCase": "用于移除大语言模型的安全对齐，使其能够回答敏感或有害问题。",
+        "useCase_en": "Decensor transformer-based language models to remove safety alignment while preserving intelligence."
       }
     },
     {
       "index": 6,
-      "fullName": "calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "language": "Python",
-      "stars": 53413,
-      "forks": 6657,
-      "todayStars": 1144,
-      "url": "https://github.com/calesthio/OpenMontage",
+      "fullName": "bigskysoftware/htmx",
+      "description": "</> htmx - high power tools for HTML",
+      "language": "JavaScript",
+      "stars": 49121,
+      "forks": 1640,
+      "todayStars": 32,
+      "url": "https://github.com/bigskysoftware/htmx",
       "aiSummary": {
-        "summary": "OpenMontage 是全球首个开源的代理驱动视频制作系统，旨在将 AI 编码助手转化为全能视频工作室。它拥有 12 条生产管线和 700+ 技能文件，能自动处理从研究、脚本、资产生成到剪辑合成的全流程。其核心优势在于能利用免费素材库生成包含真实运动片段的“真实视频”，而不仅仅是动画化静态图像。",
-        "summary_en": "Open-source agentic video production system that transforms AI coding assistants into full video studios.",
+        "summary": "htmx 是一个轻量级、无依赖的 JavaScript 库，旨在通过 HTML 属性扩展 HTML 的功能。它允许开发者直接在 HTML 中使用 AJAX、CSS Transitions、WebSockets 和 Server Sent Events，无需编写复杂的 JavaScript 代码。htmx 消除了传统 Web 开发中对表单和链接的约束，支持更多 HTTP 方法和部分页面替换，是构建现代用户界面的强大工具。",
+        "summary_en": "A lightweight JavaScript library that enables AJAX, WebSockets, and SSE directly in HTML attributes.",
         "techStack": [
-          "Python",
-          "Remotion",
-          "AI Agents (Veo/Kling/Chirp)"
+          "JavaScript",
+          "HTML",
+          "CSS Transitions",
+          "WebSocket",
+          "Server Sent Events"
         ],
-        "useCase": "将自然语言描述转化为包含真实运动素材的完整视频内容",
-        "useCase_en": "Automate the creation of cinematic videos and animated shorts using AI agents for research, scripting, and editing."
+        "useCase": "适用于需要快速构建现代、响应式 Web 界面，且希望减少 JavaScript 代码量的场景。",
+        "useCase_en": "Use it to add AJAX, WebSockets, and SSE functionality to HTML elements without writing complex JavaScript code."
       }
     },
     {
       "index": 7,
-      "fullName": "abi/screenshot-to-code",
-      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
-      "language": "Python",
-      "stars": 75631,
-      "forks": 9223,
-      "todayStars": 326,
-      "url": "https://github.com/abi/screenshot-to-code",
+      "fullName": "JetBrains/go-modern-guidelines",
+      "description": "Help AI coding agents write modern Go",
+      "language": "Go",
+      "stars": 2873,
+      "forks": 81,
+      "todayStars": 303,
+      "url": "https://github.com/JetBrains/go-modern-guidelines",
       "aiSummary": {
-        "summary": "这是一个基于 AI 的开源项目，能够将截图、Figma 设计或屏幕录制转换为高质量的 HTML、React、Vue 或 Tailwind 代码。它支持多种前端框架，并提供本地部署和托管服务两种使用方式，利用 Gemini、GPT 和 Claude 等模型进行智能代码生成。",
-        "summary_en": "A Python tool that converts screenshots into clean code for web stacks like React and Vue using AI.",
+        "summary": "该项目为 AI 编码代理提供 Go 代码风格指南，旨在解决模型训练数据滞后和频率偏差问题。它覆盖 Go 1.0 到 1.27 的特性，帮助代理生成符合现代 Go 习惯的代码，并支持自动检测项目 Go 版本以应用相应的语言特性。",
+        "summary_en": "Guidelines for AI coding agents to write modern Go code using latest features.",
         "techStack": [
-          "Python",
-          "React",
-          "FastAPI",
-          "HTML/Tailwind",
-          "React/Vue"
+          "Go",
+          "CLI Tool"
         ],
-        "useCase": "适用于快速将 UI 设计稿或截图转化为可用的前端代码或原型。",
-        "useCase_en": "To generate functional web code from visual mockups or screenshots using AI."
+        "useCase": "适用于 JetBrains Marketplace 集成，帮助 AI 编码助手生成符合最新 Go 版本规范的代码。",
+        "useCase_en": "Ensures AI coding agents generate modern Go code using the latest idioms and features."
       }
     },
     {
       "index": 8,
-      "fullName": "cursor/plugins",
-      "description": "Cursor plugin specification and official plugins",
-      "language": "TypeScript",
-      "stars": 5995,
-      "forks": 478,
-      "todayStars": 246,
-      "url": "https://github.com/cursor/plugins",
+      "fullName": "ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": "Python",
+      "stars": 73928,
+      "forks": 8470,
+      "todayStars": 73,
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "aiSummary": {
-        "summary": "该项目是 Cursor AI 编辑器的官方插件集合与规范仓库。包含教学、持续学习、代码审查、团队协作及生产力工具等多种插件，支持通过 TypeScript SDK 构建自动化脚本，旨在提升 AI 编程体验与开发效率。",
-        "summary_en": "Collection of official plugins and specifications for the Cursor AI code editor.",
+        "summary": "这是一个精选的 Claude Skills 列表，包含 1000+ 个生产就绪的插件和工具。项目通过 Composio MCP Gateway 赋予 Claude 执行真实操作的能力（如发送邮件、自动化办公），支持多种 AI 代理平台，旨在提升 AI 工作流的自动化与生产力。",
+        "summary_en": "A curated list of production-ready Claude Skills and plugins for enhancing AI workflows and automating actions across 1000+ apps.",
         "techStack": [
-          "TypeScript"
+          "Python",
+          "YAML",
+          "Markdown",
+          "MCP",
+          "Claude AI"
         ],
-        "useCase": "适用于需要 AI 辅助编程、自动化工作流及团队协作的开发者。",
-        "useCase_en": "Provides official plugins and specifications to extend the functionality of the Cursor AI code editor."
+        "useCase": "为 Claude AI 提供丰富的技能库，实现跨应用自动化操作与生产力提升。",
+        "useCase_en": "To provide reusable instruction packages that teach AI agents how to perform real-world actions across 1000+ apps."
       }
     },
     {
       "index": 9,
-      "fullName": "freestylefly/awesome-gpt-image-2",
-      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
-      "language": "JavaScript",
-      "stars": 24382,
-      "forks": 2405,
-      "todayStars": 1687,
-      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "fullName": "calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "stars": 54078,
+      "forks": 6716,
+      "todayStars": 806,
+      "url": "https://github.com/calesthio/OpenMontage",
       "aiSummary": {
-        "summary": "这是一个 GPT-Image2 的工业级提示词引擎与模板库，包含 530+ 个逆向工程案例和 20+ 套工业级模板。用户可通过在线网站浏览、复制提示词并测试生成效果，项目还提供社区交流群和 API 赞助商支持，持续更新中。",
-        "summary_en": "An industrial-grade prompt engine and visual gallery for GPT-Image2 featuring 500+ reverse-engineered cases and templates.",
+        "summary": "OpenMontage 是全球首个开源代理驱动视频制作系统，包含12个生产管道和700+技能文件。它将AI编程助手转化为全能视频工作室，支持从研究、脚本、资产生成到剪辑合成的全流程。不仅能制作基于图像的视频，还能利用免费素材库生成包含真实运动片段的“真视频”。",
+        "summary_en": "Open-source agentic video production system that transforms AI coding assistants into full video studios using 12 pipelines and 100+ tools.",
         "techStack": [
-          "JavaScript",
-          "HTML/CSS"
+          "Python",
+          "Remotion"
         ],
-        "useCase": "AI 图像生成提示词优化、工业级模板复用及 GPT-Image2 效果测试。",
-        "useCase_en": "A resource for developers and designers to browse, test, and reuse high-quality industrial-grade prompts for GPT-Image2."
+        "useCase": "将AI编程助手转化为全能视频制作工作室，实现从脚本到成片的自动化生产。",
+        "useCase_en": "Turn an AI coding assistant into a full video production studio to create cinematic trailers, animated shorts, and trans"
       }
     },
     {
       "index": 10,
-      "fullName": "tailscale/tailcat",
-      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-      "language": "Go",
-      "stars": 2832,
-      "forks": 77,
-      "todayStars": 965,
-      "url": "https://github.com/tailscale/tailcat",
+      "fullName": "every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "language": "TypeScript",
+      "stars": 14656,
+      "forks": 1756,
+      "todayStars": 517,
+      "url": "https://github.com/every-app/open-seo",
       "aiSummary": {
-        "summary": "Tailcat 是一个基于 Go 的工具，类似于 netcat，但利用 Tailscale 的数据平面（WireGuard 和 DERP）建立加密连接。它绕过了控制平面，无需 root 权限或修改路由表，即可在两台机器间进行点对点通信。支持 CLI 和库，包含 WebAssembly 演示。",
-        "summary_en": "A Go-based netcat alternative using Tailscale's WireGuard and DERP for encrypted, peer-to-peer communication without control plane overhead.",
+        "summary": "OpenSEO 是一款开源的 SEO 工具，旨在替代 Semrush 和 Ahrefs。它支持关键词研究、排名跟踪、竞争对手分析及网站审计等功能。采用按量付费模式，无需订阅，并集成了 MCP 服务器供 AI 代理使用。支持 Docker 和 Cloudflare 自托管。",
+        "summary_en": "Open-source SEO tool alternative to Semrush and Ahrefs, featuring AI agent integration and self-hosting.",
         "techStack": [
-          "Go",
-          "WireGuard",
-          "DERP",
-          "NAT 穿透"
+          "TypeScript",
+          "Docker",
+          "MCP (Model Context Protocol)",
+          "DataForSEO API"
         ],
-        "useCase": "在无需完整 Tailscale 网络或管理员权限的情况下，实现两台机器间的安全点对点通信。",
-        "useCase_en": "Pipe stdin/stdout or send files between two machines using encrypted, peer-to-peer connections without requiring a Tails"
+        "useCase": "适合需要按量付费、开源且支持 AI 代理集成的 SEO 工作流的个人或团队。",
+        "useCase_en": "A self-hosted, pay-as-you-go SEO suite for individuals and teams that integrates with AI agents."
       }
     },
     {
       "index": 11,
-      "fullName": "NationalSecurityAgency/ghidra",
-      "description": "Ghidra is a software reverse engineering (SRE) framework",
-      "language": "Java",
-      "stars": 73378,
-      "forks": 8014,
-      "todayStars": 191,
-      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "fullName": "Osmantic/ODS",
+      "description": "Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.",
+      "language": "Python",
+      "stars": 4923,
+      "forks": 741,
+      "todayStars": 35,
+      "url": "https://github.com/Osmantic/ODS",
       "aiSummary": {
-        "summary": "Ghidra 是由美国国家安全局（NSA）开发的强大软件逆向工程（SRE）框架。它提供全功能分析工具，支持反汇编、反编译及脚本编写，兼容多平台。该框架旨在解决复杂 SRE 任务的扩展与协作问题，广泛用于恶意代码分析、漏洞挖掘及网络安全防御研究。",
-        "summary_en": "NSA-developed software reverse engineering framework for analyzing compiled code.",
+        "summary": "ODS 是一个将 PC、Mac 或 Linux 转换为本地 AI 服务器的部署系统。它集成了 LLM 推理、聊天 UI、语音交互、智能体、工作流、RAG 及图像生成功能。该系统无需云订阅，确保数据隐私，并自动配置 Ollama、Open WebUI、n8n 和 ComfyUI 等工具，简化了本地 AI 环境的搭建。",
+        "summary_en": "An automated deployment system to turn your PC into a local AI server with LLM inference, chat UI, and automation tools.",
         "techStack": [
-          "Java",
           "Python",
-          "JDK"
+          "Docker",
+          "Linux/Windows/macOS"
         ],
-        "useCase": "软件逆向工程、恶意代码分析、漏洞挖掘与网络安全研究",
-        "useCase_en": "Analyze compiled code on various platforms for security research and vulnerability discovery."
+        "useCase": "构建私有、本地化的 AI 服务器，用于大语言模型推理和自动化工作流。",
+        "useCase_en": "Run local AI models, chat interfaces, and automation workflows on your own hardware without cloud dependencies."
       }
     },
     {
       "index": 12,
-      "fullName": "swoole/typephp",
-      "description": "Compile PHP to Native Binaries",
-      "language": "PHP",
-      "stars": 829,
-      "forks": 39,
-      "todayStars": 188,
-      "url": "https://github.com/swoole/typephp",
+      "fullName": "abi/screenshot-to-code",
+      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+      "language": "Python",
+      "stars": 76045,
+      "forks": 9261,
+      "todayStars": 550,
+      "url": "https://github.com/abi/screenshot-to-code",
       "aiSummary": {
-        "summary": "TypePHP 是一个 PHP 的 AOT（提前编译）编译器。它将 PHP 源代码转换为 C++，再编译为原生机器代码，生成高性能的可执行文件、PHP 扩展或共享库。项目保持熟悉的 PHP 语法，通过编译时类型信息优化性能。完全由 PHP 编写且具备自举能力，支持 PHP 的定义子集。",
-        "summary_en": "Ahead-of-Time compiler translating PHP source code into native machine code and C++ for high performance.",
+        "summary": "这是一个基于 Python 的 AI 工具，支持将截图、Figma 设计或屏幕录制转换为 HTML/Tailwind/React/Vue 等前端代码。项目支持多种 AI 模型，提供本地部署和托管服务，适合快速将设计稿转化为可用的前端代码。",
+        "summary_en": "Converts screenshots and Figma designs into clean code using AI.",
         "techStack": [
-          "PHP",
-          "C++",
-          "Native Machine Code"
+          "Python",
+          "React",
+          "FastAPI",
+          "HTML/Tailwind/React/Vue",
+          "AI Models (Gemini/GPT/Claude)"
         ],
-        "useCase": "需要高性能 PHP 应用、原生可执行文件或 WASI 组件的场景",
-        "useCase_en": "Compile PHP source code into native binaries and shared libraries for high-performance applications."
+        "useCase": "将设计稿、截图或屏幕录制快速转换为可用的前端代码",
+        "useCase_en": "To convert visual designs into functional code."
       }
     },
     {
       "index": 13,
-      "fullName": "marin-community/marin",
-      "description": "Open-source framework for the research and development of foundation models.",
+      "fullName": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "stars": 2916,
-      "forks": 240,
-      "todayStars": 236,
-      "url": "https://github.com/marin-community/marin",
+      "stars": 35416,
+      "forks": 3958,
+      "todayStars": 358,
+      "url": "https://github.com/anthropics/claude-plugins-official",
       "aiSummary": {
-        "summary": "Marin 是一个专注于大型语言模型研发的开源框架，提供从数据清洗到模型评估的全流程支持。项目强调开源透明，记录所有实验过程与决策。当前重点包括 Frontier mixture-of-experts 模型训练及基于 Delphi 的缩放定律研究，旨在帮助研究人员高效构建基础模型。",
-        "summary_en": "Open-source framework for training large language models and foundation models, emphasizing open development and scaling laws.",
+        "summary": "Anthropic 官方维护的 Claude Code 插件目录，包含内部及第三方高质量插件。提供插件安装、管理和贡献指南，支持通过标准结构定义插件功能，并确保插件名称不可变。",
+        "summary_en": "Official marketplace for high-quality Claude Code plugins.",
         "techStack": [
-          "Python"
+          "Python",
+          "JSON",
+          "Claude Code"
         ],
-        "useCase": "适用于大型语言模型的研究与开发，特别是需要开源透明流程、数据管理及模型缩放实验的场景。",
-        "useCase_en": "A platform for training large language models and foundation models, focusing on open development and scaling laws."
+        "useCase": "为 Claude Code 提供官方插件市场，方便用户安装和管理各类增强功能的插件。",
+        "useCase_en": "A curated directory to discover and install plugins for Claude Code."
       }
     },
     {
       "index": 14,
-      "fullName": "tashfeenahmed/freellmapi",
-      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-      "language": "TypeScript",
-      "stars": 21687,
-      "forks": 3069,
-      "todayStars": 433,
-      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "fullName": "google/googletest",
+      "description": "GoogleTest - Google Testing and Mocking Framework",
+      "language": "C++",
+      "stars": 39322,
+      "forks": 10878,
+      "todayStars": 128,
+      "url": "https://github.com/google/googletest",
       "aiSummary": {
-        "summary": "该项目聚合了34个免费LLM提供商的635个模型，通过单一OpenAI兼容的/v1端点提供服务。具备智能路由、自动故障转移、密钥加密及用量追踪功能，将分散的免费额度整合为7.4B tokens/月的推理能力，适合个人实验和成本控制。",
-        "summary_en": "Aggregates free LLM tiers from 34 providers into a single OpenAI-compatible endpoint with smart routing and automatic failover.",
+        "summary": "GoogleTest 是 Google 开发的 C++ 测试和模拟框架。它基于 xUnit 架构，支持自动测试发现、丰富的断言库（包括相等性、异常等）以及用户自定义断言。项目还支持死亡测试、致命/非致命失败处理以及值/类型参数化测试，旨在简化单元测试编写，是 C++ 生态中广泛使用的测试工具。",
+        "summary_en": "GoogleTest is a C++ testing and mocking framework for unit testing.",
         "techStack": [
-          "TypeScript"
+          "C++"
         ],
-        "useCase": "个人实验与低成本AI应用开发，通过聚合免费层级获取大量推理能力。",
-        "useCase_en": "To provide developers with a unified, free API for accessing various LLMs by aggregating their free tiers."
+        "useCase": "适用于 C++ 项目的单元测试、集成测试及行为模拟。",
+        "useCase_en": "Developers use it to write and run unit tests for C++ applications."
       }
     },
     {
       "index": 15,
-      "fullName": "ChromeDevTools/chrome-devtools-mcp",
-      "description": "Chrome DevTools for coding agents",
+      "fullName": "actions/checkout",
+      "description": "Action for checking out a repo",
       "language": "TypeScript",
-      "stars": 50000,
-      "forks": 3503,
-      "todayStars": 67,
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "stars": 8804,
+      "forks": 2756,
+      "todayStars": 5,
+      "url": "https://github.com/actions/checkout",
       "aiSummary": {
-        "summary": "这是一个为 AI 编码助手设计的 MCP 服务器，允许助手控制并检查 Chrome 浏览器。它提供性能分析、高级调试（网络、截图、控制台）及基于 Puppeteer 的可靠自动化功能，支持 Claude、Cursor 等工具。",
-        "summary_en": "MCP server enabling coding agents to control and inspect Chrome browsers for automation and debugging.",
+        "summary": "GitHub 官方提供的代码检出 Action，用于将仓库代码下载至工作区。最新版本迁移至 ESM 并使用 Node 24 运行时。主要特性包括安全加固，默认拒绝检出 Fork PR 代码，并将凭证存储在独立文件中而非 .git/config，支持配置拉取深度。",
+        "summary_en": "A popular GitHub Action for cloning repositories into workflows, featuring security enhancements and ESM support.",
         "techStack": [
           "TypeScript",
-          "Puppeteer",
-          "MCP",
-          "Chrome DevTools"
+          "Node.js",
+          "ESM"
         ],
-        "useCase": "AI 编码助手进行网页自动化、调试和性能分析。",
-        "useCase_en": "Provides coding agents with full access to Chrome DevTools for reliable automation and debugging."
+        "useCase": "用于 GitHub Actions 工作流中自动检出代码仓库",
+        "useCase_en": "Essential for workflows that need to access source code, run tests, or build projects within the GitHub Actions runner."
       }
     },
     {
       "index": 16,
-      "fullName": "rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
+      "fullName": "kaifcodec/user-scanner",
+      "description": "🕵️‍♂️ (2-in-1) Email & Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 455+ actively maintained scan vectors (175+ email / 280+ username) for security research, investigations, and digital footprinting.",
       "language": "Python",
-      "stars": 50670,
-      "forks": 8781,
-      "todayStars": 703,
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "stars": 3565,
+      "forks": 410,
+      "todayStars": 39,
+      "url": "https://github.com/kaifcodec/user-scanner",
       "aiSummary": {
-        "summary": "这是一个全面的 AI 工程自学课程，包含 511 个课程和 20 个阶段，涵盖 Python、TypeScript、Rust 和 Julia。课程强调“动手构建”，每个单元都产出可复用的工件（如提示词、代理、MCP 服务器）。适合希望从零开始系统学习 AI 开发并掌握专业实战技能的学习者。",
-        "summary_en": "A comprehensive open-source curriculum teaching AI engineering from scratch with reusable artifacts.",
+        "summary": "这是一个强大的 2合1 OSINT 套件，用于从单个邮箱或用户名提取深度数据。支持 455+ 个平台的扫描，具备元数据抓取、交叉扫描引擎、MCP AI 集成、高并发处理及多格式报告导出功能，适用于安全研究、调查及数字足迹分析。",
+        "summary_en": "Python OSINT suite for deep email and username intelligence across 455+ platforms.",
         "techStack": [
           "Python",
-          "TypeScript",
-          "Rust",
-          "Julia"
+          "httpx",
+          "curl_cffi",
+          "MCP"
         ],
-        "useCase": "适合希望从零开始系统学习 AI 工程全栈开发并掌握实战技能的学习者。",
-        "useCase_en": "To learn AI engineering fundamentals and build production-ready agents and applications."
+        "useCase": "安全研究、数字足迹分析及调查取证",
+        "useCase_en": "Used by security researchers and investigators to map digital footprints and verify account registrations."
       }
     },
     {
       "index": 17,
-      "fullName": "DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
       "language": "JavaScript",
-      "stars": 115506,
-      "forks": 6318,
-      "todayStars": 1396,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "stars": 90719,
+      "forks": 9710,
+      "todayStars": 196,
+      "url": "https://github.com/addyosmani/agent-skills",
       "aiSummary": {
-        "summary": "Ponytail 是一个 JavaScript 项目，旨在让 AI 代理像最懒的高级开发者一样思考。它通过特定的提示策略，显著减少代码量（平均减少 54%）、降低成本并提高速度，同时保持 100% 的安全性。它避免了不必要的过度构建，直接使用原生解决方案。",
-        "summary_en": "Optimizes AI agents to write minimal, efficient code by adopting a lazy senior developer persona.",
+        "summary": "该项目为 AI 编码代理提供生产级工程技能，通过 9 个斜杠命令将开发生命周期（定义、计划、构建、验证、审查、发布）编码为标准化技能。它确保 AI 遵循最佳实践（如测试驱动开发），支持自动技能激活和自主执行，旨在提升软件构建的质量与效率。",
+        "summary_en": "A collection of production-grade engineering skills and workflows designed for AI coding agents.",
         "techStack": [
           "JavaScript",
-          "AI Agent",
-          "Prompt Engineering"
+          "Node.js",
+          "CLI"
         ],
-        "useCase": "适用于需要减少代码冗余、降低 AI 生成成本并提高开发效率的自动化编程场景。",
-        "useCase_en": "Use this tool to optimize AI agents for writing minimal, efficient, and safe code by simulating a lazy senior developer "
+        "useCase": "用于增强 AI 编码代理的能力，使其遵循专业工程师的工作流与最佳实践，实现高质量的自动化软件开发。",
+        "useCase_en": "To standardize engineering workflows and quality gates for AI coding agents."
       }
     },
     {
       "index": 18,
-      "fullName": "google/googletest",
-      "description": "GoogleTest - Google Testing and Mocking Framework",
-      "language": "C++",
-      "stars": 39194,
-      "forks": 10873,
-      "todayStars": 156,
-      "url": "https://github.com/google/googletest",
+      "fullName": "workweave/router",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "language": "Go",
+      "stars": 2732,
+      "forks": 77,
+      "todayStars": 284,
+      "url": "https://github.com/workweave/router",
       "aiSummary": {
-        "summary": "GoogleTest 是 Google 开发的 C++ 测试和模拟框架，基于 xUnit 架构。它支持自动测试发现、丰富的断言、死亡测试及参数化测试等功能。项目合并了 GoogleTest 和 GoogleMock，为 C++ 开发者提供强大的自动化测试和模拟支持。",
-        "summary_en": "Google's C++ testing and mocking framework for unit testing.",
+        "summary": "这是一个专为代理系统设计的 Go 语言模型路由器。它能在 50ms 内将每个请求路由到最佳模型，通过单一端点统一管理 Anthropic、OpenAI 和 Gemini。利用嵌入模型而非提示词选择模型，可节省 40-70% 成本。支持流式传输、工具调用、视觉及 OSS 模型，默认 BYOK 并提供可观测性。",
+        "summary_en": "Go-based model router for agentic systems that optimizes model selection and reduces costs.",
         "techStack": [
-          "C++",
-          "xUnit"
+          "Go",
+          "OpenAI API",
+          "Anthropic API",
+          "Gemini API",
+          "OTLP"
         ],
-        "useCase": "适用于 C++ 项目的单元测试、集成测试及模拟对象编写。",
-        "useCase_en": "Developers use it to write and run unit tests for C++ code."
-      }
-    },
-    {
-      "index": 19,
-      "fullName": "livekit/agents",
-      "description": "A framework for building realtime voice AI agents 🤖🎙️📹",
-      "language": "Python",
-      "stars": 13372,
-      "forks": 3631,
-      "todayStars": 22,
-      "url": "https://github.com/livekit/agents",
-      "aiSummary": {
-        "summary": "这是一个用于构建实时语音 AI 代理的 Python 框架。它支持多模态交互（听、说、看），提供灵活的模型集成（STT/LLM/TTS）和内置任务调度。支持 WebRTC 和电话集成，具备语义回合检测及 MCP 工具支持，适合开发智能对话助手。",
-        "summary_en": "A Python framework for building real-time, programmable voice AI agents.",
-        "techStack": [
-          "Python",
-          "LiveKit",
-          "WebRTC",
-          "OpenAI",
-          "Deepgram"
-        ],
-        "useCase": "构建具备实时语音交互和多模态感知能力的智能对话代理。",
-        "useCase_en": "Create conversational, multi-modal voice agents with integrated STT, LLM, and TTS capabilities."
+        "useCase": "优化 AI 成本并简化多模型管理",
+        "useCase_en": "Developers use this proxy to route AI requests to the best model provider, cutting costs by 40-70%."
       }
     }
   ],
   "metadata": {
-    "createdAt": "2026-08-29T04:12:47.808Z",
-    "duration": "512s",
+    "createdAt": "2026-08-30T01:17:34.228Z",
+    "duration": "447s",
     "version": "1.0.0"
   }
 }
