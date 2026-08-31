@@ -1,0 +1,416 @@
+{
+  "date": "2026-08-30",
+  "since": "daily",
+  "totalRepos": 19,
+  "successCount": 19,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "language": "TypeScript",
+      "stars": 24067,
+      "forks": 4486,
+      "todayStars": 1370,
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "aiSummary": {
+        "summary": "OpenMAIC 是一个开源的多智能体交互式课堂平台。用户可通过一个提示词生成整门课程，并利用 Agent Workbench 与智能体协作规划、构建和修改课程内容。项目支持上传文档、音视频等材料，内置20种课程工具（如幻灯片、测验、PBL），并提供服务器端持久化会话。设计上保持中立，允许用户自定义模型、媒体和存储后端。",
+        "summary_en": "OpenMAIC is a TypeScript-based platform enabling users to create immersive courses using multi-agent AI workbenches.",
+        "techStack": [
+          "TypeScript",
+          "FunASR",
+          "Amazon Bedrock",
+          "Atlas Cloud",
+          "Claude"
+        ],
+        "useCase": "教育工作者或内容创作者利用 AI 自动生成课程大纲和教学材料。",
+        "useCase_en": "Generate complete educational courses and interactive materials using AI agents."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "stars": 39275,
+      "forks": 3659,
+      "todayStars": 1114,
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "aiSummary": {
+        "summary": "这是一个将 AI 代理转化为 AI 科学家的一站式技能库。提供 163 个经过验证的科学技能和 100+ 数据库，覆盖生物、化学、医学等领域。支持 Cursor、Claude Code 等多种工具，并提供本地运行的 K-Dense BYOK 模式，助力科研工作流自动化。",
+        "summary_en": "A library of 163 validated scientific skills to turn any AI agent into an AI scientist.",
+        "techStack": [
+          "Python",
+          "Agent Skills Standard"
+        ],
+        "useCase": "适用于生物、化学、医学等领域的科研自动化、文献检索及数据分析。",
+        "useCase_en": "Enable AI agents to perform complex scientific research tasks such as drug discovery and genomics using pre-built skills"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "Lakr233/vphone-cli",
+      "description": "",
+      "language": "Swift",
+      "stars": 9625,
+      "forks": 1290,
+      "todayStars": 361,
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "aiSummary": {
+        "summary": "这是一个基于 Swift 开发的命令行工具，利用 Apple Virtualization.framework 在 Apple Silicon Mac 上启动虚拟 iPhone。它集成了 PCC 研究基础设施，支持自动化下载、修补、DFU 恢复及自定义固件安装流程。用户可通过简单命令创建、管理、克隆和导入虚拟机，适合开发者进行 iOS 虚拟化研究和测试。",
+        "summary_en": "A command-line tool for booting virtual iPhones on Apple Silicon Macs using Apple's Virtualization.framework.",
+        "techStack": [
+          "Swift",
+          "Apple Virtualization.framework",
+          "Python"
+        ],
+        "useCase": "在 Apple Silicon Mac 上运行虚拟 iOS 设备，用于开发、测试及逆向工程研究。",
+        "useCase_en": "Automates the creation and management of virtual iPhone environments on Apple Silicon Macs."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "tt-a1i/archify",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "language": "JavaScript",
+      "stars": 34656,
+      "forks": 2204,
+      "todayStars": 3722,
+      "url": "https://github.com/tt-a1i/archify",
+      "aiSummary": {
+        "summary": "Archify 是一个专为 AI 代理设计的架构可视化技能，能将代码库或系统描述转化为交互式 HTML/SVG 图表。支持架构、工作流、时序等多种图表类型，具备版本对比、节点溯源及多格式导出功能，帮助开发者直观验证和展示系统设计。",
+        "summary_en": "Generates interactive architecture, workflow, and sequence diagrams from typed JSON IR for AI coding agents.",
+        "techStack": [
+          "JavaScript",
+          "Node.js"
+        ],
+        "useCase": "AI 代理辅助的架构可视化与验证工具，用于生成交互式系统图并对比架构变更。",
+        "useCase_en": "Agents use this tool to create verifiable, exportable diagrams of system architecture and workflows."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "stars": 29179,
+      "forks": 3203,
+      "todayStars": 369,
+      "url": "https://github.com/p-e-w/heretic",
+      "aiSummary": {
+        "summary": "Heretic 是一个用于移除语言模型审查（安全对齐）的 Python 工具。它结合了方向消融技术与 Optuna 优化器，通过自动寻找参数来最小化拒绝率和模型 KL 散度。该方法无需人工干预即可生成解密模型，在保持原始模型能力的同时有效移除审查，支持多种主流模型架构。",
+        "summary_en": "Automatic censorship removal tool for transformer-based language models using directional ablation and optimization.",
+        "techStack": [
+          "Python",
+          "Optuna",
+          "Transformer",
+          "方向消融"
+        ],
+        "useCase": "移除语言模型安全对齐以允许更自由的生成，同时尽量减少对模型能力的损害。",
+        "useCase_en": "Remove censorship from language models automatically without expensive post-training."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "unclecode/crawl4ai",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "language": "Python",
+      "stars": 80241,
+      "forks": 8304,
+      "todayStars": 221,
+      "url": "https://github.com/unclecode/crawl4ai",
+      "aiSummary": {
+        "summary": "Crawl4AI 是一个开源的 LLM 友好网络爬虫，专为 RAG、AI 代理和数据管道设计。它将网页转换为干净的 Markdown，速度快且可控。项目支持 Docker 部署，具备安全认证、崩溃恢复和深度爬取等高级功能，适合大规模数据提取。",
+        "summary_en": "Crawl4AI is an open-source LLM-friendly web crawler that transforms web content into clean Markdown for RAG, agents, and data pipelines.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Playwright",
+          "LLM"
+        ],
+        "useCase": "适用于构建 RAG 系统、AI 代理及网页数据提取与清洗管道。",
+        "useCase_en": "This tool converts web pages into clean Markdown to feed data into LLMs and RAG pipelines."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars": 60507,
+      "forks": 5297,
+      "todayStars": 230,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 AI Agent 技能，通过并行搜索 Reddit、X、YouTube、HN、Polymarket 等多平台数据，依据真实用户互动（点赞、金钱）进行评分，最终由 AI 综合生成基于事实的摘要。它旨在提供超越传统搜索引擎的真实舆论和市场洞察。",
+        "summary_en": "An AI agent skill aggregating social media and market data to synthesize grounded summaries based on real-time engagement.",
+        "techStack": [
+          "Python",
+          "AI Agent",
+          "Claude Code",
+          "npx"
+        ],
+        "useCase": "用于快速获取多平台真实舆论、市场动态及热点话题的综合分析报告。",
+        "useCase_en": "Research any topic across social media and markets to get a grounded summary based on real-time engagement."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "majd/ipatool",
+      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
+      "language": "Go",
+      "stars": 10216,
+      "forks": 881,
+      "todayStars": 58,
+      "url": "https://github.com/majd/ipatool",
+      "aiSummary": {
+        "summary": "ipatool 是一个用 Go 编写的命令行工具，允许用户在 App Store 上搜索 iOS、iPadOS、tvOS 和 visionOS 应用，并下载其 IPA 包。它支持通过 Apple ID 进行认证，并提供搜索、购买授权等功能，适用于跨平台开发者和测试人员。",
+        "summary_en": "Go-based CLI tool to search and download iOS, iPadOS, tvOS, and visionOS app packages from the App Store.",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "用于跨平台开发者或测试人员下载和测试 iOS/iPadOS/tvOS/visionOS 应用包。",
+        "useCase_en": "To download iOS, iPadOS, tvOS, and visionOS app packages from the App Store."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "punkpeye/awesome-mcp-servers",
+      "description": "A collection of MCP servers.",
+      "language": "",
+      "stars": 93325,
+      "forks": 15317,
+      "todayStars": 96,
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "aiSummary": {
+        "summary": "这是一个精选的 MCP (Model Context Protocol) 服务器列表。它汇集了众多连接 AI 模型与外部工具、数据源的服务器，旨在帮助开发者快速发现和集成各种 MCP 服务器，提升 AI 应用的功能扩展性。",
+        "summary_en": "A curated list of Model Context Protocol (MCP) servers for AI development.",
+        "techStack": [
+          "Markdown",
+          "Python",
+          "TypeScript"
+        ],
+        "useCase": "用于发现和集成连接 AI 模型与外部工具的 MCP 服务器。",
+        "useCase_en": "A resource for developers to discover and implement MCP servers for AI applications."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "checkstyle/checkstyle",
+      "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
+      "language": "Java",
+      "stars": 9204,
+      "forks": 4195,
+      "todayStars": 115,
+      "url": "https://github.com/checkstyle/checkstyle",
+      "aiSummary": {
+        "summary": "Checkstyle 是一个用 Java 编写的开发工具，旨在帮助程序员编写符合编码标准的 Java 代码。它默认支持 Google 和 Sun 风格指南，且高度可配置。用户可以通过命令行或 ANT 任务调用，用于自动检查代码规范，如检测 switch 语句中的 fall-through 错误。",
+        "summary_en": "A highly configurable Java development tool to enforce coding standards and best practices.",
+        "techStack": [
+          "Java",
+          "Maven",
+          "Ant",
+          "XML"
+        ],
+        "useCase": "适用于需要强制执行特定代码风格或最佳实践的开发团队，用于自动化代码审查。",
+        "useCase_en": "To automatically check Java code for adherence to coding standards and best practices."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "language": "Java",
+      "stars": 73902,
+      "forks": 8064,
+      "todayStars": 198,
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "aiSummary": {
+        "summary": "Ghidra 是美国国家安全局创建的软件逆向工程框架。它提供全功能的分析工具，支持反汇编、反编译和脚本编写，适用于 Windows、macOS 和 Linux。该框架旨在解决大规模 SRE 问题，支持自定义扩展，广泛用于恶意代码分析和网络安全研究。",
+        "summary_en": "NSA-developed software reverse engineering framework for analyzing compiled code and finding vulnerabilities.",
+        "techStack": [
+          "Java",
+          "Python"
+        ],
+        "useCase": "软件逆向工程、恶意代码分析与网络安全研究",
+        "useCase_en": "Used by cybersecurity analysts to reverse engineer compiled code and identify vulnerabilities."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "pollen-robotics/microduck_rl",
+      "description": "RL training environments for Microduck (mjlab)",
+      "language": "Python",
+      "stars": 797,
+      "forks": 136,
+      "todayStars": 168,
+      "url": "https://github.com/pollen-robotics/microduck_rl",
+      "aiSummary": {
+        "summary": "这是一个基于 MuJoCo Warp 和 PPO 算法的强化学习训练环境，专为 Microduck 双足机器人设计。项目支持在 50Hz 下训练策略并导出为 ONNX 模型，包含完整的 sim2real 流程（如域随机化、执行器物理模拟），用于实现机器人的平地/崎岖地形行走及跌倒恢复。",
+        "summary_en": "RL training environments for Microduck bipedal robot using MuJoCo Warp and PPO.",
+        "techStack": [
+          "Python",
+          "MuJoCo Warp",
+          "PPO",
+          "ONNX"
+        ],
+        "useCase": "适用于 Microduck 双足机器人的强化学习训练、策略仿真及部署。",
+        "useCase_en": "Train reinforcement learning policies for the Microduck bipedal robot and export them for deployment."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "handsomestWei/patent-disclosure-skill",
+      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+      "language": "Python",
+      "stars": 5661,
+      "forks": 697,
+      "todayStars": 62,
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill",
+      "aiSummary": {
+        "summary": "该项目是一个基于 Python 的中国专利辅助技能，旨在帮助研发人员挖掘专利点并编写交底书（发明、实用新型、外观设计）。支持从代码/文档自动生成 Word 文档、查新、生成线稿以及使用 Obsidian 进行通俗解读，解决专利撰写痛点。",
+        "summary_en": "Python-based skill for automating patent disclosure writing and interpretation using Obsidian.",
+        "techStack": [
+          "Python",
+          "YAML",
+          "Markdown",
+          "Obsidian",
+          "Mermaid"
+        ],
+        "useCase": "研发人员撰写专利交底书、挖掘技术点及进行专利查新",
+        "useCase_en": "Automates patent disclosure writing and interpretation for developers using Obsidian."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "corsairdev/corsair",
+      "description": "Connect your users to their apps",
+      "language": "TypeScript",
+      "stars": 10955,
+      "forks": 526,
+      "todayStars": 126,
+      "url": "https://github.com/corsairdev/corsair",
+      "aiSummary": {
+        "summary": "Corsair 是一个全功能的产品集成平台，旨在提供无缝的开发体验。它基于 REST API 构建，支持代理、后端服务和用户仪表板。通过统一的语法和适配器模式，开发者可以轻松连接各种第三方 API，无需重复编写胶水代码。项目开源，支持自托管，确保用户数据安全。",
+        "summary_en": "Open-source integration platform built on TypeScript to connect users to apps with a unified syntax.",
+        "techStack": [
+          "TypeScript",
+          "REST API"
+        ],
+        "useCase": "适用于构建跨多种集成的智能代理或为用户提供多租户仪表板。",
+        "useCase_en": "Build agents or dashboards to connect users to third-party apps using a single syntax."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "language": "TypeScript",
+      "stars": 15170,
+      "forks": 1818,
+      "todayStars": 469,
+      "url": "https://github.com/every-app/open-seo",
+      "aiSummary": {
+        "summary": "OpenSEO 是一款开源的 Semrush 和 Ahrefs 替代品，主打无订阅、按使用付费模式。它提供关键词研究、排名跟踪、竞争对手分析等核心 SEO 功能，并支持与 Claude Code 等 AI 代理集成，通过 MCP 协议实现自动化 SEO 任务。支持 Docker 和 Cloudflare 自托管，适合个人及团队使用。",
+        "summary_en": "Open source SEO tool with AI agent integration and self-hosting support.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "MCP"
+        ],
+        "useCase": "预算有限、需要自托管 SEO 工具的个人或团队，以及希望利用 AI 代理自动化 SEO 流程的用户。",
+        "useCase_en": "An affordable, self-hostable SEO tool integrated with AI agents."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "colinhacks/zod",
+      "description": "TypeScript-first schema validation with static type inference",
+      "language": "TypeScript",
+      "stars": 43652,
+      "forks": 2157,
+      "todayStars": 31,
+      "url": "https://github.com/colinhacks/zod",
+      "aiSummary": {
+        "summary": "Zod 是一个 TypeScript 优先的架构验证库，支持静态类型推断。它允许开发者定义模式并解析数据，获得强类型且经过验证的结果。该库零外部依赖、体积小（2kb），支持 Node.js 和浏览器，内置 JSON Schema 转换，并提供 AOT 编译以提升性能。",
+        "summary_en": "TypeScript-first schema validation library offering static type inference and zero dependencies for runtime data validation.",
+        "techStack": [
+          "TypeScript",
+          "JavaScript",
+          "Node.js"
+        ],
+        "useCase": "适用于需要数据验证和类型安全的 TypeScript 项目，以及需要轻量级验证的 JavaScript 项目。",
+        "useCase_en": "Validate untrusted data against a defined schema to ensure type safety and runtime correctness."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "stars": 22790,
+      "forks": 3151,
+      "todayStars": 504,
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "aiSummary": {
+        "summary": "该项目聚合了34个免费LLM提供商的635个模型端点，通过一个OpenAI兼容的/v1接口统一管理。具备智能路由、自动故障转移、加密密钥及自动更新模型目录功能，旨在简化个人AI实验，无需管理多个SDK和密钥。",
+        "summary_en": "Aggregates free LLM tiers from 34 providers into a single OpenAI-compatible API with smart routing.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "OpenAI API"
+        ],
+        "useCase": "个人开发者进行AI实验、低成本运行大模型及构建OpenAI兼容应用。",
+        "useCase_en": "Developers aggregate free AI tiers from 34 providers into a unified OpenAI-compatible API for personal experimentation."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "livekit/agents",
+      "description": "A framework for building realtime voice AI agents 🤖🎙️📹",
+      "language": "Python",
+      "stars": 13759,
+      "forks": 3656,
+      "todayStars": 132,
+      "url": "https://github.com/livekit/agents",
+      "aiSummary": {
+        "summary": "LiveKit Agents 是一个 Python 框架，用于构建实时、多模态的语音 AI 代理。它支持灵活的 STT/LLM/TTS 集成，具备任务调度、WebRTC 客户端及电话集成能力。内置语义回合检测和 MCP 支持，提供完善的测试框架，助力开发者快速构建智能对话系统。",
+        "summary_en": "Open-source framework for building real-time voice AI agents using Python and WebRTC.",
+        "techStack": [
+          "Python",
+          "WebRTC",
+          "LiveKit"
+        ],
+        "useCase": "构建实时语音 AI 代理",
+        "useCase_en": "Build conversational, multi-modal voice agents that can see, hear, and understand users."
+      }
+    },
+    {
+      "index": 18,
+      "fullName": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars": 46570,
+      "forks": 5128,
+      "todayStars": 182,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "aiSummary": {
+        "summary": "GitNexus 是一个零服务器代码智能引擎，运行在浏览器中。它将代码库索引为知识图谱，追踪依赖和调用链，并通过 MCP 工具暴露给 AI 代理。支持 Web UI 和 CLI，帮助 AI 代理（如 Cursor 和 Claude Code）理解代码架构，避免盲点。",
+        "summary_en": "A client-side knowledge graph engine that indexes codebases for AI agents to analyze dependencies and execution flows.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "MCP (Model Context Protocol)"
+        ],
+        "useCase": "为 AI 代理提供代码库的深度架构视图，用于代码探索和智能分析。",
+        "useCase_en": "To index codebases into interactive knowledge graphs so AI agents can reliably analyze code structure."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-08-31T01:23:22.843Z",
+    "duration": "514s",
+    "version": "1.0.0"
+  }
+}
