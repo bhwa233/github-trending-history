@@ -1,0 +1,357 @@
+{
+  "date": "2026-08-31",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "language": "TypeScript",
+      "stars": 27190,
+      "forks": 4770,
+      "todayStars": 2824,
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "aiSummary": {
+        "summary": "OpenMAIC 是一个基于 TypeScript 的开源多智能体交互式课堂平台。它允许用户通过一个提示词生成完整课程，并提供智能体工作台进行规划、构建和修订。支持上传文档、音频、视频等材料，包含20种内置教学工具，且支持自定义模型和存储后端，旨在提供沉浸式学习体验。",
+        "summary_en": "TypeScript-based platform for building immersive multi-agent interactive classrooms using AI agents.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "快速生成课程内容，利用AI辅助教学设计，构建沉浸式互动学习环境。",
+        "useCase_en": "Build immersive, multi-agent learning experiences and courses using AI-driven tools."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "tt-a1i/archify",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "language": "JavaScript",
+      "stars": 38875,
+      "forks": 2487,
+      "todayStars": 3991,
+      "url": "https://github.com/tt-a1i/archify",
+      "aiSummary": {
+        "summary": "Archify 是一个专为 AI 代理设计的 Node.js 工具，用于将代码库或系统描述转化为交互式系统地图。它将类型化的 JSON IR 编译为 HTML/SVG，支持架构、工作流、数据流等多种图表。具备快照对比、路由追踪及多格式导出功能，确保架构变更的可验证性与可视化。",
+        "summary_en": "An agent skill for generating interactive, verifiable architecture and workflow diagrams from typed JSON IR.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "HTML",
+          "SVG",
+          "JSON"
+        ],
+        "useCase": "适用于 AI 代码助手（如 Cursor、Claude Code）生成系统架构图、验证代码变更及进行架构审查。",
+        "useCase_en": "Generate interactive, verifiable architecture and workflow diagrams from system descriptions for AI coding agents."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "stars": 40762,
+      "forks": 3777,
+      "todayStars": 1980,
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "aiSummary": {
+        "summary": "这是一个将任何 AI 代理转化为 AI 科学家的技能库，包含 163+ 个现成的科学技能，覆盖生物、化学、医学等领域。新增 K-Dense BYOK 功能，允许用户在本地运行免费开源的 AI 科学家，保护数据隐私。兼容 Cursor、Claude Code 等多种 AI 工具。",
+        "summary_en": "A library of 163 validated scientific skills to turn any AI agent into an AI scientist.",
+        "techStack": [
+          "Python",
+          "Agent Skills Standard"
+        ],
+        "useCase": "赋能 AI 代理进行生物、化学及医学领域的科学研究。",
+        "useCase_en": "To enable AI agents to perform complex scientific research tasks like drug discovery and genomics."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "k1tbyte/Wand-Enhancer",
+      "description": "Advanced UX and interoperability extension for Wand (WeMod) app",
+      "language": "C#",
+      "stars": 23399,
+      "forks": 59612,
+      "todayStars": 582,
+      "url": "https://github.com/k1tbyte/Wand-Enhancer",
+      "aiSummary": {
+        "summary": "这是一个为 Wand (WeMod) 应用设计的开源扩展工具，旨在提升用户体验和互操作性。它通过本地 .NET 修补器修改客户端配置，支持高级主题定制、AI 功能及远程 Web 面板。项目强调安全性，不涉及遥测，但需用户自行编译源码。",
+        "summary_en": "An open-source C# extension for Wand (WeMod) that enhances UX, adds AI features, and provides a remote web panel.",
+        "techStack": [
+          "C#",
+          ".NET",
+          "Electron"
+        ],
+        "useCase": "为 Wand (WeMod) 用户提供的本地高级配置管理与远程控制解决方案。",
+        "useCase_en": "Enhance the Wand application locally with custom themes and AI features while controlling it remotely via a web panel."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "majd/ipatool",
+      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
+      "language": "Go",
+      "stars": 10555,
+      "forks": 897,
+      "todayStars": 373,
+      "url": "https://github.com/majd/ipatool",
+      "aiSummary": {
+        "summary": "这是一个用 Go 语言编写的命令行工具，允许用户通过 Apple ID 在 App Store 上搜索 iOS、iPadOS、tvOS 和 visionOS 应用，并下载对应的 ipa 安装包。支持认证、搜索和购买授权等功能，方便开发者或用户获取应用资源。",
+        "summary_en": "A Go CLI tool for searching and downloading iOS, iPadOS, tvOS, and visionOS app packages from the App Store.",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "适用于需要下载、备份或测试 iOS/iPadOS/tvOS/visionOS 应用包的开发者或用户。",
+        "useCase_en": "Users can search for and download iOS, iPadOS, tvOS, and visionOS app packages directly from the App Store via a command"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "jingyaogong/minimind",
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "language": "Python",
+      "stars": 56156,
+      "forks": 7323,
+      "todayStars": 495,
+      "url": "https://github.com/jingyaogong/minimind",
+      "aiSummary": {
+        "summary": "这是一个旨在从零开始训练 64M 参数轻量级语言模型的开源项目。它提供了完整的训练链路，包括预训练、微调、RLHF 等，覆盖 MoE、数据清洗、工具使用等全流程。项目使用原生 PyTorch 实现，不依赖高层抽象，旨在降低 LLM 学习门槛，让个人 GPU 也能快速复现大模型训练全过程，兼具教程与实战价值。",
+        "summary_en": "A lightweight LLM training project from scratch covering the full pipeline from pretraining to RLHF with minimal cost and time.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Transformers",
+          "DeepSpeed",
+          "TRL/PEFT"
+        ],
+        "useCase": "适合 LLM 入门学习、理解模型底层原理及个人 GPU 快速复现大模型训练流程。",
+        "useCase_en": "To train a 64M-parameter LLM from scratch for educational purposes and understanding LLM internals."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Osmantic/ODS",
+      "description": "Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.",
+      "language": "Python",
+      "stars": 5517,
+      "forks": 776,
+      "todayStars": 77,
+      "url": "https://github.com/Osmantic/ODS",
+      "aiSummary": {
+        "summary": "ODS 是一个将本地硬件（PC/Mac/Linux）转化为私有 AI 服务器的部署系统。它集成了 Ollama、Open WebUI、n8n 和 ComfyUI 等工具，提供本地 LLM 推理、聊天界面、语音交互、RAG、工作流自动化及图像生成。该系统强调数据隐私，无需云端订阅，并提供集中式控制仪表盘，旨在简化 AI 服务器搭建。",
+        "summary_en": "Turns your PC into a private AI server with local LLM inference, chat UI, and automation tools.",
+        "techStack": [
+          "Python",
+          "Ollama",
+          "Open WebUI",
+          "n8n",
+          "ComfyUI"
+        ],
+        "useCase": "适合需要在本地运行大模型、保护数据隐私的个人或家庭实验室用户。",
+        "useCase_en": "Run local AI models on your own hardware without cloud dependencies."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "checkstyle/checkstyle",
+      "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
+      "language": "Java",
+      "stars": 9419,
+      "forks": 4207,
+      "todayStars": 198,
+      "url": "https://github.com/checkstyle/checkstyle",
+      "aiSummary": {
+        "summary": "Checkstyle 是一款 Java 代码质量检查工具，旨在确保代码符合 Google Java Style Guide 等编码标准。它高度可配置，支持命令行和 ANT 任务调用，能自动检测代码规范违规（如 FallThrough 错误），帮助开发者提升代码质量和可维护性。",
+        "summary_en": "Checkstyle is a Java development tool that enforces coding standards and best practices.",
+        "techStack": [
+          "Java",
+          "Maven",
+          "ANT"
+        ],
+        "useCase": "代码规范检查与自动化构建流程集成。",
+        "useCase_en": "A tool for developers to automatically verify Java code adherence to coding standards."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "language": "PowerShell",
+      "stars": 33176,
+      "forks": 4505,
+      "todayStars": 1401,
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "aiSummary": {
+        "summary": "这是一个面向逆向工程、渗透测试和安全研究的 PowerShell 技能路由包。它为 AI 代理（如 Claude Code）提供智能路由，根据任务类型（APK、二进制、JS 等）自动选择正确的工具和方法论。项目包含可重复的工作流、按需自举工具链和自我进化知识库，旨在解决 AI 代理在安全任务中缺乏上下文和工具选择能力的问题，支持 Windows 和 Ubuntu。",
+        "summary_en": "An AI-powered PowerShell toolkit for cybersecurity reverse engineering and penetration testing that routes tasks to specific methodologies and tools.",
+        "techStack": [
+          "PowerShell",
+          "AI Agents",
+          "Security Tools"
+        ],
+        "useCase": "用于 AI 编码助手处理逆向工程、CTF 挑战和授权渗透测试任务。",
+        "useCase_en": "To guide AI coding agents in executing repeatable cybersecurity workflows for reverse engineering and penetration testin"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 245265,
+      "forks": 37057,
+      "todayStars": 512,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个面向 Claude Code、Cursor 等代码代理的性能优化系统。它提供技能、记忆、安全和研究优先的开发工具，帮助代理在构建前规划、验证变更、审查工作并记忆重要信息。项目支持 MIT 许可，提供免费开源版本和付费的 ECC Pro 托管 GitHub App。",
+        "summary_en": "A performance optimization system for AI coding agents like Claude Code and Cursor.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Git"
+        ],
+        "useCase": "用于增强 Claude Code、Cursor 等代码代理的工程能力，使其具备规划、测试、审查和记忆功能。",
+        "useCase_en": "To provide AI coding agents with a coordinated engineering system including skills, memory, and security."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "kaifcodec/user-scanner",
+      "description": "🕵️‍♂️ (2-in-1) Email & Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 465+ actively maintained scan vectors (175+ email / 290+ username) for security research, investigations, and digital footprinting.",
+      "language": "Python",
+      "stars": 4268,
+      "forks": 449,
+      "todayStars": 93,
+      "url": "https://github.com/kaifcodec/user-scanner",
+      "aiSummary": {
+        "summary": "这是一个强大的开源网络情报（OSINT）工具，专为深度数据提取设计。它支持从单一邮箱或用户名出发，在465+个平台上进行扫描。项目具备丰富的元数据抓取、跨扫描引擎、MCP服务器集成以及高并发处理能力，适用于安全研究和数字足迹分析。",
+        "summary_en": "Python OSINT suite for deep email and username intelligence across 465+ platforms.",
+        "techStack": [
+          "Python",
+          "httpx",
+          "curl_cffi",
+          "MCP"
+        ],
+        "useCase": "适用于安全研究人员、调查人员及分析师进行数字足迹挖掘、账户验证及开源网络情报收集。",
+        "useCase_en": "Used by security researchers and investigators to map digital footprints and verify account registrations across 465+ pl"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "language": "TypeScript",
+      "stars": 15779,
+      "forks": 1901,
+      "todayStars": 610,
+      "url": "https://github.com/every-app/open-seo",
+      "aiSummary": {
+        "summary": "OpenSEO 是一款开源的 SEO 工具，旨在替代 Semrush 和 Ahrefs。它支持 MCP 和 AI 代理集成，提供关键词研究、排名追踪等功能。用户可自托管，无需订阅费，仅需按使用付费 DataForSEO API。",
+        "summary_en": "Open source SEO tool alternative to Semrush and Ahrefs, designed for AI agent integration and pay-as-you-go usage.",
+        "techStack": [
+          "TypeScript",
+          "MCP",
+          "Docker"
+        ],
+        "useCase": "适合需要自托管、无订阅费且希望利用 AI 代理进行 SEO 任务的个人和团队。",
+        "useCase_en": "A self-hostable, pay-as-you-go SEO platform that integrates with AI agents for keyword research and site audits."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "stars": 29671,
+      "forks": 3251,
+      "todayStars": 537,
+      "url": "https://github.com/p-e-w/heretic",
+      "aiSummary": {
+        "summary": "Heretic 是一个用于语言模型的完全自动审查移除工具。它结合了方向消融技术和 Optuna 优化器，无需人工干预即可自动寻找参数，在最小化拒绝率和保持模型能力（低 KL 散度）之间取得平衡。支持多种模型架构，操作简单，能生成高质量的去审查模型。",
+        "summary_en": "Fully automatic censorship removal tool for transformer-based language models using directional ablation and Optuna.",
+        "techStack": [
+          "Python",
+          "Optuna",
+          "Transformer"
+        ],
+        "useCase": "移除语言模型安全对齐以进行模型能力测试或研究",
+        "useCase_en": "Decensor transformer-based language models to bypass safety filters while preserving model intelligence."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "handsomestWei/patent-disclosure-skill",
+      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+      "language": "Python",
+      "stars": 6252,
+      "forks": 730,
+      "todayStars": 571,
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的中国专利辅助技能，旨在帮助研发人员挖掘专利点、编写发明/实用新型/外观设计交底书，并支持专利通俗解读与查新。它通过扫描代码和文档自动生成框图、线稿，并集成 Obsidian 进行知识管理，解决专利撰写难的问题。",
+        "summary_en": "Python-based skill for automating patent disclosure writing and interpretation, supporting invention, utility, and design types with Obsidian integration.",
+        "techStack": [
+          "Python",
+          "Obsidian",
+          "Markdown",
+          "CAD/STEP",
+          "Word"
+        ],
+        "useCase": "适用于研发人员快速挖掘专利点、编写交底书及建立个人专利知识库。",
+        "useCase_en": "Automate the creation of patent disclosure documents and interpret public patents for personal knowledge management."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "stars": 17383,
+      "forks": 1200,
+      "todayStars": 228,
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的快速 PDF 检查、分类和文本提取库。它能智能检测 PDF 类型（文本/扫描），进行定位感知的文本提取和 Markdown 转换，支持多列布局和表格识别。内置选择性 OCR 功能，可在本地快速处理，避免昂贵的 OCR 服务，支持 Python、Node.js 和 WebAssembly。",
+        "summary_en": "Fast Rust library for inspecting, classifying, and extracting text from PDFs with intelligent OCR routing.",
+        "techStack": [
+          "Rust",
+          "Python",
+          "Node.js",
+          "WebAssembly"
+        ],
+        "useCase": "本地快速解析 PDF 文档，进行智能分类、文本提取及 Markdown 转换，适用于文档处理和 RAG 系统的数据预处理。",
+        "useCase_en": "Route scanned PDFs to OCR while processing text-based PDFs locally for high-speed extraction and markdown conversion."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "pollen-robotics/microduck_rl",
+      "description": "RL training environments for Microduck (mjlab)",
+      "language": "Python",
+      "stars": 1153,
+      "forks": 195,
+      "todayStars": 385,
+      "url": "https://github.com/pollen-robotics/microduck_rl",
+      "aiSummary": {
+        "summary": "这是一个用于 Microduck 双足机器人的强化学习训练环境。基于 MuJoCo Warp 和 PPO 算法，实现了从仿真到现实的完整 Sim2Real 工作流，包含 BAM 执行器物理、域随机化及奖励设计。支持导出 ONNX 模型部署，旨在训练机器人的行走与姿态控制策略。",
+        "summary_en": "RL training environments for Microduck bipedal robot using MuJoCo Warp and PPO.",
+        "techStack": [
+          "Python",
+          "MuJoCo Warp",
+          "PPO",
+          "ONNX",
+          "CUDA"
+        ],
+        "useCase": "用于训练 Microduck 双足机器人的行走策略，实现仿真到现实的部署。",
+        "useCase_en": "Train and export walking policies for the Microduck bipedal robot for sim-to-real deployment."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-01T01:51:42.130Z",
+    "duration": "474s",
+    "version": "1.0.0"
+  }
+}
