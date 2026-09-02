@@ -1,0 +1,310 @@
+{
+  "date": "2026-09-01",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Gitlawb/openclaude",
+      "description": "runs anywhere. uses anything",
+      "language": "TypeScript",
+      "stars": 31291,
+      "forks": 8948,
+      "todayStars": 80,
+      "url": "https://github.com/Gitlawb/openclaude",
+      "aiSummary": {
+        "summary": "OpenClaude 是一个开源的编码代理 CLI 工具，支持 OpenAI 兼容 API、Gemini、Ollama 等多种云和本地模型。它提供统一的终端工作流，集成了提示词、工具、代理、MCP 和斜杠命令，旨在简化 AI 编码体验。",
+        "summary_en": "Open-source coding-agent CLI supporting multiple cloud and local AI providers.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "适用于在统一终端中使用多种 AI 模型进行代码生成、辅助编程及自动化任务处理的场景。",
+        "useCase_en": "Provides a unified terminal-first interface for coding agents across various AI providers."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "stars": 44890,
+      "forks": 3548,
+      "todayStars": 193,
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 打造的学术研究全流程技能套件，涵盖研究、写作、审核与定稿。它利用 AI 处理引用、格式及数据验证等繁琐工作，通过风格校准和逻辑检查提升质量。项目强调人机协作，旨在辅助人类研究者提升效率，避免 AI 幻觉与逻辑错误。",
+        "summary_en": "A Claude Code skill suite for the academic research pipeline, emphasizing human oversight and quality control.",
+        "techStack": [
+          "Python",
+          "Claude Code"
+        ],
+        "useCase": "适用于使用 Claude Code 进行学术写作与研究的用户，帮助处理引用、格式及逻辑验证，提升论文质量。",
+        "useCase_en": "Use this tool to guide the research and writing process for academic papers using Claude Code as a copilot."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "language": "TypeScript",
+      "stars": 29479,
+      "forks": 4971,
+      "todayStars": 3128,
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "aiSummary": {
+        "summary": "OpenMAIC 是一个开源的多智能体交互式课堂项目。用户可通过一个提示词生成完整课程，利用智能体工作台进行规划、构建和修订。项目支持上传多种媒体材料，提供幻灯片、测验等20种内置技能，且采用中立设计，支持自定义模型和存储后端，旨在提供沉浸式学习体验。",
+        "summary_en": "Open-source platform using multi-agent AI to generate interactive courses and educational content.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于构建和生成交互式在线课程，利用AI代理进行课程规划与内容创作。",
+        "useCase_en": "Generate interactive courses and educational materials using multi-agent AI."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "iv-org/invidious",
+      "description": "Invidious is an alternative front-end to YouTube",
+      "language": "Crystal",
+      "stars": 23763,
+      "forks": 2674,
+      "todayStars": 577,
+      "url": "https://github.com/iv-org/invidious",
+      "aiSummary": {
+        "summary": "Invidious 是一个基于 Crystal 语言开发的 YouTube 替代前端。它专注于隐私保护，提供无广告、无跟踪、无需 JavaScript 的视频观看体验。支持自定义主题、订阅管理、音频模式及 Reddit 评论。支持数据导入导出，不使用官方 YouTube API，允许用户托管私有实例，是追求隐私用户的理想选择。",
+        "summary_en": "Invidious is a privacy-focused, open-source front-end for YouTube that removes ads and tracking.",
+        "techStack": [
+          "Crystal"
+        ],
+        "useCase": "追求隐私保护、无广告干扰的视频观看用户",
+        "useCase_en": "A privacy-conscious alternative to YouTube for watching videos without ads or tracking."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "jingyaogong/minimind",
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "language": "Python",
+      "stars": 57055,
+      "forks": 7417,
+      "todayStars": 1005,
+      "url": "https://github.com/jingyaogong/minimind",
+      "aiSummary": {
+        "summary": "这是一个从零开始训练64M参数轻量级大语言模型的开源项目。旨在降低LLM学习门槛，仅需3美元成本和2小时即可完成训练。项目覆盖了从预训练、SFT到RLHF、工具使用等全流程，核心代码原生PyTorch实现，不依赖高层抽象，适合个人GPU复现，是LLM入门与实践的绝佳教程。",
+        "summary_en": "A lightweight project to train a 64M-parameter LLM from scratch in 2 hours using pure PyTorch, covering full training pipelines.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "CUDA"
+        ],
+        "useCase": "LLM入门教学与个人GPU环境下的模型复现",
+        "useCase_en": "To train a lightweight 64M-parameter LLM from scratch for educational purposes and understanding core algorithms."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "3b1b/manim",
+      "description": "Animation engine for explanatory math videos",
+      "language": "Python",
+      "stars": 92553,
+      "forks": 7616,
+      "todayStars": 86,
+      "url": "https://github.com/3b1b/manim",
+      "aiSummary": {
+        "summary": "Manim 是一个用于制作解释性数学视频的精确程序化动画引擎。它最初由 3Blue1Brown 开发，现已有社区版本。支持 Python 编程，并依赖 FFmpeg、OpenGL 和 LaTeX 等系统工具来生成高质量的矢量图形动画。",
+        "summary_en": "Manim is a Python engine for creating precise programmatic animations for math videos.",
+        "techStack": [
+          "Python",
+          "FFmpeg",
+          "OpenGL",
+          "LaTeX"
+        ],
+        "useCase": "适用于制作高质量的数学教学视频和程序化动画演示。",
+        "useCase_en": "Used to generate high-quality animations for educational math content."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "stars": 17921,
+      "forks": 1222,
+      "todayStars": 541,
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的快速 PDF 检查库，支持智能分类（文本/扫描/图像）、定位感知的文本提取和 Markdown 转换。它能自动检测多列布局和表格，并提供选择性 OCR 功能以节省资源。支持 Python、Node.js 和 WebAssembly 绑定，能在本地快速处理 PDF。",
+        "summary_en": "Fast Rust library for PDF inspection, classification, and text extraction.",
+        "techStack": [
+          "Rust",
+          "WebAssembly",
+          "Python",
+          "Node.js",
+          "PP-OCRv6"
+        ],
+        "useCase": "适用于需要快速本地化 PDF 文本提取、分类及 Markdown 转换的场景，特别适合处理大量文档以节省 OCR 资源。",
+        "useCase_en": "Detect scanned vs text-based PDFs to enable smart routing decisions."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "browser-use/video-use",
+      "description": "Edit videos with coding agents",
+      "language": "Python",
+      "stars": 22932,
+      "forks": 2813,
+      "todayStars": 472,
+      "url": "https://github.com/browser-use/video-use",
+      "aiSummary": {
+        "summary": "这是一个基于 Claude Code 的开源视频编辑工具。用户只需将素材放入文件夹，通过对话指令即可自动完成剔除填充词、自动调色、添加字幕及生成动画等剪辑工作。项目利用 FFmpeg 和 ElevenLabs 等技术，实现了无需预设菜单的智能化视频处理流程。",
+        "summary_en": "An open-source project enabling automated video editing via coding agents like Claude Code.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "FFmpeg",
+          "ElevenLabs",
+          "HyperFrames/Remotion/Manim/PIL"
+        ],
+        "useCase": "适合需要通过编程代理（如 Claude Code）进行自动化、智能化的视频剪辑场景，如采访、教程或蒙太奇制作。",
+        "useCase_en": "Edit raw video footage into polished final videos using AI coding agents."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "stars": 41532,
+      "forks": 3826,
+      "todayStars": 912,
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "aiSummary": {
+        "summary": "这是一个将任何 AI 代理转变为 AI 科学家的大型技能库。包含 163 个经过验证的科学技能，覆盖生物、化学、医学等领域，支持 100+ 科学数据库。兼容多种 AI 工具，并提供本地运行的 K-Dense BYOK 开源 AI 共同科学家工具，数据安全。",
+        "summary_en": "A comprehensive library of 163 validated scientific skills to turn any AI agent into an AI scientist.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "将 AI 代理转化为科学研究员，辅助生物、化学、医学及药物发现等领域的科研工作。",
+        "useCase_en": "Empower AI agents to perform complex scientific research tasks like drug discovery, genomics, and literature retrieval."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "handsomestWei/patent-disclosure-skill",
+      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+      "language": "Python",
+      "stars": 6696,
+      "forks": 759,
+      "todayStars": 501,
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的专利辅助技能，旨在帮助研发人员挖掘专利点并编写交底书。它支持发明、实用新型和外观设计，能自动生成 Word 文档和框图，并利用 Obsidian 进行专利知识图谱管理，实现从技术到文档的自动化转化。",
+        "summary_en": "Python skill for drafting patent disclosures and interpreting public patents using Obsidian.",
+        "techStack": [
+          "Python",
+          "Obsidian",
+          "Markdown",
+          "Word (.docx)",
+          "CAD/STEP"
+        ],
+        "useCase": "适用于研发人员快速挖掘技术点、撰写专利交底书及管理专利知识库的场景。",
+        "useCase_en": "Assists developers in drafting patent disclosure documents and interpreting public patents."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "VoltAgent/awesome-design-md",
+      "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+      "language": "",
+      "stars": 112750,
+      "forks": 12772,
+      "todayStars": 323,
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "aiSummary": {
+        "summary": "该项目提供由流行品牌设计系统分析的 DESIGN.md 文件集合。DESIGN.md 是一种纯文本设计系统文档，允许 AI 代理根据文档生成视觉一致的高质量 UI。开发者无需 Figma 导出或特殊工具，只需将文件放入项目即可让 AI 代理构建匹配的界面。",
+        "summary_en": "A curated collection of DESIGN.md files extracted from popular brand design systems to help AI coding agents generate consistent UI.",
+        "techStack": [
+          "Markdown",
+          "AI Agents",
+          "Design Systems"
+        ],
+        "useCase": "开发者希望利用 AI 代理根据设计系统文档快速生成视觉一致的高质量 UI 界面。",
+        "useCase_en": "Developers use this repository to provide AI coding agents with design specifications via markdown files to generate con"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "averygan/reclip",
+      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+      "language": "HTML",
+      "stars": 7648,
+      "forks": 1316,
+      "todayStars": 56,
+      "url": "https://github.com/averygan/reclip",
+      "aiSummary": {
+        "summary": "这是一个自托管的轻量级视频和音频下载工具，拥有简洁的 Web 界面。它支持从 YouTube、TikTok、Instagram 等超过 1000 个网站下载视频或音频，支持批量处理和画质选择。后端基于 Python Flask，前端为原生 HTML/JS，代码量极少，易于部署。",
+        "summary_en": "Self-hosted video downloader supporting 1000+ sites via yt-dlp with a clean web interface.",
+        "techStack": [
+          "Python",
+          "Flask",
+          "HTML/CSS/JavaScript",
+          "yt-dlp",
+          "ffmpeg"
+        ],
+        "useCase": "个人从社交媒体平台批量下载视频或音频资源。",
+        "useCase_en": "Users can download videos and audio from various social media platforms using a self-hosted tool."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 245760,
+      "forks": 37087,
+      "todayStars": 623,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个专为 AI 编码代理（如 Claude Code、Cursor）设计的性能优化系统。它提供了一套协调的工程工具箱，包含技能、记忆、安全性和研究优先的开发功能。该系统帮助代理在构建前规划、通过测试验证变更、自我审查工作，并将重复的成功转化为可重用的技能和工作流。",
+        "summary_en": "An agent harness optimizing performance for AI coding tools like Claude Code.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Claude Code"
+        ],
+        "useCase": "为 AI 编码助手提供增强的工程能力，提升代码质量和开发效率。",
+        "useCase_en": "It provides a coordinated engineering system for AI agents to plan, test, and review code."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "unclecode/crawl4ai",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "language": "Python",
+      "stars": 80849,
+      "forks": 8356,
+      "todayStars": 145,
+      "url": "https://github.com/unclecode/crawl4ai",
+      "aiSummary": {
+        "summary": "Crawl4AI 是一个开源的、LLM 友好的网页爬虫与抓取工具，旨在将网页转换为干净的 Markdown，供 RAG、AI 代理及数据管道使用。项目具备深度爬取、崩溃恢复、PDF 处理及 Docker API 服务器功能。近期重点进行了安全加固，修复了多项漏洞并默认启用认证，适合构建大规模、可控的 Web 数据提取系统。",
+        "summary_en": "Open-source LLM-friendly web crawler and scraper converting web content into clean Markdown for RAG and data pipelines.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Playwright"
+        ],
+        "useCase": "构建 RAG 系统、AI 代理数据源及 Web 数据提取管道",
+        "useCase_en": "Extract and clean web content for RAG, agents, and data pipelines."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-02T01:00:48.606Z",
+    "duration": "391s",
+    "version": "1.0.0"
+  }
+}
