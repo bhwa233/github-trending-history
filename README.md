@@ -70,26 +70,31 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-09-01 | **成功**: 14 | **失败**: 0
+**最后更新**: 2026-09-02 | **成功**: 16 | **失败**: 3
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [Gitlawb/openclaude](https://github.com/Gitlawb/openclaude) | runs anywhere. uses anything... | TypeScript | 31.3k | 80 | OpenClaude 是一个开源的编码代理 CLI 工具，支持 OpenAI 兼容 API、Gemini、Ollama 等多种云和本地模型。它提供统一的终端工作流，集成了提示词、工具、代理、MCP 和斜杠命令，旨在简化 AI 编码体验。 |
-| 2 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | Academic Research Skills for Claude Code: research... | Python | 44.9k | 193 | 这是一个为 Claude Code 打造的学术研究全流程技能套件，涵盖研究、写作、审核与定稿。它利用 AI 处理引用、格式及数据验证等繁琐工作，通过风格校准和逻辑检查提升质量。项目强调人机协作，旨在辅助人类研究者提升效率，避免 AI 幻觉与逻辑错误。 |
-| 3 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | Open Multi-Agent Interactive Classroom — Get an im... | TypeScript | 29.5k | 3.1k | OpenMAIC 是一个开源的多智能体交互式课堂项目。用户可通过一个提示词生成完整课程，利用智能体工作台进行规划、构建和修订。项目支持上传多种媒体材料，提供幻灯片、测验等20种内置技能，且采用中立设计，支持自定义模型和存储后端，旨在提供沉浸式学习体验。 |
-| 4 | [iv-org/invidious](https://github.com/iv-org/invidious) | Invidious is an alternative front-end to YouTube... | Crystal | 23.8k | 577 | Invidious 是一个基于 Crystal 语言开发的 YouTube 替代前端。它专注于隐私保护，提供无广告、无跟踪、无需 JavaScript 的视频观看体验。支持自定义主题、订阅管理、音频模式及 Reddit 评论。支持数据导入导出，不使用官方 YouTube API，允许用户托管私有实例，是追求隐私用户的理想选择。 |
-| 5 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 🧠 Train a 64M-parameter LLM from scratch in just ... | Python | 57.1k | 1.0k | 这是一个从零开始训练64M参数轻量级大语言模型的开源项目。旨在降低LLM学习门槛，仅需3美元成本和2小时即可完成训练。项目覆盖了从预训练、SFT到RLHF、工具使用等全流程，核心代码原生PyTorch实现，不依赖高层抽象，适合个人GPU复现，是LLM入门与实践的绝佳教程。 |
-| 6 | [3b1b/manim](https://github.com/3b1b/manim) | Animation engine for explanatory math videos... | Python | 92.6k | 86 | Manim 是一个用于制作解释性数学视频的精确程序化动画引擎。它最初由 3Blue1Brown 开发，现已有社区版本。支持 Python 编程，并依赖 FFmpeg、OpenGL 和 LaTeX 等系统工具来生成高质量的矢量图形动画。 |
-| 7 | [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) | Fast Rust library for PDF inspection, classificati... | Rust | 17.9k | 541 | 这是一个用 Rust 编写的快速 PDF 检查库，支持智能分类（文本/扫描/图像）、定位感知的文本提取和 Markdown 转换。它能自动检测多列布局和表格，并提供选择性 OCR 功能以节省资源。支持 Python、Node.js 和 WebAssembly 绑定，能在本地快速处理 PDF。 |
-| 8 | [browser-use/video-use](https://github.com/browser-use/video-use) | Edit videos with coding agents... | Python | 22.9k | 472 | 这是一个基于 Claude Code 的开源视频编辑工具。用户只需将素材放入文件夹，通过对话指令即可自动完成剔除填充词、自动调色、添加字幕及生成动画等剪辑工作。项目利用 FFmpeg 和 ElevenLabs 等技术，实现了无需预设菜单的智能化视频处理流程。 |
-| 9 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Turn any AI agent into an AI Scientist. The #1 Age... | Python | 41.5k | 912 | 这是一个将任何 AI 代理转变为 AI 科学家的大型技能库。包含 163 个经过验证的科学技能，覆盖生物、化学、医学等领域，支持 100+ 科学数据库。兼容多种 AI 工具，并提供本地运行的 K-Dense BYOK 开源 AI 共同科学家工具，数据安全。 |
-| 10 | [handsomestWei/patent-disclosure-skill](https://github.com/handsomestWei/patent-disclosure-skill) | 中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审... | Python | 6.7k | 501 | 这是一个基于 Python 的专利辅助技能，旨在帮助研发人员挖掘专利点并编写交底书。它支持发明、实用新型和外观设计，能自动生成 Word 文档和框图，并利用 Obsidian 进行专利知识图谱管理，实现从技术到文档的自动化转化。 |
-| 11 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | A collection of DESIGN.md files analysis by popula... | - | 112.8k | 323 | 该项目提供由流行品牌设计系统分析的 DESIGN.md 文件集合。DESIGN.md 是一种纯文本设计系统文档，允许 AI 代理根据文档生成视觉一致的高质量 UI。开发者无需 Figma 导出或特殊工具，只需将文件放入项目即可让 AI 代理构建匹配的界面。 |
-| 12 | [averygan/reclip](https://github.com/averygan/reclip) | Download videos from almost any website. Lightweig... | HTML | 7.6k | 56 | 这是一个自托管的轻量级视频和音频下载工具，拥有简洁的 Web 界面。它支持从 YouTube、TikTok、Instagram 等超过 1000 个网站下载视频或音频，支持批量处理和画质选择。后端基于 Python Flask，前端为原生 HTML/JS，代码量极少，易于部署。 |
-| 13 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 245.8k | 623 | ECC 是一个专为 AI 编码代理（如 Claude Code、Cursor）设计的性能优化系统。它提供了一套协调的工程工具箱，包含技能、记忆、安全性和研究优先的开发功能。该系统帮助代理在构建前规划、通过测试验证变更、自我审查工作，并将重复的成功转化为可重用的技能和工作流。 |
-| 14 | [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawle... | Python | 80.8k | 145 | Crawl4AI 是一个开源的、LLM 友好的网页爬虫与抓取工具，旨在将网页转换为干净的 Markdown，供 RAG、AI 代理及数据管道使用。项目具备深度爬取、崩溃恢复、PDF 处理及 Docker API 服务器功能。近期重点进行了安全加固，修复了多项漏洞并默认启用认证，适合构建大规模、可控的 Web 数据提取系统。 |
+| 1 | [fmtlib/fmt](https://github.com/fmtlib/fmt) | A modern formatting library... | C++ | 24.3k | 14 | {fmt} 是一个现代、高性能的 C++ 格式化库，旨在替代 C stdio 和 iostreams。它支持 C++20 std::format 和 C++23 std::print，提供类似 Python 的语法。该库具有类型安全、零开销、无外部依赖、跨平台兼容性以及严格的测试覆盖等特点，是构建高性能 C++ 应用的理想选择。 |
+| 2 | [google-research/timesfm](https://github.com/google-research/timesfm) | TimesFM (Time Series Foundation Model) is a pretra... | Python | 29.8k | 343 | TimesFM 是 Google Research 开发的时间序列基础模型，支持单变量和多变量预测。TimesFM 3.0 引入了原生多变量支持、灵活的协变量处理和零样本泛化能力。它在多个基准测试中表现优异，并已集成到 BigQuery ML、Google Sheets 和 Vertex Model Garden 等产品中。 |
+| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | Makes your AI agent think like the laziest senior ... | JavaScript | 121.6k | 1.4k | Ponytail 是一个 JavaScript 项目，通过提示工程让 AI 代理表现得像一位“懒惰的资深开发者”。它鼓励使用原生 API 替代重型库，从而显著减少代码量、降低成本并提升速度。实测显示，相比无技能基线，代码行数减少 54%，同时保持 100% 的安全性。 |
+| 4 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio is the open-source, fully-local Eleven... | Python | 14.7k | 832 | VoiceStudio 是一个开源的本地化 ElevenLabs 替代品，支持语音克隆、视频配音、听写和有声书创作，覆盖 646 种语言。它集成了 16 个 TTS 和 11 个 ASR 引擎，无需账号或订阅，支持 macOS、Windows 和 Linux，适合在本地硬件上运行。 |
+| 5 | [sngyai/Sequoia-X](https://github.com/sngyai/Sequoia-X) | A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书... | Python | 6.1k | 63 | Sequoia-X 是一个基于 Python 的 A 股量化选股系统 V2。系统采用 OOP 架构和向量化计算，每日收盘后自动扫描多种技术形态（如海龟交易、RPS 突破等）并推送结果至飞书。数据源采用免费且无限流的 Baostock，存储于本地 SQLite，支持增量更新和全市场历史回填。 |
+| 6 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 50.6k | 148 | 这是一个为 AI 编码代理提供的 Chrome DevTools MCP 服务器。它允许 Claude、Cursor 等代理控制实时浏览器，进行自动化操作、深度调试（截图、网络请求、控制台）及性能分析。项目基于 Puppeteer，支持 Chrome 浏览器，旨在提升 AI 辅助开发的可靠性与效率。 |
+| 7 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you... | Python | 240.1k | 533 | 这是一个由 Nous Research 构建的自我改进 AI 代理。它具备内置的学习循环，能从经验中创建技能、自我优化并构建用户模型。支持多平台（Telegram, Discord 等）和全功能终端界面。它允许用户使用任何模型，支持并行子代理、定时自动化和多种后端部署，是一个高度灵活且能随用户成长的智能助手。 |
+| 8 | [superlinked/sie](https://github.com/superlinked/sie) | Open-source inference server and production cluste... | Python | 3.1k | 60 | SIE 是一个专为 AI 代理设计的开源推理引擎，通过单一 API 集中服务搜索、文档转换等任务所需的 100+ 个模型。支持 OpenAI 兼容接口、按需加载及 Kubernetes 部署，深度集成 LangChain 等框架，简化代理模型管理。 |
+| 9 | [pacifio/atlas](https://github.com/pacifio/atlas) | Source control for agents. Use multiple coding age... | Rust | 2.9k | 888 | 处理失败 |
+| 10 | [zyronon/TypeWords](https://github.com/zyronon/TypeWords) | Practice English, one strike, one step forward; 练习... | Vue | 9.3k | 21 | TypeWords 是一个基于 Vue 的开源英语练习工具，旨在通过打字方式高效学习单词和文章。它提供跟读、听写、自测等多种模式，内置智能记忆曲线算法，支持CET、雅思、托福等多种词汇库。项目界面简洁现代，无广告，支持自定义音效和快捷键，适合通过键盘输入强化英语记忆的用户。 |
+| 11 | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | Academic Research Skills for Claude Code: research... | Python | 45.6k | 799 | 处理失败 |
+| 12 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 246.3k | 516 | ECC 是一个面向 AI 编程代理（如 Claude Code, Cursor）的性能优化系统。它为代理提供协调的工程工具箱，涵盖技能、直觉、记忆、安全及研究优先的开发流程。支持规划、测试、自审和记忆功能，旨在提升代理的工程效率与代码质量，开源免费。 |
+| 13 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | Protocol Buffers - Google's data interchange forma... | C++ | 71.9k | 18 | Protocol Buffers 是 Google 开发的语言中立、平台中立的结构化数据序列化机制。项目包含 C++ 实现，提供了安装指南、源码构建建议（推荐使用稳定版本）以及 Bazel 构建系统的集成配置。适用于需要在不同系统或语言间高效传输和存储结构化数据的场景。 |
+| 14 | [vercel-labs/portless](https://github.com/vercel-labs/portless) | Replace port numbers with stable, named local URLs... | TypeScript | 11.8k | 73 | 这是一个本地开发工具，旨在用稳定的 `.localhost` 域名替换端口，提升开发体验。它支持 Next.js、Vite 等主流框架，自动注入端口参数，默认启用 HTTPS/HTTP/2，适合需要稳定 URL 的开发环境。 |
+| 15 | [blader/humanizer](https://github.com/blader/humanizer) | Agent skill that removes signs of AI-generated wri... | Python | 40.4k | 374 | 这是一个 Python Agent 技能，旨在移除 AI 生成文本的痕迹。它利用 35 种模式重写文本，使其听起来像人类写作，同时保持原意不变。支持 Markdown，能保留代码、数据和引用，并提供风格匹配功能。 |
+| 16 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 🪨 why use many token when few token do trick — Cl... | Go | 102.6k | 238 | 处理失败 |
+| 17 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .agent... | Shell | 245.2k | 1.2k | 这是一个面向真实工程师的 AI 代理技能集合，基于 Shell 脚本开发。旨在提供小巧、可组合且易于适应的开发工具，帮助开发者进行真正的工程实践而非“氛围编码”。支持 Claude Code 和 Codex 等多种模型，提供一键安装和配置功能。 |
+| 18 | [Gitlawb/openclaude](https://github.com/Gitlawb/openclaude) | runs anywhere. uses anything... | TypeScript | 32.0k | 775 | OpenClaude 是一个开源的编码代理 CLI，支持云端和本地模型提供商（如 OpenAI、Gemini、Ollama 等）。它提供统一的终端工作流，支持提示词、工具、代理、MCP 和斜杠命令。还包含 VS Code 扩展和像素艺术伙伴。旨在通过一个 CLI 管理所有 AI 编码工具。 |
+| 19 | [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) | Fast Rust library for PDF inspection, classificati... | Rust | 18.5k | 586 | 这是一个用 Rust 编写的快速 PDF 检查、分类和文本提取库。它能智能区分基于文本和扫描的 PDF，提取带位置信息的文本并转换为 Markdown。支持多列布局、表格检测和选择性 OCR，性能极快（<200ms），并提供 Python/Node.js/WebAssembly 绑定。 |
 
-[查看完整数据](api/github/2026-09-01.json)
+[查看完整数据](api/github/2026-09-02.json)
 <!-- END GITHUB TRENDING -->
 
 

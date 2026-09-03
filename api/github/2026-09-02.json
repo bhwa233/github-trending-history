@@ -1,0 +1,387 @@
+{
+  "date": "2026-09-02",
+  "since": "daily",
+  "totalRepos": 19,
+  "successCount": 16,
+  "failedCount": 3,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "fmtlib/fmt",
+      "description": "A modern formatting library",
+      "language": "C++",
+      "stars": 24260,
+      "forks": 2985,
+      "todayStars": 14,
+      "url": "https://github.com/fmtlib/fmt",
+      "aiSummary": {
+        "summary": "{fmt} 是一个现代、高性能的 C++ 格式化库，旨在替代 C stdio 和 iostreams。它支持 C++20 std::format 和 C++23 std::print，提供类似 Python 的语法。该库具有类型安全、零开销、无外部依赖、跨平台兼容性以及严格的测试覆盖等特点，是构建高性能 C++ 应用的理想选择。",
+        "summary_en": "A modern C++ formatting library offering a fast and safe alternative to standard I/O.",
+        "techStack": [
+          "C++",
+          "C++20",
+          "C++23"
+        ],
+        "useCase": "适用于需要高性能字符串格式化、日志记录及 C++20/23 标准兼容的软件开发。",
+        "useCase_en": "Developers use this library to format strings and print output efficiently and safely."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "stars": 29792,
+      "forks": 2864,
+      "todayStars": 343,
+      "url": "https://github.com/google-research/timesfm",
+      "aiSummary": {
+        "summary": "TimesFM 是 Google Research 开发的时间序列基础模型，支持单变量和多变量预测。TimesFM 3.0 引入了原生多变量支持、灵活的协变量处理和零样本泛化能力。它在多个基准测试中表现优异，并已集成到 BigQuery ML、Google Sheets 和 Vertex Model Garden 等产品中。",
+        "summary_en": "Google Research's pretrained time-series foundation model for forecasting.",
+        "techStack": [
+          "Python",
+          "PyTorch"
+        ],
+        "useCase": "时间序列预测，支持多变量与单变量数据，具备零样本泛化能力。",
+        "useCase_en": "Forecast multivariate and univariate time-series data with covariates."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 121554,
+      "forks": 6570,
+      "todayStars": 1354,
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "aiSummary": {
+        "summary": "Ponytail 是一个 JavaScript 项目，通过提示工程让 AI 代理表现得像一位“懒惰的资深开发者”。它鼓励使用原生 API 替代重型库，从而显著减少代码量、降低成本并提升速度。实测显示，相比无技能基线，代码行数减少 54%，同时保持 100% 的安全性。",
+        "summary_en": "A JavaScript tool that optimizes AI agents to write minimal, safe, and efficient code by leveraging native browser features.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "当需要 AI 编写高效、简洁且安全的代码时，特别是希望避免过度工程化。",
+        "useCase_en": "Apply this tool to AI agents to reduce code complexity, cost, and time while maintaining safety standards."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 14721,
+      "forks": 2106,
+      "todayStars": 832,
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "aiSummary": {
+        "summary": "VoiceStudio 是一个开源的本地化 ElevenLabs 替代品，支持语音克隆、视频配音、听写和有声书创作，覆盖 646 种语言。它集成了 16 个 TTS 和 11 个 ASR 引擎，无需账号或订阅，支持 macOS、Windows 和 Linux，适合在本地硬件上运行。",
+        "summary_en": "Fully local voice cloning, dubbing, and transcription tool supporting 646 languages.",
+        "techStack": [
+          "Python",
+          "CUDA",
+          "Apple Silicon",
+          "ROCm",
+          "Docker"
+        ],
+        "useCase": "适合需要在本地进行语音克隆、视频配音及多语言语音合成的用户。",
+        "useCase_en": "Run voice cloning, video dubbing, and dictation entirely on local hardware."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "sngyai/Sequoia-X",
+      "description": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
+      "language": "Python",
+      "stars": 6052,
+      "forks": 1246,
+      "todayStars": 63,
+      "url": "https://github.com/sngyai/Sequoia-X",
+      "aiSummary": {
+        "summary": "Sequoia-X 是一个基于 Python 的 A 股量化选股系统 V2。系统采用 OOP 架构和向量化计算，每日收盘后自动扫描多种技术形态（如海龟交易、RPS 突破等）并推送结果至飞书。数据源采用免费且无限流的 Baostock，存储于本地 SQLite，支持增量更新和全市场历史回填。",
+        "summary_en": "Automated A-share quantitative stock selection system scanning technical patterns and pushing results to Feishu.",
+        "techStack": [
+          "Python",
+          "Baostock",
+          "SQLite",
+          "Pydantic-settings",
+          "Rich"
+        ],
+        "useCase": "A股量化交易自动选股与技术形态扫描",
+        "useCase_en": "Automatically scan A-share markets for technical breakouts and notify traders via Feishu after market close."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 50634,
+      "forks": 3553,
+      "todayStars": 148,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供的 Chrome DevTools MCP 服务器。它允许 Claude、Cursor 等代理控制实时浏览器，进行自动化操作、深度调试（截图、网络请求、控制台）及性能分析。项目基于 Puppeteer，支持 Chrome 浏览器，旨在提升 AI 辅助开发的可靠性与效率。",
+        "summary_en": "An MCP server that enables AI coding agents to control and debug live Chrome browsers.",
+        "techStack": [
+          "TypeScript",
+          "Puppeteer",
+          "Model-Context-Protocol (MCP)"
+        ],
+        "useCase": "AI 编码助手自动化浏览器任务、调试和性能分析",
+        "useCase_en": "To provide coding agents with reliable automation and debugging capabilities for web applications."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 240125,
+      "forks": 49134,
+      "todayStars": 533,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "这是一个由 Nous Research 构建的自我改进 AI 代理。它具备内置的学习循环，能从经验中创建技能、自我优化并构建用户模型。支持多平台（Telegram, Discord 等）和全功能终端界面。它允许用户使用任何模型，支持并行子代理、定时自动化和多种后端部署，是一个高度灵活且能随用户成长的智能助手。",
+        "summary_en": "Self-improving AI agent with built-in learning loop, cross-platform integration, and automation.",
+        "techStack": [
+          "Python",
+          "LLM (OpenAI/OpenRouter)",
+          "Docker",
+          "多平台集成"
+        ],
+        "useCase": "个人智能助手与自动化工作流管理",
+        "useCase_en": "Deploy a self-improving AI agent across multiple platforms to automate workflows and manage persistent memory."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "superlinked/sie",
+      "description": "Open-source inference server and production cluster for all the models your agent needs.",
+      "language": "Python",
+      "stars": 3060,
+      "forks": 299,
+      "todayStars": 60,
+      "url": "https://github.com/superlinked/sie",
+      "aiSummary": {
+        "summary": "SIE 是一个专为 AI 代理设计的开源推理引擎，通过单一 API 集中服务搜索、文档转换等任务所需的 100+ 个模型。支持 OpenAI 兼容接口、按需加载及 Kubernetes 部署，深度集成 LangChain 等框架，简化代理模型管理。",
+        "summary_en": "An open-source inference engine that replaces multiple model servers with a single cluster for agent tasks.",
+        "techStack": [
+          "Python",
+          "Kubernetes",
+          "Rust/Node.js"
+        ],
+        "useCase": "为 AI 代理提供统一的模型推理服务，替代分散的模型服务器。",
+        "useCase_en": "It provides a self-hosted inference server for agents to run search, retrieval, and safety models."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "pacifio/atlas",
+      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+      "language": "Rust",
+      "stars": 2885,
+      "forks": 189,
+      "todayStars": 888,
+      "url": "https://github.com/pacifio/atlas",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 9,
+      "fullName": "zyronon/TypeWords",
+      "description": "Practice English, one strike, one step forward; 练习英语，一次敲击，一点进步；",
+      "language": "Vue",
+      "stars": 9306,
+      "forks": 1130,
+      "todayStars": 21,
+      "url": "https://github.com/zyronon/TypeWords",
+      "aiSummary": {
+        "summary": "TypeWords 是一个基于 Vue 的开源英语练习工具，旨在通过打字方式高效学习单词和文章。它提供跟读、听写、自测等多种模式，内置智能记忆曲线算法，支持CET、雅思、托福等多种词汇库。项目界面简洁现代，无广告，支持自定义音效和快捷键，适合通过键盘输入强化英语记忆的用户。",
+        "summary_en": "An open-source English learning tool that uses typing to practice vocabulary and articles with smart memory curves.",
+        "techStack": [
+          "Vue",
+          "JavaScript",
+          "HTML/CSS"
+        ],
+        "useCase": "英语学习者通过键盘输入强化单词记忆和文章阅读",
+        "useCase_en": "Learn English vocabulary and articles through an efficient typing-based practice tool with smart memory tracking."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "stars": 45558,
+      "forks": 3582,
+      "todayStars": 799,
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 11,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 246345,
+      "forks": 37150,
+      "todayStars": 516,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个面向 AI 编程代理（如 Claude Code, Cursor）的性能优化系统。它为代理提供协调的工程工具箱，涵盖技能、直觉、记忆、安全及研究优先的开发流程。支持规划、测试、自审和记忆功能，旨在提升代理的工程效率与代码质量，开源免费。",
+        "summary_en": "An agent harness optimization system for AI coding tools like Claude Code and Cursor.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "npm"
+        ],
+        "useCase": "需要增强 Claude Code、Cursor 等编程代理能力的开发者。",
+        "useCase_en": "To enhance AI coding agents with skills, memory, and security for research-first development."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "protocolbuffers/protobuf",
+      "description": "Protocol Buffers - Google's data interchange format",
+      "language": "C++",
+      "stars": 71936,
+      "forks": 16271,
+      "todayStars": 18,
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "aiSummary": {
+        "summary": "Protocol Buffers 是 Google 开发的语言中立、平台中立的结构化数据序列化机制。项目包含 C++ 实现，提供了安装指南、源码构建建议（推荐使用稳定版本）以及 Bazel 构建系统的集成配置。适用于需要在不同系统或语言间高效传输和存储结构化数据的场景。",
+        "summary_en": "Google's language-neutral, platform-neutral mechanism for serializing structured data.",
+        "techStack": [
+          "C++",
+          "Bazel"
+        ],
+        "useCase": "跨语言、跨平台的结构化数据序列化与数据交换",
+        "useCase_en": "Efficiently serialize and deserialize structured data across different languages and platforms."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "vercel-labs/portless",
+      "description": "Replace port numbers with stable, named local URLs. For humans and agents.",
+      "language": "TypeScript",
+      "stars": 11764,
+      "forks": 383,
+      "todayStars": 73,
+      "url": "https://github.com/vercel-labs/portless",
+      "aiSummary": {
+        "summary": "这是一个本地开发工具，旨在用稳定的 `.localhost` 域名替换端口，提升开发体验。它支持 Next.js、Vite 等主流框架，自动注入端口参数，默认启用 HTTPS/HTTP/2，适合需要稳定 URL 的开发环境。",
+        "summary_en": "Replaces port numbers with stable, named local URLs for local development workflows.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "HTTP/2",
+          "HTTPS"
+        ],
+        "useCase": "本地开发环境调试，特别是需要稳定 URL 进行自动化测试或代理访问的场景。",
+        "useCase_en": "To simplify local development by replacing port numbers with stable, named URLs."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "language": "Python",
+      "stars": 40397,
+      "forks": 3493,
+      "todayStars": 374,
+      "url": "https://github.com/blader/humanizer",
+      "aiSummary": {
+        "summary": "这是一个 Python Agent 技能，旨在移除 AI 生成文本的痕迹。它利用 35 种模式重写文本，使其听起来像人类写作，同时保持原意不变。支持 Markdown，能保留代码、数据和引用，并提供风格匹配功能。",
+        "summary_en": "Python agent skill that rewrites AI-generated text to sound human while preserving facts.",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "Wikipedia (WikiProject AI Cleanup)"
+        ],
+        "useCase": "适用于任何支持 skills 的 Agent，将 AI 生成的文本转化为自然、人性化且符合特定风格的写作。",
+        "useCase_en": "Rewrite AI-generated text to sound like a human wrote it without changing the facts."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "Go",
+      "stars": 102636,
+      "forks": 5970,
+      "todayStars": 238,
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 16,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 245230,
+      "forks": 20851,
+      "todayStars": 1166,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个面向真实工程师的 AI 代理技能集合，基于 Shell 脚本开发。旨在提供小巧、可组合且易于适应的开发工具，帮助开发者进行真正的工程实践而非“氛围编码”。支持 Claude Code 和 Codex 等多种模型，提供一键安装和配置功能。",
+        "summary_en": "A collection of engineering skills for AI agents to perform real application development tasks.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "Codex"
+        ],
+        "useCase": "为 AI 编程助手提供专业的工程化技能包，辅助高质量软件开发。",
+        "useCase_en": "To equip AI coding agents with reusable engineering skills for real application development."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "Gitlawb/openclaude",
+      "description": "runs anywhere. uses anything",
+      "language": "TypeScript",
+      "stars": 31985,
+      "forks": 8997,
+      "todayStars": 775,
+      "url": "https://github.com/Gitlawb/openclaude",
+      "aiSummary": {
+        "summary": "OpenClaude 是一个开源的编码代理 CLI，支持云端和本地模型提供商（如 OpenAI、Gemini、Ollama 等）。它提供统一的终端工作流，支持提示词、工具、代理、MCP 和斜杠命令。还包含 VS Code 扩展和像素艺术伙伴。旨在通过一个 CLI 管理所有 AI 编码工具。",
+        "summary_en": "An open-source coding-agent CLI supporting OpenAI, Gemini, Ollama, and other backends.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Bun"
+        ],
+        "useCase": "需要在本地或云端使用多种 AI 编码模型进行开发。",
+        "useCase_en": "Manage coding agents and AI models from a unified terminal interface supporting various backends."
+      }
+    },
+    {
+      "index": 18,
+      "fullName": "firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "stars": 18510,
+      "forks": 1245,
+      "todayStars": 586,
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的快速 PDF 检查、分类和文本提取库。它能智能区分基于文本和扫描的 PDF，提取带位置信息的文本并转换为 Markdown。支持多列布局、表格检测和选择性 OCR，性能极快（<200ms），并提供 Python/Node.js/WebAssembly 绑定。",
+        "summary_en": "High-performance Rust library for PDF inspection, classification, and text extraction with Markdown conversion.",
+        "techStack": [
+          "Rust",
+          "Python",
+          "Node.js",
+          "WebAssembly",
+          "PP-OCRv6"
+        ],
+        "useCase": "需要快速本地处理 PDF 文档、智能路由 OCR 或将 PDF 转换为结构化 Markdown 的开发者。",
+        "useCase_en": "Intelligently detect scanned vs text-based PDFs locally and extract clean Markdown without expensive OCR."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-03T01:14:24.986Z",
+    "duration": "809s",
+    "version": "1.0.0"
+  }
+}
