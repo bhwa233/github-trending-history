@@ -1,0 +1,412 @@
+{
+  "date": "2026-09-03",
+  "since": "daily",
+  "totalRepos": 19,
+  "successCount": 19,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "fmtlib/fmt",
+      "description": "A modern formatting library",
+      "language": "C++",
+      "stars": 25076,
+      "forks": 3016,
+      "todayStars": 963,
+      "url": "https://github.com/fmtlib/fmt",
+      "aiSummary": {
+        "summary": "{fmt} 是一个现代、高性能且安全的 C++ 格式化库。它提供了类似 Python 的语法，支持 C++20 std::format 和 C++23 std::print。该库比标准库实现更快，具备类型安全、无缓冲区溢出风险、无外部依赖和轻量级等特点，适用于高性能字符串格式化场景。",
+        "summary_en": "A modern, high-performance C++ formatting library implementing C++20 std::format and C++23 std::print.",
+        "techStack": [
+          "C++",
+          "C++20",
+          "C++23"
+        ],
+        "useCase": "高性能字符串格式化与日志记录",
+        "useCase_en": "Use this library for fast, type-safe string formatting and printing in C++ applications."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 247399,
+      "forks": 20974,
+      "todayStars": 1601,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一套专为真实工程师设计的 AI 编程技能集合，旨在通过小巧、可组合的脚本帮助开发者构建稳健的应用程序。它支持 Claude Code 和 Codex 等多种模型，提供订阅或本地编辑两种安装方式，通过运行特定命令快速配置项目开发流程。",
+        "summary_en": "A collection of engineering skills designed for AI coding agents to perform real application development.",
+        "techStack": [
+          "Shell",
+          "JavaScript (Node.js)",
+          "Claude Code",
+          "Codex"
+        ],
+        "useCase": "为 AI 编程助手提供工程化的技能集，用于快速搭建和配置项目开发流程。",
+        "useCase_en": "To equip AI coding agents with engineering skills for real application development."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars": 240839,
+      "forks": 49349,
+      "todayStars": 774,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aiSummary": {
+        "summary": "这是一个由 Nous Research 构建的自我改进 AI 代理。它具备内置的学习循环，能从经验中创建和改进技能，搜索过往对话，并建立跨会话的用户模型。支持多平台（Telegram, Discord 等）和多种后端（本地, Docker, Modal 等），提供强大的终端界面和自动化调度功能，旨在成为伴随用户成长的智能助手。",
+        "summary_en": "A self-improving AI agent with a built-in learning loop, memory management, and cross-platform integration capabilities.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Modal"
+        ],
+        "useCase": "适合需要长期记忆、自动化任务和多平台交互的智能个人助理或工作流自动化工具。",
+        "useCase_en": "Deploy a self-improving, autonomous AI agent that manages tasks, automates workflows, and learns from interactions acros"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 123424,
+      "forks": 6671,
+      "todayStars": 2128,
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "aiSummary": {
+        "summary": "Ponytail 是一个 JavaScript 项目，旨在让 AI 代理表现得像一位“懒惰的资深开发者”。它通过“只写一行代码”的提示策略，显著减少代码行数、令牌消耗、成本和时间，同时保持 100% 的安全性。实测表明，相比无技能的 AI，它能减少约 54% 的代码量，适用于需要高效、简洁代码生成的场景。",
+        "summary_en": "Optimizes AI agents to write minimal, native code, reducing LOC, cost, and time.",
+        "techStack": [
+          "JavaScript",
+          "AI Agent",
+          "Claude Code"
+        ],
+        "useCase": "优化 AI 代码生成，减少冗余代码，降低成本与时间。",
+        "useCase_en": "Use it to optimize AI-generated code by enforcing minimalism and native browser inputs."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 173649,
+      "forks": 20605,
+      "todayStars": 281,
+      "url": "https://github.com/anthropics/skills",
+      "aiSummary": {
+        "summary": "Anthropic 官方维护的 Claude Agent Skills 公共仓库。包含用于提升 Claude 特定任务能力的技能文件夹，涵盖创意、技术及企业工作流。每个技能自包含指令与资源，通过 SKILL.md 定义。仓库还提供了文档处理等底层技能的参考实现，旨在帮助开发者创建自定义技能并理解相关模式。",
+        "summary_en": "Anthropic's implementation of Agent Skills for Claude, featuring reusable instruction sets and resources for specialized tasks.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "开发者创建 Claude 自定义技能、参考文档处理实现或学习 Agent Skills 标准的参考项目。",
+        "useCase_en": "Provide reusable instruction sets and resources to enhance Claude's performance on specialized tasks like document creat"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 247191,
+      "forks": 37250,
+      "todayStars": 751,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个专为 Claude Code、Cursor 等 AI 代理设计的性能优化系统。它为代理提供协调的工程工具箱，包含技能、记忆、安全性和研究优先的开发能力。支持规划、测试和自我审查，旨在提升 AI 编码代理的效率和可靠性。",
+        "summary_en": "An agent harness system optimizing AI coding tools like Claude Code and Cursor.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "npm"
+        ],
+        "useCase": "为 AI 编码代理提供增强的工程能力，包括规划、测试、审查和记忆管理。",
+        "useCase_en": "To provide a coordinated engineering system and toolbox for AI agents to plan, verify, and remember code changes."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "Go",
+      "stars": 103100,
+      "forks": 5994,
+      "todayStars": 543,
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "aiSummary": {
+        "summary": "该项目通过将 AI 编码助手的回复语言简化为'穴居人模式'，旨在减少 token 消耗。它包含两种组件：作为技能的规则文件（重写回复）和本地代理（压缩输入），声称能节省 65% 的 token，支持多种 AI 工具。",
+        "summary_en": "A Go project that reduces AI coding agent token usage by compressing communication and forcing a 'caveman' persona.",
+        "techStack": [
+          "Go",
+          "JavaScript",
+          "AI Agent"
+        ],
+        "useCase": "降低 AI 编码服务的 token 成本，获取更简洁的代码建议。",
+        "useCase_en": "To reduce token costs for AI coding agents by compressing input/output and forcing a 'caveman' persona."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "language": "Python",
+      "stars": 41474,
+      "forks": 3548,
+      "todayStars": 1208,
+      "url": "https://github.com/blader/humanizer",
+      "aiSummary": {
+        "summary": "这是一个 Python 项目，旨在通过移除 AI 生成文本的痕迹来重写文本，使其听起来像人类写的。它利用维基百科的 35 种模式检测并修复 AI 风格。项目支持 Markdown，保留事实细节，并提供风格匹配功能，适用于任何支持技能的 Agent。",
+        "summary_en": "Python agent skill that rewrites AI-generated text to sound human, preserving facts and style.",
+        "techStack": [
+          "Python",
+          "Markdown"
+        ],
+        "useCase": "需要将 AI 生成的文本重写为自然、人类风格的场景，或用于 Agent 技能中。",
+        "useCase_en": "Rewrite AI-generated text to sound human-like while maintaining factual accuracy."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "stars": 30699,
+      "forks": 2930,
+      "todayStars": 1618,
+      "url": "https://github.com/google-research/timesfm",
+      "aiSummary": {
+        "summary": "TimesFM 是 Google Research 开发的时间序列基础模型，最新版本 TimesFM 3.0 支持原生多变量和单变量预测，具备灵活的协变量支持。该模型在多个基准测试中表现优异，排名前列，并已集成到 Google 的企业级产品中。",
+        "summary_en": "Google Research's pretrained time-series foundation model for forecasting and analytics.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Transformer"
+        ],
+        "useCase": "适用于企业级时间序列预测、多变量数据分析及零样本泛化任务。",
+        "useCase_en": "Perform state-of-the-art time-series forecasting for multivariate and univariate data."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "averygan/reclip",
+      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+      "language": "HTML",
+      "stars": 8365,
+      "forks": 1363,
+      "todayStars": 88,
+      "url": "https://github.com/averygan/reclip",
+      "aiSummary": {
+        "summary": "这是一个轻量级、自托管的媒体下载工具，后端仅由约 150 行 Python 代码构成。它利用 yt-dlp 引擎，支持从 YouTube、TikTok 等 1000+ 网站下载 MP4 或 MP3，具备批量处理、画质选择及去重功能。前端采用原生 HTML/CSS/JS，无需构建，适合个人快速抓取网络视频音频。",
+        "summary_en": "A self-hosted, open-source video and audio downloader featuring a clean web UI and support for 1000+ sites.",
+        "techStack": [
+          "Python",
+          "Flask",
+          "HTML/CSS/JavaScript",
+          "yt-dlp",
+          "ffmpeg"
+        ],
+        "useCase": "个人媒体下载，从社交媒体网站抓取视频或音频资源",
+        "useCase_en": "Download videos and audio from various platforms like YouTube and TikTok using a self-hosted web interface."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "bannedbook/fanqiang",
+      "description": "翻墙-科学上网",
+      "language": "Kotlin",
+      "stars": 52152,
+      "forks": 8472,
+      "todayStars": 522,
+      "url": "https://github.com/bannedbook/fanqiang",
+      "aiSummary": {
+        "summary": "这是一个集成了多种翻墙协议的 Chrome 浏览器扩展（ChromeGo），支持 V2ray、SSR、Trojan 等。项目还提供了 Windows、Mac、Android、iOS、Linux 等多平台的翻墙软件教程和配置指南，旨在帮助用户突破网络限制，访问被屏蔽的网站和服务。",
+        "summary_en": "A collection of tools and tutorials for bypassing the Great Firewall, featuring Android apps and browser extensions.",
+        "techStack": [
+          "Kotlin",
+          "Chrome Extension",
+          "V2ray/SSR/Trojan"
+        ],
+        "useCase": "需要访问被屏蔽的网站或服务",
+        "useCase_en": "To bypass internet censorship and access blocked content using various proxy tools and tutorials."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 92032,
+      "forks": 9812,
+      "todayStars": 264,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "这是一个面向 AI 编码代理的生产级工程技能库。它通过 9 个斜杠命令将资深工程师的工作流程、质量门禁和最佳实践编码为技能，确保 AI 在开发全生命周期中保持一致的高标准。支持自动生成计划、测试驱动开发及特定场景的技能激活，旨在减少手动步骤并提升代码质量。",
+        "summary_en": "A collection of production-grade engineering skills and workflows designed for AI coding agents.",
+        "techStack": [
+          "JavaScript",
+          "CLI",
+          "AI Agent"
+        ],
+        "useCase": "为 AI 编码代理提供标准化的工程工作流程和质量门禁，用于自动化软件开发流程。",
+        "useCase_en": "To standardize engineering workflows and quality gates for AI coding agents."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "ByteByteGoHq/system-design-101",
+      "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+      "language": "",
+      "stars": 88339,
+      "forks": 9821,
+      "todayStars": 171,
+      "url": "https://github.com/ByteByteGoHq/system-design-101",
+      "aiSummary": {
+        "summary": "该项目通过丰富的视觉图表和简洁的文字，系统性地讲解复杂系统的设计原理，是系统设计面试备考和架构知识学习的优质资源。",
+        "summary_en": "A popular resource for system design interviews featuring visual explanations of complex concepts.",
+        "techStack": [
+          "Markdown",
+          "Architecture Diagrams",
+          "Educational Content"
+        ],
+        "useCase": "适用于系统设计面试准备和后端架构学习。",
+        "useCase_en": "Helps engineers prepare for system design interviews by explaining complex concepts visually."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "magnitudedev/magnitude",
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "language": "TypeScript",
+      "stars": 1949,
+      "forks": 142,
+      "todayStars": 161,
+      "url": "https://github.com/magnitudedev/magnitude",
+      "aiSummary": {
+        "summary": "Magnitude 是一个开源推理服务器，旨在在本地硬件上运行最佳大语言模型，并无缝集成到现有的 AI 代理中。它分析用户的硬件，推荐合适的模型，并处理下载和调优，确保完全离线、私密且零成本的使用体验。",
+        "summary_en": "Open-source inference server that runs local AI models on your hardware, integrated with popular coding agents.",
+        "techStack": [
+          "TypeScript",
+          "CLI",
+          "本地推理"
+        ],
+        "useCase": "为 AI 代理提供本地、私密且免费的模型推理",
+        "useCase_en": "Enable offline, private AI inference for coding agents by automatically profiling hardware and managing local models."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "stars": 45991,
+      "forks": 3603,
+      "todayStars": 496,
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 设计的学术研究技能套件，涵盖从研究到定稿的全流程。它利用 AI 处理引用、格式化和数据验证等繁琐工作，同时通过风格校准和质量检查确保人类逻辑和原创性。项目强调“人类在回路”模式，旨在辅助而非替代人类研究者，防止 AI 幻觉和逻辑错误，提升论文质量。",
+        "summary_en": "A Claude Code plugin suite for the academic research pipeline, ensuring quality through human oversight.",
+        "techStack": [
+          "Python",
+          "Claude Code"
+        ],
+        "useCase": "适用于使用 Claude Code 进行学术写作和研究的用户，旨在辅助完成论文全流程并保持人类逻辑与原创性。",
+        "useCase_en": "Use this tool to manage the academic research pipeline, handling grunt work like citations and formatting while you focu"
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "Gitlawb/openclaude",
+      "description": "runs anywhere. uses anything",
+      "language": "TypeScript",
+      "stars": 32343,
+      "forks": 9018,
+      "todayStars": 451,
+      "url": "https://github.com/Gitlawb/openclaude",
+      "aiSummary": {
+        "summary": "OpenClaude 是一个开源的编码代理 CLI，支持云端和本地模型提供商。它通过统一的终端工作流，集成了多种后端（如 OpenAI、Gemini、Ollama 等），提供 MCP、斜杠命令和 VS Code 扩展支持，旨在简化多模型开发体验。",
+        "summary_en": "Open-source CLI coding agent supporting multiple AI providers and local models.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Bun"
+        ],
+        "useCase": "适用于需要统一管理多种 AI 模型进行代码生成、调试和自动化任务的开发者。",
+        "useCase_en": "Interact with multiple AI coding models and tools through a single terminal-first CLI."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 16273,
+      "forks": 2205,
+      "todayStars": 1672,
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "aiSummary": {
+        "summary": "VoiceStudio 是一个开源的本地化 ElevenLabs 替代品，基于 Python 开发。它支持 16 种 TTS 和 11 种 ASR 引擎，覆盖 646 种语言，提供语音克隆、视频配音、听写、转录和有声书创作功能。无需账号或订阅，完全在本地硬件运行，支持 macOS、Windows 和 Linux，适合需要隐私保护和离线使用的语音处理场景。",
+        "summary_en": "VoiceStudio is an open-source, local alternative to ElevenLabs for voice cloning, dubbing, and transcription across 646 languages.",
+        "techStack": [
+          "Python",
+          "CUDA",
+          "Apple Silicon MPS/MLX",
+          "ROCm",
+          "Docker"
+        ],
+        "useCase": "本地语音合成、视频配音、音频处理",
+        "useCase_en": "Users can clone voices, dub videos, and transcribe audio locally without internet or subscriptions."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "f/prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "language": "HTML",
+      "stars": 168993,
+      "forks": 21763,
+      "todayStars": 168,
+      "url": "https://github.com/f/prompts.chat",
+      "aiSummary": {
+        "summary": "这是一个世界最大的开源 AI 提示词库，支持 ChatGPT、Claude 等主流模型。提供交互式提示工程书籍和儿童游戏，支持自托管以保障隐私。适合 AI 初学者、开发者及企业团队收藏和使用。",
+        "summary_en": "A community-driven open-source library for sharing and discovering AI prompts.",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "AI 提示词的收集、学习与分享，支持私有化部署。",
+        "useCase_en": "A centralized repository for discovering and sharing high-quality prompts for modern AI assistants."
+      }
+    },
+    {
+      "index": 18,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 281336,
+      "forks": 25203,
+      "todayStars": 462,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码代理设计的软件开发方法论框架。它通过可组合的技能，引导代理先明确目标、制定详细计划（强调 TDD、YAGNI、DRY），再自主执行开发任务。该框架支持多种主流 AI 编码工具，旨在实现高效的自动化编程。",
+        "summary_en": "A framework for coding agents that automates software development workflows using composable skills and TDD.",
+        "techStack": [
+          "Shell",
+          "AI Agents",
+          "Framework"
+        ],
+        "useCase": "适用于需要自动化软件开发流程的场景，利用 AI 代理自主完成从需求分析到代码实现的全过程。",
+        "useCase_en": "To guide coding agents through autonomous software development workflows using a structured methodology and TDD."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-04T01:03:46.870Z",
+    "duration": "700s",
+    "version": "1.0.0"
+  }
+}
