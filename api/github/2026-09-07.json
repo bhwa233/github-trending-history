@@ -1,0 +1,317 @@
+{
+  "date": "2026-09-07",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 45947,
+      "forks": 4312,
+      "todayStars": 474,
+      "url": "https://github.com/heygen-com/hyperframes",
+      "aiSummary": {
+        "summary": "HyperFrames 是一个开源框架，用于将 HTML、CSS、媒体和动画转换为确定性的 MP4 视频。它专为 AI 代理设计，支持本地 CLI 和 AI 编程技能，帮助代理自动完成视频规划、代码编写及渲染流程。",
+        "summary_en": "HyperFrames is an open-source framework that converts HTML, CSS, and animations into deterministic MP4 videos, designed for AI agents.",
+        "techStack": [
+          "TypeScript",
+          "HTML",
+          "CSS",
+          "MP4"
+        ],
+        "useCase": "适用于 AI 编程代理（如 Claude、Cursor）自动生成视频内容、产品演示或动画。",
+        "useCase_en": "It enables AI coding agents to generate videos by writing HTML and CSS code."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars": 180240,
+      "forks": 13261,
+      "todayStars": 886,
+      "url": "https://github.com/microsoft/markitdown",
+      "aiSummary": {
+        "summary": "微软开发的轻量级 Python 工具，用于将 PDF、Office 文档、图片、音频等多种格式转换为 Markdown。它专注于保留文档结构（如标题、表格），专为 LLM 和文本分析管道设计，输出格式对大模型友好且 token 高效。",
+        "summary_en": "A Python utility for converting office documents, images, and audio into Markdown for LLMs.",
+        "techStack": [
+          "Python",
+          "OCR",
+          "Markdown"
+        ],
+        "useCase": "适用于将非结构化文档转换为结构化文本以供大语言模型（LLM）处理的场景。",
+        "useCase_en": "Convert various file formats like PDFs and images into Markdown for use in LLMs and text analysis pipelines."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 20835,
+      "forks": 1520,
+      "todayStars": 96,
+      "url": "https://github.com/mksglu/context-mode",
+      "aiSummary": {
+        "summary": "这是一个针对 AI 编码代理的上下文窗口优化 MCP 服务器。它通过沙箱化工具输出（减少 98%）、SQLite 持久化会话记忆（FTS5/BM25 索引）以及强制 LLM 生成代码而非读取数据来解决问题。它支持 17 个平台，防止上下文丢失和冗余输出。",
+        "summary_en": "An MCP server optimizing AI coding agent context windows by sandboxing tool outputs and indexing session memory.",
+        "techStack": [
+          "TypeScript",
+          "MCP",
+          "SQLite",
+          "FTS5",
+          "BM25"
+        ],
+        "useCase": "适用于需要长时间运行且上下文窗口有限的 AI 编码代理，旨在优化 token 使用并保持会话连续性。",
+        "useCase_en": "Prevents context overflow in AI coding agents by sandboxing tool outputs and maintaining session continuity."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "jo-inc/camofox-browser",
+      "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
+      "language": "JavaScript",
+      "stars": 9705,
+      "forks": 1019,
+      "todayStars": 135,
+      "url": "https://github.com/jo-inc/camofox-browser",
+      "aiSummary": {
+        "summary": "这是一个专为 AI 代理设计的隐身无头浏览器服务，基于 Camoufox（Firefox 分支）。它通过 C++ 级别的指纹欺骗绕过 Cloudflare 和机器人检测，作为 Puppeteer/Playwright 的轻量级替代品。提供 REST API，支持会话隔离、代理和文件上传，内存占用低，适合在资源受限环境中运行。",
+        "summary_en": "A stealth headless browser for AI agents that bypasses bot detection via C++ fingerprint spoofing.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Camoufox (C++)",
+          "REST API"
+        ],
+        "useCase": "适用于需要绕过 Cloudflare 等反爬虫机制进行网页自动化和浏览的 AI 代理。",
+        "useCase_en": "To enable AI agents to browse the real web stealthily by bypassing bot detection and fingerprinting."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "MoonTechLab/LunaTV",
+      "description": "本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源",
+      "language": "TypeScript",
+      "stars": 9716,
+      "forks": 8987,
+      "todayStars": 197,
+      "url": "https://github.com/MoonTechLab/LunaTV",
+      "aiSummary": {
+        "summary": "LunaTV 是一个基于 Next.js 14 和 TypeScript 的跨平台影视聚合播放器。支持多源搜索、在线播放、收藏同步及 PWA 离线功能。项目采用 Docker 部署，需自行收集播放源，禁止商业化。",
+        "summary_en": "A cross-platform video aggregation player built with Next.js 14 and Docker, featuring multi-source search and cloud storage.",
+        "techStack": [
+          "Next.js 14",
+          "TypeScript",
+          "Tailwind CSS",
+          "HLS.js",
+          "ArtPlayer"
+        ],
+        "useCase": "适合个人搭建跨平台影视聚合播放站，支持多端同步观看进度。",
+        "useCase_en": "A self-hosted solution for aggregating and streaming video content across devices."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 252851,
+      "forks": 37930,
+      "todayStars": 1897,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个面向 Claude Code、Codex 等的代理工具包性能优化系统。它提供技能、直觉、记忆和安全功能，帮助 AI 代理在构建前规划、验证更改、自我审查并记住重要信息，将重复性工作转化为可复用的技能。",
+        "summary_en": "An agent harness optimization system for AI coding agents, providing skills, memory, and security.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Claude Code"
+        ],
+        "useCase": "为 AI 编码助手提供工程化工作流和工具箱，提升代码质量和开发效率。",
+        "useCase_en": "Optimizes AI coding agents by providing a coordinated engineering system with skills, memory, and security."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "stars": 48134,
+      "forks": 7439,
+      "todayStars": 580,
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "aiSummary": {
+        "summary": "这是一个专为 Claude Code 和 AI 代理设计的营销技能集合，涵盖 CRO、文案、SEO、分析和增长工程。项目提供 Markdown 格式的专业工作流，旨在帮助技术型营销人员和创始人利用 AI 自动化营销任务，支持多种主流 AI 编码工具。",
+        "summary_en": "A library of AI agent skills for marketing tasks including CRO, copywriting, and SEO.",
+        "techStack": [
+          "JavaScript",
+          "Markdown",
+          "Agent Skills Spec"
+        ],
+        "useCase": "技术型营销人员和创始人利用 AI 代理自动化执行营销任务。",
+        "useCase_en": "To enable AI coding agents to assist with marketing tasks like CRO, copywriting, and SEO."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "The-Swarm-Corporation/AutoHedge",
+      "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
+      "language": "Python",
+      "stars": 5259,
+      "forks": 804,
+      "todayStars": 517,
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "aiSummary": {
+        "summary": "AutoHedge 是一个基于 Python 的企业级自主交易系统，利用群智能和多代理架构实现全自动化的对冲基金运作。它集成了市场分析、风险管理和交易执行功能，目前支持 Solana 交易，未来将扩展至 Coinbase。系统具备风险优先设计、结构化输出和企业级日志，旨在为机构提供可扩展的自动化交易解决方案。",
+        "summary_en": "Enterprise-grade autonomous agent hedge fund using swarm intelligence for automated trading.",
+        "techStack": [
+          "Python",
+          "OpenAI API",
+          "Jupiter API"
+        ],
+        "useCase": "构建基于 AI 代理的自动化加密货币交易系统",
+        "useCase_en": "Automate market analysis, risk management, and trade execution using AI agents on Solana."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "BraveOPotato/FckSignups",
+      "description": "A list of tools that are open-source, in-browser, and require no-signups!",
+      "language": "TypeScript",
+      "stars": 3823,
+      "forks": 227,
+      "todayStars": 501,
+      "url": "https://github.com/BraveOPotato/FckSignups",
+      "aiSummary": {
+        "summary": "这是一个名为 NoSignups（原 FckSignups）的开源项目，旨在收集无需注册即可直接在浏览器使用的开源工具。项目采用 React + TypeScript 构建，强调隐私保护，拒绝数据追踪和强制注册墙。用户可以按类别浏览工具，无需创建账户即可立即使用。它提倡“开源是默认”的理念，适合追求快速、无隐私泄露工具的用户。",
+        "summary_en": "A curated collection of open-source, privacy-focused web tools that require no signups.",
+        "techStack": [
+          "React",
+          "TypeScript"
+        ],
+        "useCase": "适合需要快速访问实用工具且注重隐私保护、拒绝强制注册墙的用户。",
+        "useCase_en": "Find and use open-source web tools instantly without creating accounts or providing personal data."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "bytedance/deer-flow",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "language": "Python",
+      "stars": 81855,
+      "forks": 11293,
+      "todayStars": 195,
+      "url": "https://github.com/bytedance/deer-flow",
+      "aiSummary": {
+        "summary": "DeerFlow 是一个开源的长周期超级代理框架，由字节跳动开发。它通过编排子代理、记忆系统和沙箱环境，利用可扩展技能处理从研究到编码的复杂任务。版本 2.0 是全面重写，支持 Claude Code 集成，旨在实现高效探索和自动化工作流。",
+        "summary_en": "An open-source Python framework for building autonomous AI agents that research, code, and execute complex tasks using sub-agents and tools.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "LangChain",
+          "LLMs"
+        ],
+        "useCase": "处理复杂的长周期任务，如自动化研究、代码生成和多步骤工作流编排。",
+        "useCase_en": "Build autonomous AI agents capable of complex research, coding, and task execution."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "stars": 26036,
+      "forks": 1747,
+      "todayStars": 351,
+      "url": "https://github.com/openai/skills",
+      "aiSummary": {
+        "summary": "该项目是 Codex AI 代理的技能目录，包含用于特定任务的指令、脚本和资源。它旨在帮助团队和个人以可重复的方式完成任务。注意：该项目已被弃用，建议迁移至 OpenAI Plugins。",
+        "summary_en": "A catalog of skills for the Codex AI agent, now deprecated.",
+        "techStack": [
+          "Python",
+          "Shell",
+          "Markdown"
+        ],
+        "useCase": "为 Codex AI 代理提供可复用的任务执行能力，用于自动化特定工作流程。",
+        "useCase_en": "To package and distribute reusable capabilities for the Codex AI agent."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "lightpanda-io/browser",
+      "description": "Lightpanda: the headless browser designed for AI and automation",
+      "language": "Zig",
+      "stars": 34853,
+      "forks": 1648,
+      "todayStars": 58,
+      "url": "https://github.com/lightpanda-io/browser",
+      "aiSummary": {
+        "summary": "Lightpanda 是一个专为 AI 代理和自动化设计的无头浏览器，完全使用 Zig 语言从零编写。相比 Headless Chrome，它在内存占用（123MB）和执行速度（快9倍）上具有显著优势，支持 Linux、macOS 及 Docker 部署，适合轻量级自动化场景。",
+        "summary_en": "A high-performance headless browser written in Zig designed for AI agents and automation.",
+        "techStack": [
+          "Zig",
+          "Headless Browser",
+          "Automation"
+        ],
+        "useCase": "AI 代理自动化、轻量级网页抓取与测试",
+        "useCase_en": "To provide a lightweight, high-performance alternative to Chromium for AI-driven web automation."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "stars": 22333,
+      "forks": 2858,
+      "todayStars": 168,
+      "url": "https://github.com/pascalorg/editor",
+      "aiSummary": {
+        "summary": "这是一个基于 React Three Fiber 和 WebGPU 构建的 3D 建筑编辑器。项目采用 Turborepo 单体仓库架构，包含核心、查看器、编辑器、节点定义及 CLI 等模块。支持本地持久化安装、MCP 服务集成，旨在帮助用户创建和分享 3D 建筑项目。",
+        "summary_en": "A monorepo-based 3D architectural editor built with React Three Fiber and WebGPU.",
+        "techStack": [
+          "TypeScript",
+          "React Three Fiber",
+          "WebGPU",
+          "Next.js",
+          "Turborepo"
+        ],
+        "useCase": "3D 建筑设计与可视化项目",
+        "useCase_en": "Create and share 3D architectural projects."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "stars": 71395,
+      "forks": 8460,
+      "todayStars": 394,
+      "url": "https://github.com/ruvnet/ruflo",
+      "aiSummary": {
+        "summary": "Ruflo 是一个智能代理执行层，为 Claude Code/Codex 提供工具、记忆和沙箱。它支持 100+ 专用代理、协调群组、自学习记忆及跨机器联邦通信，旨在让 AI 代理不仅能运行，还能高效协作。",
+        "summary_en": "Ruflo is a TypeScript meta-harness that orchestrates intelligent agent swarms, self-learning workflows, and memory systems for LLMs.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "Claude Code",
+          "MCP"
+        ],
+        "useCase": "用于构建协作式 AI 群组和企业级智能工作流",
+        "useCase_en": "To deploy intelligent multi-player swarms and coordinate autonomous workflows with self-learning capabilities."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-08T01:07:10.008Z",
+    "duration": "315s",
+    "version": "1.0.0"
+  }
+}
