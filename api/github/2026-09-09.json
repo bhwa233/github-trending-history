@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-09",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "language": "Python",
+      "stars": 34621,
+      "forks": 2028,
+      "todayStars": 4650,
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "aiSummary": {
+        "summary": "这是一个专为 ADHD 用户设计的 AI 编码助手技能插件。它通过强制执行严格的输出规则（如以行动开头、步骤编号、抑制废话等），防止 AI 助手给出冗长、难以阅读的回答，确保答案清晰直接，提升编码效率。",
+        "summary_en": "An AI coding assistant skill that enforces concise, actionable output.",
+        "techStack": [
+          "Python",
+          "Claude Plugin"
+        ],
+        "useCase": "需要清晰、直接、无废话的 AI 编码辅助，特别是针对注意力难以集中的用户。",
+        "useCase_en": "To prevent AI coding assistants from burying answers in conversational filler."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "Tencent/teamai-cli",
+      "description": "Make Every Team AI Native",
+      "language": "TypeScript",
+      "stars": 2979,
+      "forks": 185,
+      "todayStars": 556,
+      "url": "https://github.com/Tencent/teamai-cli",
+      "aiSummary": {
+        "summary": "这是一个 TypeScript CLI 工具，旨在让团队 AI 原生化。它通过 Git 仓库统一管理团队的技能、规则、MCP 和知识库，支持 Claude、Cursor 等多种 AI 代理。项目包含团队执行、上下文和改进三个核心层，帮助团队标准化 AI 行为，实现配置自动同步。",
+        "summary_en": "A CLI tool that standardizes AI agent behavior, skills, and knowledge across development teams.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "需要统一管理多个 AI 代理行为、技能和规则的团队协作场景。",
+        "useCase_en": "To manage and synchronize team-specific skills, rules, and context across multiple AI coding agents."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 284027,
+      "forks": 25413,
+      "todayStars": 688,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个面向编码代理的技能框架与软件开发方法论。它通过一套可组合的技能和初始指令，引导代理从需求分析、规范拆解、计划制定到自主开发的全流程。系统强调 TDD、YAGNI 和 DRY 原则，旨在让 AI 编码代理具备自主完成复杂工程任务的能力。",
+        "summary_en": "An agentic skills framework for coding agents that enforces TDD, YAGNI, and DRY principles.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "为 AI 编码代理提供结构化的软件开发工作流和技能框架。",
+        "useCase_en": "To provide a structured, autonomous software development methodology for AI coding agents."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "pascalorg/editor",
+      "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+      "language": "TypeScript",
+      "stars": 22921,
+      "forks": 2896,
+      "todayStars": 107,
+      "url": "https://github.com/pascalorg/editor",
+      "aiSummary": {
+        "summary": "这是一个基于 React Three Fiber 和 WebGPU 的开源本地优先 3D 建筑编辑器。支持通过 CLI 或浏览器运行，具备持久化存储和 MCP 工具，专为人类和 AI 代理提供实用的 3D 建模工作流。",
+        "summary_en": "Local-first 3D architectural editor with React Three Fiber and WebGPU, supporting AI agents via MCP.",
+        "techStack": [
+          "TypeScript",
+          "React Three Fiber",
+          "WebGPU",
+          "MCP"
+        ],
+        "useCase": "3D 建筑设计与 AI 辅助建模",
+        "useCase_en": "Create 3D architectural models locally and integrate them with AI agents for automated workflows."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "earthtojake/text-to-cad",
+      "description": "A library of agent skills for CAD, CAE and CAM",
+      "language": "Python",
+      "stars": 15031,
+      "forks": 1561,
+      "todayStars": 124,
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "aiSummary": {
+        "summary": "这是一个面向 CAD、CAE 和 CAM 的代理技能库，提供从自然语言生成 3D 模型（STEP/STL）、创建 2D 绘图、查找标准零件、检查打印性（DfAM）、生成 G-code 以及管理机器人仿真文件（URDF/SDF）等全流程自动化能力。",
+        "summary_en": "A Python library of agent skills for generating, inspecting, and slicing CAD and robot-description artifacts.",
+        "techStack": [
+          "Python",
+          "CAD (STEP/STL/3MF/GLB)",
+          "URDF/SDF",
+          "G-code"
+        ],
+        "useCase": "适用于自动化 CAD 设计、机器人仿真建模及 3D 打印制造流程。",
+        "useCase_en": "Enables AI agents to generate, inspect, and slice CAD models for manufacturing and robotics."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 36590,
+      "forks": 2318,
+      "todayStars": 2249,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aiSummary": {
+        "summary": "该项目为 Claude Code 等工具提供 39 种高质量的编辑类图表库，采用自包含的 HTML 和 SVG 实现。它支持多种布局语法（如 Sankey、UML 等），具备极简主义和高密度设计风格，并能将其他工具源文件转换为高质量图表。",
+        "summary_en": "A library of 39 editorial diagram types for AI coding assistants, built with self-contained HTML and SVG.",
+        "techStack": [
+          "HTML",
+          "SVG",
+          "CSS"
+        ],
+        "useCase": "为 Claude Code、Codex 等智能体工具提供符合品牌调性的架构图、流程图及系统模式可视化方案。",
+        "useCase_en": "To generate high-quality, branded diagrams for technical documentation and architecture sketches without using Figma."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 103954,
+      "forks": 19971,
+      "todayStars": 367,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "这是一个基于多智能体 LLM 的金融交易框架。集成了研究、交易和投资组合管理功能，支持 GPT-5.x、Claude 等多种大模型及 FRED、Polymarket 数据源。具备回测、情绪分析、价格锚定及持久化检查点恢复能力，旨在通过 AI 智能体实现自动化金融决策。",
+        "summary_en": "Multi-agent LLM framework for autonomous financial trading and portfolio management.",
+        "techStack": [
+          "Python",
+          "LangGraph",
+          "Docker",
+          "LLMs (OpenAI/Claude/Gemini)"
+        ],
+        "useCase": "量化交易策略回测与自动化执行",
+        "useCase_en": "Automate financial trading decisions using multi-agent LLM architectures."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "liquidslr/system-design-notes",
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+      "language": "",
+      "stars": 17994,
+      "forks": 3407,
+      "todayStars": 1397,
+      "url": "https://github.com/liquidslr/system-design-notes",
+      "aiSummary": {
+        "summary": "这是一个关于系统设计面试的笔记项目，基于《System Design Interview - An Insider's Guide》一书。内容涵盖了系统设计的关键概念、架构模式及常见面试题的解决方案，旨在帮助开发者系统性地掌握大型系统设计的核心知识，为技术面试做准备。",
+        "summary_en": "Comprehensive study notes for the book 'System Design Interview - An Insider's Guide'.",
+        "techStack": [
+          "System Design",
+          "Architecture",
+          "Scalability",
+          "Database",
+          "Caching"
+        ],
+        "useCase": "适用于系统设计面试复习、后端架构学习及大型分布式系统设计参考。",
+        "useCase_en": "A reference guide for software engineers preparing for system design interviews."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "openai/plugins",
+      "description": "OpenAI Plugins",
+      "language": "JavaScript",
+      "stars": 6196,
+      "forks": 826,
+      "todayStars": 498,
+      "url": "https://github.com/openai/plugins",
+      "aiSummary": {
+        "summary": "这是一个 OpenAI Codex 插件的精选集合。项目提供了插件的标准结构（如 plugin.json）及丰富的示例，涵盖 Figma 设计、Notion 知识管理、iOS/macOS/Web 应用开发、Expo 以及 Netlify 等场景。旨在帮助开发者快速构建和集成 Codex 插件。",
+        "summary_en": "Curated collection of OpenAI Codex plugin examples for diverse development tasks.",
+        "techStack": [
+          "JavaScript",
+          "JSON",
+          "React Native",
+          "Swift"
+        ],
+        "useCase": "为 AI 代理提供插件示例，支持代码生成、设计协作及全栈应用开发。",
+        "useCase_en": "To demonstrate how to build and use plugins for OpenAI Codex across various platforms."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "freestylefly/awesome-gpt-image-2",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "language": "JavaScript",
+      "stars": 30043,
+      "forks": 2905,
+      "todayStars": 705,
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "aiSummary": {
+        "summary": "这是一个 GPT-Image2 工业级提示词引擎与模板库，包含 500+ 逆向工程案例和 20+ 模板。项目支持 GPT Image 2.5 Spotlight（Sunburst 和 Flare），提供 4 个真实复刻案例展示。用户可通过可视化网站浏览、筛选并测试生成效果，还包含社区交流群和持续更新的 Skills，旨在帮助用户高效生成高质量图像。",
+        "summary_en": "A comprehensive industrial-grade prompt engine and template library for GPT-Image2 featuring 530+ reverse-engineered cases and 20+ templates.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "适用于 AI 图像生成开发者、设计师及爱好者，用于学习工业级提示词、复刻高质量图像效果及探索 GPT-Image2.5 新特性。",
+        "useCase_en": "Provides industrial-grade prompts and templates to facilitate high-quality image generation using GPT-Image2."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 53690,
+      "forks": 9372,
+      "todayStars": 343,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个全面的 AI 工程自学课程，旨在弥合学生使用 AI 工具与专业准备之间的差距。项目包含 523 节课、20 个阶段和约 342 小时的内容，涵盖 Python、TypeScript、Rust 和 Julia。核心特色是“动手实践”，每节课都会产出可重用的工件（如提示词、代理、MCP 服务器），支持从数学基础到 LLM、代理工程及 MCP 等多种学习路径。",
+        "summary_en": "A comprehensive open-source curriculum teaching AI engineering from scratch with 523 lessons covering LLMs and agents.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "适合希望从零开始系统学习 AI 工程并构建实际项目的开发者。",
+        "useCase_en": "To learn AI engineering by building production-ready LLM applications and agents from scratch."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "vastsa/PI-Desktop",
+      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+      "language": "TypeScript",
+      "stars": 1662,
+      "forks": 155,
+      "todayStars": 417,
+      "url": "https://github.com/vastsa/PI-Desktop",
+      "aiSummary": {
+        "summary": "PI-Desktop 是一个本地优先的 AI 编码代理桌面工作区，基于 Electron 和 Rust 构建。它允许用户自带模型，在本地项目中运行代理，并提供桌面级工作区体验。支持插件扩展和权限审查，确保用户对 AI 操作保持控制，无需强制账号或编辑器锁定。",
+        "summary_en": "Local-first desktop workspace for AI coding agents with custom models and granular control.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "Rust",
+          "pi Agent Harness"
+        ],
+        "useCase": "需要在本地运行 AI 编码代理并拥有完全控制权的开发者。",
+        "useCase_en": "Run AI coding agents locally with full control over models and workflows."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 255179,
+      "forks": 38226,
+      "todayStars": 1133,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个智能体运行时性能优化系统，旨在为 Claude Code、Cursor 等 AI 编码助手提供技能、记忆、安全和研究优先的开发能力。它通过规划、测试、审查和记忆机制，将 AI 转变为具备工程素养的智能体，支持 MIT 开源协议。",
+        "summary_en": "A performance optimization system providing skills, memory, and security for AI coding agents like Claude Code and Cursor.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "npm"
+        ],
+        "useCase": "用于增强 AI 编码助手（如 Claude Code）的工程能力，使其具备规划、测试、审查和记忆功能，从而提高代码质量和开发效率。",
+        "useCase_en": "To optimize the performance of AI coding agents by providing a coordinated engineering system with memory and security f"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-10T01:03:05.798Z",
+    "duration": "449s",
+    "version": "1.0.0"
+  }
+}

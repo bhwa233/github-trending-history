@@ -70,26 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-09-07 | **成功**: 14 | **失败**: 0
+**最后更新**: 2026-09-09 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Write HTML. Render video. Built for agents.... | TypeScript | 45.9k | 474 | HyperFrames 是一个开源框架，用于将 HTML、CSS、媒体和动画转换为确定性的 MP4 视频。它专为 AI 代理设计，支持本地 CLI 和 AI 编程技能，帮助代理自动完成视频规划、代码编写及渲染流程。 |
-| 2 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office docume... | Python | 180.2k | 886 | 微软开发的轻量级 Python 工具，用于将 PDF、Office 文档、图片、音频等多种格式转换为 Markdown。它专注于保留文档结构（如标题、表格），专为 LLM 和文本分析管道设计，输出格式对大模型友好且 token 高效。 |
-| 3 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents. ... | TypeScript | 20.8k | 96 | 这是一个针对 AI 编码代理的上下文窗口优化 MCP 服务器。它通过沙箱化工具输出（减少 98%）、SQLite 持久化会话记忆（FTS5/BM25 索引）以及强制 LLM 生成代码而非读取数据来解决问题。它支持 17 个平台，防止上下文丢失和冗余输出。 |
-| 4 | [jo-inc/camofox-browser](https://github.com/jo-inc/camofox-browser) | Stealth headless browser for AI agents — bypass Cl... | JavaScript | 9.7k | 135 | 这是一个专为 AI 代理设计的隐身无头浏览器服务，基于 Camoufox（Firefox 分支）。它通过 C++ 级别的指纹欺骗绕过 Cloudflare 和机器人检测，作为 Puppeteer/Playwright 的轻量级替代品。提供 REST API，支持会话隔离、代理和文件上传，内存占用低，适合在资源受限环境中运行。 |
-| 5 | [MoonTechLab/LunaTV](https://github.com/MoonTechLab/LunaTV) | 本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同... | TypeScript | 9.7k | 197 | LunaTV 是一个基于 Next.js 14 和 TypeScript 的跨平台影视聚合播放器。支持多源搜索、在线播放、收藏同步及 PWA 离线功能。项目采用 Docker 部署，需自行收集播放源，禁止商业化。 |
-| 6 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 252.9k | 1.9k | ECC 是一个面向 Claude Code、Codex 等的代理工具包性能优化系统。它提供技能、直觉、记忆和安全功能，帮助 AI 代理在构建前规划、验证更改、自我审查并记住重要信息，将重复性工作转化为可复用的技能。 |
-| 7 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Marketing skills for Claude Code and AI agents. CR... | JavaScript | 48.1k | 580 | 这是一个专为 Claude Code 和 AI 代理设计的营销技能集合，涵盖 CRO、文案、SEO、分析和增长工程。项目提供 Markdown 格式的专业工作流，旨在帮助技术型营销人员和创始人利用 AI 自动化营销任务，支持多种主流 AI 编码工具。 |
-| 8 | [The-Swarm-Corporation/AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge) | Build your autonomous hedge fund in minutes. AutoH... | Python | 5.3k | 517 | AutoHedge 是一个基于 Python 的企业级自主交易系统，利用群智能和多代理架构实现全自动化的对冲基金运作。它集成了市场分析、风险管理和交易执行功能，目前支持 Solana 交易，未来将扩展至 Coinbase。系统具备风险优先设计、结构化输出和企业级日志，旨在为机构提供可扩展的自动化交易解决方案。 |
-| 9 | [BraveOPotato/FckSignups](https://github.com/BraveOPotato/FckSignups) | A list of tools that are open-source, in-browser, ... | TypeScript | 3.8k | 501 | 这是一个名为 NoSignups（原 FckSignups）的开源项目，旨在收集无需注册即可直接在浏览器使用的开源工具。项目采用 React + TypeScript 构建，强调隐私保护，拒绝数据追踪和强制注册墙。用户可以按类别浏览工具，无需创建账户即可立即使用。它提倡“开源是默认”的理念，适合追求快速、无隐私泄露工具的用户。 |
-| 10 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | An open-source long-horizon SuperAgent harness tha... | Python | 81.9k | 195 | DeerFlow 是一个开源的长周期超级代理框架，由字节跳动开发。它通过编排子代理、记忆系统和沙箱环境，利用可扩展技能处理从研究到编码的复杂任务。版本 2.0 是全面重写，支持 Claude Code 集成，旨在实现高效探索和自动化工作流。 |
-| 11 | [openai/skills](https://github.com/openai/skills) | Skills Catalog for Codex... | Python | 26.0k | 351 | 该项目是 Codex AI 代理的技能目录，包含用于特定任务的指令、脚本和资源。它旨在帮助团队和个人以可重复的方式完成任务。注意：该项目已被弃用，建议迁移至 OpenAI Plugins。 |
-| 12 | [lightpanda-io/browser](https://github.com/lightpanda-io/browser) | Lightpanda: the headless browser designed for AI a... | Zig | 34.9k | 58 | Lightpanda 是一个专为 AI 代理和自动化设计的无头浏览器，完全使用 Zig 语言从零编写。相比 Headless Chrome，它在内存占用（123MB）和执行速度（快9倍）上具有显著优势，支持 Linux、macOS 及 Docker 部署，适合轻量级自动化场景。 |
-| 13 | [pascalorg/editor](https://github.com/pascalorg/editor) | Create and share 3D architectural projects.... | TypeScript | 22.3k | 168 | 这是一个基于 React Three Fiber 和 WebGPU 构建的 3D 建筑编辑器。项目采用 Turborepo 单体仓库架构，包含核心、查看器、编辑器、节点定义及 CLI 等模块。支持本地持久化安装、MCP 服务集成，旨在帮助用户创建和分享 3D 建筑项目。 |
-| 14 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The original agent meta-harness. Deploy intelli... | TypeScript | 71.4k | 394 | Ruflo 是一个智能代理执行层，为 Claude Code/Codex 提供工具、记忆和沙箱。它支持 100+ 专用代理、协调群组、自学习记忆及跨机器联邦通信，旨在让 AI 代理不仅能运行，还能高效协作。 |
+| 1 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | A skill to stop your coding agent from burying the... | Python | 34.6k | 4.7k | 这是一个专为 ADHD 用户设计的 AI 编码助手技能插件。它通过强制执行严格的输出规则（如以行动开头、步骤编号、抑制废话等），防止 AI 助手给出冗长、难以阅读的回答，确保答案清晰直接，提升编码效率。 |
+| 2 | [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) | Make Every Team AI Native... | TypeScript | 3.0k | 556 | 这是一个 TypeScript CLI 工具，旨在让团队 AI 原生化。它通过 Git 仓库统一管理团队的技能、规则、MCP 和知识库，支持 Claude、Cursor 等多种 AI 代理。项目包含团队执行、上下文和改进三个核心层，帮助团队标准化 AI 行为，实现配置自动同步。 |
+| 3 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 284.0k | 688 | Superpowers 是一个面向编码代理的技能框架与软件开发方法论。它通过一套可组合的技能和初始指令，引导代理从需求分析、规范拆解、计划制定到自主开发的全流程。系统强调 TDD、YAGNI 和 DRY 原则，旨在让 AI 编码代理具备自主完成复杂工程任务的能力。 |
+| 4 | [pascalorg/editor](https://github.com/pascalorg/editor) | Open-source 3D architectural editor with a local C... | TypeScript | 22.9k | 107 | 这是一个基于 React Three Fiber 和 WebGPU 的开源本地优先 3D 建筑编辑器。支持通过 CLI 或浏览器运行，具备持久化存储和 MCP 工具，专为人类和 AI 代理提供实用的 3D 建模工作流。 |
+| 5 | [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | A library of agent skills for CAD, CAE and CAM... | Python | 15.0k | 124 | 这是一个面向 CAD、CAE 和 CAM 的代理技能库，提供从自然语言生成 3D 模型（STEP/STL）、创建 2D 绘图、查找标准零件、检查打印性（DfAM）、生成 G-code 以及管理机器人仿真文件（URDF/SDF）等全流程自动化能力。 |
+| 6 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 38 editorial diagram types for Claude Code, Codex,... | HTML | 36.6k | 2.2k | 该项目为 Claude Code 等工具提供 39 种高质量的编辑类图表库，采用自包含的 HTML 和 SVG 实现。它支持多种布局语法（如 Sankey、UML 等），具备极简主义和高密度设计风格，并能将其他工具源文件转换为高质量图表。 |
+| 7 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 104.0k | 367 | 这是一个基于多智能体 LLM 的金融交易框架。集成了研究、交易和投资组合管理功能，支持 GPT-5.x、Claude 等多种大模型及 FRED、Polymarket 数据源。具备回测、情绪分析、价格锚定及持久化检查点恢复能力，旨在通过 AI 智能体实现自动化金融决策。 |
+| 8 | [liquidslr/system-design-notes](https://github.com/liquidslr/system-design-notes) | Notes of the book System Desgin Interview - An Ins... | - | 18.0k | 1.4k | 这是一个关于系统设计面试的笔记项目，基于《System Design Interview - An Insider's Guide》一书。内容涵盖了系统设计的关键概念、架构模式及常见面试题的解决方案，旨在帮助开发者系统性地掌握大型系统设计的核心知识，为技术面试做准备。 |
+| 9 | [openai/plugins](https://github.com/openai/plugins) | OpenAI Plugins... | JavaScript | 6.2k | 498 | 这是一个 OpenAI Codex 插件的精选集合。项目提供了插件的标准结构（如 plugin.json）及丰富的示例，涵盖 Figma 设计、Notion 知识管理、iOS/macOS/Web 应用开发、Expo 以及 Netlify 等场景。旨在帮助开发者快速构建和集成 Codex 插件。 |
+| 10 | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆... | JavaScript | 30.0k | 705 | 这是一个 GPT-Image2 工业级提示词引擎与模板库，包含 500+ 逆向工程案例和 20+ 模板。项目支持 GPT Image 2.5 Spotlight（Sunburst 和 Flare），提供 4 个真实复刻案例展示。用户可通过可视化网站浏览、筛选并测试生成效果，还包含社区交流群和持续更新的 Skills，旨在帮助用户高效生成高质量图像。 |
+| 11 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | Learn it. Build it. Ship it for others.... | Python | 53.7k | 343 | 这是一个全面的 AI 工程自学课程，旨在弥合学生使用 AI 工具与专业准备之间的差距。项目包含 523 节课、20 个阶段和约 342 小时的内容，涵盖 Python、TypeScript、Rust 和 Julia。核心特色是“动手实践”，每节课都会产出可重用的工件（如提示词、代理、MCP 服务器），支持从数学基础到 LLM、代理工程及 MCP 等多种学习路径。 |
+| 12 | [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | Local-first AI coding agent desktop: Electron + Ru... | TypeScript | 1.7k | 417 | PI-Desktop 是一个本地优先的 AI 编码代理桌面工作区，基于 Electron 和 Rust 构建。它允许用户自带模型，在本地项目中运行代理，并提供桌面级工作区体验。支持插件扩展和权限审查，确保用户对 AI 操作保持控制，无需强制账号或编辑器锁定。 |
+| 13 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 255.2k | 1.1k | ECC 是一个智能体运行时性能优化系统，旨在为 Claude Code、Cursor 等 AI 编码助手提供技能、记忆、安全和研究优先的开发能力。它通过规划、测试、审查和记忆机制，将 AI 转变为具备工程素养的智能体，支持 MIT 开源协议。 |
 
-[查看完整数据](api/github/2026-09-07.json)
+[查看完整数据](api/github/2026-09-09.json)
 <!-- END GITHUB TRENDING -->
 
 
