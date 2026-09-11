@@ -70,25 +70,28 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-09-09 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-09-10 | **成功**: 16 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | A skill to stop your coding agent from burying the... | Python | 34.6k | 4.7k | 这是一个专为 ADHD 用户设计的 AI 编码助手技能插件。它通过强制执行严格的输出规则（如以行动开头、步骤编号、抑制废话等），防止 AI 助手给出冗长、难以阅读的回答，确保答案清晰直接，提升编码效率。 |
-| 2 | [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) | Make Every Team AI Native... | TypeScript | 3.0k | 556 | 这是一个 TypeScript CLI 工具，旨在让团队 AI 原生化。它通过 Git 仓库统一管理团队的技能、规则、MCP 和知识库，支持 Claude、Cursor 等多种 AI 代理。项目包含团队执行、上下文和改进三个核心层，帮助团队标准化 AI 行为，实现配置自动同步。 |
-| 3 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 284.0k | 688 | Superpowers 是一个面向编码代理的技能框架与软件开发方法论。它通过一套可组合的技能和初始指令，引导代理从需求分析、规范拆解、计划制定到自主开发的全流程。系统强调 TDD、YAGNI 和 DRY 原则，旨在让 AI 编码代理具备自主完成复杂工程任务的能力。 |
-| 4 | [pascalorg/editor](https://github.com/pascalorg/editor) | Open-source 3D architectural editor with a local C... | TypeScript | 22.9k | 107 | 这是一个基于 React Three Fiber 和 WebGPU 的开源本地优先 3D 建筑编辑器。支持通过 CLI 或浏览器运行，具备持久化存储和 MCP 工具，专为人类和 AI 代理提供实用的 3D 建模工作流。 |
-| 5 | [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | A library of agent skills for CAD, CAE and CAM... | Python | 15.0k | 124 | 这是一个面向 CAD、CAE 和 CAM 的代理技能库，提供从自然语言生成 3D 模型（STEP/STL）、创建 2D 绘图、查找标准零件、检查打印性（DfAM）、生成 G-code 以及管理机器人仿真文件（URDF/SDF）等全流程自动化能力。 |
-| 6 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 38 editorial diagram types for Claude Code, Codex,... | HTML | 36.6k | 2.2k | 该项目为 Claude Code 等工具提供 39 种高质量的编辑类图表库，采用自包含的 HTML 和 SVG 实现。它支持多种布局语法（如 Sankey、UML 等），具备极简主义和高密度设计风格，并能将其他工具源文件转换为高质量图表。 |
-| 7 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 104.0k | 367 | 这是一个基于多智能体 LLM 的金融交易框架。集成了研究、交易和投资组合管理功能，支持 GPT-5.x、Claude 等多种大模型及 FRED、Polymarket 数据源。具备回测、情绪分析、价格锚定及持久化检查点恢复能力，旨在通过 AI 智能体实现自动化金融决策。 |
-| 8 | [liquidslr/system-design-notes](https://github.com/liquidslr/system-design-notes) | Notes of the book System Desgin Interview - An Ins... | - | 18.0k | 1.4k | 这是一个关于系统设计面试的笔记项目，基于《System Design Interview - An Insider's Guide》一书。内容涵盖了系统设计的关键概念、架构模式及常见面试题的解决方案，旨在帮助开发者系统性地掌握大型系统设计的核心知识，为技术面试做准备。 |
-| 9 | [openai/plugins](https://github.com/openai/plugins) | OpenAI Plugins... | JavaScript | 6.2k | 498 | 这是一个 OpenAI Codex 插件的精选集合。项目提供了插件的标准结构（如 plugin.json）及丰富的示例，涵盖 Figma 设计、Notion 知识管理、iOS/macOS/Web 应用开发、Expo 以及 Netlify 等场景。旨在帮助开发者快速构建和集成 Codex 插件。 |
-| 10 | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆... | JavaScript | 30.0k | 705 | 这是一个 GPT-Image2 工业级提示词引擎与模板库，包含 500+ 逆向工程案例和 20+ 模板。项目支持 GPT Image 2.5 Spotlight（Sunburst 和 Flare），提供 4 个真实复刻案例展示。用户可通过可视化网站浏览、筛选并测试生成效果，还包含社区交流群和持续更新的 Skills，旨在帮助用户高效生成高质量图像。 |
-| 11 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | Learn it. Build it. Ship it for others.... | Python | 53.7k | 343 | 这是一个全面的 AI 工程自学课程，旨在弥合学生使用 AI 工具与专业准备之间的差距。项目包含 523 节课、20 个阶段和约 342 小时的内容，涵盖 Python、TypeScript、Rust 和 Julia。核心特色是“动手实践”，每节课都会产出可重用的工件（如提示词、代理、MCP 服务器），支持从数学基础到 LLM、代理工程及 MCP 等多种学习路径。 |
-| 12 | [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | Local-first AI coding agent desktop: Electron + Ru... | TypeScript | 1.7k | 417 | PI-Desktop 是一个本地优先的 AI 编码代理桌面工作区，基于 Electron 和 Rust 构建。它允许用户自带模型，在本地项目中运行代理，并提供桌面级工作区体验。支持插件扩展和权限审查，确保用户对 AI 操作保持控制，无需强制账号或编辑器锁定。 |
-| 13 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 255.2k | 1.1k | ECC 是一个智能体运行时性能优化系统，旨在为 Claude Code、Cursor 等 AI 编码助手提供技能、记忆、安全和研究优先的开发能力。它通过规划、测试、审查和记忆机制，将 AI 转变为具备工程素养的智能体，支持 MIT 开源协议。 |
+| 1 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | A skill to stop your coding agent from burying the... | Python | 38.3k | 3.9k | 这是一个专为编码代理设计的 ADHD 友好技能，旨在解决 AI 回答冗长、埋没核心答案的问题。它强制 AI 遵循严格规则：以行动开头、步骤编号、无废话、提供具体时间估算，并确保输出直接可执行。适用于需要高效、清晰代码解决方案的开发场景。 |
+| 2 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | A spy satellite simulator in your browser, except ... | JavaScript | 24.3k | 1.8k | 这是一个基于浏览器的间谍卫星模拟器，利用真实公开数据（航班、船只、卫星等）在3D地球上进行实时可视化。支持语音控制和本地运行，模块化设计允许用户扩展数据源。曾登顶GitHub趋势榜，视觉效果酷炫且代码开源。 |
+| 3 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 284.7k | 732 | Superpowers 是一个面向编码代理的软件开发框架和方法论。它通过一套可组合的技能，引导代理在编码前先与用户确认需求，制定详细的实施计划，并采用 TDD、YAGNI 和 DRY 原则进行自主开发。它支持多种主流 AI 编码工具，旨在提升代理的自主性和代码质量。 |
+| 4 | [alsk1992/CloddsBot](https://github.com/alsk1992/CloddsBot) | Open Source AI trading agent that operates autonom... | TypeScript | 1.6k | 277 | Clodds 是一个基于 Claude 的开源 AI 交易代理，支持预测市场、加密货币现货、期货和代币发行。它支持 Solana 和 EVM 链，提供 118+ 种策略，包括鲸鱼追踪和套利。用户可以通过 21 个消息平台或 WebChat 进行自然语言交互，实现 24/7 自主交易和风险管理。 |
+| 5 | [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) | Make Every Team AI Native... | TypeScript | 3.8k | 841 | TeamAI 是一个面向团队的 CLI 工具，旨在让 AI 原生化。它支持管理 Claude、Cursor 等多种 AI 代理的技能、规则和知识。通过“执行、上下文、改进”三层架构，实现团队 AI 工作流的标准化、知识共享与持续优化，无需手动同步。 |
+| 6 | [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) | Hundreds of models & providers. One command to fin... | Rust | 35.7k | 258 | llmfit 是一款 Rust 编写的终端工具，通过检测硬件配置（CPU、GPU、VRAM）来推荐适合的 LLM 模型。支持 GGUF、AWQ 等量化格式，提供交互式 TUI 和基准测试功能，帮助用户找到最佳运行配置。 |
+| 7 | [liquidslr/system-design-notes](https://github.com/liquidslr/system-design-notes) | Notes of the book System Desgin Interview - An Ins... | - | 18.8k | 900 | 该项目是《System Design Interview - An Insider's Guide》一书的笔记集合，专注于系统设计面试的核心知识点。内容涵盖了架构设计原则、常见系统组件及面试解题思路，适合开发者系统性地学习和复习系统设计技能。 |
+| 8 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 38 editorial diagram types for Claude Code, Codex,... | HTML | 37.8k | 1.3k | 为 Claude Code 等工具提供 39 种编辑类图表生成技能，支持 HTML 和 SVG，无构建步骤。具备语义系统模式、可选动画及源码转换功能。旨在生成符合品牌风格的精美图表，避免通用圆角框，支持导入 draw.io/Mermaid 等格式。 |
+| 9 | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案... | JavaScript | 30.8k | 962 | 这是一个工业级 GPT Image 2/2.5 提示词引擎与案例库，收录 530+ 案例及 20+ 工业模板。项目新增 2.5 版本亮点展示（Sunburst/Flare）及 4 个真实复刻案例。提供可视化网站浏览、社区交流及持续更新，助力高效提示词开发。 |
+| 10 | [armory3d/armorpaint](https://github.com/armory3d/armorpaint) | Graphics Creation Tools... | C | 4.4k | 72 | ArmorPaint 是一款基于 C 语言开发的 3D PBR 纹理绘画软件，支持跨平台（Windows/Linux/macOS/Android/iOS/WASM）。项目旨在为开发者提供核心功能，通过付费分发支持开发，致力于让纹理创作工具普及化。 |
+| 11 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | Never stop coding. Free MIT AI gateway: one endpoi... | TypeScript | 64.2k | 626 | OmniRoute 是一个开源的 AI 网关，聚合了 352 个提供商（含 150+ 免费）的 1200+ 模型。它通过配额感知自动回退和 RTK+Caveman 压缩技术（节省 15-95% 令牌）解决手动管理免费层级的痛点，支持 Claude Code、Cursor 等工具，并提供仪表盘监控。 |
+| 12 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | Run frontier MoE models on hardware you already ow... | C | 27.5k | 98 | Colibrì 是一个纯 C 语言编写的轻量级推理引擎，旨在让用户在现有硬件上运行大规模 MoE 模型。它通过将存储、内存和显存视为统一的层级，实现专家模型的磁盘流式加载，支持高达 2.8T 参数的模型，旨在降低对昂贵硬件的依赖并优化推理性能。 |
+| 13 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | Open Multi-Agent Interactive Classroom — Get an im... | TypeScript | 35.3k | 837 | OpenMAIC 是一个基于 TypeScript 的开源多智能体交互式课堂项目。它允许用户通过一个提示词生成完整课程，并引入了 Agent Workbench 进行对话式课程规划与修订。项目支持服务器端持久化会话，可上传多种材料，并内置20+种教学工具（如幻灯片、测验、PBL），采用中立设计，支持自定义模型和存储后端，旨在提供沉浸式的多智能体学习体验。 |
+| 14 | [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) | LLM Wiki is a cross-platform desktop application t... | TypeScript | 18.1k | 142 | LLM Wiki 是一款跨平台桌面应用，利用 LLM 自动将文档转化为自组织的知识库。支持多模态、多格式解析，具备增量构建、基于来源的检索、知识图谱分析及深度研究等功能，旨在打造个人知识库。 |
+| 15 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | The open agent skills tool - npx skills... | TypeScript | 31.1k | 122 | 这是一个用于开放代理技能生态系统的 CLI 工具，支持 OpenCode、Claude Code、Cursor 等 75+ 种 AI 编码代理。用户可以通过 GitHub、GitLab 或本地路径安装技能，并直接与支持的代理交互，无需手动复制提示词。 |
+| 16 | [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | Local-first AI coding agent desktop: Electron + Ru... | TypeScript | 2.3k | 624 | PI-Desktop 是一个本地优先的 AI 编码代理桌面工作区。基于 Electron 和 Rust 构建，支持“自带模型”和本地运行，无需强制中继。它提供强大的权限层以审查代理操作，并支持通过插件扩展功能。适合需要完全控制权的高级开发人员。 |
 
-[查看完整数据](api/github/2026-09-09.json)
+[查看完整数据](api/github/2026-09-10.json)
 <!-- END GITHUB TRENDING -->
 
 

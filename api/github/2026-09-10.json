@@ -1,0 +1,341 @@
+{
+  "date": "2026-09-10",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "language": "Python",
+      "stars": 38303,
+      "forks": 2202,
+      "todayStars": 3882,
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "aiSummary": {
+        "summary": "这是一个专为编码代理设计的 ADHD 友好技能，旨在解决 AI 回答冗长、埋没核心答案的问题。它强制 AI 遵循严格规则：以行动开头、步骤编号、无废话、提供具体时间估算，并确保输出直接可执行。适用于需要高效、清晰代码解决方案的开发场景。",
+        "summary_en": "A plugin for coding assistants that enforces ADHD-friendly, concise output by prioritizing direct actions and suppressing tangents.",
+        "techStack": [
+          "Node.js",
+          "TypeScript"
+        ],
+        "useCase": "适用于需要 AI 编程助手提供高效、直接、分步骤解决方案的开发场景。",
+        "useCase_en": "To modify coding assistant responses to be concise and action-oriented for users with ADHD."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "stars": 24287,
+      "forks": 5044,
+      "todayStars": 1762,
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "aiSummary": {
+        "summary": "这是一个基于浏览器的间谍卫星模拟器，利用真实公开数据（航班、船只、卫星等）在3D地球上进行实时可视化。支持语音控制和本地运行，模块化设计允许用户扩展数据源。曾登顶GitHub趋势榜，视觉效果酷炫且代码开源。",
+        "summary_en": "A photorealistic 3D globe simulator visualizing real-time global data like aircraft, ships, and satellites directly in the browser.",
+        "techStack": [
+          "JavaScript",
+          "3D Rendering",
+          "AI/语音控制"
+        ],
+        "useCase": "地理空间数据可视化与实时全球态势感知模拟",
+        "useCase_en": "To visualize live global intelligence data like aircraft, ships, and satellites on a photorealistic 3D globe."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 284698,
+      "forks": 25467,
+      "todayStars": 732,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个面向编码代理的软件开发框架和方法论。它通过一套可组合的技能，引导代理在编码前先与用户确认需求，制定详细的实施计划，并采用 TDD、YAGNI 和 DRY 原则进行自主开发。它支持多种主流 AI 编码工具，旨在提升代理的自主性和代码质量。",
+        "summary_en": "An agentic skills framework providing a structured software development methodology for AI coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "用于增强 AI 编码代理的自主性和开发效率。",
+        "useCase_en": "To provide a structured software development methodology for AI coding agents."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "alsk1992/CloddsBot",
+      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+      "language": "TypeScript",
+      "stars": 1645,
+      "forks": 256,
+      "todayStars": 277,
+      "url": "https://github.com/alsk1992/CloddsBot",
+      "aiSummary": {
+        "summary": "Clodds 是一个基于 Claude 的开源 AI 交易代理，支持预测市场、加密货币现货、期货和代币发行。它支持 Solana 和 EVM 链，提供 118+ 种策略，包括鲸鱼追踪和套利。用户可以通过 21 个消息平台或 WebChat 进行自然语言交互，实现 24/7 自主交易和风险管理。",
+        "summary_en": "An autonomous AI trading agent built on Claude for crypto and prediction markets across multiple exchanges.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Claude AI",
+          "Solana",
+          "EVM (Web3)"
+        ],
+        "useCase": "适合需要 24/7 自主交易、多链资产管理的加密货币交易者。",
+        "useCase_en": "A self-hosted AI trading terminal that executes trades across prediction markets and crypto exchanges via natural langua"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "Tencent/teamai-cli",
+      "description": "Make Every Team AI Native",
+      "language": "TypeScript",
+      "stars": 3787,
+      "forks": 246,
+      "todayStars": 841,
+      "url": "https://github.com/Tencent/teamai-cli",
+      "aiSummary": {
+        "summary": "TeamAI 是一个面向团队的 CLI 工具，旨在让 AI 原生化。它支持管理 Claude、Cursor 等多种 AI 代理的技能、规则和知识。通过“执行、上下文、改进”三层架构，实现团队 AI 工作流的标准化、知识共享与持续优化，无需手动同步。",
+        "summary_en": "A CLI tool to manage team skills, rules, and MCPs across multiple AI coding agents.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "团队协作标准化 AI 工作流，统一管理多平台 AI 代理的知识与技能。",
+        "useCase_en": "To centralize the management of AI agent skills, rules, and context for development teams."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "AlexsJones/llmfit",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "language": "Rust",
+      "stars": 35731,
+      "forks": 2266,
+      "todayStars": 258,
+      "url": "https://github.com/AlexsJones/llmfit",
+      "aiSummary": {
+        "summary": "llmfit 是一款 Rust 编写的终端工具，通过检测硬件配置（CPU、GPU、VRAM）来推荐适合的 LLM 模型。支持 GGUF、AWQ 等量化格式，提供交互式 TUI 和基准测试功能，帮助用户找到最佳运行配置。",
+        "summary_en": "A Rust-based terminal tool that detects hardware and recommends compatible LLMs for local inference.",
+        "techStack": [
+          "Rust",
+          "TUI",
+          "REST API"
+        ],
+        "useCase": "适合需要在本地运行大语言模型，并希望根据硬件配置自动推荐和优化模型选择的用户。",
+        "useCase_en": "Find out which open-source Large Language Models (LLMs) your hardware can comfortably run."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "liquidslr/system-design-notes",
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+      "language": "",
+      "stars": 18776,
+      "forks": 3484,
+      "todayStars": 900,
+      "url": "https://github.com/liquidslr/system-design-notes",
+      "aiSummary": {
+        "summary": "该项目是《System Design Interview - An Insider's Guide》一书的笔记集合，专注于系统设计面试的核心知识点。内容涵盖了架构设计原则、常见系统组件及面试解题思路，适合开发者系统性地学习和复习系统设计技能。",
+        "summary_en": "Educational notes covering system design concepts from a popular interview preparation book.",
+        "techStack": [
+          "Markdown"
+        ],
+        "useCase": "用于系统设计面试准备和系统架构知识学习",
+        "useCase_en": "A reference guide for preparing system design interviews based on a specific book."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 37752,
+      "forks": 2394,
+      "todayStars": 1294,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aiSummary": {
+        "summary": "为 Claude Code 等工具提供 39 种编辑类图表生成技能，支持 HTML 和 SVG，无构建步骤。具备语义系统模式、可选动画及源码转换功能。旨在生成符合品牌风格的精美图表，避免通用圆角框，支持导入 draw.io/Mermaid 等格式。",
+        "summary_en": "A library of 39 editorial diagram types for AI coding assistants, featuring self-contained HTML and SVG.",
+        "techStack": [
+          "HTML",
+          "SVG"
+        ],
+        "useCase": "适用于 AI 代码助手生成符合品牌风格的编辑类图表。",
+        "useCase_en": "Generate high-quality, branded diagrams for technical writing and AI coding assistants without external design tools."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "freestylefly/awesome-gpt-image-2",
+      "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
+      "language": "JavaScript",
+      "stars": 30839,
+      "forks": 2988,
+      "todayStars": 962,
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "aiSummary": {
+        "summary": "这是一个工业级 GPT Image 2/2.5 提示词引擎与案例库，收录 530+ 案例及 20+ 工业模板。项目新增 2.5 版本亮点展示（Sunburst/Flare）及 4 个真实复刻案例。提供可视化网站浏览、社区交流及持续更新，助力高效提示词开发。",
+        "summary_en": "A curated library of industrial-grade GPT Image 2 and 2.5 prompts, templates, and reusable skills for AI image generation.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "AI 图像生成提示词开发、案例学习与模板复用",
+        "useCase_en": "Developers and designers use this library to find and reuse industrial-grade prompts and templates for GPT Image 2 and 2"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "armory3d/armorpaint",
+      "description": "Graphics Creation Tools",
+      "language": "C",
+      "stars": 4418,
+      "forks": 521,
+      "todayStars": 72,
+      "url": "https://github.com/armory3d/armorpaint",
+      "aiSummary": {
+        "summary": "ArmorPaint 是一款基于 C 语言开发的 3D PBR 纹理绘画软件，支持跨平台（Windows/Linux/macOS/Android/iOS/WASM）。项目旨在为开发者提供核心功能，通过付费分发支持开发，致力于让纹理创作工具普及化。",
+        "summary_en": "ArmorPaint is an open-source 3D PBR texture painting software designed for developers.",
+        "techStack": [
+          "C",
+          "Cross-platform Build Tools (Visual Studio, Xcode, Android Studio)",
+          "WebAssembly"
+        ],
+        "useCase": "3D 艺术家进行基于物理的渲染（PBR）纹理贴图绘制。",
+        "useCase_en": "A tool for creating high-quality 3D PBR textures for graphics creation."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors",
+      "language": "TypeScript",
+      "stars": 64237,
+      "forks": 8996,
+      "todayStars": 626,
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "aiSummary": {
+        "summary": "OmniRoute 是一个开源的 AI 网关，聚合了 352 个提供商（含 150+ 免费）的 1200+ 模型。它通过配额感知自动回退和 RTK+Caveman 压缩技术（节省 15-95% 令牌）解决手动管理免费层级的痛点，支持 Claude Code、Cursor 等工具，并提供仪表盘监控。",
+        "summary_en": "Open-source AI gateway aggregating 352 providers and 1200+ models for free access via a single endpoint.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "MCP",
+          "PWA"
+        ],
+        "useCase": "适用于需要聚合多个 AI 模型提供商以降低成本、优化令牌使用并集成到开发工具的开发者。",
+        "useCase_en": "Developers use this to aggregate free AI provider tiers and access 1200+ models through a single endpoint."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "JustVugg/colibri",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "language": "C",
+      "stars": 27460,
+      "forks": 3010,
+      "todayStars": 98,
+      "url": "https://github.com/JustVugg/colibri",
+      "aiSummary": {
+        "summary": "Colibrì 是一个纯 C 语言编写的轻量级推理引擎，旨在让用户在现有硬件上运行大规模 MoE 模型。它通过将存储、内存和显存视为统一的层级，实现专家模型的磁盘流式加载，支持高达 2.8T 参数的模型，旨在降低对昂贵硬件的依赖并优化推理性能。",
+        "summary_en": "Pure C inference engine for massive MoE models using AI memory multitiering to run frontier AI on consumer hardware.",
+        "techStack": [
+          "C",
+          "MoE (Mixture of Experts)",
+          "Disk Streaming",
+          "Hardware Acceleration"
+        ],
+        "useCase": "在消费级或异构硬件上运行大规模前沿 MoE 模型，降低推理成本与硬件门槛。",
+        "useCase_en": "Run massive frontier MoE models on consumer hardware using a pure C engine with zero dependencies."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "language": "TypeScript",
+      "stars": 35303,
+      "forks": 5631,
+      "todayStars": 837,
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "aiSummary": {
+        "summary": "OpenMAIC 是一个基于 TypeScript 的开源多智能体交互式课堂项目。它允许用户通过一个提示词生成完整课程，并引入了 Agent Workbench 进行对话式课程规划与修订。项目支持服务器端持久化会话，可上传多种材料，并内置20+种教学工具（如幻灯片、测验、PBL），采用中立设计，支持自定义模型和存储后端，旨在提供沉浸式的多智能体学习体验。",
+        "summary_en": "OpenMAIC is an open-source platform for building immersive multi-agent learning experiences using AI agents.",
+        "techStack": [
+          "TypeScript",
+          "PostgreSQL",
+          "FunASR"
+        ],
+        "useCase": "教育内容自动生成、交互式课程开发与多智能体教学场景",
+        "useCase_en": "Create immersive, multi-agent learning experiences and courses using AI-driven content generation and tools."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "nashsu/llm_wiki",
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "language": "TypeScript",
+      "stars": 18100,
+      "forks": 2099,
+      "todayStars": 142,
+      "url": "https://github.com/nashsu/llm_wiki",
+      "aiSummary": {
+        "summary": "LLM Wiki 是一款跨平台桌面应用，利用 LLM 自动将文档转化为自组织的知识库。支持多模态、多格式解析，具备增量构建、基于来源的检索、知识图谱分析及深度研究等功能，旨在打造个人知识库。",
+        "summary_en": "A cross-platform desktop app that automatically builds a persistent, interlinked knowledge base from documents using LLMs.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "个人知识管理，将非结构化文档转化为可搜索、可关联的知识库。",
+        "useCase_en": "Organize documents into a self-updating, interlinked knowledge base for research and information management."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "language": "TypeScript",
+      "stars": 31141,
+      "forks": 2660,
+      "todayStars": 122,
+      "url": "https://github.com/vercel-labs/skills",
+      "aiSummary": {
+        "summary": "这是一个用于开放代理技能生态系统的 CLI 工具，支持 OpenCode、Claude Code、Cursor 等 75+ 种 AI 编码代理。用户可以通过 GitHub、GitLab 或本地路径安装技能，并直接与支持的代理交互，无需手动复制提示词。",
+        "summary_en": "A CLI tool for the open agent skills ecosystem supporting multiple coding agents.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "为 AI 编码代理提供可复用的技能库和交互接口。",
+        "useCase_en": "Generate prompts for AI coding agents like Claude Code or Cursor using a centralized CLI."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "vastsa/PI-Desktop",
+      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+      "language": "TypeScript",
+      "stars": 2295,
+      "forks": 193,
+      "todayStars": 624,
+      "url": "https://github.com/vastsa/PI-Desktop",
+      "aiSummary": {
+        "summary": "PI-Desktop 是一个本地优先的 AI 编码代理桌面工作区。基于 Electron 和 Rust 构建，支持“自带模型”和本地运行，无需强制中继。它提供强大的权限层以审查代理操作，并支持通过插件扩展功能。适合需要完全控制权的高级开发人员。",
+        "summary_en": "Local-first desktop workspace for AI coding agents with Rust core and Electron.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "Rust",
+          "pi Agent Harness"
+        ],
+        "useCase": "需要本地运行 AI 编码代理并拥有完全控制权的高级开发人员。",
+        "useCase_en": "To run AI coding agents locally on your desktop with full control."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-11T00:59:22.082Z",
+    "duration": "399s",
+    "version": "1.0.0"
+  }
+}
