@@ -70,28 +70,28 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-09-10 | **成功**: 16 | **失败**: 0
+**最后更新**: 2026-09-11 | **成功**: 16 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | A skill to stop your coding agent from burying the... | Python | 38.3k | 3.9k | 这是一个专为编码代理设计的 ADHD 友好技能，旨在解决 AI 回答冗长、埋没核心答案的问题。它强制 AI 遵循严格规则：以行动开头、步骤编号、无废话、提供具体时间估算，并确保输出直接可执行。适用于需要高效、清晰代码解决方案的开发场景。 |
-| 2 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | A spy satellite simulator in your browser, except ... | JavaScript | 24.3k | 1.8k | 这是一个基于浏览器的间谍卫星模拟器，利用真实公开数据（航班、船只、卫星等）在3D地球上进行实时可视化。支持语音控制和本地运行，模块化设计允许用户扩展数据源。曾登顶GitHub趋势榜，视觉效果酷炫且代码开源。 |
-| 3 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 284.7k | 732 | Superpowers 是一个面向编码代理的软件开发框架和方法论。它通过一套可组合的技能，引导代理在编码前先与用户确认需求，制定详细的实施计划，并采用 TDD、YAGNI 和 DRY 原则进行自主开发。它支持多种主流 AI 编码工具，旨在提升代理的自主性和代码质量。 |
-| 4 | [alsk1992/CloddsBot](https://github.com/alsk1992/CloddsBot) | Open Source AI trading agent that operates autonom... | TypeScript | 1.6k | 277 | Clodds 是一个基于 Claude 的开源 AI 交易代理，支持预测市场、加密货币现货、期货和代币发行。它支持 Solana 和 EVM 链，提供 118+ 种策略，包括鲸鱼追踪和套利。用户可以通过 21 个消息平台或 WebChat 进行自然语言交互，实现 24/7 自主交易和风险管理。 |
-| 5 | [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) | Make Every Team AI Native... | TypeScript | 3.8k | 841 | TeamAI 是一个面向团队的 CLI 工具，旨在让 AI 原生化。它支持管理 Claude、Cursor 等多种 AI 代理的技能、规则和知识。通过“执行、上下文、改进”三层架构，实现团队 AI 工作流的标准化、知识共享与持续优化，无需手动同步。 |
-| 6 | [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit) | Hundreds of models & providers. One command to fin... | Rust | 35.7k | 258 | llmfit 是一款 Rust 编写的终端工具，通过检测硬件配置（CPU、GPU、VRAM）来推荐适合的 LLM 模型。支持 GGUF、AWQ 等量化格式，提供交互式 TUI 和基准测试功能，帮助用户找到最佳运行配置。 |
-| 7 | [liquidslr/system-design-notes](https://github.com/liquidslr/system-design-notes) | Notes of the book System Desgin Interview - An Ins... | - | 18.8k | 900 | 该项目是《System Design Interview - An Insider's Guide》一书的笔记集合，专注于系统设计面试的核心知识点。内容涵盖了架构设计原则、常见系统组件及面试解题思路，适合开发者系统性地学习和复习系统设计技能。 |
-| 8 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 38 editorial diagram types for Claude Code, Codex,... | HTML | 37.8k | 1.3k | 为 Claude Code 等工具提供 39 种编辑类图表生成技能，支持 HTML 和 SVG，无构建步骤。具备语义系统模式、可选动画及源码转换功能。旨在生成符合品牌风格的精美图表，避免通用圆角框，支持导入 draw.io/Mermaid 等格式。 |
-| 9 | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案... | JavaScript | 30.8k | 962 | 这是一个工业级 GPT Image 2/2.5 提示词引擎与案例库，收录 530+ 案例及 20+ 工业模板。项目新增 2.5 版本亮点展示（Sunburst/Flare）及 4 个真实复刻案例。提供可视化网站浏览、社区交流及持续更新，助力高效提示词开发。 |
-| 10 | [armory3d/armorpaint](https://github.com/armory3d/armorpaint) | Graphics Creation Tools... | C | 4.4k | 72 | ArmorPaint 是一款基于 C 语言开发的 3D PBR 纹理绘画软件，支持跨平台（Windows/Linux/macOS/Android/iOS/WASM）。项目旨在为开发者提供核心功能，通过付费分发支持开发，致力于让纹理创作工具普及化。 |
-| 11 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | Never stop coding. Free MIT AI gateway: one endpoi... | TypeScript | 64.2k | 626 | OmniRoute 是一个开源的 AI 网关，聚合了 352 个提供商（含 150+ 免费）的 1200+ 模型。它通过配额感知自动回退和 RTK+Caveman 压缩技术（节省 15-95% 令牌）解决手动管理免费层级的痛点，支持 Claude Code、Cursor 等工具，并提供仪表盘监控。 |
-| 12 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | Run frontier MoE models on hardware you already ow... | C | 27.5k | 98 | Colibrì 是一个纯 C 语言编写的轻量级推理引擎，旨在让用户在现有硬件上运行大规模 MoE 模型。它通过将存储、内存和显存视为统一的层级，实现专家模型的磁盘流式加载，支持高达 2.8T 参数的模型，旨在降低对昂贵硬件的依赖并优化推理性能。 |
-| 13 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | Open Multi-Agent Interactive Classroom — Get an im... | TypeScript | 35.3k | 837 | OpenMAIC 是一个基于 TypeScript 的开源多智能体交互式课堂项目。它允许用户通过一个提示词生成完整课程，并引入了 Agent Workbench 进行对话式课程规划与修订。项目支持服务器端持久化会话，可上传多种材料，并内置20+种教学工具（如幻灯片、测验、PBL），采用中立设计，支持自定义模型和存储后端，旨在提供沉浸式的多智能体学习体验。 |
-| 14 | [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) | LLM Wiki is a cross-platform desktop application t... | TypeScript | 18.1k | 142 | LLM Wiki 是一款跨平台桌面应用，利用 LLM 自动将文档转化为自组织的知识库。支持多模态、多格式解析，具备增量构建、基于来源的检索、知识图谱分析及深度研究等功能，旨在打造个人知识库。 |
-| 15 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | The open agent skills tool - npx skills... | TypeScript | 31.1k | 122 | 这是一个用于开放代理技能生态系统的 CLI 工具，支持 OpenCode、Claude Code、Cursor 等 75+ 种 AI 编码代理。用户可以通过 GitHub、GitLab 或本地路径安装技能，并直接与支持的代理交互，无需手动复制提示词。 |
-| 16 | [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | Local-first AI coding agent desktop: Electron + Ru... | TypeScript | 2.3k | 624 | PI-Desktop 是一个本地优先的 AI 编码代理桌面工作区。基于 Electron 和 Rust 构建，支持“自带模型”和本地运行，无需强制中继。它提供强大的权限层以审查代理操作，并支持通过插件扩展功能。适合需要完全控制权的高级开发人员。 |
+| 1 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | A skill to stop your coding agent from burying the... | Python | 41.8k | 3.5k | 这是一个专为编程助手设计的 ADHD 友型技能，旨在解决 AI 回答啰嗦、隐藏答案的问题。它强制 AI 优先采取行动，对多步骤任务进行编号，去除废话，并提供具体的时间估算和下一步骤，使输出更加直接和高效。 |
+| 2 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | A spy satellite simulator in your browser, except ... | JavaScript | 27.1k | 3.7k | 这是一个基于浏览器的间谍卫星模拟器，利用真实数据在照片级真实感的 3D 地球上展示全球实时动态。支持语音控制，可追踪航班、船只、卫星及公共摄像头，旨在将公开信号整合为可交互的地理空间情报。 |
+| 3 | [nab138/iloader](https://github.com/nab138/iloader) | User friendly sideloader... | TypeScript | 2.9k | 50 | 这是一个用户友好的 iOS 应用侧载工具，支持安装 SideStore、导入任意 IPA 及管理开发证书。它能自动处理配对文件，并提供智能错误建议，帮助用户在电脑上轻松管理 iOS 设备上的应用。 |
+| 4 | [melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM) | Open-source AI sales OS — self-hosted CRM with nat... | TypeScript | 1.3k | 152 | 开源 AI 销售操作系统，基于 TypeScript 构建。这是一个自托管 CRM，内置原生 AI 代理处理 WhatsApp 客服与销售。作为 Kommo、Intercom 的开源替代品，它支持多租户、MCP 协议及数据本地化，适合需要通过聊天渠道销售的企业。 |
+| 5 | [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | Local-first AI coding agent desktop: Electron + Ru... | TypeScript | 2.8k | 552 | PI-Desktop 是一个基于 Electron + Rust 的本地优先 AI 编码代理桌面工作区。它允许用户自带模型，管理本地项目，并提供可审计的权限层。支持插件扩展，旨在为 AI 代理提供独立于编辑器的桌面环境，目前处于早期预览阶段。 |
+| 6 | [armory3d/armorpaint](https://github.com/armory3d/armorpaint) | Graphics Creation Tools... | C | 4.7k | 350 | ArmorPaint 是一款基于 C 语言开发的 3D PBR 纹理绘制软件。该项目面向开发者，旨在通过开源代码实现跨平台（Windows、Linux、macOS、Android、iOS、WASM）支持，提供详细的编译指南。 |
+| 7 | [alsk1992/CloddsBot](https://github.com/alsk1992/CloddsBot) | Open Source AI trading agent that operates autonom... | TypeScript | 2.2k | 626 | Clodds 是一个基于 Claude 的开源 AI 交易代理，支持预测市场、加密货币和期货交易。它可在 1000+ 市场中自主扫描套利机会并执行交易，支持 Solana 和 EVM 链，具备风险管理、鲸鱼追踪和 DCA 机器人功能。用户可通过自然语言与终端交互，适合需要自动化交易和智能投顾的用户。 |
+| 8 | [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) | LLM Wiki is a cross-platform desktop application t... | TypeScript | 18.7k | 647 | LLM Wiki 是一款跨平台桌面应用，利用 LLM 自动将文档转化为结构化的相互链接知识库。它支持多格式解析、多模态图像处理及灵活的模型配置，具备知识图谱构建、社区检测、向量搜索和深度研究功能。通过增量摄取和持久化队列，实现个人知识库的自动更新与高效管理。 |
+| 9 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 285.4k | 729 | 这是一个基于 Shell 的代理技能框架与软件开发方法论。它通过交互式流程帮助编码代理获取需求、展示设计、制定实现计划（强调 TDD、YAGNI、DRY），并利用子代理进行自主开发。旨在让编码代理具备“超能力”，实现自动化软件构建。 |
+| 10 | [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) | Smart PVR for newsgroup and bittorrent users.... | C# | 15.7k | 191 | Sonarr 是一款面向 Usenet 和 BitTorrent 用户的智能 PVR。它能监控 RSS 源，自动抓取、排序并重命名剧集。支持自动升级画质、处理下载失败，并深度集成 SABnzbd、NZBGet、Kodi 和 Plex。支持多平台，拥有美观的 UI。 |
+| 11 | [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent) | 🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接... | Python | 4.9k | 129 | 专为数学建模设计的自动化 Agent，通过多 Agent 协作（建模、代码、论文）和 RAG 知识库，实现从问题分析、建模、编码到论文生成的全流程自动化。支持多种大模型，内置 17 套 Typst 模板，具备人机协作与容错机制，旨在将建模时间从 3 天缩短至 1 小时。 |
+| 12 | [p1neappleXpress/OpenFlux](https://github.com/p1neappleXpress/OpenFlux) | Network stack research tool. TCP tunnel with plugg... | Go | 1.1k | 198 | OpenFlux 是一个基于 Go 的网络栈研究工具，提供带有可插拔传输的 TCP 隧道。支持 Android 和 iOS 客户端，通过 SOCKS5 协议连接，利用 Yandex Docs 或 WebRTC 等方式传输数据。项目包含出口节点，旨在进行网络技术研究。 |
+| 13 | [jordan-gibbs/hyperresearch](https://github.com/jordan-gibbs/hyperresearch) | Agent-driven research knowledge base. Agents colle... | Python | 2.6k | 153 | Hyperresearch 是一个基于 Python 的 Agent 驱动研究知识库，将 Claude Code 转化为深度研究代理。它通过 16 步自适应管道收集、搜索并综合网络研究，生成带有完整来源证明的报告。项目具备引用验证、独立性审计和对抗性审查机制，确保研究质量，并支持从多个学术数据库获取数据。 |
+| 14 | [alphaXiv/OpenResearch](https://github.com/alphaXiv/OpenResearch) | Run parallel research agents with any model... | Rust | 1.3k | 120 | OpenResearch 是一个基于 Rust 的本地优先研究代理工作空间。它将 Claude Code、Codex 或 OpenCode 转换为研究代理，支持并行探索、可重现的实验及自动研究循环。项目强调本地所有权，利用 Git 管理实验变体，并提供灵活的计算后端支持。 |
+| 15 | [github/spec-kit](https://github.com/github/spec-kit) | 💫 Toolkit to help you get started with Spec-Drive... | Python | 135.8k | 1.0k | Spec Kit 是一个开源工具包，旨在帮助开发者使用任何 AI 编码代理进行规范驱动开发（SDD）。它提供了一套现成的流程，允许在编写代码前先定义规范，强调适应性和社区驱动，支持无限扩展，适用于需要高质量软件构建的团队。 |
+| 16 | [pascalorg/editor](https://github.com/pascalorg/editor) | Open-source 3D architectural editor with a local C... | TypeScript | 23.6k | 106 | 这是一个基于 React Three Fiber 和 WebGPU 的开源本地优先 3D 建筑编辑器。支持通过 CLI 运行，集成了 MCP 工具，允许 AI 代理（如 Claude）直接操作场景。项目包含家具适配等实用工作流，数据存储在本地 SQLite 数据库中，适合人类和 AI 协同进行建筑设计。 |
 
-[查看完整数据](api/github/2026-09-10.json)
+[查看完整数据](api/github/2026-09-11.json)
 <!-- END GITHUB TRENDING -->
 
 

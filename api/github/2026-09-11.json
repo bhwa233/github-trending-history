@@ -1,0 +1,356 @@
+{
+  "date": "2026-09-11",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "language": "Python",
+      "stars": 41835,
+      "forks": 2366,
+      "todayStars": 3463,
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "aiSummary": {
+        "summary": "这是一个专为编程助手设计的 ADHD 友型技能，旨在解决 AI 回答啰嗦、隐藏答案的问题。它强制 AI 优先采取行动，对多步骤任务进行编号，去除废话，并提供具体的时间估算和下一步骤，使输出更加直接和高效。",
+        "summary_en": "A plugin for AI coding assistants to provide concise, ADHD-friendly instructions.",
+        "techStack": [
+          "Python",
+          "Claude Plugin"
+        ],
+        "useCase": "需要高效、直接代码解决方案的开发者，特别是希望 AI 助手避免冗长解释和隐藏关键步骤的用户。",
+        "useCase_en": "A plugin for coding assistants to stop burying answers and provide direct instructions."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "stars": 27118,
+      "forks": 5553,
+      "todayStars": 3680,
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "aiSummary": {
+        "summary": "这是一个基于浏览器的间谍卫星模拟器，利用真实数据在照片级真实感的 3D 地球上展示全球实时动态。支持语音控制，可追踪航班、船只、卫星及公共摄像头，旨在将公开信号整合为可交互的地理空间情报。",
+        "summary_en": "A browser-based spy satellite simulator featuring real-time spatial intelligence on a photorealistic 3D globe.",
+        "techStack": [
+          "JavaScript",
+          "Three.js",
+          "TensorFlow.js"
+        ],
+        "useCase": "全球实时数据可视化、地理空间情报模拟与开源 GIS 开发",
+        "useCase_en": "Visualize real-time global data like aircraft, ships, and earthquakes in a browser-based 3D spy satellite simulator."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "nab138/iloader",
+      "description": "User friendly sideloader",
+      "language": "TypeScript",
+      "stars": 2908,
+      "forks": 203,
+      "todayStars": 50,
+      "url": "https://github.com/nab138/iloader",
+      "aiSummary": {
+        "summary": "这是一个用户友好的 iOS 应用侧载工具，支持安装 SideStore、导入任意 IPA 及管理开发证书。它能自动处理配对文件，并提供智能错误建议，帮助用户在电脑上轻松管理 iOS 设备上的应用。",
+        "summary_en": "Cross-platform desktop tool for sideloading iOS apps and managing device pairing files.",
+        "techStack": [
+          "TypeScript",
+          "usbmuxd",
+          "i18next"
+        ],
+        "useCase": "适用于需要在电脑端安装 iOS 应用（如 SideStore）并管理开发证书与配对文件的场景。",
+        "useCase_en": "Install iOS applications like SideStore and manage device certificates via a desktop interface."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "melgarafael/DeskcommCRM",
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "language": "TypeScript",
+      "stars": 1345,
+      "forks": 496,
+      "todayStars": 152,
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "aiSummary": {
+        "summary": "开源 AI 销售操作系统，基于 TypeScript 构建。这是一个自托管 CRM，内置原生 AI 代理处理 WhatsApp 客服与销售。作为 Kommo、Intercom 的开源替代品，它支持多租户、MCP 协议及数据本地化，适合需要通过聊天渠道销售的企业。",
+        "summary_en": "Self-hosted CRM with AI agents for WhatsApp sales automation.",
+        "techStack": [
+          "TypeScript",
+          "WhatsApp API",
+          "MCP",
+          "Multi-tenant"
+        ],
+        "useCase": "需要自托管 CRM 并利用 AI 代理在 WhatsApp 上进行客户服务与销售的企业。",
+        "useCase_en": "A self-hosted CRM solution for businesses to automate sales and customer support via WhatsApp using AI."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "vastsa/PI-Desktop",
+      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+      "language": "TypeScript",
+      "stars": 2778,
+      "forks": 217,
+      "todayStars": 552,
+      "url": "https://github.com/vastsa/PI-Desktop",
+      "aiSummary": {
+        "summary": "PI-Desktop 是一个基于 Electron + Rust 的本地优先 AI 编码代理桌面工作区。它允许用户自带模型，管理本地项目，并提供可审计的权限层。支持插件扩展，旨在为 AI 代理提供独立于编辑器的桌面环境，目前处于早期预览阶段。",
+        "summary_en": "Local-first AI coding agent desktop built with Electron and Rust core.",
+        "techStack": [
+          "Electron",
+          "Rust",
+          "TypeScript",
+          "pi Agent Harness",
+          "插件系统"
+        ],
+        "useCase": "需要本地运行、可控且可扩展的 AI 编码代理的开发者。",
+        "useCase_en": "Provides a local-first desktop workspace for running AI coding agents with full control."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "armory3d/armorpaint",
+      "description": "Graphics Creation Tools",
+      "language": "C",
+      "stars": 4721,
+      "forks": 533,
+      "todayStars": 350,
+      "url": "https://github.com/armory3d/armorpaint",
+      "aiSummary": {
+        "summary": "ArmorPaint 是一款基于 C 语言开发的 3D PBR 纹理绘制软件。该项目面向开发者，旨在通过开源代码实现跨平台（Windows、Linux、macOS、Android、iOS、WASM）支持，提供详细的编译指南。",
+        "summary_en": "A cross-platform 3D PBR texture painting tool for creating high-quality graphics.",
+        "techStack": [
+          "C",
+          "Cross-platform (Windows/Linux/macOS/Android/iOS/WASM)"
+        ],
+        "useCase": "3D 游戏资产纹理绘制与 PBR 材质制作",
+        "useCase_en": "Create high-quality PBR textures for 3D models and games."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "alsk1992/CloddsBot",
+      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+      "language": "TypeScript",
+      "stars": 2153,
+      "forks": 282,
+      "todayStars": 626,
+      "url": "https://github.com/alsk1992/CloddsBot",
+      "aiSummary": {
+        "summary": "Clodds 是一个基于 Claude 的开源 AI 交易代理，支持预测市场、加密货币和期货交易。它可在 1000+ 市场中自主扫描套利机会并执行交易，支持 Solana 和 EVM 链，具备风险管理、鲸鱼追踪和 DCA 机器人功能。用户可通过自然语言与终端交互，适合需要自动化交易和智能投顾的用户。",
+        "summary_en": "Self-hosted AI trading agent built on Claude for crypto, prediction markets, and futures.",
+        "techStack": [
+          "TypeScript",
+          "Claude (Anthropic API)",
+          "Node.js"
+        ],
+        "useCase": "预测市场与加密货币的自动化交易与资产管理",
+        "useCase_en": "An autonomous AI trading terminal allowing users to manage crypto, prediction markets, and futures portfolios via natura"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "nashsu/llm_wiki",
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "language": "TypeScript",
+      "stars": 18738,
+      "forks": 2134,
+      "todayStars": 647,
+      "url": "https://github.com/nashsu/llm_wiki",
+      "aiSummary": {
+        "summary": "LLM Wiki 是一款跨平台桌面应用，利用 LLM 自动将文档转化为结构化的相互链接知识库。它支持多格式解析、多模态图像处理及灵活的模型配置，具备知识图谱构建、社区检测、向量搜索和深度研究功能。通过增量摄取和持久化队列，实现个人知识库的自动更新与高效管理。",
+        "summary_en": "Cross-platform desktop application that automatically builds and maintains a persistent, interlinked knowledge base from user documents using LLMs.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "LLM",
+          "LanceDB",
+          "MinerU"
+        ],
+        "useCase": "适合需要构建个人知识库、整理大量文档并希望利用 AI 自动化知识关联与更新的用户。",
+        "useCase_en": "Transform local documents into a structured, searchable knowledge base with source traceability and graph-based insights"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 285380,
+      "forks": 25521,
+      "todayStars": 729,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "这是一个基于 Shell 的代理技能框架与软件开发方法论。它通过交互式流程帮助编码代理获取需求、展示设计、制定实现计划（强调 TDD、YAGNI、DRY），并利用子代理进行自主开发。旨在让编码代理具备“超能力”，实现自动化软件构建。",
+        "summary_en": "A framework for enhancing coding agents with a structured software development methodology and composable skills.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "自动化软件开发，提升编码代理的自主性与开发效率。",
+        "useCase_en": "To empower coding agents to autonomously build software following a structured, TDD-driven methodology."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Sonarr/Sonarr",
+      "description": "Smart PVR for newsgroup and bittorrent users.",
+      "language": "C#",
+      "stars": 15736,
+      "forks": 1949,
+      "todayStars": 191,
+      "url": "https://github.com/Sonarr/Sonarr",
+      "aiSummary": {
+        "summary": "Sonarr 是一款面向 Usenet 和 BitTorrent 用户的智能 PVR。它能监控 RSS 源，自动抓取、排序并重命名剧集。支持自动升级画质、处理下载失败，并深度集成 SABnzbd、NZBGet、Kodi 和 Plex。支持多平台，拥有美观的 UI。",
+        "summary_en": "Sonarr is a smart PVR for Usenet and BitTorrent users that automatically downloads and manages TV shows.",
+        "techStack": [
+          "C#",
+          "Windows",
+          "Linux",
+          "macOS",
+          "SABnzbd"
+        ],
+        "useCase": "适合需要自动管理电视剧集下载、整理和媒体库更新的家庭媒体用户。",
+        "useCase_en": "Automatically download and manage TV show episodes from Usenet and BitTorrent."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "jihe520/MathModelAgent",
+      "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+      "language": "Python",
+      "stars": 4857,
+      "forks": 393,
+      "todayStars": 129,
+      "url": "https://github.com/jihe520/MathModelAgent",
+      "aiSummary": {
+        "summary": "专为数学建模设计的自动化 Agent，通过多 Agent 协作（建模、代码、论文）和 RAG 知识库，实现从问题分析、建模、编码到论文生成的全流程自动化。支持多种大模型，内置 17 套 Typst 模板，具备人机协作与容错机制，旨在将建模时间从 3 天缩短至 1 小时。",
+        "summary_en": "An AI-powered agent for mathematical modeling that automates problem analysis, coding, and paper generation.",
+        "techStack": [
+          "Python",
+          "LLM (litellm)",
+          "RAG (ChromaDB)",
+          "Typst",
+          "Jupyter"
+        ],
+        "useCase": "数学建模竞赛论文快速生成与自动化建模",
+        "useCase_en": "Automate the mathematical modeling workflow and generate complete, submission-ready papers for competitions."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "p1neappleXpress/OpenFlux",
+      "description": "Network stack research tool. TCP tunnel with pluggable transports.",
+      "language": "Go",
+      "stars": 1148,
+      "forks": 88,
+      "todayStars": 198,
+      "url": "https://github.com/p1neappleXpress/OpenFlux",
+      "aiSummary": {
+        "summary": "OpenFlux 是一个基于 Go 的网络栈研究工具，提供带有可插拔传输的 TCP 隧道。支持 Android 和 iOS 客户端，通过 SOCKS5 协议连接，利用 Yandex Docs 或 WebRTC 等方式传输数据。项目包含出口节点，旨在进行网络技术研究。",
+        "summary_en": "A Go-based TCP tunnel research tool featuring pluggable transports for network stack analysis.",
+        "techStack": [
+          "Go",
+          "SOCKS5",
+          "WebRTC",
+          "Android",
+          "iOS"
+        ],
+        "useCase": "网络协议研究及 TCP 流量的可插拔传输",
+        "useCase_en": "A research tool for TCP tunneling utilizing pluggable transports like WebRTC and Yandex."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "jordan-gibbs/hyperresearch",
+      "description": "Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki.",
+      "language": "Python",
+      "stars": 2615,
+      "forks": 258,
+      "todayStars": 153,
+      "url": "https://github.com/jordan-gibbs/hyperresearch",
+      "aiSummary": {
+        "summary": "Hyperresearch 是一个基于 Python 的 Agent 驱动研究知识库，将 Claude Code 转化为深度研究代理。它通过 16 步自适应管道收集、搜索并综合网络研究，生成带有完整来源证明的报告。项目具备引用验证、独立性审计和对抗性审查机制，确保研究质量，并支持从多个学术数据库获取数据。",
+        "summary_en": "An agent-driven research tool that synthesizes web research into a verified, searchable wiki.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "Web Agents"
+        ],
+        "useCase": "适用于需要深度、可验证且来源丰富的学术研究或报告生成场景。",
+        "useCase_en": "Automate deep research tasks by collecting, verifying, and synthesizing data from multiple scholarly sources into a veri"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "alphaXiv/OpenResearch",
+      "description": "Run parallel research agents with any model",
+      "language": "Rust",
+      "stars": 1277,
+      "forks": 94,
+      "todayStars": 120,
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "aiSummary": {
+        "summary": "OpenResearch 是一个基于 Rust 的本地优先研究代理工作空间。它将 Claude Code、Codex 或 OpenCode 转换为研究代理，支持并行探索、可重现的实验及自动研究循环。项目强调本地所有权，利用 Git 管理实验变体，并提供灵活的计算后端支持。",
+        "summary_en": "Local-first workspace for running parallel research agents and autoresearch in Rust.",
+        "techStack": [
+          "Rust",
+          "Git",
+          "AI Agents (Claude/OpenCode)",
+          "Local-first Architecture"
+        ],
+        "useCase": "适合科研人员或开发者进行自主文献综述、假设验证及实验运行。",
+        "useCase_en": "Run parallel, autonomous research agents locally or on any infrastructure to explore hypotheses and generate artifacts."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "github/spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "language": "Python",
+      "stars": 135770,
+      "forks": 12202,
+      "todayStars": 1015,
+      "url": "https://github.com/github/spec-kit",
+      "aiSummary": {
+        "summary": "Spec Kit 是一个开源工具包，旨在帮助开发者使用任何 AI 编码代理进行规范驱动开发（SDD）。它提供了一套现成的流程，允许在编写代码前先定义规范，强调适应性和社区驱动，支持无限扩展，适用于需要高质量软件构建的团队。",
+        "summary_en": "An open-source toolkit for Spec-Driven Development to help teams build software with AI coding agents.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于希望利用 AI 编码代理进行规范驱动开发、提升软件构建质量和流程标准化的团队。",
+        "useCase_en": "To help teams define what to build before building it with any AI coding agent."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "pascalorg/editor",
+      "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+      "language": "TypeScript",
+      "stars": 23601,
+      "forks": 2942,
+      "todayStars": 106,
+      "url": "https://github.com/pascalorg/editor",
+      "aiSummary": {
+        "summary": "这是一个基于 React Three Fiber 和 WebGPU 的开源本地优先 3D 建筑编辑器。支持通过 CLI 运行，集成了 MCP 工具，允许 AI 代理（如 Claude）直接操作场景。项目包含家具适配等实用工作流，数据存储在本地 SQLite 数据库中，适合人类和 AI 协同进行建筑设计。",
+        "summary_en": "Open-source 3D architectural editor built with React Three Fiber and WebGPU, featuring a local CLI and MCP tools.",
+        "techStack": [
+          "TypeScript",
+          "React Three Fiber",
+          "WebGPU"
+        ],
+        "useCase": "适合本地化、高性能的 3D 建筑建模，特别是结合 AI 代理进行自动化设计或辅助编辑的场景。",
+        "useCase_en": "A local-first tool for creating 3D architectural models and connecting AI agents for automated workflows."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-12T01:02:48.411Z",
+    "duration": "281s",
+    "version": "1.0.0"
+  }
+}
