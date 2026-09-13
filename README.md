@@ -70,28 +70,28 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-09-11 | **成功**: 16 | **失败**: 0
+**最后更新**: 2026-09-12 | **成功**: 16 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | A skill to stop your coding agent from burying the... | Python | 41.8k | 3.5k | 这是一个专为编程助手设计的 ADHD 友型技能，旨在解决 AI 回答啰嗦、隐藏答案的问题。它强制 AI 优先采取行动，对多步骤任务进行编号，去除废话，并提供具体的时间估算和下一步骤，使输出更加直接和高效。 |
-| 2 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | A spy satellite simulator in your browser, except ... | JavaScript | 27.1k | 3.7k | 这是一个基于浏览器的间谍卫星模拟器，利用真实数据在照片级真实感的 3D 地球上展示全球实时动态。支持语音控制，可追踪航班、船只、卫星及公共摄像头，旨在将公开信号整合为可交互的地理空间情报。 |
-| 3 | [nab138/iloader](https://github.com/nab138/iloader) | User friendly sideloader... | TypeScript | 2.9k | 50 | 这是一个用户友好的 iOS 应用侧载工具，支持安装 SideStore、导入任意 IPA 及管理开发证书。它能自动处理配对文件，并提供智能错误建议，帮助用户在电脑上轻松管理 iOS 设备上的应用。 |
-| 4 | [melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM) | Open-source AI sales OS — self-hosted CRM with nat... | TypeScript | 1.3k | 152 | 开源 AI 销售操作系统，基于 TypeScript 构建。这是一个自托管 CRM，内置原生 AI 代理处理 WhatsApp 客服与销售。作为 Kommo、Intercom 的开源替代品，它支持多租户、MCP 协议及数据本地化，适合需要通过聊天渠道销售的企业。 |
-| 5 | [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop) | Local-first AI coding agent desktop: Electron + Ru... | TypeScript | 2.8k | 552 | PI-Desktop 是一个基于 Electron + Rust 的本地优先 AI 编码代理桌面工作区。它允许用户自带模型，管理本地项目，并提供可审计的权限层。支持插件扩展，旨在为 AI 代理提供独立于编辑器的桌面环境，目前处于早期预览阶段。 |
-| 6 | [armory3d/armorpaint](https://github.com/armory3d/armorpaint) | Graphics Creation Tools... | C | 4.7k | 350 | ArmorPaint 是一款基于 C 语言开发的 3D PBR 纹理绘制软件。该项目面向开发者，旨在通过开源代码实现跨平台（Windows、Linux、macOS、Android、iOS、WASM）支持，提供详细的编译指南。 |
-| 7 | [alsk1992/CloddsBot](https://github.com/alsk1992/CloddsBot) | Open Source AI trading agent that operates autonom... | TypeScript | 2.2k | 626 | Clodds 是一个基于 Claude 的开源 AI 交易代理，支持预测市场、加密货币和期货交易。它可在 1000+ 市场中自主扫描套利机会并执行交易，支持 Solana 和 EVM 链，具备风险管理、鲸鱼追踪和 DCA 机器人功能。用户可通过自然语言与终端交互，适合需要自动化交易和智能投顾的用户。 |
-| 8 | [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) | LLM Wiki is a cross-platform desktop application t... | TypeScript | 18.7k | 647 | LLM Wiki 是一款跨平台桌面应用，利用 LLM 自动将文档转化为结构化的相互链接知识库。它支持多格式解析、多模态图像处理及灵活的模型配置，具备知识图谱构建、社区检测、向量搜索和深度研究功能。通过增量摄取和持久化队列，实现个人知识库的自动更新与高效管理。 |
-| 9 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 285.4k | 729 | 这是一个基于 Shell 的代理技能框架与软件开发方法论。它通过交互式流程帮助编码代理获取需求、展示设计、制定实现计划（强调 TDD、YAGNI、DRY），并利用子代理进行自主开发。旨在让编码代理具备“超能力”，实现自动化软件构建。 |
-| 10 | [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) | Smart PVR for newsgroup and bittorrent users.... | C# | 15.7k | 191 | Sonarr 是一款面向 Usenet 和 BitTorrent 用户的智能 PVR。它能监控 RSS 源，自动抓取、排序并重命名剧集。支持自动升级画质、处理下载失败，并深度集成 SABnzbd、NZBGet、Kodi 和 Plex。支持多平台，拥有美观的 UI。 |
-| 11 | [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent) | 🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接... | Python | 4.9k | 129 | 专为数学建模设计的自动化 Agent，通过多 Agent 协作（建模、代码、论文）和 RAG 知识库，实现从问题分析、建模、编码到论文生成的全流程自动化。支持多种大模型，内置 17 套 Typst 模板，具备人机协作与容错机制，旨在将建模时间从 3 天缩短至 1 小时。 |
-| 12 | [p1neappleXpress/OpenFlux](https://github.com/p1neappleXpress/OpenFlux) | Network stack research tool. TCP tunnel with plugg... | Go | 1.1k | 198 | OpenFlux 是一个基于 Go 的网络栈研究工具，提供带有可插拔传输的 TCP 隧道。支持 Android 和 iOS 客户端，通过 SOCKS5 协议连接，利用 Yandex Docs 或 WebRTC 等方式传输数据。项目包含出口节点，旨在进行网络技术研究。 |
-| 13 | [jordan-gibbs/hyperresearch](https://github.com/jordan-gibbs/hyperresearch) | Agent-driven research knowledge base. Agents colle... | Python | 2.6k | 153 | Hyperresearch 是一个基于 Python 的 Agent 驱动研究知识库，将 Claude Code 转化为深度研究代理。它通过 16 步自适应管道收集、搜索并综合网络研究，生成带有完整来源证明的报告。项目具备引用验证、独立性审计和对抗性审查机制，确保研究质量，并支持从多个学术数据库获取数据。 |
-| 14 | [alphaXiv/OpenResearch](https://github.com/alphaXiv/OpenResearch) | Run parallel research agents with any model... | Rust | 1.3k | 120 | OpenResearch 是一个基于 Rust 的本地优先研究代理工作空间。它将 Claude Code、Codex 或 OpenCode 转换为研究代理，支持并行探索、可重现的实验及自动研究循环。项目强调本地所有权，利用 Git 管理实验变体，并提供灵活的计算后端支持。 |
-| 15 | [github/spec-kit](https://github.com/github/spec-kit) | 💫 Toolkit to help you get started with Spec-Drive... | Python | 135.8k | 1.0k | Spec Kit 是一个开源工具包，旨在帮助开发者使用任何 AI 编码代理进行规范驱动开发（SDD）。它提供了一套现成的流程，允许在编写代码前先定义规范，强调适应性和社区驱动，支持无限扩展，适用于需要高质量软件构建的团队。 |
-| 16 | [pascalorg/editor](https://github.com/pascalorg/editor) | Open-source 3D architectural editor with a local C... | TypeScript | 23.6k | 106 | 这是一个基于 React Three Fiber 和 WebGPU 的开源本地优先 3D 建筑编辑器。支持通过 CLI 运行，集成了 MCP 工具，允许 AI 代理（如 Claude）直接操作场景。项目包含家具适配等实用工作流，数据存储在本地 SQLite 数据库中，适合人类和 AI 协同进行建筑设计。 |
+| 1 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | A spy satellite simulator in your browser, except ... | JavaScript | 29.9k | 2.3k | 这是一个基于浏览器的间谍卫星模拟器，利用真实数据在照片级真实感的3D地球上进行实时空间情报展示。它集成了飞机、船只、卫星、地震、交通和公共摄像头等实时数据，支持语音控制和点击跟踪功能。项目无需API密钥即可本地运行，代码开源可扩展。 |
+| 2 | [melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM) | Open-source AI sales OS — self-hosted CRM with nat... | TypeScript | 1.8k | 504 | 这是一个开源的AI销售操作系统，提供自托管CRM功能。内置原生AI代理，可自动处理WhatsApp上的客户接待、筛选和销售。作为Kommo等商业软件的开源替代品，它支持多租户、MCP协议及数据隐私合规，无月费限制，数据完全由用户掌控。 |
+| 3 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Extracted system prompts from Anthropic - Claude F... | JavaScript | 65.4k | 217 | 该项目收集并整理了Anthropic、OpenAI、Google、xAI等主流大模型的泄露系统提示词。内容涵盖Claude、ChatGPT、Gemini、Grok等模型的详细指令、工具和技能。项目定期更新，被媒体用于分析AI行为背后的规则，适合研究AI模型底层逻辑和隐藏指令。 |
+| 4 | [nab138/iloader](https://github.com/nab138/iloader) | User friendly sideloader... | TypeScript | 3.1k | 209 | 这是一个用户友好的 iOS 应用侧载工具，支持 Windows、macOS 和 Linux。它允许用户轻松安装 SideStore、导入任意 IPA，并自动处理配对文件和证书管理。具备智能错误提示功能，旨在简化 iOS 开发和测试流程。 |
+| 5 | [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) | ... | Batchfile | 33.2k | 65 | 该项目旨在绕过网络审查，特别是针对 Discord 和 YouTube 等服务。它利用 WinDivert 技术进行流量拦截和过滤，通过批处理脚本实现。用户需启用安全 DNS 并注意杀毒软件的误报。 |
+| 6 | [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent) | 🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接... | Python | 5.1k | 262 | 这是一个专为数学建模竞赛设计的自动化 Agent 系统。通过多 Agent 协作（建模、代码、论文手）和 LiteLLM 接入多种大模型，自动完成问题分析、建模、代码编写及 Typst 论文排版。支持本地/云端代码解释器、RAG 知识库检索和 HIL 人机协作，内置多种竞赛模板，旨在将比赛时间从3天缩短至1小时。 |
+| 7 | [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) | Smart PVR for newsgroup and bittorrent users.... | C# | 15.9k | 227 | Sonarr 是一款面向 Usenet 和 BitTorrent 用户的智能 PVR。它能监控 RSS 源获取新剧集，自动抓取、排序和重命名文件。支持自动升级画质、处理下载失败，并深度集成 SABnzbd、NZBGet、Kodi 和 Plex 等工具。支持多平台，界面美观，功能全面。 |
+| 8 | [alsk1992/CloddsBot](https://github.com/alsk1992/CloddsBot) | Open Source AI trading agent that operates autonom... | TypeScript | 2.5k | 376 | Clodds 是一个基于 Claude 的开源 AI 交易代理，支持预测市场、加密货币现货、期货及 Solana DEX。它集成了 1000+ 市场，具备鲸鱼追踪、套利检测和 DCA 机器人等 118+ 策略，可跨 21 个平台通过自然语言指令自动交易和挖矿。项目自托管，专为 Solana Colosseum Hackathon 打造，适合需要自动化交易和风险管理的用户。 |
+| 9 | [yuliskov/SmartTube](https://github.com/yuliskov/SmartTube) | Browse media content with your own rules on Androi... | Java | 33.2k | 136 | SmartTube 是一款专为 Android TV 优化的开源媒体客户端，支持在无 Google 服务环境下浏览和播放 YouTube 内容。具备 SponsorBlock、8K/60fps/HDR 播放、直播聊天及自定义界面等特性。项目近期修复了安全漏洞，目前支持多种电视设备。 |
+| 10 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 100+ AI Agents, Agent Skills and RAG Apps - Free a... | Python | 137.6k | 230 | 该项目汇集了100+个开源AI代理、技能和RAG应用，支持Claude、GPT等多种大模型。包含“Project Graveyard”等实用工具，提供即用型模板和教程，帮助开发者快速构建、测试和部署AI应用。 |
+| 11 | [p1neappleXpress/OpenFlux](https://github.com/p1neappleXpress/OpenFlux) | Network stack research tool. TCP tunnel with plugg... | Go | 1.4k | 355 | 这是一个基于 Go 语言的网络堆栈研究工具，提供可插拔传输的 TCP 隧道功能。支持 Android 和 iOS 客户端及 Linux VPS 出口节点，目前支持 Yandex 和 Max 两种传输协议。项目声明非商业用途，仅供研究网络架构使用。 |
+| 12 | [armory3d/armorpaint](https://github.com/armory3d/armorpaint) | Graphics Creation Tools... | C | 4.9k | 237 | ArmorPaint 是一款基于 C 语言开发的 3D PBR 纹理绘画工具。支持跨平台（Windows/Linux/macOS/Android/iOS/WASM），面向开发者开放源码。项目通过开源开发和付费二进制分发支持，旨在提供高性能的 3D 纹理创作体验。 |
+| 13 | [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red) | claude-red is a curated library of offensive secur... | Python | 3.6k | 113 | 这是一个针对 Claude AI 的攻击性安全技能库，提供结构化的 SKILL.md 文件，旨在为 Claude 注入 SQL 注入、EDR 绕过等特定攻击面的专家级方法论。支持按需加载，适用于红队演练、漏洞赏金及安全研究。 |
+| 14 | [multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE) | YuE2: frontier music generation with symbolic plan... | Python | 7.3k | 210 | YuE2 是一个前沿的音乐生成模型，统一了符号和音频生成。它通过符号规划实现白盒生成，允许在渲染前编辑旋律和和弦。支持零样本翻唱和基于代理的对话式音乐编辑，在 WildSongBench 上达到与 Suno v5/v6 竞争的质量水平。 |
+| 15 | [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, de... | Rust | 7.2k | 54 | Worktrunk 是一个用 Rust 编写的 Git worktree 管理命令行工具，专为并行 AI agent 工作流设计。它通过简化创建、切换和清理 worktree 的操作，让多任务开发变得像管理分支一样轻松。工具支持通过分支名自动计算路径，并集成了启动 AI agent 的便捷命令，显著提升了开发效率。 |
+| 16 | [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | Fully autonomous AI Agents system capable of perfo... | Go | 23.5k | 189 | 这是一个基于 Go 语言开发的完全自主 AI 代理系统，旨在执行复杂的渗透测试任务。 |
 
-[查看完整数据](api/github/2026-09-11.json)
+[查看完整数据](api/github/2026-09-12.json)
 <!-- END GITHUB TRENDING -->
 
 

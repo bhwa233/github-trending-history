@@ -1,0 +1,349 @@
+{
+  "date": "2026-09-12",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 16,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "stars": 29898,
+      "forks": 6020,
+      "todayStars": 2265,
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "aiSummary": {
+        "summary": "这是一个基于浏览器的间谍卫星模拟器，利用真实数据在照片级真实感的3D地球上进行实时空间情报展示。它集成了飞机、船只、卫星、地震、交通和公共摄像头等实时数据，支持语音控制和点击跟踪功能。项目无需API密钥即可本地运行，代码开源可扩展。",
+        "summary_en": "A photorealistic 3D globe simulator visualizing real-time global data like aircraft, ships, and satellites.",
+        "techStack": [
+          "JavaScript",
+          "WebGL"
+        ],
+        "useCase": "适合用于实时全球数据可视化、地理信息系统（GIS）演示或开源空间情报学习。",
+        "useCase_en": "Visualize live global data such as aircraft, ships, and satellites on a photorealistic 3D globe."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "melgarafael/DeskcommCRM",
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "language": "TypeScript",
+      "stars": 1801,
+      "forks": 552,
+      "todayStars": 504,
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "aiSummary": {
+        "summary": "这是一个开源的AI销售操作系统，提供自托管CRM功能。内置原生AI代理，可自动处理WhatsApp上的客户接待、筛选和销售。作为Kommo等商业软件的开源替代品，它支持多租户、MCP协议及数据隐私合规，无月费限制，数据完全由用户掌控。",
+        "summary_en": "Open-source AI sales OS with native WhatsApp agents for self-hosted CRM.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于任何通过聊天进行销售的企业，作为商业CRM系统的自托管开源替代方案。",
+        "useCase_en": "An open-source CRM for businesses to automate sales and customer support via WhatsApp."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
+      "language": "JavaScript",
+      "stars": 65403,
+      "forks": 10738,
+      "todayStars": 217,
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "aiSummary": {
+        "summary": "该项目收集并整理了Anthropic、OpenAI、Google、xAI等主流大模型的泄露系统提示词。内容涵盖Claude、ChatGPT、Gemini、Grok等模型的详细指令、工具和技能。项目定期更新，被媒体用于分析AI行为背后的规则，适合研究AI模型底层逻辑和隐藏指令。",
+        "summary_en": "Collection of leaked system prompts for various AI models including Claude, ChatGPT, and Grok.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "AI模型行为研究、隐藏指令分析、媒体数据可视化",
+        "useCase_en": "A resource for researchers and journalists to analyze AI behavior and hidden rules."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "nab138/iloader",
+      "description": "User friendly sideloader",
+      "language": "TypeScript",
+      "stars": 3079,
+      "forks": 211,
+      "todayStars": 209,
+      "url": "https://github.com/nab138/iloader",
+      "aiSummary": {
+        "summary": "这是一个用户友好的 iOS 应用侧载工具，支持 Windows、macOS 和 Linux。它允许用户轻松安装 SideStore、导入任意 IPA，并自动处理配对文件和证书管理。具备智能错误提示功能，旨在简化 iOS 开发和测试流程。",
+        "summary_en": "A user-friendly desktop tool for sideloading iOS apps and managing device pairing.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "用于在 iOS 设备上侧载应用及管理开发证书。",
+        "useCase_en": "To sideload iOS applications and manage device certificates and pairing files."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "Flowseal/zapret-discord-youtube",
+      "description": "",
+      "language": "Batchfile",
+      "stars": 33209,
+      "forks": 2540,
+      "todayStars": 65,
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "aiSummary": {
+        "summary": "该项目旨在绕过网络审查，特别是针对 Discord 和 YouTube 等服务。它利用 WinDivert 技术进行流量拦截和过滤，通过批处理脚本实现。用户需启用安全 DNS 并注意杀毒软件的误报。",
+        "summary_en": "Windows batch script to bypass censorship on Discord and YouTube using WinDivert.",
+        "techStack": [
+          "Batchfile",
+          "WinDivert"
+        ],
+        "useCase": "在受限网络环境下绕过对 Discord 和 YouTube 的封锁。",
+        "useCase_en": "To bypass network censorship and DPI on Discord and YouTube on Windows systems."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "jihe520/MathModelAgent",
+      "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+      "language": "Python",
+      "stars": 5128,
+      "forks": 401,
+      "todayStars": 262,
+      "url": "https://github.com/jihe520/MathModelAgent",
+      "aiSummary": {
+        "summary": "这是一个专为数学建模竞赛设计的自动化 Agent 系统。通过多 Agent 协作（建模、代码、论文手）和 LiteLLM 接入多种大模型，自动完成问题分析、建模、代码编写及 Typst 论文排版。支持本地/云端代码解释器、RAG 知识库检索和 HIL 人机协作，内置多种竞赛模板，旨在将比赛时间从3天缩短至1小时。",
+        "summary_en": "An automated AI agent for mathematical modeling that generates complete, submission-ready papers.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "LiteLLM",
+          "ChromaDB",
+          "Typst"
+        ],
+        "useCase": "数学建模竞赛（如国赛、MCM/ICM）自动化辅助与论文生成",
+        "useCase_en": "Automate the entire mathematical modeling process, from problem analysis to paper generation."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Sonarr/Sonarr",
+      "description": "Smart PVR for newsgroup and bittorrent users.",
+      "language": "C#",
+      "stars": 15922,
+      "forks": 1953,
+      "todayStars": 227,
+      "url": "https://github.com/Sonarr/Sonarr",
+      "aiSummary": {
+        "summary": "Sonarr 是一款面向 Usenet 和 BitTorrent 用户的智能 PVR。它能监控 RSS 源获取新剧集，自动抓取、排序和重命名文件。支持自动升级画质、处理下载失败，并深度集成 SABnzbd、NZBGet、Kodi 和 Plex 等工具。支持多平台，界面美观，功能全面。",
+        "summary_en": "A smart PVR for Usenet and BitTorrent users that automatically downloads, sorts, and renames TV shows.",
+        "techStack": [
+          "C#",
+          ".NET",
+          "Usenet",
+          "BitTorrent"
+        ],
+        "useCase": "自动化电视剧集的抓取、整理与升级管理",
+        "useCase_en": "Automatically download and organize TV episodes from Usenet and BitTorrent sources."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "alsk1992/CloddsBot",
+      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+      "language": "TypeScript",
+      "stars": 2500,
+      "forks": 310,
+      "todayStars": 376,
+      "url": "https://github.com/alsk1992/CloddsBot",
+      "aiSummary": {
+        "summary": "Clodds 是一个基于 Claude 的开源 AI 交易代理，支持预测市场、加密货币现货、期货及 Solana DEX。它集成了 1000+ 市场，具备鲸鱼追踪、套利检测和 DCA 机器人等 118+ 策略，可跨 21 个平台通过自然语言指令自动交易和挖矿。项目自托管，专为 Solana Colosseum Hackathon 打造，适合需要自动化交易和风险管理的用户。",
+        "summary_en": "Self-hosted AI trading terminal powered by Claude for crypto, futures, and prediction markets.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Claude API",
+          "Solana",
+          "EVM"
+        ],
+        "useCase": "适合需要自动化交易、跨多平台进行预测市场投注及加密货币交易的用户。",
+        "useCase_en": "Execute autonomous trading strategies and manage portfolios across prediction markets and crypto exchanges."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "yuliskov/SmartTube",
+      "description": "Browse media content with your own rules on Android TV",
+      "language": "Java",
+      "stars": 33213,
+      "forks": 2014,
+      "todayStars": 136,
+      "url": "https://github.com/yuliskov/SmartTube",
+      "aiSummary": {
+        "summary": "SmartTube 是一款专为 Android TV 优化的开源媒体客户端，支持在无 Google 服务环境下浏览和播放 YouTube 内容。具备 SponsorBlock、8K/60fps/HDR 播放、直播聊天及自定义界面等特性。项目近期修复了安全漏洞，目前支持多种电视设备。",
+        "summary_en": "Open-source media client for Android TV with a clean interface, SponsorBlock, and 8K support.",
+        "techStack": [
+          "Java",
+          "Android"
+        ],
+        "useCase": "在 Android TV 设备上替代官方 YouTube 应用，享受无广告、自定义化和高级播放功能。",
+        "useCase_en": "Browse and play media content on Android TV boxes using a clean, ad-free interface with advanced playback features."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "language": "Python",
+      "stars": 137626,
+      "forks": 20234,
+      "todayStars": 230,
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "aiSummary": {
+        "summary": "该项目汇集了100+个开源AI代理、技能和RAG应用，支持Claude、GPT等多种大模型。包含“Project Graveyard”等实用工具，提供即用型模板和教程，帮助开发者快速构建、测试和部署AI应用。",
+        "summary_en": "A curated collection of 100+ open-source AI agents, skills, and RAG apps for building LLM applications.",
+        "techStack": [
+          "Python",
+          "LLM (Claude/GPT/Llama)",
+          "Streamlit"
+        ],
+        "useCase": "快速构建和部署AI代理应用，学习AI Agent开发。",
+        "useCase_en": "Developers use this to quickly deploy AI agents and coding skills for various LLM applications."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "p1neappleXpress/OpenFlux",
+      "description": "Network stack research tool. TCP tunnel with pluggable transports.",
+      "language": "Go",
+      "stars": 1402,
+      "forks": 103,
+      "todayStars": 355,
+      "url": "https://github.com/p1neappleXpress/OpenFlux",
+      "aiSummary": {
+        "summary": "这是一个基于 Go 语言的网络堆栈研究工具，提供可插拔传输的 TCP 隧道功能。支持 Android 和 iOS 客户端及 Linux VPS 出口节点，目前支持 Yandex 和 Max 两种传输协议。项目声明非商业用途，仅供研究网络架构使用。",
+        "summary_en": "Go-based TCP tunneling tool featuring pluggable transports for network research.",
+        "techStack": [
+          "Go",
+          "Android NDK",
+          "iOS (Network Extension)",
+          "TCP",
+          "SOCKS5"
+        ],
+        "useCase": "网络协议研究与 TCP 隧道测试",
+        "useCase_en": "A research tool for tunneling TCP traffic via pluggable transports like Yandex or WebRTC."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "armory3d/armorpaint",
+      "description": "Graphics Creation Tools",
+      "language": "C",
+      "stars": 4912,
+      "forks": 547,
+      "todayStars": 237,
+      "url": "https://github.com/armory3d/armorpaint",
+      "aiSummary": {
+        "summary": "ArmorPaint 是一款基于 C 语言开发的 3D PBR 纹理绘画工具。支持跨平台（Windows/Linux/macOS/Android/iOS/WASM），面向开发者开放源码。项目通过开源开发和付费二进制分发支持，旨在提供高性能的 3D 纹理创作体验。",
+        "summary_en": "Open-source 3D PBR texture painting tool for cross-platform development.",
+        "techStack": [
+          "C",
+          "Make",
+          "Visual Studio",
+          "Clang",
+          "Xcode"
+        ],
+        "useCase": "3D 模型 PBR 纹理绘制与材质创作",
+        "useCase_en": "Create Physically Based Rendering (PBR) textures for 3D assets across multiple platforms."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "SnailSploit/Claude-Red",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "language": "Python",
+      "stars": 3592,
+      "forks": 552,
+      "todayStars": 113,
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "aiSummary": {
+        "summary": "这是一个针对 Claude AI 的攻击性安全技能库，提供结构化的 SKILL.md 文件，旨在为 Claude 注入 SQL 注入、EDR 绕过等特定攻击面的专家级方法论。支持按需加载，适用于红队演练、漏洞赏金及安全研究。",
+        "summary_en": "A curated library of offensive security skills for the Claude AI system to perform red team operations.",
+        "techStack": [
+          "Python",
+          "Markdown"
+        ],
+        "useCase": "授权红队行动、漏洞赏金、安全研究及 CTF 准备",
+        "useCase_en": "Enables authorized red team engagements and security research by priming Claude with expert methodologies."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "multimodal-art-projection/YuE",
+      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+      "language": "Python",
+      "stars": 7283,
+      "forks": 822,
+      "todayStars": 210,
+      "url": "https://github.com/multimodal-art-projection/YuE",
+      "aiSummary": {
+        "summary": "YuE2 是一个前沿的音乐生成模型，统一了符号和音频生成。它通过符号规划实现白盒生成，允许在渲染前编辑旋律和和弦。支持零样本翻唱和基于代理的对话式音乐编辑，在 WildSongBench 上达到与 Suno v5/v6 竞争的质量水平。",
+        "summary_en": "YuE2 is a frontier music generation model featuring symbolic planning for high-quality song creation, covers, and editing.",
+        "techStack": [
+          "Python",
+          "Deep Learning",
+          "Audio Processing"
+        ],
+        "useCase": "音乐创作、零样本翻唱、智能音乐编辑",
+        "useCase_en": "Generate high-quality songs from lyrics and style prompts, create zero-shot covers, or refine music through agentic edit"
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "stars": 7232,
+      "forks": 256,
+      "todayStars": 54,
+      "url": "https://github.com/max-sixty/worktrunk",
+      "aiSummary": {
+        "summary": "Worktrunk 是一个用 Rust 编写的 Git worktree 管理命令行工具，专为并行 AI agent 工作流设计。它通过简化创建、切换和清理 worktree 的操作，让多任务开发变得像管理分支一样轻松。工具支持通过分支名自动计算路径，并集成了启动 AI agent 的便捷命令，显著提升了开发效率。",
+        "summary_en": "A Rust CLI tool that simplifies Git worktree management for parallel AI agent workflows.",
+        "techStack": [
+          "Rust",
+          "Git",
+          "CLI"
+        ],
+        "useCase": "适用于需要同时运行多个 AI agent 或并行管理多个开发分支的场景。",
+        "useCase_en": "To simplify Git worktree management for running AI agents in parallel."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "stars": 23451,
+      "forks": 3058,
+      "todayStars": 189,
+      "url": "https://github.com/vxcontrol/pentagi",
+      "aiSummary": {
+        "summary": "这是一个基于 Go 语言开发的完全自主 AI 代理系统，旨在执行复杂的渗透测试任务。",
+        "summary_en": "Autonomous AI agents system for complex penetration testing.",
+        "techStack": [
+          "Go",
+          "Docker",
+          "Observability"
+        ],
+        "useCase": "自动化网络安全渗透测试与漏洞评估。",
+        "useCase_en": "Automating complex penetration testing tasks with autonomous AI agents."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-13T00:50:44.785Z",
+    "duration": "463s",
+    "version": "1.0.0"
+  }
+}
