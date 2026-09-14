@@ -1,0 +1,400 @@
+{
+  "date": "2026-09-13",
+  "since": "daily",
+  "totalRepos": 19,
+  "successCount": 18,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "JustVugg/colibri",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "language": "C",
+      "stars": 29820,
+      "forks": 3246,
+      "todayStars": 868,
+      "url": "https://github.com/JustVugg/colibri",
+      "aiSummary": {
+        "summary": "Colibri 是一个纯 C 语言编写的零依赖推理引擎，旨在运行参数量达 744B 到 2.8T 的前沿 MoE 模型。它通过将存储、内存和显存视为统一的层级，实现专家流式加载，降低对稀缺硬件的依赖，支持多种主流模型家族。",
+        "summary_en": "Pure C inference engine for massive frontier MoE models, treating storage, RAM, and VRAM as a single multitier hierarchy.",
+        "techStack": [
+          "C",
+          "MoE (混合专家模型)",
+          "AI Memory Multitiering",
+          "推理引擎"
+        ],
+        "useCase": "在消费级或异构硬件上运行超大参数量的前沿 MoE 模型，进行低成本的大模型推理研究。",
+        "useCase_en": "Run massive frontier MoE models on consumer hardware with zero dependencies."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "ever-co/ever-gauzy",
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+      "language": "TypeScript",
+      "stars": 5075,
+      "forks": 944,
+      "todayStars": 191,
+      "url": "https://github.com/ever-co/ever-gauzy",
+      "aiSummary": {
+        "summary": "Ever Gauzy 是一个基于 TypeScript 的开源商业管理平台，集成了 ERP、CRM、HRM、ATS 和项目管理等模块。它提供从财务、人力资源到销售的全流程管理解决方案，支持 Headless API，具备时间追踪、绩效监控、库存管理及会计开票等功能，旨在为协作经济提供一站式企业级服务。",
+        "summary_en": "Open-source business management platform covering ERP, CRM, HRM, ATS, and project management.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合需要一体化管理企业资源、客户关系、人力资源及项目进度的各类组织。",
+        "useCase_en": "A comprehensive solution for managing enterprise resources, customer relationships, and employee productivity."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "stars": 31893,
+      "forks": 6404,
+      "todayStars": 2680,
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "aiSummary": {
+        "summary": "这是一个基于浏览器的间谍卫星模拟器，利用真实数据提供逼真的3D地球。它实时追踪飞机、船只、卫星、地震、交通及公共摄像头，支持语音控制，无需API密钥即可本地运行。用户可体验驾驶舱视角飞行，点击追踪目标，并查看周围实时联系人。该项目开源且可扩展，将全球公开信号整合为可探索的交互式地图。",
+        "summary_en": "A photorealistic 3D globe simulator tracking live aircraft, ships, and satellites using public data in the browser.",
+        "techStack": [
+          "JavaScript",
+          "WebGL",
+          "Web Speech API"
+        ],
+        "useCase": "全球实时空间情报可视化与监控",
+        "useCase_en": "Visualize real-time global data such as aircraft, ships, and traffic on a 3D globe for spatial intelligence and explorat"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "tech-leads-club/agent-skills",
+      "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+      "language": "TypeScript",
+      "stars": 5650,
+      "forks": 499,
+      "todayStars": 265,
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "aiSummary": {
+        "summary": "这是一个为专业 AI 编码代理提供的安全、经过验证的技能注册表。通过静态分析、人工策展和 Snyk 扫描确保技能库的安全性，解决了开放市场中 13% 技能存在漏洞的问题。支持 Claude Code、Cursor、Copilot 等多种主流 AI 编码工具，提供可扩展的插件化能力。",
+        "summary_en": "A secure, validated skill registry for professional AI coding agents to extend capabilities safely.",
+        "techStack": [
+          "TypeScript",
+          "MCP"
+        ],
+        "useCase": "为 Claude Code、Cursor 等主流 AI 编码代理提供安全、可验证的插件扩展，提升开发效率。",
+        "useCase_en": "To provide a secure, validated library of skills for extending AI coding agents like Claude and Cursor."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "melgarafael/DeskcommCRM",
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "language": "TypeScript",
+      "stars": 2188,
+      "forks": 594,
+      "todayStars": 432,
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "aiSummary": {
+        "summary": "DeskcommCRM 是一个开源的 AI 销售操作系统，基于 TypeScript 开发。它提供自托管的 CRM 功能，集成了原生 AI 代理，专门用于 WhatsApp 营销。作为 Kommo、Octadesk 和 Intercom 的开源替代方案，它支持多租户和 LGPD 合规，帮助企业通过聊天进行销售。",
+        "summary_en": "Open-source AI sales OS with self-hosted CRM and WhatsApp agents.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要通过 WhatsApp 进行客户管理和自动销售流程的中小企业。",
+        "useCase_en": "A self-hosted CRM solution for businesses to automate sales and customer service via WhatsApp."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "stars": 58429,
+      "forks": 7354,
+      "todayStars": 380,
+      "url": "https://github.com/calesthio/OpenMontage",
+      "aiSummary": {
+        "summary": "OpenMontage 是世界上首个开源、代理驱动的视频制作系统。它包含 12 个生产管道和 700+ 代理技能，能将 AI 编码助手转化为全功能视频工作室。不仅能制作基于图像的视频，还能利用开源素材库生成包含真实运动片段的成品视频，涵盖从概念、脚本到剪辑、渲染的全流程。",
+        "summary_en": "Open-source agentic video production system that transforms AI coding assistants into full video studios using 12 pipelines.",
+        "techStack": [
+          "Python",
+          "Remotion",
+          "Veo",
+          "Kling v3",
+          "Chirp3-HD"
+        ],
+        "useCase": "适合需要自动化视频制作流程、利用 AI 生成高质量影视内容或短片的项目。",
+        "useCase_en": "Automate video production workflows from concept to rendering, enabling the creation of cinematic trailers and animated "
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
+      "language": "JavaScript",
+      "stars": 66022,
+      "forks": 10802,
+      "todayStars": 706,
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "aiSummary": {
+        "summary": "该项目收集并整理了来自Anthropic、OpenAI、Google、xAI等主流大模型的泄露系统提示词，涵盖Claude、ChatGPT、Gemini、Grok等。内容定期更新，被媒体用于分析AI行为，帮助开发者了解大模型的底层指令和规则。",
+        "summary_en": "Repository containing leaked system prompts for major AI models like Claude, ChatGPT, and Grok.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "用于研究大模型底层逻辑、媒体数据分析及AI行为分析。",
+        "useCase_en": "Researchers and journalists use these prompts to analyze AI behavior and hidden rules."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "language": "Go",
+      "stars": 23974,
+      "forks": 3095,
+      "todayStars": 590,
+      "url": "https://github.com/vxcontrol/pentagi",
+      "aiSummary": {
+        "summary": "Pentagi 是一个基于 Go 语言开发的完全自主 AI Agent 系统，专注于执行复杂的渗透测试任务。项目采用前后端分离架构，包含后端服务、前端界面及可观测性模块，支持通过 Docker 快速部署。它利用 AI 技术自动化安全测试流程，旨在提升渗透测试的效率与深度。",
+        "summary_en": "Go-based autonomous AI agents for complex penetration testing tasks.",
+        "techStack": [
+          "Go",
+          "Docker",
+          "AI Agents",
+          "Frontend",
+          "Observability"
+        ],
+        "useCase": "用于自动化执行复杂的渗透测试任务，提升安全评估效率。",
+        "useCase_en": "Perform complex penetration testing tasks using autonomous AI agents."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "multimodal-art-projection/YuE",
+      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+      "language": "Python",
+      "stars": 7744,
+      "forks": 864,
+      "todayStars": 487,
+      "url": "https://github.com/multimodal-art-projection/YuE",
+      "aiSummary": {
+        "summary": "YuE2 是一个前沿的音乐生成项目，通过符号化规划实现高质量音乐创作。它支持文本生成歌曲、零样本翻唱和代理式音乐编辑，允许用户在渲染前查看和编辑乐谱，并能通过对话进行风格转换和歌曲优化。",
+        "summary_en": "YuE2 is a frontier music generation model that unifies symbolic and audio generation using symbolic planning, zero-shot covers, and agentic editing.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "文本生成高质量音乐、零样本翻唱及基于代理的音乐编辑",
+        "useCase_en": "Generate frontier quality music from lyrics and style prompts using symbolic planning and agentic editing."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "yuliskov/SmartTube",
+      "description": "Browse media content with your own rules on Android TV",
+      "language": "Java",
+      "stars": 33452,
+      "forks": 2032,
+      "todayStars": 233,
+      "url": "https://github.com/yuliskov/SmartTube",
+      "aiSummary": {
+        "summary": "SmartTube 是一款专为 Android TV 设计的开源媒体客户端，允许用户在电视优化界面下浏览和播放内容。它支持 8K、HDR、SponsorBlock 等高级功能，且无需 Google 服务。开发者近期报告了安全事件，建议用户检查权限。目前不支持手机和平板，主要面向电视用户。",
+        "summary_en": "Free and open-source media client for Android TV optimized for browsing and playing content.",
+        "techStack": [
+          "Java"
+        ],
+        "useCase": "在 Android TV 设备上替代官方 YouTube 客户端，享受无 Google 服务、SponsorBlock 等高级功能。",
+        "useCase_en": "To browse and play media content on Android TV with a clean interface and custom rules."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "alphaXiv/OpenResearch",
+      "description": "Run parallel research agents with any model",
+      "language": "Rust",
+      "stars": 2061,
+      "forks": 144,
+      "todayStars": 289,
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "aiSummary": {
+        "summary": "OpenResearch 是一个基于 Rust 的本地优先研究工作空间，旨在运行并行研究代理。它支持 Claude Code、Codex 等工具，允许用户进行文献综述、假设开发和实验。核心特性包括并行探索、基于 Git 的可重现实验、上下文证据管理以及自动研究循环。支持本地或云端计算，适合研究人员进行自主科研。",
+        "summary_en": "A Rust-based local-first workspace for running parallel research agents and autoresearch.",
+        "techStack": [
+          "Rust",
+          "Git",
+          "AI Agents (Claude/Codex/OpenCode/Cursor)"
+        ],
+        "useCase": "适用于研究人员利用 AI 代理进行文献综述、假设开发及实验验证的自主科研场景。",
+        "useCase_en": "Turn AI coding assistants like Cursor into autonomous research agents to run experiments and manage workflows."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 26820,
+      "forks": 3309,
+      "todayStars": 2632,
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "aiSummary": {
+        "summary": "VoiceStudio 是一个开源、完全本地化的 ElevenLabs 替代品，基于 Python 开发。它支持语音克隆、视频配音、听写、转录和有声书创作，覆盖 646 种语言。项目提供 16 个 TTS 和 11 个 ASR 引擎，无需账户或订阅，支持多种硬件加速，目前处于活跃 Beta 阶段。",
+        "summary_en": "Open-source, local alternative to ElevenLabs offering voice cloning, dubbing, and transcription in 646 languages.",
+        "techStack": [
+          "Python",
+          "Electron",
+          "CUDA",
+          "Apple Silicon (MPS/MLX)",
+          "ROCm"
+        ],
+        "useCase": "适合需要完全本地化、隐私保护的语音合成与处理，以及多语言视频配音和有声书创作的个人或开发者。",
+        "useCase_en": "Run local voice cloning, video dubbing, and transcription workflows on personal hardware."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "SnailSploit/Claude-Red",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "language": "Python",
+      "stars": 4139,
+      "forks": 592,
+      "todayStars": 506,
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "aiSummary": {
+        "summary": "这是一个针对 Claude AI 的攻击性安全技能库，包含 SQL 注入、Shellcode、EDR 绕过等专业技能。通过结构化的 SKILL.md 文件，Claude 可根据对话上下文按需加载特定领域的攻击方法论，适用于授权红队、漏洞赏金和安全研究。",
+        "summary_en": "A curated library of offensive security skills for the Claude AI system to act as a red team operator.",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "Claude Skills System"
+        ],
+        "useCase": "授权红队演练、漏洞赏金挖掘、安全研究及 CTF 备赛",
+        "useCase_en": "Turn Claude into a domain specialist for authorized red team engagements and security research."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 23515,
+      "forks": 1741,
+      "todayStars": 443,
+      "url": "https://github.com/alibaba/open-code-review",
+      "aiSummary": {
+        "summary": "阿里巴巴开源的 AI 代码审查 CLI 工具，采用混合架构（确定性管道+LLM Agent），能生成高精度的行级评论。内置多语言规则集，支持读取完整文件和搜索代码库进行深度审查。相比通用 Agent，它在相同模型下精度更高、耗 Token 更少，专为大规模生产环境设计。",
+        "summary_en": "Alibaba's battle-tested AI code review tool using Go and LLMs for precise, fast, and efficient analysis.",
+        "techStack": [
+          "Go",
+          "LLM (OpenAI/Anthropic)",
+          "Git",
+          "OCR"
+        ],
+        "useCase": "适用于需要高精度、低误报的代码审查场景，特别是大型企业级项目的自动化质量保障。",
+        "useCase_en": "Configure an LLM endpoint to perform fast, precise, and battle-tested AI code reviews on Git diffs."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "jihe520/MathModelAgent",
+      "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+      "language": "Python",
+      "stars": 5349,
+      "forks": 407,
+      "todayStars": 246,
+      "url": "https://github.com/jihe520/MathModelAgent",
+      "aiSummary": {
+        "summary": "这是一个专为数学建模设计的开源 Agent 项目，利用 Python 和 SKILLS 技术实现全流程自动化。它能自动分析问题、建模、编写代码、绘图并生成排版精美的论文。支持多 Agent 协作、RAG 知识库检索、Web 搜索及人机交互，内置多种竞赛模板和验收机制，旨在将建模时间从三天缩短至一小时。",
+        "summary_en": "An AI agent that automates mathematical modeling and generates complete competition papers.",
+        "techStack": [
+          "Python",
+          "LiteLLM",
+          "ChromaDB",
+          "Typst",
+          "Jupyter"
+        ],
+        "useCase": "数学建模竞赛（如国赛、MCM/ICM）的自动化辅助与论文生成",
+        "useCase_en": "Automating the entire mathematical modeling workflow to generate competition-ready papers."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "tonhowtf/omniget",
+      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
+      "language": "Rust",
+      "stars": 11660,
+      "forks": 1021,
+      "todayStars": 507,
+      "url": "https://github.com/tonhowtf/omniget",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 16,
+      "fullName": "jiji262/douyin-downloader",
+      "description": "A practical Douyin downloader for both single-item and profile batch downloads, with progress display, retries, SQLite deduplication, and browser fallback support. 抖音批量下载工具，去水印，支持视频、图集、合集、音乐(原声)。",
+      "language": "Python",
+      "stars": 11353,
+      "forks": 1751,
+      "todayStars": 452,
+      "url": "https://github.com/jiji262/douyin-downloader",
+      "aiSummary": {
+        "summary": "这是一个功能全面的抖音视频下载工具，支持单视频、图集、合集、音乐及个人主页批量下载。具备去水印、进度显示、断点续传、SQLite去重及完整性校验等功能。项目还提供了一个名为Douzy的桌面应用，支持抖音、TikTok和YouTube多平台，提供可视化的任务管理和本地归档功能。",
+        "summary_en": "A Python-based downloader for Douyin, TikTok, and YouTube content featuring batch processing, SQLite deduplication, and a desktop GUI.",
+        "techStack": [
+          "Python",
+          "SQLite"
+        ],
+        "useCase": "适合需要批量下载抖音视频、图集或音乐，以及管理个人收藏夹内容的用户。",
+        "useCase_en": "Download public videos, photo posts, and profiles from Douyin, TikTok, and YouTube without signing in."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "Swordfish90/cool-retro-term",
+      "description": "A good looking terminal emulator which mimics the old cathode display...",
+      "language": "QML",
+      "stars": 26225,
+      "forks": 1016,
+      "todayStars": 57,
+      "url": "https://github.com/Swordfish90/cool-retro-term",
+      "aiSummary": {
+        "summary": "cool-retro-term 是一款模仿老式阴极射线管显示器的终端模拟器。它外观精美、可自定义且轻量级。基于 QML 和 qmltermwidget 构建，支持 Linux 和 macOS，提供复古的视觉体验和丰富的设置选项。",
+        "summary_en": "A visually appealing terminal emulator mimicking old cathode tube screens using QML and Qt6.",
+        "techStack": [
+          "QML",
+          "Qt6",
+          "qmltermwidget"
+        ],
+        "useCase": "适合追求复古视觉体验、喜欢个性化终端界面的用户在 Linux 和 macOS 上使用。",
+        "useCase_en": "For users seeking a customizable, lightweight terminal emulator with a retro cathode display aesthetic."
+      }
+    },
+    {
+      "index": 18,
+      "fullName": "huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "language": "Python",
+      "stars": 165520,
+      "forks": 34558,
+      "todayStars": 152,
+      "url": "https://github.com/huggingface/transformers",
+      "aiSummary": {
+        "summary": "Hugging Face Transformers 是一个支持文本、视觉、音频及多模态模型的机器学习框架。它集成了超过 100 万个预训练模型检查点，旨在简化 SOTA 模型的使用。该库与多种训练和推理框架兼容，提供 Pipeline API，方便开发者进行模型推理和训练，推动机器学习技术的普及。",
+        "summary_en": "A Python framework for state-of-the-art machine learning models in text, vision, audio, and multimodal tasks.",
+        "techStack": [
+          "Python",
+          "PyTorch"
+        ],
+        "useCase": "用于文本、视觉、音频及多模态模型的推理与训练开发。",
+        "useCase_en": "Run state-of-the-art machine learning models for inference and training across text, vision, and audio."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-14T01:05:19.881Z",
+    "duration": "879s",
+    "version": "1.0.0"
+  }
+}
