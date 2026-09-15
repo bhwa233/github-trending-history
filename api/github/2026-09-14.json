@@ -1,0 +1,432 @@
+{
+  "date": "2026-09-14",
+  "since": "daily",
+  "totalRepos": 20,
+  "successCount": 20,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "JustVugg/colibri",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "language": "C",
+      "stars": 32104,
+      "forks": 3388,
+      "todayStars": 2173,
+      "url": "https://github.com/JustVugg/colibri",
+      "aiSummary": {
+        "summary": "Colibri 是一个纯 C 编写的推理引擎，旨在将存储、内存和显存视为统一层级，以在消费级硬件上运行超大 MoE 模型。它支持从 744B 到 2.8T 参数的模型，通过流式传输专家优化性能，是一个专注于软件/硬件边界推理优化的开放研究平台。",
+        "summary_en": "A pure C inference engine for massive MoE models, utilizing a multitier memory hierarchy to run frontier AI on consumer hardware.",
+        "techStack": [
+          "C",
+          "MoE (混合专家模型)",
+          "AI Memory Multitiering"
+        ],
+        "useCase": "在消费级及异构硬件上运行前沿超大 MoE 模型",
+        "useCase_en": "Run massive frontier MoE models on consumer hardware with zero dependencies."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 25767,
+      "forks": 1864,
+      "todayStars": 1571,
+      "url": "https://github.com/alibaba/open-code-review",
+      "aiSummary": {
+        "summary": "OpenCodeReview 是阿里巴巴开源的高效 AI 代码审查工具，基于 Go 开发。它采用确定性管道与 LLM Agent 混合架构，能精准定位 NPE、线程安全等缺陷。相比通用 Agent，它在同等模型下精度更高、速度更快且 Token 消耗更少。支持 Git Diff 分析、全文件 OCR 审计及跨文件上下文理解，适合大规模团队提升代码质量。",
+        "summary_en": "Alibaba's battle-tested AI code review tool using Go and LLM agents for precise line-level analysis.",
+        "techStack": [
+          "Go",
+          "LLM",
+          "Git"
+        ],
+        "useCase": "适合大型企业及团队进行自动化代码质量检测与缺陷排查。",
+        "useCase_en": "Automate code reviews by analyzing Git diffs with AI agents to detect defects and security vulnerabilities."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "multimodal-art-projection/YuE",
+      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+      "language": "Python",
+      "stars": 8347,
+      "forks": 906,
+      "todayStars": 559,
+      "url": "https://github.com/multimodal-art-projection/YuE",
+      "aiSummary": {
+        "summary": "YuE2 是一个前沿的音乐生成项目，统一了符号与音频生成。它通过“白盒”符号规划实现高质量歌曲创作，支持零样本翻唱和代理式编辑。用户可基于歌词和风格生成完整歌曲，并能通过对话实时调整乐谱与风格，达到与 Suno v5/v6 相当的 frontier quality。",
+        "summary_en": "YuE2 is a frontier music generation model that unifies symbolic and audio generation for high-quality song creation and editing.",
+        "techStack": [
+          "Python",
+          "AR-NAR Mixture-of-Transformers",
+          "Symbolic Planning"
+        ],
+        "useCase": "音乐创作、零样本翻唱、AI 音乐编辑",
+        "useCase_en": "Generate high-fidelity songs from text prompts or create zero-shot covers using symbolic planning and agentic editing."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 29223,
+      "forks": 3558,
+      "todayStars": 2776,
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "aiSummary": {
+        "summary": "VoiceStudio 是一个完全本地化的 ElevenLabs 替代品，支持语音克隆、视频配音、听写和有声书制作。项目支持 646 种语言，内置 16 个 TTS 和 11 个 ASR 引擎，无需账号或订阅。提供桌面应用及 OpenAI 兼容 API，适用于个人硬件上的语音处理任务。",
+        "summary_en": "Open-source local alternative to ElevenLabs offering voice cloning, dubbing, and transcription.",
+        "techStack": [
+          "Python",
+          "Electron",
+          "Docker"
+        ],
+        "useCase": "本地语音克隆、视频配音及长音频生成",
+        "useCase_en": "Run local voice cloning, video dubbing, and transcription workflows on personal hardware."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "stars": 73158,
+      "forks": 11290,
+      "todayStars": 560,
+      "url": "https://github.com/666ghj/MiroFish",
+      "aiSummary": {
+        "summary": "MiroFish 是一个基于多智能体技术的下一代 AI 预测引擎。它通过提取现实世界的种子信息，构建高保真的平行数字世界，让数千个具有独立人格的智能体在其中自由交互演化。用户可从上帝视角注入变量，在数字沙盒中预演未来，从而获得详细的预测报告。",
+        "summary_en": "A Python-based multi-agent swarm intelligence engine that constructs parallel digital worlds to simulate real-world scenarios and predict future outcomes.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "用于在数字沙盒中模拟复杂社会事件，进行未来趋势预测和决策推演。",
+        "useCase_en": "Users upload seed data to simulate and predict future trends in politics, finance, or creative scenarios."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars": 81265,
+      "forks": 7078,
+      "todayStars": 651,
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "aiSummary": {
+        "summary": "Agent Reach 是一个为 AI Agent 提供全网访问能力的 Python CLI 工具。它支持 Twitter、Reddit、YouTube、GitHub、B站、小红书等平台，提供阅读和搜索功能。项目完全免费、开源且注重隐私，具备自动切换后端机制以应对平台封禁，兼容所有命令行 Agent。",
+        "summary_en": "A Python CLI tool that equips AI agents with internet access to read and search social platforms for free.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "Web Scraping"
+        ],
+        "useCase": "为 AI Agent 提供全网阅读与搜索能力，解决 API 付费与平台访问限制问题。",
+        "useCase_en": "Equip AI agents with the ability to read and search the open web and social platforms without API fees."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "asgeirtj/system_prompts_leaks",
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
+      "language": "JavaScript",
+      "stars": 66766,
+      "forks": 10871,
+      "todayStars": 764,
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "aiSummary": {
+        "summary": "该项目收集并整理了 Claude、ChatGPT、Gemini、Grok 等主流 AI 模型的泄露系统提示词。它详细记录了这些模型的隐藏规则和底层指令，并保持定期更新。该项目被媒体用于分析 AI 行为，揭示了 AI 在用户交互前的内部逻辑。",
+        "summary_en": "Repository containing leaked system prompts from major AI models like Claude, ChatGPT, and Gemini.",
+        "techStack": [
+          "JavaScript",
+          "Data Collection",
+          "Text Analysis"
+        ],
+        "useCase": "AI 模型行为研究、模型安全分析、媒体数据可视化",
+        "useCase_en": "Researchers and journalists analyze AI behavior and hidden instructions using leaked system prompts."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "rlaope/oh-my-hermes",
+      "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
+      "language": "Python",
+      "stars": 2047,
+      "forks": 162,
+      "todayStars": 77,
+      "url": "https://github.com/rlaope/oh-my-hermes",
+      "aiSummary": {
+        "summary": "oh-my-hermes 是一个为 Hermes Agent 设计的 All-in-one 插件，旨在增强其工作流。它作为一个操作层，提供规划、研究、编码交接和项目记忆功能，通过明确的证据边界将普通请求转化为清晰的能力和记录，强化现有工作流而不替换 Hermes。",
+        "summary_en": "An operating layer for Hermes Agent that enhances coding intelligence, memory, and workflow management.",
+        "techStack": [
+          "Python",
+          "Shell",
+          "Hermes Agent"
+        ],
+        "useCase": "需要增强 Hermes Agent 工作流并实现明确证据边界的开发者。",
+        "useCase_en": "To add a professional operating layer to Hermes Agent for planning, research, coding, and memory management."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "localsend/localsend",
+      "description": "An open-source cross-platform alternative to AirDrop",
+      "language": "Dart",
+      "stars": 91332,
+      "forks": 5096,
+      "todayStars": 251,
+      "url": "https://github.com/localsend/localsend",
+      "aiSummary": {
+        "summary": "LocalSend 是一个开源的跨平台应用，旨在替代 AirDrop。它利用 REST API 和 HTTPS 加密，允许用户在本地网络内安全地传输文件和消息，无需互联网连接或第三方服务器，支持 Android、iOS、macOS、Windows 和 Linux。",
+        "summary_en": "Open-source cross-platform alternative to AirDrop for secure local file sharing without internet.",
+        "techStack": [
+          "Dart",
+          "REST API",
+          "HTTPS"
+        ],
+        "useCase": "适用于局域网内快速、安全地传输文件和消息，无需互联网连接。",
+        "useCase_en": "Securely transfer files and messages between nearby devices on a local network without an internet connection."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "language": "Rust",
+      "stars": 67528,
+      "forks": 3212,
+      "todayStars": 115,
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的 Bitwarden 兼容服务器，专为自托管设计。它几乎完整实现了 Bitwarden 客户端 API，支持个人保险库、多因素认证、组织管理和附件等功能。相比官方服务，它更轻量级，推荐使用 Docker 部署，非常适合资源有限或希望私有化部署密码管理的用户。",
+        "summary_en": "An unofficial Bitwarden compatible server written in Rust, designed for self-hosted password management.",
+        "techStack": [
+          "Rust",
+          "Rocket",
+          "Docker"
+        ],
+        "useCase": "适合需要自托管密码管理服务且希望资源占用低、性能高的个人或团队。",
+        "useCase_en": "Running a resource-efficient, self-hosted alternative to the official Bitwarden server."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 106136,
+      "forks": 20308,
+      "todayStars": 745,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "TradingAgents 是一个基于多智能体架构的金融交易框架，利用 LLM 进行市场研究和交易决策。支持多种主流大模型（如 GPT-5.x, Claude 4.x）和数据源（FRED, Polymarket），具备回测、情绪分析和决策日志功能，旨在通过 AI 智能体实现自动化量化交易。",
+        "summary_en": "A Python framework for building autonomous financial trading agents using LLMs.",
+        "techStack": [
+          "Python",
+          "LangGraph",
+          "LLM (GPT-5.x, Claude 4.x, etc.)",
+          "Docker"
+        ],
+        "useCase": "构建基于大语言模型的自动化量化交易系统及金融研究分析。",
+        "useCase_en": "To build and deploy autonomous financial trading agents using large language models."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 93844,
+      "forks": 12433,
+      "todayStars": 383,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 感知平台，利用 WiFi 信号进行空间智能分析。它无需摄像头或可穿戴设备，即可实现穿墙检测、生命体征监测（呼吸/心率）、活动识别（如跌倒）及睡眠质量分析。项目原生支持 Home Assistant、Apple Home、Google Home 和 Amazon Alexa 等主流智能家居生态，通过 MQTT 和 Matter 协议提供丰富的实体状态和语音控制能力。",
+        "summary_en": "Rust-based WiFi sensing platform that converts radio signals into spatial intelligence for presence detection and vital sign monitoring.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "MQTT",
+          "Matter",
+          "Home Assistant"
+        ],
+        "useCase": "适用于需要非接触式人体存在检测、生命体征监测及智能家居集成的场景。",
+        "useCase_en": "Enable contactless vital sign monitoring and occupancy detection through walls using commodity WiFi signals."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "tech-leads-club/agent-skills",
+      "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+      "language": "TypeScript",
+      "stars": 6061,
+      "forks": 517,
+      "todayStars": 512,
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "aiSummary": {
+        "summary": "这是一个为专业AI编码代理提供的安全、验证技能注册表。它通过打包的指令和资源（技能）扩展Claude Code、Cursor、Copilot等代理的能力。项目强调安全与信任，采用100%开源、静态分析、内容哈希和人工审核等机制，确保技能库无漏洞，为AI开发提供可信的插件生态。",
+        "summary_en": "A hardened library of verified skills for extending AI coding agents with security.",
+        "techStack": [
+          "TypeScript",
+          "MCP Server",
+          "CLI"
+        ],
+        "useCase": "为各类AI编程助手（如Cursor、Copilot）提供安全、可验证的插件扩展。",
+        "useCase_en": "Extend AI coding agents like Cursor and Copilot with secure, pre-verified capabilities."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "stars": 37367,
+      "forks": 4246,
+      "todayStars": 216,
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "aiSummary": {
+        "summary": "VoxCPM2 是一个基于 MiniCPM-4 的 2B 参数多语言 TTS 系统，采用无分词器扩散自回归架构。支持 30 种语言、声音设计及高质量克隆，输出 48kHz 音频，具备实时流式传输能力，完全开源且商业可用。",
+        "summary_en": "VoxCPM2 is a tokenizer-free TTS system using diffusion architecture for multilingual speech generation and voice cloning.",
+        "techStack": [
+          "Python",
+          "Diffusion Autoregressive",
+          "MiniCPM-4",
+          "AudioVAE V2",
+          "vLLM"
+        ],
+        "useCase": "多语言语音合成、个性化声音克隆及创意声音设计",
+        "useCase_en": "Generate high-quality multilingual speech and clone voices using text descriptions or audio clips."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "language": "Python",
+      "stars": 165974,
+      "forks": 34578,
+      "todayStars": 536,
+      "url": "https://github.com/huggingface/transformers",
+      "aiSummary": {
+        "summary": "Transformers 是一个用于文本、视觉、音频和多模态模型的模型定义框架，支持推理和训练。它连接了训练框架、推理引擎和建模库，拥有超过100万个模型检查点，旨在民主化最先进机器学习模型的使用。",
+        "summary_en": "A framework for state-of-the-art ML models in text, vision, audio, and multimodal tasks.",
+        "techStack": [
+          "Python",
+          "PyTorch"
+        ],
+        "useCase": "用于构建和部署最先进的文本、视觉、音频及多模态机器学习模型。",
+        "useCase_en": "Run state-of-the-art machine learning models for inference and training across text, vision, audio, and multimodal tasks"
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "ever-co/ever-gauzy",
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+      "language": "TypeScript",
+      "stars": 5984,
+      "forks": 986,
+      "todayStars": 1130,
+      "url": "https://github.com/ever-co/ever-gauzy",
+      "aiSummary": {
+        "summary": "Ever Gauzy 是一个开源的商业管理平台，集成了 ERP、CRM、HRM、ATS 和项目管理等核心模块。它提供时间追踪、财务管理和供应链解决方案，旨在为协作经济提供全面的业务支持。",
+        "summary_en": "Open Business Management Platform (ERP/CRM/HRM/ATS/PM) built with TypeScript.",
+        "techStack": [
+          "TypeScript",
+          "Headless APIs"
+        ],
+        "useCase": "适用于需要一体化管理企业资源、客户关系、人力资源及项目进度的企业或团队。",
+        "useCase_en": "A comprehensive all-in-one solution for managing enterprise operations, human resources, projects, and finances."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "Crosstalk-Solutions/project-nomad",
+      "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+      "language": "TypeScript",
+      "stars": 36909,
+      "forks": 3686,
+      "todayStars": 40,
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "aiSummary": {
+        "summary": "Project NOMAD 是一个离线优先的知识与教育服务器，集成了维基百科、书籍、课程、地图及可选本地 AI。它通过 Docker 容器化技术提供命令中心管理界面，支持在 Debian/Ubuntu 系统上快速部署，旨在让用户在无互联网环境下掌控自有硬件上的知识与数据。",
+        "summary_en": "An offline-first knowledge server providing Wikipedia, books, and local AI tools.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Debian/Ubuntu"
+        ],
+        "useCase": "适合在无网络环境下搭建个人知识库、进行离线教育或部署本地 AI。",
+        "useCase_en": "To host a self-contained offline knowledge base and education server on your own hardware."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "reconurge/flowsint",
+      "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
+      "language": "TypeScript",
+      "stars": 8344,
+      "forks": 1028,
+      "todayStars": 280,
+      "url": "https://github.com/reconurge/flowsint",
+      "aiSummary": {
+        "summary": "Flowsint 是一个开源的 OSINT 图探索工具，专为网络安全分析师设计。它提供可视化的、灵活的基于图的研究平台，支持数据存储在本地以保护隐私。项目使用 TypeScript 开发，通过 Docker 快速部署，适用于道德调查和透明度验证。",
+        "summary_en": "An open-source OSINT graph exploration platform designed for visual, ethical cybersecurity investigations.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Docker Compose"
+        ],
+        "useCase": "网络安全调查与 OSINT 图谱分析",
+        "useCase_en": "Cybersecurity analysts and investigators use this tool to visually explore graph-based OSINT data for ethical verificati"
+      }
+    },
+    {
+      "index": 18,
+      "fullName": "peetzweg/opendisplay",
+      "description": "Free, open-source Sidecar/Duet alternative — use your iPhone or iPad as a true second monitor for your Mac over USB or WiFi. Low latency H.264, Retina HiDPI, touch input.",
+      "language": "Swift",
+      "stars": 3576,
+      "forks": 251,
+      "todayStars": 229,
+      "url": "https://github.com/peetzweg/opendisplay",
+      "aiSummary": {
+        "summary": "这是一个开源免费的 Mac 扩展显示器工具，支持 iPhone 和 iPad。它通过 USB 或 WiFi 连接，提供低延迟、Retina 高清显示和触摸输入功能。作为 Sidecar 的替代品，它无需订阅或硬件加密狗，允许用户将闲置设备变成真正的第二屏幕。",
+        "summary_en": "Free, open-source tool to use your iPhone or iPad as a second monitor for your Mac over USB or WiFi.",
+        "techStack": [
+          "Swift",
+          "macOS"
+        ],
+        "useCase": "将闲置的 iPhone 或 iPad 作为 Mac 的第二显示器使用",
+        "useCase_en": "Turn spare Apple devices into a second monitor for your Mac with low latency and touch support."
+      }
+    },
+    {
+      "index": 19,
+      "fullName": "SnailSploit/Claude-Red",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "language": "Python",
+      "stars": 4740,
+      "forks": 631,
+      "todayStars": 579,
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "aiSummary": {
+        "summary": "这是一个为Claude AI设计的攻击性安全技能库，包含SQL注入、shellcode、EDR规避等多种攻击手法。通过结构化的SKILL.md文件，将Claude转化为具备特定领域知识的红队操作员。支持按需加载，适用于授权渗透测试、漏洞赏金和CTF等场景。",
+        "summary_en": "A curated library of offensive security skills for the Claude AI model.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "授权红队行动、漏洞赏金分析、CTF 备赛及安全研究",
+        "useCase_en": "Turns Claude into a context-aware red team operator for authorized security engagements."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-15T01:24:38.604Z",
+    "duration": "472s",
+    "version": "1.0.0"
+  }
+}
