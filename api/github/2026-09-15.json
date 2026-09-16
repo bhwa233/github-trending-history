@@ -1,0 +1,306 @@
+{
+  "date": "2026-09-15",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 28607,
+      "forks": 2049,
+      "todayStars": 2756,
+      "url": "https://github.com/alibaba/open-code-review",
+      "aiSummary": {
+        "summary": "这是一个源自阿里巴巴内部的高效 AI 代码审查 CLI 工具。它采用确定性管道结合 LLM Agent 的混合架构，能生成精确的行级评论。内置多语言规则集，支持 OCR 扫描。在基准测试中，相比通用 Agent 具有更高的精确度和 F1 分数，且 Token 消耗更低。",
+        "summary_en": "Battle-tested AI code review tool from Alibaba, optimized for high precision and low token usage.",
+        "techStack": [
+          "Go",
+          "LLM (OpenAI/Anthropic)",
+          "OCR"
+        ],
+        "useCase": "适用于大规模代码库的自动化代码审查，旨在以高精度识别代码缺陷并提供行级反馈。",
+        "useCase_en": "Automate code review processes to detect defects and security vulnerabilities with high precision."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "JustVugg/colibri",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "language": "C",
+      "stars": 33854,
+      "forks": 3545,
+      "todayStars": 2026,
+      "url": "https://github.com/JustVugg/colibri",
+      "aiSummary": {
+        "summary": "Colibrì 是一个纯 C 语言编写的轻量级推理引擎，旨在让用户在现有硬件上运行大规模 MoE 模型。它通过将存储、内存和显存视为统一层级，实现专家模型的磁盘流式加载。项目支持从 744B 到 2.8T 参数的多种前沿模型，致力于降低大模型运行门槛和成本，同时保证语义准确性。",
+        "summary_en": "Pure C inference engine for massive MoE models (744B-2.8T params) using a multitier memory hierarchy.",
+        "techStack": [
+          "C",
+          "MoE",
+          "零依赖",
+          "流式加载"
+        ],
+        "useCase": "在消费级或异构硬件上运行超大规模 MoE 模型，探索极致的推理性能和内存优化。",
+        "useCase_en": "Run massive frontier MoE models on consumer and heterogeneous hardware by treating storage, RAM, and VRAM as a single hi"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "ever-co/ever-gauzy",
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+      "language": "TypeScript",
+      "stars": 6673,
+      "forks": 1029,
+      "todayStars": 634,
+      "url": "https://github.com/ever-co/ever-gauzy",
+      "aiSummary": {
+        "summary": "Ever Gauzy 是一个基于 TypeScript 的开源商业管理平台，专为协作、按需和共享经济设计。它集成了 ERP、CRM、HRM、ATS 和项目管理功能，提供时间追踪、活动监控、财务管理和库存控制等全面解决方案，支持 Headless API 和仪表盘。",
+        "summary_en": "Open-source business management platform offering ERP, CRM, HRM, and project management tools.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要一体化业务管理解决方案的企业，涵盖人力资源、财务、销售和项目管理。",
+        "useCase_en": "A comprehensive open-source solution for managing enterprise operations including HR, finance, and projects."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 30993,
+      "forks": 3699,
+      "todayStars": 2072,
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "aiSummary": {
+        "summary": "VoiceStudio 是一个开源的本地化 ElevenLabs 替代品，基于 Python 开发。它支持语音克隆、语音设计、视频配音、听写及有声书创作，覆盖 646 种语言。项目集成了 16 个 TTS 和 11 个 ASR 引擎，支持 macOS、Windows 和 Linux，无需账号或订阅即可在本地运行。目前处于活跃 Beta 阶段，提供桌面应用及多种 API 接口。",
+        "summary_en": "Open-source, local-first alternative to ElevenLabs for voice cloning, dubbing, and transcription.",
+        "techStack": [
+          "Python",
+          "Electron",
+          "Docker"
+        ],
+        "useCase": "本地化语音克隆、视频配音及离线 AI 语音处理",
+        "useCase_en": "Clone voices and dub videos locally without cloud dependencies or API keys."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "Homebrew/BrewUI",
+      "description": "📺 Homebrew's official macOS GUI",
+      "language": "Swift",
+      "stars": 1367,
+      "forks": 29,
+      "todayStars": 271,
+      "url": "https://github.com/Homebrew/BrewUI",
+      "aiSummary": {
+        "summary": "Homebrew/BrewUI 是 Homebrew 官方的 macOS 图形界面工具。它利用 SwiftUI 构建，允许用户通过图形方式安全地安装、更新和管理软件包，同时保持对底层操作的完全透明。项目支持严格的并发控制和配置隔离。",
+        "summary_en": "Official macOS GUI for Homebrew package management using SwiftUI.",
+        "techStack": [
+          "Swift 6.0",
+          "SwiftUI",
+          "Swift Package Manager",
+          "macOS"
+        ],
+        "useCase": "为偏好图形界面而非命令行的 macOS 用户提供的 Homebrew 包管理解决方案。",
+        "useCase_en": "Provides a native macOS GUI for users to discover, install, and manage Homebrew packages transparently."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "melgarafael/DeskcommCRM",
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "language": "TypeScript",
+      "stars": 2839,
+      "forks": 682,
+      "todayStars": 193,
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "aiSummary": {
+        "summary": "DeskcommCRM 是一个开源的 AI 销售操作系统。它是一个自托管的 CRM，集成了原生 AI 代理和 WhatsApp（WAHA）。它旨在成为 Kommo、Octadesk 和 Intercom 的开源替代方案，支持多租户和 LGPD 合规，无需订阅费用。",
+        "summary_en": "Self-hosted CRM with native AI agents for WhatsApp sales automation.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "任何通过聊天进行销售的企业",
+        "useCase_en": "An open-source, self-hosted CRM alternative for businesses managing sales via WhatsApp using AI agents."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "alphaXiv/OpenResearch",
+      "description": "Turn your coding agents into research agents",
+      "language": "Rust",
+      "stars": 3366,
+      "forks": 223,
+      "todayStars": 531,
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "aiSummary": {
+        "summary": "OpenResearch 是一个基于 Rust 的本地优先研究工作空间，旨在将 Claude Code、Codex 等编码代理转化为强大的研究代理。它支持并行探索、基于 Git 的可复现实验追踪以及上下文证据管理，允许用户在本地或云端运行自主研究循环。",
+        "summary_en": "A Rust-based local-first workspace that transforms coding agents into autonomous research agents for literature review and experimentation.",
+        "techStack": [
+          "Rust",
+          "Git",
+          "Claude Code",
+          "Codex",
+          "OpenCode"
+        ],
+        "useCase": "将编码代理转化为研究代理，用于文献综述、假设开发和实验验证。",
+        "useCase_en": "Turn coding agents into autonomous research agents for literature review, hypothesis development, and reproducible exper"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "language": "Java",
+      "stars": 76713,
+      "forks": 8458,
+      "todayStars": 725,
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "aiSummary": {
+        "summary": "Ghidra 是由美国国家安全局（NSA）创建和维护的软件逆向工程（SRE）框架。它提供了一套全功能的分析工具，支持反汇编、反编译、汇编和脚本编写等功能，能够分析多种平台和指令集的编译代码。该框架支持用户交互和自动化模式，并允许通过 Java 或 Python 开发扩展组件，旨在解决复杂 SRE 任务的扩展和团队协作问题。",
+        "summary_en": "A software reverse engineering framework created by the NSA for analyzing compiled code.",
+        "techStack": [
+          "Java",
+          "Python"
+        ],
+        "useCase": "用于恶意代码分析、漏洞挖掘及网络安全防御研究。",
+        "useCase_en": "Analyze compiled code and malware to understand vulnerabilities in networks and systems."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "danny-avila/LibreChat",
+      "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+      "language": "TypeScript",
+      "stars": 43845,
+      "forks": 9024,
+      "todayStars": 254,
+      "url": "https://github.com/danny-avila/LibreChat",
+      "aiSummary": {
+        "summary": "LibreChat 是一个功能强大的开源 ChatGPT 克隆版，支持多种 AI 模型（如 GPT-5、Claude、Gemini 等）。它具备 Agents、MCP、Code Interpreter 等高级功能，支持多用户认证和自托管。最新版本引入了 Agent 管理 API、工作区、代码审批及上下文压缩等特性，提供统一的 UI 和可观测性，适合需要高度定制化和多模型协作的开发者或团队。",
+        "summary_en": "Open-source, self-hosted ChatGPT clone with multi-provider AI support and advanced agent features.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "React"
+        ],
+        "useCase": "适合需要自托管、多模型协作及高级 AI 功能（如 Agents、Code Interpreter）的开发者或团队。",
+        "useCase_en": "A self-hosted platform for building and managing AI agents with support for multiple providers."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "pacifio/atlas",
+      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+      "language": "Rust",
+      "stars": 4631,
+      "forks": 280,
+      "todayStars": 91,
+      "url": "https://github.com/pacifio/atlas",
+      "aiSummary": {
+        "summary": "Atlas 是专为 AI 编码代理设计的源代码控制系统。它支持多代理并行运行，通过共享内存实现上下文互通，避免重复工作。项目详细跟踪提示、工具调用和推理过程，数据默认本地存储，旨在解决 AI 编码代理缺乏推理记录和上下文共享的问题。",
+        "summary_en": "A source control system for AI coding agents that tracks prompts, tool calls, and reasoning.",
+        "techStack": [
+          "Rust",
+          "Tauri"
+        ],
+        "useCase": "适用于需要管理多个 AI 编码代理、追踪其推理过程并实现上下文共享的开发场景。",
+        "useCase_en": "Manage and query the reasoning and changes produced by multiple AI coding agents."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "MG1937/ASC",
+      "description": "ASC is a super FAST Android decompiler front-end designed for Agents/Mobile Researchers.",
+      "language": "Python",
+      "stars": 1180,
+      "forks": 196,
+      "todayStars": 129,
+      "url": "https://github.com/MG1937/ASC",
+      "aiSummary": {
+        "summary": "ASC 是一个专为移动研究人员设计的极速 Android 反编译前端。它通过直接查询 Deflate 位流和利用 R8 编译器优化（如确定性常量重定位），避免了传统工具的内存膨胀和预处理瓶颈。实现了毫秒级的代码搜索和 O(1) 指令定位，极大提升了反编译效率。",
+        "summary_en": "A high-performance Android decompiler front-end that queries APKs directly as a database for rapid code analysis.",
+        "techStack": [
+          "Python",
+          "Android APK",
+          "R8 Compiler Optimization",
+          "Deflate Bitstream"
+        ],
+        "useCase": "适用于移动安全研究人员及自动化分析代理，用于快速处理海量 Android APK。",
+        "useCase_en": "Used by mobile researchers and agents to perform lightning-fast code analysis on Android APKs."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 94807,
+      "forks": 10061,
+      "todayStars": 307,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "为 AI 编码代理提供生产级工程技能，包含 9 个斜杠命令覆盖开发全流程。它封装了资深工程师的最佳实践，支持上下文自动激活和单次批准的自主执行，确保 AI 在各阶段遵循一致的质量标准。",
+        "summary_en": "A toolkit of production-grade engineering skills and workflows for AI coding agents to follow during the software development lifecycle.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "适用于需要 AI 编码代理遵循严格工程规范和最佳实践的开发场景。",
+        "useCase_en": "Guide AI coding agents through the software development lifecycle using standardized commands and best practices."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "tonhowtf/omniget",
+      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
+      "language": "Rust",
+      "stars": 12941,
+      "forks": 1101,
+      "todayStars": 258,
+      "url": "https://github.com/tonhowtf/omniget",
+      "aiSummary": {
+        "summary": "OmniGet 是一款基于 Rust 开发的跨平台桌面应用，支持从 1800+ 网站下载课程、视频、音乐和书籍。它集成了 yt-dlp 和 FFmpeg，提供无终端的一键下载体验，内置播放器和阅读器，且完全开源免费，注重用户隐私。",
+        "summary_en": "Free open-source desktop app to download courses, videos, and media from 1800+ sites using yt-dlp.",
+        "techStack": [
+          "Rust",
+          "yt-dlp",
+          "FFmpeg"
+        ],
+        "useCase": "需要一站式下载课程、视频和媒体文件的跨平台用户。",
+        "useCase_en": "Download and study content from 1800+ sites like Udemy and YouTube with a user-friendly desktop interface."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "language": "TypeScript",
+      "stars": 105716,
+      "forks": 13287,
+      "todayStars": 458,
+      "url": "https://github.com/earendil-works/pi",
+      "aiSummary": {
+        "summary": "这是一个名为 Pi 的 AI Agent 工具包，基于 TypeScript 开发。它包含统一的 LLM API、Agent 运行时、TUI 终端界面以及交互式编码 CLI。项目旨在提供可扩展的 AI 编码能力，支持多模型提供商，并具备状态管理和工具调用功能。",
+        "summary_en": "TypeScript AI agent toolkit featuring unified LLM APIs and coding capabilities.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "TUI",
+          "LLM API"
+        ],
+        "useCase": "适用于构建交互式 AI 编码助手，支持多模型统一调用与终端交互。",
+        "useCase_en": "Develop and deploy AI coding agents with a unified interface for multiple LLM providers."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-16T01:16:50.830Z",
+    "duration": "352s",
+    "version": "1.0.0"
+  }
+}
