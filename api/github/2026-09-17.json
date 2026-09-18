@@ -1,0 +1,433 @@
+{
+  "date": "2026-09-17",
+  "since": "daily",
+  "totalRepos": 20,
+  "successCount": 20,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 34768,
+      "forks": 2473,
+      "todayStars": 3286,
+      "url": "https://github.com/alibaba/open-code-review",
+      "aiSummary": {
+        "summary": "这是一个由阿里巴巴开源的 AI 代码审查 CLI 工具。它采用确定性管道与 LLM Agent 混合架构，能精准识别 NPE、线程安全等缺陷。相比通用 Agent，它在相同模型下精度更高、Token 消耗更低。支持 Git Diff、OCR 扫描及跨文件上下文分析，已在阿里巴巴大规模实战验证。",
+        "summary_en": "Alibaba's battle-tested AI code review tool using Go and LLMs for precise line-level analysis.",
+        "techStack": [
+          "Go",
+          "LLM (OpenAI/Anthropic)",
+          "Git"
+        ],
+        "useCase": "适用于需要高效、精准代码审查的团队，特别是处理大规模代码库和复杂缺陷检测的场景。",
+        "useCase_en": "Automate code review by analyzing Git diffs with an AI agent for precise defect detection."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 10673,
+      "forks": 570,
+      "todayStars": 3607,
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "aiSummary": {
+        "summary": "这是一个由 Cloudflare 开发的编码代理技能，旨在将 AI 代理转化为安全审计员。它通过六个阶段（侦察、狩猎、验证、输出、独立验证、报告）自动化安全审计流程，生成机器可读的发现结果，并强调独立验证以确保准确性。它支持增量审计，利用历史记录定位漏洞。",
+        "summary_en": "A JavaScript skill for orchestrating multi-phase security audits with independent verification.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "适用于自动化代码安全审计与漏洞发现，特别是需要结构化报告和独立验证的场景。",
+        "useCase_en": "Automate security audits by orchestrating agents to map architecture, hunt for vulnerabilities, and verify findings inde"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 95855,
+      "forks": 10145,
+      "todayStars": 680,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供生产级工程技能，包含 9 个覆盖开发全生命周期的斜杠命令。它封装了资深工程师的最佳实践，确保 AI 在代码质量、测试驱动和性能优化上保持一致性。支持自动技能激活和一键式开发流程，旨在减少人工干预，提升开发效率。",
+        "summary_en": "A collection of production-grade engineering skills and workflows designed to guide AI coding agents through the software development lifecycle.",
+        "techStack": [
+          "JavaScript",
+          "CLI"
+        ],
+        "useCase": "为 AI 编码代理提供标准化的工程工作流程和质量门控",
+        "useCase_en": "To provide AI coding agents with a structured set of engineering skills and commands to build production-ready software."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Tencent/BrowserSkill",
+      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "language": "TypeScript",
+      "stars": 4154,
+      "forks": 295,
+      "todayStars": 1302,
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "aiSummary": {
+        "summary": "BrowserSkill 是腾讯开源的浏览器自动化工具，允许 AI 代理在不中断用户工作的情况下，借用已登录的浏览器标签页执行任务。它通过 CLI 和浏览器扩展连接各类 AI Agent，支持复用真实登录状态、内置人工介入（如验证码）及全页截图等功能，旨在提升 AI 辅助开发的效率与体验。",
+        "summary_en": "Connects AI agents to your logged-in browser via CLI and extension for seamless automation.",
+        "techStack": [
+          "TypeScript",
+          "CLI",
+          "浏览器扩展",
+          "Chrome/Edge"
+        ],
+        "useCase": "AI 代理辅助开发、自动化网页操作及需要复用浏览器登录状态的场景",
+        "useCase_en": "Allow AI agents to automate browser tasks using your existing login state without interrupting your workflow."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "alphaXiv/OpenResearch",
+      "description": "Turn your coding agents into research agents",
+      "language": "Rust",
+      "stars": 4955,
+      "forks": 306,
+      "todayStars": 939,
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "aiSummary": {
+        "summary": "OpenResearch 是一个基于 Rust 的本地优先工作空间，旨在将 Claude Code、Codex 等编码代理转化为研究代理。它支持并行探索、可重现的实验和自主闭环研究。用户可以在本地、SSH 或云端运行实验，保持数据所有权，并利用 Git 管理实验变体和证据。",
+        "summary_en": "A Rust-based local-first workspace that transforms coding agents into autonomous research agents with parallel exploration and reproducible experiments.",
+        "techStack": [
+          "Rust",
+          "Git"
+        ],
+        "useCase": "适用于研究人员利用 AI 代理进行自动化文献综述、假设开发和可重现实验。",
+        "useCase_en": "Turn coding agents like Claude Code into autonomous research agents capable of reviewing literature, running experiments"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "stars": 145872,
+      "forks": 23639,
+      "todayStars": 538,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code 是一个运行在终端中的代理编码工具，基于 TypeScript 开发。它能够理解代码库，通过自然语言命令帮助开发者执行常规任务、解释复杂代码以及处理 Git 工作流。项目支持多种安装方式，并包含插件系统以扩展功能。",
+        "summary_en": "An agentic coding tool for the terminal that automates tasks and explains code via natural language.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要通过自然语言快速编写代码、解释复杂逻辑或自动化 Git 工作流的开发者场景。",
+        "useCase_en": "Automate routine coding tasks and explain codebases using natural language commands in the terminal."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "language": "Java",
+      "stars": 78491,
+      "forks": 8684,
+      "todayStars": 912,
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "aiSummary": {
+        "summary": "Ghidra 是美国国家安全局（NSA）开发的软件逆向工程（SRE）框架。它提供了一套功能强大的分析工具，支持反汇编、汇编、反编译和脚本编写等功能，适用于 Windows、macOS 和 Linux 平台。该框架旨在解决复杂 SRE 任务中的扩展和团队协作问题，广泛用于恶意代码分析和网络安全漏洞研究，并允许用户通过 Java 或 Python 进行二次开发。",
+        "summary_en": "Ghidra is a comprehensive software reverse engineering framework maintained by the NSA for analyzing compiled code.",
+        "techStack": [
+          "Java"
+        ],
+        "useCase": "恶意代码分析与网络安全漏洞研究",
+        "useCase_en": "Analyze compiled code and malicious software to identify vulnerabilities and security threats."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 24565,
+      "forks": 2943,
+      "todayStars": 287,
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "aiSummary": {
+        "summary": "这是一个开源的插件仓库，旨在将 Claude 转变为特定角色的专家。它包含生产力、销售、客服等11个插件，支持与 Slack、Jira 等工具集成。用户可以自定义工作流程和数据源，帮助团队提高协作效率和一致性。",
+        "summary_en": "Open-source plugins that customize Claude for specific roles, teams, and workflows.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "帮助知识工作者通过定制化插件，将 Claude 集成到团队工具中，实现更高效的专业工作流程。",
+        "useCase_en": "To customize Claude for specific roles and workflows by bundling skills, connectors, and slash commands."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "stars": 26225,
+      "forks": 3553,
+      "todayStars": 1125,
+      "url": "https://github.com/Tencent/WeKnora",
+      "aiSummary": {
+        "summary": "WeKnora 是一个基于 Go 语言的开源 LLM 知识框架，旨在将原始文档转化为可查询的 RAG、自主推理代理和自维护 Wiki。它具备企业级文档理解能力，支持多源数据摄取、ReAct 智能体编排、知识图谱构建及长期记忆功能，提供完善的权限管理和多工作空间支持，适合构建智能知识库和自动化文档处理系统。",
+        "summary_en": "An open-source LLM knowledge platform enabling RAG, autonomous agents, and self-maintaining wikis for enterprise document management.",
+        "techStack": [
+          "Go",
+          "LLM",
+          "RAG",
+          "Docker"
+        ],
+        "useCase": "企业级文档智能处理、知识库构建与自动化问答系统",
+        "useCase_en": "Transform raw documents into a queryable RAG and autonomous reasoning agent for enterprise knowledge management."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "abue-ammar/tinycast",
+      "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
+      "language": "Swift",
+      "stars": 6151,
+      "forks": 286,
+      "todayStars": 739,
+      "url": "https://github.com/abue-ammar/tinycast",
+      "aiSummary": {
+        "summary": "Tinycast 是一款轻量级、完全原生的 macOS 启动器。基于 SwiftUI 和 AppKit 开发，零第三方依赖，无 Electron 和遥测。支持运行原生 Raycast 扩展，具备应用启动、全局热键、文件搜索、剪贴板历史、计算器、快捷方式、代码片段、窗口管理及系统操作等功能。完全免费开源，适合追求高效与隐私的 macOS 用户。",
+        "summary_en": "A native macOS productivity launcher offering app launching, hotkeys, clipboard history, and window management.",
+        "techStack": [
+          "Swift",
+          "SwiftUI",
+          "AppKit"
+        ],
+        "useCase": "macOS 用户追求高效、原生且无隐私泄露的快捷操作工具",
+        "useCase_en": "A productivity utility for macOS users to launch apps, manage windows, and access clipboard history via global hotkeys."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "cilium/cilium",
+      "description": "eBPF-based Networking, Security, and Observability",
+      "language": "Go",
+      "stars": 25268,
+      "forks": 4073,
+      "todayStars": 111,
+      "url": "https://github.com/cilium/cilium",
+      "aiSummary": {
+        "summary": "Cilium 是一个基于 eBPF 的网络、安全与可观测性解决方案。它提供扁平的 Layer 3 网络，支持多集群和 L7 协议感知。通过基于身份的安全模型，它实现了高效的分布式负载均衡，可完全替代 kube-proxy，并提供带宽管理、服务网格及深度网络监控能力。",
+        "summary_en": "Cilium provides eBPF-based networking, security, and observability for Kubernetes clusters.",
+        "techStack": [
+          "Go",
+          "eBPF",
+          "Linux Kernel"
+        ],
+        "useCase": "高性能容器网络与微服务安全治理",
+        "useCase_en": "Secure and observe network traffic in Kubernetes clusters using eBPF."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "language": "TypeScript",
+      "stars": 54850,
+      "forks": 6825,
+      "todayStars": 667,
+      "url": "https://github.com/jamiepine/voicebox",
+      "aiSummary": {
+        "summary": "Voicebox 是一个本地运行的 AI 声音工作室，开源免费。它支持 23 种语言和 7 种 TTS 引擎，具备零样本声音克隆、表情语音标签及丰富的后处理效果。集成了语音输入输出，支持全局听写和故事编辑，完全保护用户隐私，是 ElevenLabs 和 WisprFlow 的强大本地替代方案。",
+        "summary_en": "Open-source AI voice studio for cloning, dictation, and speech generation.",
+        "techStack": [
+          "TypeScript",
+          "Whisper",
+          "Qwen3-TTS",
+          "LuxTTS",
+          "Kokoro"
+        ],
+        "useCase": "适用于本地化语音合成、声音克隆及隐私敏感的语音交互场景。",
+        "useCase_en": "Generate speech and clone voices locally without cloud dependency."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 261176,
+      "forks": 39097,
+      "todayStars": 1171,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个代理性能优化系统，为 Claude Code、Codex 等提供协调的工程工具箱。它通过计划、测试、实现、审查、验证、记住和改进的闭环工作流，优化上下文窗口，提供记忆、安全性和技能库，支持多平台开发。",
+        "summary_en": "An open-source agent harness optimization system that provides skills, memory, and security for AI coding tools.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "GitHub App"
+        ],
+        "useCase": "适用于为 AI 代理（如 Claude Code）提供结构化开发流程、记忆管理和技能库，以提升代码生成质量和工程效率的场景。",
+        "useCase_en": "To enhance AI coding agents by providing a structured engineering system with skills, memory, and security features."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "roboflow/supervision",
+      "description": "We write your reusable computer vision tools. 💜",
+      "language": "Python",
+      "stars": 50802,
+      "forks": 4828,
+      "todayStars": 329,
+      "url": "https://github.com/roboflow/supervision",
+      "aiSummary": {
+        "summary": "Roboflow Supervision 是一个 Python 计算机视觉工具库，旨在提供可复用的开发组件。它支持多种主流 AI 模型（如 Ultralytics、Transformers），提供高度可定制的注释器用于可视化检测结果，并涵盖从数据加载到实时区域计数的全流程辅助，帮助开发者专注于应用逻辑构建。",
+        "summary_en": "A Python toolkit for reusable computer vision building blocks and annotations.",
+        "techStack": [
+          "Python",
+          "Computer Vision",
+          "Model Agnostic"
+        ],
+        "useCase": "计算机视觉应用开发，特别是模型推理结果的可视化与数据处理",
+        "useCase_en": "Focus on building computer vision applications by providing reusable tools for data loading, annotation, and model integ"
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "JustVugg/colibri",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "language": "C",
+      "stars": 35743,
+      "forks": 3754,
+      "todayStars": 873,
+      "url": "https://github.com/JustVugg/colibri",
+      "aiSummary": {
+        "summary": "Colibri 是一个纯 C 编写的零依赖推理引擎，旨在消费级硬件上运行前沿 MoE 模型。它通过 AI 内存多层级技术，将存储、RAM 和 VRAM 统一管理，支持 744B 到 2.8T 参数的大模型，旨在降低运行成本并减少对稀缺硬件的依赖。",
+        "summary_en": "Pure C inference engine for massive MoE models using multitier memory hierarchy",
+        "techStack": [
+          "C",
+          "MoE (Mixture of Experts)",
+          "AI Memory Multitiering"
+        ],
+        "useCase": "在本地消费级硬件上运行超大参数的前沿 MoE 模型",
+        "useCase_en": "Running massive frontier MoE models on consumer hardware with zero dependencies"
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "TencentCloud/Octop",
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "language": "Python",
+      "stars": 3447,
+      "forks": 358,
+      "todayStars": 367,
+      "url": "https://github.com/TencentCloud/Octop",
+      "aiSummary": {
+        "summary": "Octop 是一个基于 Python 的开源自托管 AI 助手，采用多智能体架构。它支持多用户、多场景专家库和 MBTI 人格，确保数据隐私。提供 Web、IM 及 IDE 集成，具备强大的知识库、连接器和插件生态，适合团队与个人构建本地化智能环境。",
+        "summary_en": "A self-hosted, multi-agent AI assistant designed for teams and individuals with multi-user support.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "PostgreSQL",
+          "S3/COS",
+          "Harness-memory"
+        ],
+        "useCase": "适合需要隐私保护、多角色协作及本地化部署的团队、家庭或个人，用于构建专属的 AI 智能助手环境。",
+        "useCase_en": "Self-host a multi-agent AI assistant to manage tasks, knowledge bases, and communications privately."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "ever-co/ever-gauzy",
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+      "language": "TypeScript",
+      "stars": 7545,
+      "forks": 1121,
+      "todayStars": 470,
+      "url": "https://github.com/ever-co/ever-gauzy",
+      "aiSummary": {
+        "summary": "Ever Gauzy 是一个开源的一体化商业管理平台，集成了 ERP、CRM、HRM、ATS 和项目管理等核心模块。它提供时间追踪、财务管理和库存控制等功能，旨在为协作经济提供全面的业务解决方案。",
+        "summary_en": "An open-source business management platform (ERP/CRM/HRM/ATS/PM) built with TypeScript to manage HR, projects, and finances.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要一体化企业管理系统的企业，涵盖人力资源、财务、销售和项目管理等全流程业务。",
+        "useCase_en": "A comprehensive solution for managing enterprise resources, human resources, and business operations."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "cline/cline",
+      "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+      "language": "TypeScript",
+      "stars": 68560,
+      "forks": 7415,
+      "todayStars": 380,
+      "url": "https://github.com/cline/cline",
+      "aiSummary": {
+        "summary": "Cline 是一个开源的自主编码代理，支持 CLI、桌面应用、VS Code 和 JetBrains 插件等多种形式。基于 TypeScript 构建，提供交互式和无头模式。它具备跨项目编辑、理解代码结构及自动修复错误的能力。此外，还提供 SDK 用于构建自定义 AI 代理和集成。",
+        "summary_en": "Open-source AI coding agent available as an SDK, CLI, and IDE extensions.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Tauri",
+          "Next.js",
+          "Bun"
+        ],
+        "useCase": "适用于自动化代码编写、CI/CD 脚本执行、IDE 智能编程辅助以及构建自定义 AI 代理。",
+        "useCase_en": "Automate coding tasks and build custom AI agents using a unified coding assistant across terminals and IDEs."
+      }
+    },
+    {
+      "index": 18,
+      "fullName": "coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "stars": 14841,
+      "forks": 1486,
+      "todayStars": 145,
+      "url": "https://github.com/coder/coder",
+      "aiSummary": {
+        "summary": "Coder 是一个自托管的云开发环境平台，支持通过 Terraform 定义工作区。它利用 Wireguard® 提供安全连接，并自动关闭闲置资源以节省成本。项目集成了 AI 编码代理，允许在基础设施上运行模型，无需在工作区中存储 API 密钥，实现快速入职和集中治理。",
+        "summary_en": "Self-hosted platform for cloud development environments and AI coding agents.",
+        "techStack": [
+          "Go",
+          "Terraform",
+          "Wireguard",
+          "PostgreSQL",
+          "Docker"
+        ],
+        "useCase": "适用于需要安全、低成本且集成 AI 辅助开发环境的团队。",
+        "useCase_en": "To provide secure, self-hosted cloud development environments and manage AI coding agents without exposing API keys."
+      }
+    },
+    {
+      "index": 19,
+      "fullName": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "stars": 205000,
+      "forks": 60745,
+      "todayStars": 281,
+      "url": "https://github.com/n8n-io/n8n",
+      "aiSummary": {
+        "summary": "n8n 是一个基于 Fair-code 的 AI 原生工作流自动化平台。它结合了可视化画布与自定义代码，支持自托管或云端部署。拥有 1500+ 集成和 9000+ 模板，适合构建从原型到生产环境的 AI 代理和多步骤工作流。",
+        "summary_en": "Fair-code workflow automation platform combining visual building with AI capabilities and custom code.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "JavaScript",
+          "Python"
+        ],
+        "useCase": "适合需要构建 AI 代理、自动化复杂工作流以及企业级数据集成的开发者与团队。",
+        "useCase_en": "Automate business processes and AI workflows by combining visual building with custom code."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-18T01:15:24.368Z",
+    "duration": "440s",
+    "version": "1.0.0"
+  }
+}
