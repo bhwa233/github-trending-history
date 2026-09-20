@@ -1,0 +1,332 @@
+{
+  "date": "2026-09-19",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 16336,
+      "forks": 894,
+      "todayStars": 3155,
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "aiSummary": {
+        "summary": "这是一个将编码代理转化为安全审计员的技能，通过六个阶段（侦察、狩猎、验证等）执行多阶段安全审计。它支持独立验证和机器可读的发现结果，能够自动生成结构化报告，适用于自动化漏洞发现与代码库安全评估。",
+        "summary_en": "A JavaScript skill for coding agents to perform multi-phase security audits with independent verification.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "JSON"
+        ],
+        "useCase": "自动化代码安全审计与漏洞发现",
+        "useCase_en": "Automates multi-phase security audits for codebases using isolated agents and independent verification."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "trycua/cua",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "language": "HTML",
+      "stars": 24412,
+      "forks": 1680,
+      "todayStars": 859,
+      "url": "https://github.com/trycua/cua",
+      "aiSummary": {
+        "summary": "Cua 是一个开源项目，旨在为 AI 代理提供计算机使用能力。它提供云端隔离桌面、本地 macOS 虚拟机、专用决策模型及基准测试工具。通过 Sandbox SDK，用户可运行命令、截图并与应用交互，支持计算机使用 2.0（代码、API、GUI 混合操作），帮助评估和训练计算机使用代理。",
+        "summary_en": "Cua provides open-source desktop automation, isolated cloud desktops, and benchmarks for training computer-use AI agents.",
+        "techStack": [
+          "HTML",
+          "Python",
+          "Linux",
+          "macOS",
+          "Virtualization"
+        ],
+        "useCase": "为 AI 代理提供云端桌面环境，用于计算机使用 2.0 代理的训练、评估与自动化操作测试。",
+        "useCase_en": "Provide AI agents with isolated cloud desktops and tools to automate computer tasks."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 97033,
+      "forks": 10240,
+      "todayStars": 556,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供生产级工程技能，包含 9 个斜杠命令覆盖从需求定义到生产部署的完整开发生命周期。它封装了资深工程师的最佳实践和工作流程，确保 AI 代理遵循一致的质量标准和规范，支持自动生成计划、测试驱动开发及代码审查等功能。",
+        "summary_en": "A collection of production-grade engineering skills and workflows designed to guide AI coding agents through the development lifecycle.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "适用于需要 AI 编码代理遵循资深工程师最佳实践和标准化开发流程的场景。",
+        "useCase_en": "To standardize engineering workflows and quality gates for AI coding agents."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "stars": 15615,
+      "forks": 1522,
+      "todayStars": 402,
+      "url": "https://github.com/coder/coder",
+      "aiSummary": {
+        "summary": "Coder 是一个自托管的云开发环境和 AI 编码代理平台。它利用 Terraform 定义工作区，通过安全的 Wireguard 隧道连接，并支持自动关闭空闲资源以节省成本。平台允许在基础设施上运行原生 AI 代理，支持多种 LLM 模型，且无需将 API 密钥暴露在工作区中。",
+        "summary_en": "Self-hosted platform for cloud development environments and AI coding agents using Terraform and Wireguard.",
+        "techStack": [
+          "Go",
+          "Terraform",
+          "Wireguard",
+          "Docker",
+          "Kubernetes"
+        ],
+        "useCase": "适用于需要安全、可扩展且成本效益高的开发环境以及集成 AI 辅助编码的企业或团队。",
+        "useCase_en": "Create secure, self-hosted cloud development environments and run AI coding agents on your infrastructure."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "stars": 146706,
+      "forks": 23928,
+      "todayStars": 483,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "这是一个基于 TypeScript 的终端智能编码助手，通过自然语言理解代码库，帮助开发者执行常规任务、解释代码及处理 Git 工作流。支持多种安装方式，包含插件扩展功能，旨在提升开发效率。",
+        "summary_en": "An agentic coding tool for the terminal that accelerates development via natural language commands.",
+        "techStack": [
+          "TypeScript",
+          "Shell",
+          "Git"
+        ],
+        "useCase": "适用于需要通过自然语言快速执行代码任务、理解代码库或管理 Git 工作流的开发者。",
+        "useCase_en": "Automate routine coding tasks and handle git workflows directly in the terminal using natural language."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Open-Dev-Society/OpenStock",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "language": "TypeScript",
+      "stars": 16036,
+      "forks": 2084,
+      "todayStars": 472,
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "aiSummary": {
+        "summary": "OpenStock 是一个开源的股票市场应用，旨在替代昂贵的付费平台。它提供实时价格追踪、个性化警报和详细的公司洞察。项目基于 Next.js 和 TypeScript 构建，承诺永久免费且无付费墙，适合个人投资者和开发者使用。",
+        "summary_en": "Open-source stock market tracking app built with Next.js and TypeScript.",
+        "techStack": [
+          "TypeScript",
+          "Next.js (App Router)",
+          "shadcn/ui",
+          "Tailwind CSS",
+          "Better Auth"
+        ],
+        "useCase": "适合个人投资者追踪股市行情、设置价格提醒，以及开发者学习现代金融应用开发。",
+        "useCase_en": "A free, open-source platform for tracking real-time stock prices and company insights."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "higgsfield-ai/higgsfield",
+      "description": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
+      "language": "Jupyter Notebook",
+      "stars": 4955,
+      "forks": 912,
+      "todayStars": 196,
+      "url": "https://github.com/higgsfield-ai/higgsfield",
+      "aiSummary": {
+        "summary": "Higgsfield 是一个开源的容错、高度可扩展的 GPU 编排和机器学习框架，专为训练数十亿至数万亿参数的大规模模型（如 LLMs）设计。它支持 ZeRO-3 DeepSpeed 和 PyTorch FSDP，提供资源分配、任务队列管理及 CI/CD 集成，简化分布式训练流程。",
+        "summary_en": "Fault-tolerant GPU orchestration and ML framework for training massive models like LLMs.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "DeepSpeed (ZeRO-3)",
+          "Docker",
+          "GitHub Actions"
+        ],
+        "useCase": "适用于大规模分布式训练大语言模型（LLMs）及超大规模神经网络。",
+        "useCase_en": "Training massive Large Language Models (LLMs) with fault tolerance and efficient resource management."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "docling-project/docling",
+      "description": "Get your documents ready for gen AI",
+      "language": "Python",
+      "stars": 67041,
+      "forks": 4833,
+      "todayStars": 129,
+      "url": "https://github.com/docling-project/docling",
+      "aiSummary": {
+        "summary": "Docling 是一个专为生成式 AI 设计的文档处理库。它支持 PDF、DOCX、图片、音频、视频等多种格式的高级解析，具备精准的布局理解、表格提取和 OCR 能力。项目提供统一的文档表示格式，支持本地执行，并深度集成 LangChain、LlamaIndex 等主流 AI 框架，是构建 RAG 应用和智能文档分析系统的理想工具。",
+        "summary_en": "A Python library for parsing diverse documents and preparing them for generative AI.",
+        "techStack": [
+          "Python",
+          "OCR",
+          "ASR",
+          "LangChain",
+          "LlamaIndex"
+        ],
+        "useCase": "为生成式 AI 准备文档，构建 RAG 应用或智能文档分析系统",
+        "useCase_en": "To parse complex documents and prepare them for integration with generative AI agents."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "cloudflare/quiche",
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "language": "Rust",
+      "stars": 12017,
+      "forks": 1115,
+      "todayStars": 31,
+      "url": "https://github.com/cloudflare/quiche",
+      "aiSummary": {
+        "summary": "quiche 是 Rust 编写的 QUIC 传输协议和 HTTP/3 的实现。它提供低级 API 用于处理数据包和连接状态，需应用层提供 I/O 和事件循环。被 Cloudflare、Android 和 curl 等广泛使用，主要用于构建高性能的网络应用。",
+        "summary_en": "Rust implementation of the QUIC transport protocol and HTTP/3.",
+        "techStack": [
+          "Rust",
+          "QUIC",
+          "HTTP/3"
+        ],
+        "useCase": "适用于构建支持 HTTP/3 的网络应用，如 CDN、DNS over HTTP/3 解析器及 HTTP 客户端。",
+        "useCase_en": "Used to implement HTTP/3 support in networking applications like Cloudflare's edge network."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "asciimoo/hister",
+      "description": "Your own search engine",
+      "language": "Go",
+      "stars": 5226,
+      "forks": 219,
+      "todayStars": 420,
+      "url": "https://github.com/asciimoo/hister",
+      "aiSummary": {
+        "summary": "Hister 是一个基于 Go 语言开发的私有搜索引擎，专注于本地化数据索引。它支持通过浏览器扩展自动抓取网页内容，也能索引本地文件和历史记录。提供 Web、终端及 MCP 接口，具备全文检索、语义搜索及强大的查询语法，强调隐私保护，适合个人构建本地知识库。",
+        "summary_en": "A private, full-text search engine written in Go to index local files and browser history.",
+        "techStack": [
+          "Go",
+          "Web",
+          "MCP"
+        ],
+        "useCase": "构建个人隐私保护的本地知识库",
+        "useCase_en": "To run a private, local search engine for files and visited web pages accessible via web, terminal, or AI."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "ruanyf/weekly",
+      "description": "科技爱好者周刊，每周五发布",
+      "language": "",
+      "stars": 103122,
+      "forks": 4424,
+      "todayStars": 98,
+      "url": "https://github.com/ruanyf/weekly",
+      "aiSummary": {
+        "summary": "这是一个由阮一峰运营的科技爱好者周刊项目，每周五发布。内容涵盖AI、编程、创业、硬件等领域的精选文章、软件和资源。项目包含讨论区，其中“谁在招人”板块提供大量程序员招聘信息，是科技从业者和爱好者获取行业动态、学习新技术及寻找工作的重要渠道。",
+        "summary_en": "A weekly digest of tech news and articles covering AI, software engineering, and career advice.",
+        "techStack": [
+          "Markdown",
+          "HTML"
+        ],
+        "useCase": "科技从业者获取每周行业资讯、学习新技术以及寻找工作机会。",
+        "useCase_en": "A resource for tech enthusiasts to read weekly summaries of tech news and articles."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "ZuodaoTech/everyone-can-use-english",
+      "description": "人人都能用英语",
+      "language": "TypeScript",
+      "stars": 37785,
+      "forks": 5207,
+      "todayStars": 48,
+      "url": "https://github.com/ZuodaoTech/everyone-can-use-english",
+      "aiSummary": {
+        "summary": "这是一个名为 'Enjoy' 的 AI 英语学习助手项目。它提供网页版、浏览器插件（支持 YouTube/Netflix）以及即将推出的桌面版。项目旨在利用 AI 作为外语老师，结合《人人都能用英语》的训练方法，帮助用户提升英语听说读写能力。",
+        "summary_en": "An AI-powered English learning assistant offering web, desktop, and browser extension tools for language acquisition.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "英语学习者，特别是希望通过 AI 辅助进行口语练习和沉浸式学习（如看剧）的用户。",
+        "useCase_en": "Use an AI-powered English learning assistant available on web, desktop, and browser extensions."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 25125,
+      "forks": 2994,
+      "todayStars": 281,
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "aiSummary": {
+        "summary": "这是一个开源插件仓库，旨在将 Claude 转变为特定角色（如销售、产品经理）的专家。它包含 11 个预构建插件，支持与 Slack、Notion、Jira 等主流工具集成。用户可自定义插件以适应公司的工作流程和术语，从而提升团队协作效率和一致性。",
+        "summary_en": "A collection of open-source plugins designed to customize Claude for specific roles and workflows.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为知识工作者和特定团队（如销售、客户支持、产品管理）提供定制化的 AI 助手，提升工作效率。",
+        "useCase_en": "Enable knowledge workers to customize Claude with company-specific tools and workflows."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "cactus-compute/needle",
+      "description": "Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, structured extraction and embeddings on phones, wearables, smart homes, robots, cars and microcontrollers.",
+      "language": "Python",
+      "stars": 11603,
+      "forks": 742,
+      "todayStars": 234,
+      "url": "https://github.com/cactus-compute/needle",
+      "aiSummary": {
+        "summary": "Needle 是一个面向微设备的自动化基础模型，仅 8-29 MB。它支持工具调用、结构化提取和文本嵌入。基于 Laddered Simple Attention Network 架构，它在手机、可穿戴设备及微控制器等边缘设备上高效运行，提供高精度的函数调用和结构化数据提取能力。",
+        "summary_en": "A lightweight foundation model for tiny devices optimized for tool calling and structured extraction.",
+        "techStack": [
+          "Python",
+          "Simple Attention Network",
+          "Monarch Hadamard MLP",
+          "GQA (Grouped Query Attention)",
+          "Byte-level Grammar"
+        ],
+        "useCase": "适用于手机、可穿戴设备、智能家居、机器人、汽车和微控制器等边缘设备，用于自动化工具调用、结构化数据提取和本地文本嵌入。",
+        "useCase_en": "Enable on-device AI for phones and wearables to perform function calling and structured data extraction."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "yynxxxxx/Codex-X",
+      "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+      "language": "Rust",
+      "stars": 3391,
+      "forks": 446,
+      "todayStars": 32,
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "aiSummary": {
+        "summary": "Codex-X 是一款基于 Rust 的跨平台桌面工具，专为 OpenAI Codex 桌面端和 CLI 设计。它提供可视化的提示词注入、多 Provider/API 管理、会话同步、Skills/MCP 管理、配置查看及 Token 用量统计功能，帮助用户集中管理配置，无需手动编辑文件。",
+        "summary_en": "A cross-platform Rust desktop tool for visualizing and managing OpenAI Codex prompts, sessions, and APIs.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "适合需要同时使用 Codex 桌面端、CLI、第三方 API 和多套提示词的用户。",
+        "useCase_en": "Visual management of OpenAI Codex prompts, sessions, and API providers for developers."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-20T00:58:51.033Z",
+    "duration": "454s",
+    "version": "1.0.0"
+  }
+}
