@@ -70,27 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-09-19 | **成功**: 15 | **失败**: 0
+**最后更新**: 2026-09-20 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | A coding-agent skill for multi-phase security audi... | JavaScript | 16.3k | 3.2k | 这是一个将编码代理转化为安全审计员的技能，通过六个阶段（侦察、狩猎、验证等）执行多阶段安全审计。它支持独立验证和机器可读的发现结果，能够自动生成结构化报告，适用于自动化漏洞发现与代码库安全评估。 |
-| 2 | [trycua/cua](https://github.com/trycua/cua) | Scale computer-use 2.0 with open-source drivers, c... | HTML | 24.4k | 859 | Cua 是一个开源项目，旨在为 AI 代理提供计算机使用能力。它提供云端隔离桌面、本地 macOS 虚拟机、专用决策模型及基准测试工具。通过 Sandbox SDK，用户可运行命令、截图并与应用交互，支持计算机使用 2.0（代码、API、GUI 混合操作），帮助评估和训练计算机使用代理。 |
-| 3 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | JavaScript | 97.0k | 556 | 该项目为 AI 编码代理提供生产级工程技能，包含 9 个斜杠命令覆盖从需求定义到生产部署的完整开发生命周期。它封装了资深工程师的最佳实践和工作流程，确保 AI 代理遵循一致的质量标准和规范，支持自动生成计划、测试驱动开发及代码审查等功能。 |
-| 4 | [coder/coder](https://github.com/coder/coder) | Secure environments for developers and their agent... | Go | 15.6k | 402 | Coder 是一个自托管的云开发环境和 AI 编码代理平台。它利用 Terraform 定义工作区，通过安全的 Wireguard 隧道连接，并支持自动关闭空闲资源以节省成本。平台允许在基础设施上运行原生 AI 代理，支持多种 LLM 模型，且无需将 API 密钥暴露在工作区中。 |
-| 5 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | TypeScript | 146.7k | 483 | 这是一个基于 TypeScript 的终端智能编码助手，通过自然语言理解代码库，帮助开发者执行常规任务、解释代码及处理 Git 工作流。支持多种安装方式，包含插件扩展功能，旨在提升开发效率。 |
-| 6 | [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) | OpenStock is an open-source alternative to expensi... | TypeScript | 16.0k | 472 | OpenStock 是一个开源的股票市场应用，旨在替代昂贵的付费平台。它提供实时价格追踪、个性化警报和详细的公司洞察。项目基于 Next.js 和 TypeScript 构建，承诺永久免费且无付费墙，适合个人投资者和开发者使用。 |
-| 7 | [higgsfield-ai/higgsfield](https://github.com/higgsfield-ai/higgsfield) | Fault-tolerant, highly scalable GPU orchestration,... | Jupyter Notebook | 5.0k | 196 | Higgsfield 是一个开源的容错、高度可扩展的 GPU 编排和机器学习框架，专为训练数十亿至数万亿参数的大规模模型（如 LLMs）设计。它支持 ZeRO-3 DeepSpeed 和 PyTorch FSDP，提供资源分配、任务队列管理及 CI/CD 集成，简化分布式训练流程。 |
-| 8 | [docling-project/docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI... | Python | 67.0k | 129 | Docling 是一个专为生成式 AI 设计的文档处理库。它支持 PDF、DOCX、图片、音频、视频等多种格式的高级解析，具备精准的布局理解、表格提取和 OCR 能力。项目提供统一的文档表示格式，支持本地执行，并深度集成 LangChain、LlamaIndex 等主流 AI 框架，是构建 RAG 应用和智能文档分析系统的理想工具。 |
-| 9 | [cloudflare/quiche](https://github.com/cloudflare/quiche) | 🥧 Savoury implementation of the QUIC transport pr... | Rust | 12.0k | 31 | quiche 是 Rust 编写的 QUIC 传输协议和 HTTP/3 的实现。它提供低级 API 用于处理数据包和连接状态，需应用层提供 I/O 和事件循环。被 Cloudflare、Android 和 curl 等广泛使用，主要用于构建高性能的网络应用。 |
-| 10 | [asciimoo/hister](https://github.com/asciimoo/hister) | Your own search engine... | Go | 5.2k | 420 | Hister 是一个基于 Go 语言开发的私有搜索引擎，专注于本地化数据索引。它支持通过浏览器扩展自动抓取网页内容，也能索引本地文件和历史记录。提供 Web、终端及 MCP 接口，具备全文检索、语义搜索及强大的查询语法，强调隐私保护，适合个人构建本地知识库。 |
-| 11 | [ruanyf/weekly](https://github.com/ruanyf/weekly) | 科技爱好者周刊，每周五发布... | - | 103.1k | 98 | 这是一个由阮一峰运营的科技爱好者周刊项目，每周五发布。内容涵盖AI、编程、创业、硬件等领域的精选文章、软件和资源。项目包含讨论区，其中“谁在招人”板块提供大量程序员招聘信息，是科技从业者和爱好者获取行业动态、学习新技术及寻找工作的重要渠道。 |
-| 12 | [ZuodaoTech/everyone-can-use-english](https://github.com/ZuodaoTech/everyone-can-use-english) | 人人都能用英语... | TypeScript | 37.8k | 48 | 这是一个名为 'Enjoy' 的 AI 英语学习助手项目。它提供网页版、浏览器插件（支持 YouTube/Netflix）以及即将推出的桌面版。项目旨在利用 AI 作为外语老师，结合《人人都能用英语》的训练方法，帮助用户提升英语听说读写能力。 |
-| 13 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | Open source repository of plugins primarily intend... | Python | 25.1k | 281 | 这是一个开源插件仓库，旨在将 Claude 转变为特定角色（如销售、产品经理）的专家。它包含 11 个预构建插件，支持与 Slack、Notion、Jira 等主流工具集成。用户可自定义插件以适应公司的工作流程和术语，从而提升团队协作效率和一致性。 |
-| 14 | [cactus-compute/needle](https://github.com/cactus-compute/needle) | Automation foundation model for tiny devices: 2-bi... | Python | 11.6k | 234 | Needle 是一个面向微设备的自动化基础模型，仅 8-29 MB。它支持工具调用、结构化提取和文本嵌入。基于 Laddered Simple Attention Network 架构，它在手机、可穿戴设备及微控制器等边缘设备上高效运行，提供高精度的函数调用和结构化数据提取能力。 |
-| 15 | [yynxxxxx/Codex-X](https://github.com/yynxxxxx/Codex-X) | OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话... | Rust | 3.4k | 32 | Codex-X 是一款基于 Rust 的跨平台桌面工具，专为 OpenAI Codex 桌面端和 CLI 设计。它提供可视化的提示词注入、多 Provider/API 管理、会话同步、Skills/MCP 管理、配置查看及 Token 用量统计功能，帮助用户集中管理配置，无需手动编辑文件。 |
+| 1 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 263.7k | 826 | ECC 是一个旨在优化 AI 代理（如 Claude Code 和 Cursor）性能的工程系统。它提供了一套完整的工作流（计划、测试、审查等），包含 68 个代理、292 个技能和 AgentShield 安全功能，帮助代理优化上下文窗口、管理记忆并提升开发效率。 |
+| 2 | [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native) | A framework for building agentic apps... | TypeScript | 5.2k | 98 | Agent-Native 是一个 TypeScript 框架，旨在构建具有专用 UI 的智能体应用。它通过共享动作层，将智能体工具与 UI 代码逻辑统一，支持共享数据和应用状态。开发者可定义一次能力，即可在智能体、UI、HTTP、MCP 等多种渠道调用，为智能体提供可视化的交互环境。 |
+| 3 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | A coding-agent skill for multi-phase security audi... | JavaScript | 18.0k | 2.4k | 这是一个将编码代理转化为安全审计员的技能，通过六个阶段执行结构化安全审计。支持独立验证、增量运行及机器可读输出，是 Cloudflare 漏洞发现工具的起点，适用于自动化代码安全审计。 |
+| 4 | [trycua/cua](https://github.com/trycua/cua) | Scale computer-use 2.0 with open-source drivers, c... | HTML | 25.1k | 1.0k | Cua 是一个开源的计算机使用 2.0 平台，旨在为 AI 代理提供可操作的桌面环境。它提供隔离的云桌面（Fleets）、本地 macOS 虚拟机以及专用决策模型。项目包含 Sandbox SDK，支持代理在代码、API 和图形界面间切换，并提供基准测试工具，帮助开发者训练、评估和生成数据。 |
+| 5 | [anthropics/financial-services](https://github.com/anthropics/financial-services) | ... | Python | 35.4k | 260 | 这是一个专为金融行业设计的 Claude 代理、技能及数据连接器库。项目包含针对投资银行、股权研究等场景的端到端工作流代理（如 Pitch Agent、Market Researcher），支持通过插件或 API 部署。旨在辅助生成分析报告和备忘录，但所有输出均需人工审查，不构成投资建议。 |
+| 6 | [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | A community-supported supercharged document manage... | Python | 45.6k | 57 | Paperless-ngx 是一个社区支持的文档管理系统，旨在将物理文档转换为可搜索的在线档案。它支持扫描、索引和归档，帮助用户减少纸张使用。项目基于 Python 开发，提供 Docker 部署方式，易于迁移，并拥有活跃的社区支持。 |
+| 7 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | TypeScript | 147.1k | 419 | Claude Code 是一个运行在终端中的智能编码工具，基于 TypeScript 开发。它利用自然语言命令理解代码库，帮助开发者执行常规任务、解释复杂代码并处理 Git 工作流。支持插件扩展，旨在通过 AI 辅助提升编码效率。 |
+| 8 | [mihail911/modern-software-dev-assignments](https://github.com/mihail911/modern-software-dev-assignments) | Assignments for CS146S: The Modern Software Dev (S... | Python | 4.6k | 172 | 该项目是斯坦福大学 CS146S 课程的作业仓库，专注于现代软件开发。使用 Python 编写，通过 Anaconda、Conda 和 Poetry 配置 Python 3.12 环境，提供依赖管理及作业提交指南。 |
+| 9 | [higgsfield-ai/higgsfield](https://github.com/higgsfield-ai/higgsfield) | Fault-tolerant, highly scalable GPU orchestration,... | Jupyter Notebook | 5.4k | 465 | Higgsfield 是一个开源的、容错且高度可扩展的 GPU 编排与机器学习框架，专为训练数十亿至数万亿参数的大规模模型（如 LLM）设计。它支持 ZeRO-3 和 PyTorch 分片并行，提供资源分配、任务调度及 CI/CD 集成功能，简化了分布式训练流程。 |
+| 10 | [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) | OpenStock is an open-source alternative to expensi... | TypeScript | 16.8k | 755 | OpenStock 是一个开源的股票市场应用，旨在替代昂贵的付费平台。它提供实时价格追踪、个性化警报和详细的公司洞察。技术栈基于 Next.js、MongoDB 和 Finnhub，完全免费且透明。该项目由 Open Dev Society 构建，强调知识共享和社区支持，适合个人投资者和开发者使用。 |
+| 11 | [coder/coder](https://github.com/coder/coder) | Secure environments for developers and their agent... | Go | 16.1k | 379 | Coder 是一个基于 Go 语言的自托管云开发环境平台。它允许用户通过 Terraform 定义工作区，利用 Wireguard® 实现安全连接，并自动关闭空闲资源以节省成本。核心亮点是支持在基础设施上运行 AI 编码代理，无需在工作区中存储 API 密钥，支持多种大模型，并提供集中化的治理和审计功能。 |
+| 12 | [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | The Generative UI framework... | TypeScript | 17.3k | 291 | 这是一个生成式 UI 框架，允许 AI 从自然语言提示生成动态界面。它通过预定义组件和动作确保输出安全可靠，支持流式渲染。框架支持多种平台（React、Vue、Svelte、React Native 等），并提供 36 个预构建组件，适合构建跨平台、可预测的 AI 驱动应用。 |
+| 13 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | JavaScript | 97.7k | 736 | 这是一个为 AI 编码代理提供生产级工程技能的项目。它包含 9 个斜杠命令，覆盖从定义到发布的完整开发生命周期。这些技能编码了工作流、质量门控和最佳实践，确保 AI 代理遵循一致的高标准。它支持自动技能激活，并能通过 CLI 快速安装使用。 |
 
-[查看完整数据](api/github/2026-09-19.json)
+[查看完整数据](api/github/2026-09-20.json)
 <!-- END GITHUB TRENDING -->
 
 

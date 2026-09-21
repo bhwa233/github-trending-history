@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-20",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 263739,
+      "forks": 39456,
+      "todayStars": 826,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个旨在优化 AI 代理（如 Claude Code 和 Cursor）性能的工程系统。它提供了一套完整的工作流（计划、测试、审查等），包含 68 个代理、292 个技能和 AgentShield 安全功能，帮助代理优化上下文窗口、管理记忆并提升开发效率。",
+        "summary_en": "An agent harness optimization system providing memory, skills, and security for AI coding tools.",
+        "techStack": [
+          "JavaScript",
+          "npm"
+        ],
+        "useCase": "为 AI 编码助手提供协调的工程工作流与记忆管理，提升开发效率与代码质量。",
+        "useCase_en": "To optimize AI agent performance by providing a coordinated engineering system with memory, skills, and security."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "BuilderIO/agent-native",
+      "description": "A framework for building agentic apps",
+      "language": "TypeScript",
+      "stars": 5214,
+      "forks": 484,
+      "todayStars": 98,
+      "url": "https://github.com/BuilderIO/agent-native",
+      "aiSummary": {
+        "summary": "Agent-Native 是一个 TypeScript 框架，旨在构建具有专用 UI 的智能体应用。它通过共享动作层，将智能体工具与 UI 代码逻辑统一，支持共享数据和应用状态。开发者可定义一次能力，即可在智能体、UI、HTTP、MCP 等多种渠道调用，为智能体提供可视化的交互环境。",
+        "summary_en": "A TypeScript framework for building agents that pair autonomous work with a purpose-built UI.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Zod"
+        ],
+        "useCase": "构建具有可视化交互界面的自主智能体应用，适用于人机协作的知识工作场景。",
+        "useCase_en": "Building agents that pair autonomous work with a purpose-built UI to visualize and manage tasks."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 18025,
+      "forks": 999,
+      "todayStars": 2428,
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "aiSummary": {
+        "summary": "这是一个将编码代理转化为安全审计员的技能，通过六个阶段执行结构化安全审计。支持独立验证、增量运行及机器可读输出，是 Cloudflare 漏洞发现工具的起点，适用于自动化代码安全审计。",
+        "summary_en": "An automated security auditing skill for coding agents with independent verification.",
+        "techStack": [
+          "JavaScript",
+          "Node.js"
+        ],
+        "useCase": "自动化代码安全审计与漏洞发现",
+        "useCase_en": "To orchestrate automated security audits and verify findings independently."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "trycua/cua",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "language": "HTML",
+      "stars": 25150,
+      "forks": 1729,
+      "todayStars": 1018,
+      "url": "https://github.com/trycua/cua",
+      "aiSummary": {
+        "summary": "Cua 是一个开源的计算机使用 2.0 平台，旨在为 AI 代理提供可操作的桌面环境。它提供隔离的云桌面（Fleets）、本地 macOS 虚拟机以及专用决策模型。项目包含 Sandbox SDK，支持代理在代码、API 和图形界面间切换，并提供基准测试工具，帮助开发者训练、评估和生成数据。",
+        "summary_en": "Open-source infrastructure for computer-use agents, offering cloud desktops, automation drivers, and evaluation benchmarks.",
+        "techStack": [
+          "HTML",
+          "Python",
+          "Sandbox SDK"
+        ],
+        "useCase": "为 AI 代理提供桌面自动化环境，支持跨平台操作、模型训练与评估。",
+        "useCase_en": "To provide AI agents with isolated cloud desktops and automation tools for performing complex computer-use tasks."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "stars": 35366,
+      "forks": 5248,
+      "todayStars": 260,
+      "url": "https://github.com/anthropics/financial-services",
+      "aiSummary": {
+        "summary": "这是一个专为金融行业设计的 Claude 代理、技能及数据连接器库。项目包含针对投资银行、股权研究等场景的端到端工作流代理（如 Pitch Agent、Market Researcher），支持通过插件或 API 部署。旨在辅助生成分析报告和备忘录，但所有输出均需人工审查，不构成投资建议。",
+        "summary_en": "Reference agents and skills for financial services workflows like investment banking and equity research.",
+        "techStack": [
+          "Python",
+          "Claude API",
+          "Cowork Plugin"
+        ],
+        "useCase": "投资银行、股权研究、私募股权及财富管理的自动化工作流辅助",
+        "useCase_en": "Automate financial workflows like investment banking, equity research, and wealth management using Claude agents."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "paperless-ngx/paperless-ngx",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "language": "Python",
+      "stars": 45568,
+      "forks": 3146,
+      "todayStars": 57,
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "aiSummary": {
+        "summary": "Paperless-ngx 是一个社区支持的文档管理系统，旨在将物理文档转换为可搜索的在线档案。它支持扫描、索引和归档，帮助用户减少纸张使用。项目基于 Python 开发，提供 Docker 部署方式，易于迁移，并拥有活跃的社区支持。",
+        "summary_en": "A community-supported document management system that scans, indexes, and archives physical documents into a searchable online archive.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Docker Compose"
+        ],
+        "useCase": "适合需要数字化归档、OCR 文档搜索以及减少纸质文件存储的个人或团队。",
+        "useCase_en": "To scan, index, and archive physical documents into a searchable online database."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "stars": 147124,
+      "forks": 24064,
+      "todayStars": 419,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code 是一个运行在终端中的智能编码工具，基于 TypeScript 开发。它利用自然语言命令理解代码库，帮助开发者执行常规任务、解释复杂代码并处理 Git 工作流。支持插件扩展，旨在通过 AI 辅助提升编码效率。",
+        "summary_en": "An agentic coding tool for the terminal that executes tasks and handles git workflows via natural language.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要通过自然语言与代码库交互、自动化重复性编码任务及 Git 操作的开发者。",
+        "useCase_en": "Automate coding tasks and explain complex code using natural language commands in your terminal."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "mihail911/modern-software-dev-assignments",
+      "description": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)",
+      "language": "Python",
+      "stars": 4555,
+      "forks": 1010,
+      "todayStars": 172,
+      "url": "https://github.com/mihail911/modern-software-dev-assignments",
+      "aiSummary": {
+        "summary": "该项目是斯坦福大学 CS146S 课程的作业仓库，专注于现代软件开发。使用 Python 编写，通过 Anaconda、Conda 和 Poetry 配置 Python 3.12 环境，提供依赖管理及作业提交指南。",
+        "summary_en": "Course assignments for Stanford's Modern Software Dev class using Python.",
+        "techStack": [
+          "Python",
+          "Poetry",
+          "Anaconda"
+        ],
+        "useCase": "斯坦福大学 CS146S 课程学生的作业环境配置与学习",
+        "useCase_en": "Students utilize these assignments to learn modern software development practices."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "higgsfield-ai/higgsfield",
+      "description": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
+      "language": "Jupyter Notebook",
+      "stars": 5381,
+      "forks": 956,
+      "todayStars": 465,
+      "url": "https://github.com/higgsfield-ai/higgsfield",
+      "aiSummary": {
+        "summary": "Higgsfield 是一个开源的、容错且高度可扩展的 GPU 编排与机器学习框架，专为训练数十亿至数万亿参数的大规模模型（如 LLM）设计。它支持 ZeRO-3 和 PyTorch 分片并行，提供资源分配、任务调度及 CI/CD 集成功能，简化了分布式训练流程。",
+        "summary_en": "Fault-tolerant GPU orchestration and ML framework for training massive LLMs with billions of parameters.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "DeepSpeed",
+          "Docker",
+          "GitHub Actions"
+        ],
+        "useCase": "训练大规模语言模型（LLM）及超大规模神经网络",
+        "useCase_en": "Distributed training of massive neural networks and Large Language Models (LLMs) with efficient resource management."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Open-Dev-Society/OpenStock",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "language": "TypeScript",
+      "stars": 16824,
+      "forks": 2133,
+      "todayStars": 755,
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "aiSummary": {
+        "summary": "OpenStock 是一个开源的股票市场应用，旨在替代昂贵的付费平台。它提供实时价格追踪、个性化警报和详细的公司洞察。技术栈基于 Next.js、MongoDB 和 Finnhub，完全免费且透明。该项目由 Open Dev Society 构建，强调知识共享和社区支持，适合个人投资者和开发者使用。",
+        "summary_en": "OpenStock is a free, open-source stock market tracking platform offering real-time prices and alerts.",
+        "techStack": [
+          "Next.js",
+          "shadcn/ui",
+          "Tailwind CSS",
+          "Better Auth",
+          "MongoDB"
+        ],
+        "useCase": "适合个人投资者进行股票追踪、市场数据分析及学习开源应用开发。",
+        "useCase_en": "A free, open-source alternative to expensive market platforms for tracking real-time stock prices and insights."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "stars": 16057,
+      "forks": 1541,
+      "todayStars": 379,
+      "url": "https://github.com/coder/coder",
+      "aiSummary": {
+        "summary": "Coder 是一个基于 Go 语言的自托管云开发环境平台。它允许用户通过 Terraform 定义工作区，利用 Wireguard® 实现安全连接，并自动关闭空闲资源以节省成本。核心亮点是支持在基础设施上运行 AI 编码代理，无需在工作区中存储 API 密钥，支持多种大模型，并提供集中化的治理和审计功能。",
+        "summary_en": "Self-hosted cloud development environments and AI coding agents powered by Terraform.",
+        "techStack": [
+          "Go",
+          "Terraform",
+          "Wireguard",
+          "PostgreSQL",
+          "Docker"
+        ],
+        "useCase": "适用于需要安全自托管开发环境及 AI 辅助编程的企业或团队。",
+        "useCase_en": "To enable developers to create secure, self-hosted cloud development environments and AI coding agents."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "vercel-labs/json-render",
+      "description": "The Generative UI framework",
+      "language": "TypeScript",
+      "stars": 17308,
+      "forks": 919,
+      "todayStars": 291,
+      "url": "https://github.com/vercel-labs/json-render",
+      "aiSummary": {
+        "summary": "这是一个生成式 UI 框架，允许 AI 从自然语言提示生成动态界面。它通过预定义组件和动作确保输出安全可靠，支持流式渲染。框架支持多种平台（React、Vue、Svelte、React Native 等），并提供 36 个预构建组件，适合构建跨平台、可预测的 AI 驱动应用。",
+        "summary_en": "A TypeScript framework for generating dynamic UIs from prompts using predefined components and schemas.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Zod",
+          "Three.js"
+        ],
+        "useCase": "构建由 AI 驱动的跨平台动态界面，如智能聊天应用、个性化仪表盘或 3D 场景。",
+        "useCase_en": "Developers use this to generate safe, predictable, and personalized user interfaces from natural language prompts."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 97694,
+      "forks": 10296,
+      "todayStars": 736,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供生产级工程技能的项目。它包含 9 个斜杠命令，覆盖从定义到发布的完整开发生命周期。这些技能编码了工作流、质量门控和最佳实践，确保 AI 代理遵循一致的高标准。它支持自动技能激活，并能通过 CLI 快速安装使用。",
+        "summary_en": "A set of engineering skills and slash commands to guide AI coding agents through production workflows.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "为 AI 编码代理提供标准化的工程流程和质量保障。",
+        "useCase_en": "To guide AI coding agents through production-grade engineering workflows and best practices."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-21T01:03:17.041Z",
+    "duration": "428s",
+    "version": "1.0.0"
+  }
+}
