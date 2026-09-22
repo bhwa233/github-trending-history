@@ -1,0 +1,266 @@
+{
+  "date": "2026-09-21",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "BuilderIO/agent-native",
+      "description": "A framework for building agentic apps",
+      "language": "TypeScript",
+      "stars": 5926,
+      "forks": 540,
+      "todayStars": 607,
+      "url": "https://github.com/BuilderIO/agent-native",
+      "aiSummary": {
+        "summary": "Agent-Native 是一个 TypeScript 框架，用于构建将自主智能体与专用 UI 配对的智能体应用。它通过“共享操作”概念，允许开发者定义一次能力，智能体将其作为工具，UI 从代码中调用。框架支持共享数据和应用状态，确保智能体和 UI 之间的无缝交互，无需智能体模拟 UI 点击。",
+        "summary_en": "An open-source TypeScript framework for building agents that pair autonomous work with a purpose-built UI.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Zod"
+        ],
+        "useCase": "构建具备可视化交互界面的智能体应用，适用于需要上下文、工具和预览的知识工作场景。",
+        "useCase_en": "To create agents that perform autonomous work while providing a UI for inspection, editing, and approval."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "trycua/cua",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "language": "HTML",
+      "stars": 25712,
+      "forks": 1769,
+      "todayStars": 609,
+      "url": "https://github.com/trycua/cua",
+      "aiSummary": {
+        "summary": "Cua 是一个开源的计算机使用 2.0 平台，旨在为 AI 代理提供桌面自动化能力。它提供隔离的云桌面、本地 macOS 虚拟机以及基准测试工具，支持训练、评估和生成数据。用户可以部署 Fleets 运行命令、截图，或使用 Cua Driver 操作原生应用，帮助开发者构建和测试计算机使用代理。",
+        "summary_en": "Open-source infrastructure for AI agents to operate desktops via cloud fleets, drivers, and benchmarks.",
+        "techStack": [
+          "HTML"
+        ],
+        "useCase": "为 AI 代理提供桌面自动化环境，用于训练、评估计算机使用代理及生成数据。",
+        "useCase_en": "Scale computer-use 2.0 agents by providing isolated desktop environments, automation drivers, and benchmarks."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "Open-Dev-Society/OpenStock",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "language": "TypeScript",
+      "stars": 17761,
+      "forks": 2197,
+      "todayStars": 844,
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "aiSummary": {
+        "summary": "OpenStock 是一个开源的股票市场追踪应用，旨在替代昂贵的付费平台。它支持实时价格追踪、个性化提醒和公司洞察，完全免费且社区驱动。项目使用 Next.js 等现代技术栈构建，致力于打破知识付费壁垒，为用户提供透明、无门槛的金融工具。",
+        "summary_en": "OpenStock is a free, open-source stock market application built with Next.js and TypeScript for tracking prices and insights.",
+        "techStack": [
+          "Next.js (App Router)",
+          "shadcn/ui",
+          "Tailwind CSS",
+          "Better Auth",
+          "MongoDB"
+        ],
+        "useCase": "适合个人投资者追踪股市行情及学习现代全栈开发技术。",
+        "useCase_en": "A free, open-source stock market platform for tracking real-time prices and setting personalized alerts."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "stars": 7703,
+      "forks": 522,
+      "todayStars": 167,
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供长期记忆的 Rust 项目。它允许用户在不同 AI 工具（如 Claude、Codex）之间无缝切换，共享项目进度和上下文。记忆存储在基于 Git 的 Markdown 文件中，支持跨机器和团队协作，确保数据可审计、可编辑且隐私安全。",
+        "summary_en": "A Rust-based shared memory solution for AI coding agents enabling seamless handoffs and knowledge sharing across different tools.",
+        "techStack": [
+          "Rust",
+          "Markdown",
+          "Git"
+        ],
+        "useCase": "适用于需要在多个 AI 编码工具间无缝切换并保持上下文连续性的开发者及团队。",
+        "useCase_en": "To enable seamless handoffs and knowledge sharing between different AI coding agents and across machines."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "stars": 16432,
+      "forks": 1565,
+      "todayStars": 460,
+      "url": "https://github.com/coder/coder",
+      "aiSummary": {
+        "summary": "Coder 是一个自托管的云开发环境平台，使用 Go 语言编写。它允许开发者通过 Terraform 定义工作区，并通过 Wireguard® 安全隧道连接。项目支持 AI 编码代理，可在基础设施上运行，无需在工作区中存储 API 密钥。它支持自动关闭空闲资源以节省成本，并集成了多种大语言模型。",
+        "summary_en": "Self-hosted platform for cloud development environments and AI agents using Terraform and Wireguard.",
+        "techStack": [
+          "Go",
+          "Terraform",
+          "Wireguard",
+          "PostgreSQL",
+          "Docker"
+        ],
+        "useCase": "适用于需要安全、可扩展且成本可控的开发环境，特别是集成 AI 编码代理的团队。",
+        "useCase_en": "To provide secure, self-hosted development environments and AI coding agents without exposing API keys."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "stars": 35844,
+      "forks": 5268,
+      "todayStars": 424,
+      "url": "https://github.com/anthropics/financial-services",
+      "aiSummary": {
+        "summary": "该项目为金融服务行业（投资银行、股权研究等）提供参考代理、技能和数据连接器。包含Pitch Agent、Market Researcher等端到端工作流代理，用于生成分析模型和备忘录。支持通过Claude Cowork插件或托管代理API部署。注意：仅用于起草工作产品，不构成投资建议。",
+        "summary_en": "Reference agents and skills for financial services workflows like investment banking and equity research.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "金融服务行业工作流自动化，涵盖投资银行、股权研究及私募股权等领域。",
+        "useCase_en": "Automating financial workflows such as pitch decks, market research, and reconciliations."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "cloudflare/quiche",
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "language": "Rust",
+      "stars": 12366,
+      "forks": 1134,
+      "todayStars": 32,
+      "url": "https://github.com/cloudflare/quiche",
+      "aiSummary": {
+        "summary": "quiche 是用 Rust 实现的 QUIC 传输协议和 HTTP/3 的开源库。它提供了处理数据包和连接状态的低级 API，支持流量控制和拥塞控制等特性。该库被 Cloudflare、Android 和 curl 等广泛使用，为现代网络应用提供高性能的 HTTP/3 支持。",
+        "summary_en": "Rust implementation of the QUIC transport protocol and HTTP/3 for low-level packet processing.",
+        "techStack": [
+          "Rust",
+          "QUIC",
+          "HTTP/3"
+        ],
+        "useCase": "适用于需要高性能 HTTP/3 支持的网络应用及库集成。",
+        "useCase_en": "Used to implement HTTP/3 support in applications like Cloudflare, Android, and curl."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "mvt-project/mvt",
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "language": "Python",
+      "stars": 13606,
+      "forks": 1327,
+      "todayStars": 169,
+      "url": "https://github.com/mvt-project/mvt",
+      "aiSummary": {
+        "summary": "MVT (Mobile Verification Toolkit) 是由 Amnesty International 开发的开源移动取证工具，旨在自动化收集 Android 和 iOS 设备的取证痕迹，以识别潜在的间谍软件感染。它支持使用公开的指标（IOCs）进行扫描，主要用于技术专家和调查员进行数字取证和威胁分析。",
+        "summary_en": "A forensic toolkit for Android and iOS devices to identify potential spyware compromises.",
+        "techStack": [
+          "Python",
+          "Android",
+          "iOS"
+        ],
+        "useCase": "移动设备取证调查与间谍软件威胁检测",
+        "useCase_en": "To conduct digital forensics on Android and iOS devices to identify potential spyware infections."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "zhouxiaoka/autoclip",
+      "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+      "language": "Python",
+      "stars": 8266,
+      "forks": 1573,
+      "todayStars": 250,
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "aiSummary": {
+        "summary": "AutoClip 是一款基于 Python 的 AI 视频剪辑工具，支持导入本地视频、YouTube 和 B 站链接。它能利用 AI 分析字幕或语音转写，自动提取高光片段、生成标题和合集，并支持导出至抖音、小红书等平台。支持多种大模型（如通义千问、Ollama）和桌面、Web、CLI 三种部署方式。",
+        "summary_en": "AI-powered video clipping tool that automatically extracts highlights and generates clips from interviews, podcasts, and courses.",
+        "techStack": [
+          "Python",
+          "FFmpeg",
+          "Docker",
+          "LLM APIs"
+        ],
+        "useCase": "适合访谈、播客、课程和直播回放的高效二创与剪辑。",
+        "useCase_en": "Automatically generate short-form video clips and highlights for social media platforms like YouTube and TikTok."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "ruanyf/weekly",
+      "description": "科技爱好者周刊，每周五发布",
+      "language": "",
+      "stars": 103964,
+      "forks": 4450,
+      "todayStars": 182,
+      "url": "https://github.com/ruanyf/weekly",
+      "aiSummary": {
+        "summary": "这是一个由阮一峰维护的科技爱好者周刊项目，每周五发布。内容汇总了互联网上值得分享的科技文章、软件、资源及程序员招聘信息，涵盖AI、编程、创业等领域，旨在帮助读者快速了解科技前沿动态。",
+        "summary_en": "A weekly tech digest newsletter curated by Ruan Yifeng, covering software, AI, and technology trends.",
+        "techStack": [
+          "HTML/CSS",
+          "Markdown"
+        ],
+        "useCase": "适合科技爱好者、程序员阅读每周精选内容，获取行业资讯及寻找工作机会。",
+        "useCase_en": "A resource for reading curated weekly technology news and articles."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Crosstalk-Solutions/project-nomad",
+      "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+      "language": "TypeScript",
+      "stars": 37878,
+      "forks": 3767,
+      "todayStars": 394,
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "aiSummary": {
+        "summary": "Project NOMAD 是一个离线优先的知识和教育服务器，旨在提供无需互联网的全面学习环境。它集成了维基百科、书籍、课程、地图和本地 AI，通过 Docker 容器化部署，提供统一的 Command Center 管理界面，适合在个人硬件上构建私有知识库和离线学习中心。",
+        "summary_en": "Offline-first knowledge server with Wikipedia, books, and local AI running on your hardware.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "Node.js"
+        ],
+        "useCase": "适用于构建离线知识库、个人教育服务器或离线 AI 环境搭建。",
+        "useCase_en": "To provide a self-contained offline knowledge and education server accessible via a web browser without an internet conn"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "yynxxxxx/Codex-X",
+      "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+      "language": "Rust",
+      "stars": 3697,
+      "forks": 462,
+      "todayStars": 50,
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "aiSummary": {
+        "summary": "Codex-X 是一款基于 Rust 的跨平台桌面工具，用于可视化管理 OpenAI Codex 桌面端和 CLI。它集成了提示词注入、多供应商 API 切换、会话同步、Skills/MCP 管理及 TOML 配置功能。支持内置模板、GitHub 同步、Token 用量统计及离线使用，旨在简化 Codex 的配置与操作流程。",
+        "summary_en": "A cross-platform Rust desktop tool for visualizing and managing OpenAI Codex prompts, sessions, and APIs.",
+        "techStack": [
+          "Rust",
+          "TOML",
+          "Markdown"
+        ],
+        "useCase": "适合需要同时管理 Codex 桌面端、CLI 及多套 API 配置的开发者，用于集中管理提示词、会话和配置。",
+        "useCase_en": "A visual management tool for OpenAI Codex prompts, sessions, and API providers."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-22T01:35:07.184Z",
+    "duration": "253s",
+    "version": "1.0.0"
+  }
+}
