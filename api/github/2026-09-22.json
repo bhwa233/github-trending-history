@@ -1,0 +1,185 @@
+{
+  "date": "2026-09-22",
+  "since": "daily",
+  "totalRepos": 8,
+  "successCount": 8,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "stars": 36348,
+      "forks": 5316,
+      "todayStars": 438,
+      "url": "https://github.com/anthropics/financial-services",
+      "aiSummary": {
+        "summary": "该项目为金融服务业（投资银行、股权研究等）提供参考代理、技能和数据连接器。包含 Pitch Agent、Market Researcher 等端到端工作流代理，以及垂直插件。支持通过 Claude Cowork 插件或 Managed Agents API 部署。注意：仅用于起草工作产品，需人工审查，不构成投资建议。",
+        "summary_en": "Reference agents and skills for financial services workflows including investment banking and equity research.",
+        "techStack": [
+          "Python",
+          "Claude API",
+          "Cowork 插件"
+        ],
+        "useCase": "投资银行、股权研究、私募股权及财富管理的自动化工作流",
+        "useCase_en": "Automate financial workflows like investment banking and equity research using Claude-powered agents."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "stars": 2982,
+      "forks": 386,
+      "todayStars": 245,
+      "url": "https://github.com/agent-substrate/substrate",
+      "aiSummary": {
+        "summary": "Agent Substrate 是一个专为大规模运行自主代理设计的安全执行运行时。它通过将大量“演员”映射到少量“工作者”实现高密度沙箱，支持微VM和gVisor，提供零信任隔离。它利用Kubernetes进行基础设施管理，专注于低延迟的调度、生命周期控制和流量路由，旨在优化AI代理、推理和训练循环。",
+        "summary_en": "A secure, high-density runtime for running millions of agent workloads on Kubernetes with sub-500ms latency.",
+        "techStack": [
+          "Go",
+          "Kubernetes",
+          "MicroVM",
+          "gVisor"
+        ],
+        "useCase": "大规模运行自主代理及AI智能体部署",
+        "useCase_en": "To execute millions of agent workloads with zero-trust isolation and high density."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "language": "TypeScript",
+      "stars": 15421,
+      "forks": 1373,
+      "todayStars": 255,
+      "url": "https://github.com/dream-num/univer",
+      "aiSummary": {
+        "summary": "Univer 是一个开源的 Office SDK，专为 AI 代理打造。它提供电子表格、文档、演示文稿等核心组件，支持高性能、可定制的插件架构。开发者可在浏览器和 Node.js 环境中构建嵌入式的生产力应用，实现多工具间的数据共享与协作，是一个构建自定义办公界面的框架。",
+        "summary_en": "An open-source Office SDK for creating embeddable productivity experiences like spreadsheets and documents.",
+        "techStack": [
+          "TypeScript",
+          "Canvas",
+          "插件架构",
+          "公式引擎"
+        ],
+        "useCase": "将电子表格、文档或演示文稿编辑功能嵌入到 SaaS 产品、内部工具、BI 工作流或 AI 应用中。",
+        "useCase_en": "Embed spreadsheet or document editing into SaaS products, internal tools, BI workflows, or AI applications."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "stars": 31134,
+      "forks": 3541,
+      "todayStars": 64,
+      "url": "https://github.com/davila7/claude-code-templates",
+      "aiSummary": {
+        "summary": "这是一个为 Anthropic Claude Code 提供的 CLI 工具，旨在增强开发工作流。它提供了一套即用型的配置，包括 AI 代理、自定义命令、设置、钩子、外部服务集成（MCPs）以及项目模板。用户可以通过命令行轻松安装和管理这些组件，以提升开发效率。",
+        "summary_en": "CLI tool for configuring and monitoring Claude Code with ready-to-use templates.",
+        "techStack": [
+          "Python",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "用于快速配置 Claude Code 工作流，集成外部服务并提升开发效率。",
+        "useCase_en": "To enhance development workflows by providing ready-to-use configurations for Claude Code."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "google/ax",
+      "description": "Google's open agentic orchestration runtime",
+      "language": "Go",
+      "stars": 7626,
+      "forks": 355,
+      "todayStars": 2305,
+      "url": "https://github.com/google/ax",
+      "aiSummary": {
+        "summary": "AX 是 Google 开源的自主代理编排运行时，基于 Go 语言开发。它提供类似 Kubernetes 的声明式 API，通过 Task、Workspace、Gateway 和 Model 四个核心原语，实现代理代码的沙箱隔离、网络限制、资源管理及状态恢复。旨在以高吞吐量运行数十亿个自主代理工作负载，解决代理运行中的状态管理、安全隔离和成本控制问题。",
+        "summary_en": "Google's open-source Go runtime for orchestrating autonomous agent workloads at scale.",
+        "techStack": [
+          "Go",
+          "Kubernetes",
+          "Agent Substrate"
+        ],
+        "useCase": "适用于需要大规模运行自主代理、严格隔离和状态管理的生产环境。",
+        "useCase_en": "Declaratively orchestrate and isolate autonomous agent workloads in a Kubernetes-like environment."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "mvt-project/mvt",
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "language": "Python",
+      "stars": 14118,
+      "forks": 1359,
+      "todayStars": 441,
+      "url": "https://github.com/mvt-project/mvt",
+      "aiSummary": {
+        "summary": "MVT (Mobile Verification Toolkit) 是由 Amnesty International 开发的开源取证工具，主要用于 Android 和 iOS 设备。它旨在自动化收集数字取证痕迹，帮助调查员识别设备是否被间谍软件（如 Pegasus）感染。该工具支持使用公开的指标（IOCs）进行扫描，但警告指出仅依赖公开指标不足以确认设备安全，建议寻求专业专家协助。",
+        "summary_en": "Forensic toolkit for Android and iOS devices to identify potential compromises.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "移动设备取证与潜在间谍软件感染检测",
+        "useCase_en": "To conduct digital forensics on Android and iOS devices to identify potential spyware infections."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "superdesigndev/treg",
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "language": "Python",
+      "stars": 2228,
+      "forks": 218,
+      "todayStars": 230,
+      "url": "https://github.com/superdesigndev/treg",
+      "aiSummary": {
+        "summary": "treg 是一个为代理工具设计的统一 API 网关，类似于 OpenRouter。它通过单一端点连接 3000+ 外部工具，无需提供商注册，支持按次付费调用。同时支持团队内部工具集成与安全凭证管理，旨在简化代理工作流程。",
+        "summary_en": "A Python middleware aggregating 3,000+ external API tools for AI agents, handling credentials and billing without requiring individual provider signups.",
+        "techStack": [
+          "Python",
+          "REST API",
+          "CLI Integration",
+          "OAuth"
+        ],
+        "useCase": "适用于需要集成大量第三方 SaaS 工具（如 SEO、数据挖掘、图像生成）的 AI 代理或开发团队，以简化工具调用和管理。",
+        "useCase_en": "Allows AI agents to access thousands of external tools and APIs via a single unified endpoint, managing credentials and "
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "browser-use/video-use",
+      "description": "Edit videos with coding agents",
+      "language": "Python",
+      "stars": 25852,
+      "forks": 3119,
+      "todayStars": 191,
+      "url": "https://github.com/browser-use/video-use",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的开源项目，允许用户通过 Claude Code 等编程代理自动编辑视频。它支持剪除填充词、自动调色、添加字幕和动画，并能自我评估输出质量，实现无需预设的智能化视频处理。",
+        "summary_en": "Open-source Python project enabling AI agents to edit raw video footage into polished final videos.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "FFmpeg",
+          "ElevenLabs",
+          "HyperFrames"
+        ],
+        "useCase": "适用于需要自动化处理视频素材（如剪除废话、自动调色）的场景，如教程、访谈、旅行记录等。",
+        "useCase_en": "Automates video editing workflows by allowing users to chat with an AI agent to process raw footage."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-23T01:23:25.874Z",
+    "duration": "182s",
+    "version": "1.0.0"
+  }
+}

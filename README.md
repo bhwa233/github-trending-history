@@ -70,24 +70,20 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-09-21 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-09-22 | **成功**: 8 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native) | A framework for building agentic apps... | TypeScript | 5.9k | 607 | Agent-Native 是一个 TypeScript 框架，用于构建将自主智能体与专用 UI 配对的智能体应用。它通过“共享操作”概念，允许开发者定义一次能力，智能体将其作为工具，UI 从代码中调用。框架支持共享数据和应用状态，确保智能体和 UI 之间的无缝交互，无需智能体模拟 UI 点击。 |
-| 2 | [trycua/cua](https://github.com/trycua/cua) | Scale computer-use 2.0 with open-source drivers, c... | HTML | 25.7k | 609 | Cua 是一个开源的计算机使用 2.0 平台，旨在为 AI 代理提供桌面自动化能力。它提供隔离的云桌面、本地 macOS 虚拟机以及基准测试工具，支持训练、评估和生成数据。用户可以部署 Fleets 运行命令、截图，或使用 Cua Driver 操作原生应用，帮助开发者构建和测试计算机使用代理。 |
-| 3 | [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) | OpenStock is an open-source alternative to expensi... | TypeScript | 17.8k | 844 | OpenStock 是一个开源的股票市场追踪应用，旨在替代昂贵的付费平台。它支持实时价格追踪、个性化提醒和公司洞察，完全免费且社区驱动。项目使用 Next.js 等现代技术栈构建，致力于打破知识付费壁垒，为用户提供透明、无门槛的金融工具。 |
-| 4 | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | Solution for long term memory for agent coding CLI... | Rust | 7.7k | 167 | 这是一个为 AI 编码代理提供长期记忆的 Rust 项目。它允许用户在不同 AI 工具（如 Claude、Codex）之间无缝切换，共享项目进度和上下文。记忆存储在基于 Git 的 Markdown 文件中，支持跨机器和团队协作，确保数据可审计、可编辑且隐私安全。 |
-| 5 | [coder/coder](https://github.com/coder/coder) | Secure environments for developers and their agent... | Go | 16.4k | 460 | Coder 是一个自托管的云开发环境平台，使用 Go 语言编写。它允许开发者通过 Terraform 定义工作区，并通过 Wireguard® 安全隧道连接。项目支持 AI 编码代理，可在基础设施上运行，无需在工作区中存储 API 密钥。它支持自动关闭空闲资源以节省成本，并集成了多种大语言模型。 |
-| 6 | [anthropics/financial-services](https://github.com/anthropics/financial-services) | ... | Python | 35.8k | 424 | 该项目为金融服务行业（投资银行、股权研究等）提供参考代理、技能和数据连接器。包含Pitch Agent、Market Researcher等端到端工作流代理，用于生成分析模型和备忘录。支持通过Claude Cowork插件或托管代理API部署。注意：仅用于起草工作产品，不构成投资建议。 |
-| 7 | [cloudflare/quiche](https://github.com/cloudflare/quiche) | 🥧 Savoury implementation of the QUIC transport pr... | Rust | 12.4k | 32 | quiche 是用 Rust 实现的 QUIC 传输协议和 HTTP/3 的开源库。它提供了处理数据包和连接状态的低级 API，支持流量控制和拥塞控制等特性。该库被 Cloudflare、Android 和 curl 等广泛使用，为现代网络应用提供高性能的 HTTP/3 支持。 |
-| 8 | [mvt-project/mvt](https://github.com/mvt-project/mvt) | MVT (Mobile Verification Toolkit) helps with condu... | Python | 13.6k | 169 | MVT (Mobile Verification Toolkit) 是由 Amnesty International 开发的开源移动取证工具，旨在自动化收集 Android 和 iOS 设备的取证痕迹，以识别潜在的间谍软件感染。它支持使用公开的指标（IOCs）进行扫描，主要用于技术专家和调查员进行数字取证和威胁分析。 |
-| 9 | [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip) | AutoClip : AI-powered video clipping and highlight... | Python | 8.3k | 250 | AutoClip 是一款基于 Python 的 AI 视频剪辑工具，支持导入本地视频、YouTube 和 B 站链接。它能利用 AI 分析字幕或语音转写，自动提取高光片段、生成标题和合集，并支持导出至抖音、小红书等平台。支持多种大模型（如通义千问、Ollama）和桌面、Web、CLI 三种部署方式。 |
-| 10 | [ruanyf/weekly](https://github.com/ruanyf/weekly) | 科技爱好者周刊，每周五发布... | - | 104.0k | 182 | 这是一个由阮一峰维护的科技爱好者周刊项目，每周五发布。内容汇总了互联网上值得分享的科技文章、软件、资源及程序员招聘信息，涵盖AI、编程、创业等领域，旨在帮助读者快速了解科技前沿动态。 |
-| 11 | [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Project NOMAD is an offline-first knowledge and ed... | TypeScript | 37.9k | 394 | Project NOMAD 是一个离线优先的知识和教育服务器，旨在提供无需互联网的全面学习环境。它集成了维基百科、书籍、课程、地图和本地 AI，通过 Docker 容器化部署，提供统一的 Command Center 管理界面，适合在个人硬件上构建私有知识库和离线学习中心。 |
-| 12 | [yynxxxxx/Codex-X](https://github.com/yynxxxxx/Codex-X) | OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话... | Rust | 3.7k | 50 | Codex-X 是一款基于 Rust 的跨平台桌面工具，用于可视化管理 OpenAI Codex 桌面端和 CLI。它集成了提示词注入、多供应商 API 切换、会话同步、Skills/MCP 管理及 TOML 配置功能。支持内置模板、GitHub 同步、Token 用量统计及离线使用，旨在简化 Codex 的配置与操作流程。 |
+| 1 | [anthropics/financial-services](https://github.com/anthropics/financial-services) | ... | Python | 36.3k | 438 | 该项目为金融服务业（投资银行、股权研究等）提供参考代理、技能和数据连接器。包含 Pitch Agent、Market Researcher 等端到端工作流代理，以及垂直插件。支持通过 Claude Cowork 插件或 Managed Agents API 部署。注意：仅用于起草工作产品，需人工审查，不构成投资建议。 |
+| 2 | [agent-substrate/substrate](https://github.com/agent-substrate/substrate) | Agent Substrate: the core system... | Go | 3.0k | 245 | Agent Substrate 是一个专为大规模运行自主代理设计的安全执行运行时。它通过将大量“演员”映射到少量“工作者”实现高密度沙箱，支持微VM和gVisor，提供零信任隔离。它利用Kubernetes进行基础设施管理，专注于低延迟的调度、生命周期控制和流量路由，旨在优化AI代理、推理和训练循环。 |
+| 3 | [dream-num/univer](https://github.com/dream-num/univer) | The Office Harness for AI Agents — Spreadsheets, D... | TypeScript | 15.4k | 255 | Univer 是一个开源的 Office SDK，专为 AI 代理打造。它提供电子表格、文档、演示文稿等核心组件，支持高性能、可定制的插件架构。开发者可在浏览器和 Node.js 环境中构建嵌入式的生产力应用，实现多工具间的数据共享与协作，是一个构建自定义办公界面的框架。 |
+| 4 | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | CLI tool for configuring and monitoring Claude Cod... | Python | 31.1k | 64 | 这是一个为 Anthropic Claude Code 提供的 CLI 工具，旨在增强开发工作流。它提供了一套即用型的配置，包括 AI 代理、自定义命令、设置、钩子、外部服务集成（MCPs）以及项目模板。用户可以通过命令行轻松安装和管理这些组件，以提升开发效率。 |
+| 5 | [google/ax](https://github.com/google/ax) | Google's open agentic orchestration runtime... | Go | 7.6k | 2.3k | AX 是 Google 开源的自主代理编排运行时，基于 Go 语言开发。它提供类似 Kubernetes 的声明式 API，通过 Task、Workspace、Gateway 和 Model 四个核心原语，实现代理代码的沙箱隔离、网络限制、资源管理及状态恢复。旨在以高吞吐量运行数十亿个自主代理工作负载，解决代理运行中的状态管理、安全隔离和成本控制问题。 |
+| 6 | [mvt-project/mvt](https://github.com/mvt-project/mvt) | MVT (Mobile Verification Toolkit) helps with condu... | Python | 14.1k | 441 | MVT (Mobile Verification Toolkit) 是由 Amnesty International 开发的开源取证工具，主要用于 Android 和 iOS 设备。它旨在自动化收集数字取证痕迹，帮助调查员识别设备是否被间谍软件（如 Pegasus）感染。该工具支持使用公开的指标（IOCs）进行扫描，但警告指出仅依赖公开指标不足以确认设备安全，建议寻求专业专家协助。 |
+| 7 | [superdesigndev/treg](https://github.com/superdesigndev/treg) | OpenRouter for agent tools. Join community here: h... | Python | 2.2k | 230 | treg 是一个为代理工具设计的统一 API 网关，类似于 OpenRouter。它通过单一端点连接 3000+ 外部工具，无需提供商注册，支持按次付费调用。同时支持团队内部工具集成与安全凭证管理，旨在简化代理工作流程。 |
+| 8 | [browser-use/video-use](https://github.com/browser-use/video-use) | Edit videos with coding agents... | Python | 25.9k | 191 | 这是一个基于 Python 的开源项目，允许用户通过 Claude Code 等编程代理自动编辑视频。它支持剪除填充词、自动调色、添加字幕和动画，并能自我评估输出质量，实现无需预设的智能化视频处理。 |
 
-[查看完整数据](api/github/2026-09-21.json)
+[查看完整数据](api/github/2026-09-22.json)
 <!-- END GITHUB TRENDING -->
 
 
