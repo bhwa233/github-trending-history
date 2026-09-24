@@ -1,0 +1,370 @@
+{
+  "date": "2026-09-23",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 16,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "stars": 36944,
+      "forks": 5377,
+      "todayStars": 664,
+      "url": "https://github.com/anthropics/financial-services",
+      "aiSummary": {
+        "summary": "该项目为金融服务业提供 Claude 代理、技能和数据连接器，涵盖投资银行、股权研究等领域。包含 Pitch Agent、Market Researcher 等端到端工作流代理及垂直插件。支持作为插件或 API 部署，旨在辅助分析师起草工作产品，需人工审核。",
+        "summary_en": "Reference agents and skills for financial services workflows like investment banking and equity research.",
+        "techStack": [
+          "Python",
+          "Claude API",
+          "Cowork Plugin"
+        ],
+        "useCase": "投资银行、股权研究及财富管理的自动化工作流辅助",
+        "useCase_en": "Automates financial workflows like pitch decks, market research, and reconciliations using Claude agents."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "google/ax",
+      "description": "Google's open agentic orchestration runtime",
+      "language": "Go",
+      "stars": 9075,
+      "forks": 436,
+      "todayStars": 1543,
+      "url": "https://github.com/google/ax",
+      "aiSummary": {
+        "summary": "Google 开源的代理编排运行时，类似 Kubernetes。它提供声明式 API，用于在集群中大规模运行自主代理。核心功能包括沙箱隔离、工作区预置、网络网关限制及模型配置，支持暂停/恢复和 SSH 调试，旨在解决代理工作负载的状态管理、安全隔离和成本控制问题。",
+        "summary_en": "Google's open-source Go runtime for orchestrating autonomous agent workloads with high throughput and isolation.",
+        "techStack": [
+          "Go",
+          "Kubernetes",
+          "Agent Substrate"
+        ],
+        "useCase": "大规模运行自主代理工作负载，提供沙箱隔离与声明式编排。",
+        "useCase_en": "Run billions of autonomous agent workloads in isolated sandboxes with strict network control and pre-wired resources."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "stars": 31503,
+      "forks": 3580,
+      "todayStars": 389,
+      "url": "https://github.com/davila7/claude-code-templates",
+      "aiSummary": {
+        "summary": "这是一个用于 Anthropic Claude Code 的 CLI 工具，提供即用型配置。它包含 AI 代理、自定义命令、MCPs 和项目模板，旨在增强开发工作流。用户可通过命令行轻松安装和管理这些组件，提升开发效率。",
+        "summary_en": "CLI tool for configuring Claude Code with ready-to-use templates and integrations.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "Node.js"
+        ],
+        "useCase": "适用于希望快速配置 Claude Code 以获得特定开发任务（如安全审计或前端优化）的用户。",
+        "useCase_en": "To enhance development workflows by providing pre-configured AI agents, commands, and integrations for Claude Code."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "BuilderIO/agent-native",
+      "description": "A framework for building agentic apps",
+      "language": "TypeScript",
+      "stars": 6548,
+      "forks": 587,
+      "todayStars": 87,
+      "url": "https://github.com/BuilderIO/agent-native",
+      "aiSummary": {
+        "summary": "Agent-Native 是一个 TypeScript 框架，旨在构建将自主智能体与专用 UI 配对的智能体应用。它通过共享操作、数据和应用状态，实现了智能体与 UI 的无缝协作。开发者只需定义一次动作，即可在智能体、React UI、HTTP、MCP 等多种场景中复用，解决了智能体工作流可视化与交互的难题。",
+        "summary_en": "A TypeScript framework for building agents that pair autonomous work with a purpose-built UI.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "Zod"
+        ],
+        "useCase": "构建具有可视化界面的自主智能体应用，实现智能体与用户界面的双向交互与协作。",
+        "useCase_en": "Building agentic applications that unify autonomous agent logic with a shared user interface."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 290687,
+      "forks": 26012,
+      "todayStars": 474,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码代理设计的软件开发方法论与技能框架。它通过引导用户定义规范、分解任务并制定计划，利用子代理自主执行 TDD、YAGNI 和 DRY 原则，实现高效的自动化编码。支持多种主流 AI 编码工具。",
+        "summary_en": "An agentic skills framework and methodology for autonomous coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要自动化软件开发流程、提升 AI 编码代理自主性与代码质量的场景。",
+        "useCase_en": "To provide a structured methodology for autonomous coding agents to build software."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "language": "TypeScript",
+      "stars": 16334,
+      "forks": 1435,
+      "todayStars": 1142,
+      "url": "https://github.com/dream-num/univer",
+      "aiSummary": {
+        "summary": "Univer 是一个开源的 Office SDK，专为 AI 代理打造，支持电子表格、文档、演示文稿等多种办公场景。它提供高性能、可定制的渲染引擎和公式支持，具备插件化架构，允许开发者构建嵌入式的生产力体验，适用于 SaaS、BI 工作流及 AI 应用开发。",
+        "summary_en": "An open-source Office SDK for building embeddable spreadsheets, documents, and presentations with a plugin architecture.",
+        "techStack": [
+          "TypeScript",
+          "Canvas",
+          "Formula Engine",
+          "Node.js"
+        ],
+        "useCase": "将电子表格、文档或演示文稿编辑功能嵌入到 SaaS 产品、BI 工作流或 AI 应用中。",
+        "useCase_en": "Embed spreadsheet, document, and presentation editing into SaaS products, internal tools, or AI applications."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Open-Dev-Society/OpenStock",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "language": "TypeScript",
+      "stars": 18833,
+      "forks": 2286,
+      "todayStars": 344,
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "aiSummary": {
+        "summary": "OpenStock 是一个开源免费的股票市场平台，旨在替代昂贵的付费服务。它提供实时价格追踪、个性化警报和详细的公司洞察，完全免费且社区驱动。项目使用 Next.js 和 MongoDB 构建，旨在打破知识壁垒，让所有人都能无障碍地获取市场信息。",
+        "summary_en": "Open-source stock market platform offering real-time tracking and alerts for free.",
+        "techStack": [
+          "Next.js (App Router)",
+          "shadcn/ui",
+          "Tailwind CSS",
+          "Better Auth",
+          "MongoDB"
+        ],
+        "useCase": "适合个人投资者或学生寻找免费、开源的股票市场数据追踪与可视化工具。",
+        "useCase_en": "A free alternative to expensive market platforms for tracking stocks and insights."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "stars": 3501,
+      "forks": 413,
+      "todayStars": 558,
+      "url": "https://github.com/agent-substrate/substrate",
+      "aiSummary": {
+        "summary": "Agent Substrate 是一个用 Go 编写的安全代理执行运行时，旨在以比标准容器高 10 倍的密度运行数百万个沙箱。它基于 Kubernetes 构建，通过重度多路复用技术将应用程序映射到较小的“工作者”上，提供原生零信任隔离和低延迟的暂停/恢复操作。该系统专为自主代理设计，提供生命周期管理和流量路由，旨在实现大规模、高效的代理部署。",
+        "summary_en": "A secure-by-default Go runtime for high-density agent sandboxing with sub-500ms resume operations.",
+        "techStack": [
+          "Go",
+          "Kubernetes",
+          "MicroVMs",
+          "gVisor"
+        ],
+        "useCase": "大规模运行自主代理及高密度沙箱应用",
+        "useCase_en": "Running autonomous agents at scale with secure, high-density sandboxing."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "strands-agents/harness-sdk",
+      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+      "language": "Python",
+      "stars": 7846,
+      "forks": 1201,
+      "todayStars": 115,
+      "url": "https://github.com/strands-agents/harness-sdk",
+      "aiSummary": {
+        "summary": "Strands Agents 是一个开源 SDK，用于在 Python 和 TypeScript 中构建和运行生产级 AI 代理。它提供了一个强大的“harness”框架，支持端到端控制，包括生命周期管理、工具调用、MCP 协议、多代理协作、内存管理和模型无关性。内置护栏、流式传输和追踪功能，帮助开发者轻松构建可观测且健壮的智能体系统。",
+        "summary_en": "Open-source SDK for building and controlling AI agents with lifecycle management and multi-agent support.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Node.js",
+          "Astro"
+        ],
+        "useCase": "构建具有复杂逻辑、模型无关性和高可观测性的生产级 AI 代理系统。",
+        "useCase_en": "Developers use this SDK to build and control AI agents locally with any model or cloud provider."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars": 49931,
+      "forks": 4601,
+      "todayStars": 57,
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "aiSummary": {
+        "summary": "CLI-Anything 旨在让所有软件“代理原生化”。它通过 CLI-Hub 注册表，提供浏览、安装和管理社区构建的命令行工具。这使得 AI 代理（如 Claude Code、Cursor）能够通过单一命令行指令与各种软件进行交互，实现自动化操作，并支持用户贡献和请求新功能。",
+        "summary_en": "A Python project bridging AI agents and software via a CLI hub registry.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "Pip"
+        ],
+        "useCase": "适用于 AI 代理自动化操作各类软件（如 CAD、3D 场景、笔记工具）的场景。",
+        "useCase_en": "Makes any software agent-ready for various AI agents like Claude Code and Cursor."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "superdesigndev/treg",
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "language": "Python",
+      "stars": 2718,
+      "forks": 242,
+      "todayStars": 506,
+      "url": "https://github.com/superdesigndev/treg",
+      "aiSummary": {
+        "summary": "treg 是一个为代理工具设计的统一 API 网关，类似于 OpenRouter。它聚合了 3000+ 个来自 60+ 个提供商的端点（涵盖 SEO、数据丰富、图像生成等），允许代理通过单一令牌访问，无需单独注册或订阅。它支持按调用付费（从几分钱起）和团队内部工具，确保凭证安全。",
+        "summary_en": "An API gateway for AI agents that aggregates 3,000+ external tools and internal team resources.",
+        "techStack": [
+          "Python",
+          "API Gateway",
+          "CLI"
+        ],
+        "useCase": "为 AI 代理提供对各类外部工具和服务的统一访问入口，简化工具集成与管理。",
+        "useCase_en": "Allows AI agents to perform complex tasks by abstracting 3,000+ external APIs and internal tools into a single unified i"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "stars": 70344,
+      "forks": 4271,
+      "todayStars": 304,
+      "url": "https://github.com/pbakaus/impeccable",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 12,
+      "fullName": "mvt-project/mvt",
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "language": "Python",
+      "stars": 14483,
+      "forks": 1383,
+      "todayStars": 543,
+      "url": "https://github.com/mvt-project/mvt",
+      "aiSummary": {
+        "summary": "MVT (Mobile Verification Toolkit) 是 Amnesty International 开发的开源取证工具，旨在自动化收集 Android 和 iOS 设备的数字痕迹。它支持使用公开的指标（IOCs）扫描设备，帮助调查员识别潜在的间谍软件感染或针对性攻击。该工具专为技术人员和调查员设计，用于辅助安全调查。",
+        "summary_en": "Open-source forensic toolkit for identifying potential spyware on Android and iOS devices.",
+        "techStack": [
+          "Python",
+          "Android",
+          "iOS",
+          "Forensics"
+        ],
+        "useCase": "移动设备取证与间谍软件检测",
+        "useCase_en": "Automate gathering forensic traces to identify potential compromise on Android and iOS devices."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "stars": 44568,
+      "forks": 3638,
+      "todayStars": 190,
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "aiSummary": {
+        "summary": "这是一个高性能的代码智能 MCP 服务器，使用 C 语言编写。它利用 Tree-sitter 和 LSP 将代码库索引为持久化知识图谱，支持 158 种语言。平均仓库毫秒级索引，查询低于 1ms。支持 17 个 MCP 工具，完全本地运行，内置 3D 可视化，专为 AI 编码代理设计。",
+        "summary_en": "High-performance MCP server indexing codebases into a persistent knowledge graph for AI coding agents.",
+        "techStack": [
+          "C",
+          "Tree-sitter",
+          "LSP",
+          "Knowledge Graph",
+          "MCP"
+        ],
+        "useCase": "为 AI 编码代理提供极速的代码库索引与语义理解能力，支持本地化安全分析。",
+        "useCase_en": "Enables AI coding agents to perform high-speed, local codebase exploration and structural analysis via MCP."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "harry7557558/spirula-studio",
+      "description": "Cross-vendor 3D Gaussian Splatting trainer - video to splat to mesh, Vulkan or CUDA.",
+      "language": "C++",
+      "stars": 741,
+      "forks": 56,
+      "todayStars": 69,
+      "url": "https://github.com/harry7557558/spirula-studio",
+      "aiSummary": {
+        "summary": "Spirula Studio 是一款跨供应商的 3D Gaussian Splatting 训练器，支持从视频/照片到 3D 网格的端到端流程。它基于 Vulkan 运行，兼容 NVIDIA、AMD、Intel 和 Apple GPU，无需 Python 或 COLMAP。具备高 VRAM 效率，原生支持 360° 相机，内置 SfM 和 AI 掩码，能快速生成高质量 3D 模型。",
+        "summary_en": "C++ cross-vendor 3D Gaussian Splatting trainer for video-to-mesh workflows on various GPUs.",
+        "techStack": [
+          "C++",
+          "Vulkan",
+          "3D Gaussian Splatting"
+        ],
+        "useCase": "适用于从视频或照片快速生成高质量 3D 模型的场景。",
+        "useCase_en": "Convert video footage into high-quality 3D Gaussian Splatting models and textured meshes."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "browser-use/video-use",
+      "description": "Edit videos with coding agents",
+      "language": "Python",
+      "stars": 26495,
+      "forks": 3166,
+      "todayStars": 746,
+      "url": "https://github.com/browser-use/video-use",
+      "aiSummary": {
+        "summary": "这是一个开源项目，允许用户通过 Claude Code 等编码代理自动编辑视频。它支持自动剪除填充词、自动调色、添加字幕和生成动画，利用 FFmpeg 进行处理，并支持会话记忆，适合需要快速批量处理视频内容的开发者或创作者。",
+        "summary_en": "Open-source Python project enabling AI coding agents to edit videos automatically by processing raw footage and applying post-production effects.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "FFmpeg",
+          "ElevenLabs",
+          "HyperFrames/Remotion/Manim/PIL"
+        ],
+        "useCase": "适合需要通过编程自动化完成视频剪辑、调色、字幕添加及动画生成的场景。",
+        "useCase_en": "Automate video editing workflows using AI agents to process raw footage and generate polished videos."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "TNT-Likely/PanWatch",
+      "description": "盯盘侠 PanWatch · 自托管 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道推送",
+      "language": "Python",
+      "stars": 1508,
+      "forks": 298,
+      "todayStars": 95,
+      "url": "https://github.com/TNT-Likely/PanWatch",
+      "aiSummary": {
+        "summary": "PanWatch 是一个自托管的 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策框架。支持 A股、港股、美股实时监控，具备持仓管理、智能分析（技术指标共振）、价格提醒及全渠道推送功能。支持 Docker 一键部署，数据私有，适合个人投资者进行量化决策。",
+        "summary_en": "Self-hosted AI stock monitoring assistant integrating TradingAgents for multi-agent investment decisions across A-shares, HK stocks, and US stocks.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Playwright",
+          "TradingAgents"
+        ],
+        "useCase": "适合需要数据隐私保护的个人投资者，用于实时监控多市场行情并获取 AI 辅助的投资决策建议。",
+        "useCase_en": "Self-hosted AI assistant for real-time stock monitoring and multi-agent investment analysis."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-24T01:26:25.525Z",
+    "duration": "683s",
+    "version": "1.0.0"
+  }
+}
