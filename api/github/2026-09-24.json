@@ -1,0 +1,309 @@
+{
+  "date": "2026-09-24",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 56569,
+      "forks": 9932,
+      "todayStars": 347,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个全面的 AI 工程自学课程，包含 523 个课程和 20 个阶段，总计约 342 小时。项目涵盖数学基础、ML、LLM 及代理工程，强调“学、做、交付”。通过构建可复用的提示词、代理和 MCP 服务器等工件，帮助学习者从零开始掌握 AI 工程技能，支持多语言翻译。",
+        "summary_en": "Comprehensive open-source curriculum for AI engineering covering math, LLMs, and agents.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "适合希望系统掌握 AI 工程全栈技能并构建生产级 LLM 应用及智能代理的开发者。",
+        "useCase_en": "To learn how to build production AI applications, agents, and MCP servers from scratch."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "stars": 27790,
+      "forks": 2682,
+      "todayStars": 1668,
+      "url": "https://github.com/vectorize-io/hindsight",
+      "aiSummary": {
+        "summary": "Hindsight 是一个专注于让智能体'学习'而非单纯'回忆'的记忆系统。它在 LongMemEval 基准测试中表现卓越，超越了 RAG 和知识图谱等传统技术。该系统提供 LLM 包装器和多种集成方式，旨在为智能体提供长期、准确的学习能力。",
+        "summary_en": "An agent memory system focused on learning over time, outperforming RAG and knowledge graphs.",
+        "techStack": [
+          "Python",
+          "LLM Wrapper",
+          "MCP"
+        ],
+        "useCase": "构建具备长期学习能力的 AI 智能体，用于复杂对话和长期记忆任务。",
+        "useCase_en": "Building smarter agents that learn over time by replacing RAG and knowledge graphs."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "language": "TypeScript",
+      "stars": 17688,
+      "forks": 1527,
+      "todayStars": 1082,
+      "url": "https://github.com/dream-num/univer",
+      "aiSummary": {
+        "summary": "Univer 是一个高性能、开源的 Office SDK，专为 AI 代理打造。它支持电子表格、文档、演示文稿等多种格式，提供基于 Canvas 的渲染、公式引擎和插件架构。开发者可将其嵌入到 SaaS 产品或内部工具中，构建完全可定制的生产力体验，支持浏览器和 Node.js 环境。",
+        "summary_en": "An open-source Office SDK for building embeddable productivity experiences like spreadsheets and documents.",
+        "techStack": [
+          "TypeScript",
+          "Canvas",
+          "Node.js"
+        ],
+        "useCase": "适用于将电子表格、文档等 Office 功能嵌入到 SaaS 产品、BI 工作流或 AI 应用中，构建自定义生产力工具。",
+        "useCase_en": "Embed spreadsheet or document editing into SaaS products, internal tools, BI workflows, or AI applications."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "google/ax",
+      "description": "Google's open agentic orchestration runtime",
+      "language": "Go",
+      "stars": 10466,
+      "forks": 506,
+      "todayStars": 1373,
+      "url": "https://github.com/google/ax",
+      "aiSummary": {
+        "summary": "Google 开源的高吞吐量声明式编排运行时，用于在集群中运行数十亿个自主代理工作负载。它基于 Agent Substrate 提供沙箱隔离，类似 Kubernetes。提供 Task、Workspace、Model 三大原语，支持声明式配置、状态管理和远程调试，旨在解决代理工作负载的隔离、状态累积和成本控制问题。",
+        "summary_en": "Google's open-source Go runtime for orchestrating autonomous agent workloads using Kubernetes-like primitives.",
+        "techStack": [
+          "Go",
+          "Kubernetes",
+          "Agent Substrate"
+        ],
+        "useCase": "适用于大规模部署和管理具备状态管理、工具调用和严格隔离需求的自主智能体工作负载。",
+        "useCase_en": "Declaratively orchestrate autonomous AI agents with strict isolation and resource management."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "NVIDIA/Model-Optimizer",
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+      "language": "Python",
+      "stars": 4082,
+      "forks": 628,
+      "todayStars": 44,
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "aiSummary": {
+        "summary": "NVIDIA Model Optimizer 是一个 Python 库，集成了量化、剪枝、NAS、蒸馏等前沿模型优化技术。它支持从 Hugging Face、PyTorch 或 ONNX 导入模型，通过 Python API 进行优化并导出，无缝对接 TensorRT-LLM、vLLM 等推理框架，旨在加速模型推理并减少模型体积。",
+        "summary_en": "Python library providing state-of-the-art model optimization techniques for accelerating deep learning inference.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Hugging Face",
+          "ONNX",
+          "TensorRT"
+        ],
+        "useCase": "用于深度学习模型的压缩、加速与生产环境部署。",
+        "useCase_en": "Compress deep learning models for faster inference deployment in NVIDIA frameworks."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "FxEmbed/FxEmbed",
+      "description": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
+      "language": "TypeScript",
+      "stars": 5368,
+      "forks": 250,
+      "todayStars": 182,
+      "url": "https://github.com/FxEmbed/FxEmbed",
+      "aiSummary": {
+        "summary": "这是一个用于修复和增强 X/Twitter 和 Bluesky 嵌入内容的开源项目。它支持在 Discord、Telegram 等平台展示多图、视频、投票和翻译等丰富内容。项目基于 TypeScript 和 Cloudflare Worker 构建，提供 Docker 部署方案，允许用户自定义域名和品牌，通过简单的 URL 前缀修改即可使用。",
+        "summary_en": "Fixes and enhances media embeds for X/Twitter and Bluesky on Discord, Telegram, and other platforms.",
+        "techStack": [
+          "TypeScript",
+          "Cloudflare Worker",
+          "Docker",
+          "Wrangler"
+        ],
+        "useCase": "在 Discord、Telegram 等社交平台优化 X/Twitter 和 Bluesky 的链接嵌入效果。",
+        "useCase_en": "To provide rich media support (videos, polls, translations) for X/Twitter and Bluesky links on Discord and Telegram."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "stars": 37357,
+      "forks": 5418,
+      "todayStars": 509,
+      "url": "https://github.com/anthropics/financial-services",
+      "aiSummary": {
+        "summary": "该项目为金融服务行业提供了一套参考代理、技能和数据连接器，支持投资银行、股权研究、私募股权和财富管理等工作流。包含Pitch Agent、Market Researcher等端到端代理，可通过Claude插件或API部署。项目强调输出需人工审核，主要用于辅助分析师生成模型、备忘录和报告。",
+        "summary_en": "Reference agents and skills for financial services workflows like investment banking and equity research.",
+        "techStack": [
+          "Python",
+          "Claude API"
+        ],
+        "useCase": "金融服务行业（投资银行、股权研究等）的自动化工作流与分析师辅助",
+        "useCase_en": "Automate financial workflows like pitch decks and market research for investment banking and equity research."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars": 50335,
+      "forks": 4615,
+      "todayStars": 413,
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "aiSummary": {
+        "summary": "CLI-Anything 是一个连接 AI 代理与各类软件的桥梁。它通过 CLI-Hub 平台提供社区构建的命令行工具，使 AI 代理（如 Claude Code、Cursor）能够通过简单的命令行指令与 CAD、3D 场景、笔记软件等进行交互，实现软件自动化操作。",
+        "summary_en": "A Python project bridging AI agents and software via a CLI registry.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "AI Agent"
+        ],
+        "useCase": "为 AI 代理提供软件自动化操作能力",
+        "useCase_en": "To make software agent-native by providing a CLI hub for automation and management."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "mvt-project/mvt",
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "language": "Python",
+      "stars": 14732,
+      "forks": 1392,
+      "todayStars": 272,
+      "url": "https://github.com/mvt-project/mvt",
+      "aiSummary": {
+        "summary": "MVT 是 Amnesty International 开发的移动取证工具，旨在自动化收集 Android 和 iOS 设备的取证痕迹，以识别潜在的妥协迹象。它支持使用公共入侵指标（IOCs）扫描设备，但警告仅依赖公共 IOCs 可能导致误报或漏报，建议寻求专业专家协助。",
+        "summary_en": "Forensic toolkit for analyzing Android and iOS devices to detect potential spyware infections.",
+        "techStack": [
+          "Python",
+          "Android",
+          "iOS"
+        ],
+        "useCase": "数字取证调查员用于检测移动设备上的间谍软件或潜在入侵迹象。",
+        "useCase_en": "Automating the gathering of forensic traces to identify a potential compromise of Android and iOS devices."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 291233,
+      "forks": 26055,
+      "todayStars": 611,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个面向编码代理的技能框架与软件开发方法论。它通过一套可组合的技能和指令，引导代理在编码前与用户确认需求，制定包含 TDD、YAGNI 和 DRY 原则的实施计划，并支持代理自主执行任务，适用于多种主流 AI 编码工具。",
+        "summary_en": "An agentic skills framework enabling structured software development workflows for AI agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于提升 AI 编码代理的自主开发能力、代码质量及自动化软件开发流程。",
+        "useCase_en": "To provide a structured methodology for autonomous AI coding agents to build software."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "strands-agents/harness-sdk",
+      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+      "language": "Python",
+      "stars": 8261,
+      "forks": 1236,
+      "todayStars": 455,
+      "url": "https://github.com/strands-agents/harness-sdk",
+      "aiSummary": {
+        "summary": "Strands 是一个开源的生产级 AI 代理 SDK，支持 Python 和 TypeScript。它提供端到端的代理控制，无需托管控制平面，内置生命周期管理、工具调用、多代理协作、记忆会话、护栏及追踪评估等功能，支持任意模型和云服务。",
+        "summary_en": "An open-source SDK for building and controlling production AI agents with lifecycle management and model portability.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Amazon Bedrock",
+          "Anthropic",
+          "OpenAI"
+        ],
+        "useCase": "用于构建和运行生产环境中的 AI 智能体，替代手写的代理循环。",
+        "useCase_en": "Build and control production AI agents with lifecycle management, tools, and model portability."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "julyx10/lap",
+      "description": "An offline-first photo manager for large local libraries",
+      "language": "Vue",
+      "stars": 2877,
+      "forks": 171,
+      "todayStars": 122,
+      "url": "https://github.com/julyx10/lap",
+      "aiSummary": {
+        "summary": "Lap 是一款开源的跨平台桌面照片管理器，专为本地大容量媒体库设计。它采用离线优先架构，无需上传云端，保护用户隐私。内置本地 AI 搜索功能，支持人脸识别和智能标签，同时提供文件夹优先的工作流，让用户直接管理现有文件，是云相册服务的隐私替代方案。",
+        "summary_en": "Open-source desktop photo manager focusing on local-first privacy and large library management.",
+        "techStack": [
+          "Vue"
+        ],
+        "useCase": "适合管理本地大量照片、注重隐私且希望使用本地 AI 搜索功能的用户。",
+        "useCase_en": "Manage large personal media libraries offline with local AI search and privacy."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "superdesigndev/treg",
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "language": "Python",
+      "stars": 3166,
+      "forks": 262,
+      "todayStars": 468,
+      "url": "https://github.com/superdesigndev/treg",
+      "aiSummary": {
+        "summary": "treg 是一个为 AI 代理设计的统一工具 API 网关。它聚合了 3000+ 个第三方服务（如 SEO、数据丰富、图像生成），允许代理通过单一 API 调用访问，无需为每个提供商单独注册。支持团队内部工具，按使用量付费，并确保凭证安全。",
+        "summary_en": "A unified API gateway for agent tools aggregating 3,000+ endpoints from 60+ providers, enabling agents to access data without individual provider subscriptions.",
+        "techStack": [
+          "Python",
+          "API Gateway",
+          "AI Agent Tools"
+        ],
+        "useCase": "AI 代理需要调用各类第三方服务（如数据抓取、SEO 分析、图像生成）进行自动化工作流。",
+        "useCase_en": "Enables agents to perform complex tasks like SEO analysis and data scraping by calling a single unified endpoint instead"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "leejet/stable-diffusion.cpp",
+      "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++",
+      "language": "C++",
+      "stars": 7248,
+      "forks": 811,
+      "todayStars": 36,
+      "url": "https://github.com/leejet/stable-diffusion.cpp",
+      "aiSummary": {
+        "summary": "这是一个基于 C++ 和 ggml 的轻量级扩散模型推理库，类似于 llama.cpp。它支持多种主流模型，包括 Stable Diffusion 系列、FLUX、Wan、Qwen Image 等，涵盖图像生成、编辑及视频生成。项目无外部依赖，性能高效，且拥有嵌入式 Web UI，适合在资源受限的环境下运行。",
+        "summary_en": "Lightweight C++ inference engine for image and video generation models including SD, Flux, and Wan.",
+        "techStack": [
+          "C++",
+          "ggml",
+          "Web UI"
+        ],
+        "useCase": "在本地设备或资源受限环境中部署各类扩散模型（图像/视频生成与编辑）",
+        "useCase_en": "Enable local inference of advanced AI image and video models like Flux and Qwen on standard hardware."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-25T01:22:49.284Z",
+    "duration": "339s",
+    "version": "1.0.0"
+  }
+}
