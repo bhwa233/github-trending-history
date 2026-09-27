@@ -1,0 +1,333 @@
+{
+  "date": "2026-09-26",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 87356,
+      "forks": 15433,
+      "todayStars": 2608,
+      "url": "https://github.com/paperclipai/paperclip",
+      "aiSummary": {
+        "summary": "Paperclip 是一个开源的 AI 代理编排应用，基于 Node.js 和 React 构建。它充当“AI 公司”的角色，帮助团队协调多个 AI 代理。用户可通过仪表板设定目标、分配任务、监控成本和工作进度，底层具备组织架构、预算治理和目标对齐功能，旨在构建自主运行的 AI 组织。",
+        "summary_en": "Open-source orchestration tool for managing teams of AI agents to run autonomous businesses.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "React"
+        ],
+        "useCase": "适用于需要协调多个 AI 代理、监控成本并构建自主 AI 组织的团队。",
+        "useCase_en": "Orchestrate a team of AI agents to execute business goals and manage costs within a centralized dashboard."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "stars": 32217,
+      "forks": 3575,
+      "todayStars": 2147,
+      "url": "https://github.com/vectorize-io/hindsight",
+      "aiSummary": {
+        "summary": "Hindsight 是一个专注于让智能体随时间学习的记忆系统，而非仅仅回忆历史。它声称通过消除 RAG 和知识图谱的缺陷，在长期记忆任务中达到 SOTA 性能。项目提供 LLM 包装器和集成，支持 Fortune 500 企业生产环境部署，旨在构建更聪明的智能体。",
+        "summary_en": "Hindsight is an agent memory system designed to make AI agents learn over time, outperforming traditional RAG methods.",
+        "techStack": [
+          "Python",
+          "LLM",
+          "向量数据库"
+        ],
+        "useCase": "构建具备长期学习能力的 AI 智能体，适用于生产环境中的复杂对话与长期记忆任务。",
+        "useCase_en": "Building smarter AI agents that learn from experiences rather than just recalling conversation history."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "NVIDIA/Model-Optimizer",
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+      "language": "Python",
+      "stars": 4756,
+      "forks": 669,
+      "todayStars": 357,
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "aiSummary": {
+        "summary": "NVIDIA Model Optimizer 是一个提供 SOTA 模型优化技术的统一库，支持量化、剪枝、NAS、蒸馏和推测解码。它支持 Hugging Face、PyTorch 和 ONNX 模型输入，通过 Python API 进行优化，并生成可用于 TensorRT-LLM、vLLM 等部署框架的高效量化检查点，旨在加速深度学习模型的推理速度并减少模型大小。",
+        "summary_en": "A unified library for SOTA model optimization techniques like quantization, pruning, and distillation to accelerate deep learning inference.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Hugging Face",
+          "ONNX",
+          "TensorRT-LLM"
+        ],
+        "useCase": "适用于需要加速大模型推理并优化部署性能的场景。",
+        "useCase_en": "Compress deep learning models for deployment in frameworks like TensorRT-LLM to optimize inference speed."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "language": "TypeScript",
+      "stars": 19233,
+      "forks": 1635,
+      "todayStars": 849,
+      "url": "https://github.com/dream-num/univer",
+      "aiSummary": {
+        "summary": "Univer 是一个高性能、开源的 Office SDK，专为 AI 代理打造统一的办公运行时。它支持电子表格、文档、演示文稿等多种格式，提供 Canvas 渲染、公式引擎及插件架构。开发者可灵活构建嵌入式的生产力应用，支持浏览器与 Node.js 环境，适用于 SaaS、BI 工作流及 AI 应用场景。",
+        "summary_en": "An open-source Office SDK for building spreadsheets, documents, and presentations with a plugin architecture and AI agent support.",
+        "techStack": [
+          "TypeScript",
+          "Canvas Rendering",
+          "Formula Engine",
+          "Plugin Architecture"
+        ],
+        "useCase": "将电子表格或文档编辑嵌入到 SaaS 产品、内部工具、BI 工作流或 AI 应用中，构建自定义的协作办公平台。",
+        "useCase_en": "Build embeddable productivity experiences like spreadsheets and documents within your own product."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "language": "C++",
+      "stars": 200460,
+      "forks": 77618,
+      "todayStars": 46,
+      "url": "https://github.com/tensorflow/tensorflow",
+      "aiSummary": {
+        "summary": "TensorFlow 是由 Google Brain 开发的端到端开源机器学习平台。它拥有全面的生态系统，支持研究人员推动技术前沿，也方便开发者构建和部署 ML 应用。提供稳定的 Python 和 C++ API，支持 GPU 加速。",
+        "summary_en": "Open-source machine learning framework for building and deploying ML applications.",
+        "techStack": [
+          "C++",
+          "Python",
+          "CUDA"
+        ],
+        "useCase": "适用于构建和部署机器学习应用，以及进行前沿的深度学习研究。",
+        "useCase_en": "Used by researchers and developers to build and deploy machine learning applications."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 58387,
+      "forks": 10123,
+      "todayStars": 827,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个全面的 AI 工程自学课程，涵盖数学基础、机器学习、LLM 工程及代理开发。项目包含 523 个课程、20 个阶段及约 342 小时内容，支持 Python、TypeScript、Rust 和 Julia。学生通过构建可重用的工件（如提示词、代理和 MCP 服务器）来学习，旨在弥合 AI 工具使用与专业准备之间的差距，开源免费。",
+        "summary_en": "A comprehensive open-source curriculum teaching AI engineering from scratch, covering math, ML, and production LLMs.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "适合希望从零开始构建 AI 应用、代理及 MCP 服务器的开发者。",
+        "useCase_en": "To learn AI engineering by building production-ready applications, agents, and tools from the ground up."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "openbao/openbao",
+      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+      "language": "Go",
+      "stars": 8009,
+      "forks": 590,
+      "todayStars": 364,
+      "url": "https://github.com/openbao/openbao",
+      "aiSummary": {
+        "summary": "OpenBao 是一个用 Go 语言编写的开源机密管理工具，旨在安全地存储、分发和管理敏感数据（如机密、证书和密钥）。它提供动态机密生成（如 AWS 和 SQL 凭据）及自动轮换功能，支持加密存储和多种后端，由社区驱动。",
+        "summary_en": "Open-source secret management platform for securely storing, encrypting, and distributing sensitive data.",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "适用于需要安全存储和管理动态机密、API 密钥及证书的企业级应用。",
+        "useCase_en": "Securely manage and distribute sensitive credentials, API keys, and secrets for modern applications."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "stars": 34832,
+      "forks": 4595,
+      "todayStars": 339,
+      "url": "https://github.com/block/buzz",
+      "aiSummary": {
+        "summary": "Buzz 是一个基于 Rust 的自托管工作空间，旨在让人类与 AI 代理在同一环境中协作。它采用 Nostr 协议作为底层事件日志，支持代理执行代码审查、工作流、仓库操作等任务，并保持完整的审计追踪。项目强调代理拥有独立身份和权限，类似于团队成员。",
+        "summary_en": "A self-hostable Nostr relay workspace enabling collaboration between humans and AI agents.",
+        "techStack": [
+          "Rust",
+          "Nostr"
+        ],
+        "useCase": "适合需要人类与 AI 代理深度协作的开发团队，特别是涉及代码审查、自动化工作流和审计追踪的场景。",
+        "useCase_en": "To provide a sovereign, self-hosted environment where AI agents can collaborate with humans on software development task"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "language": "TypeScript",
+      "stars": 193076,
+      "forks": 43554,
+      "todayStars": 95,
+      "url": "https://github.com/microsoft/vscode",
+      "aiSummary": {
+        "summary": "Visual Studio Code 是微软开发的免费开源代码编辑器，基于 TypeScript 和 Electron 构建。它集成了代码编辑、构建、调试等核心开发功能，拥有强大的扩展生态系统，支持 Windows、macOS 和 Linux。项目采用 MIT 许可证，欢迎社区贡献。",
+        "summary_en": "Microsoft's open-source code editor combining editing, debugging, and extensibility.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "JavaScript",
+          "Node.js"
+        ],
+        "useCase": "适用于各类编程语言的跨平台代码开发与调试。",
+        "useCase_en": "For developers to perform the core edit-build-debug cycle across Windows, macOS, and Linux."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "language": "PowerShell",
+      "stars": 38016,
+      "forks": 5273,
+      "todayStars": 361,
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "aiSummary": {
+        "summary": "这是一个面向 AI 代理的逆向工程与安全研究技能路由包。通过 AI 自动路由，将 APK、二进制文件或 CTF 任务精准匹配至对应工具链与方法论，实现按需自举与经验复用，支持 Claude Code、Cursor 等客户端，旨在解决 AI 工具选择混乱及经验无法复用的问题。",
+        "summary_en": "An AI-powered cybersecurity skills router that automates tool selection and workflow execution for reverse engineering and penetration testing.",
+        "techStack": [
+          "PowerShell",
+          "AI Agents",
+          "Security Research"
+        ],
+        "useCase": "适用于 AI 编码助手处理逆向工程、渗透测试和安全研究任务。",
+        "useCase_en": "Enables AI coding assistants to automatically route security tasks to the appropriate tools and methodologies for analys"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "llvm/llvm-project",
+      "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+      "language": "LLVM",
+      "stars": 40751,
+      "forks": 18823,
+      "todayStars": 41,
+      "url": "https://github.com/llvm/llvm-project",
+      "aiSummary": {
+        "summary": "LLVM 是一个模块化且可重用的编译器和工具链技术集合。核心组件处理中间表示并生成目标文件，Clang 前端支持 C/C++/Objective-C，此外还包括 libc++ 标准库和 LLD 链接器。该项目旨在构建高度优化的编译器、优化器和运行时环境。",
+        "summary_en": "A modular and reusable compiler infrastructure toolkit for building highly optimized compilers and toolchains.",
+        "techStack": [
+          "LLVM",
+          "C/C++",
+          "Clang"
+        ],
+        "useCase": "构建高性能编译器、优化器及运行时环境",
+        "useCase_en": "Used to build compilers, optimizers, and run-time environments for C-like languages."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "anthropics/claude-code-action",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 9094,
+      "forks": 2164,
+      "todayStars": 31,
+      "url": "https://github.com/anthropics/claude-code-action",
+      "aiSummary": {
+        "summary": "这是一个基于 TypeScript 的 GitHub Action，利用 Claude AI 智能处理 PR 和 Issue。它支持代码问答、审查、实现及自动化任务，具备模式自动检测、结构化输出和本地运行能力，简化了与 Claude Code SDK 的集成配置。",
+        "summary_en": "A GitHub Action integrating Claude AI for automated code reviews, Q&A, and implementation in PRs and issues.",
+        "techStack": [
+          "TypeScript",
+          "GitHub Actions",
+          "Anthropic Claude"
+        ],
+        "useCase": "适用于自动化代码审查、问答及功能实现的 GitHub 工作流。",
+        "useCase_en": "Automate software development workflows by leveraging Claude AI to review code, answer questions, and implement changes "
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "actions/runner-images",
+      "description": "GitHub Actions runner images",
+      "language": "PowerShell",
+      "stars": 13302,
+      "forks": 3868,
+      "todayStars": 19,
+      "url": "https://github.com/actions/runner-images",
+      "aiSummary": {
+        "summary": "该项目是 GitHub Actions 和 Azure Pipelines 托管运行器 VM 镜像的源代码仓库。它提供了构建这些镜像的脚本和配置，支持 Ubuntu、macOS 和 Windows 等多种操作系统及架构，并预装了各类开发工具和运行时环境。",
+        "summary_en": "Source code for creating GitHub Actions runner VM images.",
+        "techStack": [
+          "PowerShell",
+          "Linux",
+          "macOS",
+          "Windows Server",
+          "Xcode"
+        ],
+        "useCase": "用于构建 GitHub Actions 和 Azure Pipelines 的自定义运行器镜像，或了解官方镜像的配置与预装软件。",
+        "useCase_en": "Provides source code to build VM images for GitHub Actions runners."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "mobile-next/mobile-mcp",
+      "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
+      "language": "TypeScript",
+      "stars": 7355,
+      "forks": 641,
+      "todayStars": 168,
+      "url": "https://github.com/mobile-next/mobile-mcp",
+      "aiSummary": {
+        "summary": "这是一个基于 TypeScript 的 MCP 服务器，提供跨平台移动自动化解决方案。它允许 AI 代理通过无障碍树或坐标与 iOS/Android 原生应用交互，无需特定平台知识。支持模拟器、真机及云端设备，适用于自动化测试、数据提取及复杂用户流程。",
+        "summary_en": "MCP server for mobile automation and scraping across iOS and Android devices using accessibility trees.",
+        "techStack": [
+          "TypeScript",
+          "Model Context Protocol (MCP)",
+          "Mobile Automation"
+        ],
+        "useCase": "AI 驱动的移动应用自动化测试与数据提取",
+        "useCase_en": "Enable LLMs to control mobile devices for testing, automation, and data extraction."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "vercel/next.js",
+      "description": "The React Framework",
+      "language": "JavaScript",
+      "stars": 142640,
+      "forks": 33165,
+      "todayStars": 54,
+      "url": "https://github.com/vercel/next.js",
+      "aiSummary": {
+        "summary": "Next.js 是一个基于 React 的全栈 Web 应用程序框架。它通过集成 Rust 工具实现极速构建，支持扩展最新 React 特性，被全球大型企业广泛使用。",
+        "summary_en": "Next.js is a React framework for building full-stack web applications with fast builds.",
+        "techStack": [
+          "JavaScript",
+          "React",
+          "Rust"
+        ],
+        "useCase": "适合构建高性能的全栈 Web 应用程序。",
+        "useCase_en": "Developers use Next.js to create full-stack web applications by extending React features."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-27T01:20:16.551Z",
+    "duration": "404s",
+    "version": "1.0.0"
+  }
+}
