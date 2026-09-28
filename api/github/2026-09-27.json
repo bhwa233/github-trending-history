@@ -1,0 +1,206 @@
+{
+  "date": "2026-09-27",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 89968,
+      "forks": 15672,
+      "todayStars": 2401,
+      "url": "https://github.com/paperclipai/paperclip",
+      "aiSummary": {
+        "summary": "Paperclip 是一个开源的 AI 代理团队编排工具，基于 Node.js 和 React 构建。它允许用户定义业务目标，雇佣各种 AI 代理，并从仪表盘监控工作进度、成本和预算。它将代理管理类比为企业管理，提供任务管理、组织架构、预算控制和审计功能，旨在帮助用户构建自主的 AI 组织。",
+        "summary_en": "Open-source orchestration platform for managing teams of AI agents to execute business goals and monitor costs.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "React"
+        ],
+        "useCase": "管理多个 AI 代理以实现业务目标，监控成本并审计工作。",
+        "useCase_en": "Manage autonomous AI organizations by coordinating multiple agents toward common goals."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "stars": 37372,
+      "forks": 4841,
+      "todayStars": 4520,
+      "url": "https://github.com/vectorize-io/hindsight",
+      "aiSummary": {
+        "summary": "Hindsight 是一个专注于让智能体“学习”而非仅仅“记忆”的智能体记忆系统。它声称通过消除 RAG 和知识图谱的缺点，在长时记忆任务中实现了 SOTA 性能，支持 LLM 包装器及编码代理集成，并已在 Fortune 500 企业中投入生产使用。",
+        "summary_en": "Hindsight is a Python agent memory system focused on learning over time, achieving state-of-the-art performance on benchmarks.",
+        "techStack": [
+          "Python",
+          "LLM",
+          "MCP"
+        ],
+        "useCase": "长时记忆智能体开发与企业级 AI 应用",
+        "useCase_en": "To enhance AI agents with long-term learning capabilities and state-of-the-art memory performance."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 40209,
+      "forks": 4780,
+      "todayStars": 3086,
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "aiSummary": {
+        "summary": "VoiceStudio 是一个开源的本地化 ElevenLabs 替代品，支持语音克隆、语音设计、视频配音、听写和转录等功能，覆盖 646 种语言。它默认使用 k2-fsa/OmniVoice 引擎，提供本地 API 和 MCP 支持，允许用户在本地硬件上运行，也可选择远程服务。支持有声书创作和批量作业，提供一键安装脚本。",
+        "summary_en": "Open-source local alternative to ElevenLabs for voice cloning, video dubbing, and audio generation.",
+        "techStack": [
+          "Python",
+          "Electron",
+          "k2-fsa/OmniVoice"
+        ],
+        "useCase": "本地化语音合成与克隆，适合需要隐私保护的内容创作者和开发者。",
+        "useCase_en": "Create synthetic voices, dub videos, and transcribe audio locally without cloud dependencies."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 59324,
+      "forks": 10240,
+      "todayStars": 790,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个全面的 AI 工程自学课程，包含 523 个课程、20 个阶段及约 342 小时内容。涵盖 Python、TypeScript、Rust 和 Julia，教授从数学基础到 LLM 工程、代理构建及 MCP 协议。项目强调通过构建可重用工件（提示词、代理、服务器）来“亲手打造” AI，旨在弥合学生使用 AI 工具与专业准备之间的差距。",
+        "summary_en": "A comprehensive open-source curriculum teaching AI engineering from scratch with 523 lessons across Python, LLMs, and agents.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "适合希望从零开始系统学习 AI 工程并构建生产级应用的个人。",
+        "useCase_en": "To build production-ready AI applications, agents, and reusable artifacts from scratch."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "InfinityLoop1308/PipePipe",
+      "description": "An open-source Android app to let you browse YouTube and other services freely.",
+      "language": "Shell",
+      "stars": 6584,
+      "forks": 223,
+      "todayStars": 242,
+      "url": "https://github.com/InfinityLoop1308/PipePipe",
+      "aiSummary": {
+        "summary": "PipePipe 是一个基于 NewPipe 的开源 Android 应用，旨在自由浏览 YouTube 和其他服务。它提供了比 NewPipe 更快、更稳定且功能更丰富的体验。主要特性包括集成 SponsorBlock、恢复 YouTube 点赞数、弹幕显示、支持 AV1/VP9 编解码器、高级过滤、手势控制以及播放列表下载等功能。该项目为硬 fork，独立于 NewPipe 开发。",
+        "summary_en": "An open-source Android app fork of NewPipe with SponsorBlock, dislikes, and advanced media features.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于需要在 Android 设备上无限制观看 YouTube 和其他流媒体服务，并享受高级功能（如跳过广告、弹幕和后台播放）的用户。",
+        "useCase_en": "Browse YouTube and other services freely on Android with ad-blocking and advanced playback features."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "vercel-labs/scriptc",
+      "description": "TypeScript-to-Native Compiler",
+      "language": "TypeScript",
+      "stars": 5411,
+      "forks": 141,
+      "todayStars": 102,
+      "url": "https://github.com/vercel-labs/scriptc",
+      "aiSummary": {
+        "summary": "scriptc 是 Vercel Labs 开发的实验性 TypeScript 到原生编译器。它利用 TypeScript 编译器进行解析和类型检查，将 TS/JS 编译为 C、LLVM IR、汇编及 WebAssembly 等多种格式。生成的可执行文件无需 Node.js 运行时，支持静态和动态构建，适用于跨平台高性能应用开发。",
+        "summary_en": "A TypeScript-to-Native compiler that generates native executables, LLVM IR, and WebAssembly.",
+        "techStack": [
+          "TypeScript",
+          "C/C++",
+          "LLVM",
+          "WebAssembly"
+        ],
+        "useCase": "将 TypeScript 代码编译为高性能原生可执行文件或 WebAssembly 模块，脱离 Node.js 运行时环境。",
+        "useCase_en": "Compile TypeScript and JavaScript directly into standalone native executables or low-level intermediate representations."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "mvschwarz/openrig",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "language": "TypeScript",
+      "stars": 996,
+      "forks": 105,
+      "todayStars": 114,
+      "url": "https://github.com/mvschwarz/openrig",
+      "aiSummary": {
+        "summary": "OpenRig 是一个 TypeScript 编写的多智能体框架，旨在将 Claude Code 和 Codex 整合为一个统一的系统。它允许用户通过 YAML 定义代理团队，通过一个命令启动。该工具将分散的终端会话转化为持久化、有组织的团队，支持协调专家代理完成复杂任务，并保持工作上下文的一致性。",
+        "summary_en": "A TypeScript-based multi-agent harness that coordinates Claude Code and Codex into a unified coding team.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "tmux",
+          "SQLite"
+        ],
+        "useCase": "适用于需要统一管理和协调多个 AI 编码代理团队以完成复杂任务的场景。",
+        "useCase_en": "To manage AI coding agents as a persistent, coordinated team for complex software development tasks."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "language": "TypeScript",
+      "stars": 20278,
+      "forks": 1715,
+      "todayStars": 895,
+      "url": "https://github.com/dream-num/univer",
+      "aiSummary": {
+        "summary": "Univer 是一个专为 AI Agents 设计的高性能开源 Office SDK。它提供电子表格、文档、演示文稿、关系型数据库和看板等核心功能，支持基于 Canvas 的渲染和插件架构。开发者可将其嵌入 SaaS 或 AI 应用中，构建可协作的办公体验，而不仅仅是查看器。",
+        "summary_en": "An open-source Office SDK for building embeddable spreadsheets, documents, and presentations with a plugin architecture.",
+        "techStack": [
+          "TypeScript",
+          "Canvas",
+          "Node.js"
+        ],
+        "useCase": "将电子表格、文档或演示文稿编辑功能嵌入到 SaaS 产品、内部工具、BI 工作流或 AI 应用中。",
+        "useCase_en": "Embed spreadsheet or document editing into SaaS products, internal tools, BI workflows, or AI applications."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "willfaust/Madeira",
+      "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+      "language": "C",
+      "stars": 821,
+      "forks": 152,
+      "todayStars": 83,
+      "url": "https://github.com/willfaust/Madeira",
+      "aiSummary": {
+        "summary": "这是一个在非越狱 iPhone 上运行 Windows PC 游戏的研究项目。它结合了 Wine、FEX-Emu 和 DXMT 技术，通过 JIT 翻译和 Metal 渲染实现 x86-64 游戏在 iOS 上的运行。目前 Thumper 和 ULTRAKILL 可玩，但存在性能和兼容性问题，需每周侧载。",
+        "summary_en": "Enables running Windows PC games on non-jailbroken iPhones via FEX-Emu and Wine.",
+        "techStack": [
+          "C",
+          "Wine",
+          "FEX-Emu",
+          "DXMT",
+          "iOS"
+        ],
+        "useCase": "在非越狱 iPhone 上运行 Windows PC 游戏",
+        "useCase_en": "Running Windows PC games on a non-jailbroken iPhone."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-28T01:31:36.095Z",
+    "duration": "189s",
+    "version": "1.0.0"
+  }
+}
