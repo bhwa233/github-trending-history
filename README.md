@@ -70,21 +70,20 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-09-27 | **成功**: 9 | **失败**: 0
+**最后更新**: 2026-09-28 | **成功**: 8 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | The open-source app everyone uses to manage agents... | TypeScript | 90.0k | 2.4k | Paperclip 是一个开源的 AI 代理团队编排工具，基于 Node.js 和 React 构建。它允许用户定义业务目标，雇佣各种 AI 代理，并从仪表盘监控工作进度、成本和预算。它将代理管理类比为企业管理，提供任务管理、组织架构、预算控制和审计功能，旨在帮助用户构建自主的 AI 组织。 |
-| 2 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | Hindsight: Agent Memory That Learns... | Python | 37.4k | 4.5k | Hindsight 是一个专注于让智能体“学习”而非仅仅“记忆”的智能体记忆系统。它声称通过消除 RAG 和知识图谱的缺点，在长时记忆任务中实现了 SOTA 性能，支持 LLM 包装器及编码代理集成，并已在 Fortune 500 企业中投入生产使用。 |
-| 3 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio is the open-source, fully-local Eleven... | Python | 40.2k | 3.1k | VoiceStudio 是一个开源的本地化 ElevenLabs 替代品，支持语音克隆、语音设计、视频配音、听写和转录等功能，覆盖 646 种语言。它默认使用 k2-fsa/OmniVoice 引擎，提供本地 API 和 MCP 支持，允许用户在本地硬件上运行，也可选择远程服务。支持有声书创作和批量作业，提供一键安装脚本。 |
-| 4 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | Learn it. Build it. Ship it for others.... | Python | 59.3k | 790 | 这是一个全面的 AI 工程自学课程，包含 523 个课程、20 个阶段及约 342 小时内容。涵盖 Python、TypeScript、Rust 和 Julia，教授从数学基础到 LLM 工程、代理构建及 MCP 协议。项目强调通过构建可重用工件（提示词、代理、服务器）来“亲手打造” AI，旨在弥合学生使用 AI 工具与专业准备之间的差距。 |
-| 5 | [InfinityLoop1308/PipePipe](https://github.com/InfinityLoop1308/PipePipe) | An open-source Android app to let you browse YouTu... | Shell | 6.6k | 242 | PipePipe 是一个基于 NewPipe 的开源 Android 应用，旨在自由浏览 YouTube 和其他服务。它提供了比 NewPipe 更快、更稳定且功能更丰富的体验。主要特性包括集成 SponsorBlock、恢复 YouTube 点赞数、弹幕显示、支持 AV1/VP9 编解码器、高级过滤、手势控制以及播放列表下载等功能。该项目为硬 fork，独立于 NewPipe 开发。 |
-| 6 | [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc) | TypeScript-to-Native Compiler... | TypeScript | 5.4k | 102 | scriptc 是 Vercel Labs 开发的实验性 TypeScript 到原生编译器。它利用 TypeScript 编译器进行解析和类型检查，将 TS/JS 编译为 C、LLVM IR、汇编及 WebAssembly 等多种格式。生成的可执行文件无需 Node.js 运行时，支持静态和动态构建，适用于跨平台高性能应用开发。 |
-| 7 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | Multi-agent harness that runs Claude Code and Code... | TypeScript | 996 | 114 | OpenRig 是一个 TypeScript 编写的多智能体框架，旨在将 Claude Code 和 Codex 整合为一个统一的系统。它允许用户通过 YAML 定义代理团队，通过一个命令启动。该工具将分散的终端会话转化为持久化、有组织的团队，支持协调专家代理完成复杂任务，并保持工作上下文的一致性。 |
-| 8 | [dream-num/univer](https://github.com/dream-num/univer) | The Office Harness for AI Agents — Spreadsheets, D... | TypeScript | 20.3k | 895 | Univer 是一个专为 AI Agents 设计的高性能开源 Office SDK。它提供电子表格、文档、演示文稿、关系型数据库和看板等核心功能，支持基于 Canvas 的渲染和插件架构。开发者可将其嵌入 SaaS 或 AI 应用中，构建可协作的办公体验，而不仅仅是查看器。 |
-| 9 | [willfaust/Madeira](https://github.com/willfaust/Madeira) | Run x86-64 Windows PC games on jailed iOS via FEX-... | C | 821 | 83 | 这是一个在非越狱 iPhone 上运行 Windows PC 游戏的研究项目。它结合了 Wine、FEX-Emu 和 DXMT 技术，通过 JIT 翻译和 Metal 渲染实现 x86-64 游戏在 iOS 上的运行。目前 Thumper 和 ULTRAKILL 可玩，但存在性能和兼容性问题，需每周侧载。 |
+| 1 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio is the open-source, fully-local Eleven... | Python | 44.4k | 3.2k | VoiceStudio 是一个开源的本地化 ElevenLabs 替代品，支持语音克隆、语音设计、视频配音、听写、转录及有声书创作，覆盖 646 种语言。它提供本地 API 和 MCP 支持，允许用户在本地硬件上运行工作流，适合需要隐私保护和本地部署的语音处理场景。 |
+| 2 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | The open-source app everyone uses to manage agents... | TypeScript | 93.0k | 3.2k | Paperclip 是一个开源的 AI 代理编排平台，基于 Node.js 和 React 构建。它将 AI 代理视为公司员工，提供任务管理、预算控制和审计功能，帮助用户协调多个 AI 代理以实现业务目标。它旨在管理自主 AI 组织，提供类似任务管理器的界面来监控工作流和成本。 |
+| 3 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | Hindsight: Agent Memory That Learns... | Python | 41.1k | 4.6k | Hindsight 是一个专注于让智能体‘学习’而非仅仅‘记住’的记忆系统。它通过消除 RAG 和知识图谱的局限性，在长时记忆任务中实现了最先进的性能，被 Fortune 500 企业和 AI 初创公司广泛采用。 |
+| 4 | [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | Open-source, low-cost 10.5 GHz PLFM phased array R... | PLSQL | 25.8k | 158 | AERIS-10 是一款开源、低成本的 10.5 GHz 相控阵雷达系统，采用脉冲线性调频（LFM）调制。它提供 3km 和 20km 两种版本，具备电子波束控制、FPGA 信号处理（脉冲压缩、多普勒处理）及 Python GUI 界面，旨在为研究人员和爱好者提供模块化、可定制的雷达实验平台。 |
+| 5 | [cs341-illinois/coursebook](https://github.com/cs341-illinois/coursebook) | Open Source Introductory Systems Programming Textb... | TeX | 2.6k | 195 | 这是一个由伊利诺伊大学开发的系统编程开源教材，旨在改进原始维基教科书的质量。教材使用 C 语言编写，包含引用、脚注和词汇表，支持自动构建并导出为 PDF、Markdown 和 HTML 格式，适合 CS 341 课程使用。 |
+| 6 | [byoungd/up](https://github.com/byoungd/up) | An advanced guide which might benefit you a lot 🎉... | JavaScript | 64.8k | 327 | 这是一个面向普通人的《人生进阶指南》项目，旨在AI时代通过英语学习、AI协作与真实项目实践实现终身成长。作者韩先凯分享了从基础能力到创业复盘的完整方法论，强调保留个人判断、完成真实任务并保存证据，适合希望利用AI工具加速自我提升与职业发展的学习者。 |
+| 7 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | Multi-agent harness that runs Claude Code and Code... | TypeScript | 1.8k | 734 | OpenRig 是一个多代理框架，将 Claude Code 和 Codex 整合为一个统一的系统。它允许用户通过 YAML 定义代理团队，通过一个命令启动，将杂乱的终端会话转变为持久、有序的 AI 编码团队。用户可以与主管代理协作以获得结果，协调专家并保持上下文。 |
+| 8 | [dream-num/univer](https://github.com/dream-num/univer) | The Office Harness for AI Agents — Spreadsheets, D... | TypeScript | 21.3k | 1.1k | Univer 是一个开源 SDK，用于在产品内部构建办公应用。它支持电子表格、文档、演示文稿等多种格式，提供高性能、可定制的办公体验。具备插件架构、公式引擎和跨平台（浏览器/Node.js）能力，适用于 SaaS、BI 和 AI 应用，旨在打造协作式生产力平台。 |
 
-[查看完整数据](api/github/2026-09-27.json)
+[查看完整数据](api/github/2026-09-28.json)
 <!-- END GITHUB TRENDING -->
 
 

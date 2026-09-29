@@ -1,0 +1,181 @@
+{
+  "date": "2026-09-28",
+  "since": "daily",
+  "totalRepos": 8,
+  "successCount": 8,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 44387,
+      "forks": 5114,
+      "todayStars": 3221,
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "aiSummary": {
+        "summary": "VoiceStudio 是一个开源的本地化 ElevenLabs 替代品，支持语音克隆、语音设计、视频配音、听写、转录及有声书创作，覆盖 646 种语言。它提供本地 API 和 MCP 支持，允许用户在本地硬件上运行工作流，适合需要隐私保护和本地部署的语音处理场景。",
+        "summary_en": "Open-source, local-first alternative to ElevenLabs for voice cloning, dubbing, and transcription in 646 languages.",
+        "techStack": [
+          "Python",
+          "Electron",
+          "k2-fsa/OmniVoice"
+        ],
+        "useCase": "适用于需要本地化、隐私保护且支持多语言语音合成与配音的个人或开发者。",
+        "useCase_en": "Create local voice clones, dub videos, and transcribe audio for content creators and developers."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 92977,
+      "forks": 15909,
+      "todayStars": 3197,
+      "url": "https://github.com/paperclipai/paperclip",
+      "aiSummary": {
+        "summary": "Paperclip 是一个开源的 AI 代理编排平台，基于 Node.js 和 React 构建。它将 AI 代理视为公司员工，提供任务管理、预算控制和审计功能，帮助用户协调多个 AI 代理以实现业务目标。它旨在管理自主 AI 组织，提供类似任务管理器的界面来监控工作流和成本。",
+        "summary_en": "Open-source orchestration tool for managing teams of AI agents to run autonomous businesses.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "React"
+        ],
+        "useCase": "适合需要协调多个 AI 代理（如 Claude、Codex）进行自动化业务运营、预算控制和审计的企业或开发者。",
+        "useCase_en": "Orchestrate teams of AI agents to run autonomous businesses with budgeting and governance."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "stars": 41134,
+      "forks": 5550,
+      "todayStars": 4561,
+      "url": "https://github.com/vectorize-io/hindsight",
+      "aiSummary": {
+        "summary": "Hindsight 是一个专注于让智能体‘学习’而非仅仅‘记住’的记忆系统。它通过消除 RAG 和知识图谱的局限性，在长时记忆任务中实现了最先进的性能，被 Fortune 500 企业和 AI 初创公司广泛采用。",
+        "summary_en": "Hindsight is an agent memory system focused on learning over time, achieving state-of-the-art performance on long-term memory benchmarks.",
+        "techStack": [
+          "Python",
+          "LLM",
+          "MCP"
+        ],
+        "useCase": "构建具备长时记忆能力、能持续学习的智能体，适用于企业级 AI 应用和编码助手。",
+        "useCase_en": "To build smarter AI agents that learn from interactions over time rather than just storing conversation history."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "NawfalMotii79/PLFM_RADAR",
+      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+      "language": "PLSQL",
+      "stars": 25795,
+      "forks": 5887,
+      "todayStars": 158,
+      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "aiSummary": {
+        "summary": "AERIS-10 是一款开源、低成本的 10.5 GHz 相控阵雷达系统，采用脉冲线性调频（LFM）调制。它提供 3km 和 20km 两种版本，具备电子波束控制、FPGA 信号处理（脉冲压缩、多普勒处理）及 Python GUI 界面，旨在为研究人员和爱好者提供模块化、可定制的雷达实验平台。",
+        "summary_en": "Open-source 10.5 GHz phased array radar system for researchers and drone developers.",
+        "techStack": [
+          "FPGA",
+          "Python",
+          "C/C++",
+          "AD9523-1",
+          "ADF4382"
+        ],
+        "useCase": "适用于研究人员、无人机开发者及 SDR 爱好者探索相控阵雷达技术、波束成形及目标跟踪。",
+        "useCase_en": "A platform for researchers and drone developers to experiment with phased array radar technology."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "cs341-illinois/coursebook",
+      "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+      "language": "TeX",
+      "stars": 2558,
+      "forks": 239,
+      "todayStars": 195,
+      "url": "https://github.com/cs341-illinois/coursebook",
+      "aiSummary": {
+        "summary": "这是一个由伊利诺伊大学开发的系统编程开源教材，旨在改进原始维基教科书的质量。教材使用 C 语言编写，包含引用、脚注和词汇表，支持自动构建并导出为 PDF、Markdown 和 HTML 格式，适合 CS 341 课程使用。",
+        "summary_en": "An open-source systems programming textbook for UIUC CS 341, written in TeX.",
+        "techStack": [
+          "TeX",
+          "C",
+          "Markdown"
+        ],
+        "useCase": "适用于计算机科学专业学生学习系统编程基础知识。",
+        "useCase_en": "A reference resource for learning systems programming and Linux kernel concepts."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "byoungd/up",
+      "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+      "language": "JavaScript",
+      "stars": 64783,
+      "forks": 6519,
+      "todayStars": 327,
+      "url": "https://github.com/byoungd/up",
+      "aiSummary": {
+        "summary": "这是一个面向普通人的《人生进阶指南》项目，旨在AI时代通过英语学习、AI协作与真实项目实践实现终身成长。作者韩先凯分享了从基础能力到创业复盘的完整方法论，强调保留个人判断、完成真实任务并保存证据，适合希望利用AI工具加速自我提升与职业发展的学习者。",
+        "summary_en": "A comprehensive guide for lifelong learning in the AI era, covering English, AI tools, and real-world projects.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "适合希望利用AI工具进行终身学习、英语提升及完成真实项目的个人。",
+        "useCase_en": "A resource for ordinary people to learn English and use AI tools for lifelong learning and real-world projects."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "mvschwarz/openrig",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "language": "TypeScript",
+      "stars": 1784,
+      "forks": 141,
+      "todayStars": 734,
+      "url": "https://github.com/mvschwarz/openrig",
+      "aiSummary": {
+        "summary": "OpenRig 是一个多代理框架，将 Claude Code 和 Codex 整合为一个统一的系统。它允许用户通过 YAML 定义代理团队，通过一个命令启动，将杂乱的终端会话转变为持久、有序的 AI 编码团队。用户可以与主管代理协作以获得结果，协调专家并保持上下文。",
+        "summary_en": "Multi-agent harness that coordinates Claude Code and Codex as a unified system for managing coding tasks.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "tmux",
+          "YAML"
+        ],
+        "useCase": "管理 AI 编码团队，协调 Claude 和 Codex 等多个模型完成复杂的代码任务。",
+        "useCase_en": "Coordinate multiple AI coding agents into a persistent, organized team for complex development tasks."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "language": "TypeScript",
+      "stars": 21317,
+      "forks": 1806,
+      "todayStars": 1099,
+      "url": "https://github.com/dream-num/univer",
+      "aiSummary": {
+        "summary": "Univer 是一个开源 SDK，用于在产品内部构建办公应用。它支持电子表格、文档、演示文稿等多种格式，提供高性能、可定制的办公体验。具备插件架构、公式引擎和跨平台（浏览器/Node.js）能力，适用于 SaaS、BI 和 AI 应用，旨在打造协作式生产力平台。",
+        "summary_en": "An open-source TypeScript SDK for building embeddable office applications and productivity experiences with a plugin architecture.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "将电子表格、文档等办公功能嵌入 SaaS 产品、内部工具或 AI 应用中。",
+        "useCase_en": "Embed spreadsheets, documents, and presentations into SaaS products, internal tools, or AI applications."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-29T02:35:22.165Z",
+    "duration": "210s",
+    "version": "1.0.0"
+  }
+}
