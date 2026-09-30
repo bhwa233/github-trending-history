@@ -1,0 +1,311 @@
+{
+  "date": "2026-09-29",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 48250,
+      "forks": 5407,
+      "todayStars": 4758,
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "aiSummary": {
+        "summary": "VoiceStudio 是开源的本地化 ElevenLabs 替代品，支持语音克隆、设计、视频配音、听写、转录及有声书制作，覆盖 646 种语言。它提供本地 API 和 MCP 支持，允许用户在本地硬件上运行工作流，也可选择远程服务，满足多样化语音处理需求。",
+        "summary_en": "Open-source local voice cloning and dubbing tool supporting 646 languages.",
+        "techStack": [
+          "Electron",
+          "Tauri",
+          "Node.js",
+          "Rust",
+          "Python"
+        ],
+        "useCase": "适合需要本地化、隐私保护且支持多语言语音合成与处理的开发者及创作者。",
+        "useCase_en": "Create voice clones, dub videos, and transcribe audio locally using a local-first AI workflow."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 10660,
+      "forks": 1424,
+      "todayStars": 990,
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "aiSummary": {
+        "summary": "OpenShell 是 NVIDIA 开发的 Rust 语言项目，旨在为自主 AI 代理提供安全、私有的运行时环境。它通过内核级强制执行和形式化验证，确保代理在读取文件、调用 API 和使用凭证时受到严格限制，防止数据泄露和未授权访问。",
+        "summary_en": "OpenShell provides a safe, private runtime for autonomous AI agents using kernel-level enforcement and formal verification.",
+        "techStack": [
+          "Rust",
+          "Linux",
+          "Docker"
+        ],
+        "useCase": "为自主 AI 代理提供安全、受控的执行环境，防止数据泄露和未授权访问。",
+        "useCase_en": "It allows AI agents to execute tasks requiring file access and API calls while maintaining strict security policies."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "stars": 42905,
+      "forks": 5777,
+      "todayStars": 2575,
+      "url": "https://github.com/vectorize-io/hindsight",
+      "aiSummary": {
+        "summary": "Hindsight 是一个专注于智能体学习的记忆系统，旨在超越传统的 RAG 和知识图谱。它在 LongMemEval 基准测试中取得了最先进的性能，能够帮助智能体在长期任务中持续学习和改进。该项目支持多种集成方式，已被 Fortune 500 企业和初创公司用于生产环境，是构建高性能 AI 智能体的理想选择。",
+        "summary_en": "Hindsight is a Python agent memory system focused on learning over time, outperforming traditional RAG and knowledge graph techniques.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于构建具备长期记忆和学习能力的 AI 智能体",
+        "useCase_en": "To enhance AI agents with long-term memory that learns and reflects, rather than just recalling history."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "stars": 94507,
+      "forks": 16052,
+      "todayStars": 2458,
+      "url": "https://github.com/paperclipai/paperclip",
+      "aiSummary": {
+        "summary": "Paperclip 是一个开源的 AI 代理编排平台，旨在帮助团队管理 AI 代理团队。它提供类似任务管理器的界面，底层支持组织架构、预算控制和审计功能。用户可以定义业务目标、雇佣不同提供商的代理，并从仪表盘监控工作进度和成本，支持 24/7 自主运行。",
+        "summary_en": "Open-source orchestration for teams of AI agents to manage business goals and workflows.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "React"
+        ],
+        "useCase": "适合需要协调多个 AI 代理（如 Claude、Codex）以实现特定业务目标、管理成本和审计工作的团队。",
+        "useCase_en": "A dashboard for orchestrating autonomous AI agents to execute business tasks and goals."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "t8y2/dbx",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "language": "Rust",
+      "stars": 22092,
+      "forks": 2091,
+      "todayStars": 232,
+      "url": "https://github.com/t8y2/dbx",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 开发的轻量级跨平台数据库管理工具，体积仅 25MB。它支持 MySQL、PostgreSQL、Redis、MongoDB 等超过 100 种数据库，提供桌面端、CLI 和 Docker 部署方式。内置 AI 助手和 MCP Server，旨在为开发者提供高效、便捷的多数据库管理体验。",
+        "summary_en": "A lightweight Rust database client supporting 100+ databases with built-in AI and MCP server features.",
+        "techStack": [
+          "Rust",
+          "CLI",
+          "Desktop Application"
+        ],
+        "useCase": "适用于需要跨平台、轻量化管理 MySQL、PostgreSQL 等多种数据库的开发者及运维场景。",
+        "useCase_en": "Manage and query 100+ databases using a lightweight, cross-platform tool with built-in AI assistance."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "mvschwarz/openrig",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "language": "TypeScript",
+      "stars": 2462,
+      "forks": 177,
+      "todayStars": 737,
+      "url": "https://github.com/mvschwarz/openrig",
+      "aiSummary": {
+        "summary": "OpenRig 是一个 TypeScript 编写的多代理框架，旨在将 Claude Code 和 Codex 整合为一个统一的系统。它通过 YAML 定义代理团队，允许一个主管代理协调多个专家代理，从而将杂乱的终端会话转变为持久、有序的团队协作模式。用户可以通过一个命令启动整个团队，专注于业务结果而非具体实现细节。",
+        "summary_en": "A TypeScript-based multi-agent harness that coordinates Claude Code and Codex as a unified team for software development.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "tmux",
+          "YAML",
+          "SQLite"
+        ],
+        "useCase": "适用于需要协调多个 AI 编码模型（如 Claude 和 Codex）进行复杂项目开发与代码审查的场景。",
+        "useCase_en": "To manage and coordinate multiple AI coding agents (Claude Code and Codex) as a single system for software development."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "oblien/openship",
+      "description": "Self-hosted deployment platform",
+      "language": "TypeScript",
+      "stars": 13860,
+      "forks": 1239,
+      "todayStars": 437,
+      "url": "https://github.com/oblien/openship",
+      "aiSummary": {
+        "summary": "OpenShip 是一个开源自托管部署平台，内置 CI/CD。支持通过桌面应用、Web 仪表板或 CLI 管理应用。用户可连接仓库，自动完成构建、部署、路由及 TLS 终止。提供 Solo 本地模式及团队自托管模式，灵活适配不同规模需求。",
+        "summary_en": "Self-hosted deployment platform with CI/CD for building, shipping, and routing applications.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合开发者或团队进行自托管应用部署，特别是需要本地控制或 CI/CD 集成的场景。",
+        "useCase_en": "Developers use this to self-host and deploy applications with CI/CD capabilities."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "averygan/reclip",
+      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+      "language": "HTML",
+      "stars": 10156,
+      "forks": 1539,
+      "todayStars": 113,
+      "url": "https://github.com/averygan/reclip",
+      "aiSummary": {
+        "summary": "这是一个自托管的开源视频音频下载工具，拥有简洁的 Web 界面。它利用 Python 和 Flask 后端，结合 yt-dlp 引擎，支持从 YouTube、TikTok 等 1000+ 网站下载 MP4 或 MP3 格式。项目代码轻量（后端仅约 150 行），支持批量下载和画质选择，适合个人在本地搭建使用。",
+        "summary_en": "Lightweight, self-hosted video and audio downloader with a clean web UI.",
+        "techStack": [
+          "Python",
+          "Flask",
+          "HTML/CSS/JavaScript",
+          "yt-dlp",
+          "ffmpeg"
+        ],
+        "useCase": "适合个人在本地搭建，用于批量下载主流社交媒体平台的视频或音频。",
+        "useCase_en": "Users can self-host a tool to download videos and audio from various social media platforms."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "cs341-illinois/coursebook",
+      "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+      "language": "TeX",
+      "stars": 3121,
+      "forks": 276,
+      "todayStars": 572,
+      "url": "https://github.com/cs341-illinois/coursebook",
+      "aiSummary": {
+        "summary": "伊利诺伊大学 CS 341 系统编程课程的开放源码教材，旨在提升原教材质量。项目包含引用、脚注和词汇表，支持自动构建并导出为 PDF、Markdown 和 HTML 格式。内容基于 C 语言，适合熟悉汇编指令的学习者。",
+        "summary_en": "Open-source systems programming textbook for UIUC CS 341 written in TeX.",
+        "techStack": [
+          "TeX",
+          "C",
+          "Markdown"
+        ],
+        "useCase": "UIUC CS 341 系统编程课程教学，或作为开源计算机系统编程学习资料。",
+        "useCase_en": "A reference guide for learning systems programming concepts using C and Linux."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars": 61453,
+      "forks": 10536,
+      "todayStars": 786,
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "aiSummary": {
+        "summary": "这是一个全面的 AI 工程自学课程，涵盖从数学基础到 LLM 工程和代理开发的 523 个课程。支持 Python、TypeScript、Rust 和 Julia。每个课程交付可复用的工件（如提示词、代理），强调“边做边学”。旨在弥合学生使用 AI 工具与专业准备之间的差距。",
+        "summary_en": "A comprehensive open-source curriculum for learning AI engineering from scratch with 523 lessons and reusable artifacts.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Rust",
+          "Julia"
+        ],
+        "useCase": "适合希望系统学习 AI 工程并构建生产级 AI 应用、代理及 MCP 服务器的开发者。",
+        "useCase_en": "To learn and build AI engineering artifacts like agents, prompts, and MCP servers from scratch."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "stars": 37419,
+      "forks": 3264,
+      "todayStars": 835,
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "aiSummary": {
+        "summary": "PageIndex 是一个无向量、基于推理的 RAG 引擎，利用树状索引替代向量索引，通过 LLM 模拟人类专家思维进行检索。它提供可解释、上下文丰富的结果，支持本地和云端模式，特别适合金融报告等长篇复杂文档。",
+        "summary_en": "A vectorless RAG engine using tree indexing and LLM reasoning to improve document retrieval accuracy.",
+        "techStack": [
+          "Python",
+          "LLM",
+          "树状索引"
+        ],
+        "useCase": "适用于长篇复杂文档（如金融报告）的检索，强调上下文理解和多步推理。",
+        "useCase_en": "Retrieving relevant information from long, complex professional documents like financial reports using reasoning-based i"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "willfaust/Madeira",
+      "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+      "language": "C",
+      "stars": 1100,
+      "forks": 188,
+      "todayStars": 81,
+      "url": "https://github.com/willfaust/Madeira",
+      "aiSummary": {
+        "summary": "这是一个研究项目，旨在在非越狱的 iPhone 上运行 x86-64 Windows 游戏。它结合了 Wine (ARM64EC)、FEX-Emu (x86-64 翻译) 和 DXMT (D3D11 转 Metal)。目前支持 Thumper 和 ULTRAKILL 等游戏，但存在帧率低、控制不稳定等问题，需要通过侧载安装。",
+        "summary_en": "Run x86-64 Windows PC games on non-jailbroken iOS devices using FEX-Emu, Wine, and DXMT.",
+        "techStack": [
+          "C",
+          "Wine",
+          "FEX-Emu",
+          "DXMT",
+          "Metal"
+        ],
+        "useCase": "在非越狱 iPhone 上运行 Windows PC 游戏",
+        "useCase_en": "Play Windows PC games on a non-jailbroken iPhone."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "language": "TypeScript",
+      "stars": 21883,
+      "forks": 1849,
+      "todayStars": 696,
+      "url": "https://github.com/dream-num/univer",
+      "aiSummary": {
+        "summary": "Univer 是一个高性能、可定制的办公 SDK，支持电子表格、文档、演示文稿、数据库、看板和 PDF。它提供插件架构、公式引擎和 Canvas 渲染，可在浏览器和 Node.js 运行。专为 AI 代理设计，允许开发者构建嵌入产品内部的协作生产力体验。",
+        "summary_en": "An open-source Office SDK for building spreadsheets, documents, and presentations with a plugin architecture and AI agent support.",
+        "techStack": [
+          "TypeScript",
+          "Canvas",
+          "JavaScript"
+        ],
+        "useCase": "将办公功能（电子表格、文档等）嵌入 SaaS 产品、内部工具或 AI 应用中。",
+        "useCase_en": "Build embeddable productivity experiences like spreadsheets and documents within your own product."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "rakyll/hey",
+      "description": "HTTP load generator, ApacheBench (ab) replacement",
+      "language": "Go",
+      "stars": 20487,
+      "forks": 1312,
+      "todayStars": 34,
+      "url": "https://github.com/rakyll/hey",
+      "aiSummary": {
+        "summary": "hey 是一个用 Go 语言编写的轻量级 HTTP 负载生成器，作为 ApacheBench (ab) 的替代品。它支持并发请求、HTTP/2、速率限制、自定义请求头及代理等功能，能够生成详细的性能统计报告，适用于 Web 应用性能测试。",
+        "summary_en": "A Go-based HTTP load generator and ApacheBench replacement for stress testing web applications.",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "Web 应用性能测试与压力测试",
+        "useCase_en": "Run concurrent HTTP requests to benchmark web application performance and stability."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-30T02:04:48.628Z",
+    "duration": "628s",
+    "version": "1.0.0"
+  }
+}
