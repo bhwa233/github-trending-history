@@ -1,0 +1,326 @@
+{
+  "date": "2026-10-01",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 150565,
+      "forks": 8083,
+      "todayStars": 1194,
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "aiSummary": {
+        "summary": "Ponytail 是一个 JavaScript 项目，旨在通过将“懒惰高级开发人员”的人设注入 AI 代理，显著减少代码量、成本和时间。它鼓励使用原生简单方案（如原生 HTML 元素）替代复杂库，在保持 100% 安全的同时，实测代码量减少约 54%，成本降低 20%，速度提升 27%。",
+        "summary_en": "A prompt/skill that optimizes AI agents to write minimal, efficient, and safe code.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "适用于需要优化 AI 代理代码输出，追求极简、低成本和高效率的开发场景。",
+        "useCase_en": "Apply this skill to AI agents to enforce minimalism and reduce unnecessary complexity in generated code."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 273939,
+      "forks": 23000,
+      "todayStars": 883,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个为真实工程师设计的 AI 技能集合，旨在帮助开发者构建真实应用而非仅进行“氛围编码”。这些技能基于数十年的工程经验，设计为小型、可组合且易于适应。支持 Claude Code 和 Codex 等多种 AI 代理，提供订阅式或本地可编辑的安装方式，通过运行特定命令快速配置项目。",
+        "summary_en": "A collection of engineering skills for AI coding agents, designed for real-world application.",
+        "techStack": [
+          "Shell",
+          "Node.js"
+        ],
+        "useCase": "辅助 AI 代理进行真实应用开发，提供工程化技能集。",
+        "useCase_en": "To provide a set of composable skills for AI coding agents to perform real engineering tasks."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 14043,
+      "forks": 1630,
+      "todayStars": 2456,
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "aiSummary": {
+        "summary": "OpenShell 是一个为自主 AI 代理提供的安全、私有运行时。它利用内核级强制执行和形式化验证技术，确保代理仅在策略允许的范围内读写文件、调用 API 和访问网络。项目通过 Rust 构建，有效隔离代理与敏感数据，防止未经授权的访问。",
+        "summary_en": "OpenShell provides a safe, private runtime for autonomous AI agents using kernel-level enforcement and formal verification.",
+        "techStack": [
+          "Rust",
+          "Linux",
+          "Docker"
+        ],
+        "useCase": "为需要访问文件系统和 API 但需严格隔离敏感数据的自主 AI 代理提供安全运行环境。",
+        "useCase_en": "To safely execute autonomous AI agents by enforcing strict policies on file access, system calls, and network connection"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "firebase/firebase-ios-sdk",
+      "description": "Firebase SDK for Apple App Development",
+      "language": "C++",
+      "stars": 6865,
+      "forks": 1807,
+      "todayStars": 112,
+      "url": "https://github.com/firebase/firebase-ios-sdk",
+      "aiSummary": {
+        "summary": "Firebase iOS SDK 是 Google Firebase 平台在 Apple 设备上的开源开发套件。包含 AI Logic、认证、云数据库、消息推送、崩溃报告等核心服务。支持 Swift 和 Objective-C，提供 Swift Package Manager 和 CocoaPods 等安装方式。注意 CocoaPods 将于 2026 年停止更新新版本。",
+        "summary_en": "Open-source Firebase SDK for Apple platforms including Authentication, Firestore, and Messaging.",
+        "techStack": [
+          "C++",
+          "Swift",
+          "Objective-C"
+        ],
+        "useCase": "用于开发 iOS、macOS 等苹果平台应用，集成 Firebase 全套后端服务。",
+        "useCase_en": "Developers use this to integrate Firebase services like Authentication, Cloud Firestore, and Messaging into iOS and macO"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "mvschwarz/openrig",
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "language": "TypeScript",
+      "stars": 3752,
+      "forks": 249,
+      "todayStars": 642,
+      "url": "https://github.com/mvschwarz/openrig",
+      "aiSummary": {
+        "summary": "OpenRig 是一个开源工具，用于构建和管理 AI 代理网络。它将多个 AI 编码模型（如 Claude Code 和 Codex）整合到一个持久化的团队中。用户可以通过 YAML 定义团队角色，使用命令行启动，实现共享上下文和协作工作。它旨在将零散的终端会话转化为有组织的系统，适合进行复杂的 AI 编码任务和实验。",
+        "summary_en": "Open-source system for orchestrating AI coding agents into persistent, role-based teams with shared context.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "tmux",
+          "YAML"
+        ],
+        "useCase": "构建和管理多 AI 模型协作的持久化编码团队，实现复杂任务的自动化协调与上下文共享。",
+        "useCase_en": "Turn isolated AI coding sessions into a cohesive, persistent team that manages shared context and coordinates work."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars": 9327,
+      "forks": 883,
+      "todayStars": 150,
+      "url": "https://github.com/cursor/plugins",
+      "aiSummary": {
+        "summary": "该项目是 Cursor 编辑器的官方插件集合，包含教学、持续学习、团队协作、代码审查、文档渲染、代理编排等多种开发者工具。旨在通过 TypeScript SDK 和插件规范，增强 AI 辅助编程能力，支持自动化工作流、深度审计及团队内部协作。",
+        "summary_en": "Official plugins and specifications for the Cursor AI code editor ecosystem.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于使用 Cursor 编辑器的开发者，用于提升 AI 编程效率、自动化代码审查、团队协作及构建自定义 AI 代理插件。",
+        "useCase_en": "To extend the Cursor AI code editor with tools for learning, team workflows, code review, and automation."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 293990,
+      "forks": 26295,
+      "todayStars": 455,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个面向编码代理的技能框架与软件开发方法论。它通过一套可组合的技能，指导 AI 代理在编码前与用户确认需求、展示设计、制定 TDD 实施计划，并支持自主执行。旨在提升 AI 编码代理的工程化水平和自主开发能力。",
+        "summary_en": "A framework enabling AI coding agents to follow structured software development methodologies.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "用于增强 Claude、Cursor 等主流 AI 编码代理的能力，使其遵循 TDD 和 YAGNI 原则进行自主软件开发。",
+        "useCase_en": "To structure and automate the software development process for AI coding agents."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 24793,
+      "forks": 1784,
+      "todayStars": 362,
+      "url": "https://github.com/mksglu/context-mode",
+      "aiSummary": {
+        "summary": "这是一个 TypeScript 项目，旨在优化 AI 编码代理的上下文窗口。它通过沙箱化工具输出（减少 98%）、利用 SQLite 和 FTS5 保留会话记忆，以及强制 LLM 编写脚本执行计算而非读取数据，有效解决了上下文丢失和冗余问题，提升代理效率。",
+        "summary_en": "An MCP server optimizing AI coding agent context windows via sandboxing and session memory persistence.",
+        "techStack": [
+          "TypeScript",
+          "MCP",
+          "SQLite",
+          "FTS5",
+          "BM25"
+        ],
+        "useCase": "适用于需要长时间运行且上下文窗口有限的 AI 编码代理，防止上下文溢出并保持会话连续性。",
+        "useCase_en": "To optimize AI coding agent context windows by sandboxing tool outputs and persisting session memory."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 55368,
+      "forks": 5021,
+      "todayStars": 627,
+      "url": "https://github.com/heygen-com/hyperframes",
+      "aiSummary": {
+        "summary": "HyperFrames 是一个开源框架，用于将 HTML、CSS、媒体和动画转换为确定性的 MP4 视频。它专为 AI 编码代理设计，提供 CLI 工具和技能，帮助代理自动化视频创作流程，支持本地运行和云端集成。",
+        "summary_en": "Open-source framework converting HTML and animations into MP4 videos, optimized for AI coding agents.",
+        "techStack": [
+          "TypeScript",
+          "HTML/CSS",
+          "MP4"
+        ],
+        "useCase": "适用于 AI 编码代理（如 Claude Code、Cursor）自动化生成视频内容，或作为视频渲染的核心引擎。",
+        "useCase_en": "Enables AI coding agents to generate deterministic MP4 videos from HTML and animations."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "language": "TypeScript",
+      "stars": 111254,
+      "forks": 14134,
+      "todayStars": 298,
+      "url": "https://github.com/earendil-works/pi",
+      "aiSummary": {
+        "summary": "Pi 是一个基于 TypeScript 的 AI Agent 工具包，提供统一的 LLM API、Agent 运行时及交互式编码 CLI。核心组件包括多模型支持、工具调用与状态管理，以及独立的代码辅助 CLI。项目还包含应用编排、遥测和持久化运行时等扩展包，适合构建智能代理系统。",
+        "summary_en": "TypeScript toolkit for building AI agents with unified LLM APIs and coding capabilities.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "CLI/TUI"
+        ],
+        "useCase": "构建 AI 代理系统，特别是代码辅助与自动化工作流",
+        "useCase_en": "To build interactive coding agents and AI workflows using a unified multi-provider LLM API."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "tile-ai/tilelang",
+      "description": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+      "language": "Python",
+      "stars": 8121,
+      "forks": 818,
+      "todayStars": 163,
+      "url": "https://github.com/tile-ai/tilelang",
+      "aiSummary": {
+        "summary": "Tile Language 是一个基于 TVM 的领域特定语言（DSL），旨在简化高性能 GPU/CPU/NPU 内核的开发。它采用 Pythonic 语法，结合底层编译器基础设施，在保证开发效率的同时提供卓越的低级优化性能。支持 GEMM、FlashAttention 等算子，并已扩展支持华为 Ascend 950、Apple M5 等多后端硬件。",
+        "summary_en": "A Pythonic DSL for high-performance GPU/CPU/NPU kernels built on TVM.",
+        "techStack": [
+          "Python",
+          "TVM",
+          "CUDA",
+          "Metal",
+          "Ascend"
+        ],
+        "useCase": "适用于高性能 AI 算子（如 GEMM、FlashAttention）的开发及多硬件加速器（GPU、NPU）的内核优化。",
+        "useCase_en": "Streamline the development of high-performance kernels for AI workloads like GEMM and attention mechanisms."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "pablostanley/yoinks",
+      "description": "yoink any video from your terminal. no shady ads.",
+      "language": "TypeScript",
+      "stars": 2960,
+      "forks": 279,
+      "todayStars": 361,
+      "url": "https://github.com/pablostanley/yoinks",
+      "aiSummary": {
+        "summary": "这是一个基于 TypeScript 的终端视频下载工具，支持从 YouTube、Instagram 等数千个网站下载视频或音频。它利用 yt-dlp 和 ffmpeg 技术，提供无广告、无弹窗的纯净体验，并使用 Ink 框架构建交互式界面，支持键盘和鼠标操作。",
+        "summary_en": "A terminal utility to download videos from 1800+ sites without ads or popups.",
+        "techStack": [
+          "TypeScript",
+          "Ink",
+          "yt-dlp",
+          "ffmpeg"
+        ],
+        "useCase": "适合需要在命令行环境下快速下载视频或音频，追求极简无广告体验的开发者或极客。",
+        "useCase_en": "Download videos from YouTube, X, Instagram, and other platforms directly from the terminal."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "HunxByts/GhostTrack",
+      "description": "Useful tool to track location or mobile number",
+      "language": "Python",
+      "stars": 16421,
+      "forks": 2257,
+      "todayStars": 368,
+      "url": "https://github.com/HunxByts/GhostTrack",
+      "aiSummary": {
+        "summary": "GhostTrack 是一款基于 Python 的 OSINT 信息收集工具，主要用于追踪目标 IP 地址、手机号码及社交媒体用户名。它支持在 Linux 和 Termux 环境下运行，通过菜单界面提供多种追踪功能，帮助用户获取目标位置或关联信息。",
+        "summary_en": "Python-based OSINT tool for tracking IP addresses, phone numbers, and social media usernames.",
+        "techStack": [
+          "Python",
+          "Git",
+          "pip3"
+        ],
+        "useCase": "适用于网络安全研究人员进行开源网络情报收集和目标信息追踪。",
+        "useCase_en": "Gather information on targets using IP, phone number, and username tracking."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "stars": 73706,
+      "forks": 4439,
+      "todayStars": 495,
+      "url": "https://github.com/pbakaus/impeccable",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供设计指导的开源项目。它包含 24 个命令和 61 条确定性检测规则，帮助 AI 生成一致且高质量的前端设计，避免重复模式。支持实时浏览器迭代和产品真相记录。",
+        "summary_en": "A design language tool for AI coding agents that enforces consistent frontend design standards.",
+        "techStack": [
+          "JavaScript",
+          "CLI",
+          "Browser Extension"
+        ],
+        "useCase": "用于提升 AI 生成的 UI 设计质量和一致性，防止设计模式重复。",
+        "useCase_en": "To guide AI coding agents in generating consistent and high-quality frontend designs using a shared design vocabulary an"
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "Friedrich-M/UniMate",
+      "description": "[SIGGRAPH Asia 2026] UniMate: One Unified Model to Animate Diverse Skeletons",
+      "language": "Python",
+      "stars": 1086,
+      "forks": 102,
+      "todayStars": 217,
+      "url": "https://github.com/Friedrich-M/UniMate",
+      "aiSummary": {
+        "summary": "UniMate 是一个发表于 SIGGRAPH Asia 2026 的统一模型，旨在通过单一模型动画化多样化的骨骼（如双足、四足、鸟类等）。项目引入了包含 13,006 个文本配对的大规模 UniML3D 数据集，支持文本到动画的生成，并提供了完整的训练与推理代码。",
+        "summary_en": "UniMate is a unified model for animating diverse skeletons using text prompts and a large-scale dataset.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "文本驱动的多样化骨骼 3D 动画生成",
+        "useCase_en": "To animate diverse skeletons using a single unified model driven by text prompts."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-02T02:11:47.968Z",
+    "duration": "451s",
+    "version": "1.0.0"
+  }
+}

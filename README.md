@@ -70,26 +70,27 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-09-29 | **成功**: 14 | **失败**: 0
+**最后更新**: 2026-10-01 | **成功**: 15 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio is the open-source, fully-local Eleven... | Python | 48.3k | 4.8k | VoiceStudio 是开源的本地化 ElevenLabs 替代品，支持语音克隆、设计、视频配音、听写、转录及有声书制作，覆盖 646 种语言。它提供本地 API 和 MCP 支持，允许用户在本地硬件上运行工作流，也可选择远程服务，满足多样化语音处理需求。 |
-| 2 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) | OpenShell is the safe, private runtime for autonom... | Rust | 10.7k | 990 | OpenShell 是 NVIDIA 开发的 Rust 语言项目，旨在为自主 AI 代理提供安全、私有的运行时环境。它通过内核级强制执行和形式化验证，确保代理在读取文件、调用 API 和使用凭证时受到严格限制，防止数据泄露和未授权访问。 |
-| 3 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | Hindsight: Agent Memory That Learns... | Python | 42.9k | 2.6k | Hindsight 是一个专注于智能体学习的记忆系统，旨在超越传统的 RAG 和知识图谱。它在 LongMemEval 基准测试中取得了最先进的性能，能够帮助智能体在长期任务中持续学习和改进。该项目支持多种集成方式，已被 Fortune 500 企业和初创公司用于生产环境，是构建高性能 AI 智能体的理想选择。 |
-| 4 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | The open-source app everyone uses to manage agents... | TypeScript | 94.5k | 2.5k | Paperclip 是一个开源的 AI 代理编排平台，旨在帮助团队管理 AI 代理团队。它提供类似任务管理器的界面，底层支持组织架构、预算控制和审计功能。用户可以定义业务目标、雇佣不同提供商的代理，并从仪表盘监控工作进度和成本，支持 24/7 自主运行。 |
-| 5 | [t8y2/dbx](https://github.com/t8y2/dbx) | 25 MB lightweight cross-platform database client f... | Rust | 22.1k | 232 | 这是一个基于 Rust 开发的轻量级跨平台数据库管理工具，体积仅 25MB。它支持 MySQL、PostgreSQL、Redis、MongoDB 等超过 100 种数据库，提供桌面端、CLI 和 Docker 部署方式。内置 AI 助手和 MCP Server，旨在为开发者提供高效、便捷的多数据库管理体验。 |
-| 6 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | Multi-agent harness that runs Claude Code and Code... | TypeScript | 2.5k | 737 | OpenRig 是一个 TypeScript 编写的多代理框架，旨在将 Claude Code 和 Codex 整合为一个统一的系统。它通过 YAML 定义代理团队，允许一个主管代理协调多个专家代理，从而将杂乱的终端会话转变为持久、有序的团队协作模式。用户可以通过一个命令启动整个团队，专注于业务结果而非具体实现细节。 |
-| 7 | [oblien/openship](https://github.com/oblien/openship) | Self-hosted deployment platform... | TypeScript | 13.9k | 437 | OpenShip 是一个开源自托管部署平台，内置 CI/CD。支持通过桌面应用、Web 仪表板或 CLI 管理应用。用户可连接仓库，自动完成构建、部署、路由及 TLS 终止。提供 Solo 本地模式及团队自托管模式，灵活适配不同规模需求。 |
-| 8 | [averygan/reclip](https://github.com/averygan/reclip) | Download videos from almost any website. Lightweig... | HTML | 10.2k | 113 | 这是一个自托管的开源视频音频下载工具，拥有简洁的 Web 界面。它利用 Python 和 Flask 后端，结合 yt-dlp 引擎，支持从 YouTube、TikTok 等 1000+ 网站下载 MP4 或 MP3 格式。项目代码轻量（后端仅约 150 行），支持批量下载和画质选择，适合个人在本地搭建使用。 |
-| 9 | [cs341-illinois/coursebook](https://github.com/cs341-illinois/coursebook) | Open Source Introductory Systems Programming Textb... | TeX | 3.1k | 572 | 伊利诺伊大学 CS 341 系统编程课程的开放源码教材，旨在提升原教材质量。项目包含引用、脚注和词汇表，支持自动构建并导出为 PDF、Markdown 和 HTML 格式。内容基于 C 语言，适合熟悉汇编指令的学习者。 |
-| 10 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | Learn it. Build it. Ship it for others.... | Python | 61.5k | 786 | 这是一个全面的 AI 工程自学课程，涵盖从数学基础到 LLM 工程和代理开发的 523 个课程。支持 Python、TypeScript、Rust 和 Julia。每个课程交付可复用的工件（如提示词、代理），强调“边做边学”。旨在弥合学生使用 AI 工具与专业准备之间的差距。 |
-| 11 | [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | 📑 PageIndex: Document Index for Vectorless, Reaso... | Python | 37.4k | 835 | PageIndex 是一个无向量、基于推理的 RAG 引擎，利用树状索引替代向量索引，通过 LLM 模拟人类专家思维进行检索。它提供可解释、上下文丰富的结果，支持本地和云端模式，特别适合金融报告等长篇复杂文档。 |
-| 12 | [willfaust/Madeira](https://github.com/willfaust/Madeira) | Run x86-64 Windows PC games on jailed iOS via FEX-... | C | 1.1k | 81 | 这是一个研究项目，旨在在非越狱的 iPhone 上运行 x86-64 Windows 游戏。它结合了 Wine (ARM64EC)、FEX-Emu (x86-64 翻译) 和 DXMT (D3D11 转 Metal)。目前支持 Thumper 和 ULTRAKILL 等游戏，但存在帧率低、控制不稳定等问题，需要通过侧载安装。 |
-| 13 | [dream-num/univer](https://github.com/dream-num/univer) | The Office Harness for AI Agents — Spreadsheets, D... | TypeScript | 21.9k | 696 | Univer 是一个高性能、可定制的办公 SDK，支持电子表格、文档、演示文稿、数据库、看板和 PDF。它提供插件架构、公式引擎和 Canvas 渲染，可在浏览器和 Node.js 运行。专为 AI 代理设计，允许开发者构建嵌入产品内部的协作生产力体验。 |
-| 14 | [rakyll/hey](https://github.com/rakyll/hey) | HTTP load generator, ApacheBench (ab) replacement... | Go | 20.5k | 34 | hey 是一个用 Go 语言编写的轻量级 HTTP 负载生成器，作为 ApacheBench (ab) 的替代品。它支持并发请求、HTTP/2、速率限制、自定义请求头及代理等功能，能够生成详细的性能统计报告，适用于 Web 应用性能测试。 |
+| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | Makes your AI agent think like the laziest senior ... | JavaScript | 150.6k | 1.2k | Ponytail 是一个 JavaScript 项目，旨在通过将“懒惰高级开发人员”的人设注入 AI 代理，显著减少代码量、成本和时间。它鼓励使用原生简单方案（如原生 HTML 元素）替代复杂库，在保持 100% 安全的同时，实测代码量减少约 54%，成本降低 20%，速度提升 27%。 |
+| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .agent... | Shell | 273.9k | 883 | 这是一个为真实工程师设计的 AI 技能集合，旨在帮助开发者构建真实应用而非仅进行“氛围编码”。这些技能基于数十年的工程经验，设计为小型、可组合且易于适应。支持 Claude Code 和 Codex 等多种 AI 代理，提供订阅式或本地可编辑的安装方式，通过运行特定命令快速配置项目。 |
+| 3 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) | OpenShell is the safe, private runtime for autonom... | Rust | 14.0k | 2.5k | OpenShell 是一个为自主 AI 代理提供的安全、私有运行时。它利用内核级强制执行和形式化验证技术，确保代理仅在策略允许的范围内读写文件、调用 API 和访问网络。项目通过 Rust 构建，有效隔离代理与敏感数据，防止未经授权的访问。 |
+| 4 | [firebase/firebase-ios-sdk](https://github.com/firebase/firebase-ios-sdk) | Firebase SDK for Apple App Development... | C++ | 6.9k | 112 | Firebase iOS SDK 是 Google Firebase 平台在 Apple 设备上的开源开发套件。包含 AI Logic、认证、云数据库、消息推送、崩溃报告等核心服务。支持 Swift 和 Objective-C，提供 Swift Package Manager 和 CocoaPods 等安装方式。注意 CocoaPods 将于 2026 年停止更新新版本。 |
+| 5 | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | Build your own network of agents from Claude Code,... | TypeScript | 3.8k | 642 | OpenRig 是一个开源工具，用于构建和管理 AI 代理网络。它将多个 AI 编码模型（如 Claude Code 和 Codex）整合到一个持久化的团队中。用户可以通过 YAML 定义团队角色，使用命令行启动，实现共享上下文和协作工作。它旨在将零散的终端会话转化为有组织的系统，适合进行复杂的 AI 编码任务和实验。 |
+| 6 | [cursor/plugins](https://github.com/cursor/plugins) | Cursor plugin specification and official plugins... | TypeScript | 9.3k | 150 | 该项目是 Cursor 编辑器的官方插件集合，包含教学、持续学习、团队协作、代码审查、文档渲染、代理编排等多种开发者工具。旨在通过 TypeScript SDK 和插件规范，增强 AI 辅助编程能力，支持自动化工作流、深度审计及团队内部协作。 |
+| 7 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 294.0k | 455 | Superpowers 是一个面向编码代理的技能框架与软件开发方法论。它通过一套可组合的技能，指导 AI 代理在编码前与用户确认需求、展示设计、制定 TDD 实施计划，并支持自主执行。旨在提升 AI 编码代理的工程化水平和自主开发能力。 |
+| 8 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents. ... | TypeScript | 24.8k | 362 | 这是一个 TypeScript 项目，旨在优化 AI 编码代理的上下文窗口。它通过沙箱化工具输出（减少 98%）、利用 SQLite 和 FTS5 保留会话记忆，以及强制 LLM 编写脚本执行计算而非读取数据，有效解决了上下文丢失和冗余问题，提升代理效率。 |
+| 9 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Write HTML. Render video. Built for agents.... | TypeScript | 55.4k | 627 | HyperFrames 是一个开源框架，用于将 HTML、CSS、媒体和动画转换为确定性的 MP4 视频。它专为 AI 编码代理设计，提供 CLI 工具和技能，帮助代理自动化视频创作流程，支持本地运行和云端集成。 |
+| 10 | [earendil-works/pi](https://github.com/earendil-works/pi) | AI agent toolkit: unified LLM API, agent loop, TUI... | TypeScript | 111.3k | 298 | Pi 是一个基于 TypeScript 的 AI Agent 工具包，提供统一的 LLM API、Agent 运行时及交互式编码 CLI。核心组件包括多模型支持、工具调用与状态管理，以及独立的代码辅助 CLI。项目还包含应用编排、遥测和持久化运行时等扩展包，适合构建智能代理系统。 |
+| 11 | [tile-ai/tilelang](https://github.com/tile-ai/tilelang) | Domain-specific language designed to streamline th... | Python | 8.1k | 163 | Tile Language 是一个基于 TVM 的领域特定语言（DSL），旨在简化高性能 GPU/CPU/NPU 内核的开发。它采用 Pythonic 语法，结合底层编译器基础设施，在保证开发效率的同时提供卓越的低级优化性能。支持 GEMM、FlashAttention 等算子，并已扩展支持华为 Ascend 950、Apple M5 等多后端硬件。 |
+| 12 | [pablostanley/yoinks](https://github.com/pablostanley/yoinks) | yoink any video from your terminal. no shady ads.... | TypeScript | 3.0k | 361 | 这是一个基于 TypeScript 的终端视频下载工具，支持从 YouTube、Instagram 等数千个网站下载视频或音频。它利用 yt-dlp 和 ffmpeg 技术，提供无广告、无弹窗的纯净体验，并使用 Ink 框架构建交互式界面，支持键盘和鼠标操作。 |
+| 13 | [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | Useful tool to track location or mobile number... | Python | 16.4k | 368 | GhostTrack 是一款基于 Python 的 OSINT 信息收集工具，主要用于追踪目标 IP 地址、手机号码及社交媒体用户名。它支持在 Linux 和 Termux 环境下运行，通过菜单界面提供多种追踪功能，帮助用户获取目标位置或关联信息。 |
+| 14 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | JavaScript | 73.7k | 495 | 这是一个为 AI 编码代理提供设计指导的开源项目。它包含 24 个命令和 61 条确定性检测规则，帮助 AI 生成一致且高质量的前端设计，避免重复模式。支持实时浏览器迭代和产品真相记录。 |
+| 15 | [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate) | [SIGGRAPH Asia 2026] UniMate: One Unified Model to... | Python | 1.1k | 217 | UniMate 是一个发表于 SIGGRAPH Asia 2026 的统一模型，旨在通过单一模型动画化多样化的骨骼（如双足、四足、鸟类等）。项目引入了包含 13,006 个文本配对的大规模 UniML3D 数据集，支持文本到动画的生成，并提供了完整的训练与推理代码。 |
 
-[查看完整数据](api/github/2026-09-29.json)
+[查看完整数据](api/github/2026-10-01.json)
 <!-- END GITHUB TRENDING -->
 
 
