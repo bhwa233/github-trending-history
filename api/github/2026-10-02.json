@@ -1,0 +1,372 @@
+{
+  "date": "2026-10-02",
+  "since": "daily",
+  "totalRepos": 17,
+  "successCount": 17,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars": 88683,
+      "forks": 7807,
+      "todayStars": 696,
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "aiSummary": {
+        "summary": "Agent Reach 是一个 Python 工具，为 AI Agent 提供全网信息获取能力。它通过 CLI 实现零 API 费用，支持 Twitter、Reddit、YouTube、GitHub、Bilibili 等平台。项目主打免费、开源、隐私安全，具备自动切换失效接口的“持续换代”机制，兼容所有命令行 Agent，解决 Agent 无法获取外部信息的问题。",
+        "summary_en": "A Python CLI tool that equips AI agents with free internet access to read and search major social platforms like Twitter, Reddit, and YouTube.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "MCP"
+        ],
+        "useCase": "为 AI Agent 提供全网信息获取能力，解决无法访问 Twitter、B站、小红书等受限平台的问题。",
+        "useCase_en": "Enable AI agents to browse the web, read social media, and search for information across multiple platforms without API "
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "stars": 109111,
+      "forks": 6316,
+      "todayStars": 209,
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "aiSummary": {
+        "summary": "这是一个 Go 语言项目，通过“穴居人”风格压缩 AI 交互来大幅节省 token。它提供代理技能、本地代理和中间件，能将 AI 输出及日志、测试结果等输入压缩 65%，降低成本并提升效率，适用于 LangChain、OpenAI 等主流 AI 编码框架。",
+        "summary_en": "A Go project that optimizes AI agent token usage by compressing output and input data.",
+        "techStack": [
+          "Go",
+          "LangChain",
+          "Vercel AI SDK",
+          "OpenAI",
+          "Anthropic"
+        ],
+        "useCase": "用于降低 AI 编码代理的 token 成本并提升处理效率。",
+        "useCase_en": "To reduce token costs for AI coding agents by compressing output and input data."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 294482,
+      "forks": 26320,
+      "todayStars": 556,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码代理设计的代理技能框架和软件开发方法论。它通过一套可组合的技能和指令，引导代理在编写代码前先与用户确认需求、展示设计并制定实施计划。系统强调 TDD、YAGNI 和 DRY 原则，支持多种主流 AI 编码工具，旨在实现自主且高质量的软件开发。",
+        "summary_en": "An agentic skills framework and methodology for autonomous software development with coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "用于增强 Claude Code、Cursor 等编码代理的自主开发能力，实现自动化软件工程流程。",
+        "useCase_en": "To empower coding agents with a structured methodology and composable skills for autonomous software development."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 151851,
+      "forks": 8143,
+      "todayStars": 1435,
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "aiSummary": {
+        "summary": "Ponytail 是一个 JavaScript 项目，旨在通过模拟“懒惰资深开发者”的思维模式，优化 AI 代理的代码生成。它鼓励使用浏览器原生功能或极简方案，避免过度工程。实测显示，它能减少 54% 的代码量，降低成本并提升速度，同时保持 100% 安全性。适用于需要 AI 生成高效、简洁代码的场景。",
+        "summary_en": "A tool that optimizes AI coding agents to write minimal, efficient, and safe code by simulating a lazy senior developer.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "当需要 AI 代理生成极简、高效且安全的代码时。",
+        "useCase_en": "To make AI coding agents write minimal, efficient, and safe code by simulating a lazy senior developer."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "stars": 74344,
+      "forks": 4482,
+      "todayStars": 722,
+      "url": "https://github.com/pbakaus/impeccable",
+      "aiSummary": {
+        "summary": "Impeccable 是一个为 AI 编码代理提供设计指导的开源项目。它包含 24 个命令、61 条确定性检测规则及实时浏览器迭代功能，旨在防止 AI 生成重复的 SaaS 模板，确保设计独特性。",
+        "summary_en": "A design language and CLI tool to guide AI coding agents in generating consistent, high-quality frontend designs.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "适用于 AI 辅助前端开发，确保生成的设计风格独特且符合产品需求。",
+        "useCase_en": "Ensures AI coding agents adhere to a specific design language and avoid generic design patterns."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 274732,
+      "forks": 23062,
+      "todayStars": 955,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "该项目提供了一套专为真实工程设计的 AI 技能集合，强调小型、可组合和易定制。它支持 Claude Code 和 Codex 等多种编程代理，通过 npx 快速安装，帮助开发者掌控开发流程，避免被框架束缚。",
+        "summary_en": "A set of composable engineering skills for AI coding agents to perform real engineering tasks.",
+        "techStack": [
+          "Shell",
+          "JavaScript (Node.js)",
+          "Claude Code",
+          "Codex"
+        ],
+        "useCase": "为 AI 编程代理提供工程化技能，用于辅助开发流程和项目设置。",
+        "useCase_en": "Use these skills to enhance AI coding agents with proven engineering workflows."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 14443,
+      "forks": 1660,
+      "todayStars": 594,
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "aiSummary": {
+        "summary": "OpenShell 是 NVIDIA 开发的 Rust 语言安全运行时，专为自主 AI 代理设计。它通过内核级强制执行和形式化验证，在赋予代理访问文件、API 和凭据能力的同时，严格限制其对敏感数据的访问。它确保代理只能在策略允许的范围内操作，防止未经授权的访问。",
+        "summary_en": "A Rust-based safe runtime for autonomous AI agents featuring kernel-level enforcement and formal verification.",
+        "techStack": [
+          "Rust",
+          "Linux/macOS/Windows",
+          "Docker/Podman"
+        ],
+        "useCase": "为自主 AI 代理提供安全、受控的执行环境，确保其在访问系统资源和网络时符合安全策略。",
+        "useCase_en": "To provide a secure, private environment for autonomous AI agents to execute tasks without exposing sensitive data."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "stars": 52424,
+      "forks": 7879,
+      "todayStars": 140,
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 和 AI 代理提供营销技能的集合，涵盖 CRO、文案、SEO、分析和增长工程。旨在帮助技术型营销人员和创始人利用 AI 编码代理提升营销效率，支持多种主流 AI 编辑器。",
+        "summary_en": "A collection of AI agent skills for marketing tasks like CRO, copywriting, and SEO.",
+        "techStack": [
+          "JavaScript",
+          "Markdown",
+          "Agent Skills"
+        ],
+        "useCase": "技术型营销人员和创始人利用 AI 代理进行转化优化、文案撰写和 SEO 优化。",
+        "useCase_en": "Empower AI coding agents to handle marketing tasks like conversion optimization, copywriting, and SEO."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "stars": 55916,
+      "forks": 5037,
+      "todayStars": 580,
+      "url": "https://github.com/heygen-com/hyperframes",
+      "aiSummary": {
+        "summary": "HyperFrames 是一个开源框架，用于将 HTML、CSS、媒体和动画转换为确定性的 MP4 视频。它支持本地 CLI 和 AI 编码代理（如 Claude Code），帮助开发者快速生成视频内容。",
+        "summary_en": "TypeScript framework for rendering HTML and animations into deterministic MP4 videos.",
+        "techStack": [
+          "TypeScript",
+          "HTML/CSS",
+          "MP4"
+        ],
+        "useCase": "帮助 AI 编码代理将 HTML/CSS 内容快速转换为确定性的 MP4 视频。",
+        "useCase_en": "Enables AI agents and developers to generate video content by converting HTML and animations into MP4 files."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 25048,
+      "forks": 1799,
+      "todayStars": 282,
+      "url": "https://github.com/mksglu/context-mode",
+      "aiSummary": {
+        "summary": "这是一个针对 AI 编码代理的上下文窗口优化工具。它通过沙箱化工具输出（减少 98%）、利用 SQLite 和 FTS5 索引持久化会话记忆，并强制 LLM 编写脚本执行计算而非读取大量文件，从而解决上下文丢失和冗余问题，支持 17 个平台。",
+        "summary_en": "Context window optimization for AI coding agents using sandboxing and session memory persistence.",
+        "techStack": [
+          "TypeScript",
+          "MCP",
+          "SQLite",
+          "FTS5",
+          "BM25"
+        ],
+        "useCase": "长时间运行的 AI 编码代理，特别是需要处理大量文件、日志或复杂任务且担心上下文丢失的场景。",
+        "useCase_en": "To optimize context windows for AI coding agents by sandboxing tool outputs and persisting session memory."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "stars": 20758,
+      "forks": 1723,
+      "todayStars": 39,
+      "url": "https://github.com/google/skills",
+      "aiSummary": {
+        "summary": "该项目为 Google 产品和技术提供 Agent Skills（代理技能），涵盖 Google Cloud 入门、多产品解决方案、AI/ML 工作流及基础设施管理（如 GKE、GCP）。用户可通过 npx 安装特定技能，用于构建、部署和管理 AI 代理及云基础设施。",
+        "summary_en": "Repository containing agent skills for Google Cloud and AI/ML tools.",
+        "techStack": [
+          "Python",
+          "Google Cloud",
+          "Genkit",
+          "GKE"
+        ],
+        "useCase": "用于构建、部署和管理基于 Google Cloud 的 AI 代理及云基础设施。",
+        "useCase_en": "Users can install and use pre-built skills to manage AI agents and cloud infrastructure."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "getsentry/sentry",
+      "description": "Developer-first error tracking and performance monitoring",
+      "language": "Python",
+      "stars": 45038,
+      "forks": 4892,
+      "todayStars": 16,
+      "url": "https://github.com/getsentry/sentry",
+      "aiSummary": {
+        "summary": "Sentry 是一个开发者优先的错误追踪和性能监控平台，旨在帮助开发团队快速检测、追踪并修复代码中的问题。它支持多种主流编程语言和框架，提供 SDK，是现代软件开发中不可或缺的调试工具。",
+        "summary_en": "Sentry is a developer-first error tracking and performance monitoring platform.",
+        "techStack": [
+          "Python",
+          "JavaScript",
+          "Go",
+          "Java",
+          "Rust"
+        ],
+        "useCase": "适用于需要实时监控应用错误和性能指标的开发团队。",
+        "useCase_en": "Developers use it to detect, trace, and fix software issues faster."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "C",
+      "stars": 72970,
+      "forks": 4683,
+      "todayStars": 98,
+      "url": "https://github.com/colbymchenry/codegraph",
+      "aiSummary": {
+        "summary": "CodeGraph 是一个预索引代码知识图谱工具，支持自动同步代码变更。它为 Claude Code、Cursor、Copilot 等 AI 代理提供语义代码智能，旨在减少 Token 消耗和工具调用，确保 100% 本地运行。",
+        "summary_en": "Local code knowledge graph for AI agents to reduce tokens and improve context.",
+        "techStack": [
+          "C",
+          "Rust",
+          "JavaScript"
+        ],
+        "useCase": "为各类 AI 编程代理提供本地化的语义代码上下文与智能分析。",
+        "useCase_en": "Provide AI coding agents with a local, pre-indexed code graph to reduce token usage."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars": 9504,
+      "forks": 897,
+      "todayStars": 163,
+      "url": "https://github.com/cursor/plugins",
+      "aiSummary": {
+        "summary": "该项目提供了 Cursor 编辑器的插件规范及一系列官方开发工具插件。插件功能涵盖持续学习、团队协作、代码审查、文档渲染、代理兼容性检查、任务编排及插件脚手架等，旨在增强 AI 编程助手的开发效率与能力。",
+        "summary_en": "Official plugins and specifications for the Cursor AI code editor, focusing on agent workflows and team tooling.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "用于增强 Cursor 编辑器的 AI 编程能力，支持团队协作、自动化代码审查及复杂任务编排。",
+        "useCase_en": "To extend Cursor's capabilities with tools for code review, learning, team collaboration, and agent orchestration."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "mvschwarz/openrig",
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "language": "TypeScript",
+      "stars": 4331,
+      "forks": 296,
+      "todayStars": 683,
+      "url": "https://github.com/mvschwarz/openrig",
+      "aiSummary": {
+        "summary": "OpenRig 是一个开源的 AI 代理网络构建工具，允许用户通过 YAML 定义由 Claude Code、Codex 等组成的持久化团队。它将多个 AI 编码代理从零散的终端会话整合为具有角色、共享上下文和协作能力的系统，适合自动化复杂开发任务和 AI 文明实验。",
+        "summary_en": "A CLI tool for building and managing persistent teams of AI coding agents.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "tmux",
+          "YAML",
+          "SQLite"
+        ],
+        "useCase": "自动化 AI 编码团队协作与复杂任务管理",
+        "useCase_en": "To orchestrate a network of AI coding agents into a persistent, collaborative team."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "Effect-TS/effect",
+      "description": "Build production-ready applications in TypeScript",
+      "language": "TypeScript",
+      "stars": 16558,
+      "forks": 803,
+      "todayStars": 80,
+      "url": "https://github.com/Effect-TS/effect",
+      "aiSummary": {
+        "summary": "Effect 是一个用于构建健壮、可维护、类型安全且生产级 TypeScript 应用的库。它提供了类型化错误处理、依赖注入、结构化并发、调度、追踪和统一模式验证等高级功能。Effect 4.x 是长期支持版本，旨在解决大规模应用中的复杂问题，适合需要高可靠性和严格类型检查的企业级项目。",
+        "summary_en": "A TypeScript library for building robust, type-safe, and production-grade applications with advanced features like concurrency and error handling.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "构建需要高可靠性、类型安全和复杂并发管理的企业级生产应用程序。",
+        "useCase_en": "Build robust, type-safe, and production-grade applications in TypeScript."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "pablostanley/yoinks",
+      "description": "yoink any video from your terminal. no shady ads.",
+      "language": "TypeScript",
+      "stars": 3517,
+      "forks": 310,
+      "todayStars": 623,
+      "url": "https://github.com/pablostanley/yoinks",
+      "aiSummary": {
+        "summary": "这是一个基于 TypeScript 的终端视频下载工具，利用 yt-dlp 和 ffmpeg 后端，支持从 YouTube、TikTok 等数千个网站下载视频或音频。UI 使用 Ink 构建，提供交互式菜单和自动主题适配，无需安装即可通过 npx 运行，适合命令行用户快速获取媒体资源。",
+        "summary_en": "A terminal-based video downloader supporting 1800+ sites with a React-based UI.",
+        "techStack": [
+          "TypeScript",
+          "Ink",
+          "yt-dlp",
+          "ffmpeg"
+        ],
+        "useCase": "在终端中无广告、快速下载各类视频或音频资源。",
+        "useCase_en": "Download videos from YouTube, X/Twitter, and other sites directly in the terminal."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-03T01:54:47.977Z",
+    "duration": "384s",
+    "version": "1.0.0"
+  }
+}
