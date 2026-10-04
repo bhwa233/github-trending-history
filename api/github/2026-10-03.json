@@ -1,0 +1,412 @@
+{
+  "date": "2026-10-03",
+  "since": "daily",
+  "totalRepos": 19,
+  "successCount": 19,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 153503,
+      "forks": 8242,
+      "todayStars": 1281,
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "aiSummary": {
+        "summary": "Ponytail 是一个 JavaScript 项目，旨在让 AI 代理表现得像最懒的高级开发人员。它通过注入特定提示词，鼓励 AI 编写最少的代码，避免过度工程。实测显示，它能减少约 54% 的代码量、降低成本并提高速度，同时保持 100% 的安全性。适用于希望优化 AI 编码效率、减少冗余代码的开发者。",
+        "summary_en": "A prompt engineering technique that optimizes AI agents to write minimal, efficient code by adopting a lazy senior developer persona.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "适用于使用 AI 代理进行代码生成的开发者，特别是希望减少代码冗余、降低开发成本并提高执行速度的场景。",
+        "useCase_en": "To optimize AI-generated code by enforcing a minimalistic, lazy senior developer persona to reduce complexity and cost."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "stars": 75371,
+      "forks": 4518,
+      "todayStars": 699,
+      "url": "https://github.com/pbakaus/impeccable",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供的设计语言，旨在解决 AI 生成前端设计时的重复性问题。它包含 24 个命令、61 条确定性检测规则和实时浏览器迭代功能。通过 /impeccable init 记录产品真理，帮助 AI 生成更独特、高质量的设计。",
+        "summary_en": "A design language and CLI tool for AI coding agents to enforce consistent, high-quality frontend design.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "适用于使用 AI 编码助手（如 Claude）进行前端开发，需要统一设计语言和避免模板化设计的场景。",
+        "useCase_en": "To guide AI coding agents in creating consistent, high-quality frontend designs."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 272300,
+      "forks": 40658,
+      "todayStars": 897,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个针对 Claude Code、Codex 等代理的性能优化系统。它提供协调工程工具箱，包含计划、测试、审查、记忆和技能等功能，旨在优化上下文窗口并提升开发效率。",
+        "summary_en": "An engineering system for AI agents that optimizes performance, memory, and workflows across various coding environments.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "npm"
+        ],
+        "useCase": "为 AI 编程助手提供标准化的工程工作流和技能库，提升代码质量和开发效率。",
+        "useCase_en": "ECC optimizes AI agent performance by providing a structured engineering workflow, memory, and skills for coding assista"
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Effect-TS/effect",
+      "description": "Build production-ready applications in TypeScript",
+      "language": "TypeScript",
+      "stars": 16836,
+      "forks": 814,
+      "todayStars": 302,
+      "url": "https://github.com/Effect-TS/effect",
+      "aiSummary": {
+        "summary": "Effect 是一个用于构建健壮、可维护且类型安全的生产级 TypeScript 应用的库。它提供了类型化错误处理、依赖注入、结构化并发、调度、追踪和统一模式验证等高级功能，支持长期维护（LTS），适合构建大规模企业级应用。",
+        "summary_en": "A TypeScript library for building robust, type-safe, and production-grade applications with advanced concurrency and error handling.",
+        "techStack": [
+          "TypeScript",
+          "Node.js"
+        ],
+        "useCase": "构建需要高可靠性、类型安全和复杂并发管理的生产级企业级应用。",
+        "useCase_en": "To build robust, type-safe, and production-grade applications in TypeScript."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "stars": 109552,
+      "forks": 6337,
+      "todayStars": 507,
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "aiSummary": {
+        "summary": "这是一个 Go 语言项目，通过将 AI 代理的对话风格压缩为 'caveman' 语言，并压缩日志和工具输出，从而大幅减少 token 使用量。它提供了 skill、本地 proxy 和 middleware，旨在为 LLM 应用节省成本。",
+        "summary_en": "A Go-based proxy that reduces AI token usage by 65% by compressing agent output and input logs into a 'caveman' style.",
+        "techStack": [
+          "Go",
+          "LangChain",
+          "Vercel AI SDK"
+        ],
+        "useCase": "需要大幅降低 AI token 消耗的开发者或 AI 应用集成场景",
+        "useCase_en": "Use this to drastically cut down on AI token costs by compressing verbose agent responses and logs into short, punchy te"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars": 89876,
+      "forks": 7907,
+      "todayStars": 1696,
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "aiSummary": {
+        "summary": "Agent-Reach 是一个 Python CLI 工具，旨在为 AI Agent 提供互联网访问能力。它支持 Twitter、Reddit、YouTube、GitHub、Bilibili 和小红书等主流平台，无需付费 API。通过本地 Cookie 和开源工具，实现零成本、高隐私的网页抓取与内容检索，兼容所有命令行 Agent。",
+        "summary_en": "A Python CLI tool that empowers AI agents to browse and search the internet across multiple platforms without API fees.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "Browser Automation",
+          "yt-dlp",
+          "MCP"
+        ],
+        "useCase": "适用于需要从社交媒体、视频平台或 GitHub 获取实时信息或进行全网搜索的 AI Agent 开发者。",
+        "useCase_en": "Enable AI agents to read and search the web across multiple platforms without API fees or complex setup."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 24719,
+      "forks": 6446,
+      "todayStars": 252,
+      "url": "https://github.com/pingdotgg/t3code",
+      "aiSummary": {
+        "summary": "T3 Code 是一个开源的 AI 代理控制台，旨在提供跨平台（移动端、Web、桌面端）的最佳开发体验。它支持集成 Claude、Codex、Cursor 等多种主流 AI 编程工具，通过统一的界面集中管理，无需切换应用，专注于高性能和远程协作。",
+        "summary_en": "An open-source agent harness control surface for managing AI coding agents across mobile, web, and desktop platforms.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "Web"
+        ],
+        "useCase": "需要同时使用多个 AI 编程助手（如 Claude、Cursor）的开发者，希望在一个统一界面高效管理所有代理任务。",
+        "useCase_en": "Provides a unified control surface for managing AI coding agents like Claude and Cursor on mobile, web, and desktop."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 95619,
+      "forks": 8462,
+      "todayStars": 79,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "这是一个专为 Claude Code 构建的持久记忆压缩系统。它自动捕获工具使用观察结果并生成语义摘要，确保 AI 代理在会话结束后或重新连接后仍能保持项目上下文的连续性，支持多种主流 AI 平台。",
+        "summary_en": "A TypeScript plugin that provides persistent memory for AI agents by compressing session context and injecting it back.",
+        "techStack": [
+          "TypeScript",
+          "Node.js"
+        ],
+        "useCase": "适用于需要跨会话保持项目上下文连续性的 AI 编程助手和代理。",
+        "useCase_en": "To enable AI agents to maintain continuity of knowledge across sessions by automatically capturing and compressing conte"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "cloudflare/cloudflare-os",
+      "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+      "language": "TypeScript",
+      "stars": 10586,
+      "forks": 1284,
+      "todayStars": 85,
+      "url": "https://github.com/cloudflare/cloudflare-os",
+      "aiSummary": {
+        "summary": "Cloudflare OS 是一个基于 Cloudflare Workers 的 AI 生产力环境。它提供 Agent 聊天界面、沙盒应用开发以及名为 Gatekeepers 的安全框架，旨在让非技术人员安全地使用 AI 完成任务。该项目开源，允许企业定制为“公司专属操作系统”。",
+        "summary_en": "An AI productivity environment built on Cloudflare Workers for secure agent workspaces and app development.",
+        "techStack": [
+          "TypeScript",
+          "Cloudflare Workers",
+          "Wrangler",
+          "Workerd"
+        ],
+        "useCase": "企业构建安全、定制化的 AI 生产力环境及内部应用开发平台。",
+        "useCase_en": "A secure internal environment for running AI agents and building custom applications."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 100868,
+      "forks": 10597,
+      "todayStars": 252,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供生产级工程技能，通过 9 个斜杠命令将资深工程师的工作流、质量门控和最佳实践编码化。它覆盖从定义到发布的全生命周期，支持自动技能激活和自主实施，旨在提升 AI 开发的代码质量和一致性。",
+        "summary_en": "A collection of production-grade engineering skills and workflows to guide AI coding agents through the software development lifecycle.",
+        "techStack": [
+          "JavaScript",
+          "CLI"
+        ],
+        "useCase": "用于提升 AI 编码代理的开发效率与代码质量，确保其遵循资深工程师的最佳实践。",
+        "useCase_en": "Automate the software development lifecycle for AI coding agents by enforcing engineering best practices and quality gat"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 294929,
+      "forks": 26355,
+      "todayStars": 577,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个面向编码代理的代理技能框架与软件开发方法论。它通过引导用户定义需求、展示设计、制定实现计划（强调 TDD、YAGNI、DRY），并利用子代理自动执行开发任务，实现高效的自主编程。",
+        "summary_en": "A shell-based framework for coding agents that implements a structured methodology and composable skills.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "自动化软件开发流程，提升 AI 编码代理的自主性与效率。",
+        "useCase_en": "To empower coding agents with a structured methodology and composable skills for autonomous development."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 275402,
+      "forks": 23108,
+      "todayStars": 751,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个为工程师设计的技能集合，旨在帮助开发者进行真实的工程实践而非“氛围编码”。项目包含一系列小型、可组合的 Shell 脚本，支持 Claude Code 和 Codex 等编码代理。用户可通过插件或命令行工具安装，用于提升开发效率和代码质量。",
+        "summary_en": "A collection of composable engineering skills designed for AI coding agents to perform real development tasks.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "适用于使用 Claude Code 或 Codex 等编码代理辅助工程师进行高效软件开发和代码生成。",
+        "useCase_en": "To equip AI coding agents with composable engineering skills for real development."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 25259,
+      "forks": 1807,
+      "todayStars": 256,
+      "url": "https://github.com/mksglu/context-mode",
+      "aiSummary": {
+        "summary": "这是一个针对AI编码代理的上下文窗口优化工具。通过沙箱化工具输出（减少98%数据）、SQLite持久化会话记忆（利用FTS5和BM25搜索）以及强制“代码思维”模式（让LLM编写脚本代替读取大量文件），解决上下文丢失和冗余问题，防止压缩时丢失状态。",
+        "summary_en": "An MCP server optimizing AI coding agent context windows by sandboxing tool outputs and persisting session memory.",
+        "techStack": [
+          "TypeScript",
+          "MCP",
+          "SQLite",
+          "FTS5",
+          "BM25"
+        ],
+        "useCase": "适用于需要长时间运行、复杂任务的AI编码代理，以防止上下文窗口溢出和状态丢失。",
+        "useCase_en": "Reduce context window usage for AI coding agents by sandboxing tool outputs and persisting session memory."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "language": "TypeScript",
+      "stars": 112176,
+      "forks": 14230,
+      "todayStars": 408,
+      "url": "https://github.com/earendil-works/pi",
+      "aiSummary": {
+        "summary": "Pi 是一个极简且可扩展的 AI Agent 工具包，支持统一的 LLM API、Agent 循环和 TUI。它允许用户通过扩展、技能和模板自定义工作流，支持交互式使用、自动化脚本及 RPC 控制。项目默认不包含复杂功能，鼓励用户根据需求安装包或自行构建。",
+        "summary_en": "Minimal TypeScript agent harness for building custom AI workflows and coding agents.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "CLI/TUI"
+        ],
+        "useCase": "适合需要高度定制化 AI 工作流、自动化编码任务或构建 AI 应用的开发者。",
+        "useCase_en": "Create custom AI agents and coding assistants to automate workflows interactively or programmatically."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "getsentry/sentry",
+      "description": "Developer-first error tracking and performance monitoring",
+      "language": "Python",
+      "stars": 45215,
+      "forks": 4898,
+      "todayStars": 214,
+      "url": "https://github.com/getsentry/sentry",
+      "aiSummary": {
+        "summary": "Sentry 是一个开发者优先的错误追踪和性能监控平台。它帮助开发者快速检测、追踪和修复代码问题。支持多种编程语言的 SDK，提供用户日志线索和调试答案，旨在提高开发效率和问题解决速度。",
+        "summary_en": "Sentry is a developer-first error tracking and performance monitoring platform.",
+        "techStack": [
+          "Python",
+          "JavaScript",
+          "Go",
+          "Rust",
+          "Java"
+        ],
+        "useCase": "用于开发团队实时监控应用错误、追踪性能瓶颈并快速修复问题。",
+        "useCase_en": "Developers use it to detect, trace, and fix application errors and performance issues faster."
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "stars": 149239,
+      "forks": 25381,
+      "todayStars": 128,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code 是一个运行在终端中的智能编码工具，基于 Anthropic 的 Claude 模型。它能够理解代码库，通过自然语言命令执行常规任务、解释复杂代码以及处理 Git 工作流。支持多种安装方式，包含插件系统，旨在帮助开发者提高编码效率。",
+        "summary_en": "An AI-powered terminal tool that automates coding tasks and manages git workflows using natural language.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "提高编码效率，自动化常规开发任务和代码审查。",
+        "useCase_en": "Developers use this tool to accelerate coding workflows by executing tasks and managing codebases via natural language."
+      }
+    },
+    {
+      "index": 16,
+      "fullName": "jamwithai/production-agentic-rag-course",
+      "description": "",
+      "language": "Python",
+      "stars": 9412,
+      "forks": 2071,
+      "todayStars": 193,
+      "url": "https://github.com/jamwithai/production-agentic-rag-course",
+      "aiSummary": {
+        "summary": "这是一个专注于生产级 RAG 系统构建的实战课程项目。学员将通过7周的学习，从零开始构建一个基于 arXiv 的智能研究助手。课程强调专业路径，先掌握 BM25 关键词搜索，再结合向量检索。涵盖 Docker、FastAPI、PostgreSQL、OpenSearch 等全栈技术，最终实现 Agentic RAG 与 Telegram 机器人集成，适合希望掌握现代 AI 工程技能的开发者。",
+        "summary_en": "A comprehensive Python course teaching production-grade RAG systems for academic research.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "FastAPI",
+          "PostgreSQL",
+          "OpenSearch"
+        ],
+        "useCase": "适合 AI 工程师学习构建生产级 RAG 系统、开发学术研究助手或智能问答应用。",
+        "useCase_en": "Build an AI research assistant that fetches and answers questions about academic papers using advanced RAG techniques."
+      }
+    },
+    {
+      "index": 17,
+      "fullName": "meituan-longcat/LongCat-Video",
+      "description": "",
+      "language": "Python",
+      "stars": 8766,
+      "forks": 1526,
+      "todayStars": 44,
+      "url": "https://github.com/meituan-longcat/LongCat-Video",
+      "aiSummary": {
+        "summary": "LongCat-Video 是美团推出的 136 亿参数视频生成模型，支持文本转视频、图像转视频及视频续写。它采用统一架构，擅长生成无质量下降的高效长视频，并通过多奖励 RLHF 训练，性能媲美商业方案。",
+        "summary_en": "A 13.6B parameter foundational video generation model supporting text-to-video, image-to-video, and video continuation tasks.",
+        "techStack": [
+          "Python",
+          "Video Generation",
+          "RLHF (GRPO)",
+          "Block Sparse Attention"
+        ],
+        "useCase": "适用于文本/图像生成视频、长视频续写及音频驱动人像视频生成。",
+        "useCase_en": "Generate high-quality, long-duration videos from text prompts or images efficiently."
+      }
+    },
+    {
+      "index": 18,
+      "fullName": "OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "stars": 91644,
+      "forks": 9058,
+      "todayStars": 232,
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "aiSummary": {
+        "summary": "OpenCut 是一款免费开源的视频编辑器，支持 Web、桌面及移动端。项目正在进行从零开始的架构重写，旨在提供插件优先的架构、编辑器 API、MCP 服务器支持及无头模式，以实现跨平台自动化和 AI 集成。目前经典版本仍在使用，重写版即将上线。",
+        "summary_en": "Open-source video editor for web, desktop, and mobile, rewritten with a Rust core and plugin-first architecture.",
+        "techStack": [
+          "TypeScript",
+          "Rust",
+          "Moon"
+        ],
+        "useCase": "适合需要跨平台视频编辑、自动化批处理渲染及 AI 集成的创作者。",
+        "useCase_en": "Create free, open-source videos on web, desktop, or mobile with a plugin-first architecture."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-04T02:36:43.772Z",
+    "duration": "520s",
+    "version": "1.0.0"
+  }
+}
