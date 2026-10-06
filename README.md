@@ -70,28 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-10-04 | **成功**: 16 | **失败**: 0
+**最后更新**: 2026-10-05 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [tester-army/e2e](https://github.com/tester-army/e2e) | Next generation e2e testing framework for web and ... | TypeScript | 3.2k | 345 | 这是一个基于自然语言的下一代端到端测试框架，支持Web和移动应用。用户可用自然语言描述目标，由Agent驱动应用执行并验证结果。支持自定义大模型，具备动作记录与回放功能，集成Playwright等引擎，适合自动化测试开发。 |
-| 2 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | JavaScript | 76.3k | 1.2k | Impeccable 是一个为 AI 编码代理提供设计指导的开源项目。它包含 24 个命令和 61 条确定性检测规则，旨在避免 AI 生成设计中的陈词滥调，提升前端设计质量。通过初始化流程记录产品真相，支持实时浏览器迭代，帮助 AI 理解设计语境。 |
-| 3 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Marketing skills for Claude Code and AI agents. CR... | JavaScript | 53.1k | 197 | 该项目为 Claude Code 和 AI agents 提供专业的营销技能库，涵盖 CRO、文案、SEO、分析和增长工程。专为技术营销人员和创始人设计，支持 Claude Code、Cursor、Windsurf 等多种平台。通过 markdown 格式的技能文件，帮助 AI 辅助完成营销任务，提升转化率和增长效率。 |
-| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | Makes your AI agent think like the laziest senior ... | JavaScript | 154.9k | 1.9k | Ponytail 是一个 JavaScript 库，旨在让 AI 代理表现得像房间里最懒惰的高级开发人员。它通过鼓励编写最少的代码（'YAGNI' 和单行代码）来减少过度工程。基准测试显示，与无技能代理相比，它减少了 54% 的代码量、20% 的成本和 27% 的时间，同时保持 100% 的安全性。它将一个'懒惰'的角色注入到 AI 编码工作流中。 |
-| 5 | [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | Give your agent CAD superpowers.... | Python | 16.9k | 83 | 这是一个 Python 库，为 AI 代理提供 CAD 和机器人描述文件的生成、检查、采购及切片技能。支持从文本/图像创建 STEP 模型、生成工程图、URDF/SDF 文件、制造检查（DFM/DfAM）以及直接打印到打印机，旨在自动化制造工作流程。 |
-| 6 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Give your AI agent eyes to see the entire internet... | Python | 90.9k | 980 | Agent-Reach 是一个为 AI Agent 提供全网互联网访问能力的 Python CLI 工具。它解决了 Agent 无法直接访问 Twitter、Reddit、YouTube 等平台的问题，支持零 API 费用、本地 Cookie 存储和自动路由切换。兼容 Claude Code、Cursor 等主流 Agent，具备隐私安全、全网搜索和自诊断功能。 |
-| 7 | [getsentry/sentry](https://github.com/getsentry/sentry) | Developer-first error tracking and performance mon... | Python | 45.4k | 152 | Sentry 是一个开发者优先的错误追踪和性能监控平台，旨在帮助开发人员快速检测、追踪和修复代码问题。它支持包括 Python、JavaScript、Go、Java、Ruby、PHP、Rust、C#、C++、Swift 和 Dart 在内的多种编程语言和框架 SDK，是开发团队进行应用监控和调试的重要工具。 |
-| 8 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | World's first open-source, agentic video productio... | Python | 63.2k | 245 | OpenMontage 是世界首个开源的代理式视频制作系统，拥有12个生产管线和700+代理技能。它能将AI编程助手转化为全功能视频工作室，支持从脚本、素材生成到剪辑合成的全流程自动化。不仅能制作基于图像的视频，还能利用开源素材制作真实视频，适用于科幻预告片、动画短片及3D展示等多种场景。 |
-| 9 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | ... | TypeScript | 25.2k | 490 | T3 Code 是一个开源的 AI 代理控制台，旨在提供跨平台（移动端、Web、桌面端）的最佳开发体验。它支持 Claude、Codex、Cursor 等多种主流 AI 编程工具，允许用户通过统一的界面远程管理和控制这些代理。 |
-| 10 | [caddyserver/caddy](https://github.com/caddyserver/caddy) | Fast and extensible multi-platform HTTP/1-2-3 web ... | Go | 76.6k | 24 | Caddy 是一个用 Go 语言编写的快速、可扩展多平台 HTTP/1-2-3 服务器。它默认启用自动 HTTPS，支持 HTTP/1.1、HTTP/2 和 HTTP/3。项目提供简单的 Caddyfile 配置和强大的 JSON API，具备模块化架构，无需外部依赖即可运行，适合各类 Web 服务部署。 |
-| 11 | [michael-denyer/pstack-claude](https://github.com/michael-denyer/pstack-claude) | Claude Code, Codex, Pi, OpenCode, Gemini, and Prim... | JavaScript | 1.2k | 232 | 这是一个将 Poteto 的 pstack 技能栈移植到 Claude Code、Codex、Pi 等多种 AI 代理工具的项目。它提供严格的代理工作流，帮助 AI 保持代码简洁、简单且经过验证。项目支持策略分支，并包含用于形式化验证的插件，通过 /skill 等指令实现自动化任务路由和执行。 |
-| 12 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | JavaScript | 101.2k | 336 | 为 AI 编码代理提供生产级工程技能，将资深工程师的工作流程、质量门控和最佳实践编码为技能，确保 AI 代理在开发全生命周期中保持一致性。项目包含 9 个斜杠命令，支持自动技能激活和增量构建，旨在减少手动步骤并提升代码质量。 |
-| 13 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Persistent Context Across Sessions for Every Agent... | TypeScript | 96.1k | 628 | 这是一个为 Claude Code 构建的持久记忆压缩系统。它自动捕获代理在会话中的工具使用和观察结果，利用 AI 进行语义压缩，并将相关上下文注入未来的会话中，确保代理在会话结束后仍能保持对项目的连续性知识。 |
-| 14 | [garrytan/gstack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinio... | TypeScript | 135.2k | 125 | gstack 是一个基于 Claude Code 的 AI 辅助开发工具集，包含 23 个特定工具，旨在模拟 CEO、设计师、工程经理等完整工程团队的职能。通过 TypeScript 实现，帮助开发者利用 AI 大幅提升个人生产力，实现单人高效交付。 |
-| 15 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | The open-source CapCut alternative... | TypeScript | 92.2k | 512 | OpenCut 是一款免费开源的视频编辑器，支持 Web、桌面和移动端。目前项目正在进行底层重写，旨在提供插件架构、MCP 服务器支持、无头模式及脚本功能，打造跨平台的视频创作工具。 |
-| 16 | [antirez/ds4](https://github.com/antirez/ds4) | DeepSeek 4 Flash and PRO local inference engine fo... | C | 23.5k | 211 | DwarfStar 是一个专为消费级硬件优化的本地大语言模型推理引擎，支持 DeepSeek V4、GLM 和 Qwen 等模型。它原生支持 Metal、CUDA 和 ROCm 后端，针对特定模型格式（GGUF）进行了深度优化，包含 HTTP 服务器和工具调用等完整功能，旨在让用户在 Mac、DGX Spark 等设备上高效运行高性能模型。 |
+| 1 | [tester-army/e2e](https://github.com/tester-army/e2e) | Next generation e2e testing framework for web and ... | TypeScript | 4.9k | 1.4k | 这是一个下一代端到端测试框架，支持 Web 和移动应用。它允许用户用自然语言描述测试目标，由 Agent 驱动应用执行。测试步骤可记录并回放，减少模型调用。支持 Playwright 和移动模拟器，集成 GitHub 报告器，适合需要自然语言交互的自动化测试场景。 |
+| 2 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Persistent Context Across Sessions for Every Agent... | TypeScript | 96.7k | 534 | Claude-Mem 是一个为 Claude Code 构建的持久化记忆压缩系统。它自动捕获会话中的工具使用和观察，利用 AI 生成语义摘要，并在未来会话中注入上下文。这确保了 AI 代理在会话结束后或重新连接时，仍能保持对项目的知识连续性，支持多种 AI 工具。 |
+| 3 | [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | Give your agent CAD superpowers.... | Python | 17.5k | 437 | 该项目为 AI 代理提供本地 CAD 生成能力，支持通过文本生成 STEP、GLB、STL 等格式 3D 模型。具备制造设计检查、工程图纸生成及对接 3D 打印/CNC 服务功能。兼容 Claude Code、Cursor 等主流代理，基于 Python 和 uv 运行。 |
+| 4 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | ... | TypeScript | 25.6k | 485 | T3 Code 是一个开源的“代理工具控制表面”，旨在为 AI 编码代理提供统一的最佳开发体验。它支持 Claude、Codex、Cursor 等多个主流平台，提供 iOS、Android、Web 和 Electron 桌面端应用，允许用户集中管理和控制本地运行的 AI 编码助手。 |
+| 5 | [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | Tool for automatic PS5 executables porting to Linu... | C++ | 5.0k | 997 | AnyPS5 是一个 C++ 工具，旨在自动将 PS5 可执行文件移植到 Linux 和 Windows。它包含一个重链接器，可将可执行文件转换为原生格式，并实现了系统 prx 库。该项目旨在实现互操作性、研究和兼容性，不包含受版权保护的材料。 |
+| 6 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Give your AI agent eyes to see the entire internet... | Python | 92.0k | 1.2k | 这是一个为 AI Agent 提供全网互联网访问能力的 Python CLI 工具。它解决了 Twitter API 付费、网站登录墙等问题，支持 YouTube、B站、Reddit、小红书等平台。项目完全免费开源，具备自动切换失效接口的容错机制，兼容各类命令行 Agent，并提供一键安装更新功能。 |
+| 7 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | World's first open-source, agentic video productio... | Python | 64.1k | 742 | OpenMontage 是全球首个开源代理驱动视频制作系统，包含12个生产管道和700+技能。它不仅能生成AI动画，还能利用开源素材库制作真实视频，涵盖从脚本、素材检索到Remotion渲染的全流程。 |
+| 8 | [caddyserver/caddy](https://github.com/caddyserver/caddy) | Fast and extensible multi-platform HTTP/1-2-3 web ... | Go | 77.2k | 515 | Caddy 是一个用 Go 语言编写的快速、可扩展的多平台 Web 服务器。它默认支持 HTTP/1.1、HTTP/2 和 HTTP/3，并内置自动 HTTPS 功能。项目采用模块化架构，支持 Caddyfile 和 JSON 配置，无需外部依赖即可运行，适合作为生产环境的 Web 服务器。 |
+| 9 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | Self-hosted gym & body-weight tracker — plan routi... | JavaScript | 4.3k | 1.4k | openGym 是一个自托管的健身房与自重追踪应用。用户可规划常规、记录包含超级组与热身的锻炼，追踪肌肉状态，并支持从 FitNotes/Strong/Hevy 导入数据。项目采用 Passkey 登录，通过 Docker 部署，确保数据完全私有，无订阅与广告，提供现代化的训练体验。 |
+| 10 | [cloudflare/cloudflare-os](https://github.com/cloudflare/cloudflare-os) | Agent workspace built on Cloudflare Workers for cr... | TypeScript | 11.0k | 101 | Cloudflare OS 是一个基于 Cloudflare Workers 的企业级 AI 生产力环境。它提供 Agent 聊天界面、沙盒应用开发以及名为 Gatekeepers 的安全框架，允许用户利用公司上下文安全地执行任务、构建应用并管理数据。 |
+| 11 | [Stremio/stremio-web](https://github.com/Stremio/stremio-web) | Stremio - Freedom to Stream... | JavaScript | 14.3k | 111 | Stremio 是一个开源的流媒体平台，专注于插件驱动的内容发现。它支持跨设备同步、投屏、字幕定制及键盘优先播放。前端采用 React 构建，后端核心逻辑由 Rust 编译为 WebAssembly 运行，确保高性能。项目支持多语言，并可作为 PWA 安装使用。 |
+| 12 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 157.3k | 744 | 这是一个包含多个专业化 AI 代理的集合，旨在为 Claude Code、Cursor 等开发工具提供专业助手。每个代理都有独特的个性和专业技能，如前端开发、社区管理等。项目提供原生桌面应用和命令行脚本，方便用户一键安装和更新这些代理，提升开发效率。 |
+| 13 | [M-Abozaid/esp32-c3-adblock](https://github.com/M-Abozaid/esp32-c3-adblock) | Pi-hole-class DNS ad-blocker on a $2 ESP32-C3 (no ... | C++ | 1.4k | 196 | 这是一个运行在廉价 ESP32-C3 开发板上的 Pi-hole 风格 DNS 广告拦截器，无需 PSRAM。通过将域名哈希存储在闪存中并使用二分查找，实现了极低的内存占用（约 50KB RAM）和快速查询（约 10ms）。支持 UDP DNS 拦截和 Web 仪表板，适合家庭网络低成本广告屏蔽。 |
 
-[查看完整数据](api/github/2026-10-04.json)
+[查看完整数据](api/github/2026-10-05.json)
 <!-- END GITHUB TRENDING -->
 
 

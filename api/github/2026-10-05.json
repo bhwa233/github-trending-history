@@ -1,0 +1,297 @@
+{
+  "date": "2026-10-05",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "tester-army/e2e",
+      "description": "Next generation e2e testing framework for web and mobile apps.",
+      "language": "TypeScript",
+      "stars": 4914,
+      "forks": 203,
+      "todayStars": 1398,
+      "url": "https://github.com/tester-army/e2e",
+      "aiSummary": {
+        "summary": "这是一个下一代端到端测试框架，支持 Web 和移动应用。它允许用户用自然语言描述测试目标，由 Agent 驱动应用执行。测试步骤可记录并回放，减少模型调用。支持 Playwright 和移动模拟器，集成 GitHub 报告器，适合需要自然语言交互的自动化测试场景。",
+        "summary_en": "Next-gen e2e testing framework for web and mobile apps driven by natural language descriptions.",
+        "techStack": [
+          "TypeScript",
+          "Playwright",
+          "Node.js"
+        ],
+        "useCase": "适用于希望使用自然语言描述测试目标并自动执行 Web 和移动应用测试的项目。",
+        "useCase_en": "Automate end-to-end testing for web and mobile apps by describing goals in natural language."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 96671,
+      "forks": 8529,
+      "todayStars": 534,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "Claude-Mem 是一个为 Claude Code 构建的持久化记忆压缩系统。它自动捕获会话中的工具使用和观察，利用 AI 生成语义摘要，并在未来会话中注入上下文。这确保了 AI 代理在会话结束后或重新连接时，仍能保持对项目的知识连续性，支持多种 AI 工具。",
+        "summary_en": "A TypeScript-based persistent memory system that compresses AI agent context for future sessions.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适用于需要 AI 代理在长时间运行或跨会话中保持项目上下文连续性的场景，如长期代码维护和复杂项目协作。",
+        "useCase_en": "To preserve and compress context for AI agents like Claude Code across sessions."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "earthtojake/text-to-cad",
+      "description": "Give your agent CAD superpowers.",
+      "language": "Python",
+      "stars": 17477,
+      "forks": 1770,
+      "todayStars": 437,
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "aiSummary": {
+        "summary": "该项目为 AI 代理提供本地 CAD 生成能力，支持通过文本生成 STEP、GLB、STL 等格式 3D 模型。具备制造设计检查、工程图纸生成及对接 3D 打印/CNC 服务功能。兼容 Claude Code、Cursor 等主流代理，基于 Python 和 uv 运行。",
+        "summary_en": "A Python plugin that empowers AI agents to generate 3D CAD models and perform manufacturing checks.",
+        "techStack": [
+          "Python",
+          "uv",
+          "MCP",
+          "STEP/GLB/STL/3MF"
+        ],
+        "useCase": "AI 代理自动化设计、快速原型制作及工程图纸生成。",
+        "useCase_en": "Enable AI agents to generate 3D CAD models and perform design for manufacturing checks locally."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "pingdotgg/t3code",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 25643,
+      "forks": 6602,
+      "todayStars": 485,
+      "url": "https://github.com/pingdotgg/t3code",
+      "aiSummary": {
+        "summary": "T3 Code 是一个开源的“代理工具控制表面”，旨在为 AI 编码代理提供统一的最佳开发体验。它支持 Claude、Codex、Cursor 等多个主流平台，提供 iOS、Android、Web 和 Electron 桌面端应用，允许用户集中管理和控制本地运行的 AI 编码助手。",
+        "summary_en": "An open-source agent harness control surface for managing AI coding agents on mobile, web, and desktop.",
+        "techStack": [
+          "TypeScript",
+          "Electron"
+        ],
+        "useCase": "适合需要同时使用多个 AI 编码工具（如 Claude、Cursor）的开发者，用于统一管理和高效控制本地 AI 代理。",
+        "useCase_en": "Provides a unified control interface for AI coding agents like Claude and Cursor across mobile, web, and desktop devices"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "stars": 5005,
+      "forks": 371,
+      "todayStars": 997,
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "aiSummary": {
+        "summary": "AnyPS5 是一个 C++ 工具，旨在自动将 PS5 可执行文件移植到 Linux 和 Windows。它包含一个重链接器，可将可执行文件转换为原生格式，并实现了系统 prx 库。该项目旨在实现互操作性、研究和兼容性，不包含受版权保护的材料。",
+        "summary_en": "C++ tool for porting PS5 executables to Linux and Windows without emulation.",
+        "techStack": [
+          "C++",
+          "Linux",
+          "Windows",
+          "SDL",
+          "SPIR-V"
+        ],
+        "useCase": "用于研究 PS5 游戏在 PC 平台上的兼容性及移植。",
+        "useCase_en": "To port PS5 executables to Linux and Windows for interoperability and research."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars": 91963,
+      "forks": 8072,
+      "todayStars": 1155,
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "aiSummary": {
+        "summary": "这是一个为 AI Agent 提供全网互联网访问能力的 Python CLI 工具。它解决了 Twitter API 付费、网站登录墙等问题，支持 YouTube、B站、Reddit、小红书等平台。项目完全免费开源，具备自动切换失效接口的容错机制，兼容各类命令行 Agent，并提供一键安装更新功能。",
+        "summary_en": "A Python CLI tool enabling AI agents to access the internet, read social media, and search the web without API keys.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "MCP"
+        ],
+        "useCase": "为 Claude Code、Cursor 等 AI Agent 提供无需 API 密钥的互联网数据获取能力。",
+        "useCase_en": "Install this on your AI agent to read social media, watch videos, and search the web without API keys."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "stars": 64111,
+      "forks": 8134,
+      "todayStars": 742,
+      "url": "https://github.com/calesthio/OpenMontage",
+      "aiSummary": {
+        "summary": "OpenMontage 是全球首个开源代理驱动视频制作系统，包含12个生产管道和700+技能。它不仅能生成AI动画，还能利用开源素材库制作真实视频，涵盖从脚本、素材检索到Remotion渲染的全流程。",
+        "summary_en": "Open-source agentic video production system that transforms AI coding assistants into full video studios using 12 pipelines and 700+ agent skills.",
+        "techStack": [
+          "Python",
+          "Remotion",
+          "Blender",
+          "Veo",
+          "Kling v3"
+        ],
+        "useCase": "将自然语言描述转化为高质量视频内容，适用于影视预告片、动画短片及3D展示。",
+        "useCase_en": "Transform plain language prompts into fully produced videos using AI agents for research, scripting, asset generation, a"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "caddyserver/caddy",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "language": "Go",
+      "stars": 77162,
+      "forks": 5074,
+      "todayStars": 515,
+      "url": "https://github.com/caddyserver/caddy",
+      "aiSummary": {
+        "summary": "Caddy 是一个用 Go 语言编写的快速、可扩展的多平台 Web 服务器。它默认支持 HTTP/1.1、HTTP/2 和 HTTP/3，并内置自动 HTTPS 功能。项目采用模块化架构，支持 Caddyfile 和 JSON 配置，无需外部依赖即可运行，适合作为生产环境的 Web 服务器。",
+        "summary_en": "A fast, extensible web server with automatic HTTPS and HTTP/3 support.",
+        "techStack": [
+          "Go",
+          "HTTP/3",
+          "TLS",
+          "JSON",
+          "Caddyfile"
+        ],
+        "useCase": "适用于需要自动 HTTPS 和高性能 HTTP/3 支持的现代 Web 应用部署。",
+        "useCase_en": "Deploy web applications with automatic HTTPS and HTTP/3 support."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "DuarteSantos8/openGym",
+      "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+      "language": "JavaScript",
+      "stars": 4301,
+      "forks": 659,
+      "todayStars": 1433,
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "aiSummary": {
+        "summary": "openGym 是一个自托管的健身房与自重追踪应用。用户可规划常规、记录包含超级组与热身的锻炼，追踪肌肉状态，并支持从 FitNotes/Strong/Hevy 导入数据。项目采用 Passkey 登录，通过 Docker 部署，确保数据完全私有，无订阅与广告，提供现代化的训练体验。",
+        "summary_en": "A self-hosted gym and body-weight tracker that allows users to plan routines, log workouts, and track muscle fatigue without relying on third-party servers.",
+        "techStack": [
+          "JavaScript",
+          "Docker",
+          "Passkey"
+        ],
+        "useCase": "适合注重隐私、希望自托管健身数据并拥有完全控制权的个人用户。",
+        "useCase_en": "Individuals can self-host a private workout tracker to plan routines, log workouts, and track muscle fatigue without rel"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "cloudflare/cloudflare-os",
+      "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+      "language": "TypeScript",
+      "stars": 11039,
+      "forks": 1310,
+      "todayStars": 101,
+      "url": "https://github.com/cloudflare/cloudflare-os",
+      "aiSummary": {
+        "summary": "Cloudflare OS 是一个基于 Cloudflare Workers 的企业级 AI 生产力环境。它提供 Agent 聊天界面、沙盒应用开发以及名为 Gatekeepers 的安全框架，允许用户利用公司上下文安全地执行任务、构建应用并管理数据。",
+        "summary_en": "Cloudflare OS is an AI productivity environment for running agents and building apps securely.",
+        "techStack": [
+          "TypeScript",
+          "Cloudflare Workers",
+          "Wrangler"
+        ],
+        "useCase": "企业内部 AI 生产力工具，用于安全地自动化任务、构建应用及管理上下文。",
+        "useCase_en": "A secure workspace for running AI agents and building internal applications using company context."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Stremio/stremio-web",
+      "description": "Stremio - Freedom to Stream",
+      "language": "JavaScript",
+      "stars": 14319,
+      "forks": 1631,
+      "todayStars": 111,
+      "url": "https://github.com/Stremio/stremio-web",
+      "aiSummary": {
+        "summary": "Stremio 是一个开源的流媒体平台，专注于插件驱动的内容发现。它支持跨设备同步、投屏、字幕定制及键盘优先播放。前端采用 React 构建，后端核心逻辑由 Rust 编译为 WebAssembly 运行，确保高性能。项目支持多语言，并可作为 PWA 安装使用。",
+        "summary_en": "A React-based frontend for the Stremio streaming service, powered by a Rust WebAssembly core.",
+        "techStack": [
+          "JavaScript",
+          "React",
+          "Rust",
+          "WebAssembly",
+          "PWA"
+        ],
+        "useCase": "适用于需要自定义流媒体内容源、跨设备同步及高性能播放体验的用户。",
+        "useCase_en": "A standalone application for discovering and streaming movies, series, and channels via addons."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 157315,
+      "forks": 25373,
+      "todayStars": 744,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "这是一个包含多个专业化 AI 代理的集合，旨在为 Claude Code、Cursor 等开发工具提供专业助手。每个代理都有独特的个性和专业技能，如前端开发、社区管理等。项目提供原生桌面应用和命令行脚本，方便用户一键安装和更新这些代理，提升开发效率。",
+        "summary_en": "A curated collection of specialized AI agent personalities for coding environments.",
+        "techStack": [
+          "Shell",
+          "Shell Script",
+          "macOS",
+          "Linux",
+          "Windows"
+        ],
+        "useCase": "为 Claude Code 等开发环境安装具有特定专业技能的 AI 代理，以优化工作流。",
+        "useCase_en": "Installing specialized AI agent personalities into coding environments like Claude Code and Cursor."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "M-Abozaid/esp32-c3-adblock",
+      "description": "Pi-hole-class DNS ad-blocker on a $2 ESP32-C3 (no PSRAM): 537k domains as 40-bit FNV-1a hashes in flash, binary-searched. UDP DNS sinkhole + web dashboard. https://youtube.com/shorts/RaxszOUMi8E?feature=share",
+      "language": "C++",
+      "stars": 1385,
+      "forks": 122,
+      "todayStars": 196,
+      "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+      "aiSummary": {
+        "summary": "这是一个运行在廉价 ESP32-C3 开发板上的 Pi-hole 风格 DNS 广告拦截器，无需 PSRAM。通过将域名哈希存储在闪存中并使用二分查找，实现了极低的内存占用（约 50KB RAM）和快速查询（约 10ms）。支持 UDP DNS 拦截和 Web 仪表板，适合家庭网络低成本广告屏蔽。",
+        "summary_en": "Lightweight Pi-hole-style DNS sinkhole for ESP32-C3 using flash-based hash storage instead of RAM.",
+        "techStack": [
+          "C++",
+          "ESP32-C3",
+          "DNS",
+          "FNV-1a Hashing",
+          "Web Dashboard"
+        ],
+        "useCase": "适用于低成本、低功耗的家庭网络广告拦截设备。",
+        "useCase_en": "Create a budget-friendly ad-blocking DNS server for home networks using an ESP32-C3."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-06T02:52:20.439Z",
+    "duration": "285s",
+    "version": "1.0.0"
+  }
+}
