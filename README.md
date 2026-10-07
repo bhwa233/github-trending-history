@@ -70,25 +70,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-10-05 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-10-06 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [tester-army/e2e](https://github.com/tester-army/e2e) | Next generation e2e testing framework for web and ... | TypeScript | 4.9k | 1.4k | 这是一个下一代端到端测试框架，支持 Web 和移动应用。它允许用户用自然语言描述测试目标，由 Agent 驱动应用执行。测试步骤可记录并回放，减少模型调用。支持 Playwright 和移动模拟器，集成 GitHub 报告器，适合需要自然语言交互的自动化测试场景。 |
-| 2 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Persistent Context Across Sessions for Every Agent... | TypeScript | 96.7k | 534 | Claude-Mem 是一个为 Claude Code 构建的持久化记忆压缩系统。它自动捕获会话中的工具使用和观察，利用 AI 生成语义摘要，并在未来会话中注入上下文。这确保了 AI 代理在会话结束后或重新连接时，仍能保持对项目的知识连续性，支持多种 AI 工具。 |
-| 3 | [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | Give your agent CAD superpowers.... | Python | 17.5k | 437 | 该项目为 AI 代理提供本地 CAD 生成能力，支持通过文本生成 STEP、GLB、STL 等格式 3D 模型。具备制造设计检查、工程图纸生成及对接 3D 打印/CNC 服务功能。兼容 Claude Code、Cursor 等主流代理，基于 Python 和 uv 运行。 |
-| 4 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | ... | TypeScript | 25.6k | 485 | T3 Code 是一个开源的“代理工具控制表面”，旨在为 AI 编码代理提供统一的最佳开发体验。它支持 Claude、Codex、Cursor 等多个主流平台，提供 iOS、Android、Web 和 Electron 桌面端应用，允许用户集中管理和控制本地运行的 AI 编码助手。 |
-| 5 | [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | Tool for automatic PS5 executables porting to Linu... | C++ | 5.0k | 997 | AnyPS5 是一个 C++ 工具，旨在自动将 PS5 可执行文件移植到 Linux 和 Windows。它包含一个重链接器，可将可执行文件转换为原生格式，并实现了系统 prx 库。该项目旨在实现互操作性、研究和兼容性，不包含受版权保护的材料。 |
-| 6 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Give your AI agent eyes to see the entire internet... | Python | 92.0k | 1.2k | 这是一个为 AI Agent 提供全网互联网访问能力的 Python CLI 工具。它解决了 Twitter API 付费、网站登录墙等问题，支持 YouTube、B站、Reddit、小红书等平台。项目完全免费开源，具备自动切换失效接口的容错机制，兼容各类命令行 Agent，并提供一键安装更新功能。 |
-| 7 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | World's first open-source, agentic video productio... | Python | 64.1k | 742 | OpenMontage 是全球首个开源代理驱动视频制作系统，包含12个生产管道和700+技能。它不仅能生成AI动画，还能利用开源素材库制作真实视频，涵盖从脚本、素材检索到Remotion渲染的全流程。 |
-| 8 | [caddyserver/caddy](https://github.com/caddyserver/caddy) | Fast and extensible multi-platform HTTP/1-2-3 web ... | Go | 77.2k | 515 | Caddy 是一个用 Go 语言编写的快速、可扩展的多平台 Web 服务器。它默认支持 HTTP/1.1、HTTP/2 和 HTTP/3，并内置自动 HTTPS 功能。项目采用模块化架构，支持 Caddyfile 和 JSON 配置，无需外部依赖即可运行，适合作为生产环境的 Web 服务器。 |
-| 9 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | Self-hosted gym & body-weight tracker — plan routi... | JavaScript | 4.3k | 1.4k | openGym 是一个自托管的健身房与自重追踪应用。用户可规划常规、记录包含超级组与热身的锻炼，追踪肌肉状态，并支持从 FitNotes/Strong/Hevy 导入数据。项目采用 Passkey 登录，通过 Docker 部署，确保数据完全私有，无订阅与广告，提供现代化的训练体验。 |
-| 10 | [cloudflare/cloudflare-os](https://github.com/cloudflare/cloudflare-os) | Agent workspace built on Cloudflare Workers for cr... | TypeScript | 11.0k | 101 | Cloudflare OS 是一个基于 Cloudflare Workers 的企业级 AI 生产力环境。它提供 Agent 聊天界面、沙盒应用开发以及名为 Gatekeepers 的安全框架，允许用户利用公司上下文安全地执行任务、构建应用并管理数据。 |
-| 11 | [Stremio/stremio-web](https://github.com/Stremio/stremio-web) | Stremio - Freedom to Stream... | JavaScript | 14.3k | 111 | Stremio 是一个开源的流媒体平台，专注于插件驱动的内容发现。它支持跨设备同步、投屏、字幕定制及键盘优先播放。前端采用 React 构建，后端核心逻辑由 Rust 编译为 WebAssembly 运行，确保高性能。项目支持多语言，并可作为 PWA 安装使用。 |
-| 12 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 157.3k | 744 | 这是一个包含多个专业化 AI 代理的集合，旨在为 Claude Code、Cursor 等开发工具提供专业助手。每个代理都有独特的个性和专业技能，如前端开发、社区管理等。项目提供原生桌面应用和命令行脚本，方便用户一键安装和更新这些代理，提升开发效率。 |
-| 13 | [M-Abozaid/esp32-c3-adblock](https://github.com/M-Abozaid/esp32-c3-adblock) | Pi-hole-class DNS ad-blocker on a $2 ESP32-C3 (no ... | C++ | 1.4k | 196 | 这是一个运行在廉价 ESP32-C3 开发板上的 Pi-hole 风格 DNS 广告拦截器，无需 PSRAM。通过将域名哈希存储在闪存中并使用二分查找，实现了极低的内存占用（约 50KB RAM）和快速查询（约 10ms）。支持 UDP DNS 拦截和 Web 仪表板，适合家庭网络低成本广告屏蔽。 |
+| 1 | [tester-army/e2e](https://github.com/tester-army/e2e) | Next generation e2e testing framework for web and ... | TypeScript | 6.4k | 1.7k | 这是一个基于 TypeScript 的下一代端到端测试框架，支持 Web 和移动应用。它允许用户用自然语言描述测试目标，由智能代理驱动应用完成操作，并使用定位器和断言验证结果。框架支持 Playwright 和移动模拟器，集成了 GitHub 报告器，并支持自定义大语言模型，旨在简化测试编写流程。 |
+| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .agent... | Shell | 278.2k | 889 | 这是一套专为真实工程师设计的 AI 技能集合，旨在提供可组合、易定制的开发流程，避免过度依赖“氛围编码”。它支持 Claude Code 和 Codex 等多种 AI 编码助手，帮助开发者保持对代码和流程的控制，提高开发效率。 |
+| 3 | [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) | Give your agent CAD superpowers.... | Python | 18.0k | 619 | 该项目为 AI 代理赋予 CAD 能力，支持将文本指令转换为 3D 模型（STEP, GLB, STL, 3MF）。它提供制造设计检查、工程图纸生成，并连接 3D 打印、钣金及 CNC 服务。兼容 Claude Code、Cursor 等主流代理，通过 uv 运行。 |
+| 4 | [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | Tool for automatic PS5 executables porting to Linu... | C++ | 6.7k | 949 | AnyPS5 是一个用 C++ 编写的开源工具，旨在自动将 PS5 可执行文件移植到 Linux 和 Windows 系统。它包含重连器和 PRX 库实现，支持动态链接，无需模拟或单独运行时。项目实现了 Shader 重编译器生成 SPIR-V，并支持 SDL 游戏手柄映射。目前 Dreaming Sarah 等游戏已验证可运行。该工具旨在实现互操作性、研究和兼容性目的，遵循 GPL-2.0 许可证。 |
+| 5 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | JavaScript | 77.7k | 616 | 这是一个专为 AI 编码代理设计的前端设计语言工具。它提供 24 个命令和 60 条确定性规则，帮助 AI 生成高质量、一致且非模板化的前端设计。支持实时浏览器迭代和产品真相记录，确保设计质量。 |
+| 6 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Persistent Context Across Sessions for Every Agent... | TypeScript | 97.2k | 534 | 这是一个为 Claude Code 设计的持久化上下文系统，通过自动捕获工具使用、生成语义摘要并压缩存储，在未来的会话中注入相关上下文。它支持多种 AI 代理，帮助 AI 保持对项目的连续性认知，解决会话中断导致的知识丢失问题。 |
+| 7 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | A skill to stop your coding agent from burying the... | Python | 54.4k | 326 | 这是一个专为 AI 编码助手设计的技能，旨在提供 ADHD 友好的输出。它通过强制优先采取行动、编号步骤、提供具体时间估算和避免填充内容，防止 AI 隐藏答案或过于啰嗦。它通过直接、可执行的指令（如“编辑文件 X”和“运行测试”）来提高代码审查和调试的效率。 |
+| 8 | [morluto/rea](https://github.com/morluto/rea) | Reverse engineer anything with agents, from app be... | TypeScript | 9.7k | 3.0k | REA 是一个基于 MCP 的逆向工程工具，利用 AI 代理分析原生二进制文件、JavaScript 应用程序、.NET 程序集和网站。它允许用户在无需源代码的情况下理解应用行为，生成证据，并构建功能。它本地运行，并与 AI 编码助手集成。 |
+| 9 | [deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) | DeepGEMM: clean and efficient BLAS kernel library ... | Cuda | 8.7k | 199 | DeepGEMM 是一个统一的高性能 GPU 张量核库，专为现代大语言模型设计。它集成了 GEMM（FP8/FP4/BF16）、融合 MoE、MQA 评分等核心原语，支持运行时编译（DeepJIT）。库设计简洁，性能媲美专家调优库，并在 H800 上达到 1550 TFLOPS，同时支持 Ascend 硬件。 |
+| 10 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 157.9k | 623 | 这是一个提供完整AI代理机构的GitHub项目，包含前端巫师、Reddit社区忍者等具有个性化和专业流程的AI代理。项目提供原生桌面应用（支持macOS/Linux/Windows）和命令行脚本，可一键将代理安装到Claude Code、Cursor等主流AI开发工具中，并支持自动更新。适合需要定制化AI助手团队的开发者。 |
+| 11 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | Self-hosted gym & body-weight tracker — plan routi... | JavaScript | 5.8k | 1.4k | openGym 是一个自托管的健身房与自重追踪应用，数据完全由用户掌控。支持制定周计划、记录锻炼（含超级组、热身等）、分析肌肉状态，并兼容 FitNotes/Strong/Hevy 数据导入。具备 Passkey 登录、无广告无订阅、离线使用及跨设备同步功能。 |
+| 12 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Editorial diagram design for Claude Code, Codex, G... | HTML | 44.1k | 228 | 这是一个专为 Claude Code 等工具设计的编辑级图表设计技能。它提供 42 种图表类型（如架构图、鱼骨图、UML），支持 HTML/SVG 自包含输出，无需构建步骤。项目强调“编辑质量”的视觉风格，支持导入导出，旨在帮助开发者快速生成美观且符合品牌调性的技术文档图表。 |
 
-[查看完整数据](api/github/2026-10-05.json)
+[查看完整数据](api/github/2026-10-06.json)
 <!-- END GITHUB TRENDING -->
 
 

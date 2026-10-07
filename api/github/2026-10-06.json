@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-06",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "tester-army/e2e",
+      "description": "Next generation e2e testing framework for web and mobile apps.",
+      "language": "TypeScript",
+      "stars": 6402,
+      "forks": 288,
+      "todayStars": 1725,
+      "url": "https://github.com/tester-army/e2e",
+      "aiSummary": {
+        "summary": "这是一个基于 TypeScript 的下一代端到端测试框架，支持 Web 和移动应用。它允许用户用自然语言描述测试目标，由智能代理驱动应用完成操作，并使用定位器和断言验证结果。框架支持 Playwright 和移动模拟器，集成了 GitHub 报告器，并支持自定义大语言模型，旨在简化测试编写流程。",
+        "summary_en": "An AI-driven end-to-end testing framework for web and mobile apps using natural language descriptions.",
+        "techStack": [
+          "TypeScript",
+          "Playwright",
+          "Node.js"
+        ],
+        "useCase": "适用于希望使用自然语言描述测试逻辑的 Web 和移动应用自动化测试场景。",
+        "useCase_en": "Automate end-to-end testing for web and mobile applications by describing goals in natural language."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 278202,
+      "forks": 23292,
+      "todayStars": 889,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一套专为真实工程师设计的 AI 技能集合，旨在提供可组合、易定制的开发流程，避免过度依赖“氛围编码”。它支持 Claude Code 和 Codex 等多种 AI 编码助手，帮助开发者保持对代码和流程的控制，提高开发效率。",
+        "summary_en": "Composable shell skills for real engineering workflows, not just vibe coding.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "Codex"
+        ],
+        "useCase": "用于 AI 编码助手（如 Claude Code）的技能配置，帮助工程师进行高效、可控的软件开发。",
+        "useCase_en": "To install composable engineering skills for AI coding agents like Claude."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "earthtojake/text-to-cad",
+      "description": "Give your agent CAD superpowers.",
+      "language": "Python",
+      "stars": 18013,
+      "forks": 1805,
+      "todayStars": 619,
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "aiSummary": {
+        "summary": "该项目为 AI 代理赋予 CAD 能力，支持将文本指令转换为 3D 模型（STEP, GLB, STL, 3MF）。它提供制造设计检查、工程图纸生成，并连接 3D 打印、钣金及 CNC 服务。兼容 Claude Code、Cursor 等主流代理，通过 uv 运行。",
+        "summary_en": "A Python plugin empowering AI agents to generate 3D CAD models and perform manufacturing checks.",
+        "techStack": [
+          "Python",
+          "uv",
+          "MCP"
+        ],
+        "useCase": "AI 辅助 3D 建模与自动化制造设计",
+        "useCase_en": "Enable AI agents to generate 3D models for 3D printing, CNC, and sheet metal fabrication."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "stars": 6661,
+      "forks": 497,
+      "todayStars": 949,
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "aiSummary": {
+        "summary": "AnyPS5 是一个用 C++ 编写的开源工具，旨在自动将 PS5 可执行文件移植到 Linux 和 Windows 系统。它包含重连器和 PRX 库实现，支持动态链接，无需模拟或单独运行时。项目实现了 Shader 重编译器生成 SPIR-V，并支持 SDL 游戏手柄映射。目前 Dreaming Sarah 等游戏已验证可运行。该工具旨在实现互操作性、研究和兼容性目的，遵循 GPL-2.0 许可证。",
+        "summary_en": "C++ tool for automatically porting PS5 executables to Linux and Windows using a recompiler and native system libraries.",
+        "techStack": [
+          "C++",
+          "Linux",
+          "Windows",
+          "SDL",
+          "SPIR-V"
+        ],
+        "useCase": "将 PS5 游戏移植到 PC 平台（Linux/Windows）",
+        "useCase_en": "To run PlayStation 5 executables on Linux and Windows without emulation."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "stars": 77728,
+      "forks": 4630,
+      "todayStars": 616,
+      "url": "https://github.com/pbakaus/impeccable",
+      "aiSummary": {
+        "summary": "这是一个专为 AI 编码代理设计的前端设计语言工具。它提供 24 个命令和 60 条确定性规则，帮助 AI 生成高质量、一致且非模板化的前端设计。支持实时浏览器迭代和产品真相记录，确保设计质量。",
+        "summary_en": "A design language and CLI tool for AI coding agents to standardize frontend design and prevent template patterns.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "用于 AI 辅助开发中，确保生成的 UI 设计符合特定产品风格，避免通用模板。",
+        "useCase_en": "To guide AI coding agents in generating consistent, non-template frontend designs."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 97207,
+      "forks": 8564,
+      "todayStars": 534,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 设计的持久化上下文系统，通过自动捕获工具使用、生成语义摘要并压缩存储，在未来的会话中注入相关上下文。它支持多种 AI 代理，帮助 AI 保持对项目的连续性认知，解决会话中断导致的知识丢失问题。",
+        "summary_en": "A TypeScript plugin that captures agent activity and compresses it into semantic summaries to maintain persistent context across sessions.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "AI/LLM"
+        ],
+        "useCase": "适用于需要 AI 代理在多会话开发中保持项目上下文连续性的场景。",
+        "useCase_en": "To enable AI agents to maintain continuity of knowledge about projects across sessions by capturing and compressing tool"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "language": "Python",
+      "stars": 54440,
+      "forks": 3127,
+      "todayStars": 326,
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "aiSummary": {
+        "summary": "这是一个专为 AI 编码助手设计的技能，旨在提供 ADHD 友好的输出。它通过强制优先采取行动、编号步骤、提供具体时间估算和避免填充内容，防止 AI 隐藏答案或过于啰嗦。它通过直接、可执行的指令（如“编辑文件 X”和“运行测试”）来提高代码审查和调试的效率。",
+        "summary_en": "An ADHD-friendly coding assistant skill that enforces direct, actionable output to prevent burying answers.",
+        "techStack": [
+          "TypeScript",
+          "Claude Plugin",
+          "CLI"
+        ],
+        "useCase": "用于优化 AI 编码助手的交互体验，使其输出更直接、高效，适合需要快速执行步骤的开发者。",
+        "useCase_en": "To force coding assistants to provide direct, actionable solutions by suppressing conversational filler and tangents."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 9664,
+      "forks": 1070,
+      "todayStars": 2956,
+      "url": "https://github.com/morluto/rea",
+      "aiSummary": {
+        "summary": "REA 是一个基于 MCP 的逆向工程工具，利用 AI 代理分析原生二进制文件、JavaScript 应用程序、.NET 程序集和网站。它允许用户在无需源代码的情况下理解应用行为，生成证据，并构建功能。它本地运行，并与 AI 编码助手集成。",
+        "summary_en": "REA is a Model Context Protocol tool that enables AI agents to reverse engineer software binaries and apps.",
+        "techStack": [
+          "TypeScript",
+          "MCP (Model Context Protocol)",
+          "二进制分析工具"
+        ],
+        "useCase": "需要分析竞争对手软件、理解应用逻辑或在不了解源代码的情况下提取功能时。",
+        "useCase_en": "It allows developers to investigate and replicate features from any application by analyzing its binary code."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "deepseek-ai/DeepGEMM",
+      "description": "DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "language": "Cuda",
+      "stars": 8727,
+      "forks": 1375,
+      "todayStars": 199,
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "aiSummary": {
+        "summary": "DeepGEMM 是一个统一的高性能 GPU 张量核库，专为现代大语言模型设计。它集成了 GEMM（FP8/FP4/BF16）、融合 MoE、MQA 评分等核心原语，支持运行时编译（DeepJIT）。库设计简洁，性能媲美专家调优库，并在 H800 上达到 1550 TFLOPS，同时支持 Ascend 硬件。",
+        "summary_en": "A clean and efficient CUDA BLAS kernel library for high-performance LLM tensor operations.",
+        "techStack": [
+          "CUDA",
+          "DeepJIT",
+          "FP8/FP4/BF16",
+          "MoE"
+        ],
+        "useCase": "大语言模型的高性能计算与 GPU 内核优化",
+        "useCase_en": "Accelerating matrix multiplication and MoE operations for large language models on NVIDIA GPUs."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars": 157856,
+      "forks": 25449,
+      "todayStars": 623,
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aiSummary": {
+        "summary": "这是一个提供完整AI代理机构的GitHub项目，包含前端巫师、Reddit社区忍者等具有个性化和专业流程的AI代理。项目提供原生桌面应用（支持macOS/Linux/Windows）和命令行脚本，可一键将代理安装到Claude Code、Cursor等主流AI开发工具中，并支持自动更新。适合需要定制化AI助手团队的开发者。",
+        "summary_en": "A collection of specialized AI agent personalities for coding workflows.",
+        "techStack": [
+          "Shell",
+          "macOS/Linux/Windows",
+          "Markdown"
+        ],
+        "useCase": "为Claude Code、Cursor等AI开发工具安装定制化、具有特定技能的AI代理助手。",
+        "useCase_en": "To install specialized AI agent personalities into coding tools like Claude Code and Cursor to enhance productivity."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "DuarteSantos8/openGym",
+      "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+      "language": "JavaScript",
+      "stars": 5758,
+      "forks": 786,
+      "todayStars": 1419,
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "aiSummary": {
+        "summary": "openGym 是一个自托管的健身房与自重追踪应用，数据完全由用户掌控。支持制定周计划、记录锻炼（含超级组、热身等）、分析肌肉状态，并兼容 FitNotes/Strong/Hevy 数据导入。具备 Passkey 登录、无广告无订阅、离线使用及跨设备同步功能。",
+        "summary_en": "Self-hosted gym and body-weight tracker for planning routines, logging workouts, and managing fitness data locally.",
+        "techStack": [
+          "JavaScript",
+          "Docker",
+          "WebAuthn"
+        ],
+        "useCase": "适合注重隐私、希望自托管健身数据的个人用户。",
+        "useCase_en": "Individuals can self-host a modern workout app to plan routines, log workouts, and track fitness data locally without su"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 44075,
+      "forks": 2842,
+      "todayStars": 228,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aiSummary": {
+        "summary": "这是一个专为 Claude Code 等工具设计的编辑级图表设计技能。它提供 42 种图表类型（如架构图、鱼骨图、UML），支持 HTML/SVG 自包含输出，无需构建步骤。项目强调“编辑质量”的视觉风格，支持导入导出，旨在帮助开发者快速生成美观且符合品牌调性的技术文档图表。",
+        "summary_en": "A self-contained HTML and SVG library for editorial diagram design compatible with AI coding assistants.",
+        "techStack": [
+          "HTML",
+          "SVG",
+          "CSS"
+        ],
+        "useCase": "为技术文档、架构图和流程图提供高质量的视觉呈现，无需使用 Figma 等设计工具。",
+        "useCase_en": "Create editorial-quality diagrams for websites and documentation without external tools like Figma."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-07T02:16:30.357Z",
+    "duration": "345s",
+    "version": "1.0.0"
+  }
+}
