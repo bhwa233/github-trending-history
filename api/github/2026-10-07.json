@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-07",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 15801,
+      "forks": 1659,
+      "todayStars": 4655,
+      "url": "https://github.com/morluto/rea",
+      "aiSummary": {
+        "summary": "REA 是一个跨二进制文件、应用程序和运行时行为的逆向工程 MCP 工具。它利用 AI 代理分析原生二进制文件、JavaScript 应用、.NET 程序集和网站，无需源代码即可解释功能、展示证据并辅助构建版本，所有分析均在本地运行。",
+        "summary_en": "REA connects AI agents to reverse engineering tools for analyzing binaries, apps, and code locally.",
+        "techStack": [
+          "TypeScript",
+          "MCP (Model Context Protocol)",
+          "AI Agent"
+        ],
+        "useCase": "当需要分析竞争对手应用功能、理解二进制文件逻辑或为项目构建类似功能时。",
+        "useCase_en": "Investigate and understand the behavior of applications and native binaries without source code using AI agents."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 279733,
+      "forks": 23450,
+      "todayStars": 1403,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一套专为工程师设计的代理技能集合，旨在通过小型、可组合的脚本提升开发效率。它支持 Claude Code 和 Codex 等工具，强调工程实践而非僵化的流程，允许用户高度自定义。",
+        "summary_en": "A collection of composable shell scripts for AI agents to perform real engineering tasks.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "Agent Integration"
+        ],
+        "useCase": "适用于使用 Claude Code 或 Codex 等代理工具进行日常软件开发和工程实践的工程师。",
+        "useCase_en": "To provide AI agents with a set of engineering-focused skills for development."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "stars": 10842,
+      "forks": 824,
+      "todayStars": 2716,
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "aiSummary": {
+        "summary": "AnyPS5 是一款用 C++ 编写的工具，旨在自动将 PS5 可执行文件移植到 Linux 和 Windows。它包含重连器将可执行文件转换为原生格式，并实现了系统库以支持动态链接。项目支持 SDL 游戏控制器映射和 SPIR-V 着色器编译，旨在实现互操作性、研究和兼容性，采用 GPL v2 许可证。",
+        "summary_en": "C++ tool for automatic PS5 executable porting to Linux and Windows.",
+        "techStack": [
+          "C++",
+          "SDL",
+          "SPIR-V"
+        ],
+        "useCase": "用于 PS5 游戏在 Linux 和 Windows 上的移植、研究及兼容性测试。",
+        "useCase_en": "To run PS5 executables on Linux and Windows systems without emulation."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "language": "Python",
+      "stars": 55189,
+      "forks": 3163,
+      "todayStars": 619,
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "aiSummary": {
+        "summary": "这是一个为编程助手设计的技能，旨在解决 AI 回答过于冗长或隐藏核心步骤的问题。它采用 ADHD 友好的输出格式，强调“行动优先”，要求步骤编号、具体时间估算，并禁止废话。通过强制 AI 直接给出解决方案和下一步操作，提高代码调试和修改的效率。",
+        "summary_en": "A Python plugin for AI coding assistants that formats responses to be ADHD-friendly and action-oriented.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于需要 AI 编码助手提供直接、可执行解决方案的场景，帮助开发者快速定位和修复代码问题。",
+        "useCase_en": "A plugin for AI coding assistants that formats responses to be ADHD-friendly, prioritizing direct action and suppressing"
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 45068,
+      "forks": 2895,
+      "todayStars": 825,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aiSummary": {
+        "summary": "这是一个专为 Claude Code 等工具设计的编辑风格图表库。提供 42 种图表类型，采用自包含 HTML + SVG，支持静态输出及可选动画。设计理念强调高密度、简洁与品牌化，支持导入 draw.io 等源文件，旨在生成高质量、无通用圆角框的架构与流程图。",
+        "summary_en": "A self-contained HTML and SVG library for editorial diagram design compatible with AI coding assistants, featuring 42 diagram types and layout grammars.",
+        "techStack": [
+          "HTML",
+          "SVG"
+        ],
+        "useCase": "用于 Claude Code 等工具生成高质量、编辑风格的架构图、流程图及系统设计图。",
+        "useCase_en": "Create editorial-quality diagrams for architecture sketches and technical documentation without external tools like Figm"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 102868,
+      "forks": 10776,
+      "todayStars": 677,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供生产级工程技能，通过 9 个斜杠命令封装了从定义到发布的全生命周期工作流和质量门控。支持自动技能激活和单次批准的增量构建，旨在提升 AI 编码的一致性和代码质量。",
+        "summary_en": "A collection of production-grade engineering skills and workflows for AI coding agents.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "AI Agents"
+        ],
+        "useCase": "提升 AI 编码代理的开发效率与代码质量，确保遵循工程最佳实践。",
+        "useCase_en": "To provide structured workflows and quality gates for AI coding agents."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "EpicGames/raddebugger",
+      "description": "A native, user-mode, multi-process, graphical debugger.",
+      "language": "C",
+      "stars": 7886,
+      "forks": 384,
+      "todayStars": 90,
+      "url": "https://github.com/EpicGames/raddebugger",
+      "aiSummary": {
+        "summary": "这是一个由 Epic 开发的原生、用户模式、多进程图形化调试器。目前处于 ALPHA 阶段，主要支持 Windows x64 PDB 调试。项目致力于构建自定义的 RAD Debug Info (RDI) 格式以替代传统调试信息，并计划未来支持 Linux 和 DWARF。",
+        "summary_en": "Native, user-mode, multi-process graphical debugger for Windows x64 using custom RDI format.",
+        "techStack": [
+          "C",
+          "Windows",
+          "PDB",
+          "RDI"
+        ],
+        "useCase": "Windows 原生应用的本地调试与开发",
+        "useCase_en": "Debugging native Windows x64 applications using the custom RDI debug info format."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 97776,
+      "forks": 8607,
+      "todayStars": 578,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "Claude-Mem 是一个为 Claude Code 等代理提供的持久化上下文系统。它自动捕获会话活动，利用 AI 进行语义压缩，并将相关上下文注入未来会话，确保 AI 代理在断开连接后仍能保持项目知识的连续性。",
+        "summary_en": "TypeScript tool for AI agents to maintain persistent context across sessions via AI compression.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "AI/LLM"
+        ],
+        "useCase": "适用于需要跨会话保持项目上下文记忆的 AI 编程助手。",
+        "useCase_en": "Allows AI coding assistants to maintain continuity of knowledge across different sessions."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "manaflow-ai/cmux",
+      "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
+      "language": "Swift",
+      "stars": 27878,
+      "forks": 2463,
+      "todayStars": 44,
+      "url": "https://github.com/manaflow-ai/cmux",
+      "aiSummary": {
+        "summary": "基于 Ghostty 的 macOS 原生终端，专为 AI 编码代理设计。支持垂直/水平分屏、内置浏览器、SSH 远程连接及 Claude Code Teams 集成。具备通知系统、浏览器导入及可编程 API，旨在提升多任务处理与组织效率。",
+        "summary_en": "A native macOS terminal built on Ghostty designed for AI coding agents with vertical tabs and notifications.",
+        "techStack": [
+          "Swift",
+          "AppKit",
+          "libghostty",
+          "SSH",
+          "Socket API"
+        ],
+        "useCase": "适合需要高效管理终端、浏览器及 AI 编码代理的开发者，特别是使用 Claude Code 的用户。",
+        "useCase_en": "To streamline AI coding workflows on macOS by providing a native terminal with vertical tabs and notifications."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "trycua/cua",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "language": "Rust",
+      "stars": 28788,
+      "forks": 2041,
+      "todayStars": 228,
+      "url": "https://github.com/trycua/cua",
+      "aiSummary": {
+        "summary": "该项目旨在扩展计算机使用 2.0，提供完整的桌面环境供 AI 代理操作。核心组件包括 Cua Spaces（桌面应用）、Cua Driver（自动化工具）、Lume（本地 VM）和 Cua Bench（基准测试）。支持跨平台部署，为计算机使用模型的训练、评估及数据生成提供基础设施。",
+        "summary_en": "An open-source Rust project providing infrastructure for AI agents to interact with desktop environments via virtual machines and automation tools.",
+        "techStack": [
+          "Rust",
+          "CLI",
+          "Virtualization"
+        ],
+        "useCase": "为 AI 代理提供桌面环境，用于计算机使用模型的训练、评估和自动化操作。",
+        "useCase_en": "To enable AI agents to operate computers by providing virtual desktop environments, automation drivers, and evaluation b"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 26103,
+      "forks": 1567,
+      "todayStars": 576,
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "aiSummary": {
+        "summary": "这是一个将编码代理转化为自动化安全审计员的技能。它通过六个阶段（侦察、狩猎、验证、输出、独立验证、报告）执行结构化审计，生成机器可读的发现结果，并支持独立验证以确保准确性。该工具是 Cloudflare 漏洞发现系统的起点。",
+        "summary_en": "A JavaScript skill for orchestrating multi-phase security audits with independent verification.",
+        "techStack": [
+          "JavaScript",
+          "JSON",
+          "Node.js"
+        ],
+        "useCase": "适用于自动化代码安全审计、漏洞挖掘及多阶段安全评估。",
+        "useCase_en": "To turn coding agents into security auditors that perform structured, verified vulnerability hunting."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "tester-army/e2e",
+      "description": "Next generation e2e testing framework for web and mobile apps.",
+      "language": "TypeScript",
+      "stars": 7547,
+      "forks": 345,
+      "todayStars": 1390,
+      "url": "https://github.com/tester-army/e2e",
+      "aiSummary": {
+        "summary": "这是一个基于 TypeScript 的下一代端到端测试框架。它允许用户用自然语言描述测试目标，由智能代理驱动应用完成操作。框架支持 Web 和移动端，具备动作记录与重放机制，支持多种前端框架，并能集成本地大模型。",
+        "summary_en": "AI-powered end-to-end testing framework for web and mobile apps using natural language descriptions.",
+        "techStack": [
+          "TypeScript",
+          "Playwright",
+          "agent-device",
+          "本地大模型"
+        ],
+        "useCase": "适用于需要自然语言交互测试的 Web 和移动应用自动化场景。",
+        "useCase_en": "Automate end-to-end testing for web and mobile applications by describing goals in natural language."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "DuarteSantos8/openGym",
+      "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+      "language": "JavaScript",
+      "stars": 7026,
+      "forks": 918,
+      "todayStars": 1493,
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "aiSummary": {
+        "summary": "openGym 是一个自托管的健身房与自重训练追踪器，强调数据隐私与完全掌控。它支持制定常规训练计划、记录超级组与热身，具备 PR 检测与 RIR/RPE 记录功能。支持从 FitNotes/Strong/Hevy 导入数据，提供 Passkey 登录，通过 Docker 部署，无订阅与广告。",
+        "summary_en": "A self-hosted gym and bodyweight tracker that prioritizes user privacy and data ownership.",
+        "techStack": [
+          "JavaScript",
+          "Docker"
+        ],
+        "useCase": "适合希望自托管健身数据、保护隐私且不依赖订阅服务的个人用户。",
+        "useCase_en": "Individuals can manage their fitness routines and track workouts on a private, self-hosted server."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-08T02:45:11.240Z",
+    "duration": "531s",
+    "version": "1.0.0"
+  }
+}
