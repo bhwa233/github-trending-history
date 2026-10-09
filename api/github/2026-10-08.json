@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-08",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "stars": 16170,
+      "forks": 1280,
+      "todayStars": 4669,
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "aiSummary": {
+        "summary": "AnyPS5 是一个用 C++ 编写的开源工具，旨在自动将 PS5 可执行文件移植到 Linux 和 Windows。它包含重连器和 PRX 库实现，无需模拟或单独运行时进程。支持 Shader 重编译为 SPIR-V，并兼容 SDL 游戏手柄和键盘鼠标。该项目旨在实现互操作性、研究和兼容性，采用 GPL-2.0 许可证。",
+        "summary_en": "Automatic PS5 executable porting tool for Linux and Windows using a relinker.",
+        "techStack": [
+          "C++",
+          "SPIR-V",
+          "SDL",
+          "Linux",
+          "Windows"
+        ],
+        "useCase": "将 PS5 游戏移植到 PC 平台",
+        "useCase_en": "Port PS5 executables to Linux and Windows for interoperability and research."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 46532,
+      "forks": 2955,
+      "todayStars": 1160,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aiSummary": {
+        "summary": "该项目为 Claude Code 等工具提供高质量的编辑类图表设计，包含 42 种图表类型。支持自包含 HTML/SVG 输出，无需构建步骤。具备语义化系统模式和可选动画，并能将 draw.io、Mermaid 等源文件转换为选定格式。设计风格注重编辑类质量与品牌定制，支持高密度排版。",
+        "summary_en": "A library of 42 editorial diagram types for AI coding assistants, featuring semantic patterns and static HTML/SVG output.",
+        "techStack": [
+          "HTML",
+          "SVG",
+          "无外部依赖"
+        ],
+        "useCase": "为 Claude Code 等工具生成高质量、品牌定制的编辑类图表，用于架构设计、系统模式可视化及文档排版。",
+        "useCase_en": "Generate editorial-quality diagrams for architecture and flowcharts using AI coding assistants like Claude and Copilot."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 28149,
+      "forks": 3261,
+      "todayStars": 7738,
+      "url": "https://github.com/morluto/rea",
+      "aiSummary": {
+        "summary": "REA 是一个利用 AI 代理进行逆向工程的工具，支持从原生二进制文件到 JavaScript/Electron 应用的分析。它通过连接静态分析工具（如 Hopper、Ghidra）和代理（如 Claude、Cursor），允许用户在不查看源码的情况下调查应用功能、解释原理并生成证据，最终辅助在项目中复刻类似功能。所有分析均在本地运行。",
+        "summary_en": "REA is a TypeScript toolkit that uses AI agents to reverse engineer applications, analyze binaries, and build features.",
+        "techStack": [
+          "TypeScript",
+          "MCP (Model Context Protocol)",
+          "静态分析工具 (Hopper/Ghidra)",
+          "Node.js"
+        ],
+        "useCase": "竞品功能分析与二进制文件逆向研究",
+        "useCase_en": "To reverse engineer applications and understand their features using AI agents."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 281234,
+      "forks": 23567,
+      "todayStars": 1774,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个专为 AI 代理设计的工程技能库，旨在帮助开发者进行真实的工程实践而非“vibe coding”。它包含一系列小型、可组合的脚本和提示，支持 Claude、Copilot、Codex 等多种 AI 工具。通过插件形式安装，开发者可以自定义并增强 AI 代理的工程能力。",
+        "summary_en": "A collection of composable shell scripts for AI agents to perform real engineering tasks.",
+        "techStack": [
+          "Shell",
+          "JavaScript (Node.js)",
+          "AI Agent Integration"
+        ],
+        "useCase": "为 AI 编程助手（如 Claude、Copilot）提供工程化工作流和实用脚本，提升代码质量和开发效率。",
+        "useCase_en": "Install these skills into your AI agent to help it perform real engineering tasks."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 98565,
+      "forks": 8641,
+      "todayStars": 670,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 构建的持久化记忆压缩系统。它自动捕获会话中的工具使用和观察结果，利用 AI 进行语义压缩，并将相关上下文注入未来的会话中。这确保了 AI 代理在会话结束后仍能保持对项目的连续知识，支持多种 AI 平台。",
+        "summary_en": "A TypeScript plugin that provides persistent memory for AI agents by capturing context and injecting it into future sessions.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "AI/LLM"
+        ],
+        "useCase": "需要在多个会话中保持 AI 上下文连续性的开发者",
+        "useCase_en": "To enable AI agents to maintain continuity of knowledge about projects across different sessions."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "EpicGames/raddebugger",
+      "description": "A native, user-mode, multi-process, graphical debugger.",
+      "language": "C",
+      "stars": 8141,
+      "forks": 391,
+      "todayStars": 279,
+      "url": "https://github.com/EpicGames/raddebugger",
+      "aiSummary": {
+        "summary": "RAD Debugger 是一个原生、用户模式、多进程的图形化调试器。目前处于 ALPHA 阶段，主要支持 Windows x64 本地调试，使用 PDB 格式。项目未来计划扩展至 Linux 平台并支持 DWARF 调试信息，同时涉及自定义的 RAD Debug Info (RDI) 格式。",
+        "summary_en": "A native, user-mode, multi-process graphical debugger for Windows x64.",
+        "techStack": [
+          "C",
+          "Windows",
+          "PDB",
+          "RDI"
+        ],
+        "useCase": "适用于 Windows x64 本地原生应用程序的调试。",
+        "useCase_en": "Debugging native Windows x64 applications locally."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 27679,
+      "forks": 3211,
+      "todayStars": 392,
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "aiSummary": {
+        "summary": "该项目提供开源插件，旨在将 Claude 转变为特定角色的专家。包含生产力、销售、支持等 11 个插件，集成了 Slack、Notion 等主流工具，支持自定义工作流，帮助团队提升协作效率和专业产出。",
+        "summary_en": "Open-source plugins to customize Claude for specific roles and workflows.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "知识工作者利用 Claude 进行角色化协作与自动化工作流管理。",
+        "useCase_en": "Customize Claude to act as a specialist for specific roles by integrating with company tools."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust",
+      "stars": 8244,
+      "forks": 1180,
+      "todayStars": 2103,
+      "url": "https://github.com/storytold/artcraft",
+      "aiSummary": {
+        "summary": "ArtCraft 是一款面向艺术家、设计师和电影制作人的交互式 AI 图像与视频创作 IDE。它结合了 2D/3D 合成、图像转 3D 网格、角色定位及场景构建等高级功能。用户可以通过文本提示快速生成，再利用画布和场景工具进行精细调整，实现从构思到成品的可视化创作流程。",
+        "summary_en": "ArtCraft is a Rust-based IDE for interactive AI image and video creation, offering 2D and 3D compositing tools.",
+        "techStack": [
+          "Rust",
+          "AI"
+        ],
+        "useCase": "适用于需要精细控制 AI 图像和视频生成的艺术家、设计师及电影制作人。",
+        "useCase_en": "Artists and filmmakers use this to compose scenes, pose characters, and generate AI images using visual tools."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "liquidslr/system-design-notes",
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+      "language": "",
+      "stars": 24725,
+      "forks": 4613,
+      "todayStars": 393,
+      "url": "https://github.com/liquidslr/system-design-notes",
+      "aiSummary": {
+        "summary": "这是一个关于《系统设计面试：内部指南》一书的笔记项目。它涵盖了系统设计面试的核心概念、架构模式和最佳实践，旨在帮助开发者准备技术面试。项目内容结构清晰，适合作为系统设计学习的参考资料。",
+        "summary_en": "Comprehensive notes for the System Design Interview book.",
+        "techStack": [
+          "Markdown",
+          "文档",
+          "系统设计"
+        ],
+        "useCase": "适合准备系统设计面试的开发者及计算机科学学生。",
+        "useCase_en": "A study guide for the System Design Interview book and interview prep."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-09T02:55:50.384Z",
+    "duration": "280s",
+    "version": "1.0.0"
+  }
+}
