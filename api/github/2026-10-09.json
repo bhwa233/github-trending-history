@@ -1,0 +1,237 @@
+{
+  "date": "2026-10-09",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 10,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 47904,
+      "forks": 7898,
+      "todayStars": 14927,
+      "url": "https://github.com/morluto/rea",
+      "aiSummary": {
+        "summary": "REA 是一个利用 AI 代理进行逆向工程的工具，支持对原生二进制文件、JS/Electron、.NET 及网站进行无源码分析。它能够解释功能原理、展示证据并生成代码，支持 Claude Code、Cursor 等多种代理，并集成 Hopper、Ghidra 等本地分析工具。",
+        "summary_en": "A TypeScript toolkit for reverse engineering applications and native binaries using AI agents.",
+        "techStack": [
+          "TypeScript",
+          "MCP (Model Context Protocol)",
+          "原生逆向工具 (Hopper/Ghidra/IDA)",
+          "JavaScript/Electron 分析"
+        ],
+        "useCase": "当需要理解竞品应用功能或为项目复刻类似特性时。",
+        "useCase_en": "To reverse engineer applications and native binaries to understand their functionality and replicate features without so"
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "stars": 22585,
+      "forks": 1846,
+      "todayStars": 5868,
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "aiSummary": {
+        "summary": "AnyPS5 是一个用 C++ 编写的开源工具，旨在自动将 PS5 可执行文件移植到 Linux 和 Windows。它包含重链接器、系统库实现和着色器重编译器，无需模拟即可直接运行游戏。支持 SDL 游戏控制器和自定义输入配置。",
+        "summary_en": "Tool for automatically porting PS5 executables to Linux and Windows using a relinker and system library implementations.",
+        "techStack": [
+          "C++",
+          "SPIR-V",
+          "SDL",
+          "Linux",
+          "Windows"
+        ],
+        "useCase": "在非 PlayStation 硬件上运行 PS5 游戏，用于研究、保存和兼容性测试。",
+        "useCase_en": "To run PS5 games on PC using a relinker and system library implementations."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 282813,
+      "forks": 23696,
+      "todayStars": 1687,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "面向真实工程师的 AI 代理技能库，提供小巧、可组合的 Shell 脚本技能。旨在帮助开发者摆脱“氛围编码”，通过插件形式集成到 Claude、Copilot 等主流 AI 编程工具中，提升工程实践能力。",
+        "summary_en": "A collection of engineering agent skills for real-world application development workflows.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "GitHub Copilot",
+          "Codex",
+          "Gemini CLI"
+        ],
+        "useCase": "为 AI 编程助手提供实用的工程技能插件，辅助开发者进行高质量代码编写。",
+        "useCase_en": "To provide small, composable skills for AI agents to assist with real engineering tasks."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 47948,
+      "forks": 3037,
+      "todayStars": 1739,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code、Copilot 等 AI 代理设计的技能，用于生成自包含的 HTML+SVG 编辑风格图表。支持 44 种图表类型，允许用户通过自然语言指令创建架构图、象限图等，支持品牌定制，无需 Mermaid。",
+        "summary_en": "An AI agent skill for generating self-contained HTML and SVG editorial diagrams for coding assistants.",
+        "techStack": [
+          "HTML",
+          "SVG",
+          "Agent Skills"
+        ],
+        "useCase": "快速生成美观的架构图、流程图及业务分析图表。",
+        "useCase_en": "To generate custom editorial diagrams like architecture and sequence charts for software documentation within AI coding "
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 45292,
+      "forks": 3267,
+      "todayStars": 326,
+      "url": "https://github.com/alibaba/open-code-review",
+      "aiSummary": {
+        "summary": "这是一个由阿里巴巴孵化的开源 AI 代码审查 CLI 工具，基于 Go 语言开发。它采用混合架构，结合确定性管道与 LLM Agent，能精准识别代码缺陷（如 NPE、SQL 注入等）。相比通用 Agent，它在精度和 F1 指标上表现更优，且 Token 消耗更低。支持 OCR 全量扫描，内置多语言规则集，适合大规模团队提升代码质量。",
+        "summary_en": "Alibaba's battle-tested AI code review tool offering high-precision, fast, and efficient code analysis.",
+        "techStack": [
+          "Go",
+          "LLM",
+          "Git",
+          "OpenAI/Anthropic API"
+        ],
+        "useCase": "适用于需要自动化、高精度代码审查的团队，特别是大型企业或开源项目，用于提升代码质量和开发效率。",
+        "useCase_en": "Automate code reviews to detect defects and improve code quality using AI agents and deterministic pipelines."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 28300,
+      "forks": 3250,
+      "todayStars": 709,
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Cowork 和 Claude Code 设计的开源插件库，旨在将 Claude 转变为特定角色（如销售、产品、法律等）的专家。它通过集成各种工具（如 Slack、Jira、Notion）和自定义工作流，帮助知识工作者自动化任务、管理日程并提高团队协作效率。用户可以基于这些插件进行定制，使其更贴合公司流程。",
+        "summary_en": "Collection of open-source plugins to customize Claude for specific roles and workflows.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "帮助团队通过插件将 Claude 定制为特定角色的 AI 助手，以自动化工作流并集成现有工具。",
+        "useCase_en": "Customize Claude for specific roles and workflows by integrating with company tools."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "BerriAI/litellm",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+      "language": "Python",
+      "stars": 60694,
+      "forks": 12192,
+      "todayStars": 95,
+      "url": "https://github.com/BerriAI/litellm",
+      "aiSummary": {
+        "summary": "LiteLLM 是一个开源 AI 网关，提供统一的接口调用 100+ 个 LLM 提供商。它支持 OpenAI 格式，包含 Python SDK 和代理服务器。具备成本追踪、护栏、负载均衡及日志记录等企业级功能，旨在简化多模型管理，实现高性能的统一接口调用。",
+        "summary_en": "Unified AI Gateway for 100+ LLMs with OpenAI compatibility and production features.",
+        "techStack": [
+          "Python",
+          "Rust",
+          "OpenAI API"
+        ],
+        "useCase": "统一管理多个大模型提供商、切换模型或构建企业级 AI 网关的场景。",
+        "useCase_en": "Developers use this to manage calls to multiple LLM providers through a single unified interface."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 104026,
+      "forks": 10867,
+      "todayStars": 436,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供生产级工程技能的项目。它将资深工程师的工作流程、质量门控和最佳实践编码为技能，确保 AI 代理在开发全生命周期中保持一致的高标准。项目包含 9 个斜杠命令，覆盖从定义需求到部署上线的各个环节，支持自动技能激活和自主构建。",
+        "summary_en": "A collection of production-grade engineering skills and workflows for AI coding agents to ensure consistent quality.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "适用于需要 AI 自动化编码并保持高质量标准的软件开发流程。",
+        "useCase_en": "To provide AI coding agents with a structured set of engineering skills and best practices."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust",
+      "stars": 11657,
+      "forks": 1761,
+      "todayStars": 3752,
+      "url": "https://github.com/storytold/artcraft",
+      "aiSummary": {
+        "summary": "ArtCraft 是一个基于 Rust 的 IDE，专为艺术家、设计师和电影制作人设计，用于交互式 AI 图像和视频创作。它结合了 2D 和 3D 合成工具，允许用户通过提示词、图层编辑和 3D 场景构建来精确控制构图、角色定位和相机角度。它支持图像转 3D 网格、背景移除和混合资产制作，将提示词转化为可重复的视觉结果。",
+        "summary_en": "ArtCraft is an IDE for artists to compose scenes using AI models for precise, repeatable image and video creation.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "交互式 AI 图像与视频创作、2D/3D 场景合成及角色定位",
+        "useCase_en": "Artists use this tool to compose scenes and generate images or videos using AI models."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "Robbyant/lingbot-map",
+      "description": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+      "language": "Python",
+      "stars": 17732,
+      "forks": 1953,
+      "todayStars": 110,
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "aiSummary": {
+        "summary": "LingBot-Map 是一个用于流式 3D 重建的前馈 3D 基础模型，获得 ECCV 2026 最佳论文奖提名。它通过几何上下文变换器（GCT）统一了坐标定位、几何线索和漂移校正，支持高效流式推理，在长序列下保持高帧率，在 KITTI 和 Oxford Spires 等基准测试中表现优异。",
+        "summary_en": "A high-efficiency feed-forward 3D foundation model for streaming reconstruction using a Geometric Context Transformer.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Transformer"
+        ],
+        "useCase": "适用于长视频流式 3D 场景重建",
+        "useCase_en": "Enables real-time streaming 3D reconstruction of long video sequences."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "twostraws/SwiftUI-Agent-Skill",
+      "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+      "language": "",
+      "stars": 5469,
+      "forks": 196,
+      "todayStars": 65,
+      "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-10T02:17:40.270Z",
+    "duration": "364s",
+    "version": "1.0.0"
+  }
+}
