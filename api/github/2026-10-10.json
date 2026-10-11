@@ -1,0 +1,283 @@
+{
+  "date": "2026-10-10",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 73617,
+      "forks": 15553,
+      "todayStars": 25793,
+      "url": "https://github.com/morluto/rea",
+      "aiSummary": {
+        "summary": "REA 是一个利用 AI 代理进行逆向工程的工具，支持原生二进制文件、JavaScript/Electron、.NET 及网站。它允许用户无需源代码即可分析应用行为、解释功能原理并构建类似功能。通过 MCP 服务器与 Claude Code、Cursor 等代理集成，支持本地分析，提供证据和局限性报告。",
+        "summary_en": "An AI-powered reverse engineering toolkit that connects agents to tools for analyzing native binaries, JavaScript, and web apps.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "MCP",
+          "原生分析工具"
+        ],
+        "useCase": "竞品功能分析、应用逆向工程、快速复刻应用功能",
+        "useCase_en": "To reverse engineer applications and understand their features using AI agents and local analysis tools."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "stars": 26974,
+      "forks": 2264,
+      "todayStars": 5805,
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "aiSummary": {
+        "summary": "AnyPS5 是一个 C++ 工具，用于将 PS5 可执行文件自动移植到 Linux 和 Windows。它包含重链接器和系统库实现，无需模拟或单独运行时进程。支持 SDL 游戏控制器和配置输入，已验证兼容 Dreaming Sarah 等游戏，旨在用于互操作性和研究。",
+        "summary_en": "C++ tool for porting PS5 executables to Linux and Windows without emulation.",
+        "techStack": [
+          "C++",
+          "SDL",
+          "SPIR-V"
+        ],
+        "useCase": "用于 PS5 游戏在 Linux 和 Windows 上的互操作性、研究和兼容性测试。",
+        "useCase_en": "To enable interoperability and compatibility by porting PS5 executables to native Linux and Windows environments."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust",
+      "stars": 14585,
+      "forks": 2303,
+      "todayStars": 3222,
+      "url": "https://github.com/storytold/artcraft",
+      "aiSummary": {
+        "summary": "ArtCraft 是一款专为艺术家、设计师和电影制作人设计的交互式 AI 图像与视频创作 IDE。它支持 2D 和 3D 场景编排，提供图像到 3D 网格、角色姿势控制、背景移除及混合资产制作等高级功能。用户可以通过文本提示或视觉工具精确控制画面，实现从构思到成品的可视化创作流程。",
+        "summary_en": "ArtCraft is a Rust-based IDE for interactive AI image and video creation, providing visual tools for precise, repeatable results.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "适用于需要精确控制 AI 生成内容的艺术家、设计师及电影制作人进行交互式视觉创作。",
+        "useCase_en": "Artists and filmmakers use this IDE to compose scenes and generate AI images and videos with precise control."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 48994,
+      "forks": 3095,
+      "todayStars": 1190,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aiSummary": {
+        "summary": "这是一个专为 Claude Code、Cursor 等 AI 代理设计的图表生成技能。支持 44 种图表类型，通过自然语言指令即可生成自包含的 HTML + SVG 文件。支持品牌定制，无需 Mermaid，适合快速生成架构图、流程图及序列图。",
+        "summary_en": "An AI agent skill that generates self-contained HTML and SVG diagrams with customizable branding.",
+        "techStack": [
+          "HTML",
+          "SVG",
+          "JavaScript"
+        ],
+        "useCase": "快速生成架构图、流程图、象限图等可视化图表，并适配品牌风格。",
+        "useCase_en": "To generate professional diagrams for software architecture and workflows within AI coding environments."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 26333,
+      "forks": 1894,
+      "todayStars": 178,
+      "url": "https://github.com/mksglu/context-mode",
+      "aiSummary": {
+        "summary": "这是一个用于 AI 编码代理的上下文窗口优化 MCP 服务器。它通过沙箱工具将原始数据减少 98%，利用 SQLite 和 FTS5 索引实现智能会话记忆，并强制 LLM 以代码方式（ctx_execute）处理分析而非读取数据，从而显著节省 Token 并保持会话连续性。",
+        "summary_en": "An MCP server optimizing AI coding agent context windows through sandboxing and session memory management.",
+        "techStack": [
+          "TypeScript",
+          "MCP",
+          "SQLite",
+          "FTS5"
+        ],
+        "useCase": "适用于需要优化上下文窗口、保持长对话连续性及减少 Token 消耗的 AI 编码代理。",
+        "useCase_en": "To optimize context windows for AI coding agents by sandboxing tool outputs and enforcing code-generation paradigms."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 284544,
+      "forks": 23815,
+      "todayStars": 1736,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个为 AI 代理（如 Claude、Copilot）提供工程化技能的 Shell 项目。它包含了一套基于真实工程经验的小型、可组合的技能，旨在帮助开发者进行高质量开发而非“氛围编码”。项目通过插件形式安装，支持自动更新。",
+        "summary_en": "A collection of engineering skills for AI coding agents to perform real engineering tasks.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "为各类 AI 编程助手（如 Claude、Copilot）提供工程化技能插件，提升开发效率和质量。",
+        "useCase_en": "Install these skills into AI coding agents to improve engineering workflows and code quality."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "flutter/flutter",
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "language": "Dart",
+      "stars": 179534,
+      "forks": 33601,
+      "todayStars": 88,
+      "url": "https://github.com/flutter/flutter",
+      "aiSummary": {
+        "summary": "Flutter 是 Google 的开源 UI 工具包，使用 Dart 语言。它允许开发者通过单一代码库快速构建美观、高性能的移动端、Web 和桌面端应用。Flutter 提供丰富的 Material Design 和 Cupertino 组件，支持像素级定制，是跨平台开发的理想选择。",
+        "summary_en": "Google's open-source UI toolkit for building beautiful, fast user experiences for mobile, web, and desktop from a single codebase.",
+        "techStack": [
+          "Dart",
+          "Flutter SDK",
+          "Material Design",
+          "Cupertino"
+        ],
+        "useCase": "构建跨平台移动应用、Web 应用和桌面应用",
+        "useCase_en": "Creating beautiful, fast user experiences for mobile, web, and desktop from a single codebase."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "language": "C++",
+      "stars": 200731,
+      "forks": 78965,
+      "todayStars": 26,
+      "url": "https://github.com/tensorflow/tensorflow",
+      "aiSummary": {
+        "summary": "TensorFlow 是 Google 开发的端到端开源机器学习平台。它拥有全面的生态系统，支持研究人员进行前沿研究，也帮助开发者轻松构建和部署 ML 应用。提供稳定的 Python 和 C++ API，支持 GPU 加速，广泛应用于深度学习、神经网络等领域。",
+        "summary_en": "TensorFlow is an open-source machine learning framework for building and deploying ML applications.",
+        "techStack": [
+          "C++",
+          "Python"
+        ],
+        "useCase": "适用于机器学习研究与开发，以及构建和部署各类 ML 应用。",
+        "useCase_en": "Building and deploying machine learning applications and neural networks."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "hugohe3/ppt-master",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "language": "Python",
+      "stars": 59497,
+      "forks": 4689,
+      "todayStars": 461,
+      "url": "https://github.com/hugohe3/ppt-master",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的 AI 工具，利用 Kimi K3 模型将文档、网页或主题自动转化为原生 PowerPoint 幻灯片。它支持原生形状、动画、数据图表和音频旁白，并允许使用自定义模板。项目旨在通过 AI 简化演示文稿的创建过程，让用户能快速生成高质量的 PPTX 文件并进行后续编辑。",
+        "summary_en": "Python tool that uses AI to generate native, editable PowerPoint presentations from documents or topics.",
+        "techStack": [
+          "Python",
+          "Kimi AI",
+          "PPTX"
+        ],
+        "useCase": "将文档或主题快速转化为可编辑的 PowerPoint 演示文稿",
+        "useCase_en": "Automate the creation of professional PowerPoint presentations from documents or topics using AI."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "language": "Python",
+      "stars": 104148,
+      "forks": 31956,
+      "todayStars": 84,
+      "url": "https://github.com/pytorch/pytorch",
+      "aiSummary": {
+        "summary": "PyTorch 是一个基于 Python 的深度学习框架，提供强大的 GPU 加速张量计算和动态神经网络构建功能。它包含 torch、autograd、nn 等核心组件，支持自动微分，既可作为 NumPy 的 GPU 替代品，也是灵活的深度学习研究平台。",
+        "summary_en": "Python library for tensor computation and dynamic neural networks with strong GPU acceleration.",
+        "techStack": [
+          "Python",
+          "CUDA",
+          "NumPy"
+        ],
+        "useCase": "适用于需要 GPU 加速的张量计算和动态神经网络构建的深度学习任务。",
+        "useCase_en": "Used for building dynamic neural networks and tensor computations with GPU acceleration."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "language": "Python",
+      "stars": 167277,
+      "forks": 34797,
+      "todayStars": 96,
+      "url": "https://github.com/huggingface/transformers",
+      "aiSummary": {
+        "summary": "这是一个由 Hugging Face 开发的开源机器学习库，提供了文本、视觉、音频和多模态等领域的最先进模型定义框架。它支持推理和训练，兼容多种训练框架和推理引擎，拥有超过百万个模型检查点，旨在民主化 AI 模型的使用。",
+        "summary_en": "A framework for state-of-the-art ML models in text, vision, audio, and multimodal tasks.",
+        "techStack": [
+          "Python",
+          "PyTorch",
+          "Hugging Face Hub"
+        ],
+        "useCase": "适用于文本、视觉、音频及多模态模型的推理与训练。",
+        "useCase_en": "To utilize state-of-the-art pretrained models for inference and training."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 28832,
+      "forks": 3277,
+      "todayStars": 625,
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Cowork 设计的开源插件仓库，旨在将 Claude 转变为特定角色的专家。它包含生产力、销售、客服等 11 个插件，支持与多种工具集成，帮助知识工作者定制工作流程，提高团队协作效率。",
+        "summary_en": "Open-source plugins that customize Claude for specific roles and workflows.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于希望利用 Claude 提升特定岗位（如销售、产品管理）工作效率的知识工作者和企业团队。",
+        "useCase_en": "Customize Claude AI with specialized plugins for specific roles and workflows."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 218305,
+      "forks": 21983,
+      "todayStars": 278,
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "aiSummary": {
+        "summary": "这是一个基于 Andrej Karpathy 关于 LLM 编码陷阱观察的单文件指南，旨在提升 Claude Code 的编码行为。它包含四个核心原则：思考前编码、简单优先、外科手术式更改和目标驱动执行，帮助 AI 避免过度复杂化代码、做出错误假设及破坏性修改。",
+        "summary_en": "A single CLAUDE.md file with Karpathy-inspired guidelines to improve Claude Code behavior",
+        "techStack": [
+          "Markdown",
+          "Claude AI",
+          "LLM Guidelines"
+        ],
+        "useCase": "优化 Claude Code 的代码生成质量与行为规范。",
+        "useCase_en": "Provides guidelines to improve Claude Code behavior based on Andrej Karpathy's observations"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-11T01:50:35.201Z",
+    "duration": "456s",
+    "version": "1.0.0"
+  }
+}

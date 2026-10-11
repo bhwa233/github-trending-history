@@ -70,23 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-10-09 | **成功**: 10 | **失败**: 1
+**最后更新**: 2026-10-10 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [morluto/rea](https://github.com/morluto/rea) | Reverse engineer anything with agents, from app be... | TypeScript | 47.9k | 14.9k | REA 是一个利用 AI 代理进行逆向工程的工具，支持对原生二进制文件、JS/Electron、.NET 及网站进行无源码分析。它能够解释功能原理、展示证据并生成代码，支持 Claude Code、Cursor 等多种代理，并集成 Hopper、Ghidra 等本地分析工具。 |
-| 2 | [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | Tool for automatic PS5 executables porting to Linu... | C++ | 22.6k | 5.9k | AnyPS5 是一个用 C++ 编写的开源工具，旨在自动将 PS5 可执行文件移植到 Linux 和 Windows。它包含重链接器、系统库实现和着色器重编译器，无需模拟即可直接运行游戏。支持 SDL 游戏控制器和自定义输入配置。 |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .agent... | Shell | 282.8k | 1.7k | 面向真实工程师的 AI 代理技能库，提供小巧、可组合的 Shell 脚本技能。旨在帮助开发者摆脱“氛围编码”，通过插件形式集成到 Claude、Copilot 等主流 AI 编程工具中，提升工程实践能力。 |
-| 4 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Editorial diagram design for Claude Code, Codex, G... | HTML | 47.9k | 1.7k | 这是一个为 Claude Code、Copilot 等 AI 代理设计的技能，用于生成自包含的 HTML+SVG 编辑风格图表。支持 44 种图表类型，允许用户通过自然语言指令创建架构图、象限图等，支持品牌定制，无需 Mermaid。 |
-| 5 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Secure, fast, efficient, battle-tested at Alibaba'... | Go | 45.3k | 326 | 这是一个由阿里巴巴孵化的开源 AI 代码审查 CLI 工具，基于 Go 语言开发。它采用混合架构，结合确定性管道与 LLM Agent，能精准识别代码缺陷（如 NPE、SQL 注入等）。相比通用 Agent，它在精度和 F1 指标上表现更优，且 Token 消耗更低。支持 OCR 全量扫描，内置多语言规则集，适合大规模团队提升代码质量。 |
-| 6 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | Open source repository of plugins primarily intend... | Python | 28.3k | 709 | 这是一个为 Claude Cowork 和 Claude Code 设计的开源插件库，旨在将 Claude 转变为特定角色（如销售、产品、法律等）的专家。它通过集成各种工具（如 Slack、Jira、Notion）和自定义工作流，帮助知识工作者自动化任务、管理日程并提高团队协作效率。用户可以基于这些插件进行定制，使其更贴合公司流程。 |
-| 7 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | The fastest, litest AI Gateway. Rust core with Pyt... | Python | 60.7k | 95 | LiteLLM 是一个开源 AI 网关，提供统一的接口调用 100+ 个 LLM 提供商。它支持 OpenAI 格式，包含 Python SDK 和代理服务器。具备成本追踪、护栏、负载均衡及日志记录等企业级功能，旨在简化多模型管理，实现高性能的统一接口调用。 |
-| 8 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | JavaScript | 104.0k | 436 | 这是一个为 AI 编码代理提供生产级工程技能的项目。它将资深工程师的工作流程、质量门控和最佳实践编码为技能，确保 AI 代理在开发全生命周期中保持一致的高标准。项目包含 9 个斜杠命令，覆盖从定义需求到部署上线的各个环节，支持自动技能激活和自主构建。 |
-| 9 | [storytold/artcraft](https://github.com/storytold/artcraft) | ArtCraft is an intentional crafting engine for art... | Rust | 11.7k | 3.8k | ArtCraft 是一个基于 Rust 的 IDE，专为艺术家、设计师和电影制作人设计，用于交互式 AI 图像和视频创作。它结合了 2D 和 3D 合成工具，允许用户通过提示词、图层编辑和 3D 场景构建来精确控制构图、角色定位和相机角度。它支持图像转 3D 网格、背景移除和混合资产制作，将提示词转化为可重复的视觉结果。 |
-| 10 | [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) | [ECCV 2026 Best Paper Award Candidate] LingBot-Map... | Python | 17.7k | 110 | LingBot-Map 是一个用于流式 3D 重建的前馈 3D 基础模型，获得 ECCV 2026 最佳论文奖提名。它通过几何上下文变换器（GCT）统一了坐标定位、几何线索和漂移校正，支持高效流式推理，在长序列下保持高帧率，在 KITTI 和 Oxford Spires 等基准测试中表现优异。 |
-| 11 | [twostraws/SwiftUI-Agent-Skill](https://github.com/twostraws/SwiftUI-Agent-Skill) | SwiftUI agent skill for Claude Code, Codex, and ot... | - | 5.5k | 65 | 处理失败 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | Reverse engineer anything with agents, from app be... | TypeScript | 73.6k | 25.8k | REA 是一个利用 AI 代理进行逆向工程的工具，支持原生二进制文件、JavaScript/Electron、.NET 及网站。它允许用户无需源代码即可分析应用行为、解释功能原理并构建类似功能。通过 MCP 服务器与 Claude Code、Cursor 等代理集成，支持本地分析，提供证据和局限性报告。 |
+| 2 | [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | Tool for automatic PS5 executables porting to Linu... | C++ | 27.0k | 5.8k | AnyPS5 是一个 C++ 工具，用于将 PS5 可执行文件自动移植到 Linux 和 Windows。它包含重链接器和系统库实现，无需模拟或单独运行时进程。支持 SDL 游戏控制器和配置输入，已验证兼容 Dreaming Sarah 等游戏，旨在用于互操作性和研究。 |
+| 3 | [storytold/artcraft](https://github.com/storytold/artcraft) | ArtCraft is an intentional crafting engine for art... | Rust | 14.6k | 3.2k | ArtCraft 是一款专为艺术家、设计师和电影制作人设计的交互式 AI 图像与视频创作 IDE。它支持 2D 和 3D 场景编排，提供图像到 3D 网格、角色姿势控制、背景移除及混合资产制作等高级功能。用户可以通过文本提示或视觉工具精确控制画面，实现从构思到成品的可视化创作流程。 |
+| 4 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Editorial diagram design for Claude Code, Codex, G... | HTML | 49.0k | 1.2k | 这是一个专为 Claude Code、Cursor 等 AI 代理设计的图表生成技能。支持 44 种图表类型，通过自然语言指令即可生成自包含的 HTML + SVG 文件。支持品牌定制，无需 Mermaid，适合快速生成架构图、流程图及序列图。 |
+| 5 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents. ... | TypeScript | 26.3k | 178 | 这是一个用于 AI 编码代理的上下文窗口优化 MCP 服务器。它通过沙箱工具将原始数据减少 98%，利用 SQLite 和 FTS5 索引实现智能会话记忆，并强制 LLM 以代码方式（ctx_execute）处理分析而非读取数据，从而显著节省 Token 并保持会话连续性。 |
+| 6 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .agent... | Shell | 284.5k | 1.7k | 这是一个为 AI 代理（如 Claude、Copilot）提供工程化技能的 Shell 项目。它包含了一套基于真实工程经验的小型、可组合的技能，旨在帮助开发者进行高质量开发而非“氛围编码”。项目通过插件形式安装，支持自动更新。 |
+| 7 | [flutter/flutter](https://github.com/flutter/flutter) | Flutter makes it easy and fast to build beautiful ... | Dart | 179.5k | 88 | Flutter 是 Google 的开源 UI 工具包，使用 Dart 语言。它允许开发者通过单一代码库快速构建美观、高性能的移动端、Web 和桌面端应用。Flutter 提供丰富的 Material Design 和 Cupertino 组件，支持像素级定制，是跨平台开发的理想选择。 |
+| 8 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | An Open Source Machine Learning Framework for Ever... | C++ | 200.7k | 26 | TensorFlow 是 Google 开发的端到端开源机器学习平台。它拥有全面的生态系统，支持研究人员进行前沿研究，也帮助开发者轻松构建和部署 ML 应用。提供稳定的 Python 和 C++ API，支持 GPU 加速，广泛应用于深度学习、神经网络等领域。 |
+| 9 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | AI turns documents or topics into real, native Pow... | Python | 59.5k | 461 | 这是一个基于 Python 的 AI 工具，利用 Kimi K3 模型将文档、网页或主题自动转化为原生 PowerPoint 幻灯片。它支持原生形状、动画、数据图表和音频旁白，并允许使用自定义模板。项目旨在通过 AI 简化演示文稿的创建过程，让用户能快速生成高质量的 PPTX 文件并进行后续编辑。 |
+| 10 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | Tensors and Dynamic neural networks in Python with... | Python | 104.1k | 84 | PyTorch 是一个基于 Python 的深度学习框架，提供强大的 GPU 加速张量计算和动态神经网络构建功能。它包含 torch、autograd、nn 等核心组件，支持自动微分，既可作为 NumPy 的 GPU 替代品，也是灵活的深度学习研究平台。 |
+| 11 | [huggingface/transformers](https://github.com/huggingface/transformers) | 🤗 Transformers: the model-definition framework fo... | Python | 167.3k | 96 | 这是一个由 Hugging Face 开发的开源机器学习库，提供了文本、视觉、音频和多模态等领域的最先进模型定义框架。它支持推理和训练，兼容多种训练框架和推理引擎，拥有超过百万个模型检查点，旨在民主化 AI 模型的使用。 |
+| 12 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | Open source repository of plugins primarily intend... | Python | 28.8k | 625 | 这是一个为 Claude Cowork 设计的开源插件仓库，旨在将 Claude 转变为特定角色的专家。它包含生产力、销售、客服等 11 个插件，支持与多种工具集成，帮助知识工作者定制工作流程，提高团队协作效率。 |
+| 13 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code beh... | - | 218.3k | 278 | 这是一个基于 Andrej Karpathy 关于 LLM 编码陷阱观察的单文件指南，旨在提升 Claude Code 的编码行为。它包含四个核心原则：思考前编码、简单优先、外科手术式更改和目标驱动执行，帮助 AI 避免过度复杂化代码、做出错误假设及破坏性修改。 |
 
-[查看完整数据](api/github/2026-10-09.json)
+[查看完整数据](api/github/2026-10-10.json)
 <!-- END GITHUB TRENDING -->
 
 
