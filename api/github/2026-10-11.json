@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-11",
+  "since": "daily",
+  "totalRepos": 8,
+  "successCount": 7,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 108315,
+      "forks": 24001,
+      "todayStars": 25599,
+      "url": "https://github.com/morluto/rea",
+      "aiSummary": {
+        "summary": "REA 是一个利用 AI 代理进行逆向工程的工具，支持从原生二进制文件到 Web 应用的全栈分析。它无需源码即可检查应用行为、解释功能原理并生成证据，帮助开发者快速复刻竞品功能。项目支持本地工具集成，并与 Claude Code 等主流 AI 编程助手无缝协作。",
+        "summary_en": "A TypeScript tool connecting AI agents to reverse engineer applications, binaries, and websites locally.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "AI Agents"
+        ],
+        "useCase": "快速理解竞品应用的功能逻辑，无需源码即可进行逆向分析和功能复刻。",
+        "useCase_en": "To reverse engineer software features and native binaries using AI agents without needing the source code."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "language": "C++",
+      "stars": 30303,
+      "forks": 2605,
+      "todayStars": 3952,
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "aiSummary": {
+        "summary": "AnyPS5 是一个用 C++ 编写的开源工具，旨在自动将 PS5 可执行文件移植到 Linux 和 Windows。它包含重链接器和系统 PRX 库实现，支持 SDL 映射的游戏手柄及键盘鼠标，专注于互操作性与研究，不包含受版权保护的软件。",
+        "summary_en": "Automatic PS5 executable porting tool for Linux and Windows using a custom relinker and system libraries.",
+        "techStack": [
+          "C++",
+          "SDL",
+          "SPIR-V",
+          "Linux",
+          "Windows"
+        ],
+        "useCase": "在 Linux 和 Windows 系统上运行 PS5 游戏",
+        "useCase_en": "To run PS5 games on Linux and Windows by automatically porting executables and linking system libraries."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust",
+      "stars": 18156,
+      "forks": 2967,
+      "todayStars": 2957,
+      "url": "https://github.com/storytold/artcraft",
+      "aiSummary": {
+        "summary": "ArtCraft 是一款面向艺术家、设计师和电影制作人的交互式 AI 图像与视频创作 IDE。它允许用户在 2D 和 3D 空间中构建场景，通过图像转 3D、角色姿势、背景移除等工具精确控制构图与模型，实现从文本提示到精细视觉作品的“先构建后生成”流程。",
+        "summary_en": "ArtCraft is a Rust-based IDE for interactive AI image and video creation, allowing artists to compose scenes in 2D and 3D.",
+        "techStack": [
+          "Rust",
+          "AI Models",
+          "3D Graphics"
+        ],
+        "useCase": "适合需要精确控制 AI 生成结果、进行场景预演和混合 2D/3D 资产的专业艺术家及电影制作人。",
+        "useCase_en": "A tool for artists to compose scenes in 2D and 3D before generating AI images or videos."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 50475,
+      "forks": 3206,
+      "todayStars": 1083,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aiSummary": {
+        "summary": "这是一个 AI 代理技能，用于生成自包含的 HTML/SVG 图表文件。支持 44 种图表类型，允许通过自然语言指令生成符合品牌风格的架构图、流程图等，无需 Mermaid，生成的文件可直接在浏览器中打开。",
+        "summary_en": "An AI agent skill that generates self-contained HTML and SVG diagrams in your brand style.",
+        "techStack": [
+          "HTML",
+          "SVG"
+        ],
+        "useCase": "为 Claude Code、Cursor 等 AI 编程工具生成符合品牌风格的架构图、流程图及数据可视化图表。",
+        "useCase_en": "Allows AI coding assistants to generate custom diagrams for architecture, documentation, and project management."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "stars": 51792,
+      "forks": 10395,
+      "todayStars": 886,
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 5,
+      "fullName": "pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "language": "Python",
+      "stars": 104531,
+      "forks": 32139,
+      "todayStars": 315,
+      "url": "https://github.com/pytorch/pytorch",
+      "aiSummary": {
+        "summary": "PyTorch 是一个基于 Python 的科学计算库，提供强大的 GPU 加速张量计算功能。它包含一个基于磁带的自动微分系统，支持构建动态神经网络。PyTorch 拥有丰富的组件库，既可作为 NumPy 的 GPU 替代品，也是深度学习研究的理想平台。",
+        "summary_en": "A Python library for tensor computation and dynamic neural networks with strong GPU acceleration.",
+        "techStack": [
+          "Python",
+          "CUDA",
+          "AMD ROCm",
+          "Intel GPU"
+        ],
+        "useCase": "适用于深度学习研究、高性能科学计算及构建动态神经网络。",
+        "useCase_en": "Used for building dynamic neural networks and GPU-accelerated tensor computations."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "stars": 36546,
+      "forks": 3820,
+      "todayStars": 548,
+      "url": "https://github.com/lyogavin/airllm",
+      "aiSummary": {
+        "summary": "AirLLM 是一个 Jupyter Notebook 项目，旨在显著降低大语言模型推理内存占用。它能在无需量化、蒸馏或剪枝的情况下，让 70B 模型在单张 4GB GPU 上运行，并支持 Kimi K3、Qwen3.8 等大模型。此外，项目还支持在低显存下进行大模型训练。",
+        "summary_en": "A framework enabling large language model inference on small GPUs without quantization.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python",
+          "CUDA"
+        ],
+        "useCase": "在低显存硬件上运行或训练超大参数量的 LLM 模型。",
+        "useCase_en": "Running large language models on small VRAM hardware."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "chrislgarry/Apollo-11",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "language": "Assembly",
+      "stars": 74286,
+      "forks": 8108,
+      "todayStars": 466,
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "aiSummary": {
+        "summary": "该项目包含阿波罗11号登月任务的原始源代码，涵盖指令舱和登月舱的阿波罗制导计算机（AGC）程序。代码由MIT博物馆数字化，采用汇编语言编写，处于公共领域，旨在保存历史并欢迎社区贡献。",
+        "summary_en": "Original Apollo 11 Guidance Computer (AGC) source code for the Command Module (Comanche055) and Lunar Module (Luminary099).",
+        "techStack": [
+          "Assembly",
+          "yaYUL",
+          "AGC"
+        ],
+        "useCase": "阿波罗11号登月任务的原始制导计算机源代码研究、历史保存与编译学习",
+        "useCase_en": "To preserve and study the original source code that powered the Apollo 11 lunar landing mission."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-12T02:17:41.269Z",
+    "duration": "403s",
+    "version": "1.0.0"
+  }
+}
