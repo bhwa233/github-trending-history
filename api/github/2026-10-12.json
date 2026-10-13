@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-12",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 165119,
+      "forks": 38996,
+      "todayStars": 45327,
+      "url": "https://github.com/morluto/rea",
+      "aiSummary": {
+        "summary": "REA 是一个连接 AI 代理与逆向工程工具的 TypeScript 框架。它允许用户在不获取源代码的情况下分析应用行为，解释功能，展示证据并构建类似功能。支持原生二进制、JS/Electron、.NET 和网站分析，本地运行。",
+        "summary_en": "AI agent framework for reverse engineering software features and building replicas.",
+        "techStack": [
+          "TypeScript",
+          "MCP (Model Context Protocol)",
+          "逆向工程工具"
+        ],
+        "useCase": "从现有应用中逆向工程功能或理解其工作原理。",
+        "useCase_en": "Leverage AI agents to inspect applications, understand features, and build replicas."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "stars": 53877,
+      "forks": 10630,
+      "todayStars": 1895,
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "aiSummary": {
+        "summary": "这是一个基于浏览器的间谍卫星模拟器，利用真实公开数据提供逼真的3D地球视图。支持实时追踪航班、船只、卫星及摄像头，具备语音控制功能。项目无需API密钥即可本地运行，允许用户像在驾驶舱一样探索全球实时空间情报。",
+        "summary_en": "A browser-based spy satellite simulator visualizing real-time global data on a photorealistic 3D globe.",
+        "techStack": [
+          "JavaScript",
+          "WebGL"
+        ],
+        "useCase": "适合地理空间数据可视化、开源情报（OSINT）研究及实时全球监控演示。",
+        "useCase_en": "Explore live global intelligence, including aircraft and ship tracking, in a photorealistic 3D browser environment."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 27404,
+      "forks": 1952,
+      "todayStars": 246,
+      "url": "https://github.com/mksglu/context-mode",
+      "aiSummary": {
+        "summary": "这是一个针对 AI 编码代理的上下文窗口优化 MCP 服务器。它通过沙箱化工具输出（减少 98% 数据）、SQLite + FTS5 索引持久化会话记忆，以及强制 LLM 采用“代码思维”（编写脚本处理数据而非读取文件）来解决问题。适用于需要长对话、复杂文件分析及保持上下文连续性的 AI 编码场景。",
+        "summary_en": "An MCP server optimizing AI coding agent context windows through sandboxing and session memory management.",
+        "techStack": [
+          "TypeScript",
+          "MCP",
+          "SQLite",
+          "FTS5",
+          "BM25"
+        ],
+        "useCase": "AI 编码代理的上下文窗口优化与会话记忆管理",
+        "useCase_en": "Optimize AI coding agent context windows by sandboxing tool outputs and enforcing efficient code-based computation."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust",
+      "stars": 22495,
+      "forks": 3619,
+      "todayStars": 4095,
+      "url": "https://github.com/storytold/artcraft",
+      "aiSummary": {
+        "summary": "ArtCraft 是一个专为艺术家设计的交互式 AI 图像和视频创作 IDE。它支持 2D/3D 合成、图像转 3D 网格、角色姿势调整及场景预览等功能。用户可以通过文本提示快速生成，再利用画布和场景工具进行精细打磨，实现从创意到精准成品的可视化创作流程。",
+        "summary_en": "Rust-based IDE for interactive AI image and video creation, combining 2D and 3D crafting tools.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "交互式 AI 图像与视频创作",
+        "useCase_en": "Artists and filmmakers use this Rust-based IDE to craft interactive AI images and videos with precise control."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "language": "Python",
+      "stars": 155153,
+      "forks": 22653,
+      "todayStars": 157,
+      "url": "https://github.com/open-webui/open-webui",
+      "aiSummary": {
+        "summary": "Open WebUI 是一个自托管、功能丰富的 AI 平台，支持 Ollama 和 OpenAI 兼容 API。它提供用户友好的界面，具备细粒度 RBAC 权限管理、插件扩展、智能体构建及终端执行能力，支持本地与云端模型无缝切换，适合构建私有化 AI 办公环境。",
+        "summary_en": "A self-hosted, user-friendly AI interface supporting local models (Ollama) and cloud APIs (OpenAI-compatible).",
+        "techStack": [
+          "Python",
+          "Docker",
+          "Kubernetes",
+          "OpenAI API",
+          "Ollama"
+        ],
+        "useCase": "适合需要私有化部署、多模型管理及团队协作的 AI 办公场景。",
+        "useCase_en": "To provide a secure, self-hosted interface for managing AI models and agents locally or via cloud APIs."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 52834,
+      "forks": 3341,
+      "todayStars": 2081,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aiSummary": {
+        "summary": "这是一个专为 AI 编程助手设计的自包含图表生成 Agent Skill，支持 45 种图表类型。用户可通过自然语言指令生成 HTML 和 SVG 文件，并支持自定义品牌风格（字体、调色板），无需依赖 Mermaid。",
+        "summary_en": "An agent skill generating self-contained HTML and SVG diagrams for AI coding assistants.",
+        "techStack": [
+          "HTML",
+          "SVG"
+        ],
+        "useCase": "在 Claude Code、Cursor 等 AI 编程环境中快速生成架构图、流程图及四象限图，并保持品牌风格一致。",
+        "useCase_en": "Generate branded diagrams for software architecture, project planning, and technical documentation within AI coding envi"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "lyogavin/airllm",
+      "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "stars": 37631,
+      "forks": 3879,
+      "todayStars": 879,
+      "url": "https://github.com/lyogavin/airllm",
+      "aiSummary": {
+        "summary": "AirLLM 是一个 Jupyter Notebook 项目，旨在大幅降低大语言模型推理内存占用。它支持在单张 4GB 显存 GPU 上运行 70B 甚至 2.8T 的超大模型，无需量化或剪枝。此外，项目还支持在低显存环境下进行大规模模型训练。",
+        "summary_en": "A framework enabling massive LLM inference and training on small GPUs without quantization or pruning.",
+        "techStack": [
+          "Jupyter Notebook",
+          "CUDA",
+          "PyTorch",
+          "Transformers",
+          "Flash Attention"
+        ],
+        "useCase": "适用于在低显存硬件上部署和训练超大参数量的 LLM 模型。",
+        "useCase_en": "Running massive language models on consumer-grade hardware with limited VRAM."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "microsoft/BitNet",
+      "description": "Official inference framework for 1-bit LLMs",
+      "language": "C++",
+      "stars": 40953,
+      "forks": 3815,
+      "todayStars": 97,
+      "url": "https://github.com/microsoft/BitNet",
+      "aiSummary": {
+        "summary": "bitnet.cpp 是微软推出的 1-bit LLM 官方推理框架。它支持 CPU 和 GPU 加速，提供优化内核以实现无损推理。相比全精度模型，它在 x86 和 ARM CPU 上分别实现了 2.37x 到 6.17x 的加速，并大幅降低能耗。项目包含 BitNet-b1.58-2B-4T 等模型，能在单 CPU 上运行 100B 模型，显著提升本地设备运行大模型的潜力。",
+        "summary_en": "Official inference framework for 1-bit LLMs providing optimized kernels for fast and energy-efficient CPU and GPU deployment.",
+        "techStack": [
+          "C++",
+          "CPU",
+          "GPU"
+        ],
+        "useCase": "本地部署 1-bit 大语言模型，实现高效、低能耗的推理。",
+        "useCase_en": "Deploy 1-bit LLMs on local devices for fast and energy-efficient inference."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "stars": 59289,
+      "forks": 9336,
+      "todayStars": 626,
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "aiSummary": {
+        "summary": "这是一个开源项目，允许用户通过终端、IDE或浏览器免费使用Claude Code、Codex等多种AI编程工具。它聚合了61个合规提供商，提供每月13亿+免费令牌。支持11种编码代理，具备令牌优化、浏览器原生会话、语音输入等功能，旨在降低开发成本并提高效率。",
+        "summary_en": "Open-source tool providing free access to Claude Code and other AI coding agents via multiple providers.",
+        "techStack": [
+          "Python",
+          "VSCode",
+          "Browser"
+        ],
+        "useCase": "开发者需要低成本或免费使用多种AI编程代理进行代码生成、调试及交互。",
+        "useCase_en": "Run Claude Code and other AI coding agents for free across various platforms like VS Code and the browser."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-13T03:32:57.584Z",
+    "duration": "451s",
+    "version": "1.0.0"
+  }
+}
