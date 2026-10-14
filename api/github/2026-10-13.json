@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-13",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 8,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "stars": 208996,
+      "forks": 51142,
+      "todayStars": 54679,
+      "url": "https://github.com/morluto/rea",
+      "errorMessage": "Request failed with status code 500"
+    },
+    {
+      "index": 1,
+      "fullName": "bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "stars": 55454,
+      "forks": 10838,
+      "todayStars": 1961,
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "aiSummary": {
+        "summary": "这是一个基于浏览器的间谍卫星模拟器，利用真实数据在照片级真实感的3D地球上展示全球实时动态。支持语音控制，无需API密钥即可本地运行，提供驾驶舱视角追踪飞机、船只及卫星，具有高度的可扩展性。",
+        "summary_en": "A browser-based spy satellite simulator featuring real-time live data on a photorealistic 3D globe.",
+        "techStack": [
+          "JavaScript",
+          "Three.js"
+        ],
+        "useCase": "实时全球态势感知、地理空间数据可视化演示与交互开发学习。",
+        "useCase_en": "Visualize real-time global intelligence, such as aircraft and ships, on a photorealistic 3D globe."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 63418,
+      "forks": 7052,
+      "todayStars": 1748,
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "aiSummary": {
+        "summary": "VoiceStudio 是一个开源的完全本地化 ElevenLabs 替代品，支持语音克隆、视频配音、听写、转录及有声书创作，覆盖 646 种语言。支持 NVIDIA GPU 和 Apple Silicon 加速，数据完全本地处理。",
+        "summary_en": "Open-source local alternative to ElevenLabs offering voice cloning, dubbing, and transcription.",
+        "techStack": [
+          "Python",
+          "Electron",
+          "k2-fsa/OmniVoice",
+          "CUDA",
+          "Metal"
+        ],
+        "useCase": "适用于本地化语音克隆、视频配音、多语言有声书创作及听写转录等场景。",
+        "useCase_en": "Create local voice clones, dub videos, and transcribe audio without cloud dependencies."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "stars": 28269,
+      "forks": 1995,
+      "todayStars": 969,
+      "url": "https://github.com/mksglu/context-mode",
+      "aiSummary": {
+        "summary": "这是一个针对 AI 编码代理的上下文窗口优化工具。它通过 MCP 服务器实现三大核心功能：利用沙箱工具将原始数据排除在上下文外（减少 98%），使用 SQLite 和 FTS5/BM25 搜索技术管理会话记忆，并强制 LLM 编写代码脚本（如 ctx_execute）进行分析而非读取文件，从而大幅节省 token 并保持会话连续性。",
+        "summary_en": "An MCP server optimizing AI coding agent context windows through sandboxing and code-based data processing.",
+        "techStack": [
+          "TypeScript",
+          "MCP (Model Context Protocol)",
+          "SQLite",
+          "FTS5",
+          "BM25"
+        ],
+        "useCase": "适用于需要优化上下文窗口、减少 token 消耗并维持会话连续性的 AI 编码代理场景。",
+        "useCase_en": "To optimize context windows for AI coding agents by sandboxing tool outputs and enforcing code-based data processing."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "stars": 54186,
+      "forks": 3439,
+      "todayStars": 1815,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aiSummary": {
+        "summary": "这是一个专为 AI 编码助手（如 Cursor、Claude Code）设计的图表生成技能。它支持 45 种图表类型，生成自包含的 HTML/SVG 文件，允许用户自定义品牌（字体、颜色），无需依赖 Mermaid，适合快速创建架构图、流程图等。",
+        "summary_en": "An agent skill that generates self-contained HTML and SVG diagrams for coding assistants.",
+        "techStack": [
+          "HTML",
+          "SVG",
+          "JavaScript",
+          "Agent Skills"
+        ],
+        "useCase": "为 AI 编码助手生成自定义品牌风格的图表文件",
+        "useCase_en": "To generate diagrams for developers using AI coding agents, matching their brand."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "language": "TypeScript",
+      "stars": 34534,
+      "forks": 2953,
+      "todayStars": 190,
+      "url": "https://github.com/vercel-labs/skills",
+      "aiSummary": {
+        "summary": "这是一个用于开放代理技能生态系统的 CLI 工具。它支持 OpenCode、Claude Code、Codex、Cursor 等 75 多种编码代理。用户可以通过 npx 安装技能或生成提示词并启动交互式代理。该工具支持 GitHub、GitLab、Azure 等多种 Git 源，包括私有仓库。",
+        "summary_en": "A CLI tool for the open agent skills ecosystem that manages and uses AI coding skills.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Git"
+        ],
+        "useCase": "为 AI 编码助手提供技能管理和提示词生成",
+        "useCase_en": "Install and use AI coding agent skills from various sources to enhance coding workflows."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "lyogavin/airllm",
+      "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "stars": 38357,
+      "forks": 3922,
+      "todayStars": 1001,
+      "url": "https://github.com/lyogavin/airllm",
+      "aiSummary": {
+        "summary": "AirLLM 是一个 Jupyter Notebook 项目，旨在大幅降低大语言模型推理内存占用。它允许在单张 4GB 显存的 GPU 上运行 70B 等大型模型，无需量化或剪枝。最新版本还支持在低显存下训练大模型，如 Qwen3.8-Flash-Next (125B)。",
+        "summary_en": "Framework for running massive LLMs on small VRAM without quantization.",
+        "techStack": [
+          "Jupyter Notebook",
+          "CUDA",
+          "PyTorch",
+          "Flash Attention",
+          "Transformers"
+        ],
+        "useCase": "在低显存硬件上运行和训练超大参数量的 LLM 模型",
+        "useCase_en": "Run massive LLMs like Kimi K3 on a single 4GB GPU without quantization."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust",
+      "stars": 25768,
+      "forks": 4041,
+      "todayStars": 4081,
+      "url": "https://github.com/storytold/artcraft",
+      "aiSummary": {
+        "summary": "ArtCraft 是一款专为艺术家、设计师和电影制作人打造的交互式 AI 图像与视频创作 IDE。它结合了 2D 和 3D 合成技术，支持从文本提示到精确的场景构建、角色姿势调整及 3D 网格生成。通过可视化工具，用户可以在生成前精确控制构图、角色身份和相机位置，实现从“提示词”到“精心制作”的创作流程。",
+        "summary_en": "ArtCraft is a Rust-based IDE for interactive AI image and video creation, offering tools for precise 2D and 3D compositing.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "适用于需要精确控制 AI 生成内容的艺术家、设计师和电影制作人，用于构建复杂的 2D/3D 场景和角色动画。",
+        "useCase_en": "Artists and filmmakers use this Rust-based IDE to compose scenes, pose characters, and generate AI images with precise c"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "xtool-org/xtool",
+      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+      "language": "Swift",
+      "stars": 9433,
+      "forks": 401,
+      "todayStars": 1198,
+      "url": "https://github.com/xtool-org/xtool",
+      "aiSummary": {
+        "summary": "xtool 是一个用 Swift 编写的跨平台 Xcode 替代品，支持在 Linux、Windows 和 macOS 上使用 SwiftPM 构建、签名和部署 iOS 应用。它提供了命令行工具和 XKit 库，用于与 Apple 开发者服务和设备进行交互。",
+        "summary_en": "Cross-platform Xcode replacement enabling iOS app development with SwiftPM on Linux, Windows, and macOS.",
+        "techStack": [
+          "Swift",
+          "Swift Package Manager",
+          "Linux",
+          "Windows",
+          "macOS"
+        ],
+        "useCase": "适用于需要在 Linux 或 Windows 环境下进行 iOS 开发、自动化构建及部署的场景。",
+        "useCase_en": "To build and deploy iOS apps using SwiftPM on Linux, Windows, and macOS."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-14T01:47:26.680Z",
+    "duration": "323s",
+    "version": "1.0.0"
+  }
+}

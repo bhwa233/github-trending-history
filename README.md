@@ -70,21 +70,21 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-10-12 | **成功**: 9 | **失败**: 0
+**最后更新**: 2026-10-13 | **成功**: 8 | **失败**: 1
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [morluto/rea](https://github.com/morluto/rea) | Reverse engineer anything with agents, from app be... | TypeScript | 165.1k | 45.3k | REA 是一个连接 AI 代理与逆向工程工具的 TypeScript 框架。它允许用户在不获取源代码的情况下分析应用行为，解释功能，展示证据并构建类似功能。支持原生二进制、JS/Electron、.NET 和网站分析，本地运行。 |
-| 2 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | A spy satellite simulator in your browser, except ... | JavaScript | 53.9k | 1.9k | 这是一个基于浏览器的间谍卫星模拟器，利用真实公开数据提供逼真的3D地球视图。支持实时追踪航班、船只、卫星及摄像头，具备语音控制功能。项目无需API密钥即可本地运行，允许用户像在驾驶舱一样探索全球实时空间情报。 |
-| 3 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents. ... | TypeScript | 27.4k | 246 | 这是一个针对 AI 编码代理的上下文窗口优化 MCP 服务器。它通过沙箱化工具输出（减少 98% 数据）、SQLite + FTS5 索引持久化会话记忆，以及强制 LLM 采用“代码思维”（编写脚本处理数据而非读取文件）来解决问题。适用于需要长对话、复杂文件分析及保持上下文连续性的 AI 编码场景。 |
-| 4 | [storytold/artcraft](https://github.com/storytold/artcraft) | ArtCraft is an intentional crafting engine for art... | Rust | 22.5k | 4.1k | ArtCraft 是一个专为艺术家设计的交互式 AI 图像和视频创作 IDE。它支持 2D/3D 合成、图像转 3D 网格、角色姿势调整及场景预览等功能。用户可以通过文本提示快速生成，再利用画布和场景工具进行精细打磨，实现从创意到精准成品的可视化创作流程。 |
-| 5 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | User-friendly AI Interface (Supports Ollama, OpenA... | Python | 155.2k | 157 | Open WebUI 是一个自托管、功能丰富的 AI 平台，支持 Ollama 和 OpenAI 兼容 API。它提供用户友好的界面，具备细粒度 RBAC 权限管理、插件扩展、智能体构建及终端执行能力，支持本地与云端模型无缝切换，适合构建私有化 AI 办公环境。 |
-| 6 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Editorial diagram design for Claude Code, Codex, G... | HTML | 52.8k | 2.1k | 这是一个专为 AI 编程助手设计的自包含图表生成 Agent Skill，支持 45 种图表类型。用户可通过自然语言指令生成 HTML 和 SVG 文件，并支持自定义品牌风格（字体、调色板），无需依赖 Mermaid。 |
-| 7 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | AirLLM 2.8T LLM inference with single 4GB GPU... | Jupyter Notebook | 37.6k | 879 | AirLLM 是一个 Jupyter Notebook 项目，旨在大幅降低大语言模型推理内存占用。它支持在单张 4GB 显存 GPU 上运行 70B 甚至 2.8T 的超大模型，无需量化或剪枝。此外，项目还支持在低显存环境下进行大规模模型训练。 |
-| 8 | [microsoft/BitNet](https://github.com/microsoft/BitNet) | Official inference framework for 1-bit LLMs... | C++ | 41.0k | 97 | bitnet.cpp 是微软推出的 1-bit LLM 官方推理框架。它支持 CPU 和 GPU 加速，提供优化内核以实现无损推理。相比全精度模型，它在 x86 和 ARM CPU 上分别实现了 2.37x 到 6.17x 的加速，并大幅降低能耗。项目包含 BitNet-b1.58-2B-4T 等模型，能在单 CPU 上运行 100B 模型，显著提升本地设备运行大模型的潜力。 |
-| 9 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Use Claude Code, Codex, VSCode, Pi, and OpenCode (... | Python | 59.3k | 626 | 这是一个开源项目，允许用户通过终端、IDE或浏览器免费使用Claude Code、Codex等多种AI编程工具。它聚合了61个合规提供商，提供每月13亿+免费令牌。支持11种编码代理，具备令牌优化、浏览器原生会话、语音输入等功能，旨在降低开发成本并提高效率。 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | Reverse engineer anything with agents, from app be... | TypeScript | 209.0k | 54.7k | 处理失败 |
+| 2 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | A spy satellite simulator in your browser, except ... | JavaScript | 55.5k | 2.0k | 这是一个基于浏览器的间谍卫星模拟器，利用真实数据在照片级真实感的3D地球上展示全球实时动态。支持语音控制，无需API密钥即可本地运行，提供驾驶舱视角追踪飞机、船只及卫星，具有高度的可扩展性。 |
+| 3 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio is the open-source, fully-local Eleven... | Python | 63.4k | 1.7k | VoiceStudio 是一个开源的完全本地化 ElevenLabs 替代品，支持语音克隆、视频配音、听写、转录及有声书创作，覆盖 646 种语言。支持 NVIDIA GPU 和 Apple Silicon 加速，数据完全本地处理。 |
+| 4 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents. ... | TypeScript | 28.3k | 969 | 这是一个针对 AI 编码代理的上下文窗口优化工具。它通过 MCP 服务器实现三大核心功能：利用沙箱工具将原始数据排除在上下文外（减少 98%），使用 SQLite 和 FTS5/BM25 搜索技术管理会话记忆，并强制 LLM 编写代码脚本（如 ctx_execute）进行分析而非读取文件，从而大幅节省 token 并保持会话连续性。 |
+| 5 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | Editorial diagram design for Claude Code, Codex, G... | HTML | 54.2k | 1.8k | 这是一个专为 AI 编码助手（如 Cursor、Claude Code）设计的图表生成技能。它支持 45 种图表类型，生成自包含的 HTML/SVG 文件，允许用户自定义品牌（字体、颜色），无需依赖 Mermaid，适合快速创建架构图、流程图等。 |
+| 6 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | The open agent skills tool - npx skills... | TypeScript | 34.5k | 190 | 这是一个用于开放代理技能生态系统的 CLI 工具。它支持 OpenCode、Claude Code、Codex、Cursor 等 75 多种编码代理。用户可以通过 npx 安装技能或生成提示词并启动交互式代理。该工具支持 GitHub、GitLab、Azure 等多种 Git 源，包括私有仓库。 |
+| 7 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | AirLLM 2.8T LLM inference with single 4GB GPU... | Jupyter Notebook | 38.4k | 1.0k | AirLLM 是一个 Jupyter Notebook 项目，旨在大幅降低大语言模型推理内存占用。它允许在单张 4GB 显存的 GPU 上运行 70B 等大型模型，无需量化或剪枝。最新版本还支持在低显存下训练大模型，如 Qwen3.8-Flash-Next (125B)。 |
+| 8 | [storytold/artcraft](https://github.com/storytold/artcraft) | ArtCraft is an intentional crafting engine for art... | Rust | 25.8k | 4.1k | ArtCraft 是一款专为艺术家、设计师和电影制作人打造的交互式 AI 图像与视频创作 IDE。它结合了 2D 和 3D 合成技术，支持从文本提示到精确的场景构建、角色姿势调整及 3D 网格生成。通过可视化工具，用户可以在生成前精确控制构图、角色身份和相机位置，实现从“提示词”到“精心制作”的创作流程。 |
+| 9 | [xtool-org/xtool](https://github.com/xtool-org/xtool) | Cross-platform Xcode replacement. Build and deploy... | Swift | 9.4k | 1.2k | xtool 是一个用 Swift 编写的跨平台 Xcode 替代品，支持在 Linux、Windows 和 macOS 上使用 SwiftPM 构建、签名和部署 iOS 应用。它提供了命令行工具和 XKit 库，用于与 Apple 开发者服务和设备进行交互。 |
 
-[查看完整数据](api/github/2026-10-12.json)
+[查看完整数据](api/github/2026-10-13.json)
 <!-- END GITHUB TRENDING -->
 
 
