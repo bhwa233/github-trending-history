@@ -70,24 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-10-15 | **成功**: 11 | **失败**: 1
+**最后更新**: 2026-10-16 | **成功**: 12 | **失败**: 1
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [morluto/rea](https://github.com/morluto/rea) | Reverse engineer anything with agents, from app be... | TypeScript | 270.4k | 32.3k | REA 是一个基于 TypeScript 的逆向工程工具，允许 AI 代理通过 MCP 协议连接到 Ghidra、IDA 等分析工具。它支持对原生二进制文件、JavaScript、Electron 应用和 .NET 程序集进行本地静态分析。用户无需源代码即可理解应用功能、获取证据并构建类似功能，适用于 Claude Code、Cursor 等多种 AI 代理环境。 |
-| 2 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official, Anthropic-managed directory of high qual... | Python | 39.1k | 307 | Anthropic 官方维护的 Claude Code 插件市场，包含内部及第三方高质量插件。提供标准化的插件结构规范，支持通过命令行或界面安装。旨在为用户提供安全、可信赖的 AI 辅助工具扩展库。 |
-| 3 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Turn any AI agent into an AI Scientist. The #1 Age... | Python | 50.5k | 1.1k | 这是一个将任何 AI 代理转化为 AI 科学家的大型技能库。包含 177 个经过验证的科学技能和 100+ 数据库，覆盖生物、化学、医学等领域。支持 Cursor、Claude Code 等多种环境，遵循开放 Agent Skills 标准。还提供本地运行的 K-Dense BYOK 工具，保护数据隐私。 |
-| 4 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 🪨 why use many token when few token do trick. Vir... | Go | 112.6k | 433 | 处理失败 |
-| 5 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio is the open-source, fully-local Eleven... | Python | 69.1k | 3.0k | VoiceStudio 是一个开源的本地化 ElevenLabs 替代品，支持语音克隆、语音设计、视频配音、听写和转录等功能，覆盖 646 种语言。它提供本地 API 和 MCP 支持，允许用户在本地硬件上运行，无需依赖远程服务，适合需要隐私保护和本地部署的语音处理场景。 |
-| 6 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 299.9k | 582 | Superpowers 是一个面向编码代理的软件开发框架和技能系统。它通过询问用户目标、分解规范、制定实施计划（强调 TDD、YAGNI、DRY），并利用子代理进行自主开发，实现高效的自动化编程。支持多种主流 AI 编码工具。 |
-| 7 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The original agent harness. Deploy intelligent ... | TypeScript | 75.1k | 147 | Ruflo 是一个专为 Claude Code 和 Codex 设计的智能代理元框架。它通过提供工具、记忆、循环和控制，赋予代理协作能力。支持多代理群集、自适应记忆、自学习和联邦通信，能够部署智能多玩家群集，协调自主工作流，并构建对话式 AI 系统。 |
-| 8 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents. ... | TypeScript | 29.8k | 904 | 这是一个 TypeScript 项目，旨在优化 AI 编码代理的上下文窗口。它通过沙箱化工具输出（减少 98%）、使用 SQLite 和 FTS5 持久化会话记忆，以及强制“代码思维”模式（让 LLM 编写脚本而非读取数据）来解决上下文溢出问题，支持 17 个平台。 |
-| 9 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | Ghidra is a software reverse engineering (SRE) fra... | Java | 88.8k | 1.4k | Ghidra 是美国国家安全局（NSA）开发的软件逆向工程框架，支持反汇编、反编译、绘图及脚本编写。它运行在 Windows、macOS 和 Linux 上，支持多种处理器指令集和可执行格式，具有高度的可扩展性，用于分析恶意代码和发现系统漏洞。 |
-| 10 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 280.4k | 1.0k | ECC 是一个 Agent harness 性能优化系统，旨在为 Claude Code、Codex 等 AI 编码助手提供协调的工程系统。它通过“计划-测试-实施-审查-验证-记忆-改进”的闭环流程，优化上下文窗口并持久化记忆。项目提供 71 个 agents 和 311 个 skills，支持多种主流 AI 编码工具，帮助 AI 更高效、安全地完成代码编写与维护。 |
-| 11 | [lightseekorg/tokenspeed](https://github.com/lightseekorg/tokenspeed) | TokenSpeed is a speed-of-light LLM inference engin... | Python | 2.5k | 30 | TokenSpeed 是一个专为代理工作负载设计的极速 LLM 推理引擎，旨在提供 TensorRT-LLM 级别的性能和 vLLM 级别的易用性。其核心架构创新性地将控制平面（C++ 有限状态机）与执行平面（Python）分离，利用类型系统确保资源安全。此外，它采用可插拔内核系统，支持异构加速器，是 PyTorch 生态系统中的重要组件。 |
-| 12 | [xerj-org/xerj](https://github.com/xerj-org/xerj) | XERJ is the new way for AI to search data. Its aut... | Rust | 5.7k | 715 | XERJ 是一个基于 Rust 的本地 AI 搜索工具，通过自动索引代码、文档和日志，为 AI 代理提供高效的数据检索能力。它比 grep 节省 40 倍 token，支持 RAG 和安全审计。主要应用于参考编码，帮助 AI 重用开源解决方案，显著降低 token 消耗并提升开发效率。 |
+| 1 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official, Anthropic-managed directory of high qual... | Python | 40.6k | 1.6k | Anthropic 官方维护的 Claude Code 插件目录，托管高质量插件。包含 Anthropic 内部插件及第三方合作伙伴/社区插件。用户可通过插件系统直接安装，但需注意安全风险。插件遵循标准结构，包含元数据、MCP 配置等，且名称不可更改。 |
+| 2 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Turn any AI agent into an AI Scientist. The #1 Age... | Python | 51.5k | 1.2k | 该项目是一个将任意 AI 代理转化为 AI 科学家的大型技能库。包含 177 个经过验证的科学技能及 100+ 数据库，覆盖生物、化学、医学等领域。支持 Cursor、Claude Code 等多种工具，并推出了本地运行的 BYOK 版本，保护数据隐私。 |
+| 3 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 281.5k | 1.1k | ECC 是一个代理性能优化系统，为 Claude Code、Codex 等提供协调的工程系统。它通过“计划-测试-实施-审查-验证-记忆-改进”工作流优化上下文窗口，提供记忆、技能和安全功能。开源项目包含 71 个代理和 311 个技能，支持多种编程环境。 |
+| 4 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | "CLI-Anything: Making ALL Software Agent-Native" -... | Python | 53.5k | 281 | CLI-Anything 旨在让所有软件具备 AI Agent 原生能力。通过 CLI-Hub 注册表，用户可以安装和管理社区构建的 CLI 工具，使 AI 代理（如 Cursor、Claude Code）能够通过命令行控制各类软件，实现自动化操作。 |
+| 5 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents. ... | TypeScript | 30.2k | 449 | 这是一个针对 AI 编码代理的上下文窗口优化 MCP 服务器。它通过沙箱化工具输出（减少 98%）、SQLite + FTS5 索引持久化会话记忆，以及强制 LLM 以“代码思维”编写分析脚本，解决了上下文溢出、状态丢失和冗余输出问题，支持 17 个平台。 |
+| 6 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The original agent harness. Deploy intelligent ... | TypeScript | 75.6k | 672 | Ruflo 是一个专为 Claude Code 和 Codex 设计的 Agent Harness（代理框架）。它通过提供工具、内存、循环和控制，赋予 AI 实际工作的能力。支持部署智能多智能体群集、自适应记忆、自学习及联邦通信，集成向量 RAG，可协调自主工作流并构建对话式 AI 系统。 |
+| 7 | [android/skills](https://github.com/android/skills) | ... | Kotlin | 8.1k | 36 | 这是一个专为 Android 开发优化的 AI 技能库，提供模块化的 SKILL.md 指令。旨在帮助 AI 代理更好地理解复杂工作流和最佳实践，特别关注 LLM 表现不佳的领域，如 R8 分析器和 Wear Compose M3。 |
+| 8 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 300.7k | 973 | Superpowers 是一个为编码代理设计的代理技能框架和软件开发方法论。它通过交互式对话获取需求，分解设计，并制定包含 TDD、YAGNI 和 DRY 原则的实施计划。随后，它利用子代理自主执行开发任务，支持多种主流 AI 编码工具，旨在让代理具备自动化的“超能力”。 |
+| 9 | [cursor/plugins](https://github.com/cursor/plugins) | Cursor plugin specification and official plugins... | TypeScript | 12.0k | 278 | 该项目是 Cursor 编辑器的官方插件集合，涵盖教学、持续学习、团队工作流、代码审查、文档渲染、代理兼容性、CLI 设计、SDK、Origin API 应用构建及任务编排等工具，旨在提升 AI 辅助编程的效率与团队协作能力。 |
+| 10 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio is the open-source, fully-local Eleven... | Python | 71.2k | 2.3k | VoiceStudio 是一个完全本地化的开源语音处理平台，支持语音克隆、视频配音、听写转录及有声书创作，覆盖 646 种语言。提供本地 API 和 MCP 支持，兼容 NVIDIA GPU、Apple Silicon 及 CPU，适合需要隐私保护和离线使用的开发者及创作者。 |
+| 11 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | The job search that runs on your machine. AI job a... | Python | 48.5k | 898 | 处理失败 |
+| 12 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | 一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百... | JavaScript | 23.7k | 538 | LinkSwift 是一个基于 JavaScript 的网盘直链获取工具，支持百度、阿里、夸克等八大主流网盘。它集成了 IDM、Aria2 等多种下载器，提供 API 下载、多线程支持及界面美化功能，致力于解决网盘分享链接无法直接下载的问题。 |
+| 13 | [xerj-org/xerj](https://github.com/xerj-org/xerj) | XERJ is the new way for AI to search data. Its aut... | Rust | 6.9k | 1.6k | XERJ 是一个用 Rust 编写的本地 AI 搜索工具，通过自动索引代码、文档和日志，显著减少 AI 代理的 token 消耗。它兼容 Elasticsearch，支持参考编码和安全审计，帮助开发者在编写新代码前快速检索开源解决方案，大幅降低成本并提升效率。 |
 
-[查看完整数据](api/github/2026-10-15.json)
+[查看完整数据](api/github/2026-10-16.json)
 <!-- END GITHUB TRENDING -->
 
 
