@@ -70,25 +70,25 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-10-16 | **成功**: 12 | **失败**: 1
+**最后更新**: 2026-10-17 | **成功**: 13 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official, Anthropic-managed directory of high qual... | Python | 40.6k | 1.6k | Anthropic 官方维护的 Claude Code 插件目录，托管高质量插件。包含 Anthropic 内部插件及第三方合作伙伴/社区插件。用户可通过插件系统直接安装，但需注意安全风险。插件遵循标准结构，包含元数据、MCP 配置等，且名称不可更改。 |
-| 2 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Turn any AI agent into an AI Scientist. The #1 Age... | Python | 51.5k | 1.2k | 该项目是一个将任意 AI 代理转化为 AI 科学家的大型技能库。包含 177 个经过验证的科学技能及 100+ 数据库，覆盖生物、化学、医学等领域。支持 Cursor、Claude Code 等多种工具，并推出了本地运行的 BYOK 版本，保护数据隐私。 |
-| 3 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 281.5k | 1.1k | ECC 是一个代理性能优化系统，为 Claude Code、Codex 等提供协调的工程系统。它通过“计划-测试-实施-审查-验证-记忆-改进”工作流优化上下文窗口，提供记忆、技能和安全功能。开源项目包含 71 个代理和 311 个技能，支持多种编程环境。 |
-| 4 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | "CLI-Anything: Making ALL Software Agent-Native" -... | Python | 53.5k | 281 | CLI-Anything 旨在让所有软件具备 AI Agent 原生能力。通过 CLI-Hub 注册表，用户可以安装和管理社区构建的 CLI 工具，使 AI 代理（如 Cursor、Claude Code）能够通过命令行控制各类软件，实现自动化操作。 |
-| 5 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents. ... | TypeScript | 30.2k | 449 | 这是一个针对 AI 编码代理的上下文窗口优化 MCP 服务器。它通过沙箱化工具输出（减少 98%）、SQLite + FTS5 索引持久化会话记忆，以及强制 LLM 以“代码思维”编写分析脚本，解决了上下文溢出、状态丢失和冗余输出问题，支持 17 个平台。 |
-| 6 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The original agent harness. Deploy intelligent ... | TypeScript | 75.6k | 672 | Ruflo 是一个专为 Claude Code 和 Codex 设计的 Agent Harness（代理框架）。它通过提供工具、内存、循环和控制，赋予 AI 实际工作的能力。支持部署智能多智能体群集、自适应记忆、自学习及联邦通信，集成向量 RAG，可协调自主工作流并构建对话式 AI 系统。 |
-| 7 | [android/skills](https://github.com/android/skills) | ... | Kotlin | 8.1k | 36 | 这是一个专为 Android 开发优化的 AI 技能库，提供模块化的 SKILL.md 指令。旨在帮助 AI 代理更好地理解复杂工作流和最佳实践，特别关注 LLM 表现不佳的领域，如 R8 分析器和 Wear Compose M3。 |
-| 8 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 300.7k | 973 | Superpowers 是一个为编码代理设计的代理技能框架和软件开发方法论。它通过交互式对话获取需求，分解设计，并制定包含 TDD、YAGNI 和 DRY 原则的实施计划。随后，它利用子代理自主执行开发任务，支持多种主流 AI 编码工具，旨在让代理具备自动化的“超能力”。 |
-| 9 | [cursor/plugins](https://github.com/cursor/plugins) | Cursor plugin specification and official plugins... | TypeScript | 12.0k | 278 | 该项目是 Cursor 编辑器的官方插件集合，涵盖教学、持续学习、团队工作流、代码审查、文档渲染、代理兼容性、CLI 设计、SDK、Origin API 应用构建及任务编排等工具，旨在提升 AI 辅助编程的效率与团队协作能力。 |
-| 10 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio is the open-source, fully-local Eleven... | Python | 71.2k | 2.3k | VoiceStudio 是一个完全本地化的开源语音处理平台，支持语音克隆、视频配音、听写转录及有声书创作，覆盖 646 种语言。提供本地 API 和 MCP 支持，兼容 NVIDIA GPU、Apple Silicon 及 CPU，适合需要隐私保护和离线使用的开发者及创作者。 |
-| 11 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | The job search that runs on your machine. AI job a... | Python | 48.5k | 898 | 处理失败 |
-| 12 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | 一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百... | JavaScript | 23.7k | 538 | LinkSwift 是一个基于 JavaScript 的网盘直链获取工具，支持百度、阿里、夸克等八大主流网盘。它集成了 IDM、Aria2 等多种下载器，提供 API 下载、多线程支持及界面美化功能，致力于解决网盘分享链接无法直接下载的问题。 |
-| 13 | [xerj-org/xerj](https://github.com/xerj-org/xerj) | XERJ is the new way for AI to search data. Its aut... | Rust | 6.9k | 1.6k | XERJ 是一个用 Rust 编写的本地 AI 搜索工具，通过自动索引代码、文档和日志，显著减少 AI 代理的 token 消耗。它兼容 Elasticsearch，支持参考编码和安全审计，帮助开发者在编写新代码前快速检索开源解决方案，大幅降低成本并提升效率。 |
+| 1 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official, Anthropic-managed directory of high qual... | Python | 41.8k | 1.4k | Anthropic 官方维护的 Claude Code 插件目录，包含内部及第三方高质量插件。支持通过 Claude Code 系统直接安装，遵循标准化插件结构。开发者需注意安全风险，且插件名称发布后不可更改。适用于需要扩展 Claude Code 功能的用户。 |
+| 2 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | The job search that runs on your machine. AI job a... | Python | 50.4k | 1.4k | 这是一个基于 Claude Code 的本地 AI 求职框架，使用 Python 实现自动化工作流。它能评估职位匹配度、定制简历与求职信，并辅助面试准备。项目针对丹麦市场优化，但核心流程可扩展至其他地区，旨在提升求职效率。 |
+| 3 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 282.5k | 1.1k | ECC 是一个代理工具包性能优化系统，旨在为 Claude Code、Codex 等提供协调的工程系统。它集成了技能、记忆和安全功能，通过规划、测试、审查等流程优化上下文窗口，支持多种 AI 编程工具，提升开发效率。 |
+| 4 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | "CLI-Anything: Making ALL Software Agent-Native" -... | Python | 54.1k | 574 | CLI-Anything 旨在让所有软件具备“代理原生”能力，通过 CLI-Hub 平台连接 AI 代理（如 Claude Code、Cursor）与各类软件工具。用户可安装社区构建的 CLI 工具，使 AI 代理通过命令行执行复杂任务，生成 CAD、3D 场景、游戏等实际工件。 |
+| 5 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Turn any AI agent into an AI Scientist. The #1 Age... | Python | 52.2k | 878 | 这是一个为 AI 科学家提供 177 个科学技能库的项目，涵盖生物、化学、医学、物理等多个领域。它遵循 Agent Skills 标准，兼容 Cursor、Claude Code 等多种工具。项目还推出了 K-Dense BYOK，允许用户在本地运行免费开源的 AI co-scientist，保护数据隐私。 |
+| 6 | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | Solution for long term memory for agent coding CLI... | Rust | 9.9k | 178 | 这是一个为AI编程助手提供长期记忆的Rust项目。它允许用户在不同编程工具（如Claude Code、Cursor等）之间无缝切换，共享记忆和上下文。项目支持跨项目、跨机器的记忆存储，通过本地服务器管理，确保用户在不同代理间交接任务时无需重复解释架构或历史，极大提升了开发效率。 |
+| 7 | [android/skills](https://github.com/android/skills) | ... | Kotlin | 8.4k | 355 | 这是一个为 AI 代理优化的 Android 开发技能库，提供模块化的 Markdown 指令和资源，帮助 LLM 理解并执行 Android 开发最佳实践，特别关注 LLM 表现不佳的复杂工作流。 |
+| 8 | [stablyai/orca](https://github.com/stablyai/orca) | Orca is the place for working with a fleet of agen... | TypeScript | 95.4k | 830 | Orca 是一个 AI 编排平台，旨在帮助开发者高效管理多个 AI 编码代理（如 Claude、Codex）。它支持并行工作树、移动端监控、SSH 远程执行及原生 GitHub/Linear 集成，允许用户在一个界面中对比和合并不同 AI 的代码生成结果，提升开发效率。 |
+| 9 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | TypeScript | 151.7k | 179 | Claude Code 是一个运行在终端中的代理编码工具，基于 TypeScript 开发。它利用自然语言命令理解代码库，帮助开发者执行常规任务、解释复杂代码以及处理 Git 工作流，从而提升编码效率。支持多种安装方式，并包含可扩展的插件系统。 |
+| 10 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio is the open-source, fully-local Eleven... | Python | 73.4k | 2.1k | VoiceStudio 是一个开源、完全本地化的 ElevenLabs 替代品。它支持语音克隆、语音设计、视频配音、听写、转录及有声书创作，覆盖 646 种语言。项目基于 Electron 开发，支持 NVIDIA GPU、Apple Silicon 及 CPU 运行，提供本地 API 和 MCP 支持，适合个人和企业进行本地化语音处理。 |
+| 11 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent.... | TypeScript | 215.3k | 438 | OpenCode 是一个基于 TypeScript 的开源 AI 编码代理，提供命令行工具和桌面应用，支持跨平台（Windows、macOS、Linux）使用，旨在辅助开发者进行代码编写与自动化任务。 |
+| 12 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The original agent harness. Deploy intelligent ... | TypeScript | 76.1k | 420 | Ruflo 是一个专为 Claude Code 和 Codex 设计的 Agent 元框架。它通过提供工具、记忆、循环和沙箱，赋予 AI 模型执行能力。项目支持部署智能多玩家 swarms、协调自主工作流，并具备自适应记忆、自学习智能和联邦通信功能，旨在让 AI 代理不仅运行，还能协作。 |
+| 13 | [xerj-org/xerj](https://github.com/xerj-org/xerj) | XERJ is the new way for AI to search data. Its aut... | Rust | 7.8k | 1.2k | XERJ 是一个用 Rust 编写的本地 AI 搜索工具，能够自动索引代码、文档和日志。它通过智能索引大幅减少 token 消耗（比 grep 少 40 倍），支持参考编码和代理记忆。它旨在替代 ElasticSearch，帮助 AI Agent 快速定位代码片段，降低基础设施成本。 |
 
-[查看完整数据](api/github/2026-10-16.json)
+[查看完整数据](api/github/2026-10-17.json)
 <!-- END GITHUB TRENDING -->
 
 
