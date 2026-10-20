@@ -1,0 +1,257 @@
+{
+  "date": "2026-10-19",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 11,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "MadsLorentzen/ai-job-search",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "language": "Python",
+      "stars": 57383,
+      "forks": 18217,
+      "todayStars": 3856,
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "aiSummary": {
+        "summary": "这是一个基于 Claude Code 的本地 AI 求职应用框架。它通过结构化工作流，帮助用户自动评估职位、定制简历、撰写求职信并准备面试。项目支持自我画像和匹配评估，虽然针对丹麦市场优化，但设计模式可移植。作者亲测有效，成功帮助求职者获得 AI 工程师职位。",
+        "summary_en": "An AI-powered job application framework built on Claude Code to automate CV tailoring, cover letter writing, and interview preparation.",
+        "techStack": [
+          "Python",
+          "Claude Code"
+        ],
+        "useCase": "利用 AI 自动化处理求职流程，提升申请效率。",
+        "useCase_en": "Automate job applications by using AI to evaluate postings, tailor CVs, and generate cover letters."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "language": "TypeScript",
+      "stars": 217854,
+      "forks": 29114,
+      "todayStars": 1311,
+      "url": "https://github.com/anomalyco/opencode",
+      "aiSummary": {
+        "summary": "OpenCode 是一个开源的 AI 编码代理，使用 TypeScript 编写。它提供命令行工具和桌面应用，支持多平台。内置两个代理：build（默认，全权限，用于开发）和 plan（只读，用于分析）。",
+        "summary_en": "Open-source AI coding agent providing CLI and desktop tools.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "辅助软件开发、代码分析与自动化开发任务。",
+        "useCase_en": "Automate software development tasks using AI agents."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "stars": 11378,
+      "forks": 810,
+      "todayStars": 666,
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供长期记忆的 Rust 项目。它允许用户在多个不同的 AI 编码工具（如 Claude Code、Codex、Cursor 等）之间无缝切换，共享记忆和上下文。项目支持跨项目、跨机器的持久化存储，解决了不同工具之间上下文丢失和交接困难的问题，让 AI 助手能记住之前的架构、失败尝试和未解决的问题。",
+        "summary_en": "A Rust-based long-term memory solution for AI coding agents to facilitate seamless handoffs and session continuity.",
+        "techStack": [
+          "Rust",
+          "HTTP/Server",
+          "Protocol"
+        ],
+        "useCase": "多个 AI 编码工具间的无缝任务交接与长期记忆共享",
+        "useCase_en": "To provide a shared memory server for AI coding agents to facilitate seamless handoffs and session continuity."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "language": "Python",
+      "stars": 139761,
+      "forks": 16585,
+      "todayStars": 1011,
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "aiSummary": {
+        "summary": "ComfyUI 是一个基于 Python 的强大且模块化的扩散模型 GUI 和后端，采用节点图界面。它以本地高性能推理引擎著称，支持图像、视频、3D 等多模态生成，并优化了显存管理，可在低配置硬件上运行，提供 API 和桌面应用。",
+        "summary_en": "A modular, node-based interface for running state-of-the-art diffusion models locally with high performance.",
+        "techStack": [
+          "Python",
+          "Node Graph Interface",
+          "Diffusion Models",
+          "Local Inference Engine"
+        ],
+        "useCase": "专为视觉专业人士设计，用于本地高效生成图像、视频及 3D 模型。",
+        "useCase_en": "A local inference engine for generating images, videos, and 3D models using diffusion models."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "ruvnet/ruflo",
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "language": "TypeScript",
+      "stars": 77212,
+      "forks": 9105,
+      "todayStars": 564,
+      "url": "https://github.com/ruvnet/ruflo",
+      "aiSummary": {
+        "summary": "Ruflo 是一个专为 Claude Code 和 Codex 设计的智能代理元框架。它为 AI 模型提供工具、记忆、循环和控制，支持部署 100+ 专用代理、协调多代理蜂群、自学习记忆及跨机器联邦通信。通过集成向量 RAG 和安全护栏，它实现了代理的自主协作与智能执行。",
+        "summary_en": "An agent harness for Claude Code and Codex enabling multi-player swarms, self-learning memory, and federated workflows.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code",
+          "MCP"
+        ],
+        "useCase": "构建智能多代理协作系统与自主工作流编排",
+        "useCase_en": "Deploy intelligent multi-player swarms and coordinate autonomous workflows using Claude Code and Codex."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "stablyai/orca",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "stars": 98328,
+      "forks": 6271,
+      "todayStars": 1590,
+      "url": "https://github.com/stablyai/orca",
+      "aiSummary": {
+        "summary": "Orca 是一个 AI 编排器，允许用户并行运行多个编码代理（如 Codex、Claude Code）。它支持移动端伴侣、并行工作树、终端拆分、设计模式以及 SSH 远程执行等功能，帮助开发者高效管理 AI 代理，提升编码效率。",
+        "summary_en": "An AI orchestrator for managing fleets of coding agents with parallel worktrees and terminal splits.",
+        "techStack": [
+          "TypeScript",
+          "WebGL",
+          "Git",
+          "Electron"
+        ],
+        "useCase": "适合需要同时运行多个 AI 编码代理进行并行开发、对比代码生成结果或进行远程协作的开发者。",
+        "useCase_en": "Run multiple coding agents simultaneously to compare outputs and manage complex development workflows."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "headroomlabs-ai/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "language": "Python",
+      "stars": 76267,
+      "forks": 5923,
+      "todayStars": 310,
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "aiSummary": {
+        "summary": "Headroom 是一个本地运行的 AI 数据压缩工具，旨在减少 LLM 的 token 消耗。它支持库、代理和 MCP 服务器等多种集成方式，能压缩代码、JSON 和文本，在保持答案一致性的同时显著降低成本。",
+        "summary_en": "Local compression tool for LLMs that reduces token usage for tool outputs and RAG chunks.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "Kompress-v2-base",
+          "AST",
+          "MCP"
+        ],
+        "useCase": "适用于需要优化 AI 代理 token 使用并确保数据隐私的开发者场景。",
+        "useCase_en": "Developers use this to compress tool outputs, logs, and RAG chunks to reduce LLM token costs."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "withmarbleapp/os-taxonomy",
+      "description": "",
+      "language": "JavaScript",
+      "stars": 6149,
+      "forks": 1004,
+      "todayStars": 284,
+      "url": "https://github.com/withmarbleapp/os-taxonomy",
+      "aiSummary": {
+        "summary": "这是一个由 Marble 开发的开放教育数据集，包含小学阶段 1,591 个微主题和 3,225 个先决条件依赖关系。它将学习内容分解为可教授的概念，并与 NGSS、Common Core 等国家标准对齐，包含教学研究记录和领域聚类，旨在构建一个连接的学习图谱。",
+        "summary_en": "Structured taxonomy of primary education topics with prerequisite graphs and curriculum alignment.",
+        "techStack": [
+          "JavaScript",
+          "JSON",
+          "Knowledge Graph"
+        ],
+        "useCase": "适用于教育软件开发、课程规划、学习路径可视化及教学研究。",
+        "useCase_en": "Developers can use this dataset to build educational software with prerequisite-aware learning paths."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Kruk2/jasna",
+      "description": "Video restoration tool",
+      "language": "Python",
+      "stars": 2910,
+      "forks": 211,
+      "todayStars": 498,
+      "url": "https://github.com/Kruk2/jasna",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 9,
+      "fullName": "HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars": 55260,
+      "forks": 4986,
+      "todayStars": 606,
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "aiSummary": {
+        "summary": "CLI-Anything 致力于让所有软件具备‘代理原生’特性。通过 CLI-Hub 平台，用户可安装和管理社区构建的命令行工具，使 AI 代理（如 Claude Code、Cursor）能通过简单指令与软件交互，实现 CAD 建模、笔记管理等自动化任务。",
+        "summary_en": "CLI-Anything is a Python project bridging the gap between AI agents and software via a CLI registry.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "AI Agent"
+        ],
+        "useCase": "为 AI 代理提供与各类软件交互的命令行接口，实现自动化操作。",
+        "useCase_en": "To make all software agent-native by providing a CLI registry for AI tools like Claude Code."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "stars": 152671,
+      "forks": 27143,
+      "todayStars": 167,
+      "url": "https://github.com/anthropics/claude-code",
+      "aiSummary": {
+        "summary": "Claude Code 是一个运行在终端的智能编码助手，基于 TypeScript 开发。它通过自然语言命令理解代码库，执行常规任务、解释复杂代码及处理 Git 工作流，支持插件扩展，旨在提升开发效率。",
+        "summary_en": "An AI-powered terminal tool that automates coding tasks and git workflows using natural language.",
+        "techStack": [
+          "TypeScript",
+          "Node.js"
+        ],
+        "useCase": "适用于需要通过自然语言快速理解代码库、自动化常规开发任务及处理 Git 工作流的开发者。",
+        "useCase_en": "Automate routine coding tasks and git workflows directly from the terminal using natural language."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 41695,
+      "forks": 6929,
+      "todayStars": 363,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融市场的“语言”设计。它采用两阶段框架，利用专门的 Tokenizer 将 OHLCV 数据量化，并通过自回归 Transformer 进行预训练。该项目支持多种模型规模，可用于金融预测和量化任务。",
+        "summary_en": "Open-source foundation model for financial candlesticks trained on data from over 45 global exchanges.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Tokenizer",
+          "Hugging Face"
+        ],
+        "useCase": "金融时间序列预测、量化交易策略开发",
+        "useCase_en": "It is used for forecasting financial market trends using candlestick data."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-20T01:48:50.786Z",
+    "duration": "604s",
+    "version": "1.0.0"
+  }
+}

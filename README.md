@@ -70,25 +70,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-10-18 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-10-19 | **成功**: 11 | **失败**: 1
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | The job search that runs on your machine. AI job a... | Python | 53.2k | 2.2k | 这是一个基于 Python 和 Claude Code 的本地 AI 求职框架。它帮助用户自动化评估职位、定制简历、撰写求职信并准备面试。作者利用该工具成功找到了 AI 工程师的工作。项目支持自定义工作流，适用于需要批量申请职位或提高求职效率的用户。 |
-| 2 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official, Anthropic-managed directory of high qual... | Python | 42.7k | 1.2k | Anthropic 官方维护的 Claude Code 插件目录，提供高质量插件市场。包含 Anthropic 内部插件及第三方社区插件，用户可通过该目录安装插件以扩展 Claude Code 的功能。项目规定了插件的标准结构，并强调安全注意事项。 |
-| 3 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent.... | TypeScript | 216.6k | 1.4k | OpenCode 是一个开源的 AI 编码代理，提供命令行和桌面应用支持。内置两个代理：默认的 build 代理用于开发，plan 代理用于只读分析。支持多平台安装。 |
-| 4 | [cursor/plugins](https://github.com/cursor/plugins) | Cursor plugin specification and official plugins... | TypeScript | 12.7k | 350 | 该项目包含 Cursor 官方插件规范及多种实用工具插件。涵盖代码审查、持续学习、团队协作、文档渲染、代理兼容性检查、CLI 设计模式、SDK 开发以及任务编排等功能，旨在提升 AI 编程助手的工作流效率与智能化水平。 |
-| 5 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The original agent harness. Deploy intelligent ... | TypeScript | 76.5k | 513 | Ruflo 是一个专为 Claude Code 和 Codex 设计的智能代理元框架。它通过提供工具、记忆、循环和安全护栏，赋予模型协作能力。支持多代理群组、自适应记忆、联邦通信和向量 RAG，能够部署智能多玩家群组并协调自主工作流。 |
-| 6 | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | Solution for long term memory for agent coding CLI... | Rust | 10.5k | 512 | 该项目为 AI 编码 Agent 提供跨平台长期记忆解决方案。支持在 Claude、Codex 等多种工具间无缝切换，共享上下文、工作流配置及会话状态，打破单机与单一 Agent 的限制，实现高效协作。 |
-| 7 | [stablyai/orca](https://github.com/stablyai/orca) | Orca is the place for working with a fleet of agen... | TypeScript | 96.7k | 1.1k | Orca 是一个 AI 编排平台，允许用户同时运行多个 AI 编码代理（如 Claude、Codex）。它支持并行工作树、SSH 远程运行、移动端监控以及与 GitHub/Linear 的深度集成。通过提供终端拆分、设计模式和 CLI 工具，Orca 旨在提高开发者的效率，实现多代理协作和代码审查。 |
-| 8 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | "CLI-Anything: Making ALL Software Agent-Native" -... | Python | 54.6k | 589 | CLI-Anything 旨在让所有软件具备 AI 代理原生能力。通过 CLI-Hub，它提供社区构建的命令行工具，允许 AI 代理（如 Cursor、Claude Code）通过单一命令行与各类软件和服务交互，实现自动化操作。 |
-| 9 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio is the open-source, fully-local Eleven... | Python | 75.4k | 2.1k | VoiceStudio 是一个开源的本地化 ElevenLabs 替代品，支持语音克隆、语音设计、视频配音、听写和转录等功能。它支持 646 种语言，提供本地 API 和 MCP 支持，允许用户在本地硬件上运行，无需依赖远程服务。支持 NVIDIA GPU、Apple Silicon 和 CPU 加速。 |
-| 10 | [android/skills](https://github.com/android/skills) | ... | Kotlin | 8.8k | 375 | 这是一个针对 Android 开发的 AI 技能库，旨在帮助 LLM 更好地理解并执行 Android 开发最佳实践。它包含模块化的 SKILL.md 文件，专注于 LLM 表现不佳的复杂工作流，可作为 Android CLI 工具或 Claude Code 等代理的插件使用。 |
-| 11 | [mlabonne/llm-course](https://github.com/mlabonne/llm-course) | Course to get into Large Language Models (LLMs) wi... | - | 84.0k | 81 | 这是一个免费的 LLM 入门到进阶课程，分为基础、科学家和工程师三个阶段。包含数学、Python及神经网络基础，以及模型微调、合并、量化、评估等实战教程和 Colab 笔记本，旨在帮助用户掌握构建和部署 LLM 应用的全流程技能。 |
-| 12 | [Kruk2/jasna](https://github.com/Kruk2/jasna) | Video restoration tool... | Python | 2.4k | 115 | Jasna 是一个基于 Python 的视频和图像马赛克修复工具。它提供免费的基础模型和付费的高级 LTX 模型，支持 GPU 加速，可在 Windows 和 Linux 上运行。支持 VR180 视频，具备实时预览和命令行功能。 |
-| 13 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI,... | Python | 138.6k | 154 | ComfyUI 是一个强大的本地扩散模型 GUI 和推理引擎，采用节点图界面。它针对本地硬件进行了极致优化，支持最新开源模型，能在低显存下快速运行。提供 API、App Mode 和跨平台支持，适用于图像、视频及 3D 模型的专业创作。 |
+| 1 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | The job search that runs on your machine. AI job a... | Python | 57.4k | 3.9k | 这是一个基于 Claude Code 的本地 AI 求职应用框架。它通过结构化工作流，帮助用户自动评估职位、定制简历、撰写求职信并准备面试。项目支持自我画像和匹配评估，虽然针对丹麦市场优化，但设计模式可移植。作者亲测有效，成功帮助求职者获得 AI 工程师职位。 |
+| 2 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent.... | TypeScript | 217.9k | 1.3k | OpenCode 是一个开源的 AI 编码代理，使用 TypeScript 编写。它提供命令行工具和桌面应用，支持多平台。内置两个代理：build（默认，全权限，用于开发）和 plan（只读，用于分析）。 |
+| 3 | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | Solution for long term memory for agent coding CLI... | Rust | 11.4k | 666 | 这是一个为 AI 编码代理提供长期记忆的 Rust 项目。它允许用户在多个不同的 AI 编码工具（如 Claude Code、Codex、Cursor 等）之间无缝切换，共享记忆和上下文。项目支持跨项目、跨机器的持久化存储，解决了不同工具之间上下文丢失和交接困难的问题，让 AI 助手能记住之前的架构、失败尝试和未解决的问题。 |
+| 4 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI,... | Python | 139.8k | 1.0k | ComfyUI 是一个基于 Python 的强大且模块化的扩散模型 GUI 和后端，采用节点图界面。它以本地高性能推理引擎著称，支持图像、视频、3D 等多模态生成，并优化了显存管理，可在低配置硬件上运行，提供 API 和桌面应用。 |
+| 5 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The original agent harness. Deploy intelligent ... | TypeScript | 77.2k | 564 | Ruflo 是一个专为 Claude Code 和 Codex 设计的智能代理元框架。它为 AI 模型提供工具、记忆、循环和控制，支持部署 100+ 专用代理、协调多代理蜂群、自学习记忆及跨机器联邦通信。通过集成向量 RAG 和安全护栏，它实现了代理的自主协作与智能执行。 |
+| 6 | [stablyai/orca](https://github.com/stablyai/orca) | Orca is the place for working with a fleet of agen... | TypeScript | 98.3k | 1.6k | Orca 是一个 AI 编排器，允许用户并行运行多个编码代理（如 Codex、Claude Code）。它支持移动端伴侣、并行工作树、终端拆分、设计模式以及 SSH 远程执行等功能，帮助开发者高效管理 AI 代理，提升编码效率。 |
+| 7 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | Compress tool outputs, logs, files, and RAG chunks... | Python | 76.3k | 310 | Headroom 是一个本地运行的 AI 数据压缩工具，旨在减少 LLM 的 token 消耗。它支持库、代理和 MCP 服务器等多种集成方式，能压缩代码、JSON 和文本，在保持答案一致性的同时显著降低成本。 |
+| 8 | [withmarbleapp/os-taxonomy](https://github.com/withmarbleapp/os-taxonomy) | ... | JavaScript | 6.1k | 284 | 这是一个由 Marble 开发的开放教育数据集，包含小学阶段 1,591 个微主题和 3,225 个先决条件依赖关系。它将学习内容分解为可教授的概念，并与 NGSS、Common Core 等国家标准对齐，包含教学研究记录和领域聚类，旨在构建一个连接的学习图谱。 |
+| 9 | [Kruk2/jasna](https://github.com/Kruk2/jasna) | Video restoration tool... | Python | 2.9k | 498 | 处理失败 |
+| 10 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | "CLI-Anything: Making ALL Software Agent-Native" -... | Python | 55.3k | 606 | CLI-Anything 致力于让所有软件具备‘代理原生’特性。通过 CLI-Hub 平台，用户可安装和管理社区构建的命令行工具，使 AI 代理（如 Claude Code、Cursor）能通过简单指令与软件交互，实现 CAD 建模、笔记管理等自动化任务。 |
+| 11 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | TypeScript | 152.7k | 167 | Claude Code 是一个运行在终端的智能编码助手，基于 TypeScript 开发。它通过自然语言命令理解代码库，执行常规任务、解释复杂代码及处理 Git 工作流，支持插件扩展，旨在提升开发效率。 |
+| 12 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Fin... | Python | 41.7k | 363 | Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融市场的“语言”设计。它采用两阶段框架，利用专门的 Tokenizer 将 OHLCV 数据量化，并通过自回归 Transformer 进行预训练。该项目支持多种模型规模，可用于金融预测和量化任务。 |
 
-[查看完整数据](api/github/2026-10-18.json)
+[查看完整数据](api/github/2026-10-19.json)
 <!-- END GITHUB TRENDING -->
 
 
