@@ -70,24 +70,27 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-10-19 | **成功**: 11 | **失败**: 1
+**最后更新**: 2026-10-20 | **成功**: 14 | **失败**: 1
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | The job search that runs on your machine. AI job a... | Python | 57.4k | 3.9k | 这是一个基于 Claude Code 的本地 AI 求职应用框架。它通过结构化工作流，帮助用户自动评估职位、定制简历、撰写求职信并准备面试。项目支持自我画像和匹配评估，虽然针对丹麦市场优化，但设计模式可移植。作者亲测有效，成功帮助求职者获得 AI 工程师职位。 |
-| 2 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent.... | TypeScript | 217.9k | 1.3k | OpenCode 是一个开源的 AI 编码代理，使用 TypeScript 编写。它提供命令行工具和桌面应用，支持多平台。内置两个代理：build（默认，全权限，用于开发）和 plan（只读，用于分析）。 |
-| 3 | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | Solution for long term memory for agent coding CLI... | Rust | 11.4k | 666 | 这是一个为 AI 编码代理提供长期记忆的 Rust 项目。它允许用户在多个不同的 AI 编码工具（如 Claude Code、Codex、Cursor 等）之间无缝切换，共享记忆和上下文。项目支持跨项目、跨机器的持久化存储，解决了不同工具之间上下文丢失和交接困难的问题，让 AI 助手能记住之前的架构、失败尝试和未解决的问题。 |
-| 4 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI,... | Python | 139.8k | 1.0k | ComfyUI 是一个基于 Python 的强大且模块化的扩散模型 GUI 和后端，采用节点图界面。它以本地高性能推理引擎著称，支持图像、视频、3D 等多模态生成，并优化了显存管理，可在低配置硬件上运行，提供 API 和桌面应用。 |
-| 5 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The original agent harness. Deploy intelligent ... | TypeScript | 77.2k | 564 | Ruflo 是一个专为 Claude Code 和 Codex 设计的智能代理元框架。它为 AI 模型提供工具、记忆、循环和控制，支持部署 100+ 专用代理、协调多代理蜂群、自学习记忆及跨机器联邦通信。通过集成向量 RAG 和安全护栏，它实现了代理的自主协作与智能执行。 |
-| 6 | [stablyai/orca](https://github.com/stablyai/orca) | Orca is the place for working with a fleet of agen... | TypeScript | 98.3k | 1.6k | Orca 是一个 AI 编排器，允许用户并行运行多个编码代理（如 Codex、Claude Code）。它支持移动端伴侣、并行工作树、终端拆分、设计模式以及 SSH 远程执行等功能，帮助开发者高效管理 AI 代理，提升编码效率。 |
-| 7 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | Compress tool outputs, logs, files, and RAG chunks... | Python | 76.3k | 310 | Headroom 是一个本地运行的 AI 数据压缩工具，旨在减少 LLM 的 token 消耗。它支持库、代理和 MCP 服务器等多种集成方式，能压缩代码、JSON 和文本，在保持答案一致性的同时显著降低成本。 |
-| 8 | [withmarbleapp/os-taxonomy](https://github.com/withmarbleapp/os-taxonomy) | ... | JavaScript | 6.1k | 284 | 这是一个由 Marble 开发的开放教育数据集，包含小学阶段 1,591 个微主题和 3,225 个先决条件依赖关系。它将学习内容分解为可教授的概念，并与 NGSS、Common Core 等国家标准对齐，包含教学研究记录和领域聚类，旨在构建一个连接的学习图谱。 |
-| 9 | [Kruk2/jasna](https://github.com/Kruk2/jasna) | Video restoration tool... | Python | 2.9k | 498 | 处理失败 |
-| 10 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | "CLI-Anything: Making ALL Software Agent-Native" -... | Python | 55.3k | 606 | CLI-Anything 致力于让所有软件具备‘代理原生’特性。通过 CLI-Hub 平台，用户可安装和管理社区构建的命令行工具，使 AI 代理（如 Claude Code、Cursor）能通过简单指令与软件交互，实现 CAD 建模、笔记管理等自动化任务。 |
-| 11 | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives i... | TypeScript | 152.7k | 167 | Claude Code 是一个运行在终端的智能编码助手，基于 TypeScript 开发。它通过自然语言命令理解代码库，执行常规任务、解释复杂代码及处理 Git 工作流，支持插件扩展，旨在提升开发效率。 |
-| 12 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Fin... | Python | 41.7k | 363 | Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融市场的“语言”设计。它采用两阶段框架，利用专门的 Tokenizer 将 OHLCV 数据量化，并通过自回归 Transformer 进行预训练。该项目支持多种模型规模，可用于金融预测和量化任务。 |
+| 1 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | The job search that runs on your machine. AI job a... | Python | 60.7k | 3.9k | 这是一个基于 Claude Code 的本地 AI 求职自动化框架。它帮助用户评估职位发布、定制简历、撰写求职信并准备面试。作者利用该工具成功转型为 AI 工程师。项目支持丹麦市场，但工作流设计通用，易于适配其他地区。 |
+| 2 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | A coding-agent skill for multi-phase security audi... | JavaScript | 34.3k | 1.7k | 这是一个由 Cloudflare 开发的编码代理技能，用于自动化多阶段安全审计。它通过六个阶段协调代理进行漏洞发现，支持独立验证和结构化输出，旨在生成可验证的机器可读安全报告。 |
+| 3 | [stablyai/orca](https://github.com/stablyai/orca) | Orca is the place for working with a fleet of agen... | TypeScript | 99.8k | 1.6k | Orca 是一款 AI 编排器，旨在帮助开发者高效管理多个编码代理。它支持在桌面、移动端和远程运行时运行 Codex、ClaudeCode 等。核心功能包括并行工作树、终端分割、设计模式、GitHub/Linear 集成以及 SSH 远程执行。用户可在统一界面中监控、比较并合并多个 AI 代理的代码结果，显著提升开发效率。 |
+| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | Makes your AI agent think like the laziest senior ... | JavaScript | 169.7k | 1.2k | Ponytail 是一个让 AI 代理像“懒散资深开发”一样思考的技能。它通过重用现有代码和只编写必要逻辑来生成更简洁、更安全的代码。相比之前版本，代码量减少 53%，安全性提升，且能显著降低成本和延迟。它不仅优化代码生成，还提供代码审查功能，确保不遗漏关键的安全性和错误处理。 |
+| 5 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI,... | Python | 140.8k | 1.2k | 处理失败 |
+| 6 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 The original agent harness. Deploy intelligent ... | TypeScript | 77.9k | 684 | Ruflo 是一个专为 Claude Code 和 Codex 打造的智能体执行框架。它支持部署多智能体集群、协调自主工作流，具备自适应记忆、自学习能力、联邦通信及向量 RAG 集成。通过插件或 MCP 协议集成，帮助开发者构建复杂的对话式 AI 系统。 |
+| 7 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Turn any codebase, with its docs, SQL schemas, con... | Python | 130.3k | 802 | Graphify 是一个将代码库、文档等转换为可查询知识图谱的工具。它利用本地确定性 AST 解析（Tree-sitter）构建图结构，无需向量存储，为 AI 助手提供代码理解能力，通过解释提取和推断的连接来节省 token 并提升开发效率。 |
+| 8 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | The open source coding agent.... | TypeScript | 219.0k | 1.2k | OpenCode 是一个开源的 AI 编码代理，提供命令行和桌面应用。它内置了两个代理：build（默认，用于开发）和 plan（只读，用于分析）。支持多种安装方式，覆盖 macOS、Windows 和 Linux 平台。 |
+| 9 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From fro... | Shell | 162.4k | 562 | 这是一个提供完整 AI 代理机构的 GitHub 项目。它包含多个具有独特个性和专业能力的 AI 代理（如前端开发、Reddit 社区专家等）。用户可以通过原生桌面应用或 Shell 脚本，将这些代理一键安装到 Claude Code、Cursor 等主流 AI 编码工具中，提升开发效率。 |
+| 10 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | Compress tool outputs, logs, files, and RAG chunks... | Python | 76.8k | 549 | Headroom 是一个本地运行的 AI 输入压缩工具，旨在减少 LLM 的 token 使用量。它支持库、代理和 MCP 服务器等多种集成方式，能够智能压缩代码、JSON 和文本，在保持答案不变的前提下，显著降低编码代理和 JSON 处理的 token 消耗，保护数据隐私。 |
+| 11 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | Open source repository of plugins primarily intend... | Python | 30.8k | 267 | 这是一个开源插件仓库，旨在将 Claude 转变为特定角色的专家。它包含生产力、销售、客户支持等领域的插件，支持与多种工具集成。用户可以自定义这些插件以适应公司的工作流程和术语，从而提高团队协作效率和产出质量。 |
+| 12 | [wshobson/agents](https://github.com/wshobson/agents) | Multi-harness agentic plugin marketplace for Claud... | Python | 41.3k | 93 | 这是一个跨平台的 AI 编码工具插件市场，支持 Claude Code、Cursor、Copilot 等多种主流工具。项目包含丰富的插件、代理和技能库（94个插件，202个代理），通过 Markdown 源码实现组件的统一管理和多工具适配。 |
+| 13 | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | AAS Core is the local, agent-first control plane f... | Python | 48.1k | 83 | Agentic Awesome Skills 是一个基于 Python 的本地代理控制平面，包含 2700+ 可安装的 SKILL.md 播放书。它帮助 Codex 或 Claude 搜索本地目录，进行代理选择、堆栈验证和规划预览。项目提供 CLI、本地 MCP 和 Workbench，支持可重用指令的发现与管理，旨在为 AI 代理提供完整的技能库和规划能力。 |
+| 14 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Fin... | Python | 42.4k | 733 | Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融数据的高噪声特性设计。它采用两阶段框架，利用专用分词器将 OHLCV 数据量化为离散标记，并通过自回归 Transformer 进行预训练。该模型支持多种量化任务，已获 AAAI 2026 接收，提供 mini、small、base 等不同规模模型。 |
+| 15 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | A high-throughput and memory-efficient inference a... | Python | 94.4k | 128 | vLLM 是一个高性能且内存高效的 LLM 推理和服务引擎。它采用 PagedAttention 技术实现高效的 KV 内存管理，支持连续批处理和 FlashAttention 等优化内核，提供极高的吞吐量。同时支持多种量化方法和 OpenAI 兼容 API，易于部署。 |
 
-[查看完整数据](api/github/2026-10-19.json)
+[查看完整数据](api/github/2026-10-20.json)
 <!-- END GITHUB TRENDING -->
 
 
