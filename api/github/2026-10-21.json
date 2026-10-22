@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-21",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 36549,
+      "forks": 2280,
+      "todayStars": 2012,
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "aiSummary": {
+        "summary": "这是一个将编码代理转化为安全审计员的技能，通过六个阶段（侦察、狩猎、验证、输出、独立验证、报告）执行结构化审计。支持独立验证和机器可读发现，是 Cloudflare 漏洞发现工具的起点。",
+        "summary_en": "A JavaScript skill orchestrating multi-phase security audits with independent verification.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "适用于自动化多阶段安全审计、漏洞发现及独立验证的场景。",
+        "useCase_en": "Automate multi-phase security audits with independent verification of findings."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "vllm-project/vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "language": "Python",
+      "stars": 94887,
+      "forks": 23744,
+      "todayStars": 441,
+      "url": "https://github.com/vllm-project/vllm",
+      "aiSummary": {
+        "summary": "vLLM 是一个高性能且内存高效的 LLM 推理与服务引擎。它通过 PagedAttention 和连续批处理技术实现高吞吐量，支持多种量化格式及多 GPU 部署。提供 OpenAI 兼容 API，易于集成 Hugging Face 模型，适合大规模生产环境部署。",
+        "summary_en": "A high-throughput and memory-efficient inference engine for LLMs.",
+        "techStack": [
+          "Python",
+          "CUDA",
+          "PagedAttention",
+          "FlashAttention",
+          "Hugging Face"
+        ],
+        "useCase": "适用于大规模 LLM 推理服务部署与生产环境",
+        "useCase_en": "Deploy and serve large language models with high throughput and low latency."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "stablyai/orca",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "stars": 101305,
+      "forks": 6406,
+      "todayStars": 1541,
+      "url": "https://github.com/stablyai/orca",
+      "aiSummary": {
+        "summary": "Orca 是一个 AI 编排平台，旨在帮助开发者高效管理多个 AI 编码代理。它支持在隔离的 Git 工作树中并行运行 Claude、Codex 等代理，提供移动端伴侣、终端分割、设计模式抓取 UI 元素以及与 GitHub/Linear 的原生集成。用户可以通过 SSH 运行代理，并使用 Orca CLI 脚本化工作流，实现多代理协作与代码审查。",
+        "summary_en": "An AI orchestrator for managing coding agents with parallel worktrees and mobile access.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "Git"
+        ],
+        "useCase": "适用于需要并行运行多个 AI 编码代理进行代码生成、测试和审查的开发者。",
+        "useCase_en": "Run multiple AI coding agents side-by-side in isolated worktrees to compare and merge results."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "headroomlabs-ai/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "language": "Python",
+      "stars": 77270,
+      "forks": 5992,
+      "todayStars": 474,
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "aiSummary": {
+        "summary": "Headroom 是一个本地运行的 AI 输入压缩工具，支持库、代理和 MCP 服务器模式。它能在 LLM 处理前压缩工具输出、日志及 RAG 块，显著减少 Token 消耗（JSON 减少 60-95%），同时保持答案准确。支持跨代理记忆与隐私保护。",
+        "summary_en": "Local LLM compression tool reducing token usage for coding agents and RAG while maintaining accuracy.",
+        "techStack": [
+          "Python",
+          "TypeScript",
+          "MCP"
+        ],
+        "useCase": "减少 LLM Token 消耗，优化 AI 编码代理和 RAG 系统的输入效率。",
+        "useCase_en": "Reduce token costs for AI agents by compressing tool outputs, logs, and RAG chunks locally."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 171676,
+      "forks": 9341,
+      "todayStars": 2079,
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "aiSummary": {
+        "summary": "Ponytail 是一个让 AI 代理像“懒惰的高级开发人员”一样思考的工具。它通过重用现有代码、避免不必要的复杂性来生成更少、更安全的代码。版本 5 在代码量减少 53% 的同时，将高风险逻辑的测试覆盖率从 68% 提升至 98%，显著降低了成本和延迟。",
+        "summary_en": "An AI agent skill that optimizes code generation by simulating a lazy senior developer, reducing code size and cost while maintaining security.",
+        "techStack": [
+          "JavaScript",
+          "AI Agent",
+          "Claude Code"
+        ],
+        "useCase": "用于优化 AI 代理的代码生成，减少冗余并提高安全性。",
+        "useCase_en": "To optimize AI-generated code by enforcing a 'lazy senior developer' persona, reducing complexity and cost while maintai"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "language": "Python",
+      "stars": 141536,
+      "forks": 16726,
+      "todayStars": 939,
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "aiSummary": {
+        "summary": "ComfyUI 是一个强大的扩散模型 GUI 和后端，采用节点/图形界面。它支持本地高效推理，兼容多种硬件和操作系统，允许用户通过可视化节点构建图像、视频、音频等生成流程，无需编写代码，是视觉专业人士的强大工具。",
+        "summary_en": "A modular diffusion model GUI and backend optimized for local inference on consumer hardware.",
+        "techStack": [
+          "Python",
+          "Node.js",
+          "PyTorch"
+        ],
+        "useCase": "适用于需要高度控制、本地运行大模型进行图像、视频及3D生成的视觉专业人士。",
+        "useCase_en": "Generate high-quality images, videos, and 3D models using a node-based interface for diffusion models."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "stars": 113022,
+      "forks": 16936,
+      "todayStars": 504,
+      "url": "https://github.com/supabase/supabase",
+      "aiSummary": {
+        "summary": "Supabase 是一个基于 Postgres 的开发平台，旨在使用企业级开源工具复刻 Firebase 的功能。它提供托管数据库、身份验证、自动生成的 REST/GraphQL API、实时订阅、文件存储、函数及 AI 向量工具包，帮助开发者快速构建 Web、移动和 AI 应用。",
+        "summary_en": "An open-source Firebase alternative built on Postgres for building web, mobile, and AI applications.",
+        "techStack": [
+          "TypeScript",
+          "PostgreSQL",
+          "Elixir"
+        ],
+        "useCase": "适用于需要快速构建 Web、移动应用及 AI 应用，且偏好开源 Postgres 数据库和类似 Firebase 开发体验的开发者。",
+        "useCase_en": "A platform for developers to build web, mobile, and AI applications using a Firebase-like experience."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "language": "TypeScript",
+      "stars": 59183,
+      "forks": 9662,
+      "todayStars": 112,
+      "url": "https://github.com/twentyhq/twenty",
+      "aiSummary": {
+        "summary": "twentyhq/twenty 是一款开源的 AI 原生 CRM，专为技术团队打造。它允许用户通过代码定义对象、视图和工作流，像管理其他软件栈一样构建和版本控制 CRM。支持云端部署和自托管，提供灵活的定制能力。",
+        "summary_en": "An open-source, AI-native CRM alternative to Salesforce designed for technical teams.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "CLI"
+        ],
+        "useCase": "适合需要高度定制化且具备代码开发能力的业务团队。",
+        "useCase_en": "Building a custom, AI-enhanced CRM for complex business needs."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 42839,
+      "forks": 7071,
+      "todayStars": 575,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，采用两阶段框架：先用专用分词器量化 OHLCV 数据，再利用自回归 Transformer 进行预训练。该模型专为处理金融数据的高噪声特性设计，支持多种量化任务。",
+        "summary_en": "Open-source foundation model for financial candlesticks (K-lines) trained on 45+ global exchanges using a specialized tokenizer and autoregressive Transformer.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Tokenizer",
+          "Hugging Face"
+        ],
+        "useCase": "金融 K 线数据预测与量化分析",
+        "useCase_en": "Forecasting financial market trends and analyzing K-line sequences."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "strelov1/freehire",
+      "description": "freehire — the open-source search engine for job seekers",
+      "language": "Go",
+      "stars": 2407,
+      "forks": 244,
+      "todayStars": 360,
+      "url": "https://github.com/strelov1/freehire",
+      "aiSummary": {
+        "summary": "freehire 是一个开源的求职搜索引擎，直接从 Workday、Greenhouse 等 ATS 爬取职位，去重后提供筛选搜索。它还提供简历构建、申请跟踪和 AI 匹配功能，支持自托管和 API 调用。",
+        "summary_en": "An open-source job search engine that crawls directly from ATS platforms to provide deduplicated, faceted search results.",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "求职者寻找工作、管理申请流程及构建简历。",
+        "useCase_en": "Job seekers use this open-source tool to find postings directly from ATS platforms and manage applications."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "stars": 12345,
+      "forks": 873,
+      "todayStars": 286,
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "aiSummary": {
+        "summary": "这是一个为AI编码助手提供长期记忆的Rust项目。它允许用户在Claude Code、Codex、Cursor等多种AI工具之间无缝切换，共享同一个记忆库。项目支持跨项目、跨机器的记忆存储，能够携带会话细节而非仅摘要，帮助开发者在不同工具间交接任务，无需重复解释架构和上下文。",
+        "summary_en": "A Rust project enabling long-term memory and seamless handoffs between different AI coding agents.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "多AI编码工具间的无缝上下文切换与任务交接",
+        "useCase_en": "To provide long-term memory and facilitate seamless handoffs between different AI coding agents."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "language": "Python",
+      "stars": 131669,
+      "forks": 12640,
+      "todayStars": 1433,
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "aiSummary": {
+        "summary": "Graphify 是一个将代码库、文档和配置转换为可查询知识图谱的工具。它利用本地确定性 AST 解析（tree-sitter）生成图结构，无需向量存储，确保数据不出本地。支持集成到 Claude Code、Cursor 等 AI 助手中，通过可视化图谱辅助代码理解和维护。Graphify Cloud 提供跨仓库的持续监控和正式验证。",
+        "summary_en": "Converts codebases and docs into a queryable knowledge graph for AI coding assistants using local AST parsing.",
+        "techStack": [
+          "Python",
+          "Tree-sitter",
+          "FastAPI"
+        ],
+        "useCase": "将代码库和文档转换为结构化知识图谱，辅助 AI 编码助手进行代码理解、维护和跨仓库连接。",
+        "useCase_en": "Automate code analysis and knowledge retrieval by mapping your entire project into a queryable graph."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-22T01:28:54.025Z",
+    "duration": "414s",
+    "version": "1.0.0"
+  }
+}
