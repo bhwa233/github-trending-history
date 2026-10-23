@@ -70,24 +70,21 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-10-21 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-10-22 | **成功**: 9 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | A coding-agent skill for multi-phase security audi... | JavaScript | 36.5k | 2.0k | 这是一个将编码代理转化为安全审计员的技能，通过六个阶段（侦察、狩猎、验证、输出、独立验证、报告）执行结构化审计。支持独立验证和机器可读发现，是 Cloudflare 漏洞发现工具的起点。 |
-| 2 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | A high-throughput and memory-efficient inference a... | Python | 94.9k | 441 | vLLM 是一个高性能且内存高效的 LLM 推理与服务引擎。它通过 PagedAttention 和连续批处理技术实现高吞吐量，支持多种量化格式及多 GPU 部署。提供 OpenAI 兼容 API，易于集成 Hugging Face 模型，适合大规模生产环境部署。 |
-| 3 | [stablyai/orca](https://github.com/stablyai/orca) | Orca is the place for working with a fleet of agen... | TypeScript | 101.3k | 1.5k | Orca 是一个 AI 编排平台，旨在帮助开发者高效管理多个 AI 编码代理。它支持在隔离的 Git 工作树中并行运行 Claude、Codex 等代理，提供移动端伴侣、终端分割、设计模式抓取 UI 元素以及与 GitHub/Linear 的原生集成。用户可以通过 SSH 运行代理，并使用 Orca CLI 脚本化工作流，实现多代理协作与代码审查。 |
-| 4 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | Compress tool outputs, logs, files, and RAG chunks... | Python | 77.3k | 474 | Headroom 是一个本地运行的 AI 输入压缩工具，支持库、代理和 MCP 服务器模式。它能在 LLM 处理前压缩工具输出、日志及 RAG 块，显著减少 Token 消耗（JSON 减少 60-95%），同时保持答案准确。支持跨代理记忆与隐私保护。 |
-| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | Makes your AI agent think like the laziest senior ... | JavaScript | 171.7k | 2.1k | Ponytail 是一个让 AI 代理像“懒惰的高级开发人员”一样思考的工具。它通过重用现有代码、避免不必要的复杂性来生成更少、更安全的代码。版本 5 在代码量减少 53% 的同时，将高风险逻辑的测试覆盖率从 68% 提升至 98%，显著降低了成本和延迟。 |
-| 6 | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI,... | Python | 141.5k | 939 | ComfyUI 是一个强大的扩散模型 GUI 和后端，采用节点/图形界面。它支持本地高效推理，兼容多种硬件和操作系统，允许用户通过可视化节点构建图像、视频、音频等生成流程，无需编写代码，是视觉专业人士的强大工具。 |
-| 7 | [supabase/supabase](https://github.com/supabase/supabase) | The Postgres development platform. Supabase gives ... | TypeScript | 113.0k | 504 | Supabase 是一个基于 Postgres 的开发平台，旨在使用企业级开源工具复刻 Firebase 的功能。它提供托管数据库、身份验证、自动生成的 REST/GraphQL API、实时订阅、文件存储、函数及 AI 向量工具包，帮助开发者快速构建 Web、移动和 AI 应用。 |
-| 8 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | The open alternative to Salesforce, designed for A... | TypeScript | 59.2k | 112 | twentyhq/twenty 是一款开源的 AI 原生 CRM，专为技术团队打造。它允许用户通过代码定义对象、视图和工作流，像管理其他软件栈一样构建和版本控制 CRM。支持云端部署和自托管，提供灵活的定制能力。 |
-| 9 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Fin... | Python | 42.8k | 575 | Kronos 是首个开源的金融蜡烛图基础模型，采用两阶段框架：先用专用分词器量化 OHLCV 数据，再利用自回归 Transformer 进行预训练。该模型专为处理金融数据的高噪声特性设计，支持多种量化任务。 |
-| 10 | [strelov1/freehire](https://github.com/strelov1/freehire) | freehire — the open-source search engine for job s... | Go | 2.4k | 360 | freehire 是一个开源的求职搜索引擎，直接从 Workday、Greenhouse 等 ATS 爬取职位，去重后提供筛选搜索。它还提供简历构建、申请跟踪和 AI 匹配功能，支持自托管和 API 调用。 |
-| 11 | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | Solution for long term memory for agent coding CLI... | Rust | 12.3k | 286 | 这是一个为AI编码助手提供长期记忆的Rust项目。它允许用户在Claude Code、Codex、Cursor等多种AI工具之间无缝切换，共享同一个记忆库。项目支持跨项目、跨机器的记忆存储，能够携带会话细节而非仅摘要，帮助开发者在不同工具间交接任务，无需重复解释架构和上下文。 |
-| 12 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Turn any codebase, with its docs, SQL schemas, con... | Python | 131.7k | 1.4k | Graphify 是一个将代码库、文档和配置转换为可查询知识图谱的工具。它利用本地确定性 AST 解析（tree-sitter）生成图结构，无需向量存储，确保数据不出本地。支持集成到 Claude Code、Cursor 等 AI 助手中，通过可视化图谱辅助代码理解和维护。Graphify Cloud 提供跨仓库的持续监控和正式验证。 |
+| 1 | [php/php-src](https://github.com/php/php-src) | The PHP Interpreter... | C | 41.2k | 287 | PHP 的官方源代码仓库，使用 C 语言编写。这是一个功能强大的通用脚本语言解释器，特别适合 Web 开发。项目提供了详细的构建指南，包括依赖安装、配置选项、编译及测试流程，支持从源码构建用于开发或生产环境。 |
+| 2 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | Open source repository of plugins primarily intend... | Python | 31.6k | 303 | 这是一个开源插件库，旨在将 Claude 转变为特定角色的专家。它包含生产力、销售、客户支持等11种插件，支持与 Slack、Notion、Jira 等多种工具集成。用户可自定义这些插件以适应公司流程，从而提高团队协作效率和产出质量。 |
+| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | Makes your AI agent think like the laziest senior ... | JavaScript | 173.5k | 1.9k | Ponytail 是一个让 AI 代理像“懒惰资深开发”一样思考的工具。它通过优化代码，只保留必要的逻辑，剔除冗余，从而生成更简洁、安全且低成本的代码。它支持代码审查功能，确保在减少代码量的同时不牺牲安全性、错误处理和可访问性。 |
+| 4 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | A coding-agent skill for multi-phase security audi... | JavaScript | 39.6k | 3.0k | 这是一个将代理转化为安全审计员的 JavaScript 技能。它通过六个阶段（侦察、狩猎、验证、输出、独立验证、报告）执行结构化安全审计。支持独立验证发现结果，确保机器可读性和准确性，适用于自动化漏洞发现和代码安全评估。 |
+| 5 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Turn any codebase, with its docs, SQL schemas, con... | Python | 133.0k | 1.4k | Graphify 是一个将代码库、文档和配置转换为可查询知识图谱的工具。它利用本地确定性 AST 解析（tree-sitter）生成图谱，无需向量存储，每条边都有明确解释。支持集成到 Claude、Cursor 等 AI 助手中，通过 `/graphify` 命令快速分析项目结构，生成可视化 HTML 和分析报告，帮助开发者直观理解代码关系，提升代码质量和调试效率。 |
+| 6 | [supabase/supabase](https://github.com/supabase/supabase) | The Postgres development platform. Supabase gives ... | TypeScript | 113.5k | 693 | Supabase 是一个基于 PostgreSQL 的开源 Firebase 替代品。它提供托管数据库、身份验证、自动生成的 REST/GraphQL API、实时订阅、文件存储、边缘函数及 AI 向量工具。支持自托管和本地开发，旨在为开发者提供类似 Firebase 的体验。 |
+| 7 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn... | Python | 103.8k | 101 | FastAPI 是一个基于 Python 类型提示的现代、高性能 Web 框架，用于构建 API。它具备开发速度快、代码简洁、自动生成交互式文档及符合 OpenAPI 标准等特性，能显著减少错误并提升生产环境下的性能。 |
+| 8 | [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | A visual, example-driven guide to Claude Code — fr... | Python | 43.2k | 177 | 这是一个关于 Claude Code 的视觉化、示例驱动的指南项目。它旨在解决官方文档缺乏组合示例和学习路径的问题，提供从基础到高级的教程，包含 Mermaid 图表、生产就绪的模板以及交互式测验，帮助用户快速掌握代理、钩子、技能和 MCP 服务器的编排。 |
+| 9 | [Meloong-Git/PCL](https://github.com/Meloong-Git/PCL) | Minecraft 启动器 Plain Craft Launcher（PCL）。... | Visual Basic .NET | 8.7k | 119 | 这是一个名为 Plain Craft Launcher (PCL) 的 Minecraft 启动器项目，使用 Visual Basic .NET 编写。项目包含了启动器的核心源代码，涵盖 UI 库、动画模块、下载模块及 Minecraft 启动模块等功能。代码会在每次正式版发布时同步更新，旨在为用户提供免费使用的 Minecraft 启动体验。 |
 
-[查看完整数据](api/github/2026-10-21.json)
+[查看完整数据](api/github/2026-10-22.json)
 <!-- END GITHUB TRENDING -->
 
 

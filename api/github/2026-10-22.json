@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-22",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "php/php-src",
+      "description": "The PHP Interpreter",
+      "language": "C",
+      "stars": 41168,
+      "forks": 8314,
+      "todayStars": 287,
+      "url": "https://github.com/php/php-src",
+      "aiSummary": {
+        "summary": "PHP 的官方源代码仓库，使用 C 语言编写。这是一个功能强大的通用脚本语言解释器，特别适合 Web 开发。项目提供了详细的构建指南，包括依赖安装、配置选项、编译及测试流程，支持从源码构建用于开发或生产环境。",
+        "summary_en": "The official open-source repository for the PHP scripting language interpreter.",
+        "techStack": [
+          "C",
+          "autoconf",
+          "bison",
+          "re2c",
+          "libxml2"
+        ],
+        "useCase": "适用于 Web 开发、服务器端脚本编写及构建自定义 PHP 环境。",
+        "useCase_en": "Powers web development by executing server-side scripting."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars": 31625,
+      "forks": 3533,
+      "todayStars": 303,
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "aiSummary": {
+        "summary": "这是一个开源插件库，旨在将 Claude 转变为特定角色的专家。它包含生产力、销售、客户支持等11种插件，支持与 Slack、Notion、Jira 等多种工具集成。用户可自定义这些插件以适应公司流程，从而提高团队协作效率和产出质量。",
+        "summary_en": "Collection of open-source plugins to customize Claude AI for specific roles and workflows.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "帮助知识工作者自动化工作流，提升团队协作效率。",
+        "useCase_en": "Configure Claude AI to handle specific job functions and integrate with company tools for better workflow automation."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars": 173519,
+      "forks": 9440,
+      "todayStars": 1948,
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "aiSummary": {
+        "summary": "Ponytail 是一个让 AI 代理像“懒惰资深开发”一样思考的工具。它通过优化代码，只保留必要的逻辑，剔除冗余，从而生成更简洁、安全且低成本的代码。它支持代码审查功能，确保在减少代码量的同时不牺牲安全性、错误处理和可访问性。",
+        "summary_en": "An AI agent skill that optimizes code generation for minimalism, security, and efficiency.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "优化 AI 代理生成的代码，使其更简洁、安全且低延迟。",
+        "useCase_en": "To optimize AI-generated code by enforcing minimalism and security standards."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 39614,
+      "forks": 2469,
+      "todayStars": 2979,
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "aiSummary": {
+        "summary": "这是一个将代理转化为安全审计员的 JavaScript 技能。它通过六个阶段（侦察、狩猎、验证、输出、独立验证、报告）执行结构化安全审计。支持独立验证发现结果，确保机器可读性和准确性，适用于自动化漏洞发现和代码安全评估。",
+        "summary_en": "A JavaScript skill for orchestrating multi-phase security audits with independent agent verification.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "JSON"
+        ],
+        "useCase": "自动化代码安全审计与漏洞发现",
+        "useCase_en": "Automates multi-phase security audits for repositories using isolated agents and independent verification."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "language": "Python",
+      "stars": 132980,
+      "forks": 12725,
+      "todayStars": 1408,
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "aiSummary": {
+        "summary": "Graphify 是一个将代码库、文档和配置转换为可查询知识图谱的工具。它利用本地确定性 AST 解析（tree-sitter）生成图谱，无需向量存储，每条边都有明确解释。支持集成到 Claude、Cursor 等 AI 助手中，通过 `/graphify` 命令快速分析项目结构，生成可视化 HTML 和分析报告，帮助开发者直观理解代码关系，提升代码质量和调试效率。",
+        "summary_en": "Converts codebases and docs into a queryable knowledge graph to reduce AI token spend.",
+        "techStack": [
+          "Python",
+          "Tree-sitter",
+          "HTML"
+        ],
+        "useCase": "将代码库和文档转换为可查询的知识图谱，用于代码分析、理解项目结构及提升 AI 编程助手效率。",
+        "useCase_en": "Transform codebases into a queryable knowledge graph to improve AI agent efficiency and code quality."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "stars": 113494,
+      "forks": 17001,
+      "todayStars": 693,
+      "url": "https://github.com/supabase/supabase",
+      "aiSummary": {
+        "summary": "Supabase 是一个基于 PostgreSQL 的开源 Firebase 替代品。它提供托管数据库、身份验证、自动生成的 REST/GraphQL API、实时订阅、文件存储、边缘函数及 AI 向量工具。支持自托管和本地开发，旨在为开发者提供类似 Firebase 的体验。",
+        "summary_en": "A Postgres development platform offering Firebase-like features for web, mobile, and AI applications.",
+        "techStack": [
+          "TypeScript",
+          "PostgreSQL",
+          "Elixir"
+        ],
+        "useCase": "适合需要 Firebase 功能（如实时数据库、身份验证）但偏好开源 PostgreSQL 的 Web、移动和 AI 应用开发。",
+        "useCase_en": "Developers use Supabase to build web, mobile, and AI applications using a hosted Postgres database."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "fastapi/fastapi",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "language": "Python",
+      "stars": 103760,
+      "forks": 10088,
+      "todayStars": 101,
+      "url": "https://github.com/fastapi/fastapi",
+      "aiSummary": {
+        "summary": "FastAPI 是一个基于 Python 类型提示的现代、高性能 Web 框架，用于构建 API。它具备开发速度快、代码简洁、自动生成交互式文档及符合 OpenAPI 标准等特性，能显著减少错误并提升生产环境下的性能。",
+        "summary_en": "Modern, high-performance web framework for building APIs with Python based on standard type hints.",
+        "techStack": [
+          "Python",
+          "Starlette",
+          "Pydantic"
+        ],
+        "useCase": "适用于构建高性能、生产级的 REST API 服务，特别是机器学习后端。",
+        "useCase_en": "Building high-performance web APIs with Python using standard type hints."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "stars": 43237,
+      "forks": 5391,
+      "todayStars": 177,
+      "url": "https://github.com/luongnv89/claude-howto",
+      "aiSummary": {
+        "summary": "这是一个关于 Claude Code 的视觉化、示例驱动的指南项目。它旨在解决官方文档缺乏组合示例和学习路径的问题，提供从基础到高级的教程，包含 Mermaid 图表、生产就绪的模板以及交互式测验，帮助用户快速掌握代理、钩子、技能和 MCP 服务器的编排。",
+        "summary_en": "A visual guide to mastering Claude Code with copy-paste templates and tutorials.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "Mermaid"
+        ],
+        "useCase": "适合希望从基础使用进阶到复杂代理编排与自动化工作流构建的开发者。",
+        "useCase_en": "Developers use this guide to learn Claude Code features and build production workflows."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Meloong-Git/PCL",
+      "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
+      "language": "Visual Basic .NET",
+      "stars": 8705,
+      "forks": 1201,
+      "todayStars": 119,
+      "url": "https://github.com/Meloong-Git/PCL",
+      "aiSummary": {
+        "summary": "这是一个名为 Plain Craft Launcher (PCL) 的 Minecraft 启动器项目，使用 Visual Basic .NET 编写。项目包含了启动器的核心源代码，涵盖 UI 库、动画模块、下载模块及 Minecraft 启动模块等功能。代码会在每次正式版发布时同步更新，旨在为用户提供免费使用的 Minecraft 启动体验。",
+        "summary_en": "A comprehensive open-source Minecraft launcher written in Visual Basic .NET, featuring UI libraries, download modules, and launch capabilities.",
+        "techStack": [
+          "Visual Basic .NET"
+        ],
+        "useCase": "Minecraft 玩家使用的免费开源启动器",
+        "useCase_en": "Launch Minecraft games using this open-source launcher."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-23T01:24:23.301Z",
+    "duration": "229s",
+    "version": "1.0.0"
+  }
+}
