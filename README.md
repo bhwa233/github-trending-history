@@ -70,21 +70,20 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-10-22 | **成功**: 9 | **失败**: 0
+**最后更新**: 2026-10-23 | **成功**: 8 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [php/php-src](https://github.com/php/php-src) | The PHP Interpreter... | C | 41.2k | 287 | PHP 的官方源代码仓库，使用 C 语言编写。这是一个功能强大的通用脚本语言解释器，特别适合 Web 开发。项目提供了详细的构建指南，包括依赖安装、配置选项、编译及测试流程，支持从源码构建用于开发或生产环境。 |
-| 2 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | Open source repository of plugins primarily intend... | Python | 31.6k | 303 | 这是一个开源插件库，旨在将 Claude 转变为特定角色的专家。它包含生产力、销售、客户支持等11种插件，支持与 Slack、Notion、Jira 等多种工具集成。用户可自定义这些插件以适应公司流程，从而提高团队协作效率和产出质量。 |
-| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | Makes your AI agent think like the laziest senior ... | JavaScript | 173.5k | 1.9k | Ponytail 是一个让 AI 代理像“懒惰资深开发”一样思考的工具。它通过优化代码，只保留必要的逻辑，剔除冗余，从而生成更简洁、安全且低成本的代码。它支持代码审查功能，确保在减少代码量的同时不牺牲安全性、错误处理和可访问性。 |
-| 4 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | A coding-agent skill for multi-phase security audi... | JavaScript | 39.6k | 3.0k | 这是一个将代理转化为安全审计员的 JavaScript 技能。它通过六个阶段（侦察、狩猎、验证、输出、独立验证、报告）执行结构化安全审计。支持独立验证发现结果，确保机器可读性和准确性，适用于自动化漏洞发现和代码安全评估。 |
-| 5 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Turn any codebase, with its docs, SQL schemas, con... | Python | 133.0k | 1.4k | Graphify 是一个将代码库、文档和配置转换为可查询知识图谱的工具。它利用本地确定性 AST 解析（tree-sitter）生成图谱，无需向量存储，每条边都有明确解释。支持集成到 Claude、Cursor 等 AI 助手中，通过 `/graphify` 命令快速分析项目结构，生成可视化 HTML 和分析报告，帮助开发者直观理解代码关系，提升代码质量和调试效率。 |
-| 6 | [supabase/supabase](https://github.com/supabase/supabase) | The Postgres development platform. Supabase gives ... | TypeScript | 113.5k | 693 | Supabase 是一个基于 PostgreSQL 的开源 Firebase 替代品。它提供托管数据库、身份验证、自动生成的 REST/GraphQL API、实时订阅、文件存储、边缘函数及 AI 向量工具。支持自托管和本地开发，旨在为开发者提供类似 Firebase 的体验。 |
-| 7 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | FastAPI framework, high performance, easy to learn... | Python | 103.8k | 101 | FastAPI 是一个基于 Python 类型提示的现代、高性能 Web 框架，用于构建 API。它具备开发速度快、代码简洁、自动生成交互式文档及符合 OpenAPI 标准等特性，能显著减少错误并提升生产环境下的性能。 |
-| 8 | [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | A visual, example-driven guide to Claude Code — fr... | Python | 43.2k | 177 | 这是一个关于 Claude Code 的视觉化、示例驱动的指南项目。它旨在解决官方文档缺乏组合示例和学习路径的问题，提供从基础到高级的教程，包含 Mermaid 图表、生产就绪的模板以及交互式测验，帮助用户快速掌握代理、钩子、技能和 MCP 服务器的编排。 |
-| 9 | [Meloong-Git/PCL](https://github.com/Meloong-Git/PCL) | Minecraft 启动器 Plain Craft Launcher（PCL）。... | Visual Basic .NET | 8.7k | 119 | 这是一个名为 Plain Craft Launcher (PCL) 的 Minecraft 启动器项目，使用 Visual Basic .NET 编写。项目包含了启动器的核心源代码，涵盖 UI 库、动画模块、下载模块及 Minecraft 启动模块等功能。代码会在每次正式版发布时同步更新，旨在为用户提供免费使用的 Minecraft 启动体验。 |
+| 1 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | A coding-agent skill for multi-phase security audi... | JavaScript | 42.2k | 2.7k | 这是一个将编码代理转化为安全审计员的技能，通过六个阶段（侦察、狩猎、验证、输出、独立验证、报告）执行结构化安全审计。支持独立验证和机器可读发现，具备覆盖驱动型狩猎能力，是 Cloudflare 漏洞发现工具的起点。 |
+| 2 | [php/php-src](https://github.com/php/php-src) | The PHP Interpreter... | C | 41.6k | 716 | PHP 是一种流行的通用脚本语言，特别适合 Web 开发。该项目是 PHP 解释器的官方源代码，使用 C 语言编写。它支持从博客到大型网站的各种应用，提供详细的安装、构建和测试指南，支持跨平台编译与调试。 |
+| 3 | [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | Open source repository of plugins primarily intend... | Python | 32.2k | 635 | 这是一个开源的插件仓库，旨在将 Claude 转化为特定角色（如销售、产品管理等）的专家。它包含11个预构建的插件，集成了Slack、Notion、Jira等企业常用工具，通过斜杠命令和子代理自动化工作流程。用户可自定义插件以适应公司流程，提升团队协作效率。 |
+| 4 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) | OpenShell is the safe, private runtime for autonom... | Rust | 18.8k | 1.1k | OpenShell 是 NVIDIA 开发的 Rust 项目，旨在为自主 AI 代理提供安全、私有的运行时环境。它通过内核级强制执行和形式化验证，确保代理只能访问被明确授权的资源，防止未经授权的数据泄露或网络访问。它允许代理执行文件操作、API 调用等任务，同时保护用户的数据和凭证安全。 |
+| 5 | [Renhuai123/ziwei-doushu](https://github.com/Renhuai123/ziwei-doushu) | 紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据... | TypeScript | 6.9k | 546 | 基于倪海厦《天纪》体系的紫微斗数开源排盘引擎，提供完整算法、四化系统及古籍数据。项目包含67.5万张命盘的13维解读数据集，支持在线排盘与AI解读，技术栈为TypeScript。 |
+| 6 | [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red) | claude-red is a curated library of offensive secur... | Python | 8.5k | 226 | 这是一个针对 Claude AI 的精选攻击性安全技能库，包含结构化的 SKILL.md 文件。它为 Claude 提供了从 SQL 注入到 EDR 欺骗等特定攻击面的专家级方法论，使其能像红队操作员一样工作。支持按需加载，适用于授权渗透测试和安全研究。 |
+| 7 | [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | VoxCPM2: Tokenizer-Free TTS for Multilingual Speec... | Python | 40.3k | 150 | VoxCPM2 是一个基于扩散自回归架构的 tokenizer-free 文本转语音系统，支持 30 种语言。它具备强大的语音设计能力，无需参考音频即可通过文本描述生成新声音，同时支持高质量语音克隆和 48kHz 音频输出，具备实时流式传输能力，开源且商业可用。 |
+| 8 | [nodejs/node](https://github.com/nodejs/node) | Node.js JavaScript runtime ✨🐢🚀✨... | JavaScript | 122.9k | 66 | Node.js 是一个开源的、跨平台的 JavaScript 运行时环境，由 OpenJS Foundation 支持。它采用开放治理模式，遵循语义化版本控制，提供 Alpha、Current 和 LTS 三种发布类型，旨在为库作者和 CI 管道提供稳定的开发环境，LTS 版本则专注于生产环境的稳定性和安全性。 |
 
-[查看完整数据](api/github/2026-10-22.json)
+[查看完整数据](api/github/2026-10-23.json)
 <!-- END GITHUB TRENDING -->
 
 
