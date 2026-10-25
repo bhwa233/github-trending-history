@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-24",
+  "since": "daily",
+  "totalRepos": 10,
+  "successCount": 10,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 44563,
+      "forks": 2769,
+      "todayStars": 2264,
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "aiSummary": {
+        "summary": "这是一个将编码代理转化为安全审计员的技能，通过六个阶段（侦察、狩猎、验证等）执行多阶段安全审计。它支持独立验证和机器可读输出，能够自动发现漏洞并生成结构化报告，是 Cloudflare 漏洞发现系统的起点。",
+        "summary_en": "A JavaScript skill for automated multi-phase security audits with independently verified, machine-readable findings.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "自动化代码安全审计与漏洞发现",
+        "useCase_en": "Turn coding agents into security auditors by orchestrating multi-phase verification and reporting."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "stars": 19479,
+      "forks": 1932,
+      "todayStars": 896,
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "aiSummary": {
+        "summary": "OpenShell 是一个为自主 AI 代理提供的安全、私有运行时。它利用内核级强制执行和形式化验证，在赋予代理执行任务（如读写文件、调用 API）权限的同时，严格限制其对敏感数据和网络的访问。项目采用 Rust 开发，通过策略声明确保代理行为的安全隔离。",
+        "summary_en": "A Rust-based safe runtime for autonomous AI agents using kernel-level enforcement and formal verification.",
+        "techStack": [
+          "Rust",
+          "Linux",
+          "Docker"
+        ],
+        "useCase": "运行需要安全访问文件、API 和执行系统命令的自主 AI 代理。",
+        "useCase_en": "To securely execute autonomous AI agents by enforcing strict policies on file access, system calls, and network connecti"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "aws/agent-toolkit-for-aws",
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "language": "Python",
+      "stars": 3129,
+      "forks": 399,
+      "todayStars": 13,
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "aiSummary": {
+        "summary": "这是一个由 AWS 官方支持的 Python 项目，旨在为 AI 编码代理提供在 AWS 上构建、部署和管理应用程序的工具、知识和护栏。它包含多个 MCP 服务器和插件，支持服务选择、CDK/CloudFormation、数据分析、DevSecOps 等功能，兼容 Claude Code、Cursor 等主流开发工具。",
+        "summary_en": "Official AWS toolkit providing MCP servers and plugins to help AI agents build, deploy, and manage applications.",
+        "techStack": [
+          "Python",
+          "AWS CLI",
+          "AWS CDK/CloudFormation"
+        ],
+        "useCase": "帮助 AI 编码代理在 AWS 上构建、部署和管理应用程序。",
+        "useCase_en": "AI coding agents use this toolkit to configure AWS CLI and install plugins for infrastructure management and deployment."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 32151,
+      "forks": 1651,
+      "todayStars": 455,
+      "url": "https://github.com/Nutlope/hallmark",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code、Cursor 和 Codex 设计的“反 AI-slop”设计技能。它提供 48 种独特主题，通过检查标题眉毛、全大写标签等机器痕迹来确保设计真实。支持自定义、重设计、审计和截图，确保 AI 生成的网页符合人类设计标准，避免通用化。",
+        "summary_en": "A design skill for AI coding assistants that generates human-like, accessible web designs with 48 themes.",
+        "techStack": [
+          "CSS",
+          "AI Coding Tools (Claude, Cursor, Codex)"
+        ],
+        "useCase": "开发者利用此工具让 AI 编码助手生成具有真实感、非通用化的专业网页设计。",
+        "useCase_en": "To generate high-quality, accessible web designs that avoid the 'slop' look associated with AI-generated code."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "stars": 44566,
+      "forks": 5493,
+      "todayStars": 392,
+      "url": "https://github.com/luongnv89/claude-howto",
+      "aiSummary": {
+        "summary": "这是一个视觉化、示例驱动的 Claude Code 指南，涵盖从基础概念到高级代理、钩子及 MCP 服务器的全流程。项目提供结构化学习路径、Mermaid 图解及生产级可复制模板，旨在解决官方文档缺乏组合示例的问题，帮助用户快速掌握 Claude Code 并构建自动化工作流。",
+        "summary_en": "A visual guide to mastering Claude Code with production-ready templates and tutorials.",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "Mermaid"
+        ],
+        "useCase": "适用于希望系统化学习 Claude Code 功能、构建自动化开发工作流或需要生产级代码模板的开发者。",
+        "useCase_en": "Developers learn to orchestrate Claude Code agents, hooks, and MCP servers using visual tutorials."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "stars": 86417,
+      "forks": 5155,
+      "todayStars": 619,
+      "url": "https://github.com/pbakaus/impeccable",
+      "aiSummary": {
+        "summary": "Impeccable 是一个为 AI 编码代理提供设计指导的开源项目。它包含 24 个命令、62 条确定性检测规则和实时浏览器迭代功能，旨在避免 AI 生成的重复设计模式。通过 `/impeccable init` 记录产品真相，帮助 AI 生成更独特、高质量的前端设计。",
+        "summary_en": "A Rust-based design language providing deterministic rules and commands for AI coding agents to improve frontend design consistency.",
+        "techStack": [
+          "Rust",
+          "Node.js",
+          "Browser Extension"
+        ],
+        "useCase": "为 AI 编码代理提供设计指导，避免生成千篇一律的重复设计。",
+        "useCase_en": "To provide design guidance and deterministic rules for AI coding agents to ensure consistent frontend design."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "pollen-robotics/microduck",
+      "description": "A Tiny biped duck robot 🦆",
+      "language": "Rust",
+      "stars": 10996,
+      "forks": 1413,
+      "todayStars": 319,
+      "url": "https://github.com/pollen-robotics/microduck",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 开发的双足小鸭子机器人，运行在 Rockchip RK3566 芯片上。它利用强化学习策略控制 15 个舵机，实现行走、滚动、抓取和起立等复杂动作。系统包含 50Hz 控制循环、蓝牙控制和自动更新机制，支持从模拟到现实的策略迁移。",
+        "summary_en": "Rust firmware for a tiny bipedal duck robot, managing servos and neural policies on an RK3566.",
+        "techStack": [
+          "Rust",
+          "Rockchip RK3566",
+          "Reinforcement Learning (PPO)",
+          "MuJoCo",
+          "ONNX"
+        ],
+        "useCase": "适用于机器人控制算法研究、强化学习策略验证及嵌入式 AI 系统开发。",
+        "useCase_en": "To control a tiny bipedal robot's movements and interactions using neural policies on embedded hardware."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "google-gemini/gemini-cli",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "language": "TypeScript",
+      "stars": 108056,
+      "forks": 14808,
+      "todayStars": 44,
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "aiSummary": {
+        "summary": "这是一个开源的 AI 代理工具，旨在将 Google Gemini 的强大功能直接带入终端。它提供轻量级的访问方式，支持通过 npx、npm 等多种方式安装，并定期发布更新。注意：该项目已被 Antigravity 取代，且未针对最新模型优化。",
+        "summary_en": "Open-source AI agent providing lightweight access to Google's Gemini model in the terminal.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Google Gemini API"
+        ],
+        "useCase": "在终端中直接使用 Gemini 进行 AI 对话、编程辅助及快速查询。",
+        "useCase_en": "Interact with Google's Gemini AI models directly from the terminal for coding or general assistance."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "jbiaojerry/ebook-treasure-chest",
+      "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+      "language": "Python",
+      "stars": 22610,
+      "forks": 3191,
+      "todayStars": 227,
+      "url": "https://github.com/jbiaojerry/ebook-treasure-chest",
+      "aiSummary": {
+        "summary": "这是一个电子书资源聚合库，使用Python开发。它收集了帆书、微信读书、京东读书等平台的大量电子书链接，提供epub、mobi、azw3三种格式。项目通过GitHub Pages提供强大的实时搜索和多关键词搜索功能，并按文学、历史、管理等分类整理，方便用户快速查找和下载各类书籍。",
+        "summary_en": "A Python repository hosting a categorized library of ebook download links for major reading platforms.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适合需要免费下载各类电子书（epub/mobi/azw3格式）的用户，通过实时搜索快速定位书籍资源。",
+        "useCase_en": "Users can search for and download ebooks in various formats from popular reading apps like WeChat Reading and Fanqie."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "stars": 4105,
+      "forks": 588,
+      "todayStars": 477,
+      "url": "https://github.com/makecindy/cindy",
+      "aiSummary": {
+        "summary": "Cindy 是一个开源、开箱即用的 AI Agent，支持本地运行。它集成了 Claude Code 和 Codex 等多种模型，支持浏览器和电脑控制。具备记忆、技能、自动化和 MCP 插件功能，可无缝处理项目任务，支持自定义 API 密钥或使用官方服务。",
+        "summary_en": "Cindy is an open-source AI agent that runs locally, integrates multiple models and tools, and automates tasks across your workspace.",
+        "techStack": [
+          "TypeScript",
+          "pnpm monorepo"
+        ],
+        "useCase": "适用于本地自动化任务处理、项目开发辅助及多设备控制。",
+        "useCase_en": "Automate coding and computer tasks by connecting AI models and tools locally."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-25T01:01:24.411Z",
+    "duration": "358s",
+    "version": "1.0.0"
+  }
+}
