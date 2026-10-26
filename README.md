@@ -70,22 +70,23 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-10-24 | **成功**: 10 | **失败**: 0
+**最后更新**: 2026-10-25 | **成功**: 11 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | A coding-agent skill for multi-phase security audi... | JavaScript | 44.6k | 2.3k | 这是一个将编码代理转化为安全审计员的技能，通过六个阶段（侦察、狩猎、验证等）执行多阶段安全审计。它支持独立验证和机器可读输出，能够自动发现漏洞并生成结构化报告，是 Cloudflare 漏洞发现系统的起点。 |
-| 2 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) | OpenShell is the safe, private runtime for autonom... | Rust | 19.5k | 896 | OpenShell 是一个为自主 AI 代理提供的安全、私有运行时。它利用内核级强制执行和形式化验证，在赋予代理执行任务（如读写文件、调用 API）权限的同时，严格限制其对敏感数据和网络的访问。项目采用 Rust 开发，通过策略声明确保代理行为的安全隔离。 |
-| 3 | [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws) | Official, AWS-supported MCP servers, skills, and p... | Python | 3.1k | 13 | 这是一个由 AWS 官方支持的 Python 项目，旨在为 AI 编码代理提供在 AWS 上构建、部署和管理应用程序的工具、知识和护栏。它包含多个 MCP 服务器和插件，支持服务选择、CDK/CloudFormation、数据分析、DevSecOps 等功能，兼容 Claude Code、Cursor 等主流开发工具。 |
-| 4 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Anti-AI-slop design skill for Claude Code, Cursor,... | CSS | 32.2k | 455 | 这是一个为 Claude Code、Cursor 和 Codex 设计的“反 AI-slop”设计技能。它提供 48 种独特主题，通过检查标题眉毛、全大写标签等机器痕迹来确保设计真实。支持自定义、重设计、审计和截图，确保 AI 生成的网页符合人类设计标准，避免通用化。 |
-| 5 | [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | A visual, example-driven guide to Claude Code — fr... | Python | 44.6k | 392 | 这是一个视觉化、示例驱动的 Claude Code 指南，涵盖从基础概念到高级代理、钩子及 MCP 服务器的全流程。项目提供结构化学习路径、Mermaid 图解及生产级可复制模板，旨在解决官方文档缺乏组合示例的问题，帮助用户快速掌握 Claude Code 并构建自动化工作流。 |
-| 6 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | Rust | 86.4k | 619 | Impeccable 是一个为 AI 编码代理提供设计指导的开源项目。它包含 24 个命令、62 条确定性检测规则和实时浏览器迭代功能，旨在避免 AI 生成的重复设计模式。通过 `/impeccable init` 记录产品真相，帮助 AI 生成更独特、高质量的前端设计。 |
-| 7 | [pollen-robotics/microduck](https://github.com/pollen-robotics/microduck) | A Tiny biped duck robot 🦆... | Rust | 11.0k | 319 | 这是一个基于 Rust 开发的双足小鸭子机器人，运行在 Rockchip RK3566 芯片上。它利用强化学习策略控制 15 个舵机，实现行走、滚动、抓取和起立等复杂动作。系统包含 50Hz 控制循环、蓝牙控制和自动更新机制，支持从模拟到现实的策略迁移。 |
-| 8 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | An open-source AI agent that brings the power of G... | TypeScript | 108.1k | 44 | 这是一个开源的 AI 代理工具，旨在将 Google Gemini 的强大功能直接带入终端。它提供轻量级的访问方式，支持通过 npx、npm 等多种方式安装，并定期发布更新。注意：该项目已被 Antigravity 取代，且未针对最新模型优化。 |
-| 9 | [jbiaojerry/ebook-treasure-chest](https://github.com/jbiaojerry/ebook-treasure-chest) | 欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身... | Python | 22.6k | 227 | 这是一个电子书资源聚合库，使用Python开发。它收集了帆书、微信读书、京东读书等平台的大量电子书链接，提供epub、mobi、azw3三种格式。项目通过GitHub Pages提供强大的实时搜索和多关键词搜索功能，并按文学、历史、管理等分类整理，方便用户快速查找和下载各类书籍。 |
-| 10 | [makecindy/cindy](https://github.com/makecindy/cindy) | Consider it done. The open-source AI agent that wo... | TypeScript | 4.1k | 477 | Cindy 是一个开源、开箱即用的 AI Agent，支持本地运行。它集成了 Claude Code 和 Codex 等多种模型，支持浏览器和电脑控制。具备记忆、技能、自动化和 MCP 插件功能，可无缝处理项目任务，支持自定义 API 密钥或使用官方服务。 |
+| 1 | [makecindy/cindy](https://github.com/makecindy/cindy) | Consider it done. The open-source AI agent that wo... | TypeScript | 4.9k | 675 | Cindy 是一个开源、开箱即用的 AI Agent，基于 TypeScript 开发。它支持本地运行，能整合多种模型和工具，驱动浏览器、电脑和手机完成实际工作。用户可自定义记忆、技能和自动化流程，通过 MCP 连接内部工具，实现高效的任务自动化和协作。 |
+| 2 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Anti-AI-slop design skill for Claude Code, Cursor,... | CSS | 33.8k | 1.3k | 这是一个为 Claude Code、Cursor 和 Codex 设计的技能，旨在防止生成 AI 风格的网页。它提供 48 种独特的主题，确保设计符合人类审美，并通过对比度、事实核查等检查。它支持自定义页面、重定向和审计，帮助 AI 生成更自然、更专业的网页设计。 |
+| 3 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio is the open-source, fully-local Eleven... | Python | 86.8k | 1.6k | VoiceStudio 是一个开源的本地化 ElevenLabs 替代品，支持语音克隆、视频配音、听写、转录和有声书制作，覆盖 646 种语言。它提供本地 API 和 MCP 支持，允许用户在本地硬件上运行工作流，保护隐私，并支持多种音频处理引擎。 |
+| 4 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | Rust | 87.7k | 1.1k | Impeccable 是一个为 AI 编码代理提供设计指导的 Rust 工具。它包含 24 个命令、62 条确定性检测规则和实时浏览器迭代，旨在防止 AI 生成陈词滥调的设计，确保前端设计的一致性和高质量。 |
+| 5 | [pollen-robotics/microduck](https://github.com/pollen-robotics/microduck) | A Tiny biped duck robot 🦆... | Rust | 11.7k | 647 | 这是一个基于 Rust 开发的 25cm 双足鸭子机器人，运行在 Rockchip RK3566 上。它利用强化学习策略控制 15 个舵机，实现了行走、滚动、抓取、站立及踢球等复杂动作。项目集成了完整的控制循环、蓝牙通信和 OTA 更新机制，支持从 MuJoCo/PPO 模拟环境导出的 ONNX 策略进行实时推理。 |
+| 6 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 114.6k | 381 | 这是一个基于多智能体架构的 LLM 金融交易框架。它利用大语言模型（如 GPT-5.6、Claude 等）进行股票、加密货币的分析与决策，支持回测、情绪分析及 SEC 基本面数据读取。项目提供 CLI 工具，支持并行分析，旨在通过多智能体协作实现自动化量化交易。 |
+| 7 | [Renhuai123/ziwei-doushu](https://github.com/Renhuai123/ziwei-doushu) | 紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据... | TypeScript | 7.6k | 199 | 基于倪海厦《天纪》体系的紫微斗数开源排盘引擎。提供完整排盘算法、四化系统及古籍数据，并发布包含67.5万张命盘的解读数据集。代码开源，数据集可下载，旨在通过技术手段普及传统命理学。 |
+| 8 | [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | Vibe code with pi in a lightweight, real IDE that ... | TypeScript | 1.7k | 51 | ThinkRail 是一个基于 TypeScript 的智能 IDE，围绕 pi 编码代理构建。它通过隔离的 git worktree 工作区实现并行开发，支持 AI 自动生成代码、管理 PR 和审查。IDE 提供了 Monaco 编辑器、文件树和终端等完整功能，并能根据用户习惯自我定制，提升开发效率。 |
+| 9 | [coollabsio/coolify](https://github.com/coollabsio/coolify) | An open-source, self-hostable PaaS alternative to ... | PHP | 64.4k | 152 | Coolify 是一个开源、自托管的 PaaS 平台，旨在替代 Vercel、Heroku 和 Netlify。它允许用户在自有服务器上轻松部署静态站点、全栈应用、数据库及超过 360 种一键服务。支持 Docker、Git 集成、自动化部署、反向代理和 HTTPS 管理，提供类似云平台的便捷性，同时保持对基础设施的完全控制。 |
+| 10 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | A coding-agent skill for multi-phase security audi... | JavaScript | 46.9k | 2.9k | 这是一个由 Cloudflare 开发的编码代理技能，用于自动化多阶段安全审计。它通过六个阶段（侦察、狩猎、验证等）协调隔离代理，独立验证发现结果，并生成机器可读的报告。该技能支持增量审计，利用先前的发现来定位漏洞，确保发现结果的准确性和可追溯性。 |
+| 11 | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | Universal SEO skill for Claude Code. 26 sub-skills... | Python | 20.9k | 197 | 这是一个为 Claude Code 设计的开源 SEO 审计插件。它利用 19 个专业代理（如技术 SEO、内容编辑、Schema 工程师）在 10-15 分钟内对网站进行全面分析。涵盖技术 SEO、E-E-A-T、结构化数据、AI 搜索（GEO）及本地电商 SEO，提供可执行的行动计划，帮助提升 Google 排名和 AI 引用率。 |
 
-[查看完整数据](api/github/2026-10-24.json)
+[查看完整数据](api/github/2026-10-25.json)
 <!-- END GITHUB TRENDING -->
 
 

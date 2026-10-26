@@ -1,0 +1,245 @@
+{
+  "date": "2026-10-25",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "stars": 4880,
+      "forks": 666,
+      "todayStars": 675,
+      "url": "https://github.com/makecindy/cindy",
+      "aiSummary": {
+        "summary": "Cindy 是一个开源、开箱即用的 AI Agent，基于 TypeScript 开发。它支持本地运行，能整合多种模型和工具，驱动浏览器、电脑和手机完成实际工作。用户可自定义记忆、技能和自动化流程，通过 MCP 连接内部工具，实现高效的任务自动化和协作。",
+        "summary_en": "Open-source AI agent that runs locally to automate real work using multiple models and tools.",
+        "techStack": [
+          "TypeScript",
+          "pnpm"
+        ],
+        "useCase": "适用于自动化日常任务、代码编写及连接内部业务系统的场景。",
+        "useCase_en": "Automate real work in projects and apps locally using a flexible AI agent."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 33787,
+      "forks": 1767,
+      "todayStars": 1317,
+      "url": "https://github.com/Nutlope/hallmark",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code、Cursor 和 Codex 设计的技能，旨在防止生成 AI 风格的网页。它提供 48 种独特的主题，确保设计符合人类审美，并通过对比度、事实核查等检查。它支持自定义页面、重定向和审计，帮助 AI 生成更自然、更专业的网页设计。",
+        "summary_en": "A design skill for AI coding assistants that generates human-like, accessible web designs with 48 themes and anti-AI-slop checks.",
+        "techStack": [
+          "CSS"
+        ],
+        "useCase": "帮助 AI 编程助手生成避免“AI 感觉”且符合人类设计标准的网页。",
+        "useCase_en": "To ensure AI-generated web designs look professional, human, and accessible by applying strict design rules and themes."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 86843,
+      "forks": 9613,
+      "todayStars": 1592,
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "aiSummary": {
+        "summary": "VoiceStudio 是一个开源的本地化 ElevenLabs 替代品，支持语音克隆、视频配音、听写、转录和有声书制作，覆盖 646 种语言。它提供本地 API 和 MCP 支持，允许用户在本地硬件上运行工作流，保护隐私，并支持多种音频处理引擎。",
+        "summary_en": "Open-source, local-first alternative to ElevenLabs for voice cloning, dubbing, and transcription.",
+        "techStack": [
+          "Python",
+          "Electron",
+          "k2-fsa/OmniVoice",
+          "GGUF",
+          "Vulkan"
+        ],
+        "useCase": "适用于需要本地化、隐私保护的语音合成、克隆及视频配音的开发者与创作者。",
+        "useCase_en": "Create local voice clones, dub videos, and transcribe audio using open-source tools."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "stars": 87710,
+      "forks": 5243,
+      "todayStars": 1092,
+      "url": "https://github.com/pbakaus/impeccable",
+      "aiSummary": {
+        "summary": "Impeccable 是一个为 AI 编码代理提供设计指导的 Rust 工具。它包含 24 个命令、62 条确定性检测规则和实时浏览器迭代，旨在防止 AI 生成陈词滥调的设计，确保前端设计的一致性和高质量。",
+        "summary_en": "A Rust-based design language and CLI tool that guides AI coding agents to create consistent, high-quality frontend designs.",
+        "techStack": [
+          "Rust",
+          "Node.js"
+        ],
+        "useCase": "为 AI 编码代理提供设计指导，生成高质量且一致的前端设计。",
+        "useCase_en": "Guide AI coding agents to produce consistent, high-quality frontend designs by enforcing design rules and templates."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "pollen-robotics/microduck",
+      "description": "A Tiny biped duck robot 🦆",
+      "language": "Rust",
+      "stars": 11650,
+      "forks": 1483,
+      "todayStars": 647,
+      "url": "https://github.com/pollen-robotics/microduck",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 开发的 25cm 双足鸭子机器人，运行在 Rockchip RK3566 上。它利用强化学习策略控制 15 个舵机，实现了行走、滚动、抓取、站立及踢球等复杂动作。项目集成了完整的控制循环、蓝牙通信和 OTA 更新机制，支持从 MuJoCo/PPO 模拟环境导出的 ONNX 策略进行实时推理。",
+        "summary_en": "Rust firmware brain for a tiny bipedal duck robot running neural policies on RK3566 hardware.",
+        "techStack": [
+          "Rust",
+          "Rockchip RK3566",
+          "MuJoCo",
+          "PPO",
+          "ONNX"
+        ],
+        "useCase": "强化学习双足机器人控制与硬件实现研究",
+        "useCase_en": "To run a tiny bipedal duck robot's brain using neural policies and hardware control."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 114624,
+      "forks": 22128,
+      "todayStars": 381,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "这是一个基于多智能体架构的 LLM 金融交易框架。它利用大语言模型（如 GPT-5.6、Claude 等）进行股票、加密货币的分析与决策，支持回测、情绪分析及 SEC 基本面数据读取。项目提供 CLI 工具，支持并行分析，旨在通过多智能体协作实现自动化量化交易。",
+        "summary_en": "A Python framework for building multi-agent financial trading systems using Large Language Models.",
+        "techStack": [
+          "Python",
+          "LLM (OpenAI/Claude/Anthropic)",
+          "Financial Data APIs (Alpha Vantage/Yahoo/SEC EDGAR)",
+          "CLI"
+        ],
+        "useCase": "量化交易策略回测与自动化执行",
+        "useCase_en": "To automate financial analysis and trading decisions via multi-agent LLM systems."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Renhuai123/ziwei-doushu",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "language": "TypeScript",
+      "stars": 7564,
+      "forks": 1548,
+      "todayStars": 199,
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "aiSummary": {
+        "summary": "基于倪海厦《天纪》体系的紫微斗数开源排盘引擎。提供完整排盘算法、四化系统及古籍数据，并发布包含67.5万张命盘的解读数据集。代码开源，数据集可下载，旨在通过技术手段普及传统命理学。",
+        "summary_en": "Open-source Ziwei Doushu chart calculation engine based on Ni Haishan's 'Tianji' system, featuring a massive dataset of 674k charts with AI interpretations.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "传统命理学排盘、命理研究及AI解读",
+        "useCase_en": "A tool for calculating Ziwei Doushu charts and providing AI-driven interpretations based on Ni Haishan's teachings."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "JetBrains/thinkrail",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "language": "TypeScript",
+      "stars": 1748,
+      "forks": 102,
+      "todayStars": 51,
+      "url": "https://github.com/JetBrains/thinkrail",
+      "aiSummary": {
+        "summary": "ThinkRail 是一个基于 TypeScript 的智能 IDE，围绕 pi 编码代理构建。它通过隔离的 git worktree 工作区实现并行开发，支持 AI 自动生成代码、管理 PR 和审查。IDE 提供了 Monaco 编辑器、文件树和终端等完整功能，并能根据用户习惯自我定制，提升开发效率。",
+        "summary_en": "ThinkRail is an agentic IDE integrating the pi coding agent with isolated workspaces for parallel development.",
+        "techStack": [
+          "TypeScript",
+          "Monaco Editor",
+          "Git"
+        ],
+        "useCase": "适用于需要 AI 辅助编程、代码生成以及高效管理 Pull Request 的开发者。",
+        "useCase_en": "Develop software using an AI-powered IDE that manages isolated workspaces and integrates with your existing Git workflow"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "coollabsio/coolify",
+      "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
+      "language": "PHP",
+      "stars": 64389,
+      "forks": 5785,
+      "todayStars": 152,
+      "url": "https://github.com/coollabsio/coolify",
+      "aiSummary": {
+        "summary": "Coolify 是一个开源、自托管的 PaaS 平台，旨在替代 Vercel、Heroku 和 Netlify。它允许用户在自有服务器上轻松部署静态站点、全栈应用、数据库及超过 360 种一键服务。支持 Docker、Git 集成、自动化部署、反向代理和 HTTPS 管理，提供类似云平台的便捷性，同时保持对基础设施的完全控制。",
+        "summary_en": "An open-source, self-hostable PaaS alternative to Vercel, Heroku, and Netlify for deploying applications and databases on your own servers.",
+        "techStack": [
+          "PHP",
+          "Docker",
+          "Git",
+          "SSH"
+        ],
+        "useCase": "需要在自有服务器上替代 Vercel、Heroku 或 Netlify 的开发者，用于部署全栈应用、数据库及静态站点。",
+        "useCase_en": "Developers deploy full-stack applications and databases on their own servers using a self-hosted PaaS platform."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 46920,
+      "forks": 2908,
+      "todayStars": 2878,
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "aiSummary": {
+        "summary": "这是一个由 Cloudflare 开发的编码代理技能，用于自动化多阶段安全审计。它通过六个阶段（侦察、狩猎、验证等）协调隔离代理，独立验证发现结果，并生成机器可读的报告。该技能支持增量审计，利用先前的发现来定位漏洞，确保发现结果的准确性和可追溯性。",
+        "summary_en": "A coding-agent skill for multi-phase security audits featuring independent verification and machine-readable findings.",
+        "techStack": [
+          "JavaScript",
+          "CommonJS",
+          "JSON"
+        ],
+        "useCase": "适用于自动化代码安全审计与漏洞发现，特别是需要多阶段深度分析及独立验证的复杂项目。",
+        "useCase_en": "Automate multi-phase security audits with independent verification and structured reporting."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "language": "Python",
+      "stars": 20882,
+      "forks": 2956,
+      "todayStars": 197,
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code 设计的开源 SEO 审计插件。它利用 19 个专业代理（如技术 SEO、内容编辑、Schema 工程师）在 10-15 分钟内对网站进行全面分析。涵盖技术 SEO、E-E-A-T、结构化数据、AI 搜索（GEO）及本地电商 SEO，提供可执行的行动计划，帮助提升 Google 排名和 AI 引用率。",
+        "summary_en": "Universal SEO skill for Claude Code featuring 19 agents to perform technical, content, and AI search audits.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "Google APIs"
+        ],
+        "useCase": "开发者或 SEO 专家利用 Claude Code 快速进行网站全面审计与优化。",
+        "useCase_en": "Automate website SEO audits and generate actionable improvement plans using specialized agents within Claude Code."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-26T01:10:03.528Z",
+    "duration": "400s",
+    "version": "1.0.0"
+  }
+}
