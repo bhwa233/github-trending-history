@@ -1,0 +1,293 @@
+{
+  "date": "2026-10-26",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 12,
+  "failedCount": 2,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 36469,
+      "forks": 1902,
+      "todayStars": 2244,
+      "url": "https://github.com/Nutlope/hallmark",
+      "aiSummary": {
+        "summary": "这是一个由 Together AI 开发的 AI 设计技能，旨在防止 Claude Code、Cursor 和 Codex 生成看起来像机器生成的网页。它提供 48 种主题，根据用户任务构建页面，并检查对比度、事实错误等“机器痕迹”。支持自定义页面、URL 捕获和真实照片，确保高质量的设计输出。",
+        "summary_en": "A design skill for AI coding assistants that enforces human-like aesthetics and prevents AI-generated slop through 48 themes and quality checks.",
+        "techStack": [
+          "CSS",
+          "Claude Code",
+          "Cursor",
+          "Codex"
+        ],
+        "useCase": "防止 AI 生成网页出现“AI-slop”现象，确保设计符合人类审美和可用性标准。",
+        "useCase_en": "Developers use this skill to ensure AI-generated code looks human and avoids common AI design patterns."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars": 116181,
+      "forks": 22289,
+      "todayStars": 1395,
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aiSummary": {
+        "summary": "这是一个基于多智能体 LLM 的金融交易框架。项目利用大语言模型（如 GPT-6、Claude Sonnet 5）构建交易员、分析师和经理角色，实现自动化交易决策与回测。支持 SEC EDGAR、Yahoo Finance 等多源数据接入，提供 CLI 工具及 HTML 报告，旨在通过 AI 提升金融交易效率与准确性。",
+        "summary_en": "A Python framework for autonomous financial trading using multi-agent LLM architectures.",
+        "techStack": [
+          "Python",
+          "LLM (GPT/Claude/GLM)",
+          "Financial Data APIs"
+        ],
+        "useCase": "自动化量化交易策略回测与执行",
+        "useCase_en": "Build autonomous financial trading agents that analyze data and execute trades using LLMs."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "JetBrains/thinkrail",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "language": "TypeScript",
+      "stars": 2964,
+      "forks": 160,
+      "todayStars": 1173,
+      "url": "https://github.com/JetBrains/thinkrail",
+      "aiSummary": {
+        "summary": "ThinkRail 是一个基于 TypeScript 的智能 IDE，围绕 pi 编码代理构建。它提供隔离的工作区（基于 git worktrees）、持久化的项目知识以及强大的 IDE 功能。该工具允许 AI 并行处理任务，自动管理 PR，并能根据用户工作方式自适应进化。",
+        "summary_en": "An agentic IDE that uses the pi coding agent to manage isolated workspaces and automate development.",
+        "techStack": [
+          "TypeScript",
+          "Monaco Editor",
+          "Git"
+        ],
+        "useCase": "AI 辅助编程与自动化代码管理",
+        "useCase_en": "To leverage the pi coding agent within an isolated workspace environment for automated development."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "stars": 6547,
+      "forks": 798,
+      "todayStars": 1296,
+      "url": "https://github.com/makecindy/cindy",
+      "aiSummary": {
+        "summary": "Cindy 是一个开源、开箱即用的本地 AI Agent，支持 Claude Code 和 Codex 等多种模型与工具。它能够自动化处理项目中的实际工作，支持记忆共享、技能复用及自动化流程，并通过 MCP 连接内部工具，适用于需要高效本地化 AI 辅助开发和自动化管理的场景。",
+        "summary_en": "Cindy is an open-source AI agent that runs locally, mixing models and tools to complete real work in your projects.",
+        "techStack": [
+          "TypeScript",
+          "pnpm"
+        ],
+        "useCase": "本地开发自动化、多模型协作编程及内部工具集成",
+        "useCase_en": "Automate coding tasks and drive applications locally by mixing AI models and tools within a single agent."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars": 289888,
+      "forks": 42955,
+      "todayStars": 896,
+      "url": "https://github.com/affaan-m/ECC",
+      "aiSummary": {
+        "summary": "ECC 是一个代理 Harness 性能优化系统，旨在为 Claude Code、Cursor 等提供技能、记忆和安全支持。它通过“计划-测试-实现-审查-验证-记忆-改进”的闭环工作流，优化上下文窗口，提升代码生成质量，并支持多平台集成。",
+        "summary_en": "A performance optimization system for AI agents that provides memory, skills, and workflows across multiple coding environments.",
+        "techStack": [
+          "JavaScript",
+          "npm",
+          "GitHub App",
+          "Claude Code"
+        ],
+        "useCase": "为 AI 代码助手提供结构化的工程工作流和工具箱，提升代码质量和开发效率。",
+        "useCase_en": "To optimize AI agent performance by providing a coordinated engineering system with memory, skills, and workflows for co"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "stars": 89268,
+      "forks": 5313,
+      "todayStars": 1506,
+      "url": "https://github.com/pbakaus/impeccable",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供设计指导的 Rust 项目。它包含 24 个命令、62 个确定性检测规则和实时浏览器迭代功能。通过 `/impeccable init` 记录产品真相，帮助 AI 生成更一致、高质量的前端设计，避免常见的模板化问题。",
+        "summary_en": "A Rust-based design language and CLI tool that guides AI coding agents to avoid generic frontend design patterns.",
+        "techStack": [
+          "Rust"
+        ],
+        "useCase": "为 AI 编码代理提供设计指导，确保前端设计的一致性和高质量。",
+        "useCase_en": "Provides design guidance and deterministic rules for AI coding agents to build consistent, non-generic frontend applicat"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "language": "Python",
+      "stars": 22248,
+      "forks": 1940,
+      "todayStars": 214,
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "aiSummary": {
+        "summary": "NVIDIA/SkillSpector 是一款针对 AI agent skills 的安全扫描工具，旨在检测漏洞、恶意模式及提示注入等风险。它支持多种输入格式，结合静态分析与 LLM 语义评估，提供实时漏洞查询和风险评分，确保在安装 Claude Code 等技能前进行安全验证。",
+        "summary_en": "Python-based security scanner for AI agent skills detecting vulnerabilities and malicious patterns.",
+        "techStack": [
+          "Python",
+          "LLM",
+          "OSV.dev"
+        ],
+        "useCase": "在安装 Claude Code、Codex 等 AI agent skills 前进行安全扫描与风险评估。",
+        "useCase_en": "Scan AI agent skills for vulnerabilities and malicious patterns before installation."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "pollen-robotics/microduck",
+      "description": "A Tiny biped duck robot 🦆",
+      "language": "Rust",
+      "stars": 12449,
+      "forks": 1552,
+      "todayStars": 843,
+      "url": "https://github.com/pollen-robotics/microduck",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 开发的双足鸭子机器人，运行在 Rockchip RK3566 芯片上。它利用强化学习策略实现行走、滚动、抓取物体和自我站立等功能，包含完整的控制循环、通信和更新机制。",
+        "summary_en": "A Rust-based firmware brain for a tiny biped robot, managing servos and neural policies on RK3566.",
+        "techStack": [
+          "Rust",
+          "Rockchip RK3566",
+          "Reinforcement Learning (RL)",
+          "ONNX",
+          "MuJoCo"
+        ],
+        "useCase": "机器人控制、强化学习仿真到现实迁移以及嵌入式 AI 系统开发",
+        "useCase_en": "To serve as the firmware brain for a tiny biped robot, enabling walking, rolling, and object manipulation via neural pol"
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "language": "TypeScript",
+      "stars": 1510,
+      "forks": 188,
+      "todayStars": 176,
+      "url": "https://github.com/nightly-labs/openbot",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    },
+    {
+      "index": 9,
+      "fullName": "Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars": 103683,
+      "forks": 9193,
+      "todayStars": 746,
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "aiSummary": {
+        "summary": "Agent Reach 是一个 Python CLI 工具，旨在赋予 AI Agent 访问整个互联网的能力。它支持搜索 Twitter、Reddit、YouTube、GitHub、Bilibili 和小红书等平台，无需 API 密钥。它解决了 Agent 无法访问登录墙、视频内容和中文平台的问题，通过后台浏览器提供结构化数据。",
+        "summary_en": "A Python CLI tool that provides AI agents with eyes on the entire internet, bypassing login walls and accessing video content without API fees.",
+        "techStack": [
+          "Python",
+          "Browser Automation",
+          "CLI"
+        ],
+        "useCase": "为 Claude Code、Codex 等 AI Agent 提供访问受限互联网资源（如登录墙、视频内容、中文平台）的能力。",
+        "useCase_en": "To enable AI agents to access the entire internet, including login-required and video platforms, without API fees."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars": 89360,
+      "forks": 9854,
+      "todayStars": 2297,
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "aiSummary": {
+        "summary": "VoiceStudio 是一个开源的、完全本地化的 ElevenLabs 替代品。它支持语音克隆、语音设计、视频配音、听写、转录和有声书创作，覆盖 646 种语言。项目提供本地 API 和 MCP 支持，允许用户在本地硬件上运行工作流，保护隐私，并支持通过 Electron 桌面应用进行便捷操作。",
+        "summary_en": "Open-source local alternative to ElevenLabs for voice cloning, dubbing, and audio generation.",
+        "techStack": [
+          "Python",
+          "Electron",
+          "k2-fsa/OmniVoice",
+          "Rust",
+          "Node.js"
+        ],
+        "useCase": "适用于本地化语音合成、视频配音、语音克隆及 AI 代理集成的隐私保护场景。",
+        "useCase_en": "A local tool for voice cloning, video dubbing, and dictation."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "gitroomhq/postiz-app",
+      "description": "📨 The ultimate agentic social media scheduling tool 🤖",
+      "language": "TypeScript",
+      "stars": 38491,
+      "forks": 7459,
+      "todayStars": 188,
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "aiSummary": {
+        "summary": "Postiz 是一个全功能的社交媒体管理平台，支持调度、自动化和分析内容。它集成了 AI 代理生成内容，并支持团队协作。用户可选择 Postiz Cloud 或自托管版本，并提供 API 与 N8N、Make.com 等工具集成，实现工作流自动化。技术栈基于 NextJS、NestJS 和 Prisma。",
+        "summary_en": "A self-hostable social media management platform with AI agents for scheduling and automation.",
+        "techStack": [
+          "TypeScript",
+          "NextJS",
+          "NestJS",
+          "Prisma",
+          "PostgreSQL"
+        ],
+        "useCase": "适合需要自动化社交媒体营销、团队协作及 AI 内容生成的团队或个人。",
+        "useCase_en": "Manage social media content across multiple platforms using AI agents and automation tools."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "alchaincyf/huashu-design",
+      "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+      "language": "HTML",
+      "stars": 26840,
+      "forks": 2968,
+      "todayStars": 251,
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "aiSummary": {
+        "summary": "这是一个跨 Agent 通用的高质量 AI 设计 Skill，允许用户输入一句话，在 3-30 分钟内生成网页、App 原型、PPTX 等专业级设计交付物。支持品牌资产识别与 84 种风格库，具备“设计体检”与“外观账本”功能，确保输出非 AI 模糊感，兼容 Claude Code、Cursor 等工具，采用 MIT 协议开源。",
+        "summary_en": "An AI design agent skill that generates deliverable web, app, and presentation designs from simple text prompts.",
+        "techStack": [
+          "HTML",
+          "Python (ref_board.py)",
+          "AI Agents (Claude Code, Cursor, Codex)"
+        ],
+        "useCase": "快速生成产品发布动画、App 原型、PPT 或信息图。",
+        "useCase_en": "Generate professional web, app, and presentation designs from simple text prompts within AI coding agents."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars": 224692,
+      "forks": 22474,
+      "todayStars": 638,
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-27T02:05:15.895Z",
+    "duration": "643s",
+    "version": "1.0.0"
+  }
+}

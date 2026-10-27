@@ -70,23 +70,26 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-10-25 | **成功**: 11 | **失败**: 0
+**最后更新**: 2026-10-26 | **成功**: 12 | **失败**: 2
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [makecindy/cindy](https://github.com/makecindy/cindy) | Consider it done. The open-source AI agent that wo... | TypeScript | 4.9k | 675 | Cindy 是一个开源、开箱即用的 AI Agent，基于 TypeScript 开发。它支持本地运行，能整合多种模型和工具，驱动浏览器、电脑和手机完成实际工作。用户可自定义记忆、技能和自动化流程，通过 MCP 连接内部工具，实现高效的任务自动化和协作。 |
-| 2 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Anti-AI-slop design skill for Claude Code, Cursor,... | CSS | 33.8k | 1.3k | 这是一个为 Claude Code、Cursor 和 Codex 设计的技能，旨在防止生成 AI 风格的网页。它提供 48 种独特的主题，确保设计符合人类审美，并通过对比度、事实核查等检查。它支持自定义页面、重定向和审计，帮助 AI 生成更自然、更专业的网页设计。 |
-| 3 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio is the open-source, fully-local Eleven... | Python | 86.8k | 1.6k | VoiceStudio 是一个开源的本地化 ElevenLabs 替代品，支持语音克隆、视频配音、听写、转录和有声书制作，覆盖 646 种语言。它提供本地 API 和 MCP 支持，允许用户在本地硬件上运行工作流，保护隐私，并支持多种音频处理引擎。 |
-| 4 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | Rust | 87.7k | 1.1k | Impeccable 是一个为 AI 编码代理提供设计指导的 Rust 工具。它包含 24 个命令、62 条确定性检测规则和实时浏览器迭代，旨在防止 AI 生成陈词滥调的设计，确保前端设计的一致性和高质量。 |
-| 5 | [pollen-robotics/microduck](https://github.com/pollen-robotics/microduck) | A Tiny biped duck robot 🦆... | Rust | 11.7k | 647 | 这是一个基于 Rust 开发的 25cm 双足鸭子机器人，运行在 Rockchip RK3566 上。它利用强化学习策略控制 15 个舵机，实现了行走、滚动、抓取、站立及踢球等复杂动作。项目集成了完整的控制循环、蓝牙通信和 OTA 更新机制，支持从 MuJoCo/PPO 模拟环境导出的 ONNX 策略进行实时推理。 |
-| 6 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 114.6k | 381 | 这是一个基于多智能体架构的 LLM 金融交易框架。它利用大语言模型（如 GPT-5.6、Claude 等）进行股票、加密货币的分析与决策，支持回测、情绪分析及 SEC 基本面数据读取。项目提供 CLI 工具，支持并行分析，旨在通过多智能体协作实现自动化量化交易。 |
-| 7 | [Renhuai123/ziwei-doushu](https://github.com/Renhuai123/ziwei-doushu) | 紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据... | TypeScript | 7.6k | 199 | 基于倪海厦《天纪》体系的紫微斗数开源排盘引擎。提供完整排盘算法、四化系统及古籍数据，并发布包含67.5万张命盘的解读数据集。代码开源，数据集可下载，旨在通过技术手段普及传统命理学。 |
-| 8 | [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | Vibe code with pi in a lightweight, real IDE that ... | TypeScript | 1.7k | 51 | ThinkRail 是一个基于 TypeScript 的智能 IDE，围绕 pi 编码代理构建。它通过隔离的 git worktree 工作区实现并行开发，支持 AI 自动生成代码、管理 PR 和审查。IDE 提供了 Monaco 编辑器、文件树和终端等完整功能，并能根据用户习惯自我定制，提升开发效率。 |
-| 9 | [coollabsio/coolify](https://github.com/coollabsio/coolify) | An open-source, self-hostable PaaS alternative to ... | PHP | 64.4k | 152 | Coolify 是一个开源、自托管的 PaaS 平台，旨在替代 Vercel、Heroku 和 Netlify。它允许用户在自有服务器上轻松部署静态站点、全栈应用、数据库及超过 360 种一键服务。支持 Docker、Git 集成、自动化部署、反向代理和 HTTPS 管理，提供类似云平台的便捷性，同时保持对基础设施的完全控制。 |
-| 10 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | A coding-agent skill for multi-phase security audi... | JavaScript | 46.9k | 2.9k | 这是一个由 Cloudflare 开发的编码代理技能，用于自动化多阶段安全审计。它通过六个阶段（侦察、狩猎、验证等）协调隔离代理，独立验证发现结果，并生成机器可读的报告。该技能支持增量审计，利用先前的发现来定位漏洞，确保发现结果的准确性和可追溯性。 |
-| 11 | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | Universal SEO skill for Claude Code. 26 sub-skills... | Python | 20.9k | 197 | 这是一个为 Claude Code 设计的开源 SEO 审计插件。它利用 19 个专业代理（如技术 SEO、内容编辑、Schema 工程师）在 10-15 分钟内对网站进行全面分析。涵盖技术 SEO、E-E-A-T、结构化数据、AI 搜索（GEO）及本地电商 SEO，提供可执行的行动计划，帮助提升 Google 排名和 AI 引用率。 |
+| 1 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Anti-AI-slop design skill for Claude Code, Cursor,... | CSS | 36.5k | 2.2k | 这是一个由 Together AI 开发的 AI 设计技能，旨在防止 Claude Code、Cursor 和 Codex 生成看起来像机器生成的网页。它提供 48 种主题，根据用户任务构建页面，并检查对比度、事实错误等“机器痕迹”。支持自定义页面、URL 捕获和真实照片，确保高质量的设计输出。 |
+| 2 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 116.2k | 1.4k | 这是一个基于多智能体 LLM 的金融交易框架。项目利用大语言模型（如 GPT-6、Claude Sonnet 5）构建交易员、分析师和经理角色，实现自动化交易决策与回测。支持 SEC EDGAR、Yahoo Finance 等多源数据接入，提供 CLI 工具及 HTML 报告，旨在通过 AI 提升金融交易效率与准确性。 |
+| 3 | [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | Vibe code with pi in a lightweight, real IDE that ... | TypeScript | 3.0k | 1.2k | ThinkRail 是一个基于 TypeScript 的智能 IDE，围绕 pi 编码代理构建。它提供隔离的工作区（基于 git worktrees）、持久化的项目知识以及强大的 IDE 功能。该工具允许 AI 并行处理任务，自动管理 PR，并能根据用户工作方式自适应进化。 |
+| 4 | [makecindy/cindy](https://github.com/makecindy/cindy) | Consider it done. The open-source AI agent that wo... | TypeScript | 6.5k | 1.3k | Cindy 是一个开源、开箱即用的本地 AI Agent，支持 Claude Code 和 Codex 等多种模型与工具。它能够自动化处理项目中的实际工作，支持记忆共享、技能复用及自动化流程，并通过 MCP 连接内部工具，适用于需要高效本地化 AI 辅助开发和自动化管理的场景。 |
+| 5 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 289.9k | 896 | ECC 是一个代理 Harness 性能优化系统，旨在为 Claude Code、Cursor 等提供技能、记忆和安全支持。它通过“计划-测试-实现-审查-验证-记忆-改进”的闭环工作流，优化上下文窗口，提升代码生成质量，并支持多平台集成。 |
+| 6 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | Rust | 89.3k | 1.5k | 这是一个为 AI 编码代理提供设计指导的 Rust 项目。它包含 24 个命令、62 个确定性检测规则和实时浏览器迭代功能。通过 `/impeccable init` 记录产品真相，帮助 AI 生成更一致、高质量的前端设计，避免常见的模板化问题。 |
+| 7 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Security scanner for AI agent skills. Detect vulne... | Python | 22.2k | 214 | NVIDIA/SkillSpector 是一款针对 AI agent skills 的安全扫描工具，旨在检测漏洞、恶意模式及提示注入等风险。它支持多种输入格式，结合静态分析与 LLM 语义评估，提供实时漏洞查询和风险评分，确保在安装 Claude Code 等技能前进行安全验证。 |
+| 8 | [pollen-robotics/microduck](https://github.com/pollen-robotics/microduck) | A Tiny biped duck robot 🦆... | Rust | 12.4k | 843 | 这是一个基于 Rust 开发的双足鸭子机器人，运行在 Rockchip RK3566 芯片上。它利用强化学习策略实现行走、滚动、抓取物体和自我站立等功能，包含完整的控制循环、通信和更新机制。 |
+| 9 | [nightly-labs/openbot](https://github.com/nightly-labs/openbot) | A local-first desktop workspace for persistent AI ... | TypeScript | 1.5k | 176 | 处理失败 |
+| 10 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Give your AI agent eyes to see the entire internet... | Python | 103.7k | 746 | Agent Reach 是一个 Python CLI 工具，旨在赋予 AI Agent 访问整个互联网的能力。它支持搜索 Twitter、Reddit、YouTube、GitHub、Bilibili 和小红书等平台，无需 API 密钥。它解决了 Agent 无法访问登录墙、视频内容和中文平台的问题，通过后台浏览器提供结构化数据。 |
+| 11 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio is the open-source, fully-local Eleven... | Python | 89.4k | 2.3k | VoiceStudio 是一个开源的、完全本地化的 ElevenLabs 替代品。它支持语音克隆、语音设计、视频配音、听写、转录和有声书创作，覆盖 646 种语言。项目提供本地 API 和 MCP 支持，允许用户在本地硬件上运行工作流，保护隐私，并支持通过 Electron 桌面应用进行便捷操作。 |
+| 12 | [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | 📨 The ultimate agentic social media scheduling to... | TypeScript | 38.5k | 188 | Postiz 是一个全功能的社交媒体管理平台，支持调度、自动化和分析内容。它集成了 AI 代理生成内容，并支持团队协作。用户可选择 Postiz Cloud 或自托管版本，并提供 API 与 N8N、Make.com 等工具集成，实现工作流自动化。技术栈基于 NextJS、NestJS 和 Prisma。 |
+| 13 | [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / Ap... | HTML | 26.8k | 251 | 这是一个跨 Agent 通用的高质量 AI 设计 Skill，允许用户输入一句话，在 3-30 分钟内生成网页、App 原型、PPTX 等专业级设计交付物。支持品牌资产识别与 84 种风格库，具备“设计体检”与“外观账本”功能，确保输出非 AI 模糊感，兼容 Claude Code、Cursor 等工具，采用 MIT 协议开源。 |
+| 14 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code beh... | - | 224.7k | 638 | 处理失败 |
 
-[查看完整数据](api/github/2026-10-25.json)
+[查看完整数据](api/github/2026-10-26.json)
 <!-- END GITHUB TRENDING -->
 
 
