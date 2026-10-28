@@ -70,26 +70,23 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-10-26 | **成功**: 12 | **失败**: 2
+**最后更新**: 2026-10-27 | **成功**: 11 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Anti-AI-slop design skill for Claude Code, Cursor,... | CSS | 36.5k | 2.2k | 这是一个由 Together AI 开发的 AI 设计技能，旨在防止 Claude Code、Cursor 和 Codex 生成看起来像机器生成的网页。它提供 48 种主题，根据用户任务构建页面，并检查对比度、事实错误等“机器痕迹”。支持自定义页面、URL 捕获和真实照片，确保高质量的设计输出。 |
-| 2 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents: Multi-Agents LLM Financial Trading ... | Python | 116.2k | 1.4k | 这是一个基于多智能体 LLM 的金融交易框架。项目利用大语言模型（如 GPT-6、Claude Sonnet 5）构建交易员、分析师和经理角色，实现自动化交易决策与回测。支持 SEC EDGAR、Yahoo Finance 等多源数据接入，提供 CLI 工具及 HTML 报告，旨在通过 AI 提升金融交易效率与准确性。 |
-| 3 | [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | Vibe code with pi in a lightweight, real IDE that ... | TypeScript | 3.0k | 1.2k | ThinkRail 是一个基于 TypeScript 的智能 IDE，围绕 pi 编码代理构建。它提供隔离的工作区（基于 git worktrees）、持久化的项目知识以及强大的 IDE 功能。该工具允许 AI 并行处理任务，自动管理 PR，并能根据用户工作方式自适应进化。 |
-| 4 | [makecindy/cindy](https://github.com/makecindy/cindy) | Consider it done. The open-source AI agent that wo... | TypeScript | 6.5k | 1.3k | Cindy 是一个开源、开箱即用的本地 AI Agent，支持 Claude Code 和 Codex 等多种模型与工具。它能够自动化处理项目中的实际工作，支持记忆共享、技能复用及自动化流程，并通过 MCP 连接内部工具，适用于需要高效本地化 AI 辅助开发和自动化管理的场景。 |
-| 5 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 289.9k | 896 | ECC 是一个代理 Harness 性能优化系统，旨在为 Claude Code、Cursor 等提供技能、记忆和安全支持。它通过“计划-测试-实现-审查-验证-记忆-改进”的闭环工作流，优化上下文窗口，提升代码生成质量，并支持多平台集成。 |
-| 6 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | Rust | 89.3k | 1.5k | 这是一个为 AI 编码代理提供设计指导的 Rust 项目。它包含 24 个命令、62 个确定性检测规则和实时浏览器迭代功能。通过 `/impeccable init` 记录产品真相，帮助 AI 生成更一致、高质量的前端设计，避免常见的模板化问题。 |
-| 7 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Security scanner for AI agent skills. Detect vulne... | Python | 22.2k | 214 | NVIDIA/SkillSpector 是一款针对 AI agent skills 的安全扫描工具，旨在检测漏洞、恶意模式及提示注入等风险。它支持多种输入格式，结合静态分析与 LLM 语义评估，提供实时漏洞查询和风险评分，确保在安装 Claude Code 等技能前进行安全验证。 |
-| 8 | [pollen-robotics/microduck](https://github.com/pollen-robotics/microduck) | A Tiny biped duck robot 🦆... | Rust | 12.4k | 843 | 这是一个基于 Rust 开发的双足鸭子机器人，运行在 Rockchip RK3566 芯片上。它利用强化学习策略实现行走、滚动、抓取物体和自我站立等功能，包含完整的控制循环、通信和更新机制。 |
-| 9 | [nightly-labs/openbot](https://github.com/nightly-labs/openbot) | A local-first desktop workspace for persistent AI ... | TypeScript | 1.5k | 176 | 处理失败 |
-| 10 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Give your AI agent eyes to see the entire internet... | Python | 103.7k | 746 | Agent Reach 是一个 Python CLI 工具，旨在赋予 AI Agent 访问整个互联网的能力。它支持搜索 Twitter、Reddit、YouTube、GitHub、Bilibili 和小红书等平台，无需 API 密钥。它解决了 Agent 无法访问登录墙、视频内容和中文平台的问题，通过后台浏览器提供结构化数据。 |
-| 11 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio is the open-source, fully-local Eleven... | Python | 89.4k | 2.3k | VoiceStudio 是一个开源的、完全本地化的 ElevenLabs 替代品。它支持语音克隆、语音设计、视频配音、听写、转录和有声书创作，覆盖 646 种语言。项目提供本地 API 和 MCP 支持，允许用户在本地硬件上运行工作流，保护隐私，并支持通过 Electron 桌面应用进行便捷操作。 |
-| 12 | [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | 📨 The ultimate agentic social media scheduling to... | TypeScript | 38.5k | 188 | Postiz 是一个全功能的社交媒体管理平台，支持调度、自动化和分析内容。它集成了 AI 代理生成内容，并支持团队协作。用户可选择 Postiz Cloud 或自托管版本，并提供 API 与 N8N、Make.com 等工具集成，实现工作流自动化。技术栈基于 NextJS、NestJS 和 Prisma。 |
-| 13 | [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design) | Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / Ap... | HTML | 26.8k | 251 | 这是一个跨 Agent 通用的高质量 AI 设计 Skill，允许用户输入一句话，在 3-30 分钟内生成网页、App 原型、PPTX 等专业级设计交付物。支持品牌资产识别与 84 种风格库，具备“设计体检”与“外观账本”功能，确保输出非 AI 模糊感，兼容 Claude Code、Cursor 等工具，采用 MIT 协议开源。 |
-| 14 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code beh... | - | 224.7k | 638 | 处理失败 |
+| 1 | [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) | ... | - | 9.5k | 1.4k | 这是一个为 AI 编码工具（如 Claude Code、Cursor 等）提供设计技能的集合。每个技能是自包含文件夹，包含设计规范和代码生成规则（如 landing-page-design）。用户可按需安装，自定义设计值（字体、颜色等），用于指导 AI 生成符合特定视觉系统的代码。采用 MIT 许可证。 |
+| 2 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Anti-AI-slop design skill for Claude Code, Cursor,... | CSS | 39.1k | 2.8k | Hallmark 是一个用于 Claude Code、Cursor 和 Codex 的设计技能，旨在防止 AI 生成“AI-slop”网页。它提供 50 种独特的主题（材质），根据用户意图构建页面，并通过检查常见的机器生成标记（如眉毛、空框架、虚假表单）来确保高质量、真实的外观。它支持自定义、重设计和审计。 |
+| 3 | [nightly-labs/openbot](https://github.com/nightly-labs/openbot) | A local-first desktop workspace for persistent AI ... | TypeScript | 2.5k | 777 | OpenBot 是一个本地优先的桌面工作空间，旨在为 Codex、Claude、Grok 等 AI 模型提供持久化环境。它支持创建和管理多个 AI 队友，提供专用工作区、任务队列、文件共享、浏览器控制及代理间协作。目前处于开发预览阶段，允许 AI 具有完全访问权限，需谨慎使用。 |
+| 4 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 306.5k | 617 | Superpowers 是一个为编码代理设计的代理技能框架和软件开发方法论。它通过一套可组合的技能和指令，引导 AI 在编写代码前先明确需求、制定计划并遵循 TDD、YAGNI 等最佳实践。支持多种主流 AI 编码工具，旨在实现自主化的软件开发流程。 |
+| 5 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | Rust | 90.6k | 1.4k | 这是一个为 AI 编码代理提供设计指导的 Rust 工具。它包含 24 个命令和 62 条确定性检测规则，旨在防止 AI 生成陈词滥调的设计。通过 `/impeccable init` 记录产品真相，并提供实时浏览器迭代功能，帮助 AI 生成更高质量、多样化的前端设计。 |
+| 6 | [makecindy/cindy](https://github.com/makecindy/cindy) | Consider it done. The open-source AI agent that wo... | TypeScript | 7.5k | 1.5k | Cindy 是一个开源、开箱即用的 AI Agent，旨在连接用户的电脑和手机。它支持多设备协同工作，允许跨设备继续会话、共享模型提供商（如 Claude Code、Codex、Pi）以及使用内置远程桌面功能。无需自建服务器，设备即服务器，提供统一的工作界面和强大的多模态操作能力。 |
+| 7 | [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | 📨 The ultimate agentic social media scheduling to... | TypeScript | 39.4k | 951 | Postiz 是一款全功能的社交媒体管理平台，支持调度、自动化及分析内容。它集成了 AI 代理生成内容，支持团队协作与多平台发布。提供 Cloud 托管或自托管选项，并支持通过 API 与 N8N 等工具集成，适合需要高效管理社交媒体的团队。 |
+| 8 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 290.9k | 1.2k | ECC 是一个代理性能优化系统，旨在为 Claude Code、Codex 等多种 AI 编程助手提供协调的工程系统。它通过“计划-测试-实现-审查-验证-记忆-改进”的闭环工作流，优化上下文窗口，提供技能、记忆和安全功能，帮助 AI 更高效地编写和审查代码。 |
+| 9 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor: Lifelong Personalized Tutoring. https:/... | Python | 46.0k | 1.6k | DeepTutor 是一个基于 AI 的终身个性化辅导系统。它支持多模态学习（PDF、视频、语音），具备强大的知识库管理和文档解析能力。项目提供多语言界面、学习路径规划、每日练习及研究工具，旨在通过智能交互实现高效、个性化的自主学习体验。 |
+| 10 | [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | Vibe code with pi in a lightweight, real IDE that ... | TypeScript | 4.1k | 1.2k | ThinkRail 是一个基于 TypeScript 的智能 IDE，围绕 pi 编码代理构建。它提供隔离的 git worktree 工作区，支持并行开发，并具备持久的项目知识。界面包含 Monaco 编辑器、文件树和终端，支持代理自主创建工具，实现个性化开发体验。 |
+| 11 | [togg53192-cmd/jailbreaks](https://github.com/togg53192-cmd/jailbreaks) | LIST OF ALL MY JAILBREAKS... | - | 5.6k | 902 | 这是一个针对25+个AI模型（包括Claude、Gemini等）的精选系统提示词与配置集合，包含31个完整且可直接粘贴的文件。项目涵盖系统提示词、人设锁定及工作区策略，旨在研究指令层级对模型行为的影响，仅供教育和研究目的使用。 |
 
-[查看完整数据](api/github/2026-10-26.json)
+[查看完整数据](api/github/2026-10-27.json)
 <!-- END GITHUB TRENDING -->
 
 
