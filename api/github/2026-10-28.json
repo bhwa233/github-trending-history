@@ -1,0 +1,304 @@
+{
+  "date": "2026-10-28",
+  "since": "daily",
+  "totalRepos": 14,
+  "successCount": 14,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "JetBrains/thinkrail",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "language": "TypeScript",
+      "stars": 5140,
+      "forks": 267,
+      "todayStars": 1068,
+      "url": "https://github.com/JetBrains/thinkrail",
+      "aiSummary": {
+        "summary": "ThinkRail 是一个基于 TypeScript 的智能 IDE，围绕 pi 编码代理构建。它通过隔离的 git worktree 工作区实现并行开发，利用“活规范”持久化项目知识。IDE 具备 Monaco 编辑器、终端和 PR 管理功能，支持代理自动生成代码、合并分支并处理 CI 检查，旨在根据用户工作习惯自适应进化。",
+        "summary_en": "ThinkRail is an agentic IDE built around the pi coding agent, featuring isolated workspaces and GitHub integration.",
+        "techStack": [
+          "TypeScript",
+          "Monaco Editor",
+          "Git"
+        ],
+        "useCase": "适合需要利用 AI 代理进行高效并行开发、自动化代码生成及 PR 管理的开发者。",
+        "useCase_en": "An IDE for coding with AI agents in isolated workspaces and managing GitHub PRs."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "elayadesign/ai-design-skills",
+      "description": "",
+      "language": "",
+      "stars": 11214,
+      "forks": 807,
+      "todayStars": 2139,
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "aiSummary": {
+        "summary": "这是一个为 Claude Code、Cursor 等 AI 编码工具提供设计技能的集合库。项目包含自包含的文件夹，每个文件夹代表一个特定技能（如着陆页设计）。用户可按需安装，AI 将根据 Markdown 规则文件生成设计。设计系统（字体、颜色等）易于自定义，遵循 MIT 许可证。",
+        "summary_en": "A collection of design skills for AI coding tools like Claude Code and Cursor.",
+        "techStack": [
+          "Markdown",
+          "Design System",
+          "AI Coding Tools"
+        ],
+        "useCase": "当需要利用 AI 工具快速生成具有统一设计系统的网页或界面时。",
+        "useCase_en": "Install these skills to guide AI coding tools in generating consistent design systems and landing pages."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 307508,
+      "forks": 27351,
+      "todayStars": 1095,
+      "url": "https://github.com/obra/superpowers",
+      "aiSummary": {
+        "summary": "Superpowers 是一个为编码代理设计的代理技能框架和软件开发方法论。它通过引导用户定义规格、展示设计、制定实现计划（强调 TDD、YAGNI、DRY），并利用子代理自主执行任务，使 AI 代理具备结构化的开发能力。支持多种主流 AI 工具，旨在提升自动化编程的效率和质量。",
+        "summary_en": "A framework providing a structured software development methodology for AI coding agents.",
+        "techStack": [
+          "Shell"
+        ],
+        "useCase": "需要自动化、结构化软件开发流程的 AI 编码代理或开发者。",
+        "useCase_en": "To empower AI coding agents with a structured development methodology and TDD practices."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "language": "Python",
+      "stars": 48129,
+      "forks": 5968,
+      "todayStars": 2371,
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "aiSummary": {
+        "summary": "DeepTutor 是一个基于 Python 的终身个性化 AI 导师系统。它利用 RAG 技术和知识库管理，提供模块化的学习工作区、视频课程、阅读练习和评估功能。支持多语言界面，具备强大的文档解析和聊天恢复能力，旨在为用户提供可靠且可定制的终身学习体验。",
+        "summary_en": "An AI-driven personalized tutoring platform featuring modular workspaces, video lessons, and advanced retrieval capabilities.",
+        "techStack": [
+          "Python",
+          "RAG",
+          "LLM",
+          "Knowledge Graph",
+          "Multimodal"
+        ],
+        "useCase": "适用于需要个性化学习路径、文档深度阅读及 AI 辅导的终身学习者。",
+        "useCase_en": "Provides lifelong personalized tutoring through AI-driven workspaces and modular learning tools."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "macro-inc/macro",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "language": "Rust",
+      "stars": 5454,
+      "forks": 520,
+      "todayStars": 117,
+      "url": "https://github.com/macro-inc/macro",
+      "aiSummary": {
+        "summary": "Macro 是一个为团队设计的统一工作空间，旨在替代 Slack、Linear 等多个工具。它集成了邮件、消息、文档、任务、代理和 CRM，通过共享 AI 记忆和双向图实现跨工具的 @链接与协作。项目使用 Rust 和 SolidJS 构建，强调速度、可靠性和模块化设计，旨在成为团队的“操作系统”。",
+        "summary_en": "Macro is a unified workspace combining email, chat, docs, tasks, and CRM into a single system with shared AI memory.",
+        "techStack": [
+          "Rust",
+          "SolidJS",
+          "CRDTs"
+        ],
+        "useCase": "适合需要整合邮件、任务、文档等多种工具的团队，作为统一的协作操作系统。",
+        "useCase_en": "A unified operating system for teams to manage email, tasks, and documents in a single interface."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars": 40810,
+      "forks": 2116,
+      "todayStars": 2110,
+      "url": "https://github.com/Nutlope/hallmark",
+      "aiSummary": {
+        "summary": "Hallmark 是一个旨在防止 AI 生成“AI-slop”设计的技能。它提供 50 种独特主题，检查机器生成的迹象，支持自定义、重设计及审计，确保输出符合人类审美标准。",
+        "summary_en": "A design skill for AI coding assistants that enforces human-quality aesthetics and prevents generic layouts.",
+        "techStack": [
+          "CSS"
+        ],
+        "useCase": "开发者利用 AI 编码助手生成高质量、非通用的 UI 界面。",
+        "useCase_en": "A tool for AI coding assistants to generate human-quality, non-generic web designs with fifty themes and design checks."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "stars": 92842,
+      "forks": 5484,
+      "todayStars": 1472,
+      "url": "https://github.com/pbakaus/impeccable",
+      "aiSummary": {
+        "summary": "Impeccable 是一个 Rust 编写的工具，旨在为 AI 编码代理提供设计词汇表。它通过命令引导 AI 生成更美观的代码，并提供批评和审计功能，检查可用性、可访问性和性能。它使用确定性规则检测“AI 垃圾内容”，无需 API 密钥即可提升代码质量。",
+        "summary_en": "A Rust-based design vocabulary enforcement tool for AI coding agents to ensure high-quality, consistent UI design and code review.",
+        "techStack": [
+          "Rust",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "用于提升 AI 编码代理生成的代码和设计质量，防止生成低质量或“AI 垃圾内容”。",
+        "useCase_en": "To enforce design consistency and quality control for AI-generated code across various coding agents."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "stars": 8149,
+      "forks": 954,
+      "todayStars": 728,
+      "url": "https://github.com/makecindy/cindy",
+      "aiSummary": {
+        "summary": "Cindy 是一个开源、开箱即用的 AI Agent，基于 TypeScript 开发。它支持多设备连接，允许用户在电脑和手机间无缝切换会话，共享模型提供商和文件。内置远程桌面功能，无需自建服务器，集成了 Claude Code、Codex 和 Pi 等多种工作流。",
+        "summary_en": "Cindy is an open-source AI agent that connects your devices to unify AI models like Claude Code and Codex for seamless workflows.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合需要在多设备间无缝协作、统一管理多个 AI 模型提供商的开发者。",
+        "useCase_en": "Connect your computers and phones to run unified AI agents like Claude Code and Codex without setting up a server."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "language": "TypeScript",
+      "stars": 3301,
+      "forks": 317,
+      "todayStars": 1054,
+      "url": "https://github.com/nightly-labs/openbot",
+      "aiSummary": {
+        "summary": "OpenBot 是一个本地优先的桌面工作区，为 Codex、Claude、Grok 等 AI 代理提供持久化协作环境。支持专用工作区、任务队列、文件共享及浏览器控制，允许代理间通信。目前处于开发预览阶段，提供跨平台计算机使用功能，但需注意安全风险。",
+        "summary_en": "Local-first desktop workspace for persistent AI teammates supporting multiple providers and agent collaboration.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "适合需要在本地运行和管理多个 AI 代理进行协作的开发者。",
+        "useCase_en": "Run persistent AI teammates locally with dedicated workspaces, queues, and browser control."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "togg53192-cmd/jailbreaks",
+      "description": "LIST OF ALL MY JAILBREAKS",
+      "language": "",
+      "stars": 7213,
+      "forks": 1038,
+      "todayStars": 1477,
+      "url": "https://github.com/togg53192-cmd/jailbreaks",
+      "aiSummary": {
+        "summary": "该项目是一个针对26+种大模型的系统提示词与越狱指令集合，包含32个完整的提示词文件。涵盖Claude、Gemini、Grok等前沿及开源模型，提供人设锁定、工作区策略及代理操作规范。所有文件均为即插即用的完整格式，主要用于研究提示词注入、指令层级及模型行为控制。",
+        "summary_en": "A curated collection of system prompts and jailbreaks for various AI models.",
+        "techStack": [
+          "Markdown",
+          "Ollama",
+          "LLM Prompts"
+        ],
+        "useCase": "研究人员及开发者用于研究提示词注入、指令层级及模型行为控制。",
+        "useCase_en": "Researchers and developers studying prompt injection and instruction hierarchy, or users applying persona locks to AI mo"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "hmjz100/LinkSwift",
+      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+      "language": "JavaScript",
+      "stars": 34929,
+      "forks": 2478,
+      "todayStars": 1616,
+      "url": "https://github.com/hmjz100/LinkSwift",
+      "aiSummary": {
+        "summary": "LinkSwift 是一个基于 JavaScript 的网盘直链获取工具，支持百度、阿里、夸克等八大主流网盘。它不仅能获取下载链接，还集成了 IDM、Aria2 等下载器，支持多线程下载和批量操作，界面美观且持续更新。",
+        "summary_en": "A JavaScript userscript that extracts direct download links from major Chinese cloud storage services (Baidu, Aliyun, etc.) and integrates with download managers like IDM and Aria2.",
+        "techStack": [
+          "JavaScript",
+          "CSS",
+          "API"
+        ],
+        "useCase": "适用于需要快速获取各大网盘文件直链并利用 IDM、Aria2 等工具进行高速下载的场景。",
+        "useCase_en": "Enables users to bypass download limits on major Chinese cloud storage platforms by extracting direct links and integrat"
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "expo/skills",
+      "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+      "language": "Shell",
+      "stars": 3611,
+      "forks": 229,
+      "todayStars": 90,
+      "url": "https://github.com/expo/skills",
+      "aiSummary": {
+        "summary": "Expo 官方提供的 AI 代理技能集合，旨在帮助 AI 代理更高效地构建、部署、升级和调试 Expo 应用。它为 AI 提供了关于 Expo API、工作流及平台约束的专门知识，确保正确应用官方文档。支持通过插件市场或 Skills CLI 安装到 Claude Code、Cursor 等多种 AI 编码工具中。",
+        "summary_en": "Official AI agent skills for building, deploying, and debugging Expo apps.",
+        "techStack": [
+          "Shell",
+          "Expo",
+          "React Native",
+          "EAS"
+        ],
+        "useCase": "为使用 AI 编码助手开发 Expo 应用提供专业指导",
+        "useCase_en": "To provide AI coding agents with focused knowledge for Expo development workflows."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 101101,
+      "forks": 13163,
+      "todayStars": 557,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 感知平台，利用 WiFi 信号（CSI）实现穿墙检测、生命体征监测（呼吸/心率）和活动识别。它无需摄像头或可穿戴设备，支持与 Home Assistant、Apple Home、Google Home 等主流智能家居生态无缝集成，提供房间占用、睡眠质量及跌倒检测等空间智能数据。",
+        "summary_en": "Rust-based WiFi sensing platform for contactless vital signs and occupancy detection.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "WiFi CSI",
+          "MQTT",
+          "Matter"
+        ],
+        "useCase": "隐私保护的智能家居环境监测、老人跌倒预警及无感人体存在检测。",
+        "useCase_en": "Turn commodity WiFi signals into a contactless health monitoring and occupancy detection system."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "xiaolai/the-craft-of-selfteaching",
+      "description": "One has no future if one couldn't teach themself.",
+      "language": "Jupyter Notebook",
+      "stars": 18548,
+      "forks": 17891,
+      "todayStars": 148,
+      "url": "https://github.com/xiaolai/the-craft-of-selfteaching",
+      "aiSummary": {
+        "summary": "这是一个关于“自学”的 Python 伪代码项目。它通过 `teach_yourself` 函数展示了自学的核心循环：不断学习、练习，直到创造成果。项目旨在传达“如果不能自学，就没有未来”的理念，鼓励通过持续的行动实现自我提升。",
+        "summary_en": "A Jupyter Notebook project illustrating the philosophy and process of self-teaching through code.",
+        "techStack": [
+          "Jupyter Notebook",
+          "Python"
+        ],
+        "useCase": "适用于个人技能提升与编程学习思维演示。",
+        "useCase_en": "To learn the philosophy and practical steps of self-teaching."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-10-29T02:22:27.865Z",
+    "duration": "507s",
+    "version": "1.0.0"
+  }
+}

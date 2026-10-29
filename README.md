@@ -70,23 +70,26 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-10-27 | **成功**: 11 | **失败**: 0
+**最后更新**: 2026-10-28 | **成功**: 14 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) | ... | - | 9.5k | 1.4k | 这是一个为 AI 编码工具（如 Claude Code、Cursor 等）提供设计技能的集合。每个技能是自包含文件夹，包含设计规范和代码生成规则（如 landing-page-design）。用户可按需安装，自定义设计值（字体、颜色等），用于指导 AI 生成符合特定视觉系统的代码。采用 MIT 许可证。 |
-| 2 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Anti-AI-slop design skill for Claude Code, Cursor,... | CSS | 39.1k | 2.8k | Hallmark 是一个用于 Claude Code、Cursor 和 Codex 的设计技能，旨在防止 AI 生成“AI-slop”网页。它提供 50 种独特的主题（材质），根据用户意图构建页面，并通过检查常见的机器生成标记（如眉毛、空框架、虚假表单）来确保高质量、真实的外观。它支持自定义、重设计和审计。 |
-| 3 | [nightly-labs/openbot](https://github.com/nightly-labs/openbot) | A local-first desktop workspace for persistent AI ... | TypeScript | 2.5k | 777 | OpenBot 是一个本地优先的桌面工作空间，旨在为 Codex、Claude、Grok 等 AI 模型提供持久化环境。它支持创建和管理多个 AI 队友，提供专用工作区、任务队列、文件共享、浏览器控制及代理间协作。目前处于开发预览阶段，允许 AI 具有完全访问权限，需谨慎使用。 |
-| 4 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 306.5k | 617 | Superpowers 是一个为编码代理设计的代理技能框架和软件开发方法论。它通过一套可组合的技能和指令，引导 AI 在编写代码前先明确需求、制定计划并遵循 TDD、YAGNI 等最佳实践。支持多种主流 AI 编码工具，旨在实现自主化的软件开发流程。 |
-| 5 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design language that makes your AI harness bet... | Rust | 90.6k | 1.4k | 这是一个为 AI 编码代理提供设计指导的 Rust 工具。它包含 24 个命令和 62 条确定性检测规则，旨在防止 AI 生成陈词滥调的设计。通过 `/impeccable init` 记录产品真相，并提供实时浏览器迭代功能，帮助 AI 生成更高质量、多样化的前端设计。 |
-| 6 | [makecindy/cindy](https://github.com/makecindy/cindy) | Consider it done. The open-source AI agent that wo... | TypeScript | 7.5k | 1.5k | Cindy 是一个开源、开箱即用的 AI Agent，旨在连接用户的电脑和手机。它支持多设备协同工作，允许跨设备继续会话、共享模型提供商（如 Claude Code、Codex、Pi）以及使用内置远程桌面功能。无需自建服务器，设备即服务器，提供统一的工作界面和强大的多模态操作能力。 |
-| 7 | [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | 📨 The ultimate agentic social media scheduling to... | TypeScript | 39.4k | 951 | Postiz 是一款全功能的社交媒体管理平台，支持调度、自动化及分析内容。它集成了 AI 代理生成内容，支持团队协作与多平台发布。提供 Cloud 托管或自托管选项，并支持通过 API 与 N8N 等工具集成，适合需要高效管理社交媒体的团队。 |
-| 8 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | The agent harness performance optimization system.... | JavaScript | 290.9k | 1.2k | ECC 是一个代理性能优化系统，旨在为 Claude Code、Codex 等多种 AI 编程助手提供协调的工程系统。它通过“计划-测试-实现-审查-验证-记忆-改进”的闭环工作流，优化上下文窗口，提供技能、记忆和安全功能，帮助 AI 更高效地编写和审查代码。 |
-| 9 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor: Lifelong Personalized Tutoring. https:/... | Python | 46.0k | 1.6k | DeepTutor 是一个基于 AI 的终身个性化辅导系统。它支持多模态学习（PDF、视频、语音），具备强大的知识库管理和文档解析能力。项目提供多语言界面、学习路径规划、每日练习及研究工具，旨在通过智能交互实现高效、个性化的自主学习体验。 |
-| 10 | [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | Vibe code with pi in a lightweight, real IDE that ... | TypeScript | 4.1k | 1.2k | ThinkRail 是一个基于 TypeScript 的智能 IDE，围绕 pi 编码代理构建。它提供隔离的 git worktree 工作区，支持并行开发，并具备持久的项目知识。界面包含 Monaco 编辑器、文件树和终端，支持代理自主创建工具，实现个性化开发体验。 |
-| 11 | [togg53192-cmd/jailbreaks](https://github.com/togg53192-cmd/jailbreaks) | LIST OF ALL MY JAILBREAKS... | - | 5.6k | 902 | 这是一个针对25+个AI模型（包括Claude、Gemini等）的精选系统提示词与配置集合，包含31个完整且可直接粘贴的文件。项目涵盖系统提示词、人设锁定及工作区策略，旨在研究指令层级对模型行为的影响，仅供教育和研究目的使用。 |
+| 1 | [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | Vibe code with pi in a lightweight, real IDE that ... | TypeScript | 5.1k | 1.1k | ThinkRail 是一个基于 TypeScript 的智能 IDE，围绕 pi 编码代理构建。它通过隔离的 git worktree 工作区实现并行开发，利用“活规范”持久化项目知识。IDE 具备 Monaco 编辑器、终端和 PR 管理功能，支持代理自动生成代码、合并分支并处理 CI 检查，旨在根据用户工作习惯自适应进化。 |
+| 2 | [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) | ... | - | 11.2k | 2.1k | 这是一个为 Claude Code、Cursor 等 AI 编码工具提供设计技能的集合库。项目包含自包含的文件夹，每个文件夹代表一个特定技能（如着陆页设计）。用户可按需安装，AI 将根据 Markdown 规则文件生成设计。设计系统（字体、颜色等）易于自定义，遵循 MIT 许可证。 |
+| 3 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 307.5k | 1.1k | Superpowers 是一个为编码代理设计的代理技能框架和软件开发方法论。它通过引导用户定义规格、展示设计、制定实现计划（强调 TDD、YAGNI、DRY），并利用子代理自主执行任务，使 AI 代理具备结构化的开发能力。支持多种主流 AI 工具，旨在提升自动化编程的效率和质量。 |
+| 4 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor: Lifelong Personalized Tutoring. https:/... | Python | 48.1k | 2.4k | DeepTutor 是一个基于 Python 的终身个性化 AI 导师系统。它利用 RAG 技术和知识库管理，提供模块化的学习工作区、视频课程、阅读练习和评估功能。支持多语言界面，具备强大的文档解析和聊天恢复能力，旨在为用户提供可靠且可定制的终身学习体验。 |
+| 5 | [macro-inc/macro](https://github.com/macro-inc/macro) | Macro is a unified workspace for teams: email, cha... | Rust | 5.5k | 117 | Macro 是一个为团队设计的统一工作空间，旨在替代 Slack、Linear 等多个工具。它集成了邮件、消息、文档、任务、代理和 CRM，通过共享 AI 记忆和双向图实现跨工具的 @链接与协作。项目使用 Rust 和 SolidJS 构建，强调速度、可靠性和模块化设计，旨在成为团队的“操作系统”。 |
+| 6 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Anti-AI-slop design skill for Claude Code, Cursor,... | CSS | 40.8k | 2.1k | Hallmark 是一个旨在防止 AI 生成“AI-slop”设计的技能。它提供 50 种独特主题，检查机器生成的迹象，支持自定义、重设计及审计，确保输出符合人类审美标准。 |
+| 7 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design vocabulary for your coding agent. Steer... | Rust | 92.8k | 1.5k | Impeccable 是一个 Rust 编写的工具，旨在为 AI 编码代理提供设计词汇表。它通过命令引导 AI 生成更美观的代码，并提供批评和审计功能，检查可用性、可访问性和性能。它使用确定性规则检测“AI 垃圾内容”，无需 API 密钥即可提升代码质量。 |
+| 8 | [makecindy/cindy](https://github.com/makecindy/cindy) | Consider it done. The open-source AI agent that wo... | TypeScript | 8.1k | 728 | Cindy 是一个开源、开箱即用的 AI Agent，基于 TypeScript 开发。它支持多设备连接，允许用户在电脑和手机间无缝切换会话，共享模型提供商和文件。内置远程桌面功能，无需自建服务器，集成了 Claude Code、Codex 和 Pi 等多种工作流。 |
+| 9 | [nightly-labs/openbot](https://github.com/nightly-labs/openbot) | A local-first desktop workspace for persistent AI ... | TypeScript | 3.3k | 1.1k | OpenBot 是一个本地优先的桌面工作区，为 Codex、Claude、Grok 等 AI 代理提供持久化协作环境。支持专用工作区、任务队列、文件共享及浏览器控制，允许代理间通信。目前处于开发预览阶段，提供跨平台计算机使用功能，但需注意安全风险。 |
+| 10 | [togg53192-cmd/jailbreaks](https://github.com/togg53192-cmd/jailbreaks) | LIST OF ALL MY JAILBREAKS... | - | 7.2k | 1.5k | 该项目是一个针对26+种大模型的系统提示词与越狱指令集合，包含32个完整的提示词文件。涵盖Claude、Gemini、Grok等前沿及开源模型，提供人设锁定、工作区策略及代理操作规范。所有文件均为即插即用的完整格式，主要用于研究提示词注入、指令层级及模型行为控制。 |
+| 11 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | 一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百... | JavaScript | 34.9k | 1.6k | LinkSwift 是一个基于 JavaScript 的网盘直链获取工具，支持百度、阿里、夸克等八大主流网盘。它不仅能获取下载链接，还集成了 IDM、Aria2 等下载器，支持多线程下载和批量操作，界面美观且持续更新。 |
+| 12 | [expo/skills](https://github.com/expo/skills) | A collection of AI agent skills for working with E... | Shell | 3.6k | 90 | Expo 官方提供的 AI 代理技能集合，旨在帮助 AI 代理更高效地构建、部署、升级和调试 Expo 应用。它为 AI 提供了关于 Expo API、工作流及平台约束的专门知识，确保正确应用官方文档。支持通过插件市场或 Skills CLI 安装到 Claude Code、Cursor 等多种 AI 编码工具中。 |
+| 13 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView turns commodity WiFi signals into real-ti... | Rust | 101.1k | 557 | RuView 是一个基于 Rust 的 WiFi 感知平台，利用 WiFi 信号（CSI）实现穿墙检测、生命体征监测（呼吸/心率）和活动识别。它无需摄像头或可穿戴设备，支持与 Home Assistant、Apple Home、Google Home 等主流智能家居生态无缝集成，提供房间占用、睡眠质量及跌倒检测等空间智能数据。 |
+| 14 | [xiaolai/the-craft-of-selfteaching](https://github.com/xiaolai/the-craft-of-selfteaching) | One has no future if one couldn't teach themself.... | Jupyter Notebook | 18.5k | 148 | 这是一个关于“自学”的 Python 伪代码项目。它通过 `teach_yourself` 函数展示了自学的核心循环：不断学习、练习，直到创造成果。项目旨在传达“如果不能自学，就没有未来”的理念，鼓励通过持续的行动实现自我提升。 |
 
-[查看完整数据](api/github/2026-10-27.json)
+[查看完整数据](api/github/2026-10-28.json)
 <!-- END GITHUB TRENDING -->
 
 
