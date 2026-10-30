@@ -70,26 +70,23 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-10-28 | **成功**: 14 | **失败**: 0
+**最后更新**: 2026-10-29 | **成功**: 10 | **失败**: 1
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | Vibe code with pi in a lightweight, real IDE that ... | TypeScript | 5.1k | 1.1k | ThinkRail 是一个基于 TypeScript 的智能 IDE，围绕 pi 编码代理构建。它通过隔离的 git worktree 工作区实现并行开发，利用“活规范”持久化项目知识。IDE 具备 Monaco 编辑器、终端和 PR 管理功能，支持代理自动生成代码、合并分支并处理 CI 检查，旨在根据用户工作习惯自适应进化。 |
-| 2 | [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) | ... | - | 11.2k | 2.1k | 这是一个为 Claude Code、Cursor 等 AI 编码工具提供设计技能的集合库。项目包含自包含的文件夹，每个文件夹代表一个特定技能（如着陆页设计）。用户可按需安装，AI 将根据 Markdown 规则文件生成设计。设计系统（字体、颜色等）易于自定义，遵循 MIT 许可证。 |
-| 3 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 307.5k | 1.1k | Superpowers 是一个为编码代理设计的代理技能框架和软件开发方法论。它通过引导用户定义规格、展示设计、制定实现计划（强调 TDD、YAGNI、DRY），并利用子代理自主执行任务，使 AI 代理具备结构化的开发能力。支持多种主流 AI 工具，旨在提升自动化编程的效率和质量。 |
-| 4 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor: Lifelong Personalized Tutoring. https:/... | Python | 48.1k | 2.4k | DeepTutor 是一个基于 Python 的终身个性化 AI 导师系统。它利用 RAG 技术和知识库管理，提供模块化的学习工作区、视频课程、阅读练习和评估功能。支持多语言界面，具备强大的文档解析和聊天恢复能力，旨在为用户提供可靠且可定制的终身学习体验。 |
-| 5 | [macro-inc/macro](https://github.com/macro-inc/macro) | Macro is a unified workspace for teams: email, cha... | Rust | 5.5k | 117 | Macro 是一个为团队设计的统一工作空间，旨在替代 Slack、Linear 等多个工具。它集成了邮件、消息、文档、任务、代理和 CRM，通过共享 AI 记忆和双向图实现跨工具的 @链接与协作。项目使用 Rust 和 SolidJS 构建，强调速度、可靠性和模块化设计，旨在成为团队的“操作系统”。 |
-| 6 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Anti-AI-slop design skill for Claude Code, Cursor,... | CSS | 40.8k | 2.1k | Hallmark 是一个旨在防止 AI 生成“AI-slop”设计的技能。它提供 50 种独特主题，检查机器生成的迹象，支持自定义、重设计及审计，确保输出符合人类审美标准。 |
-| 7 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design vocabulary for your coding agent. Steer... | Rust | 92.8k | 1.5k | Impeccable 是一个 Rust 编写的工具，旨在为 AI 编码代理提供设计词汇表。它通过命令引导 AI 生成更美观的代码，并提供批评和审计功能，检查可用性、可访问性和性能。它使用确定性规则检测“AI 垃圾内容”，无需 API 密钥即可提升代码质量。 |
-| 8 | [makecindy/cindy](https://github.com/makecindy/cindy) | Consider it done. The open-source AI agent that wo... | TypeScript | 8.1k | 728 | Cindy 是一个开源、开箱即用的 AI Agent，基于 TypeScript 开发。它支持多设备连接，允许用户在电脑和手机间无缝切换会话，共享模型提供商和文件。内置远程桌面功能，无需自建服务器，集成了 Claude Code、Codex 和 Pi 等多种工作流。 |
-| 9 | [nightly-labs/openbot](https://github.com/nightly-labs/openbot) | A local-first desktop workspace for persistent AI ... | TypeScript | 3.3k | 1.1k | OpenBot 是一个本地优先的桌面工作区，为 Codex、Claude、Grok 等 AI 代理提供持久化协作环境。支持专用工作区、任务队列、文件共享及浏览器控制，允许代理间通信。目前处于开发预览阶段，提供跨平台计算机使用功能，但需注意安全风险。 |
-| 10 | [togg53192-cmd/jailbreaks](https://github.com/togg53192-cmd/jailbreaks) | LIST OF ALL MY JAILBREAKS... | - | 7.2k | 1.5k | 该项目是一个针对26+种大模型的系统提示词与越狱指令集合，包含32个完整的提示词文件。涵盖Claude、Gemini、Grok等前沿及开源模型，提供人设锁定、工作区策略及代理操作规范。所有文件均为即插即用的完整格式，主要用于研究提示词注入、指令层级及模型行为控制。 |
-| 11 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | 一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百... | JavaScript | 34.9k | 1.6k | LinkSwift 是一个基于 JavaScript 的网盘直链获取工具，支持百度、阿里、夸克等八大主流网盘。它不仅能获取下载链接，还集成了 IDM、Aria2 等下载器，支持多线程下载和批量操作，界面美观且持续更新。 |
-| 12 | [expo/skills](https://github.com/expo/skills) | A collection of AI agent skills for working with E... | Shell | 3.6k | 90 | Expo 官方提供的 AI 代理技能集合，旨在帮助 AI 代理更高效地构建、部署、升级和调试 Expo 应用。它为 AI 提供了关于 Expo API、工作流及平台约束的专门知识，确保正确应用官方文档。支持通过插件市场或 Skills CLI 安装到 Claude Code、Cursor 等多种 AI 编码工具中。 |
-| 13 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView turns commodity WiFi signals into real-ti... | Rust | 101.1k | 557 | RuView 是一个基于 Rust 的 WiFi 感知平台，利用 WiFi 信号（CSI）实现穿墙检测、生命体征监测（呼吸/心率）和活动识别。它无需摄像头或可穿戴设备，支持与 Home Assistant、Apple Home、Google Home 等主流智能家居生态无缝集成，提供房间占用、睡眠质量及跌倒检测等空间智能数据。 |
-| 14 | [xiaolai/the-craft-of-selfteaching](https://github.com/xiaolai/the-craft-of-selfteaching) | One has no future if one couldn't teach themself.... | Jupyter Notebook | 18.5k | 148 | 这是一个关于“自学”的 Python 伪代码项目。它通过 `teach_yourself` 函数展示了自学的核心循环：不断学习、练习，直到创造成果。项目旨在传达“如果不能自学，就没有未来”的理念，鼓励通过持续的行动实现自我提升。 |
+| 1 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor: Lifelong Personalized Tutoring. https:/... | Python | 50.3k | 1.9k | DeepTutor 是一个基于 Python 的终身个性化辅导系统。它支持模块化安装，提供学习工作区、视频课程和 AI 聊天辅导。集成了 RAG 技术（如 LightRAG）进行知识检索，支持多语言界面（德、法、乌等），并能解析 PDF 和 Office 文档。项目旨在通过插件管理和科学工具，为用户提供可靠、可恢复的个性化学习体验。 |
+| 2 | [obra/superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development... | Shell | 308.6k | 1.0k | Superpowers 是一个为 AI 编码代理设计的软件开发方法论框架。它通过技能和指令自动引导代理，在编写代码前先与用户确认需求、制定规范和实现计划。该框架强调 TDD、YAGNI 和 DRY 原则，支持多种主流 AI 编码工具，并能实现自主化的子代理驱动开发流程。 |
+| 3 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | The design vocabulary for your coding agent. Steer... | Rust | 95.5k | 2.9k | 处理失败 |
+| 4 | [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | Vibe code with pi in a lightweight, real IDE that ... | TypeScript | 6.1k | 1.1k | ThinkRail 是一个基于 TypeScript 的智能 IDE，围绕 pi 编码代理构建。它提供隔离的工作区管理（基于 git worktrees），支持并行开发，并能自动生成、合并和管理 Pull Request。IDE 集成了 Monaco 编辑器和终端，通过 living specs 学习项目，旨在提升开发效率和自动化程度。 |
+| 5 | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | Open-source Grok Bot alternative with a virtual ma... | TypeScript | 7.5k | 1.2k | OpenMausBot 是一个开源的 Grok Bot 替代品，提供虚拟机环境供 AI 代理运行。它支持“自带代理”，允许用户在本地使用 Claude、Codex 等模型，每个代理拥有独立的个性、记忆和工具。项目强调本地优先，无需中间代理，适合需要多代理协作和本地化部署的用户。 |
+| 6 | [nightly-labs/openbot](https://github.com/nightly-labs/openbot) | A local-first desktop workspace for persistent AI ... | TypeScript | 3.9k | 709 | 这是一个本地优先的桌面工作空间，旨在为持久化的 AI 队友提供运行环境。支持 Codex、Claude、Grok 等多种模型，提供独立工作空间、任务队列、文件共享、嵌入式浏览器控制及代理间协作功能。目前处于开发预览阶段，需注意安全风险。 |
+| 7 | [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) | ... | - | 12.2k | 1.2k | 该项目为 Claude Code、Cursor 等 AI 编码工具提供了一套可定制的“设计技能”集合。每个技能（如着陆页设计）包含独立的设计规则和视觉系统。用户可按需安装，通过修改配置文件即可适配个人设计风格，旨在提升 AI 生成设计稿的质量和一致性。 |
+| 8 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Persistent Context Across Sessions for Every Agent... | TypeScript | 104.9k | 336 | Claude-Mem 是一个为 Claude Code 设计的持久化内存系统。它自动捕获会话中的工具使用和观察，通过 AI 压缩生成语义摘要，并在未来会话中注入相关上下文，确保 AI 代理保持项目知识的连续性。支持多种主流 AI 编程助手。 |
+| 9 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | Open-source AI coworkers that each get a computer ... | TypeScript | 8.2k | 247 | OpenBot 是一个开源的 AI 同事框架，允许用户在本地或私有基础设施上运行完全可控的 AI 智能体。每个 AI 拥有独立的浏览器、文件和工具，支持任何 AG-UI 代理，强调私有化部署和深度定制。 |
+| 10 | [togg53192-cmd/jailbreaks](https://github.com/togg53192-cmd/jailbreaks) | LIST OF ALL MY JAILBREAKS... | - | 9.2k | 1.6k | 这是一个针对26+种前沿大模型（如Claude、Gemini、Grok等）的提示词集合，包含系统提示词、人设定义及Ollama配置。项目旨在通过展示指令层级和策略覆盖来研究AI行为，仅供教育和研究目的。 |
+| 11 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Turn Claude Code into a full game dev studio — 49 ... | Shell | 29.3k | 353 | 该项目将 Claude Code 转化为一个完整的游戏开发工作室，包含 49 个专业化 AI 代理和 74 个工作流技能。它通过模拟真实工作室的层级结构，解决了单次 AI 会话缺乏结构、代码混乱的问题。项目提供了一套完整的协调系统，涵盖设计、编程、艺术、QA 等领域，包含 15 个自动化钩子、14 条编码规则和 62 个文档模板，确保项目从构思到发布的高质量与规范化管理。 |
 
-[查看完整数据](api/github/2026-10-28.json)
+[查看完整数据](api/github/2026-10-29.json)
 <!-- END GITHUB TRENDING -->
 
 
