@@ -1,0 +1,289 @@
+{
+  "date": "2026-11-03",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 112025,
+      "forks": 9746,
+      "todayStars": 1139,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "这是一个专为 Claude Code 构建的持久记忆压缩系统。它通过自动捕获工具使用记录并生成语义摘要，实现跨会话的上下文保持。支持多种 AI 代理，确保 Claude 在会话结束后仍能维持对项目的连续性知识。",
+        "summary_en": "A persistent memory compression system for AI agents to maintain context across sessions.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "为 Claude Code 及其他 AI 代理提供跨会话的持久化上下文记忆，解决 AI 会话结束后遗忘项目细节的问题。",
+        "useCase_en": "To enable AI agents to maintain context and continuity across sessions."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "language": "Rust",
+      "stars": 13022,
+      "forks": 890,
+      "todayStars": 3791,
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的 CLI 工具，旨在为 AI 代理提供计算机使用能力。它通过读取操作系统的无障碍树来操作 macOS、Windows 和 Linux 上的桌面应用，而非依赖截图。它将 UI 结构转换为 JSON，包含可操作元素的引用，允许代理进行点击和输入，并验证结果。项目提供 CLI 和 C 库接口，不包含模型本身。",
+        "summary_en": "A Rust CLI that enables AI agents to control desktop applications via the OS accessibility tree.",
+        "techStack": [
+          "Rust",
+          "CLI",
+          "C Library"
+        ],
+        "useCase": "适用于需要 AI 代理自动操作桌面应用程序的场景，如自动化测试、办公任务处理等。",
+        "useCase_en": "Allows AI agents to operate desktop apps on macOS, Windows, and Linux without using screenshots or pixel matching."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "stars": 10561,
+      "forks": 383,
+      "todayStars": 438,
+      "url": "https://github.com/max-sixty/worktrunk",
+      "aiSummary": {
+        "summary": "Worktrunk 是一个用 Rust 编写的 Git worktree 管理命令行工具，专为并行 AI Agent 工作流设计。它通过简化 switch、create 和 remove 等核心命令，让 worktree 操作像分支一样便捷，并支持钩子和 COW 缓存等提升开发效率的特性。",
+        "summary_en": "A Rust CLI tool that streamlines Git worktree management for parallel AI agent workflows.",
+        "techStack": [
+          "Rust",
+          "Git",
+          "CLI"
+        ],
+        "useCase": "适用于需要同时运行多个 AI Agent 进行并行开发的场景。",
+        "useCase_en": "To simplify Git worktree management for running multiple AI agents in parallel."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "JustVugg/colibri",
+      "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
+      "language": "C",
+      "stars": 47304,
+      "forks": 5469,
+      "todayStars": 802,
+      "url": "https://github.com/JustVugg/colibri",
+      "aiSummary": {
+        "summary": "colibri 是一个用 C 语言编写的分层推理引擎，专为 frontier MoE 模型设计。它通过将热门专家放在 GPU，温热专家放在 RAM，冷门专家从 NVMe 流式传输，从而在普通硬件上运行庞大的模型。支持多种主流模型，无需 GPU 也能运行。",
+        "summary_en": "A hierarchical inference engine in C that streams massive Mixture-of-Experts models from disk to run on consumer hardware.",
+        "techStack": [
+          "C",
+          "CUDA",
+          "Vulkan",
+          "GGUF",
+          "MoE"
+        ],
+        "useCase": "在普通个人电脑上运行超大规模 MoE 模型",
+        "useCase_en": "Run massive open-source Mixture-of-Experts models on consumer hardware by streaming experts from disk."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 311588,
+      "forks": 26178,
+      "todayStars": 1164,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个基于 Shell 开发的 AI 代理技能集合，专为工程师设计。它提供日常工程中使用的实用技能，旨在替代“氛围编码”，提供更可控、可组合的开发流程。支持 Claude Code、Copilot、Codex 等主流 AI 工具，通过插件形式安装，帮助开发者提升编码效率和质量。",
+        "summary_en": "A collection of engineering-focused agent skills for AI coding assistants.",
+        "techStack": [
+          "Shell",
+          "AI Agent",
+          "CLI"
+        ],
+        "useCase": "为 AI 编程助手提供工程化技能插件，辅助开发者进行高效、规范的代码编写。",
+        "useCase_en": "To equip AI coding agents with engineering-focused skills for real-world application development."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "p-e-w/heretic",
+      "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+      "language": "Python",
+      "stars": 38870,
+      "forks": 4389,
+      "todayStars": 701,
+      "url": "https://github.com/p-e-w/heretic",
+      "aiSummary": {
+        "summary": "这是一个无需训练的 Python 工具，用于修改本地语言模型。它通过数学技术引导模型行为，默认移除审查，也可减少废话、谄媚等。支持多种模型架构，无需深度理解模型内部原理即可使用，适合个人在本地硬件上优化大模型。",
+        "summary_en": "A Python tool for modifying LLMs to remove censorship and reduce sycophancy without training.",
+        "techStack": [
+          "Python",
+          "PyTorch"
+        ],
+        "useCase": "在本地硬件上移除语言模型审查或调整模型行为",
+        "useCase_en": "Modify local LLMs to remove censorship and reduce unwanted behaviors like sycophancy."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "spotify/portal-ai-plugins",
+      "description": "",
+      "language": "TypeScript",
+      "stars": 3066,
+      "forks": 239,
+      "todayStars": 91,
+      "url": "https://github.com/spotify/portal-ai-plugins",
+      "aiSummary": {
+        "summary": "该项目是将 Spotify Portal CLI 集成到 Claude Code、Codex、Cursor 和 pi 等编码助手中的 TypeScript 插件。它提供认证设置、软件目录搜索、服务简报生成及安全调用 Portal 操作的工作流。此外还包含 shunt 插件，用于将繁重的 I/O 任务委托给更便宜的模型以节省 token。",
+        "summary_en": "Integrates Spotify's internal Portal CLI into external AI coding agents to manage authentication, diagnostics, and workflows.",
+        "techStack": [
+          "TypeScript",
+          "Portal CLI",
+          "AI Coding Agents"
+        ],
+        "useCase": "用于在 AI 编码环境中管理 Spotify 软件目录、运行诊断及生成服务简报。",
+        "useCase_en": "Enables AI coding agents to authenticate with and interact with Spotify's internal Portal CLI for software management."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "floci-io/floci",
+      "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "language": "Java",
+      "stars": 28882,
+      "forks": 3215,
+      "todayStars": 482,
+      "url": "https://github.com/floci-io/floci",
+      "aiSummary": {
+        "summary": "Floci 是一个免费开源的本地 AWS 模拟器，专为开发、测试和 CI 环境设计。它无需云账户或认证令牌，通过 Docker 快速启动，提供与 AWS 兼容的服务接口。作为 LocalStack 的替代品，它支持 AWS SDK、CLI、Terraform 等工具，允许开发者本地模拟 AWS 环境，无需付费或配置复杂的认证。",
+        "summary_en": "Floci is a free, open-source local AWS emulator for development and CI that runs without cloud accounts or tokens.",
+        "techStack": [
+          "Java",
+          "Docker",
+          "AWS"
+        ],
+        "useCase": "本地 AWS 开发、测试与 CI/CD 环境",
+        "useCase_en": "Run AWS services locally for development, testing, and CI without a cloud account."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "Usagi-org/ai-goofish-monitor",
+      "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+      "language": "Python",
+      "stars": 16573,
+      "forks": 2858,
+      "todayStars": 228,
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "aiSummary": {
+        "summary": "基于 Python 和 Playwright 的闲鱼智能监控系统，利用 AI 对商品进行多模态分析，支持多任务并发、高级筛选及定时监控。提供 Web 管理界面，支持 Docker 部署，可自动通过多渠道通知用户心仪商品。",
+        "summary_en": "Python-based AI monitoring system for Xianyu using Playwright and OpenAI, featuring a web UI and multi-task support.",
+        "techStack": [
+          "Python",
+          "Playwright",
+          "OpenAI API",
+          "SQLite",
+          "Docker"
+        ],
+        "useCase": "适合需要从海量闲鱼商品中快速筛选符合特定需求（如价格、区域、新发布）的买家或二手交易爱好者。",
+        "useCase_en": "Automates the search for desired products on Xianyu using AI analysis and real-time monitoring."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "anomalyco/hex",
+      "description": "Local voice dictation for mac, windows and linux",
+      "language": "Rust",
+      "stars": 4650,
+      "forks": 260,
+      "todayStars": 410,
+      "url": "https://github.com/anomalyco/hex",
+      "aiSummary": {
+        "summary": "Hex 是一个跨平台的本地语音听写工具，支持 Mac、Windows 和 Linux。用户按住快捷键说话后，听写内容会自动粘贴到当前应用中。所有处理均在本地完成，保护用户隐私，首次运行需下载语音模型。",
+        "summary_en": "Local voice dictation tool for Mac, Windows, and Linux that transcribes speech on-device.",
+        "techStack": [
+          "Rust",
+          "语音识别"
+        ],
+        "useCase": "适用于需要在任何应用中快速输入文本且注重隐私的场景。",
+        "useCase_en": "Allows users to dictate text locally by holding a shortcut key and pasting the result into their active application."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "language": "Python",
+      "stars": 95015,
+      "forks": 9962,
+      "todayStars": 1658,
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "aiSummary": {
+        "summary": "Scrapling 是一个功能强大的 Python 网络抓取框架，集成了快速 HTTP 请求、隐身浏览器、JS 渲染和并发爬取功能。它支持静态页面抓取、动态交互、API 提取及代理轮换，提供 CLI 和 MCP 服务器接口，适用于从简单数据提取到大规模网站爬取的多种场景。",
+        "summary_en": "A Python web scraping framework for fast requests, stealth browsers, and concurrent crawling.",
+        "techStack": [
+          "Python",
+          "JavaScript (JS 渲染)",
+          "CSS/XPath",
+          "MCP (Model Context Protocol)",
+          "CLI"
+        ],
+        "useCase": "适用于从静态页面到动态 JS 渲染网页的各类数据采集任务，支持大规模爬取及 AI 代理集成。",
+        "useCase_en": "Build crawlers for static or dynamic websites, handle complex anti-bot measures, and integrate with AI agents."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars": 46563,
+      "forks": 7667,
+      "todayStars": 503,
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "aiSummary": {
+        "summary": "Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融数据的高噪声特性设计。它采用两阶段框架，首先将 OHLCV 数据量化为离散标记，再通过自回归 Transformer 进行预训练。项目支持多种模型尺寸，可用于金融预测等量化任务，已获 AAAI 2026 录用。",
+        "summary_en": "Open-source foundation model for financial candlesticks trained on data from over 45 global exchanges.",
+        "techStack": [
+          "Python",
+          "Transformer",
+          "Tokenizer",
+          "Hugging Face"
+        ],
+        "useCase": "金融时间序列预测与量化交易",
+        "useCase_en": "To forecast financial market trends and perform quantitative analysis on K-line data."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "Donchitos/Claude-Code-Game-Studios",
+      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "language": "Shell",
+      "stars": 34750,
+      "forks": 4605,
+      "todayStars": 1182,
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "aiSummary": {
+        "summary": "该项目将单个 Claude Code 会话转化为完整的游戏开发工作室。通过 49 个 AI 代理、74 个技能和 62 个模板，模拟真实工作室层级。它提供自动化 QA、设计审查和编码标准，防止代码混乱，确保项目从构思到发布保持高质量和结构化。",
+        "summary_en": "A shell framework that orchestrates 49 specialized AI agents to simulate a professional game development studio workflow.",
+        "techStack": [
+          "Shell",
+          "Claude Code"
+        ],
+        "useCase": "使用 AI 进行结构化、高质量的游戏开发",
+        "useCase_en": "Structure AI-assisted game development into a professional studio environment using 49 specialized agents and automated "
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-11-04T03:05:21.317Z",
+    "duration": "494s",
+    "version": "1.0.0"
+  }
+}
