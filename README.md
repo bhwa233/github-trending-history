@@ -70,25 +70,28 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-11-03 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-11-04 | **成功**: 15 | **失败**: 1
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Persistent Context Across Sessions for Every Agent... | TypeScript | 112.0k | 1.1k | 这是一个专为 Claude Code 构建的持久记忆压缩系统。它通过自动捕获工具使用记录并生成语义摘要，实现跨会话的上下文保持。支持多种 AI 代理，确保 Claude 在会话结束后仍能维持对项目的连续性知识。 |
-| 2 | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | Computer use CLI for AI agents... | Rust | 13.0k | 3.8k | 这是一个用 Rust 编写的 CLI 工具，旨在为 AI 代理提供计算机使用能力。它通过读取操作系统的无障碍树来操作 macOS、Windows 和 Linux 上的桌面应用，而非依赖截图。它将 UI 结构转换为 JSON，包含可操作元素的引用，允许代理进行点击和输入，并验证结果。项目提供 CLI 和 C 库接口，不包含模型本身。 |
-| 3 | [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, de... | Rust | 10.6k | 438 | Worktrunk 是一个用 Rust 编写的 Git worktree 管理命令行工具，专为并行 AI Agent 工作流设计。它通过简化 switch、create 和 remove 等核心命令，让 worktree 操作像分支一样便捷，并支持钩子和 COW 缓存等提升开发效率的特性。 |
-| 4 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | A hierarchical inference engine for frontier MoE m... | C | 47.3k | 802 | colibri 是一个用 C 语言编写的分层推理引擎，专为 frontier MoE 模型设计。它通过将热门专家放在 GPU，温热专家放在 RAM，冷门专家从 NVMe 流式传输，从而在普通硬件上运行庞大的模型。支持多种主流模型，无需 GPU 也能运行。 |
-| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .agent... | Shell | 311.6k | 1.2k | 这是一个基于 Shell 开发的 AI 代理技能集合，专为工程师设计。它提供日常工程中使用的实用技能，旨在替代“氛围编码”，提供更可控、可组合的开发流程。支持 Claude Code、Copilot、Codex 等主流 AI 工具，通过插件形式安装，帮助开发者提升编码效率和质量。 |
-| 6 | [p-e-w/heretic](https://github.com/p-e-w/heretic) | Training-free language model modification: Remove ... | Python | 38.9k | 701 | 这是一个无需训练的 Python 工具，用于修改本地语言模型。它通过数学技术引导模型行为，默认移除审查，也可减少废话、谄媚等。支持多种模型架构，无需深度理解模型内部原理即可使用，适合个人在本地硬件上优化大模型。 |
-| 7 | [spotify/portal-ai-plugins](https://github.com/spotify/portal-ai-plugins) | ... | TypeScript | 3.1k | 91 | 该项目是将 Spotify Portal CLI 集成到 Claude Code、Codex、Cursor 和 pi 等编码助手中的 TypeScript 插件。它提供认证设置、软件目录搜索、服务简报生成及安全调用 Portal 操作的工作流。此外还包含 shunt 插件，用于将繁重的 I/O 任务委托给更便宜的模型以节省 token。 |
-| 8 | [floci-io/floci](https://github.com/floci-io/floci) | Light, fluffy, and always free - The AWS Local Emu... | Java | 28.9k | 482 | Floci 是一个免费开源的本地 AWS 模拟器，专为开发、测试和 CI 环境设计。它无需云账户或认证令牌，通过 Docker 快速启动，提供与 AWS 兼容的服务接口。作为 LocalStack 的替代品，它支持 AWS SDK、CLI、Terraform 等工具，允许开发者本地模拟 AWS 环境，无需付费或配置复杂的认证。 |
-| 9 | [Usagi-org/ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor) | 基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台... | Python | 16.6k | 228 | 基于 Python 和 Playwright 的闲鱼智能监控系统，利用 AI 对商品进行多模态分析，支持多任务并发、高级筛选及定时监控。提供 Web 管理界面，支持 Docker 部署，可自动通过多渠道通知用户心仪商品。 |
-| 10 | [anomalyco/hex](https://github.com/anomalyco/hex) | Local voice dictation for mac, windows and linux... | Rust | 4.7k | 410 | Hex 是一个跨平台的本地语音听写工具，支持 Mac、Windows 和 Linux。用户按住快捷键说话后，听写内容会自动粘贴到当前应用中。所有处理均在本地完成，保护用户隐私，首次运行需下载语音模型。 |
-| 11 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ The BEST Web Scraping framework that handles e... | Python | 95.0k | 1.7k | Scrapling 是一个功能强大的 Python 网络抓取框架，集成了快速 HTTP 请求、隐身浏览器、JS 渲染和并发爬取功能。它支持静态页面抓取、动态交互、API 提取及代理轮换，提供 CLI 和 MCP 服务器接口，适用于从简单数据提取到大规模网站爬取的多种场景。 |
-| 12 | [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Fin... | Python | 46.6k | 503 | Kronos 是首个开源的金融蜡烛图基础模型，专为处理金融数据的高噪声特性设计。它采用两阶段框架，首先将 OHLCV 数据量化为离散标记，再通过自回归 Transformer 进行预训练。项目支持多种模型尺寸，可用于金融预测等量化任务，已获 AAAI 2026 录用。 |
-| 13 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Turn Claude Code into a full game dev studio — 49 ... | Shell | 34.8k | 1.2k | 该项目将单个 Claude Code 会话转化为完整的游戏开发工作室。通过 49 个 AI 代理、74 个技能和 62 个模板，模拟真实工作室层级。它提供自动化 QA、设计审查和编码标准，防止代码混乱，确保项目从构思到发布保持高质量和结构化。 |
+| 1 | [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | Auto Ontology is a Python framework for building s... | Python | 5.3k | 2.0k | NVIDIA Auto Ontology 是一个 Python 框架，用于在数据之上构建语义图推理层。它从元数据生成企业本体，支持自然语言转 SQL 查询，并提供 RBAC 和血缘验证。通过 MCP、CLI 和 API 暴露上下文，帮助代理可靠地访问数据，确保业务指标准确。 |
+| 2 | [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, de... | Rust | 11.1k | 531 | Worktrunk 是一个用 Rust 编写的 CLI 工具，旨在简化 Git worktree 管理。它提供核心命令（如切换、创建和清理）来替代繁琐的 Git 命令，特别为并行 AI agent 工作流设计。它包含钩子和写时复制构建缓存等生活质量功能，以提升多任务处理效率。 |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .agent... | Shell | 313.5k | 1.4k | 这是一个为 AI 编程代理（如 Claude、Copilot、Codex）提供实用工程技能的集合。旨在帮助开发者进行真实的工程工作，而非简单的氛围编码。这些技能小巧、可组合且易于定制，通过插件安装到各种 IDE 和 CLI 工具中，提升 AI 的编程能力和效率。 |
+| 4 | [floci-io/floci](https://github.com/floci-io/floci) | Light, fluffy, and always free - The AWS Local Emu... | Java | 29.7k | 1.1k | Floci 是一个免费、开源的本地 AWS 模拟器，专为开发、测试和 CI 设计。它允许用户在本地运行 AWS 服务，无需云账户或认证令牌。支持 AWS SDK、CLI、Terraform 和 CDK，是 LocalStack 的直接替代品，可通过 Docker Compose 或 CLI 快速启动。 |
+| 5 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | Persistent Context Across Sessions for Every Agent... | TypeScript | 113.0k | 1.2k | 该项目是一个为 Claude Code 设计的持久化记忆压缩系统。它自动捕获会话中的工具使用记录，利用 AI 进行语义压缩，并将相关上下文注入未来会话，确保 AI 代理保持项目知识的连续性。 |
+| 6 | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | Computer use CLI for AI agents... | Rust | 15.4k | 2.5k | 这是一个用 Rust 编写的 CLI 工具，旨在为 AI 代理提供计算机使用能力。它通过读取操作系统的可访问性树来查看和操作桌面应用，无需截图或像素匹配。它返回 JSON 格式的 UI 结构，支持点击和输入操作，适用于构建自动化 AI 代理。 |
+| 7 | [github/spec-kit](https://github.com/github/spec-kit) | 💫 Toolkit to help you get started with SDD or any... | Python | 147.4k | 808 | Spec Kit 是一个 Python 开发的开源工具包，旨在为 AI 编码代理提供结构化流程、可重用模板和文档化成果。它支持 Spec-Driven Development (SDD)、Bug 修复和 Idea 评估等场景，允许用户通过扩展、钩子和工作流自定义流程，以提升开发效率和标准化。 |
+| 8 | [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) | 🚀 PR Agent: The Original Open-Source PR Reviewer.... | Python | 14.8k | 280 | PR-Agent 是一个开源的 AI 驱动代码审查代理，基于 Python 开发。它支持 GitHub、GitLab 等平台，通过 GitHub Actions 或 CLI 实现自动化 PR 审查，帮助开发者提升代码质量。 |
+| 9 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD sho... | Python | 139.1k | 617 | 这是一个基于 Python 的一站式 AI 短视频生成工具。用户只需输入主题或关键词，系统即可自动生成视频脚本、匹配素材、添加字幕和背景音乐，并最终合成高清短视频。项目集成了多种大模型 API，实现了从文案到成片的自动化全流程。 |
+| 10 | [garrytan/gstack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinio... | TypeScript | 139.4k | 290 | gstack 是一个开源软件工厂，利用 Claude Code 模拟虚拟工程团队。它包含 23 个工具，分别扮演 CEO、设计、工程经理、QA、安全官和发布工程师等角色。通过自动化设计文档、代码审查、QA 测试和安全审计，帮助开发者高效构建产品，支持从规划到发布的全流程自动化。 |
+| 11 | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | A 2.78-trillion-parameter Kimi K3 running inferenc... | C | 10.4k | 351 | 这是一个在 C 语言中实现的 Kimi K3 大语言模型推理引擎。它能够在单个 CPU 上运行，仅占用 8.24GB 内存，无需 BLAS、框架或 GPU 支持，完全基于 C99 标准编写，具有极高的可移植性。 |
+| 12 | [JiaFeiMiao-K-Cat/DiscImageStudio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio) | ... | C# | 6.7k | 1.8k | DiscImageStudio 是一款基于 C# 和 .NET 10 开发的开源工具，可将图片转换为符合 CD/DVD/BD 物理约束的数据，刻录后盘面呈现图案。支持图层排版、影调调整及辅助标定，可导出 ISO、RAW 或 WAV+CUE，并具备实验性的即时刻录功能。 |
+| 13 | [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps) | This repository started out as a learning in publi... | Shell | 30.5k | 97 | 这是一个始于2022年的90天DevOps学习公开项目，现已演变为社区结构化的学习地图。项目涵盖DevOps原则、流程、工具及用例，包含DevSecOps安全专题和社区版YouTube会议。内容非商业用途，旨在帮助开发者建立DevOps基础，鼓励社区贡献与讨论。 |
+| 14 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ The BEST Web Scraping framework that handles e... | Python | 96.7k | 2.0k | Scrapling 是一个功能强大的 Python 网络爬虫框架，集成了快速 HTTP 请求、隐身浏览器、JavaScript 渲染和并发爬取能力。它支持静态与动态页面抓取、API 数据提取，具备代理轮换、自动重试、会话管理及多种数据导出功能。此外，它还提供 MCP 服务器支持 AI 代理集成，适用于从简单单页抓取到大规模网站数据采集的完整工作流。 |
+| 15 | [Thysrael/Horizon](https://github.com/Thysrael/Horizon) | 📡 Your own AI-powered news radar. Generates daily... | Python | 12.6k | 121 | Horizon 是一个基于 Python 的 AI 驱动新闻雷达，用于收集和过滤来自 RSS、社交媒体和论坛的分散信息。它允许用户定义“配置文件”来定制评分标准和输出格式（如摘要、背景或解决方案），支持中英文双语，并通过邮件、飞书或微信等多种方式分发个性化简报。 |
+| 16 | [scenario-labs/skills](https://github.com/scenario-labs/skills) | Get production-ready images, video, audio, and 3D ... | Python | 2.5k | 224 | 处理失败 |
 
-[查看完整数据](api/github/2026-11-03.json)
+[查看完整数据](api/github/2026-11-04.json)
 <!-- END GITHUB TRENDING -->
 
 

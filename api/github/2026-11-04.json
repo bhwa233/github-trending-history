@@ -1,0 +1,347 @@
+{
+  "date": "2026-11-04",
+  "since": "daily",
+  "totalRepos": 16,
+  "successCount": 15,
+  "failedCount": 1,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "language": "Python",
+      "stars": 5349,
+      "forks": 415,
+      "todayStars": 2050,
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "aiSummary": {
+        "summary": "NVIDIA Auto Ontology 是一个 Python 框架，用于在数据之上构建语义图推理层。它从元数据生成企业本体，支持自然语言转 SQL 查询，并提供 RBAC 和血缘验证。通过 MCP、CLI 和 API 暴露上下文，帮助代理可靠地访问数据，确保业务指标准确。",
+        "summary_en": "A Python framework for building semantic reasoning layers over enterprise data to support explainable AI and reliable agent workflows.",
+        "techStack": [
+          "Python",
+          "PostgreSQL",
+          "NVIDIA NIM",
+          "Better Auth",
+          "Helm"
+        ],
+        "useCase": "为 LLM 和代理工作流提供可解释的 AI 和确定性查询生成，解决企业数据检索与验证问题。",
+        "useCase_en": "It provides a semantic context layer for agents to query databases reliably by reconciling definitions and lineage."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "stars": 11105,
+      "forks": 416,
+      "todayStars": 531,
+      "url": "https://github.com/max-sixty/worktrunk",
+      "aiSummary": {
+        "summary": "Worktrunk 是一个用 Rust 编写的 CLI 工具，旨在简化 Git worktree 管理。它提供核心命令（如切换、创建和清理）来替代繁琐的 Git 命令，特别为并行 AI agent 工作流设计。它包含钩子和写时复制构建缓存等生活质量功能，以提升多任务处理效率。",
+        "summary_en": "A Rust CLI tool simplifying Git worktree management for parallel AI agent workflows.",
+        "techStack": [
+          "Rust",
+          "Git",
+          "CLI"
+        ],
+        "useCase": "适用于需要管理多个并行 AI agent 工作流或简化 Git worktree 操作的开发者。",
+        "useCase_en": "To streamline Git worktree operations for developers running parallel AI agents."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 313491,
+      "forks": 26292,
+      "todayStars": 1379,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编程代理（如 Claude、Copilot、Codex）提供实用工程技能的集合。旨在帮助开发者进行真实的工程工作，而非简单的氛围编码。这些技能小巧、可组合且易于定制，通过插件安装到各种 IDE 和 CLI 工具中，提升 AI 的编程能力和效率。",
+        "summary_en": "A collection of composable agent skills for real engineering workflows.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "GitHub Copilot",
+          "Codex",
+          "Gemini CLI"
+        ],
+        "useCase": "为各类 AI 编程代理注入工程化技能，提升代码质量和开发效率。",
+        "useCase_en": "To install modular engineering skills into AI coding agents like Claude and Copilot."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "floci-io/floci",
+      "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "language": "Java",
+      "stars": 29703,
+      "forks": 3282,
+      "todayStars": 1090,
+      "url": "https://github.com/floci-io/floci",
+      "aiSummary": {
+        "summary": "Floci 是一个免费、开源的本地 AWS 模拟器，专为开发、测试和 CI 设计。它允许用户在本地运行 AWS 服务，无需云账户或认证令牌。支持 AWS SDK、CLI、Terraform 和 CDK，是 LocalStack 的直接替代品，可通过 Docker Compose 或 CLI 快速启动。",
+        "summary_en": "A free, open-source local AWS emulator for development and CI.",
+        "techStack": [
+          "Java",
+          "Docker",
+          "AWS"
+        ],
+        "useCase": "本地 AWS 开发、测试及 CI/CD 流水线模拟",
+        "useCase_en": "Provides local AWS services for development and CI workflows without cloud credentials."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "stars": 112958,
+      "forks": 9807,
+      "todayStars": 1172,
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aiSummary": {
+        "summary": "该项目是一个为 Claude Code 设计的持久化记忆压缩系统。它自动捕获会话中的工具使用记录，利用 AI 进行语义压缩，并将相关上下文注入未来会话，确保 AI 代理保持项目知识的连续性。",
+        "summary_en": "Persistent memory compression system for AI agents that captures actions and injects context into future sessions.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "AI/LLM"
+        ],
+        "useCase": "适用于需要 AI 代理在会话结束后仍能保持项目上下文连续性的开发场景。",
+        "useCase_en": "Provides persistent memory for AI agents to maintain context across sessions."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "language": "Rust",
+      "stars": 15381,
+      "forks": 1069,
+      "todayStars": 2470,
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的 CLI 工具，旨在为 AI 代理提供计算机使用能力。它通过读取操作系统的可访问性树来查看和操作桌面应用，无需截图或像素匹配。它返回 JSON 格式的 UI 结构，支持点击和输入操作，适用于构建自动化 AI 代理。",
+        "summary_en": "A Rust CLI library enabling AI agents to control desktop apps via accessibility trees without screenshots.",
+        "techStack": [
+          "Rust",
+          "JavaScript",
+          "C"
+        ],
+        "useCase": "为 AI 代理提供跨平台的桌面自动化操作能力",
+        "useCase_en": "To allow AI agents to perform computer use tasks by interacting with desktop accessibility trees."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "github/spec-kit",
+      "description": "💫 Toolkit to help you get started with SDD or any other process!",
+      "language": "Python",
+      "stars": 147387,
+      "forks": 13226,
+      "todayStars": 808,
+      "url": "https://github.com/github/spec-kit",
+      "aiSummary": {
+        "summary": "Spec Kit 是一个 Python 开发的开源工具包，旨在为 AI 编码代理提供结构化流程、可重用模板和文档化成果。它支持 Spec-Driven Development (SDD)、Bug 修复和 Idea 评估等场景，允许用户通过扩展、钩子和工作流自定义流程，以提升开发效率和标准化。",
+        "summary_en": "Spec Kit is a Python toolkit for AI coding agents to manage structured processes like SDD, bug fixing, and idea assessment.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为 AI 编码代理提供结构化开发流程和可扩展的模板工具包。",
+        "useCase_en": "Helps AI coding agents execute structured workflows for feature building, bug fixing, and idea assessment."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "The-PR-Agent/pr-agent",
+      "description": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+      "language": "Python",
+      "stars": 14831,
+      "forks": 2098,
+      "todayStars": 280,
+      "url": "https://github.com/The-PR-Agent/pr-agent",
+      "aiSummary": {
+        "summary": "PR-Agent 是一个开源的 AI 驱动代码审查代理，基于 Python 开发。它支持 GitHub、GitLab 等平台，通过 GitHub Actions 或 CLI 实现自动化 PR 审查，帮助开发者提升代码质量。",
+        "summary_en": "Open-source AI-powered code review agent for automated PR reviews across platforms.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "GitHub Actions"
+        ],
+        "useCase": "适用于需要自动化代码审查、提升代码质量及集成 CI/CD 流程的开发团队。",
+        "useCase_en": "Automate code reviews on pull requests using AI."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "stars": 139119,
+      "forks": 22195,
+      "todayStars": 617,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 的一站式 AI 短视频生成工具。用户只需输入主题或关键词，系统即可自动生成视频脚本、匹配素材、添加字幕和背景音乐，并最终合成高清短视频。项目集成了多种大模型 API，实现了从文案到成片的自动化全流程。",
+        "summary_en": "Automated AI workflow tool that generates HD short videos from keywords using large language models.",
+        "techStack": [
+          "Python",
+          "AI 大模型 (Kimi, GLM-5.3, DeepSeek, GPT, Claude, Gemini)",
+          "API 聚合平台 (火山引擎, 秘塔科技, OfoxAI)"
+        ],
+        "useCase": "适用于自媒体运营、内容创作者快速批量生成短视频及自动化营销场景。",
+        "useCase_en": "Generate high-definition short videos automatically by inputting a topic or keyword."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "stars": 139407,
+      "forks": 20639,
+      "todayStars": 290,
+      "url": "https://github.com/garrytan/gstack",
+      "aiSummary": {
+        "summary": "gstack 是一个开源软件工厂，利用 Claude Code 模拟虚拟工程团队。它包含 23 个工具，分别扮演 CEO、设计、工程经理、QA、安全官和发布工程师等角色。通过自动化设计文档、代码审查、QA 测试和安全审计，帮助开发者高效构建产品，支持从规划到发布的全流程自动化。",
+        "summary_en": "A collection of 23 tools to turn Claude Code into a virtual engineering team.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code",
+          "Git",
+          "Bun",
+          "Node.js"
+        ],
+        "useCase": "适合创始人、技术负责人及开发者，用于构建结构化开发流程，实现自动化代码审查、QA 测试和发布。",
+        "useCase_en": "To automate engineering workflows like design, review, QA, and release using AI agents."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "FareedKhan-dev/kimi-k3-in-c",
+      "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "language": "C",
+      "stars": 10383,
+      "forks": 1636,
+      "todayStars": 351,
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "aiSummary": {
+        "summary": "这是一个在 C 语言中实现的 Kimi K3 大语言模型推理引擎。它能够在单个 CPU 上运行，仅占用 8.24GB 内存，无需 BLAS、框架或 GPU 支持，完全基于 C99 标准编写，具有极高的可移植性。",
+        "summary_en": "A lightweight C99 implementation of the 2.78T parameter Kimi K3 model for CPU inference.",
+        "techStack": [
+          "C",
+          "CMake",
+          "Python"
+        ],
+        "useCase": "适用于资源受限环境下的轻量级大模型推理。",
+        "useCase_en": "Execute large-scale AI inference on a standard CPU without requiring GPU or external libraries."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "JiaFeiMiao-K-Cat/DiscImageStudio",
+      "description": "",
+      "language": "C#",
+      "stars": 6702,
+      "forks": 238,
+      "todayStars": 1778,
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "aiSummary": {
+        "summary": "DiscImageStudio 是一款基于 C# 和 .NET 10 开发的开源工具，可将图片转换为符合 CD/DVD/BD 物理约束的数据，刻录后盘面呈现图案。支持图层排版、影调调整及辅助标定，可导出 ISO、RAW 或 WAV+CUE，并具备实验性的即时刻录功能。",
+        "summary_en": "A C# tool to convert images into data compliant with CD/DVD/Blu-ray physical layer constraints for visible disc surface patterns.",
+        "techStack": [
+          "C#",
+          ".NET 10",
+          "Windows",
+          "Linux",
+          "macOS"
+        ],
+        "useCase": "用于将图片数据刻录到 CD/DVD/BD 光盘，制作具有物理图案的收藏级光盘。",
+        "useCase_en": "Design and burn custom optical discs with visible artwork patterns."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "MichaelCade/90DaysOfDevOps",
+      "description": "This repository started out as a learning in public project for myself and has now become a structured learning map for many in the community. We have 3 years under our belt covering all things DevOps, including Principles, Processes, Tooling and Use Cases surrounding this vast topic.",
+      "language": "Shell",
+      "stars": 30497,
+      "forks": 6794,
+      "todayStars": 97,
+      "url": "https://github.com/MichaelCade/90DaysOfDevOps",
+      "aiSummary": {
+        "summary": "这是一个始于2022年的90天DevOps学习公开项目，现已演变为社区结构化的学习地图。项目涵盖DevOps原则、流程、工具及用例，包含DevSecOps安全专题和社区版YouTube会议。内容非商业用途，旨在帮助开发者建立DevOps基础，鼓励社区贡献与讨论。",
+        "summary_en": "A structured learning map for DevOps covering principles, processes, tooling, and community sessions.",
+        "techStack": [
+          "Shell",
+          "Markdown"
+        ],
+        "useCase": "适合希望系统学习DevOps基础知识的开发者及运维人员。",
+        "useCase_en": "To serve as a structured learning map for DevOps principles, processes, and tooling."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "language": "Python",
+      "stars": 96741,
+      "forks": 10133,
+      "todayStars": 2005,
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "aiSummary": {
+        "summary": "Scrapling 是一个功能强大的 Python 网络爬虫框架，集成了快速 HTTP 请求、隐身浏览器、JavaScript 渲染和并发爬取能力。它支持静态与动态页面抓取、API 数据提取，具备代理轮换、自动重试、会话管理及多种数据导出功能。此外，它还提供 MCP 服务器支持 AI 代理集成，适用于从简单单页抓取到大规模网站数据采集的完整工作流。",
+        "summary_en": "A comprehensive Python web scraping framework for fast requests, stealth browsing, and concurrent crawling.",
+        "techStack": [
+          "Python",
+          "HTTP",
+          "Web Scraping",
+          "MCP",
+          "CLI"
+        ],
+        "useCase": "适用于需要处理 JavaScript 渲染、反爬虫对抗（如 Cloudflare）以及大规模数据采集的现代 Web 爬虫开发。",
+        "useCase_en": "Build web scrapers for static pages, JavaScript rendering, and API extraction using Python, CLI, or AI agents."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "Thysrael/Horizon",
+      "description": "📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达",
+      "language": "Python",
+      "stars": 12587,
+      "forks": 1825,
+      "todayStars": 121,
+      "url": "https://github.com/Thysrael/Horizon",
+      "aiSummary": {
+        "summary": "Horizon 是一个基于 Python 的 AI 驱动新闻雷达，用于收集和过滤来自 RSS、社交媒体和论坛的分散信息。它允许用户定义“配置文件”来定制评分标准和输出格式（如摘要、背景或解决方案），支持中英文双语，并通过邮件、飞书或微信等多种方式分发个性化简报。",
+        "summary_en": "An AI-powered news aggregator that filters and summarizes content from multiple sources into personalized daily briefings.",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "JSON"
+        ],
+        "useCase": "适合需要整合多源信息、追求个性化阅读体验的开发者及科技爱好者。",
+        "useCase_en": "Automate the collection of news from various sources and receive a personalized daily briefing tailored to your specific"
+      }
+    },
+    {
+      "index": 15,
+      "fullName": "scenario-labs/skills",
+      "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
+      "language": "Python",
+      "stars": 2512,
+      "forks": 249,
+      "todayStars": 224,
+      "url": "https://github.com/scenario-labs/skills",
+      "errorMessage": "AI 请求失败 (unknown): \"timeout of 45000ms exceeded\""
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-11-05T03:28:37.909Z",
+    "duration": "536s",
+    "version": "1.0.0"
+  }
+}
