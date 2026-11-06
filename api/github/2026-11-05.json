@@ -1,0 +1,338 @@
+{
+  "date": "2026-11-05",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "language": "Python",
+      "stars": 7570,
+      "forks": 602,
+      "todayStars": 2679,
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "aiSummary": {
+        "summary": "NVIDIA Auto Ontology 是一个 Python 框架，旨在为 LLM 和智能体构建语义图推理层。它从企业元数据生成知识图谱，提供上下文检索和可解释的 AI。支持自然语言转 SQL，通过 MCP、CLI 和 API 暴露上下文，并包含 Web UI 和 RBAC，确保数据可靠性和业务一致性。",
+        "summary_en": "A Python framework for building semantic reasoning layers over data to enable explainable AI and context-aware agents.",
+        "techStack": [
+          "Python",
+          "PostgreSQL",
+          "Kubernetes",
+          "Docker",
+          "Better Auth"
+        ],
+        "useCase": "构建企业级知识图谱，为智能体提供可靠的数据上下文、语义理解及可解释的查询能力。",
+        "useCase_en": "Provides a semantic context layer for agents to query databases with natural language and ensure data accuracy."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 315441,
+      "forks": 26410,
+      "todayStars": 2071,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编程助手设计的技能库，旨在帮助工程师进行真正的工程开发而非“氛围编码”。它包含一系列小巧、可组合的 Shell 脚本和提示词，支持 Claude、Copilot、Codex 等多种主流工具。用户可以通过插件快速安装，自定义工作流，提升代码质量和开发效率。",
+        "summary_en": "A collection of engineering agent skills for real development tasks, designed to be composable and adaptable.",
+        "techStack": [
+          "Shell",
+          "JSON"
+        ],
+        "useCase": "为 AI 编程助手提供工程化提示词和工作流，辅助开发者进行高质量代码编写。",
+        "useCase_en": "Install these skills into AI coding agents to perform real engineering tasks."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "stars": 140023,
+      "forks": 20700,
+      "todayStars": 612,
+      "url": "https://github.com/garrytan/gstack",
+      "aiSummary": {
+        "summary": "gstack 是一个开源的 AI 软件工厂，旨在将 Claude Code 转化为虚拟工程团队。它集成了 CEO、设计师、工程经理、QA、安全官和发布工程师等 23 个角色，通过自动化代码审查、QA 测试和发布流程，帮助开发者高效构建产品，支持多冲刺并行开发。",
+        "summary_en": "Turns Claude Code into a virtual engineering team with roles like CEO, QA, and Release Manager.",
+        "techStack": [
+          "TypeScript",
+          "Claude Code",
+          "Git",
+          "Bun",
+          "Node.js"
+        ],
+        "useCase": "为创始人、技术负责人及开发者提供自动化工程流程，加速产品构建与发布。",
+        "useCase_en": "To automate engineering workflows and improve code quality using AI agents."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "Usagi-org/ai-goofish-monitor",
+      "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+      "language": "Python",
+      "stars": 17723,
+      "forks": 2964,
+      "todayStars": 240,
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "aiSummary": {
+        "summary": "基于 Python 和 Playwright 的闲鱼智能监控系统，利用 AI 自然语言处理和多模态分析实现商品监控。支持多任务并发、高级筛选、定时调度及多种通知渠道，提供 Web 可视化管理界面，支持 Docker 一键部署。",
+        "summary_en": "An AI-driven monitoring system for Xianyu using Playwright and OpenAI, featuring a web UI for task management and notifications.",
+        "techStack": [
+          "Python",
+          "Playwright",
+          "OpenAI API",
+          "Docker",
+          "SQLite"
+        ],
+        "useCase": "适合需要从闲鱼海量商品中快速筛选心仪产品的用户，利用 AI 智能分析提升效率。",
+        "useCase_en": "Automates the monitoring and analysis of Xianyu listings using AI to help users find desired products efficiently."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "D4Vinci/Scrapling",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "language": "Python",
+      "stars": 98124,
+      "forks": 10281,
+      "todayStars": 1655,
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "aiSummary": {
+        "summary": "Scrapling 是一个功能全面的 Python Web 抓取框架，集成了快速 HTTP 请求、隐身浏览器、JavaScript 渲染和并发爬取能力。它支持静态页面抓取、API 数据提取、代理轮换及数据导出，并提供 MCP 服务器和 Agent Skill 以支持 AI 代理操作，覆盖从单页抓取到全站爬取的完整工作流。",
+        "summary_en": "A Python web scraping framework featuring stealth browsers, concurrent crawling, and AI agent integration.",
+        "techStack": [
+          "Python",
+          "JavaScript (渲染)",
+          "MCP (AI集成)",
+          "CSS/XPath (解析)"
+        ],
+        "useCase": "适用于需要抓取动态网页、处理反爬虫机制（如 Cloudflare）以及集成 AI 代理进行自动化数据提取的开发者。",
+        "useCase_en": "Build robust web scrapers for static and dynamic sites, handle complex anti-bot measures, and integrate with AI agents."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "language": "Rust",
+      "stars": 17050,
+      "forks": 1204,
+      "todayStars": 2173,
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "aiSummary": {
+        "summary": "Agent Desktop 是一个为 AI 代理提供计算机使用能力的 CLI 工具。它通过读取操作系统的可访问性树来获取 UI 元素，并以 JSON 格式返回，包含可操作的引用。它支持 macOS、Windows 和 Linux，无需截图或像素匹配，适合构建自动化代理。",
+        "summary_en": "Rust CLI and C library enabling AI agents to control desktop apps via OS accessibility trees.",
+        "techStack": [
+          "Rust",
+          "C",
+          "JavaScript"
+        ],
+        "useCase": "构建 AI 自动化代理以操作桌面应用程序",
+        "useCase_en": "Enables AI agents to interact with desktop applications on macOS, Windows, and Linux using accessibility trees instead o"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "stars": 11569,
+      "forks": 440,
+      "todayStars": 546,
+      "url": "https://github.com/max-sixty/worktrunk",
+      "aiSummary": {
+        "summary": "Worktrunk 是一个用 Rust 编写的 CLI 工具，旨在简化 Git worktree 管理。它专为并行 AI agent 工作流设计，通过提供核心命令（如切换、创建和清理）来替代繁琐的 Git 原生操作。它还支持 Hooks 和 Copy-on-Write 缓存，显著提升了多任务并行开发的效率。",
+        "summary_en": "A Rust CLI tool designed to simplify Git worktree management for parallel AI agent workflows.",
+        "techStack": [
+          "Rust",
+          "Git",
+          "CLI"
+        ],
+        "useCase": "适用于需要并行运行多个 AI agent 进行开发任务的场景。",
+        "useCase_en": "To streamline the management of multiple Git worktrees for running AI agents in parallel."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "lz4/lz4",
+      "description": "Extremely Fast Compression algorithm",
+      "language": "C",
+      "stars": 12407,
+      "forks": 1636,
+      "todayStars": 23,
+      "url": "https://github.com/lz4/lz4",
+      "aiSummary": {
+        "summary": "LZ4 是一个极速的无损压缩算法，支持多核 CPU 扩展。它提供极高的压缩和解压速度，并支持动态调整压缩率。包含标准版 LZ4 和高压缩率版本 LZ4_HC，支持字典压缩。库采用 BSD 2-Clause 许可证，命令行工具采用 GPL-2.0 许可证。",
+        "summary_en": "A high-performance C library for extremely fast lossless compression and decompression.",
+        "techStack": [
+          "C",
+          "BSD 2-Clause",
+          "GPL-2.0",
+          "无损压缩算法"
+        ],
+        "useCase": "适用于对速度要求极高的实时数据压缩、数据库存储和高速网络传输场景。",
+        "useCase_en": "Ideal for applications requiring high-speed data compression and decompression."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "stars": 22435,
+      "forks": 1895,
+      "todayStars": 211,
+      "url": "https://github.com/google/skills",
+      "aiSummary": {
+        "summary": "该项目为 Google 产品和技术提供 Agent Skills，涵盖 Google Cloud、多产品解决方案及 AI/ML 领域。它支持通过 npx 命令行工具安装和更新技能，帮助开发者快速配置代理，实现认证授权、架构工作流、数据分析及模型管理等任务，提升开发效率。",
+        "summary_en": "A collection of agent skills for Google Cloud and AI technologies",
+        "techStack": [
+          "Python",
+          "Google Cloud",
+          "Node.js",
+          "AI/ML"
+        ],
+        "useCase": "用于为 AI 代理配置 Google Cloud 环境及部署相关解决方案。",
+        "useCase_en": "To provide pre-configured skills for deploying and managing AI agents on Google Cloud"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 45979,
+      "forks": 3151,
+      "todayStars": 150,
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 的浏览器自动化 CLI 工具，专为 AI 代理设计。它允许代理通过命令行打开网页、读取无障碍树，并使用引用或选择器执行点击、获取内容等操作。通过 Chrome DevTools Protocol 控制浏览器，支持交互式和脚本化任务，非常适合需要网页交互的 AI 智能体。",
+        "summary_en": "Native Rust CLI for AI agents to automate browser interactions via shell commands.",
+        "techStack": [
+          "Rust",
+          "Chrome DevTools Protocol",
+          "Chrome for Testing"
+        ],
+        "useCase": "AI 代理网页交互与自动化",
+        "useCase_en": "To enable AI agents to drive a browser and perform automated web tasks via shell commands."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "scenario-labs/skills",
+      "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
+      "language": "Python",
+      "stars": 3134,
+      "forks": 274,
+      "todayStars": 667,
+      "url": "https://github.com/scenario-labs/skills",
+      "aiSummary": {
+        "summary": "该项目提供了一套 AI 代理技能库，旨在通过 Scenario MCP 服务器帮助用户生成高质量的生产级图像、视频、音频和 3D 资产。它支持 Claude Code、Cursor 等主流 AI 编码代理，并包含驱动 Blender、Maya、Unity 等本地 DCC 软件的专家工具，覆盖游戏开发与创意制作全流程。",
+        "summary_en": "A collection of skills for AI agents to create production-ready 3D, video, and audio assets using the Scenario MCP server.",
+        "techStack": [
+          "Python",
+          "Node.js",
+          "TypeScript"
+        ],
+        "useCase": "游戏开发、影视娱乐及各类创意垂直领域的内容生成与资产制作",
+        "useCase_en": "Equip AI coding agents with skills to generate production-ready game assets, video, and audio using Scenario MCP."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "ConardLi/garden-skills",
+      "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "language": "JavaScript",
+      "stars": 14201,
+      "forks": 1652,
+      "todayStars": 175,
+      "url": "https://github.com/ConardLi/garden-skills",
+      "aiSummary": {
+        "summary": "这是一个面向 AI 编程 Agent 的开源技能集合，包含网页设计、知识检索等功能。其中 motion-showreel 技能专注于生成式视频制作，支持通过确定性渲染管道生成 MP4 视频，内置 43 种风格库，能实现图片与声音的时间轴同步，适用于作品集展示、UI 动画及产品影片。",
+        "summary_en": "A curated collection of production-ready Agent Skills for AI coding agents, featuring motion graphics and video generation.",
+        "techStack": [
+          "JavaScript",
+          "Tone.js",
+          "npx"
+        ],
+        "useCase": "生成式视频制作，适用于作品集展示、UI 动画及产品影片",
+        "useCase_en": "To provide production-ready skills for AI coding agents to generate motion graphics and video content."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars": 56060,
+      "forks": 6306,
+      "todayStars": 223,
+      "url": "https://github.com/microsoft/VibeVoice",
+      "aiSummary": {
+        "summary": "VibeVoice 是微软开源的前沿语音 AI 项目，包含 ASR（语音转文本）和 TTS（文本转语音）功能。支持 50+ 语言，具备流式识别、长音频处理及说话人分离能力。提供 BitNet 量化版本，可在无 GPU 的 CPU 上实现实时推理，并已集成至 Azure AI Foundry 和 Hugging Face Transformers。",
+        "summary_en": "Microsoft's open-source frontier voice AI featuring unified speech-to-text, speaker diarization, and edge CPU inference.",
+        "techStack": [
+          "Python",
+          "Transformers",
+          "vLLM",
+          "BitNet"
+        ],
+        "useCase": "适用于多语言实时语音转写、长音频结构化分析及边缘设备部署。",
+        "useCase_en": "Process long-form audio with speaker identification and real-time streaming capabilities."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "floci-io/floci",
+      "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "language": "Java",
+      "stars": 30483,
+      "forks": 3333,
+      "todayStars": 779,
+      "url": "https://github.com/floci-io/floci",
+      "aiSummary": {
+        "summary": "Floci 是一个轻量级、免费的本地 AWS 模拟器，专为开发、测试和 CI 环境设计。它无需云账户或认证令牌，支持 AWS SDK、CLI、Terraform 和 CDK 等工具，可作为 LocalStack 的直接替代品。通过 Docker Compose 或 CLI 即可快速启动，提供与 AWS 一致的本地服务体验。",
+        "summary_en": "A free, open-source local AWS emulator for development and CI.",
+        "techStack": [
+          "Java",
+          "Docker",
+          "AWS SDK"
+        ],
+        "useCase": "本地开发、测试和 CI/CD 环境中的 AWS 服务模拟",
+        "useCase_en": "Run AWS services locally without requiring a cloud account or auth tokens."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "JiaFeiMiao-K-Cat/DiscImageStudio",
+      "description": "",
+      "language": "C#",
+      "stars": 7356,
+      "forks": 263,
+      "todayStars": 984,
+      "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "aiSummary": {
+        "summary": "DiscImageStudio 是一款基于 C# 的工具，可将图片转换为符合 CD、DVD 和单层 BD-R 物理层约束的数据。它支持图层排版、灰度调整及多种导出格式（ISO、RAW、WAV+CUE），并具备辅助标定功能以实现高精度盘面复刻。",
+        "summary_en": "C# application for designing and burning CD/DVD/BD-R discs with visible surface patterns.",
+        "techStack": [
+          "C#",
+          ".NET 10",
+          "Windows Desktop"
+        ],
+        "useCase": "为 CD、DVD 或蓝光光盘制作自定义盘面图案，刻录后肉眼可见。",
+        "useCase_en": "To create custom optical media with visible surface patterns."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-11-06T03:27:22.467Z",
+    "duration": "585s",
+    "version": "1.0.0"
+  }
+}
