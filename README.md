@@ -70,27 +70,29 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-11-05 | **成功**: 15 | **失败**: 0
+**最后更新**: 2026-11-06 | **成功**: 17 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | Auto Ontology is a Python framework for building s... | Python | 7.6k | 2.7k | NVIDIA Auto Ontology 是一个 Python 框架，旨在为 LLM 和智能体构建语义图推理层。它从企业元数据生成知识图谱，提供上下文检索和可解释的 AI。支持自然语言转 SQL，通过 MCP、CLI 和 API 暴露上下文，并包含 Web UI 和 RBAC，确保数据可靠性和业务一致性。 |
-| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .agent... | Shell | 315.4k | 2.1k | 这是一个为 AI 编程助手设计的技能库，旨在帮助工程师进行真正的工程开发而非“氛围编码”。它包含一系列小巧、可组合的 Shell 脚本和提示词，支持 Claude、Copilot、Codex 等多种主流工具。用户可以通过插件快速安装，自定义工作流，提升代码质量和开发效率。 |
-| 3 | [garrytan/gstack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinio... | TypeScript | 140.0k | 612 | gstack 是一个开源的 AI 软件工厂，旨在将 Claude Code 转化为虚拟工程团队。它集成了 CEO、设计师、工程经理、QA、安全官和发布工程师等 23 个角色，通过自动化代码审查、QA 测试和发布流程，帮助开发者高效构建产品，支持多冲刺并行开发。 |
-| 4 | [Usagi-org/ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor) | 基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台... | Python | 17.7k | 240 | 基于 Python 和 Playwright 的闲鱼智能监控系统，利用 AI 自然语言处理和多模态分析实现商品监控。支持多任务并发、高级筛选、定时调度及多种通知渠道，提供 Web 可视化管理界面，支持 Docker 一键部署。 |
-| 5 | [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ The BEST Web Scraping framework that handles e... | Python | 98.1k | 1.7k | Scrapling 是一个功能全面的 Python Web 抓取框架，集成了快速 HTTP 请求、隐身浏览器、JavaScript 渲染和并发爬取能力。它支持静态页面抓取、API 数据提取、代理轮换及数据导出，并提供 MCP 服务器和 Agent Skill 以支持 AI 代理操作，覆盖从单页抓取到全站爬取的完整工作流。 |
-| 6 | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | Computer use CLI for AI agents... | Rust | 17.1k | 2.2k | Agent Desktop 是一个为 AI 代理提供计算机使用能力的 CLI 工具。它通过读取操作系统的可访问性树来获取 UI 元素，并以 JSON 格式返回，包含可操作的引用。它支持 macOS、Windows 和 Linux，无需截图或像素匹配，适合构建自动化代理。 |
-| 7 | [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) | Worktrunk is a CLI for Git worktree management, de... | Rust | 11.6k | 546 | Worktrunk 是一个用 Rust 编写的 CLI 工具，旨在简化 Git worktree 管理。它专为并行 AI agent 工作流设计，通过提供核心命令（如切换、创建和清理）来替代繁琐的 Git 原生操作。它还支持 Hooks 和 Copy-on-Write 缓存，显著提升了多任务并行开发的效率。 |
-| 8 | [lz4/lz4](https://github.com/lz4/lz4) | Extremely Fast Compression algorithm... | C | 12.4k | 23 | LZ4 是一个极速的无损压缩算法，支持多核 CPU 扩展。它提供极高的压缩和解压速度，并支持动态调整压缩率。包含标准版 LZ4 和高压缩率版本 LZ4_HC，支持字典压缩。库采用 BSD 2-Clause 许可证，命令行工具采用 GPL-2.0 许可证。 |
-| 9 | [google/skills](https://github.com/google/skills) | Agent Skills for Google products and technologies... | Python | 22.4k | 211 | 该项目为 Google 产品和技术提供 Agent Skills，涵盖 Google Cloud、多产品解决方案及 AI/ML 领域。它支持通过 npx 命令行工具安装和更新技能，帮助开发者快速配置代理，实现认证授权、架构工作流、数据分析及模型管理等任务，提升开发效率。 |
-| 10 | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Browser automation CLI for AI agents... | Rust | 46.0k | 150 | 这是一个基于 Rust 的浏览器自动化 CLI 工具，专为 AI 代理设计。它允许代理通过命令行打开网页、读取无障碍树，并使用引用或选择器执行点击、获取内容等操作。通过 Chrome DevTools Protocol 控制浏览器，支持交互式和脚本化任务，非常适合需要网页交互的 AI 智能体。 |
-| 11 | [scenario-labs/skills](https://github.com/scenario-labs/skills) | Get production-ready images, video, audio, and 3D ... | Python | 3.1k | 667 | 该项目提供了一套 AI 代理技能库，旨在通过 Scenario MCP 服务器帮助用户生成高质量的生产级图像、视频、音频和 3D 资产。它支持 Claude Code、Cursor 等主流 AI 编码代理，并包含驱动 Blender、Maya、Unity 等本地 DCC 软件的专家工具，覆盖游戏开发与创意制作全流程。 |
-| 12 | [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills) | ConardLi's open-source Skills collection, featurin... | JavaScript | 14.2k | 175 | 这是一个面向 AI 编程 Agent 的开源技能集合，包含网页设计、知识检索等功能。其中 motion-showreel 技能专注于生成式视频制作，支持通过确定性渲染管道生成 MP4 视频，内置 43 种风格库，能实现图片与声音的时间轴同步，适用于作品集展示、UI 动画及产品影片。 |
-| 13 | [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI... | Python | 56.1k | 223 | VibeVoice 是微软开源的前沿语音 AI 项目，包含 ASR（语音转文本）和 TTS（文本转语音）功能。支持 50+ 语言，具备流式识别、长音频处理及说话人分离能力。提供 BitNet 量化版本，可在无 GPU 的 CPU 上实现实时推理，并已集成至 Azure AI Foundry 和 Hugging Face Transformers。 |
-| 14 | [floci-io/floci](https://github.com/floci-io/floci) | Light, fluffy, and always free - The AWS Local Emu... | Java | 30.5k | 779 | Floci 是一个轻量级、免费的本地 AWS 模拟器，专为开发、测试和 CI 环境设计。它无需云账户或认证令牌，支持 AWS SDK、CLI、Terraform 和 CDK 等工具，可作为 LocalStack 的直接替代品。通过 Docker Compose 或 CLI 即可快速启动，提供与 AWS 一致的本地服务体验。 |
-| 15 | [JiaFeiMiao-K-Cat/DiscImageStudio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio) | ... | C# | 7.4k | 984 | DiscImageStudio 是一款基于 C# 的工具，可将图片转换为符合 CD、DVD 和单层 BD-R 物理层约束的数据。它支持图层排版、灰度调整及多种导出格式（ISO、RAW、WAV+CUE），并具备辅助标定功能以实现高精度盘面复刻。 |
+| 1 | [zed-industries/zed](https://github.com/zed-industries/zed) | Code at the speed of thought – Zed is a high-perfo... | Rust | 93.7k | 306 | Zed 是一款由 Atom 和 Tree-sitter 创造者开发的高性能、多人协作代码编辑器。它使用 Rust 编写，旨在提供“思维速度”的编码体验。项目支持 macOS、Linux 和 Windows，采用 GPL-3.0 许可证，并由 Zed Industries, Inc. 维护。 |
+| 2 | [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | Auto Ontology is a Python framework for building s... | Python | 9.1k | 2.0k | NVIDIA/auto-ontology 是一个 Python 框架，旨在为 LLM 和代理工作流构建语义图推理层。它从企业元数据生成本体，提供上下文检索和可解释 AI。支持自然语言转 SQL，通过 MCP、CLI 和 API 暴露，包含 RBAC 和 Web UI，适用于需要可靠数据访问的企业代理工作流。 |
+| 3 | [rails/rails](https://github.com/rails/rails) | Ruby on Rails... | Ruby | 59.0k | 142 | Rails 是一个基于 Ruby 的全栈 Web 应用程序框架，遵循 MVC 设计模式。它集成了 Active Record（处理数据库交互与业务逻辑）、Action View（渲染模板）和 Action Controller（处理 HTTP 请求）。该框架旨在简化数据库驱动的 Web 应用程序开发，提供高效的开发体验。 |
+| 4 | [mpv-player/mpv](https://github.com/mpv-player/mpv) | 🎥 Command line media player... | C | 37.9k | 37 | mpv 是一个免费且自由的命令行媒体播放器，支持广泛的媒体格式、编解码器和字幕。它采用着色器进行视频渲染，对硬件有一定要求但性能强大，适用于 Linux、Windows 和 macOS 系统。 |
+| 5 | [rust-lang/rust](https://github.com/rust-lang/rust) | Empowering everyone to build reliable and efficien... | Rust | 121.5k | 192 | Rust 是一种系统编程语言，旨在提供内存安全和并发性。项目包含编译器、标准库及全套开发工具链（如 Cargo、rustfmt、Clippy）。其高性能、高效的内存使用以及强大的类型系统和所有权模型，旨在帮助开发者构建可靠且高效的软件。 |
+| 6 | [react/react](https://github.com/react/react) | The library for web and native user interfaces.... | JavaScript | 252.3k | 248 | React 是一个用于构建 Web 和原生用户界面的 JavaScript 库。它采用声明式编程和组件化架构，使创建交互式 UI 变得简单高效。React 支持渐进式采用，可轻松集成到现有项目中，并能通过 React Native 渲染移动应用，实现一次学习，随处编写。 |
+| 7 | [angular/angular](https://github.com/angular/angular) | Deliver web apps with confidence 🚀... | TypeScript | 101.4k | 135 | Angular 是一个基于 TypeScript 的现代 Web 开发平台，用于构建跨平台的移动和桌面 Web 应用程序。它提供强大的工具链、组件化架构和丰富的生态系统（如 Angular CLI 和 Material），支持服务器端渲染、懒加载等高级功能，旨在帮助开发者以信心交付高质量的应用。 |
+| 8 | [symfony/symfony](https://github.com/symfony/symfony) | The Symfony PHP framework... | PHP | 31.4k | 128 | Symfony 是一个功能强大的 PHP 框架，用于构建 Web 和控制台应用程序，并提供了一组可重用的 PHP 组件。它拥有严格的语义化版本控制和 LTS 版本支持，被广泛应用于数千个 Web 应用中，是 PHP 生态系统的核心。 |
+| 9 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | The Prometheus monitoring system and time series d... | Go | 67.2k | 148 | Prometheus 是一个基于 Go 语言开发的云原生监控系统和时序数据库。它通过 HTTP 拉取模型收集指标，支持多维数据模型和强大的 PromQL 查询语言，具备服务发现、联邦和告警功能，无分布式存储依赖，广泛应用于微服务和云原生环境监控。 |
+| 10 | [google/skills](https://github.com/google/skills) | Agent Skills for Google products and technologies... | Python | 22.9k | 534 | 该项目为 Google Cloud 及其他 Google 产品提供了一套 Agent Skills，旨在帮助用户配置和管理 AI 代理。它涵盖了从入门教程到高级 AI/ML 工作流、安全设置和平台管理的各种技能，通过 CLI 工具进行安装和更新。 |
+| 11 | [microsoft/vscode](https://github.com/microsoft/vscode) | Visual Studio Code... | TypeScript | 195.0k | 301 | Visual Studio Code 是微软推出的开源代码编辑器，基于 TypeScript 开发。它集成了代码编辑、导航、调试和构建支持，拥有丰富的扩展模型，支持 Windows、macOS 和 Linux。项目采用 MIT 许可证，每月更新，适合开发者进行核心编辑和调试工作。 |
+| 12 | [nushell/nushell](https://github.com/nushell/nushell) | A new type of shell... | Rust | 41.0k | 131 | Nushell 是一种用 Rust 编写的新型 Shell，受 PowerShell 和函数式编程启发。它将数据视为结构化对象（如表），而非纯文本流，支持强大的管道操作，提供跨平台支持。 |
+| 13 | [etcd-io/etcd](https://github.com/etcd-io/etcd) | Distributed reliable key-value store for the most ... | Go | 52.6k | 128 | etcd 是一个基于 Go 语言开发的分布式可靠键值存储系统，利用 Raft 共识算法确保数据的高可用性与强一致性。它提供简单、安全、快速的 API（gRPC/TLS），被广泛应用于 Kubernetes 等生产环境的配置管理和服务发现。 |
+| 14 | [openssl/openssl](https://github.com/openssl/openssl) | General purpose TLS and crypto library... | C | 31.3k | 26 | OpenSSL 是一个用 C 语言编写的通用 TLS 和加密库。它提供了强大的商业级工具包，支持 TLS、DTLS 和 QUIC 协议。包含 libssl（协议实现）、libcrypto（加密库）和 openssl（命令行工具），用于密钥生成、证书管理、加密解密及安全测试，符合 FIPS 标准。 |
+| 15 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .agent... | Shell | 316.8k | 2.1k | 这是一个专为真实工程师设计的 AI 技能集合，旨在提供小型、可组合且易于适应的工具，帮助开发者进行高质量工程实践而非“氛围编码”。它支持多种主流 AI 代理（如 Claude、Copilot 等），通过插件形式安装，允许用户自定义和手动编辑技能文件，以保持对开发流程的控制。 |
+| 16 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | A coding-agent skill for multi-phase security audi... | JavaScript | 64.2k | 2.5k | 这是一个源自 Cloudflare 的自动化安全审计技能，将编码代理转化为安全审计员。它通过六个阶段（侦察、狩猎、验证等）自动化漏洞发现流程，支持独立验证和机器可读输出，适用于代码安全审计和漏洞挖掘。 |
+| 17 | [astral-sh/ruff](https://github.com/astral-sh/ruff) | An extremely fast Python linter and code formatter... | Rust | 50.7k | 169 | Ruff 是一个用 Rust 编写的极快 Python linter 和代码格式化工具。它比 Flake8 和 Black 快 10-100 倍，支持 Python 3.15，并内置了缓存和自动修复功能。它可以替代多个 Python 工具，提供统一的接口，非常适合追求高性能的 Python 项目。 |
 
-[查看完整数据](api/github/2026-11-05.json)
+[查看完整数据](api/github/2026-11-06.json)
 <!-- END GITHUB TRENDING -->
 
 
