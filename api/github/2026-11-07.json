@@ -1,0 +1,324 @@
+{
+  "date": "2026-11-07",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 46873,
+      "forks": 3211,
+      "todayStars": 190,
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的浏览器自动化 CLI 工具，专为 AI 代理设计。它通过 Chrome DevTools Protocol 控制浏览器，将页面转换为可读的快照文本，允许 AI 代理通过 shell 命令逐个操作页面元素，如点击、读取等。",
+        "summary_en": "Native Rust CLI enabling AI agents to automate browser interactions via shell commands.",
+        "techStack": [
+          "Rust",
+          "Chrome DevTools Protocol",
+          "Chrome"
+        ],
+        "useCase": "适用于 AI 代理自动化网页浏览、信息提取及交互操作。",
+        "useCase_en": "To provide AI agents with a shell interface for browser automation tasks."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "stars": 65801,
+      "forks": 4274,
+      "todayStars": 2085,
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "aiSummary": {
+        "summary": "这是一个由 Cloudflare 开发的编码代理技能，旨在将 AI 代理转变为安全审计员。它通过六个阶段（侦察、狩猎、验证、输出、独立验证、报告）执行结构化安全审计。该工具支持独立验证和机器可读的发现结果，能够自动生成架构映射、覆盖率追踪和漏洞报告，是构建企业级漏洞发现系统的起点。",
+        "summary_en": "A JavaScript skill orchestrating multi-phase security audits with independent verification.",
+        "techStack": [
+          "JavaScript",
+          "JSON"
+        ],
+        "useCase": "适用于自动化代码安全审计与漏洞发现，特别是构建企业级漏洞发现系统。",
+        "useCase_en": "Automate security audits by orchestrating agents to discover and verify vulnerabilities."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "stars": 23440,
+      "forks": 1958,
+      "todayStars": 443,
+      "url": "https://github.com/google/skills",
+      "aiSummary": {
+        "summary": "该项目为 Google 产品和技术提供 Agent Skills，涵盖 Google Cloud、AI/ML 及多产品解决方案。用户可通过 Node.js 环境安装和更新这些技能，用于配置目标代理、管理模型、执行 RAG、数据分析及安全审计等任务，旨在简化 AI 代理在 Google 生态中的部署与管理。",
+        "summary_en": "A collection of agent skills for Google Cloud, AI, and multi-product solutions.",
+        "techStack": [
+          "Python",
+          "Node.js"
+        ],
+        "useCase": "用于在 Google Cloud 上构建、部署和管理 AI 代理，以及实现多产品解决方案和数据分析。",
+        "useCase_en": "To provide a library of skills for configuring and deploying AI agents on Google Cloud."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 317762,
+      "forks": 26583,
+      "todayStars": 1100,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一套为 AI 编程助手（如 Claude、Copilot 等）设计的可组合、可定制的工程技能库。旨在帮助开发者进行真正的工程实践，而非简单的“氛围编码”。支持多种 AI 模型，通过 Shell 脚本实现，强调小型化和模块化，方便用户根据需求自由组合和修改。",
+        "summary_en": "A collection of composable engineering skills for AI coding agents to perform real engineering tasks.",
+        "techStack": [
+          "Shell",
+          "AI Agents",
+          "CLI Tools"
+        ],
+        "useCase": "适用于需要利用 AI 代理辅助进行复杂工程开发、代码生成及调试的场景，帮助工程师提升开发效率与代码质量。",
+        "useCase_en": "To provide AI coding agents with reusable, composable skills for real engineering tasks."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 188829,
+      "forks": 22258,
+      "todayStars": 390,
+      "url": "https://github.com/anthropics/skills",
+      "aiSummary": {
+        "summary": "Anthropic 官方维护的 Agent Skills 公共仓库，展示了 Claude 如何通过加载包含指令、脚本和资源的文件夹来提升特定任务性能。项目涵盖创意、技术及企业工作流等多种场景，包含 Apache 2.0 许可的开源技能示例，特别是文档处理相关的技能实现。",
+        "summary_en": "Anthropic's repository of skills for Claude to perform specialized tasks dynamically.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "用于 Claude AI 智能体执行特定、可重复的专业任务，如文档创建、数据分析及自动化工作流。",
+        "useCase_en": "To provide reusable instructions and scripts for Claude to perform specialized tasks like document creation and automati"
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars": 14583,
+      "forks": 1193,
+      "todayStars": 96,
+      "url": "https://github.com/meta/astryx",
+      "aiSummary": {
+        "summary": "Astryx 是 Meta 开源的企业级设计系统，内置 150+ 可访问组件、品牌级主题及暗黑模式。它基于 StyleX 构建，支持 React 19，提供 CLI 工具。其核心优势在于无样式锁定、高度可定制且开放内部，允许开发者直接组合组件或 eject 源码，同时支持与 Tailwind 等工具混用，专为人类和 AI 助手设计。",
+        "summary_en": "Meta's open-source design system offering 150+ accessible components and AI-ready tooling.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "StyleX"
+        ],
+        "useCase": "适用于需要快速构建高质量、可访问且高度可定制 UI 的 React 企业级应用，支持与 AI 助手协作开发。",
+        "useCase_en": "Build customizable, accessible React applications using a Meta-developed design system."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "language": "Go",
+      "stars": 67452,
+      "forks": 11004,
+      "todayStars": 322,
+      "url": "https://github.com/prometheus/prometheus",
+      "aiSummary": {
+        "summary": "Prometheus 是一个基于 Go 语言开发的云原生系统监控与时序数据库。它采用 HTTP 拉取模型收集指标，支持多维数据模型和 PromQL 查询语言，具备服务发现、联邦和告警功能，无分布式存储依赖。",
+        "summary_en": "A cloud-native monitoring system and time series database for metrics collection and alerting.",
+        "techStack": [
+          "Go",
+          "PromQL",
+          "Docker"
+        ],
+        "useCase": "适用于云原生环境下的系统监控、指标采集、时序数据分析及告警触发。",
+        "useCase_en": "To monitor systems and services by collecting metrics at intervals and triggering alerts."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "stars": 100588,
+      "forks": 11881,
+      "todayStars": 1766,
+      "url": "https://github.com/sherlock-project/sherlock",
+      "aiSummary": {
+        "summary": "Sherlock 是一款开源工具，用于在 400+ 个社交网络上查找用户名。支持通过 pipx、Docker 或包管理器安装。可搜索单个或多个用户名，并将结果保存至文件。提供代理、调试等丰富命令行选项，适合进行全网账号存在性检测。",
+        "summary_en": "A Python tool to locate social media accounts by username across 400+ social networks.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "pip/pipx"
+        ],
+        "useCase": "检测用户名在全网社交平台上的注册情况",
+        "useCase_en": "To verify the availability of a username across multiple social media platforms."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "stars": 17054,
+      "forks": 2415,
+      "todayStars": 1955,
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "aiSummary": {
+        "summary": "OpenMausBot 是一个开源的本地优先 AI 代理聊天应用。它允许用户在本地运行多个 AI 代理（如 Claude、Codex），每个代理拥有独立的个性、模型和虚拟环境。项目旨在提供类似 Grok Bot 的多代理协作体验，无需中间代理，支持跨平台使用。",
+        "summary_en": "An open-source Grok Bot alternative that runs AI agents locally on your machine.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "适合需要在本地管理多个 AI 代理并进行多角色对话的用户。",
+        "useCase_en": "Run multiple AI agents locally in a chat interface using your existing model subscriptions."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "astral-sh/ruff",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "language": "Rust",
+      "stars": 50987,
+      "forks": 2632,
+      "todayStars": 350,
+      "url": "https://github.com/astral-sh/ruff",
+      "aiSummary": {
+        "summary": "Ruff 是一个用 Rust 编写的极快 Python linter 和代码 formatter。它比 Flake8 和 Black 快 10-100 倍，支持 900 多条规则，可替代多个工具。具备自动修复、缓存和编辑器集成功能，兼容 Python 3.15。",
+        "summary_en": "Extremely fast Python linter and formatter written in Rust.",
+        "techStack": [
+          "Rust",
+          "Python",
+          "TOML"
+        ],
+        "useCase": "替代 Flake8、Black 等工具进行 Python 代码检查、格式化及自动修复。",
+        "useCase_en": "To lint and format Python code orders of magnitude faster than existing tools."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "tailwindlabs/tailwindcss",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "language": "TypeScript",
+      "stars": 98494,
+      "forks": 7109,
+      "todayStars": 122,
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "aiSummary": {
+        "summary": "Tailwind CSS 是一个实用优先的 CSS 框架，旨在加速 UI 开发。它通过提供一系列底层工具类，允许开发者直接在 HTML 中构建自定义界面，无需编写繁琐的 CSS 文件。该项目支持 TypeScript，拥有活跃的社区和完善的文档，适合快速构建现代化的响应式网页应用。",
+        "summary_en": "A utility-first CSS framework for rapidly building custom user interfaces.",
+        "techStack": [
+          "TypeScript",
+          "CSS"
+        ],
+        "useCase": "快速构建自定义用户界面和响应式网页应用",
+        "useCase_en": "Rapidly building custom user interfaces using utility-first CSS classes."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "mbillow/localthings",
+      "description": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
+      "language": "Python",
+      "stars": 1070,
+      "forks": 112,
+      "todayStars": 186,
+      "url": "https://github.com/mbillow/localthings",
+      "aiSummary": {
+        "summary": "本项目是一个 Python 库，允许用户通过本地网络直接控制三星家电，无需云端账户。它完美集成 Home Assistant，支持洗衣机、冰箱、空调等多种设备。项目注重隐私，完全离线运行，数据不外传。支持自动检测 IP 和设备类型，提供电源、温度、计时器等全面控制功能。",
+        "summary_en": "Python integration for Home Assistant to control Samsung appliances locally without cloud account.",
+        "techStack": [
+          "Python",
+          "Home Assistant",
+          "TCP"
+        ],
+        "useCase": "在本地网络环境下，无需云端账户即可控制三星家电，保护用户隐私。",
+        "useCase_en": "Control Samsung appliances directly from Home Assistant on your local network without internet or cloud dependencies."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "language": "Rust",
+      "stars": 94300,
+      "forks": 11557,
+      "todayStars": 1114,
+      "url": "https://github.com/zed-industries/zed",
+      "aiSummary": {
+        "summary": "Zed 是一款由 Rust 编写的高性能多人协作代码编辑器，由 Atom 和 Tree-sitter 的开发者打造。它支持跨平台（macOS、Linux、Windows），旨在提供“思维速度”的编码体验，目前由营利性公司 Zed Industries 维护。",
+        "summary_en": "Zed is a high-performance, multiplayer code editor built by the creators of Atom and Tree-sitter.",
+        "techStack": [
+          "Rust",
+          "Tree-sitter",
+          "Cross-platform"
+        ],
+        "useCase": "适合需要实时多人协作和追求极致编辑性能的开发团队及个人开发者。",
+        "useCase_en": "For high-performance coding and real-time multiplayer collaboration."
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "ranxianglei/billion-context",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "language": "TypeScript",
+      "stars": 4640,
+      "forks": 370,
+      "todayStars": 191,
+      "url": "https://github.com/ranxianglei/billion-context",
+      "aiSummary": {
+        "summary": "这是一个用于大语言模型长会话的上下文压缩插件。它通过增量分层压缩技术，支持月级长会话（数十亿 tokens），仅需 100K 上下文窗口即可运行，实现 5 倍 token 节省。在多项基准测试中表现优异，解决了长上下文窗口溢出和成本高昂的问题。",
+        "summary_en": "A TypeScript context compression plugin enabling month-long sessions with 5x fewer tokens.",
+        "techStack": [
+          "TypeScript",
+          "Anthropic/OpenAI API"
+        ],
+        "useCase": "适用于需要处理超长对话历史、代码库或进行月级长会话的 AI Agent 开发。",
+        "useCase_en": "Use this plugin to manage billions of tokens in long-lived coding agents with minimal overhead."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "language": "Go",
+      "stars": 571,
+      "forks": 90,
+      "todayStars": 123,
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "aiSummary": {
+        "summary": "NVKE 是 NVIDIA 推出的 Kubernetes 管理平面，用于在裸金属上运行 GPU Kubernetes 服务。它允许平台团队创建和管理独立的工作负载集群，每个集群拥有自己的控制平面和节点池。目前处于预览阶段，支持本地快速评估和基于 NVIDIA Infra Controller (NICo) 的真实部署。",
+        "summary_en": "NVIDIA Kubernetes Engine (NVKE) is a management plane for GPU Kubernetes on bare metal infrastructure.",
+        "techStack": [
+          "Go",
+          "Kubernetes",
+          "NVIDIA GPU",
+          "Bare Metal"
+        ],
+        "useCase": "适用于需要在自有 NVIDIA GPU 基础设施上搭建和管理 GPU 加速 Kubernetes 集群的平台团队。",
+        "useCase_en": "Platform teams use NVKE to create and operate Kubernetes clusters for their customers on their own NVIDIA GPU infrastruc"
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-11-08T02:21:04.168Z",
+    "duration": "664s",
+    "version": "1.0.0"
+  }
+}
