@@ -1,0 +1,201 @@
+{
+  "date": "2026-11-08",
+  "since": "daily",
+  "totalRepos": 9,
+  "successCount": 9,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "stars": 103898,
+      "forks": 12149,
+      "todayStars": 2373,
+      "url": "https://github.com/sherlock-project/sherlock",
+      "aiSummary": {
+        "summary": "Sherlock 是一个用 Python 编写的开源工具，用于在 400 多个社交网络上搜索用户名。支持通过 pipx、Docker 等多种方式安装，可检查单个或多个用户名，并将结果导出为文本、CSV 或 Excel 文件。支持代理、超时设置及调试模式。",
+        "summary_en": "Command-line tool to locate social media accounts by username across 400+ networks.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "pip/uv"
+        ],
+        "useCase": "用于跨 400+ 社交网络查找特定用户名的存在情况。",
+        "useCase_en": "Determine if a username is available or taken across 400+ social media platforms."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "language": "Go",
+      "stars": 880,
+      "forks": 111,
+      "todayStars": 345,
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "aiSummary": {
+        "summary": "NVKE 是一个用于裸机 NVIDIA GPU 基础设施的管理平面，旨在帮助平台团队创建和操作 Kubernetes 集群。它为每个工作负载集群提供独立的控制平面、etcd 和节点池。目前处于预览阶段，支持本地快速开始和基于 NVIDIA Infra Controller (NICo) 的实际部署。",
+        "summary_en": "NVKE is a management plane for GPU Kubernetes on bare metal, enabling platform teams to create and operate Kubernetes clusters.",
+        "techStack": [
+          "Go",
+          "Kubernetes",
+          "NVIDIA GPU"
+        ],
+        "useCase": "在自有 GPU 基础设施上运行托管 Kubernetes 服务",
+        "useCase_en": "To provide a management plane for platform teams to create and operate Kubernetes clusters for their customers on bare m"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "stars": 18400,
+      "forks": 2546,
+      "todayStars": 1439,
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "aiSummary": {
+        "summary": "OpenMausBot 是一个开源的 Grok Bot 替代品，主打本地优先的 AI 代理管理。它允许用户在聊天界面中管理多个独立的 AI 代理（如 Claude、Codex），每个代理拥有独立的个性、模型和运行环境。项目支持“自带代理”模式，无需中间代理，支持 macOS、Windows 和 Ubuntu。",
+        "summary_en": "Open-source Grok Bot alternative allowing users to run multiple AI agents locally with distinct personalities and models.",
+        "techStack": [
+          "TypeScript",
+          "Local CLI (Claude/Codex/Grok)",
+          "Node.js"
+        ],
+        "useCase": "适合需要在本地管理多个独立 AI 代理、保护隐私或希望使用现有订阅服务的开发者。",
+        "useCase_en": "To run multiple AI agents locally with distinct personalities and models in a single chat interface."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "language": "Python",
+      "stars": 19474,
+      "forks": 3281,
+      "todayStars": 32,
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "aiSummary": {
+        "summary": "该项目是一系列基于 Claude API 的快速入门示例，包含客户支持、金融分析、计算机控制和浏览器自动化等应用。它为开发者提供了可部署的代码基础，展示了如何利用 Claude 的自然语言处理、数据分析及工具使用能力来构建 AI 应用。",
+        "summary_en": "A collection of Python projects designed to help developers build applications using the Claude API.",
+        "techStack": [
+          "Python",
+          "Claude API",
+          "Computer Tools",
+          "Browser Automation"
+        ],
+        "useCase": "快速构建基于 Claude API 的 AI 应用，涵盖智能客服、数据分析及自动化任务。",
+        "useCase_en": "To provide foundational templates for building AI-powered applications using the Claude API."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 47699,
+      "forks": 3263,
+      "todayStars": 815,
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的 CLI 工具，旨在为 AI 代理提供浏览器自动化能力。它允许代理通过命令行与网页交互，读取无障碍树，并使用引用或选择器执行操作。它通过 Chrome DevTools Protocol 控制 Chrome，非常适合需要浏览能力的 AI 智能体。",
+        "summary_en": "Native Rust CLI for AI-driven browser automation using Chrome DevTools Protocol.",
+        "techStack": [
+          "Rust",
+          "Chrome DevTools Protocol",
+          "Node.js"
+        ],
+        "useCase": "AI 代理需要浏览网页并执行交互任务",
+        "useCase_en": "Enables AI agents to automate web browsing tasks via shell commands."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars": 17044,
+      "forks": 1343,
+      "todayStars": 875,
+      "url": "https://github.com/meta/astryx",
+      "aiSummary": {
+        "summary": "Astryx 是 Meta 内部使用 8 年的开源设计系统，提供 150+ 可访问组件。它基于 StyleX 构建，支持暗黑模式与品牌级主题。核心优势在于开放内部结构、无样式锁定（兼容 Tailwind）以及专为人类和 AI 助手设计的统一 API。",
+        "summary_en": "Meta's open-source design system featuring 150+ accessible components and agent-ready tooling.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "StyleX"
+        ],
+        "useCase": "适合需要高度可定制、现代化 UI 且支持 AI 辅助开发的 React 应用程序。",
+        "useCase_en": "Build accessible, customizable user interfaces for React applications without build plugins or styling lock-in."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 189734,
+      "forks": 22353,
+      "todayStars": 792,
+      "url": "https://github.com/anthropics/skills",
+      "aiSummary": {
+        "summary": "Anthropic 为 Claude AI 开发的 Agent Skills 公共仓库，包含用于动态加载的技能文件夹。这些技能旨在提高 Claude 在文档创建、数据分析及自动化等特定任务上的性能，涵盖创意、技术和企业工作流等多种场景，所有技能均为 Apache 2.0 开源。",
+        "summary_en": "Anthropic's repository containing reusable skills for Claude to perform specialized tasks dynamically.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "为 Claude AI 提供特定任务执行能力的技能库，适用于文档处理、自动化任务及企业工作流优化。",
+        "useCase_en": "Provides reusable skills for Claude to perform specialized tasks like document creation and automation."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "language": "C++",
+      "stars": 16458,
+      "forks": 1954,
+      "todayStars": 41,
+      "url": "https://github.com/google-deepmind/mujoco",
+      "aiSummary": {
+        "summary": "MuJoCo 是 Google DeepMind 维护的通用物理引擎，专注于多关节动力学与接触模拟。它提供高性能的仿真环境，支持 C++ 和 Python，广泛应用于机器人学、生物力学、图形学及机器学习等领域。项目包含 C API、WebAssembly 版本及 Unity 插件，旨在加速复杂结构的物理模拟研究。",
+        "summary_en": "Google DeepMind's general-purpose physics engine for simulating articulated structures in robotics and ML.",
+        "techStack": [
+          "C++",
+          "Python",
+          "WebAssembly"
+        ],
+        "useCase": "机器人学、生物力学、图形学及机器学习领域的物理模拟研究",
+        "useCase_en": "Simulating fast and accurate physics for robotics, biomechanics, and machine learning research."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "ranxianglei/billion-context",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "language": "TypeScript",
+      "stars": 5220,
+      "forks": 407,
+      "todayStars": 460,
+      "url": "https://github.com/ranxianglei/billion-context",
+      "aiSummary": {
+        "summary": "这是一个 TypeScript 编写的上下文压缩插件，专为月级长会话设计。它能在小窗口（100k）下处理数十亿 token，实现 5 倍 token 节省。通过模型驱动的增量分层压缩技术，在 ContextBench 等基准测试中表现优异，显著降低了长期 AI 代理的运行成本。",
+        "summary_en": "A TypeScript context compression plugin for AI agents to manage billions of tokens within small windows, saving 5x tokens.",
+        "techStack": [
+          "TypeScript",
+          "Node.js"
+        ],
+        "useCase": "适用于需要处理超长上下文窗口的 AI 代理，旨在降低月级长会话的 token 消耗成本。",
+        "useCase_en": "Enables AI agents to maintain month-long sessions with billions of tokens using only a 100K context window."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-11-09T02:34:57.351Z",
+    "duration": "349s",
+    "version": "1.0.0"
+  }
+}
