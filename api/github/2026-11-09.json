@@ -1,0 +1,246 @@
+{
+  "date": "2026-11-09",
+  "since": "daily",
+  "totalRepos": 11,
+  "successCount": 11,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 191257,
+      "forks": 22463,
+      "todayStars": 1038,
+      "url": "https://github.com/anthropics/skills",
+      "aiSummary": {
+        "summary": "Anthropic 官方的 Agent Skills 公共仓库，旨在展示 Claude 如何通过加载特定文件夹中的指令、脚本和资源来提升在专业任务上的表现。项目包含从创意设计到企业工作流的多种示例技能，涵盖文档处理（docx、pdf等）。所有技能均为开源（Apache 2.0），开发者可参考其模式创建自定义技能，用于文档生成、数据分析或自动化任务。",
+        "summary_en": "Anthropic's repository showcasing dynamic skills for Claude to perform specialized tasks.",
+        "techStack": [
+          "Python",
+          "Markdown",
+          "Apache 2.0"
+        ],
+        "useCase": "为 Claude 构建和部署自定义技能，以增强文档生成、数据分析及企业工作流自动化能力。",
+        "useCase_en": "To equip Claude with dynamic instructions and resources for specialized tasks."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars": 20582,
+      "forks": 1560,
+      "todayStars": 3278,
+      "url": "https://github.com/meta/astryx",
+      "aiSummary": {
+        "summary": "Astryx 是 Meta 开源的设计系统，拥有 150+ 可访问组件，支持暗黑模式、品牌级主题和 CLI。它基于 StyleX 构建，提供无样式锁定、可深度定制的特性，且专为人类和 AI 助手设计，适合构建大规模、可访问且易于维护的 React 应用。",
+        "summary_en": "An open-source, customizable design system from Meta featuring 150+ accessible components and agent-ready tooling.",
+        "techStack": [
+          "TypeScript",
+          "React 19",
+          "StyleX",
+          "CLI"
+        ],
+        "useCase": "适合需要高度可定制、无样式锁定且支持 AI 辅助开发的大型企业级 React 应用。",
+        "useCase_en": "Building accessible, customizable user interfaces using a React-based design system."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "stars": 107488,
+      "forks": 12437,
+      "todayStars": 4267,
+      "url": "https://github.com/sherlock-project/sherlock",
+      "aiSummary": {
+        "summary": "Sherlock 是一个开源的 Python 工具，旨在跨 400 多个社交网络查找用户名。它支持通过命令行搜索单个或多个用户，并提供 CSV、XLSX、TXT 等多种输出格式。工具支持代理设置、超时控制及忽略排除项，帮助用户快速定位社交媒体账号。",
+        "summary_en": "Sherlock is a tool to find social media accounts by username across hundreds of networks.",
+        "techStack": [
+          "Python",
+          "Requests",
+          "Pandas"
+        ],
+        "useCase": "适用于网络安全研究人员或个人，用于快速检测特定用户名在各大社交网络上的存在情况。",
+        "useCase_en": "Used to verify the existence of a specific username across multiple social networks."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "language": "C++",
+      "stars": 17007,
+      "forks": 2001,
+      "todayStars": 574,
+      "url": "https://github.com/google-deepmind/mujoco",
+      "aiSummary": {
+        "summary": "MuJoCo 是由 Google DeepMind 维护的通用物理引擎，专注于多关节动力学与接触模拟。它旨在加速机器人技术、生物力学、图形学、动画和机器学习等领域的研究。引擎提供 C API，支持高性能运行时模拟，包含桌面和浏览器交互式可视化，并提供 Python 绑定和 Unity 插件。",
+        "summary_en": "A high-performance physics engine for robotics, biomechanics, and machine learning research.",
+        "techStack": [
+          "C++",
+          "Python",
+          "Unity"
+        ],
+        "useCase": "机器人技术、生物力学、图形学、动画及机器学习等需要快速精确模拟的研究领域。",
+        "useCase_en": "Simulate articulated structures interacting with their environment for robotics and ML research."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "language": "Python",
+      "stars": 20114,
+      "forks": 3321,
+      "todayStars": 551,
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "aiSummary": {
+        "summary": "这是一个帮助开发者快速上手 Claude API 的项目集合，包含客户支持代理、金融数据分析师、计算机使用演示及浏览器自动化等多个示例。每个快速启动项目都提供了可定制的基础代码，展示了如何利用 Claude 的自然语言处理、数据分析及桌面/浏览器控制能力来构建可部署的应用。",
+        "summary_en": "A collection of starter projects for building applications with the Claude API.",
+        "techStack": [
+          "Python",
+          "Claude API"
+        ],
+        "useCase": "快速构建基于 Claude API 的 AI 应用原型与生产级代码。",
+        "useCase_en": "To provide foundational templates for building AI-powered applications using the Claude API."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "language": "TypeScript",
+      "stars": 32257,
+      "forks": 4775,
+      "todayStars": 216,
+      "url": "https://github.com/garrytan/gbrain",
+      "aiSummary": {
+        "summary": "GBrain 是一个 TypeScript 项目，为 AI 代理提供可控的记忆系统。它支持显式事实存储、更正和跨代理共享。用户可自托管或使用托管服务，通过 MCP 协议集成，支持语义搜索和技能管理，旨在让代理拥有持久且可管理的知识库。",
+        "summary_en": "An opinionated memory agent brain for AI that stores facts with sources and enables cross-agent sharing.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "为 AI 代理提供持久化、可控且可共享的记忆和知识库。",
+        "useCase_en": "Provide AI agents with a shared, controllable memory system that supports corrections and cross-agent access."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 48627,
+      "forks": 3311,
+      "todayStars": 916,
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "aiSummary": {
+        "summary": "这是一个基于 Rust 的 CLI 工具，专为 AI 代理提供浏览器自动化能力。它通过 Chrome DevTools Protocol 控制 Chrome，允许代理通过命令行打开页面、读取无障碍树、点击元素并检查结果。支持引用、CSS 选择器和语义定位器，适合自动化 Web 任务。",
+        "summary_en": "Native Rust CLI that provides AI agents with browser automation capabilities via Chrome DevTools Protocol.",
+        "techStack": [
+          "Rust",
+          "Chrome DevTools Protocol",
+          "Chromium"
+        ],
+        "useCase": "为 AI 代理提供网页自动化操作能力",
+        "useCase_en": "To enable AI agents to perform automated browser interactions like clicking, reading, and navigating web pages."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 103584,
+      "forks": 13419,
+      "todayStars": 172,
+      "url": "https://github.com/ruvnet/RuView",
+      "aiSummary": {
+        "summary": "RuView 是一个基于 Rust 的 WiFi 感知平台，利用 WiFi 信号和 ESP32 传感器，无需摄像头即可实现墙体穿透检测、生命体征监测（呼吸心率）、活动识别及环境映射。它支持与主流智能家居生态（Home Assistant、Apple Home 等）无缝集成，提供丰富的实体状态和蓝图。",
+        "summary_en": "Rust-based WiFi sensing platform turning radio waves into spatial intelligence for presence and vital sign monitoring.",
+        "techStack": [
+          "Rust",
+          "ESP32",
+          "WiFi CSI",
+          "MQTT",
+          "HAP"
+        ],
+        "useCase": "适用于隐私敏感环境下的非接触式人体存在检测、生命体征监测及智能家居集成。",
+        "useCase_en": "Enable contactless health monitoring and occupancy detection through walls using existing WiFi infrastructure."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "stars": 69102,
+      "forks": 56444,
+      "todayStars": 506,
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "aiSummary": {
+        "summary": "这是一个基于大语言模型（LLM）的多市场股票智能分析系统，支持A股、港股、美股等。它能聚合多源行情与实时新闻，生成包含买卖点位的AI决策报告，并通过企业微信、飞书等渠道自动推送。支持零成本GitHub Actions部署，适合个人投资者进行每日自动化选股与决策参考。",
+        "summary_en": "An LLM-powered multi-market stock analysis system that aggregates data and provides automated decision reports and push notifications.",
+        "techStack": [
+          "Python",
+          "LLM (OpenAI/Claude/DeepSeek)",
+          "AkShare/Tushare/YFinance",
+          "GitHub Actions/Docker"
+        ],
+        "useCase": "适合需要自动化股票分析、多市场监控及AI辅助决策的个人投资者或量化爱好者。",
+        "useCase_en": "Automate daily stock analysis and receive AI-driven decision reports and alerts for multiple global markets."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "homeassistant-ai/ha-mcp",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "language": "Python",
+      "stars": 6099,
+      "forks": 298,
+      "todayStars": 31,
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "aiSummary": {
+        "summary": "这是一个用于 Home Assistant 的 MCP 服务器集成，允许用户通过 Claude、ChatGPT 等 AI 助手来配置和自动化智能家居系统。它支持所有 Home Assistant 安装类型，通过 HACS 或内置市场安装，提供完整的功能对等性，并需要管理员访问令牌来安全地控制设备和服务。",
+        "summary_en": "Python integration for Home Assistant to automate and configure the system using AI assistants.",
+        "techStack": [
+          "Python",
+          "Home Assistant",
+          "MCP"
+        ],
+        "useCase": "使用 Claude、ChatGPT 等 AI 助手自动化和配置 Home Assistant 智能家居系统。",
+        "useCase_en": "Automate and configure Home Assistant using AI assistants like Claude and ChatGPT."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "stars": 19937,
+      "forks": 2722,
+      "todayStars": 1587,
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "aiSummary": {
+        "summary": "OpenMausBot 是一个开源的 Grok Bot 替代品，旨在将 AI 代理作为聊天应用中的联系人进行管理。它采用本地优先架构，允许用户使用本地安装的 Claude、Codex 等命令行工具运行多个独立的 AI 代理。每个代理拥有独立的性格、模型和记忆，支持在本地环境中与它们交互，无需中间代理或新账户。",
+        "summary_en": "Open-source Grok Bot alternative enabling users to run multiple AI agents locally with their own models.",
+        "techStack": [
+          "TypeScript",
+          "Electron",
+          "Boat.dev"
+        ],
+        "useCase": "本地多 AI 代理管理与交互平台",
+        "useCase_en": "A local-first desktop application that allows users to manage multiple AI agents with distinct personalities and models."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-11-10T04:35:47.179Z",
+    "duration": "265s",
+    "version": "1.0.0"
+  }
+}
