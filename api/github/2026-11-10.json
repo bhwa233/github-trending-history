@@ -1,0 +1,264 @@
+{
+  "date": "2026-11-10",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars": 23081,
+      "forks": 1831,
+      "todayStars": 3108,
+      "url": "https://github.com/meta/astryx",
+      "aiSummary": {
+        "summary": "Astryx 是 Meta 开源的设计系统，提供 150+ 可访问组件、品牌级主题和暗黑模式。它基于 React 和 StyleX，支持无构建插件集成。核心优势在于开放内部结构（支持 swizzle）、无样式锁定（可覆盖 Tailwind/CSS）以及专为人和 AI 协同设计的 API，适合构建可定制且 AI 友好的现代 Web 应用。",
+        "summary_en": "An open source design system from Meta featuring 150+ accessible components, theming, and CLI support for React.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "StyleX",
+          "CSS"
+        ],
+        "useCase": "适合需要高度可定制、可访问且 AI 友好的企业级 Web 应用开发。",
+        "useCase_en": "Build customizable, accessible UI components for React applications using a Meta-developed design system."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars": 192405,
+      "forks": 22651,
+      "todayStars": 1679,
+      "url": "https://github.com/anthropics/skills",
+      "aiSummary": {
+        "summary": "Anthropic 官方的 Agent Skills 公共仓库，包含 Claude 动态加载的指令、脚本和资源。旨在提升 Claude 在特定任务（如文档创建、数据分析、自动化）上的表现。仓库提供 Apache 2.0 许可的开源技能示例及底层文档处理技能实现。",
+        "summary_en": "Anthropic's implementation of Agent Skills for Claude, featuring modular folders of instructions and scripts for specialized tasks.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于 Claude 智能体执行特定任务（如文档生成、数据分析、自动化流程）的技能库。",
+        "useCase_en": "Enhance Claude's performance on specialized tasks by loading modular folders of instructions, scripts, and resources dyn"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 115232,
+      "forks": 12100,
+      "todayStars": 465,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供生产级工程技能。通过 9 个斜杠命令封装资深工程师的最佳实践，覆盖从需求定义到生产部署的全生命周期。它确保代码质量、性能优化和可维护性，支持自动化测试、代码审查及增量构建。",
+        "summary_en": "A collection of engineering skills and slash commands for AI coding agents to ensure quality.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "为 AI 编码代理提供标准化的工程工作流程和质量保证",
+        "useCase_en": "To provide AI coding agents with production-grade engineering workflows and best practices."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "language": "Python",
+      "stars": 20535,
+      "forks": 3471,
+      "todayStars": 531,
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "aiSummary": {
+        "summary": "该项目是一套帮助开发者快速构建 Claude API 应用的示例集合。包含客户支持、金融分析、计算机控制及浏览器自动化等多种场景的参考实现，展示了如何利用 Claude 的自然语言理解与操作能力来开发实用工具。",
+        "summary_en": "A collection of Python projects designed to help developers build deployable applications using the Claude API.",
+        "techStack": [
+          "Python",
+          "Claude API"
+        ],
+        "useCase": "快速构建基于 Claude API 的 AI 应用原型或生产级应用",
+        "useCase_en": "To provide foundational templates for building AI-powered applications such as support agents and data analysts."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "language": "C++",
+      "stars": 17411,
+      "forks": 2148,
+      "todayStars": 456,
+      "url": "https://github.com/google-deepmind/mujoco",
+      "aiSummary": {
+        "summary": "MuJoCo 是 Google DeepMind 维护的通用物理引擎，专注于多关节动力学与接触模拟。它旨在加速机器人、生物力学、图形学及机器学习等领域的研究。该引擎提供 C API，性能经过高度优化，支持原生桌面和浏览器可视化，并包含 Python 绑定和 Unity 插件，适用于需要快速且精确模拟的复杂结构环境交互场景。",
+        "summary_en": "Google DeepMind's high-performance physics simulator for robotics, biomechanics, and machine learning.",
+        "techStack": [
+          "C++",
+          "Python",
+          "WebAssembly",
+          "Unity"
+        ],
+        "useCase": "机器人技术、生物力学、图形学、动画及机器学习等需要快速且精确模拟复杂结构与环境交互的研究与开发。",
+        "useCase_en": "Enables fast and accurate simulation of articulated structures for robotics, biomechanics, and machine learning."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "language": "Ruby",
+      "stars": 12051,
+      "forks": 895,
+      "todayStars": 159,
+      "url": "https://github.com/we-promise/sure",
+      "aiSummary": {
+        "summary": "这是一个基于 Ruby 开发的全功能个人理财应用，由 Maybe Finance 社区分支维护。支持自托管（Docker），提供浏览器、桌面及移动端多平台访问，兼容 API 和 LLM 代理。旨在让用户免费管理个人财务数据，采用 AGPLv3 开源协议。",
+        "summary_en": "A self-hostable personal finance and wealth management application built with Ruby, maintained by the community.",
+        "techStack": [
+          "Ruby",
+          "Docker"
+        ],
+        "useCase": "个人财务管理、自托管金融数据",
+        "useCase_en": "A self-hostable personal finance and wealth management application accessible via web, desktop, and mobile clients."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "homeassistant-ai/ha-mcp",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "language": "Python",
+      "stars": 6717,
+      "forks": 432,
+      "todayStars": 790,
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "aiSummary": {
+        "summary": "这是一个 Python 项目，允许用户通过 Claude、ChatGPT 等 AI 助手配置和自动化 Home Assistant 智能家居系统。它通过 HACS 或 Marketplace 安装，支持多种 Home Assistant 版本，提供完整的 AI 控制功能。",
+        "summary_en": "Python integration enabling AI assistants to control and automate Home Assistant.",
+        "techStack": [
+          "Python",
+          "Home Assistant",
+          "HACS",
+          "AI Assistants"
+        ],
+        "useCase": "利用 AI 助手（如 Claude 或 ChatGPT）自动化控制和管理 Home Assistant 智能家居系统。",
+        "useCase_en": "Automate Home Assistant using natural language commands from AI assistants like Claude and ChatGPT."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "stars": 49285,
+      "forks": 3452,
+      "todayStars": 780,
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "aiSummary": {
+        "summary": "这是一个用 Rust 编写的 CLI 工具，专为 AI 代理提供浏览器自动化能力。它通过 Chrome DevTools Protocol 控制浏览器，将页面渲染为可访问性树并生成元素引用（如 @e1），允许 AI 代理通过命令行逐个操作网页元素。支持打开页面、读取内容、点击交互等功能，非常适合需要网页浏览能力的 AI 智能体。",
+        "summary_en": "Native Rust CLI enabling AI agents to control browsers via shell commands and accessibility trees.",
+        "techStack": [
+          "Rust",
+          "Chrome DevTools Protocol",
+          "Chromium"
+        ],
+        "useCase": "AI 智能体进行网页浏览、自动化交互及数据抓取",
+        "useCase_en": "Provides AI agents with a native CLI to drive browser automation tasks like clicking and reading."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "stars": 109100,
+      "forks": 12671,
+      "todayStars": 2393,
+      "url": "https://github.com/sherlock-project/sherlock",
+      "aiSummary": {
+        "summary": "Sherlock 是一个用 Python 编写的开源工具，用于在 400 多个社交网络上搜索特定用户名。它支持批量查询，并提供多种输出格式（如 CSV、TXT）。用户可以通过命令行快速检测用户名在各大平台的注册情况，适合用于品牌保护、网络安全调查或个人隐私查询。",
+        "summary_en": "Open-source CLI tool to locate social media accounts by username across 400+ platforms.",
+        "techStack": [
+          "Python",
+          "Docker",
+          "pip/pipx"
+        ],
+        "useCase": "用于在 400+ 社交网络上检测特定用户名的注册情况，适用于品牌保护、网络安全调查或个人隐私查询。",
+        "useCase_en": "Check for the existence of usernames across a vast array of social networks."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "tokio-rs/topcoat",
+      "description": "A batteries-included framework for building web apps",
+      "language": "Rust",
+      "stars": 6872,
+      "forks": 303,
+      "todayStars": 192,
+      "url": "https://github.com/tokio-rs/topcoat",
+      "aiSummary": {
+        "summary": "Topcoat 是一个 Rust 全栈框架，提供模块化和开箱即用的功能。它支持服务器端渲染，组件可直接查询数据库。其核心优势在于客户端响应性，通过 `$(...)` 表达式在浏览器端即时运行，无需 WebAssembly 或构建步骤。项目目前处于早期实验阶段。",
+        "summary_en": "A full-stack Rust framework enabling server-side rendering and client-side reactivity without Wasm.",
+        "techStack": [
+          "Rust",
+          "Tokio",
+          "Server-Side Rendering (SSR)",
+          "JavaScript"
+        ],
+        "useCase": "适合需要快速构建全栈 Web 应用，且希望避免 WebAssembly 复杂性的开发者。",
+        "useCase_en": "Building full-stack web applications in Rust that combine server-side logic with client-side interactivity."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "ranxianglei/billion-context",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "language": "TypeScript",
+      "stars": 6370,
+      "forks": 533,
+      "todayStars": 375,
+      "url": "https://github.com/ranxianglei/billion-context",
+      "aiSummary": {
+        "summary": "这是一个专为月级长会话设计的上下文压缩插件，支持数十亿 tokens 的处理，仅需 100K 上下文窗口即可运行，能将 token 消耗减少 5 倍。项目基于 MIT 许可证开源，包含详细论文和第三方基准测试，旨在解决长上下文管理的成本和质量问题。",
+        "summary_en": "A TypeScript context compression plugin for month-long sessions with 5x token savings.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Anthropic/OpenAI API"
+        ],
+        "useCase": "适用于需要处理月级长会话并大幅降低 token 消耗的 AI 编程代理或大模型应用。",
+        "useCase_en": "Compress long-term context for AI agents to maintain performance while drastically reducing token costs."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars": 321008,
+      "forks": 26913,
+      "todayStars": 1225,
+      "url": "https://github.com/mattpocock/skills",
+      "aiSummary": {
+        "summary": "这是一个为 AI 代理（如 Claude、Copilot 等）提供工程技能的 Shell 脚本集合。旨在帮助开发者进行真实的工程实践，而非简单的“氛围编码”。这些技能小巧、可组合且易于适应，支持多种 AI 模型，并提供自动更新功能。",
+        "summary_en": "A collection of engineering skills for AI agents to perform real development tasks.",
+        "techStack": [
+          "Shell",
+          "Claude Code",
+          "GitHub Copilot"
+        ],
+        "useCase": "适用于使用 Claude、Copilot 等 AI 编程助手进行工程化开发的场景。",
+        "useCase_en": "To provide AI agents with engineering skills for real development."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-11-11T02:43:33.428Z",
+    "duration": "352s",
+    "version": "1.0.0"
+  }
+}

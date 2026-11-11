@@ -70,23 +70,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-11-09 | **成功**: 11 | **失败**: 0
+**最后更新**: 2026-11-10 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills... | Python | 191.3k | 1.0k | Anthropic 官方的 Agent Skills 公共仓库，旨在展示 Claude 如何通过加载特定文件夹中的指令、脚本和资源来提升在专业任务上的表现。项目包含从创意设计到企业工作流的多种示例技能，涵盖文档处理（docx、pdf等）。所有技能均为开源（Apache 2.0），开发者可参考其模式创建自定义技能，用于文档生成、数据分析或自动化任务。 |
-| 2 | [meta/astryx](https://github.com/meta/astryx) | An open source design system that's fully customiz... | TypeScript | 20.6k | 3.3k | Astryx 是 Meta 开源的设计系统，拥有 150+ 可访问组件，支持暗黑模式、品牌级主题和 CLI。它基于 StyleX 构建，提供无样式锁定、可深度定制的特性，且专为人类和 AI 助手设计，适合构建大规模、可访问且易于维护的 React 应用。 |
-| 3 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across... | Python | 107.5k | 4.3k | Sherlock 是一个开源的 Python 工具，旨在跨 400 多个社交网络查找用户名。它支持通过命令行搜索单个或多个用户，并提供 CSV、XLSX、TXT 等多种输出格式。工具支持代理设置、超时控制及忽略排除项，帮助用户快速定位社交媒体账号。 |
-| 4 | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | Multi-Joint dynamics with Contact. A general purpo... | C++ | 17.0k | 574 | MuJoCo 是由 Google DeepMind 维护的通用物理引擎，专注于多关节动力学与接触模拟。它旨在加速机器人技术、生物力学、图形学、动画和机器学习等领域的研究。引擎提供 C API，支持高性能运行时模拟，包含桌面和浏览器交互式可视化，并提供 Python 绑定和 Unity 插件。 |
-| 5 | [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) | A collection of projects designed to help develope... | Python | 20.1k | 551 | 这是一个帮助开发者快速上手 Claude API 的项目集合，包含客户支持代理、金融数据分析师、计算机使用演示及浏览器自动化等多个示例。每个快速启动项目都提供了可定制的基础代码，展示了如何利用 Claude 的自然语言处理、数据分析及桌面/浏览器控制能力来构建可部署的应用。 |
-| 6 | [garrytan/gbrain](https://github.com/garrytan/gbrain) | Garry's Opinionated OpenClaw/Hermes Agent Brain... | TypeScript | 32.3k | 216 | GBrain 是一个 TypeScript 项目，为 AI 代理提供可控的记忆系统。它支持显式事实存储、更正和跨代理共享。用户可自托管或使用托管服务，通过 MCP 协议集成，支持语义搜索和技能管理，旨在让代理拥有持久且可管理的知识库。 |
-| 7 | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Browser automation CLI for AI agents... | Rust | 48.6k | 916 | 这是一个基于 Rust 的 CLI 工具，专为 AI 代理提供浏览器自动化能力。它通过 Chrome DevTools Protocol 控制 Chrome，允许代理通过命令行打开页面、读取无障碍树、点击元素并检查结果。支持引用、CSS 选择器和语义定位器，适合自动化 Web 任务。 |
-| 8 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | π RuView turns commodity WiFi signals into real-ti... | Rust | 103.6k | 172 | RuView 是一个基于 Rust 的 WiFi 感知平台，利用 WiFi 信号和 ESP32 传感器，无需摄像头即可实现墙体穿透检测、生命体征监测（呼吸心率）、活动识别及环境映射。它支持与主流智能家居生态（Home Assistant、Apple Home 等）无缝集成，提供丰富的实体状态和蓝图。 |
-| 9 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 ... | Python | 69.1k | 506 | 这是一个基于大语言模型（LLM）的多市场股票智能分析系统，支持A股、港股、美股等。它能聚合多源行情与实时新闻，生成包含买卖点位的AI决策报告，并通过企业微信、飞书等渠道自动推送。支持零成本GitHub Actions部署，适合个人投资者进行每日自动化选股与决策参考。 |
-| 10 | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | Configure and automate Home Assistant with Claude,... | Python | 6.1k | 31 | 这是一个用于 Home Assistant 的 MCP 服务器集成，允许用户通过 Claude、ChatGPT 等 AI 助手来配置和自动化智能家居系统。它支持所有 Home Assistant 安装类型，通过 HACS 或内置市场安装，提供完整的功能对等性，并需要管理员访问令牌来安全地控制设备和服务。 |
-| 11 | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | Open-source Grok Bot alternative with a virtual ma... | TypeScript | 19.9k | 1.6k | OpenMausBot 是一个开源的 Grok Bot 替代品，旨在将 AI 代理作为聊天应用中的联系人进行管理。它采用本地优先架构，允许用户使用本地安装的 Claude、Codex 等命令行工具运行多个独立的 AI 代理。每个代理拥有独立的性格、模型和记忆，支持在本地环境中与它们交互，无需中间代理或新账户。 |
+| 1 | [meta/astryx](https://github.com/meta/astryx) | An open source design system that's fully customiz... | TypeScript | 23.1k | 3.1k | Astryx 是 Meta 开源的设计系统，提供 150+ 可访问组件、品牌级主题和暗黑模式。它基于 React 和 StyleX，支持无构建插件集成。核心优势在于开放内部结构（支持 swizzle）、无样式锁定（可覆盖 Tailwind/CSS）以及专为人和 AI 协同设计的 API，适合构建可定制且 AI 友好的现代 Web 应用。 |
+| 2 | [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills... | Python | 192.4k | 1.7k | Anthropic 官方的 Agent Skills 公共仓库，包含 Claude 动态加载的指令、脚本和资源。旨在提升 Claude 在特定任务（如文档创建、数据分析、自动化）上的表现。仓库提供 Apache 2.0 许可的开源技能示例及底层文档处理技能实现。 |
+| 3 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | JavaScript | 115.2k | 465 | 该项目为 AI 编码代理提供生产级工程技能。通过 9 个斜杠命令封装资深工程师的最佳实践，覆盖从需求定义到生产部署的全生命周期。它确保代码质量、性能优化和可维护性，支持自动化测试、代码审查及增量构建。 |
+| 4 | [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) | A collection of projects designed to help develope... | Python | 20.5k | 531 | 该项目是一套帮助开发者快速构建 Claude API 应用的示例集合。包含客户支持、金融分析、计算机控制及浏览器自动化等多种场景的参考实现，展示了如何利用 Claude 的自然语言理解与操作能力来开发实用工具。 |
+| 5 | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | Multi-Joint dynamics with Contact. A general purpo... | C++ | 17.4k | 456 | MuJoCo 是 Google DeepMind 维护的通用物理引擎，专注于多关节动力学与接触模拟。它旨在加速机器人、生物力学、图形学及机器学习等领域的研究。该引擎提供 C API，性能经过高度优化，支持原生桌面和浏览器可视化，并包含 Python 绑定和 Unity 插件，适用于需要快速且精确模拟的复杂结构环境交互场景。 |
+| 6 | [we-promise/sure](https://github.com/we-promise/sure) | The personal finance app for everyone (by everyone... | Ruby | 12.1k | 159 | 这是一个基于 Ruby 开发的全功能个人理财应用，由 Maybe Finance 社区分支维护。支持自托管（Docker），提供浏览器、桌面及移动端多平台访问，兼容 API 和 LLM 代理。旨在让用户免费管理个人财务数据，采用 AGPLv3 开源协议。 |
+| 7 | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | Configure and automate Home Assistant with Claude,... | Python | 6.7k | 790 | 这是一个 Python 项目，允许用户通过 Claude、ChatGPT 等 AI 助手配置和自动化 Home Assistant 智能家居系统。它通过 HACS 或 Marketplace 安装，支持多种 Home Assistant 版本，提供完整的 AI 控制功能。 |
+| 8 | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Browser automation CLI for AI agents... | Rust | 49.3k | 780 | 这是一个用 Rust 编写的 CLI 工具，专为 AI 代理提供浏览器自动化能力。它通过 Chrome DevTools Protocol 控制浏览器，将页面渲染为可访问性树并生成元素引用（如 @e1），允许 AI 代理通过命令行逐个操作网页元素。支持打开页面、读取内容、点击交互等功能，非常适合需要网页浏览能力的 AI 智能体。 |
+| 9 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across... | Python | 109.1k | 2.4k | Sherlock 是一个用 Python 编写的开源工具，用于在 400 多个社交网络上搜索特定用户名。它支持批量查询，并提供多种输出格式（如 CSV、TXT）。用户可以通过命令行快速检测用户名在各大平台的注册情况，适合用于品牌保护、网络安全调查或个人隐私查询。 |
+| 10 | [tokio-rs/topcoat](https://github.com/tokio-rs/topcoat) | A batteries-included framework for building web ap... | Rust | 6.9k | 192 | Topcoat 是一个 Rust 全栈框架，提供模块化和开箱即用的功能。它支持服务器端渲染，组件可直接查询数据库。其核心优势在于客户端响应性，通过 `$(...)` 表达式在浏览器端即时运行，无需 WebAssembly 或构建步骤。项目目前处于早期实验阶段。 |
+| 11 | [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) | A context-compression plugin for month-long single... | TypeScript | 6.4k | 375 | 这是一个专为月级长会话设计的上下文压缩插件，支持数十亿 tokens 的处理，仅需 100K 上下文窗口即可运行，能将 token 消耗减少 5 倍。项目基于 MIT 许可证开源，包含详细论文和第三方基准测试，旨在解决长上下文管理的成本和质量问题。 |
+| 12 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .agent... | Shell | 321.0k | 1.2k | 这是一个为 AI 代理（如 Claude、Copilot 等）提供工程技能的 Shell 脚本集合。旨在帮助开发者进行真实的工程实践，而非简单的“氛围编码”。这些技能小巧、可组合且易于适应，支持多种 AI 模型，并提供自动更新功能。 |
 
-[查看完整数据](api/github/2026-11-09.json)
+[查看完整数据](api/github/2026-11-10.json)
 <!-- END GITHUB TRENDING -->
 
 
