@@ -70,24 +70,22 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-11-10 | **成功**: 12 | **失败**: 0
+**最后更新**: 2026-11-11 | **成功**: 10 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [meta/astryx](https://github.com/meta/astryx) | An open source design system that's fully customiz... | TypeScript | 23.1k | 3.1k | Astryx 是 Meta 开源的设计系统，提供 150+ 可访问组件、品牌级主题和暗黑模式。它基于 React 和 StyleX，支持无构建插件集成。核心优势在于开放内部结构（支持 swizzle）、无样式锁定（可覆盖 Tailwind/CSS）以及专为人和 AI 协同设计的 API，适合构建可定制且 AI 友好的现代 Web 应用。 |
-| 2 | [anthropics/skills](https://github.com/anthropics/skills) | Public repository for Agent Skills... | Python | 192.4k | 1.7k | Anthropic 官方的 Agent Skills 公共仓库，包含 Claude 动态加载的指令、脚本和资源。旨在提升 Claude 在特定任务（如文档创建、数据分析、自动化）上的表现。仓库提供 Apache 2.0 许可的开源技能示例及底层文档处理技能实现。 |
-| 3 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | JavaScript | 115.2k | 465 | 该项目为 AI 编码代理提供生产级工程技能。通过 9 个斜杠命令封装资深工程师的最佳实践，覆盖从需求定义到生产部署的全生命周期。它确保代码质量、性能优化和可维护性，支持自动化测试、代码审查及增量构建。 |
-| 4 | [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) | A collection of projects designed to help develope... | Python | 20.5k | 531 | 该项目是一套帮助开发者快速构建 Claude API 应用的示例集合。包含客户支持、金融分析、计算机控制及浏览器自动化等多种场景的参考实现，展示了如何利用 Claude 的自然语言理解与操作能力来开发实用工具。 |
-| 5 | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | Multi-Joint dynamics with Contact. A general purpo... | C++ | 17.4k | 456 | MuJoCo 是 Google DeepMind 维护的通用物理引擎，专注于多关节动力学与接触模拟。它旨在加速机器人、生物力学、图形学及机器学习等领域的研究。该引擎提供 C API，性能经过高度优化，支持原生桌面和浏览器可视化，并包含 Python 绑定和 Unity 插件，适用于需要快速且精确模拟的复杂结构环境交互场景。 |
-| 6 | [we-promise/sure](https://github.com/we-promise/sure) | The personal finance app for everyone (by everyone... | Ruby | 12.1k | 159 | 这是一个基于 Ruby 开发的全功能个人理财应用，由 Maybe Finance 社区分支维护。支持自托管（Docker），提供浏览器、桌面及移动端多平台访问，兼容 API 和 LLM 代理。旨在让用户免费管理个人财务数据，采用 AGPLv3 开源协议。 |
-| 7 | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | Configure and automate Home Assistant with Claude,... | Python | 6.7k | 790 | 这是一个 Python 项目，允许用户通过 Claude、ChatGPT 等 AI 助手配置和自动化 Home Assistant 智能家居系统。它通过 HACS 或 Marketplace 安装，支持多种 Home Assistant 版本，提供完整的 AI 控制功能。 |
-| 8 | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Browser automation CLI for AI agents... | Rust | 49.3k | 780 | 这是一个用 Rust 编写的 CLI 工具，专为 AI 代理提供浏览器自动化能力。它通过 Chrome DevTools Protocol 控制浏览器，将页面渲染为可访问性树并生成元素引用（如 @e1），允许 AI 代理通过命令行逐个操作网页元素。支持打开页面、读取内容、点击交互等功能，非常适合需要网页浏览能力的 AI 智能体。 |
-| 9 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across... | Python | 109.1k | 2.4k | Sherlock 是一个用 Python 编写的开源工具，用于在 400 多个社交网络上搜索特定用户名。它支持批量查询，并提供多种输出格式（如 CSV、TXT）。用户可以通过命令行快速检测用户名在各大平台的注册情况，适合用于品牌保护、网络安全调查或个人隐私查询。 |
-| 10 | [tokio-rs/topcoat](https://github.com/tokio-rs/topcoat) | A batteries-included framework for building web ap... | Rust | 6.9k | 192 | Topcoat 是一个 Rust 全栈框架，提供模块化和开箱即用的功能。它支持服务器端渲染，组件可直接查询数据库。其核心优势在于客户端响应性，通过 `$(...)` 表达式在浏览器端即时运行，无需 WebAssembly 或构建步骤。项目目前处于早期实验阶段。 |
-| 11 | [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) | A context-compression plugin for month-long single... | TypeScript | 6.4k | 375 | 这是一个专为月级长会话设计的上下文压缩插件，支持数十亿 tokens 的处理，仅需 100K 上下文窗口即可运行，能将 token 消耗减少 5 倍。项目基于 MIT 许可证开源，包含详细论文和第三方基准测试，旨在解决长上下文管理的成本和质量问题。 |
-| 12 | [mattpocock/skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Straight from my .agent... | Shell | 321.0k | 1.2k | 这是一个为 AI 代理（如 Claude、Copilot 等）提供工程技能的 Shell 脚本集合。旨在帮助开发者进行真实的工程实践，而非简单的“氛围编码”。这些技能小巧、可组合且易于适应，支持多种 AI 模型，并提供自动更新功能。 |
+| 1 | [meta/astryx](https://github.com/meta/astryx) | An open source design system that's fully customiz... | TypeScript | 25.2k | 2.8k | Astryx 是 Meta 开源的企业级设计系统，包含 150+ 个可访问组件，支持暗黑模式和主题定制。它基于 StyleX 构建，但允许使用 Tailwind 或 CSS 覆盖样式。专为人类和 AI 助手设计，提供开箱即用的 React 组件和 CLI 工具，无需构建插件即可快速集成。 |
+| 2 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 ... | Python | 70.5k | 278 | 基于 Python 的 LLM 驱动多市场股票智能分析系统，支持 A股、港股、美股等多地行情聚合与 AI 决策报告生成。支持零成本 GitHub Actions 定时运行，自动推送决策仪表盘至企业微信、飞书等平台，辅助投资决策。 |
+| 3 | [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | ... | TypeScript | 1.9k | 159 | 本项目由 Chrome、Edge、Firefox 和 MDN 团队维护，旨在为编码代理提供现代 Web 平台的专业知识和最佳实践。通过 CLI 工具，它帮助开发者引导 AI 走出遗留模式，使用原生高性能 API，从而提升代码质量和浏览器兼容性。 |
+| 4 | [shadcn/improve](https://github.com/shadcn/improve) | Use your most capable model to audit your codebase... | - | 11.0k | 361 | 这是一个智能体技能，旨在利用强大的模型审计代码库并生成实施计划，交由廉价模型执行。它支持全量、快速、安全等多种审计模式，生成独立的 Markdown 规范文档，帮助团队优化成本，实现高效的自动化代码改进。 |
+| 5 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | JavaScript | 116.1k | 787 | 该项目为 AI 编码代理提供生产级工程技能，封装了资深工程师的流程与最佳实践。包含 9 个开发生命周期斜杠命令，覆盖从需求定义到生产发布的全流程，确保 AI 代理在构建软件时保持一致的高质量标准。 |
+| 6 | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Browser automation CLI for AI agents... | Rust | 50.0k | 708 | 这是一个用 Rust 编写的浏览器自动化 CLI，专为 AI 代理设计。它允许代理通过 Shell 命令打开页面、读取无障碍树快照并交互元素。使用 Chrome DevTools Protocol，支持通过引用或语义定位器进行操作，非常适合需要网页交互能力的 AI 智能体。 |
+| 7 | [we-promise/sure](https://github.com/we-promise/sure) | The personal finance app for everyone (by everyone... | Ruby | 13.1k | 1.1k | 这是一个基于 Ruby 的全功能个人理财与财富管理应用，源自 Maybe Finance 的社区分支。支持 Docker 自托管，提供浏览器、桌面及移动端访问，并集成了理财顾问功能。项目旨在通过开源保持代码活跃，允许用户免费自托管。 |
+| 8 | [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | Configure and automate Home Assistant with Claude,... | Python | 7.4k | 645 | 这是一个 Python 项目，旨在通过 Claude、ChatGPT 等 AI 助手配置和自动化 Home Assistant。它通过 HACS 或 Home Assistant 市场作为集成安装，支持多种 Home Assistant 版本，允许用户使用自然语言控制智能家居设备并执行自动化任务。 |
+| 9 | [openai/codex-security](https://github.com/openai/codex-security) | OpenAI's Codex Security CLI and TypeScript SDK for... | TypeScript | 11.8k | 52 | 这是一个用于查找、验证和修复代码安全漏洞的 CLI 和 SDK。支持深度扫描、自动修补、生成 SECURITY.md 以及与第三方工具集成。用户可通过 Codex 插件、命令行或 GitHub Action 进行操作，适用于自动化安全审计和 CI/CD 流程。 |
+| 10 | [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java) | All Algorithms implemented in Java... | Java | 67.1k | 51 | 这是一个包含所有经典算法的 Java 实现项目，旨在用于教育目的。项目提供了丰富的算法代码库，支持通过 Gitpod.io 在线运行和编辑，并鼓励社区贡献。 |
 
-[查看完整数据](api/github/2026-11-10.json)
+[查看完整数据](api/github/2026-11-11.json)
 <!-- END GITHUB TRENDING -->
 
 
