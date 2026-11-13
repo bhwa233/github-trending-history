@@ -1,0 +1,293 @@
+{
+  "date": "2026-11-12",
+  "since": "daily",
+  "totalRepos": 13,
+  "successCount": 13,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "language": "TypeScript",
+      "stars": 3261,
+      "forks": 208,
+      "todayStars": 739,
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "aiSummary": {
+        "summary": "该项目由 Chrome、Edge、Firefox 和 MDN 团队维护，旨在通过嵌入 Web 平台最佳实践和浏览器兼容性数据，引导 AI 编码代理生成更现代、高性能的代码。它提供 CLI 工具，支持安装指南、搜索特定主题、检索指南以及扫描代码库中的遗留模式，帮助开发者使用原生 Web API 替代过时方案。",
+        "summary_en": "A set of skills for coding agents to embed web platform expertise and best practices.",
+        "techStack": [
+          "TypeScript",
+          "CLI",
+          "Web Platform APIs"
+        ],
+        "useCase": "用于提升 AI 编码代理生成的代码质量，确保使用现代 Web API 替代过时模式。",
+        "useCase_en": "Helps coding agents avoid legacy patterns and adopt modern web platform solutions."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript",
+      "stars": 12532,
+      "forks": 980,
+      "todayStars": 643,
+      "url": "https://github.com/openai/codex-security",
+      "aiSummary": {
+        "summary": "这是一个用于查找、验证和修复代码安全漏洞的 CLI 工具和 TypeScript SDK。它支持深度扫描、自动生成补丁、威胁建模及导出报告，并能与 Jira、GitHub 等工具集成，帮助开发者通过 Codex 插件或自动化工作流提升代码安全性。",
+        "summary_en": "OpenAI CLI and SDK for finding, validating, and fixing security vulnerabilities.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Python"
+        ],
+        "useCase": "适用于需要自动化安全扫描、漏洞修复验证及威胁建模的软件开发流程。",
+        "useCase_en": "Use the CLI or SDK to scan code for vulnerabilities and generate patches."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "nvm-sh/nvm",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "language": "Shell",
+      "stars": 96031,
+      "forks": 10760,
+      "todayStars": 63,
+      "url": "https://github.com/nvm-sh/nvm",
+      "aiSummary": {
+        "summary": "nvm 是一个 POSIX 兼容的 Node.js 版本管理脚本，允许用户通过命令行快速安装、切换和使用不同的 Node.js 版本。它支持 bash、zsh 等多种 shell，兼容 Unix、macOS 和 Windows WSL，并提供 Docker 集成、自动版本切换及离线安装等功能。",
+        "summary_en": "A POSIX-compliant script to manage multiple active Node.js versions.",
+        "techStack": [
+          "Shell",
+          "Bash",
+          "Node.js",
+          "POSIX"
+        ],
+        "useCase": "需要在同一台机器上维护多个 Node.js 版本的开发者。",
+        "useCase_en": "Allows developers to easily install and switch between different Node.js versions."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "pookjw/HermesEnabler",
+      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+      "language": "Objective-C",
+      "stars": 1584,
+      "forks": 142,
+      "todayStars": 218,
+      "url": "https://github.com/pookjw/HermesEnabler",
+      "aiSummary": {
+        "summary": "该项目允许用户在任意 Apple Watch 设备上启用 Hermès 表盘。支持 watchOS 27.0 到 27.3 beta 1 版本。用户可通过 macOS 的 Sideloadly 或 Xcode，或 Windows 的 WatchBridge 工具进行安装，需开启开发者模式并信任证书。",
+        "summary_en": "A utility to unlock Hermès watch faces on non-Hermès Apple Watches via watchOS 27.0-27.3 beta 1.",
+        "techStack": [
+          "Objective-C",
+          "watchOS",
+          "Xcode"
+        ],
+        "useCase": "为非 Hermes 版 Apple Watch 用户解锁高级表盘",
+        "useCase_en": "To customize the watch face selection on non-Hermès Apple Watches by enabling the hidden Hermès interface."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "language": "Ruby",
+      "stars": 14018,
+      "forks": 1052,
+      "todayStars": 967,
+      "url": "https://github.com/we-promise/sure",
+      "aiSummary": {
+        "summary": "这是一个源自 Maybe Finance 的社区维护分叉项目，提供功能齐全的个人理财应用。支持自托管（Docker）、多端访问（浏览器、桌面、移动端）及 API/LLM 代理集成。项目采用 AGPLv3 许可证，旨在让用户免费使用，现由社区维护以延续代码库。",
+        "summary_en": "A community-maintained personal finance application forked from the abandoned Maybe Finance project.",
+        "techStack": [
+          "Ruby",
+          "Docker",
+          "API",
+          "LLM Agents"
+        ],
+        "useCase": "个人财务管理与自托管解决方案",
+        "useCase_en": "A self-hostable personal finance and wealth management application."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "language": "TypeScript",
+      "stars": 29879,
+      "forks": 3402,
+      "todayStars": 151,
+      "url": "https://github.com/QwenLM/qwen-code",
+      "aiSummary": {
+        "summary": "Qwen Code 是一个开源的 AI 编码代理，运行在终端中。它具备自动记忆、技能和子代理等内置代理能力，支持多协议（OpenAI、Anthropic、Gemini、Qwen）及本地模型。提供零设置动态工作流，支持终端、IDE 插件等多种界面，且框架和模型均开源，无供应商锁定。",
+        "summary_en": "An open-source AI coding agent featuring multi-protocol support and dynamic workflows.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "NPM",
+          "Homebrew",
+          "Ollama"
+        ],
+        "useCase": "适用于自动化代码编写、仓库分析、代码审查及多模型协作开发的场景。",
+        "useCase_en": "Automate software development tasks and manage projects using an AI agent in your terminal."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "ashhart/TensorFold",
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "language": "Zig",
+      "stars": 1972,
+      "forks": 394,
+      "todayStars": 54,
+      "url": "https://github.com/ashhart/TensorFold",
+      "aiSummary": {
+        "summary": "TensorFold 是一个用 Zig 编写的 LLM 推理引擎，支持 Metal、CUDA 和 Vulkan。它允许从 Zig 二进制文件直接在 Apple Silicon 和 NVIDIA GPU 上运行语言模型，无需 Python 或 MLX 环境支持。项目通过直接运行 Metal 或 CUDA 内核来处理检查点加载和请求分词，并集成了 Agent Traffic Control (ATC) 工具以优化协作流程。",
+        "summary_en": "A Zig-based LLM inference engine supporting Metal, CUDA, and Vulkan for Apple Silicon and NVIDIA GPUs.",
+        "techStack": [
+          "Zig",
+          "Metal",
+          "CUDA",
+          "Vulkan"
+        ],
+        "useCase": "在 Apple Silicon 和 NVIDIA GPU 上直接部署和运行语言模型，无需 Python 或 MLX 环境。",
+        "useCase_en": "Deploy language models directly from a binary on Apple Silicon and NVIDIA GPUs without Python or MLX dependencies."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "nodejs/node",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "language": "JavaScript",
+      "stars": 123617,
+      "forks": 38057,
+      "todayStars": 62,
+      "url": "https://github.com/nodejs/node",
+      "aiSummary": {
+        "summary": "Node.js 是一个开源的、跨平台 JavaScript 运行时环境，由 OpenJS Foundation 支持。项目采用开放治理模式，遵循语义化版本控制。提供 Alpha、Current 和 LTS 三种发布类型，其中 LTS 版本专注于稳定性和安全性，适用于生产环境。",
+        "summary_en": "Open-source JavaScript runtime for server-side execution.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "适合构建高性能、可扩展的服务器端应用程序及命令行工具。",
+        "useCase_en": "Enables server-side JavaScript execution and scalable network applications."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars": 116753,
+      "forks": 12212,
+      "todayStars": 816,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供生产级工程技能，包含 9 个斜杠命令覆盖全开发生命周期。它确保 AI 遵循最佳实践（如测试驱动、代码审查、性能审计），提升代码质量和开发效率，特别适用于 Claude Code 环境。",
+        "summary_en": "A collection of production-grade engineering skills and workflows designed to guide AI coding agents through the software development lifecycle.",
+        "techStack": [
+          "JavaScript"
+        ],
+        "useCase": "适用于提升 AI 编码代理工程能力的场景，特别是集成 Claude Code 的开发环境。",
+        "useCase_en": "To provide AI coding agents with a structured set of commands and best practices to ensure high-quality software develop"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars": 26702,
+      "forks": 2070,
+      "todayStars": 1830,
+      "url": "https://github.com/meta/astryx",
+      "aiSummary": {
+        "summary": "Astryx 是 Meta 开源的企业级设计系统，拥有 150+ 可访问组件和品牌级主题。它基于 React 19 和 StyleX 构建，支持暗黑模式和无样式锁定。核心优势在于开放内部、可自定义主题以及专为人类和 AI 助手设计的统一工具链，适合构建大规模、可扩展的 Web 应用。",
+        "summary_en": "Meta's open-source design system offering 150+ accessible components and agent-ready tooling.",
+        "techStack": [
+          "TypeScript",
+          "React",
+          "StyleX",
+          "Tailwind CSS"
+        ],
+        "useCase": "适合需要高度定制化、可访问性要求高且希望支持 AI 辅助开发的大型企业级 Web 应用。",
+        "useCase_en": "Build consistent, accessible user interfaces using a Meta-built design system compatible with various styling approaches"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "language": "TypeScript",
+      "stars": 11695,
+      "forks": 1447,
+      "todayStars": 298,
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "aiSummary": {
+        "summary": "OpenBot 是一个开源的 AI 同事工作空间，旨在为 AI 代理提供独立的浏览器、文件和工具环境。它支持多种大模型和 AG-UI 代理，具备企业级功能如权限管理、审批流程和审计日志。用户可自托管，灵活集成现有代理，实现跨平台协作。",
+        "summary_en": "Modular workspace for AI coworkers to perform tasks using browsers, files, and tools.",
+        "techStack": [
+          "TypeScript",
+          "Docker",
+          "AG-UI",
+          "MCP",
+          "Kubernetes"
+        ],
+        "useCase": "企业级 AI 代理工作流自动化与集成平台",
+        "useCase_en": "To create a self-hosted environment where AI coworkers can autonomously perform tasks using browsers and tools."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "stars": 69409,
+      "forks": 10771,
+      "todayStars": 415,
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "aiSummary": {
+        "summary": "这是一个开源项目，旨在通过路由技术免费使用Claude Code等12种编程工具。它支持61个提供商，每月提供超13亿免费代币，支持终端、IDE及浏览器使用。具备流式传输、工具调用、语音支持及高可靠性重试机制，旨在降低编程成本。",
+        "summary_en": "A Python tool that routes AI coding agents to various providers to access free tokens and coding tools.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "VS Code/JetBrains"
+        ],
+        "useCase": "开发者希望免费使用Claude Code等AI编程助手进行代码生成与调试。",
+        "useCase_en": "Access free AI coding tools like Claude Code and Codex through various interfaces."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "stars": 134622,
+      "forks": 25512,
+      "todayStars": 176,
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "aiSummary": {
+        "summary": "llama.cpp 是一个用 C++ 编写的轻量级 LLM 推理库，旨在本地和云端实现高性能推理。它支持多硬件架构（x86, ARM, RISC-V）及多种后端（CUDA, Metal, Vulkan 等），提供多种量化选项以减少内存占用，并支持 CPU+GPU 混合加速。",
+        "summary_en": "A high-performance C++ library for running Large Language Models locally on diverse hardware.",
+        "techStack": [
+          "C/C++",
+          "ggml",
+          "CUDA",
+          "Metal",
+          "Vulkan"
+        ],
+        "useCase": "在本地设备上运行大语言模型和视觉语言模型，实现高性能推理。",
+        "useCase_en": "Run Large Language Models locally on consumer hardware for privacy and offline use."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-11-13T03:26:29.940Z",
+    "duration": "485s",
+    "version": "1.0.0"
+  }
+}
