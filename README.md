@@ -70,25 +70,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-11-12 | **成功**: 13 | **失败**: 0
+**最后更新**: 2026-11-13 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Keep your coding agent up to date with the latest ... | TypeScript | 3.3k | 739 | 该项目由 Chrome、Edge、Firefox 和 MDN 团队维护，旨在通过嵌入 Web 平台最佳实践和浏览器兼容性数据，引导 AI 编码代理生成更现代、高性能的代码。它提供 CLI 工具，支持安装指南、搜索特定主题、检索指南以及扫描代码库中的遗留模式，帮助开发者使用原生 Web API 替代过时方案。 |
-| 2 | [openai/codex-security](https://github.com/openai/codex-security) | OpenAI's Codex Security CLI and TypeScript SDK for... | TypeScript | 12.5k | 643 | 这是一个用于查找、验证和修复代码安全漏洞的 CLI 工具和 TypeScript SDK。它支持深度扫描、自动生成补丁、威胁建模及导出报告，并能与 Jira、GitHub 等工具集成，帮助开发者通过 Codex 插件或自动化工作流提升代码安全性。 |
-| 3 | [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | Node Version Manager - POSIX-compliant bash script... | Shell | 96.0k | 63 | nvm 是一个 POSIX 兼容的 Node.js 版本管理脚本，允许用户通过命令行快速安装、切换和使用不同的 Node.js 版本。它支持 bash、zsh 等多种 shell，兼容 Unix、macOS 和 Windows WSL，并提供 Docker 集成、自动版本切换及离线安装等功能。 |
-| 4 | [pookjw/HermesEnabler](https://github.com/pookjw/HermesEnabler) | Enable Hermès Watch Faces on any Apple Watch devic... | Objective-C | 1.6k | 218 | 该项目允许用户在任意 Apple Watch 设备上启用 Hermès 表盘。支持 watchOS 27.0 到 27.3 beta 1 版本。用户可通过 macOS 的 Sideloadly 或 Xcode，或 Windows 的 WatchBridge 工具进行安装，需开启开发者模式并信任证书。 |
-| 5 | [we-promise/sure](https://github.com/we-promise/sure) | The personal finance app for everyone (by everyone... | Ruby | 14.0k | 967 | 这是一个源自 Maybe Finance 的社区维护分叉项目，提供功能齐全的个人理财应用。支持自托管（Docker）、多端访问（浏览器、桌面、移动端）及 API/LLM 代理集成。项目采用 AGPLv3 许可证，旨在让用户免费使用，现由社区维护以延续代码库。 |
-| 6 | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | An open-source AI coding agent that lives in your ... | TypeScript | 29.9k | 151 | Qwen Code 是一个开源的 AI 编码代理，运行在终端中。它具备自动记忆、技能和子代理等内置代理能力，支持多协议（OpenAI、Anthropic、Gemini、Qwen）及本地模型。提供零设置动态工作流，支持终端、IDE 插件等多种界面，且框架和模型均开源，无供应商锁定。 |
-| 7 | [ashhart/TensorFold](https://github.com/ashhart/TensorFold) | LLM Inference Engine for Metal, CUDA and Vulkan.... | Zig | 2.0k | 54 | TensorFold 是一个用 Zig 编写的 LLM 推理引擎，支持 Metal、CUDA 和 Vulkan。它允许从 Zig 二进制文件直接在 Apple Silicon 和 NVIDIA GPU 上运行语言模型，无需 Python 或 MLX 环境支持。项目通过直接运行 Metal 或 CUDA 内核来处理检查点加载和请求分词，并集成了 Agent Traffic Control (ATC) 工具以优化协作流程。 |
-| 8 | [nodejs/node](https://github.com/nodejs/node) | Node.js JavaScript runtime ✨🐢🚀✨... | JavaScript | 123.6k | 62 | Node.js 是一个开源的、跨平台 JavaScript 运行时环境，由 OpenJS Foundation 支持。项目采用开放治理模式，遵循语义化版本控制。提供 Alpha、Current 和 LTS 三种发布类型，其中 LTS 版本专注于稳定性和安全性，适用于生产环境。 |
-| 9 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding ... | JavaScript | 116.8k | 816 | 该项目为 AI 编码代理提供生产级工程技能，包含 9 个斜杠命令覆盖全开发生命周期。它确保 AI 遵循最佳实践（如测试驱动、代码审查、性能审计），提升代码质量和开发效率，特别适用于 Claude Code 环境。 |
-| 10 | [meta/astryx](https://github.com/meta/astryx) | An open source design system that's fully customiz... | TypeScript | 26.7k | 1.8k | Astryx 是 Meta 开源的企业级设计系统，拥有 150+ 可访问组件和品牌级主题。它基于 React 19 和 StyleX 构建，支持暗黑模式和无样式锁定。核心优势在于开放内部、可自定义主题以及专为人类和 AI 助手设计的统一工具链，适合构建大规模、可扩展的 Web 应用。 |
-| 11 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | Open-source AI coworkers that each get a computer ... | TypeScript | 11.7k | 298 | OpenBot 是一个开源的 AI 同事工作空间，旨在为 AI 代理提供独立的浏览器、文件和工具环境。它支持多种大模型和 AG-UI 代理，具备企业级功能如权限管理、审批流程和审计日志。用户可自托管，灵活集成现有代理，实现跨平台协作。 |
-| 12 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Use Claude Code, Codex, Antigravity, VSCode, Pi, a... | Python | 69.4k | 415 | 这是一个开源项目，旨在通过路由技术免费使用Claude Code等12种编程工具。它支持61个提供商，每月提供超13亿免费代币，支持终端、IDE及浏览器使用。具备流式传输、工具调用、语音支持及高可靠性重试机制，旨在降低编程成本。 |
-| 13 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++... | C++ | 134.6k | 176 | llama.cpp 是一个用 C++ 编写的轻量级 LLM 推理库，旨在本地和云端实现高性能推理。它支持多硬件架构（x86, ARM, RISC-V）及多种后端（CUDA, Metal, Vulkan 等），提供多种量化选项以减少内存占用，并支持 CPU+GPU 混合加速。 |
+| 1 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Secure, fast, efficient, battle-tested at Alibaba'... | Go | 50.7k | 215 | 阿里巴巴开源的 Go 语言 AI 代码审查工具，采用确定性管道与 LLM Agent 混合架构。具备高精度、低 Token 消耗的特点，内置多语言规则集，支持逐行精准审查，已在阿里大规模验证。 |
+| 2 | [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Keep your coding agent up to date with the latest ... | TypeScript | 4.9k | 1.9k | 这是一个由 Chrome、Edge、Firefox 和 MDN 团队维护的项目，旨在通过嵌入 Web 平台专业知识、最佳实践和浏览器兼容性数据来更新编码代理。它提供 CLI 工具，帮助引导代理远离遗留模式，转向现代、高性能的 Web 解决方案，确保生成的代码符合当前标准。 |
+| 3 | [openai/codex-security](https://github.com/openai/codex-security) | OpenAI's Codex Security CLI and TypeScript SDK for... | TypeScript | 13.2k | 751 | OpenAI 推出的安全漏洞检测工具，提供 CLI、SDK 和 GitHub Action。支持深度扫描代码、验证发现、生成补丁及起草安全策略，并可与 Jira、Linear 等工具集成，实现 CI/CD 自动化安全检查。 |
+| 4 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 ... | Python | 71.7k | 256 | 这是一个基于 Python 和大语言模型的智能股票分析系统，支持 A股、港股、美股等多市场数据聚合。它能自动生成 AI 决策报告，并通过企业微信、飞书等渠道推送决策仪表盘，支持零成本定时运行，适合个人投资者进行自动化股票研究。 |
+| 5 | [we-promise/sure](https://github.com/we-promise/sure) | The personal finance app for everyone (by everyone... | Ruby | 14.8k | 925 | 这是一个基于 Maybe Finance 开源代码的社区维护型个人理财应用。支持自托管，提供全面的财富管理功能。兼容多平台（Web、桌面、移动端、API 及 LLM 代理），旨在让用户免费管理个人财务。 |
+| 6 | [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | The workspace to stay in the loop and on top of ag... | TypeScript | 10.5k | 108 | Plannotator 是一个本地浏览器应用，旨在帮助开发者与 AI 编码代理保持同步。它提供了一个审查层，允许用户注释计划、规范、HTML 和代码差异，并将反馈直接发送回代理。支持 Claude、Copilot 等多种工具及 Git 仓库。 |
+| 7 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool... | JavaScript | 93.9k | 71 | Uptime Kuma 是一款易于使用的自托管监控工具，支持 HTTP/TCP/Ping 等多种监控类型。它拥有响应迅速的 UI，支持 Telegram、Discord 等多种通知方式，并提供 2FA 安全认证。项目支持 Docker 部署，适合个人或团队用于监控网站和服务的可用性。 |
+| 8 | [block/buzz](https://github.com/block/buzz) | A hive mind communication platform... | Rust | 37.3k | 97 | Buzz 是一个基于 Rust 的自我托管工作区，采用 Nostr 协议，允许人类和 AI 代理在同一房间协作。它将所有交互（包括代码审查、Git 事件和工作流）记录为事件日志。代理拥有独立的密钥和权限，可以执行代码审查、发送补丁和运行工作流，提供类似人类队友的协作体验。 |
+| 9 | [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) | Claude Code skills for equity investors and trader... | Python | 4.2k | 69 | 这是一个面向个人投资者的 Claude 技能工具包，旨在通过结构化的工作流提升交易决策质量。项目支持市场分析、技术图表、经济日历及筛选等功能，帮助投资者进行风险管理、交易规划和复盘。它适合长期持有者兼波段交易者，强调纪律性而非单纯依赖 AI 信号，旨在通过开源共享优化交易习惯。 |
+| 10 | [tailscale/tailcat](https://github.com/tailscale/tailcat) | like netcat, but over Tailscale's data plane, with... | Go | 9.5k | 256 | Tailcat 是一个基于 Tailscale 数据平面（magicsock 和 WireGuard）构建的类 netcat 工具。它无需 Tailscale 账户或管理员权限，通过 DERP 中继和 NAT 穿透建立端到端加密的点对点连接。支持 CLI 和库模式，适用于在两台机器间安全传输文件或文本，无需配置控制平面。 |
+| 11 | [Likely7/Veyra-NRVideo](https://github.com/Likely7/Veyra-NRVideo) | Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced ... | C++ | 1.6k | 256 | 这是一个基于 C++ 的 Windows 实时 GPU 视频增强工具，支持 PS5、Xbox 和 PC 流媒体。它集成了 AI 超分辨率、DLSS 5、降噪、HDR 和帧生成技术，能将本地视频、捕获卡信号转化为高画质体验，支持录制和实时预览。 |
+| 12 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 55.5k | 67 | 该项目为 AI 编码代理提供 Chrome 浏览器控制能力，作为 MCP 服务器和 CLI 工具使用。它利用 Puppeteer 实现可靠的自动化操作，支持高级调试（如网络分析、截图、控制台检查）以及性能分析（如录制追踪、CrUX 数据），帮助 AI 助手进行深度调试和自动化测试。 |
 
-[查看完整数据](api/github/2026-11-12.json)
+[查看完整数据](api/github/2026-11-13.json)
 <!-- END GITHUB TRENDING -->
 
 

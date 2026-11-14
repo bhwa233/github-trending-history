@@ -1,0 +1,267 @@
+{
+  "date": "2026-11-13",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 50707,
+      "forks": 3773,
+      "todayStars": 215,
+      "url": "https://github.com/alibaba/open-code-review",
+      "aiSummary": {
+        "summary": "阿里巴巴开源的 Go 语言 AI 代码审查工具，采用确定性管道与 LLM Agent 混合架构。具备高精度、低 Token 消耗的特点，内置多语言规则集，支持逐行精准审查，已在阿里大规模验证。",
+        "summary_en": "Alibaba's battle-tested AI code review tool using deterministic pipelines and LLM agents for high-precision analysis.",
+        "techStack": [
+          "Go",
+          "LLM (OpenAI/Anthropic)",
+          "Git"
+        ],
+        "useCase": "企业级自动化代码审查与 CI/CD 集成，适用于大规模代码库的安全审计与质量把控。",
+        "useCase_en": "Use this CLI tool to perform high-precision, line-level code reviews on Git diffs using LLM agents."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "language": "TypeScript",
+      "stars": 4945,
+      "forks": 273,
+      "todayStars": 1925,
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "aiSummary": {
+        "summary": "这是一个由 Chrome、Edge、Firefox 和 MDN 团队维护的项目，旨在通过嵌入 Web 平台专业知识、最佳实践和浏览器兼容性数据来更新编码代理。它提供 CLI 工具，帮助引导代理远离遗留模式，转向现代、高性能的 Web 解决方案，确保生成的代码符合当前标准。",
+        "summary_en": "Source repository for Modern Web Guidance, embedding web best practices into coding agents.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Web Standards"
+        ],
+        "useCase": "用于增强 AI 编码助手，使其生成符合现代 Web 标准且性能更优的代码。",
+        "useCase_en": "It provides coding agents with expert-curated web best practices and modern API guidance to improve code quality and per"
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript",
+      "stars": 13175,
+      "forks": 1026,
+      "todayStars": 751,
+      "url": "https://github.com/openai/codex-security",
+      "aiSummary": {
+        "summary": "OpenAI 推出的安全漏洞检测工具，提供 CLI、SDK 和 GitHub Action。支持深度扫描代码、验证发现、生成补丁及起草安全策略，并可与 Jira、Linear 等工具集成，实现 CI/CD 自动化安全检查。",
+        "summary_en": "OpenAI's CLI and SDK for automated security vulnerability scanning and fixing.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "Python"
+        ],
+        "useCase": "适用于需要自动化代码安全审计、漏洞修复及 CI/CD 集成的开发团队。",
+        "useCase_en": "Developers use this tool to scan code for vulnerabilities and generate patches automatically."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "stars": 71691,
+      "forks": 57316,
+      "todayStars": 256,
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "aiSummary": {
+        "summary": "这是一个基于 Python 和大语言模型的智能股票分析系统，支持 A股、港股、美股等多市场数据聚合。它能自动生成 AI 决策报告，并通过企业微信、飞书等渠道推送决策仪表盘，支持零成本定时运行，适合个人投资者进行自动化股票研究。",
+        "summary_en": "An AI-powered multi-market stock analysis system providing daily decision dashboards and automated notifications.",
+        "techStack": [
+          "Python",
+          "LLM (OpenAI/Claude/Gemini/DeepSeek)",
+          "Data Sources (AkShare/Tushare/YFinance)",
+          "FastAPI",
+          "Docker"
+        ],
+        "useCase": "适合个人投资者利用 AI 进行多市场股票的自动化研究、决策辅助及持仓管理。",
+        "useCase_en": "Automate stock analysis across global markets using LLMs and receive daily decision reports via messaging apps."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "language": "Ruby",
+      "stars": 14792,
+      "forks": 1125,
+      "todayStars": 925,
+      "url": "https://github.com/we-promise/sure",
+      "aiSummary": {
+        "summary": "这是一个基于 Maybe Finance 开源代码的社区维护型个人理财应用。支持自托管，提供全面的财富管理功能。兼容多平台（Web、桌面、移动端、API 及 LLM 代理），旨在让用户免费管理个人财务。",
+        "summary_en": "A community-maintained personal finance app forked from Maybe Finance, designed for self-hosting via Docker.",
+        "techStack": [
+          "Ruby",
+          "Docker"
+        ],
+        "useCase": "适合需要自托管、隐私保护的个人理财及财富管理需求。",
+        "useCase_en": "A self-hostable personal finance and wealth management application for individuals."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "stars": 10500,
+      "forks": 790,
+      "todayStars": 108,
+      "url": "https://github.com/backnotprop/plannotator",
+      "aiSummary": {
+        "summary": "Plannotator 是一个本地浏览器应用，旨在帮助开发者与 AI 编码代理保持同步。它提供了一个审查层，允许用户注释计划、规范、HTML 和代码差异，并将反馈直接发送回代理。支持 Claude、Copilot 等多种工具及 Git 仓库。",
+        "summary_en": "A local browser-based review surface for AI coding agents to annotate plans, review diffs, and send feedback.",
+        "techStack": [
+          "TypeScript",
+          "Web 技术"
+        ],
+        "useCase": "适用于多代理 AI 编码工作流，帮助开发者审查代码、注释计划并直接反馈给 AI 代理。",
+        "useCase_en": "Developers use this tool to review and annotate AI-generated code and plans before merging them into their projects."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "louislam/uptime-kuma",
+      "description": "A fancy self-hosted monitoring tool",
+      "language": "JavaScript",
+      "stars": 93890,
+      "forks": 8724,
+      "todayStars": 71,
+      "url": "https://github.com/louislam/uptime-kuma",
+      "aiSummary": {
+        "summary": "Uptime Kuma 是一款易于使用的自托管监控工具，支持 HTTP/TCP/Ping 等多种监控类型。它拥有响应迅速的 UI，支持 Telegram、Discord 等多种通知方式，并提供 2FA 安全认证。项目支持 Docker 部署，适合个人或团队用于监控网站和服务的可用性。",
+        "summary_en": "A self-hosted uptime monitoring tool featuring a reactive UI and support for various protocols and notifications.",
+        "techStack": [
+          "JavaScript",
+          "Docker",
+          "Node.js"
+        ],
+        "useCase": "适合个人或团队自托管，用于监控网站、API 及服务的可用性。",
+        "useCase_en": "Self-host a monitoring dashboard to track the availability of websites, servers, and applications."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "stars": 37315,
+      "forks": 4942,
+      "todayStars": 97,
+      "url": "https://github.com/block/buzz",
+      "aiSummary": {
+        "summary": "Buzz 是一个基于 Rust 的自我托管工作区，采用 Nostr 协议，允许人类和 AI 代理在同一房间协作。它将所有交互（包括代码审查、Git 事件和工作流）记录为事件日志。代理拥有独立的密钥和权限，可以执行代码审查、发送补丁和运行工作流，提供类似人类队友的协作体验。",
+        "summary_en": "A self-hostable Nostr relay workspace enabling human and AI agent collaboration.",
+        "techStack": [
+          "Rust",
+          "Nostr",
+          "Git"
+        ],
+        "useCase": "专为需要 AI 代理参与代码审查、补丁管理和自动化工作流的开发团队设计。",
+        "useCase_en": "A self-hostable workspace for human and AI agents to collaborate on code and projects."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "tradermonty/claude-trading-skills",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "language": "Python",
+      "stars": 4216,
+      "forks": 873,
+      "todayStars": 69,
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "aiSummary": {
+        "summary": "这是一个面向个人投资者的 Claude 技能工具包，旨在通过结构化的工作流提升交易决策质量。项目支持市场分析、技术图表、经济日历及筛选等功能，帮助投资者进行风险管理、交易规划和复盘。它适合长期持有者兼波段交易者，强调纪律性而非单纯依赖 AI 信号，旨在通过开源共享优化交易习惯。",
+        "summary_en": "A Claude Skills-based toolkit for structuring trading workflows, risk management, and market analysis for individual investors.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "Trading Strategy"
+        ],
+        "useCase": "面向时间受限的个人投资者，用于长期投资结合波段交易的结构化工作流和决策辅助。",
+        "useCase_en": "To help time-constrained investors structure market review, risk management, and trade planning using AI assistance."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "stars": 9496,
+      "forks": 433,
+      "todayStars": 256,
+      "url": "https://github.com/tailscale/tailcat",
+      "aiSummary": {
+        "summary": "Tailcat 是一个基于 Tailscale 数据平面（magicsock 和 WireGuard）构建的类 netcat 工具。它无需 Tailscale 账户或管理员权限，通过 DERP 中继和 NAT 穿透建立端到端加密的点对点连接。支持 CLI 和库模式，适用于在两台机器间安全传输文件或文本，无需配置控制平面。",
+        "summary_en": "A netcat-like tool built on Tailscale's data plane for encrypted communication without control plane overhead.",
+        "techStack": [
+          "Go",
+          "WireGuard",
+          "DERP"
+        ],
+        "useCase": "适用于在无需 Tailscale 账户或管理员权限的情况下，在两台机器间建立加密的 P2P 连接，用于文件传输或文本聊天。",
+        "useCase_en": "Enables direct, encrypted point-to-point communication between machines without requiring a Tailscale control plane or a"
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "Likely7/Veyra-NRVideo",
+      "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
+      "language": "C++",
+      "stars": 1647,
+      "forks": 73,
+      "todayStars": 256,
+      "url": "https://github.com/Likely7/Veyra-NRVideo",
+      "aiSummary": {
+        "summary": "这是一个基于 C++ 的 Windows 实时 GPU 视频增强工具，支持 PS5、Xbox 和 PC 流媒体。它集成了 AI 超分辨率、DLSS 5、降噪、HDR 和帧生成技术，能将本地视频、捕获卡信号转化为高画质体验，支持录制和实时预览。",
+        "summary_en": "A Windows-based video enhancement tool using AI and DLSS 5 to upscale and generate frames for gaming and streaming.",
+        "techStack": [
+          "C++",
+          "DirectX 12",
+          "Windows 11",
+          "NVIDIA & AMD"
+        ],
+        "useCase": "专为提升 PS5/Xbox/PC 游戏流媒体画质及本地视频播放体验设计。",
+        "useCase_en": "Enhance local video, capture card feeds, and game streams with AI-powered upscaling and frame generation."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 55507,
+      "forks": 4607,
+      "todayStars": 67,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "该项目为 AI 编码代理提供 Chrome 浏览器控制能力，作为 MCP 服务器和 CLI 工具使用。它利用 Puppeteer 实现可靠的自动化操作，支持高级调试（如网络分析、截图、控制台检查）以及性能分析（如录制追踪、CrUX 数据），帮助 AI 助手进行深度调试和自动化测试。",
+        "summary_en": "Model-Context-Protocol server allowing coding agents to control and inspect Chrome for automation and debugging.",
+        "techStack": [
+          "TypeScript",
+          "Puppeteer",
+          "Model-Context-Protocol (MCP)"
+        ],
+        "useCase": "适用于 AI 编码助手进行浏览器自动化测试、深度调试及性能分析的场景。",
+        "useCase_en": "Enable AI coding assistants to automate browser actions and debug web applications."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-11-14T03:02:11.469Z",
+    "duration": "300s",
+    "version": "1.0.0"
+  }
+}
