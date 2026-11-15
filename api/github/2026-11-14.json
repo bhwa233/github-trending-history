@@ -1,0 +1,335 @@
+{
+  "date": "2026-11-14",
+  "since": "daily",
+  "totalRepos": 15,
+  "successCount": 15,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "stars": 11187,
+      "forks": 928,
+      "todayStars": 408,
+      "url": "https://github.com/backnotprop/plannotator",
+      "aiSummary": {
+        "summary": "Plannotator 是一个本地浏览器应用，为 AI 编码代理提供代码审查与反馈层。它支持 Claude、Copilot 等多种主流代理，允许用户注释计划、PR 和 HTML 文件，并将反馈直接发送回代理以进行迭代改进。",
+        "summary_en": "A local browser-based review surface for AI coding agents to annotate plans, specs, and code.",
+        "techStack": [
+          "TypeScript",
+          "Local Browser",
+          "Git Integration"
+        ],
+        "useCase": "AI 编码代理的代码审查、计划注释及多代理工作流同步。",
+        "useCase_en": "A workspace to review, annotate, and send feedback to AI coding agents during development."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "language": "TypeScript",
+      "stars": 6124,
+      "forks": 410,
+      "todayStars": 1231,
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "aiSummary": {
+        "summary": "这是一个由 Chrome、Edge、Firefox 和 MDN 团队维护的项目，旨在通过技能和 CLI 工具将现代 Web 最佳实践、浏览器兼容性数据直接嵌入到编码代理中。它帮助 AI 模型避免使用遗留模式，转而使用高性能的原生 Web 平台 API，从而生成更优的代码。",
+        "summary_en": "A set of skills embedding web platform expertise and best practices into coding agents to ensure modern, performant code.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "提升 AI 编码代理生成现代化、高性能 Web 代码的能力",
+        "useCase_en": "To guide coding agents toward modern web platform solutions instead of legacy patterns."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "tradermonty/claude-trading-skills",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "language": "Python",
+      "stars": 4867,
+      "forks": 995,
+      "todayStars": 553,
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "aiSummary": {
+        "summary": "这是一个为时间有限的个人投资者设计的 Claude Skills 工作流工具包，旨在通过 AI 辅助市场分析、技术图表和选股，帮助用户构建更严谨的交易决策流程。它支持长期投资与波段交易结合，专注于风险管理、交易规划及持续改进，非信号服务。",
+        "summary_en": "A Python toolkit for investors to use Claude AI for structured trading workflows and analysis.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "适用于时间有限的个人投资者，特别是长期投资者和ETF投资者，用于辅助市场分析、风险管理及交易策略开发。",
+        "useCase_en": "To help time-constrained investors structure market review, risk management, and trade planning using AI."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 56342,
+      "forks": 4760,
+      "todayStars": 664,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供 Chrome DevTools 访问权限的 MCP 服务器。它允许代理控制和检查实时 Chrome 浏览器，支持性能分析、网络调试、截图和控制台检查。通过 Puppeteer 实现可靠的自动化，帮助 AI 进行深度调试和性能优化。",
+        "summary_en": "An MCP server enabling AI coding agents to control and debug Chrome browsers for automation and performance analysis.",
+        "techStack": [
+          "TypeScript",
+          "Puppeteer",
+          "MCP (Model-Context-Protocol)",
+          "Chrome DevTools API"
+        ],
+        "useCase": "用于 AI 编码代理进行浏览器自动化、深度调试及性能分析。",
+        "useCase_en": "To provide AI coding assistants with direct access to Chrome DevTools for reliable automation and debugging."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 51475,
+      "forks": 3911,
+      "todayStars": 893,
+      "url": "https://github.com/alibaba/open-code-review",
+      "aiSummary": {
+        "summary": "阿里巴巴开源的 AI 代码审查 CLI 工具，源自内部实战验证。采用混合架构，结合确定性管道与 LLM Agent，支持多语言规则（如 NPE、SQL 注入）及精确的逐行注释。相比通用 Agent，Token 消耗更低，F1 指标更高，适合大规模团队提升代码质量。",
+        "summary_en": "Alibaba's battle-tested AI code review CLI tool featuring high precision and efficient LLM integration.",
+        "techStack": [
+          "Go",
+          "LLM",
+          "CLI"
+        ],
+        "useCase": "适用于需要自动化代码审查、提升代码质量及安全性的团队，特别是大规模代码库的 CI/CD 流程。",
+        "useCase_en": "To perform automated, high-precision code reviews on Git diffs using AI agents."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "language": "TypeScript",
+      "stars": 30371,
+      "forks": 3503,
+      "todayStars": 64,
+      "url": "https://github.com/QwenLM/qwen-code",
+      "aiSummary": {
+        "summary": "Qwen Code 是一个开源的 AI 编码代理，运行在终端中。它具备自动记忆、技能和子代理等开箱即用的能力，支持 OpenAI、Anthropic、Gemini、Qwen 等多协议及本地模型。除了终端，还提供 IDE 插件、桌面应用和 Web UI 等多种界面，旨在提供无供应商锁定的灵活开发体验。",
+        "summary_en": "Open-source AI coding agent running in the terminal with multi-model support.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "OpenAI",
+          "Anthropic",
+          "Gemini"
+        ],
+        "useCase": "适用于需要在终端或 IDE 中进行代码编写、调试、审查及自动化测试的开发者。",
+        "useCase_en": "Automate coding tasks and manage repositories directly from the terminal."
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "dream-num/univer",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "language": "TypeScript",
+      "stars": 24530,
+      "forks": 2228,
+      "todayStars": 495,
+      "url": "https://github.com/dream-num/univer",
+      "aiSummary": {
+        "summary": "Univer 是一个基于 TypeScript 的开源 Office SDK，旨在帮助开发者在自有产品中构建类似 Office 的应用。它提供电子表格、文档、演示文稿等编辑、计算、协作及文件处理能力。SDK 分为 Web、Server 和 AI 三部分，支持高度扩展，可连接应用与 AI 代理。",
+        "summary_en": "An open-source Office SDK for building spreadsheets, documents, and presentations with editing and AI integration.",
+        "techStack": [
+          "TypeScript",
+          "Web SDK",
+          "Server SDK",
+          "AI SDK"
+        ],
+        "useCase": "适用于需要在自有产品中集成文档编辑、表格计算及实时协作功能的开发者，或构建 AI 办公自动化应用的企业。",
+        "useCase_en": "Build custom office applications or integrate AI agents with spreadsheet and document editing capabilities."
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "ag-ui-protocol/ag-ui",
+      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "language": "TypeScript",
+      "stars": 17393,
+      "forks": 1667,
+      "todayStars": 9,
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "aiSummary": {
+        "summary": "AG-UI 是一个开源的轻量级基于事件的协议，旨在标准化 AI 代理与用户界面之间的交互。它支持实时流式聊天、双向状态同步和上下文丰富，提供灵活的中间件层以适应多种传输方式。该协议简化了代理在面向用户应用中的集成，促进人机协作。",
+        "summary_en": "AG-UI is an open protocol that standardizes how AI agents connect to and interact with user-facing frontend applications.",
+        "techStack": [
+          "TypeScript",
+          "Event-driven",
+          "SSE/WebSockets"
+        ],
+        "useCase": "构建集成 AI 代理的实时用户界面应用，实现流式对话与双向状态同步。",
+        "useCase_en": "It enables seamless integration between AI agents, real-time user context, and user interfaces in frontend applications."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "ashhart/TensorFold",
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "language": "Zig",
+      "stars": 2175,
+      "forks": 499,
+      "todayStars": 37,
+      "url": "https://github.com/ashhart/TensorFold",
+      "aiSummary": {
+        "summary": "TensorFold 是一个用 Zig 编写的 LLM 推理引擎，支持 Apple Silicon 和 NVIDIA GPU。它直接运行 Metal 和 CUDA 内核，无需 Python 或 MLX 环境，旨在提供高效的模型服务。",
+        "summary_en": "A high-performance LLM inference engine written in Zig for Apple Silicon and NVIDIA GPUs.",
+        "techStack": [
+          "Zig",
+          "Metal",
+          "CUDA",
+          "Vulkan"
+        ],
+        "useCase": "在 Apple Silicon 和 NVIDIA GPU 上直接部署和运行大语言模型（LLM）。",
+        "useCase_en": "Serve language models from a Zig binary on Apple Silicon and NVIDIA GPUs."
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "language": "Go",
+      "stars": 120099,
+      "forks": 7001,
+      "todayStars": 227,
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "aiSummary": {
+        "summary": "Caveman 是一个 Go 语言编写的 AI 编码代理优化工具，通过使用简化的“穴居人”语言大幅减少 token 消耗（最高 65%），从而降低成本。它支持多种压缩命令，在保持代码准确性的同时，已被 Adobe Research 和 JetBrains 等机构验证。",
+        "summary_en": "Go-based proxy that reduces AI coding agent token usage by 65% using a 'caveman' style.",
+        "techStack": [
+          "Go"
+        ],
+        "useCase": "降低 AI 编码代理的 token 消耗和成本",
+        "useCase_en": "To optimize AI coding agents by reducing token usage and costs through output compression."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "louislam/uptime-kuma",
+      "description": "A fancy self-hosted monitoring tool",
+      "language": "JavaScript",
+      "stars": 94265,
+      "forks": 8818,
+      "todayStars": 430,
+      "url": "https://github.com/louislam/uptime-kuma",
+      "aiSummary": {
+        "summary": "Uptime Kuma 是一款功能丰富的自托管监控工具，支持 HTTP/TCP/Ping 等多种协议。它具备响应迅速的 UI，支持 90+ 种通知渠道（如 Telegram、Slack），并提供 Docker 和 Node.js 部署方案，适合用于监控服务器健康状态和服务可用性。",
+        "summary_en": "A self-hosted monitoring tool that checks uptime for various services like HTTP, TCP, and DNS, featuring a reactive UI and Docker support.",
+        "techStack": [
+          "JavaScript",
+          "Node.js",
+          "Docker"
+        ],
+        "useCase": "适用于个人或团队自托管监控服务器和服务的可用性，提供实时状态和通知。",
+        "useCase_en": "To monitor the uptime of websites, servers, and applications via self-hosted infrastructure."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "language": "Ruby",
+      "stars": 15350,
+      "forks": 1272,
+      "todayStars": 659,
+      "url": "https://github.com/we-promise/sure",
+      "aiSummary": {
+        "summary": "这是一个由社区维护的个人理财应用，原项目为 Maybe Finance。它支持自托管，功能涵盖财富管理和理财规划。支持多平台访问（Web、桌面、移动端、API 和 LLM 代理）。采用 AGPLv3 许可证，旨在让用户免费使用并持续维护代码库。",
+        "summary_en": "A self-hostable personal finance and wealth management application built with Ruby.",
+        "techStack": [
+          "Ruby",
+          "Docker",
+          "Web",
+          "API",
+          "LLM"
+        ],
+        "useCase": "适合希望自托管个人财务数据并进行财富管理的个人或团队。",
+        "useCase_en": "Manage personal finances and wealth via a self-hosted application accessible from web, desktop, and mobile clients."
+      }
+    },
+    {
+      "index": 12,
+      "fullName": "Tencent/LoopForge",
+      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "language": "Go",
+      "stars": 939,
+      "forks": 217,
+      "todayStars": 33,
+      "url": "https://github.com/Tencent/LoopForge",
+      "aiSummary": {
+        "summary": "LoopForge 是一个自托管的编码代理工作空间，旨在通过编排 CodeBuddy、Codex 和 Claude Code 等代理来交付软件。它支持通过聊天或 SOP（标准作业程序）进行工作，利用 Docker 沙箱和人工审批流程。该工具允许用户在自有基础设施上管理代理，跟踪需求，并生成 PR 或直接合并代码，非常适合需要标准化和人工监督的团队。",
+        "summary_en": "Self-hosted Go tool that orchestrates coding agents like Claude Code and Codex using Docker sandboxes and SOPs for automated software delivery.",
+        "techStack": [
+          "Go",
+          "Docker",
+          "Coding Agent CLIs (CodeBuddy, Codex, Claude Code, etc.)"
+        ],
+        "useCase": "软件交付与编码代理的标准化工作流编排",
+        "useCase_en": "Automate software delivery by orchestrating multiple AI coding agents within a self-hosted Docker environment with human"
+      }
+    },
+    {
+      "index": 13,
+      "fullName": "Likely7/Veyra-NRVideo",
+      "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
+      "language": "C++",
+      "stars": 2320,
+      "forks": 181,
+      "todayStars": 420,
+      "url": "https://github.com/Likely7/Veyra-NRVideo",
+      "aiSummary": {
+        "summary": "这是一个基于 C++ 的 Windows 实时 GPU 视频增强工具，利用 AI 超分辨率、DLSS 5 和帧生成技术，将本地视频、采集卡及游戏流媒体画面提升至 120FPS，提供极致视觉体验。",
+        "summary_en": "A Windows video enhancement tool combining AI Super Resolution and DLSS5 for real-time capture.",
+        "techStack": [
+          "C++",
+          "DirectX 12",
+          "NVIDIA DLSS 5",
+          "AI Super Resolution",
+          "Windows 11"
+        ],
+        "useCase": "适用于游戏玩家及内容创作者，用于提升游戏画质、录制高帧率视频或优化直播画面。",
+        "useCase_en": "Enhance local video and game streaming sources with AI-powered upscaling and frame generation."
+      }
+    },
+    {
+      "index": 14,
+      "fullName": "martin-olivier/airgorah",
+      "description": "A WiFi security auditing software",
+      "language": "Rust",
+      "stars": 5910,
+      "forks": 1026,
+      "todayStars": 270,
+      "url": "https://github.com/martin-olivier/airgorah",
+      "aiSummary": {
+        "summary": "Airgorah 是一款基于 Rust 开发的 Linux WiFi 安全审计工具。它支持捕获流量、发现客户端、执行去认证攻击、抓取握手包及 PMKID，并具备密码破解能力。软件通过 GTK4 提供图形界面，利用 polkit 安全处理权限，仅限用于授权测试。",
+        "summary_en": "Rust-based WiFi auditing software for capturing traffic, cracking passwords, and discovering clients.",
+        "techStack": [
+          "Rust",
+          "GTK4",
+          "Linux",
+          "Polkit"
+        ],
+        "useCase": "适用于授权范围内的 WiFi 网络安全审计与渗透测试。",
+        "useCase_en": "To perform security auditing on WiFi networks by capturing handshakes and cracking passwords."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-11-15T02:35:01.244Z",
+    "duration": "400s",
+    "version": "1.0.0"
+  }
+}
