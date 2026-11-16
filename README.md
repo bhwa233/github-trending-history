@@ -70,27 +70,24 @@ MIT
 <!-- BEGIN GITHUB TRENDING -->
 ## 📊 GitHub Trending
 
-**最后更新**: 2026-11-14 | **成功**: 15 | **失败**: 0
+**最后更新**: 2026-11-15 | **成功**: 12 | **失败**: 0
 
 | # | 仓库 | 描述 | 语言 | Stars | 今日新增 | AI 总结 |
 |---|------|------|------|-------|----------|---------|
-| 1 | [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | The workspace to stay in the loop and on top of ag... | TypeScript | 11.2k | 408 | Plannotator 是一个本地浏览器应用，为 AI 编码代理提供代码审查与反馈层。它支持 Claude、Copilot 等多种主流代理，允许用户注释计划、PR 和 HTML 文件，并将反馈直接发送回代理以进行迭代改进。 |
-| 2 | [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Keep your coding agent up to date with the latest ... | TypeScript | 6.1k | 1.2k | 这是一个由 Chrome、Edge、Firefox 和 MDN 团队维护的项目，旨在通过技能和 CLI 工具将现代 Web 最佳实践、浏览器兼容性数据直接嵌入到编码代理中。它帮助 AI 模型避免使用遗留模式，转而使用高性能的原生 Web 平台 API，从而生成更优的代码。 |
-| 3 | [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) | Claude Code skills for equity investors and trader... | Python | 4.9k | 553 | 这是一个为时间有限的个人投资者设计的 Claude Skills 工作流工具包，旨在通过 AI 辅助市场分析、技术图表和选股，帮助用户构建更严谨的交易决策流程。它支持长期投资与波段交易结合，专注于风险管理、交易规划及持续改进，非信号服务。 |
-| 4 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 56.3k | 664 | 这是一个为 AI 编码代理提供 Chrome DevTools 访问权限的 MCP 服务器。它允许代理控制和检查实时 Chrome 浏览器，支持性能分析、网络调试、截图和控制台检查。通过 Puppeteer 实现可靠的自动化，帮助 AI 进行深度调试和性能优化。 |
-| 5 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Secure, fast, efficient, battle-tested at Alibaba'... | Go | 51.5k | 893 | 阿里巴巴开源的 AI 代码审查 CLI 工具，源自内部实战验证。采用混合架构，结合确定性管道与 LLM Agent，支持多语言规则（如 NPE、SQL 注入）及精确的逐行注释。相比通用 Agent，Token 消耗更低，F1 指标更高，适合大规模团队提升代码质量。 |
-| 6 | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | An open-source AI coding agent that lives in your ... | TypeScript | 30.4k | 64 | Qwen Code 是一个开源的 AI 编码代理，运行在终端中。它具备自动记忆、技能和子代理等开箱即用的能力，支持 OpenAI、Anthropic、Gemini、Qwen 等多协议及本地模型。除了终端，还提供 IDE 插件、桌面应用和 Web UI 等多种界面，旨在提供无供应商锁定的灵活开发体验。 |
-| 7 | [dream-num/univer](https://github.com/dream-num/univer) | Build your own AI office with Univer Office SDK. B... | TypeScript | 24.5k | 495 | Univer 是一个基于 TypeScript 的开源 Office SDK，旨在帮助开发者在自有产品中构建类似 Office 的应用。它提供电子表格、文档、演示文稿等编辑、计算、协作及文件处理能力。SDK 分为 Web、Server 和 AI 三部分，支持高度扩展，可连接应用与 AI 代理。 |
-| 8 | [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring ... | TypeScript | 17.4k | 9 | AG-UI 是一个开源的轻量级基于事件的协议，旨在标准化 AI 代理与用户界面之间的交互。它支持实时流式聊天、双向状态同步和上下文丰富，提供灵活的中间件层以适应多种传输方式。该协议简化了代理在面向用户应用中的集成，促进人机协作。 |
-| 9 | [ashhart/TensorFold](https://github.com/ashhart/TensorFold) | LLM Inference Engine for Metal, CUDA and Vulkan.... | Zig | 2.2k | 37 | TensorFold 是一个用 Zig 编写的 LLM 推理引擎，支持 Apple Silicon 和 NVIDIA GPU。它直接运行 Metal 和 CUDA 内核，无需 Python 或 MLX 环境，旨在提供高效的模型服务。 |
-| 10 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 🪨 why use many token when few token do trick. Vir... | Go | 120.1k | 227 | Caveman 是一个 Go 语言编写的 AI 编码代理优化工具，通过使用简化的“穴居人”语言大幅减少 token 消耗（最高 65%），从而降低成本。它支持多种压缩命令，在保持代码准确性的同时，已被 Adobe Research 和 JetBrains 等机构验证。 |
-| 11 | [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | A fancy self-hosted monitoring tool... | JavaScript | 94.3k | 430 | Uptime Kuma 是一款功能丰富的自托管监控工具，支持 HTTP/TCP/Ping 等多种协议。它具备响应迅速的 UI，支持 90+ 种通知渠道（如 Telegram、Slack），并提供 Docker 和 Node.js 部署方案，适合用于监控服务器健康状态和服务可用性。 |
-| 12 | [we-promise/sure](https://github.com/we-promise/sure) | The personal finance app for everyone (by everyone... | Ruby | 15.3k | 659 | 这是一个由社区维护的个人理财应用，原项目为 Maybe Finance。它支持自托管，功能涵盖财富管理和理财规划。支持多平台访问（Web、桌面、移动端、API 和 LLM 代理）。采用 AGPLv3 许可证，旨在让用户免费使用并持续维护代码库。 |
-| 13 | [Tencent/LoopForge](https://github.com/Tencent/LoopForge) | Self-hosted workflows for coding-agent delivery. O... | Go | 939 | 33 | LoopForge 是一个自托管的编码代理工作空间，旨在通过编排 CodeBuddy、Codex 和 Claude Code 等代理来交付软件。它支持通过聊天或 SOP（标准作业程序）进行工作，利用 Docker 沙箱和人工审批流程。该工具允许用户在自有基础设施上管理代理，跟踪需求，并生成 PR 或直接合并代码，非常适合需要标准化和人工监督的团队。 |
-| 14 | [Likely7/Veyra-NRVideo](https://github.com/Likely7/Veyra-NRVideo) | Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced ... | C++ | 2.3k | 420 | 这是一个基于 C++ 的 Windows 实时 GPU 视频增强工具，利用 AI 超分辨率、DLSS 5 和帧生成技术，将本地视频、采集卡及游戏流媒体画面提升至 120FPS，提供极致视觉体验。 |
-| 15 | [martin-olivier/airgorah](https://github.com/martin-olivier/airgorah) | A WiFi security auditing software... | Rust | 5.9k | 270 | Airgorah 是一款基于 Rust 开发的 Linux WiFi 安全审计工具。它支持捕获流量、发现客户端、执行去认证攻击、抓取握手包及 PMKID，并具备密码破解能力。软件通过 GTK4 提供图形界面，利用 polkit 安全处理权限，仅限用于授权测试。 |
+| 1 | [dream-num/univer](https://github.com/dream-num/univer) | Build your own AI office with Univer Office SDK. B... | TypeScript | 26.3k | 988 | Univer 是一个开源的 Office SDK，基于 TypeScript 构建。它提供电子表格、文档、演示文稿等全场景编辑、计算与协作能力。开发者可利用其可扩展核心，将办公功能集成到自有产品中，并支持 AI 代理接入。包含 Web、Server 及 AI SDK 三大组件。 |
+| 2 | [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI: the Agent-User Interaction Protocol. Bring ... | TypeScript | 18.0k | 355 | AG-UI 是一个开源、轻量级的事件协议，旨在标准化 AI 代理与前端应用之间的交互。它支持实时流式聊天、双向状态同步及上下文丰富，兼容多种传输方式，帮助开发者快速将智能代理集成到用户界面中。 |
+| 3 | [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) | A library of Agent Skills designed to work with th... | TypeScript | 9.4k | 247 | 这是一个为 Google Stitch 设计的 Agent Skills 库，遵循 Agent Skills 开放标准。它包含设计、构建和实用工具三类技能，旨在提升 Claude Code、Cursor、Codex 等编码代理的能力，提供从设计到构建的完整工作流支持。 |
+| 4 | [backnotprop/plannotator](https://github.com/backnotprop/plannotator) | The workspace to stay in the loop and on top of ag... | TypeScript | 11.9k | 866 | Plannotator 是一个基于 TypeScript 的本地浏览器工作区，旨在帮助用户与 AI 编码代理保持同步。它提供“收件箱”表面，用于审查决策、计划和代码。用户可注释文档、审查 PR 并将反馈直接发送回代理。支持 Claude、Copilot 等多种主流 AI 编码工具。 |
+| 5 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Chrome DevTools for coding agents... | TypeScript | 57.0k | 717 | 这是一个为 AI 编码代理提供的 Chrome DevTools MCP 服务器和 CLI。它允许代理控制实时浏览器，进行性能分析、网络调试和自动化操作。支持 Claude、Cursor 等工具，利用 Puppeteer 实现可靠的自动化和深度调试。 |
+| 6 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | Secure, fast, efficient, battle-tested at Alibaba'... | Go | 52.2k | 691 | OpenCodeReview 是阿里巴巴开源的 AI 代码审查 CLI 工具。采用确定性管道与 LLM Agent 混合架构，支持多语言规则集（如 NPE、SQL 注入），能精准生成逐行评论。相比通用 Agent，其在相同模型下精度更高、Token 消耗更少。基于大规模真实数据集构建，专为高精度代码审查设计。 |
+| 7 | [Tencent/LoopForge](https://github.com/Tencent/LoopForge) | Self-hosted workflows for coding-agent delivery. O... | Go | 1.6k | 423 | LoopForge 是腾讯开源的自托管工作流平台，用于编排 AI 编码助手。它支持通过聊天或 SOP（标准作业程序）管理 CodeBuddy、Codex 等多个代理，提供 Docker 沙箱环境，允许团队在本地基础设施上安全地执行代码生成、审查和合并，实现可重复的软件交付流程。 |
+| 8 | [ggml-org/ggml](https://github.com/ggml-org/ggml) | Tensor library for machine learning... | C++ | 15.9k | 43 | 这是一个用于机器学习的张量库，旨在提供简单、可移植且高效的计算核心。它支持多种架构和后端，具备SIMD优化及2-8位整数量化能力，且运行时零内存分配，非常适合在资源受限环境下进行模型推理。 |
+| 9 | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | A Claude Code skill bundle for bug hunting and ext... | Python | 6.5k | 98 | 这是一个专为 Claude Code 设计的漏洞挖掘与红队操作技能包，包含83个技能、15个命令及681个漏洞模式。通过四层架构（思考、猎取Web应用、击穿边界、交付）实现自动化漏洞检测、企业平台攻击链构建及报告撰写，支持Burp MCP集成。 |
+| 10 | [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | Keep your coding agent up to date with the latest ... | TypeScript | 7.3k | 1.2k | 该项目旨在将现代 Web 平台的最佳实践和浏览器兼容性数据嵌入到 AI 编码代理中。通过 CLI 工具提供专家级指南，帮助模型避免遗留模式，转而采用高性能的原生 API，从而提升代码质量和性能。 |
+| 11 | [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills) | Claude Code skills for equity investors and trader... | Python | 5.6k | 706 | 这是一个面向个人投资者的 Claude Skills 交易工作流工具包，主要使用 Python 开发。它旨在帮助时间受限的投资者构建更好的决策过程，包括市场分析、技术图表、经济日历和选股器等功能。项目强调纪律性波段交易作为长期投资的辅助策略，旨在通过共享工作流和习惯来改进交易决策，而非提供直接的买卖信号或盈利承诺。 |
+| 12 | [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) | Multi-tier framework for evaluating AI agent skill... | Python | 1.8k | 122 | NVIDIA 开发的多层级 AI 代理技能评估框架。它通过质量门控、语义重叠检测和合成数据生成，评估 AI 代理技能对任务结果的影响。支持 CI/CD 集成，无需 LLM 即可进行静态质量检查，也可结合模型进行评分，适用于 Claude Code、Codex 等技能感知代理的验证。 |
 
-[查看完整数据](api/github/2026-11-14.json)
+[查看完整数据](api/github/2026-11-15.json)
 <!-- END GITHUB TRENDING -->
 
 

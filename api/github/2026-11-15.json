@@ -1,0 +1,262 @@
+{
+  "date": "2026-11-15",
+  "since": "daily",
+  "totalRepos": 12,
+  "successCount": 12,
+  "failedCount": 0,
+  "repos": [
+    {
+      "index": 0,
+      "fullName": "dream-num/univer",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "language": "TypeScript",
+      "stars": 26251,
+      "forks": 2367,
+      "todayStars": 988,
+      "url": "https://github.com/dream-num/univer",
+      "aiSummary": {
+        "summary": "Univer 是一个开源的 Office SDK，基于 TypeScript 构建。它提供电子表格、文档、演示文稿等全场景编辑、计算与协作能力。开发者可利用其可扩展核心，将办公功能集成到自有产品中，并支持 AI 代理接入。包含 Web、Server 及 AI SDK 三大组件。",
+        "summary_en": "An open-source Office SDK for building spreadsheets, documents, and presentations with AI integration.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "构建自定义办公应用、集成 AI 办公功能或开发协作型 SaaS 产品。",
+        "useCase_en": "Embed and extend spreadsheet, document, and presentation editing capabilities into your own applications or AI agents."
+      }
+    },
+    {
+      "index": 1,
+      "fullName": "ag-ui-protocol/ag-ui",
+      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "language": "TypeScript",
+      "stars": 17967,
+      "forks": 1823,
+      "todayStars": 355,
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "aiSummary": {
+        "summary": "AG-UI 是一个开源、轻量级的事件协议，旨在标准化 AI 代理与前端应用之间的交互。它支持实时流式聊天、双向状态同步及上下文丰富，兼容多种传输方式，帮助开发者快速将智能代理集成到用户界面中。",
+        "summary_en": "AG-UI is an open, lightweight protocol standardizing AI agent interactions within user-facing applications.",
+        "techStack": [
+          "TypeScript",
+          "Event-based Protocol (SSE/WebSockets)",
+          "Middleware"
+        ],
+        "useCase": "将 AI 代理无缝集成到前端应用，实现实时人机交互与生成式 UI。",
+        "useCase_en": "It standardizes how AI agents connect to user-facing applications for real-time interaction."
+      }
+    },
+    {
+      "index": 2,
+      "fullName": "google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "stars": 9357,
+      "forks": 1130,
+      "todayStars": 247,
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "aiSummary": {
+        "summary": "这是一个为 Google Stitch 设计的 Agent Skills 库，遵循 Agent Skills 开放标准。它包含设计、构建和实用工具三类技能，旨在提升 Claude Code、Cursor、Codex 等编码代理的能力，提供从设计到构建的完整工作流支持。",
+        "summary_en": "A TypeScript library of Agent Skills for the Stitch MCP server compatible with coding agents.",
+        "techStack": [
+          "TypeScript"
+        ],
+        "useCase": "为 Claude Code、Cursor 等编码代理提供设计、构建和实用工具技能，辅助 AI 完成更复杂的软件开发任务。",
+        "useCase_en": "To provide a collection of skills for coding agents to interact with the Stitch MCP server."
+      }
+    },
+    {
+      "index": 3,
+      "fullName": "backnotprop/plannotator",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "language": "TypeScript",
+      "stars": 11916,
+      "forks": 1086,
+      "todayStars": 866,
+      "url": "https://github.com/backnotprop/plannotator",
+      "aiSummary": {
+        "summary": "Plannotator 是一个基于 TypeScript 的本地浏览器工作区，旨在帮助用户与 AI 编码代理保持同步。它提供“收件箱”表面，用于审查决策、计划和代码。用户可注释文档、审查 PR 并将反馈直接发送回代理。支持 Claude、Copilot 等多种主流 AI 编码工具。",
+        "summary_en": "Local browser-based review surface for AI coding agents to annotate plans, review diffs, and send feedback.",
+        "techStack": [
+          "TypeScript",
+          "浏览器",
+          "Git"
+        ],
+        "useCase": "适用于需要深度参与 AI 多代理协作开发、审查代码变更及反馈的团队或个人开发者。",
+        "useCase_en": "To provide a review layer for AI coding agents to annotate plans, review diffs, and send feedback."
+      }
+    },
+    {
+      "index": 4,
+      "fullName": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars": 57038,
+      "forks": 4813,
+      "todayStars": 717,
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "aiSummary": {
+        "summary": "这是一个为 AI 编码代理提供的 Chrome DevTools MCP 服务器和 CLI。它允许代理控制实时浏览器，进行性能分析、网络调试和自动化操作。支持 Claude、Cursor 等工具，利用 Puppeteer 实现可靠的自动化和深度调试。",
+        "summary_en": "An MCP server and CLI enabling AI coding agents to control and inspect a live Chrome browser for debugging and automation.",
+        "techStack": [
+          "TypeScript",
+          "Puppeteer",
+          "MCP (Model-Context-Protocol)"
+        ],
+        "useCase": "为 AI 编码助手提供浏览器控制能力，用于自动化测试和性能分析。",
+        "useCase_en": "Allows AI coding agents to automate browser actions and perform in-depth debugging of web applications."
+      }
+    },
+    {
+      "index": 5,
+      "fullName": "alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "stars": 52193,
+      "forks": 4121,
+      "todayStars": 691,
+      "url": "https://github.com/alibaba/open-code-review",
+      "aiSummary": {
+        "summary": "OpenCodeReview 是阿里巴巴开源的 AI 代码审查 CLI 工具。采用确定性管道与 LLM Agent 混合架构，支持多语言规则集（如 NPE、SQL 注入），能精准生成逐行评论。相比通用 Agent，其在相同模型下精度更高、Token 消耗更少。基于大规模真实数据集构建，专为高精度代码审查设计。",
+        "summary_en": "Alibaba's battle-tested AI code review tool using deterministic pipelines and LLM agents for precise, fast, and efficient code analysis.",
+        "techStack": [
+          "Go",
+          "LLM (OpenAI/Anthropic Compatible)",
+          "Git"
+        ],
+        "useCase": "企业级代码质量保障，特别是需要高精度、低误报的自动化代码审查。",
+        "useCase_en": "Automate code review processes to identify defects and security vulnerabilities with high precision using an LLM-powered"
+      }
+    },
+    {
+      "index": 6,
+      "fullName": "Tencent/LoopForge",
+      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "language": "Go",
+      "stars": 1617,
+      "forks": 282,
+      "todayStars": 423,
+      "url": "https://github.com/Tencent/LoopForge",
+      "aiSummary": {
+        "summary": "LoopForge 是腾讯开源的自托管工作流平台，用于编排 AI 编码助手。它支持通过聊天或 SOP（标准作业程序）管理 CodeBuddy、Codex 等多个代理，提供 Docker 沙箱环境，允许团队在本地基础设施上安全地执行代码生成、审查和合并，实现可重复的软件交付流程。",
+        "summary_en": "Self-hosted workflow orchestrator for coding agents enabling automated software delivery with human approval gates.",
+        "techStack": [
+          "Go",
+          "Docker"
+        ],
+        "useCase": "适用于需要在本地基础设施上安全编排 AI 编码助手，实现可重复软件交付的团队。",
+        "useCase_en": "Orchestrate coding agents like Claude Code and Codex in a self-hosted environment to automate software delivery workflow"
+      }
+    },
+    {
+      "index": 7,
+      "fullName": "ggml-org/ggml",
+      "description": "Tensor library for machine learning",
+      "language": "C++",
+      "stars": 15940,
+      "forks": 2020,
+      "todayStars": 43,
+      "url": "https://github.com/ggml-org/ggml",
+      "aiSummary": {
+        "summary": "这是一个用于机器学习的张量库，旨在提供简单、可移植且高效的计算核心。它支持多种架构和后端，具备SIMD优化及2-8位整数量化能力，且运行时零内存分配，非常适合在资源受限环境下进行模型推理。",
+        "summary_en": "Efficient, portable C++ tensor library for machine learning with SIMD optimization and zero runtime allocations.",
+        "techStack": [
+          "C++",
+          "CMake",
+          "SIMD",
+          "WebAssembly"
+        ],
+        "useCase": "机器学习推理，特别是大语言模型的高效计算",
+        "useCase_en": "Used for efficient matrix operations and inference in machine learning applications."
+      }
+    },
+    {
+      "index": 8,
+      "fullName": "elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "language": "Python",
+      "stars": 6530,
+      "forks": 978,
+      "todayStars": 98,
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "aiSummary": {
+        "summary": "这是一个专为 Claude Code 设计的漏洞挖掘与红队操作技能包，包含83个技能、15个命令及681个漏洞模式。通过四层架构（思考、猎取Web应用、击穿边界、交付）实现自动化漏洞检测、企业平台攻击链构建及报告撰写，支持Burp MCP集成。",
+        "summary_en": "A comprehensive bug hunting and red-team skill bundle for Claude Code with 83 skills, 15 commands, and 681 disclosed patterns.",
+        "techStack": [
+          "Python",
+          "Claude Code",
+          "Burp MCP"
+        ],
+        "useCase": "适用于外部红队测试、漏洞挖掘、企业渗透测试及安全研究。",
+        "useCase_en": "Install this bundle to empower Claude Code with advanced bug hunting techniques, red-team workflows, and enterprise atta"
+      }
+    },
+    {
+      "index": 9,
+      "fullName": "GoogleChrome/modern-web-guidance-src",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "language": "TypeScript",
+      "stars": 7274,
+      "forks": 606,
+      "todayStars": 1219,
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "aiSummary": {
+        "summary": "该项目旨在将现代 Web 平台的最佳实践和浏览器兼容性数据嵌入到 AI 编码代理中。通过 CLI 工具提供专家级指南，帮助模型避免遗留模式，转而采用高性能的原生 API，从而提升代码质量和性能。",
+        "summary_en": "A curated set of web best practices and guidelines for coding agents to ensure modern, performant code.",
+        "techStack": [
+          "TypeScript",
+          "Node.js",
+          "CLI"
+        ],
+        "useCase": "帮助开发者利用 AI 编码助手生成更符合现代 Web 标准的高性能代码。",
+        "useCase_en": "To provide coding agents with expert-curated guidelines on modern web platform APIs and performance."
+      }
+    },
+    {
+      "index": 10,
+      "fullName": "tradermonty/claude-trading-skills",
+      "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "language": "Python",
+      "stars": 5629,
+      "forks": 1177,
+      "todayStars": 706,
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "aiSummary": {
+        "summary": "这是一个面向个人投资者的 Claude Skills 交易工作流工具包，主要使用 Python 开发。它旨在帮助时间受限的投资者构建更好的决策过程，包括市场分析、技术图表、经济日历和选股器等功能。项目强调纪律性波段交易作为长期投资的辅助策略，旨在通过共享工作流和习惯来改进交易决策，而非提供直接的买卖信号或盈利承诺。",
+        "summary_en": "Python toolkit for individual investors using Claude AI to structure trading workflows, analysis, and risk management.",
+        "techStack": [
+          "Python"
+        ],
+        "useCase": "专为时间受限的个人投资者设计，用于构建市场分析、风险管理及交易策略的辅助决策工作流。",
+        "useCase_en": "To help time-constrained investors build a disciplined decision process for swing trading and market analysis."
+      }
+    },
+    {
+      "index": 11,
+      "fullName": "NVIDIA/SkillEvaluator",
+      "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "language": "Python",
+      "stars": 1772,
+      "forks": 234,
+      "todayStars": 122,
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "aiSummary": {
+        "summary": "NVIDIA 开发的多层级 AI 代理技能评估框架。它通过质量门控、语义重叠检测和合成数据生成，评估 AI 代理技能对任务结果的影响。支持 CI/CD 集成，无需 LLM 即可进行静态质量检查，也可结合模型进行评分，适用于 Claude Code、Codex 等技能感知代理的验证。",
+        "summary_en": "Multi-tier framework for evaluating AI agent skills with quality gates and live behavior analysis.",
+        "techStack": [
+          "Python",
+          "CLI",
+          "Git",
+          "uv",
+          "NVIDIA Build API"
+        ],
+        "useCase": "用于自动化验证 AI 代理技能的质量及其对任务执行结果的影响。",
+        "useCase_en": "To evaluate AI agent skills and measure their effect on task results through quality gates and live testing."
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-11-16T02:45:02.199Z",
+    "duration": "426s",
+    "version": "1.0.0"
+  }
+}
