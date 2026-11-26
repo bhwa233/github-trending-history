@@ -8,21 +8,22 @@
     {
       "index": 0,
       "fullName": "elementalsouls/Claude-BugHunter",
-      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python",
-      "stars": 21737,
-      "forks": 2259,
-      "todayStars": 1826,
+      "stars": 23251,
+      "forks": 2380,
+      "todayStars": 1652,
       "url": "https://github.com/elementalsouls/Claude-BugHunter",
       "aiSummary": {
-        "summary": "这是一个专为 Claude Code 设计的漏洞挖掘与红队工作技能包，包含84个技能、15个斜杠命令及681个已披露报告模式。项目通过四层架构（思考、Web应用狩猎、外围攻击、交付）自动触发，覆盖24个核心漏洞类别及企业攻击矩阵，旨在将 Claude Code 转变为资深漏洞挖掘研究员。",
-        "summary_en": "A comprehensive bug hunting and red-team skill bundle for Claude Code featuring 84 skills and enterprise attack matrices.",
+        "summary": "这是一个专为 Claude Code 设计的漏洞挖掘与红队技能包。包含85个技能、16个斜杠命令和681个已披露漏洞模式。它通过四层架构（思考、狩猎Web应用、击穿边界、交付）提供从检测到报告的全流程支持，涵盖企业身份、基础设施攻击及平台CVE链。旨在将 Claude Code 转变为资深红队研究员，支持 M365、Okta 等企业平台攻击。",
+        "summary_en": "A comprehensive skill bundle for Claude Code that automates bug hunting and red-team operations using curated vulnerability patterns and enterprise attack matrices.",
         "techStack": [
           "Python",
-          "Claude Code"
+          "Claude Code",
+          "Burp Suite"
         ],
-        "useCase": "外部红队工作、漏洞挖掘、授权渗透测试",
-        "useCase_en": "Automate bug hunting and red-team operations within Claude Code using curated patterns and enterprise attack matrices."
+        "useCase": "外部红队渗透测试、漏洞挖掘与安全研究",
+        "useCase_en": "Automate vulnerability discovery and reporting in web applications and enterprise infrastructure using AI-driven analysi"
       }
     },
     {
@@ -30,18 +31,18 @@
       "fullName": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 325956,
-      "forks": 28928,
-      "todayStars": 1003,
+      "stars": 326764,
+      "forks": 28991,
+      "todayStars": 903,
       "url": "https://github.com/obra/superpowers",
       "aiSummary": {
-        "summary": "Superpowers 是一个为编码代理构建的代理技能框架与软件开发方法论。它通过一套可组合的技能，引导代理在编码前进行需求分析和设计审查。系统强调 TDD、YAGNI 和 DRY 原则，支持子代理驱动开发，实现代理自主、高效地完成复杂工程任务。",
-        "summary_en": "An agentic skills framework providing a structured software development methodology for coding agents.",
+        "summary": "Superpowers 是一个为 AI 编码代理设计的技能框架和软件开发方法论。它通过一套可组合的技能和初始指令，引导代理从需求分析、设计评审到实施计划制定，最终实现自主的子代理驱动开发。该框架强调 TDD、YAGNI 和 DRY 原则，支持多种主流 AI 编码工具，旨在让代理具备专业工程师的自主工作能力。",
+        "summary_en": "A shell-based framework for orchestrating coding agents with a structured development methodology.",
         "techStack": [
           "Shell"
         ],
-        "useCase": "为 AI 编码代理提供自主软件开发框架，适用于自动化代码生成与工程任务执行。",
-        "useCase_en": "To structure and automate software development workflows for autonomous AI coding agents."
+        "useCase": "为 AI 编码代理提供结构化的软件开发工作流程和技能框架，实现自主化、高质量的代码生成与维护。",
+        "useCase_en": "To orchestrate autonomous coding agents using a structured, TDD-based development methodology."
       }
     },
     {
@@ -49,20 +50,20 @@
       "fullName": "HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
-      "stars": 65013,
-      "forks": 5920,
-      "todayStars": 1074,
+      "stars": 65815,
+      "forks": 5990,
+      "todayStars": 1106,
       "url": "https://github.com/HKUDS/CLI-Anything",
       "aiSummary": {
-        "summary": "CLI-Anything 是一个旨在让所有软件具备代理原生能力的开源项目。它通过 CLI-Hub 注册表，连接 AI 代理与各类桌面及服务器软件，提供统一的命令行接口。用户可以安装社区构建的 CLI 工具，实现 CAD、3D 场景、笔记等软件的自动化操作，支持 Cursor、Claude Code 等多种 AI 代理。",
-        "summary_en": "A Python project bridging AI agents and software via CLIs to make software agent-native.",
+        "summary": "CLI-Anything 是一个旨在让所有软件具备代理原生能力的项目。它通过 CLI-Hub 注册表提供社区构建的命令行工具，使 AI 代理能够通过命令行界面与各类软件（如 CAD、笔记、3D 场景等）进行交互和自动化操作。",
+        "summary_en": "A Python project bridging AI agents and software via a CLI registry.",
         "techStack": [
           "Python",
-          "CLI",
-          "Package Management"
+          "CLI (Command Line Interface)",
+          "Package Registry"
         ],
-        "useCase": "为 AI 代理提供统一的命令行接口，以自动化操作各类桌面和服务器软件。",
-        "useCase_en": "Bridge the gap between AI agents and software by making software agent-native via command-line interfaces."
+        "useCase": "使 AI 代理能够通过命令行自动化操作各类桌面软件和服务。",
+        "useCase_en": "To make any software agent-native by providing a CLI hub for automation."
       }
     },
     {
@@ -70,19 +71,19 @@
       "fullName": "jingyaogong/minimind",
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "language": "Python",
-      "stars": 70431,
-      "forks": 9158,
-      "todayStars": 727,
+      "stars": 71137,
+      "forks": 9237,
+      "todayStars": 826,
       "url": "https://github.com/jingyaogong/minimind",
       "aiSummary": {
-        "summary": "这是一个旨在让个人从零开始训练 64M 参数大模型的开源项目。它使用原生 PyTorch 实现，无需第三方高层抽象，覆盖了从数据清洗、预训练、SFT 到 RLHF 的完整训练链路。项目极轻量，仅需约 3 美元成本和 2 小时即可完成训练，旨在降低 LLM 学习门槛，提供可复现的入门教程。",
-        "summary_en": "A lightweight project to train a 64M LLM from scratch in 2 hours using native PyTorch.",
+        "summary": "这是一个开源的轻量级大语言模型训练项目，旨在让用户以极低成本（约3元）和极短时间（2小时）从零训练出64M参数的MiniMind模型。项目完全使用原生PyTorch实现，不依赖高层抽象库，覆盖了从预训练、SFT、LoRA到RLHF（DPO/RLAIF）及模型蒸馏等全流程代码，适合LLM入门学习与底层原理探索。",
+        "summary_en": "An open-source project to train a 64M LLM from scratch in 2 hours using native PyTorch.",
         "techStack": [
           "Python",
           "PyTorch"
         ],
-        "useCase": "适合个人开发者或学生从底层理解 LLM 架构并进行全流程训练实践。",
-        "useCase_en": "To train a small language model from scratch for educational purposes."
+        "useCase": "适合LLM初学者从零开始理解模型训练全流程，或作为轻量级模型复现的实践教程。",
+        "useCase_en": "Training a lightweight 64M LLM from scratch for educational purposes."
       }
     },
     {
@@ -90,20 +91,20 @@
       "fullName": "cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "stars": 19300,
-      "forks": 2083,
-      "todayStars": 360,
+      "stars": 19586,
+      "forks": 2114,
+      "todayStars": 416,
       "url": "https://github.com/cursor/plugins",
       "aiSummary": {
-        "summary": "本项目是 Cursor 编辑器的官方插件规范与插件集合。包含教学、持续学习、团队协作、代码审查、自动化工具及 SDK 等多种插件。主要功能涵盖 AI 代理管理、CI/CD 流程优化、文档与 PR 可视化，旨在提升开发效率与代码质量。",
-        "summary_en": "Official plugins and specifications to extend the Cursor AI code editor for enhanced development workflows and automation.",
+        "summary": "该项目是 Cursor 编辑器的官方插件库与规范，提供 AI 辅助编程、团队协作、代码审查及持续学习等工具。包含教学、持续学习、团队套件、热核分支审查、插件脚手架、代理兼容性检查、CLI 设计模式、PR/文档可视化画布、SDK 以及任务编排等模块，旨在提升开发效率与代码质量。",
+        "summary_en": "Official plugins and specifications for the Cursor AI code editor ecosystem.",
         "techStack": [
           "TypeScript",
-          "CLI",
-          "API"
+          "Cursor",
+          "Agent"
         ],
-        "useCase": "Cursor 编辑器用户、AI 开发者及团队用于增强编辑器功能、自动化开发流程及管理 AI 代理。",
-        "useCase_en": "Provides official plugins and specifications to extend the Cursor AI code editor for enhanced development workflows and "
+        "useCase": "构建 Cursor 插件、开发 AI 代理工作流及提升团队代码审查效率。",
+        "useCase_en": "To extend Cursor's capabilities with tools for learning, team workflows, code review, and automation."
       }
     },
     {
@@ -111,20 +112,21 @@
       "fullName": "firecrawl/firecrawl",
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "language": "TypeScript",
-      "stars": 209125,
-      "forks": 10926,
-      "todayStars": 991,
+      "stars": 210213,
+      "forks": 10999,
+      "todayStars": 1135,
       "url": "https://github.com/firecrawl/firecrawl",
       "aiSummary": {
-        "summary": "Firecrawl 是一个知识基础设施，旨在增强 AI 代理能力。它提供本地、云端和自托管三种模式，通过单一 API 实现网页抓取、搜索及访问 550+ 数据提供商。支持将网站转为 Markdown，处理 JS 渲染与文档解析，可作为 MCP 服务器无缝集成至 AI 代理中。",
-        "summary_en": "Web scraping and crawling infrastructure for AI agents.",
+        "summary": "Firecrawl 是一个知识基础设施，旨在通过单一 API 让 AI 代理更智能。它提供三种使用方式：本地运行、云端托管和自托管。本地版本支持抓取、爬取和映射网页为 Markdown，支持 JS 渲染和文档解析，可作为 MCP 服务器接入 AI 代理。云端版本提供搜索和 550+ 数据提供商访问。自托管则允许部署完整的服务器架构。",
+        "summary_en": "Knowledge infrastructure tool that scrapes websites and accesses data providers for AI agents.",
         "techStack": [
           "TypeScript",
           "Rust",
-          "Node.js"
+          "Chrome/Chromium",
+          "MCP"
         ],
-        "useCase": "为 AI 代理提供网页抓取、数据提取及知识检索能力。",
-        "useCase_en": "To scrape and crawl websites to generate clean markdown for AI agents."
+        "useCase": "为 AI 代理提供网页抓取、数据提取和知识检索服务。",
+        "useCase_en": "To turn websites into clean markdown and integrate with AI agents for smarter knowledge retrieval."
       }
     },
     {
@@ -132,19 +134,18 @@
       "fullName": "nginx/nginx",
       "description": "The official NGINX Open Source repository.",
       "language": "C",
-      "stars": 33253,
-      "forks": 8397,
-      "todayStars": 158,
+      "stars": 33403,
+      "forks": 8407,
+      "todayStars": 176,
       "url": "https://github.com/nginx/nginx",
       "aiSummary": {
-        "summary": "NGINX 是一款高性能的开源 Web 服务器、负载均衡器、反向代理和内容缓存。它使用 C 语言编写，采用模块化架构，支持静态和动态模块扩展。遵循简化的 BSD 风格许可证，提供企业级支持，广泛应用于高并发网络服务场景。",
-        "summary_en": "NGINX is a high-performance open-source web server, reverse proxy, and load balancer.",
+        "summary": "NGINX 是世界上最流行的开源 Web 服务器、高性能负载均衡器、反向代理和内容缓存。它采用 C 语言编写，支持静态和动态模块化架构，提供跨平台支持，广泛应用于高并发 Web 服务、负载均衡及 API 网关场景。",
+        "summary_en": "NGINX is a high-performance open-source web server and reverse proxy.",
         "techStack": [
-          "C",
-          "C++"
+          "C"
         ],
-        "useCase": "高性能 Web 服务器、负载均衡及反向代理服务",
-        "useCase_en": "Used as a high-performance web server, reverse proxy, and load balancer for web applications."
+        "useCase": "适用于高并发 Web 服务、负载均衡及 API 网关场景。",
+        "useCase_en": "It serves as a high-performance web server and reverse proxy for handling web traffic and load balancing."
       }
     },
     {
@@ -152,22 +153,20 @@
       "fullName": "openvinotoolkit/openvino",
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "language": "C++",
-      "stars": 12500,
-      "forks": 3696,
-      "todayStars": 185,
+      "stars": 12687,
+      "forks": 3716,
+      "todayStars": 191,
       "url": "https://github.com/openvinotoolkit/openvino",
       "aiSummary": {
-        "summary": "OpenVINO 是一个开源的 AI 推理优化和部署工具包。它支持多种深度学习框架（如 PyTorch、TensorFlow、ONNX 等）的模型转换与加速，兼容 CPU、GPU 和 AI 加速器。旨在提升计算机视觉、语音识别、自然语言处理等任务的推理性能，广泛应用于边缘到云端的部署场景。",
-        "summary_en": "Open-source toolkit for optimizing and deploying AI inference across diverse hardware platforms.",
+        "summary": "OpenVINO 是一个开源的 AI 推理优化与部署工具包，支持 PyTorch、TensorFlow 等多种框架模型。它能显著提升计算机视觉、NLP 及生成式 AI 的性能，兼容 CPU、GPU 和 NPU，适用于从边缘设备到云端的广泛平台。",
+        "summary_en": "Open-source toolkit for optimizing and deploying AI inference across edge and cloud.",
         "techStack": [
           "C++",
           "Python",
-          "ONNX",
-          "PyTorch",
-          "TensorFlow"
+          "AI Inference"
         ],
-        "useCase": "加速和部署各类 AI 模型，特别是在边缘计算和云端环境中提升推理性能。",
-        "useCase_en": "Optimize and deploy deep learning models for computer vision, speech recognition, and NLP."
+        "useCase": "在边缘到云端的多种平台上高效部署和优化 AI 模型，支持大语言模型及计算机视觉等任务。",
+        "useCase_en": "To optimize and deploy deep learning models on various hardware platforms."
       }
     },
     {
@@ -175,19 +174,19 @@
       "fullName": "cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "stars": 72246,
-      "forks": 4818,
-      "todayStars": 802,
+      "stars": 73209,
+      "forks": 4871,
+      "todayStars": 1141,
       "url": "https://github.com/cathrynlavery/diagram-design",
       "aiSummary": {
-        "summary": "这是一个专为 Claude Code、Cursor 等 AI 编程助手设计的图表生成代理技能。它支持 52 种图表类型，能生成自包含的 HTML + SVG 文件，支持品牌字体和调色板定制，无需依赖 Mermaid，适合快速绘制架构图、流程图等。",
-        "summary_en": "An AI agent skill that generates 52 types of self-contained HTML and SVG diagrams for coding environments.",
+        "summary": "这是一个专为 AI 编码助手设计的图表生成 Agent 技能。支持 52 种图表类型，生成自包含的 HTML + SVG 文件，支持品牌定制（颜色、字体），无需 Mermaid，适合快速生成架构图、象限图等。",
+        "summary_en": "An agent skill for generating 52 types of self-contained HTML and SVG diagrams for AI coding assistants.",
         "techStack": [
           "HTML",
           "SVG"
         ],
-        "useCase": "适用于 AI 编程助手快速生成品牌化的架构图、流程图等可视化图表。",
-        "useCase_en": "Enables AI coding assistants to generate branded, self-contained diagram files for documentation."
+        "useCase": "为 Claude Code、Cursor 等工具生成符合品牌风格的架构图、象限图和序列图。",
+        "useCase_en": "Enables AI coding assistants to generate custom, branded diagrams in HTML/SVG format."
       }
     },
     {
@@ -195,20 +194,20 @@
       "fullName": "mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "stars": 74420,
-      "forks": 6559,
-      "todayStars": 703,
+      "stars": 75233,
+      "forks": 6633,
+      "todayStars": 945,
       "url": "https://github.com/mvanhorn/last30days-skill",
       "aiSummary": {
-        "summary": "这是一个 AI agent 技能，用于跨 Reddit、X、YouTube、HN、Polymarket 和网络研究任何话题。它通过用户参与度（点赞、投票、金钱）而非编辑来评分结果，提供 Google 等搜索引擎无法获取的独特、综合摘要。支持零配置安装，可聚合各平台真实用户数据。",
-        "summary_en": "AI agent research tool aggregating social media and market data to synthesize grounded summaries.",
+        "summary": "这是一个基于 Python 的 AI agent 技能，能够跨 Reddit、X、YouTube、HN 和 Polymarket 等多个平台进行全网搜索。它通过聚合用户真实互动数据（如点赞、资金）而非编辑内容来评分，并利用 AI 代理综合生成基于事实的摘要，解决了单一 AI 无法访问所有平台的问题。",
+        "summary_en": "Python-based AI agent skill aggregating social media and market data to synthesize grounded summaries.",
         "techStack": [
           "Python",
           "AI Agent",
-          "多平台数据聚合"
+          "Web Scraping/API"
         ],
-        "useCase": "跨平台话题研究，获取基于真实用户参与度的综合摘要",
-        "useCase_en": "Research any topic across social media and markets to synthesize a grounded summary based on real engagement metrics."
+        "useCase": "深度市场调研、趋势追踪与新闻聚合",
+        "useCase_en": "Research any topic across Reddit, X, YouTube, and Polymarket to get a grounded summary based on real user engagement."
       }
     },
     {
@@ -216,41 +215,38 @@
       "fullName": "google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 12736,
-      "forks": 1527,
-      "todayStars": 403,
+      "stars": 13035,
+      "forks": 1543,
+      "todayStars": 355,
       "url": "https://github.com/google-labs-code/stitch-skills",
       "aiSummary": {
-        "summary": "这是一个为 Google Stitch 设计的 Agent Skills 库，基于 TypeScript 开发。它遵循 Agent Skills 开放标准，旨在为编码代理提供设计、构建和实用工具技能。该库兼容 Codex、Claude Code、Cursor 等多种主流编码代理工具，支持通过 CLI 或 UI 进行插件安装，帮助开发者提升 AI 编码效率。",
-        "summary_en": "A library of Agent Skills for the Stitch MCP server compatible with coding agents like Claude Code and Cursor.",
+        "summary": "这是一个为 Google Stitch 设计的 Agent Skills 库，使用 TypeScript 编写。它遵循 Agent Skills 开放标准，旨在与多种编码代理（如 Codex、Claude Code、Cursor 等）兼容。项目包含设计、构建和实用工具等插件，支持通过 CLI 或 UI 快速安装，帮助开发者提升 AI 编码效率。",
+        "summary_en": "A library of Agent Skills for Google Stitch compatible with coding agents like Claude Code and Cursor.",
         "techStack": [
           "TypeScript",
-          "Agent Skills Open Standard"
+          "Agent Skills Standard"
         ],
-        "useCase": "为 Claude Code、Cursor 等编码代理提供设计、构建和实用工具技能，提升 AI 辅助编程效率。",
-        "useCase_en": "To equip coding agents with design, build, and utility skills via the Stitch MCP server."
+        "useCase": "为 AI 编码助手（如 Claude Code、Cursor）提供设计、构建及工具类技能，提升开发效率。",
+        "useCase_en": "To provide a collection of skills for coding agents to interact with the Stitch MCP server."
       }
     },
     {
       "index": 11,
       "fullName": "mjmirza/app-store-compliance",
-      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "language": "Shell",
-      "stars": 5976,
-      "forks": 387,
-      "todayStars": 928,
+      "stars": 6589,
+      "forks": 429,
+      "todayStars": 858,
       "url": "https://github.com/mjmirza/app-store-compliance",
       "aiSummary": {
-        "summary": "这是一个用于避免 App Store 和 Google Play 拒绝的自动化工具。它包含 124 种已记录的拒绝模式及修复方案，提供隐私清单和数据安全检查，并跟踪 112 个相关截止日期。开发者可以通过简单的命令行脚本扫描应用，快速识别关键拒绝风险，确保应用合规提交。",
-        "summary_en": "A pre-submission guard script for iOS and Android apps to prevent common App Store and Google Play rejections.",
+        "summary": "这是一个帮助开发者避免 iOS 和 Android 应用被 App Store 和 Google Play 拒绝的开源指南与自动化工具。它包含 124 种常见拒绝模式的修复方案、隐私清单检查及法规截止日期追踪。开发者可通过简单的 Shell 命令扫描项目，提前发现关键问题，提高审核通过率。",
+        "summary_en": "A shell-based pre-submission guard for iOS and Android apps to scan for common App Store and Google Play rejection patterns.",
         "techStack": [
-          "Shell",
-          "Xcode",
-          "Android",
-          "AI Coding Tools"
+          "Shell"
         ],
-        "useCase": "适用于 iOS 和 Android 开发者在应用提交前进行合规性检查和风险扫描。",
-        "useCase_en": "Developers scan their iOS or Android apps using a shell script to identify potential rejection risks before submission."
+        "useCase": "开发者在提交 iOS 和 Android 应用前，用于检测潜在拒绝风险及合规问题的自动化工具。",
+        "useCase_en": "Developers use this tool to scan their iOS and Android apps before submission to identify and fix common rejection patte"
       }
     },
     {
@@ -258,20 +254,20 @@
       "fullName": "Tracer-Cloud/opensre",
       "description": "The open-source agent for CI/CD reliability.",
       "language": "Python",
-      "stars": 15258,
-      "forks": 2017,
-      "todayStars": 398,
+      "stars": 15580,
+      "forks": 2033,
+      "todayStars": 348,
       "url": "https://github.com/Tracer-Cloud/opensre",
       "aiSummary": {
-        "summary": "OpenSRE 是一个开源的 CI/CD 可靠性代理，旨在解决 CI 失败时“不知道为什么”和“不知道怎么修”的问题。它通过读取失败日志、追踪原因并生成修复建议，帮助团队快速恢复构建。项目支持自托管模型，目前处于公共 Alpha 阶段。",
-        "summary_en": "An open-source CLI agent that traces CI/CD failures and suggests fixes using self-hosted AI models.",
+        "summary": "OpenSRE 是一个开源的 CI/CD 可靠性代理，使用 Python 编写。它是一个 CLI 工具，能在 CI 构建失败时自动读取日志、追踪根本原因并生成修复建议。项目支持自托管，允许用户使用自己的模型，旨在解决 CI 红灯问题，帮助团队快速恢复构建，区分 CI 故障与代码故障。",
+        "summary_en": "An open-source CLI agent that investigates CI/CD failures and suggests fixes using self-hosted AI models.",
         "techStack": [
           "Python",
           "CLI",
-          "AI/LLM"
+          "Git"
         ],
-        "useCase": "当 CI/CD 构建失败，需要快速定位问题根因并自动生成修复方案时。",
-        "useCase_en": "To automatically investigate CI/CD build failures and suggest fixes to recover red builds faster."
+        "useCase": "当 CI/CD 构建失败时，需要自动分析日志并生成修复建议的场景。",
+        "useCase_en": "To automatically investigate CI/CD build failures and propose fixes for review."
       }
     },
     {
@@ -279,19 +275,19 @@
       "fullName": "toeverything/AFFiNE",
       "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
       "language": "TypeScript",
-      "stars": 78089,
-      "forks": 5704,
-      "todayStars": 584,
+      "stars": 78588,
+      "forks": 5726,
+      "todayStars": 574,
       "url": "https://github.com/toeverything/AFFiNE",
       "aiSummary": {
-        "summary": "AFFiNE 是一款开源、本地优先且隐私友好的 Notion 和 Miro 替代品。它将文档、画布和表格融合为统一平台，支持边缘画布、多种块类型及多模态 AI 集成。具备实时协作与自托管能力，适合创意头脑风暴、知识管理与演示制作。",
-        "summary_en": "An open-source, local-first all-in-one workspace merging docs, canvas, and tables like Notion and Miro.",
+        "summary": "AFFiNE 是一个开源的本地优先知识库，集成了文档、画布和表格。它支持无边框画布上的多模态 AI 功能和实时协作，是 Notion 和 Miro 的强大替代品。",
+        "summary_en": "Open-source, local-first workspace merging docs, whiteboards, and tables with AI capabilities.",
         "techStack": [
           "TypeScript",
           "Blocksuite"
         ],
-        "useCase": "知识管理与创意协作平台",
-        "useCase_en": "A privacy-first platform for planning, sorting, and creating content like wikis, presentations, and whiteboards."
+        "useCase": "适用于需要隐私优先、本地存储且集成了 AI 辅助功能的创意团队和知识工作者。",
+        "useCase_en": "A privacy-first, all-in-one workspace for planning, knowledge management, and creative collaboration."
       }
     },
     {
@@ -299,20 +295,20 @@
       "fullName": "XiaoYouChR/Ghost-Downloader-3",
       "description": "The only downloader you need. 下载器的集大成者。",
       "language": "Python",
-      "stars": 17561,
-      "forks": 1058,
-      "todayStars": 1092,
+      "stars": 18413,
+      "forks": 1103,
+      "todayStars": 951,
       "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
       "aiSummary": {
-        "summary": "Ghost-Downloader-3 是一款跨平台（Windows/macOS/Linux/Android）的多合一下载工具，集成了 HTTP、BT、FTP、流媒体等多种协议。它支持 YouTube、Bilibili 等主流网站，具备浏览器扩展集成、智能分块下载及 aria2 RPC API 等功能，旨在提供无缝的下载体验。",
-        "summary_en": "A universal all-in-one downloader supporting HTTP, Magnet, BT, and streaming sites like YouTube and Bilibili across multiple platforms.",
+        "summary": "这是一个跨平台的多合一下载器，支持HTTP、BT、FTP、M3U8等多种协议。它集成了浏览器插件，能无缝接管网页下载，支持YouTube和Bilibili等主流视频网站。具备智能分块、TLS指纹伪装和aria2兼容性，拥有插件生态，在Windows、macOS、Linux和Android上提供原生体验。",
+        "summary_en": "A cross-platform universal downloader supporting HTTP, Magnet/BT, and streaming protocols like M3U8 and DASH.",
         "techStack": [
           "Python",
           "aria2",
-          "GUI"
+          "Browser Extension"
         ],
-        "useCase": "适用于需要一站式下载视频、磁力链接及大文件，并支持多平台使用的用户。",
-        "useCase_en": "Download videos and files from various protocols and websites seamlessly across Windows, macOS, Linux, and Android."
+        "useCase": "适用于需要一站式下载各类网络资源（视频、磁力、文件）的用户，特别是需要跨平台和浏览器无缝集成的场景。",
+        "useCase_en": "Download any media file or stream from the web across Windows, macOS, Linux, and Android."
       }
     },
     {
@@ -320,27 +316,27 @@
       "fullName": "zhouxiaoka/autoclip",
       "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "language": "Python",
-      "stars": 15568,
-      "forks": 2285,
-      "todayStars": 980,
+      "stars": 16336,
+      "forks": 2341,
+      "todayStars": 880,
       "url": "https://github.com/zhouxiaoka/autoclip",
       "aiSummary": {
-        "summary": "AutoClip 是一款开源的本地优先 AI 视频剪辑桌面工具，支持将播客、访谈等长视频自动剪辑成适合抖音、TikTok 等平台的短视频。它具备智能重排、字幕生成、封面制作及文案撰写功能，支持 OBS 直播回放捕获，完全离线运行，无订阅费用。",
-        "summary_en": "Open-source AI video clipping tool that automatically cuts long videos into shorts with captions and covers.",
+        "summary": "AutoClip 是一款开源的本地优先 AI 视频剪辑桌面工具。它支持将播客、访谈、直播回放等长视频自动剪辑成短视频，内置智能重排、字幕生成、封面制作及文案生成功能。支持 OBS 直播捕获和多平台一键发布，完全在本地运行，无需订阅费用。",
+        "summary_en": "Open-source AI desktop tool for automatically clipping long videos into shorts with captions and covers for social media.",
         "techStack": [
           "Python",
-          "Whisper",
           "OBS WebSocket",
+          "Whisper",
           "Ollama/LM Studio"
         ],
-        "useCase": "将播客、访谈、游戏直播等长视频一键转换为适合社交媒体发布的短视频。",
-        "useCase_en": "To automatically repurpose long-form videos like podcasts and interviews into short clips for social media platforms."
+        "useCase": "适合播客、访谈、游戏直播等内容创作者进行视频二次创作和短视频分发。",
+        "useCase_en": "Automatically repurpose long-form content like podcasts and interviews into short, captioned clips for social media plat"
       }
     }
   ],
   "metadata": {
-    "createdAt": "2026-11-25T05:28:00.574Z",
-    "duration": "640s",
+    "createdAt": "2026-11-26T04:59:51.577Z",
+    "duration": "749s",
     "version": "1.0.0"
   }
 }
